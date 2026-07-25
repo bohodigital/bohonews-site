@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+.env
+.env.*
+!.env.example
+coverage/
+*.log
+
+# Runtime, private, and generated working material
+runtime/
+data/
+secrets/
+investigations/
+private/
+tmp/

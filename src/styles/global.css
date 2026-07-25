@@ -1,0 +1,95 @@
+:root {
+  color-scheme: light;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f7f5ef;
+  color: #171717;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  background: #171717;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  z-index: 10;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+.site-header {
+  border-bottom: 1px solid #bbb7aa;
+  padding: 1rem clamp(1rem, 4vw, 4rem);
+}
+
+.brand {
+  display: inline-block;
+  font-size: clamp(1.75rem, 5vw, 3rem);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+nav a {
+  font-family: system-ui, sans-serif;
+  font-weight: 650;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 72rem;
+  padding: clamp(2rem, 8vw, 7rem) clamp(1rem, 5vw, 5rem);
+}
+
+.placeholder,
+article {
+  max-width: 46rem;
+}
+
+.eyebrow {
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: clamp(2.75rem, 10vw, 7rem);
+  line-height: 0.95;
+  margin: 0.25em 0;
+}
+
+p {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.65;
+}
+
+@media (max-width: 42rem) {
+  nav ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

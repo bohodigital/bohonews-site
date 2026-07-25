@@ -1,0 +1,21 @@
+---
+const links = [
+  ["News", "/news/"],
+  ["Politics", "/politics/"],
+  ["Congress", "/congress/"],
+  ["White House", "/white-house/"],
+  ["Courts", "/courts/"],
+  ["Elections", "/elections/"],
+  ["Investigations", "/investigations/"],
+  ["About", "/about/"]
+];
+---
+
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Boho News home">Boho News</a>
+  <nav aria-label="Primary navigation">
+    <ul>
+      {links.map(([label, href]) => <li><a href={href}>{label}</a></li>)}
+    </ul>
+  </nav>
+</header>

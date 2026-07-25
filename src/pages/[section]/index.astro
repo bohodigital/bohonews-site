@@ -1,0 +1,35 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export const getStaticPaths = (() => {
+  const sections = [
+    ["news", "News"],
+    ["politics", "Politics"],
+    ["congress", "Congress"],
+    ["white-house", "White House"],
+    ["courts", "Courts"],
+    ["elections", "Elections"],
+    ["investigations", "Investigations"],
+    ["about", "About"]
+  ] as const;
+
+  return sections.map(([section, label]) => ({
+    params: { section },
+    props: { label }
+  }));
+}) satisfies GetStaticPaths;
+
+const { label } = Astro.props;
+---
+
+<BaseLayout
+  title={`${label} — Boho News development shell`}
+  description={`Development placeholder for the future Boho News ${label} section.`}
+>
+  <section class="placeholder">
+    <p class="eyebrow">Development placeholder</p>
+    <h1>{label}</h1>
+    <p>No public content has been approved for this section.</p>
+  </section>
+</BaseLayout>
