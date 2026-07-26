@@ -1,0 +1,30 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import StoryCard from "../../../components/StoryCard.astro";
+import { articles, fixturesEnabled } from "../../../lib/news";
+
+export const getStaticPaths = (() => {
+  const slugify = (value:string) => value.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+  const dimensions = [
+    ["topics",(article:any) => article.topics],
+    ["entities",(article:any) => article.entities],
+    ["locations",(article:any) => article.locations],
+    ["authors",(article:any) => article.authors]
+  ] as const;
+  return dimensions.flatMap(([kind,select]) => {
+    const values = new Map<string,string>();
+    for (const article of articles) for (const value of select(article)) values.set(slugify(value),value);
+    return [...values].map(([slug,label]) => ({
+      params:{kind,slug},
+      props:{kind,label,list:articles.filter((article) => select(article).includes(label))}
+    }));
+  });
+}) satisfies GetStaticPaths;
+const { kind, label, list } = Astro.props;
+---
+<BaseLayout title={`${label} — Boho News`} description={`Approved Boho News articles indexed by ${kind}.`} noindex={fixturesEnabled}>
+  {fixturesEnabled && <aside class="fixture-banner">Non-production fixture preview</aside>}
+  <header class="index-header"><p class="eyebrow">{kind}</p><h1>{label}</h1></header>
+  <section class="story-grid">{list.map((article:any) => <StoryCard article={article} />)}</section>
+</BaseLayout>

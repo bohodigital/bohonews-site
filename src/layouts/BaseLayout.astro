@@ -12,9 +12,14 @@ interface Props {
 }
 
 const { title, description, canonical = new URL(Astro.url.pathname, Astro.site), noindex = false, image, articleType = "website" } = Astro.props;
-const organization = {
-  "@context":"https://schema.org","@type":"Organization",
-  name:"Boho News",url:"https://bohonews.com"
+const siteGraph = {
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"Organization","@id":"https://bohonews.com/#organization",name:"Boho News",url:"https://bohonews.com"},
+    {"@type":"WebSite","@id":"https://bohonews.com/#website",url:"https://bohonews.com",name:"Boho News",
+      publisher:{"@id":"https://bohonews.com/#organization"},
+      potentialAction:{"@type":"SearchAction",target:{"@type":"EntryPoint",urlTemplate:"https://bohonews.com/search/?q={search_term_string}"},"query-input":"required name=search_term_string"}}
+  ]
 };
 ---
 
@@ -34,7 +39,7 @@ const organization = {
     <meta property="og:url" content={canonical} />
     {image && <meta property="og:image" content={image} />}
     <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
-    <script is:inline type="application/ld+json" set:html={JSON.stringify(organization)} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(siteGraph)} />
     <title>{title}</title>
   </head>
   <body>

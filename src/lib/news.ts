@@ -22,6 +22,7 @@ export type PublicArticle = {
 };
 
 const promoted = release.articles as PublicArticle[];
+export const promotionGeneratedAt = release.generatedAt;
 export const fixturesEnabled = import.meta.env.BOHONEWS_INCLUDE_FIXTURES === "1";
 export const benchmarkEnabled = import.meta.env.BOHONEWS_BENCHMARK_1000 === "1";
 function benchmarkArticles(): PublicArticle[] {
@@ -44,6 +45,15 @@ export const sections = [
 ] as const;
 
 export function articlePath(article: PublicArticle) { return `/articles/${article.slug}/`; }
+export function discoveryPaths(source = articles) {
+  const slugify = (value:string) => value.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+  return [
+    ["topics",(article:PublicArticle) => article.topics],
+    ["entities",(article:PublicArticle) => article.entities],
+    ["locations",(article:PublicArticle) => article.locations],
+    ["authors",(article:PublicArticle) => article.authors]
+  ].flatMap(([kind,select]) => [...new Set(source.flatMap((article) => (select as (article:PublicArticle)=>string[])(article)))].map((value) => `/${kind}/${slugify(value)}/`));
+}
 export function sectionArticles(section: string) {
   const source = section === "latest-news" ? articles : articles.filter((article) => article.section === section);
   return [...source].sort((a,b) => b.updatedAt.localeCompare(a.updatedAt));

@@ -31,7 +31,7 @@ test("bulk benchmark is isolated behind an explicit non-production build flag", 
 
 test("discovery and metadata routes exist", async () => {
   const pages = await readdir(new URL("../src/pages/", import.meta.url), {recursive:true});
-  for (const required of ["rss.xml.ts","sitemap.xml.ts","news-sitemap.xml.ts","robots.txt.ts","search.astro","404.astro"]) assert.ok(pages.includes(required),required);
+  for (const required of ["rss.xml.ts","sitemap.xml.ts","news-sitemap.xml.ts","robots.txt.ts","search.astro","404.astro","[kind]/[slug]/index.astro"]) assert.ok(pages.includes(required),required);
 });
 
 test("security headers prevent framing and restrict capabilities", async () => {
