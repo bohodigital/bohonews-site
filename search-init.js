@@ -1,0 +1,8 @@
+document.querySelector("#search")?.replaceChildren();
+new PagefindUI({ element: "#search", showSubResults: true, showImages: false, bundlePath: "/bohonews-site/pagefind/" });
+const query = new URLSearchParams(location.search).get("q");
+const input = document.querySelector(".pagefind-ui__search-input");
+if (query && input instanceof HTMLInputElement) {
+  input.value = query;
+  input.dispatchEvent(new Event("input", { bubbles: true }));
+}
