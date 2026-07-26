@@ -92,6 +92,24 @@ test("Umami is host-restricted, privacy-restrained, and suppressible for QA", as
   assert.doesNotMatch(layout,/googletagmanager|gtag\(/);
 });
 
+test("global market ticker uses the official account-free TradingView web component", async () => {
+  const [layout,header,ticker,policy] = await Promise.all([
+    readFile(new URL("../src/layouts/BaseLayout.astro", import.meta.url),"utf8"),
+    readFile(new URL("../src/components/SiteHeader.astro", import.meta.url),"utf8"),
+    readFile(new URL("../src/components/MarketTicker.astro", import.meta.url),"utf8"),
+    readFile(new URL("../src/pages/[policy].astro", import.meta.url),"utf8")
+  ]);
+  assert.match(layout,/https:\/\/widgets\.tradingview-widget\.com\/w\/en\/tv-ticker-tape\.js/);
+  assert.equal(layout.match(/tv-ticker-tape\.js/g)?.length,1);
+  assert.match(header,/<MarketTicker \/>/);
+  assert.match(ticker,/<tv-ticker-tape/);
+  assert.match(ticker,/Data by TradingView/);
+  assert.match(ticker,/FOREXCOM:SPXUSD/);
+  assert.doesNotMatch(ticker,/account|apiKey|token|clientId/i);
+  assert.match(policy,/widgets do not set cookies/);
+  assert.match(policy,/displayed symbols and connection IP address/);
+});
+
 test("news sitemap is recent-window and fixture gated", async () => {
   const page = await readFile(new URL("../src/pages/news-sitemap.xml.ts", import.meta.url),"utf8");
   assert.match(page,/news:publication_date/);

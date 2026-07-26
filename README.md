@@ -8,6 +8,7 @@ It is the public delivery surface for publishable article packages, citations, r
 
 - Static-first Astro
 - Minimal client JavaScript
+- Free branded TradingView market ticker with no account dependency
 - Cloudflare Pages-compatible static output
 - Governed article, source, media-rights, and approval records
 - site-wide and section RSS, ordinary and news sitemaps, local search, and

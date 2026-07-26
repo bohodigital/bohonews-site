@@ -4,7 +4,7 @@
   X-Frame-Options: DENY
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   Cross-Origin-Opener-Policy: same-origin
-  Content-Security-Policy: default-src 'self'; img-src 'self' data: https:; style-src 'self'; script-src 'self' https://analytics.bohodigitalservices.com; connect-src 'self' https://analytics.bohodigitalservices.com; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: https:; style-src 'self'; script-src 'self' https://analytics.bohodigitalservices.com https://widgets.tradingview-widget.com; connect-src 'self' https://analytics.bohodigitalservices.com https://snowplow-pixel.tradingview.com; frame-src https://widgets.tradingview-widget.com; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
 
 /pagefind/*
   Cache-Control: public, max-age=3600

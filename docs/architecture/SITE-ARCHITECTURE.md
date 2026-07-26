@@ -25,3 +25,11 @@ Pagefind 1.5.2 is pinned. Supported release builders run it after Astro. Bohopi'
 16 KiB ARM64 kernel cannot execute the current native binary, so that builder
 emits a deterministic local fallback index that preserves working local search.
 No client framework is hydrated.
+
+The global header includes TradingView's free branded Ticker Tape web
+component. The component loads as an ES module from the provider's current
+widget CDN, uses broad market indicators rather than an account watchlist,
+inherits the site's light/dark color scheme, respects reduced-motion
+preferences, and retains visible TradingView attribution. The CSP permits only
+the widget module/datafeed host and TradingView's documented widget telemetry
+endpoint. TradingView's provider disclosure is summarized on `/privacy/`.

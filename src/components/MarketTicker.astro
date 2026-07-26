@@ -1,0 +1,24 @@
+---
+const symbols = [
+  "FOREXCOM:SPXUSD",
+  "FOREXCOM:NSXUSD",
+  "FOREXCOM:DJI",
+  "FX:EURUSD",
+  "BITSTAMP:BTCUSD",
+  "CMCMARKETS:GOLD"
+].join(",");
+---
+
+<section class="market-ticker" aria-label="Market snapshot">
+  <div class="market-ticker__identity">
+    <span>Markets</span>
+    <a href="https://www.tradingview.com/markets/" target="_blank" rel="noopener nofollow">Data by TradingView</a>
+  </div>
+  <div class="market-ticker__widget">
+    <tv-ticker-tape symbols={symbols} direction="horizontal" item-size="compact" transparent>
+      <div class="market-ticker__placeholder">
+        Loading market data… Quotes may be delayed.
+      </div>
+    </tv-ticker-tape>
+  </div>
+</section>

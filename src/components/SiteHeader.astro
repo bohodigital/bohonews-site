@@ -1,5 +1,6 @@
 ---
 import ThemeControl from "./ThemeControl.astro";
+import MarketTicker from "./MarketTicker.astro";
 
 const primary = [
   ["Latest", "/latest/"],["U.S.", "/us/"],["World", "/world/"],["Politics", "/politics/"],
@@ -14,6 +15,7 @@ const more = [
 ---
 
 <header class="site-header">
+  <MarketTicker />
   <div class="utility-row">
     <time id="edition-date">Latest edition</time>
     <nav aria-label="Utility navigation">

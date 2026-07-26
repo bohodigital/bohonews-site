@@ -6,9 +6,15 @@ export const getStaticPaths = (() => [
   ["contact","Contact"],["privacy","Privacy"],["terms","Terms"],["support","Support"]
 ].map(([policy,label]) => ({params:{policy},props:{label}}))) satisfies GetStaticPaths;
 const { label } = Astro.props;
+const policy = Astro.params.policy;
 ---
 <BaseLayout title={`${label} — Boho News`} description={`${label} information for Boho News.`} noindex>
   <section class="policy-placeholder"><p class="eyebrow">Editorial placeholder</p><h1>{label}</h1>
     <p>Final public copy for this page is not included in Handoff 1 and requires separate editorial approval.</p>
+    {policy === "privacy" && <aside class="provider-disclosure" aria-labelledby="market-provider-title">
+      <h2 id="market-provider-title">Market-data provider</h2>
+      <p>Boho News loads a third-party market ticker from TradingView. TradingView says its widgets do not set cookies and receive the embedding page URL, widget type, displayed symbols and connection IP address to operate and protect the service. Selecting a market item opens TradingView. Quotes may be delayed and are provided for general information.</p>
+      <p><a href="https://www.tradingview.com/widget-docs/faq/general/#do-tradingview-widgets-set-cookies" target="_blank" rel="noopener nofollow">Read TradingView’s widget data disclosure</a></p>
+    </aside>}
   </section>
 </BaseLayout>

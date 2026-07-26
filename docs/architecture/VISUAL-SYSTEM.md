@@ -18,6 +18,8 @@ as a static-first Astro component system.
 - external, blocking theme initialization compatible with the site CSP;
 - responsive, reduced-motion, high-zoom-friendly, and print presentations;
 - a bespoke 1200×630 social-preview image.
+- a compact, full-width TradingView market ticker above the masthead with
+  branded attribution and responsive light/dark styling.
 
 Production remains compiler-driven. Batch 1 populates the homepage, section and
 desk indexes, story cards, evidence tables, official-document views and article
