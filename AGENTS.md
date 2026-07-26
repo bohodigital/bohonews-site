@@ -23,3 +23,10 @@ ChatGPT is editor-in-chief for substantive public prose. Do not invent articles,
 - Minimize client JavaScript.
 - Run `npm ci`, `npm run check`, `npm test`, and `npm run build` before claiming completion.
 - Stop before preview or production deployment without explicit owner approval.
+- Read `docs/publishing/ARTICLE-PACKAGE-CONTRACT.md` and
+  `docs/architecture/SITE-ARCHITECTURE.md` before changing publishing routes.
+- Never hand-edit promoted article fields to bypass the private compiler.
+- Keep `BOHONEWS_INCLUDE_FIXTURES` confined to non-production testing; fixture
+  builds are noindex and must never be deployed or promoted.
+- Run both the production build and fixture build when article presentation,
+  search, corrections, or discovery behavior changes.
