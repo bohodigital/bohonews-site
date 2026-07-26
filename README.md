@@ -17,10 +17,12 @@ It is the public delivery surface for publishable article packages, citations, r
 - System, light, and dark visual themes with local preference persistence
 - Subject, format, and contextual subdesk routes from the approved visual
   storyboard
+- Privacy-restrained self-hosted Umami analytics limited to the Boho News apex
+  and `www` hosts, with Do Not Track and query-string exclusion enabled
 
-The Handoff 1 infrastructure is implemented, but no real article has been
-promoted and the repository is not authorized for production deployment or
-public launch.
+The Handoff 1 infrastructure and public newsroom shell are implemented. No real
+article has been promoted; production therefore remains an intentionally empty
+compiler-driven shell until an approved promotion package is released.
 
 ## Local development
 

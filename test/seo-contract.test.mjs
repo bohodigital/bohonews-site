@@ -60,6 +60,21 @@ test("built search loads Pagefind's classic UI before its initializer", async ()
   assert.match(initializer,/new PagefindUI/);
 });
 
+test("Umami is host-restricted, privacy-restrained, and suppressible for QA", async () => {
+  const [layout,bootstrap] = await Promise.all([
+    readFile(new URL("../src/layouts/BaseLayout.astro", import.meta.url),"utf8"),
+    readFile(new URL("../public/analytics-bootstrap.js", import.meta.url),"utf8")
+  ]);
+  assert.match(layout,/data-umami-website-id="da60f9a9-f65b-4849-a55d-f9b4365f509d"/);
+  assert.match(layout,/data-umami-domains="bohonews\.com,www\.bohonews\.com"/);
+  assert.match(bootstrap,/navigator\.webdriver/);
+  assert.match(bootstrap,/boho_qa/);
+  assert.match(bootstrap,/data-do-not-track/);
+  assert.match(bootstrap,/data-exclude-search/);
+  assert.match(bootstrap,/allowedHosts\.includes/);
+  assert.doesNotMatch(layout,/googletagmanager|gtag\(/);
+});
+
 test("news sitemap is recent-window and fixture gated", async () => {
   const page = await readFile(new URL("../src/pages/news-sitemap.xml.ts", import.meta.url),"utf8");
   assert.match(page,/news:publication_date/);
