@@ -11,13 +11,15 @@
     "dev": "astro dev",
     "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
     "test": "node --test test/*.test.mjs",
-    "build": "npm run content:validate && ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "build": "npm run content:validate && ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/publishing/build-search.mjs",
+    "build:fixtures": "BOHONEWS_INCLUDE_FIXTURES=1 npm run build",
     "preview": "astro preview",
     "content:validate": "node scripts/publishing/validate-content.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.9",
     "astro": "6.4.6",
+    "pagefind": "1.5.2",
     "typescript": "^5.9.3"
   }
 }

@@ -1,17 +1,37 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import StoryCard from "../components/StoryCard.astro";
+import { fixturesEnabled, sectionArticles } from "../lib/news";
+const latest = sectionArticles("latest-news");
 ---
 
 <BaseLayout
-  title="Boho News — Development shell"
-  description="A non-production development shell for the future Boho News publication."
+  title="Boho News — Newsroom infrastructure"
+  description="The static-first Boho News publishing and newsroom interface."
+  noindex={fixturesEnabled}
 >
-  <section class="placeholder" aria-labelledby="page-title">
-    <p class="eyebrow">Development shell</p>
-    <h1 id="page-title">Boho News</h1>
-    <p>
-      This initialized site contains no published journalism. Reporting, public
-      policies, and newsroom copy require separate editorial approval before release.
-    </p>
+  {fixturesEnabled && <aside class="fixture-banner" role="status">Non-production fixture preview — synthetic records are excluded from public promotion.</aside>}
+  <section class="home-lead" aria-labelledby="page-title">
+    <div>
+      <p class="eyebrow">Static-first newsroom</p>
+      <h1 id="page-title">Independent publishing infrastructure, ready for governed reporting.</h1>
+    </div>
+    <p class="intro">This handoff establishes the publication shell and safety controls. It includes no substantive journalism.</p>
+  </section>
+  {latest.length > 0 ? (
+    <section class="story-grid" aria-label="Fixture stories">
+      {latest.map((article, index) => <StoryCard article={article} prominent={index === 0} />)}
+    </section>
+  ) : (
+    <section class="empty-state" aria-labelledby="latest-heading">
+      <p class="eyebrow">Latest</p><h2 id="latest-heading">No public articles have been promoted.</h2>
+      <p>Approved packages will populate this stream automatically.</p>
+    </section>
+  )}
+  <section class="module-grid" aria-label="Future homepage modules">
+    <article><p class="eyebrow">Developing</p><h2>Metadata-driven story state</h2><p>Reserved for approved developing coverage.</p></article>
+    <article><p class="eyebrow">Investigations</p><h2>Governed long-form lane</h2><p>Reserved for approved investigations.</p></article>
+    <article><p class="eyebrow">Explainers</p><h2>Context and reference lane</h2><p>Reserved for approved explainers.</p></article>
+    <article><p class="eyebrow">Most read</p><h2>Future data-fed module</h2><p>Disabled until an approved public data source exists.</p></article>
   </section>
 </BaseLayout>

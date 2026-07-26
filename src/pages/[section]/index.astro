@@ -1,19 +1,15 @@
 ---
 import type { GetStaticPaths } from "astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import StoryCard from "../../components/StoryCard.astro";
+import { fixturesEnabled, sectionArticles } from "../../lib/news";
 
 export const getStaticPaths = (() => {
   const sections = [
-    ["news", "News"],
-    ["politics", "Politics"],
-    ["congress", "Congress"],
-    ["white-house", "White House"],
-    ["courts", "Courts"],
-    ["elections", "Elections"],
-    ["investigations", "Investigations"],
-    ["about", "About"]
+    ["latest-news","Latest News"],["politics","Politics"],["white-house","White House"],
+    ["congress","Congress"],["courts","Courts"],["elections","Elections"],
+    ["investigations","Investigations"],["explainers","Explainers"],["opinion","Opinion"]
   ] as const;
-
   return sections.map(([section, label]) => ({
     params: { section },
     props: { label }
@@ -21,15 +17,16 @@ export const getStaticPaths = (() => {
 }) satisfies GetStaticPaths;
 
 const { label } = Astro.props;
+const list = sectionArticles(Astro.params.section!);
 ---
 
 <BaseLayout
-  title={`${label} — Boho News development shell`}
-  description={`Development placeholder for the future Boho News ${label} section.`}
+  title={`${label} — Boho News`}
+  description={`${label} articles published by Boho News.`}
+  noindex={fixturesEnabled}
 >
-  <section class="placeholder">
-    <p class="eyebrow">Development placeholder</p>
-    <h1>{label}</h1>
-    <p>No public content has been approved for this section.</p>
-  </section>
+  {fixturesEnabled && <aside class="fixture-banner">Non-production fixture preview</aside>}
+  <header class="index-header"><p class="eyebrow">Section</p><h1>{label}</h1></header>
+  {list.length ? <section class="story-grid">{list.map((article) => <StoryCard article={article} />)}</section> :
+    <section class="empty-state"><h2>No public articles have been promoted.</h2><p>This index is generated from approved metadata.</p></section>}
 </BaseLayout>

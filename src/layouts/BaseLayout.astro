@@ -5,9 +5,17 @@ import "../styles/global.css";
 interface Props {
   title: string;
   description: string;
+  canonical?: string;
+  noindex?: boolean;
+  image?: string;
+  articleType?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, canonical = new URL(Astro.url.pathname, Astro.site), noindex = false, image, articleType = "website" } = Astro.props;
+const organization = {
+  "@context":"https://schema.org","@type":"Organization",
+  name:"Boho News",url:"https://bohonews.com"
+};
 ---
 
 <!doctype html>
@@ -17,6 +25,16 @@ const { title, description } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex,nofollow" />}
+    <meta property="og:type" content={articleType} />
+    <meta property="og:site_name" content="Boho News" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {image && <meta property="og:image" content={image} />}
+    <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(organization)} />
     <title>{title}</title>
   </head>
   <body>
@@ -25,5 +43,13 @@ const { title, description } = Astro.props;
     <main id="main">
       <slot />
     </main>
+    <footer class="site-footer">
+      <p>Boho News publishing infrastructure. No public journalism is included in this handoff.</p>
+      <nav aria-label="Policy navigation">
+        <a href="/about/">About</a><a href="/corrections/">Corrections</a>
+        <a href="/editorial-standards/">Editorial Standards</a><a href="/contact/">Contact</a>
+        <a href="/privacy/">Privacy</a><a href="/terms/">Terms</a>
+      </nav>
+    </footer>
   </body>
 </html>

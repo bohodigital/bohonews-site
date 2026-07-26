@@ -1,21 +1,26 @@
 ---
 const links = [
-  ["News", "/news/"],
+  ["Latest", "/latest-news/"],
   ["Politics", "/politics/"],
-  ["Congress", "/congress/"],
   ["White House", "/white-house/"],
+  ["Congress", "/congress/"],
   ["Courts", "/courts/"],
   ["Elections", "/elections/"],
   ["Investigations", "/investigations/"],
-  ["About", "/about/"]
+  ["Explainers", "/explainers/"],
+  ["Opinion", "/opinion/"],
+  ["Search", "/search/"]
 ];
 ---
 
 <header class="site-header">
-  <a class="brand" href="/" aria-label="Boho News home">Boho News</a>
-  <nav aria-label="Primary navigation">
-    <ul>
-      {links.map(([label, href]) => <li><a href={href}>{label}</a></li>)}
-    </ul>
-  </nav>
+  <div class="masthead">
+    <a class="brand" href="/" aria-label="Boho News home">BOHO<span>NEWS</span></a>
+    <p class="shell-label">Newsroom infrastructure preview</p>
+  </div>
+  <div class="nav-scroll">
+    <nav aria-label="Primary navigation">
+      <ul>{links.map(([label, href]) => <li><a href={href}>{label}</a></li>)}</ul>
+    </nav>
+  </div>
 </header>

@@ -1,0 +1,14 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://bohonews.com/schemas/public-news-promotion-package.v1.schema.json",
+  "title":"Boho News public promotion package v1",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["schemaVersion","compilerVersion","generatedAt","site","inputHashes","inventory","articles","packageDigest"],
+  "properties":{
+    "schemaVersion":{"const":"1.0.0"},"compilerVersion":{"type":"string"},"generatedAt":{"type":"string","format":"date-time"},"site":{"const":"https://bohonews.com"},
+    "inputHashes":{"type":"object","additionalProperties":{"type":"string","pattern":"^[a-f0-9]{64}$"}},
+    "inventory":{"type":"object","additionalProperties":false,"required":["articleCount","routeCount"],"properties":{"articleCount":{"type":"integer","minimum":0},"routeCount":{"type":"integer","minimum":0}}},
+    "articles":{"type":"array"},"packageDigest":{"type":"string","pattern":"^[a-f0-9]{64}$"}
+  }
+}
