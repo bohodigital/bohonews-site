@@ -1,15 +1,11 @@
 ---
 import type { GetStaticPaths } from "astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import NewsVisual from "../../components/NewsVisual.astro";
 import StoryCard from "../../components/StoryCard.astro";
-import { fixturesEnabled, sectionArticles } from "../../lib/news";
+import { contextualNavigation, fixturesEnabled, sectionArticles, sections } from "../../lib/news";
 
 export const getStaticPaths = (() => {
-  const sections = [
-    ["latest-news","Latest News"],["politics","Politics"],["white-house","White House"],
-    ["congress","Congress"],["courts","Courts"],["elections","Elections"],
-    ["investigations","Investigations"],["explainers","Explainers"],["opinion","Opinion"]
-  ] as const;
   return sections.map(([section, label]) => ({
     params: { section },
     props: { label }
@@ -18,6 +14,12 @@ export const getStaticPaths = (() => {
 
 const { label } = Astro.props;
 const list = sectionArticles(Astro.params.section!);
+const contextLinks = contextualNavigation[Astro.params.section!] ?? [];
+const variant = Astro.params.section === "weather-climate" ? "weather" :
+  Astro.params.section === "crime-justice" ? "justice" :
+  Astro.params.section === "business" ? "business" :
+  Astro.params.section === "health-science" || Astro.params.section === "technology" ? "science" :
+  Astro.params.section === "culture" || Astro.params.section === "sports" ? "culture" : "world";
 ---
 
 <BaseLayout
@@ -27,6 +29,13 @@ const list = sectionArticles(Astro.params.section!);
 >
   {fixturesEnabled && <aside class="fixture-banner">Non-production fixture preview</aside>}
   <header class="index-header"><p class="eyebrow">Section</p><h1>{label}</h1></header>
-  {list.length ? <section class="story-grid">{list.map((article) => <StoryCard article={article} />)}</section> :
-    <section class="empty-state"><h2>No public articles have been promoted.</h2><p>This index is generated from approved metadata.</p></section>}
+  {contextLinks.length > 0 && <nav class="context-nav" aria-label={`${label} desks`}>
+    {contextLinks.map(([text,href]) => <a href={href}>{text}</a>)}
+  </nav>}
+  {list.length ? <section class="section-story-grid">{list.map((article,index) => <StoryCard article={article} prominent={index === 0} />)}</section> :
+    <section class="section-empty">
+      {fixturesEnabled && <NewsVisual variant={variant} label={`${label} section visual preview`} />}
+      <div><p class="eyebrow">Coverage desk</p><h2>No approved {label.toLowerCase()} coverage yet.</h2>
+      <p>This section shell will populate from governed public article packages.</p></div>
+    </section>}
 </BaseLayout>

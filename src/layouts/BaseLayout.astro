@@ -13,6 +13,7 @@ interface Props {
 }
 
 const { title, description, canonical = new URL(Astro.url.pathname, Astro.site), noindex = false, image, articleType = "website" } = Astro.props;
+const socialImage = new URL(image ?? "/og.png", Astro.site);
 const siteGraph = {
   "@context":"https://schema.org",
   "@graph":[
@@ -31,6 +32,7 @@ const siteGraph = {
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#f3efe6" />
     <link rel="canonical" href={canonical} />
     {noindex && <meta name="robots" content="noindex,nofollow" />}
     <meta property="og:type" content={articleType} />
@@ -38,9 +40,12 @@ const siteGraph = {
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    {image && <meta property="og:image" content={image} />}
-    <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
+    <meta property="og:image" content={socialImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
     <script is:inline type="application/ld+json" set:html={jsonForHtml(siteGraph)} />
+    <script is:inline src="/theme.js"></script>
     <title>{title}</title>
   </head>
   <body>
@@ -50,10 +55,21 @@ const siteGraph = {
       <slot />
     </main>
     <footer class="site-footer">
-      <p>Boho News publishing infrastructure. No public journalism is included in this handoff.</p>
+      <div class="footer-brand"><a class="brand" href="/"><span>BOHO</span> NEWS</a><p>One newsroom. Every major desk.</p></div>
+      <nav aria-label="Section navigation">
+        <p>News</p>
+        <a href="/latest/">Latest</a><a href="/us/">U.S.</a><a href="/world/">World</a>
+        <a href="/business/">Business</a><a href="/weather-climate/">Weather</a>
+      </nav>
+      <nav aria-label="Format navigation">
+        <p>Formats</p>
+        <a href="/live/">Live</a><a href="/investigations/">Investigations</a>
+        <a href="/visuals/">Visuals</a><a href="/documents/">Documents</a><a href="/data/">Data</a>
+      </nav>
       <nav aria-label="Policy navigation">
+        <p>Boho News</p>
         <a href="/about/">About</a><a href="/corrections/">Corrections</a>
-        <a href="/editorial-standards/">Editorial Standards</a><a href="/contact/">Contact</a>
+        <a href="/editorial-standards/">Standards</a><a href="/contact/">Contact</a>
         <a href="/privacy/">Privacy</a><a href="/terms/">Terms</a>
       </nav>
     </footer>

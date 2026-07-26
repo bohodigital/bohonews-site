@@ -1,26 +1,69 @@
 ---
-const links = [
-  ["Latest", "/latest-news/"],
-  ["Politics", "/politics/"],
-  ["White House", "/white-house/"],
-  ["Congress", "/congress/"],
-  ["Courts", "/courts/"],
-  ["Elections", "/elections/"],
-  ["Investigations", "/investigations/"],
-  ["Explainers", "/explainers/"],
-  ["Opinion", "/opinion/"],
-  ["Search", "/search/"]
+import ThemeControl from "./ThemeControl.astro";
+
+const primary = [
+  ["Latest", "/latest/"],["U.S.", "/us/"],["World", "/world/"],["Politics", "/politics/"],
+  ["Business", "/business/"],["Crime", "/crime-justice/"],["Weather", "/weather-climate/"]
+];
+const more = [
+  ["Health & Science", "/health-science/"],["Technology", "/technology/"],["Culture", "/culture/"],
+  ["Sports", "/sports/"],["Investigations", "/investigations/"],["Analysis", "/analysis/"],
+  ["Opinion", "/opinion/"],["Live", "/live/"],["Visuals", "/visuals/"],["Documents", "/documents/"],
+  ["Data", "/data/"],["Video", "/video/"]
 ];
 ---
 
 <header class="site-header">
-  <div class="masthead">
-    <a class="brand" href="/" aria-label="Boho News home">BOHO<span>NEWS</span></a>
-    <p class="shell-label">Newsroom infrastructure preview</p>
+  <div class="utility-row">
+    <time id="edition-date">Latest edition</time>
+    <nav aria-label="Utility navigation">
+      <a href="/newsletters/">Newsletters</a>
+      <a href="/search/">Search</a>
+      <a href="/support/">Support</a>
+      <ThemeControl />
+    </nav>
   </div>
-  <div class="nav-scroll">
-    <nav aria-label="Primary navigation">
-      <ul>{links.map(([label, href]) => <li><a href={href}>{label}</a></li>)}</ul>
+  <div class="masthead">
+    <a class="brand" href="/" aria-label="Boho News home"><span>BOHO</span> NEWS</a>
+    <div class="masthead-actions">
+      <a class="icon-link" href="/search/" aria-label="Search Boho News">Search</a>
+      <details class="mobile-menu">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile navigation">
+          {[...primary,...more].map(([label, href]) => <a href={href}>{label}</a>)}
+          <ThemeControl />
+        </nav>
+      </details>
+    </div>
+  </div>
+  <div class="priority-scroll">
+    <nav class="primary-nav" aria-label="Primary navigation">
+      <ul>
+        {primary.map(([label, href]) => <li><a href={href}>{label}</a></li>)}
+        <li class="desktop-culture"><a href="/culture/">Culture</a></li>
+        <li>
+          <details class="more-menu">
+            <summary>More</summary>
+            <div class="more-panel">
+              <div>
+                <p>Sections</p>
+                {more.slice(0,7).map(([label, href]) => <a href={href}>{label}</a>)}
+              </div>
+              <div>
+                <p>Formats</p>
+                {more.slice(7).map(([label, href]) => <a href={href}>{label}</a>)}
+              </div>
+              <div>
+                <p>Active desks</p>
+                <a href="/politics/elections/">Elections</a>
+                <a href="/crime-justice/courts/">Courts</a>
+                <a href="/weather-climate/severe-weather/">Severe weather</a>
+                <a href="/technology/">Artificial intelligence</a>
+              </div>
+            </div>
+          </details>
+        </li>
+      </ul>
     </nav>
   </div>
 </header>

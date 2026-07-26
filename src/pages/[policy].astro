@@ -3,7 +3,7 @@ import type { GetStaticPaths } from "astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 export const getStaticPaths = (() => [
   ["about","About"],["corrections","Corrections"],["editorial-standards","Editorial Standards"],
-  ["contact","Contact"],["privacy","Privacy"],["terms","Terms"]
+  ["contact","Contact"],["privacy","Privacy"],["terms","Terms"],["support","Support"]
 ].map(([policy,label]) => ({params:{policy},props:{label}}))) satisfies GetStaticPaths;
 const { label } = Astro.props;
 ---

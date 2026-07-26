@@ -15,6 +15,49 @@ test("site metadata exposes valid local-search structured data", async () => {
   assert.match(layout,/"@type":"WebSite"/);
   assert.match(layout,/"@type":"SearchAction"/);
   assert.match(layout,/search_term_string/);
+  assert.match(layout,/og:image:width/);
+  assert.match(layout,/summary_large_image/);
+});
+
+test("newsroom visual system includes broad navigation and a persistent three-mode theme", async () => {
+  const [header,theme,news] = await Promise.all([
+    readFile(new URL("../src/components/SiteHeader.astro", import.meta.url),"utf8"),
+    readFile(new URL("../public/theme.js", import.meta.url),"utf8"),
+    readFile(new URL("../src/lib/news.ts", import.meta.url),"utf8")
+  ]);
+  for (const label of ["Latest","U.S.","World","Politics","Business","Crime","Weather","Health & Science","Technology","Investigations"]) {
+    assert.ok(header.includes(label),label);
+  }
+  for (const choice of ["system","light","dark"]) assert.match(theme,new RegExp(`\"${choice}\"`));
+  for (const route of ["crime-justice","weather-climate","health-science","technology","visuals","documents","data"]) assert.match(news,new RegExp(`\"${route}\"`));
+});
+
+test("bespoke social card is a tracked-size PNG asset", async () => {
+  const image = await readFile(new URL("../public/og.png", import.meta.url));
+  assert.ok(image.length > 100_000);
+  assert.deepEqual([...image.subarray(0,8)],[0x89,0x50,0x4e,0x47,0x0d,0x0a,0x1a,0x0a]);
+});
+
+test("visual system preserves keyboard, motion, print and mobile theme access", async () => {
+  const [styles,header] = await Promise.all([
+    readFile(new URL("../src/styles/global.css", import.meta.url),"utf8"),
+    readFile(new URL("../src/components/SiteHeader.astro", import.meta.url),"utf8")
+  ]);
+  assert.match(styles,/:focus-visible/);
+  assert.match(styles,/prefers-reduced-motion:\s*reduce/);
+  assert.match(styles,/@media print/);
+  assert.match(styles,/a:visited/);
+  assert.match(header,/<details class="mobile-menu">[\s\S]*<ThemeControl \/>[\s\S]*<\/details>/);
+});
+
+test("built search loads Pagefind's classic UI before its initializer", async () => {
+  const [page,initializer] = await Promise.all([
+    readFile(new URL("../src/pages/search.astro", import.meta.url),"utf8"),
+    readFile(new URL("../public/search-init.js", import.meta.url),"utf8")
+  ]);
+  assert.ok(page.indexOf("/pagefind/pagefind-ui.js") < page.indexOf("/search-init.js"));
+  assert.doesNotMatch(initializer,/\bimport\b/);
+  assert.match(initializer,/new PagefindUI/);
 });
 
 test("news sitemap is recent-window and fixture gated", async () => {

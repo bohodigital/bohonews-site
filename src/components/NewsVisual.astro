@@ -1,0 +1,18 @@
+---
+interface Props {
+  variant?: "world" | "weather" | "justice" | "business" | "science" | "culture" | "document" | "live";
+  label: string;
+  compact?: boolean;
+}
+const { variant = "world", label, compact = false } = Astro.props;
+---
+
+<div class:list={["news-visual", `news-visual--${variant}`, {"news-visual--compact":compact}]} role="img" aria-label={label}>
+  <div class="news-visual__grid"></div>
+  <div class="news-visual__orb"></div>
+  <div class="news-visual__line news-visual__line--one"></div>
+  <div class="news-visual__line news-visual__line--two"></div>
+  <div class="news-visual__marker news-visual__marker--one"></div>
+  <div class="news-visual__marker news-visual__marker--two"></div>
+  <span class="news-visual__caption">{label}</span>
+</div>

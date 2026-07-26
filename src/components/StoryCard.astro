@@ -1,10 +1,16 @@
 ---
 import type { PublicArticle } from "../lib/news";
 import { articlePath, formatTimestamp } from "../lib/news";
+import NewsVisual from "./NewsVisual.astro";
 interface Props { article: PublicArticle; prominent?: boolean; }
 const { article, prominent = false } = Astro.props;
+const visualVariant = article.section === "politics" ? "document" :
+  article.section === "congress" ? "business" :
+  article.articleType === "developing-story" ? "live" : "world";
 ---
 <article class:list={["story-card", {prominent}]} data-pagefind-filter={`section:${article.section}`} data-pagefind-meta={`article-type:${article.articleType}`}>
+  {article.leadImage ? <img class="story-card__image" src={article.leadImage.src} alt={article.leadImage.alt ?? ""} width={article.leadImage.width} height={article.leadImage.height} loading="lazy" /> :
+    article.fixture && <NewsVisual variant={visualVariant} label="Visual fixture" compact={!prominent} />}
   <p class="label">{article.articleType.replaceAll("-", " ")}</p>
   <h2><a href={articlePath(article)}>{article.headline}</a></h2>
   <p class="dek">{article.dek}</p>

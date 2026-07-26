@@ -13,6 +13,10 @@ It is the public delivery surface for publishable article packages, citations, r
 - site-wide and section RSS, ordinary and news sitemaps, local search, and
   `NewsArticle`/`Article` structured data
 - Accessible, mobile-first presentation
+- Broad general-interest newsroom shell with modular homepage treatments
+- System, light, and dark visual themes with local preference persistence
+- Subject, format, and contextual subdesk routes from the approved visual
+  storyboard
 
 The Handoff 1 infrastructure is implemented, but no real article has been
 promoted and the repository is not authorized for production deployment or

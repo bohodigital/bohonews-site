@@ -39,10 +39,25 @@ function benchmarkArticles(): PublicArticle[] {
 }
 export const articles: PublicArticle[] = benchmarkEnabled ? benchmarkArticles() : fixturesEnabled ? previewFixtures : promoted;
 export const sections = [
-  ["latest-news","Latest News"],["politics","Politics"],["white-house","White House"],
-  ["congress","Congress"],["courts","Courts"],["elections","Elections"],
-  ["investigations","Investigations"],["explainers","Explainers"],["opinion","Opinion"]
+  ["latest","Latest"],["live","Live"],["us","U.S."],["world","World"],["politics","Politics"],
+  ["business","Business"],["crime-justice","Crime & Justice"],["weather-climate","Weather & Climate"],
+  ["health-science","Health & Science"],["technology","Technology"],["culture","Culture"],["sports","Sports"],
+  ["investigations","Investigations"],["analysis","Analysis"],["opinion","Opinion"],["visuals","Visuals"],
+  ["documents","Documents"],["data","Data"],["video","Video"],["newsletters","Newsletters"],
+  ["latest-news","Latest News"],["white-house","White House"],["congress","Congress"],
+  ["courts","Courts"],["elections","Elections"],["explainers","Explainers"]
 ] as const;
+
+export const contextualNavigation: Record<string,Array<[string,string]>> = {
+  politics:[["White House","/politics/white-house/"],["Congress","/politics/congress/"],["Policy","/politics/"],
+    ["State politics","/politics/"],["Elections","/politics/elections/"],["Campaign money","/politics/campaign-finance/"]],
+  "weather-climate":[["Severe weather","/weather-climate/severe-weather/"],["Hurricanes","/weather-climate/hurricanes/"],
+    ["Wildfires","/weather-climate/wildfires/"],["Floods","/weather-climate/"],["Heat","/weather-climate/"],["Climate","/weather-climate/climate/"]],
+  "crime-justice":[["Crime","/crime-justice/"],["Courts","/crime-justice/courts/"],["Policing","/crime-justice/policing/"],
+    ["Prisons","/crime-justice/"],["Major cases","/crime-justice/major-cases/"],["Public corruption","/crime-justice/"]],
+  world:[["Americas","/world/americas/"],["Europe","/world/europe/"],["Middle East","/world/middle-east/"],
+    ["Africa","/world/africa/"],["Asia","/world/asia/"],["Pacific","/world/"]]
+};
 
 export function articlePath(article: PublicArticle) { return `/articles/${article.slug}/`; }
 export function discoveryPaths(source = articles) {
@@ -55,7 +70,7 @@ export function discoveryPaths(source = articles) {
   ].flatMap(([kind,select]) => [...new Set(source.flatMap((article) => (select as (article:PublicArticle)=>string[])(article)))].map((value) => `/${kind}/${slugify(value)}/`));
 }
 export function sectionArticles(section: string) {
-  const source = section === "latest-news" ? articles : articles.filter((article) => article.section === section);
+  const source = ["latest","latest-news"].includes(section) ? articles : articles.filter((article) => article.section === section);
   return [...source].sort((a,b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 export function formatTimestamp(value: string) {

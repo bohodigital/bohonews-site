@@ -1,5 +1,4 @@
-import { PagefindUI } from "/pagefind/pagefind-ui.js";
-
+document.querySelector("#search")?.replaceChildren();
 new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
 const query = new URLSearchParams(location.search).get("q");
 const input = document.querySelector(".pagefind-ui__search-input");
