@@ -18,9 +18,15 @@ if (result.status === 0) {
 // page size. Keep the site search functional and deterministic on that builder;
 // supported x64 release lanes still run Pagefind above.
 const includeFixtures = process.env.BOHONEWS_INCLUDE_FIXTURES === "1";
+const benchmark = process.env.BOHONEWS_BENCHMARK_1000 === "1";
 const promotion = JSON.parse(await readFile(join(root,"src/data/public-news-promotion-package.v1.json"),"utf8"));
 let records = promotion.articles;
-if (includeFixtures) {
+if (benchmark) {
+  records = Array.from({length:1000},(_,index) => {
+    const suffix = String(index + 1).padStart(4,"0");
+    return {headline:`Synthetic benchmark article ${suffix}`,dek:"Non-production scale fixture.",slug:`benchmark-${suffix}`,section:"politics",articleType:"news-report",publishedAt:"2026-07-25T10:30:00Z"};
+  });
+} else if (includeFixtures) {
   records = [
     {headline:"Fixture developing report",dek:"Non-production developing story presentation.",slug:"fixture-developing",section:"politics",articleType:"developing-story",publishedAt:"2026-07-25T10:30:00Z"},
     {headline:"Fixture correction presentation",dek:"Non-production correction presentation.",slug:"fixture-correction",section:"congress",articleType:"news-report",publishedAt:"2026-07-25T10:30:00Z"},

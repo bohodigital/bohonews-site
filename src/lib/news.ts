@@ -23,7 +23,20 @@ export type PublicArticle = {
 
 const promoted = release.articles as PublicArticle[];
 export const fixturesEnabled = import.meta.env.BOHONEWS_INCLUDE_FIXTURES === "1";
-export const articles: PublicArticle[] = fixturesEnabled ? previewFixtures : promoted;
+export const benchmarkEnabled = import.meta.env.BOHONEWS_BENCHMARK_1000 === "1";
+function benchmarkArticles(): PublicArticle[] {
+  return Array.from({length:1000},(_,index) => {
+    const suffix = String(index + 1).padStart(4,"0");
+    return {
+      ...structuredClone(previewFixtures[index % previewFixtures.length]),
+      id:`benchmark-${suffix}`,slug:`benchmark-${suffix}`,
+      headline:`Synthetic benchmark article ${suffix}`,
+      canonicalUrl:`https://bohonews.com/articles/benchmark-${suffix}/`,
+      relatedArticleIds:[],fixture:true
+    };
+  });
+}
+export const articles: PublicArticle[] = benchmarkEnabled ? benchmarkArticles() : fixturesEnabled ? previewFixtures : promoted;
 export const sections = [
   ["latest-news","Latest News"],["politics","Politics"],["white-house","White House"],
   ["congress","Congress"],["courts","Courts"],["elections","Elections"],
