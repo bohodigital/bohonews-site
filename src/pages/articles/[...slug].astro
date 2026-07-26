@@ -1,6 +1,7 @@
 ---
 import type { GetStaticPaths } from "astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import ArticleBody from "../../components/ArticleBody.astro";
 import NewsVisual from "../../components/NewsVisual.astro";
 import { articleJsonLd, articles, fixturesEnabled, formatTimestamp } from "../../lib/news";
 import { jsonForHtml } from "../../lib/json-for-html.mjs";
@@ -20,7 +21,7 @@ const jsonLd = articleJsonLd(article);
   <article class="article-page" data-pagefind-body data-pagefind-filter={`section:${article.section}`} data-pagefind-meta={`article-type:${article.articleType}`}>
     {fixturesEnabled && <aside class="fixture-banner">Non-production fixture preview — not public reporting</aside>}
     <header class="article-header">
-      <p class="article-kicker"><span>{article.section.replaceAll("-", " ")}</span><span>{article.articleType.replaceAll("-", " ")}</span>{article.articleType === "developing-story" && <strong>Developing</strong>}</p>
+      <p class="article-kicker"><span>{article.section.replaceAll("-", " ")}</span>{article.desk && <span>{article.desk.replaceAll("-", " ")}</span>}<span>{article.articleType.replaceAll("-", " ")}</span>{article.articleType === "developing-story" && <strong>Developing</strong>}</p>
       <h1>{article.headline}</h1>
       <p class="article-dek">{article.dek}</p>
       <p class="byline">By {article.authors.join(", ")}</p>
@@ -30,10 +31,11 @@ const jsonLd = articleJsonLd(article);
     </header>
     {article.articleType === "developing-story" && <aside class="notice developing"><strong>Developing story</strong><p>This package is configured to show substantial updates and unresolved questions.</p></aside>}
     {article.corrections.map((correction) => <aside class="notice correction"><strong>{correction.type.replaceAll("-", " ")}</strong><p>{correction.notice}</p><time datetime={correction.effectiveAt}>{formatTimestamp(correction.effectiveAt)}</time></aside>)}
-    {article.leadImage && <figure><img src={article.leadImage.src} alt={article.leadImage.alt ?? ""} width={article.leadImage.width} height={article.leadImage.height} loading="eager" /><figcaption>{article.leadImage.caption} {article.leadImage.credit}</figcaption></figure>}
+    {article.leadImage && <figure class="article-lead"><img src={article.leadImage.src} alt={article.leadImage.alt ?? ""} width={article.leadImage.width} height={article.leadImage.height} loading="eager" /><figcaption><span>{article.leadImage.caption}</span><span class="media-credit">{article.leadImage.credit}</span></figcaption></figure>}
     {!article.leadImage && article.fixture && <figure class="article-fixture-visual"><NewsVisual variant={article.articleType === "developing-story" ? "live" : "document"} label="Synthetic article visual" /><figcaption>Non-production visual fixture for layout testing.</figcaption></figure>}
     {article.retractionState === "current" && <>
-      <div class="article-body"><p>{article.body}</p></div>
+      <ArticleBody blocks={article.bodyBlocks} articles={articles} citations={article.citations} />
+      <section class="evidence-block confirmed-facts"><h2>Confirmed facts</h2><ul>{article.confirmedFactsSummary.map((item) => <li>{item}</li>)}</ul></section>
       {article.uncertainty.length > 0 && <section class="evidence-block"><h2>What remains unresolved</h2><ul>{article.uncertainty.map((item) => <li>{item}</li>)}</ul></section>}
       <section class="evidence-block"><h2>Sources</h2><ol>{article.citations.map((source) => <li><a href={source.url} rel="noopener noreferrer">{source.title}</a> — {source.publisher}</li>)}</ol></section>
       <section class="evidence-block"><h2>Revision history</h2><ol>{article.revisionHistory.map((revision) => <li><time datetime={revision.at}>{formatTimestamp(revision.at)}</time>: {revision.summary}</li>)}</ol></section>

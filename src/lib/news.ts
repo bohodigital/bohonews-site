@@ -5,14 +5,29 @@ export type Correction = {
   id: string; type: string; notice: string; effectiveAt: string;
 };
 
+export type ArticleImage = {
+  rightsId: string; src: string; alt: string; caption: string; credit: string;
+  width: number; height: number; role?: string; sourceUrl?: string;
+};
+
+export type BodyBlock =
+  | {type:"paragraph";text:string}
+  | {type:"subheading";text:string;level:2|3}
+  | {type:"ordered-list"|"unordered-list";items:string[]}
+  | ({type:"media"|"official-document-render"} & ArticleImage)
+  | {type:"table";caption:string;columns:string[];rows:string[][]}
+  | {type:"source-callout";title:string;text:string;sourceId:string}
+  | {type:"related-story";articleId:string};
+
 export type PublicArticle = {
   schemaVersion: string; id: string; slug: string; headline: string; dek: string;
-  articleType: string; publicationStatus: string; section: string; topics: string[];
+  articleType: string; publicationStatus: string; section: string; desk: string|null; topics: string[];
   entities: string[]; locations: string[]; authors: string[]; editor: string;
   publishedAt: string; updatedAt: string; eventId: string; body: string;
+  bodyBlocks: BodyBlock[];
   confirmedFactsSummary: string[]; uncertainty: string[];
   citations: Array<{id:string;title:string;publisher:string;url:string;publishedAt:string}>;
-  leadImage: null | {src:string;alt?:string;caption?:string;credit?:string;width?:number;height?:number};
+  leadImage: null | ArticleImage;
   media: unknown[]; revisionHistory: Array<{version:number;at:string;summary:string}>;
   corrections: Correction[]; retractionState: string; distribution: {rss:boolean;newsSitemap:boolean};
   social: {title?:string;description?:string;image?:string}; search: {index:boolean};
@@ -70,7 +85,9 @@ export function discoveryPaths(source = articles) {
   ].flatMap(([kind,select]) => [...new Set(source.flatMap((article) => (select as (article:PublicArticle)=>string[])(article)))].map((value) => `/${kind}/${slugify(value)}/`));
 }
 export function sectionArticles(section: string) {
-  const source = ["latest","latest-news"].includes(section) ? articles : articles.filter((article) => article.section === section);
+  const source = ["latest","latest-news"].includes(section)
+    ? articles
+    : articles.filter((article) => article.section === section || article.desk === section);
   return [...source].sort((a,b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 export function formatTimestamp(value: string) {

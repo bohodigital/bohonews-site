@@ -19,13 +19,14 @@ as a static-first Astro component system.
 - responsive, reduced-motion, high-zoom-friendly, and print presentations;
 - a bespoke 1200×630 social-preview image.
 
-Production remains compiler-driven. With zero approved promoted articles, it
-shows a truthful empty newsroom rather than synthetic headlines. The full
-visual system is populated only when `BOHONEWS_INCLUDE_FIXTURES=1`; every such
-page is noindex, non-distributed, and explicitly labeled as a non-production
-interface preview.
+Production remains compiler-driven. Batch 1 populates the homepage, section and
+desk indexes, story cards, evidence tables, official-document views and article
+pages from eight approved promotion records and their verified real media.
+`BOHONEWS_INCLUDE_FIXTURES=1` remains available only for private interface
+testing; every fixture page is noindex, non-distributed and explicitly labeled.
 
 CSS-generated maps, charts, documents, and abstract news visuals are interface
-fixtures, not editorial evidence or representations of real events. Real
-photography, maps, charts, audio, and video still require compiler-approved
-media-rights records and public asset binding.
+fixtures, not editorial evidence or representations of real events. Production
+photography and official-document renders require compiler-approved media-rights
+records, byte hashes, responsive derivatives, captions, credits and public
+asset binding.

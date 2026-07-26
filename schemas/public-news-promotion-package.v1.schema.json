@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "required": ["schemaVersion", "compilerVersion", "generatedAt", "site", "inputHashes", "inventory", "mediaRights", "articles", "packageDigest"],
   "properties": {
-    "schemaVersion": {"const": "1.0.0"},
+    "schemaVersion": {"const": "1.1.0"},
     "compilerVersion": {"type": "string", "minLength": 1},
     "generatedAt": {"type": "string", "format": "date-time"},
     "site": {"const": "https://bohonews.com"},
@@ -84,7 +84,7 @@
       "additionalProperties": false,
       "required": ["schemaVersion", "id", "articleId", "type", "notice", "effectiveAt", "replacesCorrectionId", "state"],
       "properties": {
-        "schemaVersion": {"const": "1.0.0"},
+        "schemaVersion": {"const": "1.1.0"},
         "id": {"$ref": "#/$defs/id"},
         "articleId": {"$ref": "#/$defs/id"},
         "type": {"enum": ["minor-correction", "material-correction", "clarification", "editors-note", "retraction", "upstream-kill", "legal-safety-removal", "superseded-report"]},
@@ -99,7 +99,7 @@
       "additionalProperties": false,
       "required": ["schemaVersion", "id", "sourceUrl", "creator", "rightsBasis", "license", "attribution", "restrictions", "retrievedAt", "originalFileHash", "derivatives", "caption", "altText", "archivalStatus", "contextNotes", "aiGenerated", "illustrationLabel"],
       "properties": {
-        "schemaVersion": {"const": "1.0.0"},
+        "schemaVersion": {"const": "1.1.0"},
         "id": {"$ref": "#/$defs/id"},
         "sourceUrl": {"type": "string", "format": "uri"},
         "creator": {"type": "string", "minLength": 1},
@@ -125,8 +125,8 @@
             }
           }
         },
-        "caption": {"type": "string"},
-        "altText": {"type": "string"},
+        "caption": {"type": "string", "minLength": 1},
+        "altText": {"type": "string", "minLength": 1},
         "archivalStatus": {"enum": ["current", "archival"]},
         "contextNotes": {
           "type": "object",
@@ -134,23 +134,24 @@
           "required": ["misleading"],
           "properties": {"misleading": {"const": false}, "usage": {"type": "string"}}
         },
-        "aiGenerated": {"type": "boolean"},
-        "illustrationLabel": {"type": ["string", "null"]}
+        "aiGenerated": {"const": false},
+        "illustrationLabel": {"type": "null"}
       }
     },
     "publicArticle": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["schemaVersion", "id", "slug", "headline", "dek", "articleType", "publicationStatus", "section", "topics", "entities", "locations", "authors", "editor", "publishedAt", "updatedAt", "eventId", "body", "confirmedFactsSummary", "uncertainty", "citations", "leadImage", "media", "revisionHistory", "corrections", "retractionState", "distribution", "social", "search", "relatedArticleIds", "canonicalUrl", "supersedesArticleId", "supersededByArticleId"],
+      "required": ["schemaVersion", "id", "slug", "headline", "dek", "articleType", "publicationStatus", "section", "desk", "topics", "entities", "locations", "authors", "editor", "publishedAt", "updatedAt", "eventId", "body", "bodyBlocks", "confirmedFactsSummary", "uncertainty", "citations", "leadImage", "media", "revisionHistory", "corrections", "retractionState", "distribution", "social", "search", "relatedArticleIds", "canonicalUrl", "supersedesArticleId", "supersededByArticleId"],
       "properties": {
-        "schemaVersion": {"const": "1.0.0"},
+        "schemaVersion": {"const": "1.1.0"},
         "id": {"$ref": "#/$defs/id"},
         "slug": {"$ref": "#/$defs/id"},
         "headline": {"type": "string", "minLength": 1},
         "dek": {"type": "string", "minLength": 1},
         "articleType": {"enum": ["breaking-report", "developing-story", "news-report", "live-coverage", "explainer", "analysis", "investigation", "fact-check", "opinion", "timeline", "vote-report", "court-decision", "executive-action", "campaign-finance", "document-report", "data-report"]},
         "publicationStatus": {"const": "approved"},
-        "section": {"enum": ["politics", "white-house", "congress", "courts", "elections", "investigations", "explainers", "opinion"]},
+        "section": {"enum": ["us", "world", "politics", "business", "crime-justice", "weather-climate", "health-science", "technology", "culture", "sports", "investigations", "analysis", "opinion"]},
+        "desk": {"anyOf": [{"$ref": "#/$defs/id"}, {"type": "null"}]},
         "topics": {"$ref": "#/$defs/stringArray"},
         "entities": {"$ref": "#/$defs/stringArray"},
         "locations": {"$ref": "#/$defs/stringArray"},
@@ -160,6 +161,7 @@
         "updatedAt": {"type": "string", "format": "date-time"},
         "eventId": {"$ref": "#/$defs/id"},
         "body": {"type": "string"},
+        "bodyBlocks": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/bodyBlock"}},
         "confirmedFactsSummary": {"$ref": "#/$defs/stringArray"},
         "uncertainty": {"$ref": "#/$defs/stringArray"},
         "citations": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/citation"}},
@@ -198,6 +200,17 @@
         "supersedesArticleId": {"anyOf": [{"$ref": "#/$defs/id"}, {"type": "null"}]},
         "supersededByArticleId": {"anyOf": [{"$ref": "#/$defs/id"}, {"type": "null"}]}
       }
+    },
+    "bodyBlock": {
+      "oneOf": [
+        {"type":"object","additionalProperties":false,"required":["type","text"],"properties":{"type":{"const":"paragraph"},"text":{"type":"string","minLength":1}}},
+        {"type":"object","additionalProperties":false,"required":["type","text","level"],"properties":{"type":{"const":"subheading"},"text":{"type":"string","minLength":1},"level":{"enum":[2,3]}}},
+        {"type":"object","additionalProperties":false,"required":["type","items"],"properties":{"type":{"enum":["ordered-list","unordered-list"]},"items":{"type":"array","minItems":1,"items":{"type":"string","minLength":1}}}},
+        {"type":"object","additionalProperties":false,"required":["type","rightsId","src","alt","caption","credit","width","height"],"properties":{"type":{"enum":["media","official-document-render"]},"rightsId":{"$ref":"#/$defs/id"},"src":{"type":"string","pattern":"^/media/[a-zA-Z0-9._/-]+$"},"alt":{"type":"string"},"caption":{"type":"string"},"credit":{"type":"string","minLength":1},"width":{"type":"integer","minimum":1},"height":{"type":"integer","minimum":1},"sourceUrl":{"type":"string","format":"uri"}}},
+        {"type":"object","additionalProperties":false,"required":["type","caption","columns","rows"],"properties":{"type":{"const":"table"},"caption":{"type":"string","minLength":1},"columns":{"type":"array","minItems":2,"items":{"type":"string","minLength":1}},"rows":{"type":"array","minItems":1,"items":{"type":"array","items":{"type":"string"}}}}},
+        {"type":"object","additionalProperties":false,"required":["type","title","text","sourceId"],"properties":{"type":{"const":"source-callout"},"title":{"type":"string","minLength":1},"text":{"type":"string","minLength":1},"sourceId":{"$ref":"#/$defs/id"}}},
+        {"type":"object","additionalProperties":false,"required":["type","articleId"],"properties":{"type":{"const":"related-story"},"articleId":{"$ref":"#/$defs/id"}}}
+      ]
     }
   }
 }

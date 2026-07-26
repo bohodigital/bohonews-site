@@ -2,10 +2,13 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import NewsVisual from "../components/NewsVisual.astro";
 import StoryCard from "../components/StoryCard.astro";
-import { fixturesEnabled, sectionArticles } from "../lib/news";
+import { fixturesEnabled, formatTimestamp, sectionArticles } from "../lib/news";
 const latest = sectionArticles("latest");
 const lead = latest[0];
 const secondary = latest.slice(1,3);
+const politics = sectionArticles("politics");
+const business = sectionArticles("business");
+const explainers = latest.filter((article) => article.articleType === "explainer");
 ---
 
 <BaseLayout
@@ -18,18 +21,18 @@ const secondary = latest.slice(1,3);
 
   {lead ? <section class="lead-composition" aria-label="Top stories">
     <article class="dominant-story">
-      <NewsVisual variant="live" label="Synthetic dominant lead visual" />
-      <p class="story-status"><span>{lead.section}</span><strong>Developing</strong></p>
+      {lead.leadImage && <img class="dominant-story__image" src={lead.leadImage.src} alt={lead.leadImage.alt ?? ""} width={lead.leadImage.width} height={lead.leadImage.height} loading="eager" />}
+      <p class="story-status"><span>{lead.section}</span>{lead.articleType === "developing-story" && <strong>Developing</strong>}</p>
       <h1><a href={`/articles/${lead.slug}/`}>{lead.headline}</a></h1>
       <p class="lead-dek">{lead.dek}</p>
-      <p class="meta">Updated 11:15 UTC</p>
+      <p class="meta">Updated <time datetime={lead.updatedAt}>{formatTimestamp(lead.updatedAt)}</time></p>
     </article>
     <div class="secondary-stack">
       {secondary.map((article,index) => <StoryCard article={article} prominent={index === 0} />)}
     </div>
     <aside class="latest-wire" aria-labelledby="wire-title">
       <div class="module-heading"><p class="eyebrow">Continuous desk</p><h2 id="wire-title">Latest</h2></div>
-      <ol>{latest.map((article,index) => <li><time>{["11:30","11:15","10:30"][index] ?? "10:00"}</time><a href={`/articles/${article.slug}/`}>{article.headline}</a><span>{article.section}</span></li>)}</ol>
+      <ol>{latest.map((article) => <li><time datetime={article.updatedAt}>{formatTimestamp(article.updatedAt)}</time><a href={`/articles/${article.slug}/`}>{article.headline}</a><span>{article.section}</span></li>)}</ol>
       <a class="text-link" href="/latest/">View all latest →</a>
     </aside>
   </section> :
@@ -38,12 +41,30 @@ const secondary = latest.slice(1,3);
     <p>The newsroom shell is ready. Approved reporting will populate this page through the governed publishing system.</p>
   </section>}
 
-  {fixturesEnabled && <>
+  {lead && !fixturesEnabled && <>
     <section class="top-story-row" aria-labelledby="top-stories-title">
       <div class="module-heading"><p class="eyebrow">Across the newsroom</p><h2 id="top-stories-title">Top stories</h2></div>
-      <div>{latest.map((article) => <StoryCard article={article} />)}</div>
+      <div>{latest.slice(3).map((article) => <StoryCard article={article} />)}</div>
     </section>
 
+    <div class="paired-desks">
+      <section class="desk-module" aria-labelledby="politics-title">
+        <div class="module-heading"><p class="eyebrow">Institutions & policy</p><h2 id="politics-title"><a href="/politics/">Politics</a></h2></div>
+        <div class="desk-story-list">{politics.map((article) => <StoryCard article={article} />)}</div>
+      </section>
+      <section class="desk-module" aria-labelledby="business-title">
+        <div class="module-heading"><p class="eyebrow">Economy & technology</p><h2 id="business-title"><a href="/business/">Business</a></h2></div>
+        <div class="desk-story-list">{business.map((article) => <StoryCard article={article} />)}</div>
+      </section>
+    </div>
+
+    <section class="desk-module desk-module--wide" aria-labelledby="explainers-title">
+      <div class="module-heading"><p class="eyebrow">How it works</p><h2 id="explainers-title"><a href="/politics/explainers/">Explainers</a></h2></div>
+      <div class="story-grid">{explainers.map((article) => <StoryCard article={article} />)}</div>
+    </section>
+  </>}
+
+  {fixturesEnabled && <>
     <section class="desk-module desk-module--wide" aria-labelledby="us-title">
       <div class="module-heading"><p class="eyebrow">National desk</p><h2 id="us-title"><a href="/us/">U.S.</a></h2></div>
       <div class="desk-split"><NewsVisual variant="world" label="Synthetic U.S. desk visual" /><div class="headline-list">

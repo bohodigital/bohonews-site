@@ -16,9 +16,10 @@ two-level navigation, modular homepage and article treatments, and persistent
 system/light/dark themes. Legacy Handoff 1 section routes remain available
 during the transition.
 
-Production builds use zero promoted articles until a real reviewed promotion
-occurs. `BOHONEWS_INCLUDE_FIXTURES=1` injects three synthetic, noindex,
-non-distributed records for private layout/browser testing only.
+Production builds currently use the governed Batch 1 promotion: eight articles,
+14 media-rights records and 98 responsive real-media derivatives.
+`BOHONEWS_INCLUDE_FIXTURES=1` replaces those records with three synthetic,
+noindex, non-distributed records for private layout testing only.
 
 Pagefind 1.5.2 is pinned. Supported release builders run it after Astro. Bohopi's
 16 KiB ARM64 kernel cannot execute the current native binary, so that builder

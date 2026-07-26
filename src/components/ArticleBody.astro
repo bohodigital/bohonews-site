@@ -1,0 +1,49 @@
+---
+import type { BodyBlock, PublicArticle } from "../lib/news";
+import { articlePath } from "../lib/news";
+
+interface Props {
+  blocks: BodyBlock[];
+  articles: PublicArticle[];
+  citations: PublicArticle["citations"];
+}
+
+const { blocks, articles, citations } = Astro.props;
+const articleById = new Map(articles.map((article) => [article.id, article]));
+const citationById = new Map(citations.map((citation) => [citation.id, citation]));
+---
+
+<div class="article-body">
+  {blocks.map((block) => {
+    if (block.type === "paragraph") return <p>{block.text}</p>;
+    if (block.type === "subheading") return block.level === 2 ? <h2>{block.text}</h2> : <h3>{block.text}</h3>;
+    if (block.type === "ordered-list") return <ol>{block.items.map((item) => <li>{item}</li>)}</ol>;
+    if (block.type === "unordered-list") return <ul>{block.items.map((item) => <li>{item}</li>)}</ul>;
+    if (block.type === "media" || block.type === "official-document-render") {
+      return <figure class:list={["article-inline-media", {"official-document": block.type === "official-document-render"}]}>
+        <img src={block.src} alt={block.alt} width={block.width} height={block.height} loading="lazy" />
+        <figcaption>
+          <span>{block.caption}</span>
+          <span class="media-credit">{block.credit}</span>
+          {block.sourceUrl && <a href={block.sourceUrl} rel="noopener noreferrer">View source</a>}
+        </figcaption>
+      </figure>;
+    }
+    if (block.type === "table") return <figure class="article-data-module">
+      <figcaption>{block.caption}</figcaption>
+      <div class="table-scroll"><table>
+        <thead><tr>{block.columns.map((column) => <th scope="col">{column}</th>)}</tr></thead>
+        <tbody>{block.rows.map((row) => <tr>{row.map((cell, index) => index === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>)}</tr>)}</tbody>
+      </table></div>
+    </figure>;
+    if (block.type === "source-callout") {
+      const source = citationById.get(block.sourceId);
+      return <aside class="source-callout"><p class="label">{block.title}</p><p>{block.text}</p>{source && <a href={source.url} rel="noopener noreferrer">{source.title} →</a>}</aside>;
+    }
+    if (block.type === "related-story") {
+      const related = articleById.get(block.articleId);
+      return related && <aside class="related-story"><p class="label">Related reporting</p><a href={articlePath(related)}>{related.headline} →</a></aside>;
+    }
+    return null;
+  })}
+</div>

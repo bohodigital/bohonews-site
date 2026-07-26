@@ -164,6 +164,7 @@ main { margin: 0 auto; max-width: 92rem; padding: 1.35rem clamp(1rem,4vw,3rem) 5
 .dominant-story { border-right: 1px solid var(--border); padding-right: 1.5rem; }
 .dominant-story h1 { font-size: clamp(2.8rem,5.3vw,5.6rem); margin-top: .65rem; }
 .dominant-story h1 a { text-decoration: none; }
+.dominant-story__image { aspect-ratio: 16/9; object-fit: cover; width: 100%; }
 .lead-dek { color: var(--text-soft); font-family: var(--serif); font-size: clamp(1.05rem,1.8vw,1.32rem); margin: .9rem 0; max-width: 42rem; }
 .story-status { align-items: center; display: flex; gap: .7rem; margin: 1rem 0 0; }
 .story-status span { color: var(--accent); font-size: .68rem; font-weight: 850; letter-spacing: .12em; text-transform: uppercase; }
@@ -188,6 +189,8 @@ main { margin: 0 auto; max-width: 92rem; padding: 1.35rem clamp(1rem,4vw,3rem) 5
 .story-card .meta,.meta { color: var(--text-muted); font-size: .7rem; }
 .story-card__image { aspect-ratio: 16/10; margin-bottom: .9rem; object-fit: cover; width: 100%; }
 .story-card.prominent h2 { font-size: clamp(2rem,3.6vw,3.6rem); }
+.desk-story-list .story-card { border-bottom: 1px solid var(--border); padding-left: 0; padding-right: 0; }
+.desk-story-list .story-card:last-child { border-bottom: 0; }
 .story-grid,.section-story-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); }
 .story-grid .story-card,.section-story-grid .story-card { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); }
 .section-story-grid .story-card.prominent { grid-column: span 2; }
@@ -328,6 +331,23 @@ main { margin: 0 auto; max-width: 92rem; padding: 1.35rem clamp(1rem,4vw,3rem) 5
 .timestamps { color: var(--text-muted); font-size: .75rem; margin: 0; }
 .article-body { font-family: var(--serif); font-size: clamp(1.12rem,2.3vw,1.32rem); margin-top: 2.5rem; }
 .article-body p { line-height: 1.78; }
+.article-body h2,.article-body h3 { margin-top: 2.5rem; }
+.article-body li { line-height: 1.55; margin-bottom: .65rem; }
+.article-lead figcaption,.article-inline-media figcaption { display: flex; flex-wrap: wrap; gap: .3rem .75rem; justify-content: space-between; }
+.media-credit { font-style: italic; }
+.article-inline-media { margin-left: min(-8vw,-2rem); margin-right: min(-8vw,-2rem); }
+.article-inline-media img { width: 100%; }
+.article-inline-media.official-document { background: var(--surface); border: 1px solid var(--border); padding: clamp(.8rem,2vw,1.5rem); }
+.article-inline-media.official-document img { box-shadow: 0 .6rem 2rem rgb(0 0 0 / .12); }
+.article-data-module { background: var(--surface); border-bottom: .25rem solid var(--accent); border-top: .25rem solid var(--text); margin-left: min(-10vw,-3rem); margin-right: min(-10vw,-3rem); padding: 1rem; }
+.article-data-module > figcaption { color: var(--text); font-family: var(--sans); font-size: .78rem; font-weight: 850; letter-spacing: .04em; margin: 0 0 .8rem; text-transform: uppercase; }
+.table-scroll { overflow-x: auto; }
+.article-data-module table { border-collapse: collapse; font-family: var(--sans); font-size: .82rem; width: 100%; }
+.article-data-module th,.article-data-module td { border-top: 1px solid var(--border); padding: .7rem; text-align: left; vertical-align: top; }
+.article-data-module thead th { background: var(--text); color: var(--surface); border-top: 0; }
+.source-callout,.related-story { background: var(--accent-soft); border-left: .3rem solid var(--accent); font-family: var(--sans); margin: 2rem 0; padding: 1rem 1.2rem; }
+.source-callout p,.related-story p { margin: 0 0 .5rem; }
+.source-callout a,.related-story a { color: var(--link); font-weight: 800; }
 .notice { border-left: .3rem solid var(--accent); margin-top: 2rem; padding: .5rem 1.2rem; }
 .notice strong { text-transform: capitalize; }
 .notice p { margin: .25rem 0; }
@@ -418,6 +438,7 @@ figcaption { color: var(--text-muted); font-size: .75rem; margin-top: .55rem; }
   }
   .desk-split { grid-template-columns: 1fr; }
   .section-empty { grid-template-columns: 1fr; padding: 1.2rem; }
+  .article-inline-media,.article-data-module { margin-left: -.35rem; margin-right: -.35rem; }
   .section-story-grid .story-card.prominent { grid-column: auto; }
   .newsletter-module form div { display: grid; }
   .site-footer { grid-template-columns: 1fr 1fr; }

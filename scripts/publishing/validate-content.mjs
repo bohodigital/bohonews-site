@@ -90,7 +90,8 @@ export function validatePublicState(promotion, release, schema, options = {}) {
   }
   const referencedMedia = new Set();
   for (const article of promotion.articles) {
-    for (const image of [article.leadImage,...article.media].filter(Boolean)) {
+    const bodyMedia = article.bodyBlocks.filter(({type}) => ["media","official-document-render"].includes(type));
+    for (const image of [article.leadImage,...article.media,...bodyMedia].filter(Boolean)) {
       referencedMedia.add(image.rightsId);
       const rights = mediaById.get(image.rightsId);
       if (!rights?.derivatives.some(({publicPath,role,width,height}) => publicPath === image.src && (!image.role || role === image.role) && width === image.width && height === image.height)) {

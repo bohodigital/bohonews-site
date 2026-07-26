@@ -1,19 +1,2882 @@
 {
-  "schemaVersion": "1.0.0",
-  "compilerVersion": "1.0.0",
-  "generatedAt": "2026-07-25T00:00:00Z",
-  "site": "https://bohonews.com",
+  "articles": [
+    {
+      "articleType": "analysis",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The White House says more than 200 utilities, cooperatives, data-center developers and state governments have joined an expanded voluntary pledge intended to prevent new data centers from increasing electricity costs for ordinary customers.\n\nThe administration announced the expansion July 23 at an event at the Environmental Protection Agency.\n\nThe White House says participating organizations cover about 80% of electricity delivered to U.S. homes and businesses and reach 263 million people. Those are administration figures based on its signatory and service-territory calculations and should not be treated as independently audited savings estimates.\n\nThe pledge’s central principle is that large data-center customers should fund the generation, transmission, distribution and interconnection infrastructure their facilities require rather than shifting those costs to existing ratepayers.\n\nThe White House page lists commitments involving four groups: governors and state regulators, large electricity buyers, utilities and cooperatives, and data-center developers.\n\nParticipants promise to use tools such as special rate structures, minimum payments, long-term contracts, collateral requirements, exit fees and cost-allocation rules designed to protect other customers if a project is delayed, downsized or abandoned.\n\nThe policy addresses a real problem. Data centers can require enormous and rapidly growing electric loads. Utilities may need to build generation, substations and transmission before demand fully materializes. If the project fails or uses less power than forecast, regulators must decide who pays for the unused investment.\n\nA voluntary pledge does not answer that question by itself.\n\nElectric rates are generally set through state utility commissions, municipal systems, cooperatives and contracts. A White House commitment can shape policy and provide political pressure, but the enforceable obligation usually comes from a tariff approved by a regulator, a contract, a statute, a commission order or a financing agreement.\n\nThe first accountability question is therefore which commitments have been converted into binding rate structures or contracts.\n\nThe second is whether the protections cover all costs. A data center may pay for a dedicated substation while broader transmission or generation costs are spread across the system.\n\nThe third is what happens when forecasts are wrong. A minimum-demand charge or exit fee is only useful if it is large enough, lasts long enough and is backed by a creditworthy company.\n\nThe fourth is transparency. Customers cannot evaluate the pledge without public information about projected load, capital investment, contract duration, cost allocation and the effect on residential and small-business rates.\n\nThe White House lists 281 organizations on its current signatory page while describing the coalition as more than 200. The page also separately refers to governors, seven large electricity buyers, utilities, cooperatives and developers. The count should be treated as a changing roster rather than one fixed number.\n\nThe administration says the pledge is already lowering costs, but individual claims should be checked against state commission orders and utility filings. A company’s participation demonstrates a public commitment; it does not prove that every future project will leave every ratepayer unharmed.\n\nThe pledge can still matter. It creates a national baseline that governors, regulators, utilities and developers can be measured against. It also makes cost shifting harder to defend after an organization publicly promised that data centers would pay their own way.\n\nBoho News will treat implementation, not the signature list, as the real test: which projects receive special tariffs, what guarantees they provide, which costs remain socialized and whether household bills change after construction begins.",
+      "bodyBlocks": [
+        {
+          "text": "The White House says more than 200 utilities, cooperatives, data-center developers and state governments have joined an expanded voluntary pledge intended to prevent new data centers from increasing electricity costs for ordinary customers.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The administration announced the expansion July 23 at an event at the Environmental Protection Agency.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The White House says participating organizations cover about 80% of electricity delivered to U.S. homes and businesses and reach 263 million people. Those are administration figures based on its signatory and service-territory calculations and should not be treated as independently audited savings estimates.",
+          "type": "paragraph"
+        },
+        {
+          "caption": "Ratepayer pledge accountability map",
+          "columns": [
+            "Commitment",
+            "Responsible actors",
+            "Binding mechanism to watch"
+          ],
+          "rows": [
+            [
+              "Data centers fund needed infrastructure",
+              "Developers, utilities and large buyers",
+              "Tariff, contract or interconnection agreement"
+            ],
+            [
+              "Protect customers if a project changes",
+              "Utilities, regulators and developers",
+              "Minimum payments, collateral and exit fees"
+            ],
+            [
+              "Allocate system costs fairly",
+              "State commissions, utilities and cooperatives",
+              "Commission order, rate design or statute"
+            ],
+            [
+              "Make outcomes measurable",
+              "Regulators, utilities and state governments",
+              "Public filings and bill-impact reporting"
+            ]
+          ],
+          "type": "table"
+        },
+        {
+          "text": "The pledge’s central principle is that large data-center customers should fund the generation, transmission, distribution and interconnection infrastructure their facilities require rather than shifting those costs to existing ratepayers.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The White House page lists commitments involving four groups: governors and state regulators, large electricity buyers, utilities and cooperatives, and data-center developers.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Participants promise to use tools such as special rate structures, minimum payments, long-term contracts, collateral requirements, exit fees and cost-allocation rules designed to protect other customers if a project is delayed, downsized or abandoned.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The policy addresses a real problem. Data centers can require enormous and rapidly growing electric loads. Utilities may need to build generation, substations and transmission before demand fully materializes. If the project fails or uses less power than forecast, regulators must decide who pays for the unused investment.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "President Trump and several men applaud in front of a Ratepayer Protection Pledge backdrop.",
+          "caption": "President Trump stands with participants during the July 23 Ratepayer Protection Pledge event.",
+          "credit": "Official White House Photo by Joyce N. Boghosian",
+          "height": 900,
+          "rightsId": "ratepayer-pledge-0226",
+          "sourceUrl": "https://www.whitehouse.gov/gallery/president-donald-j-trump-attends-a-roundtable-on-a-ratepayer-protection-pledge-at-the-environmental-protection-agency/",
+          "src": "/media/batch-01/ratepayer-pledge-0226/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "A voluntary pledge does not answer that question by itself.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Electric rates are generally set through state utility commissions, municipal systems, cooperatives and contracts. A White House commitment can shape policy and provide political pressure, but the enforceable obligation usually comes from a tariff approved by a regulator, a contract, a statute, a commission order or a financing agreement.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The first accountability question is therefore which commitments have been converted into binding rate structures or contracts.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Black-and-white image of President Trump and other participants applauding at the pledge event.",
+          "caption": "President Trump and event participants during the Ratepayer Protection Pledge event at EPA headquarters.",
+          "credit": "Official White House Photo by Joyce N. Boghosian",
+          "height": 900,
+          "rightsId": "ratepayer-pledge-0242",
+          "sourceUrl": "https://www.whitehouse.gov/gallery/president-donald-j-trump-attends-a-roundtable-on-a-ratepayer-protection-pledge-at-the-environmental-protection-agency/",
+          "src": "/media/batch-01/ratepayer-pledge-0242/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "The second is whether the protections cover all costs. A data center may pay for a dedicated substation while broader transmission or generation costs are spread across the system.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The third is what happens when forecasts are wrong. A minimum-demand charge or exit fee is only useful if it is large enough, lasts long enough and is backed by a creditworthy company.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The fourth is transparency. Customers cannot evaluate the pledge without public information about projected load, capital investment, contract duration, cost allocation and the effect on residential and small-business rates.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The White House lists 281 organizations on its current signatory page while describing the coalition as more than 200. The page also separately refers to governors, seven large electricity buyers, utilities, cooperatives and developers. The count should be treated as a changing roster rather than one fixed number.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The administration says the pledge is already lowering costs, but individual claims should be checked against state commission orders and utility filings. A company’s participation demonstrates a public commitment; it does not prove that every future project will leave every ratepayer unharmed.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The pledge can still matter. It creates a national baseline that governors, regulators, utilities and developers can be measured against. It also makes cost shifting harder to defend after an organization publicly promised that data centers would pay their own way.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Boho News will treat implementation, not the signature list, as the real test: which projects receive special tariffs, what guarantees they provide, which costs remain socialized and whether household bills change after construction begins.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+      "citations": [
+        {
+          "id": "ratepayer-release",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "The White House",
+          "title": "Ratepayer Protection Pledge expansion release",
+          "url": "https://www.whitehouse.gov/releases/2026/07/president-trumps-ratepayer-protection-pledge-secures-american-ai-dominance-protects-consumers/"
+        },
+        {
+          "id": "ratepayer-page",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "The White House",
+          "title": "Ratepayer Protection Pledge page and signatory list",
+          "url": "https://www.whitehouse.gov/ratepayer-protection-pledge/"
+        },
+        {
+          "id": "ratepayer-gallery",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "The White House",
+          "title": "Ratepayer Protection Pledge gallery",
+          "url": "https://www.whitehouse.gov/gallery/president-donald-j-trump-attends-a-roundtable-on-a-ratepayer-protection-pledge-at-the-environmental-protection-agency/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The White House announced an expanded pledge July 23.",
+        "The administration says more than 200 organizations participate.",
+        "The current White House signatory page displays 281 listed organizations.",
+        "The White House claims coverage of 80% of delivered power and 263 million people.",
+        "The pledge is a public commitment; enforceability generally depends on state law, regulatory orders and contracts."
+      ],
+      "corrections": [],
+      "dek": "The administration says more than 200 organizations now participate in a voluntary framework intended to keep data-center infrastructure costs off ordinary electric bills.",
+      "desk": "technology",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "The White House",
+        "Donald Trump",
+        "Utilities",
+        "Data-center developers"
+      ],
+      "eventId": "event-ratepayer-protection-pledge",
+      "headline": "White House expands AI data-center ratepayer pledge, but enforcement remains the central question",
+      "id": "article-ai-data-center-ratepayer-protection-pledge-expands",
+      "leadImage": {
+        "alt": "President Trump and utility and data-center representatives standing before a Ratepayer Protection Pledge backdrop.",
+        "caption": "President Donald Trump and participants at a Ratepayer Protection Pledge event at the Environmental Protection Agency on July 23, 2026.",
+        "credit": "Official White House Photo by Joyce N. Boghosian",
+        "height": 900,
+        "rightsId": "ratepayer-pledge-0209",
+        "role": "lead",
+        "src": "/media/batch-01/ratepayer-pledge-0209/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-07-26T17:00:00Z",
+      "relatedArticleIds": [],
+      "retractionState": "current",
+      "revisionHistory": [
+        {
+          "at": "2026-07-26T17:00:00Z",
+          "summary": "Initial publication from owner-approved Batch 1 handoff.",
+          "version": 1
+        }
+      ],
+      "schemaVersion": "1.1.0",
+      "search": {
+        "description": "The administration says more than 200 organizations now participate in a voluntary framework intended to keep data-center infrastructure costs off ordinary electric bills.",
+        "index": true,
+        "title": "White House expands AI data-center ratepayer pledge, but enforcement remains the central question"
+      },
+      "section": "business",
+      "slug": "ai-data-center-ratepayer-protection-pledge-expands",
+      "social": {
+        "description": "The administration says more than 200 organizations now participate in a voluntary framework intended to keep data-center infrastructure costs off ordinary electric bills.",
+        "image": "/media/batch-01/ratepayer-pledge-0209/open-graph.webp",
+        "title": "White House expands AI data-center ratepayer pledge, but enforcement remains the central question"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Artificial intelligence",
+        "Data centers",
+        "Electricity rates",
+        "Utilities"
+      ],
+      "uncertainty": [
+        "Which commitments are legally enforceable for each signatory.",
+        "How service-territory and population coverage were calculated.",
+        "Whether project-specific tariffs cover generation and regional transmission costs.",
+        "What guarantees protect customers when projects are canceled or downsized.",
+        "Whether household and small-business rates actually remain unchanged."
+      ],
+      "updatedAt": "2026-07-26T17:00:00Z"
+    },
+    {
+      "articleType": "vote-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The House voted 214-208 on July 23 to direct the president to remove United States forces from hostilities with Iran, but a separate attempt to advance an Iran war-powers measure failed in the Senate less than two hours later.\n\nThe House resolution passed with all 210 Democrats who voted and four Republicans: Reps. Tom Barrett of Michigan, Warren Davidson of Ohio, Brian Fitzpatrick of Pennsylvania and Thomas Massie of Kentucky. Seven Republicans and two Democrats did not vote. The House’s independent member voted no.\n\nThe measure, H. Con. Res. 89, invokes Section 5(c) of the War Powers Resolution. It says the president should remove U.S. armed forces from hostilities with Iran that Congress has not authorized.\n\nThe House action did not order an immediate withdrawal. A concurrent resolution must be agreed to by both chambers, and the Senate did not act on the House measure Thursday.\n\nInstead, senators voted on a motion to discharge S.J. Res. 180 from the Foreign Relations Committee. That separate joint resolution also sought removal of U.S. forces from unauthorized hostilities with Iran. The motion failed 47-49, with four senators not voting.\n\nThe two votes produced a divided congressional record. A House majority opposed continuing the hostilities without specific authorization, while the Senate declined to bring its own measure to the floor through the attempted discharge.\n\nThe House Clerk recorded the House vote at 10:24 a.m. The Senate recorded its vote at 11:51 a.m.\n\nA concurrent resolution is not presented to the president for signature. A joint resolution would be presented to the president if it passed both chambers, creating the possibility of a veto and an override vote.\n\nThe distinction matters because Congress has argued for decades about how to enforce the War Powers Resolution against a president who disputes its interpretation. Section 5(c) refers to a concurrent resolution, but the Supreme Court’s 1983 decision in INS v. Chadha cast constitutional doubt on legislative-veto mechanisms that avoid presidential presentment. Congress later created expedited procedures for joint resolutions and bills directing removal of forces.\n\nThe House vote still carries political weight. It places 214 representatives on record against unauthorized hostilities and demonstrates that opposition is not entirely partisan. The four Republican votes supplied the margin of passage.\n\nThe Senate result shows the immediate legislative limit. Forty-seven senators voted to discharge the joint resolution, two fewer than the 49 who voted against the motion and four short of the 51 votes that would have constituted a full Senate majority.\n\nNeither vote cuts off military funding, enacts a binding prohibition on operations or resolves the administration’s claimed legal authority. Congress could still pursue appropriations restrictions, another joint resolution, a specific authorization for force or further oversight.\n\nFor now, the House and Senate have sent different messages: the House approved a removal directive, while the Senate blocked a procedural path for a separate measure.",
+      "bodyBlocks": [
+        {
+          "text": "The House voted 214-208 on July 23 to direct the president to remove United States forces from hostilities with Iran, but a separate attempt to advance an Iran war-powers measure failed in the Senate less than two hours later.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The House resolution passed with all 210 Democrats who voted and four Republicans: Reps. Tom Barrett of Michigan, Warren Davidson of Ohio, Brian Fitzpatrick of Pennsylvania and Thomas Massie of Kentucky. Seven Republicans and two Democrats did not vote. The House’s independent member voted no.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The measure, H. Con. Res. 89, invokes Section 5(c) of the War Powers Resolution. It says the president should remove U.S. armed forces from hostilities with Iran that Congress has not authorized.",
+          "type": "paragraph"
+        },
+        {
+          "caption": "Congressional votes on the Iran war-powers measures",
+          "columns": [
+            "Chamber",
+            "Action",
+            "Result"
+          ],
+          "rows": [
+            [
+              "House",
+              "Passed H. Con. Res. 89",
+              "214–208"
+            ],
+            [
+              "Senate",
+              "Rejected motion to discharge S.J. Res. 180",
+              "47–49"
+            ]
+          ],
+          "type": "table"
+        },
+        {
+          "text": "The House action did not order an immediate withdrawal. A concurrent resolution must be agreed to by both chambers, and the Senate did not act on the House measure Thursday.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Instead, senators voted on a motion to discharge S.J. Res. 180 from the Foreign Relations Committee. That separate joint resolution also sought removal of U.S. forces from unauthorized hostilities with Iran. The motion failed 47-49, with four senators not voting.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The two votes produced a divided congressional record. A House majority opposed continuing the hostilities without specific authorization, while the Senate declined to bring its own measure to the floor through the attempted discharge.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The House Clerk recorded the House vote at 10:24 a.m. The Senate recorded its vote at 11:51 a.m.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "First page of House Concurrent Resolution 89 directing removal of U.S. forces from hostilities with Iran.",
+          "caption": "The first page of H. Con. Res. 89, as passed by the House.",
+          "credit": "U.S. Congress via GovInfo",
+          "height": 900,
+          "rightsId": "hconres89-page1",
+          "sourceUrl": "https://www.govinfo.gov/app/details/BILLS-119hconres89eh",
+          "src": "/media/batch-01/hconres89-page1/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "A concurrent resolution is not presented to the president for signature. A joint resolution would be presented to the president if it passed both chambers, creating the possibility of a veto and an override vote.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The distinction matters because Congress has argued for decades about how to enforce the War Powers Resolution against a president who disputes its interpretation. Section 5(c) refers to a concurrent resolution, but the Supreme Court’s 1983 decision in INS v. Chadha cast constitutional doubt on legislative-veto mechanisms that avoid presidential presentment. Congress later created expedited procedures for joint resolutions and bills directing removal of forces.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The House vote still carries political weight. It places 214 representatives on record against unauthorized hostilities and demonstrates that opposition is not entirely partisan. The four Republican votes supplied the margin of passage.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Senate result shows the immediate legislative limit. Forty-seven senators voted to discharge the joint resolution, two fewer than the 49 who voted against the motion and four short of the 51 votes that would have constituted a full Senate majority.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Neither vote cuts off military funding, enacts a binding prohibition on operations or resolves the administration’s claimed legal authority. Congress could still pursue appropriations restrictions, another joint resolution, a specific authorization for force or further oversight.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For now, the House and Senate have sent different messages: the House approved a removal directive, while the Senate blocked a procedural path for a separate measure.",
+          "type": "paragraph"
+        },
+        {
+          "articleId": "article-what-house-iran-war-powers-vote-can-do",
+          "type": "related-story"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/house-iran-war-powers-vote-214-208/",
+      "citations": [
+        {
+          "id": "house-roll-call-282",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "U.S. House Clerk",
+          "title": "House Clerk roll call 282",
+          "url": "https://clerk.house.gov/Votes/2026282"
+        },
+        {
+          "id": "senate-roll-call-207",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "U.S. Senate",
+          "title": "Senate roll call 207",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00207.htm"
+        },
+        {
+          "id": "hconres89",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "GovInfo",
+          "title": "H. Con. Res. 89 as passed by House",
+          "url": "https://www.govinfo.gov/content/pkg/BILLS-119hconres89eh/pdf/BILLS-119hconres89eh.pdf"
+        },
+        {
+          "id": "war-powers-statute",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "GovInfo",
+          "title": "War Powers Resolution compilation",
+          "url": "https://www.govinfo.gov/content/pkg/COMPS-1508/pdf/COMPS-1508.pdf"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The House passed H. Con. Res. 89 by 214-208 on July 23, 2026.",
+        "Four Republicans and 210 Democrats voted yes in the House.",
+        "The Senate rejected a motion to discharge S.J. Res. 180 by 47-49 later that morning.",
+        "Neither vote by itself immediately terminated U.S. military operations.",
+        "The House and Senate votes concerned separate legislative vehicles."
+      ],
+      "corrections": [],
+      "dek": "Four Republicans joined every voting Democrat in the House, while the Senate rejected a procedural motion on a separate joint resolution 47-49.",
+      "desk": "congress",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. House of Representatives",
+        "U.S. Senate",
+        "Donald Trump"
+      ],
+      "eventId": "event-iran-war-powers-votes",
+      "headline": "House passes Iran war-powers resolution; Senate blocks separate measure hours later",
+      "id": "article-house-iran-war-powers-vote-214-208",
+      "leadImage": {
+        "alt": "Empty U.S. House chamber viewed from the gallery, with the Speaker’s rostrum and voting boards visible.",
+        "caption": "The chamber of the U.S. House of Representatives at the Capitol in Washington.",
+        "credit": "U.S. House of Representatives / Office of the Speaker",
+        "height": 900,
+        "rightsId": "house-chamber-2017",
+        "role": "lead",
+        "src": "/media/batch-01/house-chamber-2017/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Iran"
+      ],
+      "media": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-07-26T17:00:00Z",
+      "relatedArticleIds": [
+        "article-what-house-iran-war-powers-vote-can-do"
+      ],
+      "retractionState": "current",
+      "revisionHistory": [
+        {
+          "at": "2026-07-26T17:00:00Z",
+          "summary": "Initial publication from owner-approved Batch 1 handoff.",
+          "version": 1
+        }
+      ],
+      "schemaVersion": "1.1.0",
+      "search": {
+        "description": "Four Republicans joined every voting Democrat in the House, while the Senate rejected a procedural motion on a separate joint resolution 47-49.",
+        "index": true,
+        "title": "House passes Iran war-powers resolution; Senate blocks separate measure hours later"
+      },
+      "section": "politics",
+      "slug": "house-iran-war-powers-vote-214-208",
+      "social": {
+        "description": "Four Republicans joined every voting Democrat in the House, while the Senate rejected a procedural motion on a separate joint resolution 47-49.",
+        "image": "/media/batch-01/house-chamber-2017/open-graph.webp",
+        "title": "House passes Iran war-powers resolution; Senate blocks separate measure hours later"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Iran",
+        "War Powers Resolution",
+        "Congress",
+        "U.S. military operations"
+      ],
+      "uncertainty": [
+        "Whether the Senate will consider the House concurrent resolution or another war-powers measure.",
+        "The administration’s full legal theory for continuing hostilities.",
+        "Whether Congress will use appropriations restrictions or a specific authorization.",
+        "How courts would treat a dispute over Section 5(c) if a case reached them."
+      ],
+      "updatedAt": "2026-07-26T17:00:00Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Four Senate Democrats reintroduced a proposal July 22 that would create a new Supreme Court appointment every two years and limit participation in the Court’s appellate docket to the nine most recently appointed justices.\n\nSens. Sheldon Whitehouse of Rhode Island, Cory Booker of New Jersey, Richard Blumenthal of Connecticut and Alex Padilla of California announced the Supreme Court Biennial Appointments and Term Limits Act of 2026. Seven additional Democratic senators are listed as cosponsors in the draft released by Whitehouse’s office.\n\nThe proposal is commonly described as an 18-year term-limit bill, but its legal design is more specific. It would not remove a justice from federal judicial office after 18 years.\n\nInstead, only the nine most recently appointed justices who are available would hear cases within the Supreme Court’s appellate jurisdiction. Justices outside that group would continue to hear cases within the Court’s original jurisdiction and could perform other duties required by law.\n\nThe practical result would ordinarily give a justice 18 years on the full appellate docket if a new appointment occurs every two years.\n\nThe bill would require the president to nominate one Supreme Court justice within the first 120 days of the first and third years of a presidential term, subject to Senate confirmation.\n\nIt contains procedures for withdrawn or rejected nominations and for filling vacancies when fewer than nine justices remain.\n\nThe proposal would not take effect immediately. The draft says it would begin with the first full presidential term starting after enactment.\n\nSupporters say regular appointments would reduce the political stakes of unpredictable vacancies and prevent a single appointment from shaping the Court for several decades.\n\nThe constitutional argument is less settled than the sponsors’ announcement suggests.\n\nArticle III says federal judges hold their offices during good behavior, a foundation for life tenure unless a judge retires, resigns, dies or is removed through impeachment. The proposal attempts to preserve that tenure by leaving every justice in office while changing which justices hear appellate cases.\n\nThe Constitution also gives Congress authority to make exceptions and regulations concerning the Supreme Court’s appellate jurisdiction. The sponsors rely on that power to argue that Congress can structure participation in appellate cases without constitutionally removing a justice.\n\nOpponents are likely to argue that Congress cannot use its jurisdictional authority to achieve indirectly what would otherwise require a constitutional amendment, especially if the law effectively displaces a sitting justice from the Court’s central work.\n\nThat dispute has not been conclusively resolved by the Supreme Court. Similar reform proposals have been debated by scholars and lawmakers, but this specific statutory structure has not been tested through a final judgment.\n\nThe draft also raises operational questions. It would allow a justice who ordinarily hears only original-jurisdiction cases to substitute when an active-docket justice is unavailable because of disability, recusal or disqualification.\n\nThe measure does not guarantee that the Senate will confirm a nominee on schedule. It requires presidential appointments but cannot erase the Senate’s advice-and-consent power or political conflict over confirmation.\n\nThe proposal’s future is uncertain in the current Congress. The announcing senators are Democrats, and the release identifies no Republican sponsor.\n\nEven without immediate passage, the bill defines one of the principal statutory approaches to Supreme Court term limits: preserve formal life tenure, regularize appointments and use appellate jurisdiction to rotate the nine-justice active docket.",
+      "bodyBlocks": [
+        {
+          "text": "Four Senate Democrats reintroduced a proposal July 22 that would create a new Supreme Court appointment every two years and limit participation in the Court’s appellate docket to the nine most recently appointed justices.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Sens. Sheldon Whitehouse of Rhode Island, Cory Booker of New Jersey, Richard Blumenthal of Connecticut and Alex Padilla of California announced the Supreme Court Biennial Appointments and Term Limits Act of 2026. Seven additional Democratic senators are listed as cosponsors in the draft released by Whitehouse’s office.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The proposal is commonly described as an 18-year term-limit bill, but its legal design is more specific. It would not remove a justice from federal judicial office after 18 years.",
+          "type": "paragraph"
+        },
+        {
+          "caption": "Proposed Supreme Court appointment cycle",
+          "columns": [
+            "Stage",
+            "Proposal"
+          ],
+          "rows": [
+            [
+              "Regular appointments",
+              "One appointment in the first and third years of each presidential term"
+            ],
+            [
+              "Active service",
+              "18 years for a new justice"
+            ],
+            [
+              "After active service",
+              "Senior status with limited duties"
+            ],
+            [
+              "Transition",
+              "Existing justices move to senior status in order of service as new justices are appointed"
+            ]
+          ],
+          "type": "table"
+        },
+        {
+          "text": "Instead, only the nine most recently appointed justices who are available would hear cases within the Supreme Court’s appellate jurisdiction. Justices outside that group would continue to hear cases within the Court’s original jurisdiction and could perform other duties required by law.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The practical result would ordinarily give a justice 18 years on the full appellate docket if a new appointment occurs every two years.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The bill would require the president to nominate one Supreme Court justice within the first 120 days of the first and third years of a presidential term, subject to Senate confirmation.",
+          "type": "paragraph"
+        },
+        {
+          "text": "It contains procedures for withdrawn or rejected nominations and for filling vacancies when fewer than nine justices remain.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Official portrait of Senator Sheldon Whitehouse in a dark suit against a neutral background.",
+          "caption": "Sen. Sheldon Whitehouse of Rhode Island in his official Senate portrait.",
+          "credit": "U.S. Senate Photographic Studio",
+          "height": 900,
+          "rightsId": "sheldon-whitehouse-portrait-2019",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sheldon_Whitehouse,_official_portrait,_116th_congress.jpg",
+          "src": "/media/batch-01/sheldon-whitehouse-portrait-2019/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "The proposal would not take effect immediately. The draft says it would begin with the first full presidential term starting after enactment.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Supporters say regular appointments would reduce the political stakes of unpredictable vacancies and prevent a single appointment from shaping the Court for several decades.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The constitutional argument is less settled than the sponsors’ announcement suggests.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "First page of a Senate legislative draft proposing regular Supreme Court appointments and term limits.",
+          "caption": "The first page of the Supreme Court Biennial Appointments and Term Limits Act of 2026 draft.",
+          "credit": "U.S. Senate legislative draft",
+          "height": 900,
+          "rightsId": "batl-bill-page1",
+          "sourceUrl": "https://www.whitehouse.senate.gov/news/release/whitehouse-booker-blumenthal-padilla-reintroduce-supreme-court-term-limits-bill-to-restore-americans-trust-in-the-court/",
+          "src": "/media/batch-01/batl-bill-page1/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Article III says federal judges hold their offices during good behavior, a foundation for life tenure unless a judge retires, resigns, dies or is removed through impeachment. The proposal attempts to preserve that tenure by leaving every justice in office while changing which justices hear appellate cases.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Constitution also gives Congress authority to make exceptions and regulations concerning the Supreme Court’s appellate jurisdiction. The sponsors rely on that power to argue that Congress can structure participation in appellate cases without constitutionally removing a justice.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Opponents are likely to argue that Congress cannot use its jurisdictional authority to achieve indirectly what would otherwise require a constitutional amendment, especially if the law effectively displaces a sitting justice from the Court’s central work.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That dispute has not been conclusively resolved by the Supreme Court. Similar reform proposals have been debated by scholars and lawmakers, but this specific statutory structure has not been tested through a final judgment.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The draft also raises operational questions. It would allow a justice who ordinarily hears only original-jurisdiction cases to substitute when an active-docket justice is unavailable because of disability, recusal or disqualification.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The measure does not guarantee that the Senate will confirm a nominee on schedule. It requires presidential appointments but cannot erase the Senate’s advice-and-consent power or political conflict over confirmation.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The proposal’s future is uncertain in the current Congress. The announcing senators are Democrats, and the release identifies no Republican sponsor.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Even without immediate passage, the bill defines one of the principal statutory approaches to Supreme Court term limits: preserve formal life tenure, regularize appointments and use appellate jurisdiction to rotate the nine-justice active docket.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/senate-supreme-court-18-year-term-limits-bill/",
+      "citations": [
+        {
+          "id": "batl-release",
+          "publishedAt": "2026-07-22T12:00:00Z",
+          "publisher": "Office of Sen. Sheldon Whitehouse",
+          "title": "Supreme Court term-limits bill release",
+          "url": "https://www.whitehouse.senate.gov/news/release/whitehouse-booker-blumenthal-padilla-reintroduce-supreme-court-term-limits-bill-to-restore-americans-trust-in-the-court/"
+        },
+        {
+          "id": "batl-draft",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "U.S. Senate legislative draft",
+          "title": "Supreme Court Biennial Appointments and Term Limits Act draft",
+          "url": "https://www.whitehouse.senate.gov/wp-content/uploads/2026/07/SIL26A74.pdf"
+        },
+        {
+          "id": "article-iii",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "Congress.gov Constitution Annotated",
+          "title": "Article III, Section 1",
+          "url": "https://constitution.congress.gov/constitution/article-3/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Whitehouse, Booker, Blumenthal and Padilla announced the proposal July 22.",
+        "The draft calls for one appointment in the first and third years of each presidential term.",
+        "Only the nine most recently appointed available justices would hear appellate-jurisdiction cases.",
+        "Other justices would retain office and hear original-jurisdiction cases and perform other lawful duties.",
+        "The draft would take effect with the first full presidential term beginning after enactment."
+      ],
+      "corrections": [],
+      "dek": "The draft would limit appellate cases to the nine most recently appointed justices while allowing other justices to retain office and perform narrower duties.",
+      "desk": "courts",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Sheldon Whitehouse",
+        "Cory Booker",
+        "Richard Blumenthal",
+        "Alex Padilla",
+        "U.S. Supreme Court"
+      ],
+      "eventId": "event-supreme-court-term-limits-proposal",
+      "headline": "Senate Democrats reintroduce proposal for regular Supreme Court appointments and 18-year active terms",
+      "id": "article-senate-supreme-court-18-year-term-limits-bill",
+      "leadImage": {
+        "alt": "Front of the U.S. Supreme Court Building with its broad steps, columns and triangular pediment.",
+        "caption": "The U.S. Supreme Court Building in Washington.",
+        "credit": "Architect of the Capitol",
+        "height": 900,
+        "rightsId": "supreme-court-building-2011",
+        "role": "lead",
+        "src": "/media/batch-01/supreme-court-building-2011/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington",
+        "D.C."
+      ],
+      "media": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-07-26T17:00:00Z",
+      "relatedArticleIds": [],
+      "retractionState": "current",
+      "revisionHistory": [
+        {
+          "at": "2026-07-26T17:00:00Z",
+          "summary": "Initial publication from owner-approved Batch 1 handoff.",
+          "version": 1
+        }
+      ],
+      "schemaVersion": "1.1.0",
+      "search": {
+        "description": "The draft would limit appellate cases to the nine most recently appointed justices while allowing other justices to retain office and perform narrower duties.",
+        "index": true,
+        "title": "Senate Democrats reintroduce proposal for regular Supreme Court appointments and 18-year active terms"
+      },
+      "section": "politics",
+      "slug": "senate-supreme-court-18-year-term-limits-bill",
+      "social": {
+        "description": "The draft would limit appellate cases to the nine most recently appointed justices while allowing other justices to retain office and perform narrower duties.",
+        "image": "/media/batch-01/supreme-court-building-2011/open-graph.webp",
+        "title": "Senate Democrats reintroduce proposal for regular Supreme Court appointments and 18-year active terms"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Supreme Court",
+        "Judicial reform",
+        "Term limits",
+        "Senate"
+      ],
+      "uncertainty": [
+        "Whether the proposal will receive a formal bill number and committee action.",
+        "Whether Congress may enact this structure without a constitutional amendment.",
+        "How the Senate would handle missed or delayed confirmations.",
+        "How recusal and substitution procedures would work in practice.",
+        "Whether any Republican senators will support the proposal."
+      ],
+      "updatedAt": "2026-07-26T17:00:00Z"
+    },
+    {
+      "articleType": "executive-action",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Trump administration imposed new Section 301 tariffs on imports from 60 economies beginning July 24, using foreign governments’ treatment of forced-labor goods as the stated basis for duties generally set at 10% or 12.5%.\n\nThe Office of the U.S. Trade Representative announced final action July 23 after investigations that began in March. USTR says the process included two rounds of public hearings, more than 2,100 public comments and consultations with more than 45 governments.\n\nThe additional duties apply to covered products entered for consumption, or withdrawn from warehouse for consumption, at or after 12:01 a.m. Eastern time on July 24. The implementation notice includes a limited transit exception for goods already loaded and in final transit before that time if they enter by July 28.\n\nSeventeen economies receive the 10% rate: Argentina, Bangladesh, Cambodia, Canada, Ecuador, El Salvador, Guatemala, Honduras, India, Indonesia, Jordan, Malaysia, Mexico, Pakistan, Sri Lanka, Trinidad and Tobago and the United Kingdom.\n\nUSTR says those economies either have a forced-labor import prohibition, committed to adopt and enforce one through a reciprocal trade agreement or operate a partial regime that blocks some forced-labor goods.\n\nProducts from the European Union and Taiwan receive a special calculation intended to bring the combined most-favored-nation and Section 301 rate to 10% when the ordinary tariff is below 10%. Products already carrying an MFN rate of at least 10% receive no additional Section 301 duty under that calculation.\n\nJapan, South Korea and Switzerland receive a similar calculation using a 12.5% threshold. Other investigated economies generally face a 12.5% additional duty.\n\nThe action is broad, but it is not universal. USTR exempted informational materials, donations, accompanied baggage, articles already subject to Section 232 tariffs and specified products that the agency says present supply, disruption or effectiveness concerns. The legally controlling product lists appear in the notice’s annexes.\n\nThe administration describes the policy as pressure on trading partners that have not imposed and effectively enforced bans on imports made with forced labor.\n\nThat description does not mean every product imported from a covered economy has been found to involve forced labor. The duties apply by economy and tariff classification based on USTR’s findings about government policy and enforcement.\n\nThe action also creates a bargaining mechanism. A trading partner can receive more favorable treatment if it adopts or commits to enforce an import prohibition. USTR says Cambodia, Guatemala, Honduras, India, Sri Lanka and Trinidad and Tobago adopted prohibitions after the investigations began, while Jordan made a commitment through a reciprocal trade agreement.\n\nThe tariffs are collected from importers at the U.S. border. Foreign governments do not directly pay them. Importers may absorb the cost, pass it to customers, renegotiate contracts, shift suppliers or stop importing affected products.\n\nThe economic effect will depend heavily on the annexes. A headline rate says little about a particular product until its tariff classification, ordinary duty and exemption status are known.\n\nThe final notice also contemplates tariff-rate quotas for certain textile and apparel trade involving Bangladesh, Cambodia, Indonesia and Malaysia. Those provisions are intended to encourage the use of U.S. cotton and textile inputs.\n\nLegal and diplomatic disputes are likely to focus on whether USTR’s findings adequately support broad economy-wide duties, whether the remedy fits the identified practices and how the agency changes rates when a government reforms its import system.\n\nFor businesses and consumers, the immediate practical question is narrower: which products entered after July 24 now carry an additional duty, and who ultimately bears that cost?",
+      "bodyBlocks": [
+        {
+          "text": "The Trump administration imposed new Section 301 tariffs on imports from 60 economies beginning July 24, using foreign governments’ treatment of forced-labor goods as the stated basis for duties generally set at 10% or 12.5%.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Office of the U.S. Trade Representative announced final action July 23 after investigations that began in March. USTR says the process included two rounds of public hearings, more than 2,100 public comments and consultations with more than 45 governments.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The additional duties apply to covered products entered for consumption, or withdrawn from warehouse for consumption, at or after 12:01 a.m. Eastern time on July 24. The implementation notice includes a limited transit exception for goods already loaded and in final transit before that time if they enter by July 28.",
+          "type": "paragraph"
+        },
+        {
+          "caption": "USTR’s announced Section 301 tariff structure",
+          "columns": [
+            "Group",
+            "Announced rate"
+          ],
+          "rows": [
+            [
+              "Most covered economies",
+              "10%"
+            ],
+            [
+              "17 listed economies",
+              "Net MFN tariff below 10%, otherwise no extra Section 301 tariff"
+            ],
+            [
+              "Economies with an existing 10% Section 301 tariff",
+              "12.5% total Section 301 rate"
+            ]
+          ],
+          "type": "table"
+        },
+        {
+          "text": "Seventeen economies receive the 10% rate: Argentina, Bangladesh, Cambodia, Canada, Ecuador, El Salvador, Guatemala, Honduras, India, Indonesia, Jordan, Malaysia, Mexico, Pakistan, Sri Lanka, Trinidad and Tobago and the United Kingdom.",
+          "type": "paragraph"
+        },
+        {
+          "text": "USTR says those economies either have a forced-labor import prohibition, committed to adopt and enforce one through a reciprocal trade agreement or operate a partial regime that blocks some forced-labor goods.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Products from the European Union and Taiwan receive a special calculation intended to bring the combined most-favored-nation and Section 301 rate to 10% when the ordinary tariff is below 10%. Products already carrying an MFN rate of at least 10% receive no additional Section 301 duty under that calculation.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Japan, South Korea and Switzerland receive a similar calculation using a 12.5% threshold. Other investigated economies generally face a 12.5% additional duty.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "White nineteenth-century Winder Building at the corner of 17th and F Streets in Washington.",
+          "caption": "The Winder Building in Washington, home to the Office of the U.S. Trade Representative.",
+          "credit": "APK / Wikimedia Commons, CC BY 4.0",
+          "height": 900,
+          "rightsId": "winder-building-2026",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg",
+          "src": "/media/batch-01/winder-building-2026/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "The action is broad, but it is not universal. USTR exempted informational materials, donations, accompanied baggage, articles already subject to Section 232 tariffs and specified products that the agency says present supply, disruption or effectiveness concerns. The legally controlling product lists appear in the notice’s annexes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The administration describes the policy as pressure on trading partners that have not imposed and effectively enforced bans on imports made with forced labor.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That description does not mean every product imported from a covered economy has been found to involve forced labor. The duties apply by economy and tariff classification based on USTR’s findings about government policy and enforcement.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "First page of the USTR notice imposing Section 301 tariffs in 60 forced-labor investigations.",
+          "caption": "The opening page of USTR’s final Section 301 action covering 60 economies.",
+          "credit": "Office of the U.S. Trade Representative",
+          "height": 900,
+          "rightsId": "ustr-final-action-page1",
+          "sourceUrl": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations",
+          "src": "/media/batch-01/ustr-final-action-page1/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The action also creates a bargaining mechanism. A trading partner can receive more favorable treatment if it adopts or commits to enforce an import prohibition. USTR says Cambodia, Guatemala, Honduras, India, Sri Lanka and Trinidad and Tobago adopted prohibitions after the investigations began, while Jordan made a commitment through a reciprocal trade agreement.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The tariffs are collected from importers at the U.S. border. Foreign governments do not directly pay them. Importers may absorb the cost, pass it to customers, renegotiate contracts, shift suppliers or stop importing affected products.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The economic effect will depend heavily on the annexes. A headline rate says little about a particular product until its tariff classification, ordinary duty and exemption status are known.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The final notice also contemplates tariff-rate quotas for certain textile and apparel trade involving Bangladesh, Cambodia, Indonesia and Malaysia. Those provisions are intended to encourage the use of U.S. cotton and textile inputs.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Legal and diplomatic disputes are likely to focus on whether USTR’s findings adequately support broad economy-wide duties, whether the remedy fits the identified practices and how the agency changes rates when a government reforms its import system.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For businesses and consumers, the immediate practical question is narrower: which products entered after July 24 now carry an additional duty, and who ultimately bears that cost?",
+          "type": "paragraph"
+        },
+        {
+          "articleId": "article-what-is-section-301-trade-act",
+          "type": "related-story"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/trump-section-301-tariffs-60-economies/",
+      "citations": [
+        {
+          "id": "ustr-action",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "Office of the U.S. Trade Representative",
+          "title": "USTR final action press release",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
+        },
+        {
+          "id": "ustr-fact-sheet",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "Office of the U.S. Trade Representative",
+          "title": "USTR Section 301 action fact sheet",
+          "url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/july/fact-sheet-ustr-section-301-action-response-failure-60-economies-ban-imports-produced-forced-labor"
+        },
+        {
+          "id": "ustr-frn",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "Office of the U.S. Trade Representative",
+          "title": "Final action Federal Register prepublication notice",
+          "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/FLIP%20301%20Investigation%20Final%20Action%20FRN%207-23-26%20FINAL.pdf"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "USTR announced final action in 60 Section 301 investigations on July 23.",
+        "The additional duties generally took effect at 12:01 a.m. Eastern on July 24.",
+        "Seventeen economies receive a 10% rate.",
+        "Other economies generally receive 12.5%, with special net-MFN calculations for five major partners.",
+        "The notice includes product exemptions and a limited transit exception."
+      ],
+      "corrections": [],
+      "dek": "The Section 301 duties took effect July 24, generally at 10% or 12.5%, with product exemptions and special calculations for several major trading partners.",
+      "desk": "trade",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Office of the U.S. Trade Representative",
+        "Donald Trump"
+      ],
+      "eventId": "event-section-301-forced-labor-tariffs",
+      "headline": "Trump administration imposes new tariffs on imports from 60 economies",
+      "id": "article-trump-section-301-tariffs-60-economies",
+      "leadImage": {
+        "alt": "Container cranes lifting cargo from a ship at the Port of Savannah during evening light.",
+        "caption": "Containers are unloaded at the Port of Savannah in 2021.",
+        "credit": "CBP photo by Jerry Glaser",
+        "height": 900,
+        "rightsId": "port-savannah-2021",
+        "role": "lead",
+        "src": "/media/batch-01/port-savannah-2021/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Global"
+      ],
+      "media": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-07-26T17:00:00Z",
+      "relatedArticleIds": [
+        "article-what-is-section-301-trade-act"
+      ],
+      "retractionState": "current",
+      "revisionHistory": [
+        {
+          "at": "2026-07-26T17:00:00Z",
+          "summary": "Initial publication from owner-approved Batch 1 handoff.",
+          "version": 1
+        }
+      ],
+      "schemaVersion": "1.1.0",
+      "search": {
+        "description": "The Section 301 duties took effect July 24, generally at 10% or 12.5%, with product exemptions and special calculations for several major trading partners.",
+        "index": true,
+        "title": "Trump administration imposes new tariffs on imports from 60 economies"
+      },
+      "section": "business",
+      "slug": "trump-section-301-tariffs-60-economies",
+      "social": {
+        "description": "The Section 301 duties took effect July 24, generally at 10% or 12.5%, with product exemptions and special calculations for several major trading partners.",
+        "image": "/media/batch-01/port-savannah-2021/open-graph.webp",
+        "title": "Trump administration imposes new tariffs on imports from 60 economies"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Tariffs",
+        "Forced labor",
+        "Section 301",
+        "Trade"
+      ],
+      "uncertainty": [
+        "The product-level effect across thousands of tariff classifications.",
+        "Foreign retaliation or negotiated changes.",
+        "Judicial or administrative challenges.",
+        "How USTR will measure effective enforcement of foreign forced-labor import bans.",
+        "How much of the cost importers will pass to businesses and consumers."
+      ],
+      "updatedAt": "2026-07-26T17:00:00Z"
+    },
+    {
+      "articleType": "executive-action",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "President Donald Trump signed an executive order July 24 directing federal agencies to identify ways to pressure the Smithsonian Institution and ordering temporary signs on federal property used to approach the National Museum of American History.\n\nExecutive Order 14415 adopts the conclusions of a White House review that accuses Smithsonian leadership of presenting American history through an ideological framework. Those conclusions are the administration’s claims, not findings from an independent court or adjudicative body.\n\nThe order directs the Interior Department, Office of Management and Budget, General Services Administration and White House Domestic Policy Council to identify and use available legal authorities to advance the administration’s policy.\n\nThe listed mechanisms include statutes, regulations, executive actions, funding conditions and contract conditions.\n\nThe order separately directs the National Park Service to place temporary signs on NPS-maintained sidewalks, walkways and land used by visitors approaching the National Museum of American History.\n\nThe signs are supposed to tell visitors about the White House report, state that museum exhibits should be renovated and direct visitors to sources the administration considers accurate.\n\nThe order also calls for temporary signs or exhibits on Park Service property addressing the museum’s treatment of the 56 signers of the Declaration of Independence during the country’s 250th-anniversary year.\n\nThe Smithsonian is not an ordinary executive-branch department. Congress established it as an independent federal trust instrumentality. Its governing authority belongs to a 17-member Board of Regents that includes the chief justice, vice president, members of Congress and private citizens.\n\nThe board appoints the Smithsonian secretary and establishes major institutional policies. The president does not ordinarily supervise museum content in the same way the president directs a cabinet department.\n\nThe executive order therefore does not simply command the Smithsonian secretary to rewrite an exhibit. Instead, it tells executive agencies to use authorities they already possess and uses a more direct route where executive control is clearer: National Park Service property outside the museum.\n\nThat approach can produce disputes over appropriations, contracts, federal property and coercion. An agency may possess authority over a grant or contract without possessing authority to dictate scholarship. Whether a particular condition is lawful will depend on the statute, appropriation and agreement involved.\n\nThe Smithsonian’s Board of Regents has described the institution as nonpartisan and defended the secretary’s governing role. The board has also said it expects unbiased content and has directed leadership to report on changes.\n\nThe disagreement is therefore larger than a fight over one label. It concerns which institution defines historical neutrality, how executive agencies can use money and property to influence an independent federal institution and whether the administration can place its own interpretive message outside a museum it does not directly govern.\n\nThe order says implementation must comply with applicable law and remain subject to available appropriations. Those clauses leave agencies to determine which actions they believe are legally available.\n\nThe next meaningful developments will be the wording and placement of the signs, agency implementation plans, the Board of Regents’ response and any congressional or legal challenge.",
+      "bodyBlocks": [
+        {
+          "text": "President Donald Trump signed an executive order July 24 directing federal agencies to identify ways to pressure the Smithsonian Institution and ordering temporary signs on federal property used to approach the National Museum of American History.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Executive Order 14415 adopts the conclusions of a White House review that accuses Smithsonian leadership of presenting American history through an ideological framework. Those conclusions are the administration’s claims, not findings from an independent court or adjudicative body.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The order directs the Interior Department, Office of Management and Budget, General Services Administration and White House Domestic Policy Council to identify and use available legal authorities to advance the administration’s policy.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "smithsonian-eo",
+          "text": "Read Executive Order 14415, the order at the center of the dispute.",
+          "title": "Primary document",
+          "type": "source-callout"
+        },
+        {
+          "text": "The listed mechanisms include statutes, regulations, executive actions, funding conditions and contract conditions.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The order separately directs the National Park Service to place temporary signs on NPS-maintained sidewalks, walkways and land used by visitors approaching the National Museum of American History.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The signs are supposed to tell visitors about the White House report, state that museum exhibits should be renovated and direct visitors to sources the administration considers accurate.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The order also calls for temporary signs or exhibits on Park Service property addressing the museum’s treatment of the 56 signers of the Declaration of Independence during the country’s 250th-anniversary year.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Red sandstone Smithsonian Castle with towers, lawn, trees and visitors under a blue sky.",
+          "caption": "The Smithsonian Institution Building, known as the Castle, in Washington.",
+          "credit": "AgnosticPreachersKid / Wikimedia Commons, CC BY-SA 4.0",
+          "height": 900,
+          "rightsId": "smithsonian-castle-2019",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smithsonian_Castle_-_Washington,_D.C.jpg",
+          "src": "/media/batch-01/smithsonian-castle-2019/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "The Smithsonian is not an ordinary executive-branch department. Congress established it as an independent federal trust instrumentality. Its governing authority belongs to a 17-member Board of Regents that includes the chief justice, vice president, members of Congress and private citizens.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The board appoints the Smithsonian secretary and establishes major institutional policies. The president does not ordinarily supervise museum content in the same way the president directs a cabinet department.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The executive order therefore does not simply command the Smithsonian secretary to rewrite an exhibit. Instead, it tells executive agencies to use authorities they already possess and uses a more direct route where executive control is clearer: National Park Service property outside the museum.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That approach can produce disputes over appropriations, contracts, federal property and coercion. An agency may possess authority over a grant or contract without possessing authority to dictate scholarship. Whether a particular condition is lawful will depend on the statute, appropriation and agreement involved.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Smithsonian’s Board of Regents has described the institution as nonpartisan and defended the secretary’s governing role. The board has also said it expects unbiased content and has directed leadership to report on changes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The disagreement is therefore larger than a fight over one label. It concerns which institution defines historical neutrality, how executive agencies can use money and property to influence an independent federal institution and whether the administration can place its own interpretive message outside a museum it does not directly govern.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The order says implementation must comply with applicable law and remain subject to available appropriations. Those clauses leave agencies to determine which actions they believe are legally available.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The next meaningful developments will be the wording and placement of the signs, agency implementation plans, the Board of Regents’ response and any congressional or legal challenge.",
+          "type": "paragraph"
+        },
+        {
+          "articleId": "article-who-controls-smithsonian-board-regents",
+          "type": "related-story"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/trump-smithsonian-warning-signs-executive-order/",
+      "citations": [
+        {
+          "id": "smithsonian-eo",
+          "publishedAt": "2026-07-24T12:00:00Z",
+          "publisher": "The White House",
+          "title": "Executive Order 14415",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/07/restoring-trust-in-the-smithsonian-institution-e061/"
+        },
+        {
+          "id": "smithsonian-org",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "Smithsonian Institution",
+          "title": "Smithsonian organization",
+          "url": "https://www.si.edu/about/organization"
+        },
+        {
+          "id": "smithsonian-history",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "Smithsonian Institution",
+          "title": "Legal history of the Smithsonian",
+          "url": "https://www.si.edu/OGC/legalhistory"
+        },
+        {
+          "id": "smithsonian-regents",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "Smithsonian Institution",
+          "title": "Smithsonian Board of Regents",
+          "url": "https://www.si.edu/regents"
+        },
+        {
+          "id": "smithsonian-statement",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "Smithsonian Institution",
+          "title": "Smithsonian statement on governance and independence",
+          "url": "https://www.si.edu/newsdesk/releases/smithsonian-statement"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Trump signed Executive Order 14415 on July 24, 2026.",
+        "The order directs several executive agencies to identify and use available authorities.",
+        "It directs NPS to install temporary signs on approaches to the museum.",
+        "It calls for signs or exhibits addressing the Declaration’s 56 signers.",
+        "The Smithsonian is governed by a Board of Regents rather than managed as a cabinet department."
+      ],
+      "corrections": [],
+      "dek": "The executive order directs federal officials to use available funding, contract and property authorities and calls for temporary signs on approaches to the National Museum of American History.",
+      "desk": "white-house",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Donald Trump",
+        "Smithsonian Institution",
+        "National Museum of American History"
+      ],
+      "eventId": "event-smithsonian-executive-order",
+      "headline": "Trump orders agencies to pressure Smithsonian and install warning signs outside museum",
+      "id": "article-trump-smithsonian-warning-signs-executive-order",
+      "leadImage": {
+        "alt": "Exterior of the National Museum of American History, with banners, trees and plaza in front.",
+        "caption": "The Smithsonian’s National Museum of American History on the National Mall in Washington.",
+        "credit": "G. Edward Johnson / Wikimedia Commons, CC BY 4.0",
+        "height": 900,
+        "rightsId": "american-history-museum-2006",
+        "role": "lead",
+        "src": "/media/batch-01/american-history-museum-2006/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington",
+        "D.C."
+      ],
+      "media": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-07-26T17:00:00Z",
+      "relatedArticleIds": [
+        "article-who-controls-smithsonian-board-regents"
+      ],
+      "retractionState": "current",
+      "revisionHistory": [
+        {
+          "at": "2026-07-26T17:00:00Z",
+          "summary": "Initial publication from owner-approved Batch 1 handoff.",
+          "version": 1
+        }
+      ],
+      "schemaVersion": "1.1.0",
+      "search": {
+        "description": "The executive order directs federal officials to use available funding, contract and property authorities and calls for temporary signs on approaches to the National Museum of American History.",
+        "index": true,
+        "title": "Trump orders agencies to pressure Smithsonian and install warning signs outside museum"
+      },
+      "section": "politics",
+      "slug": "trump-smithsonian-warning-signs-executive-order",
+      "social": {
+        "description": "The executive order directs federal officials to use available funding, contract and property authorities and calls for temporary signs on approaches to the National Museum of American History.",
+        "image": "/media/batch-01/american-history-museum-2006/open-graph.webp",
+        "title": "Trump orders agencies to pressure Smithsonian and install warning signs outside museum"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Smithsonian",
+        "Museums",
+        "Executive power",
+        "American history"
+      ],
+      "uncertainty": [
+        "The final wording and location of the signs.",
+        "Which funding or contract conditions agencies will attempt to use.",
+        "Whether the Smithsonian or Regents will challenge implementation.",
+        "Whether Congress will respond through appropriations or oversight.",
+        "Whether litigation will follow."
+      ],
+      "updatedAt": "2026-07-26T17:00:00Z"
+    },
+    {
+      "articleType": "explainer",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Congress held two Iran war-powers votes on July 23. The House passed a concurrent resolution 214-208. The Senate rejected a motion to discharge a separate joint resolution 47-49.\n\nNeither event, standing alone, ordered the military to stop fighting.\n\nUnderstanding why requires separating the Constitution, the 1973 War Powers Resolution and the different forms of congressional action.\n\nThe Constitution gives Congress powers to declare war, fund the armed forces and make rules governing them. It names the president commander in chief. Presidents and Congress have disputed the boundary between those powers throughout the country’s history.\n\nCongress enacted the War Powers Resolution over President Richard Nixon’s veto in 1973. The statute was designed to require consultation and reporting and to create procedures for ending military action that lacks congressional authorization.\n\nThe law generally requires the president to report specified deployments within 48 hours. Section 5(b) then provides a 60-day termination framework, with a possible 30-day period for safe removal, unless Congress declares war, enacts a specific authorization, extends the deadline or is unable to meet because of an attack on the United States.\n\nThe House used Section 5(c), which says forces engaged in unauthorized hostilities shall be removed if Congress directs removal by concurrent resolution.\n\nA concurrent resolution must pass both chambers but is not presented to the president. The Senate did not approve the House resolution Thursday.\n\nThe Senate vote concerned a different device. S.J. Res. 180 is a joint resolution. If both chambers passed it, it would go to the president. The president could sign it or veto it, and Congress could override a veto only with two-thirds support in both chambers.\n\nThe Senate did not reach final passage. It rejected a motion to discharge the joint resolution from committee, preventing that procedural route from moving the measure forward.\n\nThe concurrent-resolution mechanism in Section 5(c) also carries a constitutional complication. In 1983, the Supreme Court held in INS v. Chadha that Congress generally could not exercise legislative power through a resolution that bypassed the Constitution’s bicameralism and presentment requirements. Chadha did not decide a War Powers Resolution case, but it cast doubt on the enforceability of Section 5(c)’s original design.\n\nCongress later created expedited procedures for joint resolutions and bills directing removal of forces. Those procedures preserve presidential presentment and the possibility of a veto.\n\nThe House vote nevertheless has practical significance. It shows that a majority of the chamber does not accept the hostilities as congressionally authorized. It can shape oversight, appropriations negotiations and the political cost of continuing operations.\n\nThe failed Senate motion also matters. It shows that opponents did not have enough votes to force the separate joint resolution out of committee through that procedure.\n\nCongress retains stronger tools than a one-chamber vote. It can prohibit the use of appropriated funds for specified operations, enact a binding joint resolution, pass a limited authorization for use of military force, impose reporting conditions or refuse future funding.\n\nEach option requires more agreement than the House demonstrated Thursday. A funding restriction or veto-proof measure would require durable majorities in both chambers.\n\nThe most accurate description of the current position is therefore narrow: the House approved a removal directive, the Senate blocked a procedural path for a separate joint resolution, and military operations did not automatically end.",
+      "bodyBlocks": [
+        {
+          "text": "Congress held two Iran war-powers votes on July 23. The House passed a concurrent resolution 214-208. The Senate rejected a motion to discharge a separate joint resolution 47-49.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Neither event, standing alone, ordered the military to stop fighting.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Understanding why requires separating the Constitution, the 1973 War Powers Resolution and the different forms of congressional action.",
+          "type": "paragraph"
+        },
+        {
+          "items": [
+            "The House concurrent resolution records the chamber’s removal directive.",
+            "The Senate would have to act for the concurrent resolution to clear Congress.",
+            "A joint resolution passed by both chambers would go to the president.",
+            "Congress can also use funding restrictions, authorization legislation and oversight."
+          ],
+          "type": "ordered-list"
+        },
+        {
+          "text": "The Constitution gives Congress powers to declare war, fund the armed forces and make rules governing them. It names the president commander in chief. Presidents and Congress have disputed the boundary between those powers throughout the country’s history.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Congress enacted the War Powers Resolution over President Richard Nixon’s veto in 1973. The statute was designed to require consultation and reporting and to create procedures for ending military action that lacks congressional authorization.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The law generally requires the president to report specified deployments within 48 hours. Section 5(b) then provides a 60-day termination framework, with a possible 30-day period for safe removal, unless Congress declares war, enacts a specific authorization, extends the deadline or is unable to meet because of an attack on the United States.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The House used Section 5(c), which says forces engaged in unauthorized hostilities shall be removed if Congress directs removal by concurrent resolution.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Rendered page of the War Powers Resolution showing Section 5 termination and removal provisions.",
+          "caption": "Section 5 of the War Powers Resolution, including the 60-day framework and congressional-removal provision.",
+          "credit": "U.S. Congress via GovInfo",
+          "height": 900,
+          "rightsId": "war-powers-section5-page",
+          "sourceUrl": "https://www.govinfo.gov/app/details/COMPS-1508",
+          "src": "/media/batch-01/war-powers-section5-page/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "A concurrent resolution must pass both chambers but is not presented to the president. The Senate did not approve the House resolution Thursday.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Senate vote concerned a different device. S.J. Res. 180 is a joint resolution. If both chambers passed it, it would go to the president. The president could sign it or veto it, and Congress could override a veto only with two-thirds support in both chambers.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Senate did not reach final passage. It rejected a motion to discharge the joint resolution from committee, preventing that procedural route from moving the measure forward.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The concurrent-resolution mechanism in Section 5(c) also carries a constitutional complication. In 1983, the Supreme Court held in INS v. Chadha that Congress generally could not exercise legislative power through a resolution that bypassed the Constitution’s bicameralism and presentment requirements. Chadha did not decide a War Powers Resolution case, but it cast doubt on the enforceability of Section 5(c)’s original design.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Congress later created expedited procedures for joint resolutions and bills directing removal of forces. Those procedures preserve presidential presentment and the possibility of a veto.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The House vote nevertheless has practical significance. It shows that a majority of the chamber does not accept the hostilities as congressionally authorized. It can shape oversight, appropriations negotiations and the political cost of continuing operations.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The failed Senate motion also matters. It shows that opponents did not have enough votes to force the separate joint resolution out of committee through that procedure.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Congress retains stronger tools than a one-chamber vote. It can prohibit the use of appropriated funds for specified operations, enact a binding joint resolution, pass a limited authorization for use of military force, impose reporting conditions or refuse future funding.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Each option requires more agreement than the House demonstrated Thursday. A funding restriction or veto-proof measure would require durable majorities in both chambers.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The most accurate description of the current position is therefore narrow: the House approved a removal directive, the Senate blocked a procedural path for a separate joint resolution, and military operations did not automatically end.",
+          "type": "paragraph"
+        },
+        {
+          "articleId": "article-house-iran-war-powers-vote-214-208",
+          "type": "related-story"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/what-house-iran-war-powers-vote-can-do/",
+      "citations": [
+        {
+          "id": "house-roll-call-282",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "U.S. House Clerk",
+          "title": "House Clerk roll call 282",
+          "url": "https://clerk.house.gov/Votes/2026282"
+        },
+        {
+          "id": "senate-roll-call-207",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "U.S. Senate",
+          "title": "Senate roll call 207",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00207.htm"
+        },
+        {
+          "id": "hconres89",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "GovInfo",
+          "title": "H. Con. Res. 89 as passed by House",
+          "url": "https://www.govinfo.gov/content/pkg/BILLS-119hconres89eh/pdf/BILLS-119hconres89eh.pdf"
+        },
+        {
+          "id": "war-powers-statute",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "GovInfo",
+          "title": "War Powers Resolution compilation",
+          "url": "https://www.govinfo.gov/content/pkg/COMPS-1508/pdf/COMPS-1508.pdf"
+        },
+        {
+          "id": "constitution-war-powers",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "Congress.gov Constitution Annotated",
+          "title": "Constitution Annotated: war powers",
+          "url": "https://constitution.congress.gov/browse/essay/ArtII-S2-C1-1-12/ALDE_00013474/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The War Powers Resolution establishes consultation, reporting and termination procedures.",
+        "Section 5(b) contains a general 60-day framework and possible 30-day removal period.",
+        "Section 5(c) refers to removal through a concurrent resolution.",
+        "A concurrent resolution is not presented to the president; a joint resolution is.",
+        "The Senate vote on July 23 was a failed motion to discharge a separate joint resolution."
+      ],
+      "corrections": [],
+      "dek": "The House approved a concurrent resolution and the Senate blocked a separate joint resolution. Neither event alone ends military operations.",
+      "desk": "explainers",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Congress",
+        "President of the United States"
+      ],
+      "eventId": "event-iran-war-powers-votes",
+      "headline": "What Congress’s Iran war-powers votes can - and cannot - do",
+      "id": "article-what-house-iran-war-powers-vote-can-do",
+      "leadImage": {
+        "alt": "Empty U.S. House chamber viewed from the gallery, with the Speaker’s rostrum and voting boards visible.",
+        "caption": "The chamber of the U.S. House of Representatives at the Capitol in Washington.",
+        "credit": "U.S. House of Representatives / Office of the Speaker",
+        "height": 900,
+        "rightsId": "house-chamber-2017",
+        "role": "lead",
+        "src": "/media/batch-01/house-chamber-2017/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Iran"
+      ],
+      "media": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-07-26T17:00:00Z",
+      "relatedArticleIds": [
+        "article-house-iran-war-powers-vote-214-208"
+      ],
+      "retractionState": "current",
+      "revisionHistory": [
+        {
+          "at": "2026-07-26T17:00:00Z",
+          "summary": "Initial publication from owner-approved Batch 1 handoff.",
+          "version": 1
+        }
+      ],
+      "schemaVersion": "1.1.0",
+      "search": {
+        "description": "The House approved a concurrent resolution and the Senate blocked a separate joint resolution. Neither event alone ends military operations.",
+        "index": true,
+        "title": "What Congress’s Iran war-powers votes can - and cannot - do"
+      },
+      "section": "politics",
+      "slug": "what-house-iran-war-powers-vote-can-do",
+      "social": {
+        "description": "The House approved a concurrent resolution and the Senate blocked a separate joint resolution. Neither event alone ends military operations.",
+        "image": "/media/batch-01/house-chamber-2017/open-graph.webp",
+        "title": "What Congress’s Iran war-powers votes can - and cannot - do"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "War Powers Resolution",
+        "Iran",
+        "Separation of powers"
+      ],
+      "uncertainty": [
+        "Whether Congress will pursue a funding prohibition or a new joint resolution.",
+        "Whether Section 5(c) would be judicially enforceable after INS v. Chadha.",
+        "Whether a court would reach the merits of a modern interbranch war-powers case.",
+        "What future reporting the administration will provide Congress."
+      ],
+      "updatedAt": "2026-07-26T17:00:00Z"
+    },
+    {
+      "articleType": "explainer",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Section 301 is one of the federal government’s main tools for responding to foreign trade practices that the United States considers unfair.\n\nIt is not a single tariff. It is an investigative and enforcement framework established by the Trade Act of 1974.\n\nThe Office of the U.S. Trade Representative can initiate an investigation into a foreign government’s act, policy or practice. USTR then determines whether the conduct violates a trade agreement or is unjustifiable, unreasonable or discriminatory and burdens or restricts U.S. commerce.\n\nIf the statutory conditions are met, the trade representative can take responsive action. Tariffs are one option. Other responses can include restrictions on services, suspension of trade-agreement benefits or negotiation of an agreement intended to eliminate the disputed practice.\n\nThe process matters because it produces an administrative record. USTR identifies the practice, publishes notices, accepts comments, consults affected governments, conducts hearings where required, issues findings and publishes the final action.\n\nThat record does not make the decision politically neutral or legally unassailable. The executive branch still defines the challenged practice, evaluates the evidence, connects it to U.S. commerce and selects the remedy.\n\nThe new forced-labor action illustrates the law’s breadth. USTR investigated 60 economies for failing to impose and effectively enforce restrictions on imports produced with forced labor. It concluded that the failures were unreasonable and burdened or restricted U.S. commerce.\n\nUSTR then imposed duties generally set at 10% or 12.5%, with exemptions and special calculations for several trading partners.\n\nThe United States has long prohibited imports produced wholly or partly with forced labor. USTR’s theory is that weak foreign import controls allow forced-labor goods to circulate through global markets, distort competition and undermine firms that avoid such production.\n\nThe remedy is not limited to a shipment shown to contain forced-labor inputs. It applies broadly to covered imports from an economy based on the agency’s findings about that government’s laws and enforcement.\n\nThat design raises several questions.\n\nHow closely must the remedy fit the challenged practice? A broad tariff affects lawful goods as well as suspect supply chains.\n\nHow will USTR decide that a government has improved enough to qualify for lower rates or removal?\n\nWhat evidence distinguishes effective enforcement from a prohibition that exists only on paper?\n\nHow do the new duties interact with ordinary tariffs, Section 232 measures, trade agreements and product exemptions?\n\nSection 301 has supported major trade actions for decades, including extensive tariffs on Chinese goods. Its flexibility makes it powerful. The same flexibility makes the quality of the investigation and the precision of the final notice especially important.\n\nReaders evaluating any Section 301 action should look for five things: the foreign practice USTR identifies; the evidence supporting the finding; the statutory category invoked; the remedy selected; and the process for modification or termination.\n\nThe tariff is charged to importers when covered goods enter the United States. It is not a bill sent to a foreign treasury. Who ultimately pays depends on contracts, market power, supply alternatives and pricing decisions throughout the distribution chain.\n\nSection 301 gives the administration leverage. It does not eliminate the need to ask whether the leverage is lawful, proportionate and likely to produce the stated result.",
+      "bodyBlocks": [
+        {
+          "text": "Section 301 is one of the federal government’s main tools for responding to foreign trade practices that the United States considers unfair.",
+          "type": "paragraph"
+        },
+        {
+          "text": "It is not a single tariff. It is an investigative and enforcement framework established by the Trade Act of 1974.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Office of the U.S. Trade Representative can initiate an investigation into a foreign government’s act, policy or practice. USTR then determines whether the conduct violates a trade agreement or is unjustifiable, unreasonable or discriminatory and burdens or restricts U.S. commerce.",
+          "type": "paragraph"
+        },
+        {
+          "items": [
+            "USTR investigates a foreign act, policy or practice.",
+            "The agency determines whether it is unreasonable or discriminatory and burdens U.S. commerce.",
+            "USTR proposes a response and takes public comment.",
+            "The agency issues a final action and may later modify it."
+          ],
+          "type": "ordered-list"
+        },
+        {
+          "text": "If the statutory conditions are met, the trade representative can take responsive action. Tariffs are one option. Other responses can include restrictions on services, suspension of trade-agreement benefits or negotiation of an agreement intended to eliminate the disputed practice.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The process matters because it produces an administrative record. USTR identifies the practice, publishes notices, accepts comments, consults affected governments, conducts hearings where required, issues findings and publishes the final action.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That record does not make the decision politically neutral or legally unassailable. The executive branch still defines the challenged practice, evaluates the evidence, connects it to U.S. commerce and selects the remedy.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The new forced-labor action illustrates the law’s breadth. USTR investigated 60 economies for failing to impose and effectively enforce restrictions on imports produced with forced labor. It concluded that the failures were unreasonable and burdened or restricted U.S. commerce.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "White nineteenth-century Winder Building at the corner of 17th and F Streets in Washington.",
+          "caption": "The Winder Building in Washington, home to the Office of the U.S. Trade Representative.",
+          "credit": "APK / Wikimedia Commons, CC BY 4.0",
+          "height": 900,
+          "rightsId": "winder-building-2026",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg",
+          "src": "/media/batch-01/winder-building-2026/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "USTR then imposed duties generally set at 10% or 12.5%, with exemptions and special calculations for several trading partners.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The United States has long prohibited imports produced wholly or partly with forced labor. USTR’s theory is that weak foreign import controls allow forced-labor goods to circulate through global markets, distort competition and undermine firms that avoid such production.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The remedy is not limited to a shipment shown to contain forced-labor inputs. It applies broadly to covered imports from an economy based on the agency’s findings about that government’s laws and enforcement.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "First page of the USTR notice imposing Section 301 tariffs in 60 forced-labor investigations.",
+          "caption": "The opening page of USTR’s final Section 301 action covering 60 economies.",
+          "credit": "Office of the U.S. Trade Representative",
+          "height": 900,
+          "rightsId": "ustr-final-action-page1",
+          "sourceUrl": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations",
+          "src": "/media/batch-01/ustr-final-action-page1/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "That design raises several questions.",
+          "type": "paragraph"
+        },
+        {
+          "text": "How closely must the remedy fit the challenged practice? A broad tariff affects lawful goods as well as suspect supply chains.",
+          "type": "paragraph"
+        },
+        {
+          "text": "How will USTR decide that a government has improved enough to qualify for lower rates or removal?",
+          "type": "paragraph"
+        },
+        {
+          "text": "What evidence distinguishes effective enforcement from a prohibition that exists only on paper?",
+          "type": "paragraph"
+        },
+        {
+          "text": "How do the new duties interact with ordinary tariffs, Section 232 measures, trade agreements and product exemptions?",
+          "type": "paragraph"
+        },
+        {
+          "text": "Section 301 has supported major trade actions for decades, including extensive tariffs on Chinese goods. Its flexibility makes it powerful. The same flexibility makes the quality of the investigation and the precision of the final notice especially important.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Readers evaluating any Section 301 action should look for five things: the foreign practice USTR identifies; the evidence supporting the finding; the statutory category invoked; the remedy selected; and the process for modification or termination.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The tariff is charged to importers when covered goods enter the United States. It is not a bill sent to a foreign treasury. Who ultimately pays depends on contracts, market power, supply alternatives and pricing decisions throughout the distribution chain.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Section 301 gives the administration leverage. It does not eliminate the need to ask whether the leverage is lawful, proportionate and likely to produce the stated result.",
+          "type": "paragraph"
+        },
+        {
+          "articleId": "article-trump-section-301-tariffs-60-economies",
+          "type": "related-story"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/what-is-section-301-trade-act/",
+      "citations": [
+        {
+          "id": "ustr-action",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "Office of the U.S. Trade Representative",
+          "title": "USTR final action press release",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
+        },
+        {
+          "id": "ustr-fact-sheet",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "Office of the U.S. Trade Representative",
+          "title": "USTR Section 301 action fact sheet",
+          "url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/july/fact-sheet-ustr-section-301-action-response-failure-60-economies-ban-imports-produced-forced-labor"
+        },
+        {
+          "id": "ustr-frn",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "Office of the U.S. Trade Representative",
+          "title": "Final action Federal Register prepublication notice",
+          "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/FLIP%20301%20Investigation%20Final%20Action%20FRN%207-23-26%20FINAL.pdf"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Section 301 is part of the Trade Act of 1974.",
+        "USTR may investigate foreign acts, policies or practices that burden or restrict U.S. commerce.",
+        "Available responses can include tariffs and other trade restrictions.",
+        "The forced-labor action followed notices, comments, consultations, hearings and findings.",
+        "Importers pay the tariff at entry, although economic costs can move through the supply chain."
+      ],
+      "corrections": [],
+      "dek": "The 1974 trade law gives USTR a process for investigating foreign practices and imposing a response, but it does not make every tariff immune from scrutiny.",
+      "desk": "explainers",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Office of the U.S. Trade Representative"
+      ],
+      "eventId": "event-section-301-forced-labor-tariffs",
+      "headline": "What Section 301 is, and why it matters for the new tariff regime",
+      "id": "article-what-is-section-301-trade-act",
+      "leadImage": {
+        "alt": "Container cranes lifting cargo from a ship at the Port of Savannah during evening light.",
+        "caption": "Containers are unloaded at the Port of Savannah in 2021.",
+        "credit": "CBP photo by Jerry Glaser",
+        "height": 900,
+        "rightsId": "port-savannah-2021",
+        "role": "lead",
+        "src": "/media/batch-01/port-savannah-2021/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-07-26T17:00:00Z",
+      "relatedArticleIds": [
+        "article-trump-section-301-tariffs-60-economies"
+      ],
+      "retractionState": "current",
+      "revisionHistory": [
+        {
+          "at": "2026-07-26T17:00:00Z",
+          "summary": "Initial publication from owner-approved Batch 1 handoff.",
+          "version": 1
+        }
+      ],
+      "schemaVersion": "1.1.0",
+      "search": {
+        "description": "The 1974 trade law gives USTR a process for investigating foreign practices and imposing a response, but it does not make every tariff immune from scrutiny.",
+        "index": true,
+        "title": "What Section 301 is, and why it matters for the new tariff regime"
+      },
+      "section": "business",
+      "slug": "what-is-section-301-trade-act",
+      "social": {
+        "description": "The 1974 trade law gives USTR a process for investigating foreign practices and imposing a response, but it does not make every tariff immune from scrutiny.",
+        "image": "/media/batch-01/port-savannah-2021/open-graph.webp",
+        "title": "What Section 301 is, and why it matters for the new tariff regime"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Section 301",
+        "Tariffs",
+        "Trade law",
+        "USTR"
+      ],
+      "uncertainty": [
+        "The scope of future judicial review of the new action.",
+        "USTR’s criteria for reducing or removing duties.",
+        "How foreign enforcement will be independently measured.",
+        "Product-level consumer and supply-chain effects."
+      ],
+      "updatedAt": "2026-07-26T17:00:00Z"
+    },
+    {
+      "articleType": "explainer",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Smithsonian Institution is federal, public, private and independent at the same time.\n\nThat unusual structure is central to understanding the Trump administration’s effort to influence the National Museum of American History.\n\nCongress created the Smithsonian in 1846 to administer the bequest of British scientist James Smithson for the increase and diffusion of knowledge. The institution describes itself as an independent federal trust instrumentality and a public-private partnership.\n\nIt is not a cabinet department and is not organized as a typical executive agency.\n\nIts governing authority belongs to a 17-member Board of Regents.\n\nThe chief justice of the United States and the vice president serve as ex officio Regents. Six members come from Congress: three senators and three representatives. Nine citizen Regents are appointed through joint resolutions of Congress signed by the president after nomination through the board’s process.\n\nThe board appoints the Smithsonian secretary, establishes major policies, oversees strategy and budgets and evaluates leadership.\n\nNo single branch therefore controls the institution cleanly.\n\nCongress created the Smithsonian, provides substantial appropriations and participates directly in governance.\n\nThe president signs the joint resolutions appointing citizen Regents, and the vice president sits on the board, but the president does not ordinarily appoint the Smithsonian secretary or manage museum exhibits as the head of a cabinet agency would.\n\nThe chief justice serves as chancellor, bringing the head of the judicial branch into the same governing arrangement.\n\nPrivate money matters too. The Smithsonian receives gifts, grants, research contracts and earned revenue in addition to federal appropriations.\n\nThis hybrid design was intended to support a national public mission while preserving institutional independence. It also creates multiple leverage points.\n\nCongress can legislate, investigate and use appropriations.\n\nThe Board of Regents governs the Smithsonian and appoints its secretary.\n\nExecutive agencies can affect contracts, implementation and surrounding federal property where they possess statutory authority.\n\nPrivate donors and partners can influence which projects are financially possible, though they do not possess formal governing power.\n\nTrump’s July 24 order reflects those limits. Rather than directly ordering the secretary to rewrite exhibits, it tells executive agencies to examine laws, regulations, contracts and funding. It also directs the National Park Service to place signs on NPS-maintained approaches to the museum.\n\nThat could produce competing messages side by side: Smithsonian exhibits under the institution’s authority and administration-approved warnings on adjacent federal property.\n\nThe order may also provoke disputes over whether agencies are applying funding or contract conditions lawfully and whether they are attempting to coerce an institution Congress designed to have independent governance.\n\nThe Smithsonian’s Board of Regents has defended the secretary’s authority and described the institution as nonpartisan. At the same time, it has directed leadership to set expectations for unbiased content and report on changes.\n\nBoth the administration and the board therefore claim to be protecting accuracy and nonpartisanship. They disagree about the substance of those terms and who has authority to enforce them.\n\nThe practical answer to who controls the Smithsonian is: several institutions do, in different ways.\n\nThe Regents govern it. Congress created and funds it. Executive agencies control some money, contracts and property. Courts can resolve legal disputes when a suitable case reaches them. Private supporters exert financial influence without final legal authority.\n\nThat divided structure is why the current confrontation will unfold through implementation, appropriations, governance and possibly litigation rather than through one presidential command.",
+      "bodyBlocks": [
+        {
+          "text": "The Smithsonian Institution is federal, public, private and independent at the same time.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That unusual structure is central to understanding the Trump administration’s effort to influence the National Museum of American History.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Congress created the Smithsonian in 1846 to administer the bequest of British scientist James Smithson for the increase and diffusion of knowledge. The institution describes itself as an independent federal trust instrumentality and a public-private partnership.",
+          "type": "paragraph"
+        },
+        {
+          "caption": "Smithsonian governance at a glance",
+          "columns": [
+            "Institutional actor",
+            "Role"
+          ],
+          "rows": [
+            [
+              "Board of Regents",
+              "Governs the Smithsonian and appoints the Secretary"
+            ],
+            [
+              "Secretary",
+              "Chief executive officer of the Institution"
+            ],
+            [
+              "Congress",
+              "Established the Institution and provides appropriations and oversight"
+            ],
+            [
+              "Executive branch",
+              "The vice president and chief justice serve as ex officio Regents; presidential directives can raise legal and governance questions"
+            ]
+          ],
+          "type": "table"
+        },
+        {
+          "text": "It is not a cabinet department and is not organized as a typical executive agency.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Its governing authority belongs to a 17-member Board of Regents.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The chief justice of the United States and the vice president serve as ex officio Regents. Six members come from Congress: three senators and three representatives. Nine citizen Regents are appointed through joint resolutions of Congress signed by the president after nomination through the board’s process.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The board appoints the Smithsonian secretary, establishes major policies, oversees strategy and budgets and evaluates leadership.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Exterior of the National Museum of American History, with banners, trees and plaza in front.",
+          "caption": "The Smithsonian’s National Museum of American History on the National Mall in Washington.",
+          "credit": "G. Edward Johnson / Wikimedia Commons, CC BY 4.0",
+          "height": 900,
+          "rightsId": "american-history-museum-2006",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:National_Museum_of_American_History_1.jpg",
+          "src": "/media/batch-01/american-history-museum-2006/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "No single branch therefore controls the institution cleanly.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Congress created the Smithsonian, provides substantial appropriations and participates directly in governance.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The president signs the joint resolutions appointing citizen Regents, and the vice president sits on the board, but the president does not ordinarily appoint the Smithsonian secretary or manage museum exhibits as the head of a cabinet agency would.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The chief justice serves as chancellor, bringing the head of the judicial branch into the same governing arrangement.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Private money matters too. The Smithsonian receives gifts, grants, research contracts and earned revenue in addition to federal appropriations.",
+          "type": "paragraph"
+        },
+        {
+          "text": "This hybrid design was intended to support a national public mission while preserving institutional independence. It also creates multiple leverage points.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Congress can legislate, investigate and use appropriations.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Board of Regents governs the Smithsonian and appoints its secretary.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Executive agencies can affect contracts, implementation and surrounding federal property where they possess statutory authority.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Private donors and partners can influence which projects are financially possible, though they do not possess formal governing power.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Trump’s July 24 order reflects those limits. Rather than directly ordering the secretary to rewrite exhibits, it tells executive agencies to examine laws, regulations, contracts and funding. It also directs the National Park Service to place signs on NPS-maintained approaches to the museum.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That could produce competing messages side by side: Smithsonian exhibits under the institution’s authority and administration-approved warnings on adjacent federal property.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The order may also provoke disputes over whether agencies are applying funding or contract conditions lawfully and whether they are attempting to coerce an institution Congress designed to have independent governance.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Smithsonian’s Board of Regents has defended the secretary’s authority and described the institution as nonpartisan. At the same time, it has directed leadership to set expectations for unbiased content and report on changes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Both the administration and the board therefore claim to be protecting accuracy and nonpartisanship. They disagree about the substance of those terms and who has authority to enforce them.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The practical answer to who controls the Smithsonian is: several institutions do, in different ways.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Regents govern it. Congress created and funds it. Executive agencies control some money, contracts and property. Courts can resolve legal disputes when a suitable case reaches them. Private supporters exert financial influence without final legal authority.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That divided structure is why the current confrontation will unfold through implementation, appropriations, governance and possibly litigation rather than through one presidential command.",
+          "type": "paragraph"
+        },
+        {
+          "articleId": "article-trump-smithsonian-warning-signs-executive-order",
+          "type": "related-story"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/who-controls-smithsonian-board-regents/",
+      "citations": [
+        {
+          "id": "smithsonian-eo",
+          "publishedAt": "2026-07-24T12:00:00Z",
+          "publisher": "The White House",
+          "title": "Executive Order 14415",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/07/restoring-trust-in-the-smithsonian-institution-e061/"
+        },
+        {
+          "id": "smithsonian-org",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "Smithsonian Institution",
+          "title": "Smithsonian organization",
+          "url": "https://www.si.edu/about/organization"
+        },
+        {
+          "id": "smithsonian-history",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "Smithsonian Institution",
+          "title": "Legal history of the Smithsonian",
+          "url": "https://www.si.edu/OGC/legalhistory"
+        },
+        {
+          "id": "smithsonian-regents",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "Smithsonian Institution",
+          "title": "Smithsonian Board of Regents",
+          "url": "https://www.si.edu/regents"
+        },
+        {
+          "id": "smithsonian-statement",
+          "publishedAt": "2026-07-26T17:00:00Z",
+          "publisher": "Smithsonian Institution",
+          "title": "Smithsonian statement on governance and independence",
+          "url": "https://www.si.edu/newsdesk/releases/smithsonian-statement"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Congress created the Smithsonian in 1846.",
+        "The Smithsonian describes itself as an independent federal trust instrumentality.",
+        "A 17-member Board of Regents governs the institution.",
+        "The board includes the chief justice, vice president, six members of Congress and nine citizen Regents.",
+        "The Regents appoint the Smithsonian secretary."
+      ],
+      "corrections": [],
+      "dek": "The institution receives federal money and includes national officeholders on its board, but it is not a normal executive agency under direct presidential control.",
+      "desk": "explainers",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Smithsonian Institution",
+        "Board of Regents"
+      ],
+      "eventId": "event-smithsonian-executive-order",
+      "headline": "Who actually controls the Smithsonian?",
+      "id": "article-who-controls-smithsonian-board-regents",
+      "leadImage": {
+        "alt": "Red sandstone Smithsonian Castle with towers, lawn, trees and visitors under a blue sky.",
+        "caption": "The Smithsonian Institution Building, known as the Castle, in Washington.",
+        "credit": "AgnosticPreachersKid / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "smithsonian-castle-2019",
+        "role": "lead",
+        "src": "/media/batch-01/smithsonian-castle-2019/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington",
+        "D.C."
+      ],
+      "media": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-07-26T17:00:00Z",
+      "relatedArticleIds": [
+        "article-trump-smithsonian-warning-signs-executive-order"
+      ],
+      "retractionState": "current",
+      "revisionHistory": [
+        {
+          "at": "2026-07-26T17:00:00Z",
+          "summary": "Initial publication from owner-approved Batch 1 handoff.",
+          "version": 1
+        }
+      ],
+      "schemaVersion": "1.1.0",
+      "search": {
+        "description": "The institution receives federal money and includes national officeholders on its board, but it is not a normal executive agency under direct presidential control.",
+        "index": true,
+        "title": "Who actually controls the Smithsonian?"
+      },
+      "section": "politics",
+      "slug": "who-controls-smithsonian-board-regents",
+      "social": {
+        "description": "The institution receives federal money and includes national officeholders on its board, but it is not a normal executive agency under direct presidential control.",
+        "image": "/media/batch-01/smithsonian-castle-2019/open-graph.webp",
+        "title": "Who actually controls the Smithsonian?"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Smithsonian governance",
+        "Executive power",
+        "Congress",
+        "Museums"
+      ],
+      "uncertainty": [
+        "How the Regents will respond to the July 24 executive order.",
+        "Which agency funding or contract authorities will be invoked.",
+        "How courts would characterize the Smithsonian in a specific dispute.",
+        "Whether Congress will alter funding or governance."
+      ],
+      "updatedAt": "2026-07-26T17:00:00Z"
+    }
+  ],
+  "compilerVersion": "1.1.0",
+  "generatedAt": "2026-07-26T17:00:00Z",
   "inputHashes": {
-    "sourceItems": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "claims": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "articles": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "approvals": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "approvals": "ce3797c6b5e753125cf46faff1b571c05f50248b2e25f0030aa31c0299d8e836",
+    "articles": "a24e79f52810490a57cbe27dac315a7b120c64e2b546380fc43f94ffc4319d6f",
+    "claims": "e50e89336f911916a2b0523351366927bbb661e5e75be92708170f1d273495bf",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "mediaRights": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    "events": "c81a9355d5d58170878ecaab266d7fdf191fa95d441d834fa28fcd862d339595",
+    "mediaRights": "b4fe2a46acde1fa2a218a72eccd8a67a1a1f34ea7f7a3501e8df2615e1d81b48",
+    "sourceItems": "01873cbdce82c54006c5ab072d1a9a214d2162226321277fcd7e6f98fe991cb7"
   },
-  "inventory": { "articleCount": 0, "routeCount": 0, "mediaCount": 0 },
-  "mediaRights": [],
-  "articles": [],
-  "packageDigest": "f89d73dbf38ea2d4cd6195466e244564e09b748261a0ab10a1208ee7cb287204"
+  "inventory": {
+    "articleCount": 8,
+    "mediaCount": 14,
+    "routeCount": 8
+  },
+  "mediaRights": [
+    {
+      "aiGenerated": false,
+      "altText": "Exterior of the National Museum of American History, with banners, trees and plaza in front.",
+      "archivalStatus": "current",
+      "attribution": "G. Edward Johnson / Wikimedia Commons, CC BY 4.0",
+      "caption": "The Smithsonian’s National Museum of American History on the National Mall in Washington.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "G. Edward Johnson",
+      "derivatives": [
+        {
+          "hash": "1099a3bc23e0054aa79f7b2f7aa694330eda3d85dcd8315df17692e3a4a3821a",
+          "height": 900,
+          "publicPath": "/media/batch-01/american-history-museum-2006/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9da2199c396d1d0c2fd166ab24ca54307c78bc1944db72f6efced93b4538fb44",
+          "height": 600,
+          "publicPath": "/media/batch-01/american-history-museum-2006/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6aea62c04b6d8847d3d4f46efaf993e8bfa934be7dd465e59f344dbfeb94c841",
+          "height": 1200,
+          "publicPath": "/media/batch-01/american-history-museum-2006/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "914810f5c1f39f65954edfdc1a3f8e05399ceba4299b964bfdcb24f4f68a261b",
+          "height": 900,
+          "publicPath": "/media/batch-01/american-history-museum-2006/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "102424fe618decaca1dd83c786f81cd8e3c220e90662edbed7dbcd15e4e34ac7",
+          "height": 720,
+          "publicPath": "/media/batch-01/american-history-museum-2006/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "31d3741fe36c6a49ea85dafb7efe82ee42a1560431fb92d77b3cb75ce602849c",
+          "height": 630,
+          "publicPath": "/media/batch-01/american-history-museum-2006/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2534cd11276497f0a324bf0dbb6dfa1d3d19e656d4117e96b7054022c0206965",
+          "height": 480,
+          "publicPath": "/media/batch-01/american-history-museum-2006/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "american-history-museum-2006",
+      "illustrationLabel": null,
+      "license": "Creative Commons Attribution 4.0 International",
+      "originalFileHash": "3328787408c208c927e36d810125491ec4bad84387fff0a2bbe07448b4140aaf",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Creative Commons Attribution 4.0 International",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:National_Museum_of_American_History_1.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "First page of a Senate legislative draft proposing regular Supreme Court appointments and term limits.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Senate legislative draft",
+      "caption": "The first page of the Supreme Court Biennial Appointments and Term Limits Act of 2026 draft.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "Office of Legislative Counsel / U.S. Senate",
+      "derivatives": [
+        {
+          "hash": "8ff98a5b0002694126e8fe04a8ef9dd2d9eccf3cdf697aca9509a443a9baed8a",
+          "height": 900,
+          "publicPath": "/media/batch-01/batl-bill-page1/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "114b093026507fe3e4a06c2408a0e0d79615d3b69bc19f061d03d3997965c182",
+          "height": 600,
+          "publicPath": "/media/batch-01/batl-bill-page1/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "110024f017aeaf8b0dfff4322d40f83ccd4e735766308b7709e2fc00cf9d2904",
+          "height": 1200,
+          "publicPath": "/media/batch-01/batl-bill-page1/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "bf87f05f0060da314e37570d5080f71e4de4a4305021aca6573928b9823e439e",
+          "height": 900,
+          "publicPath": "/media/batch-01/batl-bill-page1/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c72fe0a387b64f3f146ad38b2c9e14c6c51efb9c552144b9e90044281a37791f",
+          "height": 720,
+          "publicPath": "/media/batch-01/batl-bill-page1/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "76999f0c5d4fc257199d9b12f3ffc93b117e903ca320a362028f41b7b2edb6bf",
+          "height": 630,
+          "publicPath": "/media/batch-01/batl-bill-page1/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "6ca2c79d92e9d4f92afa729d0f7f5c967093cd1e33abd818fe0af31b8b1a44e8",
+          "height": 480,
+          "publicPath": "/media/batch-01/batl-bill-page1/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "batl-bill-page1",
+      "illustrationLabel": null,
+      "license": "Public domain - U.S. federal government document",
+      "originalFileHash": "a5629edb65f5b84cecf83c07e45ae3c0b0cf1fc36cf9754f80bff918eabc42ff",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Public domain - U.S. federal government document",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.whitehouse.senate.gov/news/release/whitehouse-booker-blumenthal-padilla-reintroduce-supreme-court-term-limits-bill-to-restore-americans-trust-in-the-court/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "First page of House Concurrent Resolution 89 directing removal of U.S. forces from hostilities with Iran.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Congress via GovInfo",
+      "caption": "The first page of H. Con. Res. 89, as passed by the House.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "U.S. Congress / Government Publishing Office",
+      "derivatives": [
+        {
+          "hash": "5b4c4625e43033e95989dcf06db154788d5056b588b135d23c592b8e2b923a44",
+          "height": 900,
+          "publicPath": "/media/batch-01/hconres89-page1/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b2c6a350c177200699067a61908de72b1ca1841a627d26c0c16bda9849949a5c",
+          "height": 600,
+          "publicPath": "/media/batch-01/hconres89-page1/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "38dc9a73045e7542caecd115f5e09c61a8b6510adfcd0672c3ec1bae564c32ef",
+          "height": 1200,
+          "publicPath": "/media/batch-01/hconres89-page1/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c23dddde6a37e57bdd553fa44e0b646920e29656d133fdb151204046923983f8",
+          "height": 900,
+          "publicPath": "/media/batch-01/hconres89-page1/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "62497ca2c99b3432ebffa1bb37476d89bb5b1bf31c2b0138b163e02306c20e70",
+          "height": 720,
+          "publicPath": "/media/batch-01/hconres89-page1/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "455bb386a53e44459ba8fba205659e2943f8342658bc459107f869e8658199b9",
+          "height": 630,
+          "publicPath": "/media/batch-01/hconres89-page1/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "9d1bfdf5d2479f3e146cdace0d70c134804054513af4edd0ae62010a24893edd",
+          "height": 480,
+          "publicPath": "/media/batch-01/hconres89-page1/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "hconres89-page1",
+      "illustrationLabel": null,
+      "license": "Public domain - U.S. federal government document",
+      "originalFileHash": "b257297ae62e323e361130930682baac1ac62c0d240d4554ffb4d6456580187c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Public domain - U.S. federal government document",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.govinfo.gov/app/details/BILLS-119hconres89eh"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Empty U.S. House chamber viewed from the gallery, with the Speaker’s rostrum and voting boards visible.",
+      "archivalStatus": "current",
+      "attribution": "U.S. House of Representatives / Office of the Speaker",
+      "caption": "The chamber of the U.S. House of Representatives at the Capitol in Washington.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "United States House of Representatives / Office of the Speaker of the House",
+      "derivatives": [
+        {
+          "hash": "9b7a6471af9525d417cb98d8504d0528e62cb12480a03347d6044225b63ab8f1",
+          "height": 900,
+          "publicPath": "/media/batch-01/house-chamber-2017/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "37bc2e28db91045efc6467bd7342baa9a6b0382fbcf2450919e91035beb2015b",
+          "height": 600,
+          "publicPath": "/media/batch-01/house-chamber-2017/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "91a277e1e4fd8ca4bfc5748ee3490b41cd631148c46f9f346a63d36dbb56aa60",
+          "height": 1200,
+          "publicPath": "/media/batch-01/house-chamber-2017/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "0988fe105ec4877ef54364929d84c546c2834efad6416002e9ba4029d7dea02f",
+          "height": 900,
+          "publicPath": "/media/batch-01/house-chamber-2017/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "50e71b25b826ed260f4417686894b6c1c212a3a4f65d510bc675fef0a3eb6478",
+          "height": 720,
+          "publicPath": "/media/batch-01/house-chamber-2017/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e8b288337284b369d878452275b5e0ac337554b71ea4af67095c0b156d3c5c8a",
+          "height": 630,
+          "publicPath": "/media/batch-01/house-chamber-2017/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "adfdf539748b343dea5880f2c949ab47b98b53389f255dfd9c868621b92eb15f",
+          "height": 480,
+          "publicPath": "/media/batch-01/house-chamber-2017/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "house-chamber-2017",
+      "illustrationLabel": null,
+      "license": "Public domain - U.S. federal government work",
+      "originalFileHash": "ad4e9f33da3b29c60ca07b0842c0015a83e9ec3de87c4b44a6f0ca2b69af3743",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Public domain - U.S. federal government work",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:United_States_House_of_Representatives_chamber.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Container cranes lifting cargo from a ship at the Port of Savannah during evening light.",
+      "archivalStatus": "current",
+      "attribution": "CBP photo by Jerry Glaser",
+      "caption": "Containers are unloaded at the Port of Savannah in 2021.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "Jerry Glaser / U.S. Customs and Border Protection",
+      "derivatives": [
+        {
+          "hash": "ef668fe5f5a94f9ea1c36288e4cb68dc57f27335b61beb04c4bfad4e7373e810",
+          "height": 900,
+          "publicPath": "/media/batch-01/port-savannah-2021/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2df8dd6dcaa1b58efa6a5f7e189f10e55e8f662401ac67d83068414d9ec96658",
+          "height": 600,
+          "publicPath": "/media/batch-01/port-savannah-2021/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "fa433253da9931429e3f5872cb523105881e70adf77ce1d83dfd47b9efd1c85e",
+          "height": 1200,
+          "publicPath": "/media/batch-01/port-savannah-2021/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "69e3dd172244b8984f89adb56bc2dd944371a75d1eaec87e4bd7c0c9035c1d21",
+          "height": 900,
+          "publicPath": "/media/batch-01/port-savannah-2021/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "108991f232d74f9d38ed77f1686d7ec94fc338a809fcb2ecaaa35e958fff981d",
+          "height": 720,
+          "publicPath": "/media/batch-01/port-savannah-2021/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3ae27b8cd56cbd82204b40c6a4e1a6539452561436c590cad63a2882c5601255",
+          "height": 630,
+          "publicPath": "/media/batch-01/port-savannah-2021/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2affd598a107afb2151475e6c3a39f43d8cfa675832ec33c0500986dd2f287c6",
+          "height": 480,
+          "publicPath": "/media/batch-01/port-savannah-2021/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "port-savannah-2021",
+      "illustrationLabel": null,
+      "license": "Public domain - U.S. Department of Homeland Security work",
+      "originalFileHash": "972d9e3cca822555e37bfb74650201b679960053632b36ae7c080ae4e2faaf53",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Public domain - U.S. Department of Homeland Security work",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Port_of_Savannah_-_2021.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "President Trump and utility and data-center representatives standing before a Ratepayer Protection Pledge backdrop.",
+      "archivalStatus": "current",
+      "attribution": "Official White House Photo by Joyce N. Boghosian",
+      "caption": "President Donald Trump and participants at a Ratepayer Protection Pledge event at the Environmental Protection Agency on July 23, 2026.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "Joyce N. Boghosian / The White House",
+      "derivatives": [
+        {
+          "hash": "c1e6dd14d78f261d6d5c0f71e36c9c2556d69ca5d949da36d119536dfd6a79b3",
+          "height": 900,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0209/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "92f71ee586b1d7e25afc6c4212ab69544060ebce00e4c6c78907cdad7a5aec96",
+          "height": 600,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0209/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "53f811c5a3e0e66b0fb11dd54ddd24e53cfa15af9aff4fd07d4f11282421d01f",
+          "height": 1200,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0209/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "517eef0cbb2fd89956c5bd1fa9bd6d166c50e942697ba772799131bb87cad9ee",
+          "height": 900,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0209/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "81a4009963a0ae3aff9a344858e362fb7bef5af1c3ff2428195a98bde689668d",
+          "height": 720,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0209/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5952a3bcd06a3c1d7360d80463589b66b6c07f38bc2fb0a2cd2e2c584420e30f",
+          "height": 630,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0209/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f1c193476210b34a429b4051b195cb94a6eaa3f26d01cfcbabcbb674f2378499",
+          "height": 480,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0209/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "ratepayer-pledge-0209",
+      "illustrationLabel": null,
+      "license": "Public domain - U.S. federal government work, subject to White House copyright policy",
+      "originalFileHash": "998c7dc6358962529ebe8fab9c1cb02ad4df67afb4f08306fad68e32ceb7b06c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Public domain - U.S. federal government work, subject to White House copyright policy",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.whitehouse.gov/gallery/president-donald-j-trump-attends-a-roundtable-on-a-ratepayer-protection-pledge-at-the-environmental-protection-agency/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "President Trump and several men applaud in front of a Ratepayer Protection Pledge backdrop.",
+      "archivalStatus": "current",
+      "attribution": "Official White House Photo by Joyce N. Boghosian",
+      "caption": "President Trump stands with participants during the July 23 Ratepayer Protection Pledge event.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "Joyce N. Boghosian / The White House",
+      "derivatives": [
+        {
+          "hash": "90d1af7aad9242f514cbc385e61b7792f2720e8f6d62efe134536a1d8bb3dff8",
+          "height": 900,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0226/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "df701f93bbb9b40ea1ac49da1323e12d8c865d35fb4f5117230101d1feee12c9",
+          "height": 600,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0226/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bbb45d389e50c4112674ff622af9ee807061ec95a6c855d7ddb56b22a6a608dc",
+          "height": 1200,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0226/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b6b9e26d5086f5a9a237d94c236634efaf1cac481a3162339a8db64f803915b7",
+          "height": 900,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0226/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4d4a4723b6500eb56bb58841001323be5a04816aca16a630c34f5eb28ca8ad39",
+          "height": 720,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0226/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "aeb7c316229ac56ef7f101ddf5d1f4e942cfe4c834cd66928c9dd6b485b564ea",
+          "height": 630,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0226/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3f511332c898e139360507d769340fefc93959cb6ebcb3a7f5b53f98f72cdf16",
+          "height": 480,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0226/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "ratepayer-pledge-0226",
+      "illustrationLabel": null,
+      "license": "Public domain - U.S. federal government work, subject to White House copyright policy",
+      "originalFileHash": "1377c1a5222248ea1515fb31f4cbb86355f7b8a0a91fafa69e4bc5acfe06351e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Public domain - U.S. federal government work, subject to White House copyright policy",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.whitehouse.gov/gallery/president-donald-j-trump-attends-a-roundtable-on-a-ratepayer-protection-pledge-at-the-environmental-protection-agency/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Black-and-white image of President Trump and other participants applauding at the pledge event.",
+      "archivalStatus": "current",
+      "attribution": "Official White House Photo by Joyce N. Boghosian",
+      "caption": "President Trump and event participants during the Ratepayer Protection Pledge event at EPA headquarters.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "Joyce N. Boghosian / The White House",
+      "derivatives": [
+        {
+          "hash": "ed008c06f639c80a2759b93a007fb2de83a46c54d669c127c733ea10f32e831e",
+          "height": 900,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0242/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "49a4e90db5117eeee7cfb87c2ede1651528cc08522f00cdd0396eb49544c3c1f",
+          "height": 600,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0242/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "adbfd471d21ef1e6e9d97e2c34f7d0193b1bc9d7fc20d29daba02ccb6c36a387",
+          "height": 1200,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0242/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "69928fe9df8fe1afa0467e849e773c332ca478ea5049c7f819f033e529acb725",
+          "height": 900,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0242/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5e99df9b6d6cd039a3be06a940ad1d61d508d4f7d36f2a12cf2aa829b6ea4232",
+          "height": 720,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0242/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7c203bb90fc19095c291d35bbff97864419dcc168dbabd8cd2c766ff167e3366",
+          "height": 630,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0242/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "edd50f90b876febe484c4c3728d38d8fe64ad209b009cbfc751b32261e8a355a",
+          "height": 480,
+          "publicPath": "/media/batch-01/ratepayer-pledge-0242/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "ratepayer-pledge-0242",
+      "illustrationLabel": null,
+      "license": "Public domain - U.S. federal government work, subject to White House copyright policy",
+      "originalFileHash": "39bf39ff06f84e9fec79fe73f8d5cd246e12781b803e189335b4c2d6f1a81337",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Public domain - U.S. federal government work, subject to White House copyright policy",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.whitehouse.gov/gallery/president-donald-j-trump-attends-a-roundtable-on-a-ratepayer-protection-pledge-at-the-environmental-protection-agency/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Official portrait of Senator Sheldon Whitehouse in a dark suit against a neutral background.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Senate Photographic Studio",
+      "caption": "Sen. Sheldon Whitehouse of Rhode Island in his official Senate portrait.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "United States Senate Photographic Studio",
+      "derivatives": [
+        {
+          "hash": "2ad47b446f94d6e18b52b3c2d21b07704d89bb6caf0858f3f1b736a219600d7f",
+          "height": 900,
+          "publicPath": "/media/batch-01/sheldon-whitehouse-portrait-2019/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "cf5e1f49f84e18e49be794f6b7e1c101608ec53a5639721fcf3a69f6bcdb9948",
+          "height": 600,
+          "publicPath": "/media/batch-01/sheldon-whitehouse-portrait-2019/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b788213e972d78f2e7629d6da4bb8f60440ee7582c80077603d034a4ed4c5f81",
+          "height": 1200,
+          "publicPath": "/media/batch-01/sheldon-whitehouse-portrait-2019/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b552589cf40fd36478aa082ac84c2ad6e0ddd740bd050f7304342d16d1a20684",
+          "height": 900,
+          "publicPath": "/media/batch-01/sheldon-whitehouse-portrait-2019/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "fb2d325c8474e9c5d23ee96cb9aab0013329874543324732bb4555108ecbcd81",
+          "height": 720,
+          "publicPath": "/media/batch-01/sheldon-whitehouse-portrait-2019/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f7d1af51a158fc6ed7990108d25b412303f79b35bd8daa1c6376ce0c6ac875b4",
+          "height": 630,
+          "publicPath": "/media/batch-01/sheldon-whitehouse-portrait-2019/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b0a4029b978f6cdb722ffcb0d02d13470bded101521a77b58a46f66dd4cf1d1d",
+          "height": 480,
+          "publicPath": "/media/batch-01/sheldon-whitehouse-portrait-2019/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "sheldon-whitehouse-portrait-2019",
+      "illustrationLabel": null,
+      "license": "Public domain - U.S. Congress work",
+      "originalFileHash": "6268f183dddd5b3632153add1568330c7ceee94f9e4d08829399e548db2a06db",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Public domain - U.S. Congress work",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sheldon_Whitehouse,_official_portrait,_116th_congress.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Red sandstone Smithsonian Castle with towers, lawn, trees and visitors under a blue sky.",
+      "archivalStatus": "current",
+      "attribution": "AgnosticPreachersKid / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "The Smithsonian Institution Building, known as the Castle, in Washington.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "AgnosticPreachersKid",
+      "derivatives": [
+        {
+          "hash": "09bdbbaea72f0ae69285743e5703d87017db01d37d0c53324325f0ec20b2594f",
+          "height": 900,
+          "publicPath": "/media/batch-01/smithsonian-castle-2019/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "428f9ec03b3d68c922928eb1a06921ccfb1bb24133f6753882c3b34fc4891844",
+          "height": 600,
+          "publicPath": "/media/batch-01/smithsonian-castle-2019/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8998b6d100cc806d00bfcbee806dd1caa24cb6e77e64fa5c7ba10f8fe32e42dd",
+          "height": 1200,
+          "publicPath": "/media/batch-01/smithsonian-castle-2019/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c7116dce09cf4de9d2a501c94fa00458d1408563f2ad0759ac856394afd8b372",
+          "height": 900,
+          "publicPath": "/media/batch-01/smithsonian-castle-2019/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2c49dad63b2c6c83635456c9ca8e07346d6f2a490ed72e06b98179928dbe1cfe",
+          "height": 720,
+          "publicPath": "/media/batch-01/smithsonian-castle-2019/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3a4de104070e5752ac5ae8e9abb9ebc53fa8bdd640c3a45d19d17838dbbe4474",
+          "height": 630,
+          "publicPath": "/media/batch-01/smithsonian-castle-2019/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "fdf842fe7ad56ec06a3d4c8e8d36b40dcd48d1ae1f27ced93c70c2864a13a427",
+          "height": 480,
+          "publicPath": "/media/batch-01/smithsonian-castle-2019/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "smithsonian-castle-2019",
+      "illustrationLabel": null,
+      "license": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "originalFileHash": "87f4aba592eca8fd3329c44079497e9d9bb017d5126a74f6714234160eb0b066",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 4.0 International",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smithsonian_Castle_-_Washington,_D.C.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Front of the U.S. Supreme Court Building with its broad steps, columns and triangular pediment.",
+      "archivalStatus": "current",
+      "attribution": "Architect of the Capitol",
+      "caption": "The U.S. Supreme Court Building in Washington.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "Architect of the Capitol",
+      "derivatives": [
+        {
+          "hash": "5fb831adae4ae1f50f0be8c06e79e03307e39c10a85e379d2a36943e3b37f5e2",
+          "height": 900,
+          "publicPath": "/media/batch-01/supreme-court-building-2011/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "de9ae7156e0cbf10ac422a6f06c5965cf8603c5d80ad3b8f98e0bfd27335e402",
+          "height": 600,
+          "publicPath": "/media/batch-01/supreme-court-building-2011/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0a3d278b952747b34aa1e4981f1f5d0637f192937d476e87970806d31df28ca8",
+          "height": 1200,
+          "publicPath": "/media/batch-01/supreme-court-building-2011/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "18236bdda3446ea337dad5c0831df75a0a450ed27dc0aeff04b39d5ebd6b31df",
+          "height": 900,
+          "publicPath": "/media/batch-01/supreme-court-building-2011/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "101458dcb731c20b8a26fd3a3d104beb03821503120f9d3f3ae6d6e5e82475ca",
+          "height": 720,
+          "publicPath": "/media/batch-01/supreme-court-building-2011/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1ba2d23a6f1d895f9f8b300378d6759788f54be00f35fbb7265823143cec6b93",
+          "height": 630,
+          "publicPath": "/media/batch-01/supreme-court-building-2011/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "ed5e9f503036822907b0837c4a32f5eabb43b820fc3c9db3da99be9fb47c67bc",
+          "height": 480,
+          "publicPath": "/media/batch-01/supreme-court-building-2011/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "supreme-court-building-2011",
+      "illustrationLabel": null,
+      "license": "Public domain - Architect of the Capitol work; editorial/news use; no endorsement",
+      "originalFileHash": "868af0da602653dacfc11c17fc8cc0e45e12138a7d4305ca579af30b82e9ec3c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Public domain - Architect of the Capitol work; editorial/news use; no endorsement",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_USCapitol_-_U.S._Supreme_Court_Building.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "First page of the USTR notice imposing Section 301 tariffs in 60 forced-labor investigations.",
+      "archivalStatus": "current",
+      "attribution": "Office of the U.S. Trade Representative",
+      "caption": "The opening page of USTR’s final Section 301 action covering 60 economies.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "Office of the U.S. Trade Representative",
+      "derivatives": [
+        {
+          "hash": "795964eb0b20757a133a0f2b3a5e1dc21ba8864df8b166dee121df362011c388",
+          "height": 900,
+          "publicPath": "/media/batch-01/ustr-final-action-page1/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "45cff0adb7d6f37b57b766437466c8da3eb5878956df50672073745c521a0707",
+          "height": 600,
+          "publicPath": "/media/batch-01/ustr-final-action-page1/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6804672d3b980a38d03b9e98dc92548cee7cfd6ba52eb4a2663ddc6fb9704f32",
+          "height": 1200,
+          "publicPath": "/media/batch-01/ustr-final-action-page1/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "36befe158a2ba4370aa2fc6bcd37cb7fa70c95360038018c0ddb20c31196d00c",
+          "height": 900,
+          "publicPath": "/media/batch-01/ustr-final-action-page1/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c188c12e7205e5c3aad5d15a4f50c5408ada3675d7c41c3debfee01ff1d4ce85",
+          "height": 720,
+          "publicPath": "/media/batch-01/ustr-final-action-page1/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "78ac82915b8351e3fe254d40804268984e86c7ba9e192ded58f85c52c6d47fd8",
+          "height": 630,
+          "publicPath": "/media/batch-01/ustr-final-action-page1/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e3ddf61d8f94daa64df033686627b6d30ac03fdc5bb51a831524d642b8d4aabb",
+          "height": 480,
+          "publicPath": "/media/batch-01/ustr-final-action-page1/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "ustr-final-action-page1",
+      "illustrationLabel": null,
+      "license": "Public domain - U.S. federal government document",
+      "originalFileHash": "a53b4c2445945b4d07da4610868f042119e1bc0b1a5895f91372d02e4dde6bb0",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Public domain - U.S. federal government document",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Rendered page of the War Powers Resolution showing Section 5 termination and removal provisions.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Congress via GovInfo",
+      "caption": "Section 5 of the War Powers Resolution, including the 60-day framework and congressional-removal provision.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "U.S. Congress / Government Publishing Office",
+      "derivatives": [
+        {
+          "hash": "94b7bef74dc2f519fe2597dc59949037a06394c2f6747d70cda36791aa0d381e",
+          "height": 900,
+          "publicPath": "/media/batch-01/war-powers-section5-page/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6f5bcc1ee5db526e9a58fb691dc0d9099bbfc5c289007167304fa5171af6a560",
+          "height": 600,
+          "publicPath": "/media/batch-01/war-powers-section5-page/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "74b01280af56200631fd737c6923291efea6acca3ba01adb9514120e3a5e49b6",
+          "height": 1200,
+          "publicPath": "/media/batch-01/war-powers-section5-page/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b4ab4e069d8f7bd99b2091c18103ef43a20cec449d941cecbd7483e14f69763f",
+          "height": 900,
+          "publicPath": "/media/batch-01/war-powers-section5-page/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "46696f6f0fa6374dd1ce7bc1b78c31657263fa0b1baac3ca72389691eafa61ec",
+          "height": 720,
+          "publicPath": "/media/batch-01/war-powers-section5-page/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a0c18574a2521449d6b1f2d22b3e745dd26864f2480d5cf0fc44adde33bbc49d",
+          "height": 630,
+          "publicPath": "/media/batch-01/war-powers-section5-page/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1b204e8603278edd8b314f52c4636527ad4067662b96ebd106afd4395fce49e2",
+          "height": 480,
+          "publicPath": "/media/batch-01/war-powers-section5-page/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "war-powers-section5-page",
+      "illustrationLabel": null,
+      "license": "Public domain - U.S. federal government document",
+      "originalFileHash": "7637f8c2c6c1abcea2cc7c60d7fc523de98d24f20fde89a99db1437a8953c432",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Public domain - U.S. federal government document",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.govinfo.gov/app/details/COMPS-1508"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "White nineteenth-century Winder Building at the corner of 17th and F Streets in Washington.",
+      "archivalStatus": "current",
+      "attribution": "APK / Wikimedia Commons, CC BY 4.0",
+      "caption": "The Winder Building in Washington, home to the Office of the U.S. Trade Representative.",
+      "contextNotes": {
+        "misleading": false
+      },
+      "creator": "APK",
+      "derivatives": [
+        {
+          "hash": "f6de1f233aa2aeb33caf410e6bcbf2185cb4377657a5262976d913a21032bbfa",
+          "height": 900,
+          "publicPath": "/media/batch-01/winder-building-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6794b5662e7c55b05ae419fdc680f90d61065de5357906c65bbd8a39caff9b1a",
+          "height": 600,
+          "publicPath": "/media/batch-01/winder-building-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "708511e56129ddbf53e9630983ec345b7ffe8ea3bb327527521632bc308c3e98",
+          "height": 1200,
+          "publicPath": "/media/batch-01/winder-building-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "15cefc77243084a8e78914be04ac478ba35b67e7edcc702d1c473fd72c94fd2d",
+          "height": 900,
+          "publicPath": "/media/batch-01/winder-building-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "bc6a51f80264b7a790ecd1f8407b0bf2784ce7d026ddae280ae06be57f56e9ca",
+          "height": 720,
+          "publicPath": "/media/batch-01/winder-building-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b77127a31cfe8666d1a4ca43ab5751343e467b123625d4517dc67c2d44ba1ee0",
+          "height": 630,
+          "publicPath": "/media/batch-01/winder-building-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d98f96485292c6da30a36f6c035006c7cd30209d7efc2f906a8f47a85fa9e73b",
+          "height": 480,
+          "publicPath": "/media/batch-01/winder-building-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "winder-building-2026",
+      "illustrationLabel": null,
+      "license": "Creative Commons Attribution 4.0 International",
+      "originalFileHash": "56d990f10b0412c01c100d995eca84f85467e4752594f84efc8bce0ce0413f4d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-07-26T16:00:00Z",
+      "rightsBasis": "Creative Commons Attribution 4.0 International",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
+    }
+  ],
+  "packageDigest": "f9defaee80cf93300011a350404ab5b4e839d29a7a33db60453352f940d32573",
+  "schemaVersion": "1.1.0",
+  "site": "https://bohonews.com"
 }

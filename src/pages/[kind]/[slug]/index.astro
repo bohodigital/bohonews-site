@@ -20,15 +20,21 @@ export const getStaticPaths = (() => {
       props:{kind,label,list:articles.filter((article) => select(article).includes(label))}
     }));
   });
-  const editorial = [
+  const editorialDefinitions = [
     ["politics","white-house","White House"],["politics","congress","Congress"],["politics","elections","Elections"],
-    ["politics","campaign-finance","Campaign Finance"],["crime-justice","courts","Courts"],
+    ["politics","campaign-finance","Campaign Finance"],["politics","explainers","Explainers"],
+    ["business","trade","Trade"],["business","technology","Technology"],["business","explainers","Explainers"],
+    ["politics","courts","Courts"],["crime-justice","courts","Courts"],
     ["crime-justice","policing","Policing"],["crime-justice","major-cases","Major Cases"],
     ["weather-climate","severe-weather","Severe Weather"],["weather-climate","hurricanes","Hurricanes"],
     ["weather-climate","wildfires","Wildfires"],["weather-climate","climate","Climate"],
     ["world","europe","Europe"],["world","middle-east","Middle East"],["world","africa","Africa"],
     ["world","asia","Asia"],["world","americas","Americas"]
-  ].map(([kind,slug,label]) => ({params:{kind,slug},props:{kind,label,list:[]}}));
+  ];
+  const editorial = editorialDefinitions.map(([kind,slug,label]) => ({
+    params:{kind,slug},
+    props:{kind,label,list:articles.filter((article) => article.section === kind && article.desk === slug)}
+  }));
   return [...discovery,...editorial];
 }) satisfies GetStaticPaths;
 const { kind, label, list } = Astro.props;

@@ -8,6 +8,23 @@ test("article page emits canonical, NewsArticle data, correction and update UI",
   assert.match(page,/canonical=\{article\.canonicalUrl\}/);
   assert.match(page,/article\.corrections/);
   assert.match(page,/updatedAt/);
+  assert.match(page,/ArticleBody/);
+  assert.match(page,/confirmedFactsSummary/);
+});
+
+test("production homepage uses governed timestamps and real lead media", async () => {
+  const page = await readFile(new URL("../src/pages/index.astro", import.meta.url),"utf8");
+  assert.match(page,/lead\.leadImage/);
+  assert.match(page,/formatTimestamp\(lead\.updatedAt\)/);
+  assert.match(page,/fixturesEnabled && <a class="breaking-strip"/);
+  assert.doesNotMatch(page,/Synthetic dominant lead visual/);
+});
+
+test("structured article body renders evidence media, tables, callouts and related coverage", async () => {
+  const component = await readFile(new URL("../src/components/ArticleBody.astro", import.meta.url),"utf8");
+  for (const marker of ["official-document-render","article-data-module","source-callout","related-story","View source"]) {
+    assert.match(component,new RegExp(marker));
+  }
 });
 
 test("site metadata exposes valid local-search structured data", async () => {

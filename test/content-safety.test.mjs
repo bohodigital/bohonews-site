@@ -12,12 +12,17 @@ test("content validator rejects executable HTML and executes schema plus digest 
   for (const pattern of ["<script","javascript:","<iframe","<object","<embed","Ajv2020","Promotion digest mismatch","Release manifest does not exactly bind"]) assert.match(validator,new RegExp(pattern.replace(/[<>]/g,"\\$&"),"i"));
 });
 
-test("production promotion is empty, public-only, digest-valid, and release-bound", async () => {
+test("Batch 1 promotion is public-only, digest-valid, media-bound, and release-bound", async () => {
   const promotion = JSON.parse(await readFile(new URL("../src/publishing/public-news-promotion-package.v1.json", import.meta.url),"utf8"));
   const release = JSON.parse(await readFile(new URL("../public-news-release.v1.json", import.meta.url),"utf8"));
   const schema = JSON.parse(await readFile(new URL("../schemas/public-news-promotion-package.v1.schema.json", import.meta.url),"utf8"));
-  assert.equal(promotion.inventory.articleCount, 0);
-  assert.equal(promotion.articles.length, 0);
+  assert.equal(promotion.inventory.articleCount, 8);
+  assert.equal(promotion.articles.length, 8);
+  assert.equal(promotion.inventory.mediaCount, 14);
+  assert.equal(promotion.mediaRights.length, 14);
+  assert.ok(promotion.articles.every((article) => article.leadImage && article.bodyBlocks.length > 0));
+  assert.ok(promotion.mediaRights.every((media) => media.aiGenerated === false && media.illustrationLabel === null));
+  assert.equal(promotion.mediaRights.reduce((count, media) => count + media.derivatives.length, 0), 98);
   assert.equal(release.packageDigest, promotion.packageDigest);
   assert.equal(validatePublicState(promotion,release,schema).packageDigest,promotion.packageDigest);
   const tampered = structuredClone(promotion);
