@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0.0",
+  "compilerVersion": "1.0.0",
+  "generatedAt": "2026-07-25T00:00:00Z",
+  "site": "https://bohonews.com",
+  "inputHashes": {
+    "sourceItems": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "events": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "claims": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "articles": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "approvals": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "mediaRights": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "inventory": { "articleCount": 0, "routeCount": 0, "mediaCount": 0 },
+  "mediaRights": [],
+  "articles": [],
+  "packageDigest": "f89d73dbf38ea2d4cd6195466e244564e09b748261a0ab10a1208ee7cb287204"
+}

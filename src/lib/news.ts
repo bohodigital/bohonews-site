@@ -1,5 +1,5 @@
-import release from "../data/public-news-promotion-package.v1.json";
-import { previewFixtures } from "../data/preview-fixtures";
+import release from "../publishing/public-news-promotion-package.v1.json";
+import { previewFixtures } from "../publishing/preview-fixtures";
 
 export type Correction = {
   id: string; type: string; notice: string; effectiveAt: string;

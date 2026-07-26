@@ -2,6 +2,7 @@
 import type { GetStaticPaths } from "astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { articleJsonLd, articles, fixturesEnabled, formatTimestamp } from "../../lib/news";
+import { jsonForHtml } from "../../lib/json-for-html.mjs";
 
 export const getStaticPaths = (async () => {
   return articles.map((article) => ({
@@ -29,10 +30,12 @@ const jsonLd = articleJsonLd(article);
     {article.articleType === "developing-story" && <aside class="notice developing"><strong>Developing story</strong><p>This package is configured to show substantial updates and unresolved questions.</p></aside>}
     {article.corrections.map((correction) => <aside class="notice correction"><strong>{correction.type.replaceAll("-", " ")}</strong><p>{correction.notice}</p><time datetime={correction.effectiveAt}>{formatTimestamp(correction.effectiveAt)}</time></aside>)}
     {article.leadImage && <figure><img src={article.leadImage.src} alt={article.leadImage.alt ?? ""} width={article.leadImage.width} height={article.leadImage.height} loading="eager" /><figcaption>{article.leadImage.caption} {article.leadImage.credit}</figcaption></figure>}
-    <div class="article-body"><p>{article.body}</p></div>
-    {article.uncertainty.length > 0 && <section class="evidence-block"><h2>What remains unresolved</h2><ul>{article.uncertainty.map((item) => <li>{item}</li>)}</ul></section>}
-    <section class="evidence-block"><h2>Sources</h2><ol>{article.citations.map((source) => <li><a href={source.url} rel="noopener noreferrer">{source.title}</a> — {source.publisher}</li>)}</ol></section>
-    <section class="evidence-block"><h2>Revision history</h2><ol>{article.revisionHistory.map((revision) => <li><time datetime={revision.at}>{formatTimestamp(revision.at)}</time>: {revision.summary}</li>)}</ol></section>
-    <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    {article.retractionState === "current" && <>
+      <div class="article-body"><p>{article.body}</p></div>
+      {article.uncertainty.length > 0 && <section class="evidence-block"><h2>What remains unresolved</h2><ul>{article.uncertainty.map((item) => <li>{item}</li>)}</ul></section>}
+      <section class="evidence-block"><h2>Sources</h2><ol>{article.citations.map((source) => <li><a href={source.url} rel="noopener noreferrer">{source.title}</a> — {source.publisher}</li>)}</ol></section>
+      <section class="evidence-block"><h2>Revision history</h2><ol>{article.revisionHistory.map((revision) => <li><time datetime={revision.at}>{formatTimestamp(revision.at)}</time>: {revision.summary}</li>)}</ol></section>
+    </>}
+    {article.retractionState === "current" && <script is:inline type="application/ld+json" set:html={jsonForHtml(jsonLd)} />}
   </article>
 </BaseLayout>

@@ -1,5 +1,6 @@
 ---
 import SiteHeader from "../components/SiteHeader.astro";
+import { jsonForHtml } from "../lib/json-for-html.mjs";
 import "../styles/global.css";
 
 interface Props {
@@ -39,7 +40,7 @@ const siteGraph = {
     <meta property="og:url" content={canonical} />
     {image && <meta property="og:image" content={image} />}
     <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
-    <script is:inline type="application/ld+json" set:html={JSON.stringify(siteGraph)} />
+    <script is:inline type="application/ld+json" set:html={jsonForHtml(siteGraph)} />
     <title>{title}</title>
   </head>
   <body>

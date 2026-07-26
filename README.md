@@ -36,7 +36,7 @@ Only material approved for public release belongs here. Do not commit secrets, c
 Every publishable media asset requires a media-rights record. Every future article package must preserve source provenance, approval state, corrections, and revisions.
 
 The compiler-owned input is
-`src/data/public-news-promotion-package.v1.json`; its companion release manifest
+`src/publishing/public-news-promotion-package.v1.json`; its companion release manifest
 is `public-news-release.v1.json`. The production package contains zero fixtures.
 
 Cloudflare Pages build command: `npm run build`. Output directory: `dist`.
