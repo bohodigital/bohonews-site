@@ -1,6 +1,6 @@
 import Ajv2020 from "ajv/dist/2020.js";
 import { createHash } from "node:crypto";
-import { lstatSync, readFileSync } from "node:fs";
+import { lstatSync, readFileSync, realpathSync } from "node:fs";
 import { readFile, readdir } from "node:fs/promises";
 import { extname, join, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -43,13 +43,16 @@ function safeMediaSignature(bytes,extension) {
   return false;
 }
 
-function verifyPublicMedia(publicRoot,publicPath,expectedHash) {
+export function verifyPublicMedia(publicRoot,publicPath,expectedHash) {
   const base = resolve(publicRoot);
   const fullPath = resolve(base,publicPath.slice(1));
   if (!fullPath.startsWith(`${base}${sep}`)) throw new Error(`Public media path escapes root: ${publicPath}`);
+  const realBase = realpathSync(base);
+  const realPath = realpathSync(fullPath);
+  if (realPath !== realBase && !realPath.startsWith(`${realBase}${sep}`)) throw new Error(`Public media path escapes root through a symlink: ${publicPath}`);
   const stat = lstatSync(fullPath);
   if (!stat.isFile() || stat.isSymbolicLink()) throw new Error(`Public media is not a regular file: ${publicPath}`);
-  const bytes = readFileSync(fullPath);
+  const bytes = readFileSync(realPath);
   if (!safeMediaSignature(bytes,extname(fullPath).toLowerCase())) throw new Error(`Public media signature invalid: ${publicPath}`);
   if (createHash("sha256").update(bytes).digest("hex") !== expectedHash) throw new Error(`Public media hash mismatch: ${publicPath}`);
 }

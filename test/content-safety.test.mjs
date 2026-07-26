@@ -1,7 +1,10 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { readFile, readdir } from "node:fs/promises";
-import { validatePublicState } from "../scripts/publishing/validate-content.mjs";
+import { createHash } from "node:crypto";
+import { mkdtemp, mkdir, readFile, readdir, rm, symlink, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import { validatePublicState, verifyPublicMedia } from "../scripts/publishing/validate-content.mjs";
 import { jsonForHtml } from "../src/lib/json-for-html.mjs";
 
 test("content validator rejects executable HTML and executes schema plus digest verification", async () => {
@@ -62,4 +65,21 @@ test("JSON-LD and fallback search render untrusted text without HTML execution",
   assert.match(searchBuilder,/link\.textContent=x\.title/);
   assert.match(searchBuilder,/excerpt\.textContent=x\.excerpt/);
   assert.doesNotMatch(searchBuilder,/out\.innerHTML/);
+});
+
+test("public media validation rejects a symlinked ancestor outside public root", async () => {
+  const temporary = await mkdtemp(join(tmpdir(),"bohonews-public-media-"));
+  const publicRoot = join(temporary,"public");
+  const outside = join(temporary,"outside");
+  const bytes = Buffer.from("GIF89a-outside");
+  try {
+    await mkdir(publicRoot);
+    await mkdir(outside);
+    await writeFile(join(outside,"fixture.gif"),bytes);
+    await symlink(outside,join(publicRoot,"escape"));
+    const hash = createHash("sha256").update(bytes).digest("hex");
+    assert.throws(() => verifyPublicMedia(publicRoot,"/escape/fixture.gif",hash),/through a symlink/);
+  } finally {
+    await rm(temporary,{recursive:true,force:true});
+  }
 });
