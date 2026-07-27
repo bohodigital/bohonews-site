@@ -1,6 +1,5 @@
 ---
 import type { GetStaticPaths } from "astro";
-import { createHash } from "node:crypto";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ArticleBody from "../../components/ArticleBody.astro";
 import NewsVisual from "../../components/NewsVisual.astro";
@@ -19,7 +18,14 @@ export const getStaticPaths = (async () => {
 
 const { article } = Astro.props;
 const jsonLd = articleJsonLd(article);
-const approvedBodySha256 = createHash("sha256").update(article.body,"utf8").digest("hex");
+const approvedBodyBytes = await crypto.subtle.digest(
+  "SHA-256",
+  new TextEncoder().encode(article.body)
+);
+const approvedBodySha256 = Array.from(
+  new Uint8Array(approvedBodyBytes),
+  (byte) => byte.toString(16).padStart(2, "0")
+).join("");
 const changeLabels = {
   update:"Updated",correction:"Corrected",clarification:"Clarified",
   "editors-note":"Editor's note",retraction:"Retracted",
