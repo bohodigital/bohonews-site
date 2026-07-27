@@ -1,0 +1,13 @@
+{
+  "articleId": "article-example-open-data-vote",
+  "id": "intent-example-open-data-vote",
+  "operation": "create",
+  "publicChangeSummary": null,
+  "publicChangeType": null,
+  "requestedTiming": {
+    "mode": "next-batch"
+  },
+  "requiresSecondEditor": false,
+  "riskLane": "routine",
+  "schemaVersion": "1.0.0"
+}

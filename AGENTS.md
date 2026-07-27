@@ -8,6 +8,8 @@ Before substantial work:
 4. Read the private mirror of
    `bohonews.publication-time-and-changelog` before changing article
    timestamps, public history, release records, feeds, sitemaps, or metadata.
+5. Read the MCP publication and release-evidence policy before changing
+   promotion 2.1, preview, activation, final marker, or release verification.
 
 ## Editorial authority
 
@@ -29,9 +31,14 @@ ChatGPT is editor-in-chief for substantive public prose. Do not invent articles,
 - Read `docs/publishing/ARTICLE-PACKAGE-CONTRACT.md` and
   `docs/architecture/SITE-ARCHITECTURE.md` before changing publishing routes.
 - Never hand-edit promoted article fields to bypass the private compiler.
-- Accept only final v2 promotion packages whose article timestamps are bound to
-  hashed production release records. Candidate packages may never enter this
-  repository or a production build.
+- Accept final promotion 2.0 for the legacy Batch 1 corpus and promotion 2.1 for
+  evidence-backed MCP releases. Candidate 2.1 packages are permitted only in a
+  disconnected `BOHONEWS_PREVIEW=1` worktree and must fail a production build.
+- Preview and activation artifacts must be noindex/nofollow/no-store, suppress
+  executable third-party integrations, display no invented publication time,
+  and contain no internal provenance.
+- Final artifacts must contain the exact governed release marker and no
+  candidate/activation marker or preview indexability override.
 - Render `revisionHistory` nowhere. Reader-facing history comes only from
   `publishedAt` and `publicChangeLog`; internal provenance remains private.
 - Keep `BOHONEWS_INCLUDE_FIXTURES` confined to non-production testing; fixture

@@ -12,6 +12,11 @@ Visible article history, RSS `pubDate`, news-sitemap publication time, JSON-LD
 use the same production-release-derived UTC timestamp. The interface renders
 that value in America/Chicago with the correct `CDT` or `CST` abbreviation.
 
+Evidence-backed Release 2.1 uses `canonicalFirstPublicAt` for this value.
+`providerActivatedAt` remains separate provider evidence and is never shown as
+the publication time. Disconnected candidates are excluded from RSS, section
+feeds, ordinary and news sitemaps, and Pagefind.
+
 `/sitemap.xml` includes canonical public shell routes plus non-fixture,
 indexable, current article routes. Drafts, previews, fixtures, embargoed/killed
 packages, retractions, and aliases never enter the promoted dataset and cannot

@@ -26,6 +26,12 @@ release are implemented. Batch 1 contains eight source-backed articles whose
 public timestamps are bound to a verified Cloudflare Pages production
 activation record.
 
+The site also implements the Boho News MCP v2 consumer: promotion/release 2.1,
+disconnected noindex preview builds, evidence-backed final release records, and
+the final public release marker. `bohonews.article.v1` remains retired. The
+initial v2 production operation is create-only and remains gated until the
+governed release runner and create canary pass.
+
 ## Local development
 
 ```sh
@@ -46,8 +52,9 @@ package must preserve source provenance, approval state, public corrections,
 and the release evidence establishing its visible publication history.
 
 The compiler-owned input is
-`src/publishing/public-news-promotion-package.v2.json`; its companion release
-manifest is `public-news-release.v2.json`. The production package contains zero
+`src/publishing/public-news-promotion-package.v2.1.json`; its companion release
+manifest is `public-news-release.v2.1.json`. Legacy v2 files are readable only
+during a verified migration and are rejected when both generations exist. The production package contains zero
 fixtures and exposes public change-log entries only when a reader-relevant
 change has occurred.
 

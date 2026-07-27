@@ -18,6 +18,7 @@ const {
   title, description, canonical = new URL(Astro.url.pathname, Astro.site),
   noindex = false, image, articleType = "website", publishedAt, updatedAt
 } = Astro.props;
+const candidatePreview = import.meta.env.BOHONEWS_PREVIEW === "1";
 const socialImage = new URL(image ?? "/og.png", Astro.site);
 const siteGraph = {
   "@context":"https://schema.org",
@@ -39,7 +40,7 @@ const siteGraph = {
     <meta name="generator" content={Astro.generator} />
     <meta name="theme-color" content="#f3efe6" />
     <link rel="canonical" href={canonical} />
-    {noindex && <meta name="robots" content="noindex,nofollow" />}
+    {(candidatePreview || noindex) && <meta name="robots" content="noindex,nofollow" />}
     <meta property="og:type" content={articleType} />
     <meta property="og:site_name" content="Boho News" />
     <meta property="og:title" content={title} />
@@ -53,14 +54,14 @@ const siteGraph = {
     <meta name="twitter:card" content="summary_large_image" />
     <script is:inline type="application/ld+json" set:html={jsonForHtml(siteGraph)} />
     <script is:inline src="/theme.js"></script>
-    <script is:inline type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>
-    <script
+    {!candidatePreview && <script is:inline type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>}
+    {!candidatePreview && <script
       is:inline
       src="/analytics-bootstrap.js"
       data-umami-script-url="https://analytics.bohodigitalservices.com/script.js"
       data-umami-website-id="da60f9a9-f65b-4849-a55d-f9b4365f509d"
       data-umami-domains="bohonews.com,www.bohonews.com"
-    ></script>
+    ></script>}
     <title>{title}</title>
   </head>
   <body>

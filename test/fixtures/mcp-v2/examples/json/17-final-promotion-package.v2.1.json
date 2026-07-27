@@ -1,0 +1,244 @@
+{
+  "articles": [
+    {
+      "articleType": "vote-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Example City Council approved an open-data ordinance by a 6-1 vote Monday, according to the official roll call.\n\nThe measure directs city departments to publish selected datasets in reusable formats and to document future updates.",
+      "bodyBlocks": [
+        {
+          "text": "The Example City Council approved an open-data ordinance by a 6-1 vote Monday, according to the official roll call.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The measure directs city departments to publish selected datasets in reusable formats and to document future updates.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-example-city-council-vote",
+          "text": "Read the official council roll call.",
+          "title": "Primary record",
+          "type": "source-callout"
+        },
+        {
+          "alt": "Nonproduction test image labeled Boho News MCP v2.",
+          "caption": "Example City Hall, shown in a nonproduction contract fixture.",
+          "credit": "Example City Communications Office",
+          "height": 900,
+          "rightsId": "media-example-city-hall",
+          "sourceUrl": "https://example.gov/media/example-city-hall",
+          "src": "/media/examples/example-city-hall/four-three.webp",
+          "type": "media",
+          "width": 1200
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/example-city-open-data-vote/",
+      "citations": [
+        {
+          "id": "source-example-city-council-vote",
+          "publishedAt": "2026-07-27T11:00:00Z",
+          "publisher": "Example City Clerk",
+          "title": "Example City Council roll call on the open-data ordinance",
+          "url": "https://example.gov/council/votes/open-data-2026"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The council approved the ordinance 6-1."
+      ],
+      "corrections": [],
+      "dek": "The nonproduction contract fixture demonstrates the Boho News MCP v2 create lane.",
+      "desk": "local-government",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Example City Council"
+      ],
+      "eventId": "event-example-open-data-vote",
+      "headline": "Example City Council approves open-data ordinance in 6-1 vote",
+      "id": "article-example-open-data-vote",
+      "leadImage": {
+        "alt": "Nonproduction test image labeled Boho News MCP v2.",
+        "caption": "Example City Hall, shown in a nonproduction contract fixture.",
+        "credit": "Example City Communications Office",
+        "height": 900,
+        "rightsId": "media-example-city-hall",
+        "role": "lead",
+        "src": "/media/examples/example-city-hall/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Example City"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-07-27T12:30:08Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-example-batch-001-example-activation",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "A nonproduction fixture for the Boho News MCP v2 contract.",
+        "index": true,
+        "title": "Example City Council open-data vote"
+      },
+      "section": "us",
+      "slug": "example-city-open-data-vote",
+      "social": {
+        "description": "A nonproduction fixture for the Boho News MCP v2 contract.",
+        "image": "/media/examples/example-city-hall/open-graph.webp",
+        "title": "Example City approves open-data ordinance"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Open government",
+        "Public records"
+      ],
+      "uncertainty": [
+        "The implementation schedule has not been published."
+      ],
+      "updatedAt": "2026-07-27T12:30:08Z"
+    }
+  ],
+  "compilerVersion": "2.1.0",
+  "generatedAt": "2026-07-27T12:30:30Z",
+  "inputHashes": {
+    "approvals": "7cbf168f8f6aede3153b8a49efeeae76e8fcc821cb328df17e052376bcf5ea35",
+    "articles": "2f848566f2f79306f97b96e16428de8caf7cd00e711dcedcee43020502f01831",
+    "claims": "fa2cb919d2b13b41df790138928a3fdeb508009a0082da5de9354f92dd81abe4",
+    "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "events": "b338b444fb8fc9f43930841a00ca48cf944b43bf4917a59c3c7a78d8b240740d",
+    "mediaRights": "bca6682ab7b2b00c6e85953ac14bd127f33236a1156f406dc584b978353dddc3",
+    "publicationIntents": "4c29535173098cbf332a5081591e059e68cc839cf06510eb369ea2e9e78fbdf9",
+    "releaseRecords": "c1cd10cb95326dd04ad017354aad4fc8f401911112082b7420599b06680d9c14",
+    "sourceItems": "685eaf624282c26da384b9cb62783266c3ed492ae1e0e913b569101df23fce6f"
+  },
+  "inventory": {
+    "articleCount": 1,
+    "mediaCount": 1,
+    "routeCount": 1
+  },
+  "mediaRights": [
+    {
+      "aiGenerated": false,
+      "altText": "Nonproduction test image labeled Boho News MCP v2.",
+      "archivalStatus": "current",
+      "attribution": "Example City Communications Office",
+      "caption": "Example City Hall, shown in a nonproduction contract fixture.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Contract fixture only."
+      },
+      "creator": "Example City Communications Office",
+      "derivatives": [
+        {
+          "hash": "d35dcc8340e981c7d84c7aa1ee031d29558d6dfe75603a8b2f774c39f2286189",
+          "height": 900,
+          "publicPath": "/media/examples/example-city-hall/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8c227fe923b235096b3a4d1394dda8c5d62da6d81f05325b1d6921c079e2d3be",
+          "height": 600,
+          "publicPath": "/media/examples/example-city-hall/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b70fbfc3a6539ccfc6c75c45e2b061259fde099991e6b0ef2af4562730cca81e",
+          "height": 1200,
+          "publicPath": "/media/examples/example-city-hall/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "291c4dfe03ef9f5fdb968e897acf3156d2a5288b37a3995ce0c6ff16592ec62c",
+          "height": 900,
+          "publicPath": "/media/examples/example-city-hall/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "27572206b59390c3731dd287c8570260f68974d68d9e4b9e7a0a053272692210",
+          "height": 720,
+          "publicPath": "/media/examples/example-city-hall/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3517d029a163162f2c907f6e407453103376b808201132470c199cb77e055cbe",
+          "height": 630,
+          "publicPath": "/media/examples/example-city-hall/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "aca32dba18b47820651584c9d3677241f15bbe2c94818ca3e1573d6a4e92d8f8",
+          "height": 480,
+          "publicPath": "/media/examples/example-city-hall/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-example-city-hall",
+      "illustrationLabel": null,
+      "license": "Nonproduction test fixture only",
+      "originalFileHash": "9a79e03c8c79b50da604b2ac8c618ef669b73dd4f9122f00cdfbffbee76b40d1",
+      "restrictions": [
+        "Do not publish outside automated contract tests."
+      ],
+      "retrievedAt": "2026-07-27T12:00:00Z",
+      "rightsBasis": "Nonproduction contract fixture authorized for testing",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://example.gov/media/example-city-hall"
+    }
+  ],
+  "packageDigest": "368b1c92cfd6d9daefaa1b18cf7c8a9a409e074ca0cf7b995559ab0b9443c688",
+  "releaseRecords": [
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://example-activation.bohonews.pages.dev",
+      "canonicalFirstPublicAt": "2026-07-27T12:30:08Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/example-city-open-data-vote/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "evidenceEnvelopeHash": "b38f23f6ed704426a42ba09052b90322b770c71e2c7766050615c9acc84605ff",
+      "finalDeploymentActivatedAt": "2026-07-27T12:31:00Z",
+      "immutableDeploymentUrl": "https://example-final.bohonews.pages.dev",
+      "newArticleIds": [
+        "article-example-open-data-vote"
+      ],
+      "previousDeploymentReference": "example-previous-deployment-reference",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-27T12:30:00Z",
+      "publicSiteCommit": "6666666666666666666666666666666666666666",
+      "recordHash": "5371dafcc915c8e7122ccd6eb726b8fcc3c0f43756134c3f742e0abee66c79b3",
+      "releaseId": "release-example-batch-001-example-activation",
+      "routeVerifiedAt": "2026-07-27T12:31:20Z",
+      "schemaVersion": "2.1.0",
+      "updatedArticleIds": [],
+      "verificationResults": [
+        {
+          "activationImmutableUrl": "https://example-activation.bohonews.pages.dev/articles/example-city-open-data-vote/",
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/example-city-open-data-vote/",
+          "immutableUrl": "https://example-final.bohonews.pages.dev/articles/example-city-open-data-vote/",
+          "releaseMarker": true,
+          "status": 200
+        }
+      ],
+      "verifier": "Local1 MCP Boho News release verifier"
+    }
+  ],
+  "releaseState": "final",
+  "schemaVersion": "2.1.0",
+  "site": "https://bohonews.com"
+}

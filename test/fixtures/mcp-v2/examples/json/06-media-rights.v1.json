@@ -1,0 +1,83 @@
+{
+  "aiGenerated": false,
+  "altText": "Nonproduction test image labeled Boho News MCP v2.",
+  "archivalStatus": "current",
+  "attribution": "Example City Communications Office",
+  "caption": "Example City Hall, shown in a nonproduction contract fixture.",
+  "contextNotes": {
+    "misleading": false,
+    "usage": "Contract fixture only."
+  },
+  "creator": "Example City Communications Office",
+  "derivatives": [
+    {
+      "hash": "d35dcc8340e981c7d84c7aa1ee031d29558d6dfe75603a8b2f774c39f2286189",
+      "height": 900,
+      "path": "examples/assets/example-city-hall-lead.webp",
+      "publicPath": "/media/examples/example-city-hall/lead.webp",
+      "role": "lead",
+      "width": 1600
+    },
+    {
+      "hash": "8c227fe923b235096b3a4d1394dda8c5d62da6d81f05325b1d6921c079e2d3be",
+      "height": 600,
+      "path": "examples/assets/example-city-hall-card.webp",
+      "publicPath": "/media/examples/example-city-hall/card.webp",
+      "role": "card",
+      "width": 900
+    },
+    {
+      "hash": "b70fbfc3a6539ccfc6c75c45e2b061259fde099991e6b0ef2af4562730cca81e",
+      "height": 1200,
+      "path": "examples/assets/example-city-hall-square-social.webp",
+      "publicPath": "/media/examples/example-city-hall/square-social.webp",
+      "role": "square-social",
+      "width": 1200
+    },
+    {
+      "hash": "291c4dfe03ef9f5fdb968e897acf3156d2a5288b37a3995ce0c6ff16592ec62c",
+      "height": 900,
+      "path": "examples/assets/example-city-hall-four-three.webp",
+      "publicPath": "/media/examples/example-city-hall/four-three.webp",
+      "role": "four-three",
+      "width": 1200
+    },
+    {
+      "hash": "27572206b59390c3731dd287c8570260f68974d68d9e4b9e7a0a053272692210",
+      "height": 720,
+      "path": "examples/assets/example-city-hall-sixteen-nine.webp",
+      "publicPath": "/media/examples/example-city-hall/sixteen-nine.webp",
+      "role": "sixteen-nine",
+      "width": 1280
+    },
+    {
+      "hash": "3517d029a163162f2c907f6e407453103376b808201132470c199cb77e055cbe",
+      "height": 630,
+      "path": "examples/assets/example-city-hall-open-graph.webp",
+      "publicPath": "/media/examples/example-city-hall/open-graph.webp",
+      "role": "open-graph",
+      "width": 1200
+    },
+    {
+      "hash": "aca32dba18b47820651584c9d3677241f15bbe2c94818ca3e1573d6a4e92d8f8",
+      "height": 480,
+      "path": "examples/assets/example-city-hall-compact-mobile.webp",
+      "publicPath": "/media/examples/example-city-hall/compact-mobile.webp",
+      "role": "compact-mobile",
+      "width": 720
+    }
+  ],
+  "id": "media-example-city-hall",
+  "illustrationLabel": null,
+  "license": "Nonproduction test fixture only",
+  "originalFileHash": "9a79e03c8c79b50da604b2ac8c618ef669b73dd4f9122f00cdfbffbee76b40d1",
+  "originalPath": "examples/assets/example-city-hall-original.png",
+  "publicationAllowed": true,
+  "restrictions": [
+    "Do not publish outside automated contract tests."
+  ],
+  "retrievedAt": "2026-07-27T12:00:00Z",
+  "rightsBasis": "Nonproduction contract fixture authorized for testing",
+  "schemaVersion": "1.1.0",
+  "sourceUrl": "https://example.gov/media/example-city-hall"
+}

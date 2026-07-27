@@ -14,5 +14,5 @@ const visualVariant = article.section === "politics" ? "document" :
   <p class="label">{article.articleType.replaceAll("-", " ")}</p>
   <h2><a href={articlePath(article)}>{article.headline}</a></h2>
   <p class="dek">{article.dek}</p>
-  <p class="meta"><time datetime={article.updatedAt}>{formatTimestamp(article.updatedAt)}</time></p>
+  {article.updatedAt && <p class="meta"><time datetime={article.updatedAt}>{formatTimestamp(article.updatedAt)}</time></p>}
 </article>

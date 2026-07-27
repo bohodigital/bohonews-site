@@ -162,9 +162,9 @@ test("timestamps use America Chicago and every distribution surface reads the sa
   assert.match(news,/timeZone:"America\/Chicago"/);
   assert.match(news,/datePublished:article\.publishedAt/);
   assert.match(news,/dateModified:article\.updatedAt/);
-  assert.match(article,/publishedAt=\{article\.publishedAt\}/);
-  assert.match(article,/updatedAt=\{article\.updatedAt\}/);
-  assert.match(rss,/new Date\(article\.publishedAt\)\.toUTCString/);
+  assert.match(article,/publishedAt=\{candidatePreviewEnabled \? undefined : article\.publishedAt/);
+  assert.match(article,/updatedAt=\{candidatePreviewEnabled \? undefined : article\.updatedAt/);
+  assert.match(rss,/new Date\(article\.publishedAt!\)\.toUTCString/);
   assert.match(newsSitemap,/news:publication_date>\$\{a\.publishedAt\}/);
 });
 

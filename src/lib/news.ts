@@ -1,4 +1,4 @@
-import release from "../publishing/public-news-promotion-package.v2.json";
+import release from "../publishing/public-news-promotion-package.v2.1.json";
 import { previewFixtures } from "../publishing/preview-fixtures";
 
 export type Correction = {
@@ -29,7 +29,7 @@ export type PublicArticle = {
   schemaVersion: string; id: string; slug: string; headline: string; dek: string;
   articleType: string; publicationStatus: string; section: string; desk: string|null; topics: string[];
   entities: string[]; locations: string[]; authors: string[]; editor: string;
-  publishedAt: string; updatedAt: string; releaseId: string; publicChangeLog: PublicChange[];
+  publishedAt: string|null; updatedAt: string|null; releaseId: string|null; publicChangeLog: PublicChange[];
   eventId: string; body: string;
   bodyBlocks: BodyBlock[];
   confirmedFactsSummary: string[]; uncertainty: string[];
@@ -46,6 +46,7 @@ export type PublicArticle = {
 const promoted = release.articles as PublicArticle[];
 export const promotionGeneratedAt = release.generatedAt;
 export const fixturesEnabled = import.meta.env.BOHONEWS_INCLUDE_FIXTURES === "1";
+export const candidatePreviewEnabled = import.meta.env.BOHONEWS_PREVIEW === "1";
 export const benchmarkEnabled = import.meta.env.BOHONEWS_BENCHMARK_1000 === "1";
 function benchmarkArticles(): PublicArticle[] {
   return Array.from({length:1000},(_,index) => {
@@ -95,7 +96,8 @@ export function sectionArticles(section: string) {
   const source = ["latest","latest-news"].includes(section)
     ? articles
     : articles.filter((article) => article.section === section || article.desk === section);
-  return [...source].sort((a,b) => b.updatedAt.localeCompare(a.updatedAt));
+  return [...source].sort((a,b) =>
+    (b.updatedAt ?? b.publishedAt ?? "").localeCompare(a.updatedAt ?? a.publishedAt ?? ""));
 }
 export function formatTimestamp(value: string) {
   const parts = Object.fromEntries(new Intl.DateTimeFormat("en-US", {
@@ -109,8 +111,10 @@ export function articleJsonLd(article: PublicArticle) {
   return {
     "@context":"https://schema.org",
     "@type": article.articleType === "opinion" ? "Article" : "NewsArticle",
-    headline:article.headline,description:article.dek,datePublished:article.publishedAt,
-    dateModified:article.updatedAt,mainEntityOfPage:article.canonicalUrl,
+    headline:article.headline,description:article.dek,
+    ...(article.publishedAt ? {datePublished:article.publishedAt} : {}),
+    ...(article.updatedAt ? {dateModified:article.updatedAt} : {}),
+    mainEntityOfPage:article.canonicalUrl,
     author:article.authors.map((name) => ({"@type":"Person",name})),
     publisher:{"@type":"Organization",name:"Boho News",url:"https://bohonews.com"},
     ...(article.leadImage ? {image:new URL(article.leadImage.src,"https://bohonews.com").href} : {})

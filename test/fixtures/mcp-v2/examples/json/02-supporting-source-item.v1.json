@@ -1,0 +1,31 @@
+{
+  "attachments": [],
+  "author": null,
+  "canonicalUrl": "https://example.gov/council/votes/open-data-2026",
+  "contentHash": "ed5725c010cd0271da0fa30be1886860e99d921d7f7337cd5fc064e12598d3fb",
+  "embargoUntil": null,
+  "entities": [
+    "Example City Council"
+  ],
+  "evidenceClass": "primary",
+  "geography": [
+    "Example City"
+  ],
+  "id": "source-example-city-council-vote",
+  "lastObservedAt": "2026-07-27T12:00:00Z",
+  "mediaIds": [],
+  "provider": "Example City Clerk",
+  "publicCitationStatus": "approved",
+  "publishedAt": "2026-07-27T11:00:00Z",
+  "publisher": "Example City Clerk",
+  "quotationRights": "Limited quotation with attribution.",
+  "rawPayloadRef": "runtime://bohonews-mcp-examples/source-example-city-council-vote.json",
+  "reliabilityClass": "official",
+  "retrievedAt": "2026-07-27T12:00:00Z",
+  "schemaVersion": "1.1.0",
+  "sourceType": "official-record",
+  "title": "Example City Council roll call on the open-data ordinance",
+  "upstreamRevisionId": "roll-call-2026-071",
+  "usageRights": "Official public record used for a nonproduction contract fixture.",
+  "withdrawalState": "active"
+}

@@ -1,9 +1,9 @@
 {
   "articleCount": 8,
-  "compilerVersion": "2.0.0",
+  "compilerVersion": "2.1.0",
   "generatedAt": "2026-07-26T23:47:01.326037Z",
   "mediaCount": 14,
-  "packageDigest": "8854984094ce38ac1e89a0b65607c14350d9c48135dcfef7e01fe084941fa0cf",
+  "packageDigest": "bbe300e83260a0a585e14e029f6728f44bf33960c14e8090441e1645bfe5c3d4",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -91,6 +91,7 @@
       "verifier": "Codex release verifier"
     }
   ],
+  "releaseState": "final",
   "routes": [
     "/articles/ai-data-center-ratepayer-protection-pledge-expands/",
     "/articles/house-iran-war-powers-vote-214-208/",
@@ -101,5 +102,5 @@
     "/articles/what-is-section-301-trade-act/",
     "/articles/who-controls-smithsonian-board-regents/"
   ],
-  "schemaVersion": "2.0.0"
+  "schemaVersion": "2.1.0"
 }

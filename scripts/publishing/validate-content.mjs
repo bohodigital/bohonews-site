@@ -8,10 +8,11 @@ import { stableJson } from "./stable-json.mjs";
 
 const root = fileURLToPath(new URL("../../", import.meta.url));
 const articleRoot = join(root, "content/articles");
-const promotionPath = join(root, "src/publishing/public-news-promotion-package.v2.json");
-const releasePath = join(root, "public-news-release.v2.json");
+const promotionPath = join(root, "src/publishing/public-news-promotion-package.v2.1.json");
+const releasePath = join(root, "public-news-release.v2.1.json");
+const releaseMarkerPath = join(root, "public/.well-known/bohonews-release.json");
 const mailRoutingPath = join(root, "src/publishing/public-mail-routing.v1.json");
-const schemaPath = join(root, "schemas/public-news-promotion-package.v2.schema.json");
+const schemaPath = join(root, "schemas/public-news-promotion-package.v2.1.schema.json");
 const forbiddenMarkup = [/<script\b/i,/javascript:/i,/on(?:click|load|error)\s*=/i,/<iframe\b/i,/<object\b/i,/<embed\b/i];
 
 async function walk(directory) {
@@ -63,9 +64,27 @@ export function validatePublicState(promotion, release, schema, options = {}) {
   formats(ajv);
   const validate = ajv.compile(schema);
   if (!validate(promotion)) throw new Error(`Promotion schema rejected: ${ajv.errorsText(validate.errors)}`);
-  if (promotion.releaseState !== "final") throw new Error("Candidate promotion cannot enter the public repository");
+  const preview = options.preview === true;
+  if (preview ? promotion.releaseState !== "candidate" : promotion.releaseState !== "final") {
+    throw new Error(preview
+      ? "Preview build requires a candidate promotion"
+      : "Candidate promotion cannot enter the public repository");
+  }
+  const forbiddenPrivateKeys = new Set([
+    "privateNotes","internalConfidence","revisionHistory","approvalId",
+    "approvedVersionHash","sourceItemIds","claimIds","mediaRightsIds",
+    "rawPayloadRef","originalPath"
+  ]);
   const inspectText = (value,path = []) => {
+    const finalKey = path.at(-1);
+    if (forbiddenPrivateKeys.has(finalKey)) {
+      throw new Error(`Private field entered public promotion: ${path.join(".")}`);
+    }
     if (typeof value === "string" && /[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/.test(value)) throw new Error(`Unsafe control character at ${path.join(".")}`);
+    if (typeof value === "string"
+      && /(?:\/srv\/local1\/(?:data|runtime|secrets)|\/Users\/|[A-Za-z]:\\|data:\/\/local1-mcp-server)/.test(value)) {
+      throw new Error(`Private path entered public promotion: ${path.join(".")}`);
+    }
     if (Array.isArray(value)) value.forEach((item,index) => inspectText(item,[...path,index]));
     else if (value && typeof value === "object") Object.entries(value).forEach(([key,item]) => inspectText(item,[...path,key]));
   };
@@ -79,9 +98,19 @@ export function validatePublicState(promotion, release, schema, options = {}) {
     releases.set(record.releaseId,record);
   }
   for (const article of promotion.articles) {
+    if (preview) {
+      if (article.publishedAt !== null || article.updatedAt !== null
+        || article.releaseId !== null || article.publicChangeLog.length) {
+        throw new Error(`Candidate article contains invented release fields: ${article.id}`);
+      }
+      continue;
+    }
     const firstRelease = releases.get(article.releaseId);
+    const firstPublicAt = firstRelease?.schemaVersion === "2.1.0"
+      ? firstRelease.canonicalFirstPublicAt
+      : firstRelease?.productionActivationAt;
     if (!firstRelease || !firstRelease.newArticleIds.includes(article.id)
-      || firstRelease.productionActivationAt !== article.publishedAt
+      || firstPublicAt !== article.publishedAt
       || !firstRelease.canonicalUrls.includes(article.canonicalUrl)) {
       throw new Error(`Article lacks a verified first-public release binding: ${article.id}`);
     }
@@ -96,7 +125,9 @@ export function validatePublicState(promotion, release, schema, options = {}) {
       const latest = article.publicChangeLog.at(-1);
       const updateRelease = promotion.releaseRecords.find((record) =>
         record.updatedArticleIds.includes(article.id)
-        && record.productionActivationAt === article.updatedAt
+        && (record.schemaVersion === "2.1.0"
+          ? record.canonicalFirstPublicAt
+          : record.productionActivationAt) === article.updatedAt
         && record.canonicalUrls.includes(article.canonicalUrl));
       if (!latest || latest.at !== article.updatedAt || !updateRelease) {
         throw new Error(`Article update lacks matching history and release evidence: ${article.id}`);
@@ -141,12 +172,31 @@ export function validatePublicState(promotion, release, schema, options = {}) {
     articleCount:promotion.inventory.articleCount,
     mediaCount:promotion.inventory.mediaCount,
     routes:expectedRoutes,
-    releaseRecords:promotion.releaseRecords
+    releaseRecords:promotion.releaseRecords,
+    ...(promotion.schemaVersion === "2.1.0" ? {releaseState:promotion.releaseState} : {})
   };
   if (stableJson(release) !== stableJson(expectedRelease)) throw new Error("Release manifest does not exactly bind the promotion package");
   if (promotion.inventory.articleCount !== promotion.articles.length || promotion.inventory.routeCount !== expectedRoutes.length || promotion.inventory.mediaCount !== promotion.mediaRights.length) throw new Error("Promotion inventory mismatch");
   if (new Set(expectedRoutes).size !== expectedRoutes.length) throw new Error("Duplicate public route");
   return {articleCount:promotion.articles.length,packageDigest:computed,routes:expectedRoutes};
+}
+
+export function validateReleaseMarker(marker,promotion) {
+  const unsigned = structuredClone(marker);
+  delete unsigned.markerHash;
+  if (marker?.schemaVersion !== "1.0.0"
+    || marker?.site !== "https://bohonews.com"
+    || marker?.packageDigest !== promotion.packageDigest
+    || marker?.markerHash !== digest(unsigned)) {
+    throw new Error("Public release marker does not bind the promotion package");
+  }
+  const release = promotion.releaseRecords.find(({releaseId}) => releaseId === marker.releaseId);
+  if (!release || marker.publicSiteCommit !== release.publicSiteCommit
+    || marker.canonicalFirstPublicAt !== (release.canonicalFirstPublicAt ?? release.productionActivationAt)
+    || marker.routeVerifiedAt !== release.routeVerifiedAt) {
+    throw new Error("Public release marker does not bind the release record");
+  }
+  return {releaseId:marker.releaseId,markerHash:marker.markerHash};
 }
 
 export function validateMailRouting(record) {
@@ -176,9 +226,11 @@ export async function validateRepositoryContent() {
   }
   const promotion = JSON.parse(await readFile(promotionPath,"utf8"));
   const release = JSON.parse(await readFile(releasePath,"utf8"));
+  const releaseMarker = JSON.parse(await readFile(releaseMarkerPath,"utf8"));
   const schema = JSON.parse(await readFile(schemaPath,"utf8"));
   const mailRouting = JSON.parse(await readFile(mailRoutingPath,"utf8"));
   const result = validatePublicState(promotion,release,schema);
+  validateReleaseMarker(releaseMarker,promotion);
   const mail = validateMailRouting(mailRouting);
   console.log(`Governed public content validation passed (${result.articleCount} promoted articles; ${mail.aliasCount} delivered aliases; digest verified; fixtures excluded).`);
   return result;

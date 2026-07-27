@@ -1,0 +1,35 @@
+{
+  "correctionState": "current",
+  "disputedClaims": [],
+  "entities": [
+    "Example City Council"
+  ],
+  "firstObservedAt": "2026-07-27T11:00:00Z",
+  "id": "event-example-open-data-vote",
+  "latestConfirmedAt": "2026-07-27T12:00:00Z",
+  "locations": [
+    "Example City"
+  ],
+  "publicSignificance": "The ordinance would expand public access to city datasets.",
+  "relatedArticleIds": [
+    "article-example-open-data-vote"
+  ],
+  "schemaVersion": "1.1.0",
+  "slug": "example-open-data-vote",
+  "sourceItemIds": [
+    "source-example-city-council-vote"
+  ],
+  "status": "confirmed",
+  "topics": [
+    "Open government",
+    "Public records"
+  ],
+  "unresolvedQuestions": [
+    "The implementation schedule has not been published."
+  ],
+  "urgency": "routine",
+  "verifiedFacts": [
+    "The council approved the ordinance 6-1."
+  ],
+  "visualOpportunity": "Official roll call and a rights-cleared city hall image."
+}

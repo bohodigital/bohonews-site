@@ -1,0 +1,120 @@
+{
+  "approvalId": "approval-example-open-data-vote",
+  "articleType": "vote-report",
+  "authors": [
+    "Boho News Staff"
+  ],
+  "body": "The Example City Council approved an open-data ordinance by a 6-1 vote Monday, according to the official roll call.\n\nThe measure directs city departments to publish selected datasets in reusable formats and to document future updates.",
+  "bodyBlocks": [
+    {
+      "text": "The Example City Council approved an open-data ordinance by a 6-1 vote Monday, according to the official roll call.",
+      "type": "paragraph"
+    },
+    {
+      "text": "The measure directs city departments to publish selected datasets in reusable formats and to document future updates.",
+      "type": "paragraph"
+    },
+    {
+      "sourceId": "source-example-city-council-vote",
+      "text": "Read the official council roll call.",
+      "title": "Primary record",
+      "type": "source-callout"
+    },
+    {
+      "alt": "Nonproduction test image labeled Boho News MCP v2.",
+      "caption": "Example City Hall, shown in a nonproduction contract fixture.",
+      "credit": "Example City Communications Office",
+      "height": 900,
+      "rightsId": "media-example-city-hall",
+      "sourceUrl": "https://example.gov/media/example-city-hall",
+      "src": "/media/examples/example-city-hall/four-three.webp",
+      "type": "media",
+      "width": 1200
+    }
+  ],
+  "canonicalUrl": "https://bohonews.com/articles/example-city-open-data-vote/",
+  "claimIds": [
+    "claim-example-open-data-vote-result"
+  ],
+  "confirmedFactsSummary": [
+    "The council approved the ordinance 6-1."
+  ],
+  "correctionIds": [],
+  "dek": "The nonproduction contract fixture demonstrates the Boho News MCP v2 create lane.",
+  "desk": "local-government",
+  "distribution": {
+    "newsSitemap": true,
+    "rss": true
+  },
+  "editor": "Boho News Editorial Desk",
+  "embargoUntil": null,
+  "entities": [
+    "Example City Council"
+  ],
+  "eventId": "event-example-open-data-vote",
+  "fixture": false,
+  "headline": "Example City Council approves open-data ordinance in 6-1 vote",
+  "id": "article-example-open-data-vote",
+  "internalConfidence": {
+    "rationale": "Official record fixture.",
+    "score": 0.99
+  },
+  "killState": "active",
+  "leadImage": {
+    "alt": "Nonproduction test image labeled Boho News MCP v2.",
+    "caption": "Example City Hall, shown in a nonproduction contract fixture.",
+    "credit": "Example City Communications Office",
+    "height": 900,
+    "rightsId": "media-example-city-hall",
+    "role": "lead",
+    "src": "/media/examples/example-city-hall/lead.webp",
+    "width": 1600
+  },
+  "locations": [
+    "Example City"
+  ],
+  "media": [],
+  "mediaRightsIds": [
+    "media-example-city-hall"
+  ],
+  "privateNotes": "Nonproduction contract example.",
+  "publicChangeLog": [],
+  "publicationStatus": "approved",
+  "publishedAt": null,
+  "relatedArticleIds": [],
+  "releaseId": null,
+  "retractionState": "current",
+  "revisionHistory": [
+    {
+      "at": "2026-07-27T12:10:00Z",
+      "summary": "Initial editorially approved contract fixture.",
+      "version": 1
+    }
+  ],
+  "schemaVersion": "2.0.0",
+  "search": {
+    "description": "A nonproduction fixture for the Boho News MCP v2 contract.",
+    "index": true,
+    "title": "Example City Council open-data vote"
+  },
+  "section": "us",
+  "slug": "example-city-open-data-vote",
+  "social": {
+    "description": "A nonproduction fixture for the Boho News MCP v2 contract.",
+    "image": "/media/examples/example-city-hall/open-graph.webp",
+    "title": "Example City approves open-data ordinance"
+  },
+  "sourceItemIds": [
+    "source-example-city-council-vote"
+  ],
+  "supersededByArticleId": null,
+  "supersedesArticleId": null,
+  "topics": [
+    "Open government",
+    "Public records"
+  ],
+  "uncertainty": [
+    "The implementation schedule has not been published."
+  ],
+  "updatedAt": null
+}

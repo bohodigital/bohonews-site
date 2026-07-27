@@ -1,0 +1,33 @@
+{
+  "adapterId": "bohonews.article.v2",
+  "analyticsSuppressed": true,
+  "artifactSha256": "c14bdbbbbc0d9a12c3c79b6e8f479a49e2cafef29e1225b43eef597c37b9f442",
+  "batchId": "example-batch-001",
+  "candidatePackageDigest": "b61e3c1f532f2d8b49c7f6912ba3d52364d38b4c90b49729d7e5ebab22a8435e",
+  "candidatePrivateCommit": "3333333333333333333333333333333333333333",
+  "candidatePublicCommit": "4444444444444444444444444444444444444444",
+  "destination": "bohonews",
+  "immutableUrl": "https://example-preview.bohonews-preview.pages.dev",
+  "inventorySha256": "e68710bab983a6f6c367a839af5d8c42f034bac1eb52725a40d934af820e596f",
+  "noStore": true,
+  "noindex": true,
+  "previewProject": "bohonews-preview",
+  "privateBaseCommit": "1111111111111111111111111111111111111111",
+  "privateBundleHash": "a9aa8c37ca358da1060a2efd6af9088389262572799245d4bc57c9f6d2d28a7e",
+  "providerCreatedAt": "2026-07-27T12:25:00Z",
+  "providerDeploymentIdHash": "ea64e1915301b7b5ca4882ff7616f9494eb9d79fba7b62a6cba4c6274464d851",
+  "publicBaseCommit": "2222222222222222222222222222222222222222",
+  "publicBundleHash": "70e52381dd8d37297a5c01cce907346b855ce9f23267a76e204515eb798c3c66",
+  "recordHash": "46a2850c7fac080cc66cc423bb49f758ba634b49eb0139e51453d2500b08da2c",
+  "recordId": "preview-example-batch-001",
+  "routes": [
+    {
+      "candidateMarker": true,
+      "path": "/articles/example-city-open-data-vote/",
+      "robots": "noindex,nofollow",
+      "status": 200
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "verifiedAt": "2026-07-27T12:25:20Z"
+}

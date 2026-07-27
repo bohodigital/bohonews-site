@@ -1,0 +1,20 @@
+{
+  "attributionRequired": false,
+  "claimType": "official-record",
+  "confidence": 0.99,
+  "correctionId": null,
+  "disputeState": "undisputed",
+  "editorDecision": "publish",
+  "eventId": "event-example-open-data-vote",
+  "evidence": "The official clerk roll call records six yes votes and one no vote.",
+  "exactClaim": "The Example City Council approved the open-data ordinance by a 6-1 vote.",
+  "id": "claim-example-open-data-vote-result",
+  "material": true,
+  "publicWording": "The Example City Council approved the open-data ordinance by a 6-1 vote.",
+  "schemaVersion": "1.1.0",
+  "sourceItemIds": [
+    "source-example-city-council-vote"
+  ],
+  "supersededByClaimId": null,
+  "verificationState": "verified"
+}

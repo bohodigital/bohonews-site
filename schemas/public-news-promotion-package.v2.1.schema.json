@@ -1,12 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://bohonews.com/schemas/public-news-promotion-package.v2.schema.json",
-  "title": "Boho News public promotion package v2",
+  "$id": "https://bohonews.com/schemas/public-news-promotion-package.v2.1.schema.json",
+  "title": "Boho News public promotion package v2.1",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "compilerVersion", "releaseState", "generatedAt", "site", "inputHashes", "inventory", "mediaRights", "releaseRecords", "articles", "packageDigest"],
   "properties": {
-    "schemaVersion": {"const": "2.0.0"},
+    "schemaVersion": {"const": "2.1.0"},
     "compilerVersion": {"type": "string", "minLength": 1},
     "releaseState": {"enum": ["candidate", "final"]},
     "generatedAt": {"type": "string", "format": "date-time"},
@@ -14,7 +14,7 @@
     "inputHashes": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["sourceItems", "events", "claims", "articles", "approvals", "corrections", "mediaRights", "releaseRecords"],
+      "required": ["sourceItems", "events", "claims", "articles", "approvals", "corrections", "mediaRights", "releaseRecords", "publicationIntents"],
       "properties": {
         "sourceItems": {"$ref": "#/$defs/hash"},
         "events": {"$ref": "#/$defs/hash"},
@@ -23,7 +23,8 @@
         "approvals": {"$ref": "#/$defs/hash"},
         "corrections": {"$ref": "#/$defs/hash"},
         "mediaRights": {"$ref": "#/$defs/hash"},
-        "releaseRecords": {"$ref": "#/$defs/hash"}
+        "releaseRecords": {"$ref": "#/$defs/hash"},
+        "publicationIntents": {"$ref": "#/$defs/hash"}
       }
     },
     "inventory": {
@@ -37,7 +38,15 @@
       }
     },
     "mediaRights": {"type": "array", "items": {"$ref": "#/$defs/publicMediaRights"}},
-    "releaseRecords": {"type": "array", "items": {"$ref": "#/$defs/releaseRecord"}},
+    "releaseRecords": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {"$ref": "#/$defs/legacyReleaseRecord"},
+          {"$ref": "#/$defs/evidenceBackedReleaseRecord"}
+        ]
+      }
+    },
     "articles": {"type": "array", "items": {"$ref": "#/$defs/publicArticle"}},
     "packageDigest": {"$ref": "#/$defs/hash"}
   },
@@ -103,7 +112,23 @@
         "canonicalMarker": {"const": true}
       }
     },
-    "releaseRecord": {
+    "evidenceVerificationResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonicalUrl", "activationImmutableUrl", "immutableUrl", "status",
+        "canonicalMarker", "releaseMarker"
+      ],
+      "properties": {
+        "canonicalUrl": {"type": "string", "format": "uri"},
+        "activationImmutableUrl": {"type": "string", "format": "uri"},
+        "immutableUrl": {"type": "string", "format": "uri"},
+        "status": {"const": 200},
+        "canonicalMarker": {"const": true},
+        "releaseMarker": {"const": true}
+      }
+    },
+    "legacyReleaseRecord": {
       "type": "object",
       "additionalProperties": false,
       "required": ["schemaVersion", "releaseId", "deploymentProvider", "accountReference", "project", "environment", "immutableDeploymentUrl", "publicSiteCommit", "productionActivationAt", "routeVerifiedAt", "newArticleIds", "updatedArticleIds", "canonicalUrls", "verificationResults", "verifier", "recordHash"],
@@ -123,6 +148,42 @@
         "canonicalUrls": {"type": "array", "uniqueItems": true, "items": {"type": "string", "format": "uri"}},
         "verificationResults": {"type": "array", "items": {"$ref": "#/$defs/verificationResult"}},
         "verifier": {"type": "string", "minLength": 1},
+        "recordHash": {"$ref": "#/$defs/hash"}
+      }
+    },
+    "evidenceBackedReleaseRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion", "releaseId", "deploymentProvider", "accountReference",
+        "project", "environment", "activationDeploymentUrl",
+        "immutableDeploymentUrl", "publicSiteCommit", "providerActivatedAt",
+        "canonicalFirstPublicAt", "finalDeploymentActivatedAt", "routeVerifiedAt",
+        "newArticleIds", "updatedArticleIds", "canonicalUrls",
+        "verificationResults", "verifier", "evidenceEnvelopeHash",
+        "previousDeploymentReference", "recordHash"
+      ],
+      "properties": {
+        "schemaVersion": {"const": "2.1.0"},
+        "releaseId": {"$ref": "#/$defs/id"},
+        "deploymentProvider": {"const": "cloudflare-pages"},
+        "accountReference": {"const": "boho-digital-services.cloudflare.primary-management"},
+        "project": {"const": "bohonews"},
+        "environment": {"const": "production"},
+        "activationDeploymentUrl": {"type": "string", "format": "uri"},
+        "immutableDeploymentUrl": {"type": "string", "format": "uri"},
+        "publicSiteCommit": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
+        "providerActivatedAt": {"type": "string", "format": "date-time"},
+        "canonicalFirstPublicAt": {"type": "string", "format": "date-time"},
+        "finalDeploymentActivatedAt": {"type": "string", "format": "date-time"},
+        "routeVerifiedAt": {"type": "string", "format": "date-time"},
+        "newArticleIds": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+        "updatedArticleIds": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+        "canonicalUrls": {"type": "array", "uniqueItems": true, "items": {"type": "string", "format": "uri"}},
+        "verificationResults": {"type": "array", "items": {"$ref": "#/$defs/evidenceVerificationResult"}},
+        "verifier": {"type": "string", "minLength": 1},
+        "evidenceEnvelopeHash": {"$ref": "#/$defs/hash"},
+        "previousDeploymentReference": {"type": "string", "minLength": 1},
         "recordHash": {"$ref": "#/$defs/hash"}
       }
     },
