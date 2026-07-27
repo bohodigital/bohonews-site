@@ -7,7 +7,7 @@ Before substantial work:
 3. Read the active work order and inspect Git state.
 4. Read the private mirror of
    `bohonews.publication-time-and-changelog` before changing article
-   timestamps, public history, release records, feeds, sitemaps, or metadata.
+  timestamps, public history, release records, feeds, sitemaps, or metadata.
 5. Read the MCP publication and release-evidence policy before changing
    promotion 2.1, preview, activation, final marker, or release verification.
 
@@ -31,9 +31,12 @@ ChatGPT is editor-in-chief for substantive public prose. Do not invent articles,
 - Read `docs/publishing/ARTICLE-PACKAGE-CONTRACT.md` and
   `docs/architecture/SITE-ARCHITECTURE.md` before changing publishing routes.
 - Never hand-edit promoted article fields to bypass the private compiler.
-- Accept final promotion 2.0 for the legacy Batch 1 corpus and promotion 2.1 for
-  evidence-backed MCP releases. Candidate 2.1 packages are permitted only in a
+- Production accepts final promotion 2.1.1; legacy Batch 1 release records at
+  2.0 remain readable inside it. Candidate 2.1.1 packages are permitted only in a
   disconnected `BOHONEWS_PREVIEW=1` worktree and must fail a production build.
+- Promotion/release 2.1.0 is retired and must fail closed.
+- Public artifacts never contain their own containing commit SHA. Marker 1.1
+  binds the package and self-reference-free public-content inventory.
 - Preview and activation artifacts must be noindex/nofollow/no-store, suppress
   executable third-party integrations, display no invented publication time,
   and contain no internal provenance.

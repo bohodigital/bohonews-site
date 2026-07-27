@@ -1,12 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://bohonews.com/schemas/public-news-promotion-package.v2.1.schema.json",
-  "title": "Boho News public promotion package v2.1",
+  "$id": "https://bohonews.com/schemas/public-news-promotion-package.v2.1.1.schema.json",
+  "title": "Boho News public promotion package v2.1.1",
   "type": "object",
   "additionalProperties": false,
   "required": ["schemaVersion", "compilerVersion", "releaseState", "generatedAt", "site", "inputHashes", "inventory", "mediaRights", "releaseRecords", "articles", "packageDigest"],
   "properties": {
-    "schemaVersion": {"const": "2.1.0"},
+    "schemaVersion": {"const": "2.1.1"},
     "compilerVersion": {"type": "string", "minLength": 1},
     "releaseState": {"enum": ["candidate", "final"]},
     "generatedAt": {"type": "string", "format": "date-time"},
@@ -112,22 +112,6 @@
         "canonicalMarker": {"const": true}
       }
     },
-    "evidenceVerificationResult": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": [
-        "canonicalUrl", "activationImmutableUrl", "immutableUrl", "status",
-        "canonicalMarker", "releaseMarker"
-      ],
-      "properties": {
-        "canonicalUrl": {"type": "string", "format": "uri"},
-        "activationImmutableUrl": {"type": "string", "format": "uri"},
-        "immutableUrl": {"type": "string", "format": "uri"},
-        "status": {"const": 200},
-        "canonicalMarker": {"const": true},
-        "releaseMarker": {"const": true}
-      }
-    },
     "legacyReleaseRecord": {
       "type": "object",
       "additionalProperties": false,
@@ -157,33 +141,26 @@
       "required": [
         "schemaVersion", "releaseId", "deploymentProvider", "accountReference",
         "project", "environment", "activationDeploymentUrl",
-        "immutableDeploymentUrl", "publicSiteCommit", "providerActivatedAt",
-        "canonicalFirstPublicAt", "finalDeploymentActivatedAt", "routeVerifiedAt",
+        "providerActivatedAt", "canonicalFirstPublicAt",
         "newArticleIds", "updatedArticleIds", "canonicalUrls",
-        "verificationResults", "verifier", "evidenceEnvelopeHash",
-        "previousDeploymentReference", "recordHash"
+        "activationEvidenceHash", "previousVerifiedDeploymentReference",
+        "recordHash"
       ],
       "properties": {
-        "schemaVersion": {"const": "2.1.0"},
+        "schemaVersion": {"const": "2.1.1"},
         "releaseId": {"$ref": "#/$defs/id"},
         "deploymentProvider": {"const": "cloudflare-pages"},
         "accountReference": {"const": "boho-digital-services.cloudflare.primary-management"},
         "project": {"const": "bohonews"},
         "environment": {"const": "production"},
         "activationDeploymentUrl": {"type": "string", "format": "uri"},
-        "immutableDeploymentUrl": {"type": "string", "format": "uri"},
-        "publicSiteCommit": {"type": "string", "pattern": "^[a-f0-9]{40}$"},
         "providerActivatedAt": {"type": "string", "format": "date-time"},
         "canonicalFirstPublicAt": {"type": "string", "format": "date-time"},
-        "finalDeploymentActivatedAt": {"type": "string", "format": "date-time"},
-        "routeVerifiedAt": {"type": "string", "format": "date-time"},
         "newArticleIds": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
         "updatedArticleIds": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
         "canonicalUrls": {"type": "array", "uniqueItems": true, "items": {"type": "string", "format": "uri"}},
-        "verificationResults": {"type": "array", "items": {"$ref": "#/$defs/evidenceVerificationResult"}},
-        "verifier": {"type": "string", "minLength": 1},
-        "evidenceEnvelopeHash": {"$ref": "#/$defs/hash"},
-        "previousDeploymentReference": {"type": "string", "minLength": 1},
+        "activationEvidenceHash": {"$ref": "#/$defs/hash"},
+        "previousVerifiedDeploymentReference": {"type": "string", "minLength": 1},
         "recordHash": {"$ref": "#/$defs/hash"}
       }
     },

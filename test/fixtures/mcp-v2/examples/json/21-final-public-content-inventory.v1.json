@@ -1,0 +1,41 @@
+{
+  "files": [
+    {
+      "path": "public-news-release.v2.1.1.json",
+      "sha256": "d6cd70ffea90a649c45905d1de6e346b175f5ec8beae5f4730a00416cda52465"
+    },
+    {
+      "path": "public/media/examples/example-city-hall/card.webp",
+      "sha256": "8c227fe923b235096b3a4d1394dda8c5d62da6d81f05325b1d6921c079e2d3be"
+    },
+    {
+      "path": "public/media/examples/example-city-hall/compact-mobile.webp",
+      "sha256": "aca32dba18b47820651584c9d3677241f15bbe2c94818ca3e1573d6a4e92d8f8"
+    },
+    {
+      "path": "public/media/examples/example-city-hall/four-three.webp",
+      "sha256": "291c4dfe03ef9f5fdb968e897acf3156d2a5288b37a3995ce0c6ff16592ec62c"
+    },
+    {
+      "path": "public/media/examples/example-city-hall/lead.webp",
+      "sha256": "d35dcc8340e981c7d84c7aa1ee031d29558d6dfe75603a8b2f774c39f2286189"
+    },
+    {
+      "path": "public/media/examples/example-city-hall/open-graph.webp",
+      "sha256": "3517d029a163162f2c907f6e407453103376b808201132470c199cb77e055cbe"
+    },
+    {
+      "path": "public/media/examples/example-city-hall/sixteen-nine.webp",
+      "sha256": "27572206b59390c3731dd287c8570260f68974d68d9e4b9e7a0a053272692210"
+    },
+    {
+      "path": "public/media/examples/example-city-hall/square-social.webp",
+      "sha256": "b70fbfc3a6539ccfc6c75c45e2b061259fde099991e6b0ef2af4562730cca81e"
+    },
+    {
+      "path": "src/publishing/public-news-promotion-package.v2.1.1.json",
+      "sha256": "8374ab7ab143f27a4e18251dd627fca0829a745aba8868ac6e90f9b7ec433dc2"
+    }
+  ],
+  "publicContentInventoryDigest": "77fd3454c4d806f7f012e5d3a78daa7866fde25fd91c12811380d8b95f2f1d6c"
+}

@@ -30,10 +30,10 @@ async function materializePublicFixture(mediaRights) {
 }
 
 test("authoritative candidate validates only in the disconnected preview lane", async () => {
-  const candidate = await readJson("examples/json/09-candidate-promotion-package.v2.1.json");
-  const manifest = await readJson("examples/json/10-candidate-release-manifest.v2.1.json");
+  const candidate = await readJson("examples/json/09-candidate-promotion-package.v2.1.1.json");
+  const manifest = await readJson("examples/json/10-candidate-release-manifest.v2.1.1.json");
   const schema = JSON.parse(await readFile(
-    new URL("../schemas/public-news-promotion-package.v2.1.schema.json",import.meta.url),
+    new URL("../schemas/public-news-promotion-package.v2.1.1.schema.json",import.meta.url),
     "utf8"
   ));
   const publicRoot = await materializePublicFixture(candidate.mediaRights);
@@ -54,16 +54,16 @@ test("authoritative candidate validates only in the disconnected preview lane", 
 });
 
 test("authoritative final package binds canonical-first-public time and release marker", async () => {
-  const promotion = await readJson("examples/json/17-final-promotion-package.v2.1.json");
-  const manifest = await readJson("examples/json/18-final-release-manifest.v2.1.json");
-  const marker = await readJson("examples/json/19-public-release-marker.v1.json");
+  const promotion = await readJson("examples/json/17-final-promotion-package.v2.1.1.json");
+  const manifest = await readJson("examples/json/18-final-release-manifest.v2.1.1.json");
+  const marker = await readJson("examples/json/19-public-release-marker.v1.1.json");
   const schema = JSON.parse(await readFile(
-    new URL("../schemas/public-news-promotion-package.v2.1.schema.json",import.meta.url),
+    new URL("../schemas/public-news-promotion-package.v2.1.1.schema.json",import.meta.url),
     "utf8"
   ));
   const publicRoot = await materializePublicFixture(promotion.mediaRights);
   assert.equal(validatePublicState(promotion,manifest,schema,{publicRoot}).articleCount,1);
-  assert.equal(validateReleaseMarker(marker,promotion).releaseId,marker.releaseId);
+  assert.equal(validateReleaseMarker(marker,promotion,manifest,{publicRoot}).releaseId,marker.releaseId);
   assert.equal(
     promotion.articles[0].publishedAt,
     promotion.releaseRecords[0].canonicalFirstPublicAt

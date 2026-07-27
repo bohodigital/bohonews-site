@@ -3,14 +3,14 @@
     "article-example-open-data-vote"
   ],
   "batchId": "example-batch-001",
-  "candidatePackageDigest": "b61e3c1f532f2d8b49c7f6912ba3d52364d38b4c90b49729d7e5ebab22a8435e",
+  "candidatePackageDigest": "e325e7098116471d45528848e2e8f0cceaae5fcff1018a48f9a828e56c6a4572",
   "candidatePrivateCommit": "3333333333333333333333333333333333333333",
   "candidatePublicCommit": "4444444444444444444444444444444444444444",
   "destinationId": "bohonews.article.v2",
   "editorialApprovalHashes": [
     "df329599cf0cadba4a0abc0b4ac15e43a6d7019bc845e9351774ab9a4b6f2e8e"
   ],
-  "finalizerContractVersion": "bohonews-finalizer.v2.1.0",
+  "finalizerContractVersion": "bohonews-finalizer.v2.1.1",
   "operations": [
     "create"
   ],

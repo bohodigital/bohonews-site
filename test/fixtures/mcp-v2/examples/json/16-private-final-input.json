@@ -98,7 +98,7 @@
       "publicationStatus": "approved",
       "publishedAt": "2026-07-27T12:30:08Z",
       "relatedArticleIds": [],
-      "releaseId": "release-example-batch-001-example-activation",
+      "releaseId": "release-example-batch-001-54ae944fafdf",
       "retractionState": "current",
       "revisionHistory": [
         {
@@ -299,38 +299,23 @@
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
       "activationDeploymentUrl": "https://example-activation.bohonews.pages.dev",
+      "activationEvidenceHash": "7bf3d21b5f11db4724a768fa45d3013c3b4ca2f09f43e9c7dfa04aed73c5c926",
       "canonicalFirstPublicAt": "2026-07-27T12:30:08Z",
       "canonicalUrls": [
         "https://bohonews.com/articles/example-city-open-data-vote/"
       ],
       "deploymentProvider": "cloudflare-pages",
       "environment": "production",
-      "evidenceEnvelopeHash": "b38f23f6ed704426a42ba09052b90322b770c71e2c7766050615c9acc84605ff",
-      "finalDeploymentActivatedAt": "2026-07-27T12:31:00Z",
-      "immutableDeploymentUrl": "https://example-final.bohonews.pages.dev",
       "newArticleIds": [
         "article-example-open-data-vote"
       ],
-      "previousDeploymentReference": "example-previous-deployment-reference",
+      "previousVerifiedDeploymentReference": "example-previous-deployment-reference",
       "project": "bohonews",
       "providerActivatedAt": "2026-07-27T12:30:00Z",
-      "publicSiteCommit": "6666666666666666666666666666666666666666",
-      "recordHash": "5371dafcc915c8e7122ccd6eb726b8fcc3c0f43756134c3f742e0abee66c79b3",
-      "releaseId": "release-example-batch-001-example-activation",
-      "routeVerifiedAt": "2026-07-27T12:31:20Z",
-      "schemaVersion": "2.1.0",
-      "updatedArticleIds": [],
-      "verificationResults": [
-        {
-          "activationImmutableUrl": "https://example-activation.bohonews.pages.dev/articles/example-city-open-data-vote/",
-          "canonicalMarker": true,
-          "canonicalUrl": "https://bohonews.com/articles/example-city-open-data-vote/",
-          "immutableUrl": "https://example-final.bohonews.pages.dev/articles/example-city-open-data-vote/",
-          "releaseMarker": true,
-          "status": 200
-        }
-      ],
-      "verifier": "Local1 MCP Boho News release verifier"
+      "recordHash": "3e46a57283fb103d5de24227a8178ac4d278c7cf976252bea067342b6de903d8",
+      "releaseId": "release-example-batch-001-54ae944fafdf",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "sourceItems": [

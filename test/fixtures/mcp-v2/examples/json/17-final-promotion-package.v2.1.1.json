@@ -76,9 +76,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-07-27T12:30:08Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-example-batch-001-54ae944fafdf",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -102,20 +102,20 @@
       "uncertainty": [
         "The implementation schedule has not been published."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-07-27T12:30:08Z"
     }
   ],
-  "compilerVersion": "2.1.0",
-  "generatedAt": "2026-07-27T12:20:00Z",
+  "compilerVersion": "2.1.1",
+  "generatedAt": "2026-07-27T12:30:30Z",
   "inputHashes": {
     "approvals": "7cbf168f8f6aede3153b8a49efeeae76e8fcc821cb328df17e052376bcf5ea35",
-    "articles": "50aa2f9793cc433cacb5bd493ac4a981c7520d46d0da064380cc0ad6eef8d466",
+    "articles": "51dc382e599aafd9a9f72796404b18382f0c72c9b60af9104df5810dd3de8eba",
     "claims": "fa2cb919d2b13b41df790138928a3fdeb508009a0082da5de9354f92dd81abe4",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "events": "b338b444fb8fc9f43930841a00ca48cf944b43bf4917a59c3c7a78d8b240740d",
     "mediaRights": "bca6682ab7b2b00c6e85953ac14bd127f33236a1156f406dc584b978353dddc3",
     "publicationIntents": "4c29535173098cbf332a5081591e059e68cc839cf06510eb369ea2e9e78fbdf9",
-    "releaseRecords": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "releaseRecords": "d30bbaf65092eefdf6634b51bb0f70a984c321f63afa15654fc2442cf50a61e3",
     "sourceItems": "685eaf624282c26da384b9cb62783266c3ed492ae1e0e913b569101df23fce6f"
   },
   "inventory": {
@@ -199,9 +199,31 @@
       "sourceUrl": "https://example.gov/media/example-city-hall"
     }
   ],
-  "packageDigest": "b61e3c1f532f2d8b49c7f6912ba3d52364d38b4c90b49729d7e5ebab22a8435e",
-  "releaseRecords": [],
-  "releaseState": "candidate",
-  "schemaVersion": "2.1.0",
+  "packageDigest": "e8aa5e2820503a2c95f6e20876d5268878738a9ddbf6b5363c6dbe42548a6ae3",
+  "releaseRecords": [
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://example-activation.bohonews.pages.dev",
+      "activationEvidenceHash": "7bf3d21b5f11db4724a768fa45d3013c3b4ca2f09f43e9c7dfa04aed73c5c926",
+      "canonicalFirstPublicAt": "2026-07-27T12:30:08Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/example-city-open-data-vote/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-example-open-data-vote"
+      ],
+      "previousVerifiedDeploymentReference": "example-previous-deployment-reference",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-27T12:30:00Z",
+      "recordHash": "3e46a57283fb103d5de24227a8178ac4d278c7cf976252bea067342b6de903d8",
+      "releaseId": "release-example-batch-001-54ae944fafdf",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    }
+  ],
+  "releaseState": "final",
+  "schemaVersion": "2.1.1",
   "site": "https://bohonews.com"
 }

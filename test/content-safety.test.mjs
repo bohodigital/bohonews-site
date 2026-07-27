@@ -5,8 +5,8 @@ import { mkdtemp, mkdir, readFile, readdir, rm, symlink, writeFile } from "node:
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import {
-  validateMailRouting, validatePublicState, validateReleaseMarker,
-  verifyPublicMedia
+  calculatePublicContentInventory, validateMailRouting, validatePublicState,
+  validateReleaseMarker, verifyPublicMedia
 } from "../scripts/publishing/validate-content.mjs";
 import { jsonForHtml } from "../src/lib/json-for-html.mjs";
 
@@ -15,12 +15,12 @@ test("content validator rejects executable HTML and executes schema plus digest 
   for (const pattern of ["<script","javascript:","<iframe","<object","<embed","Ajv2020","Promotion digest mismatch","Release manifest does not exactly bind"]) assert.match(validator,new RegExp(pattern.replace(/[<>]/g,"\\$&"),"i"));
 });
 
-test("Batch 1 is preserved in the 2.1 promotion, digest-valid, media-bound, and release-bound", async () => {
-  const promotion = JSON.parse(await readFile(new URL("../src/publishing/public-news-promotion-package.v2.1.json", import.meta.url),"utf8"));
-  const release = JSON.parse(await readFile(new URL("../public-news-release.v2.1.json", import.meta.url),"utf8"));
+test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and release-bound", async () => {
+  const promotion = JSON.parse(await readFile(new URL("../src/publishing/public-news-promotion-package.v2.1.1.json", import.meta.url),"utf8"));
+  const release = JSON.parse(await readFile(new URL("../public-news-release.v2.1.1.json", import.meta.url),"utf8"));
   const marker = JSON.parse(await readFile(new URL("../public/.well-known/bohonews-release.json", import.meta.url),"utf8"));
-  const schema = JSON.parse(await readFile(new URL("../schemas/public-news-promotion-package.v2.1.schema.json", import.meta.url),"utf8"));
-  assert.equal(promotion.schemaVersion,"2.1.0");
+  const schema = JSON.parse(await readFile(new URL("../schemas/public-news-promotion-package.v2.1.1.schema.json", import.meta.url),"utf8"));
+  assert.equal(promotion.schemaVersion,"2.1.1");
   assert.equal(promotion.inventory.articleCount, 8);
   assert.equal(promotion.articles.length, 8);
   assert.equal(promotion.inventory.mediaCount, 14);
@@ -41,7 +41,28 @@ test("Batch 1 is preserved in the 2.1 promotion, digest-valid, media-bound, and 
     && article.revisionHistory === undefined));
   assert.doesNotMatch(JSON.stringify(promotion),/owner-approved|handoff|work order|initial publication from/i);
   assert.equal(validatePublicState(promotion,release,schema).packageDigest,promotion.packageDigest);
-  assert.equal(validateReleaseMarker(marker,promotion).releaseId,promotion.releaseRecords[0].releaseId);
+  assert.equal(validateReleaseMarker(marker,promotion,release).releaseId,promotion.releaseRecords[0].releaseId);
+  assert.equal(Object.hasOwn(marker,"publicSiteCommit"),false);
+  assert.equal(Object.hasOwn(marker,"site"),false);
+  assert.equal(
+    calculatePublicContentInventory(promotion,release).publicContentInventoryDigest,
+    marker.publicContentInventoryDigest
+  );
+  const markerOnlyChange = {...marker,markerHash:"f".repeat(64)};
+  assert.equal(
+    calculatePublicContentInventory(promotion,release).publicContentInventoryDigest,
+    marker.publicContentInventoryDigest
+  );
+  assert.throws(
+    () => validateReleaseMarker(markerOnlyChange,promotion,release),
+    /does not bind/
+  );
+  assert.throws(
+    () => validateReleaseMarker({...marker,publicSiteCommit:"a".repeat(40)},promotion,release),
+    /fields are not exact/
+  );
+  const release211Schema = schema.$defs.evidenceBackedReleaseRecord;
+  assert.ok(!release211Schema.required.includes("publicSiteCommit"));
   const tampered = structuredClone(promotion);
   tampered.generatedAt = "2026-07-25T00:00:01Z";
   assert.throws(() => validatePublicState(tampered,release,schema),/digest mismatch/);
@@ -51,15 +72,19 @@ test("Batch 1 is preserved in the 2.1 promotion, digest-valid, media-bound, and 
   const routeMismatch = structuredClone(release);
   routeMismatch.routes = ["/not-approved/"];
   assert.throws(() => validatePublicState(promotion,routeMismatch,schema),/does not exactly bind/);
+  const retired = structuredClone(promotion);
+  retired.schemaVersion = "2.1.0";
+  assert.throws(() => validatePublicState(retired,release,schema),/schema rejected|require promotion 2\.1\.1/);
 });
 
-test("legacy v1 artifacts are absent and runtime consumes only the 2.1 package", async () => {
+test("legacy artifacts are absent and runtime consumes only the 2.1.1 package", async () => {
   const pages = await readdir(new URL("../src/publishing/", import.meta.url));
   assert.ok(!pages.includes("public-news-promotion-package.v1.json"));
   await assert.rejects(readFile(new URL("../public-news-release.v1.json", import.meta.url)));
   const loader = await readFile(new URL("../src/lib/news.ts", import.meta.url),"utf8");
-  assert.match(loader,/public-news-promotion-package\.v2\.1\.json/);
+  assert.match(loader,/public-news-promotion-package\.v2\.1\.1\.json/);
   assert.doesNotMatch(loader,/public-news-promotion-package\.v2\.json/);
+  assert.doesNotMatch(loader,/public-news-promotion-package\.v2\.1\.json/);
 });
 
 test("both published mail aliases have provider delivery evidence", async () => {

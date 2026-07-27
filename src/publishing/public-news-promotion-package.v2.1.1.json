@@ -1768,7 +1768,7 @@
       "updatedAt": "2026-07-26T21:22:56.706315Z"
     }
   ],
-  "compilerVersion": "2.1.0",
+  "compilerVersion": "2.1.1",
   "generatedAt": "2026-07-26T23:47:01.326037Z",
   "inputHashes": {
     "approvals": "eef6be78b12210f34ccc847655670abddb983af5623e2a136d2b1a9a8a17f71a",
@@ -2838,7 +2838,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "bbe300e83260a0a585e14e029f6728f44bf33960c14e8090441e1645bfe5c3d4",
+  "packageDigest": "368961358c2c3c5c5528166a4c3871830f0b13a9e567dcbb539479a9ecbdf6cc",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -2927,6 +2927,6 @@
     }
   ],
   "releaseState": "final",
-  "schemaVersion": "2.1.0",
+  "schemaVersion": "2.1.1",
   "site": "https://bohonews.com"
 }

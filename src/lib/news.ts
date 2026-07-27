@@ -1,4 +1,4 @@
-import release from "../publishing/public-news-promotion-package.v2.1.json";
+import release from "../publishing/public-news-promotion-package.v2.1.1.json";
 import { previewFixtures } from "../publishing/preview-fixtures";
 
 export type Correction = {

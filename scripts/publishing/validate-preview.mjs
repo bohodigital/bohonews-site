@@ -4,9 +4,9 @@ import { fileURLToPath } from "node:url";
 import { validatePublicState } from "./validate-content.mjs";
 
 const root = fileURLToPath(new URL("../../",import.meta.url));
-const promotionPath = join(root,"src/publishing/public-news-promotion-package.v2.1.json");
-const releasePath = join(root,"public-news-release.v2.1.json");
-const schemaPath = join(root,"schemas/public-news-promotion-package.v2.1.schema.json");
+const promotionPath = join(root,"src/publishing/public-news-promotion-package.v2.1.1.json");
+const releasePath = join(root,"public-news-release.v2.1.1.json");
+const schemaPath = join(root,"schemas/public-news-promotion-package.v2.1.1.schema.json");
 
 async function walk(directory) {
   const output = [];

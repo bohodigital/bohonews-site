@@ -19,7 +19,7 @@ if (result.status === 0) {
 // supported x64 release lanes still run Pagefind above.
 const includeFixtures = process.env.BOHONEWS_INCLUDE_FIXTURES === "1";
 const benchmark = process.env.BOHONEWS_BENCHMARK_1000 === "1";
-const promotion = JSON.parse(await readFile(join(root,"src/publishing/public-news-promotion-package.v2.1.json"),"utf8"));
+const promotion = JSON.parse(await readFile(join(root,"src/publishing/public-news-promotion-package.v2.1.1.json"),"utf8"));
 let records = promotion.articles;
 if (benchmark) {
   records = Array.from({length:1000},(_,index) => {

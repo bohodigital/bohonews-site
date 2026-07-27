@@ -1,13 +1,13 @@
 {
   "articleCount": 1,
-  "compilerVersion": "2.1.0",
+  "compilerVersion": "2.1.1",
   "generatedAt": "2026-07-27T12:20:00Z",
   "mediaCount": 1,
-  "packageDigest": "b61e3c1f532f2d8b49c7f6912ba3d52364d38b4c90b49729d7e5ebab22a8435e",
+  "packageDigest": "e325e7098116471d45528848e2e8f0cceaae5fcff1018a48f9a828e56c6a4572",
   "releaseRecords": [],
   "releaseState": "candidate",
   "routes": [
     "/articles/example-city-open-data-vote/"
   ],
-  "schemaVersion": "2.1.0"
+  "schemaVersion": "2.1.1"
 }

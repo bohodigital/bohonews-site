@@ -1,0 +1,17 @@
+{
+  "activationArtifactSha256": "ff58d0a795a0646d70dabf988991e37243a8b4d5728cda4c902f6f9edcd422eb",
+  "activationImmutableUrl": "https://example-activation.bohonews.pages.dev",
+  "activationInventorySha256": "b29d17d5281a7836fa76193aa054154980e2aee4b76ea2825d4c61ba6e00714e",
+  "activationProviderResponseHash": "54ae944fafdf6bb1398194a213195b26fc2fc3bd9a642e820dd4fbbfe08c7a7d",
+  "adapterId": "bohonews.article.v2",
+  "approvalDigest": "8fb9ac6179d03e22b6dfed9ad27c44279ee657cc47939b0f3ffce0455d02e184",
+  "batchId": "example-batch-001",
+  "candidatePackageDigest": "e325e7098116471d45528848e2e8f0cceaae5fcff1018a48f9a828e56c6a4572",
+  "canonicalFirstPublicAt": "2026-07-27T12:30:08Z",
+  "canonicalFirstPublicEvidenceHash": "d6391cb03d926a69433ef87f7d50a4e5532cb1458e5f51c0afe4aaa7641c0a33",
+  "previousVerifiedDeploymentReference": "example-previous-deployment-reference",
+  "providerActivatedAt": "2026-07-27T12:30:00Z",
+  "recordHash": "7bf3d21b5f11db4724a768fa45d3013c3b4ca2f09f43e9c7dfa04aed73c5c926",
+  "recordId": "activation-evidence-example-batch-001",
+  "schemaVersion": "1.1.0"
+}

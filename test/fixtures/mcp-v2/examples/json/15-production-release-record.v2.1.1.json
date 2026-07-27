@@ -1,0 +1,21 @@
+{
+  "accountReference": "boho-digital-services.cloudflare.primary-management",
+  "activationDeploymentUrl": "https://example-activation.bohonews.pages.dev",
+  "activationEvidenceHash": "7bf3d21b5f11db4724a768fa45d3013c3b4ca2f09f43e9c7dfa04aed73c5c926",
+  "canonicalFirstPublicAt": "2026-07-27T12:30:08Z",
+  "canonicalUrls": [
+    "https://bohonews.com/articles/example-city-open-data-vote/"
+  ],
+  "deploymentProvider": "cloudflare-pages",
+  "environment": "production",
+  "newArticleIds": [
+    "article-example-open-data-vote"
+  ],
+  "previousVerifiedDeploymentReference": "example-previous-deployment-reference",
+  "project": "bohonews",
+  "providerActivatedAt": "2026-07-27T12:30:00Z",
+  "recordHash": "3e46a57283fb103d5de24227a8178ac4d278c7cf976252bea067342b6de903d8",
+  "releaseId": "release-example-batch-001-54ae944fafdf",
+  "schemaVersion": "2.1.1",
+  "updatedArticleIds": []
+}

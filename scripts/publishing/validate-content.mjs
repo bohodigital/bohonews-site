@@ -8,11 +8,16 @@ import { stableJson } from "./stable-json.mjs";
 
 const root = fileURLToPath(new URL("../../", import.meta.url));
 const articleRoot = join(root, "content/articles");
-const promotionPath = join(root, "src/publishing/public-news-promotion-package.v2.1.json");
-const releasePath = join(root, "public-news-release.v2.1.json");
+const promotionPath = join(root, "src/publishing/public-news-promotion-package.v2.1.1.json");
+const releasePath = join(root, "public-news-release.v2.1.1.json");
 const releaseMarkerPath = join(root, "public/.well-known/bohonews-release.json");
 const mailRoutingPath = join(root, "src/publishing/public-mail-routing.v1.json");
-const schemaPath = join(root, "schemas/public-news-promotion-package.v2.1.schema.json");
+const schemaPath = join(root, "schemas/public-news-promotion-package.v2.1.1.schema.json");
+const FINALIZER_VERSION = "bohonews-finalizer.v2.1.1";
+const MARKER_FIELDS = [
+  "schemaVersion","releaseId","packageDigest","publicContentInventoryDigest",
+  "canonicalFirstPublicAt","finalizerVersion","markerHash"
+];
 const forbiddenMarkup = [/<script\b/i,/javascript:/i,/on(?:click|load|error)\s*=/i,/<iframe\b/i,/<object\b/i,/<embed\b/i];
 
 async function walk(directory) {
@@ -27,6 +32,10 @@ async function walk(directory) {
 
 function digest(value) {
   return createHash("sha256").update(stableJson(value)).digest("hex");
+}
+
+function byteDigest(value) {
+  return createHash("sha256").update(value).digest("hex");
 }
 
 function formats(ajv) {
@@ -45,7 +54,7 @@ function safeMediaSignature(bytes,extension) {
   return false;
 }
 
-export function verifyPublicMedia(publicRoot,publicPath,expectedHash) {
+function readPublicMedia(publicRoot,publicPath) {
   const base = resolve(publicRoot);
   const fullPath = resolve(base,publicPath.slice(1));
   if (!fullPath.startsWith(`${base}${sep}`)) throw new Error(`Public media path escapes root: ${publicPath}`);
@@ -56,7 +65,37 @@ export function verifyPublicMedia(publicRoot,publicPath,expectedHash) {
   if (!stat.isFile() || stat.isSymbolicLink()) throw new Error(`Public media is not a regular file: ${publicPath}`);
   const bytes = readFileSync(realPath);
   if (!safeMediaSignature(bytes,extname(fullPath).toLowerCase())) throw new Error(`Public media signature invalid: ${publicPath}`);
-  if (createHash("sha256").update(bytes).digest("hex") !== expectedHash) throw new Error(`Public media hash mismatch: ${publicPath}`);
+  return bytes;
+}
+
+export function verifyPublicMedia(publicRoot,publicPath,expectedHash) {
+  const actual = byteDigest(readPublicMedia(publicRoot,publicPath));
+  if (actual !== expectedHash) throw new Error(`Public media hash mismatch: ${publicPath}`);
+  return actual;
+}
+
+export function calculatePublicContentInventory(promotion,release,options = {}) {
+  const publicRoot = options.publicRoot ?? join(root,"public");
+  const entries = [
+    {
+      path:"src/publishing/public-news-promotion-package.v2.1.1.json",
+      sha256:byteDigest(options.promotionBytes ?? Buffer.from(stableJson(promotion)))
+    },
+    {
+      path:"public-news-release.v2.1.1.json",
+      sha256:byteDigest(options.releaseBytes ?? Buffer.from(stableJson(release)))
+    },
+    ...promotion.mediaRights.flatMap(({derivatives}) =>
+      derivatives.map(({publicPath}) => ({
+        path:`public${publicPath}`,
+        sha256:byteDigest(readPublicMedia(publicRoot,publicPath))
+      })))
+  ].sort((a,b) => a.path.localeCompare(b.path));
+  if (new Set(entries.map(({path}) => path)).size !== entries.length) {
+    throw new Error("Public content inventory contains duplicate paths");
+  }
+  const inventory = {files:entries};
+  return {...inventory,publicContentInventoryDigest:digest(inventory)};
 }
 
 export function validatePublicState(promotion, release, schema, options = {}) {
@@ -65,6 +104,9 @@ export function validatePublicState(promotion, release, schema, options = {}) {
   const validate = ajv.compile(schema);
   if (!validate(promotion)) throw new Error(`Promotion schema rejected: ${ajv.errorsText(validate.errors)}`);
   const preview = options.preview === true;
+  if (promotion.schemaVersion !== "2.1.1") {
+    throw new Error("Production and MCP preview packages require promotion 2.1.1");
+  }
   if (preview ? promotion.releaseState !== "candidate" : promotion.releaseState !== "final") {
     throw new Error(preview
       ? "Preview build requires a candidate promotion"
@@ -106,7 +148,7 @@ export function validatePublicState(promotion, release, schema, options = {}) {
       continue;
     }
     const firstRelease = releases.get(article.releaseId);
-    const firstPublicAt = firstRelease?.schemaVersion === "2.1.0"
+    const firstPublicAt = firstRelease?.schemaVersion === "2.1.1"
       ? firstRelease.canonicalFirstPublicAt
       : firstRelease?.productionActivationAt;
     if (!firstRelease || !firstRelease.newArticleIds.includes(article.id)
@@ -125,7 +167,7 @@ export function validatePublicState(promotion, release, schema, options = {}) {
       const latest = article.publicChangeLog.at(-1);
       const updateRelease = promotion.releaseRecords.find((record) =>
         record.updatedArticleIds.includes(article.id)
-        && (record.schemaVersion === "2.1.0"
+        && (record.schemaVersion === "2.1.1"
           ? record.canonicalFirstPublicAt
           : record.productionActivationAt) === article.updatedAt
         && record.canonicalUrls.includes(article.canonicalUrl));
@@ -173,7 +215,7 @@ export function validatePublicState(promotion, release, schema, options = {}) {
     mediaCount:promotion.inventory.mediaCount,
     routes:expectedRoutes,
     releaseRecords:promotion.releaseRecords,
-    ...(promotion.schemaVersion === "2.1.0" ? {releaseState:promotion.releaseState} : {})
+    releaseState:promotion.releaseState
   };
   if (stableJson(release) !== stableJson(expectedRelease)) throw new Error("Release manifest does not exactly bind the promotion package");
   if (promotion.inventory.articleCount !== promotion.articles.length || promotion.inventory.routeCount !== expectedRoutes.length || promotion.inventory.mediaCount !== promotion.mediaRights.length) throw new Error("Promotion inventory mismatch");
@@ -181,22 +223,30 @@ export function validatePublicState(promotion, release, schema, options = {}) {
   return {articleCount:promotion.articles.length,packageDigest:computed,routes:expectedRoutes};
 }
 
-export function validateReleaseMarker(marker,promotion) {
+export function validateReleaseMarker(marker,promotion,releaseManifest,options = {}) {
+  if (Object.keys(marker ?? {}).sort().join("|") !== [...MARKER_FIELDS].sort().join("|")) {
+    throw new Error("Public release marker fields are not exact");
+  }
   const unsigned = structuredClone(marker);
   delete unsigned.markerHash;
-  if (marker?.schemaVersion !== "1.0.0"
-    || marker?.site !== "https://bohonews.com"
+  const inventory = calculatePublicContentInventory(promotion,releaseManifest,options);
+  if (marker?.schemaVersion !== "1.1.0"
     || marker?.packageDigest !== promotion.packageDigest
+    || marker?.publicContentInventoryDigest !== inventory.publicContentInventoryDigest
+    || marker?.finalizerVersion !== FINALIZER_VERSION
     || marker?.markerHash !== digest(unsigned)) {
     throw new Error("Public release marker does not bind the promotion package");
   }
   const release = promotion.releaseRecords.find(({releaseId}) => releaseId === marker.releaseId);
-  if (!release || marker.publicSiteCommit !== release.publicSiteCommit
-    || marker.canonicalFirstPublicAt !== (release.canonicalFirstPublicAt ?? release.productionActivationAt)
-    || marker.routeVerifiedAt !== release.routeVerifiedAt) {
+  if (!release
+    || marker.canonicalFirstPublicAt !== (release.canonicalFirstPublicAt ?? release.productionActivationAt)) {
     throw new Error("Public release marker does not bind the release record");
   }
-  return {releaseId:marker.releaseId,markerHash:marker.markerHash};
+  return {
+    releaseId:marker.releaseId,
+    markerHash:marker.markerHash,
+    publicContentInventoryDigest:inventory.publicContentInventoryDigest
+  };
 }
 
 export function validateMailRouting(record) {
@@ -224,13 +274,15 @@ export async function validateRepositoryContent() {
     const content = await readFile(path,"utf8");
     if (forbiddenMarkup.some((pattern) => pattern.test(content))) throw new Error(`Unsafe executable HTML rejected in ${path}`);
   }
-  const promotion = JSON.parse(await readFile(promotionPath,"utf8"));
-  const release = JSON.parse(await readFile(releasePath,"utf8"));
+  const promotionBytes = await readFile(promotionPath);
+  const releaseBytes = await readFile(releasePath);
+  const promotion = JSON.parse(promotionBytes);
+  const release = JSON.parse(releaseBytes);
   const releaseMarker = JSON.parse(await readFile(releaseMarkerPath,"utf8"));
   const schema = JSON.parse(await readFile(schemaPath,"utf8"));
   const mailRouting = JSON.parse(await readFile(mailRoutingPath,"utf8"));
   const result = validatePublicState(promotion,release,schema);
-  validateReleaseMarker(releaseMarker,promotion);
+  validateReleaseMarker(releaseMarker,promotion,release,{promotionBytes,releaseBytes});
   const mail = validateMailRouting(mailRouting);
   console.log(`Governed public content validation passed (${result.articleCount} promoted articles; ${mail.aliasCount} delivered aliases; digest verified; fixtures excluded).`);
   return result;
