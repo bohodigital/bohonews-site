@@ -123,6 +123,8 @@ test("trust pages use the governed content collection and are indexable", async 
   ]);
   assert.match(route,/getCollection\("policies"\)/);
   assert.match(route,/noindex=\{!entry\.data\.index\}/);
+  assert.match(route,/<!--email_off-->/);
+  assert.match(route,/<!--\/email_off-->/);
   assert.doesNotMatch(route,/Editorial placeholder|requires separate editorial approval/);
   assert.match(config,/src\/content\/policies/);
   for (const path of ["about","editorial-standards","corrections","support","privacy","terms","accessibility","contact"]) {

@@ -24,6 +24,8 @@ const canonical = new URL(entry.data.route, Astro.site).toString();
 >
   <article class="policy-page" data-pagefind-body>
     <p class="policy-meta">Last updated: {entry.data.last_updated}</p>
+    <!--email_off-->
     <Content />
+    <!--/email_off-->
   </article>
 </BaseLayout>
