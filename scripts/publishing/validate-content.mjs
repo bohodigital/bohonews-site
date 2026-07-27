@@ -8,9 +8,10 @@ import { stableJson } from "./stable-json.mjs";
 
 const root = fileURLToPath(new URL("../../", import.meta.url));
 const articleRoot = join(root, "content/articles");
-const promotionPath = join(root, "src/publishing/public-news-promotion-package.v1.json");
-const releasePath = join(root, "public-news-release.v1.json");
-const schemaPath = join(root, "schemas/public-news-promotion-package.v1.schema.json");
+const promotionPath = join(root, "src/publishing/public-news-promotion-package.v2.json");
+const releasePath = join(root, "public-news-release.v2.json");
+const mailRoutingPath = join(root, "src/publishing/public-mail-routing.v1.json");
+const schemaPath = join(root, "schemas/public-news-promotion-package.v2.schema.json");
 const forbiddenMarkup = [/<script\b/i,/javascript:/i,/on(?:click|load|error)\s*=/i,/<iframe\b/i,/<object\b/i,/<embed\b/i];
 
 async function walk(directory) {
@@ -62,13 +63,45 @@ export function validatePublicState(promotion, release, schema, options = {}) {
   formats(ajv);
   const validate = ajv.compile(schema);
   if (!validate(promotion)) throw new Error(`Promotion schema rejected: ${ajv.errorsText(validate.errors)}`);
+  if (promotion.releaseState !== "final") throw new Error("Candidate promotion cannot enter the public repository");
   const inspectText = (value,path = []) => {
     if (typeof value === "string" && /[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/.test(value)) throw new Error(`Unsafe control character at ${path.join(".")}`);
     if (Array.isArray(value)) value.forEach((item,index) => inspectText(item,[...path,index]));
     else if (value && typeof value === "object") Object.entries(value).forEach(([key,item]) => inspectText(item,[...path,key]));
   };
   inspectText(promotion);
+  const releases = new Map();
+  for (const record of promotion.releaseRecords) {
+    const unsignedRecord = structuredClone(record);
+    delete unsignedRecord.recordHash;
+    if (record.recordHash !== digest(unsignedRecord)) throw new Error(`Release record hash mismatch: ${record.releaseId}`);
+    if (releases.has(record.releaseId)) throw new Error(`Duplicate release record: ${record.releaseId}`);
+    releases.set(record.releaseId,record);
+  }
   for (const article of promotion.articles) {
+    const firstRelease = releases.get(article.releaseId);
+    if (!firstRelease || !firstRelease.newArticleIds.includes(article.id)
+      || firstRelease.productionActivationAt !== article.publishedAt
+      || !firstRelease.canonicalUrls.includes(article.canonicalUrl)) {
+      throw new Error(`Article lacks a verified first-public release binding: ${article.id}`);
+    }
+    if (article.publicChangeLog.some(({summary}) =>
+      /\b(?:owner-approved|handoff|work order|compiler|deployment mechanics?|repository operations?|batch\s+\d+)\b/i.test(summary))) {
+      throw new Error(`Public history contains internal provenance: ${article.id}`);
+    }
+    if (article.updatedAt === article.publishedAt && article.publicChangeLog.length) {
+      throw new Error(`Article has public changes without an updated timestamp: ${article.id}`);
+    }
+    if (article.updatedAt !== article.publishedAt) {
+      const latest = article.publicChangeLog.at(-1);
+      const updateRelease = promotion.releaseRecords.find((record) =>
+        record.updatedArticleIds.includes(article.id)
+        && record.productionActivationAt === article.updatedAt
+        && record.canonicalUrls.includes(article.canonicalUrl));
+      if (!latest || latest.at !== article.updatedAt || !updateRelease) {
+        throw new Error(`Article update lacks matching history and release evidence: ${article.id}`);
+      }
+    }
     const terminalTypes = new Set(article.corrections.map(({type}) => type).filter((type) => ["retraction","upstream-kill","legal-safety-removal"].includes(type)));
     if (article.retractionState === "current" && terminalTypes.size) throw new Error(`Current article has terminal correction: ${article.id}`);
     if (article.retractionState !== "current") {
@@ -107,12 +140,32 @@ export function validatePublicState(promotion, release, schema, options = {}) {
     packageDigest:promotion.packageDigest,
     articleCount:promotion.inventory.articleCount,
     mediaCount:promotion.inventory.mediaCount,
-    routes:expectedRoutes
+    routes:expectedRoutes,
+    releaseRecords:promotion.releaseRecords
   };
   if (stableJson(release) !== stableJson(expectedRelease)) throw new Error("Release manifest does not exactly bind the promotion package");
   if (promotion.inventory.articleCount !== promotion.articles.length || promotion.inventory.routeCount !== expectedRoutes.length || promotion.inventory.mediaCount !== promotion.mediaRights.length) throw new Error("Promotion inventory mismatch");
   if (new Set(expectedRoutes).size !== expectedRoutes.length) throw new Error("Duplicate public route");
   return {articleCount:promotion.articles.length,packageDigest:computed,routes:expectedRoutes};
+}
+
+export function validateMailRouting(record) {
+  const expected = ["contact@bohonews.com", "corrections@bohonews.com"];
+  if (
+    record?.schemaVersion !== "1.0.0"
+    || record?.provider !== "purelymail"
+    || record?.verificationOperation !== "purelymail-bohonews-public-aliases-20260726-v1"
+    || typeof record?.verifiedAt !== "string"
+    || !record.verifiedAt.endsWith("Z")
+    || Number.isNaN(Date.parse(record.verifiedAt))
+    || !Array.isArray(record?.aliases)
+    || record.aliases.length !== 2
+    || record.aliases.map(({address}) => address).sort().join("|") !== expected.sort().join("|")
+    || record.aliases.some(({delivery}) => delivery !== "received")
+  ) {
+    throw new Error("Public mail routing lacks verified delivery for both approved aliases");
+  }
+  return {aliasCount: 2, verifiedAt: record.verifiedAt};
 }
 
 export async function validateRepositoryContent() {
@@ -124,8 +177,10 @@ export async function validateRepositoryContent() {
   const promotion = JSON.parse(await readFile(promotionPath,"utf8"));
   const release = JSON.parse(await readFile(releasePath,"utf8"));
   const schema = JSON.parse(await readFile(schemaPath,"utf8"));
+  const mailRouting = JSON.parse(await readFile(mailRoutingPath,"utf8"));
   const result = validatePublicState(promotion,release,schema);
-  console.log(`Governed public content validation passed (${result.articleCount} promoted articles; digest verified; fixtures excluded).`);
+  const mail = validateMailRouting(mailRouting);
+  console.log(`Governed public content validation passed (${result.articleCount} promoted articles; ${mail.aliasCount} delivered aliases; digest verified; fixtures excluded).`);
   return result;
 }
 

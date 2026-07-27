@@ -4,7 +4,7 @@ import { createHash } from "node:crypto";
 import { mkdtemp, mkdir, readFile, readdir, rm, symlink, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { validatePublicState, verifyPublicMedia } from "../scripts/publishing/validate-content.mjs";
+import { validateMailRouting, validatePublicState, verifyPublicMedia } from "../scripts/publishing/validate-content.mjs";
 import { jsonForHtml } from "../src/lib/json-for-html.mjs";
 
 test("content validator rejects executable HTML and executes schema plus digest verification", async () => {
@@ -13,9 +13,9 @@ test("content validator rejects executable HTML and executes schema plus digest 
 });
 
 test("Batch 1 promotion is public-only, digest-valid, media-bound, and release-bound", async () => {
-  const promotion = JSON.parse(await readFile(new URL("../src/publishing/public-news-promotion-package.v1.json", import.meta.url),"utf8"));
-  const release = JSON.parse(await readFile(new URL("../public-news-release.v1.json", import.meta.url),"utf8"));
-  const schema = JSON.parse(await readFile(new URL("../schemas/public-news-promotion-package.v1.schema.json", import.meta.url),"utf8"));
+  const promotion = JSON.parse(await readFile(new URL("../src/publishing/public-news-promotion-package.v2.json", import.meta.url),"utf8"));
+  const release = JSON.parse(await readFile(new URL("../public-news-release.v2.json", import.meta.url),"utf8"));
+  const schema = JSON.parse(await readFile(new URL("../schemas/public-news-promotion-package.v2.schema.json", import.meta.url),"utf8"));
   assert.equal(promotion.inventory.articleCount, 8);
   assert.equal(promotion.articles.length, 8);
   assert.equal(promotion.inventory.mediaCount, 14);
@@ -24,6 +24,17 @@ test("Batch 1 promotion is public-only, digest-valid, media-bound, and release-b
   assert.ok(promotion.mediaRights.every((media) => media.aiGenerated === false && media.illustrationLabel === null));
   assert.equal(promotion.mediaRights.reduce((count, media) => count + media.derivatives.length, 0), 98);
   assert.equal(release.packageDigest, promotion.packageDigest);
+  assert.equal(promotion.releaseState,"final");
+  assert.equal(promotion.releaseRecords.length,1);
+  assert.equal(promotion.releaseRecords[0].immutableDeploymentUrl,"https://649b0aac.bohonews.pages.dev");
+  assert.equal(promotion.releaseRecords[0].productionActivationAt,"2026-07-26T21:22:56.706315Z");
+  assert.ok(promotion.articles.every((article) =>
+    article.publishedAt === "2026-07-26T21:22:56.706315Z"
+    && article.updatedAt === article.publishedAt
+    && article.releaseId === "bohonews-batch1-649b0aac"
+    && article.publicChangeLog.length === 0
+    && article.revisionHistory === undefined));
+  assert.doesNotMatch(JSON.stringify(promotion),/owner-approved|handoff|work order|initial publication from/i);
   assert.equal(validatePublicState(promotion,release,schema).packageDigest,promotion.packageDigest);
   const tampered = structuredClone(promotion);
   tampered.generatedAt = "2026-07-25T00:00:01Z";
@@ -34,6 +45,23 @@ test("Batch 1 promotion is public-only, digest-valid, media-bound, and release-b
   const routeMismatch = structuredClone(release);
   routeMismatch.routes = ["/not-approved/"];
   assert.throws(() => validatePublicState(promotion,routeMismatch,schema),/does not exactly bind/);
+});
+
+test("legacy public package and release artifacts are removed", async () => {
+  const pages = await readdir(new URL("../src/publishing/", import.meta.url));
+  assert.ok(!pages.includes("public-news-promotion-package.v1.json"));
+  await assert.rejects(readFile(new URL("../public-news-release.v1.json", import.meta.url)));
+});
+
+test("both published mail aliases have provider delivery evidence", async () => {
+  const record = JSON.parse(await readFile(new URL("../src/publishing/public-mail-routing.v1.json", import.meta.url),"utf8"));
+  assert.equal(validateMailRouting(record).aliasCount,2);
+  const missing = structuredClone(record);
+  missing.aliases.pop();
+  assert.throws(() => validateMailRouting(missing),/verified delivery/);
+  const bouncing = structuredClone(record);
+  bouncing.aliases[0].delivery = "smtp-accepted";
+  assert.throws(() => validateMailRouting(bouncing),/verified delivery/);
 });
 
 test("preview fixtures are explicit and production distribution is disabled", async () => {

@@ -1,8 +1,14 @@
-import release from "../publishing/public-news-promotion-package.v1.json";
+import release from "../publishing/public-news-promotion-package.v2.json";
 import { previewFixtures } from "../publishing/preview-fixtures";
 
 export type Correction = {
   id: string; type: string; notice: string; effectiveAt: string;
+};
+
+export type PublicChange = {
+  type: "update"|"correction"|"clarification"|"editors-note"|"retraction"|"removal"|"superseded";
+  at: string;
+  summary: string;
 };
 
 export type ArticleImage = {
@@ -23,12 +29,13 @@ export type PublicArticle = {
   schemaVersion: string; id: string; slug: string; headline: string; dek: string;
   articleType: string; publicationStatus: string; section: string; desk: string|null; topics: string[];
   entities: string[]; locations: string[]; authors: string[]; editor: string;
-  publishedAt: string; updatedAt: string; eventId: string; body: string;
+  publishedAt: string; updatedAt: string; releaseId: string; publicChangeLog: PublicChange[];
+  eventId: string; body: string;
   bodyBlocks: BodyBlock[];
   confirmedFactsSummary: string[]; uncertainty: string[];
   citations: Array<{id:string;title:string;publisher:string;url:string;publishedAt:string}>;
   leadImage: null | ArticleImage;
-  media: unknown[]; revisionHistory: Array<{version:number;at:string;summary:string}>;
+  media: unknown[];
   corrections: Correction[]; retractionState: string; distribution: {rss:boolean;newsSitemap:boolean};
   social: {title?:string;description?:string;image?:string}; search: {index:boolean};
   relatedArticleIds: string[]; canonicalUrl: string;
@@ -91,7 +98,12 @@ export function sectionArticles(section: string) {
   return [...source].sort((a,b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 export function formatTimestamp(value: string) {
-  return new Intl.DateTimeFormat("en-US", {dateStyle:"medium",timeStyle:"short",timeZone:"UTC"}).format(new Date(value));
+  const parts = Object.fromEntries(new Intl.DateTimeFormat("en-US", {
+    month:"long",day:"numeric",year:"numeric",hour:"numeric",minute:"2-digit",
+    hour12:true,timeZone:"America/Chicago",timeZoneName:"short"
+  }).formatToParts(new Date(value)).map(({type,value}) => [type,value]));
+  const period = parts.dayPeriod.toLowerCase() === "am" ? "a.m." : "p.m.";
+  return `${parts.month} ${parts.day}, ${parts.year}, ${parts.hour}:${parts.minute} ${period} ${parts.timeZoneName}`;
 }
 export function articleJsonLd(article: PublicArticle) {
   return {

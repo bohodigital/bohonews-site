@@ -2,12 +2,14 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { readFile } from "node:fs/promises";
 
-test("article page emits canonical, NewsArticle data, correction and update UI", async () => {
+test("article page emits canonical, NewsArticle data, correction and public history UI", async () => {
   const page = await readFile(new URL("../src/pages/articles/[...slug].astro", import.meta.url),"utf8");
   assert.match(page,/articleJsonLd/);
   assert.match(page,/canonical=\{article\.canonicalUrl\}/);
   assert.match(page,/article\.corrections/);
-  assert.match(page,/updatedAt/);
+  assert.match(page,/Publication history/);
+  assert.match(page,/publicChangeLog/);
+  assert.doesNotMatch(page,/Revision history|revisionHistory/);
   assert.match(page,/ArticleBody/);
   assert.match(page,/confirmedFactsSummary/);
 });
@@ -34,6 +36,8 @@ test("site metadata exposes valid local-search structured data", async () => {
   assert.match(layout,/search_term_string/);
   assert.match(layout,/og:image:width/);
   assert.match(layout,/summary_large_image/);
+  assert.match(layout,/article:published_time/);
+  assert.match(layout,/article:modified_time/);
 });
 
 test("newsroom visual system includes broad navigation and a persistent three-mode theme", async () => {
@@ -97,7 +101,7 @@ test("global market ticker uses the official account-free TradingView web compon
     readFile(new URL("../src/layouts/BaseLayout.astro", import.meta.url),"utf8"),
     readFile(new URL("../src/components/SiteHeader.astro", import.meta.url),"utf8"),
     readFile(new URL("../src/components/MarketTicker.astro", import.meta.url),"utf8"),
-    readFile(new URL("../src/pages/[policy].astro", import.meta.url),"utf8")
+    readFile(new URL("../src/content/policies/privacy.md", import.meta.url),"utf8")
   ]);
   assert.match(layout,/https:\/\/widgets\.tradingview-widget\.com\/w\/en\/tv-ticker-tape\.js/);
   assert.equal(layout.match(/tv-ticker-tape\.js/g)?.length,1);
@@ -107,7 +111,59 @@ test("global market ticker uses the official account-free TradingView web compon
   assert.match(ticker,/FOREXCOM:SPXUSD/);
   assert.doesNotMatch(ticker,/account|apiKey|token|clientId/i);
   assert.match(policy,/widgets do not set cookies/);
-  assert.match(policy,/displayed symbols and connection IP address/);
+  assert.match(policy,/displayed symbols, and connection IP address/);
+});
+
+test("trust pages use the governed content collection and are indexable", async () => {
+  const [route,config,footer,sitemap] = await Promise.all([
+    readFile(new URL("../src/pages/[policy].astro", import.meta.url),"utf8"),
+    readFile(new URL("../src/content.config.ts", import.meta.url),"utf8"),
+    readFile(new URL("../src/layouts/BaseLayout.astro", import.meta.url),"utf8"),
+    readFile(new URL("../src/pages/sitemap.xml.ts", import.meta.url),"utf8")
+  ]);
+  assert.match(route,/getCollection\("policies"\)/);
+  assert.match(route,/noindex=\{!entry\.data\.index\}/);
+  assert.doesNotMatch(route,/Editorial placeholder|requires separate editorial approval/);
+  assert.match(config,/src\/content\/policies/);
+  for (const path of ["about","editorial-standards","corrections","support","privacy","terms","accessibility","contact"]) {
+    assert.match(sitemap,new RegExp(`/${path}/`));
+  }
+  assert.match(footer,/href="\/support\/">Support/);
+  assert.match(footer,/href="\/accessibility\/">Accessibility/);
+});
+
+test("policy copy matches current analytics, hosting, widget, storage, mail, and legal behavior", async () => {
+  const [privacy,about,support] = await Promise.all([
+    readFile(new URL("../src/content/policies/privacy.md", import.meta.url),"utf8"),
+    readFile(new URL("../src/content/policies/about.md", import.meta.url),"utf8"),
+    readFile(new URL("../src/content/policies/support.md", import.meta.url),"utf8")
+  ]);
+  for (const marker of ["Cloudflare","self-hosted Umami","Do Not Track","excludes search-query parameters","TradingView","Browser storage","Ordinary email","does not currently collect payment"]) {
+    assert.match(privacy,new RegExp(marker,"i"));
+  }
+  assert.doesNotMatch(privacy,/Google Analytics is enabled/i);
+  for (const source of [about,support]) {
+    assert.match(source,/Republic of Bohemia LLC/);
+    assert.match(source,/does not currently/i);
+    assert.match(source,/501\(c\)\(3\)/);
+    assert.match(source,/not tax-deductible/);
+  }
+});
+
+test("timestamps use America Chicago and every distribution surface reads the same fields", async () => {
+  const [news,article,rss,newsSitemap] = await Promise.all([
+    readFile(new URL("../src/lib/news.ts", import.meta.url),"utf8"),
+    readFile(new URL("../src/pages/articles/[...slug].astro", import.meta.url),"utf8"),
+    readFile(new URL("../src/pages/rss.xml.ts", import.meta.url),"utf8"),
+    readFile(new URL("../src/pages/news-sitemap.xml.ts", import.meta.url),"utf8")
+  ]);
+  assert.match(news,/timeZone:"America\/Chicago"/);
+  assert.match(news,/datePublished:article\.publishedAt/);
+  assert.match(news,/dateModified:article\.updatedAt/);
+  assert.match(article,/publishedAt=\{article\.publishedAt\}/);
+  assert.match(article,/updatedAt=\{article\.updatedAt\}/);
+  assert.match(rss,/new Date\(article\.publishedAt\)\.toUTCString/);
+  assert.match(newsSitemap,/news:publication_date>\$\{a\.publishedAt\}/);
 });
 
 test("news sitemap is recent-window and fixture gated", async () => {

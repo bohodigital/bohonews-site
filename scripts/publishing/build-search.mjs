@@ -19,7 +19,7 @@ if (result.status === 0) {
 // supported x64 release lanes still run Pagefind above.
 const includeFixtures = process.env.BOHONEWS_INCLUDE_FIXTURES === "1";
 const benchmark = process.env.BOHONEWS_BENCHMARK_1000 === "1";
-const promotion = JSON.parse(await readFile(join(root,"src/publishing/public-news-promotion-package.v1.json"),"utf8"));
+const promotion = JSON.parse(await readFile(join(root,"src/publishing/public-news-promotion-package.v2.json"),"utf8"));
 let records = promotion.articles;
 if (benchmark) {
   records = Array.from({length:1000},(_,index) => {
@@ -30,7 +30,7 @@ if (benchmark) {
   records = [
     {headline:"Fixture developing report",dek:"Non-production developing story presentation.",slug:"fixture-developing",section:"politics",articleType:"developing-story",publishedAt:"2026-07-25T10:30:00Z"},
     {headline:"Fixture correction presentation",dek:"Non-production correction presentation.",slug:"fixture-correction",section:"congress",articleType:"news-report",publishedAt:"2026-07-25T10:30:00Z"},
-    {headline:"Fixture explainer layout",dek:"Non-production explainer layout.",slug:"fixture-explainer",section:"explainers",articleType:"explainer",publishedAt:"2026-07-25T10:30:00Z"}
+    {headline:"Fixture retraction presentation",dek:"Non-production retraction presentation.",slug:"fixture-retraction",section:"politics",articleType:"news-report",publishedAt:"2026-07-25T10:30:00Z"}
   ];
 }
 const index = records.map(({headline,dek,slug,section,articleType,publishedAt}) => ({title:headline,excerpt:dek,url:`/articles/${slug}/`,section,articleType,year:publishedAt.slice(0,4)}));

@@ -1,5 +1,14 @@
-# Publishing scaffold
+# Public publishing surface
 
-No public article is included at initialization.
+The public site consumes the reviewed
+`src/publishing/public-news-promotion-package.v2.json` artifact and its
+`public-news-release.v2.json` manifest. It does not read the private newsroom
+repository at build time.
 
-Future article packages must be approved, sourced, attributable to a responsible human, connected to an approval record, and validated for media rights and executable content before build.
+Articles must be approved, sourced, attributable to a responsible human,
+connected to a verified production release, and validated for media rights and
+executable content before build. Public publication and update timestamps come
+from verified Cloudflare Pages activation records. Internal editorial revision
+notes remain private; only reader-relevant updates, corrections,
+clarifications, editor's notes, retractions, removals, and supersession events
+appear in the public change log.

@@ -21,9 +21,10 @@ It is the public delivery surface for publishable article packages, citations, r
 - Privacy-restrained self-hosted Umami analytics limited to the Boho News apex
   and `www` hosts, with Do Not Track and query-string exclusion enabled
 
-The Handoff 1 infrastructure and public newsroom shell are implemented. No real
-article has been promoted; production therefore remains an intentionally empty
-compiler-driven shell until an approved promotion package is released.
+The Handoff 1 infrastructure, public newsroom shell, and first governed article
+release are implemented. Batch 1 contains eight source-backed articles whose
+public timestamps are bound to a verified Cloudflare Pages production
+activation record.
 
 ## Local development
 
@@ -40,11 +41,15 @@ npm run dev
 
 Only material approved for public release belongs here. Do not commit secrets, credentials, confidential source identities, unpublished investigations, raw licensed wire content, private editorial deliberations, raw email, legal advice, donor private data, runtime databases, unredacted sensitive records, or private financial records.
 
-Every publishable media asset requires a media-rights record. Every future article package must preserve source provenance, approval state, corrections, and revisions.
+Every publishable media asset requires a media-rights record. Every article
+package must preserve source provenance, approval state, public corrections,
+and the release evidence establishing its visible publication history.
 
 The compiler-owned input is
-`src/publishing/public-news-promotion-package.v1.json`; its companion release manifest
-is `public-news-release.v1.json`. The production package contains zero fixtures.
+`src/publishing/public-news-promotion-package.v2.json`; its companion release
+manifest is `public-news-release.v2.json`. The production package contains zero
+fixtures and exposes public change-log entries only when a reader-relevant
+change has occurred.
 
 Cloudflare Pages build command: `npm run build`. Output directory: `dist`.
 

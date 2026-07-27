@@ -1,0 +1,105 @@
+{
+  "articleCount": 8,
+  "compilerVersion": "2.0.0",
+  "generatedAt": "2026-07-26T23:47:01.326037Z",
+  "mediaCount": 14,
+  "packageDigest": "8854984094ce38ac1e89a0b65607c14350d9c48135dcfef7e01fe084941fa0cf",
+  "releaseRecords": [
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+        "https://bohonews.com/articles/house-iran-war-powers-vote-214-208/",
+        "https://bohonews.com/articles/senate-supreme-court-18-year-term-limits-bill/",
+        "https://bohonews.com/articles/trump-section-301-tariffs-60-economies/",
+        "https://bohonews.com/articles/trump-smithsonian-warning-signs-executive-order/",
+        "https://bohonews.com/articles/what-house-iran-war-powers-vote-can-do/",
+        "https://bohonews.com/articles/what-is-section-301-trade-act/",
+        "https://bohonews.com/articles/who-controls-smithsonian-board-regents/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "immutableDeploymentUrl": "https://649b0aac.bohonews.pages.dev",
+      "newArticleIds": [
+        "article-ai-data-center-ratepayer-protection-pledge-expands",
+        "article-house-iran-war-powers-vote-214-208",
+        "article-senate-supreme-court-18-year-term-limits-bill",
+        "article-trump-section-301-tariffs-60-economies",
+        "article-trump-smithsonian-warning-signs-executive-order",
+        "article-what-house-iran-war-powers-vote-can-do",
+        "article-what-is-section-301-trade-act",
+        "article-who-controls-smithsonian-board-regents"
+      ],
+      "productionActivationAt": "2026-07-26T21:22:56.706315Z",
+      "project": "bohonews",
+      "publicSiteCommit": "5ca8b9f7d8b2c95cfe7dd558e661f1c2712a9080",
+      "recordHash": "0cbbd067127edf8147492cd1699c5f85be90593ca7393955d13e7cfc615810bb",
+      "releaseId": "bohonews-batch1-649b0aac",
+      "routeVerifiedAt": "2026-07-26T23:47:01.326037Z",
+      "schemaVersion": "2.0.0",
+      "updatedArticleIds": [],
+      "verificationResults": [
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/house-iran-war-powers-vote-214-208/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/house-iran-war-powers-vote-214-208/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/senate-supreme-court-18-year-term-limits-bill/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/senate-supreme-court-18-year-term-limits-bill/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/trump-section-301-tariffs-60-economies/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/trump-section-301-tariffs-60-economies/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/trump-smithsonian-warning-signs-executive-order/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/trump-smithsonian-warning-signs-executive-order/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/what-house-iran-war-powers-vote-can-do/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/what-house-iran-war-powers-vote-can-do/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/what-is-section-301-trade-act/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/what-is-section-301-trade-act/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/who-controls-smithsonian-board-regents/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/who-controls-smithsonian-board-regents/",
+          "status": 200
+        }
+      ],
+      "verifier": "Codex release verifier"
+    }
+  ],
+  "routes": [
+    "/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+    "/articles/house-iran-war-powers-vote-214-208/",
+    "/articles/senate-supreme-court-18-year-term-limits-bill/",
+    "/articles/trump-section-301-tariffs-60-economies/",
+    "/articles/trump-smithsonian-warning-signs-executive-order/",
+    "/articles/what-house-iran-war-powers-vote-can-do/",
+    "/articles/what-is-section-301-trade-act/",
+    "/articles/who-controls-smithsonian-board-regents/"
+  ],
+  "schemaVersion": "2.0.0"
+}

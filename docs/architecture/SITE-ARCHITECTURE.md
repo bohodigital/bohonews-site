@@ -4,8 +4,8 @@ Boho News is a static Astro site built from one versioned public promotion
 package. The package is compiler-owned and contains only approved public-safe
 records; the public build has no private repository or database dependency.
 
-Implemented routes include the homepage, latest and eight section indexes,
-article pages, six policy placeholders, search, RSS and section feeds, ordinary
+Implemented routes include the homepage, latest and section indexes,
+article pages, eight governed trust pages, search, RSS and section feeds, ordinary
 and news sitemaps, robots, and 404. Metadata indexes drive every article and
 section presentation. Article pages expose timestamps, bylines, labels,
 developing/correction notices, source citations, revisions, and JSON-LD.
@@ -18,6 +18,8 @@ during the transition.
 
 Production builds currently use the governed Batch 1 promotion: eight articles,
 14 media-rights records and 98 responsive real-media derivatives.
+The v2 promotion binds all eight articles to their first-public Cloudflare
+release and exposes only reader-facing publication history.
 `BOHONEWS_INCLUDE_FIXTURES=1` replaces those records with three synthetic,
 noindex, non-distributed records for private layout testing only.
 

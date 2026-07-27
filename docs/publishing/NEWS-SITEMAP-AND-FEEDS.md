@@ -7,6 +7,11 @@ RSS. `/feeds/<section>.xml` applies the same gate by section.
 articles in the recent-news window. It uses the Google News XML namespace,
 publication name/language, original publication timestamp, and headline.
 
+Visible article history, RSS `pubDate`, news-sitemap publication time, JSON-LD
+`datePublished`, Open Graph `article:published_time`, and search metadata all
+use the same production-release-derived UTC timestamp. The interface renders
+that value in America/Chicago with the correct `CDT` or `CST` abbreviation.
+
 `/sitemap.xml` includes canonical public shell routes plus non-fixture,
 indexable, current article routes. Drafts, previews, fixtures, embargoed/killed
 packages, retractions, and aliases never enter the promoted dataset and cannot

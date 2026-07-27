@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1.0.0",
+  "provider": "purelymail",
+  "aliases": [
+    {
+      "address": "contact@bohonews.com",
+      "delivery": "received"
+    },
+    {
+      "address": "corrections@bohonews.com",
+      "delivery": "received"
+    }
+  ],
+  "verifiedAt": "2026-07-27T00:11:06Z",
+  "verificationOperation": "purelymail-bohonews-public-aliases-20260726-v1"
+}

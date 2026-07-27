@@ -5,6 +5,9 @@ Before substantial work:
 1. Read the central Local1 constitutions.
 2. Read `bohonews.project` from the canonical Hub or its verified private mirror.
 3. Read the active work order and inspect Git state.
+4. Read the private mirror of
+   `bohonews.publication-time-and-changelog` before changing article
+   timestamps, public history, release records, feeds, sitemaps, or metadata.
 
 ## Editorial authority
 
@@ -26,6 +29,11 @@ ChatGPT is editor-in-chief for substantive public prose. Do not invent articles,
 - Read `docs/publishing/ARTICLE-PACKAGE-CONTRACT.md` and
   `docs/architecture/SITE-ARCHITECTURE.md` before changing publishing routes.
 - Never hand-edit promoted article fields to bypass the private compiler.
+- Accept only final v2 promotion packages whose article timestamps are bound to
+  hashed production release records. Candidate packages may never enter this
+  repository or a production build.
+- Render `revisionHistory` nowhere. Reader-facing history comes only from
+  `publishedAt` and `publicChangeLog`; internal provenance remains private.
 - Keep `BOHONEWS_INCLUDE_FIXTURES` confined to non-production testing; fixture
   builds are noindex and must never be deployed or promoted.
 - Run both the production build and fixture build when article presentation,
