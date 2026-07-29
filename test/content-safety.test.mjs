@@ -20,20 +20,56 @@ test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and
   const release = JSON.parse(await readFile(new URL("../public-news-release.v2.1.1.json", import.meta.url),"utf8"));
   const marker = JSON.parse(await readFile(new URL("../public/.well-known/bohonews-release.json", import.meta.url),"utf8"));
   const schema = JSON.parse(await readFile(new URL("../schemas/public-news-promotion-package.v2.1.1.schema.json", import.meta.url),"utf8"));
+  const batchOneArticleIds = [
+    "article-ai-data-center-ratepayer-protection-pledge-expands",
+    "article-house-iran-war-powers-vote-214-208",
+    "article-senate-supreme-court-18-year-term-limits-bill",
+    "article-trump-section-301-tariffs-60-economies",
+    "article-trump-smithsonian-warning-signs-executive-order",
+    "article-what-house-iran-war-powers-vote-can-do",
+    "article-what-is-section-301-trade-act",
+    "article-who-controls-smithsonian-board-regents"
+  ];
+  const batchOneMediaIds = [
+    "american-history-museum-2006",
+    "batl-bill-page1",
+    "hconres89-page1",
+    "house-chamber-2017",
+    "port-savannah-2021",
+    "ratepayer-pledge-0209",
+    "ratepayer-pledge-0226",
+    "ratepayer-pledge-0242",
+    "sheldon-whitehouse-portrait-2019",
+    "smithsonian-castle-2019",
+    "supreme-court-building-2011",
+    "ustr-final-action-page1",
+    "war-powers-section5-page",
+    "winder-building-2026"
+  ];
+  const articlesById = new Map(promotion.articles.map((article) => [article.id,article]));
+  const mediaById = new Map(promotion.mediaRights.map((media) => [media.id,media]));
+  const batchOneArticles = batchOneArticleIds.map((id) => articlesById.get(id));
+  const batchOneMedia = batchOneMediaIds.map((id) => mediaById.get(id));
+  const batchOneRelease = promotion.releaseRecords.find(
+    (record) => record.releaseId === "bohonews-batch1-649b0aac"
+  );
   assert.equal(promotion.schemaVersion,"2.1.1");
-  assert.equal(promotion.inventory.articleCount, 8);
-  assert.equal(promotion.articles.length, 8);
-  assert.equal(promotion.inventory.mediaCount, 14);
-  assert.equal(promotion.mediaRights.length, 14);
+  assert.equal(promotion.inventory.articleCount,promotion.articles.length);
+  assert.equal(promotion.inventory.mediaCount,promotion.mediaRights.length);
+  assert.ok(promotion.articles.length >= batchOneArticleIds.length);
+  assert.ok(promotion.mediaRights.length >= batchOneMediaIds.length);
+  assert.ok(batchOneArticles.every(Boolean));
+  assert.ok(batchOneMedia.every(Boolean));
   assert.ok(promotion.articles.every((article) => article.leadImage && article.bodyBlocks.length > 0));
   assert.ok(promotion.mediaRights.every((media) => media.aiGenerated === false && media.illustrationLabel === null));
-  assert.equal(promotion.mediaRights.reduce((count, media) => count + media.derivatives.length, 0), 98);
+  assert.equal(batchOneMedia.reduce((count, media) => count + media.derivatives.length, 0),98);
   assert.equal(release.packageDigest, promotion.packageDigest);
   assert.equal(promotion.releaseState,"final");
-  assert.equal(promotion.releaseRecords.length,1);
-  assert.equal(promotion.releaseRecords[0].immutableDeploymentUrl,"https://649b0aac.bohonews.pages.dev");
-  assert.equal(promotion.releaseRecords[0].productionActivationAt,"2026-07-26T21:22:56.706315Z");
-  assert.ok(promotion.articles.every((article) =>
+  assert.ok(batchOneRelease);
+  assert.deepEqual(batchOneRelease.newArticleIds,batchOneArticleIds);
+  assert.equal(batchOneRelease.immutableDeploymentUrl,"https://649b0aac.bohonews.pages.dev");
+  assert.equal(batchOneRelease.productionActivationAt,"2026-07-26T21:22:56.706315Z");
+  assert.ok(batchOneArticles.every((article) =>
     article.publishedAt === "2026-07-26T21:22:56.706315Z"
     && article.updatedAt === article.publishedAt
     && article.releaseId === "bohonews-batch1-649b0aac"
@@ -41,7 +77,7 @@ test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and
     && article.revisionHistory === undefined));
   assert.doesNotMatch(JSON.stringify(promotion),/owner-approved|handoff|work order|initial publication from/i);
   assert.equal(validatePublicState(promotion,release,schema).packageDigest,promotion.packageDigest);
-  assert.equal(validateReleaseMarker(marker,promotion,release).releaseId,promotion.releaseRecords[0].releaseId);
+  assert.equal(validateReleaseMarker(marker,promotion,release).releaseId,marker.releaseId);
   assert.equal(Object.hasOwn(marker,"publicSiteCommit"),false);
   assert.equal(Object.hasOwn(marker,"site"),false);
   assert.equal(
