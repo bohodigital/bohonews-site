@@ -228,6 +228,139 @@
       "updatedAt": "2026-07-26T21:22:56.706315Z"
     },
     {
+      "articleType": "data-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal labor agencies reported sharply different use of a law that allows some people and businesses to recover legal fees after prevailing against the federal government, according to a Government Accountability Office report publicly released Monday.\n\nGAO found that the Department of Labor reported 11 Equal Access to Justice Act awards totaling $547,601 from fiscal years 2019 through 2025. The National Labor Relations Board also reported 11 awards, totaling $436,913. The Equal Employment Opportunity Commission reported no awards during the same seven-year period.\n\nTogether, DOL and NLRB reported 22 awards worth $984,514. The totals describe awards reported by those agencies to the Administrative Conference of the United States; they are not a measure of every lawsuit, administrative case or legal expense involving the agencies.\n\nCongress enacted the Equal Access to Justice Act in 1980 in part to make it more feasible for eligible individuals, small businesses and organizations to challenge or defend themselves against federal actions. Under certain circumstances, a prevailing party may recover legal fees when it meets the law's eligibility requirements.\n\nGAO placed the three-agency figures in a much larger government-wide context. Federal agencies reported paying more than $116 million for about 15,000 EAJA awards on average each year from fiscal years 2019 through 2025, the watchdog said.\n\nThe Labor Department's reported awards varied by year. DOL recorded four awards in fiscal 2021 and three in 2022, while reporting none in 2024. Its largest annual total in the period was $138,266 in fiscal 2022.\n\nNLRB's reported awards were concentrated differently. It recorded five awards totaling $70,000 in fiscal 2019, no awards in fiscal 2020 or 2021, and one $150,000 award in fiscal 2022. It reported two awards in each of fiscal 2024 and 2025.\n\nGAO said EAJA awards primarily arise from civil court cases and are typically paid by the agency that the party prevailed against. The report reviewed agency data submitted to ACUS, relevant laws and regulations, and interviews with officials from DOL, EEOC and NLRB.\n\nGAO also interviewed five attorneys and industry representatives familiar with EAJA. Some told investigators the law helps attorneys represent clients who could not otherwise afford legal fees. Others described challenges, including statutory hourly-rate caps, the time required to pursue an award and uncertainty over whether fees would ultimately be recovered.\n\nGAO cautioned that those stakeholder views were not generalizable. The report describes the selected agencies' awards and stakeholder perspectives but does not make recommendations.",
+      "bodyBlocks": [
+        {
+          "text": "Federal labor agencies reported sharply different use of a law that allows some people and businesses to recover legal fees after prevailing against the federal government, according to a Government Accountability Office report publicly released Monday.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO found that the Department of Labor reported 11 Equal Access to Justice Act awards totaling $547,601 from fiscal years 2019 through 2025. The National Labor Relations Board also reported 11 awards, totaling $436,913. The Equal Employment Opportunity Commission reported no awards during the same seven-year period.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Together, DOL and NLRB reported 22 awards worth $984,514. The totals describe awards reported by those agencies to the Administrative Conference of the United States; they are not a measure of every lawsuit, administrative case or legal expense involving the agencies.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Congress enacted the Equal Access to Justice Act in 1980 in part to make it more feasible for eligible individuals, small businesses and organizations to challenge or defend themselves against federal actions. Under certain circumstances, a prevailing party may recover legal fees when it meets the law's eligibility requirements.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO placed the three-agency figures in a much larger government-wide context. Federal agencies reported paying more than $116 million for about 15,000 EAJA awards on average each year from fiscal years 2019 through 2025, the watchdog said.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Labor Department's reported awards varied by year. DOL recorded four awards in fiscal 2021 and three in 2022, while reporting none in 2024. Its largest annual total in the period was $138,266 in fiscal 2022.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NLRB's reported awards were concentrated differently. It recorded five awards totaling $70,000 in fiscal 2019, no awards in fiscal 2020 or 2021, and one $150,000 award in fiscal 2022. It reported two awards in each of fiscal 2024 and 2025.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO said EAJA awards primarily arise from civil court cases and are typically paid by the agency that the party prevailed against. The report reviewed agency data submitted to ACUS, relevant laws and regulations, and interviews with officials from DOL, EEOC and NLRB.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO also interviewed five attorneys and industry representatives familiar with EAJA. Some told investigators the law helps attorneys represent clients who could not otherwise afford legal fees. Others described challenges, including statutory hourly-rate caps, the time required to pursue an award and uncertainty over whether fees would ultimately be recovered.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO cautioned that those stakeholder views were not generalizable. The report describes the selected agencies' awards and stakeholder perspectives but does not make recommendations.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-gao-26-108644-eaja-awards",
+          "text": "Read GAO report GAO-26-108644.",
+          "title": "Primary source",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-legal-fee-awards-labor-agencies/",
+      "citations": [
+        {
+          "id": "source-gao-26-108644-eaja-awards",
+          "publishedAt": "2026-07-15T00:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Equal Access to Justice Act: Use at Selected Labor and Employment Agencies",
+          "url": "https://www.gao.gov/products/gao-26-108644"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "DOL reported 11 EAJA awards totaling $547,601 for fiscal years 2019 through 2025.",
+        "NLRB reported 11 EAJA awards totaling $436,913 for the same period.",
+        "EEOC reported no EAJA awards for the same period.",
+        "GAO said federal agencies averaged more than $116 million across about 15,000 EAJA awards per year during the period."
+      ],
+      "corrections": [],
+      "dek": "The two agencies reported nearly $1 million in Equal Access to Justice Act awards from fiscal years 2019 through 2025.",
+      "desk": "labor-policy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "U.S. Department of Labor",
+        "National Labor Relations Board",
+        "Equal Employment Opportunity Commission"
+      ],
+      "eventId": "event-gao-eaja-labor-agency-awards",
+      "headline": "GAO finds 22 legal-fee awards at Labor Department and NLRB, none at EEOC",
+      "id": "article-gao-legal-fee-awards-labor-agencies",
+      "leadImage": {
+        "alt": "Bar chart showing DOL with 11 EAJA awards totaling $547,601, NLRB with 11 totaling $436,913, and EEOC with zero awards from fiscal years 2019 through 2025.",
+        "caption": "EAJA awards reported by DOL, NLRB and EEOC for fiscal years 2019 through 2025.",
+        "credit": "Boho News Data Desk; data: U.S. Government Accountability Office",
+        "height": 900,
+        "rightsId": "media-gao-eaja-awards-chart",
+        "role": "lead",
+        "src": "/media/articles/gao-legal-fee-awards-labor-agencies/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-07-29T02:28:06.824Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260727t224642z-1fa3be32f037-74773f45d43a",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO found DOL and NLRB reported 22 EAJA awards worth nearly $1 million from fiscal years 2019 through 2025, while EEOC reported none.",
+        "index": true,
+        "title": "GAO report on DOL, NLRB and EEOC legal-fee awards"
+      },
+      "section": "business",
+      "slug": "gao-legal-fee-awards-labor-agencies",
+      "social": {
+        "description": "DOL and NLRB reported nearly $1 million in Equal Access to Justice Act awards from fiscal years 2019 through 2025; EEOC reported none.",
+        "image": "/media/articles/gao-legal-fee-awards-labor-agencies/open-graph.webp",
+        "title": "GAO: DOL and NLRB reported 22 EAJA awards"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Equal Access to Justice Act",
+        "Legal fees",
+        "Labor policy",
+        "Government accountability"
+      ],
+      "uncertainty": [
+        "GAO's detailed comparison covers DOL, NLRB and EEOC, not every federal agency individually."
+      ],
+      "updatedAt": "2026-07-29T02:28:06.824Z"
+    },
+    {
       "articleType": "vote-report",
       "authors": [
         "Boho News Staff"
@@ -1769,22 +1902,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-07-26T23:47:01.326037Z",
+  "generatedAt": "2026-07-29T02:28:10Z",
   "inputHashes": {
-    "approvals": "eef6be78b12210f34ccc847655670abddb983af5623e2a136d2b1a9a8a17f71a",
-    "articles": "eab2216d6a3864eaba3156151f43bbdc09fdc7eeb9dd2cf49ed82e64efb10139",
-    "claims": "e50e89336f911916a2b0523351366927bbb661e5e75be92708170f1d273495bf",
+    "approvals": "46b01c5f760ee7d10c590191a5025c42bc1298ebf3d48d54af87c25d7691beec",
+    "articles": "28c027093c7dca09f72a639c0d88977e4259bb25ba4d0e2d122c5bd582f02e24",
+    "claims": "64d2b9462bf071091a823d1476febc94c290a9e7d38bf1177c20aa4d39b0afa4",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "c81a9355d5d58170878ecaab266d7fdf191fa95d441d834fa28fcd862d339595",
-    "mediaRights": "b4fe2a46acde1fa2a218a72eccd8a67a1a1f34ea7f7a3501e8df2615e1d81b48",
-    "publicationIntents": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "releaseRecords": "c2c828f1ae36f19378b2aff582e2d07d842fa7f08d4f9dcf4400624fa72f3376",
-    "sourceItems": "01873cbdce82c54006c5ab072d1a9a214d2162226321277fcd7e6f98fe991cb7"
+    "events": "e63fe9de803c1b9f4195fd62e48d9c66a1dbf8d195e3aef4d7b65ee38bb1f44c",
+    "mediaRights": "e7344f95746e6b430b887ab6e1b73a39e95f517f3bf1a574bd31c755dc0bff6a",
+    "publicationIntents": "1d918c3cfc5da03aac59b3835b0056a2ce59a6b017e5b5f1a9fa54460f1c2d03",
+    "releaseRecords": "fb9bbb9449f78417af365aa79ad34fe6d1c4d4b0df3219cdeae2b29927103221",
+    "sourceItems": "7b1db3a327ad3ff69097c18f246ee6363989b10808acd49d7c188b91d0220ec9"
   },
   "inventory": {
-    "articleCount": 8,
-    "mediaCount": 14,
-    "routeCount": 8
+    "articleCount": 9,
+    "mediaCount": 15,
+    "routeCount": 9
   },
   "mediaRights": [
     {
@@ -2086,6 +2219,78 @@
       "rightsBasis": "Public domain - U.S. federal government work",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:United_States_House_of_Representatives_chamber.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Bar chart showing DOL with 11 EAJA awards totaling $547,601, NLRB with 11 totaling $436,913, and EEOC with zero awards from fiscal years 2019 through 2025.",
+      "archivalStatus": "current",
+      "attribution": "Boho News Data Desk; data: U.S. Government Accountability Office",
+      "caption": "EAJA awards reported by DOL, NLRB and EEOC for fiscal years 2019 through 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Award counts and totals reproduce GAO's table for fiscal years 2019 through 2025."
+      },
+      "creator": "Boho News Data Desk",
+      "derivatives": [
+        {
+          "hash": "85a4e4153e5b4b6b82635e01bbbe763e827d489356b0729752e2f74eda88adc0",
+          "height": 900,
+          "publicPath": "/media/articles/gao-legal-fee-awards-labor-agencies/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b6729b8009c75d5798c3acecdc4b69da5668dc2e61f60f608d6f0fffc57a059f",
+          "height": 600,
+          "publicPath": "/media/articles/gao-legal-fee-awards-labor-agencies/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "255a9474c61daf0bc3c137fc60c6ac3758f2e975a3ad656917e5deab73413c3d",
+          "height": 1200,
+          "publicPath": "/media/articles/gao-legal-fee-awards-labor-agencies/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b6eccd49ed5fd10e17981d4af79804385f9b1c87f1c79ad96a32eb3c31794180",
+          "height": 900,
+          "publicPath": "/media/articles/gao-legal-fee-awards-labor-agencies/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "afbb015f9a81a177f6825e25b34f668b2e21b3ce547d91d68df66e02957b0b1f",
+          "height": 720,
+          "publicPath": "/media/articles/gao-legal-fee-awards-labor-agencies/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a673585cd865ef5b0bc3919c991ee83e11f8cd6b1c9df046813add8cd42621c6",
+          "height": 630,
+          "publicPath": "/media/articles/gao-legal-fee-awards-labor-agencies/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "05b4f1ace636e3d841f55fba98d6bae7e29825a2d8cd7c060cf5d4448120cfb6",
+          "height": 480,
+          "publicPath": "/media/articles/gao-legal-fee-awards-labor-agencies/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-eaja-awards-chart",
+      "illustrationLabel": null,
+      "license": "Copyright Republic of Bohemia LLC; published by Boho News.",
+      "originalFileHash": "935ca3fa749d9cd3ab504e29f4d7304d51a5206c5d255eb2f91325e53bff0440",
+      "restrictions": [],
+      "retrievedAt": "2026-07-27T22:35:00Z",
+      "rightsBasis": "Original Boho News data visualization created from factual figures in a public U.S. government report.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108644"
     },
     {
       "aiGenerated": false,
@@ -2838,7 +3043,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "368961358c2c3c5c5528166a4c3871830f0b13a9e567dcbb539479a9ecbdf6cc",
+  "packageDigest": "37023c5245cda34ffb009707f4b8e34a151e55f69c54455b5bb72bb9bd42bdfd",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -2924,6 +3129,27 @@
         }
       ],
       "verifier": "Codex release verifier"
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://b2e93090.bohonews.pages.dev/",
+      "activationEvidenceHash": "a0ab4873bb32ec9201df5207e891a82ad2133d9b9f90c9a2f57013797a5023b3",
+      "canonicalFirstPublicAt": "2026-07-29T02:28:06.824Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-legal-fee-awards-labor-agencies/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-legal-fee-awards-labor-agencies"
+      ],
+      "previousVerifiedDeploymentReference": "9341e8d8a4af50895a8db13cab1347dc836ef17160ff4ea23047f1682fb1a65c",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-29T02:27:16.498666Z",
+      "recordHash": "b14adec1be86178b0026fd7d2b441c4a071317f3d2976588150e64a5ac226048",
+      "releaseId": "release-pb-20260727t224642z-1fa3be32f037-74773f45d43a",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",

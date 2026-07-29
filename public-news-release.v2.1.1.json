@@ -1,9 +1,9 @@
 {
-  "articleCount": 8,
+  "articleCount": 9,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-07-26T23:47:01.326037Z",
-  "mediaCount": 14,
-  "packageDigest": "368961358c2c3c5c5528166a4c3871830f0b13a9e567dcbb539479a9ecbdf6cc",
+  "generatedAt": "2026-07-29T02:28:10Z",
+  "mediaCount": 15,
+  "packageDigest": "37023c5245cda34ffb009707f4b8e34a151e55f69c54455b5bb72bb9bd42bdfd",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -89,11 +89,33 @@
         }
       ],
       "verifier": "Codex release verifier"
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://b2e93090.bohonews.pages.dev/",
+      "activationEvidenceHash": "a0ab4873bb32ec9201df5207e891a82ad2133d9b9f90c9a2f57013797a5023b3",
+      "canonicalFirstPublicAt": "2026-07-29T02:28:06.824Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-legal-fee-awards-labor-agencies/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-legal-fee-awards-labor-agencies"
+      ],
+      "previousVerifiedDeploymentReference": "9341e8d8a4af50895a8db13cab1347dc836ef17160ff4ea23047f1682fb1a65c",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-29T02:27:16.498666Z",
+      "recordHash": "b14adec1be86178b0026fd7d2b441c4a071317f3d2976588150e64a5ac226048",
+      "releaseId": "release-pb-20260727t224642z-1fa3be32f037-74773f45d43a",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
   "routes": [
     "/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+    "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
     "/articles/trump-section-301-tariffs-60-economies/",
