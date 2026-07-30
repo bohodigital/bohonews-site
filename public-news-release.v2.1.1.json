@@ -1,9 +1,9 @@
 {
-  "articleCount": 9,
+  "articleCount": 10,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-07-30T05:51:07Z",
-  "mediaCount": 15,
-  "packageDigest": "c8bf461d96089907a0ea903c8d6582fddbd929ce2291560d118b00c53ea5dc74",
+  "generatedAt": "2026-07-30T21:18:55Z",
+  "mediaCount": 16,
+  "packageDigest": "95accdc56220bd919c01cae229c741f59282b1b3d3d7f860f9a88d7775a12918",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -119,6 +119,27 @@
       "releaseMarkerHash": "e2d39b991cfb51e95e9a63d32473c162e3672f9543d11dbc48102a5b2ad04771",
       "schemaVersion": "2.2.0",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://d8c588f2.bohonews.pages.dev/",
+      "activationEvidenceHash": "bdcde61d42efc15568c97376858293fbb7c1d569a93c66b559af152fe3715cd3",
+      "canonicalFirstPublicAt": "2026-07-30T21:18:51.116Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/metro-unemployment-payroll-growth-june-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-metro-unemployment-payroll-growth-june-2026"
+      ],
+      "previousVerifiedDeploymentReference": "009dd4d9a6ad136077a06602a188644051c35effb5d1b340b76a25b3a7490fb7",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-30T21:17:02.846516Z",
+      "recordHash": "69ddd1432a95be9bfc5daa4a9944a1dcbba4ff12e84874ea69d8f4cefac97407",
+      "releaseId": "release-pb-20260730t204322z-e644bd39c495-4f4a40de79cc",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -126,6 +147,7 @@
     "/articles/ai-data-center-ratepayer-protection-pledge-expands/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/house-iran-war-powers-vote-214-208/",
+    "/articles/metro-unemployment-payroll-growth-june-2026/",
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
     "/articles/trump-section-301-tariffs-60-economies/",
     "/articles/trump-smithsonian-warning-signs-executive-order/",
