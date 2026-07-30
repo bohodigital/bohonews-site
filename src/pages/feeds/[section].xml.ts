@@ -1,6 +1,6 @@
 import type { APIRoute, GetStaticPaths } from "astro";
 import { articles, candidatePreviewEnabled } from "../../lib/news";
-export const getStaticPaths = (() => ["politics","white-house","congress","courts","elections","investigations","explainers","opinion"].map((section) => ({params:{section}}))) satisfies GetStaticPaths;
+export const getStaticPaths = (() => ["business","politics","white-house","congress","courts","elections","investigations","explainers","opinion"].map((section) => ({params:{section}}))) satisfies GetStaticPaths;
 function escape(value:string) { return value.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;"); }
 export const GET: APIRoute = ({params}) => {
   const items = (candidatePreviewEnabled ? [] : articles)
