@@ -82,6 +82,11 @@ test("built search loads Pagefind's classic UI before its initializer", async ()
   assert.match(initializer,/new PagefindUI/);
   assert.match(builder,/window\.PagefindUI=class PagefindUI/);
   assert.doesNotMatch(builder,/export class PagefindUI/);
+  assert.ok(
+    builder.indexOf("input.addEventListener('input',render)")
+      < builder.indexOf("fetch('/search-index.json')")
+  );
+  assert.match(builder,/rows=value;input\.dispatchEvent\(new Event\('input'/);
 });
 
 test("Umami is host-restricted, privacy-restrained, and suppressible for QA", async () => {
