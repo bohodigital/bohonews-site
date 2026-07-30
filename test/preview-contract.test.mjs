@@ -71,13 +71,14 @@ test("authoritative final package binds canonical-first-public time and release 
 });
 
 test("preview source contract suppresses timestamps, indexing, analytics, and TradingView", async () => {
-  const [article,layout,header,previewValidator,robots,rss,newsSitemap] = await Promise.all([
+  const [article,layout,header,previewValidator,robots,rss,sitemap,newsSitemap] = await Promise.all([
     readFile(new URL("../src/pages/articles/[...slug].astro",import.meta.url),"utf8"),
     readFile(new URL("../src/layouts/BaseLayout.astro",import.meta.url),"utf8"),
     readFile(new URL("../src/components/SiteHeader.astro",import.meta.url),"utf8"),
     readFile(new URL("../scripts/publishing/validate-preview.mjs",import.meta.url),"utf8"),
     readFile(new URL("../src/pages/robots.txt.ts",import.meta.url),"utf8"),
     readFile(new URL("../src/pages/rss.xml.ts",import.meta.url),"utf8"),
+    readFile(new URL("../src/pages/sitemap.xml.ts",import.meta.url),"utf8"),
     readFile(new URL("../src/pages/news-sitemap.xml.ts",import.meta.url),"utf8")
   ]);
   assert.match(article,/Preview candidate — not published/);
@@ -88,5 +89,7 @@ test("preview source contract suppresses timestamps, indexing, analytics, and Tr
   assert.match(previewValidator,/X-Robots-Tag: noindex, nofollow/);
   assert.match(robots,/Disallow: \//);
   assert.match(rss,/candidatePreviewEnabled \? \[\] : articles/);
+  assert.match(sitemap,/candidatePreviewEnabled \? \[\] : articles/);
   assert.match(newsSitemap,/candidatePreviewEnabled \? \[\] : articles/);
+  assert.match(previewValidator,/sitemap\.includes\(canonicalUrl\)/);
 });

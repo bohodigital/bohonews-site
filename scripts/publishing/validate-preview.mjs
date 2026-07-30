@@ -64,14 +64,16 @@ export async function validatePreviewArtifact() {
       throw new Error(`Preview article exposes an invented publication time: ${article.id}`);
     }
   }
-  const [robots,rss,newsSitemap,headers] = await Promise.all([
+  const [robots,rss,sitemap,newsSitemap,headers] = await Promise.all([
     readFile(join(dist,"robots.txt"),"utf8"),
     readFile(join(dist,"rss.xml"),"utf8"),
+    readFile(join(dist,"sitemap.xml"),"utf8"),
     readFile(join(dist,"news-sitemap.xml"),"utf8"),
     readFile(headersPath,"utf8")
   ]);
   if (!/Disallow: \//.test(robots)
     || promotion.articles.some(({canonicalUrl}) => rss.includes(canonicalUrl)
+      || sitemap.includes(canonicalUrl)
       || newsSitemap.includes(canonicalUrl))
     || !/X-Robots-Tag: noindex, nofollow/.test(headers)
     || !/Cache-Control: no-store/.test(headers)) {

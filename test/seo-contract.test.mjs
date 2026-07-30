@@ -178,6 +178,7 @@ test("news sitemap is recent-window and fixture gated", async () => {
 
 test("ordinary sitemap excludes fixture and non-indexable records", async () => {
   const page = await readFile(new URL("../src/pages/sitemap.xml.ts", import.meta.url),"utf8");
+  assert.match(page,/candidatePreviewEnabled \? \[\] : articles/);
   assert.match(page,/!a\.fixture/);
   assert.match(page,/a\.search\.index/);
   assert.match(page,/retractionState === "current"/);
