@@ -53,6 +53,14 @@ test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and
   const batchOneRelease = promotion.releaseRecords.find(
     (record) => record.releaseId === "bohonews-batch1-649b0aac"
   );
+  const canaryRelease = promotion.releaseRecords.find(
+    (record) =>
+      record.releaseId
+      === "release-pb-20260727t224642z-1fa3be32f037-74773f45d43a"
+  );
+  const canaryArticle = articlesById.get(
+    "article-gao-legal-fee-awards-labor-agencies"
+  );
   assert.equal(promotion.schemaVersion,"2.1.1");
   assert.equal(promotion.inventory.articleCount,promotion.articles.length);
   assert.equal(promotion.inventory.mediaCount,promotion.mediaRights.length);
@@ -66,6 +74,7 @@ test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and
   assert.equal(release.packageDigest, promotion.packageDigest);
   assert.equal(promotion.releaseState,"final");
   assert.ok(batchOneRelease);
+  assert.ok(canaryRelease);
   assert.deepEqual(batchOneRelease.newArticleIds,batchOneArticleIds);
   assert.equal(batchOneRelease.immutableDeploymentUrl,"https://649b0aac.bohonews.pages.dev");
   assert.equal(batchOneRelease.productionActivationAt,"2026-07-26T21:22:56.706315Z");
@@ -75,6 +84,34 @@ test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and
     && article.releaseId === "bohonews-batch1-649b0aac"
     && article.publicChangeLog.length === 0
     && article.revisionHistory === undefined));
+  assert.equal(canaryRelease.schemaVersion,"2.2.0");
+  assert.equal(
+    canaryRelease.activationDeploymentUrl,
+    "https://ca99bab0.bohonews.pages.dev/"
+  );
+  assert.equal(
+    canaryRelease.canonicalFirstPublicAt,
+    "2026-07-29T01:51:52.287Z"
+  );
+  assert.equal(
+    canaryRelease.canonicalObservationEvidenceHash,
+    "74f2135696c854869a481b9fb97443f177cc8f4ace7ae3b7db75e22397e3e5a6"
+  );
+  assert.equal(
+    canaryRelease.completionEvidenceHash,
+    "e0e5c276ebeddfc0e8a863bd8f2f93605c5bd6411f35203022a23af75d82b9c3"
+  );
+  assert.equal(
+    canaryRelease.finalImmutableUrl,
+    "https://9e182b48.bohonews.pages.dev/"
+  );
+  assert.equal(canaryArticle.publishedAt,canaryRelease.canonicalFirstPublicAt);
+  assert.equal(canaryArticle.updatedAt,canaryArticle.publishedAt);
+  assert.deepEqual(canaryArticle.publicChangeLog,[]);
+  assert.equal(
+    promotion.releaseRecords.some((record) => record.schemaVersion === "2.1.1"),
+    false
+  );
   assert.doesNotMatch(JSON.stringify(promotion),/owner-approved|handoff|work order|initial publication from/i);
   assert.equal(validatePublicState(promotion,release,schema).packageDigest,promotion.packageDigest);
   assert.equal(validateReleaseMarker(marker,promotion,release).releaseId,marker.releaseId);
@@ -99,6 +136,7 @@ test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and
   );
   const release211Schema = schema.$defs.evidenceBackedReleaseRecord;
   assert.ok(!release211Schema.required.includes("publicSiteCommit"));
+  assert.equal(schema.$defs.finalizedReleaseRecord.properties.schemaVersion.const,"2.2.0");
   const tampered = structuredClone(promotion);
   tampered.generatedAt = "2026-07-25T00:00:01Z";
   assert.throws(() => validatePublicState(tampered,release,schema),/digest mismatch/);

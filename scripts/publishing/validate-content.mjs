@@ -148,9 +148,9 @@ export function validatePublicState(promotion, release, schema, options = {}) {
       continue;
     }
     const firstRelease = releases.get(article.releaseId);
-    const firstPublicAt = firstRelease?.schemaVersion === "2.1.1"
-      ? firstRelease.canonicalFirstPublicAt
-      : firstRelease?.productionActivationAt;
+    const firstPublicAt = firstRelease?.schemaVersion === "2.0.0"
+      ? firstRelease.productionActivationAt
+      : firstRelease?.canonicalFirstPublicAt;
     if (!firstRelease || !firstRelease.newArticleIds.includes(article.id)
       || firstPublicAt !== article.publishedAt
       || !firstRelease.canonicalUrls.includes(article.canonicalUrl)) {
@@ -167,9 +167,9 @@ export function validatePublicState(promotion, release, schema, options = {}) {
       const latest = article.publicChangeLog.at(-1);
       const updateRelease = promotion.releaseRecords.find((record) =>
         record.updatedArticleIds.includes(article.id)
-        && (record.schemaVersion === "2.1.1"
-          ? record.canonicalFirstPublicAt
-          : record.productionActivationAt) === article.updatedAt
+        && (record.schemaVersion === "2.0.0"
+          ? record.productionActivationAt
+          : record.canonicalFirstPublicAt) === article.updatedAt
         && record.canonicalUrls.includes(article.canonicalUrl));
       if (!latest || latest.at !== article.updatedAt || !updateRelease) {
         throw new Error(`Article update lacks matching history and release evidence: ${article.id}`);

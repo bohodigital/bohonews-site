@@ -43,7 +43,8 @@
       "items": {
         "oneOf": [
           {"$ref": "#/$defs/legacyReleaseRecord"},
-          {"$ref": "#/$defs/evidenceBackedReleaseRecord"}
+          {"$ref": "#/$defs/evidenceBackedReleaseRecord"},
+          {"$ref": "#/$defs/finalizedReleaseRecord"}
         ]
       }
     },
@@ -161,6 +162,48 @@
         "canonicalUrls": {"type": "array", "uniqueItems": true, "items": {"type": "string", "format": "uri"}},
         "activationEvidenceHash": {"$ref": "#/$defs/hash"},
         "previousVerifiedDeploymentReference": {"type": "string", "minLength": 1},
+        "recordHash": {"$ref": "#/$defs/hash"}
+      }
+    },
+    "finalizedReleaseRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schemaVersion", "releaseId", "deploymentProvider", "accountReference",
+        "project", "environment", "activationDeploymentUrl",
+        "providerActivatedAt", "canonicalFirstPublicAt",
+        "newArticleIds", "updatedArticleIds", "canonicalUrls",
+        "activationEvidenceHash", "canonicalObservationEvidenceHash",
+        "previousVerifiedDeploymentReference", "finalImmutableUrl",
+        "finalDeploymentActivatedAt", "finalRouteVerifiedAt",
+        "finalPackageDigest", "publicContentInventoryDigest",
+        "releaseMarkerHash", "completionEvidenceHash",
+        "finalVerificationOutputHash", "recordHash"
+      ],
+      "properties": {
+        "schemaVersion": {"const": "2.2.0"},
+        "releaseId": {"$ref": "#/$defs/id"},
+        "deploymentProvider": {"const": "cloudflare-pages"},
+        "accountReference": {"const": "boho-digital-services.cloudflare.primary-management"},
+        "project": {"const": "bohonews"},
+        "environment": {"const": "production"},
+        "activationDeploymentUrl": {"type": "string", "format": "uri"},
+        "providerActivatedAt": {"type": "string", "format": "date-time"},
+        "canonicalFirstPublicAt": {"type": "string", "format": "date-time"},
+        "newArticleIds": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+        "updatedArticleIds": {"type": "array", "uniqueItems": true, "items": {"$ref": "#/$defs/id"}},
+        "canonicalUrls": {"type": "array", "uniqueItems": true, "items": {"type": "string", "format": "uri"}},
+        "activationEvidenceHash": {"$ref": "#/$defs/hash"},
+        "canonicalObservationEvidenceHash": {"$ref": "#/$defs/hash"},
+        "previousVerifiedDeploymentReference": {"type": "string", "minLength": 1},
+        "finalImmutableUrl": {"type": "string", "format": "uri"},
+        "finalDeploymentActivatedAt": {"type": "string", "format": "date-time"},
+        "finalRouteVerifiedAt": {"type": "string", "format": "date-time"},
+        "finalPackageDigest": {"$ref": "#/$defs/hash"},
+        "publicContentInventoryDigest": {"$ref": "#/$defs/hash"},
+        "releaseMarkerHash": {"$ref": "#/$defs/hash"},
+        "completionEvidenceHash": {"$ref": "#/$defs/hash"},
+        "finalVerificationOutputHash": {"$ref": "#/$defs/hash"},
         "recordHash": {"$ref": "#/$defs/hash"}
       }
     },

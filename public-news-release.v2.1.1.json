@@ -1,9 +1,9 @@
 {
   "articleCount": 9,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-07-29T02:28:10Z",
+  "generatedAt": "2026-07-30T05:51:07Z",
   "mediaCount": 15,
-  "packageDigest": "37023c5245cda34ffb009707f4b8e34a151e55f69c54455b5bb72bb9bd42bdfd",
+  "packageDigest": "c8bf461d96089907a0ea903c8d6582fddbd929ce2291560d118b00c53ea5dc74",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -92,23 +92,32 @@
     },
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
-      "activationDeploymentUrl": "https://b2e93090.bohonews.pages.dev/",
-      "activationEvidenceHash": "a0ab4873bb32ec9201df5207e891a82ad2133d9b9f90c9a2f57013797a5023b3",
-      "canonicalFirstPublicAt": "2026-07-29T02:28:06.824Z",
+      "activationDeploymentUrl": "https://ca99bab0.bohonews.pages.dev/",
+      "activationEvidenceHash": "8a30a7758c036c2223b8067a8edf00b704d687aea8363b4e2189a69640009a5a",
+      "canonicalFirstPublicAt": "2026-07-29T01:51:52.287Z",
+      "canonicalObservationEvidenceHash": "74f2135696c854869a481b9fb97443f177cc8f4ace7ae3b7db75e22397e3e5a6",
       "canonicalUrls": [
         "https://bohonews.com/articles/gao-legal-fee-awards-labor-agencies/"
       ],
+      "completionEvidenceHash": "e0e5c276ebeddfc0e8a863bd8f2f93605c5bd6411f35203022a23af75d82b9c3",
       "deploymentProvider": "cloudflare-pages",
       "environment": "production",
+      "finalDeploymentActivatedAt": "2026-07-29T02:40:58.130573Z",
+      "finalImmutableUrl": "https://9e182b48.bohonews.pages.dev/",
+      "finalPackageDigest": "37023c5245cda34ffb009707f4b8e34a151e55f69c54455b5bb72bb9bd42bdfd",
+      "finalRouteVerifiedAt": "2026-07-29T02:42:27.152Z",
+      "finalVerificationOutputHash": "63260215c92fa4e6c0bafa0b660685b0cb8ce1f97fd4f7abc3ed94e2377364c4",
       "newArticleIds": [
         "article-gao-legal-fee-awards-labor-agencies"
       ],
       "previousVerifiedDeploymentReference": "9341e8d8a4af50895a8db13cab1347dc836ef17160ff4ea23047f1682fb1a65c",
       "project": "bohonews",
-      "providerActivatedAt": "2026-07-29T02:27:16.498666Z",
-      "recordHash": "b14adec1be86178b0026fd7d2b441c4a071317f3d2976588150e64a5ac226048",
+      "providerActivatedAt": "2026-07-29T01:50:38.180916Z",
+      "publicContentInventoryDigest": "02a6505896ef3cdbec2079690cc07be011282d0534abcb1a7761fd9d738b75c4",
+      "recordHash": "dd4605805691358ab373e27279840cf6dd03b4989c165646d1f2a388985f98de",
       "releaseId": "release-pb-20260727t224642z-1fa3be32f037-74773f45d43a",
-      "schemaVersion": "2.1.1",
+      "releaseMarkerHash": "e2d39b991cfb51e95e9a63d32473c162e3672f9543d11dbc48102a5b2ad04771",
+      "schemaVersion": "2.2.0",
       "updatedArticleIds": []
     }
   ],
