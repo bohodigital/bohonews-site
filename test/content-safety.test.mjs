@@ -108,10 +108,7 @@ test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and
   assert.equal(canaryArticle.publishedAt,canaryRelease.canonicalFirstPublicAt);
   assert.equal(canaryArticle.updatedAt,canaryArticle.publishedAt);
   assert.deepEqual(canaryArticle.publicChangeLog,[]);
-  assert.equal(
-    promotion.releaseRecords.some((record) => record.schemaVersion === "2.1.1"),
-    false
-  );
+  assert.equal(batchOneRelease.schemaVersion,"2.0.0");
   assert.doesNotMatch(JSON.stringify(promotion),/owner-approved|handoff|work order|initial publication from/i);
   assert.equal(validatePublicState(promotion,release,schema).packageDigest,promotion.packageDigest);
   assert.equal(validateReleaseMarker(marker,promotion,release).releaseId,marker.releaseId);
