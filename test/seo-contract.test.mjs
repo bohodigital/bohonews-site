@@ -72,13 +72,16 @@ test("visual system preserves keyboard, motion, print and mobile theme access", 
 });
 
 test("built search loads Pagefind's classic UI before its initializer", async () => {
-  const [page,initializer] = await Promise.all([
+  const [page,initializer,builder] = await Promise.all([
     readFile(new URL("../src/pages/search.astro", import.meta.url),"utf8"),
-    readFile(new URL("../public/search-init.js", import.meta.url),"utf8")
+    readFile(new URL("../public/search-init.js", import.meta.url),"utf8"),
+    readFile(new URL("../scripts/publishing/build-search.mjs", import.meta.url),"utf8")
   ]);
   assert.ok(page.indexOf("/pagefind/pagefind-ui.js") < page.indexOf("/search-init.js"));
   assert.doesNotMatch(initializer,/\bimport\b/);
   assert.match(initializer,/new PagefindUI/);
+  assert.match(builder,/window\.PagefindUI=class PagefindUI/);
+  assert.doesNotMatch(builder,/export class PagefindUI/);
 });
 
 test("Umami is host-restricted, privacy-restrained, and suppressible for QA", async () => {
