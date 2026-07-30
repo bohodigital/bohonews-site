@@ -82,9 +82,11 @@ test("built search loads Pagefind's classic UI before its initializer", async ()
   assert.match(initializer,/new PagefindUI/);
   assert.match(builder,/window\.PagefindUI=class PagefindUI/);
   assert.doesNotMatch(builder,/export class PagefindUI/);
+  assert.match(page,/pagefind-ui\.js\?v=20260730-1/);
+  assert.match(builder,/search-index\.json\?v=20260730-1/);
   assert.ok(
     builder.indexOf("input.addEventListener('input',render)")
-      < builder.indexOf("fetch('/search-index.json')")
+      < builder.indexOf("fetch('/search-index.json?v=20260730-1')")
   );
   assert.match(builder,/rows=value;input\.dispatchEvent\(new Event\('input'/);
 });
