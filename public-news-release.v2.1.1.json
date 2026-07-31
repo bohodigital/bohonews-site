@@ -1,9 +1,9 @@
 {
-  "articleCount": 10,
+  "articleCount": 11,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-07-30T21:18:55Z",
-  "mediaCount": 16,
-  "packageDigest": "95accdc56220bd919c01cae229c741f59282b1b3d3d7f860f9a88d7775a12918",
+  "generatedAt": "2026-07-31T05:20:43Z",
+  "mediaCount": 17,
+  "packageDigest": "2c9796fd35feb938629df5497184653819b72a2cb6d5678c6815098f44841d25",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -140,6 +140,27 @@
       "releaseId": "release-pb-20260730t204322z-e644bd39c495-4f4a40de79cc",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://7de93601.bohonews.pages.dev/",
+      "activationEvidenceHash": "0ede00133e6012957b786ebda8bb110e2ea7a35eaec7739891c7d6742b83c557",
+      "canonicalFirstPublicAt": "2026-07-31T05:20:37.953Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/us-gdp-growth-slows-q2-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-us-gdp-growth-slows-q2-2026"
+      ],
+      "previousVerifiedDeploymentReference": "4915b09702e40a04269e21d5d82cedf452f5b8fb46a99c417dad761140b1e2e5",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-31T05:19:50.703356Z",
+      "recordHash": "96c00a8d522d47bab5510194c1edb051aa6c274282fea5490e626f060dc54033",
+      "releaseId": "release-pb-20260731t051637z-3c9bf4a460bc-7e5a1d8ac46b",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -151,6 +172,7 @@
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
     "/articles/trump-section-301-tariffs-60-economies/",
     "/articles/trump-smithsonian-warning-signs-executive-order/",
+    "/articles/us-gdp-growth-slows-q2-2026/",
     "/articles/what-house-iran-war-powers-vote-can-do/",
     "/articles/what-is-section-301-trade-act/",
     "/articles/who-controls-smithsonian-board-regents/"

@@ -1336,6 +1336,203 @@
       "updatedAt": "2026-07-26T21:22:56.706315Z"
     },
     {
+      "articleType": "data-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The U.S. economy grew at a 1.5 percent annual rate in the second quarter of 2026, slowing from a 2.1 percent pace in the first quarter, according to the Bureau of Economic Analysis’s advance estimate released Thursday.\n\nThe headline slowdown masked a sharper rebound in household demand. Real personal consumption expenditures increased at a 3.2 percent annual rate after rising 0.5 percent in the first quarter. Spending on goods rose 5.2 percent, while spending on services increased 2.2 percent.\n\nFixed investment also remained strong, increasing 7.0 percent. Equipment investment rose 15.2 percent and investment in intellectual property products increased 8.8 percent. Nonresidential structures fell 5.0 percent, while residential investment increased 1.5 percent after declining in the first quarter.\n\nGovernment consumption expenditures and gross investment fell 0.8 percent after rising 4.4 percent in the first quarter. Federal spending declined 4.1 percent, driven by a 12.9 percent drop in nondefense spending, while state and local spending increased 1.1 percent.\n\nBEA said the decline in federal nondefense spending primarily reflected sales of crude oil from the Strategic Petroleum Reserve. In the national accounts, those sales reduce government consumption expenditures, but the oil is reflected elsewhere in GDP, so the transactions do not directly reduce total GDP.\n\nExports increased 4.5 percent, while imports rose 11.5 percent. Imports are subtracted in the calculation of GDP, so faster import growth weighed on the headline rate even as it reflected continued U.S. demand for foreign goods.\n\nPrice growth accelerated during the quarter. The price index for gross domestic purchases increased 5.7 percent, compared with 3.6 percent in the first quarter. The personal consumption expenditures price index increased 5.1 percent, while the index excluding food and energy rose 3.4 percent.\n\nOne measure of underlying private demand looked stronger than the headline GDP figure. Real final sales to private domestic purchasers, which combines consumer spending and private fixed investment, increased 3.9 percent after rising 1.7 percent in the first quarter.\n\nThe figures are an advance estimate, not a final count. Quarterly growth rates are seasonally adjusted and expressed at annual rates, meaning the 1.5 percent figure describes the quarter’s pace if it continued for a full year. BEA is scheduled to publish its second estimate, along with an initial estimate of corporate profits, on August 26.\n\nThe report therefore shows slower overall output growth alongside firmer private domestic demand and faster prices. It does not, by itself, establish whether the economy is entering or avoiding a recession; that judgment requires a broader set of employment, income, production and sales data.",
+      "bodyBlocks": [
+        {
+          "text": "The U.S. economy grew at a 1.5 percent annual rate in the second quarter of 2026, slowing from a 2.1 percent pace in the first quarter, according to the Bureau of Economic Analysis’s advance estimate released Thursday.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The headline slowdown masked a sharper rebound in household demand. Real personal consumption expenditures increased at a 3.2 percent annual rate after rising 0.5 percent in the first quarter. Spending on goods rose 5.2 percent, while spending on services increased 2.2 percent.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Consumers and fixed investment accelerated",
+          "type": "subheading"
+        },
+        {
+          "text": "Fixed investment also remained strong, increasing 7.0 percent. Equipment investment rose 15.2 percent and investment in intellectual property products increased 8.8 percent. Nonresidential structures fell 5.0 percent, while residential investment increased 1.5 percent after declining in the first quarter.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Bar chart showing annualized second-quarter 2026 growth of 1.5 percent for real GDP, 3.2 percent for consumer spending, 7.0 percent for fixed investment and negative 0.8 percent for government spending.",
+          "caption": "Consumer spending and fixed investment grew faster than overall GDP in the second quarter, while government spending declined.",
+          "credit": "Boho News graphic; data: U.S. Bureau of Economic Analysis",
+          "height": 900,
+          "rightsId": "media-bea-q2-gdp-2026-chart",
+          "sourceUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+          "src": "/media/articles/us-gdp-growth-slows-q2-2026/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "level": 2,
+          "text": "Government spending turned negative",
+          "type": "subheading"
+        },
+        {
+          "text": "Government consumption expenditures and gross investment fell 0.8 percent after rising 4.4 percent in the first quarter. Federal spending declined 4.1 percent, driven by a 12.9 percent drop in nondefense spending, while state and local spending increased 1.1 percent.",
+          "type": "paragraph"
+        },
+        {
+          "text": "BEA said the decline in federal nondefense spending primarily reflected sales of crude oil from the Strategic Petroleum Reserve. In the national accounts, those sales reduce government consumption expenditures, but the oil is reflected elsewhere in GDP, so the transactions do not directly reduce total GDP.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Exports increased 4.5 percent, while imports rose 11.5 percent. Imports are subtracted in the calculation of GDP, so faster import growth weighed on the headline rate even as it reflected continued U.S. demand for foreign goods.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Price growth accelerated",
+          "type": "subheading"
+        },
+        {
+          "text": "Price growth accelerated during the quarter. The price index for gross domestic purchases increased 5.7 percent, compared with 3.6 percent in the first quarter. The personal consumption expenditures price index increased 5.1 percent, while the index excluding food and energy rose 3.4 percent.",
+          "type": "paragraph"
+        },
+        {
+          "text": "One measure of underlying private demand looked stronger than the headline GDP figure. Real final sales to private domestic purchasers, which combines consumer spending and private fixed investment, increased 3.9 percent after rising 1.7 percent in the first quarter.",
+          "type": "paragraph"
+        },
+        {
+          "caption": "Selected second-quarter 2026 real growth rates",
+          "columns": [
+            "Measure",
+            "Annualized change"
+          ],
+          "rows": [
+            [
+              "Real GDP",
+              "1.5%"
+            ],
+            [
+              "Consumer spending",
+              "3.2%"
+            ],
+            [
+              "Fixed investment",
+              "7.0%"
+            ],
+            [
+              "Government spending",
+              "-0.8%"
+            ],
+            [
+              "Exports",
+              "4.5%"
+            ],
+            [
+              "Imports",
+              "11.5%"
+            ]
+          ],
+          "type": "table"
+        },
+        {
+          "level": 2,
+          "text": "What the advance estimate can and cannot show",
+          "type": "subheading"
+        },
+        {
+          "text": "The figures are an advance estimate, not a final count. Quarterly growth rates are seasonally adjusted and expressed at annual rates, meaning the 1.5 percent figure describes the quarter’s pace if it continued for a full year. BEA is scheduled to publish its second estimate, along with an initial estimate of corporate profits, on August 26.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The report therefore shows slower overall output growth alongside firmer private domestic demand and faster prices. It does not, by itself, establish whether the economy is entering or avoiding a recession; that judgment requires a broader set of employment, income, production and sales data.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-bea-gdp-q2-2026-advance-estimate",
+          "text": "Read BEA’s advance estimate and technical notes for second-quarter 2026 GDP.",
+          "title": "Primary source",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/us-gdp-growth-slows-q2-2026/",
+      "citations": [
+        {
+          "id": "source-bea-gdp-q2-2026-advance-estimate",
+          "publishedAt": "2026-07-30T12:30:00Z",
+          "publisher": "U.S. Bureau of Economic Analysis",
+          "title": "GDP (Advance Estimate), 2nd Quarter 2026",
+          "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Real GDP increased at a 1.5 percent annual rate in the second quarter of 2026.",
+        "Consumer spending increased 3.2 percent and fixed investment increased 7.0 percent.",
+        "Government spending declined 0.8 percent.",
+        "The gross domestic purchases price index increased 5.7 percent."
+      ],
+      "corrections": [],
+      "dek": "The advance estimate showed stronger household spending and fixed investment, while government spending fell and price growth accelerated.",
+      "desk": "economy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Bureau of Economic Analysis"
+      ],
+      "eventId": "event-us-gdp-q2-2026-advance-estimate",
+      "headline": "U.S. GDP growth slowed to 1.5% as consumer spending rebounded",
+      "id": "article-us-gdp-growth-slows-q2-2026",
+      "leadImage": {
+        "alt": "Bar chart showing annualized second-quarter 2026 growth of 1.5 percent for real GDP, 3.2 percent for consumer spending, 7.0 percent for fixed investment and negative 0.8 percent for government spending.",
+        "caption": "Consumer spending and fixed investment grew faster than overall GDP in the second quarter, while government spending declined.",
+        "credit": "Boho News graphic; data: U.S. Bureau of Economic Analysis",
+        "height": 900,
+        "rightsId": "media-bea-q2-gdp-2026-chart",
+        "role": "lead",
+        "src": "/media/articles/us-gdp-growth-slows-q2-2026/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-07-31T05:20:37.953Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260731t051637z-3c9bf4a460bc-7e5a1d8ac46b",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "BEA's advance estimate shows stronger consumer spending and fixed investment, falling government spending and faster price growth.",
+        "index": true,
+        "title": "U.S. GDP growth slowed to 1.5% in Q2 2026"
+      },
+      "section": "business",
+      "slug": "us-gdp-growth-slows-q2-2026",
+      "social": {
+        "description": "Consumer spending and fixed investment accelerated, while government spending fell and price growth increased.",
+        "image": "/media/articles/us-gdp-growth-slows-q2-2026/open-graph.webp",
+        "title": "U.S. GDP growth slowed to 1.5% in the second quarter"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Gross domestic product",
+        "Consumer spending",
+        "Inflation",
+        "Business investment"
+      ],
+      "uncertainty": [
+        "The figures are BEA's advance estimate and are subject to revision on August 26, 2026.",
+        "Annualized quarterly rates should not be read as actual full-year growth.",
+        "GDP alone does not determine whether the economy is in recession."
+      ],
+      "updatedAt": "2026-07-31T05:20:37.953Z"
+    },
+    {
       "articleType": "explainer",
       "authors": [
         "Boho News Staff"
@@ -2024,22 +2221,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-07-30T21:18:55Z",
+  "generatedAt": "2026-07-31T05:20:43Z",
   "inputHashes": {
-    "approvals": "176ff7466bb119d041d754662471ee9dfe4b8933c227ae839f6c98e59c8c3e70",
-    "articles": "50bdb2f66d5707d6c2e83bc0e9ce2303e1ca5ca3423667de13eaf535e2bdbad3",
-    "claims": "c345c4d40d7f3fa1f53d67bffde2c736a1f8b573a4d94c501491a7b3969396fa",
+    "approvals": "0f34509de878609bdbe3fe3d382d3b4ddae24aa3fbbfccdc289962b2745c991b",
+    "articles": "3e5f8060e6d142a2a3e85846b57ec4f5cc9080a1915c84cf2723c178e9f57ea1",
+    "claims": "6ff614272c0aa9f1c6365c928137b9e2fef2032bf9bdf07b703d77ea1b905ed8",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "f9e5adb41c4125eae98387121cc293116c01c7fb7776b74b9dc74c495dfe4c95",
-    "mediaRights": "05a685aca83712311ac4dff490a652cc96b2f424156516a097558bbd9f4f88ae",
-    "publicationIntents": "89a1b0380c15b748d38962d84583945dea08106bc2d988575e302d087d649e0c",
-    "releaseRecords": "7685495f53f99034bc2c7cb2c880f02b6080227148bd1007d8dcd65feba5bc75",
-    "sourceItems": "81a69a107efe621a865c8b0715f351ee0535cb87131ee868a3cb018009908fe4"
+    "events": "740d624d7a0b2bba4889d96d8083ff6acdd3c91bd6174c651fbcdc0c76ffd5d7",
+    "mediaRights": "585e2334e08f2ce140553c7daf68bdceb92f9455b8236e6fd7f3d2a450df2684",
+    "publicationIntents": "33e1240f8583c267850ed911f34c87f3b972ae6ef5a877c80f1b2042ac4f0657",
+    "releaseRecords": "dd1aef527fab439c06a7f1b5d7d581214505dcdd20f1de76d6674862622c793a",
+    "sourceItems": "07fa76314af617ba7f82f966c230b0eb0c5f1a3d42f0c5c587ba7bac7c15740c"
   },
   "inventory": {
-    "articleCount": 10,
-    "mediaCount": 16,
-    "routeCount": 10
+    "articleCount": 11,
+    "mediaCount": 17,
+    "routeCount": 11
   },
   "mediaRights": [
     {
@@ -2341,6 +2538,80 @@
       "rightsBasis": "Public domain - U.S. federal government work",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:United_States_House_of_Representatives_chamber.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Bar chart showing annualized second-quarter 2026 growth of 1.5 percent for real GDP, 3.2 percent for consumer spending, 7.0 percent for fixed investment and negative 0.8 percent for government spending.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic; data: U.S. Bureau of Economic Analysis",
+      "caption": "Consumer spending and fixed investment grew faster than overall GDP in the second quarter, while government spending declined.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "The chart compares selected annualized real growth rates from BEA's advance second-quarter estimate."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "520087e6b3d6330c0307ee9920b28e2b81656139c76a14b91649f810d33d262f",
+          "height": 900,
+          "publicPath": "/media/articles/us-gdp-growth-slows-q2-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "37142cad80a48be846aa7498e215d67724146e87947d794b7624aca1111cb586",
+          "height": 600,
+          "publicPath": "/media/articles/us-gdp-growth-slows-q2-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "43411c644838dbbf7db5363d8f22c32555e5e799d926c6281f6ff0622e0d8053",
+          "height": 1200,
+          "publicPath": "/media/articles/us-gdp-growth-slows-q2-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "fb9ea8b0148ea3664d10563b7be81b6fff6fe1c8667440457c9a408b0e678486",
+          "height": 900,
+          "publicPath": "/media/articles/us-gdp-growth-slows-q2-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5d0ce0e835276fbde744e6c6d421b6cf1e085bbe8ecb8e5436dd3c35d0e21cc0",
+          "height": 720,
+          "publicPath": "/media/articles/us-gdp-growth-slows-q2-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4eeb2a7d333acddaf41ede14938e0421d2ee361c15ac9fd620e86c44ff01dc48",
+          "height": 630,
+          "publicPath": "/media/articles/us-gdp-growth-slows-q2-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4f2b6707e697be8ca786d3bba9a52ce465a0e5146a1ff9e962fa851011795e03",
+          "height": 480,
+          "publicPath": "/media/articles/us-gdp-growth-slows-q2-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-bea-q2-gdp-2026-chart",
+      "illustrationLabel": null,
+      "license": "Copyright 2026 Boho News; newsroom-owned graphic.",
+      "originalFileHash": "4940c88f2469625874a65825cee5f2e25af66db044a1d4b2ef2ef036daed3b28",
+      "restrictions": [
+        "Do not represent the graphic as an image produced by the U.S. Bureau of Economic Analysis."
+      ],
+      "retrievedAt": "2026-07-31T04:50:00Z",
+      "rightsBasis": "Original Boho News data visualization created from official U.S. Bureau of Economic Analysis data.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"
     },
     {
       "aiGenerated": false,
@@ -3239,7 +3510,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "95accdc56220bd919c01cae229c741f59282b1b3d3d7f860f9a88d7775a12918",
+  "packageDigest": "2c9796fd35feb938629df5497184653819b72a2cb6d5678c6815098f44841d25",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -3374,6 +3645,27 @@
       "providerActivatedAt": "2026-07-30T21:17:02.846516Z",
       "recordHash": "69ddd1432a95be9bfc5daa4a9944a1dcbba4ff12e84874ea69d8f4cefac97407",
       "releaseId": "release-pb-20260730t204322z-e644bd39c495-4f4a40de79cc",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://7de93601.bohonews.pages.dev/",
+      "activationEvidenceHash": "0ede00133e6012957b786ebda8bb110e2ea7a35eaec7739891c7d6742b83c557",
+      "canonicalFirstPublicAt": "2026-07-31T05:20:37.953Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/us-gdp-growth-slows-q2-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-us-gdp-growth-slows-q2-2026"
+      ],
+      "previousVerifiedDeploymentReference": "4915b09702e40a04269e21d5d82cedf452f5b8fb46a99c417dad761140b1e2e5",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-31T05:19:50.703356Z",
+      "recordHash": "96c00a8d522d47bab5510194c1edb051aa6c274282fea5490e626f060dc54033",
+      "releaseId": "release-pb-20260731t051637z-3c9bf4a460bc-7e5a1d8ac46b",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }
