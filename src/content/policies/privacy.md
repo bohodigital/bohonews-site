@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 description: "How Boho News collects, uses, protects, and shares information."
-last_updated: "July 26, 2026"
+last_updated: "August 1, 2026"
 effective_date: "July 26, 2026"
 index: true
 route: "/privacy/"
@@ -19,7 +19,7 @@ This policy explains what information is processed when you visit `bohonews.com`
 
 We try to collect less data.
 
-We do not use Google Analytics. We do not currently run behavioral advertising, create advertising profiles, sell personal information, or track readers across unrelated websites.
+We use privacy-restrained analytics. We do not currently run behavioral advertising, create advertising profiles, sell personal information, or use Boho News analytics to track readers across unrelated websites.
 
 Some information is still processed to deliver and secure the site, understand aggregate readership, display third-party market data, remember your theme preference, and respond when you contact us.
 
@@ -45,17 +45,18 @@ Cloudflare processes this information to deliver traffic, protect the service, d
 
 Cloudflare's own privacy policy governs its processing as a service provider.
 
-### Privacy-focused analytics
+### Analytics
 
-Boho News uses a self-hosted Umami analytics service at `analytics.bohodigitalservices.com`.
+Boho News uses a self-hosted Umami analytics service at `analytics.bohodigitalservices.com` and Google Analytics 4.
 
-Our current configuration:
+Our current analytics configuration:
 
-- does not use analytics cookies;
+- limits tracking to `bohonews.com` and `www.bohonews.com`;
 - honors the browser's Do Not Track signal;
 - excludes search-query parameters from analytics;
-- limits tracking to `bohonews.com` and `www.bohonews.com`;
-- does not use Google Analytics.
+- disables Google signals and advertising-personalization signals in Google Analytics;
+- sends page locations and referrers without query strings;
+- does not use Umami analytics cookies.
 
 Umami may process anonymized or aggregate information such as:
 
@@ -69,7 +70,9 @@ Umami may process anonymized or aggregate information such as:
 
 We use this information to understand which reporting is being read, identify broken or slow pages, and improve the publication.
 
-We do not use Umami to follow you across unrelated websites.
+Google Analytics 4 records aggregated information about visits, devices, and interactions. Google Analytics may use browser storage and sends usage information to Google under [Google's privacy policy](https://policies.google.com/privacy).
+
+We do not use Boho News analytics to sell reader profiles or follow readers across unrelated websites.
 
 ### TradingView market ticker
 
@@ -236,4 +239,3 @@ Privacy questions and requests:
 [contact@bohonews.com](mailto:contact@bohonews.com)
 
 Use the subject line `Privacy`.
-

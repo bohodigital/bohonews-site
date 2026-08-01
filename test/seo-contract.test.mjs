@@ -91,19 +91,23 @@ test("built search loads Pagefind's classic UI before its initializer", async ()
   assert.match(builder,/rows=value;input\.dispatchEvent\(new Event\('input'/);
 });
 
-test("Umami is host-restricted, privacy-restrained, and suppressible for QA", async () => {
+test("Umami and GA4 are host-restricted, privacy-restrained, and suppressible for QA", async () => {
   const [layout,bootstrap] = await Promise.all([
     readFile(new URL("../src/layouts/BaseLayout.astro", import.meta.url),"utf8"),
     readFile(new URL("../public/analytics-bootstrap.js", import.meta.url),"utf8")
   ]);
   assert.match(layout,/data-umami-website-id="da60f9a9-f65b-4849-a55d-f9b4365f509d"/);
   assert.match(layout,/data-umami-domains="bohonews\.com,www\.bohonews\.com"/);
+  assert.match(layout,/data-ga-id="G-76CPXCF9NV"/);
+  assert.match(layout,/data-ga-public-hosts="bohonews\.com,www\.bohonews\.com"/);
   assert.match(bootstrap,/navigator\.webdriver/);
   assert.match(bootstrap,/boho_qa/);
   assert.match(bootstrap,/data-do-not-track/);
   assert.match(bootstrap,/data-exclude-search/);
-  assert.match(bootstrap,/allowedHosts\.includes/);
-  assert.doesNotMatch(layout,/googletagmanager|gtag\(/);
+  assert.match(bootstrap,/umamiHosts\.includes/);
+  assert.match(bootstrap,/googletagmanager\.com\/gtag\/js/);
+  assert.match(bootstrap,/allow_google_signals:\s*false/);
+  assert.match(bootstrap,/allow_ad_personalization_signals:\s*false/);
 });
 
 test("global market ticker uses the official account-free TradingView web component", async () => {
@@ -153,7 +157,9 @@ test("policy copy matches current analytics, hosting, widget, storage, mail, and
   for (const marker of ["Cloudflare","self-hosted Umami","Do Not Track","excludes search-query parameters","TradingView","Browser storage","Ordinary email","does not currently collect payment"]) {
     assert.match(privacy,new RegExp(marker,"i"));
   }
-  assert.doesNotMatch(privacy,/Google Analytics is enabled/i);
+  for (const marker of ["Google Analytics 4","disables Google signals","without query strings","Google's privacy policy"]) {
+    assert.match(privacy,new RegExp(marker,"i"));
+  }
   for (const source of [about,support]) {
     assert.match(source,/Republic of Bohemia LLC/);
     assert.match(source,/does not currently/i);
