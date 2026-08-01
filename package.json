@@ -11,6 +11,7 @@
     "dev": "astro dev",
     "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
     "test": "node --test test/*.test.mjs",
+    "test:preview": "BOHONEWS_PREVIEW=1 node --test test/*.test.mjs",
     "build": "npm run content:validate && ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/publishing/build-search.mjs",
     "build:preview": "BOHONEWS_PREVIEW=1 node scripts/publishing/validate-preview.mjs source && BOHONEWS_PREVIEW=1 ASTRO_TELEMETRY_DISABLED=1 astro build && BOHONEWS_PREVIEW=1 node scripts/publishing/build-search.mjs && BOHONEWS_PREVIEW=1 node scripts/publishing/validate-preview.mjs artifact",
     "build:fixtures": "BOHONEWS_INCLUDE_FIXTURES=1 npm run build",

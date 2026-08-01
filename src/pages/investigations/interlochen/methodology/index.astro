@@ -1,0 +1,87 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { candidatePreviewEnabled } from "../../../../lib/news";
+---
+
+<BaseLayout
+  title="Interlochen reporting methodology — Boho News"
+  description="How Boho News classifies evidence, protects anonymous participants, and states uncertainty in The Interlochen Investigation."
+  canonical="https://bohonews.com/investigations/interlochen/methodology/"
+  noindex={candidatePreviewEnabled}
+>
+  <article class="methodology-page" data-pagefind-body>
+    {candidatePreviewEnabled &&
+      <aside class="fixture-banner" role="status">Private preview — not published</aside>}
+    <header>
+      <p class="eyebrow"><a href="/investigations/interlochen/">The Interlochen Investigation</a></p>
+      <h1>Reporting methodology</h1>
+      <p>
+        Article 1 is primary-source led. Its language follows the evidence
+        category supporting each claim.
+      </p>
+    </header>
+
+    <section>
+      <h2>Evidence categories</h2>
+      <dl class="method-grid">
+        <div>
+          <dt>Adjudicated fact</dt>
+          <dd>A final judgment, conviction, guilty plea, official certification, or equivalent authoritative disposition.</dd>
+        </div>
+        <div>
+          <dt>Institutional statement</dt>
+          <dd>Evidence that an institution made a statement, not automatic proof that the statement is true.</dd>
+        </div>
+        <div>
+          <dt>Investigator-recorded allegation</dt>
+          <dd>An account documented by the outside investigators without a finding that the reported conduct occurred.</dd>
+        </div>
+        <div>
+          <dt>Institutional record</dt>
+          <dd>A personnel, student, donor, court, or administrative record described or preserved in the source archive.</dd>
+        </div>
+        <div>
+          <dt>Respondent statement</dt>
+          <dd>An admission, denial, partial acknowledgment, nonresponse, or statement through counsel, preserved with attribution.</dd>
+        </div>
+        <div>
+          <dt>Boho News analysis</dt>
+          <dd>A transparent calculation or inference drawn from identified evidence and labeled as analysis.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Counting the approximately 70 accounts</h2>
+      <p>
+        The report counts conduct involving each adult separately when one
+        person described multiple adults. Its main decade-organized section
+        contains 61 separately counted firsthand accounts involving 45
+        respondents. The Respondent 1 section adds seven; the Epstein section
+        adds two. Boho News therefore reconstructs the published total as
+        61 + 7 + 2 = 70 while retaining the report’s “approximately” qualifier.
+      </p>
+      <p>
+        This is not a count of 70 proven assaults, 70 victims, 70 survivors, or
+        necessarily 70 different alumni.
+      </p>
+    </section>
+
+    <section>
+      <h2>Privacy and limits</h2>
+      <p>
+        Boho News preserves the report’s anonymization and does not attempt to
+        identify unnamed alumni or respondents through biographical clues.
+        Descriptions of alleged conduct are limited to the detail needed to
+        explain the record.
+      </p>
+      <p>
+        Unknown facts remain unknown. The absence of a surviving file does not
+        prove that no report was made, and a reported disclosure does not by
+        itself establish that senior leadership received or understood it.
+      </p>
+    </section>
+
+    <p><a href="/investigations/interlochen/evidence/">Open the Evidence Room →</a></p>
+  </article>
+</BaseLayout>

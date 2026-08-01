@@ -15,7 +15,9 @@ test("content validator rejects executable HTML and executes schema plus digest 
   for (const pattern of ["<script","javascript:","<iframe","<object","<embed","Ajv2020","Promotion digest mismatch","Release manifest does not exactly bind"]) assert.match(validator,new RegExp(pattern.replace(/[<>]/g,"\\$&"),"i"));
 });
 
-test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and release-bound", async () => {
+test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and release-bound", {
+  skip: process.env.BOHONEWS_PREVIEW === "1"
+}, async () => {
   const promotion = JSON.parse(await readFile(new URL("../src/publishing/public-news-promotion-package.v2.1.1.json", import.meta.url),"utf8"));
   const release = JSON.parse(await readFile(new URL("../public-news-release.v2.1.1.json", import.meta.url),"utf8"));
   const marker = JSON.parse(await readFile(new URL("../public/.well-known/bohonews-release.json", import.meta.url),"utf8"));

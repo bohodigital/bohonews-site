@@ -1,0 +1,76 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import {
+  articles, candidatePreviewEnabled
+} from "../../../lib/news";
+
+const article = articles.find(({ slug }) =>
+  slug === "interlochen-abuse-investigation-report-findings"
+);
+---
+
+<BaseLayout
+  title="The Interlochen Investigation — Boho News"
+  description="Evidence-led reporting on historical abuse allegations, institutional accountability, donor access, and unresolved questions at Interlochen Center for the Arts."
+  canonical="https://bohonews.com/investigations/interlochen/"
+  noindex={candidatePreviewEnabled}
+>
+  <article class="investigation-hub" data-pagefind-body>
+    {candidatePreviewEnabled &&
+      <aside class="fixture-banner" role="status">Private preview — not published</aside>}
+    <header class="investigation-hero">
+      <p class="eyebrow">Boho News Investigations</p>
+      <h1>The Interlochen Investigation</h1>
+      <p>
+        A continuing, primary-source-led examination of historical abuse
+        allegations, institutional responses, donor access, and accountability
+        at Interlochen Center for the Arts.
+      </p>
+    </header>
+
+    {article &&
+      <section class="investigation-feature" aria-labelledby="article-one-title">
+        {article.leadImage &&
+          <img
+            src={article.leadImage.src}
+            alt={article.leadImage.alt}
+            width={article.leadImage.width}
+            height={article.leadImage.height}
+          />}
+        <div>
+          <p class="eyebrow">Part 1 · Investigation</p>
+          <h2 id="article-one-title">
+            <a href={`/articles/${article.slug}/`}>{article.headline}</a>
+          </h2>
+          <p>{article.dek}</p>
+          {candidatePreviewEnabled
+            ? <p class="preview-state">Publication time will be assigned only after an authorized production release.</p>
+            : article.publishedAt && <time datetime={article.publishedAt}>{article.publishedAt}</time>}
+        </div>
+      </section>}
+
+    <section class="investigation-links" aria-label="Investigation resources">
+      <a href="/investigations/interlochen/evidence/">
+        <span>Evidence Room</span>
+        <strong>Read the controlling report, subpoena, and source catalog</strong>
+      </a>
+      <a href="/investigations/interlochen/methodology/">
+        <span>Methodology</span>
+        <strong>How Boho News separates allegations, records, statements, and analysis</strong>
+      </a>
+    </section>
+
+    <aside class="investigation-progress">
+      <h2>Reporting continues</h2>
+      <p>
+        Additional reporting is in progress. Boho News will not publish a
+        schedule or placeholder articles before the reporting is ready.
+      </p>
+      <p>
+        <a href="/corrections/">Corrections</a>
+        <span aria-hidden="true"> · </span>
+        <a href="/contact/">Contact the newsroom</a>
+      </p>
+    </aside>
+  </article>
+</BaseLayout>

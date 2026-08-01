@@ -1,0 +1,103 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { candidatePreviewEnabled } from "../../../../lib/news";
+
+const federalSources = [
+  {
+    id: "e0014",
+    label: "E0014",
+    title: "Federal grand-jury subpoena to Interlochen",
+    detail: "Four-page Feb. 6, 2020 subpoena seeking records concerning Epstein and Maxwell donations, tuition or other payments, and visits.",
+    href: "/evidence/interlochen/e0014-grand-jury-subpoena.pdf",
+    hash: "9048c68e505c845e91cc623f52740e263f984311b78b4b16e131e1e2753d5945"
+  },
+  {
+    id: "e0020",
+    label: "E0020",
+    title: "Grand-jury exhibit bundle EFTA00008716",
+    detail: "Includes 1994 donor correspondence, flight-log exhibits, Maxwell correspondence, and a redacted student application.",
+    hash: "6cb4fa1c9774def2aa8e8d01db1f5cf3872574e531287f566e035ab76fe800a2"
+  },
+  {
+    id: "e0023",
+    label: "E0023",
+    title: "United States v. Maxwell trial transcript, Day 2",
+    detail: "Includes sworn testimony concerning meeting Epstein and Maxwell at Interlochen.",
+    hash: "7611a1a82cdead0a7ad4574f6e53875c438e5bdd380a5fb693f7700911226f71"
+  },
+  {
+    id: "e0024",
+    label: "E0024",
+    title: "United States v. Maxwell trial transcript, Day 3",
+    detail: "Includes sworn testimony from Interlochen finance official Daniel Besselsen about donor correspondence and institutional records.",
+    hash: "4b12f3c01eefb5684bffffae3ef853269d7e6a1ec1a9abd953cd183a92ce5ef8"
+  },
+  {
+    id: "e0026",
+    label: "E0026",
+    title: "United States v. Maxwell trial transcript, Day 8",
+    detail: "Includes sworn pilot testimony concerning repeated Traverse City flights and visits to Interlochen.",
+    hash: "00cc9e269bc093cbc1783c757f9f789147c4f680a280a3d5b9cb8ec97418d03a"
+  }
+];
+---
+
+<BaseLayout
+  title="Interlochen Evidence Room — Boho News"
+  description="Primary documents, provenance, hashes, and source classifications supporting The Interlochen Investigation."
+  canonical="https://bohonews.com/investigations/interlochen/evidence/"
+  noindex={candidatePreviewEnabled}
+>
+  <article class="evidence-room" data-pagefind-body>
+    {candidatePreviewEnabled &&
+      <aside class="fixture-banner" role="status">Private preview — not published</aside>}
+    <header>
+      <p class="eyebrow"><a href="/investigations/interlochen/">The Interlochen Investigation</a></p>
+      <h1>Evidence Room</h1>
+      <p>
+        These records support Article 1. A document’s presence here does not
+        mean every assertion inside it is established as fact.
+      </p>
+    </header>
+
+    <section class="evidence-primary" id="s1">
+      <p class="evidence-id">S1 · Controlling report</p>
+      <h2>Investigation Report: External Investigation of Historical Abuse</h2>
+      <p>
+        Sanghavi Law Office / Interlochen Center for the Arts, dated July 27,
+        2026. The 97-page report records accounts and institutional-file
+        summaries; it expressly does not adjudicate every reported event.
+      </p>
+      <p><a class="button" href="/evidence/interlochen/sanghavi-report.pdf">Read the preserved report</a></p>
+      <dl>
+        <div><dt>Evidence ID</dt><dd>BN-INV-2026-001-E0001</dd></div>
+        <div><dt>Retrieved</dt><dd>July 30, 2026, 20:34:49 UTC</dd></div>
+        <div><dt>SHA-256</dt><dd><code>cf2181690504284485ffaf80ce98b9e63534191be5be00b8d89cde206d5e9825</code></dd></div>
+      </dl>
+    </section>
+
+    <section aria-labelledby="federal-records-title">
+      <h2 id="federal-records-title">Federal records used in Article 1</h2>
+      <div class="evidence-list">
+        {federalSources.map((source) =>
+          <article id={source.id}>
+            <p class="evidence-id">{source.label} · Primary court record</p>
+            <h3>{source.title}</h3>
+            <p>{source.detail}</p>
+            {source.href && <p><a href={source.href}>Read the full subpoena</a></p>}
+            <p class="hash"><strong>SHA-256</strong> <code>{source.hash}</code></p>
+          </article>)}
+      </div>
+    </section>
+
+    <section class="evidence-note">
+      <h2>What is not exposed here</h2>
+      <p>
+        Boho News does not publish anonymous-survivor metadata, private contact
+        notes, internal identifiers, or contextual clues removed by the
+        controlling report.
+      </p>
+      <p><a href="/investigations/interlochen/methodology/">Read the methodology →</a></p>
+    </section>
+  </article>
+</BaseLayout>

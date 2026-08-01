@@ -97,7 +97,9 @@ export function sectionArticles(section: string) {
     ? articles
     : articles.filter((article) => article.section === section || article.desk === section);
   return [...source].sort((a,b) =>
-    (b.updatedAt ?? b.publishedAt ?? "").localeCompare(a.updatedAt ?? a.publishedAt ?? ""));
+    candidatePreviewEnabled && (a.publishedAt === null) !== (b.publishedAt === null)
+      ? a.publishedAt === null ? -1 : 1
+      : (b.updatedAt ?? b.publishedAt ?? "").localeCompare(a.updatedAt ?? a.publishedAt ?? ""));
 }
 export function formatTimestamp(value: string) {
   const parts = Object.fromEntries(new Intl.DateTimeFormat("en-US", {

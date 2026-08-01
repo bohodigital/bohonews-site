@@ -17,6 +17,8 @@ export const getStaticPaths = (async () => {
 }) satisfies GetStaticPaths;
 
 const { article } = Astro.props;
+const isInterlochenArticleOne =
+  article.id === "interlochen-abuse-investigation-report-findings";
 const jsonLd = articleJsonLd(article);
 const approvedBodyBytes = await crypto.subtle.digest(
   "SHA-256",
@@ -37,6 +39,14 @@ const changeLabels = {
   <article class="article-page" data-public-article-id={article.id} data-approved-body-sha256={approvedBodySha256} data-pagefind-body data-pagefind-filter={`section:${article.section}`} data-pagefind-meta={`article-type:${article.articleType}`}>
     {candidatePreviewEnabled && <aside class="fixture-banner">Preview candidate — not published</aside>}
     {fixturesEnabled && <aside class="fixture-banner">Non-production fixture preview — not public reporting</aside>}
+    {isInterlochenArticleOne && <nav class="series-context" aria-label="Investigation series">
+      <a href="/investigations/interlochen/">
+        <span>The Interlochen Investigation</span>
+        <strong>Part 1 of 7</strong>
+      </a>
+      <a href="/investigations/interlochen/evidence/">Evidence Room</a>
+      <a href="/investigations/interlochen/methodology/">Methodology</a>
+    </nav>}
     <header class="article-header">
       <p class="article-kicker"><span>{article.section.replaceAll("-", " ")}</span>{article.desk && <span>{article.desk.replaceAll("-", " ")}</span>}<span>{article.articleType.replaceAll("-", " ")}</span>{article.articleType === "developing-story" && <strong>Developing</strong>}</p>
       <h1>{article.headline}</h1>
@@ -47,6 +57,10 @@ const changeLabels = {
       </p>}
     </header>
     {article.articleType === "developing-story" && <aside class="notice developing"><strong>Developing story</strong><p>This package is configured to show substantial updates and unresolved questions.</p></aside>}
+    {isInterlochenArticleOne && <aside class="notice content-warning">
+      <strong>Content warning</strong>
+      <p>Historical allegations of sexual abuse and misconduct involving minors.</p>
+    </aside>}
     {article.corrections.map((correction) => <aside class="notice correction"><strong>{correction.type.replaceAll("-", " ")}</strong><p>{correction.notice}</p><time datetime={correction.effectiveAt}>{formatTimestamp(correction.effectiveAt)}</time></aside>)}
     {!candidatePreviewEnabled && article.publishedAt && <section class="evidence-block publication-history">
       <h2>Publication history</h2>
