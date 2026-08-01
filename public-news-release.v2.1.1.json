@@ -1,9 +1,9 @@
 {
-  "articleCount": 11,
+  "articleCount": 12,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-07-31T05:20:43Z",
-  "mediaCount": 17,
-  "packageDigest": "2c9796fd35feb938629df5497184653819b72a2cb6d5678c6815098f44841d25",
+  "generatedAt": "2026-08-01T17:27:55Z",
+  "mediaCount": 18,
+  "packageDigest": "d89bd3c1b47cdda217dbd77c556fefca2e93e5b1fe17cee952f77542e775cae8",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -161,11 +161,33 @@
       "releaseId": "release-pb-20260731t051637z-3c9bf4a460bc-7e5a1d8ac46b",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://10f737f4.bohonews.pages.dev/",
+      "activationEvidenceHash": "d91a7db2baed59168d41a23768dc8cc3f30376e0f49f95726fe2477cb01d3581",
+      "canonicalFirstPublicAt": "2026-08-01T17:27:51.083Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/employer-compensation-costs-june-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-employer-compensation-costs-june-2026"
+      ],
+      "previousVerifiedDeploymentReference": "9e8574391d0a0b148fcf39b2070dbd65e4a46af7cd41b9e45db9a997daf87261",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-01T17:27:23.068626Z",
+      "recordHash": "e4e6ebce087ea1d7ee0d8618278a7b145f751321fb50fb637e07811bee218c4a",
+      "releaseId": "release-pb-20260801t172522z-63cb27f1e218-05aa37426372",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
   "routes": [
     "/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+    "/articles/employer-compensation-costs-june-2026/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/metro-unemployment-payroll-growth-june-2026/",

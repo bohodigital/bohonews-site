@@ -230,6 +230,172 @@
     {
       "articleType": "data-report",
       "authors": [
+        "Boho News Data Desk"
+      ],
+      "body": "Employer compensation costs for civilian workers rose 0.9 percent in the second quarter of 2026, matching the increase recorded in the first quarter, the U.S. Bureau of Labor Statistics reported Friday. Wages and salaries increased 0.9 percent from March through June, while benefit costs rose 1.0 percent.\n\nOver the 12 months ending in June, total compensation costs increased 3.4 percent. Wages and salaries rose 3.2 percent, while benefits climbed 3.8 percent. The figures show benefit costs rising faster than cash pay over the year, even though the overall pace of compensation growth was unchanged from the 3.4 percent recorded in March.\n\nThe Employment Cost Index is designed to track changes in employers’ labor costs while holding the mix of occupations and industries relatively constant. That makes it different from average-hourly-earnings data, which can move when the composition of employment changes.\n\nPrivate-industry compensation costs rose 0.9 percent during the quarter and 3.3 percent over the year. Private wages and salaries increased 3.1 percent in current dollars, but fell 0.4 percent after adjustment for inflation, according to BLS. Private benefit costs rose 3.8 percent, and health-benefit costs increased 6.0 percent.\n\nState and local government compensation costs increased 1.0 percent during the quarter and 3.6 percent over the year. Wages and salaries were up 3.4 percent from a year earlier, while benefit costs increased 4.0 percent. Inflation-adjusted wages for those workers declined 0.1 percent.\n\nThe index does not mean every worker received the same raise, and it does not measure employment, household income or take-home pay. It measures the change in what employers spend on wages, salaries and benefits across a fixed employment structure.\n\nBLS also began publishing relative-importance estimates for selected ECI series with the June release. The agency said the next quarterly report, covering September 2026, is scheduled for October 30. Seasonally adjusted series may be revised in future annual updates.",
+      "bodyBlocks": [
+        {
+          "text": "Employer compensation costs for civilian workers rose 0.9 percent in the second quarter of 2026, matching the increase recorded in the first quarter, the U.S. Bureau of Labor Statistics reported Friday. Wages and salaries increased 0.9 percent from March through June, while benefit costs rose 1.0 percent.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Over the 12 months ending in June, total compensation costs increased 3.4 percent. Wages and salaries rose 3.2 percent, while benefits climbed 3.8 percent. The figures show benefit costs rising faster than cash pay over the year, even though the overall pace of compensation growth was unchanged from the 3.4 percent recorded in March.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Employment Cost Index is designed to track changes in employers’ labor costs while holding the mix of occupations and industries relatively constant. That makes it different from average-hourly-earnings data, which can move when the composition of employment changes.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Private-sector wages trailed inflation",
+          "type": "subheading"
+        },
+        {
+          "text": "Private-industry compensation costs rose 0.9 percent during the quarter and 3.3 percent over the year. Private wages and salaries increased 3.1 percent in current dollars, but fell 0.4 percent after adjustment for inflation, according to BLS. Private benefit costs rose 3.8 percent, and health-benefit costs increased 6.0 percent.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Public-sector benefit costs rose faster",
+          "type": "subheading"
+        },
+        {
+          "text": "State and local government compensation costs increased 1.0 percent during the quarter and 3.6 percent over the year. Wages and salaries were up 3.4 percent from a year earlier, while benefit costs increased 4.0 percent. Inflation-adjusted wages for those workers declined 0.1 percent.",
+          "type": "paragraph"
+        },
+        {
+          "caption": "Employment Cost Index, June 2026",
+          "columns": [
+            "Measure",
+            "3-month change",
+            "12-month change"
+          ],
+          "rows": [
+            [
+              "Civilian compensation",
+              "0.9%",
+              "3.4%"
+            ],
+            [
+              "Civilian wages and salaries",
+              "0.9%",
+              "3.2%"
+            ],
+            [
+              "Civilian benefits",
+              "1.0%",
+              "3.8%"
+            ]
+          ],
+          "type": "table"
+        },
+        {
+          "level": 2,
+          "text": "What the index does and does not measure",
+          "type": "subheading"
+        },
+        {
+          "text": "The index does not mean every worker received the same raise, and it does not measure employment, household income or take-home pay. It measures the change in what employers spend on wages, salaries and benefits across a fixed employment structure.",
+          "type": "paragraph"
+        },
+        {
+          "text": "BLS also began publishing relative-importance estimates for selected ECI series with the June release. The agency said the next quarterly report, covering September 2026, is scheduled for October 30. Seasonally adjusted series may be revised in future annual updates.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-bls-eci-june-2026",
+          "text": "BLS Employment Cost Index summary for June 2026, released July 31, 2026.",
+          "title": "Primary source",
+          "type": "source-callout"
+        },
+        {
+          "articleId": "article-us-gdp-growth-slows-q2-2026",
+          "type": "related-story"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/employer-compensation-costs-june-2026/",
+      "citations": [
+        {
+          "id": "source-bls-eci-june-2026",
+          "publishedAt": "2026-07-31T12:30:00Z",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "title": "Employment Cost Index Summary — June 2026",
+          "url": "https://www.bls.gov/news.release/eci.nr0.htm"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Civilian compensation costs increased 0.9 percent in the second quarter and 3.4 percent over the year.",
+        "Civilian wages and salaries rose 3.2 percent over the year, while benefit costs rose 3.8 percent.",
+        "Inflation-adjusted private-industry wages and salaries declined 0.4 percent over the year.",
+        "State and local government compensation costs rose 3.6 percent over the year."
+      ],
+      "corrections": [],
+      "dek": "The latest Employment Cost Index showed private wages falling after inflation even as benefit and health-plan costs continued to climb.",
+      "desk": "economy-desk",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Bureau of Labor Statistics"
+      ],
+      "eventId": "event-employment-cost-index-june-2026",
+      "headline": "Employer compensation rose 3.4% as benefit costs outpaced wages",
+      "id": "article-employer-compensation-costs-june-2026",
+      "leadImage": {
+        "alt": "Bar chart showing 12-month changes of 3.4 percent for total compensation, 3.2 percent for wages and salaries, and 3.8 percent for benefits in June 2026.",
+        "caption": "For civilian workers, benefit costs rose faster than wages and salaries over the 12 months ending in June 2026.",
+        "credit": "Boho News graphic; data: U.S. Bureau of Labor Statistics",
+        "height": 900,
+        "rightsId": "media-bls-eci-june-2026-chart",
+        "role": "lead",
+        "src": "/media/articles/employer-compensation-costs-june-2026/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-01T17:27:51.083Z",
+      "relatedArticleIds": [
+        "article-us-gdp-growth-slows-q2-2026"
+      ],
+      "releaseId": "release-pb-20260801t172522z-63cb27f1e218-05aa37426372",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The June 2026 Employment Cost Index showed wages rising 3.2%, benefits rising 3.8% and inflation-adjusted private wages declining.",
+        "index": true,
+        "title": "Employer compensation rose 3.4% in June 2026 ECI"
+      },
+      "section": "business",
+      "slug": "employer-compensation-costs-june-2026",
+      "social": {
+        "description": "BLS data show benefits rising faster than wages, while inflation-adjusted private pay declined.",
+        "image": "/media/articles/employer-compensation-costs-june-2026/open-graph.webp",
+        "title": "Employer compensation rose 3.4% as benefit costs outpaced wages"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "employment cost index",
+        "wages",
+        "employee benefits",
+        "inflation"
+      ],
+      "uncertainty": [
+        "The June figures are estimates and seasonally adjusted series may be revised in future annual updates.",
+        "The index measures employer labor costs across a fixed employment structure; it does not describe the raise received by every individual worker."
+      ],
+      "updatedAt": "2026-08-01T17:27:51.083Z"
+    },
+    {
+      "articleType": "data-report",
+      "authors": [
         "Boho News Staff"
       ],
       "body": "Federal labor agencies reported sharply different use of a law that allows some people and businesses to recover legal fees after prevailing against the federal government, according to a Government Accountability Office report publicly released Monday.\n\nGAO found that the Department of Labor reported 11 Equal Access to Justice Act awards totaling $547,601 from fiscal years 2019 through 2025. The National Labor Relations Board also reported 11 awards, totaling $436,913. The Equal Employment Opportunity Commission reported no awards during the same seven-year period.\n\nTogether, DOL and NLRB reported 22 awards worth $984,514. The totals describe awards reported by those agencies to the Administrative Conference of the United States; they are not a measure of every lawsuit, administrative case or legal expense involving the agencies.\n\nCongress enacted the Equal Access to Justice Act in 1980 in part to make it more feasible for eligible individuals, small businesses and organizations to challenge or defend themselves against federal actions. Under certain circumstances, a prevailing party may recover legal fees when it meets the law's eligibility requirements.\n\nGAO placed the three-agency figures in a much larger government-wide context. Federal agencies reported paying more than $116 million for about 15,000 EAJA awards on average each year from fiscal years 2019 through 2025, the watchdog said.\n\nThe Labor Department's reported awards varied by year. DOL recorded four awards in fiscal 2021 and three in 2022, while reporting none in 2024. Its largest annual total in the period was $138,266 in fiscal 2022.\n\nNLRB's reported awards were concentrated differently. It recorded five awards totaling $70,000 in fiscal 2019, no awards in fiscal 2020 or 2021, and one $150,000 award in fiscal 2022. It reported two awards in each of fiscal 2024 and 2025.\n\nGAO said EAJA awards primarily arise from civil court cases and are typically paid by the agency that the party prevailed against. The report reviewed agency data submitted to ACUS, relevant laws and regulations, and interviews with officials from DOL, EEOC and NLRB.\n\nGAO also interviewed five attorneys and industry representatives familiar with EAJA. Some told investigators the law helps attorneys represent clients who could not otherwise afford legal fees. Others described challenges, including statutory hourly-rate caps, the time required to pursue an award and uncertainty over whether fees would ultimately be recovered.\n\nGAO cautioned that those stakeholder views were not generalizable. The report describes the selected agencies' awards and stakeholder perspectives but does not make recommendations.",
@@ -2221,22 +2387,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-07-31T05:20:43Z",
+  "generatedAt": "2026-08-01T17:27:55Z",
   "inputHashes": {
-    "approvals": "0f34509de878609bdbe3fe3d382d3b4ddae24aa3fbbfccdc289962b2745c991b",
-    "articles": "3e5f8060e6d142a2a3e85846b57ec4f5cc9080a1915c84cf2723c178e9f57ea1",
-    "claims": "6ff614272c0aa9f1c6365c928137b9e2fef2032bf9bdf07b703d77ea1b905ed8",
+    "approvals": "a12a7a6f97050d625fa026fec70157dd3ef19f64ec412a7826dccca2f98e033a",
+    "articles": "5776b481cff58b8beebcbd63e381ed633444d983641b544c3f6b987cd1dfcbe0",
+    "claims": "3d1063722a8e0037071ad24272f30f70d1332be267c9749cc0b4025c2c29d259",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "740d624d7a0b2bba4889d96d8083ff6acdd3c91bd6174c651fbcdc0c76ffd5d7",
-    "mediaRights": "585e2334e08f2ce140553c7daf68bdceb92f9455b8236e6fd7f3d2a450df2684",
-    "publicationIntents": "33e1240f8583c267850ed911f34c87f3b972ae6ef5a877c80f1b2042ac4f0657",
-    "releaseRecords": "dd1aef527fab439c06a7f1b5d7d581214505dcdd20f1de76d6674862622c793a",
-    "sourceItems": "07fa76314af617ba7f82f966c230b0eb0c5f1a3d42f0c5c587ba7bac7c15740c"
+    "events": "f7b4566706504d18d8c5353ba47086831ba49d2aded9a3c33811c0ad40d41fd1",
+    "mediaRights": "8b6a3508bd625ad2ad6450d38ebc4d5e6394ae9fb6684df6da86a233afcb8ef7",
+    "publicationIntents": "34f0411bc602a326801ee7fcee684357b4fe5c5173db07075d93222389b6db1f",
+    "releaseRecords": "12b50c6f432ddd3c0b3525d353d5015524d062f3251a642c9ad88d69343b8e99",
+    "sourceItems": "05301b2879236bc38d48ff0251dd6dbeb1d6dcc1314c0da26d832421258f19bf"
   },
   "inventory": {
-    "articleCount": 11,
-    "mediaCount": 17,
-    "routeCount": 11
+    "articleCount": 12,
+    "mediaCount": 18,
+    "routeCount": 12
   },
   "mediaRights": [
     {
@@ -2612,6 +2778,80 @@
       "rightsBasis": "Original Boho News data visualization created from official U.S. Bureau of Economic Analysis data.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Bar chart showing 12-month changes of 3.4 percent for total compensation, 3.2 percent for wages and salaries, and 3.8 percent for benefits in June 2026.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic; data: U.S. Bureau of Labor Statistics",
+      "caption": "For civilian workers, benefit costs rose faster than wages and salaries over the 12 months ending in June 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Shows the BLS 12-month changes for civilian compensation, wages and salaries, and benefits ending June 2026."
+      },
+      "creator": "Boho News Data Desk",
+      "derivatives": [
+        {
+          "hash": "34b284acb98a3c257187bff90cfbd8a50057cb0ef210779b6e9c0d0a2ed55f78",
+          "height": 900,
+          "publicPath": "/media/articles/employer-compensation-costs-june-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d8d6a6051b3252ecfdfdd5e1097d9cd1e0aa89d7d9e6d32a9c20bb76cb1b9eb7",
+          "height": 600,
+          "publicPath": "/media/articles/employer-compensation-costs-june-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4a11cd8ae3e83e50133f08583eccd40c58d656a73b90e487121ecca50087f6a7",
+          "height": 1200,
+          "publicPath": "/media/articles/employer-compensation-costs-june-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ee10e190f9490726dacbeee1e75a013c50f36b012ccfb3b640fe68212df070e0",
+          "height": 900,
+          "publicPath": "/media/articles/employer-compensation-costs-june-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "fb355c70dc33f05838ec67317865745f6e3e3e4acb0291614d57e53ad49b99fb",
+          "height": 720,
+          "publicPath": "/media/articles/employer-compensation-costs-june-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f64c8e0958abf66820f35d7a8f67ac0cdfa2229571cb60f24e5a8f9dc5e41856",
+          "height": 630,
+          "publicPath": "/media/articles/employer-compensation-costs-june-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "70e2f8e19a8ff6902839cc64bf862724f76c16432d46dccc83a0c20381c3c332",
+          "height": 480,
+          "publicPath": "/media/articles/employer-compensation-costs-june-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-bls-eci-june-2026-chart",
+      "illustrationLabel": null,
+      "license": "Boho News owned work",
+      "originalFileHash": "d8263ecbc9f2eb8cb7ddc248cfa0886214d9c74a0b675cc7574c33d50172f94e",
+      "restrictions": [
+        "Numerical labels must remain tied to the cited June 2026 BLS release."
+      ],
+      "retrievedAt": "2026-08-01T16:45:00Z",
+      "rightsBasis": "Original newsroom data visualization created from public-domain U.S. government statistics.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.bls.gov/news.release/eci.nr0.htm"
     },
     {
       "aiGenerated": false,
@@ -3510,7 +3750,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "2c9796fd35feb938629df5497184653819b72a2cb6d5678c6815098f44841d25",
+  "packageDigest": "d89bd3c1b47cdda217dbd77c556fefca2e93e5b1fe17cee952f77542e775cae8",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -3666,6 +3906,27 @@
       "providerActivatedAt": "2026-07-31T05:19:50.703356Z",
       "recordHash": "96c00a8d522d47bab5510194c1edb051aa6c274282fea5490e626f060dc54033",
       "releaseId": "release-pb-20260731t051637z-3c9bf4a460bc-7e5a1d8ac46b",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://10f737f4.bohonews.pages.dev/",
+      "activationEvidenceHash": "d91a7db2baed59168d41a23768dc8cc3f30376e0f49f95726fe2477cb01d3581",
+      "canonicalFirstPublicAt": "2026-08-01T17:27:51.083Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/employer-compensation-costs-june-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-employer-compensation-costs-june-2026"
+      ],
+      "previousVerifiedDeploymentReference": "9e8574391d0a0b148fcf39b2070dbd65e4a46af7cd41b9e45db9a997daf87261",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-01T17:27:23.068626Z",
+      "recordHash": "e4e6ebce087ea1d7ee0d8618278a7b145f751321fb50fb637e07811bee218c4a",
+      "releaseId": "release-pb-20260801t172522z-63cb27f1e218-05aa37426372",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }
