@@ -1,9 +1,9 @@
 {
   "articleCount": 13,
-  "compilerVersion": "manual-interlochen-release-v1",
-  "generatedAt": "2026-08-01T18:05:12Z",
-  "mediaCount": 24,
-  "packageDigest": "03e89a6e41aad82aa3291f90735cbbed7c0d4e3aae0859e6211ef05d81c09ae6",
+  "compilerVersion": "2.1.1",
+  "generatedAt": "2026-08-01T23:24:28Z",
+  "mediaCount": 19,
+  "packageDigest": "64f1f21070bace77c9df9e24bb7e286fc5d6954111435edfb37168a53d873781",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -185,34 +185,34 @@
     },
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
-      "activationDeploymentUrl": "https://0b827ede.bohonews.pages.dev/",
-      "activationEvidenceHash": "b4594dad03d86e7fd6703225ab8894c8408f05959fdffec3f29c9cbc5230bfbf",
-      "canonicalFirstPublicAt": "2026-07-31T05:12:22.062Z",
+      "activationDeploymentUrl": "https://0c89650a.bohonews.pages.dev/",
+      "activationEvidenceHash": "d2c71c24b2899aea479dd74d5e5cb83468bbaa1a8b9da7ff0cf0b131e94fcb76",
+      "canonicalFirstPublicAt": "2026-08-01T23:24:23.088Z",
       "canonicalUrls": [
-        "https://bohonews.com/articles/interlochen-abuse-investigation-report-findings/"
+        "https://bohonews.com/articles/pce-prices-consumer-spending-june-2026/"
       ],
       "deploymentProvider": "cloudflare-pages",
       "environment": "production",
       "newArticleIds": [
-        "interlochen-abuse-investigation-report-findings"
+        "article-pce-prices-consumer-spending-june-2026"
       ],
-      "previousVerifiedDeploymentReference": "4915b09702e40a04269e21d5d82cedf452f5b8fb46a99c417dad761140b1e2e5",
+      "previousVerifiedDeploymentReference": "b970634269eb7cd334ca03c499ba0b8c564fcadfbe6287eef725e38acd07e7ab",
       "project": "bohonews",
-      "providerActivatedAt": "2026-07-31T05:11:20.305434Z",
-      "recordHash": "c7b0fa1c03c846a57e746c646196e89c2db1f40450f20b486e1423b139980368",
-      "releaseId": "release-pb-20260731t050909z-bfcf50c81164-bfcf50c81164",
+      "providerActivatedAt": "2026-08-01T23:23:57.788205Z",
+      "recordHash": "2b2ede65a3aa644c70c041f2668a0b169baedd41ee856c1252caa510e9140c33",
+      "releaseId": "release-pb-20260801t232126z-f71570c04ebd-e8740b393abe",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
   "routes": [
-    "/articles/interlochen-abuse-investigation-report-findings/",
     "/articles/ai-data-center-ratepayer-protection-pledge-expands/",
     "/articles/employer-compensation-costs-june-2026/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/metro-unemployment-payroll-growth-june-2026/",
+    "/articles/pce-prices-consumer-spending-june-2026/",
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
     "/articles/trump-section-301-tariffs-60-economies/",
     "/articles/trump-smithsonian-warning-signs-executive-order/",
