@@ -128,10 +128,14 @@ h3 { font-size: clamp(1.25rem,2vw,1.7rem); line-height: 1.08; margin: .8rem 0 .5
 .theme-control button[aria-pressed="true"] { background: var(--text); color: var(--surface); }
 .masthead { align-items: center; display: flex; justify-content: center; min-height: 7.8rem; padding: 1.25rem clamp(1rem,4vw,3rem); position: relative; }
 .brand {
-  color: var(--text); font-family: var(--serif); font-size: clamp(2rem,6vw,4.8rem); font-weight: 800;
+  align-items: center; color: var(--text); display: inline-flex; font-family: var(--serif);
+  font-size: clamp(2rem,6vw,4.8rem); font-weight: 800; gap: .22em;
   letter-spacing: -.075em; line-height: .82; text-decoration: none;
 }
-.brand span { color: var(--accent); }
+.brand img { height: 1.18em; object-fit: contain; width: 1.18em; }
+.brand span { color: var(--text); white-space: nowrap; }
+.brand b { color: var(--accent); font: inherit; }
+.brand--footer img { height: 1.05em; width: 1.05em; }
 .masthead-actions { align-items: center; display: none; gap: .8rem; }
 .icon-link,.mobile-menu summary { font-size: .68rem; font-weight: 850; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
 .priority-scroll { border-top: 1px solid var(--border); }
