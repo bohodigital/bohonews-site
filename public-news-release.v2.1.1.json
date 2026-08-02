@@ -1,9 +1,9 @@
 {
-  "articleCount": 13,
+  "articleCount": 14,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-01T23:24:28Z",
-  "mediaCount": 19,
-  "packageDigest": "64f1f21070bace77c9df9e24bb7e286fc5d6954111435edfb37168a53d873781",
+  "generatedAt": "2026-08-02T00:13:00Z",
+  "mediaCount": 20,
+  "packageDigest": "6e26612c4a9e40cf239f6349ac1502b0b478abacf227472b1a909d1b15119191",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -203,6 +203,27 @@
       "releaseId": "release-pb-20260801t232126z-f71570c04ebd-e8740b393abe",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://58f692b2.bohonews.pages.dev/",
+      "activationEvidenceHash": "6c99249116052c2a850c4c169ad846ea7281d89c034bd3bb40d0c78104e63cec",
+      "canonicalFirstPublicAt": "2026-08-02T00:12:55.738Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/us-gdp-growth-slows-second-quarter-2026-advance-estimate/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-us-gdp-growth-slows-second-quarter-2026-advance-estimate"
+      ],
+      "previousVerifiedDeploymentReference": "878758e74a7963dfd94476cd500fda68be04531a29888fb7c875929b9fd9ca22",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-02T00:12:33.579453Z",
+      "recordHash": "6d4ab632e301789716fb648f072db2f82461fe52aded9459ea94eabf300c9fc1",
+      "releaseId": "release-pb-20260802t000845z-18b8be9170ee-54683766cc12",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -217,6 +238,7 @@
     "/articles/trump-section-301-tariffs-60-economies/",
     "/articles/trump-smithsonian-warning-signs-executive-order/",
     "/articles/us-gdp-growth-slows-q2-2026/",
+    "/articles/us-gdp-growth-slows-second-quarter-2026-advance-estimate/",
     "/articles/what-house-iran-war-powers-vote-can-do/",
     "/articles/what-is-section-301-trade-act/",
     "/articles/who-controls-smithsonian-board-regents/"
