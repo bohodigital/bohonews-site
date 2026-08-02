@@ -1,0 +1,21 @@
+---
+interface Props { compact?: boolean; }
+const { compact = false } = Astro.props;
+---
+<section class:list={["weather-radar", compact && "weather-radar--compact"]} data-weather-radar aria-label="Observed weather radar">
+  <div class="weather-radar__map" data-radar-map role="region" aria-label="Interactive NOAA weather radar map"></div>
+  <div class="weather-radar__toolbar">
+    <button type="button" data-radar-play aria-pressed="false">Play radar</button>
+    <label>Frame <input data-radar-frame type="range" min="0" max="0" value="0" /></label>
+    <time data-radar-time>Loading NOAA radar…</time>
+    <label class="weather-radar__toggle"><input data-radar-alerts type="checkbox" checked /> Warnings</label>
+  </div>
+  <div class="weather-radar__legend" aria-label="Radar reflectivity legend"><span>Light</span><i></i><span>Intense</span></div>
+  <p class="weather-radar__note" data-radar-note>Observed NOAA MRMS reflectivity covers the continental United States. Forecast precipitation is shown separately.</p>
+</section>
+
+<script>
+  import "leaflet/dist/leaflet.css";
+  import { initWeatherRadar } from "../scripts/weather-radar";
+  document.querySelectorAll<HTMLElement>("[data-weather-radar]").forEach(initWeatherRadar);
+</script>

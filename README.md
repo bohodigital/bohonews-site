@@ -42,7 +42,12 @@ npm test
 npm run build
 npm run build:fixtures # non-production, noindex synthetic preview only
 npm run dev
+npm run weather:preview # static site plus local Cloudflare weather Worker
 ```
+
+The weather preview uses local development KV, R2, and D1 bindings. Read
+`cloudflare/weather-worker/README.md` before any Cloudflare resource, route, or
+deployment action.
 
 ## Public/private boundary
 

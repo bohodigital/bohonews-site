@@ -1,0 +1,43 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import WeatherRadar from "../../components/WeatherRadar.astro";
+import "../../styles/weather.css";
+import "../../styles/weather-dashboard.css";
+---
+<BaseLayout title="Local Weather Forecast | Boho News" description="Local and global weather forecasts with official U.S. alerts, hourly conditions and transparent sources." canonical={new URL("/weather/", Astro.site).toString()}>
+  <section class="weather-hero" aria-labelledby="weather-title">
+    <div><p class="eyebrow">Boho Weather</p><h1 id="weather-title">Weather where you are.</h1><p class="weather-intro">A fast local forecast with global coverage, official U.S. alerts and the source of every number in view.</p></div>
+    <div class="weather-location-panel">
+      <p id="weather-location-kind">Finding an approximate location…</p>
+      <form id="weather-location-search" role="search">
+        <label for="weather-location-query">Change location</label>
+        <div><input id="weather-location-query" name="q" type="search" autocomplete="off" placeholder="City or region" maxlength="100" /><button type="submit">Search</button></div>
+      </form>
+      <div id="weather-location-results" class="weather-location-results" aria-live="polite"></div>
+      <button id="weather-device-location" class="weather-secondary-button" type="button">Use precise device location</button>
+    </div>
+  </section>
+  <p id="weather-status" class="weather-status" role="status">Loading local forecast…</p>
+  <section id="weather-current" class="weather-current" aria-labelledby="weather-current-title" hidden>
+    <div><p class="eyebrow">Now</p><h2 id="weather-current-title">Current conditions</h2><p id="weather-summary"></p></div>
+    <p id="weather-temperature" class="weather-temperature"></p>
+    <dl class="weather-facts"><div><dt>Wind</dt><dd id="weather-wind">—</dd></div><div><dt>Humidity</dt><dd id="weather-humidity">—</dd></div><div><dt>Precipitation</dt><dd id="weather-precipitation">—</dd></div><div><dt>Updated</dt><dd id="weather-updated">—</dd></div></dl>
+    <button id="weather-unit-toggle" class="weather-unit-toggle" type="button">Show °F</button>
+  </section>
+  <section id="weather-alerts-section" class="weather-section" aria-labelledby="weather-alerts-title" hidden><div class="module-heading"><h2 id="weather-alerts-title">Active alerts</h2><p class="eyebrow">Official warnings</p></div><div id="weather-alerts"></div></section>
+  <section class="weather-section" aria-labelledby="weather-trends-title">
+    <div class="module-heading"><h2 id="weather-trends-title">What the next 24 hours look like</h2><p class="eyebrow">Forecast trends</p></div>
+    <div class="weather-charts">
+      <figure class="weather-chart"><figcaption><strong>Temperature</strong><span id="weather-temp-summary">Loading…</span></figcaption><div id="weather-temp-chart"></div></figure>
+      <figure class="weather-chart"><figcaption><strong>Precipitation chance</strong><span id="weather-chance-summary">Loading…</span></figcaption><div id="weather-chance-chart"></div></figure>
+      <figure class="weather-chart"><figcaption><strong>Expected precipitation</strong><span id="weather-amount-summary">Loading…</span></figcaption><div id="weather-amount-chart"></div></figure>
+    </div>
+    <p class="weather-chart-caveat">Expected precipitation is forecast liquid equivalent, not a radar observation. It may be unavailable where the source does not publish it.</p>
+  </section>
+  <section class="weather-section" aria-labelledby="weather-radar-title"><div class="module-heading"><h2 id="weather-radar-title">Observed U.S. radar</h2><p class="eyebrow">NOAA MRMS · animated</p></div><WeatherRadar compact /></section>
+  <section class="weather-section" aria-labelledby="weather-hourly-title"><div class="module-heading"><h2 id="weather-hourly-title">Next 24 hours</h2><p class="eyebrow">Hourly</p></div><div id="weather-hourly" class="weather-hourly" aria-live="polite"></div></section>
+  <section class="weather-section" aria-labelledby="weather-daily-title"><div class="module-heading"><h2 id="weather-daily-title">Extended forecast</h2><p class="eyebrow">Daily outlook</p></div><div id="weather-daily" class="weather-daily" aria-live="polite"></div></section>
+  <section class="weather-radar-next" aria-labelledby="weather-nerd-title"><div><p class="eyebrow">Weather Nerd Dashboard</p><h2 id="weather-nerd-title">Go deeper than the daily forecast.</h2><p>Explore the full seven-day series, radar animation, warning geometry, wind, humidity, cloud cover, dew point, pressure and source freshness.</p></div><a href="/weather/nerd/">Open the nerd dashboard →</a></section>
+  <footer class="weather-provenance"><p id="weather-source">Weather sources will appear here.</p><p>Approximate location comes from Cloudflare when available. Boho News does not store your IP address for this forecast.</p></footer>
+  <script is:inline src="/weather.js" defer></script>
+</BaseLayout>
