@@ -1,0 +1,67 @@
+---
+import GamesLayout from "../../layouts/GamesLayout.astro";
+---
+
+<GamesLayout title="Sudoku" description="Play unlimited locally generated Sudoku puzzles in four difficulties." game="Sudoku">
+  <header class="game-heading">
+    <p class="eyebrow">Unlimited number puzzles</p><h1>Sudoku</h1>
+    <p class="game-heading__dek">Fill every row, column, and box with 1 through 9.</p>
+    <div class="game-meta"><span data-sudoku-number>Game 1</span><span data-sudoku-level>Easy</span><span data-sudoku-stats>0 solved</span></div>
+  </header>
+  <section class="game-panel sudoku-panel" data-sudoku-game>
+    <p class="game-status" role="status" aria-live="polite">Generating a fresh grid…</p>
+    <div class="sudoku-grid" role="grid" aria-label="Nine by nine Sudoku puzzle">
+      {Array.from({length:81},(_,index)=><button type="button" class="sudoku-cell" data-sudoku-cell={index} aria-label={`Row ${Math.floor(index/9)+1}, column ${(index%9)+1}`}></button>)}
+    </div>
+    <div class="sudoku-pad" aria-label="Number pad">{[1,2,3,4,5,6,7,8,9].map((number)=><button type="button" data-sudoku-digit={number}>{number}</button>)}<button type="button" data-sudoku-digit="" aria-label="Erase">⌫</button></div>
+    <div class="game-actions">
+      <button class="game-button" type="button" data-sudoku-check>Check puzzle</button>
+      <label class="sudoku-difficulty">Difficulty <select data-sudoku-difficulty><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option><option value="expert">Expert</option></select></label>
+      <button class="game-button game-button--secondary" type="button" data-sudoku-new>New puzzle</button>
+      <button class="game-button game-button--secondary" type="button" data-sudoku-clear>Clear entries</button>
+    </div>
+  </section>
+  <p class="game-note">Each fast-generated board comes from a reviewed solvable seed. Your unfinished grid stays on this device.</p>
+</GamesLayout>
+
+<style is:global>
+  .sudoku-panel { max-width: 42rem; }
+  .sudoku-grid { border: 3px solid var(--text); display: grid; grid-template-columns: repeat(9,1fr); margin: 1rem auto 1.2rem; max-width: 34rem; }
+  .sudoku-cell { align-items: center; aspect-ratio: 1; background: var(--surface); border: 0; border-bottom: 1px solid var(--border-strong); border-right: 1px solid var(--border-strong); color: var(--accent); cursor: pointer; display: flex; font-size: clamp(1rem,4vw,1.75rem); font-weight: 750; justify-content: center; padding: 0; }
+  .sudoku-cell:nth-child(9n) { border-right: 0; }
+  .sudoku-cell:nth-child(3n):not(:nth-child(9n)) { border-right: 3px solid var(--text); }
+  .sudoku-cell:nth-child(n+19):nth-child(-n+27),.sudoku-cell:nth-child(n+46):nth-child(-n+54) { border-bottom: 3px solid var(--text); }
+  .sudoku-cell:nth-child(n+73) { border-bottom: 0; }
+  .sudoku-cell--given { color: var(--text); cursor: default; font-weight: 900; }
+  .sudoku-cell[aria-selected="true"] { background: var(--accent-soft); outline: .18rem solid var(--focus); outline-offset: -.18rem; }
+  .sudoku-cell[aria-invalid="true"] { background: #f7d5d1; color: #7f1813; }
+  .sudoku-pad { display: grid; gap: .35rem; grid-template-columns: repeat(10,1fr); margin: 0 auto; max-width: 34rem; }
+  .sudoku-pad button { background: var(--border); border: 0; color: var(--text); cursor: pointer; font-size: 1rem; font-weight: 850; min-height: 2.8rem; }
+  .sudoku-difficulty { align-items: center; border: 1px solid var(--text); display: flex; font-size: .68rem; font-weight: 900; gap: .5rem; letter-spacing: .06em; padding: .45rem .65rem; text-transform: uppercase; }
+  .sudoku-difficulty select { background: var(--surface); border: 0; color: var(--text); font: inherit; min-height: 1.8rem; }
+  @media (max-width: 34rem) { .sudoku-pad { grid-template-columns: repeat(5,1fr); } }
+</style>
+
+<script>
+  // @ts-nocheck -- Browser interaction is covered by focused unit and browser QA.
+  import { getSudoku } from "sudoku-gen";
+
+  const root=document.querySelector("[data-sudoku-game]");
+  if(root){
+    const STORAGE_KEY="boho-games:v2";const cells=[...root.querySelectorAll("[data-sudoku-cell]")];const status=root.querySelector(".game-status");const difficulty=root.querySelector("[data-sudoku-difficulty]");
+    let store=readStore();let state=store.sudoku?.current;let selected=0;
+    function readStore(){try{return JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");}catch{return {};}}
+    function writeStore(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(store));}catch{}}
+    function freshGame(){const sudoku=store.sudoku||{sequence:0,stats:{played:0,solved:0}};const generated=getSudoku(difficulty.value);state={id:`sudoku-${Date.now()}`,number:(sudoku.sequence||0)+1,puzzle:generated.puzzle,solution:generated.solution,difficulty:generated.difficulty,entries:[...generated.puzzle].map((value)=>value==="-"?"":value),complete:false,recorded:false};store.sudoku={...sudoku,sequence:state.number,current:state};selected=state.entries.findIndex((value,index)=>state.puzzle[index]==="-");writeStore();render();status.textContent="Select an empty square.";}
+    if(!state||typeof state.puzzle!=="string"||state.puzzle.length!==81)freshGame();else{difficulty.value=state.difficulty;selected=state.entries.findIndex((value,index)=>state.puzzle[index]==="-");}
+    function select(index){if(index<0||index>=81)return;selected=index;cells.forEach((cell,i)=>cell.setAttribute("aria-selected",String(i===index)));cells[index].focus();}
+    function enter(value){if(state.puzzle[selected]!=="-")return;state.entries[selected]=value;state.complete=false;cells[selected].textContent=value;cells[selected].removeAttribute("aria-invalid");writeStore();}
+    function render(){cells.forEach((cell,index)=>{const given=state.puzzle[index]!=="-";cell.textContent=state.entries[index]||"";cell.classList.toggle("sudoku-cell--given",given);cell.toggleAttribute("data-given",given);cell.setAttribute("aria-label",`Row ${Math.floor(index/9)+1}, column ${(index%9)+1}${given?`, given ${state.puzzle[index]}`:""}`);cell.removeAttribute("aria-invalid");cell.setAttribute("aria-selected",String(index===selected));});document.querySelector("[data-sudoku-number]").textContent=`Game ${state.number}`;document.querySelector("[data-sudoku-level]").textContent=state.difficulty[0].toUpperCase()+state.difficulty.slice(1);const stats=store.sudoku.stats||{played:0,solved:0};document.querySelector("[data-sudoku-stats]").textContent=`${stats.solved} solved`;status.textContent=state.complete?"Puzzle complete. Nicely done.":"Select an empty square.";}
+    cells.forEach((cell,index)=>{cell.addEventListener("click",()=>select(index));cell.addEventListener("keydown",(event)=>{if(/^[1-9]$/.test(event.key)){event.preventDefault();enter(event.key);}if(event.key==="Backspace"||event.key==="Delete"){event.preventDefault();enter("");}const moves={ArrowRight:1,ArrowLeft:-1,ArrowDown:9,ArrowUp:-9};if(moves[event.key]){event.preventDefault();select(selected+moves[event.key]);}});});
+    root.querySelectorAll("[data-sudoku-digit]").forEach((button)=>button.addEventListener("click",()=>enter(button.dataset.sudokuDigit||"")));
+    root.querySelector("[data-sudoku-check]")?.addEventListener("click",()=>{let wrong=0,blank=0;cells.forEach((cell,index)=>{const value=state.entries[index]||"";if(value&&value!==state.solution[index]){cell.setAttribute("aria-invalid","true");wrong++;}else cell.removeAttribute("aria-invalid");if(!value)blank++;});if(!wrong&&!blank){state.complete=true;if(!state.recorded){store.sudoku.stats=store.sudoku.stats||{played:0,solved:0};store.sudoku.stats.played++;store.sudoku.stats.solved++;state.recorded=true;}status.textContent="Puzzle complete. Nicely done.";writeStore();render();}else status.textContent=wrong?`${wrong} ${wrong===1?"square needs":"squares need"} another look.`:`${blank} ${blank===1?"square remains":"squares remain"}.`;});
+    root.querySelector("[data-sudoku-new]")?.addEventListener("click",freshGame);
+    root.querySelector("[data-sudoku-clear]")?.addEventListener("click",()=>{state.entries=[...state.puzzle].map((value)=>value==="-"?"":value);state.complete=false;writeStore();selected=state.entries.findIndex((value,index)=>state.puzzle[index]==="-");render();select(selected);});
+    render();select(selected);
+  }
+</script>

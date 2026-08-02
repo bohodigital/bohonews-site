@@ -1,0 +1,120 @@
+---
+import GamesLayout from "../../layouts/GamesLayout.astro";
+const keys = ["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
+---
+
+<GamesLayout title="Wordle" description="Play unlimited five-letter Wordle rounds from Boho News." game="Wordle">
+  <header class="game-heading">
+    <p class="eyebrow">Unlimited word play</p><h1>Wordle</h1>
+    <p class="game-heading__dek">Find the five-letter word in six tries. Finish one and play another.</p>
+    <div class="game-meta"><span data-game-number>Game 1</span><span data-word-stats>0 played</span></div>
+  </header>
+  <section class="game-panel" aria-label="Wordle game" data-word-game>
+    <p class="game-status" role="status" aria-live="polite">Enter a five-letter word.</p>
+    <div class="word-board" role="grid" aria-label="Six guesses of five letters">
+      {Array.from({length:30},(_,index) => <div class="word-tile" role="gridcell" data-word-tile={index} aria-label={`Row ${Math.floor(index/5)+1}, column ${(index%5)+1}`}></div>)}
+    </div>
+    <div class="word-keyboard" aria-label="On-screen keyboard">
+      {keys.map((row,rowIndex) => <div class="word-keyboard__row">
+        {rowIndex === 2 && <button type="button" data-key="ENTER" class="word-key word-key--wide">Enter</button>}
+        {[...row].map((letter) => <button type="button" data-key={letter} class="word-key">{letter}</button>)}
+        {rowIndex === 2 && <button type="button" data-key="BACKSPACE" class="word-key word-key--wide" aria-label="Delete">⌫</button>}
+      </div>)}
+    </div>
+    <div class="game-actions">
+      <button class="game-button" type="button" data-word-new>New game</button>
+      <button class="game-button game-button--secondary" type="button" data-word-share hidden>Copy result</button>
+    </div>
+  </section>
+  <p class="game-note">Gray means absent, yellow means the wrong spot, and green means the right spot. Progress stays on this device.</p>
+</GamesLayout>
+
+<style>
+  .word-board { display: grid; gap: .34rem; grid-template-columns: repeat(5,1fr); margin: 1rem auto 1.6rem; max-width: 21rem; }
+  .word-tile { align-items: center; aspect-ratio: 1; border: 2px solid var(--border-strong); display: flex; font-size: clamp(1.5rem,6vw,2.15rem); font-weight: 900; justify-content: center; text-transform: uppercase; }
+  .word-tile[data-filled="true"] { border-color: var(--text); }
+  .word-tile[data-result="correct"] { background: #6aaa64; border-color: #6aaa64; color: #fff; }
+  .word-tile[data-result="present"] { background: #c9b458; border-color: #c9b458; color: #fff; }
+  .word-tile[data-result="absent"] { background: #787c7e; border-color: #787c7e; color: #fff; }
+  .word-keyboard { margin: 0 auto; max-width: 40rem; user-select: none; }
+  .word-keyboard__row { display: flex; gap: .28rem; justify-content: center; margin-bottom: .32rem; }
+  .word-key { background: var(--border); border: 0; border-radius: .2rem; color: var(--text); cursor: pointer; flex: 1 1 0; font-size: clamp(.72rem,2.4vw,1rem); font-weight: 850; height: 3.45rem; max-width: 3.4rem; padding: 0; }
+  .word-key--wide { flex-basis: 1.55rem; font-size: .62rem; max-width: 4.5rem; text-transform: uppercase; }
+  .word-key[data-result="correct"] { background: #6aaa64; color: #fff; }
+  .word-key[data-result="present"] { background: #c9b458; color: #fff; }
+  .word-key[data-result="absent"] { background: #787c7e; color: #fff; }
+</style>
+
+<script>
+  // @ts-nocheck -- Browser interaction is covered by focused unit and browser QA.
+  import allowedWordData from "../../lib/games/wordle-allowed.json";
+  import { pickWordleAnswer, scoreWordleGuess, WORDLE_ANSWERS } from "../../lib/games/wordle";
+
+  const root = document.querySelector("[data-word-game]");
+  if (root) {
+    const STORAGE_KEY = "boho-games:v2";
+    const allowed = new Set([...allowedWordData.words.map((word) => word.toUpperCase()), ...WORDLE_ANSWERS]);
+    const tiles = [...root.querySelectorAll("[data-word-tile]")];
+    const status = root.querySelector(".game-status");
+    const shareButton = root.querySelector("[data-word-share]");
+    const gameNumber = document.querySelector("[data-game-number]");
+    const statsLabel = document.querySelector("[data-word-stats]");
+    let store = readStore();
+    let state = store.wordle?.current;
+    let current = "";
+
+    function readStore() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"); } catch { return {}; } }
+    function writeStore() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(store)); } catch {} }
+    function freshGame() {
+      const wordle = store.wordle || { sequence:0, recent:[], stats:{played:0,wins:0} };
+      const answer = pickWordleAnswer(wordle.recent || []);
+      state = { id:`wordle-${Date.now()}`, number:(wordle.sequence || 0)+1, answer, guesses:[], complete:false, won:false, recorded:false };
+      store.wordle = { ...wordle, sequence:state.number, recent:[...(wordle.recent || []),answer].slice(-20), current:state };
+      current = "";
+      writeStore();
+      render();
+    }
+    if (!state || !WORDLE_ANSWERS.includes(state.answer)) freshGame();
+
+    function render() {
+      tiles.forEach((tile,index) => {
+        const row = Math.floor(index/5); const col = index%5; const guess = state.guesses[row];
+        const letter = guess?.[col] || (row === state.guesses.length ? current[col] : "") || "";
+        tile.textContent = letter; tile.toggleAttribute("data-filled", Boolean(letter)); tile.removeAttribute("data-result");
+        if (guess) tile.setAttribute("data-result", scoreWordleGuess(guess,state.answer)[col]);
+      });
+      root.querySelectorAll("[data-key]").forEach((key) => key.removeAttribute("data-result"));
+      state.guesses.forEach((guess) => scoreWordleGuess(guess,state.answer).forEach((result,index) => {
+        const key = root.querySelector(`[data-key="${guess[index]}"]`); if (!key) return;
+        const rank = {absent:0,present:1,correct:2}; const prior = key.getAttribute("data-result");
+        if (!prior || rank[result] > rank[prior]) key.setAttribute("data-result",result);
+      }));
+      gameNumber.textContent = `Game ${state.number}`;
+      const stats = store.wordle.stats || {played:0,wins:0};
+      statsLabel.textContent = `${stats.played} played · ${stats.wins} won`;
+      shareButton.toggleAttribute("hidden",!state.complete);
+      status.textContent = state.complete
+        ? (state.won ? `Solved in ${state.guesses.length} ${state.guesses.length === 1 ? "try" : "tries"}.` : `The word was ${state.answer}.`)
+        : (state.guesses.length ? "Keep going." : "Enter a five-letter word.");
+    }
+    function finish(won) {
+      state.complete = true; state.won = won;
+      if (!state.recorded) { store.wordle.stats = store.wordle.stats || {played:0,wins:0}; store.wordle.stats.played++; if(won) store.wordle.stats.wins++; state.recorded=true; }
+    }
+    function input(key) {
+      if (state.complete) return;
+      if (key === "BACKSPACE") current = current.slice(0,-1);
+      else if (key === "ENTER") {
+        if (current.length !== 5) status.textContent = "Not enough letters.";
+        else if (!allowed.has(current)) status.textContent = "Not in this dictionary.";
+        else { state.guesses.push(current); const won=current===state.answer; current=""; if(won || state.guesses.length===6) finish(won); else status.textContent="Keep going."; writeStore(); }
+      } else if (/^[A-Z]$/.test(key) && current.length < 5) current += key;
+      render();
+    }
+    root.addEventListener("click",(event)=>{const target=event.target.closest("[data-key]");if(target)input(target.dataset.key);});
+    document.addEventListener("keydown",(event)=>{if(event.metaKey||event.ctrlKey||event.altKey)return;const key=event.key==="Enter"?"ENTER":event.key==="Backspace"?"BACKSPACE":event.key.toUpperCase();if(/^[A-Z]$/.test(key)||key==="ENTER"||key==="BACKSPACE"){event.preventDefault();input(key);}});
+    root.querySelector("[data-word-new]")?.addEventListener("click",freshGame);
+    shareButton?.addEventListener("click",async()=>{const blocks=state.guesses.map((guess)=>scoreWordleGuess(guess,state.answer).map((value)=>value==="correct"?"🟩":value==="present"?"🟨":"⬛").join("")).join("\n");const text=`Boho Wordle ${state.number} ${state.won?state.guesses.length:"X"}/6\n${blocks}`;try{await navigator.clipboard.writeText(text);status.textContent="Result copied.";}catch{status.textContent="Copy is unavailable in this browser.";}});
+    render();
+  }
+</script>

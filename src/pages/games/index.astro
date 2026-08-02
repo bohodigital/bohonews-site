@@ -1,0 +1,54 @@
+---
+import GamesLayout from "../../layouts/GamesLayout.astro";
+---
+
+<GamesLayout title="Games" description="Unlimited Wordle, Mini Crossword, and Sudoku games from Boho News.">
+  <header class="games-hero">
+    <div>
+      <p class="eyebrow">A sharper daily break</p>
+      <h1>Boho Games</h1>
+      <p class="games-hero__dek">Three quick puzzles. Play as many as you want. No account, no leaderboard, no nonsense.</p>
+    </div>
+    <p class="games-date"><strong>Unlimited play</strong><span>Your progress stays in this browser.</span></p>
+  </header>
+
+  <section class="game-grid" aria-label="Today’s games">
+    <article class="game-card" data-game-card="wordle">
+      <span class="game-card__number">01 · Words</span>
+      <div class="game-card__motif" aria-hidden="true">{Array.from({length:10},() => <i></i>)}</div>
+      <h2>Wordle</h2>
+      <p>Find each five-letter word in six tries, then immediately play another.</p>
+      <span class="game-card__status">Completed</span>
+      <a class="game-card__action" href="/games/daily-word/"><span>Play Wordle</span><span aria-hidden="true">→</span></a>
+    </article>
+    <article class="game-card" data-game-card="mini">
+      <span class="game-card__number">02 · Crossword</span>
+      <div class="game-card__motif game-card__motif--mini" aria-hidden="true">{Array.from({length:10},() => <i></i>)}</div>
+      <h2>Mini Crossword</h2>
+      <p>A compact procedurally arranged crossword built from original clues.</p>
+      <span class="game-card__status">Completed</span>
+      <a class="game-card__action" href="/games/mini/"><span>Play crossword</span><span aria-hidden="true">→</span></a>
+    </article>
+    <article class="game-card" data-game-card="sudoku">
+      <span class="game-card__number">03 · Numbers</span>
+      <div class="game-card__motif game-card__motif--sudoku" aria-hidden="true">{Array.from({length:9},() => <i></i>)}</div>
+      <h2>Sudoku</h2>
+      <p>Fast, solvable grids in four difficulties, with another always ready.</p>
+      <span class="game-card__status">Completed</span>
+      <a class="game-card__action" href="/games/sudoku/"><span>Play Sudoku</span><span aria-hidden="true">→</span></a>
+    </article>
+  </section>
+
+  <p class="game-note">Local prototype. Every puzzle runs in your browser and can be replayed without a daily limit.</p>
+</GamesLayout>
+
+<script>
+  // @ts-nocheck -- Local mockup interaction; exercised through browser QA.
+  try {
+    const progress = JSON.parse(localStorage.getItem("boho-games:v2") || "{}");
+    document.querySelectorAll("[data-game-card]").forEach((card) => {
+      const key = card.getAttribute("data-game-card");
+      if (key && progress[key]?.complete) card.setAttribute("data-complete", "true");
+    });
+  } catch { /* Local storage is optional. */ }
+</script>

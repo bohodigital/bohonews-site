@@ -1,0 +1,89 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  game?: string;
+}
+
+const { title, description, game } = Astro.props;
+---
+
+<BaseLayout title={`${title} — Boho News`} description={description} noindex>
+  <div class="games-shell">
+    <nav class="games-crumbs" aria-label="Games navigation">
+      <a href="/games/">Boho Games</a>
+      {game && <><span aria-hidden="true">/</span><span>{game}</span></>}
+    </nav>
+    <slot />
+  </div>
+</BaseLayout>
+
+<style is:global>
+  .games-shell {
+    --game-green: #1f6b4f;
+    --game-gold: #c69635;
+    --game-ink: #24211d;
+    margin: 0 auto;
+    max-width: 76rem;
+    min-height: 62vh;
+  }
+  :root[data-theme="dark"] .games-shell { --game-green: #66bd98; --game-gold: #e0b65c; --game-ink: #f1eee8; }
+  .games-crumbs {
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    font-size: .7rem;
+    font-weight: 850;
+    gap: .55rem;
+    letter-spacing: .08em;
+    margin-bottom: clamp(2rem,5vw,4.5rem);
+    padding: .7rem 0;
+    text-transform: uppercase;
+  }
+  .games-crumbs a { color: var(--accent); text-decoration: none; }
+  .games-hero { align-items: end; display: grid; gap: 2rem; grid-template-columns: minmax(0,1.4fr) minmax(16rem,.6fr); margin-bottom: 3rem; }
+  .games-hero h1,.game-heading h1 { font-size: clamp(3.2rem,8vw,7.5rem); }
+  .games-hero__dek,.game-heading__dek {
+    color: var(--text-soft); font-family: var(--serif); font-size: clamp(1.1rem,2vw,1.45rem); margin: 1rem 0 0; max-width: 44rem;
+  }
+  .games-date { border-left: .25rem solid var(--accent); color: var(--text-muted); font-size: .78rem; margin: 0; padding: .6rem 0 .6rem 1rem; }
+  .games-date strong { color: var(--text); display: block; font-family: var(--serif); font-size: 1.25rem; margin-bottom: .2rem; }
+  .game-grid { border-top: .22rem solid var(--text); display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .game-card { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); display: flex; flex-direction: column; min-height: 24rem; padding: clamp(1.25rem,3vw,2.2rem); position: relative; }
+  .game-card:last-child { border-right: 0; }
+  .game-card__number { color: var(--accent); font-size: .68rem; font-weight: 900; letter-spacing: .15em; text-transform: uppercase; }
+  .game-card h2 { font-size: clamp(2rem,4vw,3.4rem); margin-top: 2.5rem; }
+  .game-card p { color: var(--text-muted); margin-bottom: 1.8rem; }
+  .game-card__action { align-items: center; border-top: 1px solid var(--border); display: flex; font-size: .75rem; font-weight: 900; justify-content: space-between; letter-spacing: .08em; margin-top: auto; padding-top: 1rem; text-decoration: none; text-transform: uppercase; }
+  .game-card__status { background: var(--accent-soft); color: var(--accent); display: none; font-size: .62rem; font-weight: 900; letter-spacing: .08em; padding: .35rem .5rem; text-transform: uppercase; }
+  .game-card[data-complete="true"] .game-card__status { display: inline-block; }
+  .game-card__motif { display: grid; gap: .2rem; grid-template-columns: repeat(5,1fr); margin: 1.4rem 0 0; max-width: 11rem; }
+  .game-card__motif i { aspect-ratio: 1; background: var(--border); display: block; }
+  .game-card__motif i:nth-child(2),.game-card__motif i:nth-child(4),.game-card__motif i:nth-child(7) { background: var(--game-gold); }
+  .game-card__motif--mini i:nth-child(2),.game-card__motif--mini i:nth-child(6),.game-card__motif--mini i:nth-child(8) { background: var(--game-ink); }
+  .game-card__motif--sudoku { gap: .12rem; grid-template-columns: repeat(3,1fr); max-width: 5rem; }
+  .game-card__motif--sudoku i:nth-child(2n) { background: var(--game-green); }
+  .game-heading { border-bottom: 1px solid var(--border); margin: 0 auto 2rem; max-width: 46rem; padding-bottom: 1.5rem; text-align: center; }
+  .game-heading .eyebrow { margin-bottom: .8rem; }
+  .game-meta { align-items: center; color: var(--text-muted); display: flex; font-size: .72rem; font-weight: 750; gap: 1rem; justify-content: center; margin-top: 1rem; }
+  .game-meta span + span { border-left: 1px solid var(--border); padding-left: 1rem; }
+  .game-panel { margin: 0 auto; max-width: 46rem; }
+  .game-status { color: var(--text-soft); font-family: var(--serif); min-height: 2.2rem; text-align: center; }
+  .game-actions { display: flex; flex-wrap: wrap; gap: .65rem; justify-content: center; margin: 1.3rem 0; }
+  .game-actions[hidden] { display: none; }
+  .game-button {
+    background: var(--text); border: 1px solid var(--text); color: var(--surface); cursor: pointer; font-size: .72rem; font-weight: 900; letter-spacing: .08em; min-height: 2.75rem; padding: .7rem 1rem; text-transform: uppercase;
+  }
+  .game-button--secondary { background: transparent; color: var(--text); }
+  .game-button[hidden] { display: none; }
+  .game-note { border-top: 1px solid var(--border); color: var(--text-muted); font-size: .75rem; margin: 2.5rem auto 0; max-width: 38rem; padding-top: 1rem; text-align: center; }
+  @media (max-width: 48rem) {
+    .games-hero { align-items: start; grid-template-columns: 1fr; }
+    .game-grid { grid-template-columns: 1fr; }
+    .game-card { border-right: 0; min-height: 20rem; }
+    .game-heading h1 { font-size: clamp(2.8rem,16vw,5rem); }
+  }
+  @media (prefers-reduced-motion: reduce) { .games-shell * { scroll-behavior: auto !important; transition: none !important; } }
+</style>

@@ -1,0 +1,107 @@
+---
+import GamesLayout from "../../layouts/GamesLayout.astro";
+---
+
+<GamesLayout title="Mini Crossword" description="Play unlimited procedurally arranged Mini Crossword puzzles from Boho News." game="Mini Crossword">
+  <header class="game-heading">
+    <p class="eyebrow">Unlimited original clues</p><h1>Mini Crossword</h1>
+    <p class="game-heading__dek">A small, quick crossword with another puzzle always ready.</p>
+    <div class="game-meta"><span data-mini-number>Game 1</span><span data-mini-size>Compact grid</span><span data-mini-stats>0 solved</span></div>
+  </header>
+  <section class="mini-layout" data-mini-game>
+    <div>
+      <p class="game-status" role="status" aria-live="polite">Building a fresh crossword…</p>
+      <div class="mini-grid" role="grid" aria-label="Mini Crossword grid" data-mini-grid></div>
+      <div class="game-actions">
+        <button class="game-button" type="button" data-mini-check>Check puzzle</button>
+        <button class="game-button game-button--secondary" type="button" data-mini-new>New crossword</button>
+        <button class="game-button game-button--secondary" type="button" data-mini-clear>Clear entries</button>
+      </div>
+    </div>
+    <div class="mini-clues">
+      <section><h2>Across</h2><ol data-mini-across></ol></section>
+      <section><h2>Down</h2><ol data-mini-down></ol></section>
+    </div>
+  </section>
+  <p class="game-note">Layouts are procedurally arranged from an original Boho clue bank. Your current puzzle stays on this device.</p>
+</GamesLayout>
+
+<style is:global>
+  .mini-layout { display: grid; gap: clamp(2rem,5vw,5rem); grid-template-columns: minmax(18rem,.9fr) minmax(18rem,1.1fr); margin: 0 auto; max-width: 68rem; }
+  .mini-layout > * { min-width: 0; }
+  .mini-grid { --mini-cols: 7; background: var(--text); border: 3px solid var(--text); box-sizing: border-box; display: grid; grid-template-columns: repeat(var(--mini-cols),minmax(0,1fr)); margin: 1rem auto; max-width: min(34rem,calc(100vw - 2rem)); width: 100%; }
+  .mini-cell,.mini-block { aspect-ratio: 1; min-width: 0; }
+  .mini-block { background: var(--text); }
+  .mini-cell { background: var(--surface); border-bottom: 1px solid var(--text); border-right: 1px solid var(--text); display: block; position: relative; }
+  .mini-cell span { color: var(--text); font-size: clamp(.46rem,1.2vw,.66rem); font-weight: 850; left: .14rem; line-height: 1; position: absolute; top: .12rem; z-index: 1; }
+  .mini-cell input { background: var(--surface); border: 0; box-sizing: border-box; color: var(--text); font-size: clamp(1rem,3.4vw,1.8rem); font-weight: 850; height: 100%; min-width: 0; padding: .16rem; text-align: center; text-transform: uppercase; width: 100%; }
+  .mini-cell input:focus { background: var(--accent-soft); outline: .2rem solid var(--focus); outline-offset: -.2rem; }
+  .mini-cell input[aria-invalid="true"] { background: #f7d5d1; color: #7f1813; }
+  .mini-clues { display: grid; gap: 2rem; grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .mini-clues h2 { border-top: .18rem solid var(--text); font-size: 1.65rem; padding-top: .55rem; }
+  .mini-clues ol { list-style: none; margin: 0; padding: 0; }
+  .mini-clues li { border-top: 1px solid var(--border); display: grid; font-family: var(--serif); gap: .55rem; grid-template-columns: 1.2rem 1fr; line-height: 1.25; padding: .7rem 0; }
+  .mini-clues li span { font-family: var(--sans); font-size: .72rem; font-weight: 900; }
+  @media (max-width: 48rem) { .mini-layout { grid-template-columns: 1fr; } .mini-clues { gap: 1rem; } }
+</style>
+
+<script>
+  // @ts-nocheck -- Browser interaction is covered by focused unit and browser QA.
+  import crosswordGenerator from "crossword-layout-generator";
+  import { CROSSWORD_BANK } from "../../lib/games/crossword-bank";
+
+  const root = document.querySelector("[data-mini-game]");
+  if (root) {
+    const STORAGE_KEY="boho-games:v2";
+    const generateLayout=crosswordGenerator.generateLayout;
+    const grid=root.querySelector("[data-mini-grid]"); const status=root.querySelector(".game-status");
+    const acrossList=root.querySelector("[data-mini-across]"); const downList=root.querySelector("[data-mini-down]");
+    let store=readStore(); let state=store.mini?.current;
+
+    function readStore(){try{return JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");}catch{return {};}}
+    function writeStore(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(store));}catch{}}
+    function shuffle(values){const copy=[...values];for(let i=copy.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy;}
+    function buildPuzzle(){
+      for(let attempt=0;attempt<40;attempt++){
+        const input=shuffle(CROSSWORD_BANK).slice(0,7).map((entry)=>({...entry}));
+        const layout=generateLayout(input); const placed=layout.result.filter((entry)=>entry.orientation!=="none");
+        if(placed.length===input.length&&layout.rows>=5&&layout.cols>=5&&layout.rows<=10&&layout.cols<=10){return {rows:layout.rows,cols:layout.cols,table:layout.table,result:placed};}
+      }
+      const fallback=CROSSWORD_BANK.filter((entry)=>["heart","earth","water","later","alert","trace"].includes(entry.answer)).map((entry)=>({...entry}));
+      const layout=generateLayout(fallback); return {rows:layout.rows,cols:layout.cols,table:layout.table,result:layout.result.filter((entry)=>entry.orientation!=="none")};
+    }
+    function freshGame(){
+      const mini=store.mini||{sequence:0,stats:{played:0,solved:0}}; const puzzle=buildPuzzle();
+      state={id:`mini-${Date.now()}`,number:(mini.sequence||0)+1,...puzzle,entries:puzzle.table.flat().map((cell)=>cell==="-"?"-":""),complete:false,recorded:false};
+      store.mini={...mini,sequence:state.number,current:state};writeStore();render();status.textContent="Select a square and start typing.";
+    }
+    if(!state||!Array.isArray(state.table)||!Array.isArray(state.result))freshGame();
+
+    function numberMap(){const map=new Map();state.result.forEach((entry)=>map.set(`${entry.starty-1},${entry.startx-1}`,entry.position));return map;}
+    function solutionAt(index){const row=Math.floor(index/state.cols),col=index%state.cols;return state.table[row][col].toUpperCase();}
+    function nextOpen(index,direction=1){let cursor=index+direction;while(cursor>=0&&cursor<state.entries.length&&state.entries[cursor]==="-")cursor+=direction;return cursor;}
+    function saveEntry(index,value){state.entries[index]=value;state.complete=false;writeStore();}
+    function renderClues(list,orientation){list.textContent="";state.result.filter((entry)=>entry.orientation===orientation).sort((a,b)=>a.position-b.position).forEach((entry)=>{const item=document.createElement("li");const number=document.createElement("span");number.textContent=entry.position;item.append(number,document.createTextNode(entry.clue));list.append(item);});}
+    function render(){
+      grid.textContent="";grid.style.setProperty("--mini-cols",state.cols);const starts=numberMap();
+      state.table.flat().forEach((solution,index)=>{
+        if(solution==="-"){const block=document.createElement("div");block.className="mini-block";block.setAttribute("aria-hidden","true");grid.append(block);return;}
+        const row=Math.floor(index/state.cols),col=index%state.cols;const label=document.createElement("label");label.className="mini-cell";
+        const number=document.createElement("span");number.textContent=starts.get(`${row},${col}`)||"";
+        const input=document.createElement("input");input.maxLength=1;input.autocomplete="off";input.inputMode="text";input.value=state.entries[index]||"";input.dataset.miniCell=index;input.setAttribute("aria-label",`Row ${row+1}, column ${col+1}`);
+        input.addEventListener("input",()=>{input.value=input.value.replace(/[^a-z]/gi,"").slice(-1).toUpperCase();input.removeAttribute("aria-invalid");saveEntry(index,input.value);const next=nextOpen(index,1);if(input.value&&next<state.entries.length)grid.querySelector(`[data-mini-cell="${next}"]`)?.focus();});
+        input.addEventListener("keydown",(event)=>{let next=index;if(event.key==="ArrowRight")next=nextOpen(index,1);if(event.key==="ArrowLeft")next=nextOpen(index,-1);if(event.key==="ArrowDown")next=index+state.cols;if(event.key==="ArrowUp")next=index-state.cols;if(event.key==="Backspace"&&!input.value)next=nextOpen(index,-1);if(next!==index){const target=grid.querySelector(`[data-mini-cell="${next}"]`);if(target){event.preventDefault();target.focus();}}});
+        label.append(number,input);grid.append(label);
+      });
+      renderClues(acrossList,"across");renderClues(downList,"down");
+      document.querySelector("[data-mini-number]").textContent=`Game ${state.number}`;document.querySelector("[data-mini-size]").textContent=`${state.rows}×${state.cols} grid`;
+      const stats=store.mini.stats||{played:0,solved:0};document.querySelector("[data-mini-stats]").textContent=`${stats.solved} solved`;
+      status.textContent=state.complete?"Puzzle complete. Nicely done.":"Select a square and start typing.";
+    }
+    function check(){let wrong=0,blank=0;grid.querySelectorAll("[data-mini-cell]").forEach((input)=>{const index=Number(input.dataset.miniCell),value=input.value.toUpperCase();if(value&&value!==solutionAt(index)){input.setAttribute("aria-invalid","true");wrong++;}else input.removeAttribute("aria-invalid");if(!value)blank++;});if(!wrong&&!blank){state.complete=true;if(!state.recorded){store.mini.stats=store.mini.stats||{played:0,solved:0};store.mini.stats.played++;store.mini.stats.solved++;state.recorded=true;}status.textContent="Puzzle complete. Nicely done.";writeStore();render();}else status.textContent=wrong?`${wrong} ${wrong===1?"square needs":"squares need"} another look.`:`${blank} ${blank===1?"square remains":"squares remain"}.`;}
+    root.querySelector("[data-mini-check]")?.addEventListener("click",check);
+    root.querySelector("[data-mini-new]")?.addEventListener("click",freshGame);
+    root.querySelector("[data-mini-clear]")?.addEventListener("click",()=>{state.entries=state.entries.map((value)=>value==="-"?"-":"");state.complete=false;writeStore();render();grid.querySelector("[data-mini-cell]")?.focus();});
+    render();
+  }
+</script>
