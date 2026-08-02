@@ -42,4 +42,9 @@ test("phase 5 graphs distinguish forecast probability and expected amount", () =
   assert.match(nerd, /dewPoint/);
   assert.match(nerd, /cloudCover/);
   assert.match(nerd, /atmosphericPressure/);
+  assert.match(nerd, /nerd-precip-chance-chart/);
+  assert.match(nerd, /nerd-precip-amount-chart/);
+  assert.match(nerd, /nerd-pressure-chart/);
+  assert.match(nerd, /renderCursor/);
+  assert.doesNotMatch(nerd, /nerd-table/);
 });

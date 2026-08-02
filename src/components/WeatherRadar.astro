@@ -15,7 +15,7 @@ const { compact = false } = Astro.props;
 </section>
 
 <script>
-  import "maplibre-gl/dist/maplibre-gl.css";
+  import "leaflet/dist/leaflet.css";
   import { initWeatherRadar } from "../scripts/weather-radar";
   document.querySelectorAll<HTMLElement>("[data-weather-radar]").forEach(initWeatherRadar);
 </script>

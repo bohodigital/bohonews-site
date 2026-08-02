@@ -4,7 +4,7 @@
   X-Frame-Options: DENY
   Permissions-Policy: camera=(), microphone=(), geolocation=(self)
   Cross-Origin-Opener-Policy: same-origin
-  Content-Security-Policy: default-src 'self'; img-src 'self' data: blob: https:; style-src 'self'; script-src 'self' https://analytics.bohodigitalservices.com https://www.googletagmanager.com https://widgets.tradingview-widget.com; connect-src 'self' https://analytics.bohodigitalservices.com https://www.google-analytics.com https://region1.google-analytics.com https://snowplow-pixel.tradingview.com; worker-src blob:; child-src blob:; frame-src https://widgets.tradingview-widget.com; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  Content-Security-Policy: default-src 'self'; img-src 'self' data: blob: https:; style-src 'self'; script-src 'self' https://analytics.bohodigitalservices.com https://www.googletagmanager.com https://widgets.tradingview-widget.com; connect-src 'self' https://analytics.bohodigitalservices.com https://www.google-analytics.com https://region1.google-analytics.com https://snowplow-pixel.tradingview.com; frame-src https://widgets.tradingview-widget.com; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
 
 /pagefind/*
   Cache-Control: public, max-age=3600

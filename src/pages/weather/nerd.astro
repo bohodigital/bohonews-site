@@ -13,15 +13,25 @@ import "../../styles/weather-dashboard.css";
     <div><p class="eyebrow">Analysis point</p><h2 id="nerd-location-title">Finding your approximate location…</h2><p id="nerd-status" role="status">Loading forecast diagnostics.</p></div>
     <form id="nerd-search" role="search"><label for="nerd-query">Change location</label><div><input id="nerd-query" type="search" maxlength="100" placeholder="City or region" /><button type="submit">Search</button></div><div id="nerd-results" class="weather-location-results" aria-live="polite"></div></form>
   </section>
-  <section id="nerd-kpis" class="nerd-kpis" aria-label="Weather diagnostic summary"></section>
+  <section id="nerd-kpis" class="nerd-kpis" aria-label="Weather diagnostic summary" aria-busy="true"></section>
+  <section class="nerd-timeline" aria-labelledby="nerd-timeline-title">
+    <div class="module-heading"><h2 id="nerd-timeline-title">Forecast hour inspector</h2><p class="eyebrow">Exact values · synchronized with every chart</p></div>
+    <div class="nerd-timeline__control">
+      <label for="nerd-time-slider">Move through the forecast</label>
+      <input id="nerd-time-slider" type="range" min="0" max="0" value="0" disabled />
+      <output id="nerd-time-label" for="nerd-time-slider">Loading forecast timeline…</output>
+    </div>
+    <dl id="nerd-time-details" class="nerd-time-details" aria-live="polite"></dl>
+  </section>
   <section class="nerd-grid" aria-label="Observed radar and forecast diagnostics">
     <article class="nerd-panel nerd-panel--map"><div class="module-heading"><h2>Observed radar + warnings</h2><p class="eyebrow">NOAA MRMS</p></div><WeatherRadar /></article>
     <article class="nerd-panel"><div class="module-heading"><h2>Temperature + dew point</h2><p class="eyebrow">Full forecast series</p></div><div id="nerd-thermal-chart" class="nerd-chart"></div></article>
-    <article class="nerd-panel"><div class="module-heading"><h2>Precipitation signal</h2><p class="eyebrow">Chance + liquid equivalent</p></div><div id="nerd-precip-chart" class="nerd-chart"></div></article>
+    <article class="nerd-panel"><div class="module-heading"><h2>Precipitation chance</h2><p class="eyebrow">Probability · %</p></div><div id="nerd-precip-chance-chart" class="nerd-chart"></div></article>
+    <article class="nerd-panel"><div class="module-heading"><h2>Expected precipitation</h2><p class="eyebrow">Liquid equivalent · amount per period</p></div><div id="nerd-precip-amount-chart" class="nerd-chart"></div></article>
     <article class="nerd-panel"><div class="module-heading"><h2>Humidity + cloud cover</h2><p class="eyebrow">Atmosphere</p></div><div id="nerd-moisture-chart" class="nerd-chart"></div></article>
-    <article class="nerd-panel"><div class="module-heading"><h2>Wind + pressure</h2><p class="eyebrow">Dynamics</p></div><div id="nerd-dynamics-chart" class="nerd-chart"></div></article>
+    <article class="nerd-panel"><div class="module-heading"><h2>Wind speed</h2><p class="eyebrow">Sustained forecast</p></div><div id="nerd-wind-chart" class="nerd-chart"></div></article>
+    <article class="nerd-panel"><div class="module-heading"><h2>Atmospheric pressure</h2><p class="eyebrow">Mean sea-level pressure · hPa</p></div><div id="nerd-pressure-chart" class="nerd-chart"></div></article>
   </section>
-  <section class="weather-section" aria-labelledby="nerd-table-title"><div class="module-heading"><h2 id="nerd-table-title">24-hour diagnostic table</h2><p class="eyebrow">Exact values</p></div><div class="nerd-table-wrap"><table id="nerd-table"><thead><tr><th>Time</th><th>Temp.</th><th>Dew point</th><th>Precip.</th><th>Expected</th><th>Humidity</th><th>Cloud</th><th>Wind</th><th>Pressure</th></tr></thead><tbody></tbody></table></div></section>
   <footer class="weather-provenance"><p id="nerd-source">Weather sources will appear here.</p><p>Radar is an observation. All plotted atmospheric values are forecasts unless explicitly labeled otherwise. Approximate network coordinates are rounded and the visitor IP is not stored.</p></footer>
   <script is:inline src="/weather-nerd.js" defer></script>
 </BaseLayout>
