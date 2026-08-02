@@ -10,7 +10,7 @@ export const GET: APIRoute = () => {
   const publicArticles = (candidatePreviewEnabled ? [] : articles)
     .filter((a) => !a.fixture && a.search.index && a.retractionState === "current");
   const paths = ["/","/search/","/about/","/editorial-standards/","/corrections/",
-    "/support/","/privacy/","/terms/","/accessibility/","/contact/",
+    "/support/","/privacy/","/terms/","/accessibility/","/contact/","/evidence/",
     ...sections.map(([id]) => `/${id}/`),...discoveryPaths(publicArticles),
     ...publicArticles.map((a) => `/articles/${a.slug}/`)];
   const body = [...new Set(paths)].sort().map((path) => `<url><loc>${base}${path}</loc></url>`).join("");
