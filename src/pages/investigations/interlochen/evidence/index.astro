@@ -16,6 +16,7 @@ const federalSources = [
     label: "E0020",
     title: "Grand-jury exhibit bundle EFTA00008716",
     detail: "Includes 1994 donor correspondence, flight-log exhibits, Maxwell correspondence, and a redacted student application.",
+    href: "/evidence/interlochen/e0020-grand-jury-exhibit-bundle.pdf",
     hash: "6cb4fa1c9774def2aa8e8d01db1f5cf3872574e531287f566e035ab76fe800a2"
   },
   {
@@ -23,21 +24,27 @@ const federalSources = [
     label: "E0023",
     title: "United States v. Maxwell trial transcript, Day 2",
     detail: "Includes sworn testimony concerning meeting Epstein and Maxwell at Interlochen.",
-    hash: "7611a1a82cdead0a7ad4574f6e53875c438e5bdd380a5fb693f7700911226f71"
+    href: "/evidence/interlochen/e0023-maxwell-day-2-interlochen-excerpt.pdf",
+    hash: "7611a1a82cdead0a7ad4574f6e53875c438e5bdd380a5fb693f7700911226f71",
+    excerptHash: "2b013ca4f69c17240d28336a1b0170b59e7e5f6cbedb5b58ecbb5812fa5f11e4"
   },
   {
     id: "e0024",
     label: "E0024",
     title: "United States v. Maxwell trial transcript, Day 3",
     detail: "Includes sworn testimony from Interlochen finance official Daniel Besselsen about donor correspondence and institutional records.",
-    hash: "4b12f3c01eefb5684bffffae3ef853269d7e6a1ec1a9abd953cd183a92ce5ef8"
+    href: "/evidence/interlochen/e0024-maxwell-day-3-interlochen-excerpt.pdf",
+    hash: "4b12f3c01eefb5684bffffae3ef853269d7e6a1ec1a9abd953cd183a92ce5ef8",
+    excerptHash: "dbd84ceb2ff70b20a4ce925e8755e46a435da6849c5f11bb1ad11277dae50360"
   },
   {
     id: "e0026",
     label: "E0026",
     title: "United States v. Maxwell trial transcript, Day 8",
     detail: "Includes sworn pilot testimony concerning repeated Traverse City flights and visits to Interlochen.",
-    hash: "00cc9e269bc093cbc1783c757f9f789147c4f680a280a3d5b9cb8ec97418d03a"
+    href: "/evidence/interlochen/e0026-maxwell-day-8-interlochen-excerpt.pdf",
+    hash: "00cc9e269bc093cbc1783c757f9f789147c4f680a280a3d5b9cb8ec97418d03a",
+    excerptHash: "23594a5de0ba87389db524fe17f440ac5b043f22e4fac8504fda620830b6b7ea"
   }
 ];
 ---
@@ -52,12 +59,16 @@ const federalSources = [
     {candidatePreviewEnabled &&
       <aside class="fixture-banner" role="status">Private preview — not published</aside>}
     <header>
-      <p class="eyebrow"><a href="/investigations/interlochen/">The Interlochen Investigation</a></p>
+      <p class="eyebrow"><a href="/evidence/">Evidence Library</a> · <a href="/investigations/interlochen/">The Interlochen Investigation</a></p>
       <h1>Evidence Room</h1>
       <p>
         These records support Article 1. A document’s presence here does not
         mean every assertion inside it is established as fact.
       </p>
+      <aside class="notice content-warning">
+        <strong>Content warning</strong>
+        <p>Some court-record excerpts contain testimony concerning sexual abuse involving a minor.</p>
+      </aside>
     </header>
 
     <section class="evidence-primary" id="s1">
@@ -76,6 +87,24 @@ const federalSources = [
       </dl>
     </section>
 
+    <section aria-labelledby="institutional-sources-title">
+      <h2 id="institutional-sources-title">Institutional statements cited in Article 1</h2>
+      <div class="evidence-list">
+        <article id="s2">
+          <p class="evidence-id">S2 · Institutional response and FAQ</p>
+          <h3>External Investigation</h3>
+          <p>Interlochen’s investigation hub, including its statement, FAQ, named respondents, announced actions, reporting resources and safety claims.</p>
+          <p><a href="https://www.interlochen.org/about/historical-investigation" rel="noopener noreferrer">Read the original source</a></p>
+        </article>
+        <article id="s3">
+          <p class="evidence-id">S3 · Institutional statement</p>
+          <h3>A statement from Interlochen Center for the Arts</h3>
+          <p>Interlochen’s account of Epstein’s attendance, donor period, internal reviews and reports from two alumni.</p>
+          <p><a href="https://www.interlochen.org/statement-interlochen" rel="noopener noreferrer">Read the original source</a></p>
+        </article>
+      </div>
+    </section>
+
     <section aria-labelledby="federal-records-title">
       <h2 id="federal-records-title">Federal records used in Article 1</h2>
       <div class="evidence-list">
@@ -84,8 +113,9 @@ const federalSources = [
             <p class="evidence-id">{source.label} · Primary court record</p>
             <h3>{source.title}</h3>
             <p>{source.detail}</p>
-            {source.href && <p><a href={source.href}>Read the full subpoena</a></p>}
-            <p class="hash"><strong>SHA-256</strong> <code>{source.hash}</code></p>
+            {source.href && <p><a href={source.href}>{source.excerptHash ? "Read the cited excerpt" : "Read the preserved record"}</a></p>}
+            <p class="hash"><strong>{source.excerptHash ? "Original SHA-256" : "SHA-256"}</strong> <code>{source.hash}</code></p>
+            {source.excerptHash && <p class="hash"><strong>Excerpt SHA-256</strong> <code>{source.excerptHash}</code></p>}
           </article>)}
       </div>
     </section>

@@ -1,0 +1,116 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import evidenceAssets from "../../lib/evidence-assets.json";
+import {
+  articlePath,
+  articles,
+  candidatePreviewEnabled,
+  formatTimestamp
+} from "../../lib/news";
+
+type EvidenceAsset = (typeof evidenceAssets)[number];
+const assetsBySourceId = new Map<string,EvidenceAsset[]>();
+for (const asset of evidenceAssets) {
+  for (const sourceId of asset.sourceIds) {
+    const matches = assetsBySourceId.get(sourceId) ?? [];
+    matches.push(asset);
+    assetsBySourceId.set(sourceId,matches);
+  }
+}
+const publishedArticles = [...articles]
+  .filter((article) => !article.fixture && article.publicationStatus === "approved")
+  .sort((a,b) => (b.publishedAt ?? "").localeCompare(a.publishedAt ?? ""));
+const uniqueSourceCount = new Set(
+  publishedArticles.flatMap((article) => article.citations.map((source) => source.id))
+).size;
+---
+
+<BaseLayout
+  title="Evidence Library — Boho News"
+  description="Primary documents, preserved government records, source links, and integrity hashes supporting recent Boho News reporting."
+  canonical="https://bohonews.com/evidence/"
+  noindex={candidatePreviewEnabled}
+>
+  <article class="evidence-room evidence-library" data-pagefind-body>
+    {candidatePreviewEnabled &&
+      <aside class="fixture-banner" role="status">Private preview — not published</aside>}
+    <header>
+      <p class="eyebrow">Show the work</p>
+      <h1>Evidence Library</h1>
+      <p>
+        Source records for recent Boho News reporting. We host public records
+        when republication is permitted and retain the original publisher link
+        when it is not. A source’s inclusion does not establish that every claim
+        inside it is true.
+      </p>
+    </header>
+
+    <section class="evidence-summary" aria-label="Evidence library summary">
+      <div><strong>{publishedArticles.length}</strong><span>current stories indexed</span></div>
+      <div><strong>{uniqueSourceCount}</strong><span>unique source records</span></div>
+      <div><strong>{evidenceAssets.length}</strong><span>preserved files and datasets</span></div>
+    </section>
+
+    <p class="evidence-manifest-link">
+      <a href="/evidence/manifest.json">Download the machine-readable evidence manifest</a>
+    </p>
+
+    <section class="evidence-primary">
+      <p class="evidence-id">Investigative archive</p>
+      <h2>The Interlochen Investigation</h2>
+      <p>
+        The dedicated Evidence Room contains the complete 97-page investigation
+        report, the federal subpoena and exhibit bundle, and narrowly extracted
+        transcript pages cited in Article 1.
+      </p>
+      <p><a class="button" href="/investigations/interlochen/evidence/">Open the Interlochen Evidence Room</a></p>
+    </section>
+
+    <section aria-labelledby="story-sources-title">
+      <h2 id="story-sources-title">Sources by story</h2>
+      <p class="evidence-explainer">
+        “Preserved copy” is a Boho-hosted file whose bytes are bound to the
+        displayed SHA-256. “Original source” remains the canonical publisher link.
+      </p>
+      <div class="source-register">
+        {publishedArticles.map((article) =>
+          <section class="evidence-story" id={article.slug}>
+            <header>
+              <p class="evidence-id">{article.section} · {article.citations.length} sources</p>
+              <h3><a href={articlePath(article)}>{article.headline}</a></h3>
+              {article.publishedAt && <p>Published {formatTimestamp(article.publishedAt)}</p>}
+            </header>
+            <ol>
+              {article.citations.map((source) => {
+                const mirrors = assetsBySourceId.get(source.id) ?? [];
+                return <li>
+                  <div>
+                    <strong>{source.title}</strong>
+                    <span>{source.publisher}</span>
+                  </div>
+                  <div class="source-actions">
+                    <a href={source.url} rel="noopener noreferrer">Original source</a>
+                    {mirrors.map((asset) => <a href={asset.path}>Preserved copy</a>)}
+                  </div>
+                  {mirrors.map((asset) => <p class="hash">
+                    <span>{asset.mediaType === "application/pdf" ? `${asset.pages} pages` : "Dataset"}</span>
+                    <code>{asset.sha256}</code>
+                  </p>)}
+                </li>;
+              })}
+            </ol>
+          </section>) }
+      </div>
+    </section>
+
+    <section class="evidence-note">
+      <h2>Why some sources are not copied</h2>
+      <p>
+        Public accessibility is not permission to republish. Copyrighted news
+        reports, organizational statements, videos and advocacy pages remain
+        linked to their publishers unless a license or public-record basis permits
+        Boho News to host the underlying file.
+      </p>
+    </section>
+  </article>
+</BaseLayout>
