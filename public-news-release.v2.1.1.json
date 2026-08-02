@@ -1,9 +1,9 @@
 {
-  "articleCount": 15,
+  "articleCount": 17,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-02T00:23:36Z",
-  "mediaCount": 21,
-  "packageDigest": "fe3cb780eca8c537fe768d69e9004ae083c1dedf675b0d8f0948095d27000387",
+  "generatedAt": "2026-08-02T00:37:26Z",
+  "mediaCount": 26,
+  "packageDigest": "cab7b7f4ae7d712b67033c78484da67180eaf84204f5af05c84438a637ad8df0",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -245,12 +245,37 @@
       "releaseId": "release-pb-20260802t001930z-0c4496f57105-db5c8568d928",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://d51c5cbf.bohonews.pages.dev/",
+      "activationEvidenceHash": "20155b9e9e3e34229a74e37d26b365a74e463d046648025bf8e1a2befc6db86d",
+      "canonicalFirstPublicAt": "2026-08-02T00:37:19.654Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/dea-7-oh-schedule-i-threshold-action-guide/",
+        "https://bohonews.com/articles/fifa-4-2-billion-world-cup-sale-collapse/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-dea-7oh-schedule-i-threshold-action-guide",
+        "article-fifa-4-2-billion-world-cup-sale-collapse"
+      ],
+      "previousVerifiedDeploymentReference": "ca442af15b6e11a5b216f252883b6aeb83e86340bda5323b93c5b92df91d51e2",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-02T00:36:47.012292Z",
+      "recordHash": "e7ea62e06215a95461d9b0b6fe38729471999b7998fb7b9f8e082e7d20c7b427",
+      "releaseId": "release-pb-20260802t002901z-35d7b7ee635a-6d1935f9895c",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
   "routes": [
     "/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+    "/articles/dea-7-oh-schedule-i-threshold-action-guide/",
     "/articles/employer-compensation-costs-june-2026/",
+    "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/metro-unemployment-payroll-growth-june-2026/",
