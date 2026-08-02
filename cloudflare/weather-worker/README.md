@@ -10,6 +10,18 @@ npm ci
 npm run weather:preview
 ```
 
+Phase 4/5 routes add:
+
+- `/api/weather/v1/radar/manifest` — the latest timestamped NOAA MRMS frames.
+- `/api/weather/v1/radar/tiles/{z}/{x}/{y}.png?time=…` — cached, same-origin observed-radar tiles.
+- `/api/weather/v1/map/base/{z}/{x}/{y}` — cached USGS The National Map tiles.
+- `/api/weather/v1/warnings?lat=…&lon=…` — allowlisted NWS warning geometry for the selected point.
+
+The public forecast contract is version 1.1.1 and includes nullable precipitation
+amount, humidity, dew point, cloud cover, and pressure on hourly periods. Radar
+remains CONUS-only; global point forecasts use MET Norway where NWS coverage is
+unavailable.
+
 Local Wrangler persists development KV, R2, and D1 state. Because
 `request.cf` geolocation exists only on Cloudflare's network, local development
 uses a clearly labeled approximate Chicago fallback.

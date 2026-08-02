@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import WeatherRadar from "../../components/WeatherRadar.astro";
 import "../../styles/weather.css";
+import "../../styles/weather-dashboard.css";
 ---
 <BaseLayout title="Local Weather Forecast | Boho News" description="Local and global weather forecasts with official U.S. alerts, hourly conditions and transparent sources." canonical={new URL("/weather/", Astro.site).toString()}>
   <section class="weather-hero" aria-labelledby="weather-title">
@@ -23,9 +25,19 @@ import "../../styles/weather.css";
     <button id="weather-unit-toggle" class="weather-unit-toggle" type="button">Show °F</button>
   </section>
   <section id="weather-alerts-section" class="weather-section" aria-labelledby="weather-alerts-title" hidden><div class="module-heading"><h2 id="weather-alerts-title">Active alerts</h2><p class="eyebrow">Official warnings</p></div><div id="weather-alerts"></div></section>
+  <section class="weather-section" aria-labelledby="weather-trends-title">
+    <div class="module-heading"><h2 id="weather-trends-title">What the next 24 hours look like</h2><p class="eyebrow">Forecast trends</p></div>
+    <div class="weather-charts">
+      <figure class="weather-chart"><figcaption><strong>Temperature</strong><span id="weather-temp-summary">Loading…</span></figcaption><div id="weather-temp-chart"></div></figure>
+      <figure class="weather-chart"><figcaption><strong>Precipitation chance</strong><span id="weather-chance-summary">Loading…</span></figcaption><div id="weather-chance-chart"></div></figure>
+      <figure class="weather-chart"><figcaption><strong>Expected precipitation</strong><span id="weather-amount-summary">Loading…</span></figcaption><div id="weather-amount-chart"></div></figure>
+    </div>
+    <p class="weather-chart-caveat">Expected precipitation is forecast liquid equivalent, not a radar observation. It may be unavailable where the source does not publish it.</p>
+  </section>
+  <section class="weather-section" aria-labelledby="weather-radar-title"><div class="module-heading"><h2 id="weather-radar-title">Observed U.S. radar</h2><p class="eyebrow">NOAA MRMS · animated</p></div><WeatherRadar compact /></section>
   <section class="weather-section" aria-labelledby="weather-hourly-title"><div class="module-heading"><h2 id="weather-hourly-title">Next 24 hours</h2><p class="eyebrow">Hourly</p></div><div id="weather-hourly" class="weather-hourly" aria-live="polite"></div></section>
   <section class="weather-section" aria-labelledby="weather-daily-title"><div class="module-heading"><h2 id="weather-daily-title">Extended forecast</h2><p class="eyebrow">Daily outlook</p></div><div id="weather-daily" class="weather-daily" aria-live="polite"></div></section>
-  <section class="weather-radar-next" aria-labelledby="weather-radar-title"><div><p class="eyebrow">Phase 4 foundation</p><h2 id="weather-radar-title">Radar infrastructure is next.</h2><p>The edge service already exposes a versioned layer manifest. Observed U.S. radar, warning overlays and the Weather Nerd Dashboard can attach without exposing the Pi.</p></div><a href="/weather-climate/">Weather and climate coverage</a></section>
+  <section class="weather-radar-next" aria-labelledby="weather-nerd-title"><div><p class="eyebrow">Weather Nerd Dashboard</p><h2 id="weather-nerd-title">Go deeper than the daily forecast.</h2><p>Explore the full seven-day series, radar animation, warning geometry, wind, humidity, cloud cover, dew point, pressure and source freshness.</p></div><a href="/weather/nerd/">Open the nerd dashboard →</a></section>
   <footer class="weather-provenance"><p id="weather-source">Weather sources will appear here.</p><p>Approximate location comes from Cloudflare when available. Boho News does not store your IP address for this forecast.</p></footer>
   <script is:inline src="/weather.js" defer></script>
 </BaseLayout>

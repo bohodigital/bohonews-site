@@ -15,6 +15,58 @@
     const meters = value.unit === "m/s" ? Number(value.value) : Number(value.value) * .44704;
     return state.units === "F" ? `${Math.round(meters * 2.23694)} mph` : `${Math.round(meters * 3.6)} km/h`;
   };
+  const amount = (value) => {
+    if (!value || !Number.isFinite(Number(value.value))) return null;
+    const mm = value.unit === "mm" ? Number(value.value) : Number(value.value);
+    return state.units === "F" ? mm / 25.4 : mm;
+  };
+  const svgNode = (tag, attrs = {}) => { const value = document.createElementNS("http://www.w3.org/2000/svg", tag); Object.entries(attrs).forEach(([key, item]) => value.setAttribute(key, String(item))); return value; };
+  function drawChart(rootId, values, options) {
+    const root = el(rootId); clear(root);
+    const width = 720, height = 220, left = 45, right = 14, top = 18, bottom = 35;
+    const usable = values.filter((item) => Number.isFinite(item.value));
+    if (!usable.length) { root.append(node("p", "weather-chart__empty", "This source does not publish this measurement.")); return; }
+    const minRaw = options.zero ? 0 : Math.min(...usable.map((item) => item.value));
+    const maxRaw = Math.max(...usable.map((item) => item.value));
+    const padding = options.zero ? 0 : Math.max(1, (maxRaw - minRaw) * .15);
+    const min = options.zero ? 0 : Math.floor(minRaw - padding);
+    const max = Math.max(min + 1, options.ceiling || 0, Math.ceil(maxRaw + padding));
+    const x = (index) => left + index * (width - left - right) / Math.max(1, values.length - 1);
+    const y = (value) => top + (max - value) * (height - top - bottom) / (max - min);
+    const svg = svgNode("svg", { viewBox: `0 0 ${width} ${height}`, role: "img", "aria-label": options.label, preserveAspectRatio: "none" });
+    const title = svgNode("title"); title.textContent = options.label; svg.append(title);
+    [0, .5, 1].forEach((step) => {
+      const value = max - (max - min) * step; const py = y(value);
+      svg.append(svgNode("line", { x1: left, x2: width - right, y1: py, y2: py, class: "weather-chart__grid" }));
+      const label = svgNode("text", { x: left - 7, y: py + 4, "text-anchor": "end", class: "weather-chart__axis" }); label.textContent = `${Math.round(value * 10) / 10}${options.unit}`; svg.append(label);
+    });
+    values.forEach((item, index) => {
+      if (index % 6 !== 0) return;
+      const label = svgNode("text", { x: x(index), y: height - 9, "text-anchor": index === 0 ? "start" : "middle", class: "weather-chart__axis" }); label.textContent = date(item.time, { hour: "numeric" }); svg.append(label);
+    });
+    if (options.bars) {
+      const barWidth = Math.max(2, (width - left - right) / values.length - 2);
+      values.forEach((item, index) => { if (Number.isFinite(item.value)) svg.append(svgNode("rect", { x: x(index) - barWidth / 2, y: y(item.value), width: barWidth, height: Math.max(1, y(0) - y(item.value)), rx: 2, class: options.className })); });
+    } else {
+      const points = values.map((item, index) => Number.isFinite(item.value) ? `${x(index)},${y(item.value)}` : null).filter(Boolean).join(" ");
+      svg.append(svgNode("polyline", { points, class: options.className }));
+      usable.forEach((item) => svg.append(svgNode("circle", { cx: x(item.index), cy: y(item.value), r: 3, class: `${options.className} weather-chart__point` })));
+    }
+    root.append(svg);
+  }
+  function renderCharts(periods) {
+    const hours = periods.slice(0, 24);
+    const temperature = hours.map((period, index) => ({ index, time: period.startTime, value: Number(period.temperature.value) * (state.units === "F" ? 9 / 5 : 1) + (state.units === "F" ? 32 : 0) }));
+    const chance = hours.map((period, index) => ({ index, time: period.startTime, value: period.precipitationProbability !== null && period.precipitationProbability !== undefined && Number.isFinite(Number(period.precipitationProbability)) ? Number(period.precipitationProbability) : null }));
+    const amounts = hours.map((period, index) => ({ index, time: period.startTime, value: amount(period.precipitationAmount) }));
+    drawChart("weather-temp-chart", temperature, { label: `Hourly temperature in degrees ${state.units}`, unit: `°${state.units}`, className: "weather-chart__temperature" });
+    drawChart("weather-chance-chart", chance, { label: "Hourly probability of precipitation in percent", unit: "%", zero: true, ceiling: 100, bars: true, className: "weather-chart__chance" });
+    drawChart("weather-amount-chart", amounts, { label: `Expected hourly precipitation in ${state.units === "F" ? "inches" : "millimeters"}`, unit: state.units === "F" ? "in" : "mm", zero: true, bars: true, className: "weather-chart__amount" });
+    const temps = temperature.map((item) => item.value).filter(Number.isFinite);
+    el("weather-temp-summary").textContent = `${Math.round(Math.min(...temps))}° to ${Math.round(Math.max(...temps))}°${state.units}`;
+    const chances = chance.map((item) => item.value).filter(Number.isFinite); el("weather-chance-summary").textContent = chances.length ? `Peak ${Math.round(Math.max(...chances))}%` : "Not published";
+    const total = amounts.map((item) => item.value).filter(Number.isFinite).reduce((sum, value) => sum + value, 0); el("weather-amount-summary").textContent = amounts.some((item) => Number.isFinite(item.value)) ? `${total.toFixed(state.units === "F" ? 2 : 1)} ${state.units === "F" ? "in" : "mm"} total` : "Not published";
+  }
   async function get(path) {
     const response = await fetch(path, { headers: { Accept: "application/json" } });
     const payload = await response.json();
@@ -56,17 +108,19 @@
       card.append(node("h3", "", date(period.startTime, { weekday: "long" })), node("p", "weather-day-card__temperature", temp(period.temperature)), node("p", "", period.summary), node("p", "weather-day-card__meta", `${period.precipitationProbability === null ? "Precipitation unavailable" : `${Math.round(period.precipitationProbability)}% precipitation`} · Wind ${speed(period.windSpeed)}`));
       dailyRoot.append(card);
     });
+    renderCharts(forecast.hourly);
     el("weather-source").textContent = forecast.provenance.map((item) => `${item.attribution} · fetched ${date(item.fetchedAt, { dateStyle: "medium", timeStyle: "short" })}`).join("; ");
     el("weather-status").textContent = `Showing ${forecast.location.precision === "approximate" ? "an approximate" : "your selected"} forecast for ${forecast.location.label}.`;
   }
   async function load(location) {
     el("weather-status").textContent = "Loading forecast…";
-    const params = new URLSearchParams({ lat: location.latitude, lon: location.longitude, precision: location.precision || "selected" });
+    const params = new URLSearchParams({ lat: location.latitude, lon: location.longitude, precision: location.precision || "selected", contract: "1.1.1" });
     if (location.countryCode) params.set("country", location.countryCode);
     if (location.timezone) params.set("timezone", location.timezone);
     if (location.label) params.set("label", location.label);
     state.forecast = await get(`${API}/forecast?${params}`);
     render();
+    window.dispatchEvent(new CustomEvent("boho:weather-location", { detail: { ...state.forecast.location, countryCode: location.countryCode || state.forecast.location.countryCode } }));
   }
   el("weather-unit-toggle").addEventListener("click", () => { state.units = state.units === "C" ? "F" : "C"; localStorage.setItem("bohonews-weather-units", state.units); render(); });
   el("weather-location-search").addEventListener("submit", async (event) => {
