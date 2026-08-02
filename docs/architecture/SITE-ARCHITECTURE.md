@@ -28,6 +28,16 @@ Pagefind 1.5.2 is pinned. Supported release builders run it after Astro. Bohopi'
 emits a deterministic local fallback index that preserves working local search.
 No client framework is hydrated.
 
+The weather lane adds one isolated interactive surface at `/weather/`. Static
+HTML remains the baseline; `/weather.js` requests only the same-origin,
+versioned `/api/weather/v1` contract. The undeployed `bohonews-weather-edge`
+Worker serves built assets and handles that API before asset lookup. It uses
+rounded Cloudflare request geolocation, NWS for United States forecasts and
+alerts, and MET Norway for global point forecasts. KV holds last-known-good
+normalized responses, R2 is reserved for immutable radar assets, and D1 is
+reserved for the global gazetteer. The Pi is not a public origin, and provider
+keys never enter browser code.
+
 The global header includes TradingView's free branded Ticker Tape web
 component. The component loads as an ES module from the provider's current
 widget CDN, uses broad market indicators rather than an account watchlist,

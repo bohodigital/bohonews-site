@@ -17,6 +17,8 @@
     "build:fixtures": "BOHONEWS_INCLUDE_FIXTURES=1 npm run build",
     "benchmark:1000": "BOHONEWS_BENCHMARK_1000=1 npm run build",
     "preview": "astro preview",
+    "weather:preview": "npm run build && WRANGLER_LOG_PATH=.wrangler/logs wrangler dev --config wrangler.weather.jsonc --local",
+    "weather:check": "node --test test/weather-edge.test.mjs",
     "content:validate": "node scripts/publishing/validate-content.mjs"
   },
   "dependencies": {
@@ -30,5 +32,8 @@
   },
   "overrides": {
     "sharp": "0.35.3"
+  },
+  "devDependencies": {
+    "wrangler": "^4.118.0"
   }
 }

@@ -7,6 +7,7 @@ dist/
 !.env.example
 coverage/
 *.log
+.wrangler/
 
 # Runtime, private, and generated working material
 runtime/

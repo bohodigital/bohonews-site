@@ -2,7 +2,7 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   X-Frame-Options: DENY
-  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Permissions-Policy: camera=(), microphone=(), geolocation=(self)
   Cross-Origin-Opener-Policy: same-origin
   Content-Security-Policy: default-src 'self'; img-src 'self' data: https:; style-src 'self'; script-src 'self' https://analytics.bohodigitalservices.com https://www.googletagmanager.com https://widgets.tradingview-widget.com; connect-src 'self' https://analytics.bohodigitalservices.com https://www.google-analytics.com https://region1.google-analytics.com https://snowplow-pixel.tradingview.com; frame-src https://widgets.tradingview-widget.com; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
 
