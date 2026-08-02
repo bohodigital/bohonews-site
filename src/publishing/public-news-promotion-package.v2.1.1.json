@@ -3222,6 +3222,136 @@
     {
       "articleType": "data-report",
       "authors": [
+        "Boho News Energy Desk"
+      ],
+      "body": "U.S. commercial crude oil inventories fell by 7.2 million barrels during the week ending July 24 as refineries increased their processing rate, according to the Energy Information Administration’s latest Weekly Petroleum Status Report.\n\nCommercial crude stocks, excluding the Strategic Petroleum Reserve, stood at 404.5 million barrels. EIA said that level was about 6% below the five-year average for this time of year. Crude held in the Strategic Petroleum Reserve declined by 3.8 million barrels to 307.7 million.\n\nRefinery inputs averaged 17.3 million barrels per day, an increase of 271,000 barrels per day from the previous week. Refineries operated at 97.2% of operable capacity, while gasoline production averaged 9.9 million barrels per day and distillate production averaged 5.4 million.\n\nCrude oil imports averaged 5.7 million barrels per day, down 124,000 barrels per day from the previous week. Over the latest four-week period, imports averaged about 5.7 million barrels per day, 7% below the comparable period a year earlier.\n\nMotor gasoline inventories were nearly unchanged at 211.3 million barrels and remained about 7% below their five-year seasonal average. Distillate inventories increased by 1.1 million barrels to 110.6 million but were still about 10% below the five-year average.\n\nPropane and propylene inventories increased by 2.5 million barrels to 102.3 million. EIA said those stocks were 34% above the five-year average for this time of year. Total commercial petroleum inventories declined by 3.7 million barrels during the week.\n\nEIA’s products-supplied measure, which the agency describes as an approximation of petroleum demand, averaged 20.3 million barrels per day over four weeks. That was 2.3% below the same period a year earlier. Gasoline supplied was down 0.3%, while distillate supplied was up 4.7% and jet fuel supplied was up 5.8%.\n\nEnergy prices remained sharply above year-earlier levels. West Texas Intermediate crude was $91.74 per barrel on July 24, up $8.31 from the previous week and $25.36 from a year earlier. The national average retail price for regular gasoline reached $4.096 per gallon on July 27, while diesel averaged $5.313 per gallon.\n\nThe weekly figures are preliminary estimates based primarily on company submissions for the period ending at 7 a.m. on Friday. EIA may revise weekly data as more complete information becomes available, and independent rounding can cause components not to sum exactly to totals.",
+      "bodyBlocks": [
+        {
+          "text": "U.S. commercial crude oil inventories fell by 7.2 million barrels during the week ending July 24 as refineries increased their processing rate, according to the Energy Information Administration’s latest Weekly Petroleum Status Report.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Commercial crude stocks, excluding the Strategic Petroleum Reserve, stood at 404.5 million barrels. EIA said that level was about 6% below the five-year average for this time of year. Crude held in the Strategic Petroleum Reserve declined by 3.8 million barrels to 307.7 million.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Refinery inputs averaged 17.3 million barrels per day, an increase of 271,000 barrels per day from the previous week. Refineries operated at 97.2% of operable capacity, while gasoline production averaged 9.9 million barrels per day and distillate production averaged 5.4 million.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Crude oil imports averaged 5.7 million barrels per day, down 124,000 barrels per day from the previous week. Over the latest four-week period, imports averaged about 5.7 million barrels per day, 7% below the comparable period a year earlier.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Motor gasoline inventories were nearly unchanged at 211.3 million barrels and remained about 7% below their five-year seasonal average. Distillate inventories increased by 1.1 million barrels to 110.6 million but were still about 10% below the five-year average.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Propane and propylene inventories increased by 2.5 million barrels to 102.3 million. EIA said those stocks were 34% above the five-year average for this time of year. Total commercial petroleum inventories declined by 3.7 million barrels during the week.",
+          "type": "paragraph"
+        },
+        {
+          "text": "EIA’s products-supplied measure, which the agency describes as an approximation of petroleum demand, averaged 20.3 million barrels per day over four weeks. That was 2.3% below the same period a year earlier. Gasoline supplied was down 0.3%, while distillate supplied was up 4.7% and jet fuel supplied was up 5.8%.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Energy prices remained sharply above year-earlier levels. West Texas Intermediate crude was $91.74 per barrel on July 24, up $8.31 from the previous week and $25.36 from a year earlier. The national average retail price for regular gasoline reached $4.096 per gallon on July 27, while diesel averaged $5.313 per gallon.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The weekly figures are preliminary estimates based primarily on company submissions for the period ending at 7 a.m. on Friday. EIA may revise weekly data as more complete information becomes available, and independent rounding can cause components not to sum exactly to totals.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/us-crude-inventories-fall-refineries-july-2026/",
+      "citations": [
+        {
+          "id": "source-eia-wpsr-july-29-2026",
+          "publishedAt": "2026-07-29T17:00:00Z",
+          "publisher": "U.S. Energy Information Administration",
+          "title": "Weekly Petroleum Status Report — Week Ending July 24, 2026",
+          "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+        },
+        {
+          "id": "source-eia-wpsr-table4-july-24-2026",
+          "publishedAt": "2026-07-29T14:30:00Z",
+          "publisher": "U.S. Energy Information Administration",
+          "title": "WPSR Table 4 — Stocks of Crude Oil and Petroleum Products",
+          "url": "https://ir.eia.gov/wpsr/table4.csv"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Commercial crude inventories declined by 7.2 million barrels to 404.5 million.",
+        "Refinery inputs averaged 17.3 million barrels per day and utilization reached 97.2%.",
+        "Motor gasoline inventories were nearly unchanged at 211.3 million barrels.",
+        "Distillate inventories rose 1.1 million barrels and propane inventories rose 2.5 million."
+      ],
+      "corrections": [],
+      "dek": "Commercial crude stocks dropped to 404.5 million barrels, while gasoline inventories were nearly flat and propane stocks remained far above their seasonal average.",
+      "desk": "energy-desk",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Energy Information Administration"
+      ],
+      "eventId": "event-eia-weekly-petroleum-status-july-24-2026",
+      "headline": "U.S. crude inventories fell 7.2 million barrels as refineries ran at 97.2% capacity",
+      "id": "article-us-crude-inventories-fall-refineries-july-2026",
+      "leadImage": {
+        "alt": "Chart listing July 24 petroleum stocks: commercial crude 404.5 million barrels, Strategic Petroleum Reserve 307.7 million, gasoline 211.3 million, distillate 110.6 million and propane 102.3 million, with weekly changes.",
+        "caption": "Commercial crude stocks fell by 7.2 million barrels, while distillate and propane inventories increased.",
+        "credit": "Boho News graphic; data: U.S. Energy Information Administration",
+        "height": 900,
+        "rightsId": "media-eia-petroleum-stocks-july-24-2026",
+        "role": "lead",
+        "src": "/media/articles/us-crude-inventories-fall-refineries-july-2026/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-02T18:19:07.128Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260802t181342z-3898d4265701-be7e4838f9cb",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "EIA reported commercial crude stocks at 404.5 million barrels and refinery utilization at 97.2% for the week ending July 24, 2026.",
+        "index": true,
+        "title": "U.S. crude inventories fell 7.2 million barrels"
+      },
+      "section": "business",
+      "slug": "us-crude-inventories-fall-refineries-july-2026",
+      "social": {
+        "description": "EIA reported refinery utilization at 97.2% as commercial crude inventories declined.",
+        "image": "/media/articles/us-crude-inventories-fall-refineries-july-2026/open-graph.webp",
+        "title": "U.S. crude stocks fell 7.2 million barrels"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "crude oil inventories",
+        "refinery utilization",
+        "gasoline inventories",
+        "diesel",
+        "Energy Information Administration"
+      ],
+      "uncertainty": [
+        "Weekly petroleum figures are preliminary estimates and may be revised.",
+        "Products supplied is an approximation of petroleum demand rather than a direct consumption count.",
+        "Independent rounding can cause reported components not to sum exactly to totals."
+      ],
+      "updatedAt": "2026-08-02T18:19:07.128Z"
+    },
+    {
+      "articleType": "data-report",
+      "authors": [
         "Boho News Staff"
       ],
       "body": "The U.S. economy grew at a 1.5 percent annual rate in the second quarter of 2026, slowing from a 2.1 percent pace in the first quarter, according to the Bureau of Economic Analysis’s advance estimate released Thursday.\n\nThe headline slowdown masked a sharper rebound in household demand. Real personal consumption expenditures increased at a 3.2 percent annual rate after rising 0.5 percent in the first quarter. Spending on goods rose 5.2 percent, while spending on services increased 2.2 percent.\n\nFixed investment also remained strong, increasing 7.0 percent. Equipment investment rose 15.2 percent and investment in intellectual property products increased 8.8 percent. Nonresidential structures fell 5.0 percent, while residential investment increased 1.5 percent after declining in the first quarter.\n\nGovernment consumption expenditures and gross investment fell 0.8 percent after rising 4.4 percent in the first quarter. Federal spending declined 4.1 percent, driven by a 12.9 percent drop in nondefense spending, while state and local spending increased 1.1 percent.\n\nBEA said the decline in federal nondefense spending primarily reflected sales of crude oil from the Strategic Petroleum Reserve. In the national accounts, those sales reduce government consumption expenditures, but the oil is reflected elsewhere in GDP, so the transactions do not directly reduce total GDP.\n\nExports increased 4.5 percent, while imports rose 11.5 percent. Imports are subtracted in the calculation of GDP, so faster import growth weighed on the headline rate even as it reflected continued U.S. demand for foreign goods.\n\nPrice growth accelerated during the quarter. The price index for gross domestic purchases increased 5.7 percent, compared with 3.6 percent in the first quarter. The personal consumption expenditures price index increased 5.1 percent, while the index excluding food and energy rose 3.4 percent.\n\nOne measure of underlying private demand looked stronger than the headline GDP figure. Real final sales to private domestic purchasers, which combines consumer spending and private fixed investment, increased 3.9 percent after rising 1.7 percent in the first quarter.\n\nThe figures are an advance estimate, not a final count. Quarterly growth rates are seasonally adjusted and expressed at annual rates, meaning the 1.5 percent figure describes the quarter’s pace if it continued for a full year. BEA is scheduled to publish its second estimate, along with an initial estimate of corporate profits, on August 26.\n\nThe report therefore shows slower overall output growth alongside firmer private domestic demand and faster prices. It does not, by itself, establish whether the economy is entering or avoiding a recession; that judgment requires a broader set of employment, income, production and sales data.",
@@ -4440,22 +4570,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-02T00:37:26Z",
+  "generatedAt": "2026-08-02T18:19:14Z",
   "inputHashes": {
-    "approvals": "652774a2ecf9e823382813e6d684ceeed9acd7863b7439351bdf3051d65fc3a3",
-    "articles": "fbaab48584c917bbae75bfb1334f5225d59402900838084a70bf775879a98bed",
-    "claims": "794ce3898235d5b1ebde1c5e96dbba8a474345507864e22dc4158c6099ca5dfb",
+    "approvals": "3a93fc1048602ec84dab7b4c2a2fe4f6f74f7a64d6cca0e8ae9b65b218fd598b",
+    "articles": "fed961039a00fdcfb1fbd2d42798f4c9789e0ae27fb0d8c2df660261c21d35a3",
+    "claims": "93c6f418012ebe3bc719e65e66f738ce6c0432e8e317c75792e5e26608a7f959",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "2ead7c0e47b55d8c035e3c105399cdbbc46abda1c30d869b74bc7d36f3b9b24f",
-    "mediaRights": "9759d37f66b9a5b3366eef9803a8a5968eb52c6da10d20b547e8d0120eb91b64",
-    "publicationIntents": "24ac3eed765d8932901fd634e8d19f4e1ea04962d10653852b060b7bb0529e18",
-    "releaseRecords": "c82a5c0d6034ecd05cafa0481a3daa6109921fb21341af926cb6c3a37fcafc94",
-    "sourceItems": "24dbf75fea481c3fb42405149e54aa36a1f9896fff47fd1088ff2f35aa087cae"
+    "events": "6e16f4811ef76c03d6a79bdf7608a1c2273e8834c8cf2d14b87ed3881b24437c",
+    "mediaRights": "eb52143d4f145a7447129dc7268729492feb4328d731681b00dbce9f53f2e0d2",
+    "publicationIntents": "82747941f9c82fd4b5bd251aaf0f1a63f3dd1e563b649c3614bbdcb94a55d56f",
+    "releaseRecords": "f0df5c56507d3ed5298fe333423f78a63491b29d1a360594e971d03490f4ad32",
+    "sourceItems": "b2a274be50fb5155f0e160aa7a0b20168c4e4a37b8f347172f8a35f4345cb40f"
   },
   "inventory": {
-    "articleCount": 17,
-    "mediaCount": 26,
-    "routeCount": 17
+    "articleCount": 18,
+    "mediaCount": 27,
+    "routeCount": 18
   },
   "mediaRights": [
     {
@@ -5199,6 +5329,81 @@
       "rightsBasis": "Work of the United States government; official document render.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.govinfo.gov/content/pkg/FR-2026-07-06/pdf/2026-13580.pdf"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Chart listing July 24 petroleum stocks: commercial crude 404.5 million barrels, Strategic Petroleum Reserve 307.7 million, gasoline 211.3 million, distillate 110.6 million and propane 102.3 million, with weekly changes.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic; data: U.S. Energy Information Administration",
+      "caption": "Commercial crude stocks fell by 7.2 million barrels, while distillate and propane inventories increased.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Summarizes major petroleum stock levels, weekly changes and refinery utilization."
+      },
+      "creator": "Boho News Energy Desk",
+      "derivatives": [
+        {
+          "hash": "9923808c816a783ed4c023847c795c48c22cc8e0f148815f7246314394df45b4",
+          "height": 900,
+          "publicPath": "/media/articles/us-crude-inventories-fall-refineries-july-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "79241785080c405bd02435b83032e01750c85371be803c9ba6251f3820a63fb5",
+          "height": 600,
+          "publicPath": "/media/articles/us-crude-inventories-fall-refineries-july-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6955692d7ce74d16314f72ecc57904477401e899169e990dd65637cff69e7b6f",
+          "height": 1200,
+          "publicPath": "/media/articles/us-crude-inventories-fall-refineries-july-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1247473bc845450108ac872e2ef47e2ca093b6908b872545e3150147464933b8",
+          "height": 900,
+          "publicPath": "/media/articles/us-crude-inventories-fall-refineries-july-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "12d84eabc9ce1e774fe72dc27866c0b55a6775fea1c9f7a6ab15e50365cf1c2f",
+          "height": 720,
+          "publicPath": "/media/articles/us-crude-inventories-fall-refineries-july-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7b3c9853ec4229d9a9c97abb5ccca7638f6c17796145029fb74d74dbd7228a2f",
+          "height": 630,
+          "publicPath": "/media/articles/us-crude-inventories-fall-refineries-july-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f0e6a7150ee9727f3c934493927a081327ac2b892d0ff5a3deaac4393f1b24fb",
+          "height": 480,
+          "publicPath": "/media/articles/us-crude-inventories-fall-refineries-july-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-eia-petroleum-stocks-july-24-2026",
+      "illustrationLabel": null,
+      "license": "Boho News owned work",
+      "originalFileHash": "1b96a8f37507829587fa546c9d778d7c72c5ef9cd8893914f02d354b22651e2d",
+      "restrictions": [
+        "Values must remain tied to the EIA report for the week ending July 24, 2026.",
+        "The chart must not imply that weekly stock changes establish a long-term trend."
+      ],
+      "retrievedAt": "2026-08-02T17:03:39Z",
+      "rightsBasis": "Original newsroom information graphic created from public-domain U.S. government statistics.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
     },
     {
       "aiGenerated": false,
@@ -6385,7 +6590,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "cab7b7f4ae7d712b67033c78484da67180eaf84204f5af05c84438a637ad8df0",
+  "packageDigest": "016857927c03c54d928639ac1220820e81477c9698bd6e309778e99f41e51c13",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -6648,6 +6853,27 @@
       "providerActivatedAt": "2026-08-02T00:36:47.012292Z",
       "recordHash": "e7ea62e06215a95461d9b0b6fe38729471999b7998fb7b9f8e082e7d20c7b427",
       "releaseId": "release-pb-20260802t002901z-35d7b7ee635a-6d1935f9895c",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://0bbc4a40.bohonews.pages.dev/",
+      "activationEvidenceHash": "78df210a9c88eee8c6a41dec868bb04b6034d272e6772b4015702f181a90134b",
+      "canonicalFirstPublicAt": "2026-08-02T18:19:07.128Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/us-crude-inventories-fall-refineries-july-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-us-crude-inventories-fall-refineries-july-2026"
+      ],
+      "previousVerifiedDeploymentReference": "263672ed02ec640d701694076472d214ba593fcc21eb8c8f7865477ed92894a8",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-02T18:18:11.555519Z",
+      "recordHash": "550656d3b4369d865040a1f7fc1b65c3577678687ab343b2152b6710eb437ae1",
+      "releaseId": "release-pb-20260802t181342z-3898d4265701-be7e4838f9cb",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }

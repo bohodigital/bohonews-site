@@ -1,9 +1,9 @@
 {
-  "articleCount": 17,
+  "articleCount": 18,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-02T00:37:26Z",
-  "mediaCount": 26,
-  "packageDigest": "cab7b7f4ae7d712b67033c78484da67180eaf84204f5af05c84438a637ad8df0",
+  "generatedAt": "2026-08-02T18:19:14Z",
+  "mediaCount": 27,
+  "packageDigest": "016857927c03c54d928639ac1220820e81477c9698bd6e309778e99f41e51c13",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -268,6 +268,27 @@
       "releaseId": "release-pb-20260802t002901z-35d7b7ee635a-6d1935f9895c",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://0bbc4a40.bohonews.pages.dev/",
+      "activationEvidenceHash": "78df210a9c88eee8c6a41dec868bb04b6034d272e6772b4015702f181a90134b",
+      "canonicalFirstPublicAt": "2026-08-02T18:19:07.128Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/us-crude-inventories-fall-refineries-july-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-us-crude-inventories-fall-refineries-july-2026"
+      ],
+      "previousVerifiedDeploymentReference": "263672ed02ec640d701694076472d214ba593fcc21eb8c8f7865477ed92894a8",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-02T18:18:11.555519Z",
+      "recordHash": "550656d3b4369d865040a1f7fc1b65c3577678687ab343b2152b6710eb437ae1",
+      "releaseId": "release-pb-20260802t181342z-3898d4265701-be7e4838f9cb",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -283,6 +304,7 @@
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
     "/articles/trump-section-301-tariffs-60-economies/",
     "/articles/trump-smithsonian-warning-signs-executive-order/",
+    "/articles/us-crude-inventories-fall-refineries-july-2026/",
     "/articles/us-gdp-growth-slows-q2-2026/",
     "/articles/us-gdp-growth-slows-second-quarter-2026-advance-estimate/",
     "/articles/what-house-iran-war-powers-vote-can-do/",
