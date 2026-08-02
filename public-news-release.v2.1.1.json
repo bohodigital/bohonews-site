@@ -1,9 +1,9 @@
 {
-  "articleCount": 14,
+  "articleCount": 15,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-02T00:13:00Z",
-  "mediaCount": 20,
-  "packageDigest": "6e26612c4a9e40cf239f6349ac1502b0b478abacf227472b1a909d1b15119191",
+  "generatedAt": "2026-08-02T00:23:36Z",
+  "mediaCount": 21,
+  "packageDigest": "fe3cb780eca8c537fe768d69e9004ae083c1dedf675b0d8f0948095d27000387",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -224,6 +224,27 @@
       "releaseId": "release-pb-20260802t000845z-18b8be9170ee-54683766cc12",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://09f54765.bohonews.pages.dev/",
+      "activationEvidenceHash": "35062eaa47e344dbb1823205cedf7564298d08c96862fa072fc266893e89cede",
+      "canonicalFirstPublicAt": "2026-08-02T00:23:31.615Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/work-training-americans-born-1980-1984/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-work-training-americans-born-1980-1984"
+      ],
+      "previousVerifiedDeploymentReference": "d75ce552f340a25f287e59b46cd0149dc4e1fb19c9e99c222d67da76c08de4c8",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-02T00:22:56.528421Z",
+      "recordHash": "75fb2a3d3aa4c68a63795531f5c9403da79ab7ebc9746578320db3423edb8e51",
+      "releaseId": "release-pb-20260802t001930z-0c4496f57105-db5c8568d928",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -241,7 +262,8 @@
     "/articles/us-gdp-growth-slows-second-quarter-2026-advance-estimate/",
     "/articles/what-house-iran-war-powers-vote-can-do/",
     "/articles/what-is-section-301-trade-act/",
-    "/articles/who-controls-smithsonian-board-regents/"
+    "/articles/who-controls-smithsonian-board-regents/",
+    "/articles/work-training-americans-born-1980-1984/"
   ],
   "schemaVersion": "2.1.1"
 }
