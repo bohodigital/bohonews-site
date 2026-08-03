@@ -7,6 +7,7 @@ const page = await readFile(new URL("../src/pages/weather/index.astro", import.m
 const browser = await readFile(new URL("../public/weather.js", import.meta.url), "utf8");
 const nerd = await readFile(new URL("../public/weather-nerd.js", import.meta.url), "utf8");
 const radar = await readFile(new URL("../src/scripts/weather-radar.ts", import.meta.url), "utf8");
+const radarComponent = await readFile(new URL("../src/components/WeatherRadar.astro", import.meta.url), "utf8");
 const wrangler = await readFile(new URL("../wrangler.weather.jsonc", import.meta.url), "utf8");
 
 test("weather edge exposes a privacy-bounded versioned API", () => {
@@ -33,6 +34,16 @@ test("phase 4 radar is same-origin, timestamped and source-labeled", () => {
   assert.match(worker, /USGS The National Map/);
   assert.match(radar, /\/api\/weather\/v1/);
   assert.doesNotMatch(radar, /opengeo\.ncep|basemap\.nationalmap/);
+});
+test("forecast precipitation uses an official same-origin NOAA layer and remains distinct from radar", () => {
+  assert.match(worker, /wpc_qpf/);
+  assert.match(worker, /forecast\/precipitation\/manifest/);
+  assert.match(worker, /forecast\/precipitation\/tiles/);
+  assert.match(worker, /This is not observed radar/);
+  assert.match(radarComponent, /Observed radar/);
+  assert.match(radarComponent, /Forecast precipitation/);
+  assert.doesNotMatch(radar, /5\.7/);
+  assert.doesNotMatch(radar, /mapservices\.weather\.noaa\.gov/);
 });
 test("phase 5 graphs distinguish forecast probability and expected amount", () => {
   assert.match(browser, /weather-temp-chart/);

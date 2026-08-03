@@ -1,9 +1,16 @@
 const API = "/api/weather/v1";
-const VERSION = "1.1.1";
+const VERSION = "1.2.0";
 const USER_AGENT = "BohoNewsWeather/0.1 (+https://bohonews.com/contact/)";
 const RADAR_CAPABILITIES = "https://opengeo.ncep.noaa.gov/geoserver/conus/conus_bref_qcd/ows?request=GetCapabilities&service=WMS&version=1.3.0";
 const RADAR_WMS = "https://opengeo.ncep.noaa.gov/geoserver/conus/conus_bref_qcd/ows";
 const USGS_TILES = "https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile";
+const WPC_QPF = "https://mapservices.weather.noaa.gov/vector/rest/services/precip/wpc_qpf/MapServer/export";
+const WPC_QPF_FRAMES = [
+  ["h00-06", 13, 0, 6], ["h06-12", 14, 6, 12], ["h12-18", 15, 12, 18], ["h18-24", 16, 18, 24],
+  ["h24-30", 17, 24, 30], ["h30-36", 18, 30, 36], ["h36-42", 19, 36, 42], ["h42-48", 20, 42, 48],
+  ["h48-54", 21, 48, 54], ["h54-60", 22, 54, 60], ["h60-66", 23, 60, 66], ["h66-72", 24, 66, 72],
+  ["h72-78", 25, 72, 78]
+].map(([id, layer, startHour, endHour]) => ({ id, layer, startHour, endHour, label: `${startHour}–${endHour} hours` }));
 const DEFAULT_LOCATION = { latitude: 41.9, longitude: -87.65, city: "Chicago", region: "Illinois", regionCode: "IL", countryCode: "US", timezone: "America/Chicago", precision: "approximate" };
 const PLACES = [
   ["Chicago", "Illinois", "US", 41.8781, -87.6298, "America/Chicago"],
@@ -213,6 +220,19 @@ async function radarManifest(request, ctx) {
   ctx.waitUntil(caches.default.put(key, response.clone()));
   return response;
 }
+function forecastPrecipitationManifest() {
+  return {
+    schemaVersion: VERSION,
+    kind: "forecast-precipitation",
+    coverage: "CONUS",
+    product: "WPC quantitative precipitation forecast",
+    frames: WPC_QPF_FRAMES.map(({ id, startHour, endHour, label }) => ({ id, startHour, endHour, label })),
+    tileTemplate: `${API}/forecast/precipitation/tiles/{frame}/{z}/{x}/{y}.png`,
+    attribution: "NOAA / National Weather Service Weather Prediction Center",
+    sourceUrl: "https://www.wpc.ncep.noaa.gov/qpf/qpf2.shtml",
+    interpretation: "Forecast liquid-equivalent precipitation accumulated within each labeled period. This is not observed radar."
+  };
+}
 async function proxyTile(request, ctx, upstreamUrl, cacheSeconds, attribution) {
   const cachedTile = await caches.default.match(request);
   if (cachedTile) return cachedTile;
@@ -233,6 +253,17 @@ async function radarTile(request, ctx, match) {
   const params = new URLSearchParams({ service: "WMS", version: "1.1.1", request: "GetMap", layers: "conus_bref_qcd", styles: "radar_reflectivity", bbox: tileBounds(z, x, y), width: "256", height: "256", srs: "EPSG:3857", format: "image/png", transparent: "true", time: new Date(time).toISOString() });
   return proxyTile(request, ctx, `${RADAR_WMS}?${params}`, 3600, "NOAA / National Weather Service MRMS");
 }
+async function forecastPrecipitationTile(request, ctx, match) {
+  const frame = WPC_QPF_FRAMES.find((item) => item.id === match[1]);
+  const z = Number(match[2]); const x = Number(match[3]); const y = Number(match[4]);
+  if (!frame) return problem(404, "forecast_frame_not_found", "Forecast precipitation frame is unavailable");
+  if (![z, x, y].every(Number.isInteger) || z < 0 || z > 12 || x < 0 || y < 0 || x >= 2 ** z || y >= 2 ** z) return problem(400, "invalid_tile", "Forecast tile coordinates are invalid");
+  const params = new URLSearchParams({
+    bbox: tileBounds(z, x, y), bboxSR: "3857", imageSR: "3857", size: "256,256", format: "png32",
+    transparent: "true", f: "image", layers: `show:${frame.layer}`
+  });
+  return proxyTile(request, ctx, `${WPC_QPF}?${params}`, 21600, "NOAA / NWS Weather Prediction Center QPF");
+}
 async function baseTile(request, ctx, match) {
   const z = Number(match[1]); const x = Number(match[2]); const y = Number(match[3]);
   if (![z, x, y].every(Number.isInteger) || z < 0 || z > 16 || x < 0 || y < 0 || x >= 2 ** z || y >= 2 ** z) return problem(400, "invalid_tile", "Base-map tile coordinates are invalid");
@@ -247,10 +278,13 @@ async function handleApi(request, env, ctx) {
   const local = context(request);
   if (url.pathname === `${API}/health`) return json({ schemaVersion: VERSION, status: "ok", service: "bohonews-weather-edge", bindings: { kv: Boolean(env.WEATHER_CACHE), r2: Boolean(env.WEATHER_ASSETS), d1: Boolean(env.WEATHER_LOCATIONS) } });
   if (url.pathname === `${API}/context`) return json({ schemaVersion: VERSION, location: local, privacy: { ipStored: false, coordinatesRounded: true, method: request.cf ? "cloudflare-approximate" : "local-default" } });
-  if (url.pathname === `${API}/layers`) return json({ schemaVersion: VERSION, layers: [{ id: "forecast", kind: "forecast", coverage: "global", status: "available" }, { id: "alerts", kind: "observed-alerts", coverage: "US", status: "available" }, { id: "radar", kind: "observed-radar", coverage: "CONUS", status: "available" }] }, 200, "public, max-age=300");
+  if (url.pathname === `${API}/layers`) return json({ schemaVersion: VERSION, layers: [{ id: "forecast", kind: "forecast", coverage: "global", status: "available" }, { id: "alerts", kind: "observed-alerts", coverage: "US", status: "available" }, { id: "radar", kind: "observed-radar", coverage: "CONUS", status: "available" }, { id: "forecast-precipitation", kind: "forecast-precipitation", coverage: "CONUS", status: "available" }] }, 200, "public, max-age=300");
   if (url.pathname === `${API}/radar/manifest`) return radarManifest(request, ctx);
+  if (url.pathname === `${API}/forecast/precipitation/manifest`) return json(forecastPrecipitationManifest(), 200, "public, max-age=21600, stale-while-revalidate=43200");
   const radarMatch = url.pathname.match(new RegExp(`^${API}/radar/tiles/(\\d+)/(\\d+)/(\\d+)\\.png$`));
   if (radarMatch) return radarTile(request, ctx, radarMatch);
+  const forecastPrecipitationMatch = url.pathname.match(new RegExp(`^${API}/forecast/precipitation/tiles/([a-z0-9-]+)/(\\d+)/(\\d+)/(\\d+)\\.png$`));
+  if (forecastPrecipitationMatch) return forecastPrecipitationTile(request, ctx, forecastPrecipitationMatch);
   const baseMatch = url.pathname.match(new RegExp(`^${API}/map/base/(\\d+)/(\\d+)/(\\d+)$`));
   if (baseMatch) return baseTile(request, ctx, baseMatch);
   if (url.pathname === `${API}/warnings`) {

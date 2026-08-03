@@ -114,7 +114,7 @@
   }
   async function load(location) {
     el("weather-status").textContent = "Loading forecast…";
-    const params = new URLSearchParams({ lat: location.latitude, lon: location.longitude, precision: location.precision || "selected", contract: "1.1.1" });
+    const params = new URLSearchParams({ lat: location.latitude, lon: location.longitude, precision: location.precision || "selected", contract: "1.2.0" });
     if (location.countryCode) params.set("country", location.countryCode);
     if (location.timezone) params.set("timezone", location.timezone);
     if (location.label) params.set("label", location.label);

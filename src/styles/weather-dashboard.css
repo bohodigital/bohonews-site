@@ -15,12 +15,16 @@
 .weather-radar{border:1px solid var(--border);position:relative}
 .weather-radar__map{background:#c7d2d9;height:min(65vh,42rem);min-height:28rem}
 .weather-radar--compact .weather-radar__map{height:min(58vh,34rem);min-height:24rem}
+.weather-radar__modes{background:var(--surface-raised);border-bottom:1px solid var(--border);display:flex;gap:.35rem;padding:.55rem .75rem}
+.weather-radar__modes button{background:transparent;border:1px solid var(--border-strong);color:var(--text);cursor:pointer;font:inherit;font-size:.69rem;font-weight:850;padding:.55rem .75rem;text-transform:uppercase}
+.weather-radar__modes button[aria-pressed="true"]{background:var(--text);color:var(--surface)}
 .weather-radar__toolbar{align-items:center;background:var(--surface);display:grid;gap:1rem;grid-template-columns:auto minmax(12rem,1fr) auto auto;padding:.75rem}
 .weather-radar__toolbar button{background:var(--text);border:0;color:var(--surface);cursor:pointer;font:inherit;font-size:.75rem;font-weight:800;padding:.65rem .85rem}
 .weather-radar__toolbar label{align-items:center;display:flex;font-size:.72rem;font-weight:750;gap:.55rem}
+.weather-radar__toolbar .weather-radar__toggle[hidden]{display:none}
 .weather-radar__toolbar input[type=range]{accent-color:var(--accent);width:100%}
 .weather-radar__toolbar time{font-family:var(--mono);font-size:.68rem}
-.weather-radar__legend{align-items:center;background:rgb(255 255 255/.9);bottom:5.8rem;color:#1c2328;display:flex;font-size:.62rem;gap:.4rem;left:1rem;padding:.35rem .5rem;position:absolute;z-index:2}
+.weather-radar__legend{align-items:center;background:rgb(255 255 255/.9);bottom:9.1rem;color:#1c2328;display:flex;font-size:.62rem;gap:.4rem;left:1rem;padding:.35rem .5rem;position:absolute;z-index:2}
 .weather-radar__legend i{background:linear-gradient(90deg,#68df42,#f9eb44,#f7941d,#ec2c26,#d31fd8);display:block;height:.55rem;width:8rem}
 .weather-radar__note{border-top:1px solid var(--border);color:var(--text-muted);font-size:.7rem;margin:0;padding:.6rem .75rem}
 .leaflet-container:focus-visible{outline:.25rem solid var(--accent);outline-offset:-.25rem}
@@ -83,7 +87,7 @@
   .weather-radar__toolbar{grid-template-columns:1fr}
   .weather-radar__toolbar time{grid-row:2}
   .weather-radar__toggle{grid-row:3}
-  .weather-radar__legend{bottom:10.5rem}
+  .weather-radar__legend{bottom:13.8rem}
   .nerd-kpis{grid-template-columns:1fr}
   .nerd-kpi{border-right:1px solid var(--border);border-bottom:0}
   .nerd-kpi:last-child{border-bottom:1px solid var(--border)}

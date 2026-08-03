@@ -77,7 +77,7 @@
 
   async function load(location) {
     el("nerd-status").textContent = "Loading forecast diagnostics…"; el("nerd-kpis").setAttribute("aria-busy", "true");
-    const params = new URLSearchParams({ lat: location.latitude, lon: location.longitude, precision: location.precision || "selected", contract: "1.1.1" }); if (location.countryCode) params.set("country", location.countryCode); if (location.label) params.set("label", location.label);
+    const params = new URLSearchParams({ lat: location.latitude, lon: location.longitude, precision: location.precision || "selected", contract: "1.2.0" }); if (location.countryCode) params.set("country", location.countryCode); if (location.label) params.set("label", location.label);
     try { state.forecast = await get(`${API}/forecast?${params}`); state.cursor = 0; render(); } catch (error) { el("nerd-status").textContent = error instanceof Error ? error.message : "Forecast diagnostics are temporarily unavailable."; el("nerd-kpis").setAttribute("aria-busy", "false"); }
   }
   el("nerd-time-slider").addEventListener("input", (event) => { state.cursor = Number(event.currentTarget.value); renderCursor(); });

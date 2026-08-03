@@ -3,6 +3,9 @@ import * as L from "leaflet";
 const API = "/api/weather/v1";
 type Location = { latitude: number; longitude: number; label?: string; countryCode?: string | null };
 type RadarManifest = { frames: string[]; tileTemplate: string; attribution: string };
+type ForecastFrame = { id: string; startHour: number; endHour: number; label: string };
+type ForecastManifest = { frames: ForecastFrame[]; tileTemplate: string; attribution: string; interpretation: string };
+type Mode = "observed" | "forecast";
 
 async function json<T>(url: string): Promise<T> {
   const response = await fetch(url, { headers: { Accept: "application/json" } });
@@ -18,20 +21,30 @@ export async function initWeatherRadar(root: HTMLElement) {
   const time = root.querySelector<HTMLTimeElement>("[data-radar-time]");
   const note = root.querySelector<HTMLElement>("[data-radar-note]");
   const alerts = root.querySelector<HTMLInputElement>("[data-radar-alerts]");
-  if (!mapNode || !slider || !play || !time || !note || !alerts) return;
+  const modeButtons = [...root.querySelectorAll<HTMLButtonElement>("[data-radar-mode]")];
+  const legend = root.querySelector<HTMLElement>("[data-radar-legend]");
+  const legendLow = root.querySelector<HTMLElement>("[data-radar-legend-low]");
+  const legendHigh = root.querySelector<HTMLElement>("[data-radar-legend-high]");
+  if (!mapNode || !slider || !play || !time || !note || !alerts || modeButtons.length !== 2 || !legend || !legendLow || !legendHigh) return;
   const frameSlider = slider;
   const playButton = play;
   const frameTime = time;
   const statusNote = note;
+  const warningToggle = alerts;
+  const mapLegend = legend;
+  const mapLegendLow = legendLow;
+  const mapLegendHigh = legendHigh;
 
   let location: Location = { latitude: 41.9, longitude: -87.65, countryCode: "US" };
   let manifest: RadarManifest | null = null;
-  let radarLayer: L.TileLayer | null = null;
+  let forecastManifest: ForecastManifest | null = null;
+  let weatherLayer: L.TileLayer | null = null;
+  let mode: Mode = "observed";
   let index = 0;
   let timer = 0;
   const map = L.map(mapNode, { minZoom: 2, maxZoom: 12, zoomControl: true, attributionControl: true, preferCanvas: true }).setView(
     [location.latitude, location.longitude],
-    root.classList.contains("weather-radar--compact") ? 5.7 : 5
+    root.classList.contains("weather-radar--compact") ? 6 : 5
   );
   L.tileLayer(`${API}/map/base/{z}/{x}/{y}`, { attribution: "USGS The National Map", maxZoom: 16 }).addTo(map);
   const warningLayer = L.geoJSON(undefined, {
@@ -43,21 +56,61 @@ export async function initWeatherRadar(root: HTMLElement) {
     })
   }).addTo(map);
 
-  function tile(frame: string) { return manifest!.tileTemplate.replace("{time}", encodeURIComponent(frame)); }
-  function renderFrame(next: number) {
-    if (!manifest?.frames.length || !radarLayer) return;
-    index = Math.max(0, Math.min(next, manifest.frames.length - 1));
-    frameSlider.value = String(index);
-    const frame = manifest.frames[index];
-    radarLayer.setUrl(tile(frame), false);
-    frameTime.dateTime = frame;
-    frameTime.textContent = new Intl.DateTimeFormat(undefined, { weekday: "short", hour: "numeric", minute: "2-digit", timeZoneName: "short" }).format(new Date(frame));
+  function frames() { return mode === "observed" ? (manifest?.frames || []) : (forecastManifest?.frames || []); }
+  function hasConusCoverage() { return location.latitude >= 20 && location.latitude <= 55 && location.longitude >= -130 && location.longitude <= -60; }
+  function availableNote() {
+    return mode === "observed"
+      ? "Observed NOAA MRMS reflectivity. Choose forecast precipitation to look ahead."
+      : forecastManifest?.interpretation || "Official NOAA forecast precipitation. This is not observed radar.";
   }
-  function stop() { window.clearInterval(timer); timer = 0; playButton.textContent = "Play radar"; playButton.setAttribute("aria-pressed", "false"); }
+  function tile(frame: string | ForecastFrame) {
+    return mode === "observed"
+      ? manifest!.tileTemplate.replace("{time}", encodeURIComponent(String(frame)))
+      : forecastManifest!.tileTemplate.replace("{frame}", (frame as ForecastFrame).id);
+  }
+  function layerAttribution() { return mode === "observed" ? manifest!.attribution : forecastManifest!.attribution; }
+  function installLayer() {
+    if (weatherLayer) weatherLayer.removeFrom(map);
+    const items = frames();
+    if (!items.length) return;
+    weatherLayer = L.tileLayer(tile(items[index]), { attribution: layerAttribution(), maxZoom: mode === "observed" ? 15 : 12, opacity: mode === "observed" ? .72 : .68, updateWhenIdle: false });
+    if (hasConusCoverage()) weatherLayer.addTo(map);
+  }
+  function renderFrame(next: number) {
+    const items = frames();
+    if (!items.length || !weatherLayer) return;
+    index = Math.max(0, Math.min(next, items.length - 1));
+    frameSlider.value = String(index);
+    const frame = items[index];
+    weatherLayer.setUrl(tile(frame), false);
+    if (mode === "observed") {
+      frameTime.dateTime = String(frame);
+      frameTime.textContent = new Intl.DateTimeFormat(undefined, { weekday: "short", hour: "numeric", minute: "2-digit", timeZoneName: "short" }).format(new Date(String(frame)));
+    } else {
+      frameTime.removeAttribute("datetime");
+      frameTime.textContent = `Forecast ${(frame as ForecastFrame).label}`;
+    }
+  }
+  function stop() { window.clearInterval(timer); timer = 0; playButton.textContent = mode === "observed" ? "Play radar" : "Play forecast"; playButton.setAttribute("aria-pressed", "false"); }
   function togglePlay() {
     if (timer) return stop();
-    playButton.textContent = "Pause radar"; playButton.setAttribute("aria-pressed", "true");
-    timer = window.setInterval(() => renderFrame(index >= (manifest?.frames.length || 1) - 1 ? 0 : index + 1), 650);
+    playButton.textContent = mode === "observed" ? "Pause radar" : "Pause forecast"; playButton.setAttribute("aria-pressed", "true");
+    timer = window.setInterval(() => renderFrame(index >= frames().length - 1 ? 0 : index + 1), mode === "observed" ? 650 : 950);
+  }
+  function setMode(next: Mode) {
+    if (next === mode) return;
+    mode = next; stop(); index = mode === "observed" ? Math.max(0, frames().length - 1) : 0;
+    frameSlider.max = String(Math.max(0, frames().length - 1));
+    modeButtons.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.radarMode === mode)));
+    warningToggle.closest("label")?.toggleAttribute("hidden", mode === "forecast");
+    if (mode === "observed") {
+      mapLegend.setAttribute("aria-label", "Radar reflectivity legend"); mapLegendLow.textContent = "Light"; mapLegendHigh.textContent = "Intense";
+      statusNote.textContent = availableNote();
+    } else {
+      mapLegend.setAttribute("aria-label", "Forecast precipitation amount legend"); mapLegendLow.textContent = "Lower"; mapLegendHigh.textContent = "Higher";
+      statusNote.textContent = availableNote();
+    }
+    installLayer(); renderFrame(index);
   }
   async function loadWarnings() {
     try {
@@ -71,29 +124,33 @@ export async function initWeatherRadar(root: HTMLElement) {
   }
   function applyLocation(next: Location) {
     location = next;
-    map.flyTo([next.latitude, next.longitude], next.countryCode === "US" ? 5.7 : 4, { duration: .7 });
-    const inConus = next.latitude >= 20 && next.latitude <= 55 && next.longitude >= -130 && next.longitude <= -60;
-    if (radarLayer) {
-      if (inConus && !map.hasLayer(radarLayer)) radarLayer.addTo(map);
-      if (!inConus && map.hasLayer(radarLayer)) radarLayer.removeFrom(map);
+    map.flyTo([next.latitude, next.longitude], next.countryCode === "US" ? 6 : 4, { duration: .7 });
+    const inConus = hasConusCoverage();
+    if (weatherLayer) {
+      if (inConus && !map.hasLayer(weatherLayer)) weatherLayer.addTo(map);
+      if (!inConus && map.hasLayer(weatherLayer)) weatherLayer.removeFrom(map);
     }
-    statusNote.textContent = inConus ? "Observed NOAA MRMS reflectivity. Forecast precipitation is shown separately." : "Observed NOAA radar currently covers the continental United States; the forecast and graphs remain global.";
+    statusNote.textContent = inConus ? availableNote() : "NOAA radar and this forecast-precipitation layer currently cover the continental United States; the forecast and graphs remain global.";
     if (inConus) void loadWarnings();
     else warningLayer.clearLayers();
   }
 
   frameSlider.addEventListener("input", () => { stop(); renderFrame(Number(frameSlider.value)); });
   playButton.addEventListener("click", togglePlay);
-  alerts.addEventListener("change", () => showWarnings(alerts.checked));
+  warningToggle.addEventListener("change", () => showWarnings(warningToggle.checked));
+  modeButtons.forEach((button) => button.addEventListener("click", () => setMode(button.dataset.radarMode as Mode)));
   window.addEventListener("boho:weather-location", (event) => applyLocation((event as CustomEvent<Location>).detail));
   window.addEventListener("pagehide", stop, { once: true });
 
   try {
-    manifest = await json<RadarManifest>(`${API}/radar/manifest`);
+    [manifest, forecastManifest] = await Promise.all([
+      json<RadarManifest>(`${API}/radar/manifest`),
+      json<ForecastManifest>(`${API}/forecast/precipitation/manifest`)
+    ]);
     frameSlider.max = String(Math.max(0, manifest.frames.length - 1));
     index = Math.max(0, manifest.frames.length - 1);
     if (manifest.frames.length) {
-      radarLayer = L.tileLayer(tile(manifest.frames[index]), { attribution: manifest.attribution, maxZoom: 15, opacity: .72, updateWhenIdle: false }).addTo(map);
+      installLayer();
       renderFrame(index);
     }
     applyLocation(location);
