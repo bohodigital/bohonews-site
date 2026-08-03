@@ -1,0 +1,122 @@
+---
+import GamesLayout from "../../layouts/GamesLayout.astro";
+---
+
+<GamesLayout title="2048" description="Play unlimited 2048 games from Boho News." game="2048">
+  <header class="game-heading">
+    <p class="eyebrow">Unlimited number play</p><h1>2048</h1>
+    <p class="game-heading__dek">Join matching tiles until you make 2048. Keep going, or start another whenever you like.</p>
+    <div class="game-meta"><span data-game-number>Game 1</span><span data-2048-stats>0 played · best 0</span></div>
+  </header>
+  <section class="game-panel twenty48-panel" aria-label="2048 game" data-2048-game>
+    <div class="twenty48-scoreboard" aria-label="Current scores">
+      <p><span>Score</span><strong data-2048-score>0</strong></p>
+      <p><span>Best</span><strong data-2048-best>0</strong></p>
+    </div>
+    <p class="game-status" role="status" aria-live="polite">Use arrow keys, WASD, swipe, or the controls below.</p>
+    <div class="twenty48-grid" role="grid" aria-label="Four by four 2048 board" data-2048-grid>
+      {Array.from({length:16},(_,index) => <div class="twenty48-tile" role="gridcell" data-2048-tile={index} aria-label={`Row ${Math.floor(index/4)+1}, column ${(index%4)+1}, empty`}></div>)}
+    </div>
+    <div class="twenty48-controls" aria-label="Move tiles">
+      <button type="button" data-direction="up" aria-label="Move up">↑</button>
+      <button type="button" data-direction="left" aria-label="Move left">←</button>
+      <button type="button" data-direction="down" aria-label="Move down">↓</button>
+      <button type="button" data-direction="right" aria-label="Move right">→</button>
+    </div>
+    <div class="game-actions">
+      <button class="game-button" type="button" data-2048-new>New game</button>
+      <button class="game-button game-button--secondary" type="button" data-2048-continue hidden>Continue past 2048</button>
+    </div>
+  </section>
+  <p class="game-note">Your board, score, and best score stay in this browser. Optional community sharing sends only won/lost and your highest-tile bucket.</p>
+</GamesLayout>
+
+<script>
+  // @ts-nocheck -- Browser interaction is covered by engine, contract, and browser QA.
+  import { canMove2048, create2048Grid, isValid2048Grid, max2048Tile, move2048, scoreBucket2048, spawn2048Tile } from "../../lib/games/game-2048";
+
+  const root = document.querySelector("[data-2048-game]");
+  if (root) {
+    const STORAGE_KEY = "boho-games:v2";
+    const tiles = [...root.querySelectorAll("[data-2048-tile]")];
+    const status = root.querySelector(".game-status");
+    const score = root.querySelector("[data-2048-score]");
+    const best = root.querySelector("[data-2048-best]");
+    const gameNumber = document.querySelector("[data-game-number]");
+    const statsLabel = document.querySelector("[data-2048-stats]");
+    const continueButton = root.querySelector("[data-2048-continue]");
+    const board = root.querySelector("[data-2048-grid]");
+    let pointerStart = null;
+    let store = readStore();
+    let state = validState(store.game2048?.current) ? store.game2048.current : null;
+
+    function readStore() { try { const value=JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}"); return value && typeof value==="object" && !Array.isArray(value) ? value : {}; } catch { return {}; } }
+    function writeStore() { try { localStorage.setItem(STORAGE_KEY,JSON.stringify(store)); } catch {} }
+    function validState(value) { return value && Number.isInteger(value.number) && value.number>0 && isValid2048Grid(value.grid) && Number.isInteger(value.score) && value.score>=0 && ["complete","won","over","continued","recorded","reported"].every((key)=>typeof value[key]==="boolean"); }
+    function freshGame() {
+      const game = store.game2048 || {sequence:0,stats:{played:0,wins:0,bestScore:0}};
+      state = {number:(game.sequence||0)+1,grid:create2048Grid(),score:0,complete:false,won:false,over:false,continued:false,recorded:false,reported:false};
+      store.game2048 = {...game,sequence:state.number,current:state};
+      writeStore(); render();
+    }
+    if (!state) freshGame();
+
+    function terminal() { return state.over || (state.won && !state.continued); }
+    function render() {
+      tiles.forEach((tile,index)=>{
+        const value=state.grid[index];
+        tile.textContent=value||"";
+        tile.dataset.value=value ? (value>=4096?"4096+":String(value)) : "empty";
+        tile.setAttribute("aria-label",`Row ${Math.floor(index/4)+1}, column ${(index%4)+1}, ${value||"empty"}`);
+      });
+      const gameStats=store.game2048.stats||{played:0,wins:0,bestScore:0};
+      gameNumber.textContent=`Game ${state.number}`;
+      score.textContent=String(state.score);
+      best.textContent=String(Math.max(gameStats.bestScore||0,state.score));
+      statsLabel.textContent=`${gameStats.played||0} played · ${gameStats.wins||0} won · best ${gameStats.bestScore||0}`;
+      continueButton.toggleAttribute("hidden",!(state.won&&!state.continued));
+      status.textContent=state.over ? `No moves left. Highest tile: ${max2048Tile(state.grid)}.`
+        : state.won&&!state.continued ? "2048! You can keep going or start a new game."
+        : state.won ? `Past 2048 — keep building. Highest tile: ${max2048Tile(state.grid)}.`
+        : "Use arrow keys, WASD, swipe, or the controls below.";
+    }
+    function recordCompletion(outcome) {
+      state.complete=true;
+      if (state.recorded) return;
+      const game=store.game2048;
+      game.stats=game.stats||{played:0,wins:0,bestScore:0};
+      game.stats.played++;
+      if(outcome==="won") game.stats.wins++;
+      game.stats.bestScore=Math.max(game.stats.bestScore||0,state.score);
+      state.recorded=true;
+    }
+    async function reportCompletion(outcome) {
+      if(state.reported||!state.complete)return;
+      const submitted=await window.BohoGameStats?.submit({game:"2048",variant:"standard",outcome,scoreBucket:scoreBucket2048(max2048Tile(state.grid))});
+      if(submitted){state.reported=true;writeStore();}
+    }
+    function move(direction) {
+      if(terminal())return;
+      const result=move2048(state.grid,direction);
+      if(!result.moved)return;
+      state.grid=spawn2048Tile(result.grid);
+      state.score+=result.gained;
+      let outcome=null;
+      if(!state.won&&max2048Tile(state.grid)>=2048){state.won=true;recordCompletion("won");outcome="won";}
+      else if(!canMove2048(state.grid)){state.over=true;recordCompletion("lost");outcome="lost";}
+      const gameStats=store.game2048.stats||{played:0,wins:0,bestScore:0};
+      gameStats.bestScore=Math.max(gameStats.bestScore||0,state.score);
+      store.game2048.stats=gameStats;
+      writeStore();render();
+      if(outcome)void reportCompletion(outcome);
+    }
+    const keyDirections={ArrowUp:"up",w:"up",W:"up",ArrowRight:"right",d:"right",D:"right",ArrowDown:"down",s:"down",S:"down",ArrowLeft:"left",a:"left",A:"left"};
+    document.addEventListener("keydown",(event)=>{const direction=keyDirections[event.key];if(direction&&!event.metaKey&&!event.ctrlKey&&!event.altKey){event.preventDefault();move(direction);}});
+    root.addEventListener("click",(event)=>{const control=event.target.closest("[data-direction]");if(control)move(control.dataset.direction);});
+    board.addEventListener("pointerdown",(event)=>{pointerStart={x:event.clientX,y:event.clientY};board.setPointerCapture?.(event.pointerId);});
+    board.addEventListener("pointerup",(event)=>{if(!pointerStart)return;const x=event.clientX-pointerStart.x;const y=event.clientY-pointerStart.y;pointerStart=null;if(Math.max(Math.abs(x),Math.abs(y))<24)return;move(Math.abs(x)>Math.abs(y)?(x>0?"right":"left"):(y>0?"down":"up"));});
+    root.querySelector("[data-2048-new]")?.addEventListener("click",freshGame);
+    continueButton?.addEventListener("click",()=>{state.continued=true;writeStore();render();});
+    render();
+  }
+</script>

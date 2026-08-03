@@ -17,7 +17,18 @@ const { title, description, game } = Astro.props;
       {game && <><span aria-hidden="true">/</span><span>{game}</span></>}
     </nav>
     <slot />
+    <aside class="game-sharing" aria-labelledby="game-sharing-title">
+      <div>
+        <h2 id="game-sharing-title">Community play counts</h2>
+        <p data-community-stats>Checking community totals…</p>
+      </div>
+      <label>
+        <input type="checkbox" data-game-stats-opt-in />
+        <span><strong>Share anonymous results</strong> — off by default. Sends only the game, outcome, and a coarse score after you finish. No account or player identifier.</span>
+      </label>
+    </aside>
   </div>
+  <script is:inline src="/game-stats.js" defer></script>
 </BaseLayout>
 
 <style is:global>
@@ -50,7 +61,7 @@ const { title, description, game } = Astro.props;
   }
   .games-date { border-left: .25rem solid var(--accent); color: var(--text-muted); font-size: .78rem; margin: 0; padding: .6rem 0 .6rem 1rem; }
   .games-date strong { color: var(--text); display: block; font-family: var(--serif); font-size: 1.25rem; margin-bottom: .2rem; }
-  .game-grid { border-top: .22rem solid var(--text); display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); }
+  .game-grid { border-top: .22rem solid var(--text); display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); }
   .game-card { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); display: flex; flex-direction: column; min-height: 24rem; padding: clamp(1.25rem,3vw,2.2rem); position: relative; }
   .game-card:last-child { border-right: 0; }
   .game-card__number { color: var(--accent); font-size: .68rem; font-weight: 900; letter-spacing: .15em; text-transform: uppercase; }
@@ -65,6 +76,8 @@ const { title, description, game } = Astro.props;
   .game-card__motif--mini i:nth-child(2),.game-card__motif--mini i:nth-child(6),.game-card__motif--mini i:nth-child(8) { background: var(--game-ink); }
   .game-card__motif--sudoku { gap: .12rem; grid-template-columns: repeat(3,1fr); max-width: 5rem; }
   .game-card__motif--sudoku i:nth-child(2n) { background: var(--game-green); }
+  .game-card__motif--2048 { gap: .12rem; grid-template-columns: repeat(4,1fr); max-width: 6.5rem; }
+  .game-card__motif--2048 i:nth-child(3n),.game-card__motif--2048 i:nth-child(7) { background: var(--accent); }
   .game-heading { border-bottom: 1px solid var(--border); margin: 0 auto 2rem; max-width: 46rem; padding-bottom: 1.5rem; text-align: center; }
   .game-heading .eyebrow { margin-bottom: .8rem; }
   .game-meta { align-items: center; color: var(--text-muted); display: flex; font-size: .72rem; font-weight: 750; gap: 1rem; justify-content: center; margin-top: 1rem; }
@@ -79,6 +92,12 @@ const { title, description, game } = Astro.props;
   .game-button--secondary { background: transparent; color: var(--text); }
   .game-button[hidden] { display: none; }
   .game-note { border-top: 1px solid var(--border); color: var(--text-muted); font-size: .75rem; margin: 2.5rem auto 0; max-width: 38rem; padding-top: 1rem; text-align: center; }
+  .game-sharing { align-items: start; border-top: .2rem solid var(--text); display: grid; gap: 1.5rem; grid-template-columns: minmax(12rem,.7fr) minmax(18rem,1.3fr); margin: 3.5rem auto 0; max-width: 58rem; padding-top: 1rem; }
+  .game-sharing h2 { font-size: 1.35rem; margin: 0 0 .3rem; }
+  .game-sharing p { color: var(--text-muted); font-size: .75rem; margin: 0; }
+  .game-sharing label { align-items: start; color: var(--text-soft); cursor: pointer; display: grid; font-size: .78rem; gap: .65rem; grid-template-columns: auto 1fr; line-height: 1.45; }
+  .game-sharing input { accent-color: var(--accent); height: 1.1rem; margin-top: .1rem; width: 1.1rem; }
+  .game-sharing strong { color: var(--text); }
 
   /* Keep route-specific game styling in this external asset. The governed
      production publisher intentionally removes page-level inline styles. */
@@ -126,6 +145,25 @@ const { title, description, game } = Astro.props;
   .sudoku-pad button { background: var(--border); border: 0; color: var(--text); cursor: pointer; font-size: 1rem; font-weight: 850; min-height: 2.8rem; }
   .sudoku-difficulty { align-items: center; border: 1px solid var(--text); display: flex; font-size: .68rem; font-weight: 900; gap: .5rem; letter-spacing: .06em; padding: .45rem .65rem; text-transform: uppercase; }
   .sudoku-difficulty select { background: var(--surface); border: 0; color: var(--text); font: inherit; min-height: 1.8rem; }
+  .twenty48-panel { max-width: 36rem; }
+  .twenty48-scoreboard { display: flex; gap: .5rem; justify-content: center; margin: 0 auto .5rem; }
+  .twenty48-scoreboard p { background: var(--game-ink); color: var(--surface); margin: 0; min-width: 6.5rem; padding: .55rem .8rem; text-align: center; }
+  .twenty48-scoreboard span { display: block; font-size: .62rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }
+  .twenty48-scoreboard strong { display: block; font-size: 1.25rem; }
+  .twenty48-grid { background: #9a8f83; border: .5rem solid #9a8f83; border-radius: .35rem; display: grid; gap: .5rem; grid-template-columns: repeat(4,1fr); margin: 1rem auto; max-width: 31rem; touch-action: none; user-select: none; }
+  .twenty48-tile { align-items: center; aspect-ratio: 1; background: #c9c0b5; border-radius: .2rem; color: #3d352e; display: flex; font-size: clamp(1.35rem,6vw,2.6rem); font-weight: 900; justify-content: center; line-height: 1; }
+  .twenty48-tile[data-value="2"] { background: #eee7dc; }
+  .twenty48-tile[data-value="4"] { background: #e9dfc9; }
+  .twenty48-tile[data-value="8"] { background: #d98248; color: #fff; }
+  .twenty48-tile[data-value="16"] { background: #cf673c; color: #fff; }
+  .twenty48-tile[data-value="32"] { background: #c94c37; color: #fff; }
+  .twenty48-tile[data-value="64"] { background: #b93828; color: #fff; }
+  .twenty48-tile[data-value="128"],.twenty48-tile[data-value="256"],.twenty48-tile[data-value="512"] { background: var(--game-gold); color: #fff; font-size: clamp(1.1rem,5vw,2.1rem); }
+  .twenty48-tile[data-value="1024"],.twenty48-tile[data-value="2048"],.twenty48-tile[data-value="4096+"] { background: var(--game-green); color: #fff; font-size: clamp(.9rem,4.3vw,1.85rem); }
+  .twenty48-controls { display: grid; gap: .35rem; grid-template-columns: repeat(4,3.25rem); justify-content: center; }
+  .twenty48-controls button { background: var(--border); border: 1px solid var(--border-strong); color: var(--text); cursor: pointer; font-size: 1.4rem; min-height: 3.25rem; }
+  .twenty48-controls button:focus-visible { outline: .2rem solid var(--focus); outline-offset: .1rem; }
+  @media (max-width: 64rem) { .game-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .game-card:nth-child(2n) { border-right: 0; } }
   @media (max-width: 48rem) {
     .games-hero { align-items: start; grid-template-columns: 1fr; }
     .game-grid { grid-template-columns: 1fr; }
@@ -133,6 +171,7 @@ const { title, description, game } = Astro.props;
     .game-heading h1 { font-size: clamp(2.8rem,16vw,5rem); }
     .mini-layout { grid-template-columns: 1fr; }
     .mini-clues { gap: 1rem; }
+    .game-sharing { grid-template-columns: 1fr; }
   }
   @media (max-width: 34rem) { .sudoku-pad { grid-template-columns: repeat(5,1fr); } }
   @media (prefers-reduced-motion: reduce) { .games-shell * { scroll-behavior: auto !important; transition: none !important; } }

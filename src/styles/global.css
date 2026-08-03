@@ -128,10 +128,17 @@ h3 { font-size: clamp(1.25rem,2vw,1.7rem); line-height: 1.08; margin: .8rem 0 .5
 .theme-control button[aria-pressed="true"] { background: var(--text); color: var(--surface); }
 .masthead { align-items: center; display: flex; justify-content: center; min-height: 7.8rem; padding: 1.25rem clamp(1rem,4vw,3rem); position: relative; }
 .brand {
-  color: var(--text); font-family: var(--serif); font-size: clamp(2rem,6vw,4.8rem); font-weight: 800;
-  letter-spacing: -.075em; line-height: .82; text-decoration: none;
+  color: var(--text); font-family: "Bodoni 72 Smallcaps","Bodoni 72",Didot,Georgia,"Times New Roman",serif;
+  font-size: clamp(2rem,6vw,4.8rem); font-weight: 700; letter-spacing: .035em; line-height: .82; text-decoration: none;
 }
-.brand span { color: var(--accent); }
+.brand span { color: inherit; }
+.masthead-mark {
+  display: block; position: absolute; right: clamp(1rem,4vw,3rem); text-decoration: none; width: clamp(3.75rem,5vw,4.75rem);
+}
+.masthead-mark img { display: block; height: auto; width: 100%; }
+.masthead-mark__dark { display: none !important; }
+:root[data-theme="dark"] .masthead-mark__light { display: none; }
+:root[data-theme="dark"] .masthead-mark__dark { display: block !important; }
 .masthead-actions { align-items: center; display: none; gap: .8rem; }
 .icon-link,.mobile-menu summary { font-size: .68rem; font-weight: 850; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }
 .priority-scroll { border-top: 1px solid var(--border); }
@@ -513,6 +520,7 @@ figcaption { color: var(--text-muted); font-size: .75rem; margin-top: .55rem; }
   .masthead { justify-content: space-between; min-height: 5rem; }
   .masthead .brand { font-size: clamp(2rem,8vw,3rem); }
   .masthead-actions { display: flex; }
+  .masthead-mark { right: 7.4rem; width: 2.75rem; }
   .mobile-menu { position: relative; }
   .mobile-menu nav {
     background: var(--surface-raised); border: 1px solid var(--border); box-shadow: var(--shadow);
@@ -556,6 +564,7 @@ figcaption { color: var(--text-muted); font-size: .75rem; margin-top: .55rem; }
 }
 
 @media (max-width: 40rem) {
+  .masthead-mark { right: 6.8rem; width: 2.4rem; }
   .market-ticker { grid-template-columns: 5.6rem minmax(0,1fr); min-height: 2.9rem; }
   .market-ticker__identity { min-width: 0; padding: .3rem .45rem; }
   .market-ticker__identity span { font-size: .61rem; }

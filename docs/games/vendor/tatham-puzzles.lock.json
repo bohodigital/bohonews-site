@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0",
+  "project": "Simon Tatham's Portable Puzzle Collection",
+  "source": "https://git.tartarus.org/simon/puzzles.git",
+  "commit": "3c3632259d298ab62aafa8a5858823569ab1af46",
+  "license": {
+    "spdx": "MIT",
+    "file": "LICENCE",
+    "sha256": "43c5b4a4304e7f9d162cda91028ea83f640cd56341744057b9aeed3f10ae55ab"
+  },
+  "targets": ["mines", "pattern"],
+  "reviewedWebInputs": [
+    "cmake/platforms/emscripten.cmake",
+    "emcc.c",
+    "emccpre.js",
+    "emcclib.js",
+    "html/jspage.pl",
+    "mines.c",
+    "pattern.c"
+  ],
+  "distributionState": "build-foundation-only-no-binaries-checked-in"
+}
