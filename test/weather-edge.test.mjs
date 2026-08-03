@@ -52,10 +52,10 @@ test("forecast precipitation uses an official same-origin NOAA layer and remains
   assert.match(worker, /forecast\/precipitation\/tiles/);
   assert.match(worker, /forecast\/precipitation\/image\.png/);
   assert.match(worker, /This is not observed radar/);
-  assert.match(radarComponent, /Observed radar/);
-  assert.match(radarComponent, /Forecast precipitation/);
-  assert.match(radarComponent, /data-radar-mode="forecast" aria-pressed="true"/);
-  assert.match(radar, /let mode: Mode = "forecast"/);
+  assert.match(radarComponent, /Live precipitation radar/);
+  assert.match(radarComponent, /Forecast accumulation/);
+  assert.match(radarComponent, /data-radar-mode="observed" aria-pressed="true"/);
+  assert.match(radar, /let mode: Mode = "observed"/);
   assert.doesNotMatch(radar, /5\.7/);
   assert.doesNotMatch(radar, /mapservices\.weather\.noaa\.gov/);
 });

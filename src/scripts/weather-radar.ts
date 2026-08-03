@@ -4,7 +4,7 @@ const API = "/api/weather/v1";
 const CLIENT_CONTRACT = "1.3.1";
 const OBSERVED_OPACITY = 0.76;
 const FORECAST_OPACITY = 0.68;
-const CROSSFADE_MS = 220;
+const CROSSFADE_MS = 280;
 
 type Location = { latitude: number; longitude: number; label?: string; countryCode?: string | null };
 type RadarManifest = {
@@ -70,7 +70,7 @@ export async function initWeatherRadar(root: HTMLElement) {
   let location: Location = { latitude: 41.9, longitude: -87.65, countryCode: "US" };
   let manifest: RadarManifest | null = null;
   let forecastManifest: ForecastManifest | null = null;
-  let mode: Mode = "forecast";
+  let mode: Mode = "observed";
   let index = 0;
   let activeSurface = 0;
   let playToken = 0;
@@ -275,8 +275,8 @@ export async function initWeatherRadar(root: HTMLElement) {
     alerts.closest("label")?.toggleAttribute("hidden", !observed);
     latest.toggleAttribute("hidden", !observed);
     play.textContent = observed ? "Play radar" : "Play forecast";
-    timelineLabel.textContent = observed ? "Radar timeline" : "Forecast timeline";
-    slider.setAttribute("aria-label", observed ? "Radar frame" : "Forecast precipitation frame");
+    timelineLabel.textContent = observed ? "Live radar timeline" : "Forecast accumulation timeline";
+    slider.setAttribute("aria-label", observed ? "Live precipitation radar frame" : "Forecast accumulation frame");
     legend.setAttribute("aria-label", observed ? "Radar reflectivity legend" : "Forecast precipitation amount legend");
     legendLow.textContent = observed ? "Light" : "Lower";
     legendHigh.textContent = observed ? "Intense" : "Higher";
@@ -347,9 +347,9 @@ export async function initWeatherRadar(root: HTMLElement) {
       json<ForecastManifest>(`${API}/forecast/precipitation/manifest?client=${CLIENT_CONTRACT}`)
     ]);
     slider.max = String(Math.max(0, frames().length - 1));
-    index = 0;
+    index = Math.max(0, frames().length - 1);
     syncModeControls();
-    showWarnings(false);
+    showWarnings(alerts.checked);
     note.textContent = availableNote();
     if (frames().length) await renderFrame(index, true);
     applyLocation(location);
