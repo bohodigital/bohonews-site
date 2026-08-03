@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 description: "How Boho News collects, uses, protects, and shares information."
-last_updated: "August 1, 2026"
+last_updated: "August 3, 2026"
 effective_date: "July 26, 2026"
 index: true
 route: "/privacy/"
@@ -90,8 +90,27 @@ The site may use browser storage for limited local functions, including:
 
 - remembering light, dark, or system theme preference;
 - temporary quality-assurance suppression used by authorized testing sessions.
+- unfinished game progress, local play totals, and whether you chose to share
+  anonymous game results.
 
 These settings remain in your browser unless you clear them. They are not used to build an advertising profile.
+
+### Optional game-result totals
+
+Game-result sharing is off by default. If you turn it on and finish a Boho News
+game, the site sends only the game type, game variant, outcome, and a coarse
+score bucket to a same-origin Cloudflare Worker.
+
+The game-result service does not accept or store an account, name, email
+address, player or device identifier, location, user agent, referrer, exact
+client timestamp, puzzle answer, guesses, or saved puzzle state. It stores daily
+aggregate counters rather than individual completion records. Cloudflare may
+still process ordinary request metadata to deliver and secure the service as
+described under Hosting and security.
+
+Community totals are voluntary reported plays. They are intended as informal
+aggregate statistics, not a cheat-proof leaderboard. You can turn sharing off
+at any time in the Games interface; doing so affects future completed games.
 
 ## Information you provide
 

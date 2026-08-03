@@ -19,6 +19,8 @@
     "preview": "astro preview",
     "weather:preview": "npm run build && WRANGLER_LOG_PATH=.wrangler/logs wrangler dev --config wrangler.weather.jsonc --local",
     "weather:check": "node --test test/weather-edge.test.mjs",
+    "games:preview": "npm run build && WRANGLER_LOG_PATH=.wrangler/logs wrangler dev --config wrangler.games.jsonc --local",
+    "games:check": "node --test test/games.test.mjs test/games-stats-edge.test.mjs",
     "content:validate": "node scripts/publishing/validate-content.mjs"
   },
   "dependencies": {

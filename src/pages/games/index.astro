@@ -9,7 +9,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       <h1>Boho Games</h1>
       <p class="games-hero__dek">Three quick puzzles. Play as many as you want. No account, no leaderboard, no nonsense.</p>
     </div>
-    <p class="games-date"><strong>Unlimited play</strong><span>Your progress stays in this browser.</span></p>
+    <p class="games-date"><strong>Unlimited play</strong><span>Progress stays in this browser. Community result sharing is optional.</span></p>
   </header>
 
   <section class="game-grid" aria-label="Today’s games">
@@ -48,7 +48,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     const progress = JSON.parse(localStorage.getItem("boho-games:v2") || "{}");
     document.querySelectorAll("[data-game-card]").forEach((card) => {
       const key = card.getAttribute("data-game-card");
-      if (key && progress[key]?.complete) card.setAttribute("data-complete", "true");
+      if (key && progress[key]?.current?.complete) card.setAttribute("data-complete", "true");
     });
   } catch { /* Local storage is optional. */ }
 </script>

@@ -17,7 +17,18 @@ const { title, description, game } = Astro.props;
       {game && <><span aria-hidden="true">/</span><span>{game}</span></>}
     </nav>
     <slot />
+    <aside class="game-sharing" aria-labelledby="game-sharing-title">
+      <div>
+        <h2 id="game-sharing-title">Community play counts</h2>
+        <p data-community-stats>Checking community totals…</p>
+      </div>
+      <label>
+        <input type="checkbox" data-game-stats-opt-in />
+        <span><strong>Share anonymous results</strong> — off by default. Sends only the game, outcome, and a coarse score after you finish. No account or player identifier.</span>
+      </label>
+    </aside>
   </div>
+  <script is:inline src="/game-stats.js" defer></script>
 </BaseLayout>
 
 <style is:global>
@@ -79,6 +90,12 @@ const { title, description, game } = Astro.props;
   .game-button--secondary { background: transparent; color: var(--text); }
   .game-button[hidden] { display: none; }
   .game-note { border-top: 1px solid var(--border); color: var(--text-muted); font-size: .75rem; margin: 2.5rem auto 0; max-width: 38rem; padding-top: 1rem; text-align: center; }
+  .game-sharing { align-items: start; border-top: .2rem solid var(--text); display: grid; gap: 1.5rem; grid-template-columns: minmax(12rem,.7fr) minmax(18rem,1.3fr); margin: 3.5rem auto 0; max-width: 58rem; padding-top: 1rem; }
+  .game-sharing h2 { font-size: 1.35rem; margin: 0 0 .3rem; }
+  .game-sharing p { color: var(--text-muted); font-size: .75rem; margin: 0; }
+  .game-sharing label { align-items: start; color: var(--text-soft); cursor: pointer; display: grid; font-size: .78rem; gap: .65rem; grid-template-columns: auto 1fr; line-height: 1.45; }
+  .game-sharing input { accent-color: var(--accent); height: 1.1rem; margin-top: .1rem; width: 1.1rem; }
+  .game-sharing strong { color: var(--text); }
 
   /* Keep route-specific game styling in this external asset. The governed
      production publisher intentionally removes page-level inline styles. */
@@ -133,6 +150,7 @@ const { title, description, game } = Astro.props;
     .game-heading h1 { font-size: clamp(2.8rem,16vw,5rem); }
     .mini-layout { grid-template-columns: 1fr; }
     .mini-clues { gap: 1rem; }
+    .game-sharing { grid-template-columns: 1fr; }
   }
   @media (max-width: 34rem) { .sudoku-pad { grid-template-columns: repeat(5,1fr); } }
   @media (prefers-reduced-motion: reduce) { .games-shell * { scroll-behavior: auto !important; transition: none !important; } }

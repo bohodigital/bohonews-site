@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bohonews-games-edge",
+  "main": "./cloudflare/games-stats-worker/src/index.mjs",
+  "compatibility_date": "2026-08-03",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/games/*"]
+  },
+  "d1_databases": [{
+    "binding": "GAME_STATS",
+    "migrations_dir": "cloudflare/games-stats-worker/migrations"
+  }],
+  "observability": { "enabled": true, "head_sampling_rate": 0.1 }
+}
