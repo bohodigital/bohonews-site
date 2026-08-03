@@ -26,7 +26,8 @@ unavailable.
 
 The radar client keeps three same-origin viewport-image surfaces in rotation. A
 frame is one upstream image request instead of a grid of independent requests.
-It warms the next visible frame before playback, crossfades loaded surfaces, pauses in hidden
+It warms the next visible frame plus a short browser-cache lookahead before
+playback, crossfades loaded surfaces, pauses in hidden
 tabs, exposes speed and latest-frame controls, and disables motion effects when
 the visitor requests reduced motion. Crossfades are visual transitions between
 real observations; they are not represented as additional observations.

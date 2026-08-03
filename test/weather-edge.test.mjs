@@ -41,6 +41,7 @@ test("phase 4 radar is same-origin, timestamped and source-labeled", () => {
   assert.match(radar, /L\.imageOverlay/);
   assert.match(radar, /imageTemplate/);
   assert.doesNotMatch(radar, /tileTemplate/);
+  assert.match(radar, /manifest\?client=\$\{CLIENT_CONTRACT\}/);
   assert.match(radar, /prefers-reduced-motion/);
   assert.match(radar, /scrollWheelZoom:\s*false/);
   assert.doesNotMatch(radar, /opengeo\.ncep|basemap\.nationalmap/);

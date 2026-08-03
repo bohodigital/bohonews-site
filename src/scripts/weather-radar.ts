@@ -1,9 +1,10 @@
 import * as L from "leaflet";
 
 const API = "/api/weather/v1";
+const CLIENT_CONTRACT = "1.3.1";
 const OBSERVED_OPACITY = 0.76;
 const FORECAST_OPACITY = 0.68;
-const CROSSFADE_MS = 420;
+const CROSSFADE_MS = 220;
 
 type Location = { latitude: number; longitude: number; label?: string; countryCode?: string | null };
 type RadarManifest = {
@@ -75,9 +76,10 @@ export async function initWeatherRadar(root: HTMLElement) {
   let renderToken = 0;
   let speedIndex = 1;
   let playing = false;
-  const speedOptions = [1000, 650, 360];
+  const speedOptions = [520, 300, 180];
   const speedLabels = ["½× speed", "1× speed", "2× speed"];
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const prefetched = new Map<string, HTMLImageElement>();
 
   const map = L.map(mapNode, {
     minZoom: 2,
@@ -121,7 +123,7 @@ export async function initWeatherRadar(root: HTMLElement) {
     if (mode === "forecast") return forecastManifest?.interpretation || "Official NOAA forecast precipitation. This is not observed radar.";
     const minutes = manifest?.historyMinutes ? Math.round(manifest.historyMinutes) : 120;
     const cadence = manifest?.cadenceSeconds ? Math.round(manifest.cadenceSeconds / 60) : 2;
-    return `${minutes} minutes of observed NOAA MRMS reflectivity, updated about every ${cadence} minutes. Frames are crossfaded for smooth playback; blended moments are visual transitions, not additional observations.`;
+    return `${minutes} minutes of observed NOAA MRMS reflectivity, updated about every ${cadence} minutes. Fast buffered playback keeps six upcoming frames ready; crossfaded moments are visual transitions, not additional observations.`;
   }
   function imageRequest(frame: Frame) {
     const rawBounds = map.getBounds();
@@ -196,6 +198,23 @@ export async function initWeatherRadar(root: HTMLElement) {
     const spare = spareSurface([activeSurface]);
     if (spare >= 0) await loadSurface(spare, items[adjacent]);
   }
+  function prefetchAhead(count = 6) {
+    const items = frames();
+    if (!items.length) return;
+    for (let offset = 1; offset <= Math.min(count, items.length - 1); offset += 1) {
+      const frame = items[(index + offset) % items.length];
+      const request = imageRequest(frame);
+      if (surfaceFor(request.key) >= 0 || prefetched.has(request.key)) continue;
+      const image = new Image();
+      image.decoding = "async";
+      image.src = request.url;
+      prefetched.set(request.key, image);
+      const discard = () => window.setTimeout(() => prefetched.delete(request.key), 30000);
+      image.addEventListener("load", discard, { once: true });
+      image.addEventListener("error", discard, { once: true });
+    }
+    while (prefetched.size > 12) prefetched.delete(prefetched.keys().next().value!);
+  }
   async function renderFrame(next: number, immediate = false) {
     const items = frames();
     if (!items.length) return;
@@ -221,8 +240,10 @@ export async function initWeatherRadar(root: HTMLElement) {
     activeSurface = incoming;
     state.textContent = mode === "observed" ? "Observed" : "Forecast";
     root.dataset.radarLoading = "false";
-    if (duration) await new Promise((resolve) => window.setTimeout(resolve, duration));
-    if (request === renderToken) void warmAdjacent();
+    if (request === renderToken) {
+      void warmAdjacent();
+      prefetchAhead();
+    }
   }
   function stop() {
     playing = false;
@@ -235,10 +256,8 @@ export async function initWeatherRadar(root: HTMLElement) {
       const items = frames();
       const isLast = index >= items.length - 1;
       const next = isLast ? 0 : index + 1;
-      if (isLast) await new Promise((resolve) => window.setTimeout(resolve, 850));
-      if (!playing || token !== playToken) return;
       await renderFrame(next);
-      await new Promise((resolve) => window.setTimeout(resolve, speedOptions[speedIndex]));
+      await new Promise((resolve) => window.setTimeout(resolve, next === items.length - 1 ? 900 : speedOptions[speedIndex]));
     }
   }
   function togglePlay() {
@@ -310,6 +329,7 @@ export async function initWeatherRadar(root: HTMLElement) {
   map.on("moveend resize", () => {
     window.clearTimeout(viewportTimer);
     viewportTimer = window.setTimeout(() => {
+      prefetched.clear();
       surfaces.forEach((surface) => { surface.key = null; surface.loading = null; });
       void renderFrame(index, true);
     }, 120);
@@ -319,8 +339,8 @@ export async function initWeatherRadar(root: HTMLElement) {
 
   try {
     [manifest, forecastManifest] = await Promise.all([
-      json<RadarManifest>(`${API}/radar/manifest`),
-      json<ForecastManifest>(`${API}/forecast/precipitation/manifest`)
+      json<RadarManifest>(`${API}/radar/manifest?client=${CLIENT_CONTRACT}`),
+      json<ForecastManifest>(`${API}/forecast/precipitation/manifest?client=${CLIENT_CONTRACT}`)
     ]);
     slider.max = String(Math.max(0, manifest.frames.length - 1));
     index = Math.max(0, manifest.frames.length - 1);
