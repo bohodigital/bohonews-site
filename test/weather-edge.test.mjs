@@ -39,6 +39,8 @@ test("phase 4 radar is same-origin, timestamped and source-labeled", () => {
   assert.match(radar, /CROSSFADE_MS/);
   assert.match(radar, /warmAdjacent/);
   assert.match(radar, /L\.imageOverlay/);
+  assert.match(radar, /createPane\("weather-radar-frames"\)/);
+  assert.match(radar, /layer\.bringToFront\(\)/);
   assert.match(radar, /imageTemplate/);
   assert.doesNotMatch(radar, /tileTemplate/);
   assert.match(radar, /manifest\?client=\$\{CLIENT_CONTRACT\}/);

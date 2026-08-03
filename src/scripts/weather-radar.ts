@@ -96,15 +96,13 @@ export async function initWeatherRadar(root: HTMLElement) {
   }).setView([location.latitude, location.longitude], root.classList.contains("weather-radar--compact") ? 6 : 5);
   L.tileLayer(`${API}/map/base/{z}/{x}/{y}`, { attribution: "USGS The National Map", maxZoom: 16, updateWhenIdle: false, keepBuffer: 4 }).addTo(map);
   map.attributionControl.addAttribution("NOAA / National Weather Service");
-  ["weather-radar-a", "weather-radar-b", "weather-radar-c"].forEach((name, position) => {
-    const pane = map.createPane(name);
-    pane.style.zIndex = String(310 + position);
-    pane.style.pointerEvents = "none";
-  });
-  const surfaces: Surface[] = ["weather-radar-a", "weather-radar-b", "weather-radar-c"].map((pane) => ({
+  const radarPane = map.createPane("weather-radar-frames");
+  radarPane.style.zIndex = "310";
+  radarPane.style.pointerEvents = "none";
+  const surfaces: Surface[] = [0, 1].map(() => ({
     key: null,
     loading: null,
-    layer: L.imageOverlay(TRANSPARENT_PIXEL, map.getBounds(), { pane, className: "weather-radar-frame", opacity: 0, interactive: false, crossOrigin: true }).addTo(map)
+    layer: L.imageOverlay(TRANSPARENT_PIXEL, map.getBounds(), { pane: "weather-radar-frames", className: "weather-radar-frame", opacity: 0, interactive: false, crossOrigin: true }).addTo(map)
   }));
   const warningLayer = L.geoJSON(undefined, {
     pane: "overlayPane",
@@ -238,6 +236,7 @@ export async function initWeatherRadar(root: HTMLElement) {
     const outgoing = activeSurface;
     const duration = immediate || reducedMotion.matches ? 0 : CROSSFADE_MS;
     root.style.setProperty("--radar-fade-duration", `${duration}ms`);
+    surfaces[incoming].layer.bringToFront();
     surfaces[incoming].layer.setOpacity(targetOpacity());
     if (incoming !== outgoing) surfaces[outgoing].layer.setOpacity(0);
     activeSurface = incoming;
