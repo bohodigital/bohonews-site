@@ -6,7 +6,7 @@ import { scoreWordleGuess, WORDLE_ANSWERS } from "../src/lib/games/wordle.ts";
 const page = (name) => readFile(new URL(`../src/pages/games/${name}`, import.meta.url), "utf8");
 
 test("games remain static-first and keep puzzle state device-local", async () => {
-  const sources = await Promise.all([page("index.astro"), page("daily-word.astro"), page("mini.astro"), page("sudoku.astro")]);
+  const sources = await Promise.all([page("index.astro"), page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro")]);
   for (const source of sources) {
     assert.doesNotMatch(source, /new WebSocket|DURABLE_OBJECT|D1Database/);
   }
@@ -20,9 +20,9 @@ test("games hub reads completion from the current saved round", async () => {
 });
 
 test("completed games submit only coarse optional result buckets", async () => {
-  const [layout, word, mini, sudoku, client] = await Promise.all([
+  const [layout, word, mini, sudoku, twenty48, client] = await Promise.all([
     readFile(new URL("../src/layouts/GamesLayout.astro", import.meta.url), "utf8"),
-    page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"),
+    page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro"),
     readFile(new URL("../public/game-stats.js", import.meta.url), "utf8")
   ]);
   assert.match(layout, /data-game-stats-opt-in/);
@@ -32,7 +32,8 @@ test("completed games submit only coarse optional result buckets", async () => {
   assert.match(word, /game:"wordle"[\s\S]*scoreBucket/);
   assert.match(mini, /game:"mini"[\s\S]*scoreBucket:"complete"/);
   assert.match(sudoku, /game:"sudoku"[\s\S]*variant:state\.difficulty/);
-  for (const source of [word, mini, sudoku]) assert.doesNotMatch(source, /playerId|deviceId|userAgent|location/);
+  assert.match(twenty48, /game:"2048"[\s\S]*scoreBucket:scoreBucket2048/);
+  for (const source of [word, mini, sudoku, twenty48]) assert.doesNotMatch(source, /playerId|deviceId|userAgent|location/);
 });
 
 test("saved game guards reject malformed state and completed grids cannot be edited", async () => {
@@ -44,14 +45,17 @@ test("saved game guards reject malformed state and completed grids cannot be edi
   assert.match(sudoku, /selected%9>0/);
 });
 
-test("all three games expose keyboard and status contracts", async () => {
-  const [word, mini, sudoku] = await Promise.all([page("daily-word.astro"), page("mini.astro"), page("sudoku.astro")]);
+test("all four games expose keyboard and status contracts", async () => {
+  const [word, mini, sudoku, twenty48] = await Promise.all([page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro")]);
   assert.match(word, /aria-live="polite"/);
   assert.match(word, /document\.addEventListener\("keydown"/);
   assert.match(mini, /setAttribute\("aria-label",`Row \$\{row\+1\}, column/);
   assert.match(mini, /ArrowRight/);
   assert.match(sudoku, /aria-label="Nine by nine Sudoku puzzle"/);
   assert.match(sudoku, /ArrowDown/);
+  assert.match(twenty48, /aria-label="Four by four 2048 board"/);
+  assert.match(twenty48, /ArrowUp/);
+  assert.match(twenty48, /pointerdown/);
   for (const source of [mini, sudoku]) assert.match(source, /setAttribute\("aria-invalid","true"\)/);
 });
 
@@ -65,12 +69,12 @@ test("Wordle scoring handles repeated letters and uses the requested hint colors
 });
 
 test("game route styles survive the governed publisher as an external asset", async () => {
-  const [layout, word, mini, sudoku] = await Promise.all([
+  const [layout, word, mini, sudoku, twenty48] = await Promise.all([
     readFile(new URL("../src/layouts/GamesLayout.astro", import.meta.url), "utf8"),
-    page("daily-word.astro"), page("mini.astro"), page("sudoku.astro")
+    page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro")
   ]);
-  for (const selector of [".word-board", ".mini-grid", ".sudoku-grid"]) assert.match(layout, new RegExp(selector.replace(".", "\\.")));
-  for (const source of [word, mini, sudoku]) assert.doesNotMatch(source, /<style\b/);
+  for (const selector of [".word-board", ".mini-grid", ".sudoku-grid", ".twenty48-grid"]) assert.match(layout, new RegExp(selector.replace(".", "\\.")));
+  for (const source of [word, mini, sudoku, twenty48]) assert.doesNotMatch(source, /<style\b/);
 });
 
 test("crossword and Sudoku use reviewed local generators", async () => {
@@ -89,7 +93,7 @@ test("game pages are local mockups and excluded from indexing", async () => {
   const hub = await page("index.astro");
   assert.match(layout, /<BaseLayout[\s\S]*\bnoindex\b[\s\S]*>/);
   assert.match(hub, /Local prototype/);
-  for (const route of ["daily-word", "mini", "sudoku"]) assert.match(hub, new RegExp(`/games/${route}/`));
+  for (const route of ["daily-word", "mini", "sudoku", "2048"]) assert.match(hub, new RegExp(`/games/${route}/`));
 });
 
 test("game pages have the same focused shell and fresh theme in preview and production", async () => {

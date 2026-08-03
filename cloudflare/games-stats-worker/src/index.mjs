@@ -5,7 +5,8 @@ const ALLOWED_KEYS = new Set(["schemaVersion", "game", "variant", "outcome", "sc
 const CONTRACTS = {
   wordle: { variants: new Set(["standard"]), outcomes: new Set(["won", "lost"]), scores: new Set(["1", "2", "3", "4", "5", "6", "X"]) },
   mini: { variants: new Set(["standard"]), outcomes: new Set(["solved"]), scores: new Set(["complete"]) },
-  sudoku: { variants: new Set(["easy", "medium", "hard", "expert"]), outcomes: new Set(["solved"]), scores: new Set(["complete"]) }
+  sudoku: { variants: new Set(["easy", "medium", "hard", "expert"]), outcomes: new Set(["solved"]), scores: new Set(["complete"]) },
+  "2048": { variants: new Set(["standard"]), outcomes: new Set(["won", "lost"]), scores: new Set(["<512", "512", "1024", "2048", "4096+"]) }
 };
 
 function json(value, status = 200, cache = "no-store") {
