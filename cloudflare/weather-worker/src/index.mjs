@@ -1,5 +1,5 @@
 const API = "/api/weather/v1";
-const VERSION = "1.2.0";
+const VERSION = "1.3.0";
 const USER_AGENT = "BohoNewsWeather/0.1 (+https://bohonews.com/contact/)";
 const RADAR_CAPABILITIES = "https://opengeo.ncep.noaa.gov/geoserver/conus/conus_bref_qcd/ows?request=GetCapabilities&service=WMS&version=1.3.0";
 const RADAR_WMS = "https://opengeo.ncep.noaa.gov/geoserver/conus/conus_bref_qcd/ows";
@@ -200,7 +200,13 @@ async function search(env, query) {
 function radarFrames(xml) {
   const match = xml.match(/<Dimension[^>]+name=["']time["'][^>]*>([^<]+)<\/Dimension>/i);
   if (!match) throw new Error("NOAA radar capabilities did not include time frames");
-  return match[1].split(",").map((value) => new Date(value.trim()).toISOString()).filter((value) => value !== "Invalid Date").slice(-24);
+  return match[1].split(",").map((value) => new Date(value.trim()).toISOString()).filter((value) => value !== "Invalid Date").slice(-60);
+}
+function radarTiming(frames) {
+  const gaps = frames.slice(1).map((frame, index) => (Date.parse(frame) - Date.parse(frames[index])) / 1000).filter((value) => Number.isFinite(value) && value > 0).sort((a, b) => a - b);
+  const cadenceSeconds = gaps.length ? gaps[Math.floor(gaps.length / 2)] : null;
+  const historyMinutes = frames.length > 1 ? (Date.parse(frames.at(-1)) - Date.parse(frames[0])) / 60000 : null;
+  return { cadenceSeconds, historyMinutes };
 }
 function tileBounds(z, x, y) {
   const half = 20037508.342789244;
@@ -216,7 +222,7 @@ async function radarManifest(request, ctx) {
   if (hit) return hit;
   const xml = await (await upstreamResponse(RADAR_CAPABILITIES, "application/xml")).text();
   const frames = radarFrames(xml);
-  const response = json({ schemaVersion: VERSION, kind: "observed-radar", coverage: "CONUS", product: "MRMS quality-controlled base reflectivity", frames, tileTemplate: `${API}/radar/tiles/{z}/{x}/{y}.png?time={time}`, attribution: "NOAA / National Weather Service MRMS", sourceUrl: "https://opengeo.ncep.noaa.gov/geoserver/www/index.html" }, 200, "public, max-age=90, stale-while-revalidate=300");
+  const response = json({ schemaVersion: VERSION, kind: "observed-radar", coverage: "CONUS", product: "MRMS quality-controlled base reflectivity", frames, ...radarTiming(frames), tileTemplate: `${API}/radar/tiles/{z}/{x}/{y}.png?time={time}`, attribution: "NOAA / National Weather Service MRMS", sourceUrl: "https://opengeo.ncep.noaa.gov/geoserver/www/index.html" }, 200, "public, max-age=90, stale-while-revalidate=300");
   ctx.waitUntil(caches.default.put(key, response.clone()));
   return response;
 }

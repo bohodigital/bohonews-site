@@ -37,6 +37,13 @@ unit-compatible time series for temperature/dew point, precipitation chance,
 expected precipitation, humidity/cloud cover, wind, and pressure. It does not
 present forecast precipitation as observed radar.
 
+Observed U.S. radar exposes up to two hours of NOAA MRMS frames and uses three
+rotating, preloaded map surfaces for continuous crossfades without blank tile
+flashes. Playback supports multiple speeds, direct scrubbing, jump-to-latest,
+visibility pausing, and reduced-motion preferences. The displayed timestamps
+remain the actual NOAA observations; visual blends are never described as new
+meteorological samples.
+
 The undeployed `bohonews-weather-edge` Worker serves built assets and handles
 that API before asset lookup. It uses rounded Cloudflare request geolocation,
 NWS for United States forecasts and alerts, MET Norway for global point
