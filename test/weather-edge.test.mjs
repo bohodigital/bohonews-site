@@ -43,7 +43,9 @@ test("phase 4 radar is same-origin, timestamped and source-labeled", () => {
   assert.doesNotMatch(radar, /tileTemplate/);
   assert.match(radar, /manifest\?client=\$\{CLIENT_CONTRACT\}/);
   assert.match(radar, /prefers-reduced-motion/);
-  assert.match(radar, /scrollWheelZoom:\s*false/);
+  assert.match(radar, /scrollWheelZoom:\s*true/);
+  assert.match(radar, /wheelDebounceTime:\s*25/);
+  assert.match(radar, /if \(index >= items\.length - 1\) \{\s*stop\(\)/);
   assert.doesNotMatch(radar, /opengeo\.ncep|basemap\.nationalmap/);
 });
 test("forecast precipitation uses an official same-origin NOAA layer and remains distinct from radar", () => {

@@ -89,8 +89,10 @@ export async function initWeatherRadar(root: HTMLElement) {
     attributionControl: true,
     preferCanvas: true,
     fadeAnimation: true,
-    zoomAnimation: false,
-    scrollWheelZoom: false
+    zoomAnimation: true,
+    scrollWheelZoom: true,
+    wheelDebounceTime: 25,
+    wheelPxPerZoomLevel: 90
   }).setView([location.latitude, location.longitude], root.classList.contains("weather-radar--compact") ? 6 : 5);
   L.tileLayer(`${API}/map/base/{z}/{x}/{y}`, { attribution: "USGS The National Map", maxZoom: 16, updateWhenIdle: false, keepBuffer: 4 }).addTo(map);
   map.attributionControl.addAttribution("NOAA / National Weather Service");
@@ -255,11 +257,22 @@ export async function initWeatherRadar(root: HTMLElement) {
   async function playLoop(token: number) {
     while (playing && token === playToken) {
       const items = frames();
-      const isLast = index >= items.length - 1;
-      const next = isLast ? 0 : index + 1;
+      if (index >= items.length - 1) {
+        stop();
+        return;
+      }
+      const next = index + 1;
       await renderFrame(next);
-      await new Promise((resolve) => window.setTimeout(resolve, next === items.length - 1 ? 900 : speedOptions[speedIndex]));
+      if (next >= items.length - 1) {
+        stop();
+        return;
+      }
+      await new Promise((resolve) => window.setTimeout(resolve, speedOptions[speedIndex]));
     }
+  }
+  async function startPlayback(token: number) {
+    if (index >= frames().length - 1) await renderFrame(0, true);
+    if (playing && token === playToken) await playLoop(token);
   }
   function togglePlay() {
     if (playing) return stop();
@@ -267,7 +280,7 @@ export async function initWeatherRadar(root: HTMLElement) {
     playToken += 1;
     play.textContent = mode === "observed" ? "Pause radar" : "Pause forecast";
     play.setAttribute("aria-pressed", "true");
-    void playLoop(playToken);
+    void startPlayback(playToken);
   }
   function syncModeControls() {
     const observed = mode === "observed";
