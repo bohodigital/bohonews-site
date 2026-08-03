@@ -10,7 +10,7 @@ interface Props {
 const { title, description, game } = Astro.props;
 ---
 
-<BaseLayout title={`${title} — Boho News`} description={description} noindex>
+<BaseLayout title={`${title} — Boho News`} description={description} noindex hideMarketTicker defaultTheme="light">
   <div class="games-shell">
     <nav class="games-crumbs" aria-label="Games navigation">
       <a href="/games/">Boho Games</a>

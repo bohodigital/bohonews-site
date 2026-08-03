@@ -3,6 +3,12 @@ import ThemeControl from "./ThemeControl.astro";
 import MarketTicker from "./MarketTicker.astro";
 const candidatePreview = import.meta.env.BOHONEWS_PREVIEW === "1";
 
+interface Props {
+  hideMarketTicker?: boolean;
+}
+
+const { hideMarketTicker = false } = Astro.props;
+
 const primary = [
   ["Latest", "/latest/"],["Games", "/games/"],["U.S.", "/us/"],["World", "/world/"],["Politics", "/politics/"],
   ["Business", "/business/"],["Crime", "/crime-justice/"],["Weather", "/weather/"]
@@ -16,7 +22,7 @@ const more = [
 ---
 
 <header class="site-header">
-  {!candidatePreview && <MarketTicker />}
+  {!candidatePreview && !hideMarketTicker && <MarketTicker />}
   <div class="utility-row">
     <time id="edition-date">Latest edition</time>
     <nav aria-label="Utility navigation">

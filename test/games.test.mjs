@@ -48,7 +48,23 @@ test("crossword and Sudoku use reviewed local generators", async () => {
 test("game pages are local mockups and excluded from indexing", async () => {
   const layout = await readFile(new URL("../src/layouts/GamesLayout.astro", import.meta.url), "utf8");
   const hub = await page("index.astro");
-  assert.match(layout, /<BaseLayout[\s\S]*noindex>/);
+  assert.match(layout, /<BaseLayout[\s\S]*\bnoindex\b[\s\S]*>/);
   assert.match(hub, /Local prototype/);
   for (const route of ["daily-word", "mini", "sudoku"]) assert.match(hub, new RegExp(`/games/${route}/`));
+});
+
+test("game pages have the same focused shell and fresh theme in preview and production", async () => {
+  const [layout,base,header,theme] = await Promise.all([
+    readFile(new URL("../src/layouts/GamesLayout.astro",import.meta.url),"utf8"),
+    readFile(new URL("../src/layouts/BaseLayout.astro",import.meta.url),"utf8"),
+    readFile(new URL("../src/components/SiteHeader.astro",import.meta.url),"utf8"),
+    readFile(new URL("../public/theme.js",import.meta.url),"utf8")
+  ]);
+  assert.match(layout,/hideMarketTicker/);
+  assert.match(layout,/defaultTheme="light"/);
+  assert.match(base,/!candidatePreview && !hideMarketTicker/);
+  assert.match(base,/<SiteHeader hideMarketTicker=\{hideMarketTicker\}/);
+  assert.match(header,/!candidatePreview && !hideMarketTicker && <MarketTicker/);
+  assert.match(theme,/dataset\.themeDefault/);
+  assert.match(theme,/choices\.has\(localStorage\.getItem\(key\)\) \? localStorage\.getItem\(key\) : pageDefault/);
 });

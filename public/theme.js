@@ -2,7 +2,10 @@
   const key = "bohonews-theme";
   const choices = new Set(["system","light","dark"]);
   const media = window.matchMedia("(prefers-color-scheme: dark)");
-  const stored = choices.has(localStorage.getItem(key)) ? localStorage.getItem(key) : "system";
+  const pageDefault = choices.has(document.documentElement.dataset.themeDefault)
+    ? document.documentElement.dataset.themeDefault
+    : "system";
+  const stored = choices.has(localStorage.getItem(key)) ? localStorage.getItem(key) : pageDefault;
 
   function resolved(choice) {
     return choice === "system" ? (media.matches ? "dark" : "light") : choice;
@@ -23,7 +26,7 @@
 
   apply(stored);
   media.addEventListener("change", () => {
-    if ((localStorage.getItem(key) || "system") === "system") apply("system");
+    if ((localStorage.getItem(key) || pageDefault) === "system") apply("system");
   });
   window.addEventListener("DOMContentLoaded", () => {
     const date = document.querySelector("#edition-date");
@@ -40,6 +43,7 @@
         apply(button.dataset.themeChoice);
       });
     });
-    apply(localStorage.getItem(key) || "system");
+    const saved = localStorage.getItem(key);
+    apply(choices.has(saved) ? saved : pageDefault);
   });
 })();

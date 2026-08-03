@@ -12,11 +12,14 @@ interface Props {
   articleType?: string;
   publishedAt?: string;
   updatedAt?: string;
+  hideMarketTicker?: boolean;
+  defaultTheme?: "system" | "light" | "dark";
 }
 
 const {
   title, description, canonical = new URL(Astro.url.pathname, Astro.site),
-  noindex = false, image, articleType = "website", publishedAt, updatedAt
+  noindex = false, image, articleType = "website", publishedAt, updatedAt,
+  hideMarketTicker = false, defaultTheme = "system"
 } = Astro.props;
 const candidatePreview = import.meta.env.BOHONEWS_PREVIEW === "1";
 const socialImage = new URL(image ?? "/og.png", Astro.site);
@@ -32,7 +35,7 @@ const siteGraph = {
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme-default={defaultTheme}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
@@ -54,7 +57,7 @@ const siteGraph = {
     <meta name="twitter:card" content="summary_large_image" />
     <script is:inline type="application/ld+json" set:html={jsonForHtml(siteGraph)} />
     <script is:inline src="/theme.js"></script>
-    {!candidatePreview && <script is:inline type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>}
+    {!candidatePreview && !hideMarketTicker && <script is:inline type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>}
     {!candidatePreview && <script
       is:inline
       src="/analytics-bootstrap.js"
@@ -68,7 +71,7 @@ const siteGraph = {
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
-    <SiteHeader />
+    <SiteHeader hideMarketTicker={hideMarketTicker} />
     <main id="main">
       <slot />
     </main>
