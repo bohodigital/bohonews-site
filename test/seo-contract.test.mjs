@@ -38,6 +38,21 @@ test("site metadata exposes valid local-search structured data", async () => {
   assert.match(layout,/summary_large_image/);
   assert.match(layout,/article:published_time/);
   assert.match(layout,/article:modified_time/);
+  assert.match(layout,/https:\/\/bohonews\.com\/logo-512\.png/);
+  assert.match(layout,/favicon-48\.png/);
+  assert.match(layout,/apple-touch-icon\.png/);
+});
+
+test("masthead exposes the theme-aware BN mark in the upper-right brand position", async () => {
+  const [header,styles] = await Promise.all([
+    readFile(new URL("../src/components/SiteHeader.astro", import.meta.url),"utf8"),
+    readFile(new URL("../src/styles/global.css", import.meta.url),"utf8")
+  ]);
+  assert.match(header,/class="masthead-mark"/);
+  assert.match(header,/bohonews-mark-light\.svg/);
+  assert.match(header,/bohonews-mark-dark\.svg/);
+  assert.match(styles,/\.masthead-mark[\s\S]*position:\s*absolute[\s\S]*right:/);
+  assert.match(styles,/:root\[data-theme="dark"\] \.masthead-mark__dark/);
 });
 
 test("newsroom visual system includes broad navigation and a persistent three-mode theme", async () => {
