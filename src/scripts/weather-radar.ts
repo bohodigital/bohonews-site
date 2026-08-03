@@ -8,16 +8,17 @@ const CROSSFADE_MS = 420;
 type Location = { latitude: number; longitude: number; label?: string; countryCode?: string | null };
 type RadarManifest = {
   frames: string[];
-  tileTemplate: string;
+  imageTemplate: string;
   attribution: string;
   cadenceSeconds?: number | null;
   historyMinutes?: number | null;
 };
 type ForecastFrame = { id: string; startHour: number; endHour: number; label: string };
-type ForecastManifest = { frames: ForecastFrame[]; tileTemplate: string; attribution: string; interpretation: string };
+type ForecastManifest = { frames: ForecastFrame[]; imageTemplate: string; attribution: string; interpretation: string };
 type Mode = "observed" | "forecast";
 type Frame = string | ForecastFrame;
-type Surface = { layer: L.TileLayer; key: string | null; loading: Promise<void> | null };
+type Surface = { layer: L.ImageOverlay; key: string | null; loading: Promise<void> | null };
+const TRANSPARENT_PIXEL = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 
 async function json<T>(url: string): Promise<T> {
   const response = await fetch(url, { headers: { Accept: "application/json" } });
@@ -30,7 +31,7 @@ function frameKey(frame: Frame) {
   return typeof frame === "string" ? frame : frame.id;
 }
 
-function waitForLayer(layer: L.TileLayer, timeout = 1200) {
+function waitForLayer(layer: L.ImageOverlay, timeout = 3500) {
   return new Promise<void>((resolve) => {
     let settled = false;
     const finish = () => {
@@ -38,10 +39,12 @@ function waitForLayer(layer: L.TileLayer, timeout = 1200) {
       settled = true;
       window.clearTimeout(fallback);
       layer.off("load", finish);
+      layer.off("error", finish);
       resolve();
     };
     const fallback = window.setTimeout(finish, timeout);
     layer.once("load", finish);
+    layer.once("error", finish);
   });
 }
 
@@ -87,6 +90,7 @@ export async function initWeatherRadar(root: HTMLElement) {
     scrollWheelZoom: false
   }).setView([location.latitude, location.longitude], root.classList.contains("weather-radar--compact") ? 6 : 5);
   L.tileLayer(`${API}/map/base/{z}/{x}/{y}`, { attribution: "USGS The National Map", maxZoom: 16, updateWhenIdle: false, keepBuffer: 4 }).addTo(map);
+  map.attributionControl.addAttribution("NOAA / National Weather Service");
   ["weather-radar-a", "weather-radar-b", "weather-radar-c"].forEach((name, position) => {
     const pane = map.createPane(name);
     pane.style.zIndex = String(310 + position);
@@ -95,7 +99,7 @@ export async function initWeatherRadar(root: HTMLElement) {
   const surfaces: Surface[] = ["weather-radar-a", "weather-radar-b", "weather-radar-c"].map((pane) => ({
     key: null,
     loading: null,
-    layer: L.tileLayer("", { pane, attribution: "NOAA / National Weather Service", maxZoom: 15, opacity: 0, updateWhenIdle: false, updateWhenZooming: false, keepBuffer: 4, crossOrigin: true }).addTo(map)
+    layer: L.imageOverlay(TRANSPARENT_PIXEL, map.getBounds(), { pane, className: "weather-radar-frame", opacity: 0, interactive: false, crossOrigin: true }).addTo(map)
   }));
   const warningLayer = L.geoJSON(undefined, {
     pane: "overlayPane",
@@ -119,13 +123,26 @@ export async function initWeatherRadar(root: HTMLElement) {
     const cadence = manifest?.cadenceSeconds ? Math.round(manifest.cadenceSeconds / 60) : 2;
     return `${minutes} minutes of observed NOAA MRMS reflectivity, updated about every ${cadence} minutes. Frames are crossfaded for smooth playback; blended moments are visual transitions, not additional observations.`;
   }
-  function tile(frame: Frame) {
-    return mode === "observed"
-      ? manifest!.tileTemplate.replace("{time}", encodeURIComponent(String(frame)))
-      : forecastManifest!.tileTemplate.replace("{frame}", (frame as ForecastFrame).id);
-  }
-  function attribution() {
-    return mode === "observed" ? manifest!.attribution : forecastManifest!.attribution;
+  function imageRequest(frame: Frame) {
+    const rawBounds = map.getBounds();
+    const round = (value: number) => Number(value.toFixed(3));
+    const bounds = L.latLngBounds(
+      [round(Math.max(-85, rawBounds.getSouth())), round(Math.max(-180, rawBounds.getWest()))],
+      [round(Math.min(85, rawBounds.getNorth())), round(Math.min(180, rawBounds.getEast()))]
+    );
+    const size = map.getSize();
+    const width = Math.max(64, Math.min(1280, Math.round(size.x / 32) * 32));
+    const height = Math.max(64, Math.min(960, Math.round(size.y / 32) * 32));
+    const template = mode === "observed" ? manifest!.imageTemplate : forecastManifest!.imageTemplate;
+    const base = mode === "observed"
+      ? template.replace("{time}", encodeURIComponent(String(frame)))
+      : template.replace("{frame}", (frame as ForecastFrame).id);
+    const params = new URLSearchParams({
+      west: String(bounds.getWest()), south: String(bounds.getSouth()), east: String(bounds.getEast()), north: String(bounds.getNorth()),
+      width: String(width), height: String(height)
+    });
+    const url = `${base}&${params}`;
+    return { url, bounds, key: `${frameKey(frame)}:${bounds.toBBoxString()}:${width}x${height}` };
   }
   function targetOpacity() {
     return mode === "observed" ? OBSERVED_OPACITY : FORECAST_OPACITY;
@@ -156,17 +173,17 @@ export async function initWeatherRadar(root: HTMLElement) {
   }
   async function loadSurface(position: number, frame: Frame) {
     const surface = surfaces[position];
-    const key = frameKey(frame);
+    const request = imageRequest(frame);
+    const key = request.key;
     if (surface.key === key) {
       if (surface.loading) await surface.loading;
       return;
     }
-    const url = tile(frame);
     surface.key = key;
     surface.layer.setOpacity(0);
-    surface.layer.options.attribution = attribution();
     surface.loading = waitForLayer(surface.layer);
-    surface.layer.setUrl(url, false);
+    surface.layer.setBounds(request.bounds);
+    surface.layer.setUrl(request.url);
     await surface.loading;
     if (surface.key === key) surface.loading = null;
   }
@@ -174,7 +191,7 @@ export async function initWeatherRadar(root: HTMLElement) {
     const items = frames();
     if (!items.length) return;
     const adjacent = index < items.length - 1 ? index + 1 : 0;
-    const key = frameKey(items[adjacent]);
+    const key = imageRequest(items[adjacent]).key;
     if (surfaceFor(key) >= 0) return;
     const spare = spareSurface([activeSurface]);
     if (spare >= 0) await loadSurface(spare, items[adjacent]);
@@ -189,7 +206,7 @@ export async function initWeatherRadar(root: HTMLElement) {
     state.textContent = "Loading";
     root.dataset.radarLoading = "true";
 
-    const key = frameKey(items[index]);
+    const key = imageRequest(items[index]).key;
     let incoming = surfaceFor(key);
     if (incoming < 0) incoming = spareSurface([activeSurface]);
     if (incoming < 0) incoming = (activeSurface + 1) % surfaces.length;
@@ -289,6 +306,14 @@ export async function initWeatherRadar(root: HTMLElement) {
   alerts.addEventListener("change", () => showWarnings(alerts.checked));
   modeButtons.forEach((button) => button.addEventListener("click", () => void setMode(button.dataset.radarMode as Mode)));
   window.addEventListener("boho:weather-location", (event) => applyLocation((event as CustomEvent<Location>).detail));
+  let viewportTimer = 0;
+  map.on("moveend resize", () => {
+    window.clearTimeout(viewportTimer);
+    viewportTimer = window.setTimeout(() => {
+      surfaces.forEach((surface) => { surface.key = null; surface.loading = null; });
+      void renderFrame(index, true);
+    }, 120);
+  });
   document.addEventListener("visibilitychange", () => { if (document.hidden) stop(); });
   window.addEventListener("pagehide", stop, { once: true });
 

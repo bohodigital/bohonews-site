@@ -13,17 +13,20 @@ npm run weather:preview
 Phase 4/5 routes add:
 
 - `/api/weather/v1/radar/manifest` — up to two hours / 60 timestamped NOAA MRMS frames, including observed cadence and history metadata.
+- `/api/weather/v1/radar/image.png?time=…&west=…&south=…&east=…&north=…&width=…&height=…` — one cached, viewport-sized observed-radar image per animation frame.
 - `/api/weather/v1/radar/tiles/{z}/{x}/{y}.png?time=…` — cached, same-origin observed-radar tiles.
+- `/api/weather/v1/forecast/precipitation/image.png?frame=…&west=…&south=…&east=…&north=…&width=…&height=…` — one viewport-sized WPC forecast image per frame.
 - `/api/weather/v1/map/base/{z}/{x}/{y}` — cached USGS The National Map tiles.
 - `/api/weather/v1/warnings?lat=…&lon=…` — allowlisted NWS warning geometry for the selected point.
 
-The public weather contract is version 1.3.0 and includes nullable precipitation
+The public weather contract is version 1.3.1 and includes nullable precipitation
 amount, humidity, dew point, cloud cover, and pressure on hourly periods. Radar
 remains CONUS-only; global point forecasts use MET Norway where NWS coverage is
 unavailable.
 
-The radar client keeps three same-origin tile surfaces in rotation. It warms the
-next visible frame before playback, crossfades loaded surfaces, pauses in hidden
+The radar client keeps three same-origin viewport-image surfaces in rotation. A
+frame is one upstream image request instead of a grid of independent requests.
+It warms the next visible frame before playback, crossfades loaded surfaces, pauses in hidden
 tabs, exposes speed and latest-frame controls, and disables motion effects when
 the visitor requests reduced motion. Crossfades are visual transitions between
 real observations; they are not represented as additional observations.

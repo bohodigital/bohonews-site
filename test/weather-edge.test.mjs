@@ -31,12 +31,16 @@ test("phase 4 radar is same-origin, timestamped and source-labeled", () => {
   assert.match(worker, /conus_bref_qcd/);
   assert.match(worker, /radar\/manifest/);
   assert.match(worker, /radar\/tiles/);
+  assert.match(worker, /radar\/image\.png/);
   assert.match(worker, /USGS The National Map/);
   assert.match(radar, /\/api\/weather\/v1/);
   assert.match(worker, /slice\(-60\)/);
   assert.match(worker, /cadenceSeconds/);
   assert.match(radar, /CROSSFADE_MS/);
   assert.match(radar, /warmAdjacent/);
+  assert.match(radar, /L\.imageOverlay/);
+  assert.match(radar, /imageTemplate/);
+  assert.doesNotMatch(radar, /tileTemplate/);
   assert.match(radar, /prefers-reduced-motion/);
   assert.match(radar, /scrollWheelZoom:\s*false/);
   assert.doesNotMatch(radar, /opengeo\.ncep|basemap\.nationalmap/);
@@ -45,6 +49,7 @@ test("forecast precipitation uses an official same-origin NOAA layer and remains
   assert.match(worker, /wpc_qpf/);
   assert.match(worker, /forecast\/precipitation\/manifest/);
   assert.match(worker, /forecast\/precipitation\/tiles/);
+  assert.match(worker, /forecast\/precipitation\/image\.png/);
   assert.match(worker, /This is not observed radar/);
   assert.match(radarComponent, /Observed radar/);
   assert.match(radarComponent, /Forecast precipitation/);

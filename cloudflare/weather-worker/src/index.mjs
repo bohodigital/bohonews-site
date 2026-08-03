@@ -1,5 +1,5 @@
 const API = "/api/weather/v1";
-const VERSION = "1.3.0";
+const VERSION = "1.3.1";
 const USER_AGENT = "BohoNewsWeather/0.1 (+https://bohonews.com/contact/)";
 const RADAR_CAPABILITIES = "https://opengeo.ncep.noaa.gov/geoserver/conus/conus_bref_qcd/ows?request=GetCapabilities&service=WMS&version=1.3.0";
 const RADAR_WMS = "https://opengeo.ncep.noaa.gov/geoserver/conus/conus_bref_qcd/ows";
@@ -216,13 +216,29 @@ function tileBounds(z, x, y) {
   const maxY = half - y * span;
   return [minX, maxY - span, maxX, maxY].map((value) => value.toFixed(4)).join(",");
 }
+function mercator(longitude, latitude) {
+  const half = 20037508.342789244;
+  const x = longitude * half / 180;
+  const clamped = Math.max(-85.05112878, Math.min(85.05112878, latitude));
+  const y = Math.log(Math.tan((90 + clamped) * Math.PI / 360)) * half / Math.PI;
+  return [x, y];
+}
+function viewport(params) {
+  const west = Number(params.get("west")); const south = Number(params.get("south"));
+  const east = Number(params.get("east")); const north = Number(params.get("north"));
+  const width = Number(params.get("width")); const height = Number(params.get("height"));
+  if (![west, south, east, north].every(Number.isFinite) || west < -180 || east > 180 || south < -85.05112878 || north > 85.05112878 || west >= east || south >= north) throw new RangeError("Image bounds are invalid");
+  if (![width, height].every(Number.isInteger) || width < 64 || height < 64 || width > 1600 || height > 1200 || width * height > 1500000) throw new RangeError("Image dimensions are invalid");
+  const [minX, minY] = mercator(west, south); const [maxX, maxY] = mercator(east, north);
+  return { bbox: [minX, minY, maxX, maxY].map((value) => value.toFixed(4)).join(","), width, height };
+}
 async function radarManifest(request, ctx) {
-  const key = new Request(new URL("/__weather_cache__/radar-manifest", request.url));
+  const key = new Request(new URL(`/__weather_cache__/radar-manifest-${VERSION}`, request.url));
   const hit = await caches.default.match(key);
   if (hit) return hit;
   const xml = await (await upstreamResponse(RADAR_CAPABILITIES, "application/xml")).text();
   const frames = radarFrames(xml);
-  const response = json({ schemaVersion: VERSION, kind: "observed-radar", coverage: "CONUS", product: "MRMS quality-controlled base reflectivity", frames, ...radarTiming(frames), tileTemplate: `${API}/radar/tiles/{z}/{x}/{y}.png?time={time}`, attribution: "NOAA / National Weather Service MRMS", sourceUrl: "https://opengeo.ncep.noaa.gov/geoserver/www/index.html" }, 200, "public, max-age=90, stale-while-revalidate=300");
+  const response = json({ schemaVersion: VERSION, kind: "observed-radar", coverage: "CONUS", product: "MRMS quality-controlled base reflectivity", frames, ...radarTiming(frames), imageTemplate: `${API}/radar/image.png?time={time}`, tileTemplate: `${API}/radar/tiles/{z}/{x}/{y}.png?time={time}`, attribution: "NOAA / National Weather Service MRMS", sourceUrl: "https://opengeo.ncep.noaa.gov/geoserver/www/index.html" }, 200, "public, max-age=90, stale-while-revalidate=300");
   ctx.waitUntil(caches.default.put(key, response.clone()));
   return response;
 }
@@ -233,6 +249,7 @@ function forecastPrecipitationManifest() {
     coverage: "CONUS",
     product: "WPC quantitative precipitation forecast",
     frames: WPC_QPF_FRAMES.map(({ id, startHour, endHour, label }) => ({ id, startHour, endHour, label })),
+    imageTemplate: `${API}/forecast/precipitation/image.png?frame={frame}`,
     tileTemplate: `${API}/forecast/precipitation/tiles/{frame}/{z}/{x}/{y}.png`,
     attribution: "NOAA / National Weather Service Weather Prediction Center",
     sourceUrl: "https://www.wpc.ncep.noaa.gov/qpf/qpf2.shtml",
@@ -259,6 +276,14 @@ async function radarTile(request, ctx, match) {
   const params = new URLSearchParams({ service: "WMS", version: "1.1.1", request: "GetMap", layers: "conus_bref_qcd", styles: "radar_reflectivity", bbox: tileBounds(z, x, y), width: "256", height: "256", srs: "EPSG:3857", format: "image/png", transparent: "true", time: new Date(time).toISOString() });
   return proxyTile(request, ctx, `${RADAR_WMS}?${params}`, 3600, "NOAA / National Weather Service MRMS");
 }
+async function radarImage(request, ctx) {
+  const url = new URL(request.url);
+  const time = url.searchParams.get("time");
+  if (!time || Number.isNaN(Date.parse(time))) return problem(400, "invalid_time", "Radar images require a valid frame timestamp");
+  const view = viewport(url.searchParams);
+  const params = new URLSearchParams({ service: "WMS", version: "1.1.1", request: "GetMap", layers: "conus_bref_qcd", styles: "radar_reflectivity", bbox: view.bbox, width: String(view.width), height: String(view.height), srs: "EPSG:3857", format: "image/png", transparent: "true", time: new Date(time).toISOString() });
+  return proxyTile(request, ctx, `${RADAR_WMS}?${params}`, 3600, "NOAA / National Weather Service MRMS");
+}
 async function forecastPrecipitationTile(request, ctx, match) {
   const frame = WPC_QPF_FRAMES.find((item) => item.id === match[1]);
   const z = Number(match[2]); const x = Number(match[3]); const y = Number(match[4]);
@@ -268,6 +293,14 @@ async function forecastPrecipitationTile(request, ctx, match) {
     bbox: tileBounds(z, x, y), bboxSR: "3857", imageSR: "3857", size: "256,256", format: "png32",
     transparent: "true", f: "image", layers: `show:${frame.layer}`
   });
+  return proxyTile(request, ctx, `${WPC_QPF}?${params}`, 21600, "NOAA / NWS Weather Prediction Center QPF");
+}
+async function forecastPrecipitationImage(request, ctx) {
+  const url = new URL(request.url);
+  const frame = WPC_QPF_FRAMES.find((item) => item.id === url.searchParams.get("frame"));
+  if (!frame) return problem(404, "forecast_frame_not_found", "Forecast precipitation frame is unavailable");
+  const view = viewport(url.searchParams);
+  const params = new URLSearchParams({ bbox: view.bbox, bboxSR: "3857", imageSR: "3857", size: `${view.width},${view.height}`, format: "png32", transparent: "true", f: "image", layers: `show:${frame.layer}` });
   return proxyTile(request, ctx, `${WPC_QPF}?${params}`, 21600, "NOAA / NWS Weather Prediction Center QPF");
 }
 async function baseTile(request, ctx, match) {
@@ -287,6 +320,8 @@ async function handleApi(request, env, ctx) {
   if (url.pathname === `${API}/layers`) return json({ schemaVersion: VERSION, layers: [{ id: "forecast", kind: "forecast", coverage: "global", status: "available" }, { id: "alerts", kind: "observed-alerts", coverage: "US", status: "available" }, { id: "radar", kind: "observed-radar", coverage: "CONUS", status: "available" }, { id: "forecast-precipitation", kind: "forecast-precipitation", coverage: "CONUS", status: "available" }] }, 200, "public, max-age=300");
   if (url.pathname === `${API}/radar/manifest`) return radarManifest(request, ctx);
   if (url.pathname === `${API}/forecast/precipitation/manifest`) return json(forecastPrecipitationManifest(), 200, "public, max-age=21600, stale-while-revalidate=43200");
+  if (url.pathname === `${API}/radar/image.png`) return radarImage(request, ctx);
+  if (url.pathname === `${API}/forecast/precipitation/image.png`) return forecastPrecipitationImage(request, ctx);
   const radarMatch = url.pathname.match(new RegExp(`^${API}/radar/tiles/(\\d+)/(\\d+)/(\\d+)\\.png$`));
   if (radarMatch) return radarTile(request, ctx, radarMatch);
   const forecastPrecipitationMatch = url.pathname.match(new RegExp(`^${API}/forecast/precipitation/tiles/([a-z0-9-]+)/(\\d+)/(\\d+)/(\\d+)\\.png$`));
