@@ -28,10 +28,20 @@ test("all three games expose keyboard and status contracts", async () => {
 
 test("Wordle scoring handles repeated letters and uses the requested hint colors", async () => {
   const word = await page("daily-word.astro");
+  const layout = await readFile(new URL("../src/layouts/GamesLayout.astro", import.meta.url), "utf8");
   assert.deepEqual(scoreWordleGuess("ALLEY","APPLE"),["correct","present","absent","present","absent"]);
   assert.ok(WORDLE_ANSWERS.length >= 200);
-  for (const color of ["#787c7e","#c9b458","#6aaa64"]) assert.match(word,new RegExp(color));
+  for (const color of ["#787c7e","#c9b458","#6aaa64"]) assert.match(layout,new RegExp(color));
   assert.match(word,/allowedWordData\.words/);
+});
+
+test("game route styles survive the governed publisher as an external asset", async () => {
+  const [layout, word, mini, sudoku] = await Promise.all([
+    readFile(new URL("../src/layouts/GamesLayout.astro", import.meta.url), "utf8"),
+    page("daily-word.astro"), page("mini.astro"), page("sudoku.astro")
+  ]);
+  for (const selector of [".word-board", ".mini-grid", ".sudoku-grid"]) assert.match(layout, new RegExp(selector.replace(".", "\\.")));
+  for (const source of [word, mini, sudoku]) assert.doesNotMatch(source, /<style\b/);
 });
 
 test("crossword and Sudoku use reviewed local generators", async () => {

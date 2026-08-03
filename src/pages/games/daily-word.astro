@@ -29,22 +29,6 @@ const keys = ["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
   <p class="game-note">Gray means absent, yellow means the wrong spot, and green means the right spot. Progress stays on this device.</p>
 </GamesLayout>
 
-<style>
-  .word-board { display: grid; gap: .34rem; grid-template-columns: repeat(5,1fr); margin: 1rem auto 1.6rem; max-width: 21rem; }
-  .word-tile { align-items: center; aspect-ratio: 1; border: 2px solid var(--border-strong); display: flex; font-size: clamp(1.5rem,6vw,2.15rem); font-weight: 900; justify-content: center; text-transform: uppercase; }
-  .word-tile[data-filled="true"] { border-color: var(--text); }
-  .word-tile[data-result="correct"] { background: #6aaa64; border-color: #6aaa64; color: #fff; }
-  .word-tile[data-result="present"] { background: #c9b458; border-color: #c9b458; color: #fff; }
-  .word-tile[data-result="absent"] { background: #787c7e; border-color: #787c7e; color: #fff; }
-  .word-keyboard { margin: 0 auto; max-width: 40rem; user-select: none; }
-  .word-keyboard__row { display: flex; gap: .28rem; justify-content: center; margin-bottom: .32rem; }
-  .word-key { background: var(--border); border: 0; border-radius: .2rem; color: var(--text); cursor: pointer; flex: 1 1 0; font-size: clamp(.72rem,2.4vw,1rem); font-weight: 850; height: 3.45rem; max-width: 3.4rem; padding: 0; }
-  .word-key--wide { flex-basis: 1.55rem; font-size: .62rem; max-width: 4.5rem; text-transform: uppercase; }
-  .word-key[data-result="correct"] { background: #6aaa64; color: #fff; }
-  .word-key[data-result="present"] { background: #c9b458; color: #fff; }
-  .word-key[data-result="absent"] { background: #787c7e; color: #fff; }
-</style>
-
 <script>
   // @ts-nocheck -- Browser interaction is covered by focused unit and browser QA.
   import allowedWordData from "../../lib/games/wordle-allowed.json";

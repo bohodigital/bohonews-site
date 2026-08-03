@@ -79,11 +79,61 @@ const { title, description, game } = Astro.props;
   .game-button--secondary { background: transparent; color: var(--text); }
   .game-button[hidden] { display: none; }
   .game-note { border-top: 1px solid var(--border); color: var(--text-muted); font-size: .75rem; margin: 2.5rem auto 0; max-width: 38rem; padding-top: 1rem; text-align: center; }
+
+  /* Keep route-specific game styling in this external asset. The governed
+     production publisher intentionally removes page-level inline styles. */
+  .word-board { display: grid; gap: .34rem; grid-template-columns: repeat(5,1fr); margin: 1rem auto 1.6rem; max-width: 21rem; }
+  .word-tile { align-items: center; aspect-ratio: 1; border: 2px solid var(--border-strong); display: flex; font-size: clamp(1.5rem,6vw,2.15rem); font-weight: 900; justify-content: center; text-transform: uppercase; }
+  .word-tile[data-filled="true"] { border-color: var(--text); }
+  .word-tile[data-result="correct"] { background: #6aaa64; border-color: #6aaa64; color: #fff; }
+  .word-tile[data-result="present"] { background: #c9b458; border-color: #c9b458; color: #fff; }
+  .word-tile[data-result="absent"] { background: #787c7e; border-color: #787c7e; color: #fff; }
+  .word-keyboard { margin: 0 auto; max-width: 40rem; user-select: none; }
+  .word-keyboard__row { display: flex; gap: .28rem; justify-content: center; margin-bottom: .32rem; }
+  .word-key { background: var(--border); border: 0; border-radius: .2rem; color: var(--text); cursor: pointer; flex: 1 1 0; font-size: clamp(.72rem,2.4vw,1rem); font-weight: 850; height: 3.45rem; max-width: 3.4rem; padding: 0; }
+  .word-key--wide { flex-basis: 1.55rem; font-size: .62rem; max-width: 4.5rem; text-transform: uppercase; }
+  .word-key[data-result="correct"] { background: #6aaa64; color: #fff; }
+  .word-key[data-result="present"] { background: #c9b458; color: #fff; }
+  .word-key[data-result="absent"] { background: #787c7e; color: #fff; }
+
+  .mini-layout { display: grid; gap: clamp(2rem,5vw,5rem); grid-template-columns: minmax(18rem,.9fr) minmax(18rem,1.1fr); margin: 0 auto; max-width: 68rem; }
+  .mini-layout > * { min-width: 0; }
+  .mini-grid { --mini-cols: 7; background: var(--text); border: 3px solid var(--text); box-sizing: border-box; display: grid; grid-template-columns: repeat(var(--mini-cols),minmax(0,1fr)); margin: 1rem auto; max-width: min(34rem,calc(100vw - 2rem)); width: 100%; }
+  .mini-cell,.mini-block { aspect-ratio: 1; min-width: 0; }
+  .mini-block { background: var(--text); }
+  .mini-cell { background: var(--surface); border-bottom: 1px solid var(--text); border-right: 1px solid var(--text); display: block; position: relative; }
+  .mini-cell span { color: var(--text); font-size: clamp(.46rem,1.2vw,.66rem); font-weight: 850; left: .14rem; line-height: 1; position: absolute; top: .12rem; z-index: 1; }
+  .mini-cell input { background: var(--surface); border: 0; box-sizing: border-box; color: var(--text); font-size: clamp(1rem,3.4vw,1.8rem); font-weight: 850; height: 100%; min-width: 0; padding: .16rem; text-align: center; text-transform: uppercase; width: 100%; }
+  .mini-cell input:focus { background: var(--accent-soft); outline: .2rem solid var(--focus); outline-offset: -.2rem; }
+  .mini-cell input[aria-invalid="true"] { background: #f7d5d1; color: #7f1813; }
+  .mini-clues { display: grid; gap: 2rem; grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .mini-clues h2 { border-top: .18rem solid var(--text); font-size: 1.65rem; padding-top: .55rem; }
+  .mini-clues ol { list-style: none; margin: 0; padding: 0; }
+  .mini-clues li { border-top: 1px solid var(--border); display: grid; font-family: var(--serif); gap: .55rem; grid-template-columns: 1.2rem 1fr; line-height: 1.25; padding: .7rem 0; }
+  .mini-clues li span { font-family: var(--sans); font-size: .72rem; font-weight: 900; }
+
+  .sudoku-panel { max-width: 42rem; }
+  .sudoku-grid { border: 3px solid var(--text); display: grid; grid-template-columns: repeat(9,1fr); margin: 1rem auto 1.2rem; max-width: 34rem; }
+  .sudoku-cell { align-items: center; aspect-ratio: 1; background: var(--surface); border: 0; border-bottom: 1px solid var(--border-strong); border-right: 1px solid var(--border-strong); color: var(--accent); cursor: pointer; display: flex; font-size: clamp(1rem,4vw,1.75rem); font-weight: 750; justify-content: center; padding: 0; }
+  .sudoku-cell:nth-child(9n) { border-right: 0; }
+  .sudoku-cell:nth-child(3n):not(:nth-child(9n)) { border-right: 3px solid var(--text); }
+  .sudoku-cell:nth-child(n+19):nth-child(-n+27),.sudoku-cell:nth-child(n+46):nth-child(-n+54) { border-bottom: 3px solid var(--text); }
+  .sudoku-cell:nth-child(n+73) { border-bottom: 0; }
+  .sudoku-cell--given { color: var(--text); cursor: default; font-weight: 900; }
+  .sudoku-cell[aria-selected="true"] { background: var(--accent-soft); outline: .18rem solid var(--focus); outline-offset: -.18rem; }
+  .sudoku-cell[aria-invalid="true"] { background: #f7d5d1; color: #7f1813; }
+  .sudoku-pad { display: grid; gap: .35rem; grid-template-columns: repeat(10,1fr); margin: 0 auto; max-width: 34rem; }
+  .sudoku-pad button { background: var(--border); border: 0; color: var(--text); cursor: pointer; font-size: 1rem; font-weight: 850; min-height: 2.8rem; }
+  .sudoku-difficulty { align-items: center; border: 1px solid var(--text); display: flex; font-size: .68rem; font-weight: 900; gap: .5rem; letter-spacing: .06em; padding: .45rem .65rem; text-transform: uppercase; }
+  .sudoku-difficulty select { background: var(--surface); border: 0; color: var(--text); font: inherit; min-height: 1.8rem; }
   @media (max-width: 48rem) {
     .games-hero { align-items: start; grid-template-columns: 1fr; }
     .game-grid { grid-template-columns: 1fr; }
     .game-card { border-right: 0; min-height: 20rem; }
     .game-heading h1 { font-size: clamp(2.8rem,16vw,5rem); }
+    .mini-layout { grid-template-columns: 1fr; }
+    .mini-clues { gap: 1rem; }
   }
+  @media (max-width: 34rem) { .sudoku-pad { grid-template-columns: repeat(5,1fr); } }
   @media (prefers-reduced-motion: reduce) { .games-shell * { scroll-behavior: auto !important; transition: none !important; } }
 </style>
