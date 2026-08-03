@@ -5,22 +5,22 @@ const { compact = false } = Astro.props;
 <section class:list={["weather-radar", compact && "weather-radar--compact"]} data-weather-radar aria-label="Observed radar and forecast precipitation">
   <div class="weather-radar__stage">
     <div class="weather-radar__map" data-radar-map role="region" aria-label="Interactive NOAA radar and precipitation forecast map"></div>
-    <div class="weather-radar__live" aria-live="polite"><span data-radar-state>Loading</span><strong data-radar-age>NOAA MRMS</strong></div>
-    <div class="weather-radar__legend" data-radar-legend aria-label="Radar reflectivity legend"><span data-radar-legend-low>Light</span><i></i><span data-radar-legend-high>Intense</span></div>
+    <div class="weather-radar__live" aria-live="polite"><span data-radar-state>Loading</span><strong data-radar-age>NOAA WPC outlook</strong></div>
+    <div class="weather-radar__legend" data-radar-legend aria-label="Forecast precipitation amount legend"><span data-radar-legend-low>Lower</span><i></i><span data-radar-legend-high>Higher</span></div>
   </div>
   <div class="weather-radar__modes" role="group" aria-label="Weather map layer">
-    <button type="button" data-radar-mode="observed" aria-pressed="true">Observed radar</button>
-    <button type="button" data-radar-mode="forecast" aria-pressed="false">Forecast precipitation</button>
+    <button type="button" data-radar-mode="observed" aria-pressed="false">Observed radar</button>
+    <button type="button" data-radar-mode="forecast" aria-pressed="true">Forecast precipitation</button>
   </div>
   <div class="weather-radar__toolbar">
-    <button type="button" data-radar-play aria-pressed="false">Play radar</button>
-    <label class="weather-radar__timeline"><span>Radar timeline</span><input data-radar-frame type="range" min="0" max="0" value="0" aria-label="Radar frame" /></label>
-    <time data-radar-time>Loading NOAA radar…</time>
+    <button type="button" data-radar-play aria-pressed="false">Play forecast</button>
+    <label class="weather-radar__timeline"><span>Forecast timeline</span><input data-radar-frame type="range" min="0" max="0" value="0" aria-label="Forecast precipitation frame" /></label>
+    <time data-radar-time>Loading NOAA precipitation forecast…</time>
     <button class="weather-radar__utility" type="button" data-radar-speed aria-label="Change animation speed">1× speed</button>
-    <button class="weather-radar__utility" type="button" data-radar-latest>Latest</button>
-    <label class="weather-radar__toggle"><input data-radar-alerts type="checkbox" checked /> Warnings</label>
+    <button class="weather-radar__utility" type="button" data-radar-latest hidden>Latest</button>
+    <label class="weather-radar__toggle" hidden><input data-radar-alerts type="checkbox" checked /> Warnings</label>
   </div>
-  <p class="weather-radar__note" data-radar-note>Two hours of observed NOAA MRMS reflectivity, smoothly animated across the continental United States. Forecast precipitation is shown separately.</p>
+  <p class="weather-radar__note" data-radar-note>Official NOAA forecast liquid-equivalent precipitation is shown by default. This is distinct from observed radar.</p>
 </section>
 
 <script>

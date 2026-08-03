@@ -54,6 +54,8 @@ test("forecast precipitation uses an official same-origin NOAA layer and remains
   assert.match(worker, /This is not observed radar/);
   assert.match(radarComponent, /Observed radar/);
   assert.match(radarComponent, /Forecast precipitation/);
+  assert.match(radarComponent, /data-radar-mode="forecast" aria-pressed="true"/);
+  assert.match(radar, /let mode: Mode = "forecast"/);
   assert.doesNotMatch(radar, /5\.7/);
   assert.doesNotMatch(radar, /mapservices\.weather\.noaa\.gov/);
 });

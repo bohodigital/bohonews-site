@@ -60,16 +60,17 @@ export async function initWeatherRadar(root: HTMLElement) {
   const latest = root.querySelector<HTMLButtonElement>("[data-radar-latest]")!;
   const state = root.querySelector<HTMLElement>("[data-radar-state]")!;
   const age = root.querySelector<HTMLElement>("[data-radar-age]")!;
+  const timelineLabel = root.querySelector<HTMLElement>(".weather-radar__timeline span")!;
   const modeButtons = [...root.querySelectorAll<HTMLButtonElement>("[data-radar-mode]")];
   const legend = root.querySelector<HTMLElement>("[data-radar-legend]")!;
   const legendLow = root.querySelector<HTMLElement>("[data-radar-legend-low]")!;
   const legendHigh = root.querySelector<HTMLElement>("[data-radar-legend-high]")!;
-  if (!mapNode || !slider || !play || !time || !note || !alerts || !speed || !latest || !state || !age || modeButtons.length !== 2 || !legend || !legendLow || !legendHigh) return;
+  if (!mapNode || !slider || !play || !time || !note || !alerts || !speed || !latest || !state || !age || !timelineLabel || modeButtons.length !== 2 || !legend || !legendLow || !legendHigh) return;
 
   let location: Location = { latitude: 41.9, longitude: -87.65, countryCode: "US" };
   let manifest: RadarManifest | null = null;
   let forecastManifest: ForecastManifest | null = null;
-  let mode: Mode = "observed";
+  let mode: Mode = "forecast";
   let index = 0;
   let activeSurface = 0;
   let playToken = 0;
@@ -268,24 +269,27 @@ export async function initWeatherRadar(root: HTMLElement) {
     play.setAttribute("aria-pressed", "true");
     void playLoop(playToken);
   }
+  function syncModeControls() {
+    const observed = mode === "observed";
+    modeButtons.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.radarMode === mode)));
+    alerts.closest("label")?.toggleAttribute("hidden", !observed);
+    latest.toggleAttribute("hidden", !observed);
+    play.textContent = observed ? "Play radar" : "Play forecast";
+    timelineLabel.textContent = observed ? "Radar timeline" : "Forecast timeline";
+    slider.setAttribute("aria-label", observed ? "Radar frame" : "Forecast precipitation frame");
+    legend.setAttribute("aria-label", observed ? "Radar reflectivity legend" : "Forecast precipitation amount legend");
+    legendLow.textContent = observed ? "Light" : "Lower";
+    legendHigh.textContent = observed ? "Intense" : "Higher";
+  }
   async function setMode(next: Mode) {
     if (next === mode) return;
     stop();
     mode = next;
     index = mode === "observed" ? Math.max(0, frames().length - 1) : 0;
     slider.max = String(Math.max(0, frames().length - 1));
-    modeButtons.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.radarMode === mode)));
-    alerts.closest("label")?.toggleAttribute("hidden", mode === "forecast");
-    latest.toggleAttribute("hidden", mode === "forecast");
-    if (mode === "observed") {
-      legend.setAttribute("aria-label", "Radar reflectivity legend");
-      legendLow.textContent = "Light";
-      legendHigh.textContent = "Intense";
-    } else {
-      legend.setAttribute("aria-label", "Forecast precipitation amount legend");
-      legendLow.textContent = "Lower";
-      legendHigh.textContent = "Higher";
-    }
+    syncModeControls();
+    showWarnings(mode === "observed" && alerts.checked);
+    if (mode === "observed") void loadWarnings();
     note.textContent = availableNote();
     surfaces.forEach((surface) => { surface.key = null; surface.loading = null; surface.layer.setOpacity(0); });
     await renderFrame(index, true);
@@ -311,7 +315,7 @@ export async function initWeatherRadar(root: HTMLElement) {
       if (!inConus && map.hasLayer(layer)) layer.removeFrom(map);
     });
     note.textContent = inConus ? availableNote() : "NOAA radar and this forecast-precipitation layer currently cover the continental United States; the forecast and graphs remain global.";
-    if (inConus) void loadWarnings();
+    if (inConus && mode === "observed") void loadWarnings();
     else warningLayer.clearLayers();
   }
 
@@ -322,7 +326,7 @@ export async function initWeatherRadar(root: HTMLElement) {
     speed.textContent = speedLabels[speedIndex];
   });
   latest.addEventListener("click", () => { stop(); void renderFrame(frames().length - 1); });
-  alerts.addEventListener("change", () => showWarnings(alerts.checked));
+  alerts.addEventListener("change", () => showWarnings(mode === "observed" && alerts.checked));
   modeButtons.forEach((button) => button.addEventListener("click", () => void setMode(button.dataset.radarMode as Mode)));
   window.addEventListener("boho:weather-location", (event) => applyLocation((event as CustomEvent<Location>).detail));
   let viewportTimer = 0;
@@ -342,10 +346,12 @@ export async function initWeatherRadar(root: HTMLElement) {
       json<RadarManifest>(`${API}/radar/manifest?client=${CLIENT_CONTRACT}`),
       json<ForecastManifest>(`${API}/forecast/precipitation/manifest?client=${CLIENT_CONTRACT}`)
     ]);
-    slider.max = String(Math.max(0, manifest.frames.length - 1));
-    index = Math.max(0, manifest.frames.length - 1);
+    slider.max = String(Math.max(0, frames().length - 1));
+    index = 0;
+    syncModeControls();
+    showWarnings(false);
     note.textContent = availableNote();
-    if (manifest.frames.length) await renderFrame(index, true);
+    if (frames().length) await renderFrame(index, true);
     applyLocation(location);
     window.setTimeout(() => map.invalidateSize(), 0);
   } catch (error) {
