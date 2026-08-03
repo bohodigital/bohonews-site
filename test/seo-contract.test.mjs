@@ -35,9 +35,29 @@ test("site metadata exposes valid local-search structured data", async () => {
   assert.match(layout,/"@type":"SearchAction"/);
   assert.match(layout,/search_term_string/);
   assert.match(layout,/og:image:width/);
+  assert.match(layout,/\/brand\/bohonews-logo\.png/);
+  assert.match(layout,/twitter:image/);
+  assert.match(layout,/site\.webmanifest/);
   assert.match(layout,/summary_large_image/);
   assert.match(layout,/article:published_time/);
   assert.match(layout,/article:modified_time/);
+});
+
+test("Boho News identity assets are wired into masthead, footer, icons and metadata", async () => {
+  const [layout,header,manifest,logo,profile] = await Promise.all([
+    readFile(new URL("../src/layouts/BaseLayout.astro", import.meta.url),"utf8"),
+    readFile(new URL("../src/components/SiteHeader.astro", import.meta.url),"utf8"),
+    readFile(new URL("../public/site.webmanifest", import.meta.url),"utf8"),
+    readFile(new URL("../public/brand/bohonews-logo.png", import.meta.url)),
+    readFile(new URL("../public/brand/bohonews-profile-1024.png", import.meta.url))
+  ]);
+  assert.match(header,/brand\/bohonews-logo\.png/);
+  assert.match(layout,/favicon-32x32\.png/);
+  assert.match(layout,/apple-touch-icon\.png/);
+  assert.match(manifest,/android-chrome-512x512\.png/);
+  for (const image of [logo,profile]) {
+    assert.deepEqual([...image.subarray(0,8)],[0x89,0x50,0x4e,0x47,0x0d,0x0a,0x1a,0x0a]);
+  }
 });
 
 test("newsroom visual system includes broad navigation and a persistent three-mode theme", async () => {
