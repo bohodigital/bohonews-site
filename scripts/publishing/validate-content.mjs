@@ -141,11 +141,14 @@ export function validatePublicState(promotion, release, schema, options = {}) {
   }
   for (const article of promotion.articles) {
     if (preview) {
-      if (article.publishedAt !== null || article.updatedAt !== null
-        || article.releaseId !== null || article.publicChangeLog.length) {
-        throw new Error(`Candidate article contains invented release fields: ${article.id}`);
+      const releaseUnbound = article.publishedAt === null
+        && article.updatedAt === null
+        && article.releaseId === null
+        && article.publicChangeLog.length === 0;
+      if (releaseUnbound) continue;
+      if (article.publishedAt === null || article.updatedAt === null || article.releaseId === null) {
+        throw new Error(`Candidate article contains invented release fields or a partial release binding: ${article.id}`);
       }
-      continue;
     }
     const firstRelease = releases.get(article.releaseId);
     const firstPublicAt = firstRelease?.schemaVersion === "2.0.0"

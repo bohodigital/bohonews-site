@@ -19,7 +19,9 @@ export const getStaticPaths = (async () => {
 const { article } = Astro.props;
 const isInterlochenArticleOne =
   article.id === "interlochen-abuse-investigation-report-findings";
-const jsonLd = articleJsonLd(article);
+const jsonLd = articleJsonLd(candidatePreviewEnabled
+  ? {...article,publishedAt:null,updatedAt:null}
+  : article);
 const approvedBodyBytes = await crypto.subtle.digest(
   "SHA-256",
   new TextEncoder().encode(article.body)

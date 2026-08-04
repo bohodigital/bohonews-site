@@ -25,9 +25,6 @@ export async function validatePreviewSource() {
     readFile(schemaPath,"utf8").then(JSON.parse)
   ]);
   const result = validatePublicState(promotion,release,schema,{preview:true});
-  if (promotion.releaseRecords.length !== 0) {
-    throw new Error("Candidate preview cannot contain production release records");
-  }
   return {promotion,result};
 }
 
