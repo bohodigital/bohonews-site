@@ -1,9 +1,9 @@
 {
-  "articleCount": 19,
+  "articleCount": 24,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-04T04:30:00Z",
-  "mediaCount": 43,
-  "packageDigest": "5d9ad2be9fddbe5cec9ded296e65e874e87448de32c6b65b26f1627516858dda",
+  "generatedAt": "2026-08-04T21:33:46Z",
+  "mediaCount": 58,
+  "packageDigest": "88897c851dc098d16c99584cc23c3dfbbb56fe7dff165203a9a191a5514855cd",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -138,6 +138,27 @@
       "providerActivatedAt": "2026-07-30T21:17:02.846516Z",
       "recordHash": "69ddd1432a95be9bfc5daa4a9944a1dcbba4ff12e84874ea69d8f4cefac97407",
       "releaseId": "release-pb-20260730t204322z-e644bd39c495-4f4a40de79cc",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://0b827ede.bohonews.pages.dev/",
+      "activationEvidenceHash": "7f799cf2207131482ae76d3f902037cc5d9823ecba5c3e7f7b9f9e1da6006f04",
+      "canonicalFirstPublicAt": "2026-07-31T05:12:22.062Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/interlochen-abuse-investigation-report-findings/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "interlochen-abuse-investigation-report-findings"
+      ],
+      "previousVerifiedDeploymentReference": "4915b09702e40a04269e21d5d82cedf452f5b8fb46a99c417dad761140b1e2e5",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-31T05:11:20.305434Z",
+      "recordHash": "b257c905607aa6251fbe770073b50e67a0b9062917de0f84efdda230addc1f40",
+      "releaseId": "release-pb-20260731t050909z-bfcf50c81164-bfcf50c81164",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     },
@@ -292,22 +313,30 @@
     },
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
-      "activationDeploymentUrl": "https://0b827ede.bohonews.pages.dev/",
-      "activationEvidenceHash": "b4594dad03d86e7fd6703225ab8894c8408f05959fdffec3f29c9cbc5230bfbf",
-      "canonicalFirstPublicAt": "2026-07-31T05:12:22.062Z",
+      "activationDeploymentUrl": "https://6487bafc.bohonews.pages.dev/",
+      "activationEvidenceHash": "b34ded52e3214d867dd4de4449ea88fb829ebced08006c0bd58e9ede28ccfa8e",
+      "canonicalFirstPublicAt": "2026-08-04T21:33:38.163Z",
       "canonicalUrls": [
-        "https://bohonews.com/articles/interlochen-abuse-investigation-report-findings/"
+        "https://bohonews.com/articles/doj-task-force-officers-training-misconduct-gao/",
+        "https://bohonews.com/articles/hurricane-cone-inland-warnings-2026-explainer/",
+        "https://bohonews.com/articles/library-of-congress-source-research-gallery-kids/",
+        "https://bohonews.com/articles/nasa-three-august-2026-spacewalks-iss/",
+        "https://bohonews.com/articles/nist-five-fabric-squares-textile-recycling-test/"
       ],
       "deploymentProvider": "cloudflare-pages",
       "environment": "production",
       "newArticleIds": [
-        "interlochen-abuse-investigation-report-findings"
+        "article-doj-task-force-training-misconduct",
+        "article-hurricane-cone-inland-warnings",
+        "article-library-of-congress-source-research-gallery-kids",
+        "article-nasa-three-august-2026-spacewalks-iss",
+        "article-nist-five-fabric-squares-textile-recycling-test"
       ],
-      "previousVerifiedDeploymentReference": "4915b09702e40a04269e21d5d82cedf452f5b8fb46a99c417dad761140b1e2e5",
+      "previousVerifiedDeploymentReference": "dcd7de0c621355cdefa72f9f26b3e9b12478acb9f030bc966e557f8973a6b986",
       "project": "bohonews",
-      "providerActivatedAt": "2026-07-31T05:11:20.305434Z",
-      "recordHash": "c7b0fa1c03c846a57e746c646196e89c2db1f40450f20b486e1423b139980368",
-      "releaseId": "release-pb-20260731t050909z-bfcf50c81164-bfcf50c81164",
+      "providerActivatedAt": "2026-08-04T21:32:05.191594Z",
+      "recordHash": "177fe192c15a50737b844c0eef6198588711da0ff334800abffb0ee13309aea3",
+      "releaseId": "release-pb-20260804t205041z-b32d4546a040-19664aff7de3",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }
@@ -316,11 +345,17 @@
   "routes": [
     "/articles/ai-data-center-ratepayer-protection-pledge-expands/",
     "/articles/dea-7-oh-schedule-i-threshold-action-guide/",
+    "/articles/doj-task-force-officers-training-misconduct-gao/",
     "/articles/employer-compensation-costs-june-2026/",
     "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/house-iran-war-powers-vote-214-208/",
+    "/articles/hurricane-cone-inland-warnings-2026-explainer/",
+    "/articles/interlochen-abuse-investigation-report-findings/",
+    "/articles/library-of-congress-source-research-gallery-kids/",
     "/articles/metro-unemployment-payroll-growth-june-2026/",
+    "/articles/nasa-three-august-2026-spacewalks-iss/",
+    "/articles/nist-five-fabric-squares-textile-recycling-test/",
     "/articles/pce-prices-consumer-spending-june-2026/",
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
     "/articles/trump-section-301-tariffs-60-economies/",
@@ -331,8 +366,7 @@
     "/articles/what-house-iran-war-powers-vote-can-do/",
     "/articles/what-is-section-301-trade-act/",
     "/articles/who-controls-smithsonian-board-regents/",
-    "/articles/work-training-americans-born-1980-1984/",
-    "/articles/interlochen-abuse-investigation-report-findings/"
+    "/articles/work-training-americans-born-1980-1984/"
   ],
   "schemaVersion": "2.1.1"
 }
