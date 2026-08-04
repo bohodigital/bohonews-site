@@ -1,9 +1,9 @@
 {
-  "articleCount": 24,
+  "articleCount": 27,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-04T21:33:46Z",
-  "mediaCount": 58,
-  "packageDigest": "88897c851dc098d16c99584cc23c3dfbbb56fe7dff165203a9a191a5514855cd",
+  "generatedAt": "2026-08-04T22:40:55Z",
+  "mediaCount": 67,
+  "packageDigest": "dee3dd637e2cbd329e83a01869fc936b030e6ee1b2ed023e823f9b4001d9ccb3",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -339,6 +339,31 @@
       "releaseId": "release-pb-20260804t205041z-b32d4546a040-19664aff7de3",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://2057f1e5.bohonews.pages.dev/",
+      "activationEvidenceHash": "74fba3dbd51704e51d27e72d4a0e60a6971e0201d310cdeca357720397c79fb4",
+      "canonicalFirstPublicAt": "2026-08-04T22:40:42.275Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/national-park-week-2026-fee-free-august-25/",
+        "https://bohonews.com/articles/noaa-coral-torpedo-deep-gulf-restoration/",
+        "https://bohonews.com/articles/usgs-low-level-geophysical-flights-eastern-kansas/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-national-park-week-2026-fee-free-august-25",
+        "article-noaa-coral-torpedo-deep-gulf-restoration",
+        "article-usgs-low-level-geophysical-flights-eastern-kansas"
+      ],
+      "previousVerifiedDeploymentReference": "db58e97f7ef582260a755eb4994f661f7216cb471d6d0d8507a11394a480cf05",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-04T22:39:10.657845Z",
+      "recordHash": "bda3aeb4e28cd25b5b080fce9b17162cc0e8122e6b575d409a78399233811dd8",
+      "releaseId": "release-pb-20260804t222524z-706547ae0c26-def8c02969c8",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -355,7 +380,9 @@
     "/articles/library-of-congress-source-research-gallery-kids/",
     "/articles/metro-unemployment-payroll-growth-june-2026/",
     "/articles/nasa-three-august-2026-spacewalks-iss/",
+    "/articles/national-park-week-2026-fee-free-august-25/",
     "/articles/nist-five-fabric-squares-textile-recycling-test/",
+    "/articles/noaa-coral-torpedo-deep-gulf-restoration/",
     "/articles/pce-prices-consumer-spending-june-2026/",
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
     "/articles/trump-section-301-tariffs-60-economies/",
@@ -363,6 +390,7 @@
     "/articles/us-crude-inventories-fall-refineries-july-2026/",
     "/articles/us-gdp-growth-slows-q2-2026/",
     "/articles/us-gdp-growth-slows-second-quarter-2026-advance-estimate/",
+    "/articles/usgs-low-level-geophysical-flights-eastern-kansas/",
     "/articles/what-house-iran-war-powers-vote-can-do/",
     "/articles/what-is-section-301-trade-act/",
     "/articles/who-controls-smithsonian-board-regents/",
