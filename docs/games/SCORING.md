@@ -38,6 +38,8 @@ floor to avoid division by zero.
   Custom boards derive a bounded base from safe squares and mines and use
   0.9 seconds per safe square as par. Hitting a mine or restarting the known
   layout makes that attempt practice-only and scores zero.
+- Connections: a solve earns `7000 + 3000 * 180 / (180 + t) - 900 * mistakes`.
+  Shuffle and deselect are free. A loss after four mistakes scores zero.
 - Mahjong Solitaire: clearing the Turtle earns `7200 + 7200 * 600 / (600 + t)
   - 500 * hints`. Undo has no penalty.
 
@@ -68,3 +70,5 @@ Anonymous point bands are `0`, `1-1999`, `2000-3999`, `4000-7999`,
   first reveals, eight-neighbor counts, flags, chording, and deduction-only
   generation:
   https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/mines.html
+- Connections uses original Boho-authored rounds and the familiar four-groups,
+  four-mistakes convention. No third-party puzzle archive or answer text ships.

@@ -28,15 +28,21 @@ implementation was informed by the MIT-licensed `ffalt/mah` project pinned in
 `docs/games/vendor/mah.lock.json`; no upstream mixed-license artwork ships and
 gameplay/rendering consumes no Worker CPU.
 
-## Connections: approved future name and shape
+## Connections: implemented local-preview name and shape
 
 The owner selected **Connections** as the reader-facing working name for the
-future word-grouping game. It should present sixteen terms hiding four groups
-of four, allow four submitted selections, explain each category after it is
-found, and provide unlimited authored rounds. Puzzle packs must be reviewed for
-unambiguous membership, accidental alternate groupings, cultural currency, and
-clue tone before release. State remains local; optional aggregate reporting may
-send only `solved|lost` and a coarse mistakes bucket.
+word-grouping game. It presents sixteen terms hiding four groups of four,
+allows four mistakes, explains each category after it is found, and cycles
+without a daily limit through an initial pack of 12 original rounds. Puzzle
+packs are structurally validated and reviewed for unambiguous membership,
+accidental alternate groupings, cultural currency, and clue tone before
+release. State remains local; optional aggregate reporting sends only
+`solved|lost` and a coarse points band.
+
+The local route now includes mouse, touch, and arrow-key play; selection,
+shuffle, deselect, one-away feedback, category-color reveals, timer/scoring,
+device-local resume, a visual guide, and aggregate-only optional results. No
+third-party puzzle text is included and no gameplay consumes Worker compute.
 
 `Connections` is associated with The New York Times word game. The requested
 working label can be used in local preview, but public naming and presentation

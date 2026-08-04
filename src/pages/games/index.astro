@@ -2,12 +2,12 @@
 import GamesLayout from "../../layouts/GamesLayout.astro";
 ---
 
-<GamesLayout title="Games" description="Unlimited Wordle, Mini Crossword, Sudoku, 2048, Nonogram, Mahjong, Loopy, and Minesweeper games from Boho News.">
+<GamesLayout title="Games" description="Unlimited Wordle, Mini Crossword, Sudoku, 2048, Nonogram, Mahjong, Loopy, Minesweeper, and Connections games from Boho News.">
   <header class="games-hero">
     <div>
       <p class="eyebrow">A sharper daily break</p>
       <h1>Boho Games</h1>
-      <p class="games-hero__dek">Eight quick games. Play as many as you want. No account, no leaderboard, no nonsense.</p>
+      <p class="games-hero__dek">Nine quick games. Play as many as you want. No account, no leaderboard, no nonsense.</p>
     </div>
     <p class="games-date"><strong>Unlimited play</strong><span>Progress stays in this browser. Community result sharing is optional.</span></p>
   </header>
@@ -75,6 +75,14 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       <p>Clear canonical no-guess boards with safe first moves, fast chording, and pro-sized presets.</p>
       <span class="game-card__status">Completed</span>
       <a class="game-card__action" href="/games/minesweeper/"><span>Play Minesweeper</span><span aria-hidden="true">→</span></a>
+    </article>
+    <article class="game-card" data-game-card="connections">
+      <span class="game-card__number">09 · Word groups</span>
+      <div class="game-card__motif game-card__motif--connections" aria-hidden="true">{Array.from({length:16},() => <i></i>)}</div>
+      <h2>Connections</h2>
+      <p>Sort sixteen terms into four precise groups while dodging deliberate overlaps.</p>
+      <span class="game-card__status">Completed</span>
+      <a class="game-card__action" href="/games/connections/"><span>Play Connections</span><span aria-hidden="true">→</span></a>
     </article>
   </section>
 

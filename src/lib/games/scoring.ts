@@ -149,6 +149,13 @@ export function minesweeperPoints({ difficulty, rows, cols, mines, elapsedMs, fa
   return safePoints(rule.base + speedBonus);
 }
 
+export function connectionsPoints({ won, mistakes, elapsedMs }: { won: boolean; mistakes: number; elapsedMs: number }): number {
+  if (!won) return 0;
+  const base = 7000;
+  const speedBonus = 3000 * 180 / (180 + seconds(elapsedMs));
+  return safePoints(base + speedBonus - Math.max(0, Math.min(3, Math.floor(mistakes))) * 900);
+}
+
 const LOOPY_RULES = {
   easy: { cellPoints: 50, secondsPerCell: 2.5 },
   normal: { cellPoints: 65, secondsPerCell: 4 },

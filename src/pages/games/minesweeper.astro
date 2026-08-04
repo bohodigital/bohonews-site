@@ -42,7 +42,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Adapter around the pinned upstream Mines save/status surface.
   import { attachGamePerformance } from "../../lib/games/performance";
-  import { formatGameTime, minesweeperPoints, pointsBucket } from "../../lib/games/scoring";
+  import { elapsedGameMs, formatGameTime, minesweeperPoints, pointsBucket } from "../../lib/games/scoring";
 
   const host=document.querySelector('[data-tatham-host][data-tatham-asset="mines"]');
   if(host){
@@ -54,14 +54,18 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     const boardLabel=document.querySelector("[data-mines-board]");
     const bestLabel=document.querySelector("[data-mines-best]");
     let store=readStore();
-    let state=validState(store.minesweeper?.current)?{...store.minesweeper.current}:{format:"mines-v1",complete:false,result:null,failed:false,practice:false,points:null,recorded:false,reported:false,serialized:null};
+    let state=validState(store.minesweeper?.current)?{...store.minesweeper.current}:blankState();
     let pendingRestore=state.serialized;
+    let maskEngineHistory=state.practice;
+    let restartLock=state.practice;
     let performanceTracker;
     let readyTimer=0;
     let saveTimer=0;
 
     function readStore(){try{const value=JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");return value&&typeof value==="object"?value:{};}catch{return {};}}
-    function validState(value){return Boolean(value&&value.format==="mines-v1"&&typeof value.complete==="boolean"&&[null,"won","lost"].includes(value.result)&&typeof value.failed==="boolean"&&typeof value.practice==="boolean"&&typeof value.recorded==="boolean"&&typeof value.reported==="boolean"&&(value.serialized===null||typeof value.serialized==="string"&&value.serialized.length>0&&value.serialized.length<=MAX_SAVE_LENGTH));}
+    function validSerialized(value){return value===null||typeof value==="string"&&value.length>0&&value.length<=MAX_SAVE_LENGTH;}
+    function validState(value){return Boolean(value&&value.format==="mines-v1"&&typeof value.complete==="boolean"&&[null,"won","lost"].includes(value.result)&&typeof value.failed==="boolean"&&typeof value.practice==="boolean"&&typeof value.recorded==="boolean"&&typeof value.reported==="boolean"&&validSerialized(value.serialized));}
+    function blankState({practice=false}={}){return {format:"mines-v1",complete:false,result:null,failed:false,practice,points:null,recorded:false,reported:false,serialized:null};}
     function engine(){return window.Module?.calledRun&&typeof window.Module._get_save_file==="function"?window.Module:null;}
     function serializeEngine(){
       const module=engine();if(!module||typeof window.UTF8ToString!=="function")return null;
@@ -118,11 +122,21 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     function resumePractice(){
       state.complete=false;state.result=null;state.practice=true;state.points=0;if(state.timer?.finishedMs!==null)state.timer.finishedMs=null;performanceTracker.resume();runStatus.textContent="Practice mode: the board remains playable, but this attempt’s score and personal time are locked out.";save();
     }
-    function inspectStatus(){const text=status?.textContent||"";if(/DEAD!/i.test(text)){hitMine();return;}if(/COMPLETED!/i.test(text)){finishWin();return;}if(state.result==="lost")resumePractice();}
-    function reset({practice=false}={}){pendingRestore=null;state={format:"mines-v1",complete:false,result:null,failed:false,practice,points:null,recorded:false,reported:false,serialized:null};performanceTracker.reset();runStatus.textContent=practice?"Practice restart: this known layout is unscored. Choose New for a fresh scored board.":"Your first reveal is safe. Every standard board can be solved without guessing.";renderMeta();window.setTimeout(save,120);}
+    function normalizeEngineStatus(){
+      if(!maskEngineHistory||!status||/DEAD!|COMPLETED!/i.test(status.textContent||""))return;const match=(status.textContent||"").match(/Marked:?\s*(\d+)\s*\/\s*(\d+)/i);if(!match)return;
+      const elapsed=state.timer?elapsedGameMs(state.timer):0;const clean=`[${formatGameTime(elapsed)}] Marked: ${match[1]} / ${match[2]}`;if(status.textContent!==clean)status.textContent=clean;
+    }
+    function enforceRestartLock(){if(restartLock){host.querySelector("#undo").disabled=true;host.querySelector("#redo").disabled=true;}}
+    function inspectStatus(){const text=status?.textContent||"";if(/DEAD!/i.test(text)){hitMine();return;}if(/COMPLETED!/i.test(text)){finishWin();return;}if(state.result==="lost")resumePractice();normalizeEngineStatus();enforceRestartLock();}
+    function reset(){pendingRestore=null;maskEngineHistory=false;restartLock=false;state=blankState();performanceTracker.reset();runStatus.textContent="Your first reveal is safe. Every standard board can be solved without guessing.";renderMeta();window.setTimeout(save,120);}
+    function restartBoard(){
+      pendingRestore=null;state=blankState({practice:true});maskEngineHistory=true;restartLock=true;performanceTracker.reset();engine()?._command(6);enforceRestartLock();runStatus.textContent="Board fully restarted from its first move. This known layout is unscored; choose New for a fresh scored board.";
+      renderMeta();window.setTimeout(save,120);
+    }
     function engineReady(){
       if(!engine()||!canvas?.onmousedown)return false;window.clearInterval(readyTimer);canonicalizePresets();
-      if(pendingRestore){const saved=pendingRestore;pendingRestore=null;if(!restoreEngine(saved)){state={format:"mines-v1",complete:false,result:null,failed:false,practice:false,points:null,recorded:false,reported:false,serialized:null};performanceTracker.reset();}}
+      if(pendingRestore){const saved=pendingRestore;pendingRestore=null;if(!restoreEngine(saved)){state=blankState();performanceTracker.reset();}}
+      const restartButton=host.querySelector("#restart");if(restartButton)restartButton.onclick=null;
       window.setTimeout(()=>{canonicalizePresets();renderMeta();inspectStatus();save();if(!new URL(document.URL).hash){canvas.blur();window.scrollTo(0,0);}},100);return true;
     }
 
@@ -130,9 +144,9 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     document.addEventListener("boho-game-guide-open",()=>performanceTracker.pause());document.addEventListener("boho-game-guide-close",()=>{if(!state.complete)performanceTracker.resume();});
     if(document.querySelector("[data-game-guide][open]"))performanceTracker.pause();
     if(status)new MutationObserver(()=>{inspectStatus();scheduleSave();}).observe(status,{childList:true,characterData:true,subtree:true});
-    canvas?.addEventListener("mouseup",scheduleSave);canvas?.addEventListener("keyup",scheduleSave);
+    canvas?.addEventListener("mouseup",()=>{restartLock=false;scheduleSave();});canvas?.addEventListener("keyup",()=>{restartLock=false;scheduleSave();});
     host.querySelector("#new")?.addEventListener("click",()=>window.setTimeout(()=>reset(),0));
-    host.querySelector("#restart")?.addEventListener("click",()=>window.setTimeout(()=>reset({practice:true}),0));
+    host.querySelector("#restart")?.addEventListener("click",restartBoard);
     host.querySelector("#gametype")?.addEventListener("change",()=>window.setTimeout(()=>{canonicalizePresets();reset();},0));
     if(!engineReady()){readyTimer=window.setInterval(engineReady,50);window.setTimeout(()=>window.clearInterval(readyTimer),15_000);}
   }

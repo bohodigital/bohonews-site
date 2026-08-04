@@ -32,6 +32,11 @@ curated and is not copied from The New York Times Wordle answer list.
 `Wordle` is a New York Times trademark. The local prototype uses the requested
 working label only; public naming requires separate review before release.
 
+`Connections` is associated with The New York Times word game. Boho's local
+prototype uses the owner-requested working label and original Boho-authored
+rounds; it does not copy NYT puzzle text, answers, code, or presentation assets.
+Public naming requires separate review before release.
+
 ## Original 2048
 
 - Project: <https://github.com/gabrielecirulli/2048>

@@ -6,7 +6,7 @@ import { scoreWordleGuess, WORDLE_ANSWERS } from "../src/lib/games/wordle.ts";
 const page = (name) => readFile(new URL(`../src/pages/games/${name}`, import.meta.url), "utf8");
 
 test("games remain static-first and keep puzzle state device-local", async () => {
-  const sources = await Promise.all([page("index.astro"), page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro"), page("nonogram.astro"), page("mahjong.astro"), page("loopy.astro"), page("minesweeper.astro")]);
+  const sources = await Promise.all([page("index.astro"), page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro"), page("nonogram.astro"), page("mahjong.astro"), page("loopy.astro"), page("minesweeper.astro"), page("connections.astro")]);
   for (const source of sources) {
     assert.doesNotMatch(source, /new WebSocket|DURABLE_OBJECT|D1Database/);
   }
@@ -15,6 +15,7 @@ test("games remain static-first and keep puzzle state device-local", async () =>
   assert.match(sources[6],/STORAGE_KEY="boho-games:v2"/);
   assert.match(sources[7],/STORAGE_KEY="boho-games:v2"/);
   assert.match(sources[8],/STORAGE_KEY="boho-games:v2"/);
+  assert.match(sources[9],/STORAGE_KEY="boho-games:v2"/);
 });
 
 test("games hub reads completion from the current saved round", async () => {
@@ -23,9 +24,9 @@ test("games hub reads completion from the current saved round", async () => {
 });
 
 test("completed games submit only coarse optional point buckets", async () => {
-  const [layout, word, mini, sudoku, twenty48, nonogram, mahjong, loopy, minesweeper, client] = await Promise.all([
+  const [layout, word, mini, sudoku, twenty48, nonogram, mahjong, loopy, minesweeper, connections, client] = await Promise.all([
     readFile(new URL("../src/layouts/GamesLayout.astro", import.meta.url), "utf8"),
-    page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro"), page("nonogram.astro"), page("mahjong.astro"), page("loopy.astro"), page("minesweeper.astro"),
+    page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro"), page("nonogram.astro"), page("mahjong.astro"), page("loopy.astro"), page("minesweeper.astro"), page("connections.astro"),
     readFile(new URL("../public/game-stats.js", import.meta.url), "utf8")
   ]);
   assert.match(layout, /data-game-stats-opt-in/);
@@ -40,11 +41,12 @@ test("completed games submit only coarse optional point buckets", async () => {
   assert.match(mahjong, /game:"mahjong"[\s\S]*variant:"turtle"[\s\S]*scoreBucket:pointsBucket/);
   assert.match(loopy, /game:"loopy"[\s\S]*scoreBucket:pointsBucket/);
   assert.match(minesweeper, /game:"minesweeper"[\s\S]*scoreBucket:pointsBucket/);
-  for (const source of [word, mini, sudoku, twenty48, nonogram, mahjong, loopy, minesweeper]) assert.doesNotMatch(source, /playerId|deviceId|userAgent|location/);
+  assert.match(connections, /game:"connections"[\s\S]*scoreBucket:pointsBucket/);
+  for (const source of [word, mini, sudoku, twenty48, nonogram, mahjong, loopy, minesweeper, connections]) assert.doesNotMatch(source, /playerId|deviceId|userAgent|location/);
 });
 
 test("every game exposes the shared timer and transparent scoring rules", async () => {
-  const sources = await Promise.all([page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro"), page("nonogram.astro"), page("mahjong.astro"), page("loopy.astro"), page("minesweeper.astro")]);
+  const sources = await Promise.all([page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro"), page("nonogram.astro"), page("mahjong.astro"), page("loopy.astro"), page("minesweeper.astro"), page("connections.astro")]);
   for (const source of sources) {
     assert.match(source, /data-game-time|GamePerformance/);
     assert.match(source, /How scoring works|rules=/);
@@ -53,16 +55,17 @@ test("every game exposes the shared timer and transparent scoring rules", async 
 });
 
 test("saved game guards reject malformed state and completed grids cannot be edited", async () => {
-  const [word, mini, sudoku] = await Promise.all([page("daily-word.astro"), page("mini.astro"), page("sudoku.astro")]);
-  for (const source of [word, mini, sudoku]) assert.match(source, /function validState/);
+  const [word, mini, sudoku, connections] = await Promise.all([page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("connections.astro")]);
+  for (const source of [word, mini, sudoku, connections]) assert.match(source, /function validState/);
   assert.match(mini, /input\.disabled=state\.complete/);
   assert.match(sudoku, /if\(state\.complete\|\|selected<0/);
   assert.match(sudoku, /selected%9<8/);
   assert.match(sudoku, /selected%9>0/);
+  assert.match(connections, /button\.disabled=state\.complete/);
 });
 
-test("all eight games expose keyboard and status contracts", async () => {
-  const [word, mini, sudoku, twenty48, mahjong, loopy, minesweeper] = await Promise.all([page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro"), page("mahjong.astro"), page("loopy.astro"), page("minesweeper.astro")]);
+test("all nine games expose keyboard and status contracts", async () => {
+  const [word, mini, sudoku, twenty48, mahjong, loopy, minesweeper, connections] = await Promise.all([page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro"), page("mahjong.astro"), page("loopy.astro"), page("minesweeper.astro"), page("connections.astro")]);
   assert.match(word, /aria-live="polite"/);
   assert.match(word, /document\.addEventListener\("keydown"/);
   assert.match(mini, /setAttribute\("aria-label",`Row \$\{row\+1\}, column/);
@@ -79,6 +82,9 @@ test("all eight games expose keyboard and status contracts", async () => {
   assert.match(loopy, /Ctrl-click/);
   assert.match(minesweeper, /right-click to flag/);
   assert.match(minesweeper, /Enter reveals or chords/);
+  assert.match(connections, /role="grid"/);
+  assert.match(connections, /ArrowDown/);
+  assert.match(connections, /aria-selected/);
   const nonogram = await page("nonogram.astro");
   assert.match(nonogram, /TathamPuzzleHost/);
   assert.match(nonogram, /Keyboard controls/);
@@ -114,12 +120,12 @@ test("Wordle scoring handles repeated letters and uses the requested hint colors
 });
 
 test("game route styles survive the governed publisher as an external asset", async () => {
-  const [layout, word, mini, sudoku, twenty48, nonogram, mahjong, loopy, minesweeper] = await Promise.all([
+  const [layout, word, mini, sudoku, twenty48, nonogram, mahjong, loopy, minesweeper, connections] = await Promise.all([
     readFile(new URL("../src/layouts/GamesLayout.astro", import.meta.url), "utf8"),
-    page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro"), page("nonogram.astro"), page("mahjong.astro"), page("loopy.astro"), page("minesweeper.astro")
+    page("daily-word.astro"), page("mini.astro"), page("sudoku.astro"), page("2048.astro"), page("nonogram.astro"), page("mahjong.astro"), page("loopy.astro"), page("minesweeper.astro"), page("connections.astro")
   ]);
-  for (const selector of [".word-board", ".mini-grid", ".sudoku-grid", ".twenty48-grid", ".tatham-host", ".mahjong-board", ".game-card__motif--loopy", ".game-card__motif--mines"]) assert.match(layout, new RegExp(selector.replace(".", "\\.")));
-  for (const source of [word, mini, sudoku, twenty48, nonogram, mahjong, loopy, minesweeper]) assert.doesNotMatch(source, /<style\b/);
+  for (const selector of [".word-board", ".mini-grid", ".sudoku-grid", ".twenty48-grid", ".tatham-host", ".mahjong-board", ".game-card__motif--loopy", ".game-card__motif--mines", ".connections-grid"]) assert.match(layout, new RegExp(selector.replace(".", "\\.")));
+  for (const source of [word, mini, sudoku, twenty48, nonogram, mahjong, loopy, minesweeper, connections]) assert.doesNotMatch(source, /<style\b/);
 });
 
 test("crossword and Sudoku use reviewed local generators", async () => {
@@ -139,7 +145,7 @@ test("game pages are local mockups and excluded from indexing", async () => {
   const hub = await page("index.astro");
   assert.match(layout, /<BaseLayout[\s\S]*\bnoindex\b[\s\S]*>/);
   assert.match(hub, /Local prototype/);
-  for (const route of ["daily-word", "mini", "sudoku", "2048", "nonogram", "mahjong", "loopy", "minesweeper"]) assert.match(hub, new RegExp(`/games/${route}/`));
+  for (const route of ["daily-word", "mini", "sudoku", "2048", "nonogram", "mahjong", "loopy", "minesweeper", "connections"]) assert.match(hub, new RegExp(`/games/${route}/`));
 });
 
 test("game pages have the same focused shell and fresh theme in preview and production", async () => {

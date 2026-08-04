@@ -94,6 +94,11 @@ const { title, description, game } = Astro.props;
   .game-card__motif--mines i:nth-child(6),.game-card__motif--mines i:nth-child(7),.game-card__motif--mines i:nth-child(10),.game-card__motif--mines i:nth-child(11) { background: var(--surface); box-shadow: none; }
   .game-card__motif--mines i:nth-child(6)::after,.game-card__motif--mines i:nth-child(11)::after { align-items: center; color: #2463a6; content: "1"; display: flex; font-size: .72rem; font-style: normal; font-weight: 900; inset: 0; justify-content: center; position: absolute; }
   .game-card__motif--mines i:nth-child(3)::after { align-items: center; color: var(--accent); content: "⚑"; display: flex; font-size: .85rem; font-style: normal; font-weight: 900; inset: 0; justify-content: center; position: absolute; }
+  .game-card__motif--connections { gap: .12rem; grid-template-columns: repeat(4,1fr); max-width: 7rem; }
+  .game-card__motif--connections i:nth-child(-n+4) { background: #e7c95d; }
+  .game-card__motif--connections i:nth-child(n+5):nth-child(-n+8) { background: #9fc56a; }
+  .game-card__motif--connections i:nth-child(n+9):nth-child(-n+12) { background: #80b3d7; }
+  .game-card__motif--connections i:nth-child(n+13) { background: #a98bc4; }
   .game-heading { border-bottom: 1px solid var(--border); margin: 0 auto 2rem; max-width: 46rem; padding-bottom: 1.5rem; text-align: center; }
   .game-heading .eyebrow { margin-bottom: .8rem; }
   .game-meta { align-items: center; color: var(--text-muted); display: flex; font-size: .72rem; font-weight: 750; gap: 1rem; justify-content: center; margin-top: 1rem; }
@@ -232,6 +237,32 @@ const { title, description, game } = Astro.props;
   .twenty48-controls button { background: var(--border); border: 1px solid var(--border-strong); color: var(--text); cursor: pointer; font-size: 1.4rem; min-height: 3.25rem; }
   .twenty48-controls button:focus-visible { outline: .2rem solid var(--focus); outline-offset: .1rem; }
   @media (prefers-reduced-motion: reduce) { .twenty48-motion { transition: none; } .twenty48-tile.is-new,.twenty48-tile.is-merged,[data-2048-score].is-bumped { animation: none; } }
+  .connections-panel { max-width: 50rem; }
+  .connections-grid { display: grid; gap: .55rem; grid-template-columns: repeat(4,minmax(0,1fr)); margin: 1rem auto; }
+  .connections-grid button { align-items: center; aspect-ratio: 1.6; background: color-mix(in srgb,var(--border) 82%,var(--surface)); border: 0; border-radius: .35rem; color: var(--text); cursor: pointer; display: flex; font-size: clamp(.68rem,1.7vw,.95rem); font-weight: 900; justify-content: center; line-height: 1.08; min-width: 0; overflow-wrap: anywhere; padding: .5rem; text-align: center; text-transform: uppercase; }
+  .connections-grid button[aria-selected="true"] { background: var(--game-ink); color: var(--surface); transform: translateY(-.08rem); }
+  .connections-grid button:focus-visible { outline: .2rem solid var(--focus); outline-offset: .12rem; }
+  .connections-grid button:disabled { cursor: default; }
+  .connections-solved { display: grid; gap: .55rem; }
+  .connections-group { border-radius: .35rem; color: #211f1a; display: grid; gap: .2rem; padding: 1rem; text-align: center; }
+  .connections-group[data-level="0"] { background: #e7c95d; }
+  .connections-group[data-level="1"] { background: #9fc56a; }
+  .connections-group[data-level="2"] { background: #80b3d7; }
+  .connections-group[data-level="3"] { background: #a98bc4; }
+  .connections-group strong { font-size: .88rem; letter-spacing: .05em; text-transform: uppercase; }
+  .connections-group span { font-size: clamp(.7rem,1.7vw,.88rem); font-weight: 750; text-transform: uppercase; }
+  .connections-mistakes { align-items: center; display: flex; gap: .6rem; justify-content: center; margin: 1.2rem auto .3rem; }
+  .connections-mistakes > span:first-child { font-family: var(--serif); }
+  .connections-mistakes [data-connections-lives] { display: flex; gap: .32rem; }
+  .connections-mistakes i { background: var(--game-ink); border-radius: 50%; display: block; height: .85rem; transition: opacity 150ms ease,transform 150ms ease; width: .85rem; }
+  .connections-mistakes i[data-spent] { opacity: .18; transform: scale(.7); }
+  .connections-actions { margin-top: .85rem; }
+  .connections-guide { display: grid; gap: .65rem; }
+  .connections-guide__grid { display: grid; gap: .35rem; grid-template-columns: repeat(4,1fr); }
+  .connections-guide__grid span { align-items: center; aspect-ratio: 1.7; background: var(--border); border-radius: .25rem; display: flex; font-size: clamp(.56rem,2vw,.78rem); font-weight: 900; justify-content: center; }
+  .connections-guide__answer { background: #e7c95d; color: #211f1a; display: grid; gap: .15rem; padding: .8rem; text-align: center; }
+  .connections-guide__answer strong { font-size: .75rem; letter-spacing: .06em; }
+  .connections-guide__answer span { font-size: .68rem; font-weight: 750; }
   .mahjong-panel { margin: 0 auto; max-width: 72rem; perspective: 80rem; }
   .mahjong-board { aspect-ratio: 1.48; background: radial-gradient(ellipse at 48% 28%,#397a5d 0%,#174731 68%,#103624 100%); border: .55rem solid #123a29; border-bottom-color: #08271b; border-bottom-width: .95rem; border-radius: .45rem; box-shadow: inset 0 0 2.6rem rgb(0 0 0 / .34),0 1.05rem 0 #071f16,0 1.8rem 2.8rem rgb(0 0 0 / .5); contain: layout paint style; isolation: isolate; margin: 1rem auto 3.6rem; max-width: 68rem; overflow: hidden; position: relative; transform: perspective(80rem) rotateX(10deg) rotateZ(-.5deg); transform-origin: 50% 100%; width: 100%; }
   .mahjong-board::before { background: linear-gradient(90deg,transparent,rgb(255 255 255 / .1),transparent); content:""; height: 1px; left: 8%; pointer-events: none; position: absolute; right: 8%; top: 5%; }
@@ -294,6 +325,7 @@ const { title, description, game } = Astro.props;
     .game-grid { grid-template-columns: 1fr; }
     .game-card { border-right: 0; min-height: 20rem; }
     .game-heading h1 { font-size: clamp(2.8rem,16vw,5rem); }
+    .connections-heading h1 { font-size: clamp(2.5rem,14vw,4.2rem); }
     .mini-layout { grid-template-columns: 1fr; }
     .mini-clues { gap: 1rem; }
     .game-sharing { grid-template-columns: 1fr; }
@@ -306,6 +338,8 @@ const { title, description, game } = Astro.props;
     #puzzlecanvascontain { height: min(68vh,34rem); min-height: 20rem; }
     .mahjong-board { aspect-ratio: 1.34; margin-bottom: 2.9rem; transform:perspective(60rem) rotateX(7deg); }
     .mahjong-tile { font-size:clamp(.78rem,5.1vw,1.8rem); height:10.6%; }
+    .connections-grid { gap: .35rem; }
+    .connections-grid button { aspect-ratio: 1.35; font-size: clamp(.58rem,3vw,.78rem); padding: .3rem; }
   }
   @media (max-width: 34rem) { .sudoku-pad { grid-template-columns: repeat(5,1fr); } }
   @media (prefers-reduced-motion: reduce) { .games-shell * { animation: none !important; scroll-behavior: auto !important; transition: none !important; } }

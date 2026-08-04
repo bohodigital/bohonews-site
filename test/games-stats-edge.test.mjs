@@ -37,6 +37,8 @@ test("completion contract accepts only coarse current-game results", () => {
   assert.equal(validateCompletion({ schemaVersion:"1.0", game:"loopy", variant:"tricky", outcome:"solved", scoreBucket:"8000-15999" }), null);
   assert.equal(validateCompletion({ schemaVersion:"1.0", game:"minesweeper", variant:"expert", outcome:"won", scoreBucket:"16000+" }), null);
   assert.equal(validateCompletion({ schemaVersion:"1.0", game:"minesweeper", variant:"custom", outcome:"lost", scoreBucket:"0" }), null);
+  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"connections", variant:"standard", outcome:"solved", scoreBucket:"8000-15999" }), null);
+  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"connections", variant:"standard", outcome:"lost", scoreBucket:"0" }), null);
   assert.match(validateCompletion({ schemaVersion:"1.0", game:"2048", variant:"standard", outcome:"won", scoreBucket:"8192" }), /Unsupported score bucket/);
   assert.match(validateCompletion({ schemaVersion:"1.0", game:"wordle", variant:"standard", outcome:"won", scoreBucket:"4000-7999", playerId:"abc" }), /unsupported field/);
 });

@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import {
-  createGameTimer, elapsedGameMs, finishGameTimer, formatGameTime, mahjongPoints,
+  connectionsPoints, createGameTimer, elapsedGameMs, finishGameTimer, formatGameTime, mahjongPoints,
   loopyPoints, minesweeperPoints, miniCrosswordPoints, miniPerfectSeconds, nonogramPoints, pauseGameTimer,
   pointsBucket, resumeGameTimer, sudokuPoints, wordlePoints
 } from "../src/lib/games/scoring.ts";
@@ -54,6 +54,12 @@ test("Minesweeper rewards canonical difficulty and clean speed only", () => {
   assert.equal(minesweeperPoints({ difficulty:"expert", rows:16, cols:30, mines:99, elapsedMs:1_000, failed:true }), 0);
   assert.equal(minesweeperPoints({ difficulty:"expert", rows:16, cols:30, mines:99, elapsedMs:1_000, practice:true }), 0);
   assert.ok(minesweeperPoints({ difficulty:"custom", rows:20, cols:20, mines:80, elapsedMs:120_000 }) > 0);
+});
+
+test("Connections rewards fast, accurate solves and gives losses zero", () => {
+  assert.ok(connectionsPoints({ won:true, mistakes:0, elapsedMs:60_000 }) > connectionsPoints({ won:true, mistakes:1, elapsedMs:60_000 }));
+  assert.ok(connectionsPoints({ won:true, mistakes:0, elapsedMs:30_000 }) > connectionsPoints({ won:true, mistakes:0, elapsedMs:180_000 }));
+  assert.equal(connectionsPoints({ won:false, mistakes:4, elapsedMs:10_000 }),0);
 });
 
 test("anonymous point buckets remain coarse", () => {

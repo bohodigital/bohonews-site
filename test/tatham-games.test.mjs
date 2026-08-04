@@ -66,6 +66,10 @@ test("Minesweeper uses the pinned no-guess engine with canonical presets and res
   assert.match(page,/_load_game/);
   assert.match(page,/let pendingRestore=state\.serialized/);
   assert.match(page,/if\(pendingRestore\)\{const saved=pendingRestore;pendingRestore=null;if\(!restoreEngine\(saved\)\)/);
+  assert.match(page,/restartButton\)restartButton\.onclick=null/);
+  assert.match(page,/engine\(\)\?\._command\(6\)/);
+  assert.match(page,/maskEngineHistory=true/);
+  assert.match(page,/function normalizeEngineStatus/);
   assert.match(page,/DEAD!/);
   assert.match(page,/COMPLETED!/);
   assert.match(page,/if\(!state\.failed&&!state\.practice\)\{record\("won"\);void report\("won"\);\}/);

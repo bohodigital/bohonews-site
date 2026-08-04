@@ -42,3 +42,17 @@ test("Loopy, Nonogram, and Minesweeper include visual rule examples and pause wh
   assert.match(layout,/\.nonogram-demo-fill/);
   assert.match(performance,/return \{[\s\S]*pause,[\s\S]*resume,/);
 });
+
+test("Connections has a visual grouping example and explains mistakes and one-away feedback", async () => {
+  const [connections,layout] = await Promise.all([
+    source("src/pages/games/connections.astro"),
+    source("src/layouts/GamesLayout.astro")
+  ]);
+  assert.match(connections,/<GameGuide/);
+  assert.match(connections,/Every term belongs to exactly one reviewed group of four/);
+  assert.match(connections,/One away/);
+  assert.match(connections,/four mistakes/i);
+  assert.match(connections,/connections-guide__grid/);
+  assert.match(connections,/boho-game-guide-open[\s\S]*performanceTracker\.pause\(\)/);
+  assert.match(layout,/\.connections-guide__answer/);
+});
