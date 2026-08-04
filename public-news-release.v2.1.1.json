@@ -1,9 +1,9 @@
 {
-  "articleCount": 18,
+  "articleCount": 19,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-02T18:19:14Z",
-  "mediaCount": 27,
-  "packageDigest": "016857927c03c54d928639ac1220820e81477c9698bd6e309778e99f41e51c13",
+  "generatedAt": "2026-08-04T04:30:00Z",
+  "mediaCount": 43,
+  "packageDigest": "5d9ad2be9fddbe5cec9ded296e65e874e87448de32c6b65b26f1627516858dda",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -289,6 +289,27 @@
       "releaseId": "release-pb-20260802t181342z-3898d4265701-be7e4838f9cb",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://0b827ede.bohonews.pages.dev/",
+      "activationEvidenceHash": "b4594dad03d86e7fd6703225ab8894c8408f05959fdffec3f29c9cbc5230bfbf",
+      "canonicalFirstPublicAt": "2026-07-31T05:12:22.062Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/interlochen-abuse-investigation-report-findings/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "interlochen-abuse-investigation-report-findings"
+      ],
+      "previousVerifiedDeploymentReference": "4915b09702e40a04269e21d5d82cedf452f5b8fb46a99c417dad761140b1e2e5",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-31T05:11:20.305434Z",
+      "recordHash": "c7b0fa1c03c846a57e746c646196e89c2db1f40450f20b486e1423b139980368",
+      "releaseId": "release-pb-20260731t050909z-bfcf50c81164-bfcf50c81164",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -310,7 +331,8 @@
     "/articles/what-house-iran-war-powers-vote-can-do/",
     "/articles/what-is-section-301-trade-act/",
     "/articles/who-controls-smithsonian-board-regents/",
-    "/articles/work-training-americans-born-1980-1984/"
+    "/articles/work-training-americans-born-1980-1984/",
+    "/articles/interlochen-abuse-investigation-report-findings/"
   ],
   "schemaVersion": "2.1.1"
 }
