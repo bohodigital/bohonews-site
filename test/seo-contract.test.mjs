@@ -43,16 +43,19 @@ test("site metadata exposes valid local-search structured data", async () => {
   assert.match(layout,/apple-touch-icon\.png/);
 });
 
-test("masthead exposes the theme-aware BN mark in the upper-right brand position", async () => {
-  const [header,styles] = await Promise.all([
+test("footer exposes the theme-aware BN mark and copyright statement", async () => {
+  const [header,layout,styles] = await Promise.all([
     readFile(new URL("../src/components/SiteHeader.astro", import.meta.url),"utf8"),
+    readFile(new URL("../src/layouts/BaseLayout.astro", import.meta.url),"utf8"),
     readFile(new URL("../src/styles/global.css", import.meta.url),"utf8")
   ]);
-  assert.match(header,/class="masthead-mark"/);
-  assert.match(header,/bohonews-mark-light\.svg/);
-  assert.match(header,/bohonews-mark-dark\.svg/);
-  assert.match(styles,/\.masthead-mark[\s\S]*position:\s*absolute[\s\S]*right:/);
-  assert.match(styles,/:root\[data-theme="dark"\] \.masthead-mark__dark/);
+  assert.doesNotMatch(header,/masthead-mark/);
+  assert.match(layout,/class="footer-mark"/);
+  assert.match(layout,/bohonews-mark-light\.svg/);
+  assert.match(layout,/bohonews-mark-dark\.svg/);
+  assert.match(layout,/footer-copyright/);
+  assert.match(layout,/All rights reserved\./);
+  assert.match(styles,/:root\[data-theme="dark"\] \.footer-mark__dark/);
 });
 
 test("newsroom visual system includes broad navigation and a persistent three-mode theme", async () => {

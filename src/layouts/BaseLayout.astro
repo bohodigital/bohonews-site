@@ -81,7 +81,16 @@ const siteGraph = {
       <slot />
     </main>
     <footer class="site-footer">
-      <div class="footer-brand"><a class="brand" href="/"><span>BOHO</span> NEWS</a><p>One newsroom. Every major desk.</p></div>
+      <div class="footer-brand">
+        <div class="footer-brand__identity">
+          <a class="footer-mark" href="/" aria-label="Boho News home">
+            <img class="footer-mark__light" src="/bohonews-mark-light.svg" width="64" height="64" alt="" aria-hidden="true" />
+            <img class="footer-mark__dark" src="/bohonews-mark-dark.svg" width="64" height="64" alt="" aria-hidden="true" />
+          </a>
+          <a class="brand" href="/"><span>BOHO</span> NEWS</a>
+        </div>
+        <p>One newsroom. Every major desk.</p>
+      </div>
       <nav aria-label="Section navigation">
         <p>News</p>
         <a href="/latest/">Latest</a><a href="/us/">U.S.</a><a href="/world/">World</a>
@@ -100,6 +109,7 @@ const siteGraph = {
         <a href="/support/">Support</a><a href="/accessibility/">Accessibility</a>
         <a href="/privacy/">Privacy</a><a href="/terms/">Terms</a>
       </nav>
+      <p class="footer-copyright">&copy; {new Date().getFullYear()} Boho News. All rights reserved.</p>
     </footer>
   </body>
 </html>
