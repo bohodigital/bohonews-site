@@ -8,13 +8,14 @@
     "file": "LICENCE",
     "sha256": "43c5b4a4304e7f9d162cda91028ea83f640cd56341744057b9aeed3f10ae55ab"
   },
-  "targets": ["mines", "pattern"],
+  "targets": ["loopy", "mines", "pattern"],
   "reviewedWebInputs": [
     "cmake/platforms/emscripten.cmake",
     "emcc.c",
     "emccpre.js",
     "emcclib.js",
     "html/jspage.pl",
+    "loopy.c",
     "mines.c",
     "pattern.c"
   ],

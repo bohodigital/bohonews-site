@@ -1,6 +1,7 @@
 import { createMini4Puzzle } from "./crossword-mini4.ts";
+import { GENERATED_MINI4_CLUES, GENERATED_MINI4_FILLS } from "./crossword-mini4-generated.ts";
 
-export const MINI4_CLUES: Record<string,string> = {
+const CURATED_MINI4_CLUES: Record<string,string> = {
   able:"Ready to crush it", acid:"What gives a lemon its bite", acre:"A lot measuring 43,560 square feet", acts:"What a theater kid does", adds:"Does a little calculator work",
   ages:"What a painfully slow download takes", also:"Word meaning 'and another thing'", andy:"Warhol or Samberg", anti:"Prefix for the opposition", area:"What pi times radius squared finds", arya:"Stark who trained with the Faceless Men",
   arms:"Things raised on a roller coaster", avid:"Hard-core, as a fan", been:"Past participle of be", bent:"Not exactly straight", blew:"Sent out a gust",
@@ -36,6 +37,8 @@ export const MINI4_CLUES: Record<string,string> = {
   went:"Past tense of go", west:"Direction of sunset", what:"Abbott and Costello's second baseman", wire:"A spy's listening device, perhaps", wise:"Owl stereotype", york:"New ___, or a peppermint patty name", yale:"Ivy with a bulldog named Handsome Dan", zeus:"Olympian with a lightning problem"
 };
 
+export const MINI4_CLUES: Record<string,string> = {...GENERATED_MINI4_CLUES,...CURATED_MINI4_CLUES};
+
 const FILLS = [
   ["sold","area","fast","else"], ["snow","hope","ones","went"], ["roll","area","cast","else"],
   ["tale","oral","news","ease"], ["cash","onto","step","time"], ["spot","tape","ages","rent"],
@@ -51,4 +54,32 @@ const FILLS = [
   ["dope","only","star","tone"]
 ];
 
-export const MINI4_PUZZLES = FILLS.map((rows,index)=>createMini4Puzzle(`mini4-${String(index+1).padStart(4,"0")}`,rows,MINI4_CLUES,index>=25?"hard":index%5===4?"medium":"easy"));
+const wordsForFill=(rows:string[])=>[...rows,...Array.from({length:4},(_,column)=>rows.map((row)=>row[column]).join(""))];
+const canonicalFill=(rows:string[])=>[rows.join(""),wordsForFill(rows).slice(4).join("")].sort()[0];
+
+function selectDiverseFills(count:number): string[][] {
+  const seen=new Set<string>();
+  const selected=FILLS.filter((rows)=>{const key=canonicalFill(rows);if(seen.has(key))return false;seen.add(key);return true;});
+  const candidates=GENERATED_MINI4_FILLS.filter((rows)=>{const key=canonicalFill(rows);if(seen.has(key))return false;seen.add(key);return true;});
+  const frequencies=new Map<string,number>();
+  selected.flatMap(wordsForFill).forEach((word)=>frequencies.set(word,(frequencies.get(word)||0)+1));
+  while(selected.length<count&&candidates.length){
+    let bestIndex=0,bestScore=Infinity;
+    candidates.forEach((rows,index)=>{
+      const counts=wordsForFill(rows).map((word)=>frequencies.get(word)||0);
+      const score=Math.max(...counts)*10_000+counts.reduce((sum,value)=>sum+value*value*25+value,0);
+      if(score<bestScore){bestScore=score;bestIndex=index;}
+    });
+    const [rows]=candidates.splice(bestIndex,1);selected.push(rows);
+    wordsForFill(rows).forEach((word)=>frequencies.set(word,(frequencies.get(word)||0)+1));
+  }
+  if(selected.length!==count)throw new Error(`Could only select ${selected.length} distinct Mini Crossword fills`);
+  return selected;
+}
+
+const fills = selectDiverseFills(365);
+
+export const MINI4_PUZZLES = fills.map((rows,index)=>createMini4Puzzle(
+  `mini4-${String(index+1).padStart(4,"0")}`,rows,MINI4_CLUES,
+  index<25?(index%5===4?"medium":"easy"):index<250?"medium":"hard"
+));

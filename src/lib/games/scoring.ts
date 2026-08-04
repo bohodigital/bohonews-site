@@ -129,6 +129,52 @@ export function nonogramPoints({ rows, cols, elapsedMs, usedSolve = false }: { r
   return safePoints(base + speedBonus);
 }
 
+const MINESWEEPER_RULES = {
+  beginner: { base: 2500, par: 60 },
+  intermediate: { base: 6500, par: 240 },
+  expert: { base: 12000, par: 480 }
+} as const;
+
+export type MinesweeperDifficulty = keyof typeof MINESWEEPER_RULES | "custom";
+
+export function minesweeperPoints({ difficulty, rows, cols, mines, elapsedMs, failed = false, practice = false }: { difficulty: MinesweeperDifficulty; rows: number; cols: number; mines: number; elapsedMs: number; failed?: boolean; practice?: boolean }): number {
+  if (failed || practice) return 0;
+  const cells = Math.max(9, Math.floor(rows) * Math.floor(cols));
+  const mineCount = Math.max(1, Math.min(cells - 1, Math.floor(mines)));
+  const customBase = Math.max(2000, Math.min(20000, (cells - mineCount + mineCount * 2) * 25));
+  const rule = difficulty === "custom"
+    ? { base: customBase, par: Math.max(30, (cells - mineCount) * 0.9) }
+    : MINESWEEPER_RULES[difficulty];
+  const speedBonus = rule.base * rule.par / (rule.par + seconds(elapsedMs));
+  return safePoints(rule.base + speedBonus);
+}
+
+export function connectionsPoints({ won, mistakes, elapsedMs }: { won: boolean; mistakes: number; elapsedMs: number }): number {
+  if (!won) return 0;
+  const base = 7000;
+  const speedBonus = 3000 * 180 / (180 + seconds(elapsedMs));
+  return safePoints(base + speedBonus - Math.max(0, Math.min(3, Math.floor(mistakes))) * 900);
+}
+
+const LOOPY_RULES = {
+  easy: { cellPoints: 50, secondsPerCell: 2.5 },
+  normal: { cellPoints: 65, secondsPerCell: 4 },
+  tricky: { cellPoints: 80, secondsPerCell: 6 },
+  hard: { cellPoints: 100, secondsPerCell: 8 }
+} as const;
+
+export type LoopyDifficulty = keyof typeof LOOPY_RULES;
+
+export function loopyPoints({ rows, cols, difficulty, elapsedMs, usedSolve = false }: { rows: number; cols: number; difficulty: LoopyDifficulty; elapsedMs: number; usedSolve?: boolean }): number {
+  if (usedSolve) return 0;
+  const area = Math.max(25, Math.floor(rows) * Math.floor(cols));
+  const rule = LOOPY_RULES[difficulty];
+  const base = area * rule.cellPoints;
+  const par = area * rule.secondsPerCell;
+  const speedBonus = base * par / (par + seconds(elapsedMs));
+  return safePoints(base + speedBonus);
+}
+
 export type PointsBucket = "0" | "1-1999" | "2000-3999" | "4000-7999" | "8000-15999" | "16000+";
 
 export function pointsBucket(points: number): PointsBucket {

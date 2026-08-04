@@ -1,5 +1,6 @@
 ---
 import GamePerformance from "../../components/games/GamePerformance.astro";
+import GameGuide from "../../components/games/GameGuide.astro";
 import TathamPuzzleHost from "../../components/games/TathamPuzzleHost.astro";
 import GamesLayout from "../../layouts/GamesLayout.astro";
 ---
@@ -10,6 +11,24 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     <p class="game-heading__dek">Use the row and column clues to reveal a hidden pixel picture. Generate another whenever you want.</p>
   </header>
   <GamePerformance rules="Points scale with the number of squares, with a bounded speed bonus based on two seconds per square. Using the engine’s Solve command makes the score zero; undo and marking are free." />
+  <GameGuide game="nonogram" title="How Nonograms work" intro="Each clue describes groups of filled squares in that row or column, in the same order you will encounter them.">
+    <figure class="game-guide__visual">
+      <svg viewBox="0 0 380 190" role="img" aria-labelledby="nonogram-guide-picture-title nonogram-guide-picture-desc">
+        <title id="nonogram-guide-picture-title">Two example Nonogram rows</title>
+        <desc id="nonogram-guide-picture-desc">The clue three produces three adjacent filled squares. The clue one one produces two single filled squares separated by at least one empty square.</desc>
+        <g class="guide-clues"><text x="48" y="67">3</text><text x="48" y="142">1 1</text></g>
+        <g class="nonogram-demo-grid"><path d="M90 25H340M90 75H340M90 100H340M90 150H340M90 25V75M140 25V75M190 25V75M240 25V75M290 25V75M340 25V75M90 100V150M140 100V150M190 100V150M240 100V150M290 100V150M340 100V150" /></g>
+        <g class="nonogram-demo-fill"><rect x="140" y="25" width="50" height="50"/><rect x="190" y="25" width="50" height="50"/><rect x="240" y="25" width="50" height="50"/><rect x="90" y="100" width="50" height="50"/><rect x="240" y="100" width="50" height="50"/></g>
+        <g class="guide-crosses"><path d="M108 43l14 14m0-14l-14 14M308 43l14 14m0-14l-14 14M158 118l14 14m0-14l-14 14M208 118l14 14m0-14l-14 14M308 118l14 14m0-14l-14 14" /></g>
+        <text class="guide-caption" x="215" y="180" text-anchor="middle">A space must separate two different runs.</text>
+      </svg>
+    </figure>
+    <ol class="game-guide__steps">
+      <li><strong>Read the runs.</strong><span>“3” means three neighboring filled squares. “1 1” means two single fills with at least one blank between them.</span></li>
+      <li><strong>Compare both directions.</strong><span>Every square belongs to one row and one column; use their clues together to eliminate possibilities.</span></li>
+      <li><strong>Mark what cannot be filled.</strong><span>Use Mark empty for confirmed blanks. The puzzle finishes when every row and column matches its clues.</span></li>
+    </ol>
+  </GameGuide>
   <TathamPuzzleHost asset="pattern" label="Nonogram" />
   <p class="game-note">Tap with Fill selected to shade squares. Choose Mark empty, Ctrl-click, or right-click to cross out blanks. Keyboard controls, undo, redo, fixed game IDs, and offline save files come from the pinned Pattern engine.</p>
   <p class="game-note">The timer pauses when this tab is hidden. Optional anonymous sharing sends only the solved outcome and a coarse points band.</p>
@@ -18,19 +37,25 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Adapter around the pinned upstream Pattern status surface.
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { createGameTimer, nonogramPoints, pointsBucket } from "../../lib/games/scoring";
 
   const host=document.querySelector('[data-tatham-host][data-tatham-asset="pattern"]');
   if(host){
     let state={complete:false,timer:createGameTimer(),points:null,usedSolve:false,reported:false};
+    let dirty=false;
     const noop=()=>{};
     const dimensions=()=>{const selected=host.querySelector('#gametype input:checked')?.closest('label')?.textContent||"15×15";const match=selected.match(/(\d+)\D+(\d+)/);return {rows:Number(match?.[1]||15),cols:Number(match?.[2]||15)};};
     let performanceTracker=attachGamePerformance(document,{getState:()=>state,save:noop,calculatePoints:(elapsedMs)=>nonogramPoints({...dimensions(),elapsedMs,usedSolve:state.usedSolve})});
-    const reset=()=>{state={complete:false,timer:createGameTimer(),points:null,usedSolve:false,reported:false};performanceTracker.render();};
+    document.addEventListener("boho-game-guide-open",()=>performanceTracker.pause());document.addEventListener("boho-game-guide-close",()=>performanceTracker.resume());
+    if(document.querySelector("[data-game-guide][open]"))performanceTracker.pause();
+    const reset=()=>{dirty=false;state={complete:false,timer:createGameTimer(),points:null,usedSolve:false,reported:false};performanceTracker.render();};
     const report=async()=>{if(state.reported||!state.complete)return;const submitted=await window.BohoGameStats?.submit({game:"nonogram",variant:"pattern",outcome:"solved",scoreBucket:pointsBucket(state.points||0)});if(submitted)state.reported=true;};
     const status=host.querySelector("#statusbar");
     const inspectStatus=()=>{const text=status?.textContent||"";if(!state.complete&&/\b(completed|complete|solved)\b/i.test(text)){state.complete=true;performanceTracker.finish();void report();}};
     if(status)new MutationObserver(inspectStatus).observe(status,{childList:true,characterData:true,subtree:true});
+    const canvas=host.querySelector("#puzzlecanvas");canvas?.addEventListener("mouseup",()=>{dirty=true;});canvas?.addEventListener("keyup",()=>{dirty=true;});
+    host.addEventListener("click",(event)=>{const button=event.target.closest?.("#new,#restart");if(button&&!confirmProgressLoss({complete:state.complete,hasProgress:dirty,label:button.id==="restart"?"reset this Nonogram":"start a new Nonogram"})){event.preventDefault();event.stopImmediatePropagation();}},true);
     host.querySelector("#solve")?.addEventListener("click",()=>{state.usedSolve=true;state.complete=true;window.setTimeout(()=>{performanceTracker.finish();void report();},0);});
     ["#new","#restart"].forEach((selector)=>host.querySelector(selector)?.addEventListener("click",()=>window.setTimeout(reset,0)));
     host.querySelector("#gametype")?.addEventListener("change",()=>window.setTimeout(reset,0));

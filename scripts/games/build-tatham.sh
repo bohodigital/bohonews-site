@@ -33,10 +33,10 @@ emcmake cmake \
   -DMIN_SAFARI_VERSION=170000
 (
   cd "$BUILD_ROOT"
-  cmake --build . --target mines pattern
+  cmake --build . --target mines pattern loopy
 )
 
-for game in mines pattern; do
+for game in mines pattern loopy; do
   js_source="$(find "$BUILD_ROOT" -type f -name "$game.js" -print -quit)"
   wasm_source="$(find "$BUILD_ROOT" -type f -name "$game.wasm" -print -quit)"
   test -n "$js_source" || fail "$game.js was not produced"
@@ -49,7 +49,7 @@ install -m 0644 "$VENDOR_ROOT/LICENCE" "$OUTPUT_ROOT/LICENCE"
 install -m 0644 "$PROJECT_ROOT/docs/games/vendor/tatham-puzzles.lock.json" "$OUTPUT_ROOT/source-lock.json"
 (
   cd "$OUTPUT_ROOT"
-  shasum -a 256 LICENCE source-lock.json mines.js mines.wasm pattern.js pattern.wasm
+  shasum -a 256 LICENCE source-lock.json loopy.js loopy.wasm mines.js mines.wasm pattern.js pattern.wasm
 ) > "$OUTPUT_ROOT/SHA256SUMS"
 
 printf 'Built pinned Tatham web assets at %s\n' "$OUTPUT_ROOT"

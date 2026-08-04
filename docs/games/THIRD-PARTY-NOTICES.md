@@ -32,6 +32,11 @@ curated and is not copied from The New York Times Wordle answer list.
 `Wordle` is a New York Times trademark. The local prototype uses the requested
 working label only; public naming requires separate review before release.
 
+`Connections` is associated with The New York Times word game. Boho's local
+prototype uses the owner-requested working label and original Boho-authored
+rounds; it does not copy NYT puzzle text, answers, code, or presentation assets.
+Public naming requires separate review before release.
+
 ## Original 2048
 
 - Project: <https://github.com/gabrielecirulli/2048>
@@ -49,12 +54,14 @@ working label only; public naming requires separate review before release.
 - Pinned commit: `3c3632259d298ab62aafa8a5858823569ab1af46`
 - Copyright: 2004–2024 Simon Tatham and contributors
 - License: MIT
-- Intended targets: `pattern` for Nonogram and `mines` for Minesweeper
+- Included targets: `loopy` for Loopy, `pattern` for Nonogram, and `mines`
+  for Minesweeper
 
-The local preview distributes pinned `pattern.js`/`pattern.wasm` and
-`mines.js`/`mines.wasm` build outputs beside the upstream `LICENCE`, source
-lock, and SHA-256 manifest. Nonogram uses the Pattern engine through a small
-Boho host; Mines is built but does not yet have a public route.
+The local preview distributes pinned `loopy`, `pattern`, and `mines` JavaScript
+and WebAssembly build outputs beside the upstream `LICENCE`, source lock, and
+SHA-256 manifest. Loopy, Nonogram, and Minesweeper use their engines through the
+small Boho host. Puzzle generation, solving, input, and serialization all run in
+the reader's browser.
 
 ## Mah - Mahjong Solitaire
 

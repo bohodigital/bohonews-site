@@ -1,0 +1,121 @@
+---
+import GameGuide from "../../components/games/GameGuide.astro";
+import GamePerformance from "../../components/games/GamePerformance.astro";
+import GamesLayout from "../../layouts/GamesLayout.astro";
+---
+
+<GamesLayout title="Connections" description="Play unlimited original Connections puzzles from Boho News." game="Connections">
+  <header class="game-heading connections-heading">
+    <p class="eyebrow">Four groups. Four words each.</p><h1>Connections</h1>
+    <p class="game-heading__dek">Find the hidden links among sixteen terms. Expect clean categories, a few traps, and the occasional groan-worthy reveal.</p>
+    <div class="game-meta"><span data-connections-number>Puzzle 1</span><span data-connections-best>Best —</span></div>
+  </header>
+  <GamePerformance rules="A solve earns a 7,000-point base plus a speed bonus worth up to 3,000 points. Each wrong submission subtracts 900 points. Shuffle and deselect are free; losing scores zero." />
+  <GameGuide game="connections" title="How Connections works" intro="Every term belongs to exactly one reviewed group of four. Select four terms that share a precise connection, then submit them. You can make four mistakes before the remaining answers are revealed.">
+    <figure class="game-guide__visual connections-guide">
+      <div class="connections-guide__grid" aria-label="Example: four selected terms become one solved category">
+        <span>CLUB</span><span>CUBANO</span><span>HERO</span><span>REUBEN</span>
+      </div>
+      <div class="connections-guide__answer"><strong>SANDWICHES</strong><span>CLUB · CUBANO · HERO · REUBEN</span></div>
+    </figure>
+    <ol class="game-guide__steps">
+      <li><strong>Select exactly four.</strong><span>Tap or click terms to select them. Selecting a fifth does nothing until you deselect one.</span></li>
+      <li><strong>Submit the connection.</strong><span>A correct group locks above the board. “One away” means three of your four belong together.</span></li>
+      <li><strong>Watch the traps.</strong><span>Several terms may seem related, but the complete solution uses every term exactly once. You get four mistakes.</span></li>
+    </ol>
+  </GameGuide>
+
+  <section class="game-panel connections-panel" aria-label="Connections word-grouping puzzle" data-connections-game>
+    <p class="game-status" role="status" aria-live="polite" data-connections-status>Select four terms that share a connection.</p>
+    <div class="connections-solved" data-connections-solved aria-label="Solved groups"></div>
+    <div class="connections-grid" role="grid" aria-label="Sixteen terms" data-connections-grid></div>
+    <div class="connections-mistakes" aria-label="Mistakes remaining"><span>Mistakes remaining</span><span data-connections-lives></span></div>
+    <div class="game-actions connections-actions">
+      <button class="game-button game-button--secondary" type="button" data-connections-shuffle>Shuffle</button>
+      <button class="game-button game-button--secondary" type="button" data-connections-clear>Deselect all</button>
+      <button class="game-button" type="button" data-connections-submit disabled>Submit</button>
+      <button class="game-button" type="button" data-connections-new>New puzzle</button>
+    </div>
+  </section>
+  <p class="game-note">The 730-round rotation is assembled from 96 original Boho groups—not copied newspaper rounds. Puzzle state and exact scores stay in this browser. Optional sharing sends only solved/lost and a coarse points band.</p>
+</GamesLayout>
+
+<script>
+  // @ts-nocheck -- Browser behavior is covered by engine, contract, and visual QA.
+  import { attachGamePerformance } from "../../lib/games/performance";
+  import { confirmProgressLoss } from "../../lib/games/confirm-reset";
+  import { connectionsPoints, formatGameTime, pointsBucket } from "../../lib/games/scoring";
+  import { CONNECTIONS_PUZZLES, connectionsTerms, evaluateConnection, shuffleConnections, validateConnectionsPuzzle } from "../../lib/games/connections/puzzles";
+
+  const root=document.querySelector("[data-connections-game]");
+  if(root){
+    const STORAGE_KEY="boho-games:v2";
+    const grid=root.querySelector("[data-connections-grid]");
+    const solvedRoot=root.querySelector("[data-connections-solved]");
+    const status=root.querySelector("[data-connections-status]");
+    const lives=root.querySelector("[data-connections-lives]");
+    const submit=root.querySelector("[data-connections-submit]");
+    const numberLabel=document.querySelector("[data-connections-number]");
+    const bestLabel=document.querySelector("[data-connections-best]");
+    let store=readStore();
+    let state=validState(store.connections?.current)?store.connections.current:null;
+    let performanceTracker;
+
+    function readStore(){try{const value=JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");return value&&typeof value==="object"&&!Array.isArray(value)?value:{};}catch{return {};}}
+    function writeStore(){store.connections={...(store.connections||{}),current:state};try{localStorage.setItem(STORAGE_KEY,JSON.stringify(store));}catch{}}
+    function puzzleFor(id){return CONNECTIONS_PUZZLES.find((candidate)=>candidate.id===id);}
+    function validState(value){
+      const puzzle=puzzleFor(value?.puzzleId);if(!puzzle||!validateConnectionsPuzzle(puzzle))return false;
+      const terms=connectionsTerms(puzzle);const termSet=new Set(terms);const groupSet=new Set(puzzle.groups.map((candidate)=>candidate.id));const solvedIds=Array.isArray(value.solved)?value.solved:[];const solvedTermSet=new Set(puzzle.groups.filter((candidate)=>solvedIds.includes(candidate.id)).flatMap((candidate)=>candidate.terms));
+      return Number.isInteger(value.number)&&value.number>0&&Array.isArray(value.order)&&value.order.length===16&&new Set(value.order).size===16&&value.order.every((term)=>termSet.has(term))
+        &&Array.isArray(value.selected)&&value.selected.length<=4&&new Set(value.selected).size===value.selected.length&&value.selected.every((term)=>termSet.has(term)&&!solvedTermSet.has(term))
+        &&Array.isArray(value.solved)&&new Set(value.solved).size===value.solved.length&&value.solved.every((id)=>groupSet.has(id))
+        &&Number.isInteger(value.mistakes)&&value.mistakes>=0&&value.mistakes<=4&&typeof value.complete==="boolean"&&typeof value.lost==="boolean"
+        &&(!value.complete?value.solved.length<4&&value.mistakes<4:value.lost?value.mistakes===4:value.solved.length===4)
+        &&(value.complete?Number.isFinite(value.points):value.points===null)&&["recorded","reported"].every((key)=>typeof value[key]==="boolean");
+    }
+    function stats(){const saved=store.connections?.stats;return {played:Number.isInteger(saved?.played)&&saved.played>=0?saved.played:0,wins:Number.isInteger(saved?.wins)&&saved.wins>=0?saved.wins:0,best:Number.isFinite(saved?.best)&&saved.best>=0?saved.best:0};}
+    function freshPuzzle(){
+      const previous=Number.isInteger(store.connections?.sequence)&&store.connections.sequence>=0?store.connections.sequence:0;const sequence=previous+1;const puzzle=CONNECTIONS_PUZZLES[(sequence-1)%CONNECTIONS_PUZZLES.length];
+      state={number:sequence,puzzleId:puzzle.id,order:shuffleConnections(connectionsTerms(puzzle),Date.now()^sequence),selected:[],solved:[],mistakes:0,complete:false,lost:false,points:null,recorded:false,reported:false};
+      store.connections={...(store.connections||{}),sequence,current:state,stats:stats()};writeStore();performanceTracker?.reset();render();
+    }
+    if(!state)freshPuzzle();
+    function puzzle(){return puzzleFor(state.puzzleId);}
+    function solvedTerms(){const solved=new Set(state.solved);return new Set(puzzle().groups.filter((candidate)=>solved.has(candidate.id)).flatMap((candidate)=>candidate.terms));}
+    function render(){
+      const current=puzzle();const hidden=solvedTerms();const shownGroups=state.lost?current.groups:current.groups.filter((candidate)=>state.solved.includes(candidate.id));
+      solvedRoot.replaceChildren(...[...shownGroups].sort((a,b)=>a.level-b.level).map((candidate)=>{
+        const article=document.createElement("article");article.className="connections-group";article.dataset.level=String(candidate.level);article.innerHTML=`<strong></strong><span></span>`;article.querySelector("strong").textContent=candidate.label;article.querySelector("span").textContent=candidate.terms.join(" · ");return article;
+      }));
+      const remaining=state.lost?[]:state.order.filter((term)=>!hidden.has(term));
+      grid.replaceChildren(...remaining.map((term,index)=>{const button=document.createElement("button");button.type="button";button.role="gridcell";button.textContent=term;button.dataset.term=term;button.setAttribute("aria-selected",String(state.selected.includes(term)));button.tabIndex=index===0?0:-1;button.disabled=state.complete;return button;}));
+      grid.setAttribute("aria-label",state.complete?"Completed Connections board":`${remaining.length} unsolved terms`);
+      lives.replaceChildren(...Array.from({length:4},(_,index)=>{const dot=document.createElement("i");dot.setAttribute("aria-hidden","true");dot.toggleAttribute("data-spent",index>=4-state.mistakes);return dot;}));
+      submit.disabled=state.selected.length!==4||state.complete;
+      root.querySelector("[data-connections-shuffle]").disabled=state.complete;
+      root.querySelector("[data-connections-clear]").disabled=state.selected.length===0||state.complete;
+      const gameStats=stats();numberLabel.textContent=`Puzzle ${state.number} · ${CONNECTIONS_PUZZLES.length}-round original pack`;bestLabel.textContent=gameStats.best?`Best ${gameStats.best.toLocaleString()}`:"Best —";
+      if(state.complete)status.textContent=state.lost?"Round over. The remaining groups are revealed above.":`Perfect grouping${state.mistakes?` with ${state.mistakes} mistake${state.mistakes===1?"":"s"}`:" with no mistakes"}.`;
+    }
+    function toggle(term){if(state.complete)return;const selected=state.selected.indexOf(term);if(selected>=0)state.selected.splice(selected,1);else if(state.selected.length<4)state.selected.push(term);status.textContent=state.selected.length===4?"Four selected. Submit when the connection feels exact.":"Select four terms that share a connection.";writeStore();render();}
+    function record(won){if(state.recorded)return;const gameStats=stats();gameStats.played++;if(won)gameStats.wins++;if(won)gameStats.best=Math.max(gameStats.best,state.points||0);state.recorded=true;store.connections={...(store.connections||{}),current:state,stats:gameStats};}
+    async function report(outcome){if(state.reported)return;const submitted=await window.BohoGameStats?.submit({game:"connections",variant:"standard",outcome,scoreBucket:pointsBucket(state.points||0)});if(submitted){state.reported=true;writeStore();}}
+    function finish(won){state.complete=true;state.lost=!won;performanceTracker.finish();state.points=won?connectionsPoints({won:true,mistakes:state.mistakes,elapsedMs:state.timer?.finishedMs||0}):0;record(won);writeStore();render();void report(won?"solved":"lost");}
+    function submitSelection(){
+      if(state.selected.length!==4||state.complete)return;const result=evaluateConnection(puzzle(),state.selected,state.solved);
+      if(result.group){state.solved.push(result.group.id);state.selected=[];status.textContent=`Correct: ${result.group.label}.`;if(state.solved.length===4){finish(true);return;}}
+      else{state.mistakes++;state.selected=[];status.textContent=result.oneAway?"One away — three of those belong together.":"Not a group. Reconsider the connection.";if(state.mistakes>=4){finish(false);return;}}
+      writeStore();render();
+    }
+    function shuffle(){const hidden=solvedTerms();const remaining=state.order.filter((term)=>!hidden.has(term));const shuffled=shuffleConnections(remaining,Date.now());let cursor=0;state.order=state.order.map((term)=>hidden.has(term)?term:shuffled[cursor++]);writeStore();render();status.textContent="Unsolved terms shuffled.";}
+    grid.addEventListener("click",(event)=>{const button=event.target.closest("[data-term]");if(button)toggle(button.dataset.term);});
+    grid.addEventListener("keydown",(event)=>{const button=event.target.closest("[data-term]");if(!button)return;const buttons=[...grid.querySelectorAll("[data-term]")];const index=buttons.indexOf(button);let next=null;if(event.key==="ArrowRight")next=index+1;if(event.key==="ArrowLeft")next=index-1;if(event.key==="ArrowDown")next=index+4;if(event.key==="ArrowUp")next=index-4;if(next!==null){event.preventDefault();buttons[(next+buttons.length)%buttons.length]?.focus();}if(event.key===" " ){event.preventDefault();toggle(button.dataset.term);}});
+    root.querySelector("[data-connections-shuffle]")?.addEventListener("click",shuffle);
+    root.querySelector("[data-connections-clear]")?.addEventListener("click",()=>{state.selected=[];writeStore();render();status.textContent="Selection cleared.";});
+    submit.addEventListener("click",submitSelection);root.querySelector("[data-connections-new]")?.addEventListener("click",()=>{const changed=Boolean(state.selected.length||state.solved.length||state.mistakes);if(confirmProgressLoss({complete:state.complete,hasProgress:changed,label:"start a new Connections puzzle"}))freshPuzzle();});
+    performanceTracker=attachGamePerformance(document,{getState:()=>state,save:writeStore,calculatePoints:(elapsedMs)=>connectionsPoints({won:!state.lost,mistakes:state.mistakes,elapsedMs})});
+    document.addEventListener("boho-game-guide-open",()=>performanceTracker.pause());document.addEventListener("boho-game-guide-close",()=>{if(!state.complete)performanceTracker.resume();});if(document.querySelector("[data-game-guide][open]"))performanceTracker.pause();
+    render();
+  }
+</script>

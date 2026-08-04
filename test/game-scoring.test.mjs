@@ -1,8 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import {
-  createGameTimer, elapsedGameMs, finishGameTimer, formatGameTime, mahjongPoints,
-  miniCrosswordPoints, miniPerfectSeconds, nonogramPoints, pauseGameTimer,
+  connectionsPoints, createGameTimer, elapsedGameMs, finishGameTimer, formatGameTime, mahjongPoints,
+  loopyPoints, minesweeperPoints, miniCrosswordPoints, miniPerfectSeconds, nonogramPoints, pauseGameTimer,
   pointsBucket, resumeGameTimer, sudokuPoints, wordlePoints
 } from "../src/lib/games/scoring.ts";
 
@@ -40,6 +40,26 @@ test("Sudoku, Mahjong, and Nonogram scores apply their game-specific factors", (
   assert.ok(mahjongPoints({ elapsedMs:300_000, hints:0 }) > mahjongPoints({ elapsedMs:300_000, hints:2 }));
   assert.ok(nonogramPoints({ rows:15, cols:15, elapsedMs:300_000 }) > nonogramPoints({ rows:10, cols:10, elapsedMs:300_000 }));
   assert.equal(nonogramPoints({ rows:15, cols:15, elapsedMs:1_000, usedSolve:true }), 0);
+});
+
+test("Loopy rewards larger, harder, and faster clean solves", () => {
+  assert.ok(loopyPoints({ rows:10, cols:10, difficulty:"hard", elapsedMs:300_000 }) > loopyPoints({ rows:7, cols:7, difficulty:"easy", elapsedMs:300_000 }));
+  assert.ok(loopyPoints({ rows:7, cols:7, difficulty:"normal", elapsedMs:30_000 }) > loopyPoints({ rows:7, cols:7, difficulty:"normal", elapsedMs:300_000 }));
+  assert.equal(loopyPoints({ rows:10, cols:10, difficulty:"hard", elapsedMs:1_000, usedSolve:true }), 0);
+});
+
+test("Minesweeper rewards canonical difficulty and clean speed only", () => {
+  assert.ok(minesweeperPoints({ difficulty:"expert", rows:16, cols:30, mines:99, elapsedMs:300_000 }) > minesweeperPoints({ difficulty:"beginner", rows:9, cols:9, mines:10, elapsedMs:60_000 }));
+  assert.ok(minesweeperPoints({ difficulty:"intermediate", rows:16, cols:16, mines:40, elapsedMs:60_000 }) > minesweeperPoints({ difficulty:"intermediate", rows:16, cols:16, mines:40, elapsedMs:300_000 }));
+  assert.equal(minesweeperPoints({ difficulty:"expert", rows:16, cols:30, mines:99, elapsedMs:1_000, failed:true }), 0);
+  assert.equal(minesweeperPoints({ difficulty:"expert", rows:16, cols:30, mines:99, elapsedMs:1_000, practice:true }), 0);
+  assert.ok(minesweeperPoints({ difficulty:"custom", rows:20, cols:20, mines:80, elapsedMs:120_000 }) > 0);
+});
+
+test("Connections rewards fast, accurate solves and gives losses zero", () => {
+  assert.ok(connectionsPoints({ won:true, mistakes:0, elapsedMs:60_000 }) > connectionsPoints({ won:true, mistakes:1, elapsedMs:60_000 }));
+  assert.ok(connectionsPoints({ won:true, mistakes:0, elapsedMs:30_000 }) > connectionsPoints({ won:true, mistakes:0, elapsedMs:180_000 }));
+  assert.equal(connectionsPoints({ won:false, mistakes:4, elapsedMs:10_000 }),0);
 });
 
 test("anonymous point buckets remain coarse", () => {

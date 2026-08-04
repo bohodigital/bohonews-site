@@ -36,6 +36,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Browser interaction is covered by engine, contract, and browser QA.
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { pointsBucket } from "../../lib/games/scoring";
   import { canMove2048, create2048Grid, isValid2048Grid, max2048Tile, move2048, spawn2048Tile } from "../../lib/games/game-2048";
 
@@ -166,7 +167,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     root.addEventListener("click",(event)=>{const control=event.target.closest("[data-direction]");if(control)move(control.dataset.direction);});
     board.addEventListener("pointerdown",(event)=>{pointerStart={x:event.clientX,y:event.clientY};board.setPointerCapture?.(event.pointerId);});
     board.addEventListener("pointerup",(event)=>{if(!pointerStart)return;const x=event.clientX-pointerStart.x;const y=event.clientY-pointerStart.y;pointerStart=null;if(Math.max(Math.abs(x),Math.abs(y))<24)return;move(Math.abs(x)>Math.abs(y)?(x>0?"right":"left"):(y>0?"down":"up"));});
-    root.querySelector("[data-2048-new]")?.addEventListener("click",freshGame);
+    root.querySelector("[data-2048-new]")?.addEventListener("click",()=>{const changed=state.grid.filter(Boolean).length>2||state.score>0;if(confirmProgressLoss({complete:state.complete,hasProgress:changed,label:"start a new 2048 game"}))freshGame();});
     continueButton?.addEventListener("click",()=>{state.continued=true;writeStore();render();});
     performanceTracker=attachGamePerformance(root,{getState:()=>state,save:writeStore,calculatePoints:()=>state.score,pointsSelector:"[data-2048-score]",showLivePoints:true});
     render();

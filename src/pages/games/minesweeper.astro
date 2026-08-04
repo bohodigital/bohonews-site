@@ -1,0 +1,156 @@
+---
+import GamePerformance from "../../components/games/GamePerformance.astro";
+import GameGuide from "../../components/games/GameGuide.astro";
+import TathamPuzzleHost from "../../components/games/TathamPuzzleHost.astro";
+import GamesLayout from "../../layouts/GamesLayout.astro";
+---
+
+<GamesLayout title="Minesweeper" description="Play unlimited no-guess Minesweeper boards from Boho News." game="Minesweeper">
+  <header class="game-heading">
+    <p class="eyebrow">Classic rules. Deduction-only boards.</p><h1>Minesweeper</h1>
+    <p class="game-heading__dek">Reveal every safe square without opening a mine. Beginner, Intermediate, Expert, and custom boards are generated locally with a safe first move.</p>
+    <div class="game-meta"><span data-mines-board>Beginner · 9×9 · 10 mines</span><span data-mines-best>Best —</span></div>
+  </header>
+  <GamePerformance rules="A clean clear earns a difficulty base plus a bounded speed bonus. Beginner, Intermediate, and Expert have progressively larger bases and par times. Hitting a mine or restarting the same layout locks that attempt’s score at zero; ordinary undo and flagging are free." />
+  <GameGuide game="minesweeper" title="How Minesweeper works" intro="A number tells you exactly how many mines touch that square—including diagonals. Reveal every non-mine square to win; flags help you reason, but flags alone do not finish the board.">
+    <figure class="game-guide__visual">
+      <svg viewBox="0 0 390 220" role="img" aria-labelledby="mines-guide-picture-title mines-guide-picture-desc">
+        <title id="mines-guide-picture-title">A Minesweeper flag and chord example</title>
+        <desc id="mines-guide-picture-desc">A revealed one touches one flagged mine. The other adjacent covered squares are therefore safe and can be opened together by chording the one.</desc>
+        <g class="mines-demo-grid"><path d="M75 25H315M75 85H315M75 145H315M75 205H315M75 25V205M135 25V205M195 25V205M255 25V205M315 25V205" /></g>
+        <g class="mines-demo-covered"><rect x="76" y="26" width="58" height="58"/><rect x="136" y="26" width="58" height="58"/><rect x="196" y="26" width="58" height="58"/><rect x="256" y="26" width="58" height="58"/><rect x="76" y="86" width="58" height="58"/><rect x="256" y="86" width="58" height="58"/><rect x="76" y="146" width="58" height="58"/><rect x="136" y="146" width="58" height="58"/><rect x="196" y="146" width="58" height="58"/><rect x="256" y="146" width="58" height="58"/></g>
+        <g class="mines-demo-open"><rect x="136" y="86" width="58" height="58"/><rect x="196" y="86" width="58" height="58"/></g>
+        <text class="mines-demo-number" x="165" y="127">1</text>
+        <g class="mines-demo-flag"><path d="M219 67V35M210 68h20"/><path class="mines-demo-flag__cloth" d="M219 37l25 9-25 9Z"/></g>
+        <path class="mines-demo-arrow" d="M165 155v34m-9-10 9 10 9-10" />
+        <text class="guide-caption" x="195" y="199" text-anchor="middle">One flag satisfies the 1.</text>
+        <text class="guide-caption" x="195" y="217" text-anchor="middle">Chord the 1 to open the other neighbors.</text>
+      </svg>
+    </figure>
+    <ol class="game-guide__steps">
+      <li><strong>Read all eight neighbors.</strong><span>A 1 touches exactly one mine; a 3 touches exactly three. Diagonals count.</span></li>
+      <li><strong>Flag mines, reveal safety.</strong><span>Use Flag for squares you believe are mines. Open safe squares; a zero automatically opens its surrounding empty area.</span></li>
+      <li><strong>Chord satisfied numbers.</strong><span>When a revealed number touches the same number of flags, reveal or tap that number to open every adjacent unflagged square at once. A wrong flag can make a chord hit a mine.</span></li>
+    </ol>
+  </GameGuide>
+  <p class="game-status" data-mines-run-status role="status" aria-live="polite">Your first reveal is safe. Every standard board can be solved without guessing.</p>
+  <TathamPuzzleHost asset="mines" label="Minesweeper" />
+  <p class="game-note">Mouse: left-click to reveal or chord, right-click to flag. Keyboard: arrow keys move, Enter reveals or chords, and Space flags. Touch: choose Reveal or Flag, then tap. Winning requires every safe square—not every mine—to be revealed.</p>
+  <p class="game-note">This implementation uses the MIT-licensed Mines engine from Simon Tatham’s Portable Puzzle Collection. Generation, play, timing, and saved progress stay in this browser. Optional anonymous sharing sends only the difficulty, outcome, and a coarse points band.</p>
+</GamesLayout>
+
+<script>
+  // @ts-nocheck -- Adapter around the pinned upstream Mines save/status surface.
+  import { attachGamePerformance } from "../../lib/games/performance";
+  import { confirmProgressLoss } from "../../lib/games/confirm-reset";
+  import { elapsedGameMs, formatGameTime, minesweeperPoints, pointsBucket } from "../../lib/games/scoring";
+
+  const host=document.querySelector('[data-tatham-host][data-tatham-asset="mines"]');
+  if(host){
+    const STORAGE_KEY="boho-games:v2";
+    const MAX_SAVE_LENGTH=250_000;
+    const canvas=host.querySelector("#puzzlecanvas");
+    const status=host.querySelector("#statusbar");
+    const runStatus=document.querySelector("[data-mines-run-status]");
+    const boardLabel=document.querySelector("[data-mines-board]");
+    const bestLabel=document.querySelector("[data-mines-best]");
+    let store=readStore();
+    let state=validState(store.minesweeper?.current)?{...store.minesweeper.current}:blankState();
+    let pendingRestore=state.serialized;
+    let maskEngineHistory=state.practice;
+    let restartLock=state.practice;
+    let performanceTracker;
+    let readyTimer=0;
+    let saveTimer=0;
+    let dirty=Boolean(pendingRestore);
+
+    function readStore(){try{const value=JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");return value&&typeof value==="object"?value:{};}catch{return {};}}
+    function validSerialized(value){return value===null||typeof value==="string"&&value.length>0&&value.length<=MAX_SAVE_LENGTH;}
+    function validState(value){return Boolean(value&&value.format==="mines-v1"&&typeof value.complete==="boolean"&&[null,"won","lost"].includes(value.result)&&typeof value.failed==="boolean"&&typeof value.practice==="boolean"&&typeof value.recorded==="boolean"&&typeof value.reported==="boolean"&&validSerialized(value.serialized));}
+    function blankState({practice=false}={}){return {format:"mines-v1",complete:false,result:null,failed:false,practice,points:null,recorded:false,reported:false,serialized:null};}
+    function engine(){return window.Module?.calledRun&&typeof window.Module._get_save_file==="function"?window.Module:null;}
+    function serializeEngine(){
+      const module=engine();if(!module||typeof window.UTF8ToString!=="function")return null;
+      const pointer=module._get_save_file();if(!pointer)return null;
+      try{const value=window.UTF8ToString(pointer);return typeof value==="string"&&value.length<=MAX_SAVE_LENGTH?value:null;}finally{module._free_save_file(pointer);}
+    }
+    function restoreEngine(value){
+      const module=engine();if(!module||typeof value!=="string"||typeof window.writeArrayToMemory!=="function")return false;
+      const bytes=new TextEncoder().encode(value);let position=0;
+      window.savefile_read_callback=(buffer,length)=>{if(position+length>bytes.length)return false;window.writeArrayToMemory(bytes.subarray(position,position+length),buffer);position+=length;return true;};
+      try{module._load_game();return position===bytes.length;}catch{return false;}finally{window.savefile_read_callback=null;}
+    }
+    function canonicalizePresets(){
+      host.querySelectorAll("#gametype label").forEach((label)=>{
+        const text=(label.textContent||"").replace(/\s+/g," ").trim();let replacement="";
+        if(/9\D+9\D+10\s+mines?/i.test(text))replacement="Beginner · 9×9 · 10 mines";
+        else if(/16\D+16\D+40\s+mines?/i.test(text))replacement="Intermediate · 16×16 · 40 mines";
+        else if(/30\D+16\D+99\s+mines?/i.test(text))replacement="Expert · 30×16 · 99 mines";
+        if(replacement){const textNode=[...label.childNodes].reverse().find((node)=>node.nodeType===Node.TEXT_NODE);if(textNode)textNode.textContent=` ${replacement}`;label.querySelector("input")?.setAttribute("aria-label",replacement);}
+      });
+    }
+    function puzzleInfo(){
+      const label=host.querySelector('#gametype input:checked')?.closest('label')?.textContent||"9×9, 10 mines";
+      const size=label.match(/(\d+)\D+(\d+)/);const rows=Number(size?.[2]||9);const cols=Number(size?.[1]||9);const mines=Number(label.match(/(\d+)\s*mines?/i)?.[1]||10);
+      const difficulty=cols===9&&rows===9&&mines===10?"beginner":cols===16&&rows===16&&mines===40?"intermediate":cols===30&&rows===16&&mines===99?"expert":"custom";
+      const title=difficulty==="custom"?"Custom":difficulty[0].toUpperCase()+difficulty.slice(1);
+      return {rows,cols,mines,difficulty,title};
+    }
+    function stats(){
+      const saved=store.minesweeper?.stats;const bestMs=saved?.bestMs&&typeof saved.bestMs==="object"?saved.bestMs:{};
+      return {played:Number.isInteger(saved?.played)&&saved.played>=0?saved.played:0,wins:Number.isInteger(saved?.wins)&&saved.wins>=0?saved.wins:0,bestMs};
+    }
+    function renderMeta(){const info=puzzleInfo();const gameStats=stats();boardLabel.textContent=`${info.title} · ${info.cols}×${info.rows} · ${info.mines} mines`;const best=gameStats.bestMs[info.difficulty];bestLabel.textContent=Number.isFinite(best)?`Best ${formatGameTime(best)}`:"Best —";}
+    function save(){
+      if(!pendingRestore){const serialized=serializeEngine();if(serialized)state.serialized=serialized;}
+      store.minesweeper={...(store.minesweeper||{}),current:state,stats:stats()};
+      try{localStorage.setItem(STORAGE_KEY,JSON.stringify(store));}catch{}
+    }
+    function scheduleSave(){window.clearTimeout(saveTimer);saveTimer=window.setTimeout(save,70);}
+    async function report(outcome){if(state.reported)return;const info=puzzleInfo();const submitted=await window.BohoGameStats?.submit({game:"minesweeper",variant:info.difficulty,outcome,scoreBucket:pointsBucket(state.points||0)});if(submitted){state.reported=true;save();}}
+    function record(outcome){
+      if(state.recorded)return;const gameStats=stats();gameStats.played++;
+      if(outcome==="won"){gameStats.wins++;const elapsed=state.timer?.finishedMs;if(!state.failed&&!state.practice&&Number.isFinite(elapsed)){const key=puzzleInfo().difficulty;gameStats.bestMs[key]=Math.min(Number.isFinite(gameStats.bestMs[key])?gameStats.bestMs[key]:Infinity,elapsed);}}
+      state.recorded=true;store.minesweeper={...(store.minesweeper||{}),current:state,stats:gameStats};renderMeta();
+    }
+    function hitMine(){
+      if(state.result==="lost")return;const firstFailure=!state.failed;state.complete=true;state.result="lost";state.failed=true;state.points=0;performanceTracker.pause();runStatus.textContent="Mine hit. This scored attempt is over; Undo continues the board as zero-score practice.";
+      if(firstFailure){record("lost");void report("lost");}save();
+    }
+    function finishWin(){
+      if(state.result==="won")return;state.complete=true;state.result="won";performanceTracker.finish();runStatus.textContent=state.failed||state.practice?"Board cleared in practice mode. Start a new board for a scored run.":"Board cleared cleanly. New personal times count only fresh, no-death boards.";
+      if(!state.failed&&!state.practice){record("won");void report("won");}save();
+    }
+    function resumePractice(){
+      state.complete=false;state.result=null;state.practice=true;state.points=0;if(state.timer?.finishedMs!==null)state.timer.finishedMs=null;performanceTracker.resume();runStatus.textContent="Practice mode: the board remains playable, but this attempt’s score and personal time are locked out.";save();
+    }
+    function normalizeEngineStatus(){
+      if(!maskEngineHistory||!status||/DEAD!|COMPLETED!/i.test(status.textContent||""))return;const match=(status.textContent||"").match(/Marked:?\s*(\d+)\s*\/\s*(\d+)/i);if(!match)return;
+      const elapsed=state.timer?elapsedGameMs(state.timer):0;const clean=`[${formatGameTime(elapsed)}] Marked: ${match[1]} / ${match[2]}`;if(status.textContent!==clean)status.textContent=clean;
+    }
+    function enforceRestartLock(){if(restartLock){host.querySelector("#undo").disabled=true;host.querySelector("#redo").disabled=true;}}
+    function inspectStatus(){const text=status?.textContent||"";if(/DEAD!/i.test(text)){hitMine();return;}if(/COMPLETED!/i.test(text)){finishWin();return;}if(state.result==="lost")resumePractice();normalizeEngineStatus();enforceRestartLock();}
+    function reset(){dirty=false;pendingRestore=null;maskEngineHistory=false;restartLock=false;state=blankState();performanceTracker.reset();runStatus.textContent="Your first reveal is safe. Every standard board can be solved without guessing.";renderMeta();window.setTimeout(save,120);}
+    function restartBoard(){
+      dirty=false;pendingRestore=null;state=blankState({practice:true});maskEngineHistory=true;restartLock=true;performanceTracker.reset();engine()?._command(6);enforceRestartLock();runStatus.textContent="Board fully restarted from its first move. This known layout is unscored; choose New for a fresh scored board.";
+      renderMeta();window.setTimeout(save,120);
+    }
+    function engineReady(){
+      if(!engine()||!canvas?.onmousedown)return false;window.clearInterval(readyTimer);canonicalizePresets();
+      if(pendingRestore){const saved=pendingRestore;pendingRestore=null;if(!restoreEngine(saved)){state=blankState();performanceTracker.reset();}}
+      const restartButton=host.querySelector("#restart");if(restartButton)restartButton.onclick=null;
+      window.setTimeout(()=>{canonicalizePresets();renderMeta();inspectStatus();save();if(!new URL(document.URL).hash){canvas.blur();window.scrollTo(0,0);}},100);return true;
+    }
+
+    performanceTracker=attachGamePerformance(document,{getState:()=>state,save,calculatePoints:(elapsedMs)=>minesweeperPoints({...puzzleInfo(),elapsedMs,failed:state.failed,practice:state.practice})});
+    document.addEventListener("boho-game-guide-open",()=>performanceTracker.pause());document.addEventListener("boho-game-guide-close",()=>{if(!state.complete)performanceTracker.resume();});
+    if(document.querySelector("[data-game-guide][open]"))performanceTracker.pause();
+    if(status)new MutationObserver(()=>{inspectStatus();scheduleSave();}).observe(status,{childList:true,characterData:true,subtree:true});
+    canvas?.addEventListener("mouseup",()=>{dirty=true;restartLock=false;scheduleSave();});canvas?.addEventListener("keyup",()=>{dirty=true;restartLock=false;scheduleSave();});
+    host.addEventListener("click",(event)=>{const button=event.target.closest?.("#new,#restart");if(button&&!confirmProgressLoss({complete:state.complete,hasProgress:dirty,label:button.id==="restart"?"restart this Minesweeper board":"start a new Minesweeper board"})){event.preventDefault();event.stopImmediatePropagation();}},true);
+    host.querySelector("#new")?.addEventListener("click",()=>window.setTimeout(()=>reset(),0));
+    host.querySelector("#restart")?.addEventListener("click",restartBoard);
+    host.querySelector("#gametype")?.addEventListener("change",()=>window.setTimeout(()=>{canonicalizePresets();reset();},0));
+    if(!engineReady()){readyTimer=window.setInterval(engineReady,50);window.setTimeout(()=>window.clearInterval(readyTimer),15_000);}
+  }
+</script>

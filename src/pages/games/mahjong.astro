@@ -25,6 +25,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Browser interaction is covered by focused unit and browser QA.
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { createMahjongGame, freeMahjongTileIds, isMahjongDeadlocked, mahjongHint, removeMahjongPair, restoreMahjongGame, undoMahjongPair } from "../../lib/games/mahjong";
   import { mahjongPoints, pointsBucket } from "../../lib/games/scoring";
 
@@ -81,6 +82,6 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       });
       const remaining=state.game.tiles.filter(({removed})=>!removed).length;const stats=store.mahjong.stats||{played:0,solved:0};setText(document.querySelector("[data-mahjong-number]"),`Game ${state.number}`);setText(document.querySelector("[data-mahjong-remaining]"),`${remaining} tiles`);setText(document.querySelector("[data-mahjong-stats]"),`${stats.solved} solved`);root.querySelector("[data-mahjong-undo]").disabled=state.game.history.length===0||state.complete;root.querySelector("[data-mahjong-hint]").disabled=state.complete;
     }
-    root.querySelector("[data-mahjong-hint]")?.addEventListener("click",showHint);root.querySelector("[data-mahjong-undo]")?.addEventListener("click",undo);root.querySelector("[data-mahjong-new]")?.addEventListener("click",freshGame);performanceTracker=attachGamePerformance(document,{getState:()=>state,save,calculatePoints:(elapsedMs)=>mahjongPoints({elapsedMs,hints:state.hints||0})});render();
+    root.querySelector("[data-mahjong-hint]")?.addEventListener("click",showHint);root.querySelector("[data-mahjong-undo]")?.addEventListener("click",undo);root.querySelector("[data-mahjong-new]")?.addEventListener("click",()=>{if(confirmProgressLoss({complete:state.complete,hasProgress:Boolean(state.game.history.length),label:"start a new Mahjong board"}))freshGame();});performanceTracker=attachGamePerformance(document,{getState:()=>state,save,calculatePoints:(elapsedMs)=>mahjongPoints({elapsedMs,hints:state.hints||0})});render();
   }
 </script>

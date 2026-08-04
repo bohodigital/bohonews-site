@@ -1,0 +1,108 @@
+---
+import GamePerformance from "../../components/games/GamePerformance.astro";
+import GameGuide from "../../components/games/GameGuide.astro";
+import TathamPuzzleHost from "../../components/games/TathamPuzzleHost.astro";
+import GamesLayout from "../../layouts/GamesLayout.astro";
+---
+
+<GamesLayout title="Loopy" description="Play unlimited locally generated Loopy puzzles from Boho News." game="Loopy">
+  <header class="game-heading">
+    <p class="eyebrow">One line. No loose ends.</p><h1>Loopy</h1>
+    <p class="game-heading__dek">Draw one unbroken loop around the numbered cells. Every clue tells you exactly how many of its edges belong to the loop.</p>
+  </header>
+  <GamePerformance rules="Points scale with board area and difficulty, plus a bounded speed bonus. Easy, Normal, Tricky, and Hard use progressively higher values. Using Solve makes the score zero; undo, redo, and excluded-edge marks are free." />
+  <GameGuide game="loopy" title="How Loopy works" intro="The numbers describe nearby edges. Your job is to connect some of those edges into exactly one closed loop.">
+    <figure class="game-guide__visual">
+      <svg viewBox="0 0 300 210" role="img" aria-labelledby="loopy-guide-picture-title loopy-guide-picture-desc">
+        <title id="loopy-guide-picture-title">A completed two by two Loopy example</title>
+        <desc id="loopy-guide-picture-desc">A green loop follows the outside edges of four cells marked two. Crosses mark inside edges excluded from the loop.</desc>
+        <g class="guide-grid"><path d="M65 30H235M65 100H235M65 170H235M65 30V170M150 30V170M235 30V170" /></g>
+        <path class="guide-loop" d="M65 30H235V170H65Z" />
+        <g class="guide-dots"><circle cx="65" cy="30" r="4"/><circle cx="150" cy="30" r="4"/><circle cx="235" cy="30" r="4"/><circle cx="65" cy="100" r="4"/><circle cx="150" cy="100" r="4"/><circle cx="235" cy="100" r="4"/><circle cx="65" cy="170" r="4"/><circle cx="150" cy="170" r="4"/><circle cx="235" cy="170" r="4"/></g>
+        <g class="guide-numbers"><text x="108" y="72">2</text><text x="193" y="72">2</text><text x="108" y="142">2</text><text x="193" y="142">2</text></g>
+        <g class="guide-crosses"><path d="M143 58l14 14m0-14l-14 14M143 128l14 14m0-14l-14 14M101 93l14 14m0-14l-14 14M186 93l14 14m0-14l-14 14" /></g>
+        <text class="guide-caption" x="150" y="200" text-anchor="middle">Each 2 touches exactly two green segments.</text>
+      </svg>
+    </figure>
+    <ol class="game-guide__steps">
+      <li><strong>Read a number.</strong><span>A 0 touches no loop edges; a 3 touches three. Blank cells provide no clue.</span></li>
+      <li><strong>Draw or exclude.</strong><span>Tap an edge to include it. Use Exclude edge to mark segments you know are impossible.</span></li>
+      <li><strong>Close one loop.</strong><span>The final line cannot branch, stop, cross itself, or split into separate smaller loops.</span></li>
+    </ol>
+  </GameGuide>
+  <TathamPuzzleHost asset="loopy" label="Loopy" />
+  <p class="game-note">Tap an edge with Draw line selected to include it. Choose Exclude edge, Ctrl-click, or right-click to mark an edge that cannot be part of the loop. A valid answer is one closed loop with no branches or smaller loops.</p>
+  <p class="game-note">Generation, play, and saved progress stay in this browser. The timer pauses when this tab is hidden. Optional anonymous sharing sends only the solved outcome, difficulty, and a coarse points band.</p>
+</GamesLayout>
+
+<script>
+  // @ts-nocheck -- Adapter around the pinned upstream Loopy save/status surface.
+  import { attachGamePerformance } from "../../lib/games/performance";
+  import { confirmProgressLoss } from "../../lib/games/confirm-reset";
+  import { loopyPoints, pointsBucket } from "../../lib/games/scoring";
+
+  const host=document.querySelector('[data-tatham-host][data-tatham-asset="loopy"]');
+  if(host){
+    const STORAGE_KEY="boho-games:v2";
+    const MAX_SAVE_LENGTH=250_000;
+    const canvas=host.querySelector("#puzzlecanvas");
+    const status=host.querySelector("#statusbar");
+    let store=readStore();
+    let state=validState(store.loopy?.current)?{...store.loopy.current}:{format:"loopy-v1",complete:false,points:null,usedSolve:false,reported:false,serialized:null};
+    let performanceTracker;
+    let readyTimer=0;
+    let saveTimer=0;
+    let dirty=Boolean(state.serialized);
+
+    function readStore(){try{const value=JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");return value&&typeof value==="object"?value:{};}catch{return {};}}
+    function validState(value){return Boolean(value&&value.format==="loopy-v1"&&typeof value.complete==="boolean"&&(value.serialized===null||typeof value.serialized==="string"&&value.serialized.length>0&&value.serialized.length<=MAX_SAVE_LENGTH)&&typeof value.usedSolve==="boolean"&&typeof value.reported==="boolean");}
+    function engine(){return window.Module?.calledRun&&typeof window.Module._get_save_file==="function"?window.Module:null;}
+    function serializeEngine(){
+      const module=engine();if(!module||typeof window.UTF8ToString!=="function")return null;
+      const pointer=module._get_save_file();if(!pointer)return null;
+      try{const value=window.UTF8ToString(pointer);return typeof value==="string"&&value.length<=MAX_SAVE_LENGTH?value:null;}finally{module._free_save_file(pointer);}
+    }
+    function restoreEngine(value){
+      const module=engine();if(!module||typeof value!=="string"||typeof window.writeArrayToMemory!=="function")return false;
+      const bytes=new TextEncoder().encode(value);let position=0;
+      window.savefile_read_callback=(buffer,length)=>{if(position+length>bytes.length)return false;window.writeArrayToMemory(bytes.subarray(position,position+length),buffer);position+=length;return true;};
+      try{module._load_game();return position===bytes.length;}catch{return false;}finally{window.savefile_read_callback=null;}
+    }
+    function puzzleInfo(){
+      const label=host.querySelector('#gametype input:checked')?.closest('label')?.textContent||"7x7 Easy";
+      const size=label.match(/(\d+)\D+(\d+)/);const difficulty=label.match(/\b(easy|normal|tricky|hard)\b/i)?.[1]?.toLowerCase()||"normal";
+      return {rows:Number(size?.[1]||7),cols:Number(size?.[2]||7),difficulty};
+    }
+    function save(){
+      const serialized=serializeEngine();if(serialized)state.serialized=serialized;
+      store.loopy={...(store.loopy||{}),current:state};
+      try{localStorage.setItem(STORAGE_KEY,JSON.stringify(store));}catch{}
+    }
+    function scheduleSave(){window.clearTimeout(saveTimer);saveTimer=window.setTimeout(save,80);}
+    async function report(){if(state.reported||!state.complete)return;const submitted=await window.BohoGameStats?.submit({game:"loopy",variant:puzzleInfo().difficulty,outcome:"solved",scoreBucket:pointsBucket(state.points||0)});if(submitted){state.reported=true;save();}}
+    function inspectStatus(){
+      const text=status?.textContent||"";
+      if(!state.complete&&/\b(completed|complete|solved)\b/i.test(text)){state.complete=true;performanceTracker.finish();save();void report();}
+    }
+    function reset(){dirty=false;state={format:"loopy-v1",complete:false,points:null,usedSolve:false,reported:false,serialized:null};performanceTracker.reset();window.setTimeout(save,120);}
+    function finishFromSolve(){if(state.complete)return;state.complete=true;performanceTracker.finish();save();void report();}
+    function engineReady(){
+      if(!engine()||!canvas?.onmousedown)return false;
+      window.clearInterval(readyTimer);
+      if(state.serialized&&!restoreEngine(state.serialized)){state={format:"loopy-v1",complete:false,points:null,usedSolve:false,reported:false,serialized:null};performanceTracker.reset();}
+      window.setTimeout(()=>{inspectStatus();save();if(!new URL(document.URL).hash){canvas.blur();window.scrollTo(0,0);}},100);
+      return true;
+    }
+
+    performanceTracker=attachGamePerformance(document,{getState:()=>state,save,calculatePoints:(elapsedMs)=>loopyPoints({...puzzleInfo(),elapsedMs,usedSolve:state.usedSolve})});
+    document.addEventListener("boho-game-guide-open",()=>performanceTracker.pause());document.addEventListener("boho-game-guide-close",()=>performanceTracker.resume());
+    if(document.querySelector("[data-game-guide][open]"))performanceTracker.pause();
+    if(status)new MutationObserver(()=>{inspectStatus();scheduleSave();}).observe(status,{childList:true,characterData:true,subtree:true});
+    canvas?.addEventListener("mouseup",()=>{dirty=true;scheduleSave();});canvas?.addEventListener("keyup",()=>{dirty=true;scheduleSave();});
+    host.addEventListener("click",(event)=>{const button=event.target.closest?.("#new,#restart");if(button&&!confirmProgressLoss({complete:state.complete,hasProgress:dirty,label:button.id==="restart"?"reset this Loopy puzzle":"start a new Loopy puzzle"})){event.preventDefault();event.stopImmediatePropagation();}},true);
+    host.querySelector("#solve")?.addEventListener("click",()=>{state.usedSolve=true;window.setTimeout(finishFromSolve,100);});
+    ["#new","#restart"].forEach((selector)=>host.querySelector(selector)?.addEventListener("click",()=>window.setTimeout(reset,0)));
+    host.querySelector("#gametype")?.addEventListener("change",()=>window.setTimeout(reset,0));
+    if(!engineReady()){readyTimer=window.setInterval(engineReady,50);window.setTimeout(()=>window.clearInterval(readyTimer),15_000);}
+  }
+</script>

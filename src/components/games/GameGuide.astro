@@ -1,0 +1,54 @@
+---
+interface Props {
+  game: string;
+  title: string;
+  intro: string;
+}
+
+const { game, title, intro } = Astro.props;
+const dialogId = `${game}-game-guide`;
+---
+
+<div class="game-guide-launch">
+  <button class="game-button game-button--secondary" type="button" data-game-guide-open aria-haspopup="dialog" aria-controls={dialogId}>How to play</button>
+</div>
+
+<dialog class="game-guide" id={dialogId} data-game-guide data-game-guide-key={game} aria-labelledby={`${dialogId}-title`}>
+  <div class="game-guide__panel">
+    <header class="game-guide__header">
+      <div><p class="eyebrow">Sixty-second guide</p><h2 id={`${dialogId}-title`}>{title}</h2></div>
+      <button type="button" data-game-guide-close aria-label="Close instructions">×</button>
+    </header>
+    <p class="game-guide__intro">{intro}</p>
+    <slot />
+    <button class="game-button" type="button" data-game-guide-done>Got it — let me play</button>
+  </div>
+</dialog>
+
+<script>
+  document.querySelectorAll("[data-game-guide]").forEach((dialog) => {
+    if (!(dialog instanceof HTMLDialogElement) || dialog.dataset.guideReady) return;
+    dialog.dataset.guideReady = "true";
+    const key = `boho-games:guide:${dialog.dataset.gameGuideKey}:v1`;
+    const opener = document.querySelector<HTMLButtonElement>(`[aria-controls="${dialog.id}"]`);
+    const closers = dialog.querySelectorAll("[data-game-guide-close],[data-game-guide-done]");
+    let active = false;
+    const announce = (name: string) => document.dispatchEvent(new CustomEvent(name,{detail:{game:dialog.dataset.gameGuideKey}}));
+    const open = () => {
+      if (dialog.open) return;
+      active = true;
+      announce("boho-game-guide-open");
+      if (typeof dialog.showModal === "function") dialog.showModal(); else dialog.setAttribute("open","");
+      try { localStorage.setItem(key,"seen"); } catch {}
+    };
+    const close = () => {
+      if (!dialog.open) return;
+      if (typeof dialog.close === "function") dialog.close(); else { dialog.removeAttribute("open"); active=false;announce("boho-game-guide-close"); }
+    };
+    opener?.addEventListener("click",open);
+    closers.forEach((button)=>button.addEventListener("click",close));
+    dialog.addEventListener("click",(event)=>{if(event.target===dialog)close();});
+    dialog.addEventListener("close",()=>{if(active){active=false;announce("boho-game-guide-close");}opener?.focus();});
+    window.setTimeout(()=>{try{if(localStorage.getItem(key)!=="seen")open();}catch{open();}},180);
+  });
+</script>
