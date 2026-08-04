@@ -109,6 +109,29 @@ const { title, description, game } = Astro.props;
   }
   .game-button--secondary { background: transparent; color: var(--text); }
   .game-button[hidden] { display: none; }
+  .game-guide-launch { display: flex; justify-content: center; margin: -.55rem auto 1.5rem; }
+  .game-guide { background: transparent; border: 0; box-sizing: border-box; color: var(--text); max-height: calc(100vh - .5rem); max-width: 46rem; overflow: hidden; padding: 1rem; width: calc(100% - 1rem); }
+  .game-guide::backdrop { background: rgb(20 18 15 / .68); }
+  .game-guide__panel { background: var(--surface); border: .22rem solid var(--text); box-shadow: 0 1.5rem 4rem rgb(0 0 0 / .28); box-sizing: border-box; max-height: calc(100vh - 2.5rem); overflow: auto; padding: clamp(1rem,4vw,2rem); }
+  .game-guide__header { align-items: start; border-bottom: 1px solid var(--border); display: flex; gap: 1rem; justify-content: space-between; padding-bottom: .8rem; }
+  .game-guide__header h2 { font-size: clamp(1.8rem,6vw,3rem); margin: 0; }
+  .game-guide__header [data-game-guide-close] { background: transparent; border: 1px solid var(--border-strong); color: var(--text); cursor: pointer; flex: 0 0 auto; font-size: 1.5rem; height: 2.45rem; line-height: 1; padding: 0; width: 2.45rem; }
+  .game-guide__intro { color: var(--text-soft); font-family: var(--serif); font-size: 1.08rem; line-height: 1.45; margin: 1rem 0; }
+  .game-guide__visual { background: var(--accent-soft); border: 1px solid var(--border); margin: 1rem 0; padding: clamp(.65rem,3vw,1.2rem); }
+  .game-guide__visual svg { display: block; max-height: 15rem; width: 100%; }
+  .guide-grid path,.nonogram-demo-grid path { fill: none; stroke: var(--border-strong); stroke-width: 2; }
+  .guide-loop { fill: none; stroke: var(--game-green); stroke-linecap: round; stroke-linejoin: round; stroke-width: 9; }
+  .guide-dots { fill: var(--text); }
+  .guide-numbers text,.guide-clues text { fill: var(--text); font-family: var(--sans); font-size: 24px; font-weight: 900; text-anchor: middle; }
+  .guide-crosses path { fill: none; stroke: var(--accent); stroke-linecap: round; stroke-width: 3; }
+  .guide-caption { fill: var(--text-muted); font-family: var(--sans); font-size: 14px; }
+  .nonogram-demo-fill rect { fill: var(--game-ink); }
+  .game-guide__steps { counter-reset: guide-step; display: grid; gap: .65rem; list-style: none; margin: 1rem 0 1.2rem; padding: 0; }
+  .game-guide__steps li { align-items: start; border-top: 1px solid var(--border); counter-increment: guide-step; display: grid; gap: .15rem .8rem; grid-template-columns: 1.6rem 1fr; padding-top: .65rem; }
+  .game-guide__steps li::before { align-items: center; background: var(--accent); color: var(--surface); content: counter(guide-step); display: flex; font-size: .72rem; font-weight: 900; grid-row: 1 / span 2; height: 1.35rem; justify-content: center; margin-top: .05rem; width: 1.35rem; }
+  .game-guide__steps strong { color: var(--text); font-size: .78rem; font-weight: 900; text-transform: uppercase; }
+  .game-guide__steps span { color: var(--text-soft); line-height: 1.42; }
+  .game-guide__panel > .game-button { display: block; margin: 0 auto; }
   .game-note { border-top: 1px solid var(--border); color: var(--text-muted); font-size: .75rem; margin: 2.5rem auto 0; max-width: 38rem; padding-top: 1rem; text-align: center; }
   .game-sharing { align-items: start; border-top: .2rem solid var(--text); display: grid; gap: 1.5rem; grid-template-columns: minmax(12rem,.7fr) minmax(18rem,1.3fr); margin: 3.5rem auto 0; max-width: 58rem; padding-top: 1rem; }
   .game-sharing h2 { font-size: 1.35rem; margin: 0 0 .3rem; }
@@ -260,6 +283,9 @@ const { title, description, game } = Astro.props;
     .mini-layout { grid-template-columns: 1fr; }
     .mini-clues { gap: 1rem; }
     .game-sharing { grid-template-columns: 1fr; }
+    .game-guide { padding: .4rem; width: calc(100% - .5rem); }
+    .game-guide__panel { max-height: calc(100vh - 1.3rem); }
+    .game-guide__visual svg { max-height: 12rem; }
     .tatham-toolbar { align-items: stretch; flex-direction: column; }
     .tatham-presets { align-items: flex-start; flex-direction: column; }
     .tatham-more > div { left: 0; right: auto; }

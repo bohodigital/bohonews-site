@@ -79,8 +79,10 @@ export function attachGamePerformance(root: ParentNode, options: PerformanceOpti
 
   return {
     finish,
+    pause,
     render,
     reset,
+    resume,
     destroy() {
       window.clearInterval(interval);
       document.removeEventListener("visibilitychange", onVisibility);

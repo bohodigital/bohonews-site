@@ -1,5 +1,6 @@
 ---
 import GamePerformance from "../../components/games/GamePerformance.astro";
+import GameGuide from "../../components/games/GameGuide.astro";
 import TathamPuzzleHost from "../../components/games/TathamPuzzleHost.astro";
 import GamesLayout from "../../layouts/GamesLayout.astro";
 ---
@@ -10,6 +11,25 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     <p class="game-heading__dek">Draw one unbroken loop around the numbered cells. Every clue tells you exactly how many of its edges belong to the loop.</p>
   </header>
   <GamePerformance rules="Points scale with board area and difficulty, plus a bounded speed bonus. Easy, Normal, Tricky, and Hard use progressively higher values. Using Solve makes the score zero; undo, redo, and excluded-edge marks are free." />
+  <GameGuide game="loopy" title="How Loopy works" intro="The numbers describe nearby edges. Your job is to connect some of those edges into exactly one closed loop.">
+    <figure class="game-guide__visual">
+      <svg viewBox="0 0 300 210" role="img" aria-labelledby="loopy-guide-picture-title loopy-guide-picture-desc">
+        <title id="loopy-guide-picture-title">A completed two by two Loopy example</title>
+        <desc id="loopy-guide-picture-desc">A green loop follows the outside edges of four cells marked two. Crosses mark inside edges excluded from the loop.</desc>
+        <g class="guide-grid"><path d="M65 30H235M65 100H235M65 170H235M65 30V170M150 30V170M235 30V170" /></g>
+        <path class="guide-loop" d="M65 30H235V170H65Z" />
+        <g class="guide-dots"><circle cx="65" cy="30" r="4"/><circle cx="150" cy="30" r="4"/><circle cx="235" cy="30" r="4"/><circle cx="65" cy="100" r="4"/><circle cx="150" cy="100" r="4"/><circle cx="235" cy="100" r="4"/><circle cx="65" cy="170" r="4"/><circle cx="150" cy="170" r="4"/><circle cx="235" cy="170" r="4"/></g>
+        <g class="guide-numbers"><text x="108" y="72">2</text><text x="193" y="72">2</text><text x="108" y="142">2</text><text x="193" y="142">2</text></g>
+        <g class="guide-crosses"><path d="M143 58l14 14m0-14l-14 14M143 128l14 14m0-14l-14 14M101 93l14 14m0-14l-14 14M186 93l14 14m0-14l-14 14" /></g>
+        <text class="guide-caption" x="150" y="200" text-anchor="middle">Each 2 touches exactly two green segments.</text>
+      </svg>
+    </figure>
+    <ol class="game-guide__steps">
+      <li><strong>Read a number.</strong><span>A 0 touches no loop edges; a 3 touches three. Blank cells provide no clue.</span></li>
+      <li><strong>Draw or exclude.</strong><span>Tap an edge to include it. Use Exclude edge to mark segments you know are impossible.</span></li>
+      <li><strong>Close one loop.</strong><span>The final line cannot branch, stop, cross itself, or split into separate smaller loops.</span></li>
+    </ol>
+  </GameGuide>
   <TathamPuzzleHost asset="loopy" label="Loopy" />
   <p class="game-note">Tap an edge with Draw line selected to include it. Choose Exclude edge, Ctrl-click, or right-click to mark an edge that cannot be part of the loop. A valid answer is one closed loop with no branches or smaller loops.</p>
   <p class="game-note">Generation, play, and saved progress stay in this browser. The timer pauses when this tab is hidden. Optional anonymous sharing sends only the solved outcome, difficulty, and a coarse points band.</p>
@@ -73,6 +93,8 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     }
 
     performanceTracker=attachGamePerformance(document,{getState:()=>state,save,calculatePoints:(elapsedMs)=>loopyPoints({...puzzleInfo(),elapsedMs,usedSolve:state.usedSolve})});
+    document.addEventListener("boho-game-guide-open",()=>performanceTracker.pause());document.addEventListener("boho-game-guide-close",()=>performanceTracker.resume());
+    if(document.querySelector("[data-game-guide][open]"))performanceTracker.pause();
     if(status)new MutationObserver(()=>{inspectStatus();scheduleSave();}).observe(status,{childList:true,characterData:true,subtree:true});
     canvas?.addEventListener("mouseup",scheduleSave);canvas?.addEventListener("keyup",scheduleSave);
     host.querySelector("#solve")?.addEventListener("click",()=>{state.usedSolve=true;window.setTimeout(finishFromSolve,100);});
