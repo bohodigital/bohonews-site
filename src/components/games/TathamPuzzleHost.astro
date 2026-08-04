@@ -12,7 +12,7 @@ const secondaryMode = asset === "loopy" ? "Exclude edge" : asset === "mines" ? "
 ---
 
 <section class="tatham-host" data-tatham-host data-tatham-asset={asset} aria-label={`${label} puzzle`}>
-  <div class="tatham-touch-modes" aria-label="Touch drawing mode">
+  <div class="tatham-touch-modes" aria-label="Touch input mode">
     <span>Touch mode</span>
     <button type="button" data-tatham-mode="primary" aria-pressed="true">{primaryMode}</button>
     <button type="button" data-tatham-mode="mark" aria-pressed="false">{secondaryMode}</button>
@@ -39,13 +39,15 @@ const secondaryMode = asset === "loopy" ? "Exclude edge" : asset === "mines" ? "
         </div>
       </details>
     </form>
-    <div id="resizable">
-      <canvas id="puzzlecanvas" tabindex="0" aria-label={`${label} interactive puzzle canvas`}></canvas>
-      <div id="statusbar" role="status" aria-live="polite"></div>
-      <svg id="resizehandle" aria-label="Resize puzzle" width="18" height="18" role="img">
-        <title>Drag to resize the puzzle. Right-click to restore its default size.</title>
-        <path d="M16,2L2,16M16,8L8,16M16,13L13,16" stroke="currentColor" stroke-linecap="round"></path>
-      </svg>
+    <div id="puzzlecanvascontain">
+      <div id="resizable">
+        <canvas id="puzzlecanvas" tabindex="0" aria-label={`${label} interactive puzzle canvas`}></canvas>
+        <div id="statusbar" role="status" aria-live="polite"></div>
+        <svg id="resizehandle" aria-label="Resize puzzle" width="18" height="18" role="img">
+          <title>Drag to resize the puzzle. Right-click to restore its default size.</title>
+          <path d="M16,2L2,16M16,8L8,16M16,13L13,16" stroke="currentColor" stroke-linecap="round"></path>
+        </svg>
+      </div>
     </div>
     <p class="tatham-permalinks">Link to this puzzle: <a id="permalink-desc">game ID</a> · <a id="permalink-seed">random seed</a></p>
   </main>

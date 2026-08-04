@@ -50,13 +50,13 @@ working label only; public naming requires separate review before release.
 - Copyright: 2004–2024 Simon Tatham and contributors
 - License: MIT
 - Included targets: `loopy` for Loopy, `pattern` for Nonogram, and `mines`
-  for a future Minesweeper route
+  for Minesweeper
 
 The local preview distributes pinned `loopy`, `pattern`, and `mines` JavaScript
 and WebAssembly build outputs beside the upstream `LICENCE`, source lock, and
-SHA-256 manifest. Loopy and Nonogram use their engines through the small Boho
-host; Mines is built but does not yet have a public route. Puzzle generation,
-solving, input, and serialization all run in the reader's browser.
+SHA-256 manifest. Loopy, Nonogram, and Minesweeper use their engines through the
+small Boho host. Puzzle generation, solving, input, and serialization all run in
+the reader's browser.
 
 ## Mah - Mahjong Solitaire
 

@@ -33,6 +33,11 @@ floor to avoid division by zero.
   clock is context only and never penalizes deliberate strategy.
 - Nonogram: for board area `A`, score is
   `40A + 40A * 2A / (2A + t)`. Using the upstream Solve command scores zero.
+- Minesweeper: a clean clear earns `base + base * par / (par + t)`.
+  Beginner uses 2,500/60, Intermediate 6,500/240, and Expert 12,000/480.
+  Custom boards derive a bounded base from safe squares and mines and use
+  0.9 seconds per safe square as par. Hitting a mine or restarting the known
+  layout makes that attempt practice-only and scores zero.
 - Mahjong Solitaire: clearing the Turtle earns `7200 + 7200 * 600 / (600 + t)
   - 500 * hints`. Undo has no penalty.
 
@@ -59,3 +64,7 @@ Anonymous point bands are `0`, `1-1999`, `2000-3999`, `4000-7999`,
 - Nonogram remains the pinned Pattern engine from Simon Tatham's Portable Puzzle
   Collection:
   https://www.chiark.greenend.org.uk/~sgtatham/puzzles/
+- Minesweeper remains the pinned Mines engine. Its official rules document safe
+  first reveals, eight-neighbor counts, flags, chording, and deduction-only
+  generation:
+  https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/mines.html

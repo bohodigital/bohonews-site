@@ -17,14 +17,15 @@ test("the shared game guide is accessible, repeatable, and appears once automati
   assert.match(guide,/boho-game-guide-close/);
 });
 
-test("Loopy and Nonogram include visual rule examples and pause while their guide is open", async () => {
-  const [loopy,nonogram,layout,performance] = await Promise.all([
+test("Loopy, Nonogram, and Minesweeper include visual rule examples and pause while their guide is open", async () => {
+  const [loopy,nonogram,minesweeper,layout,performance] = await Promise.all([
     source("src/pages/games/loopy.astro"),
     source("src/pages/games/nonogram.astro"),
+    source("src/pages/games/minesweeper.astro"),
     source("src/layouts/GamesLayout.astro"),
     source("src/lib/games/performance.ts")
   ]);
-  for (const page of [loopy,nonogram]) {
+  for (const page of [loopy,nonogram,minesweeper]) {
     assert.match(page,/<GameGuide/);
     assert.match(page,/<svg[\s\S]*role="img"/);
     assert.match(page,/boho-game-guide-open[\s\S]*performanceTracker\.pause\(\)/);
@@ -34,6 +35,9 @@ test("Loopy and Nonogram include visual rule examples and pause while their guid
   assert.match(loopy,/cannot branch, stop, cross itself, or split/i);
   assert.match(nonogram,/“1 1” means two single fills/i);
   assert.match(nonogram,/space must separate two different runs/i);
+  assert.match(minesweeper,/all eight neighbors/i);
+  assert.match(minesweeper,/Chord satisfied numbers/i);
+  assert.match(minesweeper,/flags alone do not finish the board/i);
   assert.match(layout,/\.game-guide::backdrop/);
   assert.match(layout,/\.nonogram-demo-fill/);
   assert.match(performance,/return \{[\s\S]*pause,[\s\S]*resume,/);

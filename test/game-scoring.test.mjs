@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   createGameTimer, elapsedGameMs, finishGameTimer, formatGameTime, mahjongPoints,
-  loopyPoints, miniCrosswordPoints, miniPerfectSeconds, nonogramPoints, pauseGameTimer,
+  loopyPoints, minesweeperPoints, miniCrosswordPoints, miniPerfectSeconds, nonogramPoints, pauseGameTimer,
   pointsBucket, resumeGameTimer, sudokuPoints, wordlePoints
 } from "../src/lib/games/scoring.ts";
 
@@ -46,6 +46,14 @@ test("Loopy rewards larger, harder, and faster clean solves", () => {
   assert.ok(loopyPoints({ rows:10, cols:10, difficulty:"hard", elapsedMs:300_000 }) > loopyPoints({ rows:7, cols:7, difficulty:"easy", elapsedMs:300_000 }));
   assert.ok(loopyPoints({ rows:7, cols:7, difficulty:"normal", elapsedMs:30_000 }) > loopyPoints({ rows:7, cols:7, difficulty:"normal", elapsedMs:300_000 }));
   assert.equal(loopyPoints({ rows:10, cols:10, difficulty:"hard", elapsedMs:1_000, usedSolve:true }), 0);
+});
+
+test("Minesweeper rewards canonical difficulty and clean speed only", () => {
+  assert.ok(minesweeperPoints({ difficulty:"expert", rows:16, cols:30, mines:99, elapsedMs:300_000 }) > minesweeperPoints({ difficulty:"beginner", rows:9, cols:9, mines:10, elapsedMs:60_000 }));
+  assert.ok(minesweeperPoints({ difficulty:"intermediate", rows:16, cols:16, mines:40, elapsedMs:60_000 }) > minesweeperPoints({ difficulty:"intermediate", rows:16, cols:16, mines:40, elapsedMs:300_000 }));
+  assert.equal(minesweeperPoints({ difficulty:"expert", rows:16, cols:30, mines:99, elapsedMs:1_000, failed:true }), 0);
+  assert.equal(minesweeperPoints({ difficulty:"expert", rows:16, cols:30, mines:99, elapsedMs:1_000, practice:true }), 0);
+  assert.ok(minesweeperPoints({ difficulty:"custom", rows:20, cols:20, mines:80, elapsedMs:120_000 }) > 0);
 });
 
 test("anonymous point buckets remain coarse", () => {

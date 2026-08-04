@@ -3,9 +3,16 @@
 The dedicated 4×4 Mini Crossword authoring, validation, interaction, and storage
 plan lives in `docs/games/CROSSWORD-LIBRARY-PLAN.md`.
 
-Status: 2048 is implemented. The pinned Tatham Pattern and Mines assets and the
-first shared Nonogram host are implemented for local preview only; no part of
-this document authorizes deployment.
+Status: 2048 is implemented. The pinned Tatham Pattern, Mines, and Loopy assets
+and all three shared-host routes are implemented for local preview only; no part
+of this document authorizes deployment.
+
+Minesweeper now exposes canonical Beginner (9×9/10), Intermediate (16×16/40),
+and Expert (30×16/99) presets plus custom boards, a safe first reveal,
+deduction-only generation, reveal/flag touch modes, chording, keyboard play,
+device-local resume and personal times, timer/scoring, a visual guide, and
+aggregate-only optional result buckets. A death ends the scored attempt; Undo
+continues it as zero-score practice.
 
 Loopy is now the second shared-host game. Its pinned `loopy` WebAssembly target,
 draw/exclude touch modes, infinite difficulty presets, timer, scoring, coarse

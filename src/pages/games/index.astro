@@ -2,12 +2,12 @@
 import GamesLayout from "../../layouts/GamesLayout.astro";
 ---
 
-<GamesLayout title="Games" description="Unlimited Wordle, Mini Crossword, Sudoku, 2048, Nonogram, Mahjong, and Loopy games from Boho News.">
+<GamesLayout title="Games" description="Unlimited Wordle, Mini Crossword, Sudoku, 2048, Nonogram, Mahjong, Loopy, and Minesweeper games from Boho News.">
   <header class="games-hero">
     <div>
       <p class="eyebrow">A sharper daily break</p>
       <h1>Boho Games</h1>
-      <p class="games-hero__dek">Seven quick games. Play as many as you want. No account, no leaderboard, no nonsense.</p>
+      <p class="games-hero__dek">Eight quick games. Play as many as you want. No account, no leaderboard, no nonsense.</p>
     </div>
     <p class="games-date"><strong>Unlimited play</strong><span>Progress stays in this browser. Community result sharing is optional.</span></p>
   </header>
@@ -67,6 +67,14 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       <p>Use numbered clues to draw one perfect loop with no branches or loose ends.</p>
       <span class="game-card__status">Completed</span>
       <a class="game-card__action" href="/games/loopy/"><span>Play Loopy</span><span aria-hidden="true">→</span></a>
+    </article>
+    <article class="game-card" data-game-card="minesweeper">
+      <span class="game-card__number">08 · Classic logic</span>
+      <div class="game-card__motif game-card__motif--mines" aria-hidden="true">{Array.from({length:16},(_,index) => <i data-index={index}></i>)}</div>
+      <h2>Minesweeper</h2>
+      <p>Clear canonical no-guess boards with safe first moves, fast chording, and pro-sized presets.</p>
+      <span class="game-card__status">Completed</span>
+      <a class="game-card__action" href="/games/minesweeper/"><span>Play Minesweeper</span><span aria-hidden="true">→</span></a>
     </article>
   </section>
 

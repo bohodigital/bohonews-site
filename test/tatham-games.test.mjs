@@ -23,7 +23,7 @@ test("Nonogram uses the shared pinned host without a third-party network depende
     readFile(new URL("../scripts/games/build-tatham.sh",import.meta.url),"utf8")
   ]);
   assert.match(host,new RegExp(`/vendor/tatham/\\$\\{pin\\}/\\$\\{asset\\}\\.js`));
-  for (const id of ["puzzle","gamemenu","gametype","puzzlecanvas","statusbar","resizable","resizehandle","apology"]) assert.match(host,new RegExp(`id=["']${id}["']`));
+  for (const id of ["puzzle","gamemenu","gametype","puzzlecanvascontain","puzzlecanvas","statusbar","resizable","resizehandle","apology"]) assert.match(host,new RegExp(`id=["']${id}["']`));
   assert.match(host,/data-tatham-mode="mark"/);
   assert.match(page,/asset="pattern"/);
   assert.doesNotMatch(host,/https?:\/\//);
@@ -47,4 +47,29 @@ test("Loopy uses the pinned host with local serialization and touch-safe edge mo
   assert.match(page,/canvas\.blur\(\);window\.scrollTo\(0,0\)/);
   assert.match(page,/game:"loopy"[\s\S]*scoreBucket:pointsBucket/);
   assert.ok(JSON.parse(lock).targets.includes("loopy"));
+});
+
+test("Minesweeper uses the pinned no-guess engine with canonical presets and resumable pro controls", async () => {
+  const [host,page,lock,notices] = await Promise.all([
+    readFile(new URL("../src/components/games/TathamPuzzleHost.astro",import.meta.url),"utf8"),
+    readFile(new URL("../src/pages/games/minesweeper.astro",import.meta.url),"utf8"),
+    readFile(new URL("../docs/games/vendor/tatham-puzzles.lock.json",import.meta.url),"utf8"),
+    readFile(new URL("../docs/games/THIRD-PARTY-NOTICES.md",import.meta.url),"utf8")
+  ]);
+  assert.match(host,/asset === "mines" \? "Reveal"/);
+  assert.match(host,/asset === "mines" \? "Flag"/);
+  assert.match(page,/asset="mines"/);
+  for (const preset of [/Beginner · 9×9 · 10 mines/,/Intermediate · 16×16 · 40 mines/,/Expert · 30×16 · 99 mines/]) assert.match(page,preset);
+  assert.match(page,/Enter reveals or chords/);
+  assert.match(page,/Space flags/);
+  assert.match(page,/_get_save_file/);
+  assert.match(page,/_load_game/);
+  assert.match(page,/let pendingRestore=state\.serialized/);
+  assert.match(page,/if\(pendingRestore\)\{const saved=pendingRestore;pendingRestore=null;if\(!restoreEngine\(saved\)\)/);
+  assert.match(page,/DEAD!/);
+  assert.match(page,/COMPLETED!/);
+  assert.match(page,/if\(!state\.failed&&!state\.practice\)\{record\("won"\);void report\("won"\);\}/);
+  assert.match(page,/game:"minesweeper"[\s\S]*scoreBucket:pointsBucket/);
+  assert.ok(JSON.parse(lock).targets.includes("mines"));
+  assert.match(notices,/`mines`[\s\S]*for Minesweeper/);
 });

@@ -10,7 +10,8 @@ const CONTRACTS = {
   "2048": { variants: new Set(["standard"]), outcomes: new Set(["won", "lost"]), scores: POINT_BUCKETS },
   nonogram: { variants: new Set(["pattern"]), outcomes: new Set(["solved"]), scores: POINT_BUCKETS },
   mahjong: { variants: new Set(["turtle"]), outcomes: new Set(["solved"]), scores: POINT_BUCKETS },
-  loopy: { variants: new Set(["easy", "normal", "tricky", "hard"]), outcomes: new Set(["solved"]), scores: POINT_BUCKETS }
+  loopy: { variants: new Set(["easy", "normal", "tricky", "hard"]), outcomes: new Set(["solved"]), scores: POINT_BUCKETS },
+  minesweeper: { variants: new Set(["beginner", "intermediate", "expert", "custom"]), outcomes: new Set(["won", "lost"]), scores: POINT_BUCKETS }
 };
 
 function json(value, status = 200, cache = "no-store") {
