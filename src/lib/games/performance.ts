@@ -29,10 +29,12 @@ export function attachGamePerformance(root: ParentNode, options: PerformanceOpti
     const state = options.getState();
     const timer = ensureTimer();
     const elapsed = elapsedGameMs(timer);
-    if (timeNode) timeNode.textContent = timer.eligible ? formatGameTime(elapsed) : "—";
+    const timeText = timer.eligible ? formatGameTime(elapsed) : "—";
+    if (timeNode && timeNode.textContent !== timeText) timeNode.textContent = timeText;
     if (pointsNode) {
       const value = state.complete ? state.points : options.showLivePoints ? options.calculatePoints(elapsed) : null;
-      pointsNode.textContent = Number.isFinite(value) ? Math.max(0, Math.floor(value as number)).toLocaleString() : "—";
+      const pointsText = Number.isFinite(value) ? Math.max(0, Math.floor(value as number)).toLocaleString() : "—";
+      if (pointsNode.textContent !== pointsText) pointsNode.textContent = pointsText;
     }
   }
 
@@ -70,7 +72,7 @@ export function attachGamePerformance(root: ParentNode, options: PerformanceOpti
   const onPageHide = () => pause();
   document.addEventListener("visibilitychange", onVisibility);
   window.addEventListener("pagehide", onPageHide);
-  const interval = window.setInterval(render, 250);
+  const interval = window.setInterval(render, 1000);
   ensureTimer();
   render();
   options.save();

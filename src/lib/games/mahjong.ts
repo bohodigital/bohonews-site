@@ -32,7 +32,7 @@ export function mahjongSeed(value:string|number):number {
   return hash>>>0;
 }
 
-export function turtleLayout():MahjongPosition[] {
+function buildTurtleLayout():MahjongPosition[] {
   const positions:MahjongPosition[]=[];const add=(z:number,x:number,y:number)=>positions.push({id:`${z}-${x}-${y}`,z,x,y});const row=(z:number,y:number,start:number,count:number)=>{for(let index=0;index<count;index++)add(z,start+index*2,y);};
   row(0,0,2,12);row(0,2,6,8);row(0,4,4,10);row(0,6,2,12);add(0,0,7);row(0,7,26,2);row(0,8,2,12);row(0,10,4,10);row(0,12,6,8);row(0,14,2,12);
   for(const y of [2,4,6,8,10,12])row(1,y,8,6);
@@ -42,12 +42,26 @@ export function turtleLayout():MahjongPosition[] {
   return positions;
 }
 
-function freePosition(position:MahjongPosition,positions:MahjongPosition[],active:Set<string>):boolean {
-  if(!active.has(position.id))return false;
+const TURTLE_LAYOUT=buildTurtleLayout();
+const TURTLE_RULES=new Map(TURTLE_LAYOUT.map((position)=>{
   const overlaps=(firstStart:number,secondStart:number)=>firstStart<secondStart+2&&secondStart<firstStart+2;
-  const covered=positions.some((candidate)=>candidate.z>position.z&&active.has(candidate.id)&&overlaps(position.x,candidate.x)&&overlaps(position.y,candidate.y));
-  const leftBlocked=positions.some((candidate)=>candidate.z===position.z&&candidate.x+2===position.x&&active.has(candidate.id)&&overlaps(position.y,candidate.y));
-  const rightBlocked=positions.some((candidate)=>candidate.z===position.z&&candidate.x===position.x+2&&active.has(candidate.id)&&overlaps(position.y,candidate.y));
+  return [position.id,{
+    above:TURTLE_LAYOUT.filter((candidate)=>candidate.z>position.z&&overlaps(position.x,candidate.x)&&overlaps(position.y,candidate.y)).map(({id})=>id),
+    left:TURTLE_LAYOUT.filter((candidate)=>candidate.z===position.z&&candidate.x+2===position.x&&overlaps(position.y,candidate.y)).map(({id})=>id),
+    right:TURTLE_LAYOUT.filter((candidate)=>candidate.z===position.z&&candidate.x===position.x+2&&overlaps(position.y,candidate.y)).map(({id})=>id)
+  }] as const;
+}));
+
+export function turtleLayout():MahjongPosition[] {
+  return TURTLE_LAYOUT.map((position)=>({...position}));
+}
+
+function freePosition(position:MahjongPosition,active:Set<string>):boolean {
+  if(!active.has(position.id))return false;
+  const rules=TURTLE_RULES.get(position.id)!;
+  const covered=rules.above.some((id)=>active.has(id));
+  const leftBlocked=rules.left.some((id)=>active.has(id));
+  const rightBlocked=rules.right.some((id)=>active.has(id));
   return !covered&&(!leftBlocked||!rightBlocked);
 }
 
@@ -68,7 +82,7 @@ export function createMahjongGame(seedValue:string|number):MahjongGame {
   for(let attempt=0;attempt<2000&&!assignments;attempt++){
     const random=rng((seed+Math.imul(attempt,0x9e3779b1))>>>0);const active=new Set(positions.map(({id})=>id));const candidateAssignments=new Map<string,Face>();const candidateSolution:[string,string][]=[];let failed=false;
     for(const pair of shuffle(tilePairs(),random)){
-      const free=positions.filter((position)=>freePosition(position,positions,active));
+      const free=positions.filter((position)=>freePosition(position,active));
       if(free.length<2){failed=true;break;}
       const first=free.splice(Math.floor(random()*free.length),1)[0];const second=free[Math.floor(random()*free.length)];
       candidateAssignments.set(first.id,pair[0]);candidateAssignments.set(second.id,pair[1]);candidateSolution.push([first.id,second.id]);active.delete(first.id);active.delete(second.id);
@@ -81,8 +95,8 @@ export function createMahjongGame(seedValue:string|number):MahjongGame {
 }
 
 export function freeMahjongTileIds(game:MahjongGame):string[] {
-  const positions=game.tiles.map(({id,x,y,z})=>({id,x,y,z}));const active=new Set(game.tiles.filter((tile)=>!tile.removed).map(({id})=>id));
-  return positions.filter((position)=>freePosition(position,positions,active)).map(({id})=>id);
+  const active=new Set(game.tiles.filter((tile)=>!tile.removed).map(({id})=>id));
+  return TURTLE_LAYOUT.filter((position)=>freePosition(position,active)).map(({id})=>id);
 }
 
 export function availableMahjongPairs(game:MahjongGame):[string,string][] {
@@ -112,6 +126,15 @@ export function removeMahjongPair(game:MahjongGame,firstId:string,secondId:strin
 export function undoMahjongPair(game:MahjongGame):boolean {
   const pair=game.history.pop();if(!pair)return false;
   pair.forEach((id)=>{const tile=game.tiles.find((candidate)=>candidate.id===id);if(tile)tile.removed=false;});game.complete=false;return true;
+}
+
+export function restoreMahjongGame(seed:number,history:unknown):MahjongGame|null {
+  if(!Number.isInteger(seed)||seed<0||seed>0xffffffff||!Array.isArray(history)||history.length>72)return null;
+  const game=createMahjongGame(seed);
+  for(const pair of history){
+    if(!Array.isArray(pair)||pair.length!==2||typeof pair[0]!=="string"||typeof pair[1]!=="string"||!removeMahjongPair(game,pair[0],pair[1]))return null;
+  }
+  return game;
 }
 
 export function isValidMahjongGame(value:unknown):value is MahjongGame {

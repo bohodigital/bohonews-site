@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { availableMahjongPairs, createMahjongGame, freeMahjongTileIds, isMahjongDeadlocked, isValidMahjongGame, mahjongHint, mahjongSeed, removeMahjongPair, turtleLayout, undoMahjongPair } from "../src/lib/games/mahjong.ts";
+import { availableMahjongPairs, createMahjongGame, freeMahjongTileIds, isMahjongDeadlocked, isValidMahjongGame, mahjongHint, mahjongSeed, removeMahjongPair, restoreMahjongGame, turtleLayout, undoMahjongPair } from "../src/lib/games/mahjong.ts";
 
 test("Turtle is the canonical 144-tile five-level layout",()=>{
   const layout=turtleLayout();assert.equal(layout.length,144);assert.equal(new Set(layout.map(({id})=>id)).size,144);assert.deepEqual([...new Set(layout.map(({z})=>z))],[0,1,2,3,4]);
@@ -35,6 +35,11 @@ test("generated boards can be solved through available matching pairs",()=>{
 test("mismatches are rejected and undo restores the last pair",()=>{
   const game=createMahjongGame(42);const free=freeMahjongTileIds(game).map((id)=>game.tiles.find((tile)=>tile.id===id));const mismatch=free.find((tile)=>tile.group!==free[0].group);
   assert.equal(removeMahjongPair(game,free[0].id,mismatch.id),false);const pair=mahjongHint(game);assert.ok(pair);assert.equal(removeMahjongPair(game,...pair),true);assert.equal(game.history.length,1);assert.equal(undoMahjongPair(game),true);assert.equal(game.history.length,0);assert.equal(game.tiles.every(({removed})=>!removed),true);
+});
+
+test("a compact seed and legal history restore the exact board",()=>{
+  const original=createMahjongGame(8675309);const first=mahjongHint(original);assert.ok(first);assert.equal(removeMahjongPair(original,...first),true);const second=mahjongHint(original);assert.ok(second);assert.equal(removeMahjongPair(original,...second),true);
+  const restored=restoreMahjongGame(original.seed,original.history);assert.ok(restored);assert.deepEqual(restored,original);assert.equal(restoreMahjongGame(original.seed,[["not-a-tile","also-not-a-tile"]]),null);
 });
 
 test("saved games reject altered deals, coordinates, solutions, and illegal histories",()=>{
