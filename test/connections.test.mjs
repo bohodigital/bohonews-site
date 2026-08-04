@@ -1,13 +1,16 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import {
-  CONNECTIONS_PUZZLES, connectionsTerms, evaluateConnection,
+  CONNECTION_GROUPS, CONNECTIONS_PUZZLES, connectionsTerms, evaluateConnection,
   shuffleConnections, validateConnectionsPuzzle
 } from "../src/lib/games/connections/puzzles.ts";
 
-test("the initial Connections pack contains 12 structurally valid original rounds", () => {
-  assert.equal(CONNECTIONS_PUZZLES.length,12);
-  assert.equal(new Set(CONNECTIONS_PUZZLES.map((puzzle)=>puzzle.id)).size,12);
+test("the Connections library contains two years of structurally valid original rounds", () => {
+  assert.equal(CONNECTION_GROUPS.length,96);
+  assert.deepEqual([0,1,2,3].map((level)=>CONNECTION_GROUPS.filter((group)=>group.level===level).length),[24,24,24,24]);
+  assert.equal(CONNECTIONS_PUZZLES.length,730);
+  assert.equal(new Set(CONNECTIONS_PUZZLES.map((puzzle)=>puzzle.id)).size,730);
+  assert.equal(new Set(CONNECTIONS_PUZZLES.map((puzzle)=>puzzle.groups.map((group)=>group.id).join("|"))).size,730);
   for (const puzzle of CONNECTIONS_PUZZLES) {
     assert.equal(validateConnectionsPuzzle(puzzle),true,puzzle.id);
     assert.equal(connectionsTerms(puzzle).length,16);

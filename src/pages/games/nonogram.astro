@@ -37,21 +37,25 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Adapter around the pinned upstream Pattern status surface.
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { createGameTimer, nonogramPoints, pointsBucket } from "../../lib/games/scoring";
 
   const host=document.querySelector('[data-tatham-host][data-tatham-asset="pattern"]');
   if(host){
     let state={complete:false,timer:createGameTimer(),points:null,usedSolve:false,reported:false};
+    let dirty=false;
     const noop=()=>{};
     const dimensions=()=>{const selected=host.querySelector('#gametype input:checked')?.closest('label')?.textContent||"15×15";const match=selected.match(/(\d+)\D+(\d+)/);return {rows:Number(match?.[1]||15),cols:Number(match?.[2]||15)};};
     let performanceTracker=attachGamePerformance(document,{getState:()=>state,save:noop,calculatePoints:(elapsedMs)=>nonogramPoints({...dimensions(),elapsedMs,usedSolve:state.usedSolve})});
     document.addEventListener("boho-game-guide-open",()=>performanceTracker.pause());document.addEventListener("boho-game-guide-close",()=>performanceTracker.resume());
     if(document.querySelector("[data-game-guide][open]"))performanceTracker.pause();
-    const reset=()=>{state={complete:false,timer:createGameTimer(),points:null,usedSolve:false,reported:false};performanceTracker.render();};
+    const reset=()=>{dirty=false;state={complete:false,timer:createGameTimer(),points:null,usedSolve:false,reported:false};performanceTracker.render();};
     const report=async()=>{if(state.reported||!state.complete)return;const submitted=await window.BohoGameStats?.submit({game:"nonogram",variant:"pattern",outcome:"solved",scoreBucket:pointsBucket(state.points||0)});if(submitted)state.reported=true;};
     const status=host.querySelector("#statusbar");
     const inspectStatus=()=>{const text=status?.textContent||"";if(!state.complete&&/\b(completed|complete|solved)\b/i.test(text)){state.complete=true;performanceTracker.finish();void report();}};
     if(status)new MutationObserver(inspectStatus).observe(status,{childList:true,characterData:true,subtree:true});
+    const canvas=host.querySelector("#puzzlecanvas");canvas?.addEventListener("mouseup",()=>{dirty=true;});canvas?.addEventListener("keyup",()=>{dirty=true;});
+    host.addEventListener("click",(event)=>{const button=event.target.closest?.("#new,#restart");if(button&&!confirmProgressLoss({complete:state.complete,hasProgress:dirty,label:button.id==="restart"?"reset this Nonogram":"start a new Nonogram"})){event.preventDefault();event.stopImmediatePropagation();}},true);
     host.querySelector("#solve")?.addEventListener("click",()=>{state.usedSolve=true;state.complete=true;window.setTimeout(()=>{performanceTracker.finish();void report();},0);});
     ["#new","#restart"].forEach((selector)=>host.querySelector(selector)?.addEventListener("click",()=>window.setTimeout(reset,0)));
     host.querySelector("#gametype")?.addEventListener("change",()=>window.setTimeout(reset,0));

@@ -3,17 +3,26 @@ import test from "node:test";
 import { expectedMini4Entries, mini4ToLayout, solveMini4Fills, validateMini4Puzzle } from "../src/lib/games/crossword-mini4.ts";
 import { MINI4_CLUES, MINI4_PUZZLES } from "../src/lib/games/crossword-mini4-pack.ts";
 
-test("the initial Mini Crossword pack contains 30 valid distinct 4x4 puzzles", () => {
-  assert.equal(MINI4_PUZZLES.length,30);
-  assert.equal(new Set(MINI4_PUZZLES.map((puzzle)=>puzzle.id)).size,30);
-  assert.equal(new Set(MINI4_PUZZLES.map((puzzle)=>puzzle.grid)).size,30);
-  assert.equal(new Set(MINI4_PUZZLES.map((puzzle)=>puzzle.fingerprint)).size,30);
+test("the Mini Crossword pack contains a full year of valid distinct 4x4 puzzles", () => {
+  assert.equal(MINI4_PUZZLES.length,365);
+  assert.equal(new Set(MINI4_PUZZLES.map((puzzle)=>puzzle.id)).size,365);
+  assert.equal(new Set(MINI4_PUZZLES.map((puzzle)=>puzzle.grid)).size,365);
+  assert.equal(new Set(MINI4_PUZZLES.map((puzzle)=>{
+    const rows=Array.from({length:4},(_,row)=>puzzle.grid.slice(row*4,row*4+4));
+    const transposed=Array.from({length:4},(_,column)=>rows.map((row)=>row[column]).join("")).join("");
+    return [puzzle.grid,transposed].sort()[0];
+  })).size,365);
+  assert.equal(new Set(MINI4_PUZZLES.map((puzzle)=>puzzle.fingerprint)).size,365);
   for(const puzzle of MINI4_PUZZLES){
     assert.deepEqual(validateMini4Puzzle(puzzle),[]);
     assert.equal(puzzle.grid.length,16);
     assert.equal(puzzle.entries.length,8);
     assert.equal(new Set(puzzle.entries.map((entry)=>entry.answer)).size,8);
   }
+  const answerFrequency=new Map();
+  MINI4_PUZZLES.flatMap((puzzle)=>puzzle.entries).forEach(({answer})=>answerFrequency.set(answer,(answerFrequency.get(answer)||0)+1));
+  assert.ok(answerFrequency.size>=500,`expected a broad answer lexicon, received ${answerFrequency.size}`);
+  assert.ok(Math.max(...answerFrequency.values())<=45,"no single crossword answer should dominate the rotation");
 });
 
 test("the pack includes a deliberate hard and playful tier", () => {

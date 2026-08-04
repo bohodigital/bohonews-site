@@ -26,12 +26,13 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       <section><h2>Down</h2><ol data-mini-down></ol></section>
     </div>
   </section>
-  <p class="game-note">Puzzles come from a validated 4×4 Boho pack. Your current puzzle stays on this device.</p>
+  <p class="game-note">The validated pack contains 365 distinct 4×4 grids, led by hand-tuned Boho rounds and expanded offline from definition-backed word data. Your current puzzle stays on this device.</p>
 </GamesLayout>
 
 <script>
   // @ts-nocheck -- Browser interaction is covered by focused unit and browser QA.
   import { MINI4_PUZZLES } from "../../lib/games/crossword-mini4-pack";
+  import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { mini4ToLayout } from "../../lib/games/crossword-mini4";
   import { attachGamePerformance } from "../../lib/games/performance";
   import { miniCrosswordPoints, miniPerfectSeconds, pointsBucket } from "../../lib/games/scoring";
@@ -137,8 +138,8 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     }
     function check(){if(state.complete)return;let wrong=0,blank=0;grid.querySelectorAll("[data-mini-cell]").forEach((input)=>{const index=Number(input.dataset.miniCell),value=input.value.toUpperCase();if(value&&value!==solutionAt(index)){input.setAttribute("aria-invalid","true");wrong++;}else input.removeAttribute("aria-invalid");if(!value)blank++;});if(!wrong&&!blank){state.complete=true;if(!state.recorded){store.mini.stats=store.mini.stats||{played:0,solved:0};store.mini.stats.played++;store.mini.stats.solved++;state.recorded=true;}performanceTracker?.finish();status.textContent="Puzzle complete. Nicely done.";writeStore();render();void reportCompletion();}else{state.failedChecks=(state.failedChecks||0)+1;performanceTracker?.render();writeStore();status.textContent=wrong?`${wrong} ${wrong===1?"square needs":"squares need"} another look.`:`${blank} ${blank===1?"square remains":"squares remain"}.`;}}
     root.querySelector("[data-mini-check]")?.addEventListener("click",check);
-    root.querySelector("[data-mini-new]")?.addEventListener("click",freshGame);
-    root.querySelector("[data-mini-clear]")?.addEventListener("click",()=>{if(state.complete)return;state.entries=state.entries.map((value)=>value==="-"?"-":"");writeStore();selectedIndex=-1;direction="across";render();focusSelected();});
+    root.querySelector("[data-mini-new]")?.addEventListener("click",()=>{const changed=state.entries.some((value)=>value!==""&&value!=="-");if(confirmProgressLoss({complete:state.complete,hasProgress:changed,label:"start a new crossword"}))freshGame();});
+    root.querySelector("[data-mini-clear]")?.addEventListener("click",()=>{if(state.complete)return;const changed=state.entries.some((value)=>value!==""&&value!=="-");if(!confirmProgressLoss({complete:false,hasProgress:changed,label:"clear this crossword"}))return;state.entries=state.entries.map((value)=>value==="-"?"-":"");writeStore();selectedIndex=-1;direction="across";render();focusSelected();});
     performanceTracker=attachGamePerformance(document,{getState:()=>state,save:writeStore,calculatePoints:(elapsedMs)=>miniCrosswordPoints({elapsedMs,perfectSeconds:miniPerfectSeconds(state.result.map((entry)=>entry.answer)),failedChecks:state.failedChecks||0})});
     render();focusSelected();
   }

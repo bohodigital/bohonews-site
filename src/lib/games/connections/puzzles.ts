@@ -12,7 +12,7 @@ export interface ConnectionsPuzzle {
 
 const group = (id: string, label: string, level: 0 | 1 | 2 | 3, terms: [string,string,string,string]): ConnectionGroup => ({id,label,level,terms});
 
-export const CONNECTIONS_PUZZLES: ConnectionsPuzzle[] = [
+const CURATED_CONNECTIONS_PUZZLES: ConnectionsPuzzle[] = [
   {id:"boho-001",groups:[
     group("keys","Keyboard keys",0,["Escape","Option","Return","Shift"]),
     group("cartoon-dogs","Cartoon dogs",1,["Odie","Pluto","Scooby","Snoopy"]),
@@ -86,6 +86,81 @@ export const CONNECTIONS_PUZZLES: ConnectionsPuzzle[] = [
     group("mode","___ mode",3,["Airplane","Beast","Dark","Incognito"])
   ]}
 ];
+
+const EXTRA_GROUPS: ConnectionGroup[] = [
+  group("breakfast","Breakfast foods",0,["Cereal","Omelet","Pancakes","Waffles"]),
+  group("planets","Planets",0,["Earth","Mars","Saturn","Venus"]),
+  group("dog-breeds","Dog breeds",0,["Beagle","Husky","Poodle","Pug"]),
+  group("board-games","Classic board games",0,["Clue","Risk","Scrabble","Sorry"]),
+  group("garden-tools","Garden tools",0,["Hoe","Rake","Shovel","Trowel"]),
+  group("coffee-drinks","Coffee drinks",0,["Americano","Cappuccino","Espresso","Latte"]),
+  group("denim","Denim garments",0,["Jacket","Jeans","Overalls","Shorts"]),
+  group("websites","Top-level domains, without the dot",0,["Com","Edu","Gov","Org"]),
+  group("counting","First four counting numbers",0,["One","Two","Three","Four"]),
+  group("winter","Winter weather",0,["Blizzard","Frost","Sleet","Snow"]),
+  group("tools","Workshop tools",0,["Drill","Hammer","Level","Saw"]),
+  group("cocktails","Classic cocktails",0,["Daiquiri","Manhattan","Martini","Negroni"]),
+
+  group("detectives","Fictional detectives",1,["Columbo","Holmes","Marlowe","Poirot"]),
+  group("hot-sauces","Hot sauces",1,["Cholula","Frank's","Sriracha","Tabasco"]),
+  group("dances","Partner dances",1,["Foxtrot","Salsa","Tango","Waltz"]),
+  group("muppets","Muppets",1,["Animal","Fozzie","Gonzo","Kermit"]),
+  group("capitals","European capitals",1,["Berlin","Lisbon","Oslo","Rome"]),
+  group("fonts","Common typefaces",1,["Arial","Futura","Georgia","Helvetica"]),
+  group("myth-creatures","Mythical creatures",1,["Dragon","Griffin","Kraken","Phoenix"]),
+  group("sneakers","Sneaker brands",1,["Adidas","Converse","Nike","Vans"]),
+  group("fictional-rich","Fictional fabulously rich people",1,["Bruce Wayne","Gatsby","Scrooge McDuck","Tony Stark"]),
+  group("cheeses","Italian cheeses",1,["Asiago","Burrata","Parmesan","Ricotta"]),
+  group("sitcom-bars","TV hangouts",1,["Central Perk","Cheers","MacLaren's","Moe's"]),
+  group("albums","Albums with one-word titles",1,["Lemonade","Purple","Rumours","Thriller"]),
+
+  group("silent-first","Words with a silent first letter",2,["Gnome","Knee","Pseudonym","Wrinkle"]),
+  group("palindromes","Palindromes",2,["Civic","Kayak","Level","Radar"]),
+  group("keyboard-rows","Typed with the top keyboard row",2,["Pepper","Poetry","Quiet","Typewriter"]),
+  group("double-letters","Words with double letters",2,["Coffee","Jazz","Knee","Puzzle"]),
+  group("chemical-symbols","Start with chemical symbols",2,["Carbon","Neon","Silver","Tin"]),
+  group("monopoly","Monopoly board spaces",2,["Chance","Jail","Railroad","Utility"]),
+  group("tiny-things","Proverbially tiny things",2,["Atom","Grain","Iota","Speck"]),
+  group("sound-words","Sound-effect words",2,["Bang","Hiss","Pop","Thud"]),
+  group("hidden-numbers","Contain ONE or FOUR in order",2,["Alone","Before","Stone","Wonder"]),
+  group("anagrams-listen","Anagrams of LISTEN",2,["Enlist","Inlets","Silent","Tinsel"]),
+  group("punctuation-names","Punctuation nicknames",2,["Bang","Hash","Period","Slash"]),
+  group("screen-actions","Things done to a screen",2,["Capture","Lock","Share","Split"]),
+
+  group("party","Party ___",3,["Animal","Favor","Line","Pooper"]),
+  group("black","Black ___",3,["Berry","Bird","Jack","Mail"]),
+  group("head","Head ___",3,["Band","Honcho","Lights","Start"]),
+  group("hot","Hot ___",3,["Dog","Mess","Rod","Take"]),
+  group("blue-blank","Blue ___",3,["Blood","Chip","Jeans","Whale"]),
+  group("ghost","Ghost ___",3,["Buster","Story","Town","Writer"]),
+  group("game","Game ___",3,["Boy","Changer","Plan","Show"]),
+  group("high","High ___",3,["Five","Noon","Rise","Score"]),
+  group("golden","Golden ___",3,["Gate","Girls","Rule","State"]),
+  group("street","Street ___",3,["Art","Cred","Food","Smart"]),
+  group("power","Power ___",3,["Ballad","Move","Plant","Trip"]),
+  group("star-blank","Star ___",3,["Dust","Fish","Gazer","Power"])
+];
+
+export const CONNECTION_GROUPS = [...CURATED_CONNECTIONS_PUZZLES.flatMap(({groups})=>groups),...EXTRA_GROUPS];
+
+function generatedConnectionsPuzzles(count: number): ConnectionsPuzzle[] {
+  const byLevel=([0,1,2,3] as const).map((level)=>CONNECTION_GROUPS.filter((candidate)=>candidate.level===level));
+  const puzzles=[...CURATED_CONNECTIONS_PUZZLES];
+  const fingerprints=new Set(puzzles.map((puzzle)=>puzzle.groups.map(({id})=>id).join("|")));
+  let seed=0x626f686f;
+  const random=()=>{seed^=seed<<13;seed^=seed>>>17;seed^=seed<<5;return seed>>>0;};
+  for(let attempts=0;puzzles.length<count&&attempts<100000;attempts++){
+    const groups=byLevel.map((choices)=>choices[random()%choices.length]) as ConnectionsPuzzle["groups"];
+    const fingerprint=groups.map(({id})=>id).join("|");
+    const candidate={id:`boho-${String(puzzles.length+1).padStart(3,"0")}`,groups};
+    if(fingerprints.has(fingerprint)||!validateConnectionsPuzzle(candidate))continue;
+    fingerprints.add(fingerprint);puzzles.push(candidate);
+  }
+  if(puzzles.length!==count)throw new Error(`Could only assemble ${puzzles.length} Connections puzzles`);
+  return puzzles;
+}
+
+export const CONNECTIONS_PUZZLES: ConnectionsPuzzle[] = generatedConnectionsPuzzles(730);
 
 export function validateConnectionsPuzzle(puzzle: ConnectionsPuzzle): boolean {
   if (!puzzle || typeof puzzle.id !== "string" || puzzle.groups?.length !== 4) return false;

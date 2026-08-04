@@ -30,6 +30,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
   // @ts-nocheck -- Browser interaction is covered by focused unit and browser QA.
   import { getSudoku } from "sudoku-gen";
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { pointsBucket, sudokuPoints } from "../../lib/games/scoring";
 
   const root=document.querySelector("[data-sudoku-game]");
@@ -49,8 +50,8 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     cells.forEach((cell,index)=>{cell.addEventListener("click",()=>select(index));cell.addEventListener("keydown",(event)=>{if(/^[1-9]$/.test(event.key)){event.preventDefault();enter(event.key);}if(event.key==="Backspace"||event.key==="Delete"){event.preventDefault();enter("");}let next=selected;if(event.key==="ArrowRight"&&selected%9<8)next++;if(event.key==="ArrowLeft"&&selected%9>0)next--;if(event.key==="ArrowDown"&&selected<72)next+=9;if(event.key==="ArrowUp"&&selected>=9)next-=9;if(next!==selected){event.preventDefault();select(next);}});});
     root.querySelectorAll("[data-sudoku-digit]").forEach((button)=>button.addEventListener("click",()=>enter(button.dataset.sudokuDigit||"")));
     root.querySelector("[data-sudoku-check]")?.addEventListener("click",()=>{if(state.complete)return;let wrong=0,blank=0;cells.forEach((cell,index)=>{const value=state.entries[index]||"";if(value&&value!==state.solution[index]){cell.setAttribute("aria-invalid","true");wrong++;}else cell.removeAttribute("aria-invalid");if(!value)blank++;});if(!wrong&&!blank){state.complete=true;if(!state.recorded){store.sudoku.stats=store.sudoku.stats||{played:0,solved:0};store.sudoku.stats.played++;store.sudoku.stats.solved++;state.recorded=true;}performanceTracker?.finish();status.textContent="Puzzle complete. Nicely done.";writeStore();render();void reportCompletion();}else{state.failedChecks=(state.failedChecks||0)+1;performanceTracker?.render();writeStore();status.textContent=wrong?`${wrong} ${wrong===1?"square needs":"squares need"} another look.`:`${blank} ${blank===1?"square remains":"squares remain"}.`;}});
-    root.querySelector("[data-sudoku-new]")?.addEventListener("click",freshGame);
-    root.querySelector("[data-sudoku-clear]")?.addEventListener("click",()=>{if(state.complete)return;state.entries=[...state.puzzle].map((value)=>value==="-"?"":value);writeStore();selected=firstEditable();render();select(selected);});
+    root.querySelector("[data-sudoku-new]")?.addEventListener("click",()=>{const changed=state.entries.some((value,index)=>state.puzzle[index]==="-"&&Boolean(value));if(confirmProgressLoss({complete:state.complete,hasProgress:changed,label:"start a new Sudoku"}))freshGame();});
+    root.querySelector("[data-sudoku-clear]")?.addEventListener("click",()=>{if(state.complete)return;const changed=state.entries.some((value,index)=>state.puzzle[index]==="-"&&Boolean(value));if(!confirmProgressLoss({complete:false,hasProgress:changed,label:"clear this Sudoku"}))return;state.entries=[...state.puzzle].map((value)=>value==="-"?"":value);writeStore();selected=firstEditable();render();select(selected);});
     performanceTracker=attachGamePerformance(document,{getState:()=>state,save:writeStore,calculatePoints:(elapsedMs)=>sudokuPoints({difficulty:state.difficulty,elapsedMs,failedChecks:state.failedChecks||0})});
     render();if(selected>=0)select(selected);
   }

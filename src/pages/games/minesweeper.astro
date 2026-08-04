@@ -42,6 +42,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Adapter around the pinned upstream Mines save/status surface.
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { elapsedGameMs, formatGameTime, minesweeperPoints, pointsBucket } from "../../lib/games/scoring";
 
   const host=document.querySelector('[data-tatham-host][data-tatham-asset="mines"]');
@@ -61,6 +62,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     let performanceTracker;
     let readyTimer=0;
     let saveTimer=0;
+    let dirty=Boolean(pendingRestore);
 
     function readStore(){try{const value=JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");return value&&typeof value==="object"?value:{};}catch{return {};}}
     function validSerialized(value){return value===null||typeof value==="string"&&value.length>0&&value.length<=MAX_SAVE_LENGTH;}
@@ -128,9 +130,9 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     }
     function enforceRestartLock(){if(restartLock){host.querySelector("#undo").disabled=true;host.querySelector("#redo").disabled=true;}}
     function inspectStatus(){const text=status?.textContent||"";if(/DEAD!/i.test(text)){hitMine();return;}if(/COMPLETED!/i.test(text)){finishWin();return;}if(state.result==="lost")resumePractice();normalizeEngineStatus();enforceRestartLock();}
-    function reset(){pendingRestore=null;maskEngineHistory=false;restartLock=false;state=blankState();performanceTracker.reset();runStatus.textContent="Your first reveal is safe. Every standard board can be solved without guessing.";renderMeta();window.setTimeout(save,120);}
+    function reset(){dirty=false;pendingRestore=null;maskEngineHistory=false;restartLock=false;state=blankState();performanceTracker.reset();runStatus.textContent="Your first reveal is safe. Every standard board can be solved without guessing.";renderMeta();window.setTimeout(save,120);}
     function restartBoard(){
-      pendingRestore=null;state=blankState({practice:true});maskEngineHistory=true;restartLock=true;performanceTracker.reset();engine()?._command(6);enforceRestartLock();runStatus.textContent="Board fully restarted from its first move. This known layout is unscored; choose New for a fresh scored board.";
+      dirty=false;pendingRestore=null;state=blankState({practice:true});maskEngineHistory=true;restartLock=true;performanceTracker.reset();engine()?._command(6);enforceRestartLock();runStatus.textContent="Board fully restarted from its first move. This known layout is unscored; choose New for a fresh scored board.";
       renderMeta();window.setTimeout(save,120);
     }
     function engineReady(){
@@ -144,7 +146,8 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     document.addEventListener("boho-game-guide-open",()=>performanceTracker.pause());document.addEventListener("boho-game-guide-close",()=>{if(!state.complete)performanceTracker.resume();});
     if(document.querySelector("[data-game-guide][open]"))performanceTracker.pause();
     if(status)new MutationObserver(()=>{inspectStatus();scheduleSave();}).observe(status,{childList:true,characterData:true,subtree:true});
-    canvas?.addEventListener("mouseup",()=>{restartLock=false;scheduleSave();});canvas?.addEventListener("keyup",()=>{restartLock=false;scheduleSave();});
+    canvas?.addEventListener("mouseup",()=>{dirty=true;restartLock=false;scheduleSave();});canvas?.addEventListener("keyup",()=>{dirty=true;restartLock=false;scheduleSave();});
+    host.addEventListener("click",(event)=>{const button=event.target.closest?.("#new,#restart");if(button&&!confirmProgressLoss({complete:state.complete,hasProgress:dirty,label:button.id==="restart"?"restart this Minesweeper board":"start a new Minesweeper board"})){event.preventDefault();event.stopImmediatePropagation();}},true);
     host.querySelector("#new")?.addEventListener("click",()=>window.setTimeout(()=>reset(),0));
     host.querySelector("#restart")?.addEventListener("click",restartBoard);
     host.querySelector("#gametype")?.addEventListener("change",()=>window.setTimeout(()=>{canonicalizePresets();reset();},0));

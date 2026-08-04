@@ -38,6 +38,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Adapter around the pinned upstream Loopy save/status surface.
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { loopyPoints, pointsBucket } from "../../lib/games/scoring";
 
   const host=document.querySelector('[data-tatham-host][data-tatham-asset="loopy"]');
@@ -51,6 +52,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     let performanceTracker;
     let readyTimer=0;
     let saveTimer=0;
+    let dirty=Boolean(state.serialized);
 
     function readStore(){try{const value=JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");return value&&typeof value==="object"?value:{};}catch{return {};}}
     function validState(value){return Boolean(value&&value.format==="loopy-v1"&&typeof value.complete==="boolean"&&(value.serialized===null||typeof value.serialized==="string"&&value.serialized.length>0&&value.serialized.length<=MAX_SAVE_LENGTH)&&typeof value.usedSolve==="boolean"&&typeof value.reported==="boolean");}
@@ -82,7 +84,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       const text=status?.textContent||"";
       if(!state.complete&&/\b(completed|complete|solved)\b/i.test(text)){state.complete=true;performanceTracker.finish();save();void report();}
     }
-    function reset(){state={format:"loopy-v1",complete:false,points:null,usedSolve:false,reported:false,serialized:null};performanceTracker.reset();window.setTimeout(save,120);}
+    function reset(){dirty=false;state={format:"loopy-v1",complete:false,points:null,usedSolve:false,reported:false,serialized:null};performanceTracker.reset();window.setTimeout(save,120);}
     function finishFromSolve(){if(state.complete)return;state.complete=true;performanceTracker.finish();save();void report();}
     function engineReady(){
       if(!engine()||!canvas?.onmousedown)return false;
@@ -96,7 +98,8 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     document.addEventListener("boho-game-guide-open",()=>performanceTracker.pause());document.addEventListener("boho-game-guide-close",()=>performanceTracker.resume());
     if(document.querySelector("[data-game-guide][open]"))performanceTracker.pause();
     if(status)new MutationObserver(()=>{inspectStatus();scheduleSave();}).observe(status,{childList:true,characterData:true,subtree:true});
-    canvas?.addEventListener("mouseup",scheduleSave);canvas?.addEventListener("keyup",scheduleSave);
+    canvas?.addEventListener("mouseup",()=>{dirty=true;scheduleSave();});canvas?.addEventListener("keyup",()=>{dirty=true;scheduleSave();});
+    host.addEventListener("click",(event)=>{const button=event.target.closest?.("#new,#restart");if(button&&!confirmProgressLoss({complete:state.complete,hasProgress:dirty,label:button.id==="restart"?"reset this Loopy puzzle":"start a new Loopy puzzle"})){event.preventDefault();event.stopImmediatePropagation();}},true);
     host.querySelector("#solve")?.addEventListener("click",()=>{state.usedSolve=true;window.setTimeout(finishFromSolve,100);});
     ["#new","#restart"].forEach((selector)=>host.querySelector(selector)?.addEventListener("click",()=>window.setTimeout(reset,0)));
     host.querySelector("#gametype")?.addEventListener("change",()=>window.setTimeout(reset,0));

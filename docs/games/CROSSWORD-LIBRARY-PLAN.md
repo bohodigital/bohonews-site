@@ -1,7 +1,7 @@
 # Boho Mini Crossword library plan
 
-Status: local design and interaction prototype. No production publication is
-authorized by this document.
+Status: local interaction prototype with a 365-grid static pack. No production
+publication is authorized by this document.
 
 ## Product target
 
@@ -152,13 +152,13 @@ anonymous completion compatibility.
 
 ### Phase 2 — real 4×4 format
 
-- define the TypeScript schema and pure validator;
-- implement the double-word-square fill solver;
-- hand-author and review 25 launch-quality puzzles;
-- replace runtime `crossword-layout-generator` use with deterministic selection
-  from immutable puzzle records;
-- add fixtures for numbering, crossings, navigation, persistence, and solve
-  completion.
+- complete: TypeScript schema, pure validator, and double-word-square solver;
+- complete: 30 hand-tuned launch puzzles plus a definition-backed offline
+  authoring pass, yielding 365 distinct shipped grids;
+- complete: deterministic selection from immutable local puzzle records;
+- complete: fixtures for numbering, crossings, navigation, and pack integrity;
+- remaining: editorial spot-checks and clue rewrites should continue as play
+  feedback identifies flat or overly dictionary-like clues.
 
 ### Phase 3 — LLM production run
 
