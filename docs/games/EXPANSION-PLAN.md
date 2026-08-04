@@ -7,6 +7,12 @@ Status: 2048 is implemented. The pinned Tatham Pattern and Mines assets and the
 first shared Nonogram host are implemented for local preview only; no part of
 this document authorizes deployment.
 
+Loopy is now the second shared-host game. Its pinned `loopy` WebAssembly target,
+draw/exclude touch modes, infinite difficulty presets, timer, scoring, coarse
+opt-in completion stats, and defensive device-local save restoration are
+implemented for local preview. The same static asset and release gates apply;
+this status does not authorize deployment.
+
 Mahjong Solitaire is now implemented as a native local-preview game using the
 canonical 144-tile, five-level Turtle layout with half-tile overlap geometry,
 deterministic solvable deals, client-only CSS 3D tile bodies, Unicode tile

@@ -129,6 +129,25 @@ export function nonogramPoints({ rows, cols, elapsedMs, usedSolve = false }: { r
   return safePoints(base + speedBonus);
 }
 
+const LOOPY_RULES = {
+  easy: { cellPoints: 50, secondsPerCell: 2.5 },
+  normal: { cellPoints: 65, secondsPerCell: 4 },
+  tricky: { cellPoints: 80, secondsPerCell: 6 },
+  hard: { cellPoints: 100, secondsPerCell: 8 }
+} as const;
+
+export type LoopyDifficulty = keyof typeof LOOPY_RULES;
+
+export function loopyPoints({ rows, cols, difficulty, elapsedMs, usedSolve = false }: { rows: number; cols: number; difficulty: LoopyDifficulty; elapsedMs: number; usedSolve?: boolean }): number {
+  if (usedSolve) return 0;
+  const area = Math.max(25, Math.floor(rows) * Math.floor(cols));
+  const rule = LOOPY_RULES[difficulty];
+  const base = area * rule.cellPoints;
+  const par = area * rule.secondsPerCell;
+  const speedBonus = base * par / (par + seconds(elapsedMs));
+  return safePoints(base + speedBonus);
+}
+
 export type PointsBucket = "0" | "1-1999" | "2000-3999" | "4000-7999" | "8000-15999" | "16000+";
 
 export function pointsBucket(points: number): PointsBucket {

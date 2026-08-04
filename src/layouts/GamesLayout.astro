@@ -82,6 +82,13 @@ const { title, description, game } = Astro.props;
   .game-card__motif--nonogram i:nth-child(2),.game-card__motif--nonogram i:nth-child(6),.game-card__motif--nonogram i:nth-child(8),.game-card__motif--nonogram i:nth-child(12),.game-card__motif--nonogram i:nth-child(14),.game-card__motif--nonogram i:nth-child(18),.game-card__motif--nonogram i:nth-child(22) { background: var(--game-ink); }
   .game-card__motif--mahjong { grid-template-columns: repeat(3,1fr); max-width: 7.5rem; }
   .game-card__motif--mahjong i { align-items: center; background: #f4eedf; border: 1px solid #cdbf9e; border-radius: .18rem; box-shadow: .12rem .16rem 0 #7f9a85; color: #28231d; display: flex; font-size: 1.35rem; justify-content: center; }
+  .game-card__motif--loopy { gap: 0; grid-template-columns: repeat(4,1fr); max-width: 7rem; padding: .35rem; }
+  .game-card__motif--loopy i { background: transparent; border-color: var(--border-strong); border-style: solid; border-width: 0; position: relative; }
+  .game-card__motif--loopy i:nth-child(1),.game-card__motif--loopy i:nth-child(2),.game-card__motif--loopy i:nth-child(3) { border-top-width: .22rem; }
+  .game-card__motif--loopy i:nth-child(3),.game-card__motif--loopy i:nth-child(7),.game-card__motif--loopy i:nth-child(11) { border-right-width: .22rem; }
+  .game-card__motif--loopy i:nth-child(11),.game-card__motif--loopy i:nth-child(12),.game-card__motif--loopy i:nth-child(16) { border-bottom-width: .22rem; }
+  .game-card__motif--loopy i:nth-child(1),.game-card__motif--loopy i:nth-child(5),.game-card__motif--loopy i:nth-child(9),.game-card__motif--loopy i:nth-child(13),.game-card__motif--loopy i:nth-child(14),.game-card__motif--loopy i:nth-child(15),.game-card__motif--loopy i:nth-child(16) { border-left-width: .22rem; }
+  .game-card__motif--loopy i:nth-child(6)::after,.game-card__motif--loopy i:nth-child(10)::after { align-items: center; color: var(--accent); content: "2"; display: flex; font-family: var(--sans); font-size: .72rem; font-style: normal; font-weight: 900; inset: 0; justify-content: center; position: absolute; }
   .game-heading { border-bottom: 1px solid var(--border); margin: 0 auto 2rem; max-width: 46rem; padding-bottom: 1.5rem; text-align: center; }
   .game-heading .eyebrow { margin-bottom: .8rem; }
   .game-meta { align-items: center; color: var(--text-muted); display: flex; font-size: .72rem; font-weight: 750; gap: 1rem; justify-content: center; margin-top: 1rem; }
@@ -211,6 +218,9 @@ const { title, description, game } = Astro.props;
   .mahjong-tile:focus-visible { outline:.22rem solid #fff; outline-offset:.16rem; }
   @keyframes mahjong-hint { to { transform:translate(-.06rem,-.18rem) scale(1.035); } }
   .tatham-host { margin: 0 auto; max-width: 58rem; }
+  .tatham-host[data-tatham-asset="loopy"] { max-width: 48rem; }
+  .tatham-host[data-tatham-asset="loopy"] #resizable { background: color-mix(in srgb,var(--surface) 94%,var(--game-gold)); border: 1px solid var(--border); box-shadow: 0 1rem 2.5rem rgb(0 0 0 / .08); padding: clamp(.5rem,2vw,1rem); }
+  .tatham-host[data-tatham-asset="loopy"] .tatham-presets > #gametype { max-height: 8.5rem; overflow-y: auto; overscroll-behavior: contain; padding-right: .25rem; scrollbar-width: thin; }
   .tatham-touch-modes { align-items: center; display: flex; flex-wrap: wrap; gap: .4rem; justify-content: center; margin: 0 auto 1rem; }
   .tatham-touch-modes span { font-size: .67rem; font-weight: 900; letter-spacing: .08em; margin-right: .25rem; text-transform: uppercase; }
   .tatham-touch-modes button,.tatham-toolbar button { background: var(--surface); border: 1px solid var(--border-strong); color: var(--text); cursor: pointer; font-size: .7rem; font-weight: 850; min-height: 2.6rem; padding: .55rem .75rem; text-transform: uppercase; }

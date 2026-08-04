@@ -1,19 +1,21 @@
 ---
 interface Props {
-  asset: "pattern" | "mines";
+  asset: "pattern" | "mines" | "loopy";
   label: string;
 }
 
 const { asset, label } = Astro.props;
 const pin = "3c3632259d298ab62aafa8a5858823569ab1af46";
 const scriptSource = `/vendor/tatham/${pin}/${asset}.js`;
+const primaryMode = asset === "loopy" ? "Draw line" : asset === "mines" ? "Reveal" : "Fill";
+const secondaryMode = asset === "loopy" ? "Exclude edge" : asset === "mines" ? "Flag" : "Mark empty";
 ---
 
 <section class="tatham-host" data-tatham-host data-tatham-asset={asset} aria-label={`${label} puzzle`}>
   <div class="tatham-touch-modes" aria-label="Touch drawing mode">
     <span>Touch mode</span>
-    <button type="button" data-tatham-mode="fill" aria-pressed="true">Fill</button>
-    <button type="button" data-tatham-mode="mark" aria-pressed="false">Mark empty</button>
+    <button type="button" data-tatham-mode="primary" aria-pressed="true">{primaryMode}</button>
+    <button type="button" data-tatham-mode="mark" aria-pressed="false">{secondaryMode}</button>
   </div>
 
   <main id="puzzle" style="display:none">
@@ -61,7 +63,7 @@ const scriptSource = `/vendor/tatham/${pin}/${asset}.js`;
   if (tathamHost) {
     const canvas = tathamHost.querySelector("#puzzlecanvas");
     const modeButtons = [...tathamHost.querySelectorAll("[data-tatham-mode]")];
-    let touchMode = "fill";
+    let touchMode = "primary";
     modeButtons.forEach((button) => button.addEventListener("click", () => {
       touchMode = button.dataset.tathamMode;
       modeButtons.forEach((candidate) => candidate.setAttribute("aria-pressed", String(candidate === button)));

@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import {
   createGameTimer, elapsedGameMs, finishGameTimer, formatGameTime, mahjongPoints,
-  miniCrosswordPoints, miniPerfectSeconds, nonogramPoints, pauseGameTimer,
+  loopyPoints, miniCrosswordPoints, miniPerfectSeconds, nonogramPoints, pauseGameTimer,
   pointsBucket, resumeGameTimer, sudokuPoints, wordlePoints
 } from "../src/lib/games/scoring.ts";
 
@@ -40,6 +40,12 @@ test("Sudoku, Mahjong, and Nonogram scores apply their game-specific factors", (
   assert.ok(mahjongPoints({ elapsedMs:300_000, hints:0 }) > mahjongPoints({ elapsedMs:300_000, hints:2 }));
   assert.ok(nonogramPoints({ rows:15, cols:15, elapsedMs:300_000 }) > nonogramPoints({ rows:10, cols:10, elapsedMs:300_000 }));
   assert.equal(nonogramPoints({ rows:15, cols:15, elapsedMs:1_000, usedSolve:true }), 0);
+});
+
+test("Loopy rewards larger, harder, and faster clean solves", () => {
+  assert.ok(loopyPoints({ rows:10, cols:10, difficulty:"hard", elapsedMs:300_000 }) > loopyPoints({ rows:7, cols:7, difficulty:"easy", elapsedMs:300_000 }));
+  assert.ok(loopyPoints({ rows:7, cols:7, difficulty:"normal", elapsedMs:30_000 }) > loopyPoints({ rows:7, cols:7, difficulty:"normal", elapsedMs:300_000 }));
+  assert.equal(loopyPoints({ rows:10, cols:10, difficulty:"hard", elapsedMs:1_000, usedSolve:true }), 0);
 });
 
 test("anonymous point buckets remain coarse", () => {
