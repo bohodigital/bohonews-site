@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "project": "Mah - Mahjong Solitaire",
+  "source": "https://github.com/ffalt/mah.git",
+  "commit": "89f1ee248da0d85c7c3171db53939f2ba5f096c3",
+  "reviewedAt": "2026-08-03",
+  "license": "MIT",
+  "licenseFile": "docs/games/licenses/mah-MIT.txt",
+  "use": "Reference for solvable Mahjong Solitaire deal construction and interaction behavior. Boho ships an adapted native engine and Unicode tile faces, not the upstream Angular application or artwork packs."
+}

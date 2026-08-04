@@ -35,9 +35,18 @@ test("2048 merges each tile once and reports score gained", () => {
   const result = move2048([2,2,2,2, ...Array(12).fill(0)], "left");
   assert.deepEqual(result.grid.slice(0,4), [4,4,0,0]);
   assert.equal(result.gained, 8);
+  assert.deepEqual(result.mergedIndices, [0,1]);
+  assert.deepEqual(result.motions, [
+    {from:0,to:0,value:2,merged:true},
+    {from:1,to:0,value:2,merged:true},
+    {from:2,to:1,value:2,merged:true},
+    {from:3,to:1,value:2,merged:true}
+  ]);
   const chained = move2048([4,4,8,0, ...Array(12).fill(0)], "left");
   assert.deepEqual(chained.grid.slice(0,4), [8,8,0,0]);
   assert.equal(chained.gained, 8);
+  assert.deepEqual(chained.mergedIndices, [0]);
+  assert.deepEqual(chained.motions.map(({from,to})=>({from,to})), [{from:0,to:0},{from:1,to:0},{from:2,to:1}]);
 });
 
 test("2048 detects wins, losses, and malformed saves", () => {

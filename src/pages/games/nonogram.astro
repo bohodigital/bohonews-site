@@ -1,0 +1,38 @@
+---
+import GamePerformance from "../../components/games/GamePerformance.astro";
+import TathamPuzzleHost from "../../components/games/TathamPuzzleHost.astro";
+import GamesLayout from "../../layouts/GamesLayout.astro";
+---
+
+<GamesLayout title="Nonogram" description="Play unlimited locally generated Nonogram puzzles from Boho News." game="Nonogram">
+  <header class="game-heading">
+    <p class="eyebrow">Local WASM preview</p><h1>Nonogram</h1>
+    <p class="game-heading__dek">Use the row and column clues to reveal a hidden pixel picture. Generate another whenever you want.</p>
+  </header>
+  <GamePerformance rules="Points scale with the number of squares, with a bounded speed bonus based on two seconds per square. Using the engine’s Solve command makes the score zero; undo and marking are free." />
+  <TathamPuzzleHost asset="pattern" label="Nonogram" />
+  <p class="game-note">Tap with Fill selected to shade squares. Choose Mark empty, Ctrl-click, or right-click to cross out blanks. Keyboard controls, undo, redo, fixed game IDs, and offline save files come from the pinned Pattern engine.</p>
+  <p class="game-note">The timer pauses when this tab is hidden. Optional anonymous sharing sends only the solved outcome and a coarse points band.</p>
+</GamesLayout>
+
+<script>
+  // @ts-nocheck -- Adapter around the pinned upstream Pattern status surface.
+  import { attachGamePerformance } from "../../lib/games/performance";
+  import { createGameTimer, nonogramPoints, pointsBucket } from "../../lib/games/scoring";
+
+  const host=document.querySelector('[data-tatham-host][data-tatham-asset="pattern"]');
+  if(host){
+    let state={complete:false,timer:createGameTimer(),points:null,usedSolve:false,reported:false};
+    const noop=()=>{};
+    const dimensions=()=>{const selected=host.querySelector('#gametype input:checked')?.closest('label')?.textContent||"15×15";const match=selected.match(/(\d+)\D+(\d+)/);return {rows:Number(match?.[1]||15),cols:Number(match?.[2]||15)};};
+    let performanceTracker=attachGamePerformance(document,{getState:()=>state,save:noop,calculatePoints:(elapsedMs)=>nonogramPoints({...dimensions(),elapsedMs,usedSolve:state.usedSolve})});
+    const reset=()=>{state={complete:false,timer:createGameTimer(),points:null,usedSolve:false,reported:false};performanceTracker.render();};
+    const report=async()=>{if(state.reported||!state.complete)return;const submitted=await window.BohoGameStats?.submit({game:"nonogram",variant:"pattern",outcome:"solved",scoreBucket:pointsBucket(state.points||0)});if(submitted)state.reported=true;};
+    const status=host.querySelector("#statusbar");
+    const inspectStatus=()=>{const text=status?.textContent||"";if(!state.complete&&/\b(completed|complete|solved)\b/i.test(text)){state.complete=true;performanceTracker.finish();void report();}};
+    if(status)new MutationObserver(inspectStatus).observe(status,{childList:true,characterData:true,subtree:true});
+    host.querySelector("#solve")?.addEventListener("click",()=>{state.usedSolve=true;state.complete=true;window.setTimeout(()=>{performanceTracker.finish();void report();},0);});
+    ["#new","#restart"].forEach((selector)=>host.querySelector(selector)?.addEventListener("click",()=>window.setTimeout(reset,0)));
+    host.querySelector("#gametype")?.addEventListener("change",()=>window.setTimeout(reset,0));
+  }
+</script>

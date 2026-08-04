@@ -27,8 +27,14 @@ emcmake cmake \
   -S "$VENDOR_ROOT" \
   -B "$BUILD_ROOT" \
   -G Ninja \
-  -DCMAKE_BUILD_TYPE=Release
-cmake --build "$BUILD_ROOT" --target mines pattern
+  -DCMAKE_BUILD_TYPE=Release \
+  -DMIN_CHROME_VERSION=120 \
+  -DMIN_FIREFOX_VERSION=120 \
+  -DMIN_SAFARI_VERSION=170000
+(
+  cd "$BUILD_ROOT"
+  cmake --build . --target mines pattern
+)
 
 for game in mines pattern; do
   js_source="$(find "$BUILD_ROOT" -type f -name "$game.js" -print -quit)"

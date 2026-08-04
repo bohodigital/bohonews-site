@@ -1,10 +1,19 @@
 export type Direction2048 = "up" | "right" | "down" | "left";
 
+export interface TileMotion2048 {
+  from: number;
+  to: number;
+  value: number;
+  merged: boolean;
+}
+
 export interface Move2048Result {
   grid: number[];
   moved: boolean;
   gained: number;
   reached2048: boolean;
+  mergedIndices: number[];
+  motions: TileMotion2048[];
 }
 
 const SIZE = 4;
@@ -39,21 +48,30 @@ export function create2048Grid(random: () => number = Math.random): number[] {
   return spawn2048Tile(spawn2048Tile(createEmpty2048Grid(), random), random);
 }
 
-function mergeLine(line: number[]): { line: number[]; gained: number } {
-  const compact = line.filter(Boolean);
+function mergeLine(line: number[]): { line: number[]; gained: number; mergedOffsets: number[]; motions: Array<{sourceOffset:number; destinationOffset:number; value:number; merged:boolean}> } {
+  const compact = line.flatMap((value,sourceOffset) => value ? [{value,sourceOffset}] : []);
   const merged: number[] = [];
+  const mergedOffsets: number[] = [];
+  const motions: Array<{sourceOffset:number; destinationOffset:number; value:number; merged:boolean}> = [];
   let gained = 0;
   for (let index = 0; index < compact.length; index++) {
-    if (compact[index] === compact[index + 1]) {
-      const value = compact[index] * 2;
+    const destinationOffset=merged.length;
+    if (compact[index].value === compact[index + 1]?.value) {
+      const value = compact[index].value * 2;
+      mergedOffsets.push(destinationOffset);
+      motions.push(
+        {sourceOffset:compact[index].sourceOffset,destinationOffset,value:compact[index].value,merged:true},
+        {sourceOffset:compact[index+1].sourceOffset,destinationOffset,value:compact[index+1].value,merged:true}
+      );
       merged.push(value);
       gained += value;
       index++;
     } else {
-      merged.push(compact[index]);
+      motions.push({sourceOffset:compact[index].sourceOffset,destinationOffset,value:compact[index].value,merged:false});
+      merged.push(compact[index].value);
     }
   }
-  return { line: [...merged, ...Array(SIZE - merged.length).fill(0)], gained };
+  return { line: [...merged, ...Array(SIZE - merged.length).fill(0)], gained, mergedOffsets, motions };
 }
 
 function lineIndices(direction: Direction2048, line: number): number[] {
@@ -67,17 +85,28 @@ export function move2048(grid: number[], direction: Direction2048): Move2048Resu
   if (!isValid2048Grid(grid)) throw new TypeError("2048 grid must contain sixteen powers of two or zero");
   const next = [...grid];
   let gained = 0;
+  const mergedIndices: number[] = [];
+  const motions: TileMotion2048[] = [];
   for (let line = 0; line < SIZE; line++) {
     const indices = lineIndices(direction, line);
     const result = mergeLine(indices.map((index) => grid[index]));
     gained += result.gained;
+    result.mergedOffsets.forEach((offset) => mergedIndices.push(indices[offset]));
+    result.motions.forEach((motion) => motions.push({
+      from:indices[motion.sourceOffset],
+      to:indices[motion.destinationOffset],
+      value:motion.value,
+      merged:motion.merged
+    }));
     indices.forEach((index, offset) => { next[index] = result.line[offset]; });
   }
   return {
     grid: next,
     moved: next.some((tile, index) => tile !== grid[index]),
     gained,
-    reached2048: next.some((tile) => tile >= 2048)
+    reached2048: next.some((tile) => tile >= 2048),
+    mergedIndices,
+    motions
   };
 }
 

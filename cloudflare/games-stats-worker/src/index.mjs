@@ -2,11 +2,14 @@ const API = "/api/games/v1";
 const VERSION = "1.0";
 const MAX_BODY_BYTES = 1024;
 const ALLOWED_KEYS = new Set(["schemaVersion", "game", "variant", "outcome", "scoreBucket"]);
+const POINT_BUCKETS = new Set(["0", "1-1999", "2000-3999", "4000-7999", "8000-15999", "16000+"]);
 const CONTRACTS = {
-  wordle: { variants: new Set(["standard"]), outcomes: new Set(["won", "lost"]), scores: new Set(["1", "2", "3", "4", "5", "6", "X"]) },
-  mini: { variants: new Set(["standard"]), outcomes: new Set(["solved"]), scores: new Set(["complete"]) },
-  sudoku: { variants: new Set(["easy", "medium", "hard", "expert"]), outcomes: new Set(["solved"]), scores: new Set(["complete"]) },
-  "2048": { variants: new Set(["standard"]), outcomes: new Set(["won", "lost"]), scores: new Set(["<512", "512", "1024", "2048", "4096+"]) }
+  wordle: { variants: new Set(["standard"]), outcomes: new Set(["won", "lost"]), scores: POINT_BUCKETS },
+  mini: { variants: new Set(["standard"]), outcomes: new Set(["solved"]), scores: POINT_BUCKETS },
+  sudoku: { variants: new Set(["easy", "medium", "hard", "expert"]), outcomes: new Set(["solved"]), scores: POINT_BUCKETS },
+  "2048": { variants: new Set(["standard"]), outcomes: new Set(["won", "lost"]), scores: POINT_BUCKETS },
+  nonogram: { variants: new Set(["pattern"]), outcomes: new Set(["solved"]), scores: POINT_BUCKETS },
+  mahjong: { variants: new Set(["turtle"]), outcomes: new Set(["solved"]), scores: POINT_BUCKETS }
 };
 
 function json(value, status = 200, cache = "no-store") {
@@ -34,8 +37,6 @@ function validateCompletion(value) {
   if (!contract.variants.has(value.variant)) return "Unsupported game variant";
   if (!contract.outcomes.has(value.outcome)) return "Unsupported outcome";
   if (!contract.scores.has(value.scoreBucket)) return "Unsupported score bucket";
-  if (value.game === "wordle" && value.outcome === "won" && value.scoreBucket === "X") return "A winning Wordle score must be between 1 and 6";
-  if (value.game === "wordle" && value.outcome === "lost" && value.scoreBucket !== "X") return "A lost Wordle score must be X";
   return null;
 }
 

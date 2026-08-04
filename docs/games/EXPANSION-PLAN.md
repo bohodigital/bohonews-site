@@ -1,7 +1,33 @@
 # Boho Games expansion plan
 
-Status: implementation plan; no new game code is vendored or deployed by this
-document.
+The dedicated 4×4 Mini Crossword authoring, validation, interaction, and storage
+plan lives in `docs/games/CROSSWORD-LIBRARY-PLAN.md`.
+
+Status: 2048 is implemented. The pinned Tatham Pattern and Mines assets and the
+first shared Nonogram host are implemented for local preview only; no part of
+this document authorizes deployment.
+
+Mahjong Solitaire is now implemented as a native local-preview game using the
+canonical 144-tile, five-level Turtle layout with half-tile overlap geometry,
+deterministic solvable deals, client-only CSS 3D tile bodies, Unicode tile
+faces, hints, undo, local resume, and an aggregate-only completion bucket. The
+implementation was informed by the MIT-licensed `ffalt/mah` project pinned in
+`docs/games/vendor/mah.lock.json`; no upstream mixed-license artwork ships and
+gameplay/rendering consumes no Worker CPU.
+
+## Connections: approved future name and shape
+
+The owner selected **Connections** as the reader-facing working name for the
+future word-grouping game. It should present sixteen terms hiding four groups
+of four, allow four submitted selections, explain each category after it is
+found, and provide unlimited authored rounds. Puzzle packs must be reviewed for
+unambiguous membership, accidental alternate groupings, cultural currency, and
+clue tone before release. State remains local; optional aggregate reporting may
+send only `solved|lost` and a coarse mistakes bucket.
+
+`Connections` is associated with The New York Times word game. The requested
+working label can be used in local preview, but public naming and presentation
+require the same release review already recorded for Wordle.
 
 ## Decision
 
@@ -15,8 +41,9 @@ The initial upstream pins to evaluate are:
 - Simon Tatham's Portable Puzzle Collection commit
   `3c3632259d298ab62aafa8a5858823569ab1af46` (2026-07-20 release line),
   MIT: <https://www.chiark.greenend.org.uk/~sgtatham/puzzles/>
-- Gabriele Cirulli's original 2048 repository, exact commit to be recorded at
-  intake, MIT: <https://github.com/gabrielecirulli/2048>
+- Gabriele Cirulli's original 2048 repository, commit
+  `478b6ec346e3787f589e4af751378d06ded4cbbc`, MIT:
+  <https://github.com/gabrielecirulli/2048>
 
 Do not copy code from random clones. Preserve upstream authorship and full MIT
 notices in `docs/games/THIRD-PARTY-NOTICES.md` and in the distributed asset

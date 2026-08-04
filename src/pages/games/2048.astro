@@ -12,7 +12,9 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     <div class="twenty48-scoreboard" aria-label="Current scores">
       <p><span>Score</span><strong data-2048-score>0</strong></p>
       <p><span>Best</span><strong data-2048-best>0</strong></p>
+      <p><span>Time</span><strong data-game-time>0:00</strong></p>
     </div>
+    <details class="game-scoring"><summary>How scoring works</summary><p>2048 keeps its original scoring rule: every merge awards the value of the new tile. Time is tracked for context but does not punish careful strategy.</p></details>
     <p class="game-status" role="status" aria-live="polite">Use arrow keys, WASD, swipe, or the controls below.</p>
     <div class="twenty48-grid" role="grid" aria-label="Four by four 2048 board" data-2048-grid>
       {Array.from({length:16},(_,index) => <div class="twenty48-tile" role="gridcell" data-2048-tile={index} aria-label={`Row ${Math.floor(index/4)+1}, column ${(index%4)+1}, empty`}></div>)}
@@ -33,7 +35,9 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 
 <script>
   // @ts-nocheck -- Browser interaction is covered by engine, contract, and browser QA.
-  import { canMove2048, create2048Grid, isValid2048Grid, max2048Tile, move2048, scoreBucket2048, spawn2048Tile } from "../../lib/games/game-2048";
+  import { attachGamePerformance } from "../../lib/games/performance";
+  import { pointsBucket } from "../../lib/games/scoring";
+  import { canMove2048, create2048Grid, isValid2048Grid, max2048Tile, move2048, spawn2048Tile } from "../../lib/games/game-2048";
 
   const root = document.querySelector("[data-2048-game]");
   if (root) {
@@ -47,27 +51,36 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     const continueButton = root.querySelector("[data-2048-continue]");
     const board = root.querySelector("[data-2048-grid]");
     let pointerStart = null;
+    let animating = false;
+    let moveToken = 0;
     let store = readStore();
     let state = validState(store.game2048?.current) ? store.game2048.current : null;
+    let performanceTracker = null;
 
     function readStore() { try { const value=JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}"); return value && typeof value==="object" && !Array.isArray(value) ? value : {}; } catch { return {}; } }
     function writeStore() { try { localStorage.setItem(STORAGE_KEY,JSON.stringify(store)); } catch {} }
     function validState(value) { return value && Number.isInteger(value.number) && value.number>0 && isValid2048Grid(value.grid) && Number.isInteger(value.score) && value.score>=0 && ["complete","won","over","continued","recorded","reported"].every((key)=>typeof value[key]==="boolean"); }
     function freshGame() {
+      moveToken++;
+      animating=false;
+      board.classList.remove("is-animating");
+      board.querySelectorAll(".twenty48-motion").forEach((tile)=>tile.remove());
       const game = store.game2048 || {sequence:0,stats:{played:0,wins:0,bestScore:0}};
       state = {number:(game.sequence||0)+1,grid:create2048Grid(),score:0,complete:false,won:false,over:false,continued:false,recorded:false,reported:false};
       store.game2048 = {...game,sequence:state.number,current:state};
-      writeStore(); render();
+      writeStore(); performanceTracker?.reset(); render();
     }
     if (!state) freshGame();
 
     function terminal() { return state.over || (state.won && !state.continued); }
-    function render() {
+    function render(animation={}) {
       tiles.forEach((tile,index)=>{
         const value=state.grid[index];
         tile.textContent=value||"";
         tile.dataset.value=value ? (value>=4096?"4096+":String(value)) : "empty";
         tile.setAttribute("aria-label",`Row ${Math.floor(index/4)+1}, column ${(index%4)+1}, ${value||"empty"}`);
+        tile.classList.toggle("is-new",index===animation.spawnIndex);
+        tile.classList.toggle("is-merged",animation.mergedIndices?.includes(index));
       });
       const gameStats=store.game2048.stats||{played:0,wins:0,bestScore:0};
       gameNumber.textContent=`Game ${state.number}`;
@@ -82,6 +95,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     }
     function recordCompletion(outcome) {
       state.complete=true;
+      performanceTracker?.finish();
       if (state.recorded) return;
       const game=store.game2048;
       game.stats=game.stats||{played:0,wins:0,bestScore:0};
@@ -92,14 +106,47 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     }
     async function reportCompletion(outcome) {
       if(state.reported||!state.complete)return;
-      const submitted=await window.BohoGameStats?.submit({game:"2048",variant:"standard",outcome,scoreBucket:scoreBucket2048(max2048Tile(state.grid))});
+      const submitted=await window.BohoGameStats?.submit({game:"2048",variant:"standard",outcome,scoreBucket:pointsBucket(state.score)});
       if(submitted){state.reported=true;writeStore();}
     }
-    function move(direction) {
-      if(terminal())return;
+    async function animateTiles(motions) {
+      if(matchMedia("(prefers-reduced-motion: reduce)").matches)return;
+      board.classList.add("is-animating");
+      const moving=motions.map((motion)=>{
+        const source=tiles[motion.from],destination=tiles[motion.to];
+        const tile=source.cloneNode(true);
+        tile.classList.add("twenty48-motion");
+        tile.removeAttribute("role");
+        tile.removeAttribute("data-2048-tile");
+        tile.removeAttribute("aria-label");
+        tile.dataset.value=motion.value>=4096?"4096+":String(motion.value);
+        tile.textContent=String(motion.value);
+        tile.style.left=`${source.offsetLeft}px`;
+        tile.style.top=`${source.offsetTop}px`;
+        tile.style.width=`${source.offsetWidth}px`;
+        tile.style.height=`${source.offsetHeight}px`;
+        tile.dataset.translate=`${destination.offsetLeft-source.offsetLeft},${destination.offsetTop-source.offsetTop}`;
+        board.append(tile);
+        return tile;
+      });
+      void board.offsetWidth;
+      moving.forEach((tile)=>{const [x,y]=tile.dataset.translate.split(",");tile.style.transform=`translate(${x}px,${y}px)`;});
+      await new Promise((resolve)=>setTimeout(resolve,135));
+      moving.forEach((tile)=>tile.remove());
+      board.classList.remove("is-animating");
+    }
+    async function move(direction) {
+      if(terminal()||animating)return;
       const result=move2048(state.grid,direction);
       if(!result.moved)return;
-      state.grid=spawn2048Tile(result.grid);
+      animating=true;
+      const token=++moveToken;
+      tiles.forEach((tile)=>tile.classList.remove("is-new","is-merged"));
+      await animateTiles(result.motions);
+      if(token!==moveToken)return;
+      const nextGrid=spawn2048Tile(result.grid);
+      const spawnIndex=nextGrid.findIndex((value,index)=>value!==result.grid[index]);
+      state.grid=nextGrid;
       state.score+=result.gained;
       let outcome=null;
       if(!state.won&&max2048Tile(state.grid)>=2048){state.won=true;recordCompletion("won");outcome="won";}
@@ -107,7 +154,11 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       const gameStats=store.game2048.stats||{played:0,wins:0,bestScore:0};
       gameStats.bestScore=Math.max(gameStats.bestScore||0,state.score);
       store.game2048.stats=gameStats;
-      writeStore();render();
+      writeStore();
+      performanceTracker?.render();
+      render({spawnIndex,mergedIndices:result.mergedIndices});
+      if(result.gained){score.classList.remove("is-bumped");void score.offsetWidth;score.classList.add("is-bumped");}
+      animating=false;
       if(outcome)void reportCompletion(outcome);
     }
     const keyDirections={ArrowUp:"up",w:"up",W:"up",ArrowRight:"right",d:"right",D:"right",ArrowDown:"down",s:"down",S:"down",ArrowLeft:"left",a:"left",A:"left"};
@@ -117,6 +168,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     board.addEventListener("pointerup",(event)=>{if(!pointerStart)return;const x=event.clientX-pointerStart.x;const y=event.clientY-pointerStart.y;pointerStart=null;if(Math.max(Math.abs(x),Math.abs(y))<24)return;move(Math.abs(x)>Math.abs(y)?(x>0?"right":"left"):(y>0?"down":"up"));});
     root.querySelector("[data-2048-new]")?.addEventListener("click",freshGame);
     continueButton?.addEventListener("click",()=>{state.continued=true;writeStore();render();});
+    performanceTracker=attachGamePerformance(root,{getState:()=>state,save:writeStore,calculatePoints:()=>state.score,pointsSelector:"[data-2048-score]",showLivePoints:true});
     render();
   }
 </script>

@@ -1,4 +1,5 @@
 ---
+import GamePerformance from "../../components/games/GamePerformance.astro";
 import GamesLayout from "../../layouts/GamesLayout.astro";
 const keys = ["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
 ---
@@ -9,6 +10,7 @@ const keys = ["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
     <p class="game-heading__dek">Find the five-letter word in six tries. Finish one and play another.</p>
     <div class="game-meta"><span data-game-number>Game 1</span><span data-word-stats>0 played</span></div>
   </header>
+  <GamePerformance rules="Fewer guesses matter most. A solve earns 1,000–6,000 guess points plus a speed bonus worth up to 2,000 points. A miss scores zero." />
   <section class="game-panel" aria-label="Wordle game" data-word-game>
     <p class="game-status" role="status" aria-live="polite">Enter a five-letter word.</p>
     <div class="word-board" role="grid" aria-label="Six guesses of five letters">
@@ -32,6 +34,8 @@ const keys = ["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
 <script>
   // @ts-nocheck -- Browser interaction is covered by focused unit and browser QA.
   import allowedWordData from "../../lib/games/wordle-allowed.json";
+  import { attachGamePerformance } from "../../lib/games/performance";
+  import { pointsBucket, wordlePoints } from "../../lib/games/scoring";
   import { pickWordleAnswer, scoreWordleGuess, WORDLE_ANSWERS } from "../../lib/games/wordle";
 
   const root = document.querySelector("[data-word-game]");
@@ -46,6 +50,7 @@ const keys = ["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
     let store = readStore();
     let state = validState(store.wordle?.current) ? store.wordle.current : null;
     let current = "";
+    let performanceTracker = null;
 
     function readStore() { try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"); } catch { return {}; } }
     function writeStore() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(store)); } catch {} }
@@ -57,6 +62,7 @@ const keys = ["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
       store.wordle = { ...wordle, sequence:state.number, recent:[...(wordle.recent || []),answer].slice(-20), current:state };
       current = "";
       writeStore();
+      performanceTracker?.reset();
       render();
     }
     if (!state) freshGame();
@@ -85,10 +91,11 @@ const keys = ["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
     function finish(won) {
       state.complete = true; state.won = won;
       if (!state.recorded) { store.wordle.stats = store.wordle.stats || {played:0,wins:0}; store.wordle.stats.played++; if(won) store.wordle.stats.wins++; state.recorded=true; }
+      performanceTracker?.finish();
     }
     async function reportCompletion() {
       if (state.reported || !state.complete) return;
-      const submitted = await window.BohoGameStats?.submit({ game:"wordle", variant:"standard", outcome:state.won?"won":"lost", scoreBucket:state.won?String(state.guesses.length):"X" });
+      const submitted = await window.BohoGameStats?.submit({ game:"wordle", variant:"standard", outcome:state.won?"won":"lost", scoreBucket:pointsBucket(state.points || 0) });
       if (submitted) { state.reported=true; writeStore(); }
     }
     function input(key) {
@@ -105,6 +112,7 @@ const keys = ["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
     document.addEventListener("keydown",(event)=>{if(event.metaKey||event.ctrlKey||event.altKey)return;const key=event.key==="Enter"?"ENTER":event.key==="Backspace"?"BACKSPACE":event.key.toUpperCase();if(/^[A-Z]$/.test(key)||key==="ENTER"||key==="BACKSPACE"){event.preventDefault();input(key);}});
     root.querySelector("[data-word-new]")?.addEventListener("click",freshGame);
     shareButton?.addEventListener("click",async()=>{const blocks=state.guesses.map((guess)=>scoreWordleGuess(guess,state.answer).map((value)=>value==="correct"?"🟩":value==="present"?"🟨":"⬛").join("")).join("\n");const text=`Boho Wordle ${state.number} ${state.won?state.guesses.length:"X"}/6\n${blocks}`;try{await navigator.clipboard.writeText(text);status.textContent="Result copied.";}catch{status.textContent="Copy is unavailable in this browser.";}});
+    performanceTracker = attachGamePerformance(document,{getState:()=>state,save:writeStore,calculatePoints:(elapsedMs)=>wordlePoints({won:state.won,guesses:state.guesses.length,elapsedMs})});
     render();
   }
 </script>

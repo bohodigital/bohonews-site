@@ -1,0 +1,13 @@
+---
+interface Props { rules: string; }
+const { rules } = Astro.props;
+---
+
+<div class="game-performance" data-game-performance aria-label="Game time and points">
+  <p><span>Time</span><strong data-game-time>0:00</strong></p>
+  <p><span>Points</span><strong data-game-points>—</strong></p>
+</div>
+<details class="game-scoring">
+  <summary>How scoring works</summary>
+  <p>{rules}</p>
+</details>

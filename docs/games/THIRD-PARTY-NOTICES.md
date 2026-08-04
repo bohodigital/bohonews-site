@@ -2,16 +2,17 @@
 
 The local Boho Games prototypes use the following permissively licensed inputs.
 
-## Crossword Layout Generator
+## Datamuse authoring input
 
-- Package: `crossword-layout-generator` 0.1.1
-- Project: <https://github.com/MichaelWehar/Crossword-Layout-Generator>
-- Copyright: 2018 Michael Wehar
-- License: MIT
-- Use: arranges Boho-authored answer/clue records into compact crossword layouts.
+- Service: Datamuse API
+- Project: <https://www.datamuse.com/api/>
+- Use: offline candidate-word discovery, frequency ranking, and part-of-speech
+  filtering for the reviewed 4×4 Mini Crossword authoring pipeline.
 
-The package does not create answers or clues. Boho News owns and reviews the
-answer/clue bank separately. Generated layouts are quality-gated before display.
+Datamuse is not called by the game or by production requests. Candidate words
+are filtered locally; Boho-authored clues and validated puzzle records are
+quality-gated and distributed in immutable local packs. The API documentation requests public
+acknowledgment when used by an application.
 
 ## SudokuGen
 
@@ -50,6 +51,21 @@ working label only; public naming requires separate review before release.
 - License: MIT
 - Intended targets: `pattern` for Nonogram and `mines` for Minesweeper
 
-The repository currently distributes no Tatham code or binaries. The lock
-manifest and offline build script establish a reproducible, license-checked
-intake path; a later reviewed change will add the shared host and built assets.
+The local preview distributes pinned `pattern.js`/`pattern.wasm` and
+`mines.js`/`mines.wasm` build outputs beside the upstream `LICENCE`, source
+lock, and SHA-256 manifest. Nonogram uses the Pattern engine through a small
+Boho host; Mines is built but does not yet have a public route.
+
+## Mah - Mahjong Solitaire
+
+- Project: <https://github.com/ffalt/mah>
+- Reviewed source commit: `89f1ee248da0d85c7c3171db53939f2ba5f096c3`
+- Copyright: 2016 ffalt
+- License: MIT; full text in `docs/games/licenses/mah-MIT.txt`
+- Use: reference and adaptation input for solvable-board construction and
+  Mahjong Solitaire interaction behavior.
+
+Boho's implementation is a small native TypeScript engine. It renders standard
+Unicode Mahjong characters using the reader's installed system fonts. It does
+not distribute Mah's Angular application, photographs, sounds, fonts, or mixed-
+license artwork packs.

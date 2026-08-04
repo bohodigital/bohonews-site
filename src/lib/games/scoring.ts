@@ -1,0 +1,141 @@
+export interface GameTimer {
+  elapsedMs: number;
+  runningSince: number | null;
+  finishedMs: number | null;
+  eligible: boolean;
+}
+
+const MAX_POINTS = Number.MAX_SAFE_INTEGER;
+
+export function createGameTimer(now = Date.now()): GameTimer {
+  return { elapsedMs: 0, runningSince: now, finishedMs: null, eligible: true };
+}
+
+export function isGameTimer(value: unknown): value is GameTimer {
+  if (!value || typeof value !== "object") return false;
+  const timer = value as GameTimer;
+  return Number.isFinite(timer.elapsedMs) && timer.elapsedMs >= 0
+    && (timer.runningSince === null || Number.isFinite(timer.runningSince))
+    && (timer.finishedMs === null || Number.isFinite(timer.finishedMs))
+    && typeof timer.eligible === "boolean";
+}
+
+export function normalizeGameTimer(value: unknown, complete: boolean, now = Date.now()): GameTimer {
+  if (!isGameTimer(value)) {
+    return complete
+      ? { elapsedMs: 0, runningSince: null, finishedMs: null, eligible: false }
+      : createGameTimer(now);
+  }
+  const timer = { ...value };
+  if (complete) {
+    if (timer.runningSince !== null) timer.elapsedMs += Math.max(0, now - timer.runningSince);
+    timer.runningSince = null;
+    timer.finishedMs ??= timer.elapsedMs;
+  }
+  return timer;
+}
+
+export function elapsedGameMs(timer: GameTimer, now = Date.now()): number {
+  if (timer.finishedMs !== null) return timer.finishedMs;
+  return timer.elapsedMs + (timer.runningSince === null ? 0 : Math.max(0, now - timer.runningSince));
+}
+
+export function pauseGameTimer(timer: GameTimer, now = Date.now()): GameTimer {
+  if (timer.runningSince !== null && timer.finishedMs === null) {
+    timer.elapsedMs += Math.max(0, now - timer.runningSince);
+    timer.runningSince = null;
+  }
+  return timer;
+}
+
+export function resumeGameTimer(timer: GameTimer, now = Date.now()): GameTimer {
+  if (timer.eligible && timer.finishedMs === null && timer.runningSince === null) timer.runningSince = now;
+  return timer;
+}
+
+export function finishGameTimer(timer: GameTimer, now = Date.now()): GameTimer {
+  pauseGameTimer(timer, now);
+  if (timer.eligible) timer.finishedMs = timer.elapsedMs;
+  return timer;
+}
+
+export function formatGameTime(milliseconds: number): string {
+  const totalSeconds = Math.max(0, Math.floor(milliseconds / 1000));
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+  return hours ? `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}` : `${minutes}:${String(seconds).padStart(2, "0")}`;
+}
+
+function safePoints(value: number): number {
+  if (!Number.isFinite(value)) return MAX_POINTS;
+  return Math.max(0, Math.min(MAX_POINTS, Math.floor(value)));
+}
+
+function seconds(milliseconds: number): number {
+  return Math.max(0.001, milliseconds / 1000);
+}
+
+export function wordlePoints({ won, guesses, elapsedMs }: { won: boolean; guesses: number; elapsedMs: number }): number {
+  if (!won) return 0;
+  const tries = Math.max(1, Math.min(6, Math.floor(guesses)));
+  const guessScore = 7000 - tries * 1000;
+  const speedBonus = 2000 * 120 / (120 + seconds(elapsedMs));
+  return safePoints(guessScore + speedBonus);
+}
+
+const RARE_LETTER_WEIGHT: Record<string, number> = { Q: 4, Z: 4, J: 3, X: 3, K: 2, V: 2, W: 1, Y: 1 };
+
+export function miniPerfectSeconds(answers: string[]): number {
+  const normalized = answers.map((answer) => answer.toUpperCase()).filter(Boolean);
+  const uniqueCells = normalized[0]?.length ? normalized[0].length * Math.max(1, normalized.length / 2) : 16;
+  const rarity = normalized.reduce((sum, answer) => sum + [...answer].reduce((letterSum, letter) => letterSum + (RARE_LETTER_WEIGHT[letter] || 0), 0), 0);
+  return Math.round(20 + uniqueCells * 2 + normalized.length * 5 + rarity * 1.5);
+}
+
+export function miniCrosswordPoints({ elapsedMs, perfectSeconds, failedChecks = 0 }: { elapsedMs: number; perfectSeconds: number; failedChecks?: number }): number {
+  // The P/t term is intentionally asymptotic: mathematically, score is unbounded as t approaches zero.
+  const speedScore = 4000 * Math.max(1, perfectSeconds) / seconds(elapsedMs);
+  return safePoints(4000 + speedScore - Math.max(0, failedChecks) * 600);
+}
+
+const SUDOKU_RULES = {
+  easy: { base: 2500, par: 360, penalty: 250 },
+  medium: { base: 4000, par: 600, penalty: 400 },
+  hard: { base: 6000, par: 900, penalty: 600 },
+  expert: { base: 8500, par: 1200, penalty: 850 }
+} as const;
+
+export type SudokuDifficulty = keyof typeof SUDOKU_RULES;
+
+export function sudokuPoints({ difficulty, elapsedMs, failedChecks = 0 }: { difficulty: SudokuDifficulty; elapsedMs: number; failedChecks?: number }): number {
+  const rule = SUDOKU_RULES[difficulty];
+  const speedBonus = rule.base * rule.par / (rule.par + seconds(elapsedMs));
+  return safePoints(rule.base + speedBonus - Math.max(0, failedChecks) * rule.penalty);
+}
+
+export function mahjongPoints({ elapsedMs, hints = 0 }: { elapsedMs: number; hints?: number }): number {
+  const base = 7200;
+  const speedBonus = base * 600 / (600 + seconds(elapsedMs));
+  return safePoints(base + speedBonus - Math.max(0, hints) * 500);
+}
+
+export function nonogramPoints({ rows, cols, elapsedMs, usedSolve = false }: { rows: number; cols: number; elapsedMs: number; usedSolve?: boolean }): number {
+  if (usedSolve) return 0;
+  const area = Math.max(25, Math.floor(rows) * Math.floor(cols));
+  const base = area * 40;
+  const par = area * 2;
+  const speedBonus = base * par / (par + seconds(elapsedMs));
+  return safePoints(base + speedBonus);
+}
+
+export type PointsBucket = "0" | "1-1999" | "2000-3999" | "4000-7999" | "8000-15999" | "16000+";
+
+export function pointsBucket(points: number): PointsBucket {
+  if (points <= 0) return "0";
+  if (points < 2000) return "1-1999";
+  if (points < 4000) return "2000-3999";
+  if (points < 8000) return "4000-7999";
+  if (points < 16000) return "8000-15999";
+  return "16000+";
+}

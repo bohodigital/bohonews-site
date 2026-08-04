@@ -1,0 +1,68 @@
+---
+import GamePerformance from "../../components/games/GamePerformance.astro";
+import GamesLayout from "../../layouts/GamesLayout.astro";
+---
+
+<GamesLayout title="Mahjong" description="Play unlimited solvable Mahjong Solitaire boards from Boho News." game="Mahjong">
+  <header class="game-heading">
+    <p class="eyebrow">The classic five-level Turtle</p><h1>Mahjong</h1>
+    <p class="game-heading__dek">Match free tiles to dismantle a genuine 144-tile Turtle. Every fresh board has a path all the way through.</p>
+    <div class="game-meta"><span data-mahjong-number>Game 1</span><span data-mahjong-remaining>144 tiles</span><span data-mahjong-stats>0 solved</span></div>
+  </header>
+  <GamePerformance rules="Clearing the Turtle earns 7,200 points plus a time bonus worth up to another 7,200. Each requested hint subtracts 500 points; undo is free." />
+  <section class="mahjong-panel" data-mahjong-game>
+    <p class="game-status" role="status" aria-live="polite">Building a fresh stack…</p>
+    <div class="mahjong-board" role="grid" aria-label="Mahjong tile layout" data-mahjong-board></div>
+    <div class="game-actions">
+      <button class="game-button" type="button" data-mahjong-hint>Hint</button>
+      <button class="game-button game-button--secondary" type="button" data-mahjong-undo>Undo</button>
+      <button class="game-button game-button--secondary" type="button" data-mahjong-new>New board</button>
+    </div>
+  </section>
+    <p class="game-note">This is Mahjong Solitaire: select two matching free tiles. A tile is free when nothing covers it and at least one side is open. Matching faces pair normally; any Flower matches another Flower, and any Season matches another Season. Your board and wins stay on this device.</p>
+</GamesLayout>
+
+<script>
+  // @ts-nocheck -- Browser interaction is covered by focused unit and browser QA.
+  import { attachGamePerformance } from "../../lib/games/performance";
+  import { createMahjongGame, freeMahjongTileIds, isMahjongDeadlocked, isValidMahjongGame, mahjongHint, removeMahjongPair, undoMahjongPair } from "../../lib/games/mahjong";
+  import { mahjongPoints, pointsBucket } from "../../lib/games/scoring";
+
+  const root=document.querySelector("[data-mahjong-game]");
+  if(root){
+    const STORAGE_KEY="boho-games:v2";const board=root.querySelector("[data-mahjong-board]");const status=root.querySelector(".game-status");
+    let store=readStore();let state=validState(store.mahjong?.current)?store.mahjong.current:null;let selectedId=null;let hintedIds=new Set();let performanceTracker=null;
+    function readStore(){try{return JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");}catch{return {};}}
+    function writeStore(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(store));}catch{}}
+    function validState(value){return value?.format==="mahjong-v2"&&Number.isInteger(value.number)&&value.number>0&&isValidMahjongGame(value.game)&&value.complete===value.game.complete;}
+    function freshGame(){const saved=store.mahjong||{sequence:0,stats:{played:0,solved:0}};const number=(saved.sequence||0)+1;state={format:"mahjong-v2",number,game:createMahjongGame(`boho-mahjong-${number}-${Date.now()}`),complete:false,recorded:false,reported:false,hints:0};selectedId=null;hintedIds.clear();store.mahjong={...saved,sequence:number,current:state};writeStore();performanceTracker?.reset();status.textContent="Select any free tile to begin.";render();}
+    if(!state)freshGame();
+    else{state.hints??=0;status.textContent=state.complete?"Board cleared. Beautiful work.":isMahjongDeadlocked(state.game)?"No legal matches remain. Undo a move or start a new board.":state.game.history.length?"Board resumed. Keep dismantling the stack.":"Select any free tile to begin.";}
+    function activeTile(id){return state.game.tiles.find((tile)=>tile.id===id&&!tile.removed);}
+    function save(){state.complete=state.game.complete;store.mahjong.current=state;writeStore();}
+    async function reportCompletion(){if(state.reported||!state.complete)return;const submitted=await window.BohoGameStats?.submit({game:"mahjong",variant:"turtle",outcome:"solved",scoreBucket:pointsBucket(state.points||0)});if(submitted){state.reported=true;save();}}
+    function choose(id){
+      const tile=activeTile(id);if(!tile||state.complete)return;hintedIds.clear();
+      if(selectedId===id){selectedId=null;status.textContent="Selection cleared.";render();return;}
+      if(!selectedId){selectedId=id;status.textContent=`${tile.label} selected. Choose its match.`;render();return;}
+      const selected=activeTile(selectedId);
+      if(selected&&removeMahjongPair(state.game,selected.id,tile.id)){
+        selectedId=null;save();const remaining=state.game.tiles.filter(({removed})=>!removed).length;
+        if(state.complete){if(!state.recorded){store.mahjong.stats=store.mahjong.stats||{played:0,solved:0};store.mahjong.stats.played++;store.mahjong.stats.solved++;state.recorded=true;}performanceTracker?.finish();status.textContent="Board cleared. Beautiful work.";save();void reportCompletion();}
+        else status.textContent=isMahjongDeadlocked(state.game)?"No legal matches remain. Undo a move or start a new board.":`Match cleared. ${remaining} tiles remain.`;
+      }else{selectedId=id;status.textContent=`Those tiles do not match. ${tile.label} is now selected.`;}
+      render();
+    }
+    function showHint(){if(state.complete)return;const pair=mahjongHint(state.game);hintedIds=new Set(pair||[]);selectedId=null;if(pair){state.hints=(state.hints||0)+1;save();performanceTracker?.render();}status.textContent=pair?"A matching pair is glowing.":"No matches are currently free.";render();}
+    function undo(){if(!undoMahjongPair(state.game)){status.textContent="Nothing to undo yet.";return;}state.complete=false;state.recorded=false;selectedId=null;hintedIds.clear();status.textContent="Last pair restored.";save();render();}
+    function render(){
+      const free=new Set(freeMahjongTileIds(state.game));board.textContent="";
+      state.game.tiles.filter(({removed})=>!removed).sort((a,b)=>a.z-b.z||a.y-b.y||a.x-b.x).forEach((tile)=>{
+        const family=tile.group==="flowers"?"flower":tile.group==="seasons"?"season":tile.label.includes("character")?"character":tile.label.includes("bamboo")?"bamboo":tile.label.includes("circle")?"circle":tile.label.includes("dragon")?"dragon":"wind";
+        const button=document.createElement("button");button.type="button";button.className="mahjong-tile";button.dataset.mahjongTile=tile.id;button.dataset.family=family;button.dataset.elevation=String(tile.z);button.dataset.selected=String(tile.id===selectedId);button.dataset.hinted=String(hintedIds.has(tile.id));button.dataset.free=String(free.has(tile.id));button.style.setProperty("--mahjong-x",tile.x);button.style.setProperty("--mahjong-y",tile.y);button.style.setProperty("--mahjong-z",tile.z);button.style.zIndex=String(tile.z*1000+tile.y*32+tile.x);button.disabled=!free.has(tile.id)||state.complete;button.setAttribute("aria-label",`${tile.label}, ${free.has(tile.id)?"free":"blocked"}`);button.setAttribute("role","gridcell");const face=document.createElement("span");face.className="mahjong-tile__face";face.textContent=tile.face;button.append(face);button.addEventListener("click",()=>choose(tile.id));board.append(button);
+      });
+      const remaining=state.game.tiles.filter(({removed})=>!removed).length;const stats=store.mahjong.stats||{played:0,solved:0};document.querySelector("[data-mahjong-number]").textContent=`Game ${state.number}`;document.querySelector("[data-mahjong-remaining]").textContent=`${remaining} tiles`;document.querySelector("[data-mahjong-stats]").textContent=`${stats.solved} solved`;root.querySelector("[data-mahjong-undo]").disabled=state.game.history.length===0||state.complete;root.querySelector("[data-mahjong-hint]").disabled=state.complete;
+    }
+    root.querySelector("[data-mahjong-hint]")?.addEventListener("click",showHint);root.querySelector("[data-mahjong-undo]")?.addEventListener("click",undo);root.querySelector("[data-mahjong-new]")?.addEventListener("click",freshGame);performanceTracker=attachGamePerformance(document,{getState:()=>state,save,calculatePoints:(elapsedMs)=>mahjongPoints({elapsedMs,hints:state.hints||0})});render();
+  }
+</script>

@@ -29,12 +29,13 @@ class FakeDatabase {
 const environment = () => ({ GAME_STATS: new FakeDatabase(), ASSETS: { fetch: () => new Response("asset") } });
 
 test("completion contract accepts only coarse current-game results", () => {
-  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"wordle", variant:"standard", outcome:"won", scoreBucket:"4" }), null);
-  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"sudoku", variant:"hard", outcome:"solved", scoreBucket:"complete" }), null);
-  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"2048", variant:"standard", outcome:"won", scoreBucket:"2048" }), null);
+  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"wordle", variant:"standard", outcome:"won", scoreBucket:"4000-7999" }), null);
+  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"sudoku", variant:"hard", outcome:"solved", scoreBucket:"8000-15999" }), null);
+  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"2048", variant:"standard", outcome:"won", scoreBucket:"16000+" }), null);
+  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"nonogram", variant:"pattern", outcome:"solved", scoreBucket:"8000-15999" }), null);
+  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"mahjong", variant:"turtle", outcome:"solved", scoreBucket:"8000-15999" }), null);
   assert.match(validateCompletion({ schemaVersion:"1.0", game:"2048", variant:"standard", outcome:"won", scoreBucket:"8192" }), /Unsupported score bucket/);
-  assert.match(validateCompletion({ schemaVersion:"1.0", game:"wordle", variant:"standard", outcome:"won", scoreBucket:"4", playerId:"abc" }), /unsupported field/);
-  assert.match(validateCompletion({ schemaVersion:"1.0", game:"wordle", variant:"standard", outcome:"lost", scoreBucket:"2" }), /must be X/);
+  assert.match(validateCompletion({ schemaVersion:"1.0", game:"wordle", variant:"standard", outcome:"won", scoreBucket:"4000-7999", playerId:"abc" }), /unsupported field/);
 });
 
 test("same-origin completions increment aggregate rows and expose qualified totals", async () => {
@@ -42,7 +43,7 @@ test("same-origin completions increment aggregate rows and expose qualified tota
   const request = new Request("https://bohonews.com/api/games/v1/completions", {
     method:"POST",
     headers:{ Origin:"https://bohonews.com", "Content-Type":"application/json" },
-    body:JSON.stringify({ schemaVersion:"1.0", game:"mini", variant:"standard", outcome:"solved", scoreBucket:"complete" })
+    body:JSON.stringify({ schemaVersion:"1.0", game:"mini", variant:"standard", outcome:"solved", scoreBucket:"8000-15999" })
   });
   const accepted = await worker.fetch(request, env);
   assert.equal(accepted.status, 202);
@@ -50,7 +51,7 @@ test("same-origin completions increment aggregate rows and expose qualified tota
   const stats = await worker.fetch(new Request("https://bohonews.com/api/games/v1/stats"), env);
   const payload = await stats.json();
   assert.equal(payload.totalReportedPlays, 1);
-  assert.deepEqual(payload.buckets, [{ game:"mini", variant:"standard", outcome:"solved", scoreBucket:"complete", reportedPlays:1 }]);
+  assert.deepEqual(payload.buckets, [{ game:"mini", variant:"standard", outcome:"solved", scoreBucket:"8000-15999", reportedPlays:1 }]);
   assert.match(payload.qualification, /not a cheat-proof leaderboard/);
 });
 
