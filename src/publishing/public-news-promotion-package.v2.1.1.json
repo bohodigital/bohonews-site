@@ -4722,6 +4722,422 @@
       "authors": [
         "Boho News Staff"
       ],
+      "body": "Four commercial lunar landers are moving through assembly and ground tests as NASA tries to turn a sequence of one-off Moon missions into a repeatable cargo network. The most important word in that sentence is “tries”: none of the milestones NASA detailed Tuesday is a completed delivery.\n\nNASA’s Aug. 4 update says Blue Origin, Firefly Aerospace, Intuitive Machines and Voyager Technologies are working toward lander flights by 2028. The agency’s first phase, running through 2029, calls for more than 20 robotic landings, with successive missions testing systems and placing instruments before additional human operations near the lunar south pole.\n\nThe update supplies an unusually useful snapshot of what is actually built, what is being tested and what still has to happen. It also shows why a launch target should not be confused with a delivery: each vehicle still faces integration, environmental or propulsion work before it can leave Earth.\n\nBlue Origin’s uncrewed Blue Moon Mark 1, named Endurance, completed an environmental campaign in NASA Johnson’s Thermal Vacuum Chamber A. The chamber recreated vacuum and extreme temperatures so engineers could evaluate structural and thermal performance before launch.\n\nNASA says the lander’s structure, propulsion elements and avionics are fully assembled. It has completed communications checkouts with the Tracking and Data Relay Satellite System and Deep Space Network. The next major test NASA identified is loading cryogenic propellants.\n\nEndurance is intended to demonstrate precision landing, cryogenic propulsion and autonomous guidance, navigation and control. NASA has assigned two payloads: cameras to observe how the engine plume interacts with lunar soil and a laser retroreflector that orbiting spacecraft can use for precise position measurements.\n\nFirefly’s Blue Ghost Mission 2 pairs a lander with the Elytra orbital spacecraft in a stack NASA says is 22 feet tall—nearly three times the height of the company’s first Blue Ghost vehicle. The mission is planned for the Moon’s far side and is slated to carry three NASA payloads. Far-side operations also require a communications architecture that does not depend on a direct line to Earth.\n\nIntuitive Machines’ third Nova-C lander, named Trinity, is being assembled alongside Altus-1, the company’s first lunar data-relay satellite. NASA says long-duration thermal-vacuum work on descent sensors is complete; engine integration and hot-fire testing remain. The planned manifest includes three payloads on Altus-1 and, on the surface, five NASA payloads, six commercial payloads and one civil payload.\n\nVoyager’s Griffin-1 is undergoing environmental testing at NASA’s Jet Propulsion Laboratory. NASA says the vehicle recently completed mass-properties testing, data needed for guidance, navigation, control and flight-dynamics models. The lander is planned to carry Astrolab’s FLIP rover with five NASA payloads, then return to Pittsburgh for final assembly after the JPL campaign.\n\nNASA is also working with Northrop Grumman on three surface technology demonstrations derived from power and avionics hardware developed for Gateway’s HALO module. The demonstrations are meant to test survival through long cold periods, shared surface power and supporting avionics.\n\nThose details matter because landing is only the first engineering problem. A durable lunar logistics system has to move payloads, communicate around terrain and the far side, distribute power and keep hardware alive through darkness and temperature swings.\n\nNASA’s schedule remains a planning framework. Launch licensing, integration, test results, launch-provider readiness and lunar conditions can all move individual missions. The concrete news in the Aug. 4 update is the hardware status: one large cargo lander has completed thermal-vacuum testing, another is stacked with an orbiter, a third is in assembly and a fourth is in environmental tests.",
+      "bodyBlocks": [
+        {
+          "text": "Four commercial lunar landers are moving through assembly and ground tests as NASA tries to turn a sequence of one-off Moon missions into a repeatable cargo network. The most important word in that sentence is “tries”: none of the milestones NASA detailed Tuesday is a completed delivery.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NASA’s Aug. 4 update says Blue Origin, Firefly Aerospace, Intuitive Machines and Voyager Technologies are working toward lander flights by 2028. The agency’s first phase, running through 2029, calls for more than 20 robotic landings, with successive missions testing systems and placing instruments before additional human operations near the lunar south pole.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The update supplies an unusually useful snapshot of what is actually built, what is being tested and what still has to happen. It also shows why a launch target should not be confused with a delivery: each vehicle still faces integration, environmental or propulsion work before it can leave Earth.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Blue Moon Mark 1 is past its vacuum campaign",
+          "type": "subheading"
+        },
+        {
+          "text": "Blue Origin’s uncrewed Blue Moon Mark 1, named Endurance, completed an environmental campaign in NASA Johnson’s Thermal Vacuum Chamber A. The chamber recreated vacuum and extreme temperatures so engineers could evaluate structural and thermal performance before launch.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NASA says the lander’s structure, propulsion elements and avionics are fully assembled. It has completed communications checkouts with the Tracking and Data Relay Satellite System and Deep Space Network. The next major test NASA identified is loading cryogenic propellants.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Endurance is intended to demonstrate precision landing, cryogenic propulsion and autonomous guidance, navigation and control. NASA has assigned two payloads: cameras to observe how the engine plume interacts with lunar soil and a laser retroreflector that orbiting spacecraft can use for precise position measurements.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Scale models of two lunar landers and two lunar rovers stand on a stage in front of a NASA flag.",
+          "caption": "Models shown at NASA Headquarters in May represent Blue Moon Mark 1, two rover concepts and Firefly’s Elytra orbiter. The hardware now advancing toward flight is at different stages of assembly and test.",
+          "credit": "NASA/Aubrey Gemignani",
+          "height": 900,
+          "rightsId": "media-nasa-moon-base-hardware-models",
+          "sourceUrl": "https://www.nasa.gov/news-release/nasa-provides-update-on-moon-base-rovers-landers-missions/",
+          "src": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/nasa-moon-base-hardware-models/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "level": 2,
+          "text": "Three other landers, three different configurations",
+          "type": "subheading"
+        },
+        {
+          "text": "Firefly’s Blue Ghost Mission 2 pairs a lander with the Elytra orbital spacecraft in a stack NASA says is 22 feet tall—nearly three times the height of the company’s first Blue Ghost vehicle. The mission is planned for the Moon’s far side and is slated to carry three NASA payloads. Far-side operations also require a communications architecture that does not depend on a direct line to Earth.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Intuitive Machines’ third Nova-C lander, named Trinity, is being assembled alongside Altus-1, the company’s first lunar data-relay satellite. NASA says long-duration thermal-vacuum work on descent sensors is complete; engine integration and hot-fire testing remain. The planned manifest includes three payloads on Altus-1 and, on the surface, five NASA payloads, six commercial payloads and one civil payload.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Voyager’s Griffin-1 is undergoing environmental testing at NASA’s Jet Propulsion Laboratory. NASA says the vehicle recently completed mass-properties testing, data needed for guidance, navigation, control and flight-dynamics models. The lander is planned to carry Astrolab’s FLIP rover with five NASA payloads, then return to Pittsburgh for final assembly after the JPL campaign.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Four cards summarize the current test or assembly milestone and planned role for Blue Moon Mark 1, Blue Ghost 2, IM-3 Trinity and Griffin-1.",
+          "caption": "NASA’s Aug. 4 update describes four commercial landers at different preflight milestones. These are plans and ground-test status—not completed lunar deliveries.",
+          "credit": "Boho News graphic from NASA records",
+          "height": 900,
+          "rightsId": "media-moon-lander-milestones-20260804",
+          "sourceUrl": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/",
+          "src": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/moon-lander-milestones-20260804/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "level": 2,
+          "text": "The surface systems are part of the test",
+          "type": "subheading"
+        },
+        {
+          "text": "NASA is also working with Northrop Grumman on three surface technology demonstrations derived from power and avionics hardware developed for Gateway’s HALO module. The demonstrations are meant to test survival through long cold periods, shared surface power and supporting avionics.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Those details matter because landing is only the first engineering problem. A durable lunar logistics system has to move payloads, communicate around terrain and the far side, distribute power and keep hardware alive through darkness and temperature swings.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NASA’s schedule remains a planning framework. Launch licensing, integration, test results, launch-provider readiness and lunar conditions can all move individual missions. The concrete news in the Aug. 4 update is the hardware status: one large cargo lander has completed thermal-vacuum testing, another is stacked with an orbiter, a third is in assembly and a fourth is in environmental tests.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-nasa-moon-base-update-20260804",
+          "text": "The Aug. 4 NASA update is the controlling record for the four commercial landers, current milestones and Northrop Grumman demonstrations.",
+          "title": "Current NASA status",
+          "type": "source-callout"
+        },
+        {
+          "sourceId": "source-nasa-blue-moon-test-20260504",
+          "text": "NASA’s May test report describes Chamber A, the Mark 1 objectives and its two NASA payloads.",
+          "title": "Blue Moon test record",
+          "type": "source-callout"
+        },
+        {
+          "sourceId": "source-nasa-moon-program-20260526",
+          "text": "NASA’s May program release supplies the staged mission framework and model-photo context.",
+          "title": "Program architecture",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nasa-lunar-cargo-landers-ground-tests-2026/",
+      "citations": [
+        {
+          "id": "source-nasa-moon-base-update-20260804",
+          "publishedAt": "2026-08-04T16:00:00Z",
+          "publisher": "NASA",
+          "title": "NASA Provides Updates on Moon Base Cargo Landers, Tech Demonstrations",
+          "url": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/"
+        },
+        {
+          "id": "source-nasa-blue-moon-test-20260504",
+          "publishedAt": "2026-05-04T12:00:00Z",
+          "publisher": "NASA",
+          "title": "Blue Origin Moon Lander Completes Testing at NASA Vacuum Chamber",
+          "url": "https://www.nasa.gov/missions/artemis/blue-origin-moon-lander-completes-testing-at-nasa-vacuum-chamber/"
+        },
+        {
+          "id": "source-nasa-moon-program-20260526",
+          "publishedAt": "2026-05-26T18:00:00Z",
+          "publisher": "NASA",
+          "title": "NASA Provides Update on Moon Base Rovers, Landers, Missions",
+          "url": "https://www.nasa.gov/news-release/nasa-provides-update-on-moon-base-rovers-landers-missions/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "NASA says four commercial partners are working toward lunar cargo-lander deliveries by 2028.",
+        "Blue Moon Mark 1 completed environmental testing in NASA Johnson’s Thermal Vacuum Chamber A, and cryogenic loading is a remaining test identified by NASA.",
+        "Blue Ghost Mission 2 is a 22-foot lander-orbiter stack planned for a far-side mission with three NASA payloads.",
+        "IM-3 is planned to fly Altus-1 with three orbital payloads and deliver five NASA, six commercial and one civil payload to the lunar surface.",
+        "Griffin-1 completed mass-properties testing and is undergoing environmental testing at JPL."
+      ],
+      "corrections": [],
+      "dek": "NASA’s newest update puts Blue Moon Mark 1 past thermal-vacuum testing while Blue Ghost 2, IM-3 and Griffin-1 advance through assembly and environmental work. Flight targets remain plans, not completed deliveries.",
+      "desk": "technology",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NASA",
+        "Blue Origin",
+        "Firefly Aerospace",
+        "Intuitive Machines",
+        "Voyager Technologies",
+        "Northrop Grumman"
+      ],
+      "eventId": "event-nasa-moon-base-lander-update-2026",
+      "headline": "Four Lunar Cargo Landers Are Moving From Models to Ground Tests",
+      "id": "article-nasa-lunar-cargo-landers-ground-tests-2026",
+      "leadImage": {
+        "alt": "The gold-foil-wrapped Blue Moon Mark 1 lunar lander stands inside the huge circular opening of NASA Johnson’s Thermal Vacuum Chamber A.",
+        "caption": "Blue Origin’s Blue Moon Mark 1 cargo lander inside Thermal Vacuum Chamber A at NASA’s Johnson Space Center. NASA says its environmental test campaign is complete.",
+        "credit": "NASA",
+        "height": 900,
+        "rightsId": "media-blue-moon-mk1-chamber-a",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/blue-moon-mk1-chamber-a/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Moon",
+        "Houston, Texas",
+        "Pasadena, California",
+        "Pittsburgh, Pennsylvania"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-05T01:27:05.095Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260805t005437z-53b1da110f52-299464acca87",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NASA details ground tests and assembly milestones for four commercial lunar cargo landers, with important work still ahead.",
+        "index": true,
+        "title": "NASA lunar cargo landers: Blue Moon, Blue Ghost, IM-3, Griffin"
+      },
+      "section": "technology",
+      "slug": "nasa-lunar-cargo-landers-ground-tests-2026",
+      "social": {
+        "description": "NASA’s latest status check separates completed ground tests from the lunar deliveries still being planned.",
+        "image": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/blue-moon-mk1-chamber-a/open-graph.webp",
+        "title": "Four Moon landers, four different preflight milestones"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Lunar technology",
+        "Commercial space",
+        "Artemis",
+        "Robotics",
+        "Moon Base"
+      ],
+      "uncertainty": [
+        "Launch targets and manifests may change after testing, licensing or integration work.",
+        "NASA’s statements describe planned missions and agency or company milestones, not independent proof of future landing success.",
+        "The Aug. 4 update does not provide a firm launch date for every lander."
+      ],
+      "updatedAt": "2026-08-05T01:27:05.095Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A NASA mission designed to watch the solar wind continuously has passed its first forecasting test: researchers used PUNCH imagery to predict when a coronal mass ejection would reach near-Earth space, and the estimate missed by less than 30 minutes.\n\nThat is a striking improvement over the roughly five-hour arrival window NASA says current methods provide. It is also one retrospective proof of concept—not yet an operational forecasting system and not yet a peer-reviewed result.\n\nNASA announced the analysis Aug. 4 after researchers presented it at the Committee on Space Research Scientific Meeting. The work is under review at the journal Space Weather. Those qualifications matter because the result comes from a single eruption whose actual arrival was already known when the team tested its method.\n\nCoronal mass ejections are large expulsions of plasma and magnetic field from the Sun. Their effects can disturb satellites, radio links, navigation systems and electric-power infrastructure, but the severity depends on more than arrival time. Direction, speed and the magnetic orientation of the ejected material also matter.\n\nBefore PUNCH, NASA says coronagraphs could directly follow an ejection through roughly the first fifth of its trip to Earth. Forecasters then had to infer how the cloud changed across much of the remaining distance.\n\nPUNCH—short for Polarimeter to Unify the Corona and Heliosphere—uses four small spacecraft in low Earth orbit to make continuous three-dimensional observations of the inner solar system. Its combined field of view can track solar eruptions nearly to Earth and produce a new image every four minutes.\n\nResearchers revisited a coronal mass ejection that left the Sun on May 31, 2025. They fed PUNCH images into a basic computer model that followed the eruption’s leading edge and used changes in speed and geometry to calculate an arrival time.\n\nTwelve hours after the eruption left the Sun, the model’s estimate stabilized. It predicted arrival eight hours later. NASA says the final estimate was accurate to within half an hour—about 10 times tighter than the five-hour window associated with the currently used approach.\n\nThe model also indicated when its answer had stabilized. That is operationally important: a forecast is more useful when forecasters can tell whether the estimate is still moving or has become dependable enough to support planning.\n\nThe first test does not establish a general 30-minute error rate. Coronal mass ejections differ in shape, speed, direction and interaction with the ambient solar wind. A method that performs well on one event can fail on a different geometry.\n\nResearchers will need to repeat the analysis across many eruptions, compare it against independent forecasting methods and complete peer review. Operational forecasters would also have to evaluate data latency, spacecraft coverage, model reliability and failure modes.\n\nThe imagery is already yielding scientific information beyond timing. NASA says the observations show more internal structure than earlier views, including clumpy material that continues to evolve as it crosses the solar system. That can improve models of how plasma moves not only around the Sun but in other astrophysical settings.\n\nThe honest reading is therefore two-part: PUNCH demonstrated that continuous imaging can sharply improve one arrival estimate, and the mission has not yet demonstrated that performance across the range of storms a real forecast service must handle.",
+      "bodyBlocks": [
+        {
+          "text": "A NASA mission designed to watch the solar wind continuously has passed its first forecasting test: researchers used PUNCH imagery to predict when a coronal mass ejection would reach near-Earth space, and the estimate missed by less than 30 minutes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That is a striking improvement over the roughly five-hour arrival window NASA says current methods provide. It is also one retrospective proof of concept—not yet an operational forecasting system and not yet a peer-reviewed result.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NASA announced the analysis Aug. 4 after researchers presented it at the Committee on Space Research Scientific Meeting. The work is under review at the journal Space Weather. Those qualifications matter because the result comes from a single eruption whose actual arrival was already known when the team tested its method.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "PUNCH fills a long blind stretch between Sun and Earth",
+          "type": "subheading"
+        },
+        {
+          "text": "Coronal mass ejections are large expulsions of plasma and magnetic field from the Sun. Their effects can disturb satellites, radio links, navigation systems and electric-power infrastructure, but the severity depends on more than arrival time. Direction, speed and the magnetic orientation of the ejected material also matter.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Before PUNCH, NASA says coronagraphs could directly follow an ejection through roughly the first fifth of its trip to Earth. Forecasters then had to infer how the cloud changed across much of the remaining distance.",
+          "type": "paragraph"
+        },
+        {
+          "text": "PUNCH—short for Polarimeter to Unify the Corona and Heliosphere—uses four small spacecraft in low Earth orbit to make continuous three-dimensional observations of the inner solar system. Its combined field of view can track solar eruptions nearly to Earth and produce a new image every four minutes.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "A circular gold-toned all-sky PUNCH image shows a coronal mass ejection with a yellow line tracing its leading edge.",
+          "caption": "PUNCH imagery of the May 31, 2025 coronal mass ejection. The yellow line marks the leading edge used in the retrospective arrival-time model.",
+          "credit": "NASA/PUNCH/SwRI",
+          "height": 900,
+          "rightsId": "media-punch-may31-cme-leading-edge",
+          "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/",
+          "src": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-may31-cme-leading-edge/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "level": 2,
+          "text": "What the team tested",
+          "type": "subheading"
+        },
+        {
+          "text": "Researchers revisited a coronal mass ejection that left the Sun on May 31, 2025. They fed PUNCH images into a basic computer model that followed the eruption’s leading edge and used changes in speed and geometry to calculate an arrival time.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Twelve hours after the eruption left the Sun, the model’s estimate stabilized. It predicted arrival eight hours later. NASA says the final estimate was accurate to within half an hour—about 10 times tighter than the five-hour window associated with the currently used approach.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "A timeline shows the eruption leaving the Sun, the model stabilizing 12 hours later and arrival about eight hours after that, with error under 30 minutes.",
+          "caption": "In the first proof-of-concept test, the model stabilized 12 hours after eruption and predicted arrival eight hours later, ultimately missing by less than 30 minutes.",
+          "credit": "Boho News graphic from NASA and PUNCH/SwRI data",
+          "height": 900,
+          "rightsId": "media-punch-first-test-timeline",
+          "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/",
+          "src": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-first-test-timeline/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The model also indicated when its answer had stabilized. That is operationally important: a forecast is more useful when forecasters can tell whether the estimate is still moving or has become dependable enough to support planning.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "A promising result still has to survive more storms",
+          "type": "subheading"
+        },
+        {
+          "text": "The first test does not establish a general 30-minute error rate. Coronal mass ejections differ in shape, speed, direction and interaction with the ambient solar wind. A method that performs well on one event can fail on a different geometry.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Researchers will need to repeat the analysis across many eruptions, compare it against independent forecasting methods and complete peer review. Operational forecasters would also have to evaluate data latency, spacecraft coverage, model reliability and failure modes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The imagery is already yielding scientific information beyond timing. NASA says the observations show more internal structure than earlier views, including clumpy material that continues to evolve as it crosses the solar system. That can improve models of how plasma moves not only around the Sun but in other astrophysical settings.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The honest reading is therefore two-part: PUNCH demonstrated that continuous imaging can sharply improve one arrival estimate, and the mission has not yet demonstrated that performance across the range of storms a real forecast service must handle.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-nasa-punch-test-20260804",
+          "text": "NASA’s Aug. 4 report supplies the event, timing, accuracy comparison, presentation status and peer-review caveat.",
+          "title": "Current test report",
+          "type": "source-callout"
+        },
+        {
+          "sourceId": "source-nasa-punch-mission",
+          "text": "NASA’s PUNCH mission page documents the four-spacecraft architecture, instruments and operating concept.",
+          "title": "Mission record",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nasa-punch-solar-storm-arrival-test-30-minutes/",
+      "citations": [
+        {
+          "id": "source-nasa-punch-test-20260804",
+          "publishedAt": "2026-08-04T18:00:00Z",
+          "publisher": "NASA",
+          "title": "NASA’s PUNCH Sharpens Solar Storm Forecasting in First Test",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/"
+        },
+        {
+          "id": "source-nasa-punch-mission",
+          "publishedAt": "2026-08-04T00:00:00Z",
+          "publisher": "NASA",
+          "title": "PUNCH",
+          "url": "https://science.nasa.gov/mission/punch/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "NASA says a PUNCH-based retrospective model predicted one CME arrival to within 30 minutes.",
+        "The estimate stabilized 12 hours after the May 31, 2025 eruption left the Sun and predicted arrival eight hours later.",
+        "NASA compared the result with a roughly five-hour window for currently used methods.",
+        "PUNCH uses four spacecraft in low Earth orbit and can collect a new combined image every four minutes.",
+        "The result was presented at a scientific meeting and was under journal review when NASA announced it."
+      ],
+      "corrections": [],
+      "dek": "The first retrospective test beat the five-hour window NASA associates with current methods. It involved one eruption, and the analysis is still under journal review.",
+      "desk": "space-science",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NASA",
+        "PUNCH",
+        "Southwest Research Institute",
+        "Committee on Space Research",
+        "Space Weather"
+      ],
+      "eventId": "event-punch-cme-forecast-proof-2026",
+      "headline": "PUNCH Tracked One Solar Storm to a 30-Minute Arrival Window",
+      "id": "article-nasa-punch-solar-storm-arrival-test-30-minutes",
+      "leadImage": {
+        "alt": "A technician in clean-room clothing works closely on circular spacecraft hardware at a laboratory bench.",
+        "caption": "A technician works on NASA’s PUNCH spacecraft at the Astrotech Processing Facility at Vandenberg Space Force Base in January 2025.",
+        "credit": "USSF 30th Space Wing/Antonio Ramos via NASA",
+        "height": 900,
+        "rightsId": "media-punch-spacecraft-testing-vandenberg",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-spacecraft-testing-vandenberg/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Sun",
+        "Near-Earth space",
+        "Boulder, Colorado",
+        "Greenbelt, Maryland"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-05T01:27:05.095Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260805t005437z-53b1da110f52-299464acca87",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "PUNCH imagery narrowed one solar-storm arrival estimate to 30 minutes, but the retrospective result is not yet an operational forecast.",
+        "index": true,
+        "title": "NASA PUNCH solar storm forecast test hit 30-minute window"
+      },
+      "section": "health-science",
+      "slug": "nasa-punch-solar-storm-arrival-test-30-minutes",
+      "social": {
+        "description": "PUNCH’s first test was about 10 times tighter than current methods, NASA says. It still has to work across many more eruptions.",
+        "image": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-spacecraft-testing-vandenberg/open-graph.webp",
+        "title": "A 30-minute solar-storm estimate—with a big caveat"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Space weather",
+        "Solar storms",
+        "Coronal mass ejections",
+        "Heliophysics",
+        "Forecasting"
+      ],
+      "uncertainty": [
+        "This is one retrospective proof-of-concept event, not a validated operational error rate.",
+        "The analysis was under review and not yet peer reviewed at announcement.",
+        "Arrival time alone does not determine the severity of geomagnetic effects."
+      ],
+      "updatedAt": "2026-08-05T01:27:05.095Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
       "body": "NASA has scheduled three U.S. spacewalks for Aug. 6, Aug. 13 and Aug. 25, a compact run of outside work that links the International Space Station's day-to-day upkeep with two longer-term priorities: adding power and preparing the complex for its eventual deorbit.\n\nThe first operation is the most fully specified. NASA astronauts Jessica Meir and Anil Menon are due to leave the Quest airlock Aug. 6. Coverage begins at 7 a.m. EDT, and NASA expects the spacewalk to begin at 8:35 a.m. and last about six and a half hours.\n\nMeir and Menon are assigned to install hardware on the station's 3B power channel. The modification is intended to prepare that channel for a seventh International Space Station Roll-Out Solar Array, or IROSA, which NASA says is scheduled for delivery later in 2026.\n\nThe pairing mixes deep spacewalk experience with a debut. This will be Meir's sixth spacewalk and Menon's first. Meir will wear the suit marked with red stripes as crew member 1; Menon will wear the unmarked suit as crew member 2.\n\nNASA's second August outing, U.S. spacewalk 97 on Aug. 13, is aimed at communications. Two astronauts will replace a Space-to-Ground antenna, part of the system used to move data and high-speed communications between the station and Mission Control in Houston. NASA has not yet announced the crew or timing.\n\nThe Aug. 25 operation combines cabling and docking work. The crew for U.S. spacewalk 98 is expected to connect power-channel cables and data-relay systems, work NASA describes as part of continuing maintenance and preparation for the station's future deorbit. The astronauts also are scheduled to replace a navigational aid on the forward port of the Harmony module, where visiting spacecraft dock.\n\nNASA counts the three outings as the 281st, 282nd and 283rd spacewalks conducted for station assembly, maintenance and upgrades. That sequence is more than a milestone: it shows how the station's final era still demands new infrastructure.\n\nIROSA panels are smaller than the station's original arrays but use more efficient cells. Earlier units were mounted in front of portions of the legacy arrays, adding generation while using existing tracking and power-distribution hardware. NASA says the next array will add power needed for critical operations, including a safe, controlled deorbit.\n\nThe schedule remains partly provisional. NASA said it will publish the assigned crews, start times and coverage details for the Aug. 13 and Aug. 25 spacewalks closer to those dates. Operational timing can also move as station managers assess equipment, crew readiness and conditions aboard the orbiting laboratory.",
       "bodyBlocks": [
         {
@@ -7804,25 +8220,226 @@
         "The estimates describe participation, not the duration, quality or effectiveness of each training program."
       ],
       "updatedAt": "2026-08-02T00:23:31.615Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "More than 1,700 young athletes from more than 135 countries are due at Hayward Field this week for the World Athletics U20 Championships, a five-day meet that opens Wednesday with three distance finals, the men’s shot put and a mixed 4-by-400-meter relay.\n\nThe Aug. 5–9 championships are the 21st edition of the global under-20 meet and the second staged in Oregon. The last Oregon edition was held at the former Hayward Field in 2014; the rebuilt stadium later hosted the 2022 senior world championships.\n\nWorld Athletics’ most recent event release gives the expected scale as more than 1,700 athletes from more than 135 countries. Those are organizer figures, not a final count of starters: accreditation, travel and late withdrawals can change the field before each event.\n\nThe first champion is scheduled to come from the men’s shot put at 7:50 p.m. local time Wednesday. The women’s and men’s 5,000-meter finals follow, and the mixed 4-by-400 closes the opening session at 8:50 p.m.\n\nThe women’s and men’s 100-meter finals anchor Thursday evening. Friday concentrates on qualifying and combined-events competition. World Athletics lists 12 finals for Saturday evening and 15 titles on Sunday, when the championships end with the women’s and men’s 4-by-400 relays.\n\nOne new feature is the mixed 4-by-100-meter relay. World Athletics’ published program places its first round Thursday morning and the final Saturday evening. The mixed 4-by-400 remains on the opening-night schedule.\n\nThe U20 championships sit at an unusual point in the sport. The competition awards world titles, but the field spans athletes whose bodies, coaching environments and experience are still changing quickly. A standout performance can signal elite potential without guaranteeing a senior career.\n\nThat makes restraint important in covering the meet. Boho News will report verified results and competition records without turning teenage athletes into permanent projections or publishing unnecessary personal details. Athlete eligibility and official result lists remain the governing sources.\n\nThe event’s medals use the same geometric tree-and-wings form as the Oregon 26 logo. Organizers describe the tree as a reference to the state’s landscape and the wings as a link to the winged-foot symbol of track and field and Oregon’s “She flies with her own wings” motto.\n\nRibbon colors distinguish the medals: blue for gold, red and orange for silver, and green for bronze. Podium athletes are also due to receive matching pins intended for a coach, family member, friend or teammate.\n\nPublished schedules are operational documents, not guarantees. Heat assignments, advancement, weather and competition appeals can alter the order or timing. The official World Athletics timetable and results system should be checked immediately before any event or result is reported.\n\nThe reliable opening-day frame is broader: a five-day global junior championship returns to Eugene, introduces a mixed sprint relay to the U20 program and begins awarding titles immediately. The results from Hayward Field—not pre-meet projections—will determine which athletes leave with the new Oregon-shaped medals.",
+      "bodyBlocks": [
+        {
+          "text": "More than 1,700 young athletes from more than 135 countries are due at Hayward Field this week for the World Athletics U20 Championships, a five-day meet that opens Wednesday with three distance finals, the men’s shot put and a mixed 4-by-400-meter relay.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Aug. 5–9 championships are the 21st edition of the global under-20 meet and the second staged in Oregon. The last Oregon edition was held at the former Hayward Field in 2014; the rebuilt stadium later hosted the 2022 senior world championships.",
+          "type": "paragraph"
+        },
+        {
+          "text": "World Athletics’ most recent event release gives the expected scale as more than 1,700 athletes from more than 135 countries. Those are organizer figures, not a final count of starters: accreditation, travel and late withdrawals can change the field before each event.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "The program starts with finals, not a long opening ceremony",
+          "type": "subheading"
+        },
+        {
+          "text": "The first champion is scheduled to come from the men’s shot put at 7:50 p.m. local time Wednesday. The women’s and men’s 5,000-meter finals follow, and the mixed 4-by-400 closes the opening session at 8:50 p.m.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The women’s and men’s 100-meter finals anchor Thursday evening. Friday concentrates on qualifying and combined-events competition. World Athletics lists 12 finals for Saturday evening and 15 titles on Sunday, when the championships end with the women’s and men’s 4-by-400 relays.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "A five-row schedule highlights opening-day distance and mixed relay finals, sprint finals, qualifying, 12 Saturday finals and 15 Sunday titles.",
+          "caption": "The five-day program opens with the men’s shot put and 5,000-meter finals and closes with 15 titles on Sunday. World Athletics notes that schedules can change.",
+          "credit": "Boho News graphic from World Athletics schedule",
+          "height": 900,
+          "rightsId": "media-oregon26-five-day-program",
+          "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/press-releases/full-event-schedule-announced-for-world-athletics-u20-championships-oregon-26",
+          "src": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-five-day-program/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "One new feature is the mixed 4-by-100-meter relay. World Athletics’ published program places its first round Thursday morning and the final Saturday evening. The mixed 4-by-400 remains on the opening-night schedule.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "A world meet where development is the point",
+          "type": "subheading"
+        },
+        {
+          "text": "The U20 championships sit at an unusual point in the sport. The competition awards world titles, but the field spans athletes whose bodies, coaching environments and experience are still changing quickly. A standout performance can signal elite potential without guaranteeing a senior career.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That makes restraint important in covering the meet. Boho News will report verified results and competition records without turning teenage athletes into permanent projections or publishing unnecessary personal details. Athlete eligibility and official result lists remain the governing sources.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Silver, gold and bronze Oregon 26 medals hang from pink, blue and dark-blue ribbons outdoors.",
+          "caption": "The Oregon 26 medals use the event’s tree-and-wings shape. World Athletics says more than 1,700 athletes from more than 135 countries are expected.",
+          "credit": "World Athletics U20 Championships Oregon 26",
+          "height": 900,
+          "rightsId": "media-oregon26-u20-medal-suite",
+          "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/press-releases/medal-suite-unveiled-for-world-athletics-u20-championships-oregon-26",
+          "src": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-u20-medal-suite/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "level": 2,
+          "text": "The medals borrow from Oregon—and from the event logo",
+          "type": "subheading"
+        },
+        {
+          "text": "The event’s medals use the same geometric tree-and-wings form as the Oregon 26 logo. Organizers describe the tree as a reference to the state’s landscape and the wings as a link to the winged-foot symbol of track and field and Oregon’s “She flies with her own wings” motto.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Ribbon colors distinguish the medals: blue for gold, red and orange for silver, and green for bronze. Podium athletes are also due to receive matching pins intended for a coach, family member, friend or teammate.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "What to verify as competition begins",
+          "type": "subheading"
+        },
+        {
+          "text": "Published schedules are operational documents, not guarantees. Heat assignments, advancement, weather and competition appeals can alter the order or timing. The official World Athletics timetable and results system should be checked immediately before any event or result is reported.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The reliable opening-day frame is broader: a five-day global junior championship returns to Eugene, introduces a mixed sprint relay to the U20 program and begins awarding titles immediately. The results from Hayward Field—not pre-meet projections—will determine which athletes leave with the new Oregon-shaped medals.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-wa-u20-medals-20260701",
+          "text": "The July 1 organizer release supplies the latest athlete and country estimates, edition number, venue dates and medal design.",
+          "title": "Current event scale",
+          "type": "source-callout"
+        },
+        {
+          "sourceId": "source-wa-u20-schedule-20251203",
+          "text": "World Athletics’ program supplies the day-by-day finals, mixed-relay timing and opening event sequence.",
+          "title": "Official schedule",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/world-u20-championships-oregon-2026-opens/",
+      "citations": [
+        {
+          "id": "source-wa-u20-medals-20260701",
+          "publishedAt": "2026-07-01T12:00:00Z",
+          "publisher": "World Athletics",
+          "title": "Medal Suite Unveiled for World Athletics U20 Championships Oregon 26",
+          "url": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/press-releases/medal-suite-unveiled-for-world-athletics-u20-championships-oregon-26"
+        },
+        {
+          "id": "source-wa-u20-schedule-20251203",
+          "publishedAt": "2025-12-03T12:00:00Z",
+          "publisher": "World Athletics",
+          "title": "Full Event Schedule Announced for World Athletics U20 Championships Oregon 26",
+          "url": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/press-releases/full-event-schedule-announced-for-world-athletics-u20-championships-oregon-26"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "World Athletics expects more than 1,700 athletes from more than 135 countries at Oregon 26.",
+        "The championships run Aug. 5-9, 2026, at Hayward Field and are the 21st edition of the World U20 Championships.",
+        "The men’s shot put is scheduled to produce the first champion on Aug. 5.",
+        "The mixed 4x400-meter relay is scheduled for opening night, while the mixed 4x100-meter relay has a first round Aug. 6 and final Aug. 8.",
+        "World Athletics scheduled 12 finals for Saturday evening and 15 titles on Sunday."
+      ],
+      "corrections": [],
+      "dek": "The five-day meet at Hayward Field starts with the men’s shot put, two 5,000-meter finals and a mixed 4×400. A mixed 4×100 also joins the U20 program.",
+      "desk": "sports",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Athletics",
+        "World Athletics U20 Championships Oregon 26",
+        "Hayward Field",
+        "TrackTown USA"
+      ],
+      "eventId": "event-world-athletics-u20-oregon-2026",
+      "headline": "The World U20 Championships Open in Oregon With 1,700-Plus Athletes",
+      "id": "article-world-u20-championships-oregon-2026-opens",
+      "leadImage": {
+        "alt": "Hayward Field’s silver stadium shell rises above a red track, international flags and event tents under a clear blue sky.",
+        "caption": "Hayward Field in Eugene, Oregon, during the 2022 World Athletics Championships. The venue hosts the 2026 World U20 Championships from Aug. 5 through 9.",
+        "credit": "John Hughel / Oregon National Guard",
+        "height": 900,
+        "rightsId": "media-hayward-field-world-championships-2022",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/hayward-field-world-championships-2022/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Eugene, Oregon",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-05T01:27:05.095Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260805t005437z-53b1da110f52-299464acca87",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "More than 1,700 athletes from 135-plus countries are expected for five days of track and field at Hayward Field.",
+        "index": true,
+        "title": "World U20 Championships Oregon 2026 schedule and scale"
+      },
+      "section": "sports",
+      "slug": "world-u20-championships-oregon-2026-opens",
+      "social": {
+        "description": "The World U20 meet begins Aug. 5 at Hayward Field, with more than 1,700 athletes expected across five days.",
+        "image": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/hayward-field-world-championships-2022/open-graph.webp",
+        "title": "Oregon 26 opens with finals—and a mixed relay"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Track and field",
+        "World U20 Championships",
+        "Oregon 26",
+        "Hayward Field",
+        "Mixed relays"
+      ],
+      "uncertainty": [
+        "Organizer participation figures can change with accreditation, travel and withdrawals.",
+        "The published timetable can change because of weather, appeals or operational decisions.",
+        "Junior results do not by themselves predict senior performance."
+      ],
+      "updatedAt": "2026-08-05T01:27:05.095Z"
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-05T00:00:21Z",
+  "generatedAt": "2026-08-05T01:28:19Z",
   "inputHashes": {
-    "approvals": "0b5188bba60653997b8c0a1982ac26b0c5e8cec245344541de713fbeca56749b",
-    "articles": "dae628bd344d7d2c88acecf6eed4c577245127e2fb13aac62998a81797d069ad",
-    "claims": "bcfd4091d491de13574bb0cc9d9778022465d5c719c8ff0f390eb16c34fb8f37",
+    "approvals": "11dc245b6da8d390a42928ca9444627b91b0e1b5483585aa3cf17a6253b45476",
+    "articles": "428f86c8f78560c036415134a971fbcf33fe28624541ae34105be2efe24eac5b",
+    "claims": "5fe20a82b5180d51efd12f16e4b66d877cc3d4060a198e152ad91b422121be77",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "75e875fb601126ab3e789d79c8f8ae0777ab7864576be972a37774e8ec003f50",
-    "mediaRights": "5808454f4e9d02c93f9b8059c4672a7b59fdd9159483822b51e75b046d087edf",
-    "publicationIntents": "3c7e355863a2a83b2bb49c5dc59f5f03de1195457d67c8fb8f6eb63458c1e8ee",
-    "releaseRecords": "f3cc4ec2850f1e3de29fa4bd199208dc9b10628e10fcd8fa10eca1661334cfc1",
-    "sourceItems": "5f5b7d9d95e4df483ff1161534e3c6e83a6d13c74e92c9c7205f30c8c1600fcb"
+    "events": "844bb8d31525bc0c50b91a409dec84065017d993b7a2aeae6f04dc5aae70b670",
+    "mediaRights": "917fcf897ed932f53888b3cd5d0ed3a72501159865a4eb5648deb7154f61f900",
+    "publicationIntents": "857f1b5824e247921705c12aeb906616da8f1c5d49421b9134df1674dfd34122",
+    "releaseRecords": "ecf424b2500ad467e4dd6a8030b3dba5dee2d80ba18efda113ec0d7d98f9e781",
+    "sourceItems": "8f74f822ee84cce4a8905700fcaaaf4a22f30abebfa9df4042e5d0c1d33e89a3"
   },
   "inventory": {
-    "articleCount": 30,
-    "mediaCount": 76,
-    "routeCount": 30
+    "articleCount": 33,
+    "mediaCount": 85,
+    "routeCount": 33
   },
   "mediaRights": [
     {
@@ -9930,6 +10547,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "The gold-foil-wrapped Blue Moon Mark 1 lunar lander stands inside the huge circular opening of NASA Johnson’s Thermal Vacuum Chamber A.",
+      "archivalStatus": "current",
+      "attribution": "NASA",
+      "caption": "Blue Origin’s Blue Moon Mark 1 cargo lander inside Thermal Vacuum Chamber A at NASA’s Johnson Space Center. NASA says its environmental test campaign is complete.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary photograph; preserve NASA credit."
+      },
+      "creator": "NASA",
+      "derivatives": [
+        {
+          "hash": "7f4fc3e7bc0f49518e33e610f4b29afb5969e89d567226b3fa5de47f82b0bfa9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/blue-moon-mk1-chamber-a/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "160f134a0608f7dbf1a7c0d35eec2240e0a9f03b015ce8abfe2c8d7b13156882",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/blue-moon-mk1-chamber-a/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a988b0d978e991cb7cc91a96bdd3e412350be4b86935d7ec1e8991f3111a1865",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/blue-moon-mk1-chamber-a/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "24f64a7740272a33f9393ad6601beaa86df0286872a04de145ac1bd91a0b1f03",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/blue-moon-mk1-chamber-a/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d2336d6276fb3aa3e6ca725f766e2c44131ce635f882720fe0662d5af1078cb1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/blue-moon-mk1-chamber-a/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2b6b1f96df036a54667fd7d11f42ac47f8598db9273f99efb3bc287ba11335e5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/blue-moon-mk1-chamber-a/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1580cea6b6e4ca4ae719f53a852a18358460f5ec13a9fb38c1bc4f8a6c7b1eaf",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/blue-moon-mk1-chamber-a/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-blue-moon-mk1-chamber-a",
+      "illustrationLabel": null,
+      "license": "NASA public-domain photograph",
+      "originalFileHash": "11ba257eaca25d72b646ee37ebf69d697c454f169019a4bc9cc62ce5a22cdbe7",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T00:54:17Z",
+      "rightsBasis": "NASA-hosted U.S. government photograph with no contrary copyright notice.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nasa.gov/missions/artemis/blue-origin-moon-lander-completes-testing-at-nasa-vacuum-chamber/"
+    },
+    {
+      "aiGenerated": false,
       "altText": "First page of the DEA Federal Register notice showing the proposed 7-OH Schedule I threshold.",
       "archivalStatus": "current",
       "attribution": "U.S. Drug Enforcement Administration / Federal Register",
@@ -10823,6 +11516,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Hayward Field’s silver stadium shell rises above a red track, international flags and event tents under a clear blue sky.",
+      "archivalStatus": "current",
+      "attribution": "John Hughel / Oregon National Guard",
+      "caption": "Hayward Field in Eugene, Oregon, during the 2022 World Athletics Championships. The venue hosts the 2026 World U20 Championships from Aug. 5 through 9.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead venue photograph; preserve creator and CC BY 2.0 credit."
+      },
+      "creator": "John Hughel / Oregon National Guard",
+      "derivatives": [
+        {
+          "hash": "d462e01bba6124a81afd5758f3b6bb471eab6e252401553aaf931ddeedc7c346",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/hayward-field-world-championships-2022/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "803e85d65e951c6eb5df1034202838fc9ecc208069a29e48f396368fc33ddc54",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/hayward-field-world-championships-2022/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5d360414f26e3e1e98348e10c0e2e7f7eb57fd1f83ff795edbbbb12fc05ed9b1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/hayward-field-world-championships-2022/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "fac04f83fbea8c360cffdd895aa9717c7d5ebc31b2e4307279bbb515d2b18b9c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/hayward-field-world-championships-2022/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "23caae207575e637ab3289d9836bf95383a51f7a6d5a99d309b4cadb27d685d1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/hayward-field-world-championships-2022/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ae5e976d93eda6163d995a73e05c67805cc2f419cf56ee5543e2bf532e758dbb",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/hayward-field-world-championships-2022/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7eaea14f1e5d477937e821b845365d284594ef956d192daf3a2f50fca18ed925",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/hayward-field-world-championships-2022/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-hayward-field-world-championships-2022",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "44285f32a9845287fa2d524d4af1cdd3826342ea30746ad4150eb3d8ec3be855",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T00:54:17Z",
+      "rightsBasis": "John Hughel/Oregon National Guard photograph confirmed CC BY 2.0 by Wikimedia Commons/FlickreviewR.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oregon_National_Guard_Civil_Support_Team_support_World_Track_and_Field_Championships_(52234972038).jpg"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Hurricane Michael’s eye and spiral cloud bands seen from a NOAA satellite over the Gulf of Mexico.",
       "archivalStatus": "current",
       "attribution": "NOAA/NESDIS",
@@ -11426,6 +12195,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Four cards summarize the current test or assembly milestone and planned role for Blue Moon Mark 1, Blue Ghost 2, IM-3 Trinity and Griffin-1.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NASA records",
+      "caption": "NASA’s Aug. 4 update describes four commercial landers at different preflight milestones. These are plans and ground-test status—not completed lunar deliveries.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; not a lead."
+      },
+      "creator": "Boho News graphic from NASA records",
+      "derivatives": [
+        {
+          "hash": "0b7e334e6a06194b13be37135f7cfc6e4c64d5860722e24cc80964dd782ac5f6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/moon-lander-milestones-20260804/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c03c293ec31311441538e8ae7c6f3855b84d398c0b8c8d91f9d0a16dff325d5e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/moon-lander-milestones-20260804/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a5eed7d9aa6b6242d90c6f41e5cdb0b7cd94b34bd67e577a85ada322bf2f894d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/moon-lander-milestones-20260804/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7de430ff3c5216bdb1136175e12627902e0349cfbadc25ca64295117b9a6f19a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/moon-lander-milestones-20260804/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3431417c81761524657069d06f88e91c219ce4696760bc320b33a0327c9ed25f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/moon-lander-milestones-20260804/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d7eabb80ab7b4c025265d7259ad47c2e57c3ab4977dc848959f23711abe2a38c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/moon-lander-milestones-20260804/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "396c796ce2615a92f3c07a55be871f56f8539ed6737f6527e53e6be9712dc0b5",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/moon-lander-milestones-20260804/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-moon-lander-milestones-20260804",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "a6e7120707e620cd2a8d38f7232662e8ec25c535451eee1cdad8b6e15dae327b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T00:54:17Z",
+      "rightsBasis": "Original editorial graphic derived only from cited NASA milestone data.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nasa.gov/missions/moon-base/nasa-provides-updates-on-moon-base-cargo-landers-tech-demonstrations/"
+    },
+    {
+      "aiGenerated": false,
       "altText": "NASA astronaut Josh Cassada works outside the International Space Station above the Atlantic Ocean.",
       "archivalStatus": "current",
       "attribution": "NASA/Frank Rubio",
@@ -11648,6 +12493,82 @@
       "rightsBasis": "Public domain - U.S. federal government work",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.nasa.gov/wp-content/uploads/2026/07/meir.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Scale models of two lunar landers and two lunar rovers stand on a stage in front of a NASA flag.",
+      "archivalStatus": "current",
+      "attribution": "NASA/Aubrey Gemignani",
+      "caption": "Models shown at NASA Headquarters in May represent Blue Moon Mark 1, two rover concepts and Firefly’s Elytra orbiter. The hardware now advancing toward flight is at different stages of assembly and test.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline hardware-model photograph."
+      },
+      "creator": "NASA/Aubrey Gemignani",
+      "derivatives": [
+        {
+          "hash": "bf40c4148a2ec15303c21cbd5b23a9214c3f77a6d24d644c4713f51ce376e77e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/nasa-moon-base-hardware-models/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "65688dc60d6c363da8a0af1f15b223a489d96eaa80083673f6bac3116c177c70",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/nasa-moon-base-hardware-models/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "61efefb5994f24f93d55051e68c4500729a4761aadd0175844d8bef0d4aed3ce",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/nasa-moon-base-hardware-models/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "efb8ad3e6c361d0be2d29162a9c8fee81d5fe2c8328936cd330c22de7d594a17",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/nasa-moon-base-hardware-models/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "62bb759e2ee2078cfa80bc0e30696f255b0f92c636735ddae45f6b0a31b70e22",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/nasa-moon-base-hardware-models/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "63823884e9e7e9e279f465ed1966dde9c654e9f912bd51a14f38cfc34dcae2e6",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/nasa-moon-base-hardware-models/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b8851927599c9ea1b63ca5daa35ed2c83ec93ec59d25f5f74ecb75cd4822c265",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-lunar-cargo-landers-ground-tests-2026/nasa-moon-base-hardware-models/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-moon-base-hardware-models",
+      "illustrationLabel": null,
+      "license": "NASA public-domain photograph",
+      "originalFileHash": "e70b875abf14f971674e99e0480e6d5902c9ac05a46443b30420b77aa7df1b88",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T00:54:17Z",
+      "rightsBasis": "NASA photograph credited to Aubrey Gemignani.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-provides-update-on-moon-base-rovers-landers-missions/"
     },
     {
       "aiGenerated": false,
@@ -12484,6 +13405,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "A five-row schedule highlights opening-day distance and mixed relay finals, sprint finals, qualifying, 12 Saturday finals and 15 Sunday titles.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from World Athletics schedule",
+      "caption": "The five-day program opens with the men’s shot put and 5,000-meter finals and closes with 15 titles on Sunday. World Athletics notes that schedules can change.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline schedule graphic; not a lead."
+      },
+      "creator": "Boho News graphic from World Athletics schedule",
+      "derivatives": [
+        {
+          "hash": "b5d9d45dfb2516961a5a5c11f2d38e2eab7b45198c43fddcf8444cda168e09b4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-five-day-program/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8373d4d545257244b5b72cbb55d10982509ebb9a3ccd4552aa78c0c4c8d14dba",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-five-day-program/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b6214c487391b61edf616468a55b648ad4935df82fdbfbc3e302cfc6db530b74",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-five-day-program/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a1498d44e4fe7c2bd163d9dad89c0121a99cb6cccfc2f8083fa626aa25d02b74",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-five-day-program/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "621347eb020d166a7138aa5c2bf178feabd7aa4b5459dc8a011aacb1fe21bc80",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-five-day-program/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "286d9c2e4dfb2bb1f809e63727b8461275668528a30354f7e89fcf16a62e49b7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-five-day-program/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b6121e5f7b476663dd571dac9b609438c705883d9761abc8d99628828fd352a3",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-five-day-program/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-oregon26-five-day-program",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4959d1f3d7b2fa65abf1de278d9a741c3c9afb76e3d5a5b4c08a5d0b3b9ac50f",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T00:54:17Z",
+      "rightsBasis": "Original editorial schedule summary derived only from the cited World Athletics timetable.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/press-releases/full-event-schedule-announced-for-world-athletics-u20-championships-oregon-26"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Silver, gold and bronze Oregon 26 medals hang from pink, blue and dark-blue ribbons outdoors.",
+      "archivalStatus": "current",
+      "attribution": "World Athletics U20 Championships Oregon 26",
+      "caption": "The Oregon 26 medals use the event’s tree-and-wings shape. World Athletics says more than 1,700 athletes from more than 135 countries are expected.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline event-specific product photograph; no decorative or promotional reuse."
+      },
+      "creator": "World Athletics U20 Championships Oregon 26",
+      "derivatives": [
+        {
+          "hash": "98efc67bfc4d5e2059bc30494e1d593f415ac1eeb078e47f8854dde09b262921",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-u20-medal-suite/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5fe134c27acd1a3ca2a00c3a01142b2c0bed966ebf317adcf29a1fe5eff2774c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-u20-medal-suite/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6a3d4d5874e0d1e9731d96812a244bebcd5717c8e692131560f7ce1dfcc0d3f1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-u20-medal-suite/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "305071eb3614e2f38d97a555cd73ca53395d2a5352c2dbf7920913924c1fb633",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-u20-medal-suite/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "96627939a6a74ddb8f90908d8410bf5bb28310e7fab16e1a958d38ad56d296fc",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-u20-medal-suite/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8904599d7a3741048941ccc3b97c71d8c445eeb3a45ab2bd74b1e441e55f6d45",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-u20-medal-suite/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0ed59b871d4706befb3b8f6c2b69397654edda07ec3869f9c6d138b231176aa8",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/world-u20-championships-oregon-2026-opens/oregon26-u20-medal-suite/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-oregon26-u20-medal-suite",
+      "illustrationLabel": null,
+      "license": "Editorial fair use",
+      "originalFileHash": "752ae0eb4e0ee93a82f3cf97980975161377d79dc9f0898bc6e7efabe39747dc",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T00:54:17Z",
+      "rightsBasis": "Official World Athletics Oregon 26 medal photograph reproduced at limited resolution to report on the event’s awards.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/press-releases/medal-suite-unveiled-for-world-athletics-u20-championships-oregon-26"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Bar chart showing June 2026 monthly changes in real consumer spending, headline and core PCE prices, and personal income.",
       "archivalStatus": "current",
       "attribution": "Boho News chart using U.S. Bureau of Economic Analysis data",
@@ -12553,6 +13626,234 @@
       "rightsBasis": "Original Boho News chart created from public U.S. government statistics.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A timeline shows the eruption leaving the Sun, the model stabilizing 12 hours later and arrival about eight hours after that, with error under 30 minutes.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NASA and PUNCH/SwRI data",
+      "caption": "In the first proof-of-concept test, the model stabilized 12 hours after eruption and predicted arrival eight hours later, ultimately missing by less than 30 minutes.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; not a lead."
+      },
+      "creator": "Boho News graphic from NASA and PUNCH/SwRI data",
+      "derivatives": [
+        {
+          "hash": "c126154124bc186f681deb1b3a47f36461ac07aa2fdf210a60f30f68aeb61253",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-first-test-timeline/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "320315e5f91029569e171a43a46beb2e5808772476326872252e1796a6c35793",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-first-test-timeline/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "161e9685c626f14c02a3fdd4036b031241679c8b4c0f25c23290be3b3fa254d6",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-first-test-timeline/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "3b998771ebe28217143b6d021b15d70b9346b53eea20e5dfe3991f0bc1a23ccc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-first-test-timeline/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "087b93728e08ddbb7eecbf071c2dbe5c61f28dca7e3e8c0d8d172c3ad3b81884",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-first-test-timeline/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "cfb8926c3c0558f658c378f095c3009ba6d97cf8d29b6201da740deac657be59",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-first-test-timeline/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "177561f8371dd720157987429d81d7b340598fd59eac91933e8a8a068afd1baa",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-first-test-timeline/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-punch-first-test-timeline",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "863db31b9d7bc40d5664f9718ecf9b65b7326d68c63d495a2fd10c09591b6620",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T00:43:29Z",
+      "rightsBasis": "Original editorial timeline derived only from cited NASA timing data.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A circular gold-toned all-sky PUNCH image shows a coronal mass ejection with a yellow line tracing its leading edge.",
+      "archivalStatus": "current",
+      "attribution": "NASA/PUNCH/SwRI",
+      "caption": "PUNCH imagery of the May 31, 2025 coronal mass ejection. The yellow line marks the leading edge used in the retrospective arrival-time model.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline observed-data image; retain overlay explanation."
+      },
+      "creator": "NASA/PUNCH/SwRI",
+      "derivatives": [
+        {
+          "hash": "98c6895e0753b0ec5d772ffe65b0847461ece4e64e17d62274220e29e3b433d5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-may31-cme-leading-edge/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1be676229ec39d9e691732e30caeebfbc8ecfd31b0f46073d8a3c74d45857e5c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-may31-cme-leading-edge/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ba3ac9f8490ec7a969c606bd2bcec009bdd076be989271baf44dc148d6e41387",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-may31-cme-leading-edge/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8960562f3aaa0591c34dbf590280a26375fe97f7f759c0df4074df1a2a601c10",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-may31-cme-leading-edge/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4300de17ec5c306aedc20567cfd8776c576528ed274c780f89489e5af286b5b3",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-may31-cme-leading-edge/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "af305584ecfcfed99f48f6572b47566bc95048e314000054fa55ad5463a08594",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-may31-cme-leading-edge/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "cbb0e60c7f7159e4826eff5e09eb97a640089160b1b345655328d336e4e91fd7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-may31-cme-leading-edge/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-punch-may31-cme-leading-edge",
+      "illustrationLabel": null,
+      "license": "NASA/PUNCH/SwRI public scientific image",
+      "originalFileHash": "98465548be161978308bcda4d0d549c44e60be9238942857512eb3154a044813",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T00:43:29Z",
+      "rightsBasis": "NASA-hosted PUNCH observation used in the agency report, with mission credit.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A technician in clean-room clothing works closely on circular spacecraft hardware at a laboratory bench.",
+      "archivalStatus": "current",
+      "attribution": "USSF 30th Space Wing/Antonio Ramos via NASA",
+      "caption": "A technician works on NASA’s PUNCH spacecraft at the Astrotech Processing Facility at Vandenberg Space Force Base in January 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary photograph; preserve full credit."
+      },
+      "creator": "USSF 30th Space Wing/Antonio Ramos via NASA",
+      "derivatives": [
+        {
+          "hash": "a871620339914299bbf717b730e2c0bfd9d8a7d70639a8e76dc2585b692b04f6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-spacecraft-testing-vandenberg/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "bc63af61c4c053720ff54b688011bdca0cd28cf2a581d71a5fa8e21115fd3bae",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-spacecraft-testing-vandenberg/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a2f05adc36239435aafca3b6d874eea29782d9149a268b3ec77e6fc6d025686f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-spacecraft-testing-vandenberg/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f66e317587f46aaef92ff5ba4cff0fd1aff58272bac2ea3fe0044e67569f5165",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-spacecraft-testing-vandenberg/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "482b3cc847c61006903521826e23e9397e4c8159aec74d2bcdc12cf73d303bbc",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-spacecraft-testing-vandenberg/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "cb3573eb4fa442a707c29d3d6c826f50fd4f254b34aec50747fd24f6bf4e8029",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-spacecraft-testing-vandenberg/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e2fefea7a725f0895513f6837bd4c2f9fb26aaaa871dc2bb5e5c6b0f1a4dabd0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-punch-solar-storm-arrival-test-30-minutes/punch-spacecraft-testing-vandenberg/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-punch-spacecraft-testing-vandenberg",
+      "illustrationLabel": null,
+      "license": "U.S. government public-domain photograph",
+      "originalFileHash": "1cb32f9100682c098074332c1d0f08189b2a132c179323c6d849b402a5d51a5a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T00:43:29Z",
+      "rightsBasis": "NASA image KSC-20250119-PH-ATR01_0578, credited to USSF 30th Space Wing/Antonio Ramos and approved for release.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://images.nasa.gov/details/KSC-20250119-PH-ATR01_0578"
     },
     {
       "aiGenerated": false,
@@ -13533,7 +14834,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "09bb9dea68279550d956358fcd442cddf746113338f84f47d45978c744154978",
+  "packageDigest": "bfe813d380d39d53ff4e7c7bcee1179220002d021490381879150b3df8bc859d",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -13917,6 +15218,31 @@
       "providerActivatedAt": "2026-08-04T23:59:16.706192Z",
       "recordHash": "93245b9cd61d2655d31aee8c4c9ed12384ee5276f2560e2067f1483cea125db2",
       "releaseId": "release-pb-20260804t234049z-c746f8a8029b-a766b17c5441",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://3fb6ec31.bohonews.pages.dev/",
+      "activationEvidenceHash": "010e0e2feeb3059fc70745b75186a152d7d6f6bb2c862c3e82c56f251db72381",
+      "canonicalFirstPublicAt": "2026-08-05T01:27:05.095Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/nasa-lunar-cargo-landers-ground-tests-2026/",
+        "https://bohonews.com/articles/nasa-punch-solar-storm-arrival-test-30-minutes/",
+        "https://bohonews.com/articles/world-u20-championships-oregon-2026-opens/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-nasa-lunar-cargo-landers-ground-tests-2026",
+        "article-nasa-punch-solar-storm-arrival-test-30-minutes",
+        "article-world-u20-championships-oregon-2026-opens"
+      ],
+      "previousVerifiedDeploymentReference": "3074bff0598efb5d48e591ff9fe59135fb6655b846a36672ae6f40ca04b1399d",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T01:25:56.218379Z",
+      "recordHash": "3ca6c5bf49dad7429d5b18738c9af122cfdf8b58741c739b20532aac291fefb3",
+      "releaseId": "release-pb-20260805t005437z-53b1da110f52-299464acca87",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }

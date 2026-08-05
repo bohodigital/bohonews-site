@@ -1,9 +1,9 @@
 {
-  "articleCount": 30,
+  "articleCount": 33,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-05T00:00:21Z",
-  "mediaCount": 76,
-  "packageDigest": "09bb9dea68279550d956358fcd442cddf746113338f84f47d45978c744154978",
+  "generatedAt": "2026-08-05T01:28:19Z",
+  "mediaCount": 85,
+  "packageDigest": "bfe813d380d39d53ff4e7c7bcee1179220002d021490381879150b3df8bc859d",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -389,6 +389,31 @@
       "releaseId": "release-pb-20260804t234049z-c746f8a8029b-a766b17c5441",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://3fb6ec31.bohonews.pages.dev/",
+      "activationEvidenceHash": "010e0e2feeb3059fc70745b75186a152d7d6f6bb2c862c3e82c56f251db72381",
+      "canonicalFirstPublicAt": "2026-08-05T01:27:05.095Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/nasa-lunar-cargo-landers-ground-tests-2026/",
+        "https://bohonews.com/articles/nasa-punch-solar-storm-arrival-test-30-minutes/",
+        "https://bohonews.com/articles/world-u20-championships-oregon-2026-opens/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-nasa-lunar-cargo-landers-ground-tests-2026",
+        "article-nasa-punch-solar-storm-arrival-test-30-minutes",
+        "article-world-u20-championships-oregon-2026-opens"
+      ],
+      "previousVerifiedDeploymentReference": "3074bff0598efb5d48e591ff9fe59135fb6655b846a36672ae6f40ca04b1399d",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T01:25:56.218379Z",
+      "recordHash": "3ca6c5bf49dad7429d5b18738c9af122cfdf8b58741c739b20532aac291fefb3",
+      "releaseId": "release-pb-20260805t005437z-53b1da110f52-299464acca87",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -407,6 +432,8 @@
     "/articles/kia-telluride-seat-motor-fire-recall-26v430/",
     "/articles/library-of-congress-source-research-gallery-kids/",
     "/articles/metro-unemployment-payroll-growth-june-2026/",
+    "/articles/nasa-lunar-cargo-landers-ground-tests-2026/",
+    "/articles/nasa-punch-solar-storm-arrival-test-30-minutes/",
     "/articles/nasa-three-august-2026-spacewalks-iss/",
     "/articles/national-park-week-2026-fee-free-august-25/",
     "/articles/nist-five-fabric-squares-textile-recycling-test/",
@@ -422,7 +449,8 @@
     "/articles/what-house-iran-war-powers-vote-can-do/",
     "/articles/what-is-section-301-trade-act/",
     "/articles/who-controls-smithsonian-board-regents/",
-    "/articles/work-training-americans-born-1980-1984/"
+    "/articles/work-training-americans-born-1980-1984/",
+    "/articles/world-u20-championships-oregon-2026-opens/"
   ],
   "schemaVersion": "2.1.1"
 }
