@@ -1,9 +1,9 @@
 {
-  "articleCount": 42,
+  "articleCount": 45,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-05T05:53:07Z",
-  "mediaCount": 112,
-  "packageDigest": "ca43d5871413e6588907c72a3cce8dc4fd104d6450672bad4856d6aa82bc9154",
+  "generatedAt": "2026-08-05T16:34:38Z",
+  "mediaCount": 121,
+  "packageDigest": "de489fc199fe1b07bbe28c4e3ebae8793fdb1dd25ab2388b7bafaf76a8750385",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -489,6 +489,31 @@
       "releaseId": "release-pb-20260805t053427z-939464245fa5-0ff439f3da3a",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://1bbc69eb.bohonews.pages.dev/",
+      "activationEvidenceHash": "30c86d732761764504c2bd39ec836905c692e2f8a6f30818ff587c125a0d2227",
+      "canonicalFirstPublicAt": "2026-08-05T16:34:25.044Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-opm-workforce-down-35-percent-2026/",
+        "https://bohonews.com/articles/hawaiian-honeycreeper-family-tree-smithsonian-2026/",
+        "https://bohonews.com/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-opm-workforce-down-35-percent-2026",
+        "article-hawaiian-honeycreeper-family-tree-smithsonian-2026",
+        "article-yoshitomo-nara-hirshhorn-west-lawn-2026"
+      ],
+      "previousVerifiedDeploymentReference": "9c54729ffb09a36109e095a1c037db7e7a56f729e638e016058fe9cad7b22447",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T16:32:53.496045Z",
+      "recordHash": "565afd6df605ad092fb34bd3bf94d3ebd82370a4e0adb9d8bc6e13162214a60d",
+      "releaseId": "release-pb-20260805t161003z-9295f407ed73-f38e6d633a93",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -503,7 +528,9 @@
     "/articles/fta-610-million-bus-grants-2026/",
     "/articles/gao-education-10-priority-open-recommendations-2026/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
+    "/articles/gao-opm-workforce-down-35-percent-2026/",
     "/articles/greece-men-usa-women-water-polo-world-cup-2026/",
+    "/articles/hawaiian-honeycreeper-family-tree-smithsonian-2026/",
     "/articles/hopper-ftc-35-million-hidden-fees-settlement-2026/",
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/hurricane-cone-inland-warnings-2026-explainer/",
@@ -534,7 +561,8 @@
     "/articles/what-is-section-301-trade-act/",
     "/articles/who-controls-smithsonian-board-regents/",
     "/articles/work-training-americans-born-1980-1984/",
-    "/articles/world-u20-championships-oregon-2026-opens/"
+    "/articles/world-u20-championships-oregon-2026-opens/",
+    "/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/"
   ],
   "schemaVersion": "2.1.1"
 }
