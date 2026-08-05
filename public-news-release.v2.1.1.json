@@ -1,9 +1,9 @@
 {
-  "articleCount": 39,
+  "articleCount": 42,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-05T04:58:56Z",
-  "mediaCount": 103,
-  "packageDigest": "3b9a6ea9b2e82e0ebfb39bb829023822076a101e2cce0d0784e15fa0ac3aee5e",
+  "generatedAt": "2026-08-05T05:53:07Z",
+  "mediaCount": 112,
+  "packageDigest": "ca43d5871413e6588907c72a3cce8dc4fd104d6450672bad4856d6aa82bc9154",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -464,6 +464,31 @@
       "releaseId": "release-pb-20260805t044022z-fc18acbdcc82-7efe495501ed",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://d662ce5f.bohonews.pages.dev/",
+      "activationEvidenceHash": "583bf99778e218c6ee3eaedf3decf109a6b3908a659d49c1f4d26b51126e372d",
+      "canonicalFirstPublicAt": "2026-08-05T05:52:56.790Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/fta-610-million-bus-grants-2026/",
+        "https://bohonews.com/articles/hopper-ftc-35-million-hidden-fees-settlement-2026/",
+        "https://bohonews.com/articles/june-2026-us-climate-tornadoes-drought/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-fta-610-million-bus-grants-2026",
+        "article-hopper-ftc-35-million-hidden-fees-settlement-2026",
+        "article-june-2026-us-climate-tornadoes-drought"
+      ],
+      "previousVerifiedDeploymentReference": "3c76f27ea12a9b40482d09723ab6cc38b0f7a5d2a8a9fb2bd2f188749ebe4873",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T05:51:29.472942Z",
+      "recordHash": "714f878bcf5c8be27783243dfd89285f96674ac49b0cd1c216ea6b5d200e62f8",
+      "releaseId": "release-pb-20260805t053427z-939464245fa5-0ff439f3da3a",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -475,12 +500,15 @@
     "/articles/employer-compensation-costs-june-2026/",
     "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
     "/articles/four-advanced-reactors-zero-power-criticality-2026/",
+    "/articles/fta-610-million-bus-grants-2026/",
     "/articles/gao-education-10-priority-open-recommendations-2026/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/greece-men-usa-women-water-polo-world-cup-2026/",
+    "/articles/hopper-ftc-35-million-hidden-fees-settlement-2026/",
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/hurricane-cone-inland-warnings-2026-explainer/",
     "/articles/interlochen-abuse-investigation-report-findings/",
+    "/articles/june-2026-us-climate-tornadoes-drought/",
     "/articles/kenya-lake-turkana-paranthropus-footprints-group/",
     "/articles/kia-telluride-seat-motor-fire-recall-26v430/",
     "/articles/library-of-congress-source-research-gallery-kids/",
