@@ -228,6 +228,197 @@
       "updatedAt": "2026-07-26T21:22:56.706315Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A blood-protein panel built from nearly two decades of follow-up data predicted when some people with inherited ALS risk would develop clinical symptoms, a result researchers say could help select and time participants for prevention trials.\n\nThe study, published July 27 in Nature Medicine, analyzed 516 serial plasma samples from 137 people in the Pre-symptomatic Familial ALS study. Thirty-three participants developed clinically manifest amyotrophic lateral sclerosis or frontotemporal dementia during follow-up.\n\nResearchers measured more than 5,000 proteins and identified 92 whose concentrations changed before clinical conversion. A selected panel of 19 proteins predicted conversion over time horizons ranging from six months to five years, with cross-validated areas under the receiver-operating curve from 0.80 to 0.89.\n\nAmong participants who converted, the model’s estimate of time to symptoms missed the observed date by an average of 1.62 years. That is a research result from a small, unusually well-characterized cohort—not a validated test that doctors can use to tell an individual patient when ALS will begin.\n\nThe panel included neurofilament light, or NfL, a marker associated with nerve-cell damage, plus 18 other proteins. NfL alone has helped make pre-symptomatic ALS trials possible, but the authors found that the multi-protein approach produced more accurate timing estimates in their discovery data.\n\nThe study population included people carrying pathogenic variants associated with ALS, patients with clinically manifest disease and healthy controls. Because inherited forms account for only part of ALS, the results cannot yet be generalized to everyone who may develop the disease.\n\nThe team tested overlapping protein panels against UK Biobank records. Several proteins showed similar pre-symptomatic patterns, and the multi-protein panels again performed better than NfL alone.\n\nBut that comparison was not a clean independent repeat of the original study. UK Biobank protein measurements were cross-sectional rather than longitudinal, and the researchers did not have exact symptom-onset dates. They approximated conversion as two years before a relevant hospitalization, which introduces uncertainty.\n\nThe authors reported a 2.75-year mean absolute error for the 15-protein replication panel under that primary approximation. They also disclosed consulting, employment, stock, licensing and intellectual-property relationships; the paper states that Olink did not fund the study or participate in its design or interpretation.\n\nResearchers are evaluating whether gene-targeted treatment can delay or prevent symptoms in people at high genetic risk. Starting such a therapy too early could expose people to years of treatment without clear near-term benefit; starting after irreversible motor-neuron injury may be too late.\n\nA reliable near-term risk signal could narrow that window. The new panel is a candidate tool for that job, but it still needs prospective validation in independent cohorts, standardized laboratory procedures and evidence that acting on its result improves outcomes.",
+      "bodyBlocks": [
+        {
+          "text": "A blood-protein panel built from nearly two decades of follow-up data predicted when some people with inherited ALS risk would develop clinical symptoms, a result researchers say could help select and time participants for prevention trials.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The study, published July 27 in Nature Medicine, analyzed 516 serial plasma samples from 137 people in the Pre-symptomatic Familial ALS study. Thirty-three participants developed clinically manifest amyotrophic lateral sclerosis or frontotemporal dementia during follow-up.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Researchers measured more than 5,000 proteins and identified 92 whose concentrations changed before clinical conversion. A selected panel of 19 proteins predicted conversion over time horizons ranging from six months to five years, with cross-validated areas under the receiver-operating curve from 0.80 to 0.89.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "A timing estimate, not a clinical test",
+          "type": "subheading"
+        },
+        {
+          "text": "Among participants who converted, the model’s estimate of time to symptoms missed the observed date by an average of 1.62 years. That is a research result from a small, unusually well-characterized cohort—not a validated test that doctors can use to tell an individual patient when ALS will begin.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Four-panel research figure comparing protein-panel predictions across time horizons and estimated versus observed symptom onset.",
+          "caption": "The study’s 19-protein panel predicted clinical conversion across six-month to five-year horizons and estimated timing with a mean absolute error of 1.62 years in the discovery cohort.",
+          "credit": "Ran, Wuu, Qin et al., Nature Medicine (2026)",
+          "height": 900,
+          "rightsId": "media-als-model-performance",
+          "sourceUrl": "https://www.nature.com/articles/s41591-026-04528-x/figures/4",
+          "src": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-model-performance/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The panel included neurofilament light, or NfL, a marker associated with nerve-cell damage, plus 18 other proteins. NfL alone has helped make pre-symptomatic ALS trials possible, but the authors found that the multi-protein approach produced more accurate timing estimates in their discovery data.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The study population included people carrying pathogenic variants associated with ALS, patients with clinically manifest disease and healthy controls. Because inherited forms account for only part of ALS, the results cannot yet be generalized to everyone who may develop the disease.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Replication helped—and exposed the limits",
+          "type": "subheading"
+        },
+        {
+          "text": "The team tested overlapping protein panels against UK Biobank records. Several proteins showed similar pre-symptomatic patterns, and the multi-protein panels again performed better than NfL alone.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Four-panel research figure showing replication of protein changes and timing models in UK Biobank data.",
+          "caption": "A partial replication in UK Biobank data found that multi-protein panels outperformed neurofilament light alone, though the replication used cross-sectional records and an estimated conversion date.",
+          "credit": "Ran, Wuu, Qin et al., Nature Medicine (2026)",
+          "height": 900,
+          "rightsId": "media-als-uk-biobank-replication",
+          "sourceUrl": "https://www.nature.com/articles/s41591-026-04528-x/figures/5",
+          "src": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-uk-biobank-replication/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "But that comparison was not a clean independent repeat of the original study. UK Biobank protein measurements were cross-sectional rather than longitudinal, and the researchers did not have exact symptom-onset dates. They approximated conversion as two years before a relevant hospitalization, which introduces uncertainty.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The authors reported a 2.75-year mean absolute error for the 15-protein replication panel under that primary approximation. They also disclosed consulting, employment, stock, licensing and intellectual-property relationships; the paper states that Olink did not fund the study or participate in its design or interpretation.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Why timing matters for prevention research",
+          "type": "subheading"
+        },
+        {
+          "text": "Researchers are evaluating whether gene-targeted treatment can delay or prevent symptoms in people at high genetic risk. Starting such a therapy too early could expose people to years of treatment without clear near-term benefit; starting after irreversible motor-neuron injury may be too late.",
+          "type": "paragraph"
+        },
+        {
+          "text": "A reliable near-term risk signal could narrow that window. The new panel is a candidate tool for that job, but it still needs prospective validation in independent cohorts, standardized laboratory procedures and evidence that acting on its result improves outcomes.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-nih-als-protein-panel-2026",
+          "text": "The NIH release summarizes the cohort, protein screen, prediction panel and prevention-trial context.",
+          "title": "Primary public record",
+          "type": "source-callout"
+        },
+        {
+          "sourceId": "source-nature-als-proteomics-2026",
+          "text": "The open-access Nature Medicine paper supplies the sample counts, validation metrics, replication design, limitations, conflicts and code/data statements.",
+          "title": "Peer-reviewed paper",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/als-blood-protein-panel-predicts-symptom-timing/",
+      "citations": [
+        {
+          "id": "source-nih-als-protein-panel-2026",
+          "publishedAt": "2026-07-27T12:00:00Z",
+          "publisher": "National Institutes of Health",
+          "title": "New blood-based biomarkers predict when ALS symptoms will emerge",
+          "url": "https://www.nih.gov/news-events/news-releases/new-blood-based-biomarkers-predict-when-als-symptoms-will-emerge"
+        },
+        {
+          "id": "source-nature-als-proteomics-2026",
+          "publishedAt": "2026-07-27T00:00:00Z",
+          "publisher": "Nature Medicine",
+          "title": "Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS",
+          "url": "https://www.nature.com/articles/s41591-026-04528-x"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The analysis included 516 serial plasma samples from 137 study participants, including 33 who developed clinical manifestations.",
+        "Researchers identified 92 proteins that changed before conversion and selected a 19-protein prediction panel.",
+        "The 19-protein panel produced cross-validated AUC values of 0.80 to 0.89 and a 1.62-year mean absolute timing error in the discovery cohort.",
+        "The UK Biobank replication was cross-sectional and used an approximated clinical-conversion date."
+      ],
+      "corrections": [],
+      "dek": "The model estimated symptom onset with a 1.62-year average error in a high-risk research cohort. It is not a clinical test, and its UK Biobank replication relied on approximated dates.",
+      "desk": "health-science",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institutes of Health",
+        "University of Miami ALS Center",
+        "Nature Medicine",
+        "UK Biobank"
+      ],
+      "eventId": "event-als-longitudinal-proteomics-2026",
+      "headline": "A 19-Protein Blood Panel Narrowed the Timing of ALS Symptoms",
+      "id": "article-als-blood-protein-panel-predicts-symptom-timing",
+      "leadImage": {
+        "alt": "A scientist in a white laboratory coat examines a blood sample tube at a bright lab bench.",
+        "caption": "A scientist examines a blood sample. The new ALS study analyzed more than 5,000 proteins in serial plasma samples.",
+        "credit": "National Eye Institute / Rhoda Baer Photography",
+        "height": 900,
+        "rightsId": "media-als-blood-lab",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-blood-lab/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "United Kingdom"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-05T00:00:08.784Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260804t234049z-c746f8a8029b-a766b17c5441",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "A 19-protein panel estimated ALS symptom timing in a high-risk research cohort, but it is not yet a clinical test.",
+        "index": true,
+        "title": "ALS blood protein panel predicts symptom timing in study"
+      },
+      "section": "health-science",
+      "slug": "als-blood-protein-panel-predicts-symptom-timing",
+      "social": {
+        "description": "The 1.62-year average error is promising for prevention trials, not a diagnosis or personal countdown.",
+        "image": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-blood-lab/open-graph.webp",
+        "title": "What a new ALS blood-protein panel can—and cannot—predict"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "ALS",
+        "Biomarkers",
+        "Proteomics",
+        "Neurology",
+        "Prevention trials"
+      ],
+      "uncertainty": [
+        "The model has not been prospectively validated for clinical use or for the general population.",
+        "The replication cohort used cross-sectional protein data and an estimated conversion date.",
+        "The study does not show that biomarker-guided treatment prevents ALS symptoms."
+      ],
+      "updatedAt": "2026-08-05T00:00:08.784Z"
+    },
+    {
       "articleType": "explainer",
       "authors": [
         "Boho News Editorial Desk"
@@ -3824,6 +4015,389 @@
       "updatedAt": "2026-07-31T05:12:22.062Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Twenty-one fossil footprints on an ancient lakeshore in northern Kenya record eight hominins moving across the same surface about 1.43 million years ago, giving researchers an unusually direct look at body size and possible group movement in Paranthropus boisei.\n\nThe GaJi10 trackway, described July 27 in Proceedings of the National Academy of Sciences, also carries deeper prints from hippopotamuses, antelope and other animals. Volcanic ash in the surrounding Koobi Fora Formation provided the age estimate.\n\nResearchers attribute the hominin tracks to Paranthropus based on foot anatomy and movement patterns developed in earlier comparative work. The assignment is an interpretation, not a genetic identification: the footprints are unexpectedly large and overlap in size with tracks linked to Homo erectus, which lived in the same region.\n\nSmithsonian geologist Kay Behrensmeyer first noticed a deep hippopotamus print in 1978 while a field crew exposed the sediment layer. Brushing the surface revealed two hominin tracks. After initial study, the team reburied the site in sand to protect it.\n\nResearchers returned in 2016 and 2023 and uncovered a much broader track surface. The final mapped assemblage contains 21 hominin prints associated with eight individuals, plus numerous animal tracks.\n\nFootprints preserve behavior on a time scale that bones rarely can: a step is made in seconds, and several prints on one surface can show which individuals were present together. They do not reveal how long a group remained together or the relationships among its members.\n\nMeasurements of the prints produced maximum body-size estimates near 1.8 meters, or 6 feet, and 75 kilograms, or 165 pounds. Those values are larger than many estimates built from the limited Paranthropus skeletal record and bring the largest track makers into the range often associated with Homo erectus.\n\nThat size overlap is scientifically important because both hominins occupied the Lake Turkana landscape. The authors favor Paranthropus for GaJi10 because of the shape and apparent gait of the tracks, while the body-size result expands rather than erases the uncertainty around species assignment.\n\nMost of the prints are adult-sized and run in broadly similar directions. The team interprets the surface as evidence that multiple individuals, possibly mostly adult males, traveled together.\n\nThat pattern may point to a more complex social structure than isolated bones imply. But one preserved moment cannot establish whether the group was stable, how mating worked, or why the individuals crossed the mudflat.\n\nThe eastern Lake Turkana region now contains hundreds of hominin footprints deposited over more than 100,000 years. Combined with earlier sites preserving both Paranthropus-like and Homo erectus-like tracks, the record shows that multiple human relatives repeatedly used the same lakeshore environments.\n\nThe team plans more fieldwork in Kenya. Each new surface can test whether the GaJi10 pattern was exceptional or part of a recurring way these hominins moved through the landscape.",
+      "bodyBlocks": [
+        {
+          "text": "Twenty-one fossil footprints on an ancient lakeshore in northern Kenya record eight hominins moving across the same surface about 1.43 million years ago, giving researchers an unusually direct look at body size and possible group movement in Paranthropus boisei.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The GaJi10 trackway, described July 27 in Proceedings of the National Academy of Sciences, also carries deeper prints from hippopotamuses, antelope and other animals. Volcanic ash in the surrounding Koobi Fora Formation provided the age estimate.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Researchers attribute the hominin tracks to Paranthropus based on foot anatomy and movement patterns developed in earlier comparative work. The assignment is an interpretation, not a genetic identification: the footprints are unexpectedly large and overlap in size with tracks linked to Homo erectus, which lived in the same region.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "A site found in 1978 kept yielding tracks",
+          "type": "subheading"
+        },
+        {
+          "text": "Smithsonian geologist Kay Behrensmeyer first noticed a deep hippopotamus print in 1978 while a field crew exposed the sediment layer. Brushing the surface revealed two hominin tracks. After initial study, the team reburied the site in sand to protect it.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Researcher Kevin Hatala crouches on an excavated track surface and points toward shallow hominin footprints.",
+          "caption": "Study lead Kevin Hatala points out hominin footprints among deeper animal tracks during fieldwork in Kenya.",
+          "credit": "Kay Behrensmeyer, Smithsonian",
+          "height": 900,
+          "rightsId": "media-gaji10-hatala-field",
+          "sourceUrl": "https://www.eurekalert.org/multimedia/1142738",
+          "src": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-hatala-field/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "Researchers returned in 2016 and 2023 and uncovered a much broader track surface. The final mapped assemblage contains 21 hominin prints associated with eight individuals, plus numerous animal tracks.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Footprints preserve behavior on a time scale that bones rarely can: a step is made in seconds, and several prints on one surface can show which individuals were present together. They do not reveal how long a group remained together or the relationships among its members.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Larger bodies than the bones suggested",
+          "type": "subheading"
+        },
+        {
+          "text": "Measurements of the prints produced maximum body-size estimates near 1.8 meters, or 6 feet, and 75 kilograms, or 165 pounds. Those values are larger than many estimates built from the limited Paranthropus skeletal record and bring the largest track makers into the range often associated with Homo erectus.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "A large fossil hominin footprint is visible in compact sediment beside a measuring scale.",
+          "caption": "One of the larger GaJi10 hominin footprints; the study’s size estimates reached about 1.8 meters and 75 kilograms.",
+          "credit": "Kay Behrensmeyer, Smithsonian",
+          "height": 900,
+          "rightsId": "media-gaji10-large-footprint",
+          "sourceUrl": "https://www.eurekalert.org/multimedia/1142736",
+          "src": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-large-footprint/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "That size overlap is scientifically important because both hominins occupied the Lake Turkana landscape. The authors favor Paranthropus for GaJi10 because of the shape and apparent gait of the tracks, while the body-size result expands rather than erases the uncertainty around species assignment.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Evidence of movement together, not a full social census",
+          "type": "subheading"
+        },
+        {
+          "text": "Most of the prints are adult-sized and run in broadly similar directions. The team interprets the surface as evidence that multiple individuals, possibly mostly adult males, traveled together.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That pattern may point to a more complex social structure than isolated bones imply. But one preserved moment cannot establish whether the group was stable, how mating worked, or why the individuals crossed the mudflat.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The eastern Lake Turkana region now contains hundreds of hominin footprints deposited over more than 100,000 years. Combined with earlier sites preserving both Paranthropus-like and Homo erectus-like tracks, the record shows that multiple human relatives repeatedly used the same lakeshore environments.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The team plans more fieldwork in Kenya. Each new surface can test whether the GaJi10 pattern was exceptional or part of a recurring way these hominins moved through the landscape.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-smithsonian-gaji10-2026",
+          "text": "The Smithsonian release documents the excavation history, track count, dating, body-size estimates, interpretation and Kenya field context.",
+          "title": "Institutional primary release",
+          "type": "source-callout"
+        },
+        {
+          "sourceId": "source-pnas-gaji10-2026",
+          "text": "The PNAS paper is the controlling study for track attribution, locomotion, body-size estimation and behavioral inference.",
+          "title": "Peer-reviewed research",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/kenya-lake-turkana-paranthropus-footprints-group/",
+      "citations": [
+        {
+          "id": "source-smithsonian-gaji10-2026",
+          "publishedAt": "2026-07-27T12:00:00Z",
+          "publisher": "Smithsonian Institution",
+          "title": "Fossil Footprints Reveal That an Ancient Human Relative Was Larger Than Previously Thought and Traveled in Groups 1.4 Million Years Ago",
+          "url": "https://www.si.edu/newsdesk/releases/fossil-footprints-reveal-ancient-human-relative-was-larger-previously-thought-and"
+        },
+        {
+          "id": "source-pnas-gaji10-2026",
+          "publishedAt": "2026-07-27T00:00:00Z",
+          "publisher": "Proceedings of the National Academy of Sciences",
+          "title": "Insights into hominin body size, locomotion, and behavior from Early Pleistocene trackways in northern Kenya",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2530996123"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "GaJi10 preserves 21 hominin footprints associated with eight individuals.",
+        "Volcanic ash dates the track surface to about 1.43 million years ago.",
+        "The largest prints yielded estimates near 1.8 meters and 75 kilograms.",
+        "Researchers interpret the anatomy and gait as most consistent with Paranthropus boisei, while the large size overlaps with Homo erectus."
+      ],
+      "corrections": [],
+      "dek": "The 1.43-million-year-old GaJi10 surface preserves 21 tracks. Their size expands estimates for Paranthropus—and their shared direction hints at group movement without proving a social system.",
+      "desk": "world",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Smithsonian National Museum of Natural History",
+        "National Museums of Kenya",
+        "Max Planck Institute for Evolutionary Anthropology",
+        "Proceedings of the National Academy of Sciences"
+      ],
+      "eventId": "event-gaji10-paranthropus-trackway-2026",
+      "headline": "Eight Ancient Hominins Crossed This Kenya Lakeshore Together",
+      "id": "article-kenya-lake-turkana-paranthropus-footprints-group",
+      "leadImage": {
+        "alt": "An excavated sediment surface in northern Kenya shows shallow hominin footprints among deeper animal tracks.",
+        "caption": "The GaJi10 surface preserves hominin tracks among deeper hippopotamus and antelope prints near Lake Turkana.",
+        "credit": "Kay Behrensmeyer, Smithsonian",
+        "height": 900,
+        "rightsId": "media-gaji10-track-surface",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-track-surface/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Lake Turkana",
+        "Kenya"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-05T00:00:08.784Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260804t234049z-c746f8a8029b-a766b17c5441",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "A 1.43-million-year-old Lake Turkana trackway records eight hominins and unexpectedly large body-size estimates.",
+        "index": true,
+        "title": "Kenya footprints show eight Paranthropus moving together"
+      },
+      "section": "world",
+      "slug": "kenya-lake-turkana-paranthropus-footprints-group",
+      "social": {
+        "description": "Twenty-one tracks show eight hominins sharing one lakeshore surface—and raise new questions about Paranthropus size and behavior.",
+        "image": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-track-surface/open-graph.webp",
+        "title": "A 1.43-million-year-old moment preserved in Kenyan mud"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Human evolution",
+        "Paranthropus boisei",
+        "Paleoanthropology",
+        "Kenya",
+        "Fossil footprints"
+      ],
+      "uncertainty": [
+        "Species assignment is based on footprint anatomy and locomotion rather than genetic evidence.",
+        "A single track surface cannot establish long-term group composition or social relationships.",
+        "Body-size estimates from footprints depend on comparative models and have uncertainty."
+      ],
+      "updatedAt": "2026-08-05T00:00:08.784Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Owners of nearly 463,000 Kia Tellurides are being told to park outside and away from buildings until dealers complete a second repair for a front-seat motor that can overheat and catch fire.\n\nNational Highway Traffic Safety Administration campaign 26V430 covers 462,869 vehicles from model years 2020 through 2024. The same vehicles were recalled in 2024 under campaign 24V407, but Kia’s defect chronology says investigators later found both sporadic repair-workmanship problems and another way the seat switch could be damaged.\n\nKia plans to begin notifying owners Aug. 13. Until the new remedy is completed, NHTSA says affected vehicles should be parked outdoors, away from structures and other vehicles, whether or not the first recall repair was performed.\n\nThe problem sits in the front power-seat controls. If the slide cover or knob is hit, the switch can become dislodged, internally misaligned or damaged. That can command the seat motor to run continuously, generating enough heat to melt components or start a fire while the SUV is parked or moving.\n\nUnder the 2024 campaign, dealers were instructed to reinforce the switch or replace it when necessary. Kia later inspected repaired vehicles and found sporadic workmanship issues, including cases where a switch may have been reinforced when replacement was required.\n\nThe company also investigated whether a person entering the vehicle could strike the seat slide knob with enough twisting force to misalign the switch even when the back cover remained in place.\n\nKia’s filing says its safety office identified 18 unique incidents received from October 2024 through April 2026: seven localized seat or under-seat fires and 11 cases of localized seat-motor melting. The chronology reports no injuries, crashes or fatalities.\n\nThose counts describe reports known to the company during its investigation; they are not an estimate of the probability that any one vehicle will catch fire. The safety action is broad because an overheating motor can ignite while the vehicle is unattended.\n\nDealers will install an electronic fuse assembly designed to interrupt power if the seat motor operates continuously. The repair is free under the safety-recall process.\n\nOwners can search NHTSA.gov by the vehicle identification number or license plate and should look specifically for campaign 26V430. A vehicle previously marked complete under 24V407 may still need the new remedy.\n\nNHTSA’s Vehicle Safety Hotline is 888-327-4236. Kia customer service is 800-333-4542. Owners who smell burning, see smoke or observe heat damage should stop using the vehicle and contact emergency services if there is an active fire.",
+      "bodyBlocks": [
+        {
+          "text": "Owners of nearly 463,000 Kia Tellurides are being told to park outside and away from buildings until dealers complete a second repair for a front-seat motor that can overheat and catch fire.",
+          "type": "paragraph"
+        },
+        {
+          "text": "National Highway Traffic Safety Administration campaign 26V430 covers 462,869 vehicles from model years 2020 through 2024. The same vehicles were recalled in 2024 under campaign 24V407, but Kia’s defect chronology says investigators later found both sporadic repair-workmanship problems and another way the seat switch could be damaged.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Kia plans to begin notifying owners Aug. 13. Until the new remedy is completed, NHTSA says affected vehicles should be parked outdoors, away from structures and other vehicles, whether or not the first recall repair was performed.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "A struck switch can keep the motor running",
+          "type": "subheading"
+        },
+        {
+          "text": "The problem sits in the front power-seat controls. If the slide cover or knob is hit, the switch can become dislodged, internally misaligned or damaged. That can command the seat motor to run continuously, generating enough heat to melt components or start a fire while the SUV is parked or moving.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "First page of Kia’s NHTSA defect chronology, listing the prior 2024 recall and reports of under-seat fires.",
+          "caption": "Page one of Kia’s defect chronology traces the earlier 24V407 repair and subsequent reports of overheating and fire.",
+          "credit": "Kia America / National Highway Traffic Safety Administration",
+          "height": 900,
+          "rightsId": "media-kia-recall-chronology-page-1",
+          "sourceUrl": "https://static.nhtsa.gov/odi/rcl/2026/RCHRN-26V430-7964.pdf",
+          "src": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-1/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Under the 2024 campaign, dealers were instructed to reinforce the switch or replace it when necessary. Kia later inspected repaired vehicles and found sporadic workmanship issues, including cases where a switch may have been reinforced when replacement was required.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The company also investigated whether a person entering the vehicle could strike the seat slide knob with enough twisting force to misalign the switch even when the back cover remained in place.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Seven fires and 11 melted motors in the chronology",
+          "type": "subheading"
+        },
+        {
+          "text": "Kia’s filing says its safety office identified 18 unique incidents received from October 2024 through April 2026: seven localized seat or under-seat fires and 11 cases of localized seat-motor melting. The chronology reports no injuries, crashes or fatalities.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Second page of Kia’s NHTSA defect chronology, ending with 18 incidents and the decision to recall the vehicles again.",
+          "caption": "Page two records 18 incidents—seven localized fires and 11 melted seat motors—and says no injuries, crashes or fatalities were identified.",
+          "credit": "Kia America / National Highway Traffic Safety Administration",
+          "height": 900,
+          "rightsId": "media-kia-recall-chronology-page-2",
+          "sourceUrl": "https://static.nhtsa.gov/odi/rcl/2026/RCHRN-26V430-7964.pdf",
+          "src": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-2/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Those counts describe reports known to the company during its investigation; they are not an estimate of the probability that any one vehicle will catch fire. The safety action is broad because an overheating motor can ignite while the vehicle is unattended.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "The new repair adds an electronic fuse",
+          "type": "subheading"
+        },
+        {
+          "text": "Dealers will install an electronic fuse assembly designed to interrupt power if the seat motor operates continuously. The repair is free under the safety-recall process.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Owners can search NHTSA.gov by the vehicle identification number or license plate and should look specifically for campaign 26V430. A vehicle previously marked complete under 24V407 may still need the new remedy.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NHTSA’s Vehicle Safety Hotline is 888-327-4236. Kia customer service is 800-333-4542. Owners who smell burning, see smoke or observe heat damage should stop using the vehicle and contact emergency services if there is an active fire.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-nhtsa-kia-26v430-alert",
+          "text": "NHTSA’s July 9 alert supplies the population, model years, park-outside instruction, remedy and notification schedule.",
+          "title": "Consumer alert",
+          "type": "source-callout"
+        },
+        {
+          "sourceId": "source-nhtsa-kia-26v430-defect-chronology",
+          "text": "Kia’s campaign filing documents the earlier repair, subsequent investigation, 18 incidents and recall decision.",
+          "title": "Defect chronology",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/kia-telluride-seat-motor-fire-recall-26v430/",
+      "citations": [
+        {
+          "id": "source-nhtsa-kia-26v430-alert",
+          "publishedAt": "2026-07-09T12:00:00Z",
+          "publisher": "National Highway Traffic Safety Administration",
+          "title": "Consumer Alert: Urgent Park Outside Recall Issued for 462K Kia Tellurides",
+          "url": "https://www.nhtsa.gov/press-releases/park-outside-recall-kia-tellurides"
+        },
+        {
+          "id": "source-nhtsa-kia-26v430-defect-chronology",
+          "publishedAt": "2026-07-02T18:20:33Z",
+          "publisher": "Kia America / National Highway Traffic Safety Administration",
+          "title": "2020-2024MY Telluride Front Power Seats — Basis of Safety Defect Determination",
+          "url": "https://static.nhtsa.gov/odi/rcl/2026/RCHRN-26V430-7964.pdf"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "NHTSA campaign 26V430 covers 462,869 model-year 2020-2024 Kia Tellurides.",
+        "NHTSA instructs owners to park affected vehicles outside and away from structures until repaired.",
+        "Kia identified seven localized fires and 11 melted seat motors, with no injuries, crashes or fatalities in its chronology.",
+        "The new remedy adds an electronic fuse assembly to stop continuous seat-motor operation."
+      ],
+      "corrections": [],
+      "dek": "Campaign 26V430 covers 462,869 SUVs already recalled in 2024. Kia’s filing records seven localized fires and 11 melted motors, with no injuries, crashes or deaths.",
+      "desk": "consumer",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Highway Traffic Safety Administration",
+        "Kia America"
+      ],
+      "eventId": "event-kia-telluride-recall-26v430",
+      "headline": "Kia Telluride Owners Told to Park Outside—Again—Before a New Seat-Motor Fix",
+      "id": "article-kia-telluride-seat-motor-fire-recall-26v430",
+      "leadImage": {
+        "alt": "A gray 2022 Kia Telluride is parked outdoors, viewed from the front-left corner.",
+        "caption": "A 2022 Kia Telluride. NHTSA campaign 26V430 covers certain Tellurides from model years 2020 through 2024.",
+        "credit": "Alexander Migl / Wikimedia Commons",
+        "height": 900,
+        "rightsId": "media-kia-telluride-2022",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-telluride-2022/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-05T00:00:08.784Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260804t234049z-c746f8a8029b-a766b17c5441",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NHTSA says 462,869 Kia Tellurides need another seat-motor fire-risk repair and should be parked outside until fixed.",
+        "index": true,
+        "title": "Kia Telluride recall 26V430: park outside and new fix"
+      },
+      "section": "us",
+      "slug": "kia-telluride-seat-motor-fire-recall-26v430",
+      "social": {
+        "description": "The new campaign covers SUVs already repaired under the 2024 action. Here is what owners need to check.",
+        "image": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-telluride-2022/open-graph.webp",
+        "title": "The Telluride recall fix is being redone"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Vehicle recalls",
+        "Kia Telluride",
+        "Consumer safety",
+        "Fire risk",
+        "NHTSA"
+      ],
+      "uncertainty": [
+        "The incident count is not a per-vehicle probability of fire.",
+        "Owners must check their individual VIN or license plate to confirm inclusion and remedy status.",
+        "Dealer scheduling and parts availability may vary after notifications begin."
+      ],
+      "updatedAt": "2026-08-05T00:00:08.784Z"
+    },
+    {
       "articleType": "explainer",
       "authors": [
         "Boho News Staff"
@@ -7233,22 +7807,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-04T22:40:55Z",
+  "generatedAt": "2026-08-05T00:00:21Z",
   "inputHashes": {
-    "approvals": "4d57559020059019a0471bc516e121f9089e6e135660fc9e198fa05ec5d52c57",
-    "articles": "1f86c27aa1fa4d0a7ad8f37eb27d7a1f47ee39c70be0c15f30b93d44292f8097",
-    "claims": "ed0813cc853a376f935d291565b9d776a64d9797150b5938a331577e40c47489",
+    "approvals": "0b5188bba60653997b8c0a1982ac26b0c5e8cec245344541de713fbeca56749b",
+    "articles": "dae628bd344d7d2c88acecf6eed4c577245127e2fb13aac62998a81797d069ad",
+    "claims": "bcfd4091d491de13574bb0cc9d9778022465d5c719c8ff0f390eb16c34fb8f37",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "4837533c99cd085a34cc196d5e4261711ab0175c383cc0085115ed8eef15f06b",
-    "mediaRights": "f47dfa8d4c6385628e510faeccc9508886f6c39f142b88e9226701d5ee4b8939",
-    "publicationIntents": "17d7c580d9e22d4af9346980e0751ab4afe2b37c17ce589fb1df0a44090de6a1",
-    "releaseRecords": "e65211e82f22befa8624230e69eab2d4db239bdcdf6ab21cb891fe3a915f46cc",
-    "sourceItems": "380e5a16fb55d6857d5ebcdaf0f8ceb46fa9acfdf1f9b3709939c82a79749aa0"
+    "events": "75e875fb601126ab3e789d79c8f8ae0777ab7864576be972a37774e8ec003f50",
+    "mediaRights": "5808454f4e9d02c93f9b8059c4672a7b59fdd9159483822b51e75b046d087edf",
+    "publicationIntents": "3c7e355863a2a83b2bb49c5dc59f5f03de1195457d67c8fb8f6eb63458c1e8ee",
+    "releaseRecords": "f3cc4ec2850f1e3de29fa4bd199208dc9b10628e10fcd8fa10eca1661334cfc1",
+    "sourceItems": "5f5b7d9d95e4df483ff1161534e3c6e83a6d13c74e92c9c7205f30c8c1600fcb"
   },
   "inventory": {
-    "articleCount": 27,
-    "mediaCount": 67,
-    "routeCount": 27
+    "articleCount": 30,
+    "mediaCount": 76,
+    "routeCount": 30
   },
   "mediaRights": [
     {
@@ -8760,6 +9334,234 @@
     },
     {
       "aiGenerated": false,
+      "altText": "A scientist in a white laboratory coat examines a blood sample tube at a bright lab bench.",
+      "archivalStatus": "current",
+      "attribution": "National Eye Institute / Rhoda Baer Photography",
+      "caption": "A scientist examines a blood sample. The new ALS study analyzed more than 5,000 proteins in serial plasma samples.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary photograph."
+      },
+      "creator": "National Eye Institute / Rhoda Baer Photography",
+      "derivatives": [
+        {
+          "hash": "3adad8673f2dd52925ad1029b1fe8e2622ea04e329bdeafc44f8e205e5992810",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-blood-lab/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ed41e7bcd6d82c0c6cb283b399ddddebfe63afcaab441ca3fefb064113f524ba",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-blood-lab/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "08494dc27e2540cff8a6f12215885d344b39d3c8aaa838a70aed7ecb0150da24",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-blood-lab/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a6ac84deae3be53faad7353ec02a3aa55afb7a4154867d3daf2fa69b526b7d0c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-blood-lab/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "81a00954bf39503145ef249b02424516ea5abdfebe69b3810dca34e309d98a6d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-blood-lab/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ccdfdac0ffb045fe76cb002e75b462cb8f07f410e7a74ed7cf9f491b334632a5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-blood-lab/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8b3f0e0017357289f786e87f52fcc198f62e6f6cb1ca0bd64ff9476c8ad1c57d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-blood-lab/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-als-blood-lab",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "698f96fd315ada9e48c32472e82719f572e17849e75fa6945ed97193c1ff7d76",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-04T23:26:22Z",
+      "rightsBasis": "Creative Commons Attribution 2.0; National Eye Institute photograph by Rhoda Baer.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Checking_Blood_Sample_(9955279835).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Four-panel research figure comparing protein-panel predictions across time horizons and estimated versus observed symptom onset.",
+      "archivalStatus": "current",
+      "attribution": "Ran, Wuu, Qin et al., Nature Medicine (2026)",
+      "caption": "The study’s 19-protein panel predicted clinical conversion across six-month to five-year horizons and estimated timing with a mean absolute error of 1.62 years in the discovery cohort.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline study figure; preserve author credit and do not imply clinical validation."
+      },
+      "creator": "Ran, Wuu, Qin et al., Nature Medicine (2026)",
+      "derivatives": [
+        {
+          "hash": "e061676e8630c2c0785565ccddce830e5e43d082b1bc93ca3a3a0ae8da0aafce",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-model-performance/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b4271be4cd5d2aea5d05014e4b7663e7603083fb3db788e26b05e687723c64b0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-model-performance/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "2fa16e728b4ca4552ea518440b826473c957022c8131ecae326b75865488c9e6",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-model-performance/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7817fd1586628a9f41fd2dba9ee3b8c16f5d7b46a9ff9cc024bce1b24ff48cfe",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-model-performance/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b4200989191fae219296ab07ed13bd50f745bc2e4902ac044b82fe91a5a5f074",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-model-performance/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6c5917700e9381192f877b46675a5da9f5e6af22c52a72c2c487d8c98e5b2842",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-model-performance/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "ec17037063d127029fc8bf6a0b906161675fc7c878cc5b00abe607d1eeed11a0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-model-performance/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-als-model-performance",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "d6aedb497172629183617df88ded0deef6e043237327b5bfea463b7090a8c106",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-04T23:26:22Z",
+      "rightsBasis": "Open-access Nature Medicine article and included figures licensed Creative Commons Attribution 4.0.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nature.com/articles/s41591-026-04528-x/figures/4"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Four-panel research figure showing replication of protein changes and timing models in UK Biobank data.",
+      "archivalStatus": "current",
+      "attribution": "Ran, Wuu, Qin et al., Nature Medicine (2026)",
+      "caption": "A partial replication in UK Biobank data found that multi-protein panels outperformed neurofilament light alone, though the replication used cross-sectional records and an estimated conversion date.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline replication figure; preserve limitations in caption."
+      },
+      "creator": "Ran, Wuu, Qin et al., Nature Medicine (2026)",
+      "derivatives": [
+        {
+          "hash": "6a64268b78af7269cb93678e48930daf29cf0f82e1d96b398723d767c86c001c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-uk-biobank-replication/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b1c38dbe24843a00765e3ceb31b4ea66baa35c4ebbe657968961c5315cb5e3bd",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-uk-biobank-replication/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e696d9e30e6ea4288e0afcd90ec7c92c8a5355e761a1759839a2c52b6053b576",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-uk-biobank-replication/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5ef2628534b64e3d877208ac2b6cde1ced1a54e902e5f966fc0cc7223191675a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-uk-biobank-replication/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e7133283fdb7930bcb8793e96ec94623ab0f349246d535527074db29d18eb370",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-uk-biobank-replication/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "caea7ebd08fd79a31e1b1823983865d9bef2cbfb2f6803bd5f2c90216bb98656",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-uk-biobank-replication/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7ea201d24edf69a1dad27929e93fb5ef939c292acafab3844587a2ba6c0cbb03",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-predicts-symptom-timing/als-uk-biobank-replication/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-als-uk-biobank-replication",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "e50fc3692bf63c8c4fad9551b9347825010f099c97b3d5a427947813fccdfe6c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-04T23:26:22Z",
+      "rightsBasis": "Open-access Nature Medicine article and included figures licensed Creative Commons Attribution 4.0.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nature.com/articles/s41591-026-04528-x/figures/5"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Horizontal bar chart showing annualized growth of 2.1% for first-quarter GDP, 1.5% for second-quarter GDP and 3.9% for second-quarter private domestic demand.",
       "archivalStatus": "current",
       "attribution": "Boho News chart using U.S. Bureau of Economic Analysis data",
@@ -9721,6 +10523,234 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Researcher Kevin Hatala crouches on an excavated track surface and points toward shallow hominin footprints.",
+      "archivalStatus": "current",
+      "attribution": "Kay Behrensmeyer, Smithsonian",
+      "caption": "Study lead Kevin Hatala points out hominin footprints among deeper animal tracks during fieldwork in Kenya.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Study-specific inline field photograph."
+      },
+      "creator": "Kay Behrensmeyer, Smithsonian",
+      "derivatives": [
+        {
+          "hash": "bff89fae2d2afa45af19ad093137d136077007525114f3acfe2e72fa2dc07513",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-hatala-field/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "650d6f80a86122ddf8c22dd979b720e202f0b43c29bccf11beef66425d06ca2b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-hatala-field/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "18b12905b2c759c3451e5bf816db191afdc214ec5eed91cbb42abc4fb610b43e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-hatala-field/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8a8f140e89bc3a94673b4416eaae39d8f151807db73dadbe2e33554328eea7fa",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-hatala-field/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ef1b1dbb58094d86e259d701fe48b9ba86071301f94ec9cce87c94fcf0329484",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-hatala-field/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0b7986fa65dd9d6705fd1a92acc8bbb7a487fdf82ef3455c8465a481bc8aea77",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-hatala-field/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b5c35aa97b6edfca0ed30ca37cb2ea13ca6180a79f18db2dd1799c0f34610e1d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-hatala-field/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gaji10-hatala-field",
+      "illustrationLabel": null,
+      "license": "News-media license",
+      "originalFileHash": "13ce27204f90ff3f0bd7118efdb84d23024f71730f40357b89a73dd1ec10c4f5",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-04T23:26:22Z",
+      "rightsBasis": "Smithsonian/EurekAlert permits news-media use in relation to this study with attribution to Kay Behrensmeyer, Smithsonian.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.eurekalert.org/multimedia/1142738"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A large fossil hominin footprint is visible in compact sediment beside a measuring scale.",
+      "archivalStatus": "current",
+      "attribution": "Kay Behrensmeyer, Smithsonian",
+      "caption": "One of the larger GaJi10 hominin footprints; the study’s size estimates reached about 1.8 meters and 75 kilograms.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Study-specific inline footprint photograph."
+      },
+      "creator": "Kay Behrensmeyer, Smithsonian",
+      "derivatives": [
+        {
+          "hash": "e7d28f1d6ea8a5b4e5f8cf314556f72bef5b8d4677b981bf94907b095975fba1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-large-footprint/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "bbbdf56add428de9b163b354ca992121f80eb97e64603a726e4034c8b356f393",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-large-footprint/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "58efb5ed06343841065bfb2703c625ca2113a2f1ce4f1c910c2f6f5af3b72b0d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-large-footprint/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c6bbdc7edee702cd232dee92f799747d2355fd258ddc0dd04e277a3d272f3737",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-large-footprint/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "148839821f1e4ddc7a132c1170a03791e19221229751c89f736a790e66acbb78",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-large-footprint/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4b89a82b8f22c1f7b881211234073b778c4a506f420cf6f4d981e69c70865115",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-large-footprint/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c6ea1636fd996ab53f47b9cf3c65751499a549805e909a8c9ae97cab636df306",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-large-footprint/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gaji10-large-footprint",
+      "illustrationLabel": null,
+      "license": "News-media license",
+      "originalFileHash": "8386a3940ce00ee62844c7f5420cdd5188a18840ce9e0b388570f3365096ffef",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-04T23:26:22Z",
+      "rightsBasis": "Smithsonian/EurekAlert permits news-media use in relation to this study with attribution to Kay Behrensmeyer, Smithsonian.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.eurekalert.org/multimedia/1142736"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "An excavated sediment surface in northern Kenya shows shallow hominin footprints among deeper animal tracks.",
+      "archivalStatus": "current",
+      "attribution": "Kay Behrensmeyer, Smithsonian",
+      "caption": "The GaJi10 surface preserves hominin tracks among deeper hippopotamus and antelope prints near Lake Turkana.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary photograph."
+      },
+      "creator": "Kay Behrensmeyer, Smithsonian",
+      "derivatives": [
+        {
+          "hash": "179a402db63125e51c213967e24b405d58419b3d61e6a4d649e71263ea362158",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-track-surface/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8cfcf147bd28c716ed5567ca4ac37641d24824d57fe99500da03094475578bfa",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-track-surface/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "98f548f55933c457be64e96ed82e9400b91316b838dc6f0e1101cf4bd0b55b8b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-track-surface/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "527abd317a72d5a5952b417f48c08d936e9db31fef1535c2d4a840cd13ff56a5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-track-surface/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "fbee87e1835c2851a0c2e40db584ca4e1e4818e98525199db2ea74e1749b9a3e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-track-surface/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c1585a5944f4465508664af0f0a3812a7dfbe592839fabe68f72f43927a2b4c3",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-track-surface/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d6346d26594da5fec3afba74b3fabfb687a1e27f790639d57e369ef379fa3ba0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/kenya-lake-turkana-paranthropus-footprints-group/gaji10-track-surface/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gaji10-track-surface",
+      "illustrationLabel": null,
+      "license": "News-media license",
+      "originalFileHash": "86a1db3bfca591e8518dda251a4fb94814078eeda0990802d662db1d3fa6e951",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-04T23:26:22Z",
+      "rightsBasis": "Smithsonian/EurekAlert permits news-media use in relation to this study with attribution to Kay Behrensmeyer, Smithsonian.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.eurekalert.org/multimedia/1142737"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Bar chart showing DOL with 11 EAJA awards totaling $547,601, NLRB with 11 totaling $436,913, and EEOC with zero awards from fiscal years 2019 through 2025.",
       "archivalStatus": "current",
       "attribution": "Boho News Data Desk; data: U.S. Government Accountability Office",
@@ -9940,6 +10970,234 @@
       "rightsBasis": "Creative Commons Attribution 2.0 permits sharing and adaptation with attribution and disclosure of changes.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gianni_Infantino.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "First page of Kia’s NHTSA defect chronology, listing the prior 2024 recall and reports of under-seat fires.",
+      "archivalStatus": "current",
+      "attribution": "Kia America / National Highway Traffic Safety Administration",
+      "caption": "Page one of Kia’s defect chronology traces the earlier 24V407 repair and subsequent reports of overheating and fire.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline official-document render; preserve source and context."
+      },
+      "creator": "Kia America / National Highway Traffic Safety Administration",
+      "derivatives": [
+        {
+          "hash": "aff3c7de293dadbb43116d2b61b89edc0a706be5903b78e6ae594d5963f58c4e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-1/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "64a7ffb2e75392033201fbc5b1e992ffd94661d91d6c3c4c55199a18beee9490",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-1/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1c9f840dcacee631238615cee601317681c8e42c3e3f7468a2f38cd92e89678b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-1/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ddd5dd532ed7e76e8059cdaaccc1c8049c65fb6beded92473c29581d54865828",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-1/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d9ab626124a1f0c9fcf3b3699ccdb5c11a384e7505b5c8ba4231a24384827d88",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-1/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "02ccffdfc5a346e00c15566c7093d13002d98d1b67958ff1cd93bfbff7b591db",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-1/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c036b16ad6c927026457404067d3e6afd86c876d0a492da94ac571321337f572",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-1/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-kia-recall-chronology-page-1",
+      "illustrationLabel": null,
+      "license": "Official public regulatory record",
+      "originalFileHash": "6b828a671807383934c9967310b1d330c85a958f0933fbd886e296c0166276f0",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-04T23:26:22Z",
+      "rightsBasis": "Kia defect chronology published in NHTSA campaign 26V430; reproduced for news reporting.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://static.nhtsa.gov/odi/rcl/2026/RCHRN-26V430-7964.pdf"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Second page of Kia’s NHTSA defect chronology, ending with 18 incidents and the decision to recall the vehicles again.",
+      "archivalStatus": "current",
+      "attribution": "Kia America / National Highway Traffic Safety Administration",
+      "caption": "Page two records 18 incidents—seven localized fires and 11 melted seat motors—and says no injuries, crashes or fatalities were identified.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline official-document render; preserve source and context."
+      },
+      "creator": "Kia America / National Highway Traffic Safety Administration",
+      "derivatives": [
+        {
+          "hash": "53a2bf9e6f4aae9f781c22da0ac1275c9a3273c957ad0be8c6b5891e9cf33409",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-2/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "bbe6b7e42c258e6ef928a352f5db54cc17ac9d6db72285b71097fc764d82ad7f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-2/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0e25f1faea596a2406a292b16d7663f2ebee3381d2ba1e63c579532ac95f555d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-2/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8232c2b724eb91828bf19654efc40534ce45547d7549fd5868176ce0611a7a8e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-2/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d35f8db3f4c53d077d02f81a41fd615746cd528e99663a7cf8e416b39b39e8f9",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-2/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ece6646b667c997da80eec625e84de99fc42d304ed1af9f2a280ab694bdc7c75",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-2/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1313fee7c90afa97621455af79696c828af3843f762afdd58cf5f3f807ed8919",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-recall-chronology-page-2/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-kia-recall-chronology-page-2",
+      "illustrationLabel": null,
+      "license": "Official public regulatory record",
+      "originalFileHash": "44fa9ef912170b57dec625746229033de81622d42c506ebcd79cff797ff63ea5",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-04T23:26:22Z",
+      "rightsBasis": "Kia defect chronology published in NHTSA campaign 26V430; reproduced for news reporting.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://static.nhtsa.gov/odi/rcl/2026/RCHRN-26V430-7964.pdf"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A gray 2022 Kia Telluride is parked outdoors, viewed from the front-left corner.",
+      "archivalStatus": "current",
+      "attribution": "Alexander Migl / Wikimedia Commons",
+      "caption": "A 2022 Kia Telluride. NHTSA campaign 26V430 covers certain Tellurides from model years 2020 through 2024.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary photograph."
+      },
+      "creator": "Alexander Migl / Wikimedia Commons",
+      "derivatives": [
+        {
+          "hash": "ae7a82afd23f32f89dd0c94e8d724163a47f67de024b63ea6e8dbe0d327445cf",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-telluride-2022/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5a7a5eccf01ded3c49563900d4f49d905dc16a67605eadb6b85afb23eb3059e5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-telluride-2022/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b7f69c870d02134ce78455a978b1fb3dec00883fb4a7dc43261956aff433afad",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-telluride-2022/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ba0cfd2d19f9036ad9c269beda7cfbbefe0f27c637b8a751c88b914efe76c320",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-telluride-2022/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e9d43f34d082cacf2cac667de407dff8377a4453c12c80253616b33bbd7a6b5e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-telluride-2022/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2a9aacef8349972540a4a6b19574f10795235cbbafad67651fb20e60a1a03d7e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-telluride-2022/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e18b1fc6e7519b684362185a86f1be09fd235866033fd5f856235ad5c4948bb7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/kia-telluride-seat-motor-fire-recall-26v430/kia-telluride-2022/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-kia-telluride-2022",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "ed6e49b10380f7314c7eb50a0803233e21ed0d3ca422215025bcd36ad41b7312",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Any crop is a responsive presentation crop; do not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-04T23:26:22Z",
+      "rightsBasis": "Alexander Migl licensed the exact 2022 Telluride photograph Creative Commons Attribution-ShareAlike 4.0.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Kia_Telluride_DSC_2922.jpg"
     },
     {
       "aiGenerated": false,
@@ -12275,7 +13533,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "dee3dd637e2cbd329e83a01869fc936b030e6ee1b2ed023e823f9b4001d9ccb3",
+  "packageDigest": "09bb9dea68279550d956358fcd442cddf746113338f84f47d45978c744154978",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -12634,6 +13892,31 @@
       "providerActivatedAt": "2026-08-04T22:39:10.657845Z",
       "recordHash": "bda3aeb4e28cd25b5b080fce9b17162cc0e8122e6b575d409a78399233811dd8",
       "releaseId": "release-pb-20260804t222524z-706547ae0c26-def8c02969c8",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://6d4c93f3.bohonews.pages.dev/",
+      "activationEvidenceHash": "d4163430b38578a851baca800e2436d4b2718162bb2584d46ff443fe98d90e98",
+      "canonicalFirstPublicAt": "2026-08-05T00:00:08.784Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/als-blood-protein-panel-predicts-symptom-timing/",
+        "https://bohonews.com/articles/kenya-lake-turkana-paranthropus-footprints-group/",
+        "https://bohonews.com/articles/kia-telluride-seat-motor-fire-recall-26v430/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-als-blood-protein-panel-predicts-symptom-timing",
+        "article-kenya-lake-turkana-paranthropus-footprints-group",
+        "article-kia-telluride-seat-motor-fire-recall-26v430"
+      ],
+      "previousVerifiedDeploymentReference": "bdea848d6cb0b41778fed4d45ff48a4cde9314e1a23c3d4a99cf575bd5009295",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-04T23:59:16.706192Z",
+      "recordHash": "93245b9cd61d2655d31aee8c4c9ed12384ee5276f2560e2067f1483cea125db2",
+      "releaseId": "release-pb-20260804t234049z-c746f8a8029b-a766b17c5441",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }

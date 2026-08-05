@@ -1,9 +1,9 @@
 {
-  "articleCount": 27,
+  "articleCount": 30,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-04T22:40:55Z",
-  "mediaCount": 67,
-  "packageDigest": "dee3dd637e2cbd329e83a01869fc936b030e6ee1b2ed023e823f9b4001d9ccb3",
+  "generatedAt": "2026-08-05T00:00:21Z",
+  "mediaCount": 76,
+  "packageDigest": "09bb9dea68279550d956358fcd442cddf746113338f84f47d45978c744154978",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -364,11 +364,37 @@
       "releaseId": "release-pb-20260804t222524z-706547ae0c26-def8c02969c8",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://6d4c93f3.bohonews.pages.dev/",
+      "activationEvidenceHash": "d4163430b38578a851baca800e2436d4b2718162bb2584d46ff443fe98d90e98",
+      "canonicalFirstPublicAt": "2026-08-05T00:00:08.784Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/als-blood-protein-panel-predicts-symptom-timing/",
+        "https://bohonews.com/articles/kenya-lake-turkana-paranthropus-footprints-group/",
+        "https://bohonews.com/articles/kia-telluride-seat-motor-fire-recall-26v430/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-als-blood-protein-panel-predicts-symptom-timing",
+        "article-kenya-lake-turkana-paranthropus-footprints-group",
+        "article-kia-telluride-seat-motor-fire-recall-26v430"
+      ],
+      "previousVerifiedDeploymentReference": "bdea848d6cb0b41778fed4d45ff48a4cde9314e1a23c3d4a99cf575bd5009295",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-04T23:59:16.706192Z",
+      "recordHash": "93245b9cd61d2655d31aee8c4c9ed12384ee5276f2560e2067f1483cea125db2",
+      "releaseId": "release-pb-20260804t234049z-c746f8a8029b-a766b17c5441",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
   "routes": [
     "/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+    "/articles/als-blood-protein-panel-predicts-symptom-timing/",
     "/articles/dea-7-oh-schedule-i-threshold-action-guide/",
     "/articles/doj-task-force-officers-training-misconduct-gao/",
     "/articles/employer-compensation-costs-june-2026/",
@@ -377,6 +403,8 @@
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/hurricane-cone-inland-warnings-2026-explainer/",
     "/articles/interlochen-abuse-investigation-report-findings/",
+    "/articles/kenya-lake-turkana-paranthropus-footprints-group/",
+    "/articles/kia-telluride-seat-motor-fire-recall-26v430/",
     "/articles/library-of-congress-source-research-gallery-kids/",
     "/articles/metro-unemployment-payroll-growth-june-2026/",
     "/articles/nasa-three-august-2026-spacewalks-iss/",
