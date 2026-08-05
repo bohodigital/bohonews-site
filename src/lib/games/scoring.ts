@@ -120,6 +120,44 @@ export function mahjongPoints({ elapsedMs, hints = 0 }: { elapsedMs: number; hin
   return safePoints(base + speedBonus - Math.max(0, hints) * 500);
 }
 
+export function solitairePoints({ won, drawCount, moveScore, elapsedMs, hints = 0 }: { won: boolean; drawCount: 1 | 3; moveScore: number; elapsedMs: number; hints?: number }): number {
+  if (!won) return 0;
+  const difficulty = drawCount === 3 ? 1.2 : 1;
+  const base = 6000 * difficulty;
+  const speedBonus = base * 600 / (600 + seconds(elapsedMs));
+  return safePoints(base + speedBonus + Math.max(0, moveScore) * 2 - Math.max(0, hints) * 300);
+}
+
+export function freeCellPoints({ won, moves, elapsedMs, hints = 0 }: { won: boolean; moves: number; elapsedMs: number; hints?: number }): number {
+  if (!won) return 0;
+  const base = 8500;
+  const speedBonus = base * 480 / (480 + seconds(elapsedMs));
+  const efficiencyBonus = Math.max(0, 2500 - Math.max(0, moves - 52) * 20);
+  return safePoints(base + speedBonus + efficiencyBonus - Math.max(0, hints) * 350);
+}
+
+export function spiderPoints({ won, suits, moveScore, elapsedMs, hints = 0 }: { won: boolean; suits: 1 | 2 | 4; moveScore: number; elapsedMs: number; hints?: number }): number {
+  if (!won) return 0;
+  const multiplier = suits === 4 ? 2.4 : suits === 2 ? 1.55 : 1;
+  const base = 9000 * multiplier;
+  const speedBonus = base * 900 / (900 + seconds(elapsedMs));
+  return safePoints(base + speedBonus + Math.max(0, moveScore) * 3 - Math.max(0, hints) * 450);
+}
+
+export function pyramidPoints({ won, moveScore, elapsedMs, hints = 0 }: { won: boolean; moveScore: number; elapsedMs: number; hints?: number }): number {
+  if (!won) return 0;
+  const base = 5500;
+  const speedBonus = base * 240 / (240 + seconds(elapsedMs));
+  return safePoints(base + speedBonus + Math.max(0, moveScore) * 5 - Math.max(0, hints) * 250);
+}
+
+export function triPeaksPoints({ won, moveScore, bestStreak, elapsedMs, hints = 0 }: { won: boolean; moveScore: number; bestStreak: number; elapsedMs: number; hints?: number }): number {
+  if (!won) return 0;
+  const base = 6000;
+  const speedBonus = base * 210 / (210 + seconds(elapsedMs));
+  return safePoints(base + speedBonus + Math.max(0, moveScore) * 3 + Math.max(0, bestStreak) * 150 - Math.max(0, hints) * 250);
+}
+
 export function nonogramPoints({ rows, cols, elapsedMs, usedSolve = false }: { rows: number; cols: number; elapsedMs: number; usedSolve?: boolean }): number {
   if (usedSolve) return 0;
   const area = Math.max(25, Math.floor(rows) * Math.floor(cols));

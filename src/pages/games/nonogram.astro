@@ -37,6 +37,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Adapter around the pinned upstream Pattern status surface.
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { showGameCelebration } from "../../lib/games/celebration";
   import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { createGameTimer, nonogramPoints, pointsBucket } from "../../lib/games/scoring";
 
@@ -52,7 +53,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     const reset=()=>{dirty=false;state={complete:false,timer:createGameTimer(),points:null,usedSolve:false,reported:false};performanceTracker.render();};
     const report=async()=>{if(state.reported||!state.complete)return;const submitted=await window.BohoGameStats?.submit({game:"nonogram",variant:"pattern",outcome:"solved",scoreBucket:pointsBucket(state.points||0)});if(submitted)state.reported=true;};
     const status=host.querySelector("#statusbar");
-    const inspectStatus=()=>{const text=status?.textContent||"";if(!state.complete&&/\b(completed|complete|solved)\b/i.test(text)){state.complete=true;performanceTracker.finish();void report();}};
+    const inspectStatus=()=>{const text=status?.textContent||"";if(!state.complete&&/\b(completed|complete|solved)\b/i.test(text)){state.complete=true;performanceTracker.finish();if(!state.usedSolve)showGameCelebration({title:"Nonogram revealed!",message:`The whole picture is complete. Final score: ${(state.points||0).toLocaleString()} points.`});void report();}};
     if(status)new MutationObserver(inspectStatus).observe(status,{childList:true,characterData:true,subtree:true});
     const canvas=host.querySelector("#puzzlecanvas");canvas?.addEventListener("mouseup",()=>{dirty=true;});canvas?.addEventListener("keyup",()=>{dirty=true;});
     host.addEventListener("click",(event)=>{const button=event.target.closest?.("#new,#restart");if(button&&!confirmProgressLoss({complete:state.complete,hasProgress:dirty,label:button.id==="restart"?"reset this Nonogram":"start a new Nonogram"})){event.preventDefault();event.stopImmediatePropagation();}},true);

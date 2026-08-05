@@ -42,6 +42,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Adapter around the pinned upstream Mines save/status surface.
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { showGameCelebration } from "../../lib/games/celebration";
   import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { elapsedGameMs, formatGameTime, minesweeperPoints, pointsBucket } from "../../lib/games/scoring";
 
@@ -119,7 +120,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     }
     function finishWin(){
       if(state.result==="won")return;state.complete=true;state.result="won";performanceTracker.finish();runStatus.textContent=state.failed||state.practice?"Board cleared in practice mode. Start a new board for a scored run.":"Board cleared cleanly. New personal times count only fresh, no-death boards.";
-      if(!state.failed&&!state.practice){record("won");void report("won");}save();
+      if(!state.failed&&!state.practice){record("won");showGameCelebration({title:"Minefield cleared!",message:`A clean ${puzzleInfo().title.toLowerCase()} win for ${(state.points||0).toLocaleString()} points.`});void report("won");}save();
     }
     function resumePractice(){
       state.complete=false;state.result=null;state.practice=true;state.points=0;if(state.timer?.finishedMs!==null)state.timer.finishedMs=null;performanceTracker.resume();runStatus.textContent="Practice mode: the board remains playable, but this attempt’s score and personal time are locked out.";save();

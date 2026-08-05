@@ -65,7 +65,14 @@ const { title, description, game } = Astro.props;
   .game-card { border-bottom: 1px solid var(--border); border-right: 1px solid var(--border); display: flex; flex-direction: column; min-height: 24rem; padding: clamp(1.25rem,3vw,2.2rem); position: relative; }
   .game-card:last-child { border-right: 0; }
   .game-card__number { color: var(--accent); font-size: .68rem; font-weight: 900; letter-spacing: .15em; text-transform: uppercase; }
-  .game-card h2 { font-size: clamp(2rem,4vw,3.4rem); margin-top: 2.5rem; }
+  .game-card h2 {
+    font-size: clamp(1.6rem,2.5vw,2.2rem);
+    line-height: .98;
+    margin-top: 2.5rem;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    text-wrap: balance;
+  }
   .game-card p { color: var(--text-muted); margin-bottom: 1.8rem; }
   .game-card__action { align-items: center; border-top: 1px solid var(--border); display: flex; font-size: .75rem; font-weight: 900; justify-content: space-between; letter-spacing: .08em; margin-top: auto; padding-top: 1rem; text-decoration: none; text-transform: uppercase; }
   .game-card__status { background: var(--accent-soft); color: var(--accent); display: none; font-size: .62rem; font-weight: 900; letter-spacing: .08em; padding: .35rem .5rem; text-transform: uppercase; }
@@ -99,12 +106,120 @@ const { title, description, game } = Astro.props;
   .game-card__motif--connections i:nth-child(n+5):nth-child(-n+8) { background: #9fc56a; }
   .game-card__motif--connections i:nth-child(n+9):nth-child(-n+12) { background: #80b3d7; }
   .game-card__motif--connections i:nth-child(n+13) { background: #a98bc4; }
+  .game-card__motif--solitaire { display: flex; gap: .35rem; max-width: 8.5rem; }
+  .game-card__motif--solitaire i { aspect-ratio: .7; background: #fffdf7; border: 1px solid #b9ae99; border-radius: .2rem; box-shadow: .12rem .16rem 0 #1f6b4f; position: relative; transform: rotate(-5deg); }
+  .game-card__motif--solitaire i:nth-child(2) { transform: translateY(.2rem) rotate(2deg); }
+  .game-card__motif--solitaire i:nth-child(3) { transform: rotate(7deg); }
+  .game-card__motif--solitaire i::after { color: var(--accent); content: "♥"; font-size: 1rem; font-style: normal; left: .25rem; position: absolute; top: .12rem; }
   .game-heading { border-bottom: 1px solid var(--border); margin: 0 auto 2rem; max-width: 46rem; padding-bottom: 1.5rem; text-align: center; }
   .game-heading .eyebrow { margin-bottom: .8rem; }
   .game-meta { align-items: center; color: var(--text-muted); display: flex; font-size: .72rem; font-weight: 750; gap: 1rem; justify-content: center; margin-top: 1rem; }
   .game-meta span + span { border-left: 1px solid var(--border); padding-left: 1rem; }
   .game-panel { margin: 0 auto; max-width: 46rem; }
   .game-status { color: var(--text-soft); font-family: var(--serif); min-height: 2.2rem; text-align: center; }
+  .solitaire-panel { margin: 0 auto; max-width: 58rem; }
+  .solitaire-board {
+    --sol-card-w: clamp(2.75rem,calc((100vw - 4.5rem)/7),5.25rem);
+    --sol-card-h: calc(var(--sol-card-w)*1.42);
+    --sol-gap: clamp(.2rem,1vw,.7rem);
+    --sol-down-step: clamp(.45rem,1.4vw,.75rem);
+    --sol-face-step: clamp(1.25rem,3.2vw,2rem);
+    background: radial-gradient(circle at 45% 30%,#277858,#16513c 72%);
+    border: .3rem solid #123c2d;
+    border-radius: .45rem;
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / .13),0 1rem 2.4rem rgb(24 18 10 / .17);
+    color: #fff;
+    padding: clamp(.55rem,2vw,1.2rem);
+    user-select: none;
+  }
+  .solitaire-top-row,.solitaire-tableau { display: grid; gap: var(--sol-gap); grid-template-columns: repeat(7,var(--sol-card-w)); justify-content: space-between; }
+  .solitaire-top-row { margin-bottom: clamp(1rem,3vw,1.8rem); }
+  .solitaire-zone,.solitaire-pile { min-width: 0; position: relative; width: var(--sol-card-w); }
+  .solitaire-zone { height: var(--sol-card-h); }
+  .solitaire-pile { min-height: clamp(18rem,45vw,27rem); }
+  .solitaire-card,.solitaire-slot {
+    appearance: none; border: 1px solid #b5aa95; border-radius: clamp(.2rem,.8vw,.38rem); box-sizing: border-box; display: block; height: var(--sol-card-h); padding: 0; position: relative; width: var(--sol-card-w);
+  }
+  .solitaire-card { background: #fffdf8; box-shadow: 0 .18rem .32rem rgb(12 34 25 / .27); color: #171512; cursor: grab; font-family: Georgia,var(--serif); text-align: left; }
+  .solitaire-card:active { cursor: grabbing; }
+  .solitaire-card[data-color="red"] { color: #b5292f; }
+  .solitaire-card__rank { font-size: clamp(.82rem,2.3vw,1.3rem); font-weight: 800; left: .3rem; line-height: 1; position: absolute; top: .28rem; }
+  .solitaire-card__suit { font-size: clamp(1rem,3.2vw,1.8rem); left: .3rem; line-height: 1; position: absolute; top: 1.35rem; }
+  .solitaire-card.is-back,.solitaire-slot.is-back {
+    background-color: #f6ebd4; background-image: linear-gradient(45deg,#9d2b32 25%,transparent 25%,transparent 75%,#9d2b32 75%),linear-gradient(45deg,#9d2b32 25%,#efe1c6 25%,#efe1c6 75%,#9d2b32 75%); background-position: 0 0,.38rem .38rem; background-size: .76rem .76rem; border: .22rem solid #fff7e8;
+  }
+  .solitaire-card.is-back { cursor: default; }
+  .solitaire-slot { align-items: center; background: rgb(5 44 31 / .22); border: 2px dashed rgb(255 255 255 / .4); color: rgb(255 255 255 / .55); cursor: pointer; display: flex; font-family: var(--sans); font-size: clamp(1rem,3vw,1.8rem); font-weight: 900; justify-content: center; }
+  .solitaire-slot small { background: #123c2d; border-radius: 2rem; bottom: .2rem; color: #fff; font-size: .6rem; line-height: 1; min-width: 1rem; padding: .2rem; position: absolute; right: .2rem; text-align: center; }
+  .solitaire-pile > .solitaire-card { left: 0; position: absolute; top: calc(var(--down-index)*var(--sol-down-step) + var(--face-index)*var(--sol-face-step)); z-index: calc(var(--card-index) + 1); }
+  .solitaire-pile > .solitaire-card.is-selected { box-shadow: 0 0 0 .2rem #f1c75b,0 .3rem .5rem rgb(0 0 0 / .3); transform: translateY(-.12rem); }
+  .solitaire-card.is-selected,.solitaire-card.is-hinted,.solitaire-slot.is-hint-target,.solitaire-pile.is-hint-target { outline: .22rem solid #f1c75b; outline-offset: .12rem; }
+  .solitaire-card.is-hinted,.solitaire-slot.is-hint-target,.solitaire-pile.is-hint-target { animation: solitaire-hint .8s ease-in-out 2; }
+  .solitaire-empty { left: 0; position: absolute; top: 0; }
+  .solitaire-toolbar { align-items: end; display: flex; flex-wrap: wrap; gap: .55rem; justify-content: center; margin: 1rem auto 0; }
+  .solitaire-toolbar label { color: var(--text-muted); display: grid; font-size: .65rem; font-weight: 850; gap: .2rem; letter-spacing: .08em; text-transform: uppercase; }
+  .solitaire-toolbar select { background: var(--surface); border: 1px solid var(--border-strong); color: var(--text); min-height: 2.75rem; padding: .55rem .8rem; }
+  .solitaire-panel.is-won .solitaire-board { box-shadow: inset 0 0 0 .18rem #f1c75b,0 1rem 2.4rem rgb(24 18 10 / .2); }
+  .solitaire-guide { display: grid; gap: .65rem; }
+  .solitaire-guide__row { align-items: center; display: flex; gap: .5rem; justify-content: center; }
+  .solitaire-guide__card { align-items: flex-start; aspect-ratio: .7; background: #fffdf8; border: 1px solid #b5aa95; border-radius: .25rem; box-shadow: .1rem .12rem 0 #1f6b4f; display: flex; font-family: Georgia,var(--serif); font-size: 1.15rem; font-weight: 800; padding: .35rem; width: 2.8rem; }
+  .solitaire-guide__card.is-red { color: #b5292f; }
+  .solitaire-guide__card.is-black { color: #171512; }
+  .solitaire-guide figcaption { color: var(--text-muted); font-size: .75rem; text-align: center; }
+  @keyframes solitaire-hint { 50% { filter: brightness(1.2); transform: translateY(-.18rem); } }
+  .game-celebration { align-items: center; display: flex; inset: 0; justify-content: center; padding: 1rem; pointer-events: none; position: fixed; z-index: 120; }
+  .game-celebration__confetti { inset: 0; overflow: hidden; pointer-events: none; position: absolute; }
+  .game-celebration__confetti i { animation: game-confetti var(--confetti-duration) cubic-bezier(.18,.72,.35,1) var(--confetti-delay) both; background: var(--confetti-color); height: .75rem; left: var(--confetti-x); position: absolute; top: -1rem; transform: rotate(15deg); width: .42rem; }
+  .game-celebration__card { animation: game-celebration-pop .5s cubic-bezier(.2,1.4,.4,1) both; background: var(--surface); border: .35rem double var(--accent); box-shadow: 0 1.5rem 5rem rgb(0 0 0 / .32); max-width: 29rem; padding: clamp(1.5rem,5vw,2.6rem); pointer-events: auto; position: relative; text-align: center; }
+  .game-celebration__card h2 { font-size: clamp(2.1rem,7vw,4rem); line-height: .92; margin: .55rem 0 1rem; }
+  .game-celebration__card > p:not(.eyebrow) { color: var(--text-muted); font-family: var(--serif); font-size: 1.05rem; line-height: 1.5; }
+  .game-celebration__card .game-button { margin-top: .75rem; }
+  @keyframes game-confetti { 0% { opacity: 0; transform: translate3d(0,-5vh,0) rotate(0); } 10% { opacity: 1; } 100% { opacity: 1; transform: translate3d(var(--confetti-drift),105vh,0) rotate(760deg); } }
+  @keyframes game-celebration-pop { from { opacity: 0; transform: scale(.72) rotate(-2deg); } to { opacity: 1; transform: scale(1) rotate(0); } }
+  @media (prefers-reduced-motion: reduce) { .game-celebration__confetti { display: none; } .game-celebration__card { animation: none; } }
+  .card-suite-panel { margin: 0 auto; max-width: 70rem; }
+  .card-suite-board {
+    --cs-cols: 8;
+    --sol-card-w: clamp(2.45rem,calc((100vw - 5.5rem)/var(--cs-cols)),4.75rem);
+    --sol-card-h: calc(var(--sol-card-w)*1.42);
+    --cs-gap: clamp(.16rem,.7vw,.55rem);
+    --cs-step: clamp(1.15rem,3vw,2rem);
+    background: radial-gradient(circle at 45% 24%,#277858,#154c39 72%);
+    border: .3rem solid #123c2d;
+    border-radius: .45rem;
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / .13),0 1rem 2.4rem rgb(24 18 10 / .17);
+    box-sizing: border-box;
+    min-height: 30rem;
+    overflow-x: auto;
+    padding: clamp(.55rem,2vw,1.2rem);
+    user-select: none;
+  }
+  .card-suite-board--spider { --cs-cols: 10; --sol-card-w: clamp(2.15rem,calc((100vw - 5.75rem)/10),4.35rem); --cs-step: clamp(1rem,2.6vw,1.75rem); }
+  .card-suite-top { display: flex; gap: var(--cs-gap); margin-bottom: clamp(1rem,3vw,1.8rem); min-width: max-content; }
+  .card-suite-top > * { flex: 0 0 var(--sol-card-w); }
+  .card-suite-spacer { flex: 1 1 auto; min-width: var(--sol-card-w); }
+  .card-suite-columns { display: grid; gap: var(--cs-gap); grid-template-columns: repeat(var(--cs-cols),var(--sol-card-w)); justify-content: space-between; min-width: max-content; }
+  .card-suite-column { min-height: 24rem; position: relative; width: var(--sol-card-w); }
+  .card-suite-column > .solitaire-card,.card-suite-column > .solitaire-slot { left: 0; position: absolute; top: calc(var(--card-index,0)*var(--cs-step)); z-index: calc(var(--card-index,0) + 1); }
+  .card-suite-column > .solitaire-card.is-back { top: calc(var(--card-index,0)*clamp(.55rem,1.4vw,.8rem)); }
+  .card-suite-slot { font-size: clamp(.42rem,1.2vw,.65rem); letter-spacing: .04em; }
+  .card-suite-toolbar { align-items: end; display: flex; flex-wrap: wrap; gap: .55rem; justify-content: center; margin: 1rem auto 0; }
+  .card-suite-toolbar label { color: var(--text-muted); display: grid; font-size: .65rem; font-weight: 850; gap: .2rem; letter-spacing: .08em; text-transform: uppercase; }
+  .card-suite-toolbar select { background: var(--surface); border: 1px solid var(--border-strong); color: var(--text); min-height: 2.75rem; padding: .55rem .8rem; }
+  .card-suite-guide { display: grid; gap: .6rem; text-align: center; }
+  .card-suite-guide > div { align-items: center; display: flex; gap: .45rem; justify-content: center; }
+  .card-suite-guide figcaption { color: var(--text-muted); font-size: .75rem; }
+  .pyramid-layout { display: grid; justify-items: center; min-height: 24rem; padding-top: .5rem; }
+  .pyramid-row { display: flex; gap: clamp(.16rem,.7vw,.45rem); height: calc(var(--sol-card-h)*.55); justify-content: center; position: relative; }
+  .pyramid-row:last-child { height: var(--sol-card-h); }
+  .pyramid-row .solitaire-card,.pyramid-row .solitaire-slot { flex: 0 0 var(--sol-card-w); }
+  .solitaire-card.is-covered { filter: brightness(.77); pointer-events: none; }
+  .card-suite-draw { display: flex; gap: var(--cs-gap); justify-content: center; margin-top: 1.5rem; }
+  .tripeaks-layout { height: calc(var(--sol-card-h) + var(--cs-step)*3.1); margin: 0 auto; max-width: calc(var(--sol-card-w)*10.5); position: relative; }
+  .tripeaks-layout .solitaire-card { left: calc(var(--x)*9.5%); position: absolute; top: calc(var(--y)*var(--cs-step)); transform: translateX(-50%); z-index: calc(var(--y)*10 + 1); }
+  .tripeaks-layout .solitaire-card.is-selected,.tripeaks-layout .solitaire-card.is-hinted { transform: translateX(-50%) translateY(-.18rem); }
+  .card-suite-board .solitaire-card.is-selected,.card-suite-board .solitaire-card.is-hinted { outline: .22rem solid #f1c75b; outline-offset: .1rem; }
+  .card-suite-board--pyramid,.card-suite-board--tripeaks { --cs-cols: 10; --sol-card-w: clamp(2.15rem,calc((100vw - 5.5rem)/10),4.3rem); --cs-step: clamp(1.2rem,3.2vw,2rem); }
   .game-performance { display: flex; gap: .55rem; justify-content: center; margin: 0 auto 1.2rem; }
   .game-performance p { background: var(--game-ink); color: var(--surface); margin: 0; min-width: 7.25rem; padding: .55rem .9rem; text-align: center; }
   .game-performance span { display: block; font-size: .62rem; font-weight: 900; letter-spacing: .1em; text-transform: uppercase; }

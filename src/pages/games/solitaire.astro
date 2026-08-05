@@ -1,0 +1,113 @@
+---
+import GameGuide from "../../components/games/GameGuide.astro";
+import GamesLayout from "../../layouts/GamesLayout.astro";
+---
+
+<GamesLayout title="Solitaire" description="Play unlimited Klondike Solitaire in draw-one or draw-three mode from Boho News." game="Solitaire">
+  <header class="game-heading solitaire-heading">
+    <p class="eyebrow">The first Boho card table</p><h1>Solitaire</h1>
+    <p class="game-heading__dek">Classic Klondike with unlimited deals, draw-one and draw-three rules, undo, hints, and no account.</p>
+    <div class="game-meta"><span data-solitaire-number>Deal 1</span><span data-solitaire-stats>0 solved</span><span data-solitaire-mode>Draw 1</span></div>
+  </header>
+
+  <GameGuide game="solitaire" title="How Klondike Solitaire works" intro="Build four suit foundations from Ace through King. On the table, place cards in descending order while alternating red and black suits.">
+    <figure class="game-guide__visual solitaire-guide">
+      <div class="solitaire-guide__row" aria-label="Example tableau move: red six onto black seven">
+        <span class="solitaire-guide__card is-black">7♣</span><span aria-hidden="true">←</span><span class="solitaire-guide__card is-red">6♥</span>
+      </div>
+      <figcaption><strong>Tableau:</strong> descend by rank and alternate colors. Only a King may enter an empty column.</figcaption>
+      <div class="solitaire-guide__row" aria-label="Example foundation: ace, two, and three of hearts">
+        <span class="solitaire-guide__card is-red">A♥</span><span class="solitaire-guide__card is-red">2♥</span><span class="solitaire-guide__card is-red">3♥</span>
+      </div>
+      <figcaption><strong>Foundations:</strong> build upward in one suit. Move all 52 cards there to win.</figcaption>
+    </figure>
+    <ol class="game-guide__steps">
+      <li><strong>Move:</strong> tap a face-up card or stack, then tap its destination. You can also drag cards.</li>
+      <li><strong>Draw:</strong> tap the deck or press Space. When it empties, tap again to recycle the waste.</li>
+      <li><strong>Reveal:</strong> clearing a face-up card automatically turns over the card beneath it.</li>
+      <li><strong>Shortcuts:</strong> H shows a legal hint, Z undoes, N starts a new deal, and Escape clears a selection.</li>
+    </ol>
+  </GameGuide>
+
+  <section class="solitaire-panel" aria-label="Klondike Solitaire card game" data-solitaire-game>
+    <div class="game-performance" aria-label="Game time and points">
+      <p><span>Time</span><strong data-game-time>0:00</strong></p>
+      <p><span>Points</span><strong data-game-points>—</strong></p>
+      <p><span>Moves</span><strong data-solitaire-moves>0</strong></p>
+    </div>
+    <details class="game-scoring"><summary>How scoring works</summary><p>A win earns a 6,000-point base plus a time bonus and traditional move rewards. Draw-three earns a 20% difficulty premium. Hints subtract 300 points; unfinished deals score zero.</p></details>
+    <p class="game-status" role="status" aria-live="polite" data-solitaire-status>Tap the deck to draw, or move any face-up card.</p>
+    <div class="solitaire-board" data-solitaire-board>
+      <div class="solitaire-top-row">
+        <div class="solitaire-zone" data-solitaire-stock></div>
+        <div class="solitaire-zone" data-solitaire-waste></div>
+        <div class="solitaire-top-spacer" aria-hidden="true"></div>
+        {(["clubs","diamonds","hearts","spades"] as const).map((suit) => <div class="solitaire-zone" data-solitaire-foundation={suit}></div>)}
+      </div>
+      <div class="solitaire-tableau" role="group" aria-label="Seven tableau columns">
+        {Array.from({length:7},(_,pile) => <div class="solitaire-pile" data-solitaire-tableau={pile} aria-label={`Tableau column ${pile+1}`}></div>)}
+      </div>
+    </div>
+    <div class="solitaire-toolbar">
+      <label>Deal mode<select data-solitaire-draw><option value="1">Draw 1</option><option value="3">Draw 3</option></select></label>
+      <button class="game-button game-button--secondary" type="button" data-solitaire-hint>Hint</button>
+      <button class="game-button game-button--secondary" type="button" data-solitaire-undo disabled>Undo</button>
+      <button class="game-button" type="button" data-solitaire-new>New deal</button>
+    </div>
+  </section>
+  <p class="game-note">Every deal uses a fresh 52-card shuffle. The full deck, deal history, timer, and scores stay in this browser. Optional sharing sends only draw mode, solved, and a coarse points band.</p>
+</GamesLayout>
+
+<script>
+  // @ts-nocheck -- Browser interaction is backed by the tested Klondike engine.
+  import { attachGamePerformance } from "../../lib/games/performance";
+  import { showGameCelebration } from "../../lib/games/celebration";
+  import { confirmProgressLoss } from "../../lib/games/confirm-reset";
+  import { pointsBucket, solitairePoints } from "../../lib/games/scoring";
+  import { KLONDIKE_SUITS, cloneKlondikeState, createKlondikeGame, drawKlondike, isValidKlondikeState, klondikeCardColor, klondikeHint, klondikeRankLabel, klondikeSuitSymbol, moveKlondike } from "../../lib/games/solitaire";
+
+  const root=document.querySelector("[data-solitaire-game]");
+  if(root){
+    const STORAGE_KEY="boho-games:v2";
+    const board=root.querySelector("[data-solitaire-board]");const status=root.querySelector("[data-solitaire-status]");const drawSelect=root.querySelector("[data-solitaire-draw]");
+    let store=readStore();let state=validState(store.solitaire?.current)?store.solitaire.current:null;let selected=null;let hinted=null;let dragSource=null;let performanceTracker=null;
+    function readStore(){try{const value=JSON.parse(localStorage.getItem(STORAGE_KEY)||"{}");return value&&typeof value==="object"&&!Array.isArray(value)?value:{};}catch{return {};}}
+    function stats(){const value=store.solitaire?.stats;return {solved:Number.isInteger(value?.solved)&&value.solved>=0?value.solved:0,best:Number.isFinite(value?.best)&&value.best>=0?value.best:0};}
+    function validState(value){return value&&value.format==="solitaire-v4"&&Number.isInteger(value.number)&&value.number>0&&isValidKlondikeState(value.game)&&Array.isArray(value.history)&&value.history.length<=60&&value.history.every(isValidKlondikeState)&&Number.isInteger(value.hints)&&value.hints>=0&&["complete","recorded","reported"].every((key)=>typeof value[key]==="boolean");}
+    function serialize(){return {...state,history:state.history.slice(-60)};}
+    function writeStore(){store.solitaire={...(store.solitaire||{}),current:serialize(),stats:stats()};try{localStorage.setItem(STORAGE_KEY,JSON.stringify(store));}catch{}}
+    function freshGame(drawCount=Number(drawSelect.value)===3?3:1){const previous=Number.isInteger(store.solitaire?.sequence)?store.solitaire.sequence:0;const number=previous+1;state={format:"solitaire-v4",number,game:createKlondikeGame(Math.random,drawCount),history:[],hints:0,complete:false,recorded:false,reported:false,points:null};selected=null;hinted=null;store.solitaire={...(store.solitaire||{}),sequence:number,current:state,stats:stats()};writeStore();performanceTracker?.reset();render();}
+    if(!state)freshGame(1);
+
+    function cardName(card){const rank=card.rank===1?"Ace":card.rank===11?"Jack":card.rank===12?"Queen":card.rank===13?"King":String(card.rank);return `${rank} of ${card.suit}`;}
+    function sourceFor(button){const zone=button.dataset.sourceZone;if(zone==="waste")return {zone:"waste"};if(zone==="foundation")return {zone:"foundation",suit:button.dataset.suit};if(zone==="tableau")return {zone:"tableau",pile:Number(button.dataset.pile),index:Number(button.dataset.index)};return null;}
+    function targetFor(element){const foundation=element.closest("[data-solitaire-foundation]");if(foundation)return {zone:"foundation",suit:foundation.dataset.solitaireFoundation};const tableau=element.closest("[data-solitaire-tableau]");return tableau?{zone:"tableau",pile:Number(tableau.dataset.solitaireTableau)}:null;}
+    function sameSource(a,b){return a&&b&&a.zone===b.zone&&(a.zone==="waste"||a.zone==="foundation"&&a.suit===b.suit||a.zone==="tableau"&&a.pile===b.pile&&a.index===b.index);}
+    function makeCard(card,source,options={}){const button=document.createElement("button");button.type="button";button.className=`solitaire-card ${card.faceUp?"is-face":"is-back"}`;button.dataset.sourceZone=source.zone;if(source.suit)button.dataset.suit=source.suit;if(Number.isInteger(source.pile))button.dataset.pile=String(source.pile);if(Number.isInteger(source.index))button.dataset.index=String(source.index);button.dataset.cardId=card.id;button.dataset.color=klondikeCardColor(card);button.draggable=Boolean(card.faceUp&&!state.complete);button.disabled=state.complete||!card.faceUp;button.setAttribute("aria-label",card.faceUp?`${cardName(card)}${options.stackSize>1?`, movable stack of ${options.stackSize}`:""}`:"Face-down card");if(card.faceUp){const rank=document.createElement("span");rank.className="solitaire-card__rank";rank.textContent=klondikeRankLabel(card.rank);const suit=document.createElement("span");suit.className="solitaire-card__suit";suit.textContent=klondikeSuitSymbol(card.suit);button.append(rank,suit);}if(sameSource(source,selected))button.classList.add("is-selected");if(hinted?.source&&sameSource(source,hinted.source))button.classList.add("is-hinted");return button;}
+    function slot(label,symbol=""){const button=document.createElement("button");button.type="button";button.className="solitaire-slot";button.setAttribute("aria-label",label);button.textContent=symbol;button.disabled=state.complete;return button;}
+    function renderTop(){const stockRoot=root.querySelector("[data-solitaire-stock]");stockRoot.replaceChildren();const stock=slot(state.game.stock.length?`Stock, ${state.game.stock.length} cards. Draw ${state.game.drawCount}.`:state.game.waste.length?"Recycle waste into stock":"Empty stock",state.game.stock.length?"BN":state.game.waste.length?"↻":"");stock.dataset.stock="true";stock.classList.toggle("is-back",Boolean(state.game.stock.length));const count=document.createElement("small");count.textContent=String(state.game.stock.length);stock.append(count);stockRoot.append(stock);
+      const wasteRoot=root.querySelector("[data-solitaire-waste]");wasteRoot.replaceChildren();const waste=state.game.waste.at(-1);wasteRoot.append(waste?makeCard(waste,{zone:"waste"}):slot("Empty waste","W"));
+      for(const suit of KLONDIKE_SUITS){const foundation=root.querySelector(`[data-solitaire-foundation="${suit}"]`);foundation.replaceChildren();const top=state.game.foundations[suit].at(-1);const node=top?makeCard(top,{zone:"foundation",suit}):slot(`Empty ${suit} foundation`,klondikeSuitSymbol(suit));node.dataset.targetFoundation=suit;if(hinted?.target?.zone==="foundation"&&hinted.target.suit===suit)node.classList.add("is-hint-target");foundation.append(node);}}
+    function renderTableau(){root.querySelectorAll("[data-solitaire-tableau]").forEach((pileNode)=>{const pileIndex=Number(pileNode.dataset.solitaireTableau);const pile=state.game.tableau[pileIndex];pileNode.replaceChildren();pileNode.style.setProperty("--pile-cards",String(Math.max(1,pile.length)));if(!pile.length){const empty=slot(`Empty tableau column ${pileIndex+1}. Only a King may move here.`,"K");empty.classList.add("solitaire-empty");pileNode.append(empty);}else pile.forEach((card,index)=>{const source={zone:"tableau",pile:pileIndex,index};const cardNode=makeCard(card,source,{stackSize:pile.length-index});cardNode.style.setProperty("--card-index",String(index));cardNode.style.setProperty("--face-index",String(pile.slice(0,index).filter((item)=>item.faceUp).length));cardNode.style.setProperty("--down-index",String(pile.slice(0,index).filter((item)=>!item.faceUp).length));if(selected?.zone==="tableau"&&selected.pile===pileIndex&&index>=selected.index)cardNode.classList.add("is-selected");pileNode.append(cardNode);});if(hinted?.target?.zone==="tableau"&&hinted.target.pile===pileIndex)pileNode.classList.add("is-hint-target");else pileNode.classList.remove("is-hint-target");});}
+    function render(){drawSelect.value=String(state.game.drawCount);drawSelect.disabled=state.complete;renderTop();renderTableau();root.classList.toggle("is-won",state.complete);root.querySelector("[data-solitaire-undo]").disabled=!state.history.length||state.complete;root.querySelector("[data-solitaire-hint]").disabled=state.complete;root.querySelector("[data-solitaire-moves]").textContent=String(state.game.moves);document.querySelector("[data-solitaire-number]").textContent=`Deal ${state.number}`;document.querySelector("[data-solitaire-stats]").textContent=`${stats().solved} solved · best ${stats().best?stats().best.toLocaleString():"—"}`;document.querySelector("[data-solitaire-mode]").textContent=`Draw ${state.game.drawCount}`;performanceTracker?.render();}
+    function commit(result,message="Move made."){if(!result.moved){status.textContent="That move is not legal in Klondike.";return false;}state.history.push(cloneKlondikeState(state.game));state.history=state.history.slice(-60);state.game=result.state;state.complete=state.game.complete;selected=null;hinted=null;writeStore();status.textContent=result.flipped?"Card revealed.":message;render();if(state.complete)finish();return true;}
+    function draw(){commit(drawKlondike(state.game),state.game.stock.length?`Drew ${Math.min(state.game.drawCount,state.game.stock.length)} card${state.game.drawCount===1?"":"s"}.`:"Waste recycled.");}
+    function chooseCard(button){const source=sourceFor(button);if(!source)return;if(selected){const target=targetFor(button);if(target&&commit(moveKlondike(state.game,selected,target)))return;}selected=sameSource(selected,source)?null:source;hinted=null;status.textContent=selected?`${button.getAttribute("aria-label")} selected. Choose a destination.`:"Selection cleared.";render();}
+    function autoFoundation(button){const source=sourceFor(button);if(!source)return;const cardId=button.dataset.cardId;const card=[...state.game.waste,...state.game.tableau.flat(),...KLONDIKE_SUITS.flatMap((suit)=>state.game.foundations[suit])].find((item)=>item.id===cardId);if(card)commit(moveKlondike(state.game,source,{zone:"foundation",suit:card.suit}),"Moved to the foundation.");}
+    function showHint(){const hint=klondikeHint(state.game);state.hints++;hinted=hint;selected=null;writeStore();if(!hint)status.textContent="No legal move is available.";else if("draw" in hint)status.textContent=state.game.stock.length?"Hint: draw from the stock.":"Hint: recycle the waste.";else status.textContent="A legal move is glowing.";render();}
+    function undo(){if(!state.history.length||state.complete)return;state.game=state.history.pop();state.complete=false;selected=null;hinted=null;writeStore();status.textContent="Last move undone.";render();}
+    async function report(){if(state.reported||!state.complete)return;const submitted=await window.BohoGameStats?.submit({game:"solitaire",variant:`draw-${state.game.drawCount}`,outcome:"solved",scoreBucket:pointsBucket(state.points||0)});if(submitted){state.reported=true;writeStore();}}
+    function finish(){if(!state.complete)return;performanceTracker.finish();state.points=solitairePoints({won:true,drawCount:state.game.drawCount,moveScore:state.game.score,elapsedMs:state.timer?.finishedMs||0,hints:state.hints});if(!state.recorded){const value=stats();value.solved++;value.best=Math.max(value.best,state.points||0);store.solitaire.stats=value;state.recorded=true;}writeStore();status.textContent=`You cleared the deck in ${state.game.moves} moves. Beautiful.`;render();showGameCelebration({title:"Solitaire conquered!",message:`You cleared the deck for ${(state.points||0).toLocaleString()} points. Absolutely magnificent card shuffling.`});void report();}
+    function newDeal(drawCount=state.game.drawCount){const changed=state.game.moves>0||state.history.length>0;if(confirmProgressLoss({complete:state.complete,hasProgress:changed,label:"start a new Solitaire deal"}))freshGame(drawCount);else drawSelect.value=String(state.game.drawCount);}
+    board.addEventListener("click",(event)=>{const stock=event.target.closest("[data-stock]");if(stock){draw();return;}const card=event.target.closest("[data-source-zone]");if(card){chooseCard(card);return;}if(selected){const target=targetFor(event.target);if(target)commit(moveKlondike(state.game,selected,target));}});
+    board.addEventListener("dblclick",(event)=>{const card=event.target.closest("[data-source-zone]");if(card)autoFoundation(card);});
+    board.addEventListener("dragstart",(event)=>{const card=event.target.closest("[data-source-zone]");dragSource=card?sourceFor(card):null;if(!dragSource){event.preventDefault();return;}event.dataTransfer?.setData("text/plain",card.dataset.cardId||"");});
+    board.addEventListener("dragover",(event)=>{if(dragSource&&targetFor(event.target))event.preventDefault();});
+    board.addEventListener("drop",(event)=>{event.preventDefault();const target=targetFor(event.target);if(dragSource&&target)commit(moveKlondike(state.game,dragSource,target));dragSource=null;});
+    board.addEventListener("dragend",()=>{dragSource=null;});
+    root.querySelector("[data-solitaire-hint]")?.addEventListener("click",showHint);root.querySelector("[data-solitaire-undo]")?.addEventListener("click",undo);root.querySelector("[data-solitaire-new]")?.addEventListener("click",()=>newDeal());drawSelect.addEventListener("change",()=>newDeal(Number(drawSelect.value)===3?3:1));
+    document.addEventListener("keydown",(event)=>{if(event.metaKey||event.ctrlKey||event.altKey||/INPUT|SELECT|TEXTAREA/.test(event.target?.tagName||""))return;if(event.key===" "){event.preventDefault();draw();}else if(event.key==="Escape"){selected=null;hinted=null;render();}else if(event.key.toLowerCase()==="h")showHint();else if(event.key.toLowerCase()==="z")undo();else if(event.key.toLowerCase()==="n")newDeal();});
+    document.addEventListener("boho-game-guide-open",(event)=>{if(event.detail?.game==="solitaire")performanceTracker?.pause();});document.addEventListener("boho-game-guide-close",(event)=>{if(event.detail?.game==="solitaire")performanceTracker?.resume();});
+    performanceTracker=attachGamePerformance(document,{getState:()=>state,save:writeStore,calculatePoints:(elapsedMs)=>solitairePoints({won:state.complete,drawCount:state.game.drawCount,moveScore:state.game.score,elapsedMs,hints:state.hints})});render();
+  }
+</script>

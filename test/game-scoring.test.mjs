@@ -3,7 +3,7 @@ import test from "node:test";
 import {
   connectionsPoints, createGameTimer, elapsedGameMs, finishGameTimer, formatGameTime, mahjongPoints,
   loopyPoints, minesweeperPoints, miniCrosswordPoints, miniPerfectSeconds, nonogramPoints, pauseGameTimer,
-  pointsBucket, resumeGameTimer, sudokuPoints, wordlePoints
+  pointsBucket, resumeGameTimer, solitairePoints, freeCellPoints, spiderPoints, pyramidPoints, triPeaksPoints, sudokuPoints, wordlePoints
 } from "../src/lib/games/scoring.ts";
 
 test("game timers pause, resume, finish, and format without counting hidden time", () => {
@@ -40,6 +40,22 @@ test("Sudoku, Mahjong, and Nonogram scores apply their game-specific factors", (
   assert.ok(mahjongPoints({ elapsedMs:300_000, hints:0 }) > mahjongPoints({ elapsedMs:300_000, hints:2 }));
   assert.ok(nonogramPoints({ rows:15, cols:15, elapsedMs:300_000 }) > nonogramPoints({ rows:10, cols:10, elapsedMs:300_000 }));
   assert.equal(nonogramPoints({ rows:15, cols:15, elapsedMs:1_000, usedSolve:true }), 0);
+});
+
+test("Solitaire rewards a clean fast win and gives draw-three a difficulty premium", () => {
+  const clean=solitairePoints({won:true,drawCount:1,moveScore:700,elapsedMs:300_000,hints:0});
+  assert.ok(clean>solitairePoints({won:true,drawCount:1,moveScore:700,elapsedMs:900_000,hints:0}));
+  assert.ok(clean>solitairePoints({won:true,drawCount:1,moveScore:700,elapsedMs:300_000,hints:2}));
+  assert.ok(solitairePoints({won:true,drawCount:3,moveScore:700,elapsedMs:300_000,hints:0})>clean);
+  assert.equal(solitairePoints({won:false,drawCount:1,moveScore:700,elapsedMs:1_000,hints:0}),0);
+});
+
+test("card-suite scoring rewards difficulty, efficiency, streaks, and clean play", () => {
+  assert.ok(freeCellPoints({won:true,moves:70,elapsedMs:240_000,hints:0}) > freeCellPoints({won:true,moves:120,elapsedMs:240_000,hints:0}));
+  assert.ok(spiderPoints({won:true,suits:4,moveScore:900,elapsedMs:600_000,hints:0}) > spiderPoints({won:true,suits:1,moveScore:900,elapsedMs:600_000,hints:0}));
+  assert.ok(pyramidPoints({won:true,moveScore:500,elapsedMs:120_000,hints:0}) > pyramidPoints({won:true,moveScore:500,elapsedMs:600_000,hints:0}));
+  assert.ok(triPeaksPoints({won:true,moveScore:800,bestStreak:12,elapsedMs:120_000,hints:0}) > triPeaksPoints({won:true,moveScore:800,bestStreak:4,elapsedMs:120_000,hints:0}));
+  assert.equal(freeCellPoints({won:false,moves:1,elapsedMs:1,hints:0}),0);
 });
 
 test("Loopy rewards larger, harder, and faster clean solves", () => {

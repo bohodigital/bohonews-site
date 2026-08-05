@@ -38,6 +38,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Adapter around the pinned upstream Loopy save/status surface.
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { showGameCelebration } from "../../lib/games/celebration";
   import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { loopyPoints, pointsBucket } from "../../lib/games/scoring";
 
@@ -82,7 +83,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     async function report(){if(state.reported||!state.complete)return;const submitted=await window.BohoGameStats?.submit({game:"loopy",variant:puzzleInfo().difficulty,outcome:"solved",scoreBucket:pointsBucket(state.points||0)});if(submitted){state.reported=true;save();}}
     function inspectStatus(){
       const text=status?.textContent||"";
-      if(!state.complete&&/\b(completed|complete|solved)\b/i.test(text)){state.complete=true;performanceTracker.finish();save();void report();}
+      if(!state.complete&&/\b(completed|complete|solved)\b/i.test(text)){state.complete=true;performanceTracker.finish();save();if(!state.usedSolve)showGameCelebration({title:"Loop complete!",message:`Every clue closes into one perfect loop. Final score: ${(state.points||0).toLocaleString()} points.`});void report();}
     }
     function reset(){dirty=false;state={format:"loopy-v1",complete:false,points:null,usedSolve:false,reported:false,serialized:null};performanceTracker.reset();window.setTimeout(save,120);}
     function finishFromSolve(){if(state.complete)return;state.complete=true;performanceTracker.finish();save();void report();}

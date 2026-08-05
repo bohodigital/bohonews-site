@@ -2,12 +2,12 @@
 import GamesLayout from "../../layouts/GamesLayout.astro";
 ---
 
-<GamesLayout title="Games" description="Unlimited Wordle, Mini Crossword, Sudoku, 2048, Nonogram, Mahjong, Loopy, Minesweeper, and Connections games from Boho News.">
+<GamesLayout title="Games" description="Unlimited word, logic, number, tile, and classic card games including Solitaire, FreeCell, Spider, Pyramid, and TriPeaks from Boho News.">
   <header class="games-hero">
     <div>
       <p class="eyebrow">A sharper daily break</p>
       <h1>Boho Games</h1>
-      <p class="games-hero__dek">Nine quick games. Play as many as you want. No account, no leaderboard, no nonsense.</p>
+      <p class="games-hero__dek">Fourteen quick games. Play as many as you want. No account, no leaderboard, no nonsense.</p>
     </div>
     <p class="games-date"><strong>Unlimited play</strong><span>Progress stays in this browser. Community result sharing is optional.</span></p>
   </header>
@@ -45,15 +45,55 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       <span class="game-card__status">Completed</span>
       <a class="game-card__action" href="/games/2048/"><span>Play 2048</span><span aria-hidden="true">→</span></a>
     </article>
+    <article class="game-card" data-game-card="solitaire">
+      <span class="game-card__number">05 · Card table</span>
+      <div class="game-card__motif game-card__motif--solitaire" aria-hidden="true"><i></i><i></i><i></i></div>
+      <h2>Solitaire</h2>
+      <p>Play unlimited Klondike deals with draw-one or draw-three rules, undo, and hints.</p>
+      <span class="game-card__status">Completed</span>
+      <a class="game-card__action" href="/games/solitaire/"><span>Play Solitaire</span><span aria-hidden="true">→</span></a>
+    </article>
+    <article class="game-card" data-game-card="freecell">
+      <span class="game-card__number">06 · Card table</span>
+      <div class="game-card__motif game-card__motif--solitaire" aria-hidden="true"><i></i><i></i><i></i></div>
+      <h2>FreeCell</h2>
+      <p>Turn perfect information and four temporary cells into a clean foundation sweep.</p>
+      <span class="game-card__status">Completed</span>
+      <a class="game-card__action" href="/games/freecell/"><span>Play FreeCell</span><span aria-hidden="true">→</span></a>
+    </article>
+    <article class="game-card" data-game-card="spider">
+      <span class="game-card__number">07 · Card table</span>
+      <div class="game-card__motif game-card__motif--solitaire" aria-hidden="true"><i></i><i></i><i></i></div>
+      <h2>Spider Solitaire</h2>
+      <p>Build and remove eight suited runs across one-, two-, or four-suit difficulty.</p>
+      <span class="game-card__status">Completed</span>
+      <a class="game-card__action" href="/games/spider/"><span>Play Spider</span><span aria-hidden="true">→</span></a>
+    </article>
+    <article class="game-card" data-game-card="pyramid">
+      <span class="game-card__number">08 · Card table</span>
+      <div class="game-card__motif game-card__motif--solitaire" aria-hidden="true"><i></i><i></i><i></i></div>
+      <h2>Pyramid Solitaire</h2>
+      <p>Remove exposed Kings and pairs totaling thirteen before the stock runs dry.</p>
+      <span class="game-card__status">Completed</span>
+      <a class="game-card__action" href="/games/pyramid/"><span>Play Pyramid</span><span aria-hidden="true">→</span></a>
+    </article>
+    <article class="game-card" data-game-card="tripeaks">
+      <span class="game-card__number">09 · Card table</span>
+      <div class="game-card__motif game-card__motif--solitaire" aria-hidden="true"><i></i><i></i><i></i></div>
+      <h2>TriPeaks Solitaire</h2>
+      <p>Clear three overlapping peaks by chaining cards one rank up or down.</p>
+      <span class="game-card__status">Completed</span>
+      <a class="game-card__action" href="/games/tripeaks/"><span>Play TriPeaks</span><span aria-hidden="true">→</span></a>
+    </article>
     <article class="game-card" data-game-card="nonogram">
-      <span class="game-card__number">05 · Logic preview</span>
+      <span class="game-card__number">10 · Logic preview</span>
       <div class="game-card__motif game-card__motif--nonogram" aria-hidden="true">{Array.from({length:25},() => <i></i>)}</div>
       <h2>Nonogram</h2>
       <p>Reveal hidden pixel art using row and column clues from the Pattern engine.</p>
       <a class="game-card__action" href="/games/nonogram/"><span>Play preview</span><span aria-hidden="true">→</span></a>
     </article>
     <article class="game-card" data-game-card="mahjong">
-      <span class="game-card__number">06 · Tile matching</span>
+      <span class="game-card__number">11 · Tile matching</span>
       <div class="game-card__motif game-card__motif--mahjong" aria-hidden="true"><i>🀄</i><i>🀙</i><i>🀐</i><i>🀀</i><i>🀅</i><i>🀇</i></div>
       <h2>Mahjong</h2>
       <p>Dismantle the classic five-level, 144-tile Turtle in true client-side 3D.</p>
@@ -61,7 +101,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       <a class="game-card__action" href="/games/mahjong/"><span>Play Mahjong</span><span aria-hidden="true">→</span></a>
     </article>
     <article class="game-card" data-game-card="loopy">
-      <span class="game-card__number">07 · Loop logic</span>
+      <span class="game-card__number">12 · Loop logic</span>
       <div class="game-card__motif game-card__motif--loopy" aria-hidden="true">{Array.from({length:16},(_,index) => <i data-index={index}></i>)}</div>
       <h2>Loopy</h2>
       <p>Use numbered clues to draw one perfect loop with no branches or loose ends.</p>
@@ -69,7 +109,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       <a class="game-card__action" href="/games/loopy/"><span>Play Loopy</span><span aria-hidden="true">→</span></a>
     </article>
     <article class="game-card" data-game-card="minesweeper">
-      <span class="game-card__number">08 · Classic logic</span>
+      <span class="game-card__number">13 · Classic logic</span>
       <div class="game-card__motif game-card__motif--mines" aria-hidden="true">{Array.from({length:16},(_,index) => <i data-index={index}></i>)}</div>
       <h2>Minesweeper</h2>
       <p>Clear canonical no-guess boards with safe first moves, fast chording, and pro-sized presets.</p>
@@ -77,7 +117,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       <a class="game-card__action" href="/games/minesweeper/"><span>Play Minesweeper</span><span aria-hidden="true">→</span></a>
     </article>
     <article class="game-card" data-game-card="connections">
-      <span class="game-card__number">09 · Word groups</span>
+      <span class="game-card__number">14 · Word groups</span>
       <div class="game-card__motif game-card__motif--connections" aria-hidden="true">{Array.from({length:16},() => <i></i>)}</div>
       <h2>Connections</h2>
       <p>Sort sixteen terms into four precise groups while dodging deliberate overlaps.</p>

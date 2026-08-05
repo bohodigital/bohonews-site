@@ -32,6 +32,11 @@ test("completion contract accepts only coarse current-game results", () => {
   assert.equal(validateCompletion({ schemaVersion:"1.0", game:"wordle", variant:"standard", outcome:"won", scoreBucket:"4000-7999" }), null);
   assert.equal(validateCompletion({ schemaVersion:"1.0", game:"sudoku", variant:"hard", outcome:"solved", scoreBucket:"8000-15999" }), null);
   assert.equal(validateCompletion({ schemaVersion:"1.0", game:"2048", variant:"standard", outcome:"won", scoreBucket:"16000+" }), null);
+  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"solitaire", variant:"draw-3", outcome:"solved", scoreBucket:"8000-15999" }), null);
+  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"freecell", variant:"standard", outcome:"solved", scoreBucket:"8000-15999" }), null);
+  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"spider", variant:"4-suit", outcome:"solved", scoreBucket:"16000+" }), null);
+  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"pyramid", variant:"standard", outcome:"solved", scoreBucket:"4000-7999" }), null);
+  assert.equal(validateCompletion({ schemaVersion:"1.0", game:"tripeaks", variant:"standard", outcome:"solved", scoreBucket:"8000-15999" }), null);
   assert.equal(validateCompletion({ schemaVersion:"1.0", game:"nonogram", variant:"pattern", outcome:"solved", scoreBucket:"8000-15999" }), null);
   assert.equal(validateCompletion({ schemaVersion:"1.0", game:"mahjong", variant:"turtle", outcome:"solved", scoreBucket:"8000-15999" }), null);
   assert.equal(validateCompletion({ schemaVersion:"1.0", game:"loopy", variant:"tricky", outcome:"solved", scoreBucket:"8000-15999" }), null);
