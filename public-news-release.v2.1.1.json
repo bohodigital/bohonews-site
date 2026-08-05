@@ -1,9 +1,9 @@
 {
-  "articleCount": 45,
+  "articleCount": 48,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-05T16:34:38Z",
-  "mediaCount": 121,
-  "packageDigest": "de489fc199fe1b07bbe28c4e3ebae8793fdb1dd25ab2388b7bafaf76a8750385",
+  "generatedAt": "2026-08-05T18:41:52Z",
+  "mediaCount": 130,
+  "packageDigest": "2414b0c91df8c0e6ec88ae0fc1cebd3ff86f6d80322b0e3a2564415cf076cd95",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -514,6 +514,31 @@
       "releaseId": "release-pb-20260805t161003z-9295f407ed73-f38e6d633a93",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://f4f6c6c6.bohonews.pages.dev/",
+      "activationEvidenceHash": "82d73641af2a1f0a3f73b7ab77dc7628928863235ac95cb529a73324aca7deb4",
+      "canonicalFirstPublicAt": "2026-08-05T18:38:06.127Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/iowa-emt-first-workforce-pell-program-2026/",
+        "https://bohonews.com/articles/nasa-flight-dynamics-wind-tunnel-opens-2026/",
+        "https://bohonews.com/articles/world-bank-pakistan-grid-wind-power-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-iowa-emt-first-workforce-pell-program-2026",
+        "article-nasa-flight-dynamics-wind-tunnel-opens-2026",
+        "article-world-bank-pakistan-grid-wind-power-2026"
+      ],
+      "previousVerifiedDeploymentReference": "7a9c508eebf86f04a6af1c13e9d0e877a97df7c29e0b9a76d0bca718f7c2927e",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T18:36:15.555895Z",
+      "recordHash": "9d5a1d25f78b260f93a1d3d0dc819578e345dd87b54b8acdcdc46571feb968e9",
+      "releaseId": "release-pb-20260805t181103z-d2fa5fabdf19-55e970290efc",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -535,11 +560,13 @@
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/hurricane-cone-inland-warnings-2026-explainer/",
     "/articles/interlochen-abuse-investigation-report-findings/",
+    "/articles/iowa-emt-first-workforce-pell-program-2026/",
     "/articles/june-2026-us-climate-tornadoes-drought/",
     "/articles/kenya-lake-turkana-paranthropus-footprints-group/",
     "/articles/kia-telluride-seat-motor-fire-recall-26v430/",
     "/articles/library-of-congress-source-research-gallery-kids/",
     "/articles/metro-unemployment-payroll-growth-june-2026/",
+    "/articles/nasa-flight-dynamics-wind-tunnel-opens-2026/",
     "/articles/nasa-lunar-cargo-landers-ground-tests-2026/",
     "/articles/nasa-punch-solar-storm-arrival-test-30-minutes/",
     "/articles/nasa-three-august-2026-spacewalks-iss/",
@@ -561,6 +588,7 @@
     "/articles/what-is-section-301-trade-act/",
     "/articles/who-controls-smithsonian-board-regents/",
     "/articles/work-training-americans-born-1980-1984/",
+    "/articles/world-bank-pakistan-grid-wind-power-2026/",
     "/articles/world-u20-championships-oregon-2026-opens/",
     "/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/"
   ],
