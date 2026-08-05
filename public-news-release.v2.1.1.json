@@ -1,9 +1,9 @@
 {
-  "articleCount": 36,
+  "articleCount": 39,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-05T03:06:27Z",
-  "mediaCount": 94,
-  "packageDigest": "15f462019d5f99ef5e07f6da9e307d0636179183d9e75742466eaa909dcb0385",
+  "generatedAt": "2026-08-05T04:58:56Z",
+  "mediaCount": 103,
+  "packageDigest": "3b9a6ea9b2e82e0ebfb39bb829023822076a101e2cce0d0784e15fa0ac3aee5e",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -439,6 +439,31 @@
       "releaseId": "release-pb-20260805t024920z-0f95393191a6-639e94cf49f8",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://5a9827c7.bohonews.pages.dev/",
+      "activationEvidenceHash": "63b5934b9ed945bd996542fe9190f8a4fb9b861d58f35782941782e15ce7cb63",
+      "canonicalFirstPublicAt": "2026-08-05T04:58:41.043Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-education-10-priority-open-recommendations-2026/",
+        "https://bohonews.com/articles/greece-men-usa-women-water-polo-world-cup-2026/",
+        "https://bohonews.com/articles/un-sdg-targets-progress-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-education-10-priority-open-recommendations-2026",
+        "article-greece-men-usa-women-water-polo-world-cup-2026",
+        "article-un-sdg-targets-progress-2026"
+      ],
+      "previousVerifiedDeploymentReference": "0f80306846b377d5b95d07e260e5931c17044e6cbde2a9fc96bd279efb189a1b",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T04:57:20.818611Z",
+      "recordHash": "e3c15680d69d48b0e43251b24650793624445b5010283dc6b0c91a8b88ef5d4a",
+      "releaseId": "release-pb-20260805t044022z-fc18acbdcc82-7efe495501ed",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -450,7 +475,9 @@
     "/articles/employer-compensation-costs-june-2026/",
     "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
     "/articles/four-advanced-reactors-zero-power-criticality-2026/",
+    "/articles/gao-education-10-priority-open-recommendations-2026/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
+    "/articles/greece-men-usa-women-water-polo-world-cup-2026/",
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/hurricane-cone-inland-warnings-2026-explainer/",
     "/articles/interlochen-abuse-investigation-report-findings/",
@@ -470,6 +497,7 @@
     "/articles/shell-egg-recall-19-million-eggs-carton-codes-2026/",
     "/articles/trump-section-301-tariffs-60-economies/",
     "/articles/trump-smithsonian-warning-signs-executive-order/",
+    "/articles/un-sdg-targets-progress-2026/",
     "/articles/us-crude-inventories-fall-refineries-july-2026/",
     "/articles/us-gdp-growth-slows-q2-2026/",
     "/articles/us-gdp-growth-slows-second-quarter-2026-advance-estimate/",
