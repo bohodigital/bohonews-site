@@ -1,9 +1,9 @@
 {
-  "articleCount": 33,
+  "articleCount": 36,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-05T01:28:19Z",
-  "mediaCount": 85,
-  "packageDigest": "bfe813d380d39d53ff4e7c7bcee1179220002d021490381879150b3df8bc859d",
+  "generatedAt": "2026-08-05T03:06:27Z",
+  "mediaCount": 94,
+  "packageDigest": "15f462019d5f99ef5e07f6da9e307d0636179183d9e75742466eaa909dcb0385",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -414,6 +414,31 @@
       "releaseId": "release-pb-20260805t005437z-53b1da110f52-299464acca87",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://f79aec9f.bohonews.pages.dev/",
+      "activationEvidenceHash": "d7956e44ac0ce6b5c848079cfc14e5376f76f47a93f5c40407057fec48b6ff22",
+      "canonicalFirstPublicAt": "2026-08-05T03:06:17.054Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/four-advanced-reactors-zero-power-criticality-2026/",
+        "https://bohonews.com/articles/national-book-festival-2026-more-than-80-authors/",
+        "https://bohonews.com/articles/shell-egg-recall-19-million-eggs-carton-codes-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-four-advanced-reactors-zero-power-criticality-2026",
+        "article-national-book-festival-2026-more-than-80-authors",
+        "article-shell-egg-recall-19-million-eggs-carton-codes-2026"
+      ],
+      "previousVerifiedDeploymentReference": "02cca4f3624b5426eeef761387c5da0b45c3c76b6544f14a74bd4a346009ac85",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T03:04:43.066801Z",
+      "recordHash": "d16a81c02777d6b66160e09395a0e0e445ce58253b77b9f8eedd30fd7d4a279e",
+      "releaseId": "release-pb-20260805t024920z-0f95393191a6-639e94cf49f8",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -424,6 +449,7 @@
     "/articles/doj-task-force-officers-training-misconduct-gao/",
     "/articles/employer-compensation-costs-june-2026/",
     "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
+    "/articles/four-advanced-reactors-zero-power-criticality-2026/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/hurricane-cone-inland-warnings-2026-explainer/",
@@ -435,11 +461,13 @@
     "/articles/nasa-lunar-cargo-landers-ground-tests-2026/",
     "/articles/nasa-punch-solar-storm-arrival-test-30-minutes/",
     "/articles/nasa-three-august-2026-spacewalks-iss/",
+    "/articles/national-book-festival-2026-more-than-80-authors/",
     "/articles/national-park-week-2026-fee-free-august-25/",
     "/articles/nist-five-fabric-squares-textile-recycling-test/",
     "/articles/noaa-coral-torpedo-deep-gulf-restoration/",
     "/articles/pce-prices-consumer-spending-june-2026/",
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
+    "/articles/shell-egg-recall-19-million-eggs-carton-codes-2026/",
     "/articles/trump-section-301-tariffs-60-economies/",
     "/articles/trump-smithsonian-warning-signs-executive-order/",
     "/articles/us-crude-inventories-fall-refineries-july-2026/",
