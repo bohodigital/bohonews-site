@@ -1,9 +1,9 @@
 {
-  "articleCount": 48,
+  "articleCount": 51,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-05T18:41:52Z",
-  "mediaCount": 130,
-  "packageDigest": "2414b0c91df8c0e6ec88ae0fc1cebd3ff86f6d80322b0e3a2564415cf076cd95",
+  "generatedAt": "2026-08-05T22:57:20Z",
+  "mediaCount": 139,
+  "packageDigest": "d300d7e7e5ca1c3cb27ada598017b1bea428429bd7964cbd88aafe44990f8c42",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -539,6 +539,31 @@
       "releaseId": "release-pb-20260805t181103z-d2fa5fabdf19-55e970290efc",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://0a02dc40.bohonews.pages.dev/",
+      "activationEvidenceHash": "97bd58f70fb6c32593442778127d40c1feb120e57771709fe0a58f40b1ced4f9",
+      "canonicalFirstPublicAt": "2026-08-05T22:57:09.872Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/library-congress-lost-melies-gugusse-film/",
+        "https://bohonews.com/articles/noaa-week-two-heat-monsoon-drought-august-2026/",
+        "https://bohonews.com/articles/us-construction-spending-june-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-library-congress-lost-melies-gugusse-film",
+        "article-noaa-week-two-heat-monsoon-drought-august-2026",
+        "article-us-construction-spending-june-2026"
+      ],
+      "previousVerifiedDeploymentReference": "a0172aecac17d412c16971f45df8bf0829a69939958b4f8d8ac1c206891a24e6",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T22:56:28.079188Z",
+      "recordHash": "53c5c5a52add1bac2194d2d8e59efb4af3fb817e1da51650d4aaee0f8346c995",
+      "releaseId": "release-pb-20260805t213023z-9fde0addd713-c4a39008d2b4",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -564,6 +589,7 @@
     "/articles/june-2026-us-climate-tornadoes-drought/",
     "/articles/kenya-lake-turkana-paranthropus-footprints-group/",
     "/articles/kia-telluride-seat-motor-fire-recall-26v430/",
+    "/articles/library-congress-lost-melies-gugusse-film/",
     "/articles/library-of-congress-source-research-gallery-kids/",
     "/articles/metro-unemployment-payroll-growth-june-2026/",
     "/articles/nasa-flight-dynamics-wind-tunnel-opens-2026/",
@@ -574,12 +600,14 @@
     "/articles/national-park-week-2026-fee-free-august-25/",
     "/articles/nist-five-fabric-squares-textile-recycling-test/",
     "/articles/noaa-coral-torpedo-deep-gulf-restoration/",
+    "/articles/noaa-week-two-heat-monsoon-drought-august-2026/",
     "/articles/pce-prices-consumer-spending-june-2026/",
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
     "/articles/shell-egg-recall-19-million-eggs-carton-codes-2026/",
     "/articles/trump-section-301-tariffs-60-economies/",
     "/articles/trump-smithsonian-warning-signs-executive-order/",
     "/articles/un-sdg-targets-progress-2026/",
+    "/articles/us-construction-spending-june-2026/",
     "/articles/us-crude-inventories-fall-refineries-july-2026/",
     "/articles/us-gdp-growth-slows-q2-2026/",
     "/articles/us-gdp-growth-slows-second-quarter-2026-advance-estimate/",
