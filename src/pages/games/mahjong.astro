@@ -25,6 +25,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Browser interaction is covered by focused unit and browser QA.
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { showGameCelebration } from "../../lib/games/celebration";
   import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { createMahjongGame, freeMahjongTileIds, isMahjongDeadlocked, mahjongHint, removeMahjongPair, restoreMahjongGame, undoMahjongPair } from "../../lib/games/mahjong";
   import { mahjongPoints, pointsBucket } from "../../lib/games/scoring";
@@ -56,7 +57,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       const selected=activeTile(selectedId);
       if(selected&&removeMahjongPair(state.game,selected.id,tile.id)){
         selectedId=null;save();const remaining=state.game.tiles.filter(({removed})=>!removed).length;
-        if(state.complete){if(!state.recorded){store.mahjong.stats=store.mahjong.stats||{played:0,solved:0};store.mahjong.stats.played++;store.mahjong.stats.solved++;state.recorded=true;}performanceTracker?.finish();status.textContent="Board cleared. Beautiful work.";save();void reportCompletion();}
+        if(state.complete){if(!state.recorded){store.mahjong.stats=store.mahjong.stats||{played:0,solved:0};store.mahjong.stats.played++;store.mahjong.stats.solved++;state.recorded=true;}performanceTracker?.finish();status.textContent="Board cleared. Beautiful work.";save();showGameCelebration({title:"Turtle cleared!",message:`All 144 tiles are gone. Final score: ${(state.points||0).toLocaleString()} points.`});void reportCompletion();}
         else status.textContent=isMahjongDeadlocked(state.game)?"No legal matches remain. Undo a move or start a new board.":`Match cleared. ${remaining} tiles remain.`;
       }else{selectedId=id;status.textContent=`Those tiles do not match. ${tile.label} is now selected.`;}
       render();

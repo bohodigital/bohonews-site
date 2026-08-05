@@ -34,6 +34,7 @@ const keys = ["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
 <script>
   // @ts-nocheck -- Browser interaction is covered by focused unit and browser QA.
   import allowedWordData from "../../lib/games/wordle-allowed.json";
+  import { showGameCelebration } from "../../lib/games/celebration";
   import { attachGamePerformance } from "../../lib/games/performance";
   import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { pointsBucket, wordlePoints } from "../../lib/games/scoring";
@@ -93,6 +94,7 @@ const keys = ["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
       state.complete = true; state.won = won;
       if (!state.recorded) { store.wordle.stats = store.wordle.stats || {played:0,wins:0}; store.wordle.stats.played++; if(won) store.wordle.stats.wins++; state.recorded=true; }
       performanceTracker?.finish();
+      if(won)showGameCelebration({title:"Wordle solved!",message:`You found ${state.answer} in ${state.guesses.length} ${state.guesses.length===1?"try":"tries"} for ${(state.points||0).toLocaleString()} points.`});
     }
     async function reportCompletion() {
       if (state.reported || !state.complete) return;

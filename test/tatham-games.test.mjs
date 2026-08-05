@@ -72,7 +72,7 @@ test("Minesweeper uses the pinned no-guess engine with canonical presets and res
   assert.match(page,/function normalizeEngineStatus/);
   assert.match(page,/DEAD!/);
   assert.match(page,/COMPLETED!/);
-  assert.match(page,/if\(!state\.failed&&!state\.practice\)\{record\("won"\);void report\("won"\);\}/);
+  assert.match(page,/if\(!state\.failed&&!state\.practice\)\{record\("won"\);[\s\S]*void report\("won"\);\}/);
   assert.match(page,/game:"minesweeper"[\s\S]*scoreBucket:pointsBucket/);
   assert.ok(JSON.parse(lock).targets.includes("mines"));
   assert.match(notices,/`mines`[\s\S]*for Minesweeper/);

@@ -36,6 +36,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Browser interaction is covered by engine, contract, and browser QA.
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { showGameCelebration } from "../../lib/games/celebration";
   import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { pointsBucket } from "../../lib/games/scoring";
   import { canMove2048, create2048Grid, isValid2048Grid, max2048Tile, move2048, spawn2048Tile } from "../../lib/games/game-2048";
@@ -158,6 +159,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
       writeStore();
       performanceTracker?.render();
       render({spawnIndex,mergedIndices:result.mergedIndices});
+      if(outcome==="won")showGameCelebration({title:"2048 reached!",message:`That glorious tile is yours. Board score: ${state.score.toLocaleString()} points.`});
       if(result.gained){score.classList.remove("is-bumped");void score.offsetWidth;score.classList.add("is-bumped");}
       animating=false;
       if(outcome)void reportCompletion(outcome);

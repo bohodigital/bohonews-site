@@ -43,6 +43,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
 <script>
   // @ts-nocheck -- Browser behavior is covered by engine, contract, and visual QA.
   import { attachGamePerformance } from "../../lib/games/performance";
+  import { showGameCelebration } from "../../lib/games/celebration";
   import { confirmProgressLoss } from "../../lib/games/confirm-reset";
   import { connectionsPoints, formatGameTime, pointsBucket } from "../../lib/games/scoring";
   import { CONNECTIONS_PUZZLES, connectionsTerms, evaluateConnection, shuffleConnections, validateConnectionsPuzzle } from "../../lib/games/connections/puzzles";
@@ -101,7 +102,7 @@ import GamesLayout from "../../layouts/GamesLayout.astro";
     function toggle(term){if(state.complete)return;const selected=state.selected.indexOf(term);if(selected>=0)state.selected.splice(selected,1);else if(state.selected.length<4)state.selected.push(term);status.textContent=state.selected.length===4?"Four selected. Submit when the connection feels exact.":"Select four terms that share a connection.";writeStore();render();}
     function record(won){if(state.recorded)return;const gameStats=stats();gameStats.played++;if(won)gameStats.wins++;if(won)gameStats.best=Math.max(gameStats.best,state.points||0);state.recorded=true;store.connections={...(store.connections||{}),current:state,stats:gameStats};}
     async function report(outcome){if(state.reported)return;const submitted=await window.BohoGameStats?.submit({game:"connections",variant:"standard",outcome,scoreBucket:pointsBucket(state.points||0)});if(submitted){state.reported=true;writeStore();}}
-    function finish(won){state.complete=true;state.lost=!won;performanceTracker.finish();state.points=won?connectionsPoints({won:true,mistakes:state.mistakes,elapsedMs:state.timer?.finishedMs||0}):0;record(won);writeStore();render();void report(won?"solved":"lost");}
+    function finish(won){state.complete=true;state.lost=!won;performanceTracker.finish();state.points=won?connectionsPoints({won:true,mistakes:state.mistakes,elapsedMs:state.timer?.finishedMs||0}):0;record(won);writeStore();render();if(won)showGameCelebration({title:"Connections made!",message:`All four groups found${state.mistakes?` with ${state.mistakes} mistake${state.mistakes===1?"":"s"}`:" with a perfect board"}. Final score: ${state.points.toLocaleString()} points.`});void report(won?"solved":"lost");}
     function submitSelection(){
       if(state.selected.length!==4||state.complete)return;const result=evaluateConnection(puzzle(),state.selected,state.solved);
       if(result.group){state.solved.push(result.group.id);state.selected=[];status.textContent=`Correct: ${result.group.label}.`;if(state.solved.length===4){finish(true);return;}}
