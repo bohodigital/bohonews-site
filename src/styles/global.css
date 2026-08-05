@@ -207,6 +207,7 @@ main { margin: 0 auto; max-width: 92rem; padding: 1.35rem clamp(1rem,4vw,3rem) 5
 .latest-wire time { color: var(--accent); font-size: .7rem; font-variant-numeric: tabular-nums; font-weight: 800; }
 .latest-wire li a { font-family: var(--serif); font-size: 1rem; font-weight: 700; line-height: 1.15; text-decoration: none; }
 .latest-wire li span { color: var(--text-muted); font-size: .62rem; grid-column: 2; letter-spacing: .08em; text-transform: uppercase; }
+.latest-wire li > a:first-child,.latest-wire li > a:first-child + span { grid-column: 1 / -1; }
 
 .story-card { min-width: 0; padding: 1rem; }
 .story-card h2 { font-size: clamp(1.35rem,2vw,2rem); }
