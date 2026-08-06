@@ -1,9 +1,9 @@
 {
-  "articleCount": 129,
+  "articleCount": 135,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T22:40:00Z",
-  "mediaCount": 373,
-  "packageDigest": "26cda2488fbf39f115debf2946e2ea02509b68535c001e5450a279e77c3471cc",
+  "generatedAt": "2026-08-06T23:50:42Z",
+  "mediaCount": 391,
+  "packageDigest": "ade5dd8875046db7a3d0cfb0c0324764dfb2e4107753200a5a9fa0f2240f2c9e",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -967,6 +967,37 @@
       "releaseId": "release-pb-20260806t214957z-848b3c493fb9-c9653c30b238",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://fbda2be7.bohonews.pages.dev/",
+      "activationEvidenceHash": "3ee96e4dcb1a8a7efb24c9dd9a0565f974c294bed6c730d9fee261f23bf3ae44",
+      "canonicalFirstPublicAt": "2026-08-06T23:49:59.949Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/brain-immunity-microglia-midlife-shift-study-2026/",
+        "https://bohonews.com/articles/dhs-acquisition-portfolio-cost-growth-oversight-2026/",
+        "https://bohonews.com/articles/national-air-space-museum-five-galleries-2026/",
+        "https://bohonews.com/articles/papua-new-guinea-growth-jobs-gap-2026/",
+        "https://bohonews.com/articles/us-probation-parole-population-2024-bjs/",
+        "https://bohonews.com/articles/world-athletics-u20-athletes-connect-oregon-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-brain-immunity-microglia-midlife-shift-study-2026",
+        "article-dhs-acquisition-portfolio-cost-growth-oversight-2026",
+        "article-national-air-space-museum-five-galleries-2026",
+        "article-papua-new-guinea-growth-jobs-gap-2026",
+        "article-us-probation-parole-population-2024-bjs",
+        "article-world-athletics-u20-athletes-connect-oregon-2026"
+      ],
+      "previousVerifiedDeploymentReference": "ff3a10a03be48f73a58d9bb2d5f14d2e5e9b734945417f4ae00e615e9449af08",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T23:48:26.141011Z",
+      "recordHash": "79c260b8535d42250cc81e0646e2d2ee83264bd0fe9226b35d1214d702c3ab80",
+      "releaseId": "release-pb-20260806t230406z-739d6db88a48-f2874800d053",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -976,7 +1007,9 @@
     "/articles/air-force-women-first-armed-forces-flag-football-title-2026/",
     "/articles/als-blood-protein-panel-predicts-symptom-timing/",
     "/articles/bls-jolts-job-openings-hiring-june-2026/",
+    "/articles/brain-immunity-microglia-midlife-shift-study-2026/",
     "/articles/dea-7-oh-schedule-i-threshold-action-guide/",
+    "/articles/dhs-acquisition-portfolio-cost-growth-oversight-2026/",
     "/articles/doe-grid-congestion-transmission-needs-study-2026/",
     "/articles/doj-task-force-officers-training-misconduct-gao/",
     "/articles/dol-opinion-letters-remote-work-commute-2026/",
@@ -1043,6 +1076,7 @@
     "/articles/nasa-punch-solar-storm-arrival-test-30-minutes/",
     "/articles/nasa-roman-space-telescope-launch-august-30-2026/",
     "/articles/nasa-three-august-2026-spacewalks-iss/",
+    "/articles/national-air-space-museum-five-galleries-2026/",
     "/articles/national-archives-pele-soccer-ball-exhibit-2026/",
     "/articles/national-book-festival-2026-authors-tickets-schedule/",
     "/articles/national-book-festival-2026-more-than-80-authors/",
@@ -1063,6 +1097,7 @@
     "/articles/noaa-weather-models-move-commercial-cloud-2026/",
     "/articles/noaa-week-two-heat-monsoon-drought-august-2026/",
     "/articles/nsf-83-million-ai-ready-scientific-data-systems/",
+    "/articles/papua-new-guinea-growth-jobs-gap-2026/",
     "/articles/pce-prices-consumer-spending-june-2026/",
     "/articles/romorgniz-12-drawer-dresser-recall-10040-2026/",
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
@@ -1083,6 +1118,7 @@
     "/articles/us-gdp-growth-slows-q2-2026/",
     "/articles/us-gdp-growth-slows-second-quarter-2026-advance-estimate/",
     "/articles/us-goods-trade-deficit-june-2026-advance/",
+    "/articles/us-probation-parole-population-2024-bjs/",
     "/articles/usgs-federal-coal-resources-reserves-2026/",
     "/articles/usgs-low-level-geophysical-flights-eastern-kansas/",
     "/articles/western-us-heat-dome-records-july-2026/",
@@ -1093,6 +1129,7 @@
     "/articles/who-protect-drowning-prevention-strategies-2026/",
     "/articles/work-training-americans-born-1980-1984/",
     "/articles/world-athletics-ratifies-eight-records-2026/",
+    "/articles/world-athletics-u20-athletes-connect-oregon-2026/",
     "/articles/world-bank-china-partnership-framework-2026-2031/",
     "/articles/world-bank-pakistan-grid-wind-power-2026/",
     "/articles/world-bank-philippines-energy-water-financing-2026/",

@@ -869,6 +869,159 @@
       "updatedAt": "2026-08-06T08:17:57.571Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The immune-cell landscape of the human hippocampus appears to reorganize substantially beginning in midlife, according to an NIH-supported study that combined single-cell measurements across postmortem tissue from 40 adults.\n\nThe donors were neurologically healthy and ranged from age 20 to 95. Researchers focused on the hippocampus, a region central to learning and memory, and examined cells one at a time rather than averaging signals across whole tissue samples.\n\nResident immune cells called microglia progressively declined between roughly ages 50 and 75. At the same time, cells with stronger inflammatory signatures and features resembling immune cells derived from peripheral blood became more prominent.\n\nThe team paired gene-expression data with the epigenome—the chemical marks that help regulate genes—and the genome’s three-dimensional architecture. That combination let researchers compare what a cell was doing with molecular clues about its identity and lineage.\n\nOther age-linked changes appeared beyond microglia. Cells involved in maintaining the blood-brain barrier deteriorated, and multiple brain-cell types showed coordinated disruption in genome architecture and gene regulation.\n\nThe results challenge the longstanding assumption that microglia established during embryonic development simply renew themselves throughout life without a major lineage transition. They do not, however, show why the resident cells decline or where every replacement cell originates.\n\nThe study also does not prove a cause of dementia. Postmortem tissue provides a detailed cross-sectional comparison across ages, not a movie of cellular change within the same person, and all 40 donors were described as neurologically healthy.\n\nResearchers plan to test whether the transition contributes directly to Alzheimer’s disease or other age-related neurological conditions. That causal step is essential before the finding can support a treatment claim or clinical recommendation.\n\nThe paper, published in Science under DOI 10.1126/science.adt8307, therefore adds a new candidate mechanism to brain aging: a midlife change in immune-cell identity accompanied by inflammatory and genomic remodeling, documented in human tissue but still awaiting disease-specific validation.",
+      "bodyBlocks": [
+        {
+          "text": "The immune-cell landscape of the human hippocampus appears to reorganize substantially beginning in midlife, according to an NIH-supported study that combined single-cell measurements across postmortem tissue from 40 adults.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The donors were neurologically healthy and ranged from age 20 to 95. Researchers focused on the hippocampus, a region central to learning and memory, and examined cells one at a time rather than averaging signals across whole tissue samples.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Resident immune cells called microglia progressively declined between roughly ages 50 and 75. At the same time, cells with stronger inflammatory signatures and features resembling immune cells derived from peripheral blood became more prominent.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows a 40-adult postmortem hippocampus study spanning ages 20 to 95 and using single-cell, epigenomic and 3D genome methods.",
+          "caption": "The study combined several single-cell methods in postmortem hippocampal tissue from 40 neurologically healthy adults.",
+          "credit": "Boho News graphic from NIH and Science",
+          "height": 900,
+          "rightsId": "media-brain-immunity-cohort-2026",
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/brain-immunity-may-undergo-major-midlife-overhaul",
+          "src": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-cohort-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The team paired gene-expression data with the epigenome—the chemical marks that help regulate genes—and the genome’s three-dimensional architecture. That combination let researchers compare what a cell was doing with molecular clues about its identity and lineage.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Other age-linked changes appeared beyond microglia. Cells involved in maintaining the blood-brain barrier deteriorated, and multiple brain-cell types showed coordinated disruption in genome architecture and gene regulation.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The results challenge the longstanding assumption that microglia established during embryonic development simply renew themselves throughout life without a major lineage transition. They do not, however, show why the resident cells decline or where every replacement cell originates.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic says resident microglia declined between roughly ages 50 and 75, inflammatory signatures rose and causation for dementia remains unproved.",
+          "caption": "Researchers found a midlife immune-cell transition, but the study did not establish that it causes dementia.",
+          "credit": "Boho News graphic from NIH and Science",
+          "height": 900,
+          "rightsId": "media-brain-immunity-transition-2026",
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/brain-immunity-may-undergo-major-midlife-overhaul",
+          "src": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-transition-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The study also does not prove a cause of dementia. Postmortem tissue provides a detailed cross-sectional comparison across ages, not a movie of cellular change within the same person, and all 40 donors were described as neurologically healthy.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Researchers plan to test whether the transition contributes directly to Alzheimer’s disease or other age-related neurological conditions. That causal step is essential before the finding can support a treatment claim or clinical recommendation.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The paper, published in Science under DOI 10.1126/science.adt8307, therefore adds a new candidate mechanism to brain aging: a midlife change in immune-cell identity accompanied by inflammatory and genomic remodeling, documented in human tissue but still awaiting disease-specific validation.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/brain-immunity-microglia-midlife-shift-study-2026/",
+      "citations": [
+        {
+          "id": "source-nih-brain-immunity-20260723",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "National Institutes of Health",
+          "title": "Brain immunity may undergo a major midlife overhaul",
+          "url": "https://www.nih.gov/news-events/news-releases/brain-immunity-may-undergo-major-midlife-overhaul"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Researchers analyzed postmortem hippocampal tissue from 40 neurologically healthy adults ages 20 to 95.",
+        "The team combined single-cell gene-expression analysis with epigenomic and three-dimensional genome measurements.",
+        "Resident microglia progressively declined between approximately ages 50 and 75.",
+        "Cells with elevated inflammatory signatures and features resembling blood-derived immune cells became more prominent.",
+        "Cells that maintain the blood-brain barrier deteriorated with age, and genome architecture was disrupted across multiple brain-cell types.",
+        "The study was published in Science with DOI 10.1126/science.adt8307.",
+        "Future work is needed to determine whether the transition contributes directly to Alzheimer’s disease or other disorders."
+      ],
+      "corrections": [],
+      "dek": "A 40-person postmortem study found resident microglia declining from roughly ages 50 to 75, alongside stronger inflammatory signatures—but not proof of dementia causation.",
+      "desk": "neuroscience",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institutes of Health",
+        "National Institute on Aging",
+        "University of California San Diego",
+        "New York Genome Center",
+        "University of California Irvine"
+      ],
+      "eventId": "event-brain-immunity-microglia-midlife-shift-study-2026",
+      "headline": "Brain Immune Cells Shift Sharply From Midlife, Human Study Finds",
+      "id": "article-brain-immunity-microglia-midlife-shift-study-2026",
+      "leadImage": {
+        "alt": "A histology technician in a white coat prepares a very thin tissue sample beside laboratory equipment.",
+        "caption": "A histology technician prepares a tissue section for microscopy. An NIH-supported study analyzed postmortem hippocampal tissue from 40 adults to map immune-cell changes across aging.",
+        "credit": "Marcy Sanchez/U.S. Army",
+        "height": 900,
+        "rightsId": "media-brain-aging-histology-lab-2018",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-aging-histology-lab-2018/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T23:49:59.949Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t230406z-739d6db88a48-f2874800d053",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NIH-backed study of 40 adults finds resident microglia decline from roughly ages 50–75 as inflammatory immune signatures increase.",
+        "index": true,
+        "title": "Brain immunity microglia shift in midlife study"
+      },
+      "section": "health-science",
+      "slug": "brain-immunity-microglia-midlife-shift-study-2026",
+      "social": {
+        "description": "A 40-person postmortem study found resident microglia declining from roughly ages 50 to 75, alongside stronger inflammatory signatures—but not proof of dementia causation.",
+        "image": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-aging-histology-lab-2018/open-graph.webp",
+        "title": "A human brain study maps an unexpected midlife immune-cell shift"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Brain aging",
+        "Microglia",
+        "Neuroinflammation",
+        "Hippocampus",
+        "Epigenomics",
+        "Dementia research"
+      ],
+      "uncertainty": [
+        "The study used postmortem tissue from 40 adults and cannot establish how cells changed within the same living person over time.",
+        "It found an association with aging, not proof that the immune-cell transition causes Alzheimer’s disease, dementia or cognitive decline.",
+        "The tissue came from neurologically healthy donors, so disease mechanisms require separate testing."
+      ],
+      "updatedAt": "2026-08-06T23:49:59.949Z"
+    },
+    {
       "articleType": "explainer",
       "authors": [
         "Boho News Editorial Desk"
@@ -1450,6 +1603,158 @@
         "The downstream effects on dependent consumers, illicit supply and research remain uncertain."
       ],
       "updatedAt": "2026-08-02T00:37:19.654Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Department of Homeland Security plans more than $55 billion in major acquisitions, but the approved cost baselines for 19 programs have collectively risen $11.4 billion from their original plans, according to the Government Accountability Office’s annual review.\n\nGAO selected 27 of the department’s largest programs, generally those expected to cost more than $300 million. Nineteen had reached the point where DHS had approved baseline goals for cost, schedule and performance; the other eight were not yet required to have that approval.\n\nFifteen of the 19 baselined programs had revised their goals at least once by Sept. 30, 2025. The collective increase was 26 percent, and most revised programs delayed their plans for delivering full capability. A revised baseline resets the comparison point, so current compliance does not erase growth from the first plan.\n\nEighteen programs were meeting their most recent baselines. The exception was the Coast Guard’s Offshore Patrol Cutter, which was working toward another revision to reflect schedule delays and cost increases. GAO’s finding therefore combines broad compliance with revised plans and substantial accumulated growth.\n\nStaffing added a second risk. Eight programs lost at least 20 percent of their staff during fiscal 2025, reductions GAO said removed subject-matter expertise and technical skills that programs need to reach future milestones.\n\nDepartment-level oversight also changed. DHS dissolved the office responsible for major-acquisition oversight in October 2025 and moved some responsibilities elsewhere. Officials were still uncertain in January about the level of central review that would continue; at least one part of the office was reconstituted in May.\n\nNew money is arriving during that transition. Twelve of the 27 programs expected at least $14 billion from the 2025 Budget Reconciliation Act, with most directed toward Coast Guard and Customs and Border Protection work.\n\nThe figures describe different layers of the portfolio. More than $55 billion is planned investment, $11.4 billion is growth against first baselines for the 19 analyzed programs, and $14 billion is expected supplemental funding for 12 programs. They should not be added as if they were one budget total.\n\nGAO made no claim that every program is failing. Its warning is structural: revised baselines, staffing losses, a changing oversight chain and a large funding increase are converging, making consistent cost and schedule control harder precisely when the portfolio is expanding.",
+      "bodyBlocks": [
+        {
+          "text": "The Department of Homeland Security plans more than $55 billion in major acquisitions, but the approved cost baselines for 19 programs have collectively risen $11.4 billion from their original plans, according to the Government Accountability Office’s annual review.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO selected 27 of the department’s largest programs, generally those expected to cost more than $300 million. Nineteen had reached the point where DHS had approved baseline goals for cost, schedule and performance; the other eight were not yet required to have that approval.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Fifteen of the 19 baselined programs had revised their goals at least once by Sept. 30, 2025. The collective increase was 26 percent, and most revised programs delayed their plans for delivering full capability. A revised baseline resets the comparison point, so current compliance does not erase growth from the first plan.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows more than $55 billion in planned DHS acquisitions, $11.4 billion in baseline cost growth and a 26 percent increase.",
+          "caption": "DHS plans more than $55 billion for its major-acquisition portfolio; costs across 19 baselined programs rose 26 percent from their first baselines.",
+          "credit": "Boho News graphic from GAO-26-108118",
+          "height": 900,
+          "rightsId": "media-dhs-acquisition-costs-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108118",
+          "src": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-costs-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Eighteen programs were meeting their most recent baselines. The exception was the Coast Guard’s Offshore Patrol Cutter, which was working toward another revision to reflect schedule delays and cost increases. GAO’s finding therefore combines broad compliance with revised plans and substantial accumulated growth.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Staffing added a second risk. Eight programs lost at least 20 percent of their staff during fiscal 2025, reductions GAO said removed subject-matter expertise and technical skills that programs need to reach future milestones.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Department-level oversight also changed. DHS dissolved the office responsible for major-acquisition oversight in October 2025 and moved some responsibilities elsewhere. Officials were still uncertain in January about the level of central review that would continue; at least one part of the office was reconstituted in May.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic says eight programs lost at least 20 percent of staff, DHS dissolved its oversight office in October 2025 and 12 programs expect at least $14 billion in new funding.",
+          "caption": "Staff reductions, an oversight reorganization and new funding changed the risk environment around the DHS portfolio.",
+          "credit": "Boho News graphic from GAO-26-108118",
+          "height": 900,
+          "rightsId": "media-dhs-acquisition-oversight-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108118",
+          "src": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-oversight-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "New money is arriving during that transition. Twelve of the 27 programs expected at least $14 billion from the 2025 Budget Reconciliation Act, with most directed toward Coast Guard and Customs and Border Protection work.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The figures describe different layers of the portfolio. More than $55 billion is planned investment, $11.4 billion is growth against first baselines for the 19 analyzed programs, and $14 billion is expected supplemental funding for 12 programs. They should not be added as if they were one budget total.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO made no claim that every program is failing. Its warning is structural: revised baselines, staffing losses, a changing oversight chain and a large funding increase are converging, making consistent cost and schedule control harder precisely when the portfolio is expanding.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/dhs-acquisition-portfolio-cost-growth-oversight-2026/",
+      "citations": [
+        {
+          "id": "source-gao-dhs-acquisitions-20260609",
+          "publishedAt": "2026-06-09T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "DHS Annual Assessment: Dynamic Environment Affects Efforts to Manage Acquisition Risks",
+          "url": "https://www.gao.gov/products/gao-26-108118"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "DHS plans to invest more than $55 billion in its current portfolio of major acquisition programs.",
+        "GAO selected 27 of DHS’s largest acquisition programs and analyzed 19 that had approved acquisition baselines.",
+        "Fifteen of the 19 baselined programs had revised their goals, and projected baseline costs collectively increased $11.4 billion, or 26 percent.",
+        "Eighteen of the 19 programs were meeting their most recent baselines; the Offshore Patrol Cutter was pursuing another revision.",
+        "Eight programs lost at least 20 percent of staff during fiscal 2025.",
+        "DHS dissolved its department-level acquisition oversight office in October 2025 and reconstituted at least one part in May 2026.",
+        "Twelve programs expected at least $14 billion from the 2025 Budget Reconciliation Act."
+      ],
+      "corrections": [],
+      "dek": "GAO found $11.4 billion in baseline cost growth, major staffing losses at eight programs and an oversight office dissolved before part of it returned.",
+      "desk": "homeland-security-accountability",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Department of Homeland Security",
+        "U.S. Coast Guard",
+        "U.S. Customs and Border Protection"
+      ],
+      "eventId": "event-dhs-acquisition-portfolio-cost-growth-oversight-2026",
+      "headline": "DHS Acquisition Portfolio Tops $55 Billion as Oversight Shifts",
+      "id": "article-dhs-acquisition-portfolio-cost-growth-oversight-2026",
+      "leadImage": {
+        "alt": "A Coast Guard contracting officer signs acceptance documents on a cutter while uniformed crew members watch.",
+        "caption": "A Coast Guard contracting officer signs delivery papers for the service’s 62nd fast response cutter in February 2026. GAO’s portfolio review found $11.4 billion in baseline cost growth across 19 DHS programs.",
+        "credit": "U.S. Coast Guard",
+        "height": 900,
+        "rightsId": "media-dhs-cutter-delivery-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-cutter-delivery-2026/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T23:49:59.949Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t230406z-739d6db88a48-f2874800d053",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says DHS major acquisitions exceed $55 billion after $11.4 billion in baseline growth as staff and oversight structures change.",
+        "index": true,
+        "title": "DHS acquisition portfolio cost growth and oversight"
+      },
+      "section": "investigations",
+      "slug": "dhs-acquisition-portfolio-cost-growth-oversight-2026",
+      "social": {
+        "description": "GAO found $11.4 billion in baseline cost growth, major staffing losses at eight programs and an oversight office dissolved before part of it returned.",
+        "image": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-cutter-delivery-2026/open-graph.webp",
+        "title": "DHS acquisitions pass $55 billion amid staffing and oversight shifts"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Department of Homeland Security",
+        "Federal acquisitions",
+        "Coast Guard",
+        "Customs and Border Protection",
+        "Program oversight",
+        "Government accountability"
+      ],
+      "uncertainty": [
+        "The $55 billion figure is planned investment in the current major-acquisition portfolio, not a single-year appropriation.",
+        "A program meeting its revised baseline may still be more expensive or later than its original plan.",
+        "Future oversight arrangements and funding effects remain under review."
+      ],
+      "updatedAt": "2026-08-06T23:49:59.949Z"
     },
     {
       "articleType": "news-report",
@@ -14272,6 +14577,155 @@
       "authors": [
         "Boho News Staff"
       ],
+      "body": "The Smithsonian’s National Air and Space Museum opened five renovated galleries on July 1, exactly 50 years after its National Mall building first welcomed visitors in Washington.\n\nThe opening is the third major phase of a renovation that redesigns all 20 galleries while replacing exterior cladding, aging mechanical systems and other building infrastructure. Two remaining renovated galleries are scheduled to open in fall 2026.\n\nThe five new spaces cover a broad arc: the Flight and the Arts Center; Jay I. Kislak World War II in the Air; U.S. National Science Foundation Discovering Our Universe; RTX Living in the Space Age; and TEXTRON How Things Fly.\n\nThe artifact list mixes familiar icons with objects displayed in new contexts. It includes an Il-2 Shturmovik, Blue Origin New Shepard rocket, North American P-51D Mustang, Messerschmitt Bf 109 G-6, the Hubble Space Telescope, Skylab and an instrument used by Vera Rubin in evidence for dark matter.\n\nHow Things Fly is built around participation. The redesigned gallery includes nearly 50 interactives and a Cessna Skyhawk visitors can sit in while exploring how forces act on aircraft and spacecraft.\n\nThe arts center opens with two exhibitions, including a Robert Rauschenberg show focused on flight and a broader presentation of artistic interpretations of air and space. That makes art a permanent part of the building’s new interpretive structure rather than a side program.\n\nThe renovation has opened in stages. Eight new or reimagined exhibitions, the planetarium, shop and café returned in October 2022. Five more exhibitions opened in July 2025. The latest five bring most of the building back before the final pair arrives.\n\nAdmission to the Washington museum remains free, but timed-entry passes are required. The separate Steven F. Udvar-Hazy Center in Chantilly does not require timed passes, though parking is paid.\n\nThe anniversary is therefore both a celebration and a construction marker. The museum can now show more of its national aerospace collection in redesigned galleries, while its own schedule makes clear that full completion depends on the two fall openings.",
+      "bodyBlocks": [
+        {
+          "text": "The Smithsonian’s National Air and Space Museum opened five renovated galleries on July 1, exactly 50 years after its National Mall building first welcomed visitors in Washington.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The opening is the third major phase of a renovation that redesigns all 20 galleries while replacing exterior cladding, aging mechanical systems and other building infrastructure. Two remaining renovated galleries are scheduled to open in fall 2026.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The five new spaces cover a broad arc: the Flight and the Arts Center; Jay I. Kislak World War II in the Air; U.S. National Science Foundation Discovering Our Universe; RTX Living in the Space Age; and TEXTRON How Things Fly.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic says five galleries opened July 1, two more are due in fall and all 20 galleries are included in the renovation.",
+          "caption": "Five galleries opened on the building’s 50th anniversary; two remaining renovated galleries are scheduled for fall.",
+          "credit": "Boho News graphic from Smithsonian National Air and Space Museum",
+          "height": 900,
+          "rightsId": "media-air-space-five-galleries-2026",
+          "sourceUrl": "https://airandspace.si.edu/newsroom/press-releases/national-air-and-space-museum-celebrates-50-years-opening-five-new",
+          "src": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-five-galleries-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The artifact list mixes familiar icons with objects displayed in new contexts. It includes an Il-2 Shturmovik, Blue Origin New Shepard rocket, North American P-51D Mustang, Messerschmitt Bf 109 G-6, the Hubble Space Telescope, Skylab and an instrument used by Vera Rubin in evidence for dark matter.",
+          "type": "paragraph"
+        },
+        {
+          "text": "How Things Fly is built around participation. The redesigned gallery includes nearly 50 interactives and a Cessna Skyhawk visitors can sit in while exploring how forces act on aircraft and spacecraft.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The arts center opens with two exhibitions, including a Robert Rauschenberg show focused on flight and a broader presentation of artistic interpretations of air and space. That makes art a permanent part of the building’s new interpretive structure rather than a side program.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic groups the new galleries into hands-on flight science, space technology, aviation history and art.",
+          "caption": "The July openings span flight science, space technology, military aviation history and art.",
+          "credit": "Boho News graphic from Smithsonian National Air and Space Museum",
+          "height": 900,
+          "rightsId": "media-air-space-gallery-themes-2026",
+          "sourceUrl": "https://airandspace.si.edu/newsroom/press-releases/national-air-and-space-museum-celebrates-50-years-opening-five-new",
+          "src": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-gallery-themes-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The renovation has opened in stages. Eight new or reimagined exhibitions, the planetarium, shop and café returned in October 2022. Five more exhibitions opened in July 2025. The latest five bring most of the building back before the final pair arrives.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Admission to the Washington museum remains free, but timed-entry passes are required. The separate Steven F. Udvar-Hazy Center in Chantilly does not require timed passes, though parking is paid.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The anniversary is therefore both a celebration and a construction marker. The museum can now show more of its national aerospace collection in redesigned galleries, while its own schedule makes clear that full completion depends on the two fall openings.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/national-air-space-museum-five-galleries-2026/",
+      "citations": [
+        {
+          "id": "source-smithsonian-air-space-galleries-20260623",
+          "publishedAt": "2026-06-23T14:00:00Z",
+          "publisher": "Smithsonian National Air and Space Museum",
+          "title": "National Air and Space Museum Celebrates 50 Years With Opening of Five New Galleries",
+          "url": "https://airandspace.si.edu/newsroom/press-releases/national-air-and-space-museum-celebrates-50-years-opening-five-new"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The National Air and Space Museum opened five renovated galleries on July 1, 2026, the National Mall building’s 50th anniversary.",
+        "The remaining two renovated galleries are scheduled to open in fall 2026.",
+        "The multi-year project redesigns all 20 galleries and includes exterior cladding, mechanical systems and entry improvements.",
+        "The July galleries are Flight and the Arts Center, World War II in the Air, Discovering Our Universe, Living in the Space Age and How Things Fly.",
+        "Artifacts include the Il-2 Shturmovik, Blue Origin New Shepard rocket, P-51D Mustang, Messerschmitt Bf 109 G-6, Hubble Space Telescope and Skylab.",
+        "How Things Fly includes nearly 50 interactives and a Cessna Skyhawk visitors can sit in."
+      ],
+      "corrections": [],
+      "dek": "The July reopening covers flight science, space technology, military aviation and art; two final renovated galleries are due this fall.",
+      "desk": "museums-and-exhibitions",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Smithsonian National Air and Space Museum",
+        "National Science Foundation"
+      ],
+      "eventId": "event-national-air-space-museum-five-galleries-2026",
+      "headline": "Air and Space Museum Opens 5 Galleries for Its 50th Anniversary",
+      "id": "article-national-air-space-museum-five-galleries-2026",
+      "leadImage": {
+        "alt": "Three women speak in front of a black jet displayed inside the National Air and Space Museum.",
+        "caption": "Visitors and Air Force guests stand beside an aircraft inside the National Air and Space Museum in 2018. Five renovated galleries opened at the National Mall building on its 50th anniversary.",
+        "credit": "Jessica Cicchetto/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-air-space-museum-gallery-2018",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-museum-gallery-2018/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington, D.C.",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T23:49:59.949Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t230406z-739d6db88a48-f2874800d053",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Smithsonian’s Air and Space Museum opened five renovated galleries on its 50th anniversary, with two final galleries due in fall 2026.",
+        "index": true,
+        "title": "Air and Space Museum new galleries 2026"
+      },
+      "section": "culture",
+      "slug": "national-air-space-museum-five-galleries-2026",
+      "social": {
+        "description": "The July reopening covers flight science, space technology, military aviation and art; two final renovated galleries are due this fall.",
+        "image": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-museum-gallery-2018/open-graph.webp",
+        "title": "Five new Air and Space Museum galleries span flight, space and art"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "National Air and Space Museum",
+        "Smithsonian",
+        "Museum renovation",
+        "Aviation history",
+        "Space exploration",
+        "Washington museums"
+      ],
+      "uncertainty": [
+        "Two galleries remain scheduled for fall 2026, so the multi-year renovation is not yet fully complete.",
+        "Individual artifacts and interactive components may be unavailable temporarily for maintenance or operations."
+      ],
+      "updatedAt": "2026-08-06T23:49:59.949Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
       "body": "A soccer ball that Pelé presented to President Gerald Ford in 1975 is the centerpiece of a new temporary display at the National Archives Museum in Washington.\n\n“The Beautiful Game” runs from July 6 through August 19 in the museum’s West Rotunda Gallery. The compact exhibit connects one object to a moment when Pelé’s arrival in the North American Soccer League was helping draw new attention to the sport in the United States.\n\nPelé visited the White House on June 28, 1975, while the New York Cosmos were in Washington to play the Washington Diplomats. In the Rose Garden, Ford tried juggling the ball as Pelé watched, and official White House photographers preserved the exchange.\n\nThe ball itself carries another layer of local history: players from the 1975 Washington Diplomats signed it. The Archives’ exhibit page does not identify every signature, so the object should be read as a team artifact rather than a complete roster key.\n\nPelé had joined the Cosmos earlier that year after a celebrated career with Santos and Brazil. His U.S. appearances became cultural events as well as matches, drawing political leaders and people who had rarely followed professional soccer.\n\nThe Ford visit is part of a broader presidential record in the Archives. Photographs also show Pelé autographing a ball for President Richard Nixon in 1973, meeting President Jimmy Carter in 1977 and joining President Ronald Reagan and Brazilian President José Sarney at a 1986 state dinner.\n\nThose images are not interchangeable with the exhibit object. The displayed ball is tied specifically to the 1975 Cosmos trip, the Washington Diplomats signatures and Ford’s Rose Garden exchange. The other photographs document how Pelé’s public role extended across administrations.\n\nThe National Archives preserves presidential photographs and objects as federal records, allowing the public to trace not only official policy but the cultural diplomacy surrounding athletes, artists and visiting figures.\n\nFor visitors, the useful detail is the short window. The ball is scheduled to remain on view through August 19, after which the temporary display closes. The National Archives Museum lists admission as free, with timed-entry reservations recommended.",
       "bodyBlocks": [
         {
@@ -17469,6 +17923,156 @@
         "Expected improvements in discovery and reproducibility depend on implementation, adoption and long-term operation."
       ],
       "updatedAt": "2026-08-06T14:55:38.035Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Papua New Guinea’s economy expanded 5.6 percent in 2025, one of the strongest rates in the Pacific, but formal employment per person continued to decline, according to a new World Bank economic update.\n\nThe rebound was supported by gold and liquefied-natural-gas production and exchange-rate reforms that improved conditions beyond the resource sector. Headline growth, however, did not produce enough secure work for the country’s fast-growing labor force.\n\nThe World Bank found that many new workers entered subsistence farming or informal activity instead of formal jobs. That makes the central policy problem a conversion gap: resource-led output is rising faster than the number of documented, stable employment opportunities.\n\nAgribusiness is the report’s largest quantified opportunity. Stronger agricultural value chains could generate about 330,000 additional formal jobs over the next decade, reduce poverty by roughly five percentage points and lift an estimated half-million people out of poverty.\n\nThose figures are a modeled scenario, not current results. Reaching them would require productivity, processing, market access and investment improvements across value chains; none of the 330,000 jobs should be counted before they exist.\n\nThe report organizes its response around three areas. The first is stronger infrastructure and human capital. The second is a more predictable business environment and better economic governance. The third is mobilizing private capital while using resource revenue more effectively.\n\nRoads, electricity and digital connectivity are especially important outside Port Moresby and Lae. Nutrition, education and skills investment are the other side of the same constraint because firms need both reliable infrastructure and workers prepared for more productive employment.\n\nLarge resource projects could add momentum, including Papua LNG and Wafi-Golpu. They also sharpen the revenue question: agreements and public institutions have to convert resource income into national priorities if extraction is to support broader employment rather than another isolated growth cycle.\n\nThe report’s message is therefore not that growth is unreal. The 5.6 percent expansion is the starting fact. The warning is that GDP, formal employment and household welfare are moving on different tracks—and that infrastructure, agribusiness and governance determine whether they converge.",
+      "bodyBlocks": [
+        {
+          "text": "Papua New Guinea’s economy expanded 5.6 percent in 2025, one of the strongest rates in the Pacific, but formal employment per person continued to decline, according to a new World Bank economic update.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The rebound was supported by gold and liquefied-natural-gas production and exchange-rate reforms that improved conditions beyond the resource sector. Headline growth, however, did not produce enough secure work for the country’s fast-growing labor force.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The World Bank found that many new workers entered subsistence farming or informal activity instead of formal jobs. That makes the central policy problem a conversion gap: resource-led output is rising faster than the number of documented, stable employment opportunities.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 5.6 percent economic growth in 2025, declining formal employment per capita and a three-part jobs agenda.",
+          "caption": "Papua New Guinea grew rapidly in 2025, but formal employment per person continued to fall.",
+          "credit": "Boho News graphic from World Bank economic update",
+          "height": 900,
+          "rightsId": "media-png-growth-jobs-gap-2026",
+          "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/02/papua-new-guinea-s-economy-grows-but-jobs-gap-remains",
+          "src": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-growth-jobs-gap-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Agribusiness is the report’s largest quantified opportunity. Stronger agricultural value chains could generate about 330,000 additional formal jobs over the next decade, reduce poverty by roughly five percentage points and lift an estimated half-million people out of poverty.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Those figures are a modeled scenario, not current results. Reaching them would require productivity, processing, market access and investment improvements across value chains; none of the 330,000 jobs should be counted before they exist.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The report organizes its response around three areas. The first is stronger infrastructure and human capital. The second is a more predictable business environment and better economic governance. The third is mobilizing private capital while using resource revenue more effectively.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows a World Bank scenario with 330,000 formal jobs, a five-point poverty reduction and 500,000 people lifted from poverty.",
+          "caption": "The World Bank estimates stronger agricultural value chains could create 330,000 formal jobs over a decade.",
+          "credit": "Boho News graphic from World Bank economic update",
+          "height": 900,
+          "rightsId": "media-png-agribusiness-potential-2026",
+          "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/02/papua-new-guinea-s-economy-grows-but-jobs-gap-remains",
+          "src": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-agribusiness-potential-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Roads, electricity and digital connectivity are especially important outside Port Moresby and Lae. Nutrition, education and skills investment are the other side of the same constraint because firms need both reliable infrastructure and workers prepared for more productive employment.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Large resource projects could add momentum, including Papua LNG and Wafi-Golpu. They also sharpen the revenue question: agreements and public institutions have to convert resource income into national priorities if extraction is to support broader employment rather than another isolated growth cycle.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The report’s message is therefore not that growth is unreal. The 5.6 percent expansion is the starting fact. The warning is that GDP, formal employment and household welfare are moving on different tracks—and that infrastructure, agribusiness and governance determine whether they converge.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/papua-new-guinea-growth-jobs-gap-2026/",
+      "citations": [
+        {
+          "id": "source-world-bank-png-jobs-20260702",
+          "publishedAt": "2026-07-02T12:00:00Z",
+          "publisher": "World Bank",
+          "title": "Papua New Guinea’s Economy Grows, but Jobs Gap Remains",
+          "url": "https://www.worldbank.org/en/news/press-release/2026/07/02/papua-new-guinea-s-economy-grows-but-jobs-gap-remains"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Papua New Guinea’s economy expanded by 5.6 percent in 2025.",
+        "The World Bank attributed the expansion to strong gold and LNG production alongside exchange-rate reforms.",
+        "Formal employment per capita declined, with many new workers entering subsistence agriculture and informal work.",
+        "The report proposes a three-part jobs agenda covering infrastructure and human capital, the business environment and economic governance, and private capital.",
+        "The World Bank estimates stronger agricultural value chains could generate about 330,000 formal jobs over a decade.",
+        "The same scenario could reduce poverty by about five percentage points and lift an estimated 500,000 people out of poverty."
+      ],
+      "corrections": [],
+      "dek": "A World Bank update says stronger agricultural value chains could create 330,000 formal jobs over a decade, if infrastructure and business constraints ease.",
+      "desk": "pacific-economies",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Bank",
+        "Government of Papua New Guinea"
+      ],
+      "eventId": "event-papua-new-guinea-growth-jobs-gap-2026",
+      "headline": "Papua New Guinea Grew 5.6%—but Formal Jobs Per Person Fell",
+      "id": "article-papua-new-guinea-growth-jobs-gap-2026",
+      "leadImage": {
+        "alt": "Two water specialists work beside portable purification equipment at a Papua New Guinea facility before sunrise.",
+        "caption": "Water specialists assemble and operate purification equipment in Port Moresby in 2016. The World Bank says weak infrastructure remains a constraint on Papua New Guinea’s job creation.",
+        "credit": "William Hester/U.S. Marine Corps",
+        "height": 900,
+        "rightsId": "media-png-water-infrastructure-2016",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-water-infrastructure-2016/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Papua New Guinea",
+        "Port Moresby",
+        "Lae"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T23:49:59.949Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t230406z-739d6db88a48-f2874800d053",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "World Bank says Papua New Guinea grew 5.6% in 2025 while formal jobs per capita fell; agribusiness could add 330,000 jobs.",
+        "index": true,
+        "title": "Papua New Guinea growth and jobs gap 2026"
+      },
+      "section": "world",
+      "slug": "papua-new-guinea-growth-jobs-gap-2026",
+      "social": {
+        "description": "A World Bank update says stronger agricultural value chains could create 330,000 formal jobs over a decade, if infrastructure and business constraints ease.",
+        "image": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-water-infrastructure-2016/open-graph.webp",
+        "title": "Papua New Guinea’s growth is not yet becoming enough formal jobs"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Papua New Guinea",
+        "Employment",
+        "Economic growth",
+        "Agribusiness",
+        "Infrastructure",
+        "Poverty reduction"
+      ],
+      "uncertainty": [
+        "The agribusiness employment and poverty figures are modeled possibilities, not jobs already created or measured outcomes.",
+        "Commodity production and planned resource projects expose future growth to prices, project timing and revenue-management decisions."
+      ],
+      "updatedAt": "2026-08-06T23:49:59.949Z"
     },
     {
       "articleType": "data-report",
@@ -20859,6 +21463,155 @@
       "authors": [
         "Boho News Staff"
       ],
+      "body": "An estimated 3,681,900 adults were on probation or parole in the United States at the end of 2024, the Bureau of Justice Statistics reported, extending a decade-long contraction in the community-supervision population.\n\nAmong agencies with comparable beginning- and end-of-year data, the total fell by 15,000 people, or 0.4 percent, during 2024. BJS uses comparable agencies for the change calculation so shifts in who reported do not masquerade as a national trend.\n\nThe longer movement is much larger. From year-end 2014 through year-end 2024, the comparable population under probation or parole declined 24 percent. That measure tracks adults supervised in the community rather than people held in prisons or local jails.\n\nProbation turned downward after two years of increases. The estimated probation population moved from 3,036,700 on Jan. 1 to 3,030,500 on Dec. 31, a decline of 6,200 and the first annual decrease since 2021.\n\nProbation and parole are related but distinct. Probation generally places a person under court-ordered supervision in the community, while parole follows release from incarceration. The combined headline number is useful for scale but does not make the two systems interchangeable.\n\nThe report also describes movements onto and off supervision and categories of exit, including completion, incarceration, absconding and other unsatisfactory outcomes. Those details help distinguish a falling caseload from a claim that every exit represents successful completion.\n\nBJS based the estimates on the Annual Probation Survey and Annual Parole Survey, administrative collections that cover all 50 states, the federal system and the District of Columbia. The 2024 publication is the 33rd report in a series that began in 1981.\n\nAdministrative data have limits. The national total is an estimate, and annual-change calculations depend on consistent reports from participating agencies. The data do not by themselves explain why caseloads changed or measure recidivism, service quality or the intensity of supervision.\n\nThe clearest conclusion is one of scale and direction: community supervision still touches about 3.7 million adults, but the comparable population is smaller than a year earlier and roughly one-quarter below its level a decade ago.",
+      "bodyBlocks": [
+        {
+          "text": "An estimated 3,681,900 adults were on probation or parole in the United States at the end of 2024, the Bureau of Justice Statistics reported, extending a decade-long contraction in the community-supervision population.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Among agencies with comparable beginning- and end-of-year data, the total fell by 15,000 people, or 0.4 percent, during 2024. BJS uses comparable agencies for the change calculation so shifts in who reported do not masquerade as a national trend.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The longer movement is much larger. From year-end 2014 through year-end 2024, the comparable population under probation or parole declined 24 percent. That measure tracks adults supervised in the community rather than people held in prisons or local jails.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 3,681,900 adults under probation or parole at year-end 2024, a 15,000-person or 0.4 percent annual decline among comparable agencies.",
+          "caption": "The community-supervision population fell modestly during 2024 among comparable reporting agencies.",
+          "credit": "Boho News graphic from Bureau of Justice Statistics",
+          "height": 900,
+          "rightsId": "media-community-supervision-count-2024",
+          "sourceUrl": "https://bjs.ojp.gov/library/publications/probation-and-parole-united-states-2024",
+          "src": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-count-2024/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Probation turned downward after two years of increases. The estimated probation population moved from 3,036,700 on Jan. 1 to 3,030,500 on Dec. 31, a decline of 6,200 and the first annual decrease since 2021.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Probation and parole are related but distinct. Probation generally places a person under court-ordered supervision in the community, while parole follows release from incarceration. The combined headline number is useful for scale but does not make the two systems interchangeable.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The report also describes movements onto and off supervision and categories of exit, including completion, incarceration, absconding and other unsatisfactory outcomes. Those details help distinguish a falling caseload from a claim that every exit represents successful completion.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows a 24 percent decade decline and a 6,200-person drop in the 2024 probation population.",
+          "caption": "BJS reports a 24 percent decline in the comparable community-supervision population from year-end 2014 to year-end 2024.",
+          "credit": "Boho News graphic from Bureau of Justice Statistics",
+          "height": 900,
+          "rightsId": "media-community-supervision-decade-2024",
+          "sourceUrl": "https://bjs.ojp.gov/library/publications/probation-and-parole-united-states-2024",
+          "src": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-decade-2024/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "BJS based the estimates on the Annual Probation Survey and Annual Parole Survey, administrative collections that cover all 50 states, the federal system and the District of Columbia. The 2024 publication is the 33rd report in a series that began in 1981.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Administrative data have limits. The national total is an estimate, and annual-change calculations depend on consistent reports from participating agencies. The data do not by themselves explain why caseloads changed or measure recidivism, service quality or the intensity of supervision.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The clearest conclusion is one of scale and direction: community supervision still touches about 3.7 million adults, but the comparable population is smaller than a year earlier and roughly one-quarter below its level a decade ago.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/us-probation-parole-population-2024-bjs/",
+      "citations": [
+        {
+          "id": "source-bjs-probation-parole-20240429",
+          "publishedAt": "2026-04-29T12:00:00Z",
+          "publisher": "Bureau of Justice Statistics",
+          "title": "Probation and Parole in the United States, 2024",
+          "url": "https://bjs.ojp.gov/library/publications/probation-and-parole-united-states-2024"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "BJS estimated that 3,681,900 adults were under probation or parole supervision at year-end 2024.",
+        "Among comparable agencies, the population decreased by 15,000, or 0.4 percent, from Jan. 1 to Dec. 31, 2024.",
+        "The comparable adult community-supervision population declined 24 percent from year-end 2014 to year-end 2024.",
+        "The probation population fell during 2024 for the first time since 2021.",
+        "The probation count declined from 3,036,700 on Jan. 1 to 3,030,500 on Dec. 31, 2024.",
+        "The report is the 33rd in a series that began in 1981 and uses the Annual Probation Survey and Annual Parole Survey."
+      ],
+      "corrections": [],
+      "dek": "BJS reports a 0.4% decline during 2024 among comparable agencies and a 24% drop in the community-supervision population over a decade.",
+      "desk": "community-corrections",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Bureau of Justice Statistics",
+        "Annual Probation Survey",
+        "Annual Parole Survey"
+      ],
+      "eventId": "event-us-probation-parole-population-2024-bjs",
+      "headline": "U.S. Probation and Parole Population Falls to 3.68 Million",
+      "id": "article-us-probation-parole-population-2024-bjs",
+      "leadImage": {
+        "alt": "A line of National Guard members practices a wall-search position during corrections training in Albany, New York.",
+        "caption": "National Guard members practice correction-officer procedures during New York Department of Corrections and Community Supervision training in 2025. BJS estimates 3.68 million adults were on probation or parole at the end of 2024.",
+        "credit": "Jordan Sutton/New York National Guard",
+        "height": 900,
+        "rightsId": "media-community-corrections-training-2025",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-corrections-training-2025/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T23:49:59.949Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t230406z-739d6db88a48-f2874800d053",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "BJS estimates 3.68 million adults were on probation or parole at year-end 2024, down 0.4% for the year and 24% over a decade.",
+        "index": true,
+        "title": "U.S. probation and parole population 2024 BJS"
+      },
+      "section": "crime-justice",
+      "slug": "us-probation-parole-population-2024-bjs",
+      "social": {
+        "description": "BJS reports a 0.4% decline during 2024 among comparable agencies and a 24% drop in the community-supervision population over a decade.",
+        "image": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-corrections-training-2025/open-graph.webp",
+        "title": "Community supervision falls to 3.68 million adults"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Probation",
+        "Parole",
+        "Community supervision",
+        "Bureau of Justice Statistics",
+        "Corrections data",
+        "Criminal justice"
+      ],
+      "uncertainty": [
+        "Annual comparisons use agencies with comparable data; the estimates are not a person-level census of every jurisdiction.",
+        "The headline total combines probation and parole and does not measure supervision intensity, outcomes or recidivism."
+      ],
+      "updatedAt": "2026-08-06T23:49:59.949Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
       "body": "A new U.S. Geological Survey inventory puts two very different numbers side by side: about 355.8 billion short tons of available coal resources beneath federal lands in the lower 48 states, but only a little more than 4.2 billion short tons of reported reserves controlled by current federal-land mines.\n\nThe distinction is the story. A resource estimate describes coal known or inferred to exist under stated geologic and land constraints. A reserve is the smaller portion demonstrated as recoverable under existing economic and operating conditions. Treating the larger number as ready-to-mine supply overstates what the report establishes.\n\nUSGS counted 34 coal mines operating on federal lands in 2024. They produced 261,690,308 short tons, equal to 51.06% of total U.S. coal production that year, and 23 of the mines used surface methods while 11 operated underground.\n\nThe geography is concentrated in the West. Thirty-one of the 34 mines and more than 98% of reported reserves were west of the Mississippi River. Wyoming alone had 14 federal-land coal mines, including 12 in the Powder River Basin.\n\nFor the conterminous United States, USGS compiled 355.771 billion short tons of available federal coal resources. The Powder River Basin was the largest listed area at 180.89 billion short tons, followed by the Williston Basin at 27.16 billion and the Kaiparowits Plateau at 28 billion.\n\nThose basin figures depend on the thresholds and exclusions in earlier assessments. Table notes vary by area, including limits on seam thickness, depth of cover, existing leases and permitted mine areas. The sum is therefore an inventory assembled from studies with different definitions, not one uniform mine plan.\n\nAlaska adds still larger uncertainty. USGS identified at least 140 billion short tons of available coal resources there and said total identified and undiscovered resources may be as high as 5.5 trillion short tons. The report also says much of Alaska has not been adequately assessed.\n\nInterior compared the resource totals with current annual coal consumption to describe centuries of potential supply. That arithmetic is a scale comparison, not a forecast that the coal will be permitted, financed, mined or burned at a constant rate for centuries.\n\nMarket demand, mine economics, transportation, environmental review, land-use decisions and energy policy all determine how much of a geologic resource can become a reserve and then production. The new report does not convert those contingencies into an extraction schedule.\n\nThe clean reading is narrower and more useful: federal lands contain a very large geologic coal endowment, current mines remain responsible for roughly half of U.S. output, and the portion reported as reserves is far smaller than the headline resource estimate.",
       "bodyBlocks": [
         {
@@ -22720,6 +23473,158 @@
       "updatedAt": "2026-08-06T14:55:38.035Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "World Athletics added a career and media education program around the 2026 World U20 Championships in Oregon, extending athlete development beyond competition at Hayward Field.\n\nAthletes Connect runs from Aug. 3 through Aug. 10 at the University of Oregon, covering the days before and during the championships. Its core program consists of four workshop sessions across Aug. 3 and Aug. 4, plus a separate athlete zone in Bean Hall.\n\nTwo sessions titled Your Athlete Journey focus on balancing education with sport, building a support network and planning for life after competition. Christian Taylor, Ashton Eaton and Ato Boldon were named as speakers for that track.\n\nTwo more sessions, Your Image, Your Power, cover media work, social platforms and using public visibility responsibly. Commentator Rob Walker and a major social-media platform were listed for those discussions.\n\nValerie Adams, the two-time Olympic shot put champion who now chairs the World Athletics Athletes’ Commission, was named to present the workshops. Her own progression from youth and U20 titles to a long senior career matches the program’s intended bridge.\n\nThe Bean Hall athlete zone adds educational games, printed materials and spaces for photography and video. World Athletics says professional content creators can help athletes produce material and provide guidance on posting and messaging.\n\nThe concept builds on earlier zones in Lima and Tokyo. More than 1,500 visits were recorded at the 2024 World U20 Championships in Lima across subjects including health and science, safeguarding, social media, athlete representatives and competition rules.\n\nThat number measures visits, not unique athletes or long-term outcomes. It shows demand for the space but does not establish that a workshop produces better contracts, safer representation or a longer career.\n\nThe initiative is nevertheless a notable addition to a global age-group meet. Many competitors are encountering international media, agents and sponsorship interest for the first time; Oregon 26 is treating those off-track decisions as part of athlete preparation rather than leaving them entirely outside the championship.",
+      "bodyBlocks": [
+        {
+          "text": "World Athletics added a career and media education program around the 2026 World U20 Championships in Oregon, extending athlete development beyond competition at Hayward Field.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Athletes Connect runs from Aug. 3 through Aug. 10 at the University of Oregon, covering the days before and during the championships. Its core program consists of four workshop sessions across Aug. 3 and Aug. 4, plus a separate athlete zone in Bean Hall.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Two sessions titled Your Athlete Journey focus on balancing education with sport, building a support network and planning for life after competition. Christian Taylor, Ashton Eaton and Ato Boldon were named as speakers for that track.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows Athletes Connect running Aug. 3 to 10 with four sessions on career development and athlete image plus an athlete zone at Bean Hall.",
+          "caption": "Athletes Connect surrounds the Oregon 26 competition with workshops and a separate athlete zone.",
+          "credit": "Boho News graphic from World Athletics",
+          "height": 900,
+          "rightsId": "media-athletes-connect-schedule-2026",
+          "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/press-releases/athletes-connect-oregon-26",
+          "src": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-schedule-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Two more sessions, Your Image, Your Power, cover media work, social platforms and using public visibility responsibly. Commentator Rob Walker and a major social-media platform were listed for those discussions.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Valerie Adams, the two-time Olympic shot put champion who now chairs the World Athletics Athletes’ Commission, was named to present the workshops. Her own progression from youth and U20 titles to a long senior career matches the program’s intended bridge.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Bean Hall athlete zone adds educational games, printed materials and spaces for photography and video. World Athletics says professional content creators can help athletes produce material and provide guidance on posting and messaging.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic says more than 1,500 visits at Lima 2024 covered health, safeguarding, social media, representatives and rules.",
+          "caption": "World Athletics says the 2024 athlete zone drew more than 1,500 visits across five education areas.",
+          "credit": "Boho News graphic from World Athletics",
+          "height": 900,
+          "rightsId": "media-athletes-connect-reach-2026",
+          "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/press-releases/athletes-connect-oregon-26",
+          "src": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-reach-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The concept builds on earlier zones in Lima and Tokyo. More than 1,500 visits were recorded at the 2024 World U20 Championships in Lima across subjects including health and science, safeguarding, social media, athlete representatives and competition rules.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That number measures visits, not unique athletes or long-term outcomes. It shows demand for the space but does not establish that a workshop produces better contracts, safer representation or a longer career.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The initiative is nevertheless a notable addition to a global age-group meet. Many competitors are encountering international media, agents and sponsorship interest for the first time; Oregon 26 is treating those off-track decisions as part of athlete preparation rather than leaving them entirely outside the championship.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/world-athletics-u20-athletes-connect-oregon-2026/",
+      "citations": [
+        {
+          "id": "source-world-athletics-connect-20260709",
+          "publishedAt": "2026-07-09T12:00:00Z",
+          "publisher": "World Athletics",
+          "title": "Athletes Connect to empower athletes at World Athletics U20 Championships Oregon 26",
+          "url": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/press-releases/athletes-connect-oregon-26"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "World Athletics scheduled Athletes Connect at the University of Oregon from Aug. 3 through Aug. 10, 2026.",
+        "Four workshop sessions were scheduled across Aug. 3 and Aug. 4 on athlete careers and public image.",
+        "Valerie Adams was named to present the workshops, with Christian Taylor, Ashton Eaton, Ato Boldon and Rob Walker among speakers.",
+        "The career sessions cover education, support networks and life after sport.",
+        "The image sessions cover media work, social media and athlete branding.",
+        "A separate athlete zone at Bean Hall includes educational games and photo and video content support.",
+        "World Athletics said more than 1,500 people visited the athlete zone at the 2024 World U20 Championships in Lima."
+      ],
+      "corrections": [],
+      "dek": "Athletes Connect adds four workshops and an Aug. 3–10 athlete zone after more than 1,500 visits to the education space at Lima 2024.",
+      "desk": "athlete-development",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Athletics",
+        "World Athletics Athletes Commission",
+        "University of Oregon"
+      ],
+      "eventId": "event-world-athletics-u20-athletes-connect-oregon-2026",
+      "headline": "World U20 Athletes Get Career and Media Program at Oregon 26",
+      "id": "article-world-athletics-u20-athletes-connect-oregon-2026",
+      "leadImage": {
+        "alt": "Three elite pole vaulters talk with staff beside the track after competition in Eugene, Oregon.",
+        "caption": "Pole vaulters and staff meet beside the track during the 2016 U.S. Olympic trials in Eugene. World Athletics built its Oregon 26 athlete program around career, media and safeguarding education.",
+        "credit": "Tom Williams/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-track-athletes-eugene-2016",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/track-athletes-eugene-2016/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Eugene",
+        "Oregon",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T23:49:59.949Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t230406z-739d6db88a48-f2874800d053",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "World Athletics adds four career and media workshops plus an Aug. 3–10 athlete zone at the 2026 U20 championships in Oregon.",
+        "index": true,
+        "title": "World U20 Athletes Connect program Oregon 2026"
+      },
+      "section": "sports",
+      "slug": "world-athletics-u20-athletes-connect-oregon-2026",
+      "social": {
+        "description": "Athletes Connect adds four workshops and an Aug. 3–10 athlete zone after more than 1,500 visits to the education space at Lima 2024.",
+        "image": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/track-athletes-eugene-2016/open-graph.webp",
+        "title": "Oregon 26 adds career and media training beyond the track"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "World U20 Championships",
+        "Athlete education",
+        "Track and field",
+        "Sports media",
+        "Safeguarding",
+        "University of Oregon"
+      ],
+      "uncertainty": [
+        "World Athletics reported visits to the Lima 2024 zone, not a count of unique participants or measured long-term outcomes.",
+        "The program supports athlete development but does not guarantee professional contracts, sponsorships or competitive results."
+      ],
+      "updatedAt": "2026-08-06T23:49:59.949Z"
+    },
+    {
       "articleType": "document-report",
       "authors": [
         "Boho News Staff"
@@ -23903,22 +24808,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T22:40:00Z",
+  "generatedAt": "2026-08-06T23:50:42Z",
   "inputHashes": {
-    "approvals": "e8d83ddb9af612de04ccc5974002335705b9022ca3bbd2a93d9e275b244849a9",
-    "articles": "cb667f6e35cb4d416f315fb7cdaf2f04aa85aef5638687ce7b3864fce447194e",
-    "claims": "3f8e19210a8815d88cb29e8c54e8d37d61c03de794f908fed4e51ce739d59440",
+    "approvals": "2fc540eb266d2eead015e08771e5d2daf7e9cfa6f6318a07c74622911d19fb2c",
+    "articles": "267b544909ad58f7bfd5b131cf394f1e39173c20098f977964e589bacb6374c0",
+    "claims": "60109f6e02546a3ca628d62a1d6190d0f3131a83071ed79cac75a6e0393c48fc",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "d8e4dac8951c1bf59c6a6f41f9e2841d9d3bed87415abd9299c5486c6c714dae",
-    "mediaRights": "fe7c8e302a8ac515caff2e64dedb0c65991f299df7008bcb8df15ead93c58096",
-    "publicationIntents": "95ec96eef634a6734c4691c24bbfefd92322f983a2dc2b33aaf690155921e006",
-    "releaseRecords": "b0b9658ef0a56a6e55825cb9841af795cc5b945315d9d6cf8e2ef004c4ba2b8a",
-    "sourceItems": "66a25d87a10218adeba4b0b08811220b64933ea549cac98225366016cdb0f41f"
+    "events": "e237bb438b9a654c44017ecfd2798c2088ce5162132f85c61d6c1b08103b4814",
+    "mediaRights": "09652a9202ca65750dcd992bdfc4a84f4203f14868fe73204dd5e6386844a1c0",
+    "publicationIntents": "9597b3bc352a9c26c4327767cb006bfe10010525f4a8896db364b98c8429e491",
+    "releaseRecords": "69fc7a25a843d8dc04f46138a86316a1b0cdeaf57b8d2fd03fb01720ee6abcf3",
+    "sourceItems": "8d61c2ad1e78b716b2c27b64a0c642d0dd73c044858401bfa6f35fbb56689895"
   },
   "inventory": {
-    "articleCount": 129,
-    "mediaCount": 373,
-    "routeCount": 129
+    "articleCount": 135,
+    "mediaCount": 391,
+    "routeCount": 135
   },
   "mediaRights": [
     {
@@ -25886,6 +26791,234 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic says five galleries opened July 1, two more are due in fall and all 20 galleries are included in the renovation.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Smithsonian National Air and Space Museum",
+      "caption": "Five galleries opened on the building’s 50th anniversary; two remaining renovated galleries are scheduled for fall.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "14c606e216376de68f3623220eb90160642733a438987f75fa8bce4ecdf69fdc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-five-galleries-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "72925d86af6e5c947fec2b0d72a082073b267bd3bdd299d8fd667af9b94f34e8",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-five-galleries-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6282c1c573eac1f218cfdf9eab1434536bce43bb2dbe0203d5e7e2efec2de2cb",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-five-galleries-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c7fb77692b9e595b45103e50095c9e5c3ae6761ccca988482db30138f2bfb9d1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-five-galleries-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "09f14ae9b8f71d809b2c288603b5982ae7bc979f38f01ddb41bc3a972254146e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-five-galleries-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "48605e574d58c5e9475a3c302d769587654a2a3ddb5e5136f4cb3e6a88f43b35",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-five-galleries-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "932df907825372ac826219ffb40c5f53bb8c6974f134241d3e0338c090d48735",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-five-galleries-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-air-space-five-galleries-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "58afe21301adb21398cef41a3616779cc2db4597f69be3583464f1eef4b99b4e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://airandspace.si.edu/newsroom/press-releases/national-air-and-space-museum-celebrates-50-years-opening-five-new"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic groups the new galleries into hands-on flight science, space technology, aviation history and art.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Smithsonian National Air and Space Museum",
+      "caption": "The July openings span flight science, space technology, military aviation history and art.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d6a4284b74a696e648014707c81b396e588426d62f97f3fbb2ec44d97032ed2c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-gallery-themes-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7ea8836e3f0a8d42ef4e17047dd71e97d0ac85e406ab60cc42dc91e2767540f9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-gallery-themes-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d7b7bda50a01e6ae3a097e95258f8f3242849f514e42b933f052abeeb8b8e40c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-gallery-themes-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ec357c42d928a880b038ed99560a842c41a0c6f753bed47d323813ae9d489939",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-gallery-themes-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "198b1e5d19143e61957d61237dbf26bb8d50867330d31e731e34c562ac69e64d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-gallery-themes-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "24dc51ed647d5bcb284cce0111f5cd51c7f8ac88c5bd403e66a50e51e9f96775",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-gallery-themes-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "53fb4a645061e604f551bbb7a12287e0873faaea6fd37b8cdd9fad3c0b94b633",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-gallery-themes-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-air-space-gallery-themes-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "38936ea37650a05fb602f5df9b8b7e9e7fd74e91168bd89c31e63f37c84e5dfd",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://airandspace.si.edu/newsroom/press-releases/national-air-and-space-museum-celebrates-50-years-opening-five-new"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Three women speak in front of a black jet displayed inside the National Air and Space Museum.",
+      "archivalStatus": "current",
+      "attribution": "Jessica Cicchetto/U.S. Air Force",
+      "caption": "Visitors and Air Force guests stand beside an aircraft inside the National Air and Space Museum in 2018. Five renovated galleries opened at the National Mall building on its 50th anniversary.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary image; responsive crops only."
+      },
+      "creator": "Jessica Cicchetto, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "592fd1ba187a5a12a35a5c8508da2e719b55f872a09262c813162f16a06a643a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-museum-gallery-2018/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "46c1a8a0334b2e61bf10752d0ffbf52f239ebe3ceafda0fd1ed9efa5fc25ec4e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-museum-gallery-2018/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bfbd86d07f35dfffab2d4696c5d7ee209f0da259eeaf0e0870c03b3cbfa00bae",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-museum-gallery-2018/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c8da07892e92d7c20a8c664246ae2d47e140f903e5fc3729bf26121475be2c7b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-museum-gallery-2018/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "26b4566defc4ea09a0d1b5804f0d3f33864bfffee08780ffad55235ee7488cd9",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-museum-gallery-2018/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d2303b7015fc0a366f2bc21354f8d250530bbc7642d0eb059d2e023124dc639b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-museum-gallery-2018/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1df81cf39bea8b36969a18ff3da046e12e6c97a2bf5b22227606a45da3ff050d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/national-air-space-museum-five-galleries-2026/air-space-museum-gallery-2018/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-air-space-museum-gallery-2018",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "600c4e77340f8fad04a0ca3d50686353e83c231be6ed5601133a0819fc1c5d9c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Official U.S. Air Force photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/4752447/airmen-attend-special-screening-captain-marvel-trailer"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A scientist in a white laboratory coat examines a blood sample tube at a bright lab bench.",
       "archivalStatus": "current",
       "attribution": "National Eye Institute / Rhoda Baer Photography",
@@ -26415,6 +27548,158 @@
       "rightsBasis": "Official U.S. Army photograph marked public domain by DVIDS.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.dvidshub.net/image/9832192/all-army-sports-flag-football-championship-day-three"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic says more than 1,500 visits at Lima 2024 covered health, safeguarding, social media, representatives and rules.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from World Athletics",
+      "caption": "World Athletics says the 2024 athlete zone drew more than 1,500 visits across five education areas.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "89f72ffd2e083549245253359ce14c297fa84b549b57bce7b82c350083a6c358",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-reach-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b8330419a61b34f610ad9c3d119cbdfa028264c4569b664179d7eb2b925bbc85",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-reach-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7c47762c18d691ffa203c7285ece5a08ae7ac6c384b0cf8d7ea747cb1eaef514",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-reach-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f8e59b78ad4907466808f0144fabaecfa71f7bb092aba813c9de0ab550fb9d52",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-reach-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "839047bedcee00a8c12a860fca9b97a670237b22bcd4341ceb02fb063533ea0a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-reach-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5a5d2b646b2ce7041bd003233b34fc44c445592bedd693d110fa006b7fddca5e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-reach-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "eb0a6cc6fa69a7674cd67f49e1ec8a5a59917beb328572408f1ceed84073b790",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-reach-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-athletes-connect-reach-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5afbd6cccc2566eebfa25d6cd63409169105be9c1777844d0777f36d5e092b25",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/press-releases/athletes-connect-oregon-26"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows Athletes Connect running Aug. 3 to 10 with four sessions on career development and athlete image plus an athlete zone at Bean Hall.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from World Athletics",
+      "caption": "Athletes Connect surrounds the Oregon 26 competition with workshops and a separate athlete zone.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "f4a6a655f5cd67f551ebf7ee2c23df3a30a07a4d8ffc9dde6f84e6c901040a86",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-schedule-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d1622868c640e60ac6b8c3920ded8b0abd4aff92d21269668f5ef12638af92c4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-schedule-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "aeefcd3d4dc60f4b0530f7f6fbe851e6bf88d02429cdad3878d28269028803eb",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-schedule-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "79bebfd13798da93e5d18053a42bbf07b56336aba792f222f5654abd49054817",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-schedule-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e4385137f114c48d019e18ba419a20d7eab99b4d95b6eb75f3218ebaf3d2571e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-schedule-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "06e54653552220ba0054ca53bbd828e5183850934b8b0f7f74bf7aef62dec566",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-schedule-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3800383e30b408157703a9414b7bc97efad2b687efa869990acf1e270b70befe",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/athletes-connect-schedule-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-athletes-connect-schedule-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "46cbf8d47218dc9436d4623ecfef7969fcf1a7c58e1c6c89f5c8b461187af9c2",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/press-releases/athletes-connect-oregon-26"
     },
     {
       "aiGenerated": false,
@@ -27239,6 +28524,234 @@
       "rightsBasis": "NASA-hosted U.S. government photograph with no contrary copyright notice.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.nasa.gov/missions/artemis/blue-origin-moon-lander-completes-testing-at-nasa-vacuum-chamber/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A histology technician in a white coat prepares a very thin tissue sample beside laboratory equipment.",
+      "archivalStatus": "current",
+      "attribution": "Marcy Sanchez/U.S. Army",
+      "caption": "A histology technician prepares a tissue section for microscopy. An NIH-supported study analyzed postmortem hippocampal tissue from 40 adults to map immune-cell changes across aging.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary image; responsive crops only."
+      },
+      "creator": "Marcy Sanchez, U.S. Army",
+      "derivatives": [
+        {
+          "hash": "9af04afdb1e43fbf4bfea42f514d97144704037734b843d2745b0fcb655ca7b6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-aging-histology-lab-2018/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "895156b2ccda0ef2ec4d226b1bbaf732640622a11ba6e773dabc89075ca06245",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-aging-histology-lab-2018/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5b73bba64b53482fc412110ca5092a3e8babf8f6a03fca2acef1b57618aefac0",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-aging-histology-lab-2018/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "bfdfb2febfcc4dc0c5a91a9db07e283cf5b0d8e042d3aa2dd9c36e6e5fe15444",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-aging-histology-lab-2018/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7d2d893cbaedb5a1a200c5bf765dcdb2235b3568b78c1d816771383e065b178b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-aging-histology-lab-2018/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "61d9a5073ff0d6b0017d83fdb7ed6de09f48222b998e77f43aeb067d8397d555",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-aging-histology-lab-2018/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8b48f0d64b9fca8313b3513d547d6eb439d7ccd72ca7d0da87f58e6c73e668e1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-aging-histology-lab-2018/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-brain-aging-histology-lab-2018",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "6868a5b57246afa6e2d012c6b175aad80d7adc898221b6d82b64713765034e5e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Official U.S. Army medical photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/4202640/wbamc-histology-techs-care-beyond-surface"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows a 40-adult postmortem hippocampus study spanning ages 20 to 95 and using single-cell, epigenomic and 3D genome methods.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NIH and Science",
+      "caption": "The study combined several single-cell methods in postmortem hippocampal tissue from 40 neurologically healthy adults.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "14daff1f3c9564f8d64f22871b77f9eb3fadad75eb65b862a567864651ef19c1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-cohort-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5a6f128f164f1a4e3fd58791249ba5b05cf4cfa9f663196ad0bfff631fed6ac1",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-cohort-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "236f413e654ebd80dbe917eec193bbaa136ac5d244963ecf7fe52a5638b83eab",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-cohort-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8e467de62d3208f77a5c0a474a1711a2c0320bb1464e23b66e765d4515458ada",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-cohort-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c1da65ce31dd7b831679d6a32627d2076a146c2f66f323c42e75d59a8525ebb0",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-cohort-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0e021ad270a56865819362db6a456931dee9ff655cef90e803e43efb4d8ad02e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-cohort-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b127afe4c8299129dddff0a5ff68e3b77d74983ef0c007e6676720b488267554",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-cohort-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-brain-immunity-cohort-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5afb637a816913d925c1b13d4461013ea549d71d6dcadadab842aaf04d3f2d04",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nih.gov/news-events/news-releases/brain-immunity-may-undergo-major-midlife-overhaul"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic says resident microglia declined between roughly ages 50 and 75, inflammatory signatures rose and causation for dementia remains unproved.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NIH and Science",
+      "caption": "Researchers found a midlife immune-cell transition, but the study did not establish that it causes dementia.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "b18309e914938339d449eedf1006b716f101ffabcd9b99f52258aeac77af8dab",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-transition-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "26e5b4d303b5937aa2445a6f5095f62b48a9b38a4e38cd55a877a56a08e52226",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-transition-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "44b83fb727b3ba414661e91452e41668277dbd36208ac6936e98ba3764d411f5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-transition-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5a2049ba2dea884711f98f8f27cd014a4a5f338add14aa689cde322bd94766e1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-transition-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0c4bffdfa32ffa9e42cfd62b489933141e3a338750ed50b4bcead9afccce8d38",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-transition-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "dcd75f01f13677d52fd40ff51d1cf33898defa1ea7c1b844e0d42debee950b4d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-transition-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c62e19f71f36e7c7879b7af99e431bdbc2e6975f91b529cc63b23495242288df",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/brain-immunity-microglia-midlife-shift-study-2026/brain-immunity-transition-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-brain-immunity-transition-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5eb1b2fc8e02e7767cb6596272f3d02eb3e715fda0a1ef2fd8db32f5faad97e9",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nih.gov/news-events/news-releases/brain-immunity-may-undergo-major-midlife-overhaul"
     },
     {
       "aiGenerated": false,
@@ -28075,6 +29588,234 @@
       "rightsBasis": "The photograph was made by a U.S. Air Force airman as part of official duties and is public domain in the United States.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:U.S._Air_Force_Academy_Hockey_competes_in_Alaska_(8089451).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A line of National Guard members practices a wall-search position during corrections training in Albany, New York.",
+      "archivalStatus": "current",
+      "attribution": "Jordan Sutton/New York National Guard",
+      "caption": "National Guard members practice correction-officer procedures during New York Department of Corrections and Community Supervision training in 2025. BJS estimates 3.68 million adults were on probation or parole at the end of 2024.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary image; responsive crops only."
+      },
+      "creator": "Jordan Sutton, New York National Guard",
+      "derivatives": [
+        {
+          "hash": "2e4ef67a534cdf2fa4eb3104c78facdfc44f775972f6ff5e84a5c30c76552044",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-corrections-training-2025/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c4e98de09b5b1649bcd4ce56d88716a6355834a5f0a7764ede2d3a902935a8c6",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-corrections-training-2025/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "71d74da774ad9691dee892d80e9ea588b91bac90fdfe18d28d456a21fe88c03e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-corrections-training-2025/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a8f9b3e425535f1d909379e58e675f8fc513bb63cf36d5ab512e3706b4ce2ee8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-corrections-training-2025/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7b6ea195aaf1f618193a665eb81c4b0cc0851e0181c9139954afe0bf6359c140",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-corrections-training-2025/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "bf76134552c86e4092fc22748fbc6297fa43dcafd0fee182f6e57231e485fd1e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-corrections-training-2025/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "523f0fc7b39f55ebf51a93109c9b17c52f1f77465c2128cc9a4065c15006c6b6",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-corrections-training-2025/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-community-corrections-training-2025",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "57ca6cd9331d7b4b6aabe065b03573f7ba6c52feff7dbb43c5a56a1a24527849",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Official U.S. Army National Guard photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/8958053/new-york-national-guard-provides-support-nys-department-corrections-and-community-supervision"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 3,681,900 adults under probation or parole at year-end 2024, a 15,000-person or 0.4 percent annual decline among comparable agencies.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Bureau of Justice Statistics",
+      "caption": "The community-supervision population fell modestly during 2024 among comparable reporting agencies.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "4a23ff9ea0c099039d407e5845fb0162d259c7710d9a9ea0e1be763aeff71d3c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-count-2024/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "310e49cbe6cfc01df232a583ce369fbff39b222c284d4efb57b3cae42b6341ad",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-count-2024/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "284f27bf9a87d13b6d9350e3ddca8ede0b5086db63f6c1f7b65be6e6e3501930",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-count-2024/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "98a815419f6eaa25ef71c0ad39c8e4d2d9600ff6bf5b9d66ddaa28e4fd8927f0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-count-2024/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "eada4e6fd859b5717a3626cb1e53127f63a4cbd275cd363560cf5c5f290a0d9c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-count-2024/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6e93deaba0b094816d293bf7bb39b980cae176072a75b6a9a470da6b173af521",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-count-2024/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c8b35412713dc93219a63f144f480f60962d9b7b9968f3184d86e5f863cdc36c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-count-2024/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-community-supervision-count-2024",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "7c34e2c4a4521f9f950b85e75730c7a9bc404a5f9a3da98ac3934617b21067d4",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bjs.ojp.gov/library/publications/probation-and-parole-united-states-2024"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows a 24 percent decade decline and a 6,200-person drop in the 2024 probation population.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Bureau of Justice Statistics",
+      "caption": "BJS reports a 24 percent decline in the comparable community-supervision population from year-end 2014 to year-end 2024.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "7c28b7a48ade162ba5420da27f39468f666f6be1dd778fbb2666cf1922c1b076",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-decade-2024/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9c43f5cfff28b74c2f6bbdcce7ff9e436257da8b8b3ab7778198915e044aaa69",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-decade-2024/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c89b5467dfc5209b0c16acbe65b1b8ecb97bfc55434656be5bebb1f37847f7f2",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-decade-2024/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "524cf0251c516cd17a7cf04d17df3c673fbf99e7952b6aef9c20d8372c32ac3e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-decade-2024/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "46bdda14226e49b4868a8dc7602215444e2d71b7340f40862640d3c123a89bfb",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-decade-2024/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "86ac5eae0539cbcc5060588cf6324b07504215c9165795fafec264c8574ae28c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-decade-2024/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f7ae0b917a20da6d559935024da66a0b0c5bc38c426a8308ce1bfe0eda384424",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/us-probation-parole-population-2024-bjs/community-supervision-decade-2024/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-community-supervision-decade-2024",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "1af2d87d6a3d548220abd70b4a472d50f5cf8b0abbcfad23951dd1b2c569fdf2",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bjs.ojp.gov/library/publications/probation-and-parole-united-states-2024"
     },
     {
       "aiGenerated": false,
@@ -29289,6 +31030,234 @@
       "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.fda.gov/news-events/press-announcements/fda-announces-first-participant-selected-tempo-digital-health-devices-pilot"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows more than $55 billion in planned DHS acquisitions, $11.4 billion in baseline cost growth and a 26 percent increase.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-108118",
+      "caption": "DHS plans more than $55 billion for its major-acquisition portfolio; costs across 19 baselined programs rose 26 percent from their first baselines.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "a88c586b0fff6c44efdd9c8ac979459998937406dde0c265ad8997ea824c87b9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-costs-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "4a1241ca8ee4ed3c0f65c33387850831d97f1ac3e88327a92c2ceb37d4f53fb5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-costs-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "2afa791df61416caea605a50d4fc8d2c23a085abf1a817e90d13561467add52a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-costs-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "fab01da35e4d815b9d7ffdcbfb7a922751caa10feec8419a3545df6cd7a70b85",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-costs-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b300b3accbcfc48f8435d57836ce05924dcc66f0b6298a1f0e0adc10881b8caf",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-costs-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "30c628e85c8e81ab3286cf902ce5238e83ffdcee515fd8c6a48875a365483b4e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-costs-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8f48214d06dbd108c005cdcf45dc6165992e5c922abcdaa1d40b782ccb51c402",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-costs-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-dhs-acquisition-costs-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "e5daeecaf3d626843b9f5b955216b925e8cb00cbb6354aac19be281084045819",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108118"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic says eight programs lost at least 20 percent of staff, DHS dissolved its oversight office in October 2025 and 12 programs expect at least $14 billion in new funding.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-108118",
+      "caption": "Staff reductions, an oversight reorganization and new funding changed the risk environment around the DHS portfolio.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "8b889602137844aa34dcf3c66babe0869da4aabd368b9cd594ccf63c8f7e64a4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-oversight-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f39638bc1c9b1b39760f5b40229423f0338fbff5a0159099f045f1a28893d910",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-oversight-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "475acd5a416b41599807a2119f6e01d95f7f8a5358866ff81440ea484febb517",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-oversight-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4813e430476acc8bf66c8e37aeb74e40f550374f9aacddbb2066813c6cd0c738",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-oversight-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "82888628ff3085e577a4140f0dbf532548a106623ce163e6e0023a934e99d7e9",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-oversight-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ba5059ecfdbad490bbfbf207e02ac450b4b877bd48856bd4cde06c02ea8f0867",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-oversight-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "30deccd88251fea91bbba05f07a1db1a67af0a5d5fbcd2a831b19bca9b7a52d3",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-acquisition-oversight-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-dhs-acquisition-oversight-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "1a89e4fe6f8b71fe64fcf490f3714c1867c94b42228cccaebe2e00bb936b048a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108118"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A Coast Guard contracting officer signs acceptance documents on a cutter while uniformed crew members watch.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Coast Guard",
+      "caption": "A Coast Guard contracting officer signs delivery papers for the service’s 62nd fast response cutter in February 2026. GAO’s portfolio review found $11.4 billion in baseline cost growth across 19 DHS programs.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary image; responsive crops only."
+      },
+      "creator": "U.S. Coast Guard",
+      "derivatives": [
+        {
+          "hash": "4845e23c9789afcb5a445c56d6e9c1270217917613fbad54be6851a44e293c68",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-cutter-delivery-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "303a2a834f1b679a2dbee27ab18376a8925bbd2694e211d2991e09c9a5333476",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-cutter-delivery-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4107ad1b4dcf8aa53f3d4c3eecaf720bbf111ae24b7bed61474c5ead55ae06a4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-cutter-delivery-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "95e1f500192bd10fc779334574118bedbd6eba8fba35403abf7dd3a826bcc8f6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-cutter-delivery-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c2a7be49e9aac336abaf41a219e904520ac1ae20aed9c234c258902f876cb16e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-cutter-delivery-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "55b5886314dc7a6d8ae9d1d2735f58a319d38b7b04ce69ffcabe2d15b2fefbc2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-cutter-delivery-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "71e9631e38cf1e0054e1d17b840ffc44ceb54b0ffc2e8ff496279ff2ee0b6ce5",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/dhs-acquisition-portfolio-cost-growth-oversight-2026/dhs-cutter-delivery-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-dhs-cutter-delivery-2026",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "23e2664d5f8e1e82dba975ae882360054605e3b26d0fefbe8bcad9603d73f374",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Official U.S. Coast Guard photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/9539135/us-coast-guard-accepts-delivery-of-62nd-fast-response-cutter-named-for-911-hero"
     },
     {
       "aiGenerated": false,
@@ -45372,6 +47341,234 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows a World Bank scenario with 330,000 formal jobs, a five-point poverty reduction and 500,000 people lifted from poverty.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from World Bank economic update",
+      "caption": "The World Bank estimates stronger agricultural value chains could create 330,000 formal jobs over a decade.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "dc36da3a4b2b425dd4daebad7c3d0faca769fdc940c8700f2b01312b518d03d3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-agribusiness-potential-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e6baba3be981e9eb325a5900b8ceeef24f425191816b1f2772fcce3876c3fded",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-agribusiness-potential-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "435d335033543f72c15dcd1d5433f275e3cb8ac77b40327bd13a5c36c9603087",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-agribusiness-potential-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9d1c112d94c2253d236511fe103c9249edc5118191958c7fc2bf003dc0ef0130",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-agribusiness-potential-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5f2a850a0c85522e4511924b71df1510a627e7b709ccc66a6e65a7f2b75ab3e6",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-agribusiness-potential-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c9aacba47657adca1e5517acf690cc2a36e193870fb450760fd1f03ca10e67a2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-agribusiness-potential-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "76fde59772d633081a58d86e894a6191680239e2bb9a73894ab5cacb31e9a069",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-agribusiness-potential-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-png-agribusiness-potential-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "c802244b8da6ddd98ad4b89fab693d95932a02040f961f59bee10670ce0075b4",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/02/papua-new-guinea-s-economy-grows-but-jobs-gap-remains"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 5.6 percent economic growth in 2025, declining formal employment per capita and a three-part jobs agenda.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from World Bank economic update",
+      "caption": "Papua New Guinea grew rapidly in 2025, but formal employment per person continued to fall.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "04d01bd4275dc64319c64ee0f4bd24437b1353d11ebcdd45c58520bb4fd00c90",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-growth-jobs-gap-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "53d8507a966041e1ea7adeb9b0a9664164b61e5770344dc0ec3b62e716877a74",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-growth-jobs-gap-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b509c55470d6107deb1d472ccb41afceb5042b4466fb6ef9c686ff2dcc0bf25a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-growth-jobs-gap-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a9d5d5f91c96fbc96b6879c765b5a52c83ffefdfdd66b7c2ebe842cebea91093",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-growth-jobs-gap-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1b83135a4a1b177a1364ac2b7a8d0e87cbd7012951054842afebcfab889c2380",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-growth-jobs-gap-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "659c01ef5bf7dfb81ecd3db33394f2866d42bb9c6d64d856bf510ea9e7edece1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-growth-jobs-gap-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8221aa28feaa1ad5a4f15bc4564070df503804872a96a4bfc4b50e280bb3eda5",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-growth-jobs-gap-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-png-growth-jobs-gap-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d00fc98c0523c720f265a09ea90d95429c6ed5a4e89fa9e6b5300d20769abc71",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/02/papua-new-guinea-s-economy-grows-but-jobs-gap-remains"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Two water specialists work beside portable purification equipment at a Papua New Guinea facility before sunrise.",
+      "archivalStatus": "current",
+      "attribution": "William Hester/U.S. Marine Corps",
+      "caption": "Water specialists assemble and operate purification equipment in Port Moresby in 2016. The World Bank says weak infrastructure remains a constraint on Papua New Guinea’s job creation.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary image; responsive crops only."
+      },
+      "creator": "William Hester, U.S. Marine Corps",
+      "derivatives": [
+        {
+          "hash": "8c711482c0ce4489323d5bf8408372adf608ad19b76e5c890f05e32ad9cd6ec9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-water-infrastructure-2016/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "aebd4d66d2e4b40302443e1157019d49333c9178383219ac6e70323da0370c6b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-water-infrastructure-2016/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "fa8b66fe48e7eb6a5016a55976596b625ae31113f67a7c3be5fd416bd07d1b75",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-water-infrastructure-2016/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "eedf34870bfd6aa2ef7e1c1af14ac3894fe0daac550f315e36307d7eb1a4ced8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-water-infrastructure-2016/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f9de12e8b5b15ebf66afb2edb637142af2f45775d23589ce7abec0a9460fca11",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-water-infrastructure-2016/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "37e8b0f1a6126dffd4555381a3d62e4282e8992613f8ef875df418cc3a893f71",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-water-infrastructure-2016/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "dffccf9f11cd63eb899d2cb4b6709a9187d401841e5f23fad534f5f4766ed339",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/papua-new-guinea-growth-jobs-gap-2026/png-water-infrastructure-2016/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-png-water-infrastructure-2016",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "a45d8b16ecc1105f87dcb60516800aa520d556f7b3e3e6b85a41e2e7e10a7ef4",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Official U.S. Marine Corps photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/2681205/water-dogs-work-late-papua-new-guinea"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A loaded container ship sits beneath ship-to-shore cranes at the Port of Savannah.",
       "archivalStatus": "current",
       "attribution": "Jerry Glaser/U.S. Customs and Border Protection",
@@ -47649,6 +49846,82 @@
       "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.dvidshub.net/image/9533022/new-tinker-electrical-peaking-plant-enables-energy-resilience"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Three elite pole vaulters talk with staff beside the track after competition in Eugene, Oregon.",
+      "archivalStatus": "current",
+      "attribution": "Tom Williams/U.S. Air Force",
+      "caption": "Pole vaulters and staff meet beside the track during the 2016 U.S. Olympic trials in Eugene. World Athletics built its Oregon 26 athlete program around career, media and safeguarding education.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary image; responsive crops only."
+      },
+      "creator": "Tom Williams, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "5fdf0c3e8008b103047b784305f5d1f38edb782928c3db9919fbf744ab775e3b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/track-athletes-eugene-2016/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "93ee37d832696288e03a55e16e0711953e92584c92f9e9d33c9eba63ed6bc071",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/track-athletes-eugene-2016/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7fad5ffd5ee3fff5db1f5ad74910cfb971302c07c3c60e1f041f02c4fa8d9620",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/track-athletes-eugene-2016/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "217864a1bb886265a7b1e41afe7642ac9d641192071959cd4dbefdf85109d7eb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/track-athletes-eugene-2016/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7d72cb8565d71fb5e368bbb15e26b073e553a44c84d184f4e95e4f840c9a51ca",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/track-athletes-eugene-2016/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "33655f6e7ccf3846380da17e91d986ce0d4debe3093e6982f294048f84be459e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/track-athletes-eugene-2016/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "6ed459079ba4381e4d954b620e7eee04e848296871d02ed5bdf57401da5d0bf7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-athletes-connect-oregon-2026/track-athletes-eugene-2016/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-track-athletes-eugene-2016",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "611552a031c3f019eff0ffdb22d83251646b896ae377a162597ccfc2b55527c8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T22:59:39Z",
+      "rightsBasis": "Official event photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/2752008/us-olympic-team-track-and-field-trials"
     },
     {
       "aiGenerated": false,
@@ -52201,7 +54474,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "26cda2488fbf39f115debf2946e2ea02509b68535c001e5450a279e77c3471cc",
+  "packageDigest": "ade5dd8875046db7a3d0cfb0c0324764dfb2e4107753200a5a9fa0f2240f2c9e",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -53163,6 +55436,37 @@
       "providerActivatedAt": "2026-08-06T22:37:48.180192Z",
       "recordHash": "3575571578ff48b8247e655175c887d650212eb886539b04780eb6324460265a",
       "releaseId": "release-pb-20260806t214957z-848b3c493fb9-c9653c30b238",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://fbda2be7.bohonews.pages.dev/",
+      "activationEvidenceHash": "3ee96e4dcb1a8a7efb24c9dd9a0565f974c294bed6c730d9fee261f23bf3ae44",
+      "canonicalFirstPublicAt": "2026-08-06T23:49:59.949Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/brain-immunity-microglia-midlife-shift-study-2026/",
+        "https://bohonews.com/articles/dhs-acquisition-portfolio-cost-growth-oversight-2026/",
+        "https://bohonews.com/articles/national-air-space-museum-five-galleries-2026/",
+        "https://bohonews.com/articles/papua-new-guinea-growth-jobs-gap-2026/",
+        "https://bohonews.com/articles/us-probation-parole-population-2024-bjs/",
+        "https://bohonews.com/articles/world-athletics-u20-athletes-connect-oregon-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-brain-immunity-microglia-midlife-shift-study-2026",
+        "article-dhs-acquisition-portfolio-cost-growth-oversight-2026",
+        "article-national-air-space-museum-five-galleries-2026",
+        "article-papua-new-guinea-growth-jobs-gap-2026",
+        "article-us-probation-parole-population-2024-bjs",
+        "article-world-athletics-u20-athletes-connect-oregon-2026"
+      ],
+      "previousVerifiedDeploymentReference": "ff3a10a03be48f73a58d9bb2d5f14d2e5e9b734945417f4ae00e615e9449af08",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T23:48:26.141011Z",
+      "recordHash": "79c260b8535d42250cc81e0646e2d2ee83264bd0fe9226b35d1214d702c3ab80",
+      "releaseId": "release-pb-20260806t230406z-739d6db88a48-f2874800d053",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }
