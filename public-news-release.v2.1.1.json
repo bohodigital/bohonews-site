@@ -1,9 +1,9 @@
 {
-  "articleCount": 87,
+  "articleCount": 93,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T12:22:48Z",
-  "mediaCount": 247,
-  "packageDigest": "37948ceee2262a6cdb17bacad5e91d73cf15571539ca784848faa99f05457982",
+  "generatedAt": "2026-08-06T13:28:25Z",
+  "mediaCount": 265,
+  "packageDigest": "b6aa921902b5dbc7bfd23ba7a165a872509f4cff3cc3487ccdda3fa808f07838",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -750,6 +750,37 @@
       "releaseId": "release-pb-20260806t110343z-9fba6bec06c1-caf864902270",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://900afc48.bohonews.pages.dev/",
+      "activationEvidenceHash": "1fc8dceaac2c87a9f9c16cf63813e3a27836463134530cb807d3bb391afcbfed",
+      "canonicalFirstPublicAt": "2026-08-06T13:27:51.618Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/fda-lipfendra-first-oral-pcsk9-inhibitor-2026/",
+        "https://bohonews.com/articles/gao-immigration-courts-remote-hearings-2025/",
+        "https://bohonews.com/articles/hirshhorn-50-for-50-museum-loans-51-institutions/",
+        "https://bohonews.com/articles/ncaa-soccer-two-video-challenges-2026-27/",
+        "https://bohonews.com/articles/noaa-gulf-dead-zone-forecast-7027-square-miles-2026/",
+        "https://bohonews.com/articles/wto-goods-trade-barometer-101-7-june-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-fda-lipfendra-first-oral-pcsk9-inhibitor-2026",
+        "article-gao-immigration-courts-remote-hearings-2025",
+        "article-hirshhorn-50-for-50-museum-loans-51-institutions",
+        "article-ncaa-soccer-two-video-challenges-2026-27",
+        "article-noaa-gulf-dead-zone-forecast-7027-square-miles-2026",
+        "article-wto-goods-trade-barometer-101-7-june-2026"
+      ],
+      "previousVerifiedDeploymentReference": "4adf179d74400b87e6611be0b8e2f19867c620cd6d109eb5d91dde22efd0c8b2",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T13:25:37.916239Z",
+      "recordHash": "f0a8831d28434ec30834f2abac22c5b4f254898f1795b3d9f80b25580ffb9fb4",
+      "releaseId": "release-pb-20260806t125118z-329604abd3e6-aba9fdbce2b8",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -769,6 +800,7 @@
     "/articles/epa-minor-air-permit-public-comment-proposal-2026/",
     "/articles/fcc-2027-urban-rate-survey-broadband-benchmarks/",
     "/articles/fda-first-us-freeze-dried-plasma-ezplaz-2026/",
+    "/articles/fda-lipfendra-first-oral-pcsk9-inhibitor-2026/",
     "/articles/fda-orange-b-citrus-red-2-revocations-2026/",
     "/articles/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/",
     "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
@@ -778,12 +810,14 @@
     "/articles/gao-education-10-priority-open-recommendations-2026/",
     "/articles/gao-federal-broadband-strategy-map-data-2026/",
     "/articles/gao-federal-duplication-cost-savings-2026/",
+    "/articles/gao-immigration-courts-remote-hearings-2025/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/gao-opm-workforce-down-35-percent-2026/",
     "/articles/gao-state-administered-program-fraud-risks/",
     "/articles/gao-weapon-programs-average-delivery-over-12-years-2026/",
     "/articles/greece-men-usa-women-water-polo-world-cup-2026/",
     "/articles/hawaiian-honeycreeper-family-tree-smithsonian-2026/",
+    "/articles/hirshhorn-50-for-50-museum-loans-51-institutions/",
     "/articles/hopper-ftc-35-million-hidden-fees-settlement-2026/",
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/hurricane-cone-inland-warnings-2026-explainer/",
@@ -810,10 +844,12 @@
     "/articles/ncaa-division-iii-sports-betting-penalty-reductions-2026/",
     "/articles/ncaa-hockey-cut-resistant-gear-rule/",
     "/articles/ncaa-mens-lacrosse-video-review-overtime-2026/",
+    "/articles/ncaa-soccer-two-video-challenges-2026-27/",
     "/articles/nist-ai-security-continuous-monitoring-guardrails-2026/",
     "/articles/nist-five-fabric-squares-textile-recycling-test/",
     "/articles/nist-quantum-manufacturing-center-20-million-2026/",
     "/articles/noaa-coral-torpedo-deep-gulf-restoration/",
+    "/articles/noaa-gulf-dead-zone-forecast-7027-square-miles-2026/",
     "/articles/noaa-june-2026-tornado-reports-us-climate/",
     "/articles/noaa-week-two-heat-monsoon-drought-august-2026/",
     "/articles/pce-prices-consumer-spending-june-2026/",
@@ -840,6 +876,7 @@
     "/articles/world-bank-pakistan-grid-wind-power-2026/",
     "/articles/world-bank-philippines-energy-water-financing-2026/",
     "/articles/world-u20-championships-oregon-2026-opens/",
+    "/articles/wto-goods-trade-barometer-101-7-june-2026/",
     "/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/"
   ],
   "schemaVersion": "2.1.1"
