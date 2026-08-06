@@ -1,9 +1,9 @@
 {
-  "articleCount": 81,
+  "articleCount": 87,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T08:18:15Z",
-  "mediaCount": 229,
-  "packageDigest": "c2934d308ab5edbe788d3cbc8104888a31a78618e9c0ef9c0933d7510a63b893",
+  "generatedAt": "2026-08-06T12:22:48Z",
+  "mediaCount": 247,
+  "packageDigest": "37948ceee2262a6cdb17bacad5e91d73cf15571539ca784848faa99f05457982",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -719,10 +719,42 @@
       "releaseId": "release-pb-20260806t075134z-6d99e317b498-d4e7c9e5067e",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://b11b1d43.bohonews.pages.dev/",
+      "activationEvidenceHash": "c6b9b59b23fc55804700c8a2ed78232d124f0a3257768cfae955b32e3a3d4efd",
+      "canonicalFirstPublicAt": "2026-08-06T12:22:09.097Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/2026-census-test-huntsville-spartanburg-august-31/",
+        "https://bohonews.com/articles/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/",
+        "https://bohonews.com/articles/gao-weapon-programs-average-delivery-over-12-years-2026/",
+        "https://bohonews.com/articles/nasa-august-12-2026-eclipse-wb57-balloon-science/",
+        "https://bohonews.com/articles/sloosh-dive-sticks-expanded-recall-404000-2026/",
+        "https://bohonews.com/articles/smithsonian-louvre-islamic-art-exhibition-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-2026-census-test-huntsville-spartanburg-august-31",
+        "article-fda-orzeyful-orexin-narcolepsy-type-1-approval-2026",
+        "article-gao-weapon-programs-average-delivery-over-12-years-2026",
+        "article-nasa-august-12-2026-eclipse-wb57-balloon-science",
+        "article-sloosh-dive-sticks-expanded-recall-404000-2026",
+        "article-smithsonian-louvre-islamic-art-exhibition-2026"
+      ],
+      "previousVerifiedDeploymentReference": "fdb55e285ac3b4719f23a6d578a6254815e9ad4bbf49a4f3fcdf006a0bf12af9",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T12:20:34.884595Z",
+      "recordHash": "a6ecf625310e1f3490d65c5df09384422fffff81eaec69453ebe4ab6cabe2770",
+      "releaseId": "release-pb-20260806t110343z-9fba6bec06c1-caf864902270",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
   "routes": [
+    "/articles/2026-census-test-huntsville-spartanburg-august-31/",
     "/articles/ai-data-center-ratepayer-protection-pledge-expands/",
     "/articles/als-blood-protein-panel-predicts-symptom-timing/",
     "/articles/bls-jolts-job-openings-hiring-june-2026/",
@@ -738,6 +770,7 @@
     "/articles/fcc-2027-urban-rate-survey-broadband-benchmarks/",
     "/articles/fda-first-us-freeze-dried-plasma-ezplaz-2026/",
     "/articles/fda-orange-b-citrus-red-2-revocations-2026/",
+    "/articles/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/",
     "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
     "/articles/four-advanced-reactors-zero-power-criticality-2026/",
     "/articles/fta-610-million-bus-grants-2026/",
@@ -748,6 +781,7 @@
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/gao-opm-workforce-down-35-percent-2026/",
     "/articles/gao-state-administered-program-fraud-risks/",
+    "/articles/gao-weapon-programs-average-delivery-over-12-years-2026/",
     "/articles/greece-men-usa-women-water-polo-world-cup-2026/",
     "/articles/hawaiian-honeycreeper-family-tree-smithsonian-2026/",
     "/articles/hopper-ftc-35-million-hidden-fees-settlement-2026/",
@@ -763,6 +797,7 @@
     "/articles/library-congress-lost-melies-gugusse-film/",
     "/articles/library-of-congress-source-research-gallery-kids/",
     "/articles/metro-unemployment-payroll-growth-june-2026/",
+    "/articles/nasa-august-12-2026-eclipse-wb57-balloon-science/",
     "/articles/nasa-flight-dynamics-wind-tunnel-opens-2026/",
     "/articles/nasa-lunar-cargo-landers-ground-tests-2026/",
     "/articles/nasa-punch-solar-storm-arrival-test-30-minutes/",
@@ -784,6 +819,8 @@
     "/articles/pce-prices-consumer-spending-june-2026/",
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
     "/articles/shell-egg-recall-19-million-eggs-carton-codes-2026/",
+    "/articles/sloosh-dive-sticks-expanded-recall-404000-2026/",
+    "/articles/smithsonian-louvre-islamic-art-exhibition-2026/",
     "/articles/smithsonian-stem-education-40-communities-2026/",
     "/articles/trump-section-301-tariffs-60-economies/",
     "/articles/trump-smithsonian-warning-signs-executive-order/",

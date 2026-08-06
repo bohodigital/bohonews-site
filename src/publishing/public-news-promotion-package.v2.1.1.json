@@ -1,6 +1,155 @@
 {
   "articles": [
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Census Bureau’s largest operational rehearsal before 2030 is continuing household visits through August 31 in Huntsville, Alabama, and Spartanburg, South Carolina, covering about 154,600 invited housing units.\n\nThe two-site test includes approximately 81,000 homes in the Huntsville area and 73,600 in Spartanburg. It is not an official population count; it is designed to test whether proposed methods are workable before the next decennial census.\n\nHouseholds that did not respond online may receive an in-person visit from a census taker or a specially trained U.S. Postal Service worker. Visits can occur during the day or evening, including as late as 9 p.m. on weekdays and weekends.\n\nThe USPS role differs by site. In Huntsville, postal workers assigned to the pilot are hired as Census Bureau employees for the visits. In Spartanburg, a postal worker may collect responses during a normal delivery route or work as a census taker.\n\nThe Bureau says the pilot is testing whether neighborhood familiarity with postal workers can improve in-field enumeration. Those workers undergo background checks and census-specific training and remain bound by the confidentiality requirements in Title 13.\n\nOfficial field staff should carry a Census Bureau badge with their name and photo and a clearly marked bag. That identification standard matters because the extended hours and doorstep questions can otherwise look unusual to residents.\n\nThe questionnaire asks about household members, including name, age, sex, Hispanic origin, race, citizenship and education. Responses remain confidential under federal law, and the test release does not authorize workers to disclose household-level answers to another agency or the public.\n\nOnline response remains available through the same August 31 endpoint. The test is therefore comparing modes within one operation rather than replacing digital response with doorstep enumeration.\n\nThe Census Bureau has not published final response rates or a verdict on the USPS experiment. Those results belong after data collection and evaluation. What residents can act on now is narrower: the two-site window remains open, legitimate late visits are possible, and official identification is required.",
+      "bodyBlocks": [
+        {
+          "text": "The Census Bureau’s largest operational rehearsal before 2030 is continuing household visits through August 31 in Huntsville, Alabama, and Spartanburg, South Carolina, covering about 154,600 invited housing units.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The two-site test includes approximately 81,000 homes in the Huntsville area and 73,600 in Spartanburg. It is not an official population count; it is designed to test whether proposed methods are workable before the next decennial census.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Households that did not respond online may receive an in-person visit from a census taker or a specially trained U.S. Postal Service worker. Visits can occur during the day or evening, including as late as 9 p.m. on weekdays and weekends.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows approximately 81,000 housing units in Huntsville and 73,600 in Spartanburg, totaling 154,600.",
+          "caption": "The two-site test covers about 154,600 invited housing units.",
+          "credit": "Boho News graphic from Census Bureau release",
+          "height": 900,
+          "rightsId": "media-census-test-sites-housing-units-2026",
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2026-census-test-enumeration-begins.html",
+          "src": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-sites-housing-units-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The USPS role differs by site. In Huntsville, postal workers assigned to the pilot are hired as Census Bureau employees for the visits. In Spartanburg, a postal worker may collect responses during a normal delivery route or work as a census taker.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Bureau says the pilot is testing whether neighborhood familiarity with postal workers can improve in-field enumeration. Those workers undergo background checks and census-specific training and remain bound by the confidentiality requirements in Title 13.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Official field staff should carry a Census Bureau badge with their name and photo and a clearly marked bag. That identification standard matters because the extended hours and doorstep questions can otherwise look unusual to residents.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic compares ordinary census taker visits with the pilot use of specially trained postal workers.",
+          "caption": "The test examines whether USPS workers can support in-field enumeration while following Census Bureau training, background checks and confidentiality law.",
+          "credit": "Boho News graphic from Census Bureau release",
+          "height": 900,
+          "rightsId": "media-census-test-enumeration-methods-2026",
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2026-census-test-enumeration-begins.html",
+          "src": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-enumeration-methods-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The questionnaire asks about household members, including name, age, sex, Hispanic origin, race, citizenship and education. Responses remain confidential under federal law, and the test release does not authorize workers to disclose household-level answers to another agency or the public.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Online response remains available through the same August 31 endpoint. The test is therefore comparing modes within one operation rather than replacing digital response with doorstep enumeration.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Census Bureau has not published final response rates or a verdict on the USPS experiment. Those results belong after data collection and evaluation. What residents can act on now is narrower: the two-site window remains open, legitimate late visits are possible, and official identification is required.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/2026-census-test-huntsville-spartanburg-august-31/",
+      "citations": [
+        {
+          "id": "source-census-test-field-enumeration-20260601",
+          "publishedAt": "2026-06-01T12:00:00Z",
+          "publisher": "U.S. Census Bureau",
+          "title": "Census Takers to Start Visiting Households for 2026 Census Test",
+          "url": "https://www.census.gov/newsroom/press-releases/2026/2026-census-test-enumeration-begins.html"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The 2026 Census Test covers approximately 81,000 housing units in Huntsville and 73,600 in Spartanburg.",
+        "In-field enumeration and online self-response continue through August 31, 2026.",
+        "Some visits may occur as late as 9 p.m. on weekdays and weekends.",
+        "Designated postal workers carry Census Bureau identification and must complete background checks and census training.",
+        "Postal workers may conduct visits as Census Bureau employees in Huntsville and during normal mail routes or as census takers in Spartanburg.",
+        "Responses are confidential under Title 13 of the U.S. Code."
+      ],
+      "corrections": [],
+      "dek": "The two-city field test is comparing ordinary census takers with specially trained postal workers before the Census Bureau finalizes 2030 operations.",
+      "desk": "civic-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Census Bureau",
+        "U.S. Postal Service"
+      ],
+      "eventId": "event-2026-census-test-huntsville-spartanburg-august-31",
+      "headline": "2026 Census Test Continues Doorstep Visits at 154,600 Homes Through Aug. 31",
+      "id": "article-2026-census-test-huntsville-spartanburg-august-31",
+      "leadImage": {
+        "alt": "A Census Bureau field worker wearing a yellow shirt speaks with a resident at the doorway of a brick home.",
+        "caption": "A Census Bureau field worker speaks with a resident at her door in an official media handout simulating doorstep enumeration. The 2026 Census Test continues household visits in Huntsville and Spartanburg through August 31.",
+        "credit": "U.S. Census Bureau",
+        "height": 900,
+        "rightsId": "media-census-taker-at-resident-door-2020",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-taker-at-resident-door-2020/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Huntsville, Alabama",
+        "Spartanburg, South Carolina"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T12:22:09.097Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t110343z-9fba6bec06c1-caf864902270",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The 2026 Census Test continues visits at about 154,600 homes in Huntsville and Spartanburg through Aug. 31 to prepare for 2030.",
+        "index": true,
+        "title": "2026 Census Test visits in Huntsville and Spartanburg end Aug. 31"
+      },
+      "section": "us",
+      "slug": "2026-census-test-huntsville-spartanburg-august-31",
+      "social": {
+        "description": "The two-city field test is comparing ordinary census takers with specially trained postal workers before the Census Bureau finalizes 2030 operations.",
+        "image": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-taker-at-resident-door-2020/open-graph.webp",
+        "title": "The Census Bureau’s 2030 rehearsal is still knocking on doors"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "2026 Census Test",
+        "2030 Census",
+        "Census takers",
+        "U.S. Postal Service",
+        "Government data",
+        "Privacy"
+      ],
+      "uncertainty": [
+        "The test is designed to evaluate methods and does not produce the official 2030 population count.",
+        "The release does not report a final response rate or comparative performance for the two field approaches."
+      ],
+      "updatedAt": "2026-08-06T12:22:09.097Z"
+    },
+    {
       "articleType": "analysis",
       "authors": [
         "Boho News Staff"
@@ -2936,6 +3085,156 @@
       "updatedAt": "2026-08-06T02:34:08.835Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Food and Drug Administration has approved the first medicine that directly replaces the missing orexin signal behind narcolepsy type 1, a change from therapies that address pieces of the disorder separately.\n\nOrzeyful, the brand name for oveporexton, is approved for adults and taken as a tablet twice daily. The drug activates the same brain receptor that the body’s orexin messenger normally stimulates, targeting the biological pathway that regulates wakefulness, sleep and muscle tone.\n\nNarcolepsy type 1 is caused by the loss of brain cells that produce orexin. The disorder can combine excessive daytime sleepiness with cataplexy—sudden muscle weakness triggered by emotion—along with sleep paralysis, hallucinations around sleep and disrupted nighttime sleep.\n\nFDA evaluated the medicine in two randomized, double-blind, placebo-controlled trials lasting 12 weeks and enrolling 273 adults. At the approved two-milligram dose, the agency said participants improved their ability to remain awake compared with placebo and reported less daytime sleepiness and fewer cataplexy episodes.\n\nThe agency also described improvement across sleep paralysis, hallucinations and disrupted nighttime sleep. Its public announcement does not provide every numerical effect size, confidence interval or subgroup result, so the approval should not be read as proof that every participant experienced the same benefit.\n\nThe most common side effects reported by FDA were insomnia, increased urinary frequency or urgency and increased saliva production. The agency said discontinuation because of side effects was low, while also warning that Orzeyful should not be used with strong CYP3A inhibitors.\n\nSafety and effectiveness have not been established for people younger than 18. That age boundary matters because the adult approval cannot be automatically extended to children or adolescents without supporting evidence and regulatory review.\n\nThe product cannot enter ordinary marketing immediately. FDA recommended that it be scheduled under the Controlled Substances Act, and the agency said lawful marketing follows a scheduling decision from the Drug Enforcement Administration.\n\nThe approval is a regulatory finding for a defined use, not individualized medical advice. The most consequential scientific change is the mechanism: for the first time, an approved therapy for narcolepsy type 1 is intended to restore orexin signaling across the disorder rather than treat each manifestation as an isolated symptom.",
+      "bodyBlocks": [
+        {
+          "text": "The Food and Drug Administration has approved the first medicine that directly replaces the missing orexin signal behind narcolepsy type 1, a change from therapies that address pieces of the disorder separately.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Orzeyful, the brand name for oveporexton, is approved for adults and taken as a tablet twice daily. The drug activates the same brain receptor that the body’s orexin messenger normally stimulates, targeting the biological pathway that regulates wakefulness, sleep and muscle tone.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Narcolepsy type 1 is caused by the loss of brain cells that produce orexin. The disorder can combine excessive daytime sleepiness with cataplexy—sudden muscle weakness triggered by emotion—along with sleep paralysis, hallucinations around sleep and disrupted nighttime sleep.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic explains that narcolepsy type 1 involves loss of orexin-producing cells and that oveporexton activates an orexin receptor.",
+          "caption": "Orzeyful is the first approved therapy that directly restores orexin signaling, according to the FDA.",
+          "credit": "Boho News graphic from FDA approval record",
+          "height": 900,
+          "rightsId": "media-fda-orzeyful-orexin-mechanism-2026",
+          "sourceUrl": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-full-range-narcolepsy-type-1-symptoms",
+          "src": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-orexin-mechanism-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "FDA evaluated the medicine in two randomized, double-blind, placebo-controlled trials lasting 12 weeks and enrolling 273 adults. At the approved two-milligram dose, the agency said participants improved their ability to remain awake compared with placebo and reported less daytime sleepiness and fewer cataplexy episodes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The agency also described improvement across sleep paralysis, hallucinations and disrupted nighttime sleep. Its public announcement does not provide every numerical effect size, confidence interval or subgroup result, so the approval should not be read as proof that every participant experienced the same benefit.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The most common side effects reported by FDA were insomnia, increased urinary frequency or urgency and increased saliva production. The agency said discontinuation because of side effects was low, while also warning that Orzeyful should not be used with strong CYP3A inhibitors.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows two 12-week randomized trials with 273 adults and lists the main symptom measures described by FDA.",
+          "caption": "FDA based the approval on two randomized, double-blind, placebo-controlled studies enrolling 273 adults.",
+          "credit": "Boho News graphic from FDA approval record",
+          "height": 900,
+          "rightsId": "media-fda-orzeyful-trial-evidence-2026",
+          "sourceUrl": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-full-range-narcolepsy-type-1-symptoms",
+          "src": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-trial-evidence-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Safety and effectiveness have not been established for people younger than 18. That age boundary matters because the adult approval cannot be automatically extended to children or adolescents without supporting evidence and regulatory review.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The product cannot enter ordinary marketing immediately. FDA recommended that it be scheduled under the Controlled Substances Act, and the agency said lawful marketing follows a scheduling decision from the Drug Enforcement Administration.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The approval is a regulatory finding for a defined use, not individualized medical advice. The most consequential scientific change is the mechanism: for the first time, an approved therapy for narcolepsy type 1 is intended to restore orexin signaling across the disorder rather than treat each manifestation as an isolated symptom.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/",
+      "citations": [
+        {
+          "id": "source-fda-orzeyful-narcolepsy-20260805",
+          "publishedAt": "2026-08-05T12:00:00Z",
+          "publisher": "U.S. Food and Drug Administration",
+          "title": "FDA Approves First Drug to Treat the Full Range of Narcolepsy Type 1 Symptoms",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-full-range-narcolepsy-type-1-symptoms"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "FDA approved Orzeyful, or oveporexton, tablets for adults with narcolepsy type 1 on August 5, 2026.",
+        "The medicine directly activates the orexin receptor and is taken twice daily.",
+        "Two randomized, double-blind, placebo-controlled 12-week studies enrolled 273 adults.",
+        "FDA reported improvements in wakefulness, daytime sleepiness, cataplexy and other narcolepsy symptoms.",
+        "FDA said safety and effectiveness have not been established for patients younger than 18.",
+        "Marketing must wait for a Drug Enforcement Administration scheduling decision."
+      ],
+      "corrections": [],
+      "dek": "Orzeyful, or oveporexton, is the first approved medicine designed to restore the missing wakefulness signal behind the disorder’s full symptom pattern.",
+      "desk": "sleep-medicine",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Food and Drug Administration",
+        "Takeda Pharmaceuticals America",
+        "Orzeyful",
+        "Oveporexton"
+      ],
+      "eventId": "event-fda-orzeyful-orexin-narcolepsy-type-1-approval-2026",
+      "headline": "FDA Approves First Orexin-Targeting Drug for Narcolepsy Type 1",
+      "id": "article-fda-orzeyful-orexin-narcolepsy-type-1-approval-2026",
+      "leadImage": {
+        "alt": "An airman sleeps in a dim aircraft cabin while other personnel sit nearby.",
+        "caption": "An Air Force member rests during a flight. The FDA has approved the first narcolepsy type 1 drug designed to replace missing orexin signaling rather than target symptoms separately.",
+        "credit": "Jordan Castelan/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-air-force-sleep-fatigue-study-2019",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/air-force-sleep-fatigue-study-2019/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T12:22:09.097Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t110343z-9fba6bec06c1-caf864902270",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "FDA approves Orzeyful, the first narcolepsy type 1 drug to directly restore orexin signaling across the disorder’s major symptoms.",
+        "index": true,
+        "title": "FDA approves Orzeyful orexin drug for narcolepsy type 1"
+      },
+      "section": "health-science",
+      "slug": "fda-orzeyful-orexin-narcolepsy-type-1-approval-2026",
+      "social": {
+        "description": "Orzeyful, or oveporexton, is the first approved medicine designed to restore the missing wakefulness signal behind the disorder’s full symptom pattern.",
+        "image": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/air-force-sleep-fatigue-study-2019/open-graph.webp",
+        "title": "The first orexin-receptor drug for narcolepsy type 1 clears FDA review"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Narcolepsy type 1",
+        "Orexin",
+        "Sleep medicine",
+        "Drug approvals",
+        "Clinical trials",
+        "FDA"
+      ],
+      "uncertainty": [
+        "The FDA announcement summarizes trial results and does not provide all effect sizes or subgroup analyses.",
+        "Approval does not establish how individual patients will respond or how the drug compares over the long term with every existing regimen."
+      ],
+      "updatedAt": "2026-08-06T12:22:09.097Z"
+    },
+    {
       "articleType": "investigation",
       "authors": [
         "Boho News Investigations Desk"
@@ -5527,6 +5826,156 @@
         "The report describes risk-management gaps and examples; it does not estimate fraud losses within each of the 20 programs."
       ],
       "updatedAt": "2026-08-06T00:28:51.995Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Pentagon’s major weapon programs now take more than 12 years on average to deliver a capability, even as the department shifts more projects onto a rapid-acquisition pathway designed to finish in five years.\n\nThe Government Accountability Office reached that finding in its 24th annual weapon-systems assessment, covering 104 of the Department of Defense’s costliest programs. DOD plans to invest more than $2.4 trillion in developing and buying the systems included in the review.\n\nThe portfolio average is not a delivery date for every program. It is a warning about the direction of the system as a whole. GAO says key decisions and interim milestones continue to slip, and several programs have not established new delivery dates after delays, making the published 12-year average likely to rise.\n\nThe department has increasingly used Middle Tier of Acquisition pathways for rapid prototyping and fielding. Those pathways are intended to complete within five years, but GAO found that nearly half of the programs entering them between 2018 and 2025 began with technologies that were not mature.\n\nThat mismatch is measurable. Eighteen of 40 programs entered the pathway with immature technologies. Among eight current programs examined more closely, technologies for seven remained immature and required additional development, while some rapid-pathway efforts ended without delivering a fieldable capability.\n\nGAO separates technical ambition from acquisition design. A program can pursue difficult technology, but the watchdog argues that immature components should be developed separately until they are ready to be integrated into a delivery-focused effort. Otherwise, the five-year clock begins while fundamental technical work is still unresolved.\n\nThe financial scale is substantial. DOD plans at least $49 billion across 23 of its most expensive Middle Tier programs. That figure is not the cost of all rapid acquisition, but it shows why schedule discipline in the portfolio matters beyond any single system.\n\nGAO recommended that acquisition policy require programs integrating multiple technologies to begin with mature technologies or to develop the immature pieces outside the rapid-delivery program. DOD concurred, leaving implementation—not agreement over the principle—as the next test.\n\nThe report does not say every delay is avoidable or that speed should replace testing. Its narrower conclusion is that a pathway built for rapid delivery cannot reliably perform that role when it is also asked to finish basic technology development after the clock has started.",
+      "bodyBlocks": [
+        {
+          "text": "The Pentagon’s major weapon programs now take more than 12 years on average to deliver a capability, even as the department shifts more projects onto a rapid-acquisition pathway designed to finish in five years.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Government Accountability Office reached that finding in its 24th annual weapon-systems assessment, covering 104 of the Department of Defense’s costliest programs. DOD plans to invest more than $2.4 trillion in developing and buying the systems included in the review.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The portfolio average is not a delivery date for every program. It is a warning about the direction of the system as a whole. GAO says key decisions and interim milestones continue to slip, and several programs have not established new delivery dates after delays, making the published 12-year average likely to rise.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 104 major weapon programs, more than 2.4 trillion dollars planned, and an average delivery time above 12 years.",
+          "caption": "GAO reviewed 104 of the Pentagon’s costliest programs and says the average capability-delivery timeline now exceeds 12 years.",
+          "credit": "Boho News graphic from GAO-26-108457",
+          "height": 900,
+          "rightsId": "media-gao-weapons-portfolio-scale-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108457",
+          "src": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-weapons-portfolio-scale-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The department has increasingly used Middle Tier of Acquisition pathways for rapid prototyping and fielding. Those pathways are intended to complete within five years, but GAO found that nearly half of the programs entering them between 2018 and 2025 began with technologies that were not mature.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That mismatch is measurable. Eighteen of 40 programs entered the pathway with immature technologies. Among eight current programs examined more closely, technologies for seven remained immature and required additional development, while some rapid-pathway efforts ended without delivering a fieldable capability.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO separates technical ambition from acquisition design. A program can pursue difficult technology, but the watchdog argues that immature components should be developed separately until they are ready to be integrated into a delivery-focused effort. Otherwise, the five-year clock begins while fundamental technical work is still unresolved.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 18 of 40 rapid-acquisition programs entering with immature technologies and seven of eight current programs still requiring development.",
+          "caption": "GAO says immature technology is repeatedly entering a pathway intended to deliver usable capability within five years.",
+          "credit": "Boho News graphic from GAO-26-108457",
+          "height": 900,
+          "rightsId": "media-gao-mta-technology-maturity-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108457",
+          "src": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-mta-technology-maturity-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The financial scale is substantial. DOD plans at least $49 billion across 23 of its most expensive Middle Tier programs. That figure is not the cost of all rapid acquisition, but it shows why schedule discipline in the portfolio matters beyond any single system.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO recommended that acquisition policy require programs integrating multiple technologies to begin with mature technologies or to develop the immature pieces outside the rapid-delivery program. DOD concurred, leaving implementation—not agreement over the principle—as the next test.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The report does not say every delay is avoidable or that speed should replace testing. Its narrower conclusion is that a pathway built for rapid delivery cannot reliably perform that role when it is also asked to finish basic technology development after the clock has started.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-weapon-programs-average-delivery-over-12-years-2026/",
+      "citations": [
+        {
+          "id": "source-gao-weapon-systems-annual-20260702",
+          "publishedAt": "2026-07-02T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Weapon Systems Annual Assessment: Requiring Mature Technologies Could Enable Shift to Rapid Delivery",
+          "url": "https://www.gao.gov/products/gao-26-108457"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "GAO reviewed 104 of the Department of Defense’s costliest weapon programs.",
+        "DOD plans to invest more than $2.4 trillion to develop and acquire the programs in GAO’s review.",
+        "The average time to deliver a capability increased to more than 12 years.",
+        "DOD plans at least $49 billion across 23 of its most expensive Middle Tier of Acquisition programs.",
+        "Eighteen of 40 programs entered the rapid pathway with immature technologies between 2018 and 2025.",
+        "DOD agreed with GAO’s recommendation to require mature technologies at program start or develop immature technologies separately."
+      ],
+      "corrections": [],
+      "dek": "GAO’s annual review finds that programs on the five-year rapid pathway often begin with immature technology, while major milestones continue to slip.",
+      "desk": "defense-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "U.S. Department of Defense",
+        "Middle Tier of Acquisition"
+      ],
+      "eventId": "event-gao-weapon-programs-average-delivery-over-12-years-2026",
+      "headline": "Pentagon Weapon Programs Now Average More Than 12 Years to Deliver",
+      "id": "article-gao-weapon-programs-average-delivery-over-12-years-2026",
+      "leadImage": {
+        "alt": "Personnel stand beside an F-35B fighter inside an aircraft maintenance and production hangar.",
+        "caption": "Fleet Readiness Center Southeast personnel stand with the first F-35B inducted for depot work in 2024. GAO says the average delivery time for major defense capabilities has climbed past 12 years.",
+        "credit": "Toiete Jackson/U.S. Navy",
+        "height": 900,
+        "rightsId": "media-frcse-f35-depot-line-2024",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/frcse-f35-depot-line-2024/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T12:22:09.097Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t110343z-9fba6bec06c1-caf864902270",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says major Pentagon weapon programs now average over 12 years to deliver, while rapid programs often begin with immature technology.",
+        "index": true,
+        "title": "Pentagon weapon programs average more than 12 years to deliver"
+      },
+      "section": "politics",
+      "slug": "gao-weapon-programs-average-delivery-over-12-years-2026",
+      "social": {
+        "description": "GAO’s annual review finds that programs on the five-year rapid pathway often begin with immature technology, while major milestones continue to slip.",
+        "image": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/frcse-f35-depot-line-2024/open-graph.webp",
+        "title": "GAO finds the Pentagon’s delivery clock has stretched past 12 years"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Defense acquisition",
+        "Weapon systems",
+        "Pentagon oversight",
+        "Technology maturity",
+        "Program delays",
+        "GAO"
+      ],
+      "uncertainty": [
+        "The 12-year figure is a portfolio average and does not describe the schedule of every program.",
+        "Several programs have not set revised delivery dates, so GAO says the average may rise further."
+      ],
+      "updatedAt": "2026-08-06T12:22:09.097Z"
     },
     {
       "articleType": "news-report",
@@ -9236,6 +9685,159 @@
       "authors": [
         "Boho News Staff"
       ],
+      "body": "NASA-funded researchers will chase the August 12 total solar eclipse with a high-altitude jet and launch 86 scientific balloons from Iceland and Spain, turning the Moon’s shadow into a coordinated solar and atmospheric experiment.\n\nThe eclipse crosses Greenland, Iceland and Spain. A NASA WB-57 will fly along the path at about 460 miles per hour and 50,000 feet, above most clouds and much of the atmosphere that absorbs infrared light before it reaches ground telescopes.\n\nFour cameras in the aircraft’s nose will record at least 20 images per second in multiple visible and infrared wavelengths. Scientists plan to examine fast-changing structures in the solar corona, suspended prominences and the relationship between coronal material and the solar wind.\n\nChasing the shadow extends the observation window. NASA says the longest view of the corona from the ground will be two minutes and 18 seconds, while the aircraft should remain in totality for nearly three minutes. That extra time produces more frames of a phenomenon that cannot be paused or repeated.\n\nThe instrument, called the SCIFLI Multispectral Airborne Imager, also flew during the April 2024 eclipse. The team adjusted exposure plans after bright features were overexposed in some earlier imagery and will use newer processing software to analyze the 2026 data sooner.\n\nThe balloon campaign targets a different layer of the event. In Iceland, two university teams plan to launch 80 balloons beginning 18 hours before totality and continuing until eight hours afterward, measuring how sudden darkness changes the atmospheric boundary layer near Earth’s surface.\n\nEarlier eclipse campaigns found that the boundary layer thinned under clear skies but not cloudy ones. Iceland’s long August daylight creates a distinct test because its brief night may produce a weaker ordinary nighttime transition than researchers observed in 2023 and 2024.\n\nIn Spain, three teams plan six balloons with 360-degree cameras and ozone instruments. Ozone requires sunlight to form, and similar instruments measured a decline during the 2024 eclipse; the later time of day and different season give researchers another set of conditions to compare.\n\nThe flight and balloon counts are plans, not completed observations. Weather, launch conditions and aircraft operations can change them, and the scientific claims will come only after calibration and analysis. The experiment’s immediate news is its design: one brief shadow sampled across altitude, wavelength, geography and time.",
+      "bodyBlocks": [
+        {
+          "text": "NASA-funded researchers will chase the August 12 total solar eclipse with a high-altitude jet and launch 86 scientific balloons from Iceland and Spain, turning the Moon’s shadow into a coordinated solar and atmospheric experiment.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The eclipse crosses Greenland, Iceland and Spain. A NASA WB-57 will fly along the path at about 460 miles per hour and 50,000 feet, above most clouds and much of the atmosphere that absorbs infrared light before it reaches ground telescopes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Four cameras in the aircraft’s nose will record at least 20 images per second in multiple visible and infrared wavelengths. Scientists plan to examine fast-changing structures in the solar corona, suspended prominences and the relationship between coronal material and the solar wind.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows a WB-57 flying at 50,000 feet and 460 miles per hour with four cameras recording at least 20 images per second.",
+          "caption": "Chasing the eclipse path will extend the airborne view of the corona to nearly three minutes.",
+          "credit": "Boho News graphic from NASA eclipse plan",
+          "height": 900,
+          "rightsId": "media-nasa-eclipse-wb57-observation-2026",
+          "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/",
+          "src": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-wb57-observation-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Chasing the shadow extends the observation window. NASA says the longest view of the corona from the ground will be two minutes and 18 seconds, while the aircraft should remain in totality for nearly three minutes. That extra time produces more frames of a phenomenon that cannot be paused or repeated.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The instrument, called the SCIFLI Multispectral Airborne Imager, also flew during the April 2024 eclipse. The team adjusted exposure plans after bright features were overexposed in some earlier imagery and will use newer processing software to analyze the 2026 data sooner.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The balloon campaign targets a different layer of the event. In Iceland, two university teams plan to launch 80 balloons beginning 18 hours before totality and continuing until eight hours afterward, measuring how sudden darkness changes the atmospheric boundary layer near Earth’s surface.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic compares 80 balloons in Iceland with six camera and ozone balloons in Spain.",
+          "caption": "Student teams will test how sudden darkness changes the atmospheric boundary layer and ozone.",
+          "credit": "Boho News graphic from NASA eclipse plan",
+          "height": 900,
+          "rightsId": "media-nasa-eclipse-balloon-campaign-2026",
+          "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/",
+          "src": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-balloon-campaign-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Earlier eclipse campaigns found that the boundary layer thinned under clear skies but not cloudy ones. Iceland’s long August daylight creates a distinct test because its brief night may produce a weaker ordinary nighttime transition than researchers observed in 2023 and 2024.",
+          "type": "paragraph"
+        },
+        {
+          "text": "In Spain, three teams plan six balloons with 360-degree cameras and ozone instruments. Ozone requires sunlight to form, and similar instruments measured a decline during the 2024 eclipse; the later time of day and different season give researchers another set of conditions to compare.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The flight and balloon counts are plans, not completed observations. Weather, launch conditions and aircraft operations can change them, and the scientific claims will come only after calibration and analysis. The experiment’s immediate news is its design: one brief shadow sampled across altitude, wavelength, geography and time.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nasa-august-12-2026-eclipse-wb57-balloon-science/",
+      "citations": [
+        {
+          "id": "source-nasa-august-2026-eclipse-science-20260727",
+          "publishedAt": "2026-07-27T12:00:00Z",
+          "publisher": "NASA",
+          "title": "NASA Science Soars During August Total Solar Eclipse",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The total solar eclipse crosses Greenland, Iceland and Spain on August 12, 2026.",
+        "A NASA WB-57 will fly at 50,000 feet and about 460 miles per hour.",
+        "Four cameras will record at least 20 images per second in visible and infrared wavelengths.",
+        "The aircraft’s view of the corona is expected to last nearly three minutes, compared with a ground maximum of two minutes and 18 seconds.",
+        "Two Iceland teams plan 80 balloon launches from 18 hours before to eight hours after the eclipse.",
+        "Three Spain teams plan six balloons carrying 360-degree cameras and ozone instruments."
+      ],
+      "corrections": [],
+      "dek": "A WB-57 at 50,000 feet will image the solar corona while student teams in Iceland and Spain measure atmospheric changes before, during and after totality.",
+      "desk": "heliophysics-atmosphere",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NASA",
+        "Southwest Research Institute",
+        "Montana State University",
+        "Nationwide Eclipse Ballooning Project"
+      ],
+      "eventId": "event-nasa-august-12-2026-eclipse-wb57-balloon-science",
+      "headline": "NASA Will Chase the Aug. 12 Eclipse With a Jet and 86 Balloons",
+      "id": "article-nasa-august-12-2026-eclipse-wb57-balloon-science",
+      "leadImage": {
+        "alt": "A white NASA WB-57 high-altitude research aircraft climbs into a blue sky after takeoff.",
+        "caption": "A NASA WB-57 launches from March Air Reserve Base in April 2026. The same aircraft type will chase the August 12 eclipse at 50,000 feet to extend observations of the solar corona.",
+        "credit": "Steven Lewis/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-nasa-wb57-aircraft-launch-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-wb57-aircraft-launch-2026/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Iceland",
+        "Spain",
+        "Greenland",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T12:22:09.097Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t110343z-9fba6bec06c1-caf864902270",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NASA will chase the Aug. 12 total solar eclipse with a WB-57 jet and launch 86 balloons from Iceland and Spain.",
+        "index": true,
+        "title": "NASA Aug. 12, 2026 eclipse jet and balloon science plan"
+      },
+      "section": "weather-climate",
+      "slug": "nasa-august-12-2026-eclipse-wb57-balloon-science",
+      "social": {
+        "description": "A WB-57 at 50,000 feet will image the solar corona while student teams in Iceland and Spain measure atmospheric changes before, during and after totality.",
+        "image": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-wb57-aircraft-launch-2026/open-graph.webp",
+        "title": "NASA’s eclipse laboratory will fly from 50,000 feet to the ground"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "2026 total solar eclipse",
+        "Solar corona",
+        "Scientific balloons",
+        "Atmospheric boundary layer",
+        "Ozone",
+        "NASA"
+      ],
+      "uncertainty": [
+        "Weather, aircraft operations and balloon conditions can alter the planned observations.",
+        "The campaign describes experiments and expected measurements; scientific conclusions will follow collection and analysis."
+      ],
+      "updatedAt": "2026-08-06T12:22:09.097Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
       "body": "NASA has opened a 25,000-square-foot wind-tunnel facility in Virginia that can suspend free-flying models in a 20-foot-wide vertical column of air moving as fast as 117 miles per hour.\n\nThe Flight Dynamics Research Facility began operating July 31 at Langley Research Center in Hampton. NASA describes it as the agency’s first major new wind tunnel in more than 40 years and a replacement for two aging facilities that shaped decades of aircraft and spacecraft testing.\n\nIts purpose is not simply to push air past a fixed wing. Researchers can mount models on test equipment or let them fly freely inside the chamber, then study stability, spins, control, parachutes and the behavior of vehicles descending through an atmosphere.\n\nThe vertical test chamber is 20 feet in diameter, giving air more room to flow around larger and more detailed models. NASA says that improves the quality of measurements and expands the class of free-flight experiments the tunnel can handle.\n\nIts maximum airspeed is twice that of the facilities it replaces. At 117 mph, researchers can fly heavier scale models and simulate some full-scale vehicles at higher altitude, where thinner air changes the relationship among size, speed and aerodynamic force.\n\nThe speed figure is a facility limit, not a claim that every test will run at the maximum. Researchers need controlled, repeatable airflow, and many questions about slow-speed stability or parachute behavior require lower settings.\n\nThe airflow comes from four 750-horsepower motors. Each drives a 14-foot-diameter fan with eight carbon-fiber blades, for 32 blades across the wind system and 3,000 horsepower of installed motor rating.\n\nNASA says the lightweight blades allow the system to change airspeed quickly and precisely during free-flight work. That responsiveness matters when a model moves through the chamber and researchers need to keep it inside a safe test envelope.\n\nThe tunnel can support aircraft-safety studies, experimental X-planes, drones and autonomous vehicles. Its spaceflight work is atmospheric: models of reentry capsules, parachutes and landing systems, along with possible aircraft for Mars or other worlds with atmospheres.\n\nThose uses are capabilities, not completed results. NASA’s opening announcement does not identify a first research campaign or publish validation data from a specific vehicle.\n\nThe new facility combines and improves the roles of Langley’s 20-Foot Vertical Spin Tunnel and 12-Foot Low-Speed Tunnel. The spin tunnel opened in 1941 and became a specialized place to study how aircraft enter and recover from spins; the smaller low-speed tunnel supported free-flight and control research.\n\nBringing their work into one modern building is meant to reduce maintenance demands and give research teams digital systems and a flexible test space. It is the fourth building delivered through NASA’s long-term Langley partnership with the General Services Administration.\n\nThat campus story is important because wind tunnels are infrastructure. Their scientific value depends on calibration, repeatability, model preparation, sensors and the ability to run safely over years—not on opening-day dimensions alone.\n\nThe next evidence will come from actual campaigns: what vehicles use the chamber, whether the airflow and controls perform as specified, and what designs change because of the measurements. The opening supplies the tool; experiments will supply the findings.",
       "bodyBlocks": [
         {
@@ -12905,6 +13507,310 @@
         "Retail distribution lists and product availability may not capture every final point of sale."
       ],
       "updatedAt": "2026-08-05T03:06:17.054Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A recall of Sloosh pool dive sticks has expanded to about 404,000 units across three model numbers after federal regulators said the hard-plastic toys can remain too rigid and create an impalement hazard.\n\nThe Consumer Product Safety Commission’s July 30 notice adds models 40003 and 16154 to model 40041, which was recalled in June. The 404,000 total includes the earlier 254,000 units; it does not represent 404,000 newly added products.\n\nCPSC says the sticks violate the federal dive-stick ban because they exceed the required compression limit. In shallow water, a child can fall or land on a rigid stick, and attempts to retrieve one underwater can put the face and eyes in its path.\n\nModel 40041 appears in a 30-piece Sloosh water-toy package containing five dive sticks. Model 40003 is in an 18-piece package with four sticks. Model 16154 is sold as an eight-stick set without the other toys.\n\nFor models 40041 and 40003, the model number is printed on the back of the box near the barcode and on one end of each stick. For model 16154, the number is printed on the polybag above the barcode and on the stick.\n\nThe sale-date cutoff also differs. Model 40041 units sold before October 23, 2025, are covered, while models 40003 and 16154 sold before December 31, 2025, are recalled. The products were sold through combinations of Amazon, Target, Temu, Wayfair and SHEIN.\n\nConsumers should stop using the dive sticks immediately and keep them away from children. Joyin’s remedy asks owners to discard the affected sticks, photograph them in the trash and email the image to the company to receive redesigned replacements.\n\nOther toys in the multipacks can continue to be used, according to the notice. That distinction prevents the recall from being expanded by assumption to pieces that CPSC did not identify as violating the rule.\n\nCPSC reported no incidents or injuries in the notice. A preventive recall does not require a reported injury when testing or product design shows a regulated hazard; the actionable details are the three model numbers, the date cutoffs and the disposal-for-replacement process.",
+      "bodyBlocks": [
+        {
+          "text": "A recall of Sloosh pool dive sticks has expanded to about 404,000 units across three model numbers after federal regulators said the hard-plastic toys can remain too rigid and create an impalement hazard.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Consumer Product Safety Commission’s July 30 notice adds models 40003 and 16154 to model 40041, which was recalled in June. The 404,000 total includes the earlier 254,000 units; it does not represent 404,000 newly added products.",
+          "type": "paragraph"
+        },
+        {
+          "text": "CPSC says the sticks violate the federal dive-stick ban because they exceed the required compression limit. In shallow water, a child can fall or land on a rigid stick, and attempts to retrieve one underwater can put the face and eyes in its path.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists recalled Sloosh model numbers 40041, 40003 and 16154 and where each number appears.",
+          "caption": "The expanded recall covers three model numbers and specific sale dates.",
+          "credit": "Boho News graphic from CPSC recall",
+          "height": 900,
+          "rightsId": "media-cpsc-sloosh-dive-stick-models-2026",
+          "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Joyin-Expands-Recall-of-Sloosh-Dive-Sticks-Due-to-Risk-of-Serious-Injury-from-Impalement-Violate-Federal-Dive-Sticks-Ban",
+          "src": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-models-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Model 40041 appears in a 30-piece Sloosh water-toy package containing five dive sticks. Model 40003 is in an 18-piece package with four sticks. Model 16154 is sold as an eight-stick set without the other toys.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For models 40041 and 40003, the model number is printed on the back of the box near the barcode and on one end of each stick. For model 16154, the number is printed on the polybag above the barcode and on the stick.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The sale-date cutoff also differs. Model 40041 units sold before October 23, 2025, are covered, while models 40003 and 16154 sold before December 31, 2025, are recalled. The products were sold through combinations of Amazon, Target, Temu, Wayfair and SHEIN.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic explains stop use, discard the dive sticks, photograph disposal and email the image to receive redesigned replacements.",
+          "caption": "CPSC’s remedy leaves other toys in the affected multipacks available for continued use.",
+          "credit": "Boho News graphic from CPSC recall",
+          "height": 900,
+          "rightsId": "media-cpsc-sloosh-dive-stick-remedy-2026",
+          "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Joyin-Expands-Recall-of-Sloosh-Dive-Sticks-Due-to-Risk-of-Serious-Injury-from-Impalement-Violate-Federal-Dive-Sticks-Ban",
+          "src": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-remedy-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Consumers should stop using the dive sticks immediately and keep them away from children. Joyin’s remedy asks owners to discard the affected sticks, photograph them in the trash and email the image to the company to receive redesigned replacements.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Other toys in the multipacks can continue to be used, according to the notice. That distinction prevents the recall from being expanded by assumption to pieces that CPSC did not identify as violating the rule.",
+          "type": "paragraph"
+        },
+        {
+          "text": "CPSC reported no incidents or injuries in the notice. A preventive recall does not require a reported injury when testing or product design shows a regulated hazard; the actionable details are the three model numbers, the date cutoffs and the disposal-for-replacement process.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/sloosh-dive-sticks-expanded-recall-404000-2026/",
+      "citations": [
+        {
+          "id": "source-cpsc-sloosh-dive-sticks-recall-20260730",
+          "publishedAt": "2026-07-30T12:00:00Z",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "title": "Joyin Expands Recall of Sloosh Dive Sticks Due to Risk of Serious Injury from Impalement",
+          "url": "https://www.cpsc.gov/Recalls/2026/Joyin-Expands-Recall-of-Sloosh-Dive-Sticks-Due-to-Risk-of-Serious-Injury-from-Impalement-Violate-Federal-Dive-Sticks-Ban"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "CPSC expanded the Sloosh dive-stick recall to about 404,000 units on July 30, 2026.",
+        "The recall covers models 40041, 40003 and 16154.",
+        "CPSC says the hard-plastic sticks exceed the federal compression limit and pose an impalement hazard.",
+        "No incidents or injuries were reported in the recall notice.",
+        "Owners are instructed to stop use, discard the sticks, photograph disposal and email Joyin for redesigned replacements.",
+        "The affected models were sold online by combinations of Amazon, Target, Temu, Wayfair and SHEIN."
+      ],
+      "corrections": [],
+      "dek": "CPSC says the hard-plastic toys violate the federal dive-stick ban; owners should discard the sticks and document disposal for replacements.",
+      "desk": "product-recalls",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Consumer Product Safety Commission",
+        "Joyin US Corp.",
+        "Sloosh"
+      ],
+      "eventId": "event-sloosh-dive-sticks-expanded-recall-404000-2026",
+      "headline": "Sloosh Dive-Stick Recall Expands to 404,000 Units Across 3 Models",
+      "id": "article-sloosh-dive-sticks-expanded-recall-404000-2026",
+      "leadImage": {
+        "alt": "Children stand at the edge of an outdoor pool during a supervised swimming lesson.",
+        "caption": "Children prepare for a swimming lesson at Fort Hood in 2025. CPSC has expanded a recall to 404,000 Sloosh dive sticks that fail the federal compression requirement.",
+        "credit": "Janecze Wright/U.S. Army",
+        "height": 900,
+        "rightsId": "media-fort-hood-learn-to-swim-2025",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/fort-hood-learn-to-swim-2025/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Chandler, Arizona"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T12:22:09.097Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t110343z-9fba6bec06c1-caf864902270",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "CPSC expands the Sloosh dive-stick recall to 404,000 units across models 40041, 40003 and 16154 for an impalement hazard.",
+        "index": true,
+        "title": "Sloosh dive sticks recall expands to 404,000 units"
+      },
+      "section": "business",
+      "slug": "sloosh-dive-sticks-expanded-recall-404000-2026",
+      "social": {
+        "description": "CPSC says the hard-plastic toys violate the federal dive-stick ban; owners should discard the sticks and document disposal for replacements.",
+        "image": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/fort-hood-learn-to-swim-2025/open-graph.webp",
+        "title": "Three Sloosh model numbers are now in a 404,000-unit recall"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Sloosh dive sticks",
+        "Product recalls",
+        "Pool safety",
+        "Children’s products",
+        "Impalement hazard",
+        "CPSC"
+      ],
+      "uncertainty": [
+        "The 404,000 total includes 254,000 units covered by the June 11 recall and is not 404,000 additional products.",
+        "The recall applies to the dive sticks, not every other toy included in the multipacks."
+      ],
+      "updatedAt": "2026-08-06T12:22:09.097Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Twenty-six Islamic artworks from the Musée du Louvre will travel to Washington for a four-month Smithsonian exhibition that asks not only how the objects were made, but how they came to be labeled masterpieces.\n\n“From the Louvre: Masterpieces of Islamic Art” opens September 26 at the National Museum of Asian Art and runs through January 18, 2027. The Smithsonian describes the presentation as the works’ first U.S. display and the exhibition’s only stop in the country.\n\nThe selection spans the seventh through nineteenth centuries and a geography stretching from modern-day Spain to India. It includes metalwork, painting, jade, ceramics, glass and architectural elements rather than treating Islamic art as one period or one material tradition.\n\nThe best-known object may be the Baptistery of Saint Louis, a fourteenth-century brass basin inlaid with silver and gold in Syria or Egypt. Made for secular ceremonial use, it later acquired a Christian identity in France when it was used to baptize Louis XIII in 1606.\n\nOther works show art moving through diplomacy and collecting. An eighteenth-century portrait of the Persian ruler Fath-Ali Shah Qajar was presented to Napoleon. Two ivory Mughal pen cases bearing the names of Shah Abbas I and his grand vizier later entered the orbit of jeweler Louis Cartier.\n\nThe Lion of Monzón, a bronze animal created in Islamic Spain in the tenth or eleventh century, was probably used as a fountain spout before its design influenced European artists and critics. The exhibition uses that change in function and reception to question whether masterpiece status is fixed at creation.\n\nThe collaboration also revives an institutional link. Smithsonian founder Charles Lang Freer corresponded with Louvre curator Gaston Migeon and French collector Raymond Koechlin in the early twentieth century. A sixteenth-century Ottoman plate from Koechlin’s collection, now at the Louvre, returns through the loan.\n\nThe release provides concise object histories rather than a complete provenance file for all 26 works. Questions about ownership transitions, excavation and market history require the exhibition labels and supporting scholarship, and announced loans can change for conservation or transport reasons.\n\nThe practical details are unusually simple for an international loan show: the National Museum of Asian Art is free, and the exhibition remains in Washington through the Martin Luther King Jr. holiday weekend. Its deeper proposition is that public access is part of how an exclusive courtly object becomes a widely recognized masterpiece.",
+      "bodyBlocks": [
+        {
+          "text": "Twenty-six Islamic artworks from the Musée du Louvre will travel to Washington for a four-month Smithsonian exhibition that asks not only how the objects were made, but how they came to be labeled masterpieces.",
+          "type": "paragraph"
+        },
+        {
+          "text": "“From the Louvre: Masterpieces of Islamic Art” opens September 26 at the National Museum of Asian Art and runs through January 18, 2027. The Smithsonian describes the presentation as the works’ first U.S. display and the exhibition’s only stop in the country.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The selection spans the seventh through nineteenth centuries and a geography stretching from modern-day Spain to India. It includes metalwork, painting, jade, ceramics, glass and architectural elements rather than treating Islamic art as one period or one material tradition.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 26 works spanning the seventh through nineteenth centuries and regions from Spain to India.",
+          "caption": "The exhibition combines metalwork, paintings, ceramics, glass, jade and architectural elements from the Louvre.",
+          "credit": "Boho News graphic from Smithsonian release",
+          "height": 900,
+          "rightsId": "media-smithsonian-louvre-exhibition-scope-2026",
+          "sourceUrl": "https://www.si.edu/newsdesk/releases/masterpieces-islamic-art-louvre-come-smithsonian",
+          "src": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-exhibition-scope-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The best-known object may be the Baptistery of Saint Louis, a fourteenth-century brass basin inlaid with silver and gold in Syria or Egypt. Made for secular ceremonial use, it later acquired a Christian identity in France when it was used to baptize Louis XIII in 1606.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Other works show art moving through diplomacy and collecting. An eighteenth-century portrait of the Persian ruler Fath-Ali Shah Qajar was presented to Napoleon. Two ivory Mughal pen cases bearing the names of Shah Abbas I and his grand vizier later entered the orbit of jeweler Louis Cartier.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Lion of Monzón, a bronze animal created in Islamic Spain in the tenth or eleventh century, was probably used as a fountain spout before its design influenced European artists and critics. The exhibition uses that change in function and reception to question whether masterpiece status is fixed at creation.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists the Baptistery of Saint Louis, a portrait of Fath-Ali Shah Qajar, Mughal pen cases and the Lion of Monzón.",
+          "caption": "Featured works trace how objects changed meaning as they moved between courts, collectors and museums.",
+          "credit": "Boho News graphic from Smithsonian release",
+          "height": 900,
+          "rightsId": "media-smithsonian-louvre-featured-objects-2026",
+          "sourceUrl": "https://www.si.edu/newsdesk/releases/masterpieces-islamic-art-louvre-come-smithsonian",
+          "src": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-featured-objects-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The collaboration also revives an institutional link. Smithsonian founder Charles Lang Freer corresponded with Louvre curator Gaston Migeon and French collector Raymond Koechlin in the early twentieth century. A sixteenth-century Ottoman plate from Koechlin’s collection, now at the Louvre, returns through the loan.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The release provides concise object histories rather than a complete provenance file for all 26 works. Questions about ownership transitions, excavation and market history require the exhibition labels and supporting scholarship, and announced loans can change for conservation or transport reasons.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The practical details are unusually simple for an international loan show: the National Museum of Asian Art is free, and the exhibition remains in Washington through the Martin Luther King Jr. holiday weekend. Its deeper proposition is that public access is part of how an exclusive courtly object becomes a widely recognized masterpiece.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/smithsonian-louvre-islamic-art-exhibition-2026/",
+      "citations": [
+        {
+          "id": "source-smithsonian-louvre-islamic-art-20260804",
+          "publishedAt": "2026-08-04T12:00:00Z",
+          "publisher": "Smithsonian Institution",
+          "title": "Masterpieces of Islamic Art From the Louvre Come to the Smithsonian",
+          "url": "https://www.si.edu/newsdesk/releases/masterpieces-islamic-art-louvre-come-smithsonian"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The exhibition includes 26 works from the Musée du Louvre.",
+        "It opens September 26, 2026, and runs through January 18, 2027, at the National Museum of Asian Art.",
+        "The works span the seventh through nineteenth centuries and regions from modern Spain to India.",
+        "The Smithsonian describes Washington as the exhibition’s only U.S. stop.",
+        "Featured objects include the Baptistery of Saint Louis, a portrait of Fath-Ali Shah Qajar, two Mughal pen cases and the Lion of Monzón.",
+        "Admission to the National Museum of Asian Art is free."
+      ],
+      "corrections": [],
+      "dek": "The Louvre loans span 12 centuries and include the Baptistery of Saint Louis, Mughal pen cases and the Lion of Monzón for the exhibition’s only U.S. stop.",
+      "desk": "museum-exhibitions",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Museum of Asian Art",
+        "Musée du Louvre",
+        "Baptistery of Saint Louis",
+        "Charles Lang Freer"
+      ],
+      "eventId": "event-smithsonian-louvre-islamic-art-exhibition-2026",
+      "headline": "Smithsonian Will Bring 26 Louvre Islamic Artworks to Washington",
+      "id": "article-smithsonian-louvre-islamic-art-exhibition-2026",
+      "leadImage": {
+        "alt": "The Freer Gallery of Art’s stone facade and arched entrance stand behind trees in an early black-and-white photograph.",
+        "caption": "The Freer Gallery of Art, now part of the Smithsonian’s National Museum of Asian Art, photographed around 1920. The museum will host 26 Islamic artworks from the Louvre in their only U.S. presentation.",
+        "credit": "National Photo Company Collection/Library of Congress",
+        "height": 900,
+        "rightsId": "media-freer-gallery-exterior-1920",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/freer-gallery-exterior-1920/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington, D.C.",
+        "Paris",
+        "Spain",
+        "India",
+        "Iran"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T12:22:09.097Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t110343z-9fba6bec06c1-caf864902270",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The Smithsonian will display 26 Islamic artworks from the Louvre in Washington from Sept. 26, 2026, through Jan. 18, 2027.",
+        "index": true,
+        "title": "Smithsonian Louvre Islamic art exhibition opens September 2026"
+      },
+      "section": "culture",
+      "slug": "smithsonian-louvre-islamic-art-exhibition-2026",
+      "social": {
+        "description": "The Louvre loans span 12 centuries and include the Baptistery of Saint Louis, Mughal pen cases and the Lion of Monzón for the exhibition’s only U.S. stop.",
+        "image": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/freer-gallery-exterior-1920/open-graph.webp",
+        "title": "Twenty-six Louvre works make their only U.S. stop at the Smithsonian"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Islamic art",
+        "Musée du Louvre",
+        "Smithsonian",
+        "Museum exhibitions",
+        "Cultural exchange",
+        "Art history"
+      ],
+      "uncertainty": [
+        "The announced checklist and dates may be affected by conservation, transport or scheduling changes before opening.",
+        "The Smithsonian release summarizes provenance histories and is not a complete object-by-object provenance record."
+      ],
+      "updatedAt": "2026-08-06T12:22:09.097Z"
     },
     {
       "articleType": "news-report",
@@ -16613,22 +17519,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T08:18:15Z",
+  "generatedAt": "2026-08-06T12:22:48Z",
   "inputHashes": {
-    "approvals": "fd6a24900825fa10a05277ea0b0922876efea8e2057d718930fc678dcd05f534",
-    "articles": "c4d8e77aa2d3b7e7c86e9c3dc40e70a1a4504a081be25badb6b54452b0e1f7f0",
-    "claims": "b3b64237d1b5b9eb6d55b45ac4c99d3a11f4257359a12d51aecfc0b5a102cdd6",
+    "approvals": "8fb05a511a0dac301d1a0dc7ada474bb399c6f45748551280e387838e89fd59c",
+    "articles": "0a2a291c384aa8c52de882ff73adff2afb009692f1da702a192441c80060f323",
+    "claims": "ca718953d5fdf2aa38cf7d8859b5a325b937300b618139d70ba5d701cffb7da2",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "175bd9b33c15839fd40a40734b5233bb542ec4ecdd912248ae700f236a4b7f9d",
-    "mediaRights": "a432ca44777ca0431d657159041bfc41a233b6124005a91431ad96cf784d3bf7",
-    "publicationIntents": "1a3d2f3e171c921f6572d946d0ce6e31bc5919eee91cf5519730b140ac3bf785",
-    "releaseRecords": "3b56e1461c92b484ce6128a7a63148c0129080bd51626bba49e5dcd24ee328c2",
-    "sourceItems": "b5c3c7ecbcfd3eddc3f203659a8244f2e2306a4d10c85966f2e6ce5308261701"
+    "events": "63e1a3ca569c69a5e4bd4eddbeb126acfe58b7061511d36587fe888fc61c85f8",
+    "mediaRights": "00accc316990a52e726b54a9680ccf1e7bdba758fb5a2c8eea1568a069e142d8",
+    "publicationIntents": "df036cb57cafa53c935b7e6d0c07d92a42ee8df6e303ec8cf3fa1ea7e9c9cf27",
+    "releaseRecords": "d87c1bf40c44c990694f5b75dcf62fdeadbf470a6db9fe93a7a7fb2e3111be60",
+    "sourceItems": "e703cf0bc01202733c023eae2a09881db51a7276a147053f01c5e445fe65504f"
   },
   "inventory": {
-    "articleCount": 81,
-    "mediaCount": 229,
-    "routeCount": 81
+    "articleCount": 87,
+    "mediaCount": 247,
+    "routeCount": 87
   },
   "mediaRights": [
     {
@@ -18292,6 +19198,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "An airman sleeps in a dim aircraft cabin while other personnel sit nearby.",
+      "archivalStatus": "current",
+      "attribution": "Jordan Castelan/U.S. Air Force",
+      "caption": "An Air Force member rests during a flight. The FDA has approved the first narcolepsy type 1 drug designed to replace missing orexin signaling rather than target symptoms separately.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Staff Sgt. Jordan Castelan, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "50e12b8a65f428d9b6893511e18aba34c111a313c6b3d1bf8316569fe3d57881",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/air-force-sleep-fatigue-study-2019/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "efbb7e74e1829bed4d507567203549a8f475fbb17dcd65efd49cfc3c049cc62d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/air-force-sleep-fatigue-study-2019/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1bbf109fc54eeb407e16b60d8c80cc414ad2089cebcf39cd60f3511d074e27da",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/air-force-sleep-fatigue-study-2019/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7cb5eac2594afccc6f82b5df0bc9dd7a2663d298edef87e7d2449344eb20a03a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/air-force-sleep-fatigue-study-2019/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "10d5b1788c5c5f6c98f9c4d7339b39287b55dc92c56d51d53ccd827c5bce3609",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/air-force-sleep-fatigue-study-2019/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4d9fe67fc0d7b74828d347aa27ba1004aaeb18d4c21ee60db991dceab7d620b7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/air-force-sleep-fatigue-study-2019/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2e8fa92f07e990b90df25870add67a4f858fa9ba3bc963fb551b6d26b16d080b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/air-force-sleep-fatigue-study-2019/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-air-force-sleep-fatigue-study-2019",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "36ae20c4f4ecc6d487ae1ece41ca84c88fb4ef69ca4083b843a96582fd28a0d0",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/news/358522/air-force-studies-fatigue-and-sleep-enhance-readiness"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A scientist in a white laboratory coat examines a blood sample tube at a bright lab bench.",
       "archivalStatus": "current",
       "attribution": "National Eye Institute / Rhoda Baer Photography",
@@ -19344,6 +20326,234 @@
     },
     {
       "aiGenerated": false,
+      "altText": "A Census Bureau field worker wearing a yellow shirt speaks with a resident at the doorway of a brick home.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Census Bureau",
+      "caption": "A Census Bureau field worker speaks with a resident at her door in an official media handout simulating doorstep enumeration. The 2026 Census Test continues household visits in Huntsville and Spartanburg through August 31.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "U.S. Census Bureau",
+      "derivatives": [
+        {
+          "hash": "2f3bdbbf5b469fc7650364bde00ecab7ad3fce8a4afc5b76bad2474e6d1e0907",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-taker-at-resident-door-2020/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "bcf0e2c201791269fca9341ca22c3100b5a64eb3f3651ae97fd3672fc40e45c8",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-taker-at-resident-door-2020/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6e7b782903beb7a430f45cfc2399e3ad44500965e4a0d20fd9c776464fa46035",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-taker-at-resident-door-2020/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6729c7a541637e5047c18663687ee5736a5c8fc88962788522ea432d4109846e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-taker-at-resident-door-2020/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2768b99a8edd271f98a992efcf71a91890ee22bf2dba9fc6127cc650aaaf9c6f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-taker-at-resident-door-2020/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1b196bcfd81f6ee8750511afa8d941166aff5e78bc8760a131ae82134ef05bf0",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-taker-at-resident-door-2020/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7e6f57c3a17d18d3ec0eb396fddde64a6e5af40905b85362ab7473e8ad045624",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-taker-at-resident-door-2020/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-taker-at-resident-door-2020",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "5f99cf61553925b161f5f2e9dbc88878d90d9a9900b843554c3f4f3585328fe7",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Official U.S. Census Bureau news-media handout; federal-government photograph made available for media coverage.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://broadcast.census.gov/comm/2020census/photos/how-you-can-respond/nrfu/nrfu-enumeration-02.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares ordinary census taker visits with the pilot use of specially trained postal workers.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Census Bureau release",
+      "caption": "The test examines whether USPS workers can support in-field enumeration while following Census Bureau training, background checks and confidentiality law.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "b19908d746c7f2680df854b5605ea8fc92486d3b09504558e361a54ef6b14c78",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-enumeration-methods-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "72c9b1a335d37a2777aef44ce8d1693bcf715f0826330734dc817325ab41b902",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-enumeration-methods-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d0fa28bef0076685580f53002b265daedb1d78e865e5f9f32d6fc6273db91a30",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-enumeration-methods-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6cfdf73507748ed01a2480ce510e7a25d6dcb8ce367c51203afddab7d891c4bf",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-enumeration-methods-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ef845798c7210647c56b302ce6a6935fa6341c18bec467ddeece5b7116873899",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-enumeration-methods-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c33efe4f25e0da9f01d6752b3c3c73329cc086f005889a4b23012af2a7c5a8b5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-enumeration-methods-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e386c222fa6756cd5966c5152f3ac369d4db95ac617618e53a3822fb60893a53",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-enumeration-methods-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-test-enumeration-methods-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4ae797712f2c05030911a518a72740235a4839b9e64536e4104cf579d12e0823",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2026-census-test-enumeration-begins.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows approximately 81,000 housing units in Huntsville and 73,600 in Spartanburg, totaling 154,600.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Census Bureau release",
+      "caption": "The two-site test covers about 154,600 invited housing units.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "bebdd3ef5c8211ebc129052d1ea4912c29b2908b8931b377a71ce8537b56a453",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-sites-housing-units-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b65be8e5ffb64b8077fcb59b021efb76dd22efeba693ec7e47209a83f1a2393b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-sites-housing-units-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "05457cce4a4b205c1fd62de8c54cadc564e74151ae0e99cdfe49c5142ea1bf5e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-sites-housing-units-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b0ccd984a1927f21747b303abd5b4db32e443c225be0b958ee096cd680ca21fd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-sites-housing-units-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3669b0b4224f240f354c667257c4ed93661279ae655ac2b60b14a7e6a06596ab",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-sites-housing-units-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2e55981100bd69b39e2fcf84635a45942ca7ed893b3d8c0336253d90e2ddea69",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-sites-housing-units-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e4cedd67444054e8438f55a058f4ca80349a8cd019df5605ad7c521444834936",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/2026-census-test-huntsville-spartanburg-august-31/census-test-sites-housing-units-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-test-sites-housing-units-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "0c990fb4943626dac3e395d53a27c7501a2a04d7e3e14fecb2fe1a0c7ab4c59e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2026-census-test-enumeration-begins.html"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Two college hockey players race toward the puck during a game in Anchorage, Alaska.",
       "archivalStatus": "current",
       "attribution": "Senior Airman Patrick Sullivan/U.S. Air Force",
@@ -19797,6 +21007,158 @@
       "rightsBasis": "Official NOAA Climate Prediction Center composite map generated for the cited forecast.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.cpc.ncep.noaa.gov/products/predictions/experimental/threats/hazards_d8_14_contours.png"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists recalled Sloosh model numbers 40041, 40003 and 16154 and where each number appears.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from CPSC recall",
+      "caption": "The expanded recall covers three model numbers and specific sale dates.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c2d137c974880d42c2ecced86de1e1c3bea6c24d74f76d5c28a9dd4cdbd4a66e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-models-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "71aeae0c92e00ed153fe01c9af441cdaf39f7c27be2458d91aa259d20d028cbb",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-models-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9899d986d079a2e3aabeaddf83ea6ed7d53588716e0681339a27e3754cb554e1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-models-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e28641973d18d4693f412145026fc369c34f4488e365a5e1e244ae6b24751060",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-models-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "66307b3816179e77030500ed6504806e31610fe7768c319e6e132ec479c860f1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-models-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8b2f13a6bee97cf9d3a6c4519a2775431711c4195b87b629e027e1ffe196f8bb",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-models-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d62ff95690cd7f2a3709b0c4e6a55c3a7a38536fe4456848035bf60482a35775",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-models-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cpsc-sloosh-dive-stick-models-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f458a079501358bde3105d017620ee5f024a6c5a0dc6479854e2e173e34f5448",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Joyin-Expands-Recall-of-Sloosh-Dive-Sticks-Due-to-Risk-of-Serious-Injury-from-Impalement-Violate-Federal-Dive-Sticks-Ban"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic explains stop use, discard the dive sticks, photograph disposal and email the image to receive redesigned replacements.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from CPSC recall",
+      "caption": "CPSC’s remedy leaves other toys in the affected multipacks available for continued use.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "be1e1eb8e2b64f7f27a153e2e9a12a0a2e268cc32a71338a1f55da13eedf38d9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-remedy-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "597e65cb01453698914bc2152cf78668d91717e5c034206262f224220c410328",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-remedy-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "13185677be059f135ac6c4f96762f4da85f2b746646351a0b45bceac3ef366be",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-remedy-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f8c5c891a7c671f754db4dd70d3e245a7cd53bcd88bb3f1498bee662355aa7cc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-remedy-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b0a0c1fc76a319cf3e78b5f51e5e210439e1412e2a0f927b6d4deb0599077498",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-remedy-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3e8c36e22b12390edb84cc656a484a2116a00cbd2ffa1556a3052bc0843923a5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-remedy-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0c417f87ec5b1cbab5ba712226c7e23ca8c33456ef0d6c5c219dc1da0e539c77",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/cpsc-sloosh-dive-stick-remedy-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cpsc-sloosh-dive-stick-remedy-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f056f65bd93afa0e574432bff2bab0e786c281c416fd216ca34bf3bc7ba089fc",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Joyin-Expands-Recall-of-Sloosh-Dive-Sticks-Due-to-Risk-of-Serious-Injury-from-Impalement-Violate-Federal-Dive-Sticks-Ban"
     },
     {
       "aiGenerated": false,
@@ -21849,6 +23211,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic explains that narcolepsy type 1 involves loss of orexin-producing cells and that oveporexton activates an orexin receptor.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from FDA approval record",
+      "caption": "Orzeyful is the first approved therapy that directly restores orexin signaling, according to the FDA.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "19e5aba241e7a8ee49692267d4abe9be6d4e06784e2da8a8ffe25acc91741a78",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-orexin-mechanism-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "62ae46b1df59c8e34d1bee3a512de4e9ea5cbfc5236c736bc1b21883564cf28a",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-orexin-mechanism-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e6ee47b6532cfaddfa807e7423281ac19ea83be751227b8f6305e7e4446d8ded",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-orexin-mechanism-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "010ceb6a0c11bfeb0f6a31dcfdba6ba45fe1304b3a508ae60defd5916b83eeb0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-orexin-mechanism-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "34a96dd2a03a740017ff39dcb363e42dde1682a232cd689ea35d866c607d5cae",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-orexin-mechanism-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b23286f6321fb03867003957f3b39a36eca5386f7ff8ab8b6847eba5b81f1e73",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-orexin-mechanism-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5f93ada55d5674cc68d891ea4f7bc48ad6c987bdaeaf11a83ac7f7c70dc00019",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-orexin-mechanism-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-fda-orzeyful-orexin-mechanism-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "6bfe178abb402e48621b569884347146cea16223656b211f9a322ff4c442e1fb",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-full-range-narcolepsy-type-1-symptoms"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows two 12-week randomized trials with 273 adults and lists the main symptom measures described by FDA.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from FDA approval record",
+      "caption": "FDA based the approval on two randomized, double-blind, placebo-controlled studies enrolling 273 adults.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "be25c43f028f216df15e9ad32ee04317a9f737d50c76b1735042cf1b805a2d56",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-trial-evidence-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3f6b6e0fdef08899a16e3471b1968ba9ee83f9ae7759d3e0cb1d227fb9684ee2",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-trial-evidence-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "39de757bebc4b37f2068350c7834027edf72a9d16c72f2157a8b2787373c1a1f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-trial-evidence-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "acee7457eb78dcef119c2f4de71e630c1b53bd152d0b569bab39cad3d84579df",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-trial-evidence-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "20fcd5c2c0fbf5769e10691ba4fe37af7f67b7a269cdfc796fd78725d291879e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-trial-evidence-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4b7bd73c19f6b59a8e806c4c94dff34ffb502c47cb6a3c5d761bb587ce1005a2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-trial-evidence-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "857c23c568f31dbb3ade3ba5592093b757ef0f721e32b17a9bd0ecec3e61d634",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/fda-orzeyful-trial-evidence-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-fda-orzeyful-trial-evidence-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "fab80a0326009d116bfcbc2e70d24102b655b961c5bf4da7cd2721d7470a5954",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-full-range-narcolepsy-type-1-symptoms"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A federal official holds a pen over a binder during a congressional budget hearing.",
       "archivalStatus": "current",
       "attribution": "Patrick Kelley/U.S. Coast Guard",
@@ -22369,6 +23883,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Children stand at the edge of an outdoor pool during a supervised swimming lesson.",
+      "archivalStatus": "current",
+      "attribution": "Janecze Wright/U.S. Army",
+      "caption": "Children prepare for a swimming lesson at Fort Hood in 2025. CPSC has expanded a recall to 404,000 Sloosh dive sticks that fail the federal compression requirement.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Janecze Wright, U.S. Army",
+      "derivatives": [
+        {
+          "hash": "e76dd4ba7ae3047aa1b7ecda77d4eb2c430152b6d0d1aab7a3b7d52c07597e08",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/fort-hood-learn-to-swim-2025/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e5c8d2519e386ebbc6475d4e5f4cb48e5216c0785731f178a6627f85cc99d92b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/fort-hood-learn-to-swim-2025/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "96a970dc5ce3c8d03e765dd74f39dc7bfe8d5171d8a857d6d42b507b5e01d320",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/fort-hood-learn-to-swim-2025/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "95c65bd86a3598fa5aebc57f87adcd9fdffbe80e63d0b0281807691a8ca21265",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/fort-hood-learn-to-swim-2025/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "737c10d3f57b2b24ab36d990ae6d359b955c800930ade20ebe8063486dfe33cd",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/fort-hood-learn-to-swim-2025/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8eabb01c3599f5d42c77c22215fa3f89866443bf3acd8394a4fa00682c3c25c1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/fort-hood-learn-to-swim-2025/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "201cdf006432922c42ba1d26e40eed231314153bba123711d5f2657732a88ce7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/sloosh-dive-sticks-expanded-recall-404000-2026/fort-hood-learn-to-swim-2025/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-fort-hood-learn-to-swim-2025",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "51e0c818efccab8ec06a0b79ba740be0062c01227f6215d7485a504044971c03",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/9185694/learn-swim-program-teaches-water-competency-all-fort-hood"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A timeline marks Mark-0 on June 4, Ward 250 on June 18, Unity on June 30 and Aalo-X on July 4, with a note that all were zero-power tests.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from DOE and NRC records",
@@ -22442,6 +24032,158 @@
       "rightsBasis": "Original editorial timeline derived only from cited DOE dates and NRC definition.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.energy.gov/articles/fact-sheet-golden-era-american-nuclear-energy-has-arrived"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Personnel stand beside an F-35B fighter inside an aircraft maintenance and production hangar.",
+      "archivalStatus": "current",
+      "attribution": "Toiete Jackson/U.S. Navy",
+      "caption": "Fleet Readiness Center Southeast personnel stand with the first F-35B inducted for depot work in 2024. GAO says the average delivery time for major defense capabilities has climbed past 12 years.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Toiete Jackson, U.S. Navy",
+      "derivatives": [
+        {
+          "hash": "3a50062fcb941c270dd69dcbd40a61d785805416384e007dd2529cff01a91cfd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/frcse-f35-depot-line-2024/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5066512c6cc1b9e031061e89de06bc1783003c8d707e6e7bf009c08f7da88f9a",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/frcse-f35-depot-line-2024/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d74d59f90dad71436e5e988841338e3fc5fba4ff07bd494657573b4b6b2f6c28",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/frcse-f35-depot-line-2024/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "2280bc003cfb88c757bfbd922c16f99b24cfa0da10405afe177d54f6df07593e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/frcse-f35-depot-line-2024/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0748db91189c3ba3d2542d5d392820dc0c0a5c4a6bbc67a465f5eaeb2af21ac1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/frcse-f35-depot-line-2024/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "faac722c95a840c37b539476ed9c090b26d7e98e35fea8ea66f5990ee6ebed29",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/frcse-f35-depot-line-2024/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "fe9b90aa3a2c1894ce54f42bd7f316107dbbdecb4e11489c8297f8d22e0eccb6",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/frcse-f35-depot-line-2024/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-frcse-f35-depot-line-2024",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "ce487d8be569396a30b43d5f531aaa20f52d4403f3933eed3fd6ed1f96f6f42d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/8615156/fleet-readiness-center-southeast-inducts-first-f-35b-aircraft-and-f135-power-module-depot-level-work"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "The Freer Gallery of Art’s stone facade and arched entrance stand behind trees in an early black-and-white photograph.",
+      "archivalStatus": "current",
+      "attribution": "National Photo Company Collection/Library of Congress",
+      "caption": "The Freer Gallery of Art, now part of the Smithsonian’s National Museum of Asian Art, photographed around 1920. The museum will host 26 Islamic artworks from the Louvre in their only U.S. presentation.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "National Photo Company Collection, Library of Congress",
+      "derivatives": [
+        {
+          "hash": "2b449097268a6d38754c06de56104773c976490a96030c1ddbeb1546e3909ff9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/freer-gallery-exterior-1920/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f1d4efa3ed84d775450685fb0cbd973415c2cb23f930037adea51ea8b459ebc9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/freer-gallery-exterior-1920/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3a219c5e22b02d37753bba777ff0f138ab04786b07ff7a6329dd8d8aeda11c22",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/freer-gallery-exterior-1920/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "70f5a265bec7743fde7f1012df27714f1806c18fa14175a1d820b0805cff9374",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/freer-gallery-exterior-1920/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2189cbfece5ae62a27996cf0e72cd2d3410ebc2d21e95b833a238749351004ea",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/freer-gallery-exterior-1920/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c0d5b6dd1b128306ea4b1bfd8d33f7e722b2f4d374f2db0027ad890b6ff02912",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/freer-gallery-exterior-1920/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "dbb1e8d81f1f7233611463ee2bdb4a811508ac9480b5cf2cd03da2669f1258f4",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/freer-gallery-exterior-1920/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-freer-gallery-exterior-1920",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "8b4067101bae3f87d91bf27419c702ce51de1eac2ff1876b123e6ba42e9e93b6",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Library of Congress record states no known restrictions on publication; source record and reproduction identifier retained.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.loc.gov/pictures/item/2016828479/"
     },
     {
       "aiGenerated": false,
@@ -23809,6 +25551,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows 18 of 40 rapid-acquisition programs entering with immature technologies and seven of eight current programs still requiring development.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-108457",
+      "caption": "GAO says immature technology is repeatedly entering a pathway intended to deliver usable capability within five years.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c3177cab7eb2dadbe223b4b84811dae06f50965c23c47ad30ada0d9bed0dfd55",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-mta-technology-maturity-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "62d6aac94d3d1adffcc0567b3ca770f7533972ddfb75c08fe26fcf98745d5f55",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-mta-technology-maturity-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c4af9e343c9a270e600ecd2df96c59e910a2490550a997d91a973fde2a01f833",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-mta-technology-maturity-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "98e23f4686b98bb5e1a36ff3be5ed52e0ca49cd43be88cec6cc20b97408027c0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-mta-technology-maturity-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5d716306626c143ffb5840319ed33cb9a88734cb50557592d3b856209848aa3f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-mta-technology-maturity-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "bb4a7a47feac0bb2d9cc9b4b312d48d1cd7da5d2416beb0a93105895d9a798d4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-mta-technology-maturity-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f82d0e1c75bd88dce428fbd47f4177c9982f7b09ff7fcadaac82e7a3c96f7459",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-mta-technology-maturity-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-mta-technology-maturity-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "cf927c16f3aa3554f2f5c3478fdf20cdcc2b01418c1317e3973deb15ba976a62",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108457"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Graphic lists $1.1 trillion in fiscal 2025 obligations, 20 programs reviewed and 22 open GAO recommendations.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from U.S. Government Accountability Office data",
@@ -23882,6 +25700,82 @@
       "rightsBasis": "Original graphic derived only from the cited primary record: https://www.gao.gov/products/gao-26-109100",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.gao.gov/products/gao-26-109100"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 104 major weapon programs, more than 2.4 trillion dollars planned, and an average delivery time above 12 years.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-108457",
+      "caption": "GAO reviewed 104 of the Pentagon’s costliest programs and says the average capability-delivery timeline now exceeds 12 years.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "347e3b404f05f63de8e1deddd58f1492d053df4be39b6f8a295bc3b477064c2f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-weapons-portfolio-scale-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3774189b56f3e2cad3cf7cc7a109485b99ad8c6edba7f9d7a611766556d562dd",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-weapons-portfolio-scale-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4b80966aa6a9fffffa9443eb2d4c3718b781300c03a37fec38b6630bf3c2cb24",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-weapons-portfolio-scale-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6f103cda93508fc72ae56ace46e6dab6097b217cf47d389c0d56037ff61c36dc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-weapons-portfolio-scale-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f71967a94c51b91378310b5326a3c9d2f3d4717246d6c38cff0983f44e073fe1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-weapons-portfolio-scale-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "16ca916037aaab31a8cc35f08f2c06b59e4ad0f52b3dec992d70d126bea79744",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-weapons-portfolio-scale-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8e876df28c32b67e9a56927cb6d67b2ce7681f9c470019b1fe7a16accf73e06e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/gao-weapon-programs-average-delivery-over-12-years-2026/gao-weapons-portfolio-scale-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-weapons-portfolio-scale-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f94fe7e1b3384198bbdcc480e7ef8c9ca49a0d1e03139a94889677905d093b2e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108457"
     },
     {
       "aiGenerated": false,
@@ -26159,6 +28053,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic compares 80 balloons in Iceland with six camera and ozone balloons in Spain.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NASA eclipse plan",
+      "caption": "Student teams will test how sudden darkness changes the atmospheric boundary layer and ozone.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "0ed5cdddae922536da69f95fa705771bf38c16c913c57e33899af27512eac3c1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-balloon-campaign-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2688eb1eb4e146a2cedb65de58441ac4c1d235c9b4c30dd1c7e9d0bacd9f57aa",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-balloon-campaign-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4b8b06d96bdd9655c19b73a227b62fe3f62f4c012e719e89ad4ab4ac8ab6e49f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-balloon-campaign-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "162e0b754325bc9c68de75cb26e763f17f49af9220cd56081acb6db046838b3b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-balloon-campaign-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c2af9d337beb6d9ab0c9377fec376759d1a2874c018bc31f9c9919b4080e4713",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-balloon-campaign-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "71ace8db01c229fcd99d739076c017adc52bbb8f78a27bb4dbbc3d75be914a84",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-balloon-campaign-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2165ba8bc5b2fb3de986f7e597d8f8dbfb76aec30f30979c77986b861f5994af",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-balloon-campaign-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-eclipse-balloon-campaign-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5195c18c377faa468fba51193046a291e7961ea68720db01c65c0837b3093f0c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows a WB-57 flying at 50,000 feet and 460 miles per hour with four cameras recording at least 20 images per second.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NASA eclipse plan",
+      "caption": "Chasing the eclipse path will extend the airborne view of the corona to nearly three minutes.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "33c59c1f180eb86720d8a3dda376efd2fd5e0e0cdaf0a32b9c8bb9b68d51f496",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-wb57-observation-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9c442910bf6bbd11155b24e25d454a966eb2faa336760d43b0c3825aa189dd06",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-wb57-observation-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b387016e0d6824f81c294cef2cb2910d2c5272ecda25633a6081c930872f292b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-wb57-observation-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "744661d85e89e1ad1b4422d8a87770937226b50933c2b8e37fd3d6f38238c4a0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-wb57-observation-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6bee1a5acb84a396879137b98148e7bcbc70aa7a22a00d756610844f895e6a5b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-wb57-observation-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "08ca26df24849f2ad28419b13635e72507f7a9c783d0e31f7dba2b3a8dbece25",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-wb57-observation-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f721b0e5f9a82c09b83c2e14b901931bf50793b9b9fc04a6cdd66cb89dc8a106",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-eclipse-wb57-observation-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-eclipse-wb57-observation-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "28ecf84a15d04f68cd0af3cc69b3121529b4c23e77da2e6dabe0624e4f81b9d2",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Graphic shows four 750-horsepower motors, four 14-foot fans and free-flight and mounted test modes.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from NASA release 26-062",
@@ -26838,6 +28884,82 @@
       "rightsBasis": "Original explanatory graphic derived solely from the cited NASA records.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://science.nasa.gov/mission/roman-space-telescope/frequently-asked-questions/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A white NASA WB-57 high-altitude research aircraft climbs into a blue sky after takeoff.",
+      "archivalStatus": "current",
+      "attribution": "Steven Lewis/U.S. Air Force",
+      "caption": "A NASA WB-57 launches from March Air Reserve Base in April 2026. The same aircraft type will chase the August 12 eclipse at 50,000 feet to extend observations of the solar corona.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Tech. Sgt. Steven Lewis, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "daff448f98c4b470c5c2278a2f69cb65bf6a6ea8e6cfdbac52059b8b42e2c4f4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-wb57-aircraft-launch-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e597d478933eb0cbc74ab02405aca019275ae2b9de2c0dfba7c296d9b1d7ba4d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-wb57-aircraft-launch-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e3b803bca262d8c15b5d9da9c657a6f6e7eaba6fcff08c3cf4ffb76596d01137",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-wb57-aircraft-launch-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1b9b76f713f45c77158b526e7107929804d435911a51e5a54e5baddd54e73d2f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-wb57-aircraft-launch-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "59f170033ff3f299c68c434a39c2469bf1971f74cb3c9bdadd2e62ac6905ac9e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-wb57-aircraft-launch-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "72ff0b3dd12a793679585e6b60fd04d2a4e096e11ab50d22edcb980ee9415ffd",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-wb57-aircraft-launch-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1d453861c5e60f6719328313abbce71d6bf7b76fac1f2510113c83069c206f40",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-august-12-2026-eclipse-wb57-balloon-science/nasa-wb57-aircraft-launch-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-wb57-aircraft-launch-2026",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "37eea33cc4a7c146369758f8ecd369879765565aa661e3a5bb81f8f0077a8cd0",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/9613155/nasa-wb-57-launches-march-arb-insupportable-artemis-ii-mission"
     },
     {
       "aiGenerated": false,
@@ -31014,6 +33136,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows 26 works spanning the seventh through nineteenth centuries and regions from Spain to India.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Smithsonian release",
+      "caption": "The exhibition combines metalwork, paintings, ceramics, glass, jade and architectural elements from the Louvre.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "088d6311c17572a0ed5c58152d8d06d8c5141f604babeac69e5a9d93d2d23f32",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-exhibition-scope-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "51422c0c10b81a3562897fa25828d8c9141225f52f6e84aff816532656e69542",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-exhibition-scope-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8776a440621e57a723c84eda450efc10806e7ad9320e6cc37852d52f4d04dfba",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-exhibition-scope-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f2b921a441a42d472af3b2a996eb76c02ae6526d73b3683b718e546150eb3c19",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-exhibition-scope-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b0a14c8b3ad2c41e001f8f7efe22d6d6ddb07ebc9ef813b97a6fe9594ff0ac65",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-exhibition-scope-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a6305eedf33f0b76297c86fa7c8d1e386cd24206be4d2645e12e338664c43b33",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-exhibition-scope-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8577740267f24acf723facbed53ba9e2d149d4b597ef90abeb4bff11de43479e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-exhibition-scope-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-smithsonian-louvre-exhibition-scope-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "33312268b8b24dcddbd31dd67f9920f63a3a498bd39713a0feab35f990cfe505",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.si.edu/newsdesk/releases/masterpieces-islamic-art-louvre-come-smithsonian"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists the Baptistery of Saint Louis, a portrait of Fath-Ali Shah Qajar, Mughal pen cases and the Lion of Monzón.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Smithsonian release",
+      "caption": "Featured works trace how objects changed meaning as they moved between courts, collectors and museums.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "23ef86e3c331820c75ac205bf506dcb7550288032280bee41019787fbaacc7b7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-featured-objects-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5ba3e0701c613fdea7ac12019a5591bfa881e632e593f68a7dce6c48567e8eaf",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-featured-objects-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "587712baa714c96710f712e28b4856cfcec8a0c526ccc40b867db4cbb5abf464",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-featured-objects-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1d82e518cac7f42fb4c8ac54759ff9d9924470502bed509bd74b5b22740f16f2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-featured-objects-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "468d003988d2ab30e4835ee740a6bbe03914a1690d90d08fc2efd4d2b28a66f4",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-featured-objects-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0f9c902804414a6e61cf703ef2442414c83367dc3c2ccdca05f307e19c726e5c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-featured-objects-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "45256bf699be6a3d51aac8210a32c42324298b13eb23cc9866a5f524e583a0f2",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/smithsonian-louvre-islamic-art-exhibition-2026/smithsonian-louvre-featured-objects-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-smithsonian-louvre-featured-objects-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "97e3e9995426fcc1409b504632ff013b37f879f1b014e78b53fddb6a5396b4a1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T08:49:08Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.si.edu/newsdesk/releases/masterpieces-islamic-art-louvre-come-smithsonian"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Graphic shows the Smithsonian initiative’s $2.3 million, 40 communities, 21 states and 24 sponsored schools.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from Smithsonian record",
@@ -33967,7 +36241,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "c2934d308ab5edbe788d3cbc8104888a31a78618e9c0ef9c0933d7510a63b893",
+  "packageDigest": "37948ceee2262a6cdb17bacad5e91d73cf15571539ca784848faa99f05457982",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -34681,6 +36955,37 @@
       "providerActivatedAt": "2026-08-06T08:16:45.324851Z",
       "recordHash": "e21fdbb97163a64737069fc92d9ecd6a33836617d06c8437bf8bf99cfc38fc18",
       "releaseId": "release-pb-20260806t075134z-6d99e317b498-d4e7c9e5067e",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://b11b1d43.bohonews.pages.dev/",
+      "activationEvidenceHash": "c6b9b59b23fc55804700c8a2ed78232d124f0a3257768cfae955b32e3a3d4efd",
+      "canonicalFirstPublicAt": "2026-08-06T12:22:09.097Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/2026-census-test-huntsville-spartanburg-august-31/",
+        "https://bohonews.com/articles/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/",
+        "https://bohonews.com/articles/gao-weapon-programs-average-delivery-over-12-years-2026/",
+        "https://bohonews.com/articles/nasa-august-12-2026-eclipse-wb57-balloon-science/",
+        "https://bohonews.com/articles/sloosh-dive-sticks-expanded-recall-404000-2026/",
+        "https://bohonews.com/articles/smithsonian-louvre-islamic-art-exhibition-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-2026-census-test-huntsville-spartanburg-august-31",
+        "article-fda-orzeyful-orexin-narcolepsy-type-1-approval-2026",
+        "article-gao-weapon-programs-average-delivery-over-12-years-2026",
+        "article-nasa-august-12-2026-eclipse-wb57-balloon-science",
+        "article-sloosh-dive-sticks-expanded-recall-404000-2026",
+        "article-smithsonian-louvre-islamic-art-exhibition-2026"
+      ],
+      "previousVerifiedDeploymentReference": "fdb55e285ac3b4719f23a6d578a6254815e9ad4bbf49a4f3fcdf006a0bf12af9",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T12:20:34.884595Z",
+      "recordHash": "a6ecf625310e1f3490d65c5df09384422fffff81eaec69453ebe4ab6cabe2770",
+      "releaseId": "release-pb-20260806t110343z-9fba6bec06c1-caf864902270",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }
