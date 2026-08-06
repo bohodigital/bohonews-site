@@ -1,9 +1,9 @@
 {
-  "articleCount": 51,
+  "articleCount": 57,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-05T22:57:20Z",
-  "mediaCount": 139,
-  "packageDigest": "d300d7e7e5ca1c3cb27ada598017b1bea428429bd7964cbd88aafe44990f8c42",
+  "generatedAt": "2026-08-06T00:29:10Z",
+  "mediaCount": 157,
+  "packageDigest": "e8e9d7c6ec16f6860421686d405c7a86ca0c7ee36b8fcf077706d834e00c4156",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -564,6 +564,37 @@
       "releaseId": "release-pb-20260805t213023z-9fde0addd713-c4a39008d2b4",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://906f4da7.bohonews.pages.dev/",
+      "activationEvidenceHash": "9edcd2c2b2f57735b29c6f64cd0a65f61dd06d14665d1e9ed297ecca6886bed3",
+      "canonicalFirstPublicAt": "2026-08-06T00:28:51.995Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/dot-ai-transportation-infrastructure-initiative/",
+        "https://bohonews.com/articles/gao-state-administered-program-fraud-risks/",
+        "https://bohonews.com/articles/labor-unions-ppp-settlement-385-million/",
+        "https://bohonews.com/articles/library-congress-kpop-august-events/",
+        "https://bohonews.com/articles/ncaa-hockey-cut-resistant-gear-rule/",
+        "https://bohonews.com/articles/world-bank-china-partnership-framework-2026-2031/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-dot-ai-transportation-infrastructure-initiative",
+        "article-gao-state-administered-program-fraud-risks",
+        "article-labor-unions-ppp-settlement-385-million",
+        "article-library-congress-kpop-august-events",
+        "article-ncaa-hockey-cut-resistant-gear-rule",
+        "article-world-bank-china-partnership-framework-2026-2031"
+      ],
+      "previousVerifiedDeploymentReference": "e51c92e8f4ef89898447cc7e0d7aadfb7acfc177f37fd8ddc3d3b501d0eb0cbd",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T00:27:57.363629Z",
+      "recordHash": "6643e3fa4076fc44e0397ffeb7bb93e4e10fd47285fe5d3cba922116b5a26bbe",
+      "releaseId": "release-pb-20260805t235457z-487d936cf34c-62067f230745",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -572,6 +603,7 @@
     "/articles/als-blood-protein-panel-predicts-symptom-timing/",
     "/articles/dea-7-oh-schedule-i-threshold-action-guide/",
     "/articles/doj-task-force-officers-training-misconduct-gao/",
+    "/articles/dot-ai-transportation-infrastructure-initiative/",
     "/articles/employer-compensation-costs-june-2026/",
     "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
     "/articles/four-advanced-reactors-zero-power-criticality-2026/",
@@ -579,6 +611,7 @@
     "/articles/gao-education-10-priority-open-recommendations-2026/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/gao-opm-workforce-down-35-percent-2026/",
+    "/articles/gao-state-administered-program-fraud-risks/",
     "/articles/greece-men-usa-women-water-polo-world-cup-2026/",
     "/articles/hawaiian-honeycreeper-family-tree-smithsonian-2026/",
     "/articles/hopper-ftc-35-million-hidden-fees-settlement-2026/",
@@ -589,6 +622,8 @@
     "/articles/june-2026-us-climate-tornadoes-drought/",
     "/articles/kenya-lake-turkana-paranthropus-footprints-group/",
     "/articles/kia-telluride-seat-motor-fire-recall-26v430/",
+    "/articles/labor-unions-ppp-settlement-385-million/",
+    "/articles/library-congress-kpop-august-events/",
     "/articles/library-congress-lost-melies-gugusse-film/",
     "/articles/library-of-congress-source-research-gallery-kids/",
     "/articles/metro-unemployment-payroll-growth-june-2026/",
@@ -598,6 +633,7 @@
     "/articles/nasa-three-august-2026-spacewalks-iss/",
     "/articles/national-book-festival-2026-more-than-80-authors/",
     "/articles/national-park-week-2026-fee-free-august-25/",
+    "/articles/ncaa-hockey-cut-resistant-gear-rule/",
     "/articles/nist-five-fabric-squares-textile-recycling-test/",
     "/articles/noaa-coral-torpedo-deep-gulf-restoration/",
     "/articles/noaa-week-two-heat-monsoon-drought-august-2026/",
@@ -616,6 +652,7 @@
     "/articles/what-is-section-301-trade-act/",
     "/articles/who-controls-smithsonian-board-regents/",
     "/articles/work-training-americans-born-1980-1984/",
+    "/articles/world-bank-china-partnership-framework-2026-2031/",
     "/articles/world-bank-pakistan-grid-wind-power-2026/",
     "/articles/world-u20-championships-oregon-2026-opens/",
     "/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/"

@@ -1210,6 +1210,159 @@
       "updatedAt": "2026-08-04T21:33:38.163Z"
     },
     {
+      "articleType": "executive-action",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The U.S. Department of Transportation has launched an initiative to apply artificial intelligence to the design, operation and maintenance of transportation infrastructure, the agency announced.\n\nThe effort is part of the federal Genesis Mission and is being coordinated with the Department of Energy and the National Science Foundation. The department described it as a challenge focused on the broader physical infrastructure system rather than a single road, rail or aviation project.\n\nTransportation officials listed several goals, including shortening construction and maintenance time, extending the service life of infrastructure, reducing operating costs through predictive maintenance and improving the performance of transportation networks.\n\nOther stated priorities include reducing urban congestion and supply-chain friction and examining how transportation efficiency may affect housing availability and affordability.\n\nThe announcement describes a research and modernization agenda. It does not identify specific contracts, grant recipients, project-level budgets or deadlines for deploying an AI system in a particular city or transportation mode.\n\nThat distinction matters because predictive maintenance and network optimization depend on reliable data, clearly defined performance measures and safeguards against faulty or biased automated decisions. The department's goals will need to be evaluated through later projects and results.\n\nThe initiative also raises practical questions about how agencies will combine data from roads, ports, railroads, transit systems and other infrastructure. The announcement says the government wants to treat the transportation network as an interconnected system, but it does not specify a common technical architecture.\n\nDOT cited potential benefits for safety, cost and efficiency. Those benefits remain prospective until the department publishes project designs, evaluation methods and evidence from actual deployments.\n\nFuture notices from DOT, DOE and NSF should provide the measurable details: which problems will be tested, what data will be used, how contractors or researchers will be selected and how performance and safety will be independently assessed.",
+      "bodyBlocks": [
+        {
+          "text": "The U.S. Department of Transportation has launched an initiative to apply artificial intelligence to the design, operation and maintenance of transportation infrastructure, the agency announced.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The effort is part of the federal Genesis Mission and is being coordinated with the Department of Energy and the National Science Foundation. The department described it as a challenge focused on the broader physical infrastructure system rather than a single road, rail or aviation project.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Transportation officials listed several goals, including shortening construction and maintenance time, extending the service life of infrastructure, reducing operating costs through predictive maintenance and improving the performance of transportation networks.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists four stated goals: shorter construction, longer infrastructure life, predictive maintenance and network optimization.",
+          "caption": "DOT’s announcement names construction, infrastructure life, predictive maintenance and network optimization among its goals.",
+          "credit": "Boho News graphic from U.S. Department of Transportation data",
+          "height": 900,
+          "rightsId": "media-dot-ai-initiative-pillars",
+          "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-department-launches-new-initiative-using-ai-modernize",
+          "src": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-initiative-pillars/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Other stated priorities include reducing urban congestion and supply-chain friction and examining how transportation efficiency may affect housing availability and affordability.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The announcement describes a research and modernization agenda. It does not identify specific contracts, grant recipients, project-level budgets or deadlines for deploying an AI system in a particular city or transportation mode.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That distinction matters because predictive maintenance and network optimization depend on reliable data, clearly defined performance measures and safeguards against faulty or biased automated decisions. The department's goals will need to be evaluated through later projects and results.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows DOT, Energy and NSF participating in the cross-agency infrastructure challenge.",
+          "caption": "DOT describes the initiative as part of a broader effort with the Energy Department and National Science Foundation.",
+          "credit": "Boho News graphic from U.S. Department of Transportation data",
+          "height": 900,
+          "rightsId": "media-dot-ai-cross-agency-structure",
+          "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-department-launches-new-initiative-using-ai-modernize",
+          "src": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-cross-agency-structure/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The initiative also raises practical questions about how agencies will combine data from roads, ports, railroads, transit systems and other infrastructure. The announcement says the government wants to treat the transportation network as an interconnected system, but it does not specify a common technical architecture.",
+          "type": "paragraph"
+        },
+        {
+          "text": "DOT cited potential benefits for safety, cost and efficiency. Those benefits remain prospective until the department publishes project designs, evaluation methods and evidence from actual deployments.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Future notices from DOT, DOE and NSF should provide the measurable details: which problems will be tested, what data will be used, how contractors or researchers will be selected and how performance and safety will be independently assessed.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-dot-ai-infrastructure-initiative-2026",
+          "text": "The cited U.S. Department of Transportation record is the factual backbone for this report.",
+          "title": "Primary record",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/dot-ai-transportation-infrastructure-initiative/",
+      "citations": [
+        {
+          "id": "source-dot-ai-infrastructure-initiative-2026",
+          "publishedAt": "2026-07-22T12:00:00Z",
+          "publisher": "U.S. Department of Transportation",
+          "title": "Transportation Department Launches New Initiative Using AI to Modernize Transportation Infrastructure",
+          "url": "https://www.transportation.gov/briefing-room/trumps-transportation-department-launches-new-initiative-using-ai-modernize"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The Transportation Department launched an artificial-intelligence initiative for transportation infrastructure.",
+        "The effort is part of a cross-agency program involving the Department of Energy and National Science Foundation.",
+        "The department listed predictive maintenance, construction time, infrastructure life and network optimization among its priorities."
+      ],
+      "corrections": [],
+      "dek": "The federal effort is intended to use artificial intelligence in transportation design, maintenance and network operations, but the announcement sets goals rather than project budgets.",
+      "desk": "artificial-intelligence",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Department of Transportation",
+        "U.S. Department of Energy",
+        "National Science Foundation"
+      ],
+      "eventId": "event-dot-ai-transportation-infrastructure-initiative",
+      "headline": "DOT AI Infrastructure Plan Targets Predictive Maintenance and Faster Construction",
+      "id": "article-dot-ai-transportation-infrastructure-initiative",
+      "leadImage": {
+        "alt": "Federal Highway Administration officials in safety gear inspect damaged concrete beneath an elevated highway.",
+        "caption": "Federal Highway Administration officials inspect physical infrastructure in Philadelphia in 2023. DOT’s new AI initiative targets maintenance, construction and network operations.",
+        "credit": "U.S. Federal Highway Administration",
+        "height": 900,
+        "rightsId": "media-fhwa-i95-infrastructure-inspection",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/fhwa-i95-infrastructure-inspection/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T00:28:51.995Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260805t235457z-487d936cf34c-62067f230745",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The federal effort is intended to use artificial intelligence in transportation design, maintenance and network operations, but the announcement sets goals rather than project budgets.",
+        "index": true,
+        "title": "DOT AI infrastructure plan targets predictive maintenance"
+      },
+      "section": "technology",
+      "slug": "dot-ai-transportation-infrastructure-initiative",
+      "social": {
+        "description": "The federal effort is intended to use artificial intelligence in transportation design, maintenance and network operations, but the announcement sets goals rather than project budgets.",
+        "image": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/fhwa-i95-infrastructure-inspection/open-graph.webp",
+        "title": "DOT AI Infrastructure Plan Targets Predictive Maintenance and Faster Construction"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Artificial intelligence",
+        "Transportation infrastructure",
+        "Predictive maintenance",
+        "Smart mobility",
+        "Government technology",
+        "Infrastructure operations"
+      ],
+      "uncertainty": [
+        "The announcement did not identify project-level funding amounts, procurement awards or deployment dates.",
+        "The department's stated benefits are program goals and have not yet been demonstrated across the national transportation network."
+      ],
+      "updatedAt": "2026-08-06T00:28:51.995Z"
+    },
+    {
       "articleType": "data-report",
       "authors": [
         "Boho News Data Desk"
@@ -3367,6 +3520,156 @@
         "Approximate endpoint headcounts in the original graphic are calculated from GAO’s exact decrease and rounded percentage."
       ],
       "updatedAt": "2026-08-05T16:34:25.044Z"
+    },
+    {
+      "articleType": "document-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Only five of 20 major federally funded programs administered by states or other government entities had documented evidence consistent with identifying fraud risks and assessing how likely those risks were, according to a new review by the U.S. Government Accountability Office.\n\nThe 20 programs collectively accounted for $1.1 trillion in federal obligations during fiscal year 2025. They included large systems spanning health care, nutrition assistance, disaster aid and other services in which federal money is distributed through state, local or other governmental partners.\n\nGAO said that structure can help deliver benefits and services, but it can also create more points at which fraud can occur. State agencies, subrecipients, contractors and other participants may all handle money, eligibility decisions or program records.\n\nThe watchdog found uneven documentation across the programs. Five showed evidence consistent with identifying risks and assessing their likelihood so officials could prioritize action. The other 15 did not have comparable documented evidence, GAO said.\n\nThe report does not conclude that all 15 programs experienced fraud, nor does the absence of a documented assessment establish a specific loss. It identifies a control gap: agencies may have less systematic information for deciding which threats deserve the most attention.\n\nGAO highlighted practices agencies can use, including its Fraud Risk Framework, federal identity and eligibility tools such as the Do Not Pay program, and recommendations from inspectors general and other oversight bodies. It also pointed to stronger analytics and more transparent reporting as areas where Congress and agencies could act.\n\nThe review identified 22 open GAO recommendations to agencies related to fraud-risk management in the selected programs. GAO said it will continue monitoring agency actions and proposed legislation that could address those recommendations.\n\nGAO separately estimated, using government-wide data from fiscal years 2018 through 2022, that federal fraud losses may range from $233 billion to $521 billion annually. That broader estimate is not a tally of losses in the 20 programs covered by the new report.\n\nThe report is the first installment in a planned body of work examining fraud risks in federally funded, state-administered programs. Future oversight may provide a clearer picture of how agencies improve assessments and whether prevention controls become more consistent.",
+      "bodyBlocks": [
+        {
+          "text": "Only five of 20 major federally funded programs administered by states or other government entities had documented evidence consistent with identifying fraud risks and assessing how likely those risks were, according to a new review by the U.S. Government Accountability Office.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The 20 programs collectively accounted for $1.1 trillion in federal obligations during fiscal year 2025. They included large systems spanning health care, nutrition assistance, disaster aid and other services in which federal money is distributed through state, local or other governmental partners.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO said that structure can help deliver benefits and services, but it can also create more points at which fraud can occur. State agencies, subrecipients, contractors and other participants may all handle money, eligibility decisions or program records.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic compares five programs with documented fraud-risk assessments with 15 lacking comparable documentation.",
+          "caption": "Five of the 20 programs showed documentation consistent with identifying risks and assessing likelihood; 15 did not.",
+          "credit": "Boho News graphic from U.S. Government Accountability Office data",
+          "height": 900,
+          "rightsId": "media-gao-fraud-risk-assessment-counts",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-109100",
+          "src": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-fraud-risk-assessment-counts/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The watchdog found uneven documentation across the programs. Five showed evidence consistent with identifying risks and assessing their likelihood so officials could prioritize action. The other 15 did not have comparable documented evidence, GAO said.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The report does not conclude that all 15 programs experienced fraud, nor does the absence of a documented assessment establish a specific loss. It identifies a control gap: agencies may have less systematic information for deciding which threats deserve the most attention.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO highlighted practices agencies can use, including its Fraud Risk Framework, federal identity and eligibility tools such as the Do Not Pay program, and recommendations from inspectors general and other oversight bodies. It also pointed to stronger analytics and more transparent reporting as areas where Congress and agencies could act.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists $1.1 trillion in fiscal 2025 obligations, 20 programs reviewed and 22 open GAO recommendations.",
+          "caption": "The review covered programs accounting for $1.1 trillion in fiscal 2025 obligations and identified 22 open recommendations.",
+          "credit": "Boho News graphic from U.S. Government Accountability Office data",
+          "height": 900,
+          "rightsId": "media-gao-program-scale-and-recommendations",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-109100",
+          "src": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-program-scale-and-recommendations/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The review identified 22 open GAO recommendations to agencies related to fraud-risk management in the selected programs. GAO said it will continue monitoring agency actions and proposed legislation that could address those recommendations.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO separately estimated, using government-wide data from fiscal years 2018 through 2022, that federal fraud losses may range from $233 billion to $521 billion annually. That broader estimate is not a tally of losses in the 20 programs covered by the new report.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The report is the first installment in a planned body of work examining fraud risks in federally funded, state-administered programs. Future oversight may provide a clearer picture of how agencies improve assessments and whether prevention controls become more consistent.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-gao-state-program-fraud-risks-2026",
+          "text": "The cited U.S. Government Accountability Office record is the factual backbone for this report.",
+          "title": "Primary record",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-state-administered-program-fraud-risks/",
+      "citations": [
+        {
+          "id": "source-gao-state-program-fraud-risks-2026",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Combating Fraud: Managing Risks in Federally Funded, State-Administered Programs",
+          "url": "https://www.gao.gov/products/gao-26-109100"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Twenty selected state-administered programs accounted for $1.1 trillion in federal obligations in fiscal year 2025.",
+        "Five of the 20 programs had documented evidence consistent with identifying fraud risks and assessing their likelihood to prioritize action.",
+        "GAO reported 22 open recommendations to agencies related to fraud-risk management among the programs reviewed."
+      ],
+      "corrections": [],
+      "dek": "Only five of 20 large federally funded, state-administered programs had documented evidence consistent with identifying and prioritizing fraud risks, the watchdog said.",
+      "desk": "federal-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office"
+      ],
+      "eventId": "event-gao-state-administered-program-fraud-risks",
+      "headline": "GAO Finds Fraud-Risk Assessment Gaps in 15 Major Federal Programs",
+      "id": "article-gao-state-administered-program-fraud-risks",
+      "leadImage": {
+        "alt": "The U.S. Government Accountability Office building stands beneath a blue sky in Washington, D.C.",
+        "caption": "The Government Accountability Office building in Washington. GAO found that 15 of 20 selected state-administered federal programs lacked comparable documented fraud-risk assessments.",
+        "credit": "Ajay Suresh/Wikimedia Commons",
+        "height": 900,
+        "rightsId": "media-gao-building-washington-2024",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-building-washington-2024/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T00:28:51.995Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260805t235457z-487d936cf34c-62067f230745",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Only five of 20 large federally funded, state-administered programs had documented evidence consistent with identifying and prioritizing fraud risks, the watchdog said.",
+        "index": true,
+        "title": "GAO finds fraud-risk gaps in 15 major federal programs"
+      },
+      "section": "us",
+      "slug": "gao-state-administered-program-fraud-risks",
+      "social": {
+        "description": "Only five of 20 large federally funded, state-administered programs had documented evidence consistent with identifying and prioritizing fraud risks, the watchdog said.",
+        "image": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-building-washington-2024/open-graph.webp",
+        "title": "GAO Finds Fraud-Risk Assessment Gaps in 15 Major Federal Programs"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal oversight",
+        "Fraud prevention",
+        "State-administered programs",
+        "Risk assessment",
+        "Improper payments",
+        "Federal grants"
+      ],
+      "uncertainty": [
+        "GAO said information about program-specific fraud risks varies because agencies have not fully assessed those risks.",
+        "The report describes risk-management gaps and examples; it does not estimate fraud losses within each of the 20 programs."
+      ],
+      "updatedAt": "2026-08-06T00:28:51.995Z"
     },
     {
       "articleType": "news-report",
@@ -6249,6 +6552,311 @@
       "authors": [
         "Boho News Staff"
       ],
+      "body": "Four labor unions and an employee benefit plan agreed to pay $3.85 million to settle federal civil claims that they improperly obtained Paycheck Protection Program loans, the U.S. Attorney's Office for the Southern District of New York announced.\n\nThe agreement covers the International Union of Journeymen and Allied Trades, United Service Workers Union, Home Healthcare Workers of America, Service Professionals Union Local 726 and the United Welfare Fund's welfare division.\n\nAccording to the Justice Department, the five entities received a combined $3,316,966 in PPP loans after submitting applications between April 16 and April 20, 2020. Each later applied for and received full forgiveness.\n\nThe entities were organized under section 501(c)(5) of the tax code. The government said organizations in that category were not eligible for PPP loans under the rules in effect when the applications were submitted.\n\nThe settlement resolves allegations under the False Claims Act. It is a civil resolution, not a criminal conviction, and some of the Justice Department's account describes allegations contained in the complaint.\n\nAs part of the agreement, however, the defendants admitted specified conduct. The Justice Department said each entity acknowledged certifying that it was eligible and acknowledged that, before applying, its bank contact had been advised by a Small Business Administration regional employee that only organizations under sections 501(c)(3) and 501(c)(19) were eligible.\n\nThe government joined a private whistleblower lawsuit that had initially been filed under seal. The False Claims Act permits private parties to bring certain cases on the government's behalf and allows the United States to intervene.\n\nThe settlement amount is larger than the original loan total, reflecting the resolution negotiated under the civil enforcement process. The public release does not provide a defendant-by-defendant allocation of the $3.85 million payment.\n\nThe case was handled by the U.S. Attorney's Office's Civil Frauds Unit. The settlement closes the claims covered by the agreement while preserving a public record of the admissions and the government's enforcement position.",
+      "bodyBlocks": [
+        {
+          "text": "Four labor unions and an employee benefit plan agreed to pay $3.85 million to settle federal civil claims that they improperly obtained Paycheck Protection Program loans, the U.S. Attorney's Office for the Southern District of New York announced.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The agreement covers the International Union of Journeymen and Allied Trades, United Service Workers Union, Home Healthcare Workers of America, Service Professionals Union Local 726 and the United Welfare Fund's welfare division.",
+          "type": "paragraph"
+        },
+        {
+          "text": "According to the Justice Department, the five entities received a combined $3,316,966 in PPP loans after submitting applications between April 16 and April 20, 2020. Each later applied for and received full forgiveness.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic compares $3,316,966 in forgiven PPP loans with a $3.85 million civil settlement.",
+          "caption": "The five entities received $3,316,966 in loans and agreed to pay $3.85 million to settle the civil claims.",
+          "credit": "Boho News graphic from U.S. Attorney's Office, Southern District of New York data",
+          "height": 900,
+          "rightsId": "media-ppp-union-loans-settlement-amounts",
+          "sourceUrl": "https://www.justice.gov/usao-sdny/pr/385-million-settlement-case-against-labor-unions-improper-receipt-paycheck-protection",
+          "src": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-loans-settlement-amounts/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The entities were organized under section 501(c)(5) of the tax code. The government said organizations in that category were not eligible for PPP loans under the rules in effect when the applications were submitted.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The settlement resolves allegations under the False Claims Act. It is a civil resolution, not a criminal conviction, and some of the Justice Department's account describes allegations contained in the complaint.",
+          "type": "paragraph"
+        },
+        {
+          "text": "As part of the agreement, however, the defendants admitted specified conduct. The Justice Department said each entity acknowledged certifying that it was eligible and acknowledged that, before applying, its bank contact had been advised by a Small Business Administration regional employee that only organizations under sections 501(c)(3) and 501(c)(19) were eligible.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Timeline shows April 2020 loan applications, later forgiveness and the July 2026 civil settlement.",
+          "caption": "The applications were submitted April 16–20, 2020; forgiveness and the civil settlement followed.",
+          "credit": "Boho News graphic from U.S. Attorney's Office, Southern District of New York data",
+          "height": 900,
+          "rightsId": "media-ppp-union-settlement-timeline",
+          "sourceUrl": "https://www.justice.gov/usao-sdny/pr/385-million-settlement-case-against-labor-unions-improper-receipt-paycheck-protection",
+          "src": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-settlement-timeline/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The government joined a private whistleblower lawsuit that had initially been filed under seal. The False Claims Act permits private parties to bring certain cases on the government's behalf and allows the United States to intervene.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The settlement amount is larger than the original loan total, reflecting the resolution negotiated under the civil enforcement process. The public release does not provide a defendant-by-defendant allocation of the $3.85 million payment.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The case was handled by the U.S. Attorney's Office's Civil Frauds Unit. The settlement closes the claims covered by the agreement while preserving a public record of the admissions and the government's enforcement position.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-doj-labor-unions-ppp-settlement",
+          "text": "The cited U.S. Attorney's Office, Southern District of New York record is the factual backbone for this report.",
+          "title": "Primary record",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/labor-unions-ppp-settlement-385-million/",
+      "citations": [
+        {
+          "id": "source-doj-labor-unions-ppp-settlement",
+          "publishedAt": "2026-07-27T12:00:00Z",
+          "publisher": "U.S. Attorney's Office, Southern District of New York",
+          "title": "$3.85 Million Settlement Of Case Against Labor Unions For Improper Receipt Of Paycheck Protection Program Loans",
+          "url": "https://www.justice.gov/usao-sdny/pr/385-million-settlement-case-against-labor-unions-improper-receipt-paycheck-protection"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Four labor unions and an employee benefit plan agreed to pay $3.85 million in a civil settlement.",
+        "The entities received $3,316,966 in PPP loans and later obtained full forgiveness.",
+        "The settlement resolves False Claims Act allegations and includes admissions concerning eligibility certifications and information known before the applications."
+      ],
+      "corrections": [],
+      "dek": "The civil agreement resolves False Claims Act allegations over $3.32 million in fully forgiven loans, according to the U.S. Attorney's Office in Manhattan.",
+      "desk": "courts",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Attorney's Office for the Southern District of New York",
+        "International Union of Journeymen and Allied Trades",
+        "United Welfare Fund"
+      ],
+      "eventId": "event-labor-unions-ppp-settlement-385-million",
+      "headline": "Four Labor Unions and Benefit Plan Settle PPP Case for $3.85 Million",
+      "id": "article-labor-unions-ppp-settlement-385-million",
+      "leadImage": {
+        "alt": "The Thurgood Marshall U.S. Courthouse rises above Foley Square in lower Manhattan.",
+        "caption": "The Thurgood Marshall U.S. Courthouse, where the Southern District of New York hears federal cases. The settlement is a civil resolution, not a criminal conviction.",
+        "credit": "Ken Lund/Wikimedia Commons",
+        "height": 900,
+        "rightsId": "media-thurgood-marshall-courthouse-sdny",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/thurgood-marshall-courthouse-sdny/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "New York",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T00:28:51.995Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260805t235457z-487d936cf34c-62067f230745",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The civil agreement resolves False Claims Act allegations over $3.32 million in fully forgiven loans, according to the U.S. Attorney's Office in Manhattan.",
+        "index": true,
+        "title": "Labor unions settle PPP False Claims Act case for $3.85 million"
+      },
+      "section": "crime-justice",
+      "slug": "labor-unions-ppp-settlement-385-million",
+      "social": {
+        "description": "The civil agreement resolves False Claims Act allegations over $3.32 million in fully forgiven loans, according to the U.S. Attorney's Office in Manhattan.",
+        "image": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/thurgood-marshall-courthouse-sdny/open-graph.webp",
+        "title": "Four Labor Unions and Benefit Plan Settle PPP Case for $3.85 Million"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "False Claims Act",
+        "Paycheck Protection Program",
+        "Civil enforcement",
+        "Pandemic relief",
+        "Labor unions",
+        "Whistleblower law"
+      ],
+      "uncertainty": [
+        "The settlement resolves civil claims and is not a criminal conviction.",
+        "Some statements in the Justice Department release describe allegations in the complaint; the article distinguishes those from conduct expressly admitted in the settlement."
+      ],
+      "updatedAt": "2026-08-06T00:28:51.995Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Library of Congress will open its August Thursday-evening programming with K-pop activities, a trivia event and an outdoor screening of the 1995 film “Apollo 13,” according to the institution's event schedule.\n\nTwo K-pop programs are planned for Aug. 6. From 5 to 8 p.m., visitors can hear a curated playlist, decorate a custom light stick and view materials from the Asian Division, Music Division and American Folklife Center.\n\nA separate K-pop trivia program begins at 6 p.m. in room LJ-119. The Library said participants will be able to form teams, examine a special collections display and speak with staff members familiar with its Korean cultural holdings.\n\nAt 8 p.m., the Summer Movies on the Lawn series is scheduled to show “Apollo 13” on the North Lawn. The Library said no ticket is required for the outdoor screening, while the indoor evening programs use free registration.\n\nThe month's music schedule continues Aug. 13 with Amanda Pascali in the Coolidge Auditorium. The American Folklife Center artist is expected to perform music drawing on folk, Americana, Mediterranean, Balkan and Latin influences as part of the center's 50th anniversary.\n\nOn Aug. 27, banjo player Tray Wellington and his band are scheduled for a 6 p.m. Café Concert in the Great Hall, combining bluegrass, jazz, folk and contemporary roots music.\n\nLive! at the Library also extends access to the Thomas Jefferson Building and exhibitions from 5 to 8 p.m. on Thursdays. Visitors may enter the Main Reading Room and view “The Declaration's Promise” exhibition during the evening hours.\n\nThe exhibition includes historical materials such as Thomas Jefferson's rough draft of the Declaration of Independence and Abraham Lincoln's Gettysburg Address, alongside cultural objects and multimedia displays.\n\nEvent registration, capacity and weather conditions may affect individual programs. The Library's official event listings remain the controlling source for last-minute changes.",
+      "bodyBlocks": [
+        {
+          "text": "The Library of Congress will open its August Thursday-evening programming with K-pop activities, a trivia event and an outdoor screening of the 1995 film “Apollo 13,” according to the institution's event schedule.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Two K-pop programs are planned for Aug. 6. From 5 to 8 p.m., visitors can hear a curated playlist, decorate a custom light stick and view materials from the Asian Division, Music Division and American Folklife Center.",
+          "type": "paragraph"
+        },
+        {
+          "text": "A separate K-pop trivia program begins at 6 p.m. in room LJ-119. The Library said participants will be able to form teams, examine a special collections display and speak with staff members familiar with its Korean cultural holdings.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Schedule graphic lists K-pop activities from 5 to 8 p.m., trivia at 6 p.m. and Apollo 13 at 8 p.m. on Aug. 6.",
+          "caption": "Three free Aug. 6 programs run from the Great Hall to the North Lawn.",
+          "credit": "Boho News graphic from Library of Congress data",
+          "height": 900,
+          "rightsId": "media-library-congress-august-6-schedule",
+          "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c",
+          "src": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-6-schedule/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "At 8 p.m., the Summer Movies on the Lawn series is scheduled to show “Apollo 13” on the North Lawn. The Library said no ticket is required for the outdoor screening, while the indoor evening programs use free registration.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The month's music schedule continues Aug. 13 with Amanda Pascali in the Coolidge Auditorium. The American Folklife Center artist is expected to perform music drawing on folk, Americana, Mediterranean, Balkan and Latin influences as part of the center's 50th anniversary.",
+          "type": "paragraph"
+        },
+        {
+          "text": "On Aug. 27, banjo player Tray Wellington and his band are scheduled for a 6 p.m. Café Concert in the Great Hall, combining bluegrass, jazz, folk and contemporary roots music.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Timeline lists K-pop and Apollo 13 on Aug. 6, Amanda Pascali on Aug. 13 and Tray Wellington on Aug. 27.",
+          "caption": "The August Thursday-night series continues with two live concerts.",
+          "credit": "Boho News graphic from Library of Congress data",
+          "height": 900,
+          "rightsId": "media-library-congress-august-concert-timeline",
+          "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c",
+          "src": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-concert-timeline/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Live! at the Library also extends access to the Thomas Jefferson Building and exhibitions from 5 to 8 p.m. on Thursdays. Visitors may enter the Main Reading Room and view “The Declaration's Promise” exhibition during the evening hours.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The exhibition includes historical materials such as Thomas Jefferson's rough draft of the Declaration of Independence and Abraham Lincoln's Gettysburg Address, alongside cultural objects and multimedia displays.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Event registration, capacity and weather conditions may affect individual programs. The Library's official event listings remain the controlling source for last-minute changes.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-library-congress-august-2026-events",
+          "text": "The cited Library of Congress record is the factual backbone for this report.",
+          "title": "Primary record",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/library-congress-kpop-august-events/",
+      "citations": [
+        {
+          "id": "source-library-congress-august-2026-events",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "Library of Congress",
+          "title": "Library Spotlights K-Pop, Live Music and a Summer Movie During Live! At the Library in August",
+          "url": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The Library of Congress scheduled two free K-pop programs for Aug. 6.",
+        "An outdoor screening of the 1995 film “Apollo 13” is scheduled for 8 p.m. Aug. 6 on the North Lawn.",
+        "Amanda Pascali is scheduled for Aug. 13 and Tray Wellington and his band for Aug. 27."
+      ],
+      "corrections": [],
+      "dek": "The free Thursday-evening program begins Aug. 6 with K-pop activities, trivia and an outdoor screening of “Apollo 13.”",
+      "desk": "arts-culture",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Library of Congress",
+        "Amanda Pascali",
+        "Tray Wellington"
+      ],
+      "eventId": "event-library-congress-kpop-august-events",
+      "headline": "Library of Congress K-Pop Night: Aug. 6 Events, Times and Tickets",
+      "id": "article-library-congress-kpop-august-events",
+      "leadImage": {
+        "alt": "The illuminated Thomas Jefferson Building of the Library of Congress stretches across the frame at dusk.",
+        "caption": "The Library of Congress Thomas Jefferson Building, where free K-pop activities and trivia are scheduled for Aug. 6 before an outdoor “Apollo 13” screening.",
+        "credit": "Shawn Miller/Library of Congress",
+        "height": 900,
+        "rightsId": "media-library-congress-jefferson-building-2017",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-jefferson-building-2017/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T00:28:51.995Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260805t235457z-487d936cf34c-62067f230745",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The free Thursday-evening program begins Aug. 6 with K-pop activities, trivia and an outdoor screening of “Apollo 13.”",
+        "index": true,
+        "title": "Library of Congress K-pop night Aug. 6: times and tickets"
+      },
+      "section": "culture",
+      "slug": "library-congress-kpop-august-events",
+      "social": {
+        "description": "The free Thursday-evening program begins Aug. 6 with K-pop activities, trivia and an outdoor screening of “Apollo 13.”",
+        "image": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-jefferson-building-2017/open-graph.webp",
+        "title": "Library of Congress K-Pop Night: Aug. 6 Events, Times and Tickets"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Library of Congress",
+        "K-pop",
+        "Live music",
+        "Film screenings",
+        "Washington events",
+        "Korean culture"
+      ],
+      "uncertainty": [
+        "Registration requirements vary by event, and capacity may be limited.",
+        "Outdoor programming may be affected by weather or operational changes announced by the Library."
+      ],
+      "updatedAt": "2026-08-06T00:28:51.995Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
       "body": "The film lasts only about 45 seconds: a magician winds up a human-shaped automaton, the figure grows, strikes back and is hammered down to doll size. For more than a century, viewers knew Georges Méliès’s “Gugusse and the Automaton” largely by reputation.\n\nNow the 1897 trick short is streaming again after Library of Congress technicians identified a surviving print among roughly 10 battered nitrate reels and spent more than a week repairing, scanning and stabilizing it.\n\nThe recovery appears in the Library’s July–August magazine and National Screening Room catalog. The catalog lists the French Star Film production as probably photographed in 1897 and notes that the surviving digital copy ends abruptly but appears complete.\n\nWhen the reels reached the National Audio-Visual Conservation Center in Culpeper, Virginia, some cans were rusted, some film had crumbled and other strips had fused together. Staff examined the material frame by frame rather than risk running it through a projector.\n\nA black star on an automaton’s pedestal helped reveal what they had. The action matched a film listed as Star Film catalog number 111: Méliès, playing the magician Gugusse, confronts a Pierrot figure that begins as a mechanical doll and becomes an unruly human-sized opponent.\n\nThe Library describes it as the first screen appearance of what might be called a robot. That wording matters. The film predates the word “robot” by more than two decades, and its character draws on the older stage tradition of clockwork automatons.\n\nThe reels came from the family of William DeLyle Frisbee, a western Pennsylvania farmer and teacher who also traveled with early motion pictures. His great-grandson Bill McFarland eventually drove the inherited cache from Grand Rapids, Michigan, to the Library in September 2025.\n\nThe films had passed through basements, barns, garages and a small trunk. That chain was far from archival, but it kept material that could not safely be projected from being discarded. The cache also held another Méliès film from 1900 and fragments of an early Thomas Edison title.\n\nThe recovered “Gugusse” print is not the camera negative. The Library says it is a duplicate at least three generations removed from the original, evidence of the copying and circulation that helped some early films survive after their masters vanished.\n\nTechnicians repaired the fragile nitrate stock, scanned it and stabilized the digital image. The work took more than a week. It did not erase every scratch, flicker or missing edge; those marks document the physical history of the surviving copy.\n\nMéliès made more than 500 films, but most original negatives disappeared. Some were melted for their silver and celluloid during World War I, and the filmmaker later burned more. About 300 titles are known to survive, according to the Library, which holds roughly 60.\n\nThe recovered short expands that record by less than a minute, yet its subject bridges two histories: Méliès’s experiments with cinematic illusion and the long cultural idea of artificial figures escaping human control.\n\nIts new availability is also the final preservation step that matters to the public. The catalog entry includes a downloadable viewing copy and a rights note saying the Library knows of no U.S. copyright restriction on the vast majority of films in the collection. A work once accessible only as a title in film history can again be watched as a moving image.",
       "bodyBlocks": [
         {
@@ -7932,6 +8540,156 @@
         "The Park Service has not published a single final count of every local National Park Week event."
       ],
       "updatedAt": "2026-08-04T22:40:42.275Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Cut-resistant protective equipment will become mandatory for NCAA Division I men's hockey and National Collegiate women's hockey players beginning with the 2027-28 season, the association announced.\n\nPlayers currently have the option to wear the equipment. During the 2026-27 academic year, the NCAA is encouraging protection designed for the neck, wrist and ankle areas before the requirement takes effect.\n\nThe rule does not yet apply to Division III. Members of the Division II and III Playing Rules Oversight Panel supported sending the proposal out for comment, and the Division III panel is expected to act on it at a September meeting.\n\nThe NCAA announcement did not identify approved brands or publish a complete product specification. Schools and equipment managers will need later guidance on standards, certification and enforcement before the mandatory season begins.\n\nThe association also approved a clarification allowing audio-communication devices and health-and-safety tracking technology in the bench area for all NCAA hockey. Video may not be used for coaching purposes on the bench.\n\nOther changes arrive sooner. Division I men's hockey will add a trapezoid behind the net in 2026-27, limiting where goalkeepers may play the puck below the goal line. Division III men are scheduled to add the marking in 2027-28.\n\nRegular-season overtime remains five minutes of three-on-three play for both men's and women's hockey. Women's conferences will determine whether a shootout follows a tie, including rules for nonconference and neutral-site games.\n\nAdditional approved changes allow defensive-zone hand passes, require both men's faceoff players to place their stick blades flat before the puck drop and restrict timeouts by a Division I men's team that is not allowed to change players after certain stoppages.\n\nThe cut-resistant equipment rule is the clearest player-safety change in the package. Its delayed effective date gives programs time to obtain compliant gear and allows Division III to finish its separate governance process.",
+      "bodyBlocks": [
+        {
+          "text": "Cut-resistant protective equipment will become mandatory for NCAA Division I men's hockey and National Collegiate women's hockey players beginning with the 2027-28 season, the association announced.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Players currently have the option to wear the equipment. During the 2026-27 academic year, the NCAA is encouraging protection designed for the neck, wrist and ankle areas before the requirement takes effect.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The rule does not yet apply to Division III. Members of the Division II and III Playing Rules Oversight Panel supported sending the proposal out for comment, and the Division III panel is expected to act on it at a September meeting.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic identifies neck, wrist and ankle as the areas NCAA says cut-resistant equipment is intended to protect.",
+          "caption": "For 2026–27, the NCAA encourages equipment intended to protect three vulnerable areas.",
+          "credit": "Boho News graphic from NCAA data",
+          "height": 900,
+          "rightsId": "media-ncaa-cut-resistant-gear-areas",
+          "sourceUrl": "https://www.ncaa.org/cut-resistant-equipment-approved-in-ice-hockey-for-di-men-nc-women/",
+          "src": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-gear-areas/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The NCAA announcement did not identify approved brands or publish a complete product specification. Schools and equipment managers will need later guidance on standards, certification and enforcement before the mandatory season begins.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The association also approved a clarification allowing audio-communication devices and health-and-safety tracking technology in the bench area for all NCAA hockey. Video may not be used for coaching purposes on the bench.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Other changes arrive sooner. Division I men's hockey will add a trapezoid behind the net in 2026-27, limiting where goalkeepers may play the puck below the goal line. Division III men are scheduled to add the marking in 2027-28.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Timeline shows equipment encouraged in 2026–27, required for Division I men and National Collegiate women in 2027–28, and Division III action pending.",
+          "caption": "The mandatory rule begins after a one-season transition; Division III is considering the proposal separately.",
+          "credit": "Boho News graphic from NCAA data",
+          "height": 900,
+          "rightsId": "media-ncaa-cut-resistant-rule-timeline",
+          "sourceUrl": "https://www.ncaa.org/cut-resistant-equipment-approved-in-ice-hockey-for-di-men-nc-women/",
+          "src": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-rule-timeline/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Regular-season overtime remains five minutes of three-on-three play for both men's and women's hockey. Women's conferences will determine whether a shootout follows a tie, including rules for nonconference and neutral-site games.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Additional approved changes allow defensive-zone hand passes, require both men's faceoff players to place their stick blades flat before the puck drop and restrict timeouts by a Division I men's team that is not allowed to change players after certain stoppages.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The cut-resistant equipment rule is the clearest player-safety change in the package. Its delayed effective date gives programs time to obtain compliant gear and allows Division III to finish its separate governance process.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-ncaa-hockey-cut-resistant-gear-2026",
+          "text": "The cited NCAA record is the factual backbone for this report.",
+          "title": "Primary record",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/ncaa-hockey-cut-resistant-gear-rule/",
+      "citations": [
+        {
+          "id": "source-ncaa-hockey-cut-resistant-gear-2026",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "NCAA",
+          "title": "Cut-resistant equipment approved in ice hockey for DI men, NC women",
+          "url": "https://www.ncaa.org/cut-resistant-equipment-approved-in-ice-hockey-for-di-men-nc-women/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Cut-resistant equipment will be required for Division I men's and National Collegiate women's hockey beginning in 2027-28.",
+        "Players are encouraged to wear protective equipment for the neck, wrist and ankle areas in 2026-27.",
+        "Teams may use bench devices for audio communication and health-and-safety tracking, but not video for coaching."
+      ],
+      "corrections": [],
+      "dek": "Division I men's and National Collegiate women's players will be required to use protection for vulnerable areas; Division III is still considering the proposal.",
+      "desk": "college-sports",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NCAA"
+      ],
+      "eventId": "event-ncaa-hockey-cut-resistant-gear-rule",
+      "headline": "NCAA Hockey Will Require Cut-Resistant Gear in 2027–28",
+      "id": "article-ncaa-hockey-cut-resistant-gear-rule",
+      "leadImage": {
+        "alt": "Two college hockey players race toward the puck during a game in Anchorage, Alaska.",
+        "caption": "Air Force and Alaska Anchorage players race for the puck in 2023. NCAA Division I men and National Collegiate women will need cut-resistant gear beginning in 2027–28.",
+        "credit": "Senior Airman Patrick Sullivan/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-college-hockey-air-force-alaska-2023",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/college-hockey-air-force-alaska-2023/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T00:28:51.995Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260805t235457z-487d936cf34c-62067f230745",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Division I men's and National Collegiate women's players will be required to use protection for vulnerable areas; Division III is still considering the proposal.",
+        "index": true,
+        "title": "NCAA hockey cut-resistant gear rule starts in 2027–28"
+      },
+      "section": "sports",
+      "slug": "ncaa-hockey-cut-resistant-gear-rule",
+      "social": {
+        "description": "Division I men's and National Collegiate women's players will be required to use protection for vulnerable areas; Division III is still considering the proposal.",
+        "image": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/college-hockey-air-force-alaska-2023/open-graph.webp",
+        "title": "NCAA Hockey Will Require Cut-Resistant Gear in 2027–28"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "College hockey",
+        "NCAA rules",
+        "Player safety",
+        "Hockey equipment",
+        "Sports technology",
+        "Division I"
+      ],
+      "uncertainty": [
+        "Division III has not yet adopted the cut-resistant equipment requirement and is scheduled to consider it in September.",
+        "The NCAA announcement does not specify approved product brands or a complete technical equipment standard."
+      ],
+      "updatedAt": "2026-08-06T00:28:51.995Z"
     },
     {
       "articleType": "explainer",
@@ -11438,6 +12196,158 @@
       "updatedAt": "2026-08-02T00:23:31.615Z"
     },
     {
+      "articleType": "document-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The World Bank Group's Board of Executive Directors has discussed a new six-year partnership framework for China that would place greater emphasis on knowledge sharing, selective financing and lessons intended to apply beyond the country itself.\n\nThe Country Partnership Framework covers fiscal years 2026 through 2031. The World Bank described it as a new phase in a relationship that began in 1980 and has gradually shifted as China's economy and development needs changed.\n\nThe framework identifies three priority areas: enabling productivity-led growth and better jobs; strengthening human capital and social protection as the population ages; and expanding resilient, sustainable infrastructure while protecting and restoring natural ecosystems.\n\nThose themes track priorities in China's 15th Five-Year Plan, including stronger domestic demand, job creation, updated social protection and the country's stated goals of peaking carbon emissions before 2030 and reaching carbon neutrality by 2060.\n\nThe World Bank said lending from the International Bank for Reconstruction and Development is phasing down. The relationship is expected to rely more heavily on policy knowledge, innovation, mutual learning and targeted financing rather than broad development lending.\n\nOne part of that shift is the sharing of China's experience in areas such as ecosystem restoration, water management and agricultural productivity when other World Bank Group countries request it. The bank said those efforts would be linked to its Knowledge Bank and the China-WBG Global Center for Ecological Systems and Transitions.\n\nThe board discussion establishes the framework for cooperation, but it does not by itself set the value or terms of every future project. Individual operations and financing decisions would still require their own review and approval processes.\n\nThe World Bank said China is increasingly both a user and provider of development knowledge, as well as a contributor and donor to the institution. That evolving role is central to the framework's focus on ideas and practices that could be useful in other emerging markets.\n\nThe practical effect of the framework will become clearer as specific projects, advisory work and knowledge-sharing programs are announced during the 2026–31 period.",
+      "bodyBlocks": [
+        {
+          "text": "The World Bank Group's Board of Executive Directors has discussed a new six-year partnership framework for China that would place greater emphasis on knowledge sharing, selective financing and lessons intended to apply beyond the country itself.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Country Partnership Framework covers fiscal years 2026 through 2031. The World Bank described it as a new phase in a relationship that began in 1980 and has gradually shifted as China's economy and development needs changed.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The framework identifies three priority areas: enabling productivity-led growth and better jobs; strengthening human capital and social protection as the population ages; and expanding resilient, sustainable infrastructure while protecting and restoring natural ecosystems.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists the China partnership framework priorities: jobs, social protection and resilient infrastructure.",
+          "caption": "The 2026–31 framework names three priority areas.",
+          "credit": "Boho News graphic from World Bank Group data",
+          "height": 900,
+          "rightsId": "media-world-bank-china-three-priorities",
+          "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/23/world-bank-group-board-discusses-new-country-partnership-framework-for-china",
+          "src": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-three-priorities/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Those themes track priorities in China's 15th Five-Year Plan, including stronger domestic demand, job creation, updated social protection and the country's stated goals of peaking carbon emissions before 2030 and reaching carbon neutrality by 2060.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The World Bank said lending from the International Bank for Reconstruction and Development is phasing down. The relationship is expected to rely more heavily on policy knowledge, innovation, mutual learning and targeted financing rather than broad development lending.",
+          "type": "paragraph"
+        },
+        {
+          "text": "One part of that shift is the sharing of China's experience in areas such as ecosystem restoration, water management and agricultural productivity when other World Bank Group countries request it. The bank said those efforts would be linked to its Knowledge Bank and the China-WBG Global Center for Ecological Systems and Transitions.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic describes the World Bank-China relationship moving from broad financing toward selective lending, knowledge and mutual learning.",
+          "caption": "The World Bank says IBRD lending is phasing down as engagement becomes more selective and knowledge-focused.",
+          "credit": "Boho News graphic from World Bank Group data",
+          "height": 900,
+          "rightsId": "media-world-bank-china-partnership-shift",
+          "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/23/world-bank-group-board-discusses-new-country-partnership-framework-for-china",
+          "src": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-partnership-shift/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The board discussion establishes the framework for cooperation, but it does not by itself set the value or terms of every future project. Individual operations and financing decisions would still require their own review and approval processes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The World Bank said China is increasingly both a user and provider of development knowledge, as well as a contributor and donor to the institution. That evolving role is central to the framework's focus on ideas and practices that could be useful in other emerging markets.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The practical effect of the framework will become clearer as specific projects, advisory work and knowledge-sharing programs are announced during the 2026–31 period.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "source-world-bank-china-cpf-2026-2031",
+          "text": "The cited World Bank Group record is the factual backbone for this report.",
+          "title": "Primary record",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/world-bank-china-partnership-framework-2026-2031/",
+      "citations": [
+        {
+          "id": "source-world-bank-china-cpf-2026-2031",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "World Bank Group",
+          "title": "World Bank Group Board Discusses New Country Partnership Framework for China",
+          "url": "https://www.worldbank.org/en/news/press-release/2026/07/23/world-bank-group-board-discusses-new-country-partnership-framework-for-china"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The World Bank Group Board discussed a Country Partnership Framework for China covering 2026 through 2031.",
+        "The framework identifies three priority areas: productivity-led growth and jobs; human capital and social protection; and resilient, sustainable infrastructure and ecosystems.",
+        "The World Bank said IBRD lending to China is phasing down as the relationship becomes more selective and knowledge-focused."
+      ],
+      "corrections": [],
+      "dek": "The proposed framework shifts the relationship toward knowledge sharing and targeted financing, with priorities covering jobs, aging and resilient infrastructure.",
+      "desk": "global-development",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Bank Group",
+        "China"
+      ],
+      "eventId": "event-world-bank-china-partnership-framework-2026-2031",
+      "headline": "World Bank’s 2026–31 China Strategy Centers Jobs, Aging and Infrastructure",
+      "id": "article-world-bank-china-partnership-framework-2026-2031",
+      "leadImage": {
+        "alt": "Shanghai’s central skyline rises above the Huangpu River under a pale sky.",
+        "caption": "Shanghai’s skyline. The World Bank’s 2026–31 partnership framework for China shifts toward selective financing, knowledge and three development priorities.",
+        "credit": "Rose Abrams/Wikimedia Commons",
+        "height": 900,
+        "rightsId": "media-shanghai-skyline-world-bank-china",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/shanghai-skyline-world-bank-china/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "China",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T00:28:51.995Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260805t235457z-487d936cf34c-62067f230745",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The proposed framework shifts the relationship toward knowledge sharing and targeted financing, with priorities covering jobs, aging and resilient infrastructure.",
+        "index": true,
+        "title": "World Bank 2026–31 China strategy: jobs, aging, infrastructure"
+      },
+      "section": "world",
+      "slug": "world-bank-china-partnership-framework-2026-2031",
+      "social": {
+        "description": "The proposed framework shifts the relationship toward knowledge sharing and targeted financing, with priorities covering jobs, aging and resilient infrastructure.",
+        "image": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/shanghai-skyline-world-bank-china/open-graph.webp",
+        "title": "World Bank’s 2026–31 China Strategy Centers Jobs, Aging and Infrastructure"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "China",
+        "World Bank",
+        "Global development",
+        "Development finance",
+        "Social protection",
+        "Resilient infrastructure"
+      ],
+      "uncertainty": [
+        "The source describes the board's discussion of the framework and does not specify future annual lending amounts.",
+        "Implementation will depend on later projects, financing decisions and cooperation between the World Bank Group and China."
+      ],
+      "updatedAt": "2026-08-06T00:28:51.995Z"
+    },
+    {
       "articleType": "news-report",
       "authors": [
         "Boho News Staff"
@@ -12020,22 +12930,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-05T22:57:20Z",
+  "generatedAt": "2026-08-06T00:29:10Z",
   "inputHashes": {
-    "approvals": "55608bf75d8a71fe240d115c147182662203647735eed0dcab7e0536b0685d35",
-    "articles": "24a93cf3f94b72349ff5feb34c4fab62e8bb5f251d9f6448bb36b52d9af788e6",
-    "claims": "35d4b891599e807909334a0406d0eb703aefa06b7d37fb38282f0d7b6a43211d",
+    "approvals": "27ef9af269fb5d5fd20a31bb05f5a3c4d13be6ccd598b6b489945ed9945e1b8f",
+    "articles": "a50c94a351a6a5f080bbe4b7441565a37e5739c9c5faf3c13cb5881ffce1efc9",
+    "claims": "a28e2590f9c6fd4ebecae1b05642a086814adef717e0833ec0ecb890c4e8a362",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "5222066f8bf2bb9251da6c3329dfbd91970f09d8087185b9505d421336859082",
-    "mediaRights": "af0bd8f99284bade85f2a2374a109497c95a06aaf05ee0c15c01906560950047",
-    "publicationIntents": "db60e34b7f4efb7030d0cc5d51f9120734bc2c9727909dc43d813fb74ed81f1e",
-    "releaseRecords": "8846fe30d508450977c84093068c351cb16cf178ad0d3a388e1877ee060cac1c",
-    "sourceItems": "4e69bc94a7a98c60f1e1d55b3ad9a38829d132f844af39119534ac1965339b98"
+    "events": "4d4310c365e2869817b8c92d365819e1d4cb5239ce9ccafe0a95454c090cdede",
+    "mediaRights": "580dd27635809bb94ca38a3dc7e1079df3ab95661e740f33be8e77cca68d9a4a",
+    "publicationIntents": "789de501529f47b6eac6aeeb89a83fc241c26ea571a5b5ebaf949ac88a742b13",
+    "releaseRecords": "446743236b26ff17b5419a09c016adc14c12c0870a0bc2c1f51ad3972cba54b5",
+    "sourceItems": "8eaca64bec1c0d41f74868ed4bc45062f81543517aed5a483899ff90f80c6c61"
   },
   "inventory": {
-    "articleCount": 51,
-    "mediaCount": 139,
-    "routeCount": 51
+    "articleCount": 57,
+    "mediaCount": 157,
+    "routeCount": 57
   },
   "mediaRights": [
     {
@@ -14371,6 +15281,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Two college hockey players race toward the puck during a game in Anchorage, Alaska.",
+      "archivalStatus": "current",
+      "attribution": "Senior Airman Patrick Sullivan/U.S. Air Force",
+      "caption": "Air Force and Alaska Anchorage players race for the puck in 2023. NCAA Division I men and National Collegiate women will need cut-resistant gear beginning in 2027–28.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead real-world editorial photograph; responsive crops only."
+      },
+      "creator": "Senior Airman Patrick Sullivan/U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "a527731c399e7de72d3ab27c33126704f75578d9e5f23a3029d3301c4bb04b41",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/college-hockey-air-force-alaska-2023/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "cfc974dad69c50bdad8bb693590fdb33188f962daf368806d2cecf17ec3cccda",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/college-hockey-air-force-alaska-2023/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e315759945afadc17bc11f2ec07dee35e96f7014052b2df4264596da00b48ec0",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/college-hockey-air-force-alaska-2023/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d67c80ee6deee67b15e90a0749715366722438a579162e580aa313703bbfd85f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/college-hockey-air-force-alaska-2023/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "68da2262997d2b44831a3357f3e9dd04d3b688a23a182beadd996a280b8d292c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/college-hockey-air-force-alaska-2023/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1660b5c28f141882fd8b13bfeb339f2e8dbfec5a6ff17437141b467d44d54791",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/college-hockey-air-force-alaska-2023/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e2ac6d8803f84be1b439a0bdb2b2de727a17c4c3034ae819f64da8019d9746d7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/college-hockey-air-force-alaska-2023/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-college-hockey-air-force-alaska-2023",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "3ba49a7bd8acc5c6a6b50152487f30b203559cce09860f5f1c9d613577ccac23",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "The photograph was made by a U.S. Air Force airman as part of official duties and is public domain in the United States.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:U.S._Air_Force_Academy_Hockey_competes_in_Alaska_(8089451).jpg"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Graphic lists June construction annual rates of $2.1665 trillion total, $1.6225 trillion private and $544.1 billion public.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from U.S. Census Bureau data",
@@ -15053,6 +16039,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows DOT, Energy and NSF participating in the cross-agency infrastructure challenge.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from U.S. Department of Transportation data",
+      "caption": "DOT describes the initiative as part of a broader effort with the Energy Department and National Science Foundation.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News graphic from U.S. Department of Transportation data",
+      "derivatives": [
+        {
+          "hash": "2c17d4587713c52e34bd0fc87c4bfe1f96441e881762aacc71455d336cd61858",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-cross-agency-structure/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "54c8d6fb8a874da554940a151a948f704a587e8b9a1fd50250e0bb36f956a486",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-cross-agency-structure/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "24b56b6ed6fc8044f0437a580850a954019ef27d747f036cb212015b5759704a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-cross-agency-structure/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ae7cea0a66e45968b338d11dd0b45118b658aecce2c5a9ebefdaa4ebcf962fa8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-cross-agency-structure/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2503f3e46051c9eae5b992acf092b3b57dca30da724310f3b21e1b3fb814df3f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-cross-agency-structure/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "930efb8e4f59a37eececdcc19369dbbb7508f0d61e84e2788a47b999aa61d7da",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-cross-agency-structure/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0a20d21c354bf4c450935e6e36cfc54250ca7bb41ed47272b2f4c0005df92dba",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-cross-agency-structure/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-dot-ai-cross-agency-structure",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "094d06e728ea2472b016d3e36a9ec87c698fcac756c9e4b996c6105d1a85dbef",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record: https://www.transportation.gov/briefing-room/trumps-transportation-department-launches-new-initiative-using-ai-modernize",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-department-launches-new-initiative-using-ai-modernize"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists four stated goals: shorter construction, longer infrastructure life, predictive maintenance and network optimization.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from U.S. Department of Transportation data",
+      "caption": "DOT’s announcement names construction, infrastructure life, predictive maintenance and network optimization among its goals.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News graphic from U.S. Department of Transportation data",
+      "derivatives": [
+        {
+          "hash": "7866a60612d7120884d5416e761337e042a2ea6f47f5c16720770f2d9c71e3ff",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-initiative-pillars/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c46e246ea4026a7bca9c8949fa1cc85de1e594d2b018eb14c3cbe11a30397d09",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-initiative-pillars/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "39c479b891aa13f41da1fa1e2e2a4c736e22c132d58684c511ad5799125abc3c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-initiative-pillars/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b824c4a25a4a2b0cb342bf19d5ccb8a235606586e04e559094bf322cb1cc7e98",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-initiative-pillars/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b8bc953b9de4576f7096552811ed422014f7f090044503c852de7b40096976ef",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-initiative-pillars/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7f3cf7a54d3d4dd6f24cd6be28b4020efa43b76ee1f2408b32375e65785f512f",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-initiative-pillars/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "003bc391c9833eae6b9d4fffa26e169308cf624706da034294fd4e24e4b49371",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/dot-ai-initiative-pillars/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-dot-ai-initiative-pillars",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "eda1a28f2146fb70d696e9e8f5a32098712ecb24c1549a83c09858dfc4196c11",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record: https://www.transportation.gov/briefing-room/trumps-transportation-department-launches-new-initiative-using-ai-modernize",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-department-launches-new-initiative-using-ai-modernize"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Adult community-college participants work at desktop computers during a U.S. Department of Education forum.",
       "archivalStatus": "current",
       "attribution": "U.S. Department of Education",
@@ -15201,6 +16339,82 @@
       "rightsBasis": "Original newsroom information graphic created from public-domain U.S. government statistics.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Federal Highway Administration officials in safety gear inspect damaged concrete beneath an elevated highway.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Federal Highway Administration",
+      "caption": "Federal Highway Administration officials inspect physical infrastructure in Philadelphia in 2023. DOT’s new AI initiative targets maintenance, construction and network operations.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead real-world editorial photograph; responsive crops only."
+      },
+      "creator": "U.S. Federal Highway Administration",
+      "derivatives": [
+        {
+          "hash": "1f0e14c1c0fa459172ab7d6989994e28e50bb5f7541d8d60fcae41a7a5449366",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/fhwa-i95-infrastructure-inspection/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7e64a4b21382cc1dd5c49850b3628a0c1d8ca484c081af0b756d91d45c26e299",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/fhwa-i95-infrastructure-inspection/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "078a6de4b89e762e82e5e38b83d15c814c282ff9dba3459a739ab7c66676c146",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/fhwa-i95-infrastructure-inspection/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "59c57962f9b29bdcdf6cf5e68f3da54dac831281498938a264c6617d66d3635d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/fhwa-i95-infrastructure-inspection/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7c2d7204e11e08fbc19d4e2f3199bb8ada07d20da3aef0bc8e4d998a129c3607",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/fhwa-i95-infrastructure-inspection/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5d66ae50ac56862f41a69ebfe001df8ec2a271b3da394fab0f71c47f6c1aaf71",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/fhwa-i95-infrastructure-inspection/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "351efdfd14d187c68afce2e1e0d1cf786784b0f75e0b1f5714f2ee97b2903eb3",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/dot-ai-transportation-infrastructure-initiative/fhwa-i95-infrastructure-inspection/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-fhwa-i95-infrastructure-inspection",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "72889aa9107740868cecdfd17fd9bbbce85b0f05bb8973e733283c2d87072d85",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "The photograph was made by a U.S. Department of Transportation employee as part of official duties.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FHA_I95_Bridge_Collapse_Inspection.jpg"
     },
     {
       "aiGenerated": false,
@@ -16028,6 +17242,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "The U.S. Government Accountability Office building stands beneath a blue sky in Washington, D.C.",
+      "archivalStatus": "current",
+      "attribution": "Ajay Suresh/Wikimedia Commons",
+      "caption": "The Government Accountability Office building in Washington. GAO found that 15 of 20 selected state-administered federal programs lacked comparable documented fraud-risk assessments.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead real-world editorial photograph; responsive crops only."
+      },
+      "creator": "Ajay Suresh/Wikimedia Commons",
+      "derivatives": [
+        {
+          "hash": "d46fd848fc6e9616baa9ea9ac3dfe47a0bb23bf0d18cdb2e82ca2d43a3a931c8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-building-washington-2024/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "336e47ad5ba5f9b4e83cb8f9726146c6405bdd24371db925a5142d685ae5f0ee",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-building-washington-2024/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "93a85a6119592c7ebff772fce190bbb87e7e98cedd3c4c0e7640f64b74db7a7c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-building-washington-2024/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "334018af4247daedba669dc9e36ef8963322112075843c352c959df9750191a0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-building-washington-2024/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8c306f8f49faa7816ed0c7948c10658361aa8923fd3e60b94a4785961432a6cf",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-building-washington-2024/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2eff0d23d5526220f3875fd06bfea114393803fb1d1a0dfb955e0d11aaa73fd8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-building-washington-2024/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "fa045261b66be76f94699f24f573f77a0a3814bd61f46c4e2620d1cd57e72cbd",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-building-washington-2024/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-building-washington-2024",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "fbda25bd00e374f3183635643bc3f25cfe6e937c7ec36adaab61accaaa5b2a64",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Ajay Suresh published the 2024 photograph under CC BY 2.0; attribution and source are retained.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Government_Accountability_Office_Building_(53840039241).jpg"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Bar chart showing DOL with 11 EAJA awards totaling $547,601, NLRB with 11 totaling $436,913, and EEOC with zero awards from fiscal years 2019 through 2025.",
       "archivalStatus": "current",
       "attribution": "Boho News Data Desk; data: U.S. Government Accountability Office",
@@ -16249,6 +17539,158 @@
       "rightsBasis": "Original graphic derived solely from the three GAO-highlighted areas.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.gao.gov/products/gao-26-108975"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares five programs with documented fraud-risk assessments with 15 lacking comparable documentation.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from U.S. Government Accountability Office data",
+      "caption": "Five of the 20 programs showed documentation consistent with identifying risks and assessing likelihood; 15 did not.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News graphic from U.S. Government Accountability Office data",
+      "derivatives": [
+        {
+          "hash": "3499b958d5360691f6f0a972e9923f2c9d371e9b414955f93a1905b6e7a13358",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-fraud-risk-assessment-counts/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "16ce2846fc5875e98ab50140652a70a1298b246c16fba360fb0cd44517732048",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-fraud-risk-assessment-counts/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "47fcf322f36881458e4f3fab51af615a747ba2f408c81fa58fc5304432151caf",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-fraud-risk-assessment-counts/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "3b178dbd583e3a2d8d48bc0eb8880dca19a9ee804f816c259c18aaa8e1c1d340",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-fraud-risk-assessment-counts/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "259602cd8d6a339e8a055a2b281309148fa587c8c0479a2100e997258b3d543d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-fraud-risk-assessment-counts/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5a24082e4a7893b18ee40bc11ef7117d102f3ca245b5575f766c27febea2eb60",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-fraud-risk-assessment-counts/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0677c5738699966f501ae12d568848cd3673bd34c3436302b10d2dcac0903ede",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-fraud-risk-assessment-counts/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-fraud-risk-assessment-counts",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8e2d9d7de0fa687c6b79003562992ae6c01a35624756cac851a349e15eb08ff2",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record: https://www.gao.gov/products/gao-26-109100",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-109100"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists $1.1 trillion in fiscal 2025 obligations, 20 programs reviewed and 22 open GAO recommendations.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from U.S. Government Accountability Office data",
+      "caption": "The review covered programs accounting for $1.1 trillion in fiscal 2025 obligations and identified 22 open recommendations.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News graphic from U.S. Government Accountability Office data",
+      "derivatives": [
+        {
+          "hash": "a594758d94474e6c9c6a38056199ba77353ca5425234aa4ef3486495ab3c2a11",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-program-scale-and-recommendations/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "78a87bc5daa614cc1680b526151c79aa6f2c693c6272f2753c6559763b9e437a",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-program-scale-and-recommendations/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a6ba7809e2990329e81ac97e5d780a5c09a174a2280e5bdece556aea328e1477",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-program-scale-and-recommendations/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ec32aeaa94e797d01a519336cc79575ccdf094f6a3decdaed5043492c27f2b3b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-program-scale-and-recommendations/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "32948c7df3a1d01e11bc65fd33482618c26b9b3e5d0fcc297eebd2c57ee7bfd8",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-program-scale-and-recommendations/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c35f588d92cf24847cb741f00c1bb42ebde6220812967afcb76d734c0b875daf",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-program-scale-and-recommendations/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "505da4305a2723e776580433af793a832901e5da88aa610d98fab93aa5a908a9",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/gao-state-administered-program-fraud-risks/gao-program-scale-and-recommendations/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-program-scale-and-recommendations",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5d4b4f4d57c51162c14d245b0cba7756e1ead925b345dd34f8c8c1bebea57c4d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record: https://www.gao.gov/products/gao-26-109100",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-109100"
     },
     {
       "aiGenerated": false,
@@ -17159,6 +18601,234 @@
       "rightsBasis": "High-resolution airport photograph licensed CC BY-SA 4.0 by Viferr81; credit and source retained.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shuttle_passengers.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Schedule graphic lists K-pop activities from 5 to 8 p.m., trivia at 6 p.m. and Apollo 13 at 8 p.m. on Aug. 6.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Library of Congress data",
+      "caption": "Three free Aug. 6 programs run from the Great Hall to the North Lawn.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News graphic from Library of Congress data",
+      "derivatives": [
+        {
+          "hash": "d6ea166707f7955e0c88aa0f589823fabe3c86da9c9393e9866996e3f1e970ff",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-6-schedule/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "94b03ebdf1d7bcb63bcad4647a97ec74ed652e863df06929f9ad93f2165c4c95",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-6-schedule/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a82bcc4adc9e2053f39d4d8188ad68d2f8f3a9fff2142c55de39d43252b2087a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-6-schedule/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7f9eaa8fbb318f79e9bf6b9b24eb2ddd474013b8fe9b489962701ec81725b9ba",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-6-schedule/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "551ce46d69cb42c56f09355d04c4a94a9aa9e007939a3d4734a781e38cd7e70f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-6-schedule/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ea952ed5bd2aeee2b9241b5724790ca6dbf88b6c182652e1879a1abb4c7a7c15",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-6-schedule/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f22f5622be2f1e7e2ef614d6dbac67c47c5c16208e85cfa00ff0e181e954c7d5",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-6-schedule/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-library-congress-august-6-schedule",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "7afd5f057b34f6bb7464274f81bd019194078b548e95e04ea5ba7bb1ba935068",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record: https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Timeline lists K-pop and Apollo 13 on Aug. 6, Amanda Pascali on Aug. 13 and Tray Wellington on Aug. 27.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Library of Congress data",
+      "caption": "The August Thursday-night series continues with two live concerts.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News graphic from Library of Congress data",
+      "derivatives": [
+        {
+          "hash": "8b9d9fe3576d57da9fe8dfb0df22980c11cfd445a21f375430f95ea3bc304ad4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-concert-timeline/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2ae636d46ac3b23807433104af27e8efe62005a28efecc457529a53ed4f1a39b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-concert-timeline/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c93baea4abdf8483bcbc3cc3d6b62912013827f339cda4cbe1fccfde17fccf6e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-concert-timeline/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b12afb53ccd44aa5e5903fb1bfe34dc462acc6496062e48056d315830fba216a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-concert-timeline/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9c50d7f6dc8dcd3372c13bd3762b2db3396b300ce56a1ac1ce03be314bee05d1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-concert-timeline/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "27fd28c313042551015a99d572e885b57301b7db5139bea18269682669a699fa",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-concert-timeline/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "02c6260d678c0379d9360f6d511b21d2373c0d1c5524d161b55865b44e381ba4",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-august-concert-timeline/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-library-congress-august-concert-timeline",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "3fac7bcb3a4bd0641ba9468774ace03ec6818a84948a1688df5c849907014b6e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record: https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "The illuminated Thomas Jefferson Building of the Library of Congress stretches across the frame at dusk.",
+      "archivalStatus": "current",
+      "attribution": "Shawn Miller/Library of Congress",
+      "caption": "The Library of Congress Thomas Jefferson Building, where free K-pop activities and trivia are scheduled for Aug. 6 before an outdoor “Apollo 13” screening.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead real-world editorial photograph; responsive crops only."
+      },
+      "creator": "Shawn Miller/Library of Congress",
+      "derivatives": [
+        {
+          "hash": "cf52d26067b484ed398b0612946e24386b5da57d3d1f6c19647ec83a16e5719e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-jefferson-building-2017/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "919477949cefbe2ef21075e53a97ab3fce2cf05ce3430ab43266766c537c6d8e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-jefferson-building-2017/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bdf33231a9c027534dcdff5017413cdb053bac3c6854e1f1af567e8de7ea40b4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-jefferson-building-2017/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "180a8152aaf1ae586d77f72fcbc1c5b8075363486df0dab455af42a1299e2114",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-jefferson-building-2017/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7c028c858f3db65059328db099efea331a755f57b64265c9edb98fe255d83012",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-jefferson-building-2017/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c0e538279ac92d87805c39fa1ffd6909efa7b70dd2ed5b33311f57f6f52d6ea5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-jefferson-building-2017/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "fd454ff2f2803a04db52aa86292b55ea389b156441ab111e1b3194d0b889bd9d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/library-congress-kpop-august-events/library-congress-jefferson-building-2017/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-library-congress-jefferson-building-2017",
+      "illustrationLabel": null,
+      "license": "CC0 1.0 Universal",
+      "originalFileHash": "43c4a38daaeee438da34f95dcf5bab67159cedd342112292cef905203fc95b3a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "The Library of Congress Life account dedicated Shawn Miller’s 2017 photograph to the public domain under CC0.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Library_of_Congress_Thomas_Jefferson_Building.jpg"
     },
     {
       "aiGenerated": false,
@@ -18369,6 +20039,158 @@
       "rightsBasis": "Single documentary frame from an official Library of Congress event video, reproduced to identify the recurring festival.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.loc.gov/item/video-10234/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic identifies neck, wrist and ankle as the areas NCAA says cut-resistant equipment is intended to protect.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NCAA data",
+      "caption": "For 2026–27, the NCAA encourages equipment intended to protect three vulnerable areas.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News graphic from NCAA data",
+      "derivatives": [
+        {
+          "hash": "abdaf5e02d994c2edcb8ccd3108471a8e94b9977beedb737d77b03ded15352e3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-gear-areas/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "802a5fec6a340011014f8c939a1c5af5dd02eefcd22db9421367ee11fc3db4a0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-gear-areas/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "fb5320e1d827f5b1396a7c4a3307480c8dcc5279efeb8ca6a763d370e32c94e5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-gear-areas/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a08d970ac34f777add47c51e7190f77f19a4def0fd783e0bbfd7b401c6d1e292",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-gear-areas/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6300478a5de8cdb9f8bffc48f633cc1d87ea29d54df787078e900398ac60623a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-gear-areas/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5fe59b5914f688e1678e7dab95404d404732f55dace84e67787c50c766c92a45",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-gear-areas/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3ea3ebf9ab3b692e58429562caafec9ec5b1eedcde199303c3f243a135d1a144",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-gear-areas/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ncaa-cut-resistant-gear-areas",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "676c5c740ad3dca678c3cf735d5bb0736656d52872fca4ed13337b1fea312e08",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record: https://www.ncaa.org/cut-resistant-equipment-approved-in-ice-hockey-for-di-men-nc-women/",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ncaa.org/cut-resistant-equipment-approved-in-ice-hockey-for-di-men-nc-women/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Timeline shows equipment encouraged in 2026–27, required for Division I men and National Collegiate women in 2027–28, and Division III action pending.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NCAA data",
+      "caption": "The mandatory rule begins after a one-season transition; Division III is considering the proposal separately.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News graphic from NCAA data",
+      "derivatives": [
+        {
+          "hash": "c3d3361c0d59338f5637ea2e2118671229bb0f0678a85494f0f6fdccd036936a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-rule-timeline/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3f6bf3b588a9c6744cb5f191aba6f9ce4014358303f025ec31ad61bd27fe38b3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-rule-timeline/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "930f6d5bb0f4906901491555796c0cb777f7948d182fc194f294e5f2f0351ee7",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-rule-timeline/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9609a0bd45224167fc0b32f3b5b8bdcd936442a7e93ec06aef660e75ef8b94a3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-rule-timeline/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "beb79c8ff2ccf79c4f73c2dacca405d840447baa837b1035fe69b2ca4df6ef80",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-rule-timeline/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "830972f151ad0c7128a3ba4f59a0a2c2131449fbdc9ac84069e5115b36945a0a",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-rule-timeline/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "906d6becf1c87aa8482c2471b94ce3bfe28557386b6428920b35aaae07c7ca51",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/ncaa-hockey-cut-resistant-gear-rule/ncaa-cut-resistant-rule-timeline/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ncaa-cut-resistant-rule-timeline",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "3a5590a70c5488c95220f7bbfbfddb80303738788c4a9ea7937e2788e86724a0",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record: https://www.ncaa.org/cut-resistant-equipment-approved-in-ice-hockey-for-di-men-nc-women/",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ncaa.org/cut-resistant-equipment-approved-in-ice-hockey-for-di-men-nc-women/"
     },
     {
       "aiGenerated": false,
@@ -20189,6 +22011,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic compares $3,316,966 in forgiven PPP loans with a $3.85 million civil settlement.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from U.S. Attorney's Office, Southern District of New York data",
+      "caption": "The five entities received $3,316,966 in loans and agreed to pay $3.85 million to settle the civil claims.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News graphic from U.S. Attorney's Office, Southern District of New York data",
+      "derivatives": [
+        {
+          "hash": "073d4e33c2fccaa7b40cff022e0ab971cc6b39c1da8c31f98027f53512e157c9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-loans-settlement-amounts/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "58d2cd6437a6625b44a9599fc9fce0a3da88a2ed0a5c6b7a38d9266173ccd466",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-loans-settlement-amounts/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "74eb6dcbd3c2ecb41aad532ef2de2ec6408a580118bc480d5453c6d2da97d60d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-loans-settlement-amounts/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9ab151a1c1f7715710ec0759a2119965c08c98f86b50654992710b7f28cbb70e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-loans-settlement-amounts/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1edf33a170ef97ea6caaad56b93dd91674116d6b2a9e2ae63a6ced1cb1b8c109",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-loans-settlement-amounts/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "fb77ee547d3f7ee414e8ae20281b54f7c950d23bf1d75487ec769cec2b1e1f81",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-loans-settlement-amounts/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a86324a65636db4cc9a50745617ca9f2efbb7de4e4af2263edbe6389266ffa68",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-loans-settlement-amounts/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ppp-union-loans-settlement-amounts",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "fdcce8982331cf94f1578b1feb427f96d7eb8da8f0aa609bcb30e02a1eaac4e7",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record: https://www.justice.gov/usao-sdny/pr/385-million-settlement-case-against-labor-unions-improper-receipt-paycheck-protection",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.justice.gov/usao-sdny/pr/385-million-settlement-case-against-labor-unions-improper-receipt-paycheck-protection"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Timeline shows April 2020 loan applications, later forgiveness and the July 2026 civil settlement.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from U.S. Attorney's Office, Southern District of New York data",
+      "caption": "The applications were submitted April 16–20, 2020; forgiveness and the civil settlement followed.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News graphic from U.S. Attorney's Office, Southern District of New York data",
+      "derivatives": [
+        {
+          "hash": "978139dd6bc930cafc6d795ec776fbfb9ffc233626833094f8ccac6c416066db",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-settlement-timeline/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7f57a3546edb29af6fb7c7acd889cd3ae4759eac19e4d82f3e5947c0d4b70377",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-settlement-timeline/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7031574ae8a043bd56c15ecc67962145ea432b557bed2d4acb9e9c81cc9d29a4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-settlement-timeline/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1c524676cc2509249dead0786871e62d1986437f07ea3e611d3ffdc07a424cc6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-settlement-timeline/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e972c195d6343a4fa42ba79d5017cc01b757e0c1d2b6a8eb144cfb7550527b82",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-settlement-timeline/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "336d5e21875127443e8477b554ad1c1abb7bcf01da3031b259f27fc83c9a3f4b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-settlement-timeline/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8702bb058286db8d5948a3bfe4b0e50c0d87ea386acbb01f0e58a4d44a491834",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/ppp-union-settlement-timeline/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ppp-union-settlement-timeline",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f43f6fd0dfc07507917acf7dd05c5494da55c740126a9b9eaf58d56ee1c557c8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record: https://www.justice.gov/usao-sdny/pr/385-million-settlement-case-against-labor-unions-improper-receipt-paycheck-protection",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.justice.gov/usao-sdny/pr/385-million-settlement-case-against-labor-unions-improper-receipt-paycheck-protection"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A timeline shows the eruption leaving the Sun, the model stabilizing 12 hours later and arrival about eight hours after that, with error under 30 minutes.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from NASA and PUNCH/SwRI data",
@@ -20569,6 +22543,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Shanghai’s central skyline rises above the Huangpu River under a pale sky.",
+      "archivalStatus": "current",
+      "attribution": "Rose Abrams/Wikimedia Commons",
+      "caption": "Shanghai’s skyline. The World Bank’s 2026–31 partnership framework for China shifts toward selective financing, knowledge and three development priorities.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead real-world editorial photograph; responsive crops only."
+      },
+      "creator": "Rose Abrams/Wikimedia Commons",
+      "derivatives": [
+        {
+          "hash": "7dd28b07f1f9f1031f4098dd1b0229497d659de9fbe0baac7304b103e70ab37d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/shanghai-skyline-world-bank-china/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "978d53fa2176d4145e623805d6a576a0260a9499e5cb0bce3326d819bd683de8",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/shanghai-skyline-world-bank-china/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ab40ad54c8ac1afb3e10308c4881e42c19e8cd36502878f214732773ae382d95",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/shanghai-skyline-world-bank-china/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "81f9600e975bb4d8e384353249fc9f0e36a966a3a1cbe18864ee4a851fc521bf",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/shanghai-skyline-world-bank-china/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7345878870946cb419768b1406c7bdace257c5b3229eb0f853bf086984f69c47",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/shanghai-skyline-world-bank-china/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2450124716404cee0ce9f397b30cd25ea2c92dbd47084e2b794978fbe0bb0854",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/shanghai-skyline-world-bank-china/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "cfacb691cb9512e648a453291d4f2d31acd44ac23ad9c247499632b2a6840ed6",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/shanghai-skyline-world-bank-china/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-shanghai-skyline-world-bank-china",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "89df4350758cb4768dd896c010d2890b0f03ac8ce6cdf185a4e153686dfcf013",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Rose Abrams published the photograph under CC BY 4.0; attribution and source are retained.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanghai_skyline.jpg"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A checklist shows plant codes P-1950 or 840962 or 0840962, Julian dates 157 through 184 and sell-by dates July 20 through Aug. 17.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from FDA-posted recall notice",
@@ -20718,6 +22768,82 @@
       "rightsBasis": "Event-specific tornado photograph published in NOAA’s official assessment and credited to Andrew Lapinskas and NWS; used only to identify the reported June outbreak.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.ncei.noaa.gov/news/national-climate-202606"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "The Thurgood Marshall U.S. Courthouse rises above Foley Square in lower Manhattan.",
+      "archivalStatus": "current",
+      "attribution": "Ken Lund/Wikimedia Commons",
+      "caption": "The Thurgood Marshall U.S. Courthouse, where the Southern District of New York hears federal cases. The settlement is a civil resolution, not a criminal conviction.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead real-world editorial photograph; responsive crops only."
+      },
+      "creator": "Ken Lund/Wikimedia Commons",
+      "derivatives": [
+        {
+          "hash": "fd854cb10d5e06d884036c8e0bd361252576232a4b06e3558b70546182344f8b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/thurgood-marshall-courthouse-sdny/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d5140efe2519083a0c1618d834b43c0cfd2d0e8b2138eee245353c64e9b1ae9a",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/thurgood-marshall-courthouse-sdny/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "cf214c585f06d4635b73b1eca57d5532d2cc81397d672ccc8519ca56e42e2600",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/thurgood-marshall-courthouse-sdny/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b32c44fdfdd564da4c0aec68437bcbf1827bc805ff28cc2f0ab8379589193037",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/thurgood-marshall-courthouse-sdny/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b0f3b77353e94372582a67a17caf18c5bb7a5d7eaec6e5e4187d8cca881a355b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/thurgood-marshall-courthouse-sdny/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "33e720c0a387e1ba8f16dc340d6dc3520a5c2b3dc75f2b7c5eb360acf57fce2c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/thurgood-marshall-courthouse-sdny/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a925fbff32f9d7bc7ed8c3fcbdacc32ff83a1ac18a71d7f8962d0281ea63a90b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/labor-unions-ppp-settlement-385-million/thurgood-marshall-courthouse-sdny/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-thurgood-marshall-courthouse-sdny",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 2.0",
+      "originalFileHash": "b7adb6501c3b83f868e80b3b59d90b1c3c0ba69a3f1be003dab9f25f307e6737",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Ken Lund published the photograph under CC BY-SA 2.0; attribution, source and share-alike terms are retained.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thurgood_Marshall_U.S._Courthouse_(Home_of_the_U.S._Court_of_Appeals_for_the_Second_Circuit_and_S.D.N.Y.)_(7237324632).jpg"
     },
     {
       "aiGenerated": false,
@@ -21785,6 +23911,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic describes the World Bank-China relationship moving from broad financing toward selective lending, knowledge and mutual learning.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from World Bank Group data",
+      "caption": "The World Bank says IBRD lending is phasing down as engagement becomes more selective and knowledge-focused.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News graphic from World Bank Group data",
+      "derivatives": [
+        {
+          "hash": "87f538fbd212cb86da867f1e7eacfed4b310d2f6e1b4120ae59c0759724fa1fd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-partnership-shift/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3ff6a2b395d471a360513411b3fe9097799de433015883d9824caf5449222f29",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-partnership-shift/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9a456458259d8656082ffb6d814e4213957d7fb000367e3c7709595cdb889f60",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-partnership-shift/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6d5d74abf0d837e49e8e9acc3c7af165f7eef6441362c11d6dd3874cfba3e97b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-partnership-shift/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "fbf5dc7254a875f09a554cdab8b0f101e20fa2af30fd604d9b8fa82876e5a8a1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-partnership-shift/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b5feafcd4f0968c2f8cc22373b9fc7bae29c87f9921908e9b9bf9533048a9b0a",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-partnership-shift/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f842857c61f4beec4273122ace63f5e3a0540c12b2a2b45678918f83e8d1f60a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-partnership-shift/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-world-bank-china-partnership-shift",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "c1d2103fbea643cdd7b657a29ba8026cb1355e85c92822342ccfaaade026a7ae",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record: https://www.worldbank.org/en/news/press-release/2026/07/23/world-bank-group-board-discusses-new-country-partnership-framework-for-china",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/23/world-bank-group-board-discusses-new-country-partnership-framework-for-china"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists the China partnership framework priorities: jobs, social protection and resilient infrastructure.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from World Bank Group data",
+      "caption": "The 2026–31 framework names three priority areas.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News graphic from World Bank Group data",
+      "derivatives": [
+        {
+          "hash": "707c5d4d0ca36f54c81e175f767fa0204aba4434a16638f3e9f39956ae43b14c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-three-priorities/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "648825bbe75db943bfd7c4ef136188f7d436230bf52b5c649483997fdb04eef2",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-three-priorities/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f82fdea63e59cc69059e2813bd2cf0d626057e395fdb05aa2869f51988958997",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-three-priorities/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "915408084d4f3524a80b71c3a84aee43d95b06bed6d95483832818bc06415121",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-three-priorities/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "91cbb6cfe4140276bb48ede162df7afdc343d66ce5d97843cdf9f7ca4123a1f2",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-three-priorities/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b7eb0c956634ab256f893bc81fcc7331997f96f08b392df5228f4c26bb658ef0",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-three-priorities/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e256468fb60bccf1257972fb43b67f51036d1944d8c4dab111639b43e06e7516",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/world-bank-china-partnership-framework-2026-2031/world-bank-china-three-priorities/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-world-bank-china-three-priorities",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "01e37c977393e3989d86d2750f70f8b45f843d078db636a0b3fc1722e724e2bc",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-05T23:51:03Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record: https://www.worldbank.org/en/news/press-release/2026/07/23/world-bank-group-board-discusses-new-country-partnership-framework-for-china",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/23/world-bank-group-board-discusses-new-country-partnership-framework-for-china"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Container cranes lifting cargo from a ship at the Port of Savannah during evening light.",
       "archivalStatus": "current",
       "attribution": "CBP photo by Jerry Glaser",
@@ -22534,7 +24812,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "d300d7e7e5ca1c3cb27ada598017b1bea428429bd7964cbd88aafe44990f8c42",
+  "packageDigest": "e8e9d7c6ec16f6860421686d405c7a86ca0c7ee36b8fcf077706d834e00c4156",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -23093,6 +25371,37 @@
       "providerActivatedAt": "2026-08-05T22:56:28.079188Z",
       "recordHash": "53c5c5a52add1bac2194d2d8e59efb4af3fb817e1da51650d4aaee0f8346c995",
       "releaseId": "release-pb-20260805t213023z-9fde0addd713-c4a39008d2b4",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://906f4da7.bohonews.pages.dev/",
+      "activationEvidenceHash": "9edcd2c2b2f57735b29c6f64cd0a65f61dd06d14665d1e9ed297ecca6886bed3",
+      "canonicalFirstPublicAt": "2026-08-06T00:28:51.995Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/dot-ai-transportation-infrastructure-initiative/",
+        "https://bohonews.com/articles/gao-state-administered-program-fraud-risks/",
+        "https://bohonews.com/articles/labor-unions-ppp-settlement-385-million/",
+        "https://bohonews.com/articles/library-congress-kpop-august-events/",
+        "https://bohonews.com/articles/ncaa-hockey-cut-resistant-gear-rule/",
+        "https://bohonews.com/articles/world-bank-china-partnership-framework-2026-2031/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-dot-ai-transportation-infrastructure-initiative",
+        "article-gao-state-administered-program-fraud-risks",
+        "article-labor-unions-ppp-settlement-385-million",
+        "article-library-congress-kpop-august-events",
+        "article-ncaa-hockey-cut-resistant-gear-rule",
+        "article-world-bank-china-partnership-framework-2026-2031"
+      ],
+      "previousVerifiedDeploymentReference": "e51c92e8f4ef89898447cc7e0d7aadfb7acfc177f37fd8ddc3d3b501d0eb0cbd",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T00:27:57.363629Z",
+      "recordHash": "6643e3fa4076fc44e0397ffeb7bb93e4e10fd47285fe5d3cba922116b5a26bbe",
+      "releaseId": "release-pb-20260805t235457z-487d936cf34c-62067f230745",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }
