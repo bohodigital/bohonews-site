@@ -1,9 +1,9 @@
 {
-  "articleCount": 105,
+  "articleCount": 111,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T16:00:01Z",
-  "mediaCount": 301,
-  "packageDigest": "5a592c55682936e3f658b44475f7f2b2926d624a63ff1f17a72aa2199a3696bc",
+  "generatedAt": "2026-08-06T16:58:48Z",
+  "mediaCount": 319,
+  "packageDigest": "067cd973c4eb8ecbfb00a9f31a5ce5bb174ff01372bc92f0f9ebcd3e22158ba7",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -843,6 +843,37 @@
       "releaseId": "release-pb-20260806t151855z-8aa0b0e21b8b-f5b18c5cb37b",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://7703112a.bohonews.pages.dev/",
+      "activationEvidenceHash": "c29374f244a302235de7cb4b66700463bf9385b63555d3aae54b63aa24043ed2",
+      "canonicalFirstPublicAt": "2026-08-06T16:58:00.447Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/federal-cyber-workforce-rotation-program-halted-2026/",
+        "https://bohonews.com/articles/infrastructure-awards-pending-canceled-gao-2026/",
+        "https://bohonews.com/articles/louisville-attic-ladder-recall-1-77-million-2026/",
+        "https://bohonews.com/articles/national-book-festival-2026-authors-tickets-schedule/",
+        "https://bohonews.com/articles/special-education-general-classrooms-state-gaps-2026/",
+        "https://bohonews.com/articles/technology-modernization-fund-savings-gao-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-federal-cyber-workforce-rotation-program-halted-2026",
+        "article-infrastructure-awards-pending-canceled-gao-2026",
+        "article-louisville-attic-ladder-recall-1-77-million-2026",
+        "article-national-book-festival-2026-authors-tickets-schedule",
+        "article-special-education-general-classrooms-state-gaps-2026",
+        "article-technology-modernization-fund-savings-gao-2026"
+      ],
+      "previousVerifiedDeploymentReference": "bcf006f479dbcdc6115a85059620b3ac16e18b259e57af44eac85dedeaa16235",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T16:56:26.58828Z",
+      "recordHash": "d37e670cd11ed8e1aa89b859f285200b8af1aab62af61c69a188bc3d106b3653",
+      "releaseId": "release-pb-20260806t162017z-fe27217df153-4d495b46636a",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -867,6 +898,7 @@
     "/articles/fda-orange-b-citrus-red-2-revocations-2026/",
     "/articles/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/",
     "/articles/fda-tempo-digital-health-pilot-dexcom-2026/",
+    "/articles/federal-cyber-workforce-rotation-program-halted-2026/",
     "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
     "/articles/four-advanced-reactors-zero-power-criticality-2026/",
     "/articles/fta-610-million-bus-grants-2026/",
@@ -889,6 +921,7 @@
     "/articles/hopper-ftc-35-million-hidden-fees-settlement-2026/",
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/hurricane-cone-inland-warnings-2026-explainer/",
+    "/articles/infrastructure-awards-pending-canceled-gao-2026/",
     "/articles/interlochen-abuse-investigation-report-findings/",
     "/articles/iowa-emt-first-workforce-pell-program-2026/",
     "/articles/june-2026-us-climate-tornadoes-drought/",
@@ -898,6 +931,7 @@
     "/articles/library-congress-kpop-august-events/",
     "/articles/library-congress-lost-melies-gugusse-film/",
     "/articles/library-of-congress-source-research-gallery-kids/",
+    "/articles/louisville-attic-ladder-recall-1-77-million-2026/",
     "/articles/metro-unemployment-payroll-growth-june-2026/",
     "/articles/nasa-august-12-2026-eclipse-wb57-balloon-science/",
     "/articles/nasa-flight-dynamics-wind-tunnel-opens-2026/",
@@ -906,6 +940,7 @@
     "/articles/nasa-roman-space-telescope-launch-august-30-2026/",
     "/articles/nasa-three-august-2026-spacewalks-iss/",
     "/articles/national-archives-pele-soccer-ball-exhibit-2026/",
+    "/articles/national-book-festival-2026-authors-tickets-schedule/",
     "/articles/national-book-festival-2026-more-than-80-authors/",
     "/articles/national-park-week-2026-fee-free-august-25/",
     "/articles/ncaa-baseball-ball-strike-challenges-bat-sensors-2026/",
@@ -929,6 +964,8 @@
     "/articles/sloosh-dive-sticks-expanded-recall-404000-2026/",
     "/articles/smithsonian-louvre-islamic-art-exhibition-2026/",
     "/articles/smithsonian-stem-education-40-communities-2026/",
+    "/articles/special-education-general-classrooms-state-gaps-2026/",
+    "/articles/technology-modernization-fund-savings-gao-2026/",
     "/articles/trump-section-301-tariffs-60-economies/",
     "/articles/trump-smithsonian-warning-signs-executive-order/",
     "/articles/un-sdg-targets-progress-2026/",

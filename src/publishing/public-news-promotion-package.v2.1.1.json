@@ -3701,6 +3701,159 @@
       "updatedAt": "2026-08-06T15:59:24.719Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A federal program meant to spread cybersecurity expertise across agencies received 634 employee applications but approved eight people to serve rotations, according to a Government Accountability Office review.\n\nThe Office of Personnel Management effectively suspended the Federal Rotational Cyber Workforce Program after limited agency participation. It advertised no positions in 2025, and officials told GAO that the agency did not intend to post positions in 2026 because of resource constraints and shifting priorities.\n\nCongress created the program in 2022 to let federal cyber employees take voluntary six- to 12-month assignments at other agencies. The idea was practical: employees could learn a different system or mission and bring those skills back to their home office.\n\nAs of May 2026, 13 agencies had participated and at least 106 positions had been advertised. The headline application number does not mean 634 qualified people were rejected from otherwise available jobs. OPM found that some applicants were ineligible, including contractors who were not covered by the employee program.\n\nManagement support created another bottleneck. Employees needed their home agencies to release them temporarily, and OPM reported that managers did not always approve participation. A rotation can create a short-term staffing gap even if it produces a more experienced employee later.\n\nOPM documented those problems in an October 2024 lessons-learned report. Its proposed fixes included encouraging agency leaders to support participation and advertising positions with lower qualification thresholds. GAO found that OPM did not take steps to implement the recommendations before the program halted.\n\nThe result is especially notable because the federal government continues to identify shortages of cybersecurity and information-technology professionals. A rotation program cannot by itself create more workers, but it can broaden experience across systems and agencies—if managers make positions available and approve employees to participate.\n\nGAO made no recommendations because the program was already effectively halted. Statutory authority is scheduled to sunset in June 2027, leaving limited time for a restart unless Congress or the executive branch changes course.\n\nThe program’s small number of approvals also shows why applicant counts need context. Demand existed, but eligibility rules, managerial release decisions, matching and program administration reduced that demand to a handful of placements.\n\nAny successor should publish a clearer funnel: applicants, eligible candidates, manager approvals, matches, completed rotations and retention afterward. Without that sequence, agencies cannot tell whether the constraint is worker interest, job design, agency cooperation or the administrative system connecting them.",
+      "bodyBlocks": [
+        {
+          "text": "A federal program meant to spread cybersecurity expertise across agencies received 634 employee applications but approved eight people to serve rotations, according to a Government Accountability Office review.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Office of Personnel Management effectively suspended the Federal Rotational Cyber Workforce Program after limited agency participation. It advertised no positions in 2025, and officials told GAO that the agency did not intend to post positions in 2026 because of resource constraints and shifting priorities.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Congress created the program in 2022 to let federal cyber employees take voluntary six- to 12-month assignments at other agencies. The idea was practical: employees could learn a different system or mission and bring those skills back to their home office.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 634 applicants, at least 106 advertised positions and eight employees approved to serve rotations.",
+          "caption": "Applications far exceeded completed approvals in the federal cyber rotation program.",
+          "credit": "Boho News graphic from GAO-26-108736",
+          "height": 900,
+          "rightsId": "media-gao-cyber-rotation-funnel-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108736",
+          "src": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-funnel-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "As of May 2026, 13 agencies had participated and at least 106 positions had been advertised. The headline application number does not mean 634 qualified people were rejected from otherwise available jobs. OPM found that some applicants were ineligible, including contractors who were not covered by the employee program.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Management support created another bottleneck. Employees needed their home agencies to release them temporarily, and OPM reported that managers did not always approve participation. A rotation can create a short-term staffing gap even if it produces a more experienced employee later.",
+          "type": "paragraph"
+        },
+        {
+          "text": "OPM documented those problems in an October 2024 lessons-learned report. Its proposed fixes included encouraging agency leaders to support participation and advertising positions with lower qualification thresholds. GAO found that OPM did not take steps to implement the recommendations before the program halted.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists eligibility problems, weak managerial support and no new postings in 2025 or 2026.",
+          "caption": "OPM identified participation barriers but effectively halted the program before implementing improvements.",
+          "credit": "Boho News graphic from GAO-26-108736",
+          "height": 900,
+          "rightsId": "media-gao-cyber-rotation-barriers-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108736",
+          "src": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-barriers-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The result is especially notable because the federal government continues to identify shortages of cybersecurity and information-technology professionals. A rotation program cannot by itself create more workers, but it can broaden experience across systems and agencies—if managers make positions available and approve employees to participate.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO made no recommendations because the program was already effectively halted. Statutory authority is scheduled to sunset in June 2027, leaving limited time for a restart unless Congress or the executive branch changes course.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The program’s small number of approvals also shows why applicant counts need context. Demand existed, but eligibility rules, managerial release decisions, matching and program administration reduced that demand to a handful of placements.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Any successor should publish a clearer funnel: applicants, eligible candidates, manager approvals, matches, completed rotations and retention afterward. Without that sequence, agencies cannot tell whether the constraint is worker interest, job design, agency cooperation or the administrative system connecting them.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-cyber-workforce-rotation-program-halted-2026/",
+      "citations": [
+        {
+          "id": "source-gao-cyber-rotations-20260716",
+          "publishedAt": "2026-07-16T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Cyber Workforce: Agencies Did Not Widely Adopt Rotational Program",
+          "url": "https://www.gao.gov/products/gao-26-108736"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The program received 634 employee applications over its life.",
+        "At least 106 positions were advertised and 13 agencies participated as of May 2026.",
+        "Eight employees were approved to serve a rotation.",
+        "OPM advertised no positions in 2025 and said it did not intend to post positions in 2026.",
+        "Rotations were designed as voluntary six- to 12-month reassignments.",
+        "The program is scheduled to sunset in June 2027."
+      ],
+      "corrections": [],
+      "dek": "GAO says the Office of Personnel Management effectively suspended the cross-agency program after limited participation and no new postings in 2025.",
+      "desk": "cyber-workforce",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Office of Personnel Management",
+        "U.S. Congress"
+      ],
+      "eventId": "event-federal-cyber-workforce-rotation-program-halted-2026",
+      "headline": "Federal Cyber Rotation Program Drew 634 Applicants—and Approved Eight",
+      "id": "article-federal-cyber-workforce-rotation-program-halted-2026",
+      "leadImage": {
+        "alt": "Two Air National Guard cybersecurity specialists inspect radio communications equipment.",
+        "caption": "Cyber specialists inspect equipment in Minnesota in 2023. A federal rotation program drew hundreds of applicants but approved eight employees to serve.",
+        "credit": "Tylin Rust/U.S. Air National Guard",
+        "height": 900,
+        "rightsId": "media-minnesota-air-guard-cyber-2023",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/minnesota-air-guard-cyber-2023/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T16:58:00.447Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t162017z-fe27217df153-4d495b46636a",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says 634 employees applied for federal cyber rotations, but eight were approved and OPM effectively suspended the program.",
+        "index": true,
+        "title": "Federal cyber workforce rotation program approved eight"
+      },
+      "section": "technology",
+      "slug": "federal-cyber-workforce-rotation-program-halted-2026",
+      "social": {
+        "description": "GAO says the Office of Personnel Management effectively suspended the cross-agency program after limited participation and no new postings in 2025.",
+        "image": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/minnesota-air-guard-cyber-2023/open-graph.webp",
+        "title": "A federal cyber rotation program drew 634 applicants. Eight were approved."
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Cybersecurity workforce",
+        "Federal employees",
+        "Workforce development",
+        "Office of Personnel Management",
+        "IT staffing",
+        "Rotational assignments"
+      ],
+      "uncertainty": [
+        "Application totals include people later found ineligible, so they do not measure the number of qualified candidates.",
+        "GAO describes the program as effectively suspended; formal statutory authority remains until its scheduled sunset."
+      ],
+      "updatedAt": "2026-08-06T16:58:00.447Z"
+    },
+    {
       "articleType": "investigation",
       "authors": [
         "Boho News Investigations Desk"
@@ -8394,6 +8547,161 @@
       "updatedAt": "2026-08-04T21:33:38.163Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "More than 2,500 infrastructure and energy awards worth $33.6 billion were still awaiting decisions after federal reviews ordered in 2025, according to the Government Accountability Office.\n\nFour agencies approved most of the awards they reviewed: about 9,500 worth $128 billion. They canceled roughly 800 awards worth $17.8 billion, while the remaining undecided awards stayed in administrative limbo as of dates that varied by agency.\n\nThe review covers the Environmental Protection Agency, Department of Transportation, Department of the Interior and National Telecommunications and Information Administration. Together, those agencies received $629 billion in budget authority from the Infrastructure Investment and Jobs Act and Inflation Reduction Act during fiscal years 2022 through 2025.\n\nBeginning in January 2025, executive orders directed agencies to pause and review funding for alignment with administration priorities. Agencies could approve, modify or cancel awards, and their approaches to continuing obligations and disbursements varied.\n\nGAO uses “canceled” as a broad category. It includes awards terminated or rescinded by an agency, withdrawn before completion or discontinued by a recipient. The category therefore should not be read as 800 identical federal cancellations or as proof that every dollar had already been spent.\n\nPending also does not necessarily mean a project stopped entirely. Award status, obligation and disbursement are different stages. An agency can have budget authority, obligate funds through an award and disburse money later as work proceeds.\n\nThe report describes a large majority of funding as obligated across the selected agencies, but it found that review activity changed the timing and certainty facing recipients. Grant recipients told GAO that distribution delays affected their ability to implement projects.\n\nThe figures have important limits. Agency reporting dates were not uniform. EPA and NTIA did not provide all requested data. The Department of Energy and Department of Agriculture—both major recipients under the laws—will be addressed separately.\n\nThat means the $33.6 billion pending total is a defensible count for the selected agencies and reported dates, not a complete current measure for every infrastructure dollar across government.\n\nFor communities and contractors, the next useful update is project-level resolution: which awards move forward, which are modified, which cancellations survive legal or administrative challenges and how much previously obligated money is ultimately disbursed. Aggregate approval counts show scale; final award records will show what is actually built.",
+      "bodyBlocks": [
+        {
+          "text": "More than 2,500 infrastructure and energy awards worth $33.6 billion were still awaiting decisions after federal reviews ordered in 2025, according to the Government Accountability Office.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Four agencies approved most of the awards they reviewed: about 9,500 worth $128 billion. They canceled roughly 800 awards worth $17.8 billion, while the remaining undecided awards stayed in administrative limbo as of dates that varied by agency.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The review covers the Environmental Protection Agency, Department of Transportation, Department of the Interior and National Telecommunications and Information Administration. Together, those agencies received $629 billion in budget authority from the Infrastructure Investment and Jobs Act and Inflation Reduction Act during fiscal years 2022 through 2025.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows about 9,500 awards worth $128 billion approved, about 800 worth $17.8 billion canceled and more than 2,500 worth $33.6 billion pending.",
+          "caption": "Selected agencies approved most reviewed awards, while billions remained canceled or undecided.",
+          "credit": "Boho News graphic from GAO-26-108434",
+          "height": 900,
+          "rightsId": "media-gao-infrastructure-award-status-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108434",
+          "src": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-award-status-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Beginning in January 2025, executive orders directed agencies to pause and review funding for alignment with administration priorities. Agencies could approve, modify or cancel awards, and their approaches to continuing obligations and disbursements varied.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO uses “canceled” as a broad category. It includes awards terminated or rescinded by an agency, withdrawn before completion or discontinued by a recipient. The category therefore should not be read as 800 identical federal cancellations or as proof that every dollar had already been spent.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Pending also does not necessarily mean a project stopped entirely. Award status, obligation and disbursement are different stages. An agency can have budget authority, obligate funds through an award and disburse money later as work proceeds.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic defines the $629 billion review scope across EPA, Transportation, Interior and NTIA.",
+          "caption": "GAO’s report covers four agencies and notes that Energy and Agriculture will be reported separately.",
+          "credit": "Boho News graphic from GAO-26-108434",
+          "height": 900,
+          "rightsId": "media-gao-infrastructure-review-scope-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108434",
+          "src": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-review-scope-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The report describes a large majority of funding as obligated across the selected agencies, but it found that review activity changed the timing and certainty facing recipients. Grant recipients told GAO that distribution delays affected their ability to implement projects.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The figures have important limits. Agency reporting dates were not uniform. EPA and NTIA did not provide all requested data. The Department of Energy and Department of Agriculture—both major recipients under the laws—will be addressed separately.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That means the $33.6 billion pending total is a defensible count for the selected agencies and reported dates, not a complete current measure for every infrastructure dollar across government.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For communities and contractors, the next useful update is project-level resolution: which awards move forward, which are modified, which cancellations survive legal or administrative challenges and how much previously obligated money is ultimately disbursed. Aggregate approval counts show scale; final award records will show what is actually built.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/infrastructure-awards-pending-canceled-gao-2026/",
+      "citations": [
+        {
+          "id": "source-gao-infrastructure-reviews-20260722",
+          "publishedAt": "2026-07-22T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Funding Status: Infrastructure Investment and Jobs Act and Inflation Reduction Act",
+          "url": "https://www.gao.gov/products/gao-26-108434"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "More than 2,500 selected infrastructure awards worth $33.6 billion remained pending at varying reporting dates.",
+        "Selected agencies approved about 9,500 awards worth $128 billion.",
+        "Agencies canceled about 800 awards worth $17.8 billion.",
+        "The report covers EPA, Transportation, Interior and NTIA.",
+        "The four agencies had $629 billion in budget authority from the two laws during fiscal years 2022 through 2025.",
+        "Canceled includes terminated, rescinded, withdrawn or recipient-discontinued awards."
+      ],
+      "corrections": [],
+      "dek": "GAO says four agencies approved about 9,500 awards after review, canceled roughly 800 worth $17.8 billion and left more than 2,500 pending.",
+      "desk": "infrastructure-funding",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Department of Transportation",
+        "Environmental Protection Agency",
+        "Department of the Interior",
+        "National Telecommunications and Information Administration"
+      ],
+      "eventId": "event-infrastructure-awards-pending-canceled-gao-2026",
+      "headline": "$33.6 Billion in Infrastructure Awards Still Await Decisions",
+      "id": "article-infrastructure-awards-pending-canceled-gao-2026",
+      "leadImage": {
+        "alt": "Construction equipment and workers build a bridge over a roadway.",
+        "caption": "Crews build a bridge at Fort McCoy, Wisconsin, in 2021. GAO tracked the status of infrastructure and energy awards reviewed after January 2025.",
+        "credit": "Scott T. Sturkol/U.S. Army",
+        "height": 900,
+        "rightsId": "media-fort-mccoy-bridge-construction-2021",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/fort-mccoy-bridge-construction-2021/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T16:58:00.447Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t162017z-fe27217df153-4d495b46636a",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO found more than 2,500 infrastructure awards worth $33.6 billion pending and about 800 worth $17.8 billion canceled.",
+        "index": true,
+        "title": "$33.6 billion in infrastructure awards awaiting decisions"
+      },
+      "section": "us",
+      "slug": "infrastructure-awards-pending-canceled-gao-2026",
+      "social": {
+        "description": "GAO says four agencies approved about 9,500 awards after review, canceled roughly 800 worth $17.8 billion and left more than 2,500 pending.",
+        "image": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/fort-mccoy-bridge-construction-2021/open-graph.webp",
+        "title": "Thousands of infrastructure awards remain undecided after federal reviews"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Infrastructure funding",
+        "Federal grants",
+        "Transportation",
+        "Broadband",
+        "Environmental protection",
+        "Energy projects"
+      ],
+      "uncertainty": [
+        "Agency status dates varied, so the figures are not a single real-time snapshot.",
+        "EPA and NTIA did not provide all requested data, and Energy and Agriculture were outside this report."
+      ],
+      "updatedAt": "2026-08-06T16:58:00.447Z"
+    },
+    {
       "articleType": "investigation",
       "authors": [
         "Boho News Investigations"
@@ -10922,6 +11230,162 @@
       "updatedAt": "2026-08-04T21:33:38.163Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Louisville Ladder is recalling about 1.77 million attic stairway ladders in the United States because spreader bolts can break and cause a user to fall, the Consumer Product Safety Commission announced Thursday.\n\nThe company has received 11 reports of bolts breaking, including one injury report involving the neck, head and back. About 13,054 additional units were sold in Canada.\n\nThe recall covers specified Louisville, Featherlite, Lite and Century brand attic stairway ladders equipped with gas struts. It does not mean every ladder sold under those brands is affected.\n\nOwners should stop using a covered ladder immediately and check the model number printed on the inside of the attic door. CPSC directs consumers to the recall registration site, Atticstairwayrecall.expertinquiry.com, with that number available.\n\nLouisville Ladder will provide a free repair kit containing two replacement quarter-inch spreader bolts, washers, lock nuts and installation instructions. Consumers should not resume use until the specified repair is installed.\n\nThe affected products were sold at The Home Depot, Lowe’s, Do It Best, Orgill and other retailers nationwide, and online at Amazon, from November 2012 through July 2026. Prices ranged from $170 to $600.\n\nThe product type matters because an attic stairway combines a folding ladder with hardware that supports opening, closing and weight-bearing. A failed spreader bolt can change the ladder’s geometry or support while someone is climbing.\n\nThe count of 11 reports does not establish a failure rate for the entire population. Consumer incident reports can be incomplete, and a large recall can be ordered when a component defect creates a meaningful fall hazard even if relatively few failures have been reported.\n\nConsumers should rely on the model lookup rather than appearance alone. The official recall notice contains the affected model list, identification photographs and company contact information.\n\nCPSC identifies the action as recall number 26-661. Anyone with an affected unit should keep it out of service, request the no-cost parts and follow the manufacturer’s installation instructions before using the ladder again.",
+      "bodyBlocks": [
+        {
+          "text": "Louisville Ladder is recalling about 1.77 million attic stairway ladders in the United States because spreader bolts can break and cause a user to fall, the Consumer Product Safety Commission announced Thursday.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The company has received 11 reports of bolts breaking, including one injury report involving the neck, head and back. About 13,054 additional units were sold in Canada.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The recall covers specified Louisville, Featherlite, Lite and Century brand attic stairway ladders equipped with gas struts. It does not mean every ladder sold under those brands is affected.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists 1.77 million U.S. units, 11 reported bolt failures and a free replacement-bolt kit.",
+          "caption": "The recall covers specified Louisville attic-stairway ladders that use gas struts.",
+          "credit": "Boho News graphic from CPSC recall 26-661",
+          "height": 900,
+          "rightsId": "media-cpsc-ladder-recall-numbers-2026",
+          "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Louisville-Ladder-Recalls-Over-One-Million-Attic-Stairway-Ladders-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard",
+          "src": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-numbers-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Owners should stop using a covered ladder immediately and check the model number printed on the inside of the attic door. CPSC directs consumers to the recall registration site, Atticstairwayrecall.expertinquiry.com, with that number available.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Louisville Ladder will provide a free repair kit containing two replacement quarter-inch spreader bolts, washers, lock nuts and installation instructions. Consumers should not resume use until the specified repair is installed.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The affected products were sold at The Home Depot, Lowe’s, Do It Best, Orgill and other retailers nationwide, and online at Amazon, from November 2012 through July 2026. Prices ranged from $170 to $600.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic tells owners to stop use, find the model number inside the attic door and register for a free repair kit.",
+          "caption": "CPSC says consumers should stop using affected ladders until the repair is installed.",
+          "credit": "Boho News graphic from CPSC recall 26-661",
+          "height": 900,
+          "rightsId": "media-cpsc-ladder-recall-actions-2026",
+          "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Louisville-Ladder-Recalls-Over-One-Million-Attic-Stairway-Ladders-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard",
+          "src": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-actions-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The product type matters because an attic stairway combines a folding ladder with hardware that supports opening, closing and weight-bearing. A failed spreader bolt can change the ladder’s geometry or support while someone is climbing.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The count of 11 reports does not establish a failure rate for the entire population. Consumer incident reports can be incomplete, and a large recall can be ordered when a component defect creates a meaningful fall hazard even if relatively few failures have been reported.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Consumers should rely on the model lookup rather than appearance alone. The official recall notice contains the affected model list, identification photographs and company contact information.",
+          "type": "paragraph"
+        },
+        {
+          "text": "CPSC identifies the action as recall number 26-661. Anyone with an affected unit should keep it out of service, request the no-cost parts and follow the manufacturer’s installation instructions before using the ladder again.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/louisville-attic-ladder-recall-1-77-million-2026/",
+      "citations": [
+        {
+          "id": "source-cpsc-louisville-ladder-20260806",
+          "publishedAt": "2026-08-06T12:00:00Z",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "title": "Louisville Ladder Recalls Over One Million Attic Stairway Ladders",
+          "url": "https://www.cpsc.gov/Recalls/2026/Louisville-Ladder-Recalls-Over-One-Million-Attic-Stairway-Ladders-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "About 1.77 million ladders were recalled in the United States and 13,054 in Canada.",
+        "The recall covers specified Louisville, Featherlite, Lite and Century attic stairway ladders with gas struts.",
+        "The company received 11 reports of a bolt breaking and one injury report involving the neck, head and back.",
+        "Affected units were sold from November 2012 through July 2026 for $170 to $600.",
+        "Owners are instructed to stop use and register for a free repair kit.",
+        "The kit contains two replacement quarter-inch spreader bolts, washers, lock nuts and instructions."
+      ],
+      "corrections": [],
+      "dek": "CPSC says owners should stop using specified gas-strut models and register for a free kit after 11 bolt failures and one reported injury.",
+      "desk": "product-safety",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Consumer Product Safety Commission",
+        "Louisville Ladder Group",
+        "The Home Depot",
+        "Lowe’s",
+        "Amazon"
+      ],
+      "eventId": "event-louisville-attic-ladder-recall-1-77-million-2026",
+      "headline": "1.77 Million Louisville Attic Ladders Recalled Over Broken Bolts",
+      "id": "article-louisville-attic-ladder-recall-1-77-million-2026",
+      "leadImage": {
+        "alt": "A firefighter climbs a tall ladder during a training exercise.",
+        "caption": "A New Jersey Air National Guard firefighter practices ladder operations in 2016. The image illustrates ladder safety and does not show the recalled attic-stairway product.",
+        "credit": "Andrew J. Merlock/U.S. Air National Guard",
+        "height": 900,
+        "rightsId": "media-air-guard-ladder-training-2016",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/air-guard-ladder-training-2016/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Canada"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T16:58:00.447Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t162017z-fe27217df153-4d495b46636a",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "CPSC recalled 1.77 million Louisville attic stairway ladders after 11 bolt failures; owners should stop use and get a free repair kit.",
+        "index": true,
+        "title": "Louisville attic ladder recall covers 1.77 million units"
+      },
+      "section": "business",
+      "slug": "louisville-attic-ladder-recall-1-77-million-2026",
+      "social": {
+        "description": "CPSC says owners should stop using specified gas-strut models and register for a free kit after 11 bolt failures and one reported injury.",
+        "image": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/air-guard-ladder-training-2016/open-graph.webp",
+        "title": "Check your attic ladder: 1.77 million units are under recall"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Product recalls",
+        "Ladder safety",
+        "Consumer products",
+        "Home improvement",
+        "Fall hazards",
+        "CPSC"
+      ],
+      "uncertainty": [
+        "The recall does not cover every ladder sold under the listed brands; owners must verify the model number and gas-strut design.",
+        "Incident reports do not establish the rate of failure across all recalled units."
+      ],
+      "updatedAt": "2026-08-06T16:58:00.447Z"
+    },
+    {
       "articleType": "data-report",
       "authors": [
         "Boho News Staff"
@@ -12311,6 +12775,163 @@
         "The display is temporary and scheduled to close August 19, 2026."
       ],
       "updatedAt": "2026-08-06T04:03:01.647Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The 2026 Library of Congress National Book Festival will bring more than 80 authors and speakers to Washington on Saturday, Aug. 22, with free admission, a first-time entry-ticket requirement and expanded programming beyond books.\n\nThe festival runs from 9 a.m. to 8 p.m. at the Walter E. Washington Convention Center. Doors open at 8:30 a.m. Tickets are free and required for entry, but individual programs inside the festival do not require separate reservations.\n\nThe announced lineup spans fiction, history, memoir, poetry, young-adult and children’s books. Headliners include Cynthia Erivo, Ann Patchett, Martin Scorsese, Kate McKinnon, Tia Williams, historian Annette Gordon-Reed and U.S. Poet Laureate Arthur Sze.\n\nThe Library is using the nation’s 250th anniversary to widen the program. Alongside author conversations, the event will feature film, music, recorded sound, veterans history and American folklife drawn from Library collections and year-round work.\n\nFamily programming includes storytelling, hands-on activities connecting science and literature, workshops and a Roadmap to Reading area that highlights literary activity around the country.\n\nThe Main Stage will be livestreamed through the festival website. The Library says videos of presentations will be posted on its website and YouTube channel shortly after the event, giving remote visitors broader access than the live stream alone.\n\nC-SPAN’s Book TV is scheduled to stream selected sessions and interview writers. Other announced media partners include WAMU, NPR and The Washington Post.\n\nVisitors should distinguish a festival ticket from an author-session seat. The ticket gets a person into the convention center; it does not guarantee space in every room. Popular conversations can fill, so arrival time and movement between stages matter.\n\nThe Library’s official event page is the authoritative place for updates, accessibility information and the final schedule. Organizers note that the lineup is subject to change, a normal condition for an event with dozens of traveling participants.\n\nThis year’s format turns the festival into both an in-person service event and a public archive. Readers can attend a full day in Washington, watch selected sessions live or return later to recordings—while the free ticket system gives organizers a clearer picture of expected attendance.",
+      "bodyBlocks": [
+        {
+          "text": "The 2026 Library of Congress National Book Festival will bring more than 80 authors and speakers to Washington on Saturday, Aug. 22, with free admission, a first-time entry-ticket requirement and expanded programming beyond books.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The festival runs from 9 a.m. to 8 p.m. at the Walter E. Washington Convention Center. Doors open at 8:30 a.m. Tickets are free and required for entry, but individual programs inside the festival do not require separate reservations.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The announced lineup spans fiction, history, memoir, poetry, young-adult and children’s books. Headliners include Cynthia Erivo, Ann Patchett, Martin Scorsese, Kate McKinnon, Tia Williams, historian Annette Gordon-Reed and U.S. Poet Laureate Arthur Sze.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists the August 22 date, Washington convention center, 9 a.m. to 8 p.m. hours and free ticket requirement.",
+          "caption": "The 2026 National Book Festival is free, but entry requires a reserved ticket for the first time.",
+          "credit": "Boho News graphic from Library of Congress",
+          "height": 900,
+          "rightsId": "media-loc-book-festival-logistics-2026",
+          "sourceUrl": "https://www.loc.gov/events/2026-national-book-festival/",
+          "src": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-logistics-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The Library is using the nation’s 250th anniversary to widen the program. Alongside author conversations, the event will feature film, music, recorded sound, veterans history and American folklife drawn from Library collections and year-round work.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Family programming includes storytelling, hands-on activities connecting science and literature, workshops and a Roadmap to Reading area that highlights literary activity around the country.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Main Stage will be livestreamed through the festival website. The Library says videos of presentations will be posted on its website and YouTube channel shortly after the event, giving remote visitors broader access than the live stream alone.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic highlights more than 80 authors, expanded film and music programming and livestreamed or archived sessions.",
+          "caption": "The Library is expanding the festival beyond author talks into more of its collections and programs.",
+          "credit": "Boho News graphic from Library of Congress",
+          "height": 900,
+          "rightsId": "media-loc-book-festival-program-2026",
+          "sourceUrl": "https://www.loc.gov/events/2026-national-book-festival/",
+          "src": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-program-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "C-SPAN’s Book TV is scheduled to stream selected sessions and interview writers. Other announced media partners include WAMU, NPR and The Washington Post.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Visitors should distinguish a festival ticket from an author-session seat. The ticket gets a person into the convention center; it does not guarantee space in every room. Popular conversations can fill, so arrival time and movement between stages matter.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Library’s official event page is the authoritative place for updates, accessibility information and the final schedule. Organizers note that the lineup is subject to change, a normal condition for an event with dozens of traveling participants.",
+          "type": "paragraph"
+        },
+        {
+          "text": "This year’s format turns the festival into both an in-person service event and a public archive. Readers can attend a full day in Washington, watch selected sessions live or return later to recordings—while the free ticket system gives organizers a clearer picture of expected attendance.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/national-book-festival-2026-authors-tickets-schedule/",
+      "citations": [
+        {
+          "id": "source-loc-book-festival-2026",
+          "publishedAt": "2026-07-07T12:00:00Z",
+          "publisher": "Library of Congress",
+          "title": "2026 National Book Festival",
+          "url": "https://www.loc.gov/events/2026-national-book-festival/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The festival is scheduled for Saturday, August 22, 2026, from 9 a.m. to 8 p.m.",
+        "Doors open at 8:30 a.m. at the Walter E. Washington Convention Center.",
+        "The event is free, but reserved tickets are required for entry for the first time.",
+        "More than 80 authors and speakers are scheduled.",
+        "The Main Stage will be livestreamed and videos will be posted after the festival.",
+        "The announced author lineup is subject to change."
+      ],
+      "corrections": [],
+      "dek": "The free Aug. 22 event in Washington features more than 80 authors, expanded film and music programs and a first-time ticket requirement for entry.",
+      "desk": "literary-festivals",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Library of Congress",
+        "Walter E. Washington Convention Center",
+        "Cynthia Erivo",
+        "Ann Patchett",
+        "Martin Scorsese",
+        "Arthur Sze"
+      ],
+      "eventId": "event-national-book-festival-2026-authors-tickets-schedule",
+      "headline": "2026 National Book Festival: Authors, Tickets and Schedule",
+      "id": "article-national-book-festival-2026-authors-tickets-schedule",
+      "leadImage": {
+        "alt": "Two people smile and discuss books arranged on a table at a library event.",
+        "caption": "Two readers discuss books at a Navy library event in Maryland in 2025. The image illustrates a literary gathering and is not a photograph of the 2026 National Book Festival.",
+        "credit": "Travis Troller/U.S. Navy",
+        "height": 900,
+        "rightsId": "media-navy-book-event-2025",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/navy-book-event-2025/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington, D.C.",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T16:58:00.447Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t162017z-fe27217df153-4d495b46636a",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The free 2026 National Book Festival runs Aug. 22 in Washington with 80-plus authors, free entry tickets and online video access.",
+        "index": true,
+        "title": "2026 National Book Festival authors, tickets and schedule"
+      },
+      "section": "culture",
+      "slug": "national-book-festival-2026-authors-tickets-schedule",
+      "social": {
+        "description": "The free Aug. 22 event in Washington features more than 80 authors, expanded film and music programs and a first-time ticket requirement for entry.",
+        "image": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/navy-book-event-2025/open-graph.webp",
+        "title": "Plan the 2026 National Book Festival: tickets, hours and author lineup"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "National Book Festival",
+        "Books",
+        "Authors",
+        "Library of Congress",
+        "Literary events",
+        "Washington culture"
+      ],
+      "uncertainty": [
+        "The Library says the author lineup and program schedule are subject to change.",
+        "Livestream availability varies by stage, although recordings of presentations are planned after the festival."
+      ],
+      "updatedAt": "2026-08-06T16:58:00.447Z"
     },
     {
       "articleType": "news-report",
@@ -16099,6 +16720,315 @@
         "The announcement does not provide school-by-school outcome targets or an independent evaluation design."
       ],
       "updatedAt": "2026-08-06T08:17:57.571Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The number of students with disabilities spending at least 40% of their school day in general-education classrooms increased 25% nationally from 2012–13 through 2023–24, the Government Accountability Office found.\n\nThat growth outpaced the 21% increase in the total number of students with disabilities over the same period. The largest increase came among students spending at least 80% of their day in general classes.\n\nFederal law requires students with disabilities to be educated alongside peers without disabilities to the maximum extent appropriate. That “least restrictive environment” standard is an individualized decision, not a national quota for classroom placement.\n\nNational movement toward general classrooms was widespread but not uniform. The share of students with disabilities spending at least 40% of the day there increased in 42 states and the District of Columbia. New Mexico lacked comparable 2023–24 data.\n\nThe District of Columbia recorded the largest increase, 7.7 percentage points. North Dakota moved in the opposite direction, with a 3.2-point decline. Within-state differences among districts were also substantial.\n\nGAO found several district characteristics associated with higher placement rates in 2022–23, including not operating a standalone special-education school and having lower per-pupil revenue. Those statistical associations do not establish that one characteristic caused another.\n\nOfficials across 12 districts and eight schools in Connecticut, Illinois and Washington described resources, family participation and school culture as factors in placement decisions. Staffing, facilities and the capacity to adapt instruction can affect whether students are supported effectively in a shared classroom.\n\nBelonging required more than a seat in the room. School officials described practices such as adjusting schedules so students could attend classes aligned with individualized goals, modifying curriculum, intentionally mixing student groups and creating inclusive extracurricular activities.\n\nThe report’s outcome measures need care. Placement data show where students spend time; they do not prove the quality of teaching, whether services in an individualized education program were delivered or whether a particular student learned more. GAO’s small opt-in questionnaire was not nationally generalizable.\n\nAbout 7 million children ages 6 through 21 received special education and related services under Part B of the Individuals with Disabilities Education Act in 2023–24. The next policy question is not simply whether placement rates keep rising, but whether schools have enough trained staff, accessible programs and usable evidence to make inclusion effective for each student.",
+      "bodyBlocks": [
+        {
+          "text": "The number of students with disabilities spending at least 40% of their school day in general-education classrooms increased 25% nationally from 2012–13 through 2023–24, the Government Accountability Office found.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That growth outpaced the 21% increase in the total number of students with disabilities over the same period. The largest increase came among students spending at least 80% of their day in general classes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Federal law requires students with disabilities to be educated alongside peers without disabilities to the maximum extent appropriate. That “least restrictive environment” standard is an individualized decision, not a national quota for classroom placement.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows a 25 percent increase in students spending at least 40 percent of the day in general education, compared with 21 percent growth in total students with disabilities.",
+          "caption": "The number of students with disabilities spending much of the day in general classes grew faster than total special-education enrollment.",
+          "credit": "Boho News graphic from GAO-26-107814",
+          "height": 900,
+          "rightsId": "media-gao-special-education-trend-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107814",
+          "src": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-trend-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "National movement toward general classrooms was widespread but not uniform. The share of students with disabilities spending at least 40% of the day there increased in 42 states and the District of Columbia. New Mexico lacked comparable 2023–24 data.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The District of Columbia recorded the largest increase, 7.7 percentage points. North Dakota moved in the opposite direction, with a 3.2-point decline. Within-state differences among districts were also substantial.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO found several district characteristics associated with higher placement rates in 2022–23, including not operating a standalone special-education school and having lower per-pupil revenue. Those statistical associations do not establish that one characteristic caused another.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows the District of Columbia up 7.7 percentage points, North Dakota down 3.2 points and about 7 million students receiving IDEA Part B services.",
+          "caption": "National growth in general-education placement masked large differences among states and districts.",
+          "credit": "Boho News graphic from GAO-26-107814",
+          "height": 900,
+          "rightsId": "media-gao-special-education-state-variation-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107814",
+          "src": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-state-variation-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Officials across 12 districts and eight schools in Connecticut, Illinois and Washington described resources, family participation and school culture as factors in placement decisions. Staffing, facilities and the capacity to adapt instruction can affect whether students are supported effectively in a shared classroom.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Belonging required more than a seat in the room. School officials described practices such as adjusting schedules so students could attend classes aligned with individualized goals, modifying curriculum, intentionally mixing student groups and creating inclusive extracurricular activities.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The report’s outcome measures need care. Placement data show where students spend time; they do not prove the quality of teaching, whether services in an individualized education program were delivered or whether a particular student learned more. GAO’s small opt-in questionnaire was not nationally generalizable.",
+          "type": "paragraph"
+        },
+        {
+          "text": "About 7 million children ages 6 through 21 received special education and related services under Part B of the Individuals with Disabilities Education Act in 2023–24. The next policy question is not simply whether placement rates keep rising, but whether schools have enough trained staff, accessible programs and usable evidence to make inclusion effective for each student.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/special-education-general-classrooms-state-gaps-2026/",
+      "citations": [
+        {
+          "id": "source-gao-special-education-20260702",
+          "publishedAt": "2026-07-02T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Special Education: More Students with Disabilities Were Educated in General Education Settings, but State Trends Varied Widely",
+          "url": "https://www.gao.gov/products/gao-26-107814"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The number of students with disabilities spending at least 40 percent of the day in general education grew 25 percent from 2012–13 to 2023–24.",
+        "The total number of students with disabilities grew 21 percent over the same period.",
+        "The share spending much of the day in general education increased in 42 states and the District of Columbia.",
+        "The District of Columbia increased 7.7 percentage points, while North Dakota decreased 3.2 points.",
+        "About 7 million children ages 6 through 21 received IDEA Part B services in 2023–24.",
+        "GAO visited 12 districts and eight schools in three states."
+      ],
+      "corrections": [],
+      "dek": "The national count rose 25% over 11 school years, but GAO found wide state and district differences in how much time students spend with peers without disabilities.",
+      "desk": "special-education",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Department of Education",
+        "Individuals with Disabilities Education Act"
+      ],
+      "eventId": "event-special-education-general-classrooms-state-gaps-2026",
+      "headline": "More Students With Disabilities Learn in General Classrooms",
+      "id": "article-special-education-general-classrooms-state-gaps-2026",
+      "leadImage": {
+        "alt": "Students sit at desks and work together in a classroom.",
+        "caption": "Students work in a classroom in an archival USAID photograph. GAO found that more U.S. students with disabilities spent much of their day in general-education settings, with wide state variation.",
+        "credit": "USAID Historical Archive",
+        "height": 900,
+        "rightsId": "media-usaid-students-classroom-2015",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/usaid-students-classroom-2015/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "District of Columbia",
+        "North Dakota"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T16:58:00.447Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t162017z-fe27217df153-4d495b46636a",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO found 25% growth in students with disabilities spending much of the day in general classrooms, with wide variation among states.",
+        "index": true,
+        "title": "Students with disabilities in general classrooms increased"
+      },
+      "section": "us",
+      "slug": "special-education-general-classrooms-state-gaps-2026",
+      "social": {
+        "description": "The national count rose 25% over 11 school years, but GAO found wide state and district differences in how much time students spend with peers without disabilities.",
+        "image": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/usaid-students-classroom-2015/open-graph.webp",
+        "title": "More students with disabilities spend much of the day in general classrooms"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Special education",
+        "Inclusive classrooms",
+        "Students with disabilities",
+        "IDEA",
+        "Public schools",
+        "Education equity"
+      ],
+      "uncertainty": [
+        "Placement percentages do not by themselves measure instructional quality, student outcomes or whether an individual placement is appropriate.",
+        "GAO’s school visits and opt-in student questionnaire were not designed to be nationally representative."
+      ],
+      "updatedAt": "2026-08-06T16:58:00.447Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The federal Technology Modernization Fund had invested about $1.03 billion in 68 unclassified information-technology projects by June 2025, while 11 projects had collectively documented about $13.5 million in realized savings, according to a new Government Accountability Office review.\n\nThe gap is substantial, but it is not a complete verdict on the program. Twenty-four projects expected about $1.06 billion in combined savings, and projects scheduled 98.3% of that amount for fiscal year 2027 or later. The watchdog’s latest data therefore compare money already invested with benefits that are mostly still forecasts.\n\nCongress created the fund to help agencies replace or improve aging systems. Projects can receive money up front and repay the fund over time, allowing future modernization work to reuse some of the capital. The program can also support cybersecurity, service delivery and reliability improvements that do not appear as direct cost savings.\n\nThat distinction shows up in the portfolio. Thirty-seven projects did not expect any cost savings, GAO said, but were intended to provide other value such as reducing security risks. Seven other projects had been canceled by June 2025 and no longer expected savings.\n\nThe clearest accountability test comes from completed work. Six finished projects expected cost savings. Two met or were on track to meet their targets within the 10% variance threshold used by the Office of Management and Budget, while four did not meet or were not on track to meet them.\n\nAgency officials attributed misses to changes such as removing planned functionality and paying more than expected to migrate systems. Those adjustments reduced actual savings by tens of millions of dollars compared with estimates, GAO reported.\n\nProcurement was generally competitive. Of 177 contract actions reviewed across 32 projects, 154—87%—used competitive procedures. Those actions represented about $713.1 million, or 96% of the funding awarded in the reviewed contracts. Agencies documented authorized exceptions for the remaining actions.\n\nThe numbers support two conclusions at once. Documented savings remain small compared with the capital invested, and most of the portfolio has not yet reached the period when managers predicted the largest returns. Treating all future savings as guaranteed would overstate performance; treating the current total as the final return would understate the program’s timeline.\n\nThe next meaningful audit point will come after fiscal 2027, when projected savings should begin concentrating. At that stage, completed projects can be judged against their original estimates, revised scope, repayment schedules and nonfinancial outcomes such as reduced security exposure.\n\nFor now, the fund’s public scorecard is dominated by promises. The accountability question is whether agencies preserve consistent baselines and publish enough evidence to show which savings came from modernization, which projections changed and which projects delivered value in forms that cannot be counted as dollars.",
+      "bodyBlocks": [
+        {
+          "text": "The federal Technology Modernization Fund had invested about $1.03 billion in 68 unclassified information-technology projects by June 2025, while 11 projects had collectively documented about $13.5 million in realized savings, according to a new Government Accountability Office review.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The gap is substantial, but it is not a complete verdict on the program. Twenty-four projects expected about $1.06 billion in combined savings, and projects scheduled 98.3% of that amount for fiscal year 2027 or later. The watchdog’s latest data therefore compare money already invested with benefits that are mostly still forecasts.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Congress created the fund to help agencies replace or improve aging systems. Projects can receive money up front and repay the fund over time, allowing future modernization work to reuse some of the capital. The program can also support cybersecurity, service delivery and reliability improvements that do not appear as direct cost savings.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic compares $1.03 billion invested across 68 projects, $1.06 billion in projected savings from 24 projects and $13.5 million realized by 11 projects.",
+          "caption": "GAO says most Technology Modernization Fund savings remain projected rather than realized.",
+          "credit": "Boho News graphic from GAO-26-107737",
+          "height": 900,
+          "rightsId": "media-gao-tmf-savings-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107737",
+          "src": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-savings-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "That distinction shows up in the portfolio. Thirty-seven projects did not expect any cost savings, GAO said, but were intended to provide other value such as reducing security risks. Seven other projects had been canceled by June 2025 and no longer expected savings.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The clearest accountability test comes from completed work. Six finished projects expected cost savings. Two met or were on track to meet their targets within the 10% variance threshold used by the Office of Management and Budget, while four did not meet or were not on track to meet them.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Agency officials attributed misses to changes such as removing planned functionality and paying more than expected to migrate systems. Those adjustments reduced actual savings by tens of millions of dollars compared with estimates, GAO reported.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic explains that 98.3 percent of projected savings are expected in fiscal 2027 or later and that four of six completed projects missed or were missing targets.",
+          "caption": "Project timing and nonfinancial benefits complicate a direct comparison of investments with savings to date.",
+          "credit": "Boho News graphic from GAO-26-107737",
+          "height": 900,
+          "rightsId": "media-gao-tmf-timing-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107737",
+          "src": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-timing-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Procurement was generally competitive. Of 177 contract actions reviewed across 32 projects, 154—87%—used competitive procedures. Those actions represented about $713.1 million, or 96% of the funding awarded in the reviewed contracts. Agencies documented authorized exceptions for the remaining actions.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The numbers support two conclusions at once. Documented savings remain small compared with the capital invested, and most of the portfolio has not yet reached the period when managers predicted the largest returns. Treating all future savings as guaranteed would overstate performance; treating the current total as the final return would understate the program’s timeline.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The next meaningful audit point will come after fiscal 2027, when projected savings should begin concentrating. At that stage, completed projects can be judged against their original estimates, revised scope, repayment schedules and nonfinancial outcomes such as reduced security exposure.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For now, the fund’s public scorecard is dominated by promises. The accountability question is whether agencies preserve consistent baselines and publish enough evidence to show which savings came from modernization, which projections changed and which projects delivered value in forms that cannot be counted as dollars.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/technology-modernization-fund-savings-gao-2026/",
+      "citations": [
+        {
+          "id": "source-gao-tmf-20260723",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Technology Modernization Fund: Small Savings Achieved So Far, but Substantial Future Savings Expected",
+          "url": "https://www.gao.gov/products/gao-26-107737"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The Technology Modernization Fund invested about $1.03 billion in 68 unclassified projects as of June 2025.",
+        "Twenty-four projects projected about $1.06 billion in combined savings.",
+        "Eleven projects had collectively realized about $13.5 million in savings.",
+        "Projects expected 98.3 percent of projected savings in fiscal year 2027 or later.",
+        "Thirty-seven projects expected no cost savings but may provide security or other nonfinancial value.",
+        "Of six completed projects expecting savings, two met or were on track and four missed or were not on track for targets."
+      ],
+      "corrections": [],
+      "dek": "GAO says $1.03 billion went to 68 modernization projects, while nearly all projected savings are scheduled for fiscal 2027 or later.",
+      "desk": "technology-spending-accountability",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Technology Modernization Board",
+        "General Services Administration",
+        "Office of Management and Budget"
+      ],
+      "eventId": "event-technology-modernization-fund-savings-gao-2026",
+      "headline": "Federal IT Fund Has Realized $13.5 Million in Savings So Far",
+      "id": "article-technology-modernization-fund-savings-gao-2026",
+      "leadImage": {
+        "alt": "Two Air Force information-technology specialists examine equipment in a server room.",
+        "caption": "Air Force technicians observe server configurations in 2023. GAO found that most projected savings from the government-wide Technology Modernization Fund remain years away.",
+        "credit": "Sharon Singleton/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-air-force-server-room-2023",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/air-force-server-room-2023/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T16:58:00.447Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t162017z-fe27217df153-4d495b46636a",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says the federal Technology Modernization Fund invested $1.03 billion while projects had realized $13.5 million in savings by June 2025.",
+        "index": true,
+        "title": "Technology Modernization Fund realized savings, GAO review"
+      },
+      "section": "investigations",
+      "slug": "technology-modernization-fund-savings-gao-2026",
+      "social": {
+        "description": "GAO says $1.03 billion went to 68 modernization projects, while nearly all projected savings are scheduled for fiscal 2027 or later.",
+        "image": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/air-force-server-room-2023/open-graph.webp",
+        "title": "Most projected savings from the federal IT fund are still years away"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Technology Modernization Fund",
+        "Federal IT spending",
+        "Cost savings",
+        "Government accountability",
+        "Legacy systems",
+        "Procurement"
+      ],
+      "uncertainty": [
+        "Realized savings are not a complete measure of projects whose benefits are scheduled for later years or are primarily nonfinancial.",
+        "Projected savings may change as systems, migration costs and planned functionality change."
+      ],
+      "updatedAt": "2026-08-06T16:58:00.447Z"
     },
     {
       "articleType": "executive-action",
@@ -20266,22 +21196,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T16:00:01Z",
+  "generatedAt": "2026-08-06T16:58:48Z",
   "inputHashes": {
-    "approvals": "1a8fadce13c880384c8700dd77ef227d04a473de665500f69c41748de60f2cad",
-    "articles": "727ab11f05cc6f3b699099795b21ee6063a407b6a83a876d1bdf16091399d030",
-    "claims": "0e129d977c9570c0419f49dfa186027c9317162c24bdcecdd36f927614e2dfe6",
+    "approvals": "7cd0b0767a7dfc34ab6d2b3bfc500c3e08c828d005725b7e2506e56742e93285",
+    "articles": "dcd8dbece62e620dcb9c0f680f56f3f27fd525dac244df075d71b0c264f27c62",
+    "claims": "f82a31b6cd4fc483bd02b033ff513e3b72a67aa8d8adb6e0e958d0d7e6f4cb5b",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "4641eca02c5655ded8caec87d6bacae08c8ad981a6f640b2a2aa8c8b1e5b9cd8",
-    "mediaRights": "56c62d10b688ebe10747d21cc81e6422ca8ade510a7ae49c6a7e2f585ec9e8f2",
-    "publicationIntents": "85df59e130f468f4fd030668294bd35186230b6602167d0c0102ece6a15565e0",
-    "releaseRecords": "9fd23789edcd40ce68dfc0943f31c1ee34e6b91b35b5b3b909ff29e18a467692",
-    "sourceItems": "a407f6750c98e952ea406bb2c77a217e450e6b44b66d16bebd805ad455f5ff7c"
+    "events": "524ee87e3999c5decfed41588c263c81903c817837a535cdbe7acb3c92ebccec",
+    "mediaRights": "e5ab5e8c79993fbed8b9c06276886b1bc8455e3ca3073b8e3ad5285a96e9b9b1",
+    "publicationIntents": "f26cc3d0bca205066779cbcab7bb7ea09589fbf5f1df0b546ffa8112ca6e5ec1",
+    "releaseRecords": "dbf647118cae142eadb37270b869c793866962977b7bf5b0815115a0100e1596",
+    "sourceItems": "4ed9c20ca68981671be87f7860d6109e0d7ee95cfe8c3db4fd35af8606a4d61f"
   },
   "inventory": {
-    "articleCount": 105,
-    "mediaCount": 301,
-    "routeCount": 105
+    "articleCount": 111,
+    "mediaCount": 319,
+    "routeCount": 111
   },
   "mediaRights": [
     {
@@ -21945,6 +22875,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Two Air Force information-technology specialists examine equipment in a server room.",
+      "archivalStatus": "current",
+      "attribution": "Sharon Singleton/U.S. Air Force",
+      "caption": "Air Force technicians observe server configurations in 2023. GAO found that most projected savings from the government-wide Technology Modernization Fund remain years away.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Sharon Singleton, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "cc18a2663115c28e43ef5fe12114f846200e3a43926ec6ff434b31334f8dfc79",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/air-force-server-room-2023/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "65bc5464cde8e4335c7f48d1ad404c40b53643924dfcd3aa20d14ce0f5f7c218",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/air-force-server-room-2023/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "260568b9c0a4b5a29fd9570d596d5fd1413138d86747cbbac6dac3a6718d5e42",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/air-force-server-room-2023/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "84fd39504fab87e724f63f89b90771d09f23d5918def770fe7f09ff6f886d926",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/air-force-server-room-2023/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "eb504f0024b091f2b958675ed3efcffc707f99184f5f3c4e6c1cc1f18f88ecbb",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/air-force-server-room-2023/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f66946532e0bf49823733ed41fda1752a7614a395a0ec36d1ee756d40cbba7d5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/air-force-server-room-2023/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8e835fd3aa6cab32b9dcb4ed80371776ba9b6b92d4b7e4fc9de2c546c5764d17",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/air-force-server-room-2023/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-air-force-server-room-2023",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "35d9e3eb6da7a724aad8c6ef32e201a3708ebdcd212db64b54bcb76ed804e3b0",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Official U.S. Air Force photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/8725730/sixteenth-air-force-client-system-technician"
+    },
+    {
+      "aiGenerated": false,
       "altText": "An airman sleeps in a dim aircraft cabin while other personnel sit nearby.",
       "archivalStatus": "current",
       "attribution": "Jordan Castelan/U.S. Air Force",
@@ -22018,6 +23024,82 @@
       "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.dvidshub.net/news/358522/air-force-studies-fatigue-and-sleep-enhance-readiness"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A firefighter climbs a tall ladder during a training exercise.",
+      "archivalStatus": "current",
+      "attribution": "Andrew J. Merlock/U.S. Air National Guard",
+      "caption": "A New Jersey Air National Guard firefighter practices ladder operations in 2016. The image illustrates ladder safety and does not show the recalled attic-stairway product.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Andrew J. Merlock, U.S. Air National Guard",
+      "derivatives": [
+        {
+          "hash": "e4969d5e4703c3bbb4889935840059d8376b604262da4913abe7a8ee045749d7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/air-guard-ladder-training-2016/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "96dbdb9a37ac68f3589e3c8a50e87b1a0dbb0fabbda8d8df78441a04a838164c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/air-guard-ladder-training-2016/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "72cae272345eb05bc5beac37af3f17161dc1149f045726eeabe76ac16d32ceed",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/air-guard-ladder-training-2016/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e3177336a98553fed8c6077e342ef6072021b8a7d09ea00087d507fec79aca9a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/air-guard-ladder-training-2016/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7f874df3db3b828ee21c58597fca4b6a9dbf8bca929c8f211b0b4a8bb07076aa",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/air-guard-ladder-training-2016/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4beb47c7aff54e127d78b6e1582d28e7fa6ab4b3306a9c60dad064b1312407f4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/air-guard-ladder-training-2016/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a0f7ad96dc00b0f0b881e18b30f032b5e998bcf55962d67c284b923d71524fd7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/air-guard-ladder-training-2016/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-air-guard-ladder-training-2016",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "e5dad9b843979a0402ce05e7c7a32d720f26006893a06dcc4c69de77e0e6c3f1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Official U.S. Air National Guard photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/2518009/ladder-part-day"
     },
     {
       "aiGenerated": false,
@@ -23906,6 +24988,158 @@
       "rightsBasis": "Official NOAA Climate Prediction Center composite map generated for the cited forecast.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.cpc.ncep.noaa.gov/products/predictions/experimental/threats/hazards_d8_14_contours.png"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic tells owners to stop use, find the model number inside the attic door and register for a free repair kit.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from CPSC recall 26-661",
+      "caption": "CPSC says consumers should stop using affected ladders until the repair is installed.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "7fd21fa0fceeda1f3982a9c11223eea863452d9a45183af809681dabf6cfa2a8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-actions-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2be418a0574e1ecfd803af8f581ac3f55eff794e65ac59b6d9cffa4a34f57734",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-actions-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b908bf7bc93e70eee2bd994e3f99d7a592ddf3b5cf2fd0cc81ce4ecb7e9ce52a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-actions-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "54cfa4bb4667c5796878bc9e32b7cea06cec447ea1c69a8d6a08ca1a13d83c95",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-actions-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "73771cebd73ff64216420e4b4d88fc89da5defa3225fcf77f51c54855ea5c3db",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-actions-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "23ab43e4a9e44b67f5da0b37a9303e5ec7fdc3341d47c4a9fdc467461a71ede9",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-actions-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1f7eefb80b00c43cb8f82d554f98770174f607553fb8c248998211bfce0d6065",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-actions-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cpsc-ladder-recall-actions-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "c7a69bdbfd5a80f0059ccaf36d59960569f7be2dd5c743123f921b47082ad458",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Louisville-Ladder-Recalls-Over-One-Million-Attic-Stairway-Ladders-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 1.77 million U.S. units, 11 reported bolt failures and a free replacement-bolt kit.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from CPSC recall 26-661",
+      "caption": "The recall covers specified Louisville attic-stairway ladders that use gas struts.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "30098c66bf06e9d2db9f885a8855f0be2f11804c5fb8dd758f2d80b883f2618f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-numbers-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "4ebbf525a260e609dab1dc0050f2d9b21aa6ee4cbab1d8ba62a17f4177b899b0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-numbers-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6c95f8881236c83c573a975136a6a6312c59c4ea2f7500985eb2197aefc1ff30",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-numbers-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "2fe17ffaf253d8617f69a3d22aae647069e0e89e71402029209d93fb1bc2eeb4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-numbers-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3591f4a5fbfb0ee0e31889aa5de3c0bd7c4c677dcb401c0c80f4a1f115072111",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-numbers-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5a20f48355a15f2704b898a2a89ad472ec84ae72f11138e13b19a742bf17ff71",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-numbers-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "ee1a0710d4e8e3934453cde0f35573aa319e3ad29cc50bde8d082e851aa67d6c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/louisville-attic-ladder-recall-1-77-million-2026/cpsc-ladder-recall-numbers-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cpsc-ladder-recall-numbers-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "2602af26e6272face43e3b081c9c908cfdba174c45c2f22c4a0c76a6e54292ab",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cpsc.gov/Recalls/2026/Louisville-Ladder-Recalls-Over-One-Million-Attic-Stairway-Ladders-Due-to-Risk-of-Serious-Injury-or-Death-from-Fall-Hazard"
     },
     {
       "aiGenerated": false,
@@ -27618,6 +28852,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Construction equipment and workers build a bridge over a roadway.",
+      "archivalStatus": "current",
+      "attribution": "Scott T. Sturkol/U.S. Army",
+      "caption": "Crews build a bridge at Fort McCoy, Wisconsin, in 2021. GAO tracked the status of infrastructure and energy awards reviewed after January 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Scott T. Sturkol, U.S. Army",
+      "derivatives": [
+        {
+          "hash": "64701f7c88d51a3f3259ea560cb9d94f43c0622be31e3ac0aab06d5d63bf63e0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/fort-mccoy-bridge-construction-2021/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7d885937bd4f58a27fad07db533aeed6c54c0186aa4df1d0dca317bf8699097e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/fort-mccoy-bridge-construction-2021/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4b71653d2c32cb59fa15ae562b615d8509bb8da59a349f3dcbe9db45096f39a9",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/fort-mccoy-bridge-construction-2021/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "41abad6e441fad6867f0f7a3a8b77148834699a1b9bebf21be57ec7c8f992dc8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/fort-mccoy-bridge-construction-2021/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6937f60393030fc65cd7e15bf3b4d8b12c3eae42d2af9ba8d489e54dbba699c3",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/fort-mccoy-bridge-construction-2021/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "de40b1a60f3925475796095f8839226cdb8d1977b1b2e456a7795aa4ab211500",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/fort-mccoy-bridge-construction-2021/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "462b42cb3d256d3b04ae704bda244498cbcf6dd8459e2a6eacc397339eed90e0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/fort-mccoy-bridge-construction-2021/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-fort-mccoy-bridge-construction-2021",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "714b05a1d5d373770f0f518131f67e3f3427824dde57f5155470c549f054d0d3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Official U.S. Army photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/6860389/construction-new-bridge-continues-fort-mccoy"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A timeline marks Mark-0 on June 4, Ward 250 on June 18, Unity on June 30 and Aalo-X on July 4, with a note that all were zero-power tests.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from DOE and NRC records",
@@ -28834,6 +30144,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic lists eligibility problems, weak managerial support and no new postings in 2025 or 2026.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-108736",
+      "caption": "OPM identified participation barriers but effectively halted the program before implementing improvements.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "aff3ddc4e2e8f286db107d5d885054a6c3a784e0712a5bf57ce4d0167de95597",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-barriers-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3b03b5dbb203e2ede18db7d5b9a1f679e7f1ac0fdd7085841c88d7846d8e3d65",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-barriers-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d34b7477de8c7cb36ca9d9f5d810e41b789aec406e4af379d682bbc1e9ed5dff",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-barriers-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "78d8c96d7a1509fa0a11e1ed5b8101a0ec79b88bcd8b70b1284440152d420f36",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-barriers-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8340b440ee25a5c509160b88a4e702096c59661fd59eb9fa18dd77ef0b272a91",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-barriers-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2fc168e92c3afc443afa76766f42a81b57ffab86bc3422885e91307f5b5a4f62",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-barriers-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f1f0df4cd9b827695c7f2b9bb6decc3d41dd6e0c0731d83c00a510407913e440",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-barriers-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-cyber-rotation-barriers-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "6c26a33f080c38c4a2c4f0b4aeecf3866532420c0a75ec5eedb1cc4bf3dc7d57",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108736"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 634 applicants, at least 106 advertised positions and eight employees approved to serve rotations.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-108736",
+      "caption": "Applications far exceeded completed approvals in the federal cyber rotation program.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "3d62f80cfb4f60045d059072a0ddf98cbd358bd395e8d7918dbe0620c5577c22",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-funnel-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e14d9109f9d9e12b49c2f0845802c34ce83760152a7fad8221b37235461087d5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-funnel-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9836c8259250c5f8f0385b4adf147b9076c5c04623dd01cf5c66612e55b9fef4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-funnel-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "16ee8334afc101cc805b3a013a1cef9dfe4ffb7d4b1c5768b26991deba1396fa",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-funnel-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a273e1f59e7daf657c792ce80bde7d6fff1eb52500977c35ad8dd4ce96c9d437",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-funnel-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1a531cd4ee73162c38ef0cea96ec254927ceac122f37069d6d3d9ffd1f85de72",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-funnel-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7b513d8f36bffe8df936ea5380e6066176fa88496b832c5fa21732bee10a717c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/gao-cyber-rotation-funnel-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-cyber-rotation-funnel-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "aba9df6edd3c2c32ac1cda26762ac5d9a441aeb86a0008d28e5aa4b100ec4862",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108736"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Graphic shows 31.3 trillion dollars in publicly held debt in April 2026 and GAO projections of 106 percent of GDP in 2029 and 123 percent in 2036.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from GAO-26-108610",
@@ -29359,6 +30821,158 @@
       "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.gao.gov/products/gao-26-109034"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows about 9,500 awards worth $128 billion approved, about 800 worth $17.8 billion canceled and more than 2,500 worth $33.6 billion pending.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-108434",
+      "caption": "Selected agencies approved most reviewed awards, while billions remained canceled or undecided.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "324b4165fa12f42285f7335bff93f80a3f9066de3a3c6fada02992c84ad355ee",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-award-status-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "707f25908ede54aaa181eab3531a15cf89d839a63327404d3fbb9c3464a7c9f9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-award-status-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bb33fe2c8e7359c745913a802d52f0665a11941c99b4caf17edb178ca47491b7",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-award-status-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "96dcd3d8c56c7f03f565810a57b30cea346658554f90bb98b5fb2bd93852873c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-award-status-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a8b433c137ea184736096923d0f368e096df305ef1f56cb867cc9d8bc94e7f68",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-award-status-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "bd9d8a0c8fc5e0e1a254a3a6c2d61dd83089e2b8770072eb95de2f8a3e2a3a5c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-award-status-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4722b94d44a4dbfcb3a909e028817edd03354c3bc19b39b6cb57907ae5a75d9a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-award-status-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-infrastructure-award-status-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "44c0d4c4147eef2044e868a1651ed4e5f4479f89edd6e3d007c36b8f1319d7b8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108434"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic defines the $629 billion review scope across EPA, Transportation, Interior and NTIA.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-108434",
+      "caption": "GAO’s report covers four agencies and notes that Energy and Agriculture will be reported separately.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "78ee7eadb563424e8ec39f91ad9bf4825667b74d62f6669087c5b59e086209e7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-review-scope-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9b186103d205fd269542a062b944e210f3e8ec40f8659601525b197314e3128e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-review-scope-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ad5230796dca449a61d47dce697938cd47f3d9ad8f128ba4dd21f7c39872e8e9",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-review-scope-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "0b4c01bba23822b465ca05889927ed8d10f20ae5c357a5e65e4a8aafe99e705a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-review-scope-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1896aeff058efb1c13437ac0066af036fabe0eedeef9f50b06849fb127768a67",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-review-scope-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a337fa07f612587831970a3a64a235ea258abc86ef0432780c3983833310b6d2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-review-scope-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e1bd01cc0dc98057687f3700b6b2b2c8fecc617c2aeff61d6246f5aac06d9d3a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/infrastructure-awards-pending-canceled-gao-2026/gao-infrastructure-review-scope-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-infrastructure-review-scope-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "9d55b0c5e7aa7d483827d6f80bfe4b408eff83552b54b5f7bdbe26f0604495bc",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108434"
     },
     {
       "aiGenerated": false,
@@ -29894,6 +31508,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows the District of Columbia up 7.7 percentage points, North Dakota down 3.2 points and about 7 million students receiving IDEA Part B services.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-107814",
+      "caption": "National growth in general-education placement masked large differences among states and districts.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "02da7f8eae02b9df07d8a47fdf0322bf95bc026cdac1b368c78e3fcb5f6d873c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-state-variation-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2134f60ccc781b00a88975f8598d40ef83d74172839644031129711ead12526b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-state-variation-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "aa7ea65feccfac2ccdd752561feb2208d19ef15ce59b53669c388dffdf809231",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-state-variation-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "0d5dc679604b3a44eeafd6f644011fd67aaa97c189650b7fd922985e1b81d2b4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-state-variation-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4611e0468a146ab0169b8530f5d122fbc4ab9ab24ff790c6ae95c51d19549663",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-state-variation-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f9fa3cd664b874f0075e100845be5f39e6aca0a7283e4b6d628f16554af515ca",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-state-variation-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "bad64c0d0d085976b7a4f95f501e5714197db6978d1a5bbaa43933d6ee2aeeea",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-state-variation-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-special-education-state-variation-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "eab29031e76021fdd4c28b4151112bd494b73f8791a67723ae16d340cf5450fd",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107814"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows a 25 percent increase in students spending at least 40 percent of the day in general education, compared with 21 percent growth in total students with disabilities.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-107814",
+      "caption": "The number of students with disabilities spending much of the day in general classes grew faster than total special-education enrollment.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "42df35c35fb77b10e8390ac4b16719cebe8f8af7133ef8e1bcd0a81e8046dd61",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-trend-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "47d2c0ff14ee0f435d3b70a6fb6500476ad9de50e818f2430c591414149161e2",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-trend-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4e682f6c84637ccba53c75956cd9b2dfba28308e0bb309762cf4365392088fea",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-trend-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "54cdcd3235b05a278fa9d8a7788c6693c92c86620aac664e6a7c8214ef3b11a9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-trend-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "dc5d67df82ed040231084a65225c69b449e74a2aacee3a1717f66562ba31edce",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-trend-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "58b799fd5183fb9145155656d4e6a0aec002221ede65d04e268e57164366fa16",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-trend-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "78b2fc5d70dcecc605f21027f40e0eb503bdaa85a1501232850652d194e5118a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/gao-special-education-trend-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-special-education-trend-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8b57343993fa8377dcefdaef54241411428849700f5d79fddfaaa1ecf511af0b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107814"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Graphic shows about 7 trillion dollars in fiscal 2025 outlays alongside reporting gaps for other transactions and subawards.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from GAO-26-109034",
@@ -29967,6 +31733,158 @@
       "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.gao.gov/products/gao-26-109034"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares $1.03 billion invested across 68 projects, $1.06 billion in projected savings from 24 projects and $13.5 million realized by 11 projects.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-107737",
+      "caption": "GAO says most Technology Modernization Fund savings remain projected rather than realized.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "063264ce7d9e52a942083032e8a9575ab145722fb522e5524b93f3b050bb7f21",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-savings-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "eaa7963d65dcd0827c8bae5bba0cb7bb72df74dd0498a1d30a69b913458aa7c4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-savings-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d3f5528464650d2264120fd9b3aa55baf0af5fd314f987fdd1ae53bdbc8fac7d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-savings-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c07939b6cba9f14eb842e67808ba32a7cceeeb5dd88046f9c8d908e06f03713c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-savings-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8d79e91c06310e8435a4bae925a067488261752e62683e318bd721213ea09f1e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-savings-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "61424544890a70eefc8fb3d50c4c74848f199bd110f9c9792370763eb3289373",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-savings-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "12ec166aa8dc7ed3d727b9946c5d1e63f66f653dd7fd099cea39558dd6550f01",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-savings-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-tmf-savings-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4669a203b074222cefc7b68a65b871105ca3ee7b1aa15e3c46740930cfde6c8b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107737"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic explains that 98.3 percent of projected savings are expected in fiscal 2027 or later and that four of six completed projects missed or were missing targets.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-107737",
+      "caption": "Project timing and nonfinancial benefits complicate a direct comparison of investments with savings to date.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "8621e92fcfd2d001f132fdc090331676b641a8c5797fbbc3f0250fe9ee81b8a3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-timing-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d6ba0640a410b5c251104186ffa118b8dc2374ded9cc0814ec6ddd4a32625d9c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-timing-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "2cc4b68047260b917fce04d7ad0d3a15afea42776490039ff431a43d95605664",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-timing-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d3fd2212860a61805d380826a69c926d36cf31a59d2ccf2b25f9b1e8646e2224",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-timing-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c1586b37910857da355d6f669a6bbafec9985076588648648f5cdf60e60c8c87",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-timing-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a4f6ee079629a47eb4a3997077c6ddae1ae0b56788a76e249b589b0fc151ae6a",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-timing-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1849a00929cc5860a6932703522068e674c297141fe9def138272f60b08c248a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/technology-modernization-fund-savings-gao-2026/gao-tmf-timing-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-tmf-timing-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "1c710f58e31963a4d33d507c3334651a8c3c6aae94fa51879fe8f9a78367f4c3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107737"
     },
     {
       "aiGenerated": false,
@@ -31564,6 +33482,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic lists the August 22 date, Washington convention center, 9 a.m. to 8 p.m. hours and free ticket requirement.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Library of Congress",
+      "caption": "The 2026 National Book Festival is free, but entry requires a reserved ticket for the first time.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "f74590b4dc41fe58eb79079a69a79b8ddc860e011f0fb01f65f160663cee0563",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-logistics-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "0a55faeef5809a09e18b72ea3505a87ae8d563f5c0c3e46aecbd721ef538231a",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-logistics-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b88f74e8d8d6e5f2a07acbf10b20e8b9c8e07b7286d5b4573a44ae132adf3c81",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-logistics-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c4df80ddcc62b81424e6e166b2c97e5fdcabf27b56d5bd88ee7600f716a2eaf8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-logistics-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6c06de9d8384c72f79ea7d3ebdb107460e2ad82c566ccd79cbe7de4ff8f90187",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-logistics-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ccbd2c6f60591dba003765f7ac8230694e84ba565221045e2b2a0eec7ab769e1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-logistics-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "91039a1c567a8105c03bc2acffbc3ad57dee2e701662f5c42790336cf674a94d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-logistics-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-loc-book-festival-logistics-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "63ecf9edcae0b3c870c1a28a696246d81fd672272b65581324eaec906237925b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.loc.gov/events/2026-national-book-festival/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic highlights more than 80 authors, expanded film and music programming and livestreamed or archived sessions.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Library of Congress",
+      "caption": "The Library is expanding the festival beyond author talks into more of its collections and programs.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ffc386589afc923db02da53c1c81d3d17cb944c464c529e50a91a2cfe5a17477",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-program-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "63f62e4f3b3dc2f049a52c46334406c135290eb07f80e8ad76301f864b149427",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-program-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "df6931a559170b45b94a4c92b7b3176c12264f97ae290615df01d56d50de1487",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-program-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e6cf6965d1b21f06c3584470101d2093503b03fc74490a01940f2c76ca302f21",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-program-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0d564ddc6ccf372a432c31d2dc9e802aef9369c9277f29ed1a81b24f932956eb",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-program-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f9dd317b56e5d4e302f0e898ef75be6103001f29cbacb4f2f6e53e1ffa4413c0",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-program-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d0d25a9c499d6cb8df60e00c4cf5f95ee9c4455745d61c09f7b0d178453fb9d4",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/loc-book-festival-program-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-loc-book-festival-program-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "9476bb42e38ea861642c91a1f31488b61b12382d0b10961c5b4f48eeacf7ad70",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.loc.gov/events/2026-national-book-festival/"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A black-and-white frame shows the white-costumed Pierrot automaton standing over Georges Méliès in a painted workshop set.",
       "archivalStatus": "current",
       "attribution": "Library of Congress, Motion Picture, Broadcasting, and Recorded Sound Division",
@@ -31938,6 +34008,82 @@
       "rightsBasis": "Photographer published the 4000-by-3000 aerial photograph under CC BY 4.0; attribution and source retained.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manila_skyline_from_above,_approaching_the_Manila_airport,_Manila,_Philippines.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Two Air National Guard cybersecurity specialists inspect radio communications equipment.",
+      "archivalStatus": "current",
+      "attribution": "Tylin Rust/U.S. Air National Guard",
+      "caption": "Cyber specialists inspect equipment in Minnesota in 2023. A federal rotation program drew hundreds of applicants but approved eight employees to serve.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Tylin Rust, U.S. Air National Guard",
+      "derivatives": [
+        {
+          "hash": "37fcae32a0a91df613f15640935d523cabff0c16e2a60ccf759d85d9a291cae8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/minnesota-air-guard-cyber-2023/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b269aa117c1b9f7d83f5173c901a3bb17e57aee1bc0727227d630c7953747ffa",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/minnesota-air-guard-cyber-2023/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5b691a8c772f0bdb8ba2d02c57f0604917b39da4c29d8a633cfa2a9241fda092",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/minnesota-air-guard-cyber-2023/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7ece4fc5c041ed3f5968c5b23c7db4f9ce3159ac811676a5b8eaf1de4b799d2b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/minnesota-air-guard-cyber-2023/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e34064f0c2fef426aeb8eb617b0e1c394e9072c6e0aaf5f05472e139dd8d9aae",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/minnesota-air-guard-cyber-2023/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c4cd69ad8a15d7a00c15e16bcd32fdad7bd8bbea281dbaff70d9ac171eb78d90",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/minnesota-air-guard-cyber-2023/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d12b804eeee775d8ed50e919326c72ad9e7d6a9b1a31205619c70a8f0dae07a5",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/federal-cyber-workforce-rotation-program-halted-2026/minnesota-air-guard-cyber-2023/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-minnesota-air-guard-cyber-2023",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "b8a9f3d1881d3a0a17c2b930b152c7fcf07f9845c8cc3b9265409a6b0295a173",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Official U.S. Air National Guard photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/7679203/cyber-security-operations"
     },
     {
       "aiGenerated": false,
@@ -33835,6 +35981,82 @@
       "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.dvidshub.net/image/5813102/navy-air-force-football-teams-meet-for-matchup-in-annapolis"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Two people smile and discuss books arranged on a table at a library event.",
+      "archivalStatus": "current",
+      "attribution": "Travis Troller/U.S. Navy",
+      "caption": "Two readers discuss books at a Navy library event in Maryland in 2025. The image illustrates a literary gathering and is not a photograph of the 2026 National Book Festival.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Travis Troller, U.S. Navy",
+      "derivatives": [
+        {
+          "hash": "55acb8723b5c2c1e5d4f3f1e5d99de295c3a76d6b5f618354e1de000b088a914",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/navy-book-event-2025/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "68ff454450db63440e0be0429a5fbd7cac5e4610a6e8123801c361b5c458603f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/navy-book-event-2025/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c2572ef4fbe44cca1119590a5620ef2cd69ed1b12b732957443bc2fef27b2f77",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/navy-book-event-2025/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f5b61968da0dfda0f30d20dad4db5e211dfcc464f0d2f24bd150e667f4ab5aca",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/navy-book-event-2025/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d02c9748c4e9b559a8c126c1281cfc41f25a68bad4e7f39dd7c8a26b253e5374",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/navy-book-event-2025/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a35607c568c1e543dca4011adea53179f605d9d6d5df65f66fd7b7c5d5a6fc09",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/navy-book-event-2025/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f1744c8a9e0269bcecc3aa0b825234004f63e5f2933f344852b70a1f8b94f426",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/national-book-festival-2026-authors-tickets-schedule/navy-book-event-2025/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-navy-book-event-2025",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "602836e1700e0cb5c8214b4447e970c0d0b8abb082bf87a3a7accd8269023a1a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Official U.S. Navy photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/8876533/2025-fall-love-with-book-event"
     },
     {
       "aiGenerated": false,
@@ -40367,6 +42589,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Students sit at desks and work together in a classroom.",
+      "archivalStatus": "current",
+      "attribution": "USAID Historical Archive",
+      "caption": "Students work in a classroom in an archival USAID photograph. GAO found that more U.S. students with disabilities spent much of their day in general-education settings, with wide state variation.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "USAID Historical Archive",
+      "derivatives": [
+        {
+          "hash": "aa189801164f7930bfa5a45ea45ac160f4b9e87d57e61bedffebf5729c5993c5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/usaid-students-classroom-2015/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d92c0f46df505694b39dd0acd7120dae404b70c319b6b70e18e9bebe58b6b1b1",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/usaid-students-classroom-2015/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "643fe31f4e8f59754e07b3ed826ad166bc97af6689560567a00daa9c1ba64dbe",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/usaid-students-classroom-2015/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "140c82a12e64c514e3e634c3d688cd778af026e7ed6bf6b14d629969b719c320",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/usaid-students-classroom-2015/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2356d5ba08c7ce722c8332479e623f1eaf9b6d2e00b3f4fed494916827aa22aa",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/usaid-students-classroom-2015/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e06425201d2a6cc2b55f997a48dfb05f29f7db62becef0707f09f5ee6c156749",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/usaid-students-classroom-2015/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1728bc25866886060b1eaae54f959495942ad4ee1b39ede1470157e9ee12d2e4",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/special-education-general-classrooms-state-gaps-2026/usaid-students-classroom-2015/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-usaid-students-classroom-2015",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "e0a996bb6b3b17626d80f9ba9f69c6e933d8ab4cc420125d56d09aba3ac2c7ff",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T16:19:52Z",
+      "rightsBasis": "Official U.S. Agency for International Development archival photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/2059099/students-classroom"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Adult officials in hard hats stand among rows of rooftop solar panels beneath a bright sky in Vietnam.",
       "archivalStatus": "current",
       "attribution": "USAID Vietnam",
@@ -43092,7 +45390,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "5a592c55682936e3f658b44475f7f2b2926d624a63ff1f17a72aa2199a3696bc",
+  "packageDigest": "067cd973c4eb8ecbfb00a9f31a5ce5bb174ff01372bc92f0f9ebcd3e22158ba7",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -43930,6 +46228,37 @@
       "providerActivatedAt": "2026-08-06T15:57:40.219479Z",
       "recordHash": "a92215016243866f9dba919b1f59a538aa25f65814a2ccf2f48ce97df8e2469e",
       "releaseId": "release-pb-20260806t151855z-8aa0b0e21b8b-f5b18c5cb37b",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://7703112a.bohonews.pages.dev/",
+      "activationEvidenceHash": "c29374f244a302235de7cb4b66700463bf9385b63555d3aae54b63aa24043ed2",
+      "canonicalFirstPublicAt": "2026-08-06T16:58:00.447Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/federal-cyber-workforce-rotation-program-halted-2026/",
+        "https://bohonews.com/articles/infrastructure-awards-pending-canceled-gao-2026/",
+        "https://bohonews.com/articles/louisville-attic-ladder-recall-1-77-million-2026/",
+        "https://bohonews.com/articles/national-book-festival-2026-authors-tickets-schedule/",
+        "https://bohonews.com/articles/special-education-general-classrooms-state-gaps-2026/",
+        "https://bohonews.com/articles/technology-modernization-fund-savings-gao-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-federal-cyber-workforce-rotation-program-halted-2026",
+        "article-infrastructure-awards-pending-canceled-gao-2026",
+        "article-louisville-attic-ladder-recall-1-77-million-2026",
+        "article-national-book-festival-2026-authors-tickets-schedule",
+        "article-special-education-general-classrooms-state-gaps-2026",
+        "article-technology-modernization-fund-savings-gao-2026"
+      ],
+      "previousVerifiedDeploymentReference": "bcf006f479dbcdc6115a85059620b3ac16e18b259e57af44eac85dedeaa16235",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T16:56:26.58828Z",
+      "recordHash": "d37e670cd11ed8e1aa89b859f285200b8af1aab62af61c69a188bc3d106b3653",
+      "releaseId": "release-pb-20260806t162017z-fe27217df153-4d495b46636a",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }
