@@ -1,9 +1,9 @@
 {
-  "articleCount": 123,
+  "articleCount": 129,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T21:13:44Z",
-  "mediaCount": 355,
-  "packageDigest": "fb12c37ac0651c4de564451aa03d7613d3636a102231ec77247cbef5cd81ff51",
+  "generatedAt": "2026-08-06T22:40:00Z",
+  "mediaCount": 373,
+  "packageDigest": "26cda2488fbf39f115debf2946e2ea02509b68535c001e5450a279e77c3471cc",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -936,12 +936,44 @@
       "releaseId": "release-pb-20260806t203204z-eabacebcd259-0174d871be9e",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://afef385f.bohonews.pages.dev/",
+      "activationEvidenceHash": "fca29a876dee12980197896c74502bd30c45ddc92f779f4ff7b8d2dee313963a",
+      "canonicalFirstPublicAt": "2026-08-06T22:39:10.266Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/air-force-women-first-armed-forces-flag-football-title-2026/",
+        "https://bohonews.com/articles/gao-ai-tax-rule-comments-treasury-irs-2026/",
+        "https://bohonews.com/articles/gao-orion-nasa-major-project-cost-growth-2026/",
+        "https://bohonews.com/articles/gao-revoked-twic-port-access-risk-2026/",
+        "https://bohonews.com/articles/imf-euro-area-growth-inflation-outlook-2026/",
+        "https://bohonews.com/articles/western-us-heat-dome-records-july-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-air-force-women-first-armed-forces-flag-football-title-2026",
+        "article-gao-ai-tax-rule-comments-treasury-irs-2026",
+        "article-gao-orion-nasa-major-project-cost-growth-2026",
+        "article-gao-revoked-twic-port-access-risk-2026",
+        "article-imf-euro-area-growth-inflation-outlook-2026",
+        "article-western-us-heat-dome-records-july-2026"
+      ],
+      "previousVerifiedDeploymentReference": "bed98e28aafff0acd2bf46b1bd8aa69ac87e2edacdc786ade953888ae1a1cc74",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T22:37:48.180192Z",
+      "recordHash": "3575571578ff48b8247e655175c887d650212eb886539b04780eb6324460265a",
+      "releaseId": "release-pb-20260806t214957z-848b3c493fb9-c9653c30b238",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
   "routes": [
     "/articles/2026-census-test-huntsville-spartanburg-august-31/",
     "/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+    "/articles/air-force-women-first-armed-forces-flag-football-title-2026/",
     "/articles/als-blood-protein-panel-predicts-symptom-timing/",
     "/articles/bls-jolts-job-openings-hiring-june-2026/",
     "/articles/dea-7-oh-schedule-i-threshold-action-guide/",
@@ -967,6 +999,7 @@
     "/articles/four-advanced-reactors-zero-power-criticality-2026/",
     "/articles/fta-610-million-bus-grants-2026/",
     "/articles/ftc-rentgrow-tenant-screening-settlement-2026/",
+    "/articles/gao-ai-tax-rule-comments-treasury-irs-2026/",
     "/articles/gao-battery-recycling-critical-mineral-imports-2026/",
     "/articles/gao-education-10-priority-open-recommendations-2026/",
     "/articles/gao-federal-broadband-strategy-map-data-2026/",
@@ -976,7 +1009,9 @@
     "/articles/gao-immigration-courts-remote-hearings-2025/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/gao-opm-workforce-down-35-percent-2026/",
+    "/articles/gao-orion-nasa-major-project-cost-growth-2026/",
     "/articles/gao-public-debt-123-percent-gdp-2036/",
+    "/articles/gao-revoked-twic-port-access-risk-2026/",
     "/articles/gao-state-administered-program-fraud-risks/",
     "/articles/gao-usaspending-data-gaps-7-trillion-outlays-2025/",
     "/articles/gao-weapon-programs-average-delivery-over-12-years-2026/",
@@ -988,6 +1023,7 @@
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/hr-143-unauthorized-spending-cbo-estimate-2026/",
     "/articles/hurricane-cone-inland-warnings-2026-explainer/",
+    "/articles/imf-euro-area-growth-inflation-outlook-2026/",
     "/articles/infrastructure-awards-pending-canceled-gao-2026/",
     "/articles/interlochen-abuse-investigation-report-findings/",
     "/articles/iowa-emt-first-workforce-pell-program-2026/",
@@ -1049,6 +1085,7 @@
     "/articles/us-goods-trade-deficit-june-2026-advance/",
     "/articles/usgs-federal-coal-resources-reserves-2026/",
     "/articles/usgs-low-level-geophysical-flights-eastern-kansas/",
+    "/articles/western-us-heat-dome-records-july-2026/",
     "/articles/what-house-iran-war-powers-vote-can-do/",
     "/articles/what-is-section-301-trade-act/",
     "/articles/who-controls-smithsonian-board-regents/",
