@@ -3854,6 +3854,155 @@
       "updatedAt": "2026-08-06T16:58:00.447Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal agencies employed 133,798 full-time law-enforcement officers in fiscal 2023, according to a Bureau of Justice Statistics census covering 88 agencies. Nearly half worked for the Department of Homeland Security.\n\nHomeland Security reported 65,106 officers, 49% of the federal total. The census includes officers authorized to make arrests, carry firearms or both; it is not a count of every federal employee whose job touches security or compliance.\n\nCriminal investigation was the primary function for about 70% of officers. Other functions in the statistical tables include police response and patrol, inspections and enforcement, court operations, security and protection, and corrections.\n\nOffices of Inspectors General employed 3,519 officers, about 3% of the total. Those offices investigate fraud, waste and misconduct within federal programs, but the census aggregates many different missions under the same minimum authority definition.\n\nWomen accounted for 15% of federal officers and 14% of supervisory personnel. BJS reported that 57% of officers were White, 20% Hispanic or Latino and 10% Black. The categories describe the reported workforce, not hiring or promotion outcomes by themselves.\n\nThe survey is the tenth federal-officer census BJS has conducted since 1993. Periodic censuses provide a consistent benchmark, but the 2023 reference year means the figures should not be read as a real-time 2026 head count.\n\nAgency size also shapes the national profile. A department holding almost half the positions can move overall demographic and functional shares even when smaller investigative or inspector-general offices have different staffing patterns.\n\nThe useful baseline is therefore both large and bounded: 133,798 full-time officers at 88 agencies under the census definition. Future comparisons will require the same definition, a new reference year and agency-level changes rather than assumptions based on current headlines.\n\nBJS also publishes underlying tables, allowing readers to separate departments, functions and workforce characteristics rather than treating federal officers as one uniform agency.",
+      "bodyBlocks": [
+        {
+          "text": "Federal agencies employed 133,798 full-time law-enforcement officers in fiscal 2023, according to a Bureau of Justice Statistics census covering 88 agencies. Nearly half worked for the Department of Homeland Security.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Homeland Security reported 65,106 officers, 49% of the federal total. The census includes officers authorized to make arrests, carry firearms or both; it is not a count of every federal employee whose job touches security or compliance.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Criminal investigation was the primary function for about 70% of officers. Other functions in the statistical tables include police response and patrol, inspections and enforcement, court operations, security and protection, and corrections.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 133,798 federal officers at 88 agencies, including 65,106 at the Department of Homeland Security.",
+          "caption": "Homeland Security employed 49% of the full-time federal law-enforcement officers counted for fiscal 2023.",
+          "credit": "Boho News graphic from BJS NCJ 311643",
+          "height": 900,
+          "rightsId": "media-bjs-federal-officers-count-2023",
+          "sourceUrl": "https://bjs.ojp.gov/library/publications/federal-law-enforcement-officers-2023-statistical-tables",
+          "src": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-count-2023/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Offices of Inspectors General employed 3,519 officers, about 3% of the total. Those offices investigate fraud, waste and misconduct within federal programs, but the census aggregates many different missions under the same minimum authority definition.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Women accounted for 15% of federal officers and 14% of supervisory personnel. BJS reported that 57% of officers were White, 20% Hispanic or Latino and 10% Black. The categories describe the reported workforce, not hiring or promotion outcomes by themselves.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The survey is the tenth federal-officer census BJS has conducted since 1993. Periodic censuses provide a consistent benchmark, but the 2023 reference year means the figures should not be read as a real-time 2026 head count.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 70% primarily in investigations, 15% women, 57% White, 20% Hispanic or Latino and 10% Black.",
+          "caption": "BJS’s census describes officers’ main functions and demographic composition.",
+          "credit": "Boho News graphic from BJS NCJ 311643",
+          "height": 900,
+          "rightsId": "media-bjs-federal-officers-profile-2023",
+          "sourceUrl": "https://bjs.ojp.gov/library/publications/federal-law-enforcement-officers-2023-statistical-tables",
+          "src": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-profile-2023/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Agency size also shapes the national profile. A department holding almost half the positions can move overall demographic and functional shares even when smaller investigative or inspector-general offices have different staffing patterns.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The useful baseline is therefore both large and bounded: 133,798 full-time officers at 88 agencies under the census definition. Future comparisons will require the same definition, a new reference year and agency-level changes rather than assumptions based on current headlines.",
+          "type": "paragraph"
+        },
+        {
+          "text": "BJS also publishes underlying tables, allowing readers to separate departments, functions and workforce characteristics rather than treating federal officers as one uniform agency.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-law-enforcement-officers-2023-bjs/",
+      "citations": [
+        {
+          "id": "source-bjs-federal-officers-20260519",
+          "publishedAt": "2026-05-19T12:00:00Z",
+          "publisher": "Bureau of Justice Statistics",
+          "title": "Federal Law Enforcement Officers, 2023 — Statistical Tables",
+          "url": "https://bjs.ojp.gov/library/publications/federal-law-enforcement-officers-2023-statistical-tables"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Eighty-eight agencies reported 133,798 full-time federal law-enforcement officers in fiscal 2023.",
+        "The Department of Homeland Security employed 65,106 officers, or 49 percent of the total.",
+        "Criminal investigation was the primary function for about 70 percent of officers.",
+        "Women accounted for 15 percent of officers and 14 percent of supervisors.",
+        "BJS reported that 57 percent of officers were White, 20 percent Hispanic or Latino and 10 percent Black.",
+        "Offices of Inspectors General employed 3,519 officers."
+      ],
+      "corrections": [],
+      "dek": "BJS counted officers across 88 agencies; Homeland Security employed nearly half, while women made up 15% of the workforce.",
+      "desk": "federal-law-enforcement",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Bureau of Justice Statistics",
+        "Department of Homeland Security",
+        "Offices of Inspectors General"
+      ],
+      "eventId": "event-federal-law-enforcement-officers-2023-bjs",
+      "headline": "Federal Agencies Employed 133,798 Law Enforcement Officers in 2023",
+      "id": "article-federal-law-enforcement-officers-2023-bjs",
+      "leadImage": {
+        "alt": "Two Coast Guard members demonstrate a ground-control technique during law-enforcement training.",
+        "caption": "Coast Guard members train in Virginia in 2020. BJS counted full-time federal officers with arrest authority, firearms authority or both.",
+        "credit": "Stephen Lehmann/U.S. Coast Guard",
+        "height": 900,
+        "rightsId": "media-coast-guard-law-enforcement-training-2020",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/coast-guard-law-enforcement-training-2020/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T18:16:14.768Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t172627z-1a9417d13ab5-792566236080",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "BJS counted 133,798 full-time federal law-enforcement officers in 2023, with 49% employed by Homeland Security.",
+        "index": true,
+        "title": "Federal law enforcement officers 2023 BJS statistics"
+      },
+      "section": "crime-justice",
+      "slug": "federal-law-enforcement-officers-2023-bjs",
+      "social": {
+        "description": "BJS counted officers across 88 agencies; Homeland Security employed nearly half, while women made up 15% of the workforce.",
+        "image": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/coast-guard-law-enforcement-training-2020/open-graph.webp",
+        "title": "Who makes up the federal law-enforcement workforce?"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal law enforcement",
+        "Police workforce",
+        "Department of Homeland Security",
+        "Criminal investigations",
+        "Workforce diversity",
+        "Justice statistics"
+      ],
+      "uncertainty": [
+        "The census covers full-time federal officers with arrest authority, firearms authority or both; it is not a count of every federal employee performing security-related work.",
+        "The 2023 census is periodic and does not describe staffing changes after fiscal 2023."
+      ],
+      "updatedAt": "2026-08-06T18:16:14.768Z"
+    },
+    {
       "articleType": "investigation",
       "authors": [
         "Boho News Investigations Desk"
@@ -8306,6 +8455,156 @@
       "updatedAt": "2026-07-26T21:22:56.706315Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A House bill aimed at programs with expired appropriations authorizations would change congressional budget rules without significantly changing federal spending immediately, according to the Congressional Budget Office.\n\nH.R. 143 would establish a three-year schedule reducing aggregate spending levels in the congressional budget resolution when programs continue without a current authorization of appropriations. It also would restrict the purposes for which funding can be obligated after more than two fiscal years.\n\nCBO expects no significant near-term spending effect because aggregate spending levels for fiscal 2026 are already set. Beyond that year, actual changes would depend on future appropriations decisions rather than occurring automatically from the cost estimate.\n\nThe distinction between authorization and appropriation is central. An authorization can create or continue a program and set expected funding levels; an appropriations act supplies money. Expiration of an explicit appropriations authorization does not necessarily end the underlying authority to operate.\n\nCBO’s reference inventory shows the scale: 1,326 authorizations expired before fiscal 2025, another 304 were set to expire during fiscal 2025, and $500 billion in 2025 appropriations was associated with 457 expired authorizations.\n\nThose counts are not a finding that $500 billion was unlawfully spent. Congressional rules often govern how appropriations lacking current authorizations are considered, and lawmakers can waive or suspend procedural restrictions.\n\nThe budget office estimated that administrative work for CBO and congressional budget committees would cost less than $500,000 from 2026 through 2031, subject to appropriation. It found no significant direct-spending or revenue effect.\n\nSupporters can describe the bill as an accountability mechanism because it creates consequences for long-lapsed authorizations. Critics can still question whether across-the-board budget reductions reflect program performance or merely legislative backlog.\n\nThe cost estimate resolves a narrower question: the bill does not itself specify large immediate cuts. Its fiscal effect depends on how later Congresses apply budget levels, reauthorize programs and enact appropriations.",
+      "bodyBlocks": [
+        {
+          "text": "A House bill aimed at programs with expired appropriations authorizations would change congressional budget rules without significantly changing federal spending immediately, according to the Congressional Budget Office.",
+          "type": "paragraph"
+        },
+        {
+          "text": "H.R. 143 would establish a three-year schedule reducing aggregate spending levels in the congressional budget resolution when programs continue without a current authorization of appropriations. It also would restrict the purposes for which funding can be obligated after more than two fiscal years.",
+          "type": "paragraph"
+        },
+        {
+          "text": "CBO expects no significant near-term spending effect because aggregate spending levels for fiscal 2026 are already set. Beyond that year, actual changes would depend on future appropriations decisions rather than occurring automatically from the cost estimate.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic explains a three-year budget-reduction schedule, obligation limits and dependence on future appropriations.",
+          "caption": "CBO says the bill changes budget rules but actual spending effects still depend on future appropriations.",
+          "credit": "Boho News graphic from CBO",
+          "height": 900,
+          "rightsId": "media-cbo-hr143-schedule-2026",
+          "sourceUrl": "https://www.cbo.gov/publication/62220",
+          "src": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-hr143-schedule-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The distinction between authorization and appropriation is central. An authorization can create or continue a program and set expected funding levels; an appropriations act supplies money. Expiration of an explicit appropriations authorization does not necessarily end the underlying authority to operate.",
+          "type": "paragraph"
+        },
+        {
+          "text": "CBO’s reference inventory shows the scale: 1,326 authorizations expired before fiscal 2025, another 304 were set to expire during fiscal 2025, and $500 billion in 2025 appropriations was associated with 457 expired authorizations.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Those counts are not a finding that $500 billion was unlawfully spent. Congressional rules often govern how appropriations lacking current authorizations are considered, and lawmakers can waive or suspend procedural restrictions.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 1,326 expired authorizations, 304 expiring and $500 billion tied to 457 expired authorizations.",
+          "caption": "CBO used its fiscal 2025 inventory to explain the scale of authorizations at issue.",
+          "credit": "Boho News graphic from CBO",
+          "height": 900,
+          "rightsId": "media-cbo-expired-authorizations-2025",
+          "sourceUrl": "https://www.cbo.gov/publication/62220",
+          "src": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-expired-authorizations-2025/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The budget office estimated that administrative work for CBO and congressional budget committees would cost less than $500,000 from 2026 through 2031, subject to appropriation. It found no significant direct-spending or revenue effect.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Supporters can describe the bill as an accountability mechanism because it creates consequences for long-lapsed authorizations. Critics can still question whether across-the-board budget reductions reflect program performance or merely legislative backlog.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The cost estimate resolves a narrower question: the bill does not itself specify large immediate cuts. Its fiscal effect depends on how later Congresses apply budget levels, reauthorize programs and enact appropriations.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/hr-143-unauthorized-spending-cbo-estimate-2026/",
+      "citations": [
+        {
+          "id": "source-cbo-hr143-20260313",
+          "publishedAt": "2026-03-13T12:00:00Z",
+          "publisher": "Congressional Budget Office",
+          "title": "H.R. 143, Unauthorized Spending Accountability Act",
+          "url": "https://www.cbo.gov/publication/62220"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "H.R. 143 would establish a three-year schedule reducing aggregate budget-resolution spending levels for programs lacking appropriations authorization.",
+        "The bill would limit purposes for which funding could be obligated after more than two fiscal years without authorization.",
+        "CBO expects no significant federal spending effect because 2026 aggregate levels are set and later changes depend on appropriations.",
+        "CBO identified 1,326 authorizations expired before fiscal 2025 and 304 set to expire during fiscal 2025.",
+        "CBO associated $500 billion in fiscal 2025 appropriations with 457 expired authorizations.",
+        "CBO estimated administrative costs under $500,000 from 2026 through 2031."
+      ],
+      "corrections": [],
+      "dek": "The bill would reduce budget-resolution levels for long-unauthorized programs, but CBO says appropriations decisions still control actual spending.",
+      "desk": "congressional-budget-rules",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Congressional Budget Office",
+        "House Committee on Oversight and Government Reform",
+        "U.S. Congress"
+      ],
+      "eventId": "event-hr-143-unauthorized-spending-cbo-estimate-2026",
+      "headline": "CBO Says H.R. 143 Would Change Budget Rules, Not Spending Immediately",
+      "id": "article-hr-143-unauthorized-spending-cbo-estimate-2026",
+      "leadImage": {
+        "alt": "National Guard members stand on the U.S. Capitol dome overlooking Washington.",
+        "caption": "National Guard members stand on the Capitol dome in 2021. H.R. 143 would link budget-resolution reductions to programs operating under expired appropriations authorizations.",
+        "credit": "Andrew Enriquez/D.C. National Guard",
+        "height": 900,
+        "rightsId": "media-us-capitol-dome-2021",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/us-capitol-dome-2021/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T18:16:14.768Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t172627z-1a9417d13ab5-792566236080",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "CBO says H.R. 143 changes budget rules for programs with expired authorizations but would not significantly alter spending immediately.",
+        "index": true,
+        "title": "H.R. 143 Unauthorized Spending Accountability Act CBO"
+      },
+      "section": "politics",
+      "slug": "hr-143-unauthorized-spending-cbo-estimate-2026",
+      "social": {
+        "description": "The bill would reduce budget-resolution levels for long-unauthorized programs, but CBO says appropriations decisions still control actual spending.",
+        "image": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/us-capitol-dome-2021/open-graph.webp",
+        "title": "Expired authorization is not the same thing as an unfunded or illegal program"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "H.R. 143",
+        "Federal budget",
+        "Congress",
+        "Appropriations",
+        "Program authorizations",
+        "CBO cost estimates"
+      ],
+      "uncertainty": [
+        "CBO’s figures describe authorizations and appropriations, not a finding that the underlying programs lack legal authority to operate.",
+        "Future spending effects depend on congressional budget and appropriations choices after enactment."
+      ],
+      "updatedAt": "2026-08-06T18:16:14.768Z"
+    },
+    {
       "articleType": "explainer",
       "authors": [
         "Boho News Weather Desk"
@@ -11868,6 +12167,160 @@
       "authors": [
         "Boho News Staff"
       ],
+      "body": "NASA’s latest Earth indicator puts global mean sea-level change at 102.4 millimeters above its 1993 reference, with stated uncertainty of plus or minus 4.0 millimeters.\n\nThe agency describes the long-term rise as about 3.6 inches since satellite measurements began in 1993. The metric integrates observations from multiple altimetry missions rather than a single coastal gauge.\n\nNASA attributes about two-thirds of current global rise to melting land ice and roughly one-third to thermal expansion as ocean water warms. Both mechanisms add height, but only melting glaciers and ice sheets add new water to the ocean.\n\nThe record includes seasonal movement. Water cycles between ocean and land through rain and snow, creating short-term rises and falls around the underlying trend. A single point should therefore be read in the context of the full series.\n\nMission continuity is crucial. Jason-3, Sentinel-6 Michael Freilich and other U.S.-international missions extend a measurement record built across changing spacecraft and instruments.\n\nGlobal mean sea level is not a local flood forecast. Relative sea level at a particular coast can differ because land is rising or sinking, currents redistribute water, and storms, tides and atmospheric pressure create temporary extremes.\n\nThe ±4.0-millimeter range is also part of the result, not an optional footnote. It reflects limits in combining observations into a global estimate and means the displayed decimal should not be treated as perfectly exact.\n\nFor coastal planning, the global indicator supplies a common baseline. Engineers and communities still need local elevation, subsidence, tide and storm-surge data to design defenses or decide where adaptation is most urgent.\n\nThe signal is nonetheless unambiguous at the scale NASA reports: satellites have measured a multidecade rise. The accountability question now is whether infrastructure and land-use decisions use both that global trend and the local conditions that determine actual risk.\n\nNASA publishes the indicator and mission context openly, allowing future updates to be compared with the same documented measurement series.",
+      "bodyBlocks": [
+        {
+          "text": "NASA’s latest Earth indicator puts global mean sea-level change at 102.4 millimeters above its 1993 reference, with stated uncertainty of plus or minus 4.0 millimeters.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The agency describes the long-term rise as about 3.6 inches since satellite measurements began in 1993. The metric integrates observations from multiple altimetry missions rather than a single coastal gauge.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NASA attributes about two-thirds of current global rise to melting land ice and roughly one-third to thermal expansion as ocean water warms. Both mechanisms add height, but only melting glaciers and ice sheets add new water to the ocean.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 102.4 millimeters with plus or minus 4.0 millimeters uncertainty and about 3.6 inches since 1993.",
+          "caption": "NASA’s July 2026 Earth indicator tracks global mean sea-level change from satellite altimetry.",
+          "credit": "Boho News graphic from NASA",
+          "height": 900,
+          "rightsId": "media-nasa-sea-level-measurement-2026",
+          "sourceUrl": "https://science.nasa.gov/earth/explore/earth-indicators/sea-leve/",
+          "src": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-measurement-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The record includes seasonal movement. Water cycles between ocean and land through rain and snow, creating short-term rises and falls around the underlying trend. A single point should therefore be read in the context of the full series.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Mission continuity is crucial. Jason-3, Sentinel-6 Michael Freilich and other U.S.-international missions extend a measurement record built across changing spacecraft and instruments.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Global mean sea level is not a local flood forecast. Relative sea level at a particular coast can differ because land is rising or sinking, currents redistribute water, and storms, tides and atmospheric pressure create temporary extremes.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic attributes about two-thirds of current rise to melting land ice and one-third to ocean warming.",
+          "caption": "NASA identifies melting land ice and thermal expansion as the two main physical drivers.",
+          "credit": "Boho News graphic from NASA",
+          "height": 900,
+          "rightsId": "media-nasa-sea-level-causes-2026",
+          "sourceUrl": "https://science.nasa.gov/earth/explore/earth-indicators/sea-leve/",
+          "src": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-causes-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The ±4.0-millimeter range is also part of the result, not an optional footnote. It reflects limits in combining observations into a global estimate and means the displayed decimal should not be treated as perfectly exact.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For coastal planning, the global indicator supplies a common baseline. Engineers and communities still need local elevation, subsidence, tide and storm-surge data to design defenses or decide where adaptation is most urgent.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The signal is nonetheless unambiguous at the scale NASA reports: satellites have measured a multidecade rise. The accountability question now is whether infrastructure and land-use decisions use both that global trend and the local conditions that determine actual risk.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NASA publishes the indicator and mission context openly, allowing future updates to be compared with the same documented measurement series.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nasa-global-sea-level-102-4-mm-july-2026/",
+      "citations": [
+        {
+          "id": "source-nasa-sea-level-indicator-20260714",
+          "publishedAt": "2026-07-14T12:00:00Z",
+          "publisher": "NASA Science",
+          "title": "Sea Level — Earth Indicator",
+          "url": "https://science.nasa.gov/earth/explore/earth-indicators/sea-leve/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "NASA’s July 2026 indicator shows 102.4 millimeters of global mean sea-level change with plus or minus 4.0 millimeters uncertainty.",
+        "NASA describes the rise since 1993 as about 3.6 inches.",
+        "About two-thirds of current global sea-level rise is caused by melting land ice.",
+        "About one-third is caused by expansion of seawater as the ocean warms.",
+        "The indicator is based on integrated multi-mission satellite altimetry.",
+        "The record includes a seasonal cycle as water moves between ocean and land."
+      ],
+      "corrections": [],
+      "dek": "The July indicator carries ±4.0 millimeters of uncertainty and attributes roughly two-thirds of current rise to melting land ice.",
+      "desk": "sea-level-science",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NASA",
+        "Jason-3",
+        "Sentinel-6 Michael Freilich",
+        "Surface Water and Ocean Topography mission"
+      ],
+      "eventId": "event-nasa-global-sea-level-102-4-mm-july-2026",
+      "headline": "NASA Puts Global Sea-Level Rise at 102.4 Millimeters Since 1993",
+      "id": "article-nasa-global-sea-level-102-4-mm-july-2026",
+      "leadImage": {
+        "alt": "Volunteers build a living shoreline with oyster-shell bags beside coastal water.",
+        "caption": "Volunteers place oyster-shell bags at MacDill Air Force Base in 2026. NASA’s satellite indicator measures the global ocean signal that coastal projects must translate into local planning.",
+        "credit": "Monique Stober/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-macdill-living-shoreline-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/macdill-living-shoreline-2026/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Worldwide"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T18:16:14.768Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t172627z-1a9417d13ab5-792566236080",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NASA’s July 2026 indicator shows global sea level 102.4 mm above the 1993 baseline, with ±4.0 mm uncertainty.",
+        "index": true,
+        "title": "NASA global sea level 102.4 mm July 2026"
+      },
+      "section": "weather-climate",
+      "slug": "nasa-global-sea-level-102-4-mm-july-2026",
+      "social": {
+        "description": "The July indicator carries ±4.0 millimeters of uncertainty and attributes roughly two-thirds of current rise to melting land ice.",
+        "image": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/macdill-living-shoreline-2026/open-graph.webp",
+        "title": "NASA’s sea-level indicator crosses 102 millimeters above 1993"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Sea-level rise",
+        "Climate indicators",
+        "Satellite altimetry",
+        "Ocean warming",
+        "Ice melt",
+        "Coastal resilience"
+      ],
+      "uncertainty": [
+        "The indicator is global mean sea level; local relative sea level can differ because of land motion, currents and regional ocean conditions.",
+        "The latest value includes a stated measurement uncertainty and may be refined as the record is updated."
+      ],
+      "updatedAt": "2026-08-06T18:16:14.768Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
       "body": "Four commercial lunar landers are moving through assembly and ground tests as NASA tries to turn a sequence of one-off Moon missions into a repeatable cargo network. The most important word in that sentence is “tries”: none of the milestones NASA detailed Tuesday is a completed delivery.\n\nNASA’s Aug. 4 update says Blue Origin, Firefly Aerospace, Intuitive Machines and Voyager Technologies are working toward lander flights by 2028. The agency’s first phase, running through 2029, calls for more than 20 robotic landings, with successive missions testing systems and placing instruments before additional human operations near the lunar south pole.\n\nThe update supplies an unusually useful snapshot of what is actually built, what is being tested and what still has to happen. It also shows why a launch target should not be confused with a delivery: each vehicle still faces integration, environmental or propulsion work before it can leave Earth.\n\nBlue Origin’s uncrewed Blue Moon Mark 1, named Endurance, completed an environmental campaign in NASA Johnson’s Thermal Vacuum Chamber A. The chamber recreated vacuum and extreme temperatures so engineers could evaluate structural and thermal performance before launch.\n\nNASA says the lander’s structure, propulsion elements and avionics are fully assembled. It has completed communications checkouts with the Tracking and Data Relay Satellite System and Deep Space Network. The next major test NASA identified is loading cryogenic propellants.\n\nEndurance is intended to demonstrate precision landing, cryogenic propulsion and autonomous guidance, navigation and control. NASA has assigned two payloads: cameras to observe how the engine plume interacts with lunar soil and a laser retroreflector that orbiting spacecraft can use for precise position measurements.\n\nFirefly’s Blue Ghost Mission 2 pairs a lander with the Elytra orbital spacecraft in a stack NASA says is 22 feet tall—nearly three times the height of the company’s first Blue Ghost vehicle. The mission is planned for the Moon’s far side and is slated to carry three NASA payloads. Far-side operations also require a communications architecture that does not depend on a direct line to Earth.\n\nIntuitive Machines’ third Nova-C lander, named Trinity, is being assembled alongside Altus-1, the company’s first lunar data-relay satellite. NASA says long-duration thermal-vacuum work on descent sensors is complete; engine integration and hot-fire testing remain. The planned manifest includes three payloads on Altus-1 and, on the surface, five NASA payloads, six commercial payloads and one civil payload.\n\nVoyager’s Griffin-1 is undergoing environmental testing at NASA’s Jet Propulsion Laboratory. NASA says the vehicle recently completed mass-properties testing, data needed for guidance, navigation, control and flight-dynamics models. The lander is planned to carry Astrolab’s FLIP rover with five NASA payloads, then return to Pittsburgh for final assembly after the JPL campaign.\n\nNASA is also working with Northrop Grumman on three surface technology demonstrations derived from power and avionics hardware developed for Gateway’s HALO module. The demonstrations are meant to test survival through long cold periods, shared surface power and supporting avionics.\n\nThose details matter because landing is only the first engineering problem. A durable lunar logistics system has to move payloads, communicate around terrain and the far side, distribute power and keep hardware alive through darkness and temperature swings.\n\nNASA’s schedule remains a planning framework. Launch licensing, integration, test results, launch-provider readiness and lunar conditions can all move individual missions. The concrete news in the Aug. 4 update is the hardware status: one large cargo lander has completed thermal-vacuum testing, another is stacked with an orbiter, a third is in assembly and a fourth is in environmental tests.",
       "bodyBlocks": [
         {
@@ -13921,6 +14374,158 @@
         "The NCAA announcement does not specify approved product brands or a complete technical equipment standard."
       ],
       "updatedAt": "2026-08-06T00:28:51.995Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "NCAA men’s basketball officials will call a 10-second backcourt violation when the shot clock reaches 19 seconds rather than 20 during the 2026–27 season, a clarification designed for clocks that display tenths of a second.\n\nThe rule itself still gives an offense 10 seconds to advance the ball from the backcourt. The administrative marker changes because a display can show 20.9 seconds after ten full seconds have elapsed from a 30-second starting point. Waiting for a visible 20 could add time.\n\nThe committees approved a second timing adjustment for broadcasts. When two media timeouts would otherwise occur consecutively, the game clock must run before the second timeout can be granted.\n\nThat change addresses a presentation problem rather than adding playing time. It prevents back-to-back scheduled stoppages with no live game action separating them.\n\nPreseason exhibitions and public scrimmages must be conducted under NCAA playing rules. The committees also identified post-play physicality, offensive three-second violations, freedom of movement and traveling as enforcement priorities.\n\nPoints of emphasis are not new rule text. They tell officials and teams where existing rules should receive particular attention, often after committees observe inconsistent enforcement or strategic exploitation.\n\nThe groups discussed broader ideas including a four-quarter format and possible changes to team-foul resets, but the announcement describes those as subjects for continued evaluation rather than approved changes.\n\nThat distinction matters for teams planning the season. The actionable changes are the 19-second backcourt marker, the requirement for game time between consecutive media timeouts and standard rule compliance in exhibitions.\n\nFor viewers, the backcourt call may initially look early if the display is read only as a whole number. The NCAA’s explanation is that the 19-second threshold makes the visible clock match ten fully elapsed seconds when tenths are counted.\n\nThe narrow package adjusts administration where technology creates ambiguity, while larger format changes remain under study rather than in the rulebook.",
+      "bodyBlocks": [
+        {
+          "text": "NCAA men’s basketball officials will call a 10-second backcourt violation when the shot clock reaches 19 seconds rather than 20 during the 2026–27 season, a clarification designed for clocks that display tenths of a second.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The rule itself still gives an offense 10 seconds to advance the ball from the backcourt. The administrative marker changes because a display can show 20.9 seconds after ten full seconds have elapsed from a 30-second starting point. Waiting for a visible 20 could add time.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The committees approved a second timing adjustment for broadcasts. When two media timeouts would otherwise occur consecutively, the game clock must run before the second timeout can be granted.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic explains the 19-second backcourt threshold and requirement that the game clock run between consecutive media timeouts.",
+          "caption": "Two timing clarifications adjust how officials administer the 10-second count and media timeouts.",
+          "credit": "Boho News graphic from NCAA",
+          "height": 900,
+          "rightsId": "media-ncaa-basketball-timing-2026",
+          "sourceUrl": "https://www.ncaa.org/media-center-mens-basketball-rules-committees-discuss-state-of-the-game/",
+          "src": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-timing-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "That change addresses a presentation problem rather than adding playing time. It prevents back-to-back scheduled stoppages with no live game action separating them.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Preseason exhibitions and public scrimmages must be conducted under NCAA playing rules. The committees also identified post-play physicality, offensive three-second violations, freedom of movement and traveling as enforcement priorities.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Points of emphasis are not new rule text. They tell officials and teams where existing rules should receive particular attention, often after committees observe inconsistent enforcement or strategic exploitation.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists post physicality, offensive three seconds, freedom of movement and traveling.",
+          "caption": "Officials will emphasize four recurring areas during the 2026–27 men’s basketball season.",
+          "credit": "Boho News graphic from NCAA",
+          "height": 900,
+          "rightsId": "media-ncaa-basketball-emphasis-2026",
+          "sourceUrl": "https://www.ncaa.org/media-center-mens-basketball-rules-committees-discuss-state-of-the-game/",
+          "src": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-emphasis-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The groups discussed broader ideas including a four-quarter format and possible changes to team-foul resets, but the announcement describes those as subjects for continued evaluation rather than approved changes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That distinction matters for teams planning the season. The actionable changes are the 19-second backcourt marker, the requirement for game time between consecutive media timeouts and standard rule compliance in exhibitions.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For viewers, the backcourt call may initially look early if the display is read only as a whole number. The NCAA’s explanation is that the 19-second threshold makes the visible clock match ten fully elapsed seconds when tenths are counted.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The narrow package adjusts administration where technology creates ambiguity, while larger format changes remain under study rather than in the rulebook.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/ncaa-mens-basketball-2026-27-timing-rules/",
+      "citations": [
+        {
+          "id": "source-ncaa-mens-basketball-20260508",
+          "publishedAt": "2026-05-08T12:00:00Z",
+          "publisher": "NCAA",
+          "title": "Men’s basketball rules committees discuss state of the game",
+          "url": "https://www.ncaa.org/media-center-mens-basketball-rules-committees-discuss-state-of-the-game/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Officials will call a 10-second backcourt violation when the shot clock reaches 19 seconds rather than 20.",
+        "The change aligns administration with shot clocks that display tenths of a second.",
+        "When two media timeouts would otherwise occur consecutively, the game clock must run before the second timeout.",
+        "Preseason exhibitions and public scrimmages must follow NCAA playing rules.",
+        "Points of emphasis include post physicality, offensive three-second violations, freedom of movement and traveling."
+      ],
+      "corrections": [],
+      "dek": "The 2026–27 clarification accounts for tenths of a second; a second approved change prevents consecutive media timeouts without game time.",
+      "desk": "college-basketball-rules",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NCAA",
+        "Division I Men’s Basketball Rules Subcommittee",
+        "Division II and III Men’s Basketball Rules Committee"
+      ],
+      "eventId": "event-ncaa-mens-basketball-2026-27-timing-rules",
+      "headline": "NCAA Men’s Basketball Moves Backcourt Call to 19 on Shot Clock",
+      "id": "article-ncaa-mens-basketball-2026-27-timing-rules",
+      "leadImage": {
+        "alt": "An Air Force basketball player rises for a dunk during a game at Clune Arena.",
+        "caption": "An Air Force player attempts a dunk against Miami University in 2025. NCAA men’s basketball rules committees approved two timing clarifications for 2026–27.",
+        "credit": "Ray Bahner/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-air-force-basketball-dunk-2025",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/air-force-basketball-dunk-2025/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T18:16:14.768Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t172627z-1a9417d13ab5-792566236080",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NCAA men’s basketball moves the 10-second backcourt call to 19 on the shot clock and changes consecutive media-timeout administration.",
+        "index": true,
+        "title": "NCAA men’s basketball 2026-27 timing rules"
+      },
+      "section": "sports",
+      "slug": "ncaa-mens-basketball-2026-27-timing-rules",
+      "social": {
+        "description": "The 2026–27 clarification accounts for tenths of a second; a second approved change prevents consecutive media timeouts without game time.",
+        "image": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/air-force-basketball-dunk-2025/open-graph.webp",
+        "title": "Why the men’s basketball backcourt call now comes at 19"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Men’s basketball",
+        "NCAA rules",
+        "Shot clock",
+        "Backcourt violations",
+        "Media timeouts",
+        "Officiating"
+      ],
+      "uncertainty": [
+        "The committees discussed larger structural ideas such as four quarters but did not approve them in this action.",
+        "Points of emphasis guide enforcement; they are not new rule text by themselves."
+      ],
+      "updatedAt": "2026-08-06T18:16:14.768Z"
     },
     {
       "articleType": "news-report",
@@ -19792,6 +20397,306 @@
       "updatedAt": "2026-07-26T21:22:56.706315Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The World Health Organization has updated its dementia risk-reduction guidance, saying up to 45% of risk can be attributed to modifiable factors across the life course.\n\nThat figure is a population estimate, not a promise that an individual can prevent dementia. More than 57 million people live with the condition worldwide, and nearly 10 million are newly diagnosed each year.\n\nThe guideline recommends familiar health behaviors—physical activity, stopping tobacco use, reducing alcohol consumption and eating a healthy diet—alongside cognitive stimulation and social engagement for adults with normal cognition or mild cognitive impairment.\n\nIt also emphasizes medical risk management. Treating hypertension, diabetes and high cholesterol can reduce risks that affect both cardiovascular and brain health. Hearing aids may be offered as part of a broader strategy.\n\nA new recommendation addresses air pollution, extending the guidance beyond clinical care and personal habits. Exposure depends partly on housing, transportation and environmental policy, so not every risk can be managed by individual choice.\n\nWHO explicitly rejects several shortcuts. In the absence of a diagnosed deficiency, it does not recommend vitamins B or E, omega-3 polyunsaturated fatty acids, or multivitamin and mineral supplements for reducing cognitive decline or dementia risk.\n\nThe organization estimates dementia’s annual global economic cost at $1.3 trillion, about half driven by unpaid care from families and friends. That burden gives prevention policy significance even when no intervention eliminates risk.\n\nThe updated edition expands the evidence base used in WHO’s 2019 guidance and adds environmental exposure and tailored multidomain interventions. It also identifies areas where evidence remains insufficient.\n\nFor readers, the practical lesson is modest rather than magical: risk can be shifted through sustained health, social and environmental measures, but cognitive symptoms still warrant professional evaluation and risk reduction does not equal a cure.\n\nBecause the guideline targets health systems as well as clinicians, implementation also depends on whether services and environmental policies make recommended options realistically available.",
+      "bodyBlocks": [
+        {
+          "text": "The World Health Organization has updated its dementia risk-reduction guidance, saying up to 45% of risk can be attributed to modifiable factors across the life course.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That figure is a population estimate, not a promise that an individual can prevent dementia. More than 57 million people live with the condition worldwide, and nearly 10 million are newly diagnosed each year.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The guideline recommends familiar health behaviors—physical activity, stopping tobacco use, reducing alcohol consumption and eating a healthy diet—alongside cognitive stimulation and social engagement for adults with normal cognition or mild cognitive impairment.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows up to 45% modifiable risk, more than 57 million people living with dementia and nearly 10 million new diagnoses yearly.",
+          "caption": "WHO’s updated guidance frames dementia risk reduction as a population health strategy.",
+          "credit": "Boho News graphic from WHO",
+          "height": 900,
+          "rightsId": "media-who-dementia-risk-2026",
+          "sourceUrl": "https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed",
+          "src": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-risk-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "It also emphasizes medical risk management. Treating hypertension, diabetes and high cholesterol can reduce risks that affect both cardiovascular and brain health. Hearing aids may be offered as part of a broader strategy.",
+          "type": "paragraph"
+        },
+        {
+          "text": "A new recommendation addresses air pollution, extending the guidance beyond clinical care and personal habits. Exposure depends partly on housing, transportation and environmental policy, so not every risk can be managed by individual choice.",
+          "type": "paragraph"
+        },
+        {
+          "text": "WHO explicitly rejects several shortcuts. In the absence of a diagnosed deficiency, it does not recommend vitamins B or E, omega-3 polyunsaturated fatty acids, or multivitamin and mineral supplements for reducing cognitive decline or dementia risk.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists health behaviors, condition management and a warning against supplements without deficiency.",
+          "caption": "WHO recommends evidence-based risk reduction and rejects several supplement shortcuts.",
+          "credit": "Boho News graphic from WHO",
+          "height": 900,
+          "rightsId": "media-who-dementia-actions-2026",
+          "sourceUrl": "https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed",
+          "src": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-actions-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The organization estimates dementia’s annual global economic cost at $1.3 trillion, about half driven by unpaid care from families and friends. That burden gives prevention policy significance even when no intervention eliminates risk.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The updated edition expands the evidence base used in WHO’s 2019 guidance and adds environmental exposure and tailored multidomain interventions. It also identifies areas where evidence remains insufficient.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For readers, the practical lesson is modest rather than magical: risk can be shifted through sustained health, social and environmental measures, but cognitive symptoms still warrant professional evaluation and risk reduction does not equal a cure.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Because the guideline targets health systems as well as clinicians, implementation also depends on whether services and environmental policies make recommended options realistically available.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/who-dementia-risk-reduction-guidelines-2026/",
+      "citations": [
+        {
+          "id": "source-who-dementia-guidelines-20260715",
+          "publishedAt": "2026-07-15T12:00:00Z",
+          "publisher": "World Health Organization",
+          "title": "New WHO guidelines: up to 45% of dementia risk could be prevented or delayed",
+          "url": "https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "More than 57 million people live with dementia worldwide and nearly 10 million are newly diagnosed each year.",
+        "WHO says up to 45 percent of dementia risk can be attributed to modifiable factors.",
+        "The guideline recommends physical activity, tobacco cessation, reduced alcohol use, a healthy diet and social and cognitive engagement.",
+        "Managing hypertension, diabetes and high cholesterol can help reduce risk.",
+        "Hearing aids may be offered as part of risk-reduction strategies.",
+        "WHO does not recommend B or E vitamins, omega-3 supplements or multivitamins without diagnosed deficiency for dementia risk reduction."
+      ],
+      "corrections": [],
+      "dek": "The recommendations emphasize physical and social activity, tobacco and alcohol reduction, cardiometabolic care, hearing support and less air-pollution exposure.",
+      "desk": "brain-health",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Health Organization"
+      ],
+      "eventId": "event-who-dementia-risk-reduction-guidelines-2026",
+      "headline": "WHO Updates Dementia Guidance: Up to 45% of Risk Is Modifiable",
+      "id": "article-who-dementia-risk-reduction-guidelines-2026",
+      "leadImage": {
+        "alt": "A health technician guides a patient through a block-design cognitive assessment.",
+        "caption": "A technician conducts a cognitive assessment at Naval Hospital Jacksonville in 2017. WHO’s new guideline focuses on reducing modifiable dementia risks across the life course.",
+        "credit": "Jacob Sippel/U.S. Navy",
+        "height": 900,
+        "rightsId": "media-naval-hospital-brain-assessment-2017",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/naval-hospital-brain-assessment-2017/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Worldwide"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T18:16:14.768Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t172627z-1a9417d13ab5-792566236080",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "WHO says up to 45% of dementia risk is modifiable and updates guidance on activity, health conditions, hearing, pollution and supplements.",
+        "index": true,
+        "title": "WHO dementia risk reduction guidelines 2026"
+      },
+      "section": "health-science",
+      "slug": "who-dementia-risk-reduction-guidelines-2026",
+      "social": {
+        "description": "The recommendations emphasize physical and social activity, tobacco and alcohol reduction, cardiometabolic care, hearing support and less air-pollution exposure.",
+        "image": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/naval-hospital-brain-assessment-2017/open-graph.webp",
+        "title": "WHO’s dementia update separates supported prevention from supplement hype"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Dementia",
+        "Brain health",
+        "Risk reduction",
+        "Public health guidance",
+        "Healthy aging",
+        "Air pollution"
+      ],
+      "uncertainty": [
+        "A modifiable population share does not mean any individual can prevent dementia with certainty.",
+        "Risk-reduction recommendations do not replace evaluation or treatment for cognitive symptoms or diagnosed disease."
+      ],
+      "updatedAt": "2026-08-06T18:16:14.768Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The World Health Organization has launched a seven-part policy package to reduce drowning, a preventable cause of nearly 300,000 deaths worldwide each year.\n\nCalled PROTECT, the package moves beyond a single intervention such as swimming lessons. It combines physical infrastructure, rescue and resuscitation, occupational safeguards, water-transport standards, swimming education, child-care systems and preparation for floods and other hazards.\n\nMore than 90% of drowning deaths occur in low- and middle-income countries, WHO said. Drowning also remains among the ten leading causes of death for children ages 5 to 14, placing the problem at the intersection of public health, transportation and child safety.\n\nThe infrastructure component covers safer interaction with water. The transport component addresses standards for travel by boat, while occupational rules focus on people whose work regularly exposes them to water.\n\nSkills remain central. WHO includes bystander and professional rescue capacity, resuscitation and basic swimming and water-safety education. Child-care and safeguarding policies are treated as a distinct layer because supervision failures can turn ordinary household or community water into a hazard.\n\nThe final component is threat preparedness. Floods, storms and other hazards can expose entire communities at once, and WHO says climate change is increasing that risk. The framework therefore links emergency planning with routine prevention.\n\nWHO launched the package in Ghana, where it estimates about 1,100 drowning deaths a year—roughly three each day—with children and young adults disproportionately affected. The location highlights the burden but does not make the guidance Ghana-only.\n\nA technical package is not evidence that deaths have already fallen. Governments still must adapt its recommendations, fund services, enforce transport and workplace rules, and measure outcomes consistently.\n\nPROTECT’s main contribution is organizational: it makes drowning a systems problem rather than an isolated accident. That creates a clearer accountability test—whether countries build coverage across all seven domains and whether mortality declines where implementation is sustained.",
+      "bodyBlocks": [
+        {
+          "text": "The World Health Organization has launched a seven-part policy package to reduce drowning, a preventable cause of nearly 300,000 deaths worldwide each year.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Called PROTECT, the package moves beyond a single intervention such as swimming lessons. It combines physical infrastructure, rescue and resuscitation, occupational safeguards, water-transport standards, swimming education, child-care systems and preparation for floods and other hazards.",
+          "type": "paragraph"
+        },
+        {
+          "text": "More than 90% of drowning deaths occur in low- and middle-income countries, WHO said. Drowning also remains among the ten leading causes of death for children ages 5 to 14, placing the problem at the intersection of public health, transportation and child safety.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic states that nearly 300,000 people die from drowning annually, more than 90% in lower-income countries.",
+          "caption": "WHO describes drowning as a preventable crisis concentrated in low- and middle-income countries.",
+          "credit": "Boho News graphic from WHO",
+          "height": 900,
+          "rightsId": "media-who-drowning-scale-2026",
+          "sourceUrl": "https://www.who.int/news/item/23-07-2026-who-launches-seven-strategies-to-prevent-drowning",
+          "src": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-drowning-scale-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The infrastructure component covers safer interaction with water. The transport component addresses standards for travel by boat, while occupational rules focus on people whose work regularly exposes them to water.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Skills remain central. WHO includes bystander and professional rescue capacity, resuscitation and basic swimming and water-safety education. Child-care and safeguarding policies are treated as a distinct layer because supervision failures can turn ordinary household or community water into a hazard.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The final component is threat preparedness. Floods, storms and other hazards can expose entire communities at once, and WHO says climate change is increasing that risk. The framework therefore links emergency planning with routine prevention.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic groups WHO’s seven strategies into safer environments, skills and care, and hazard preparedness.",
+          "caption": "The PROTECT package calls for connected policy across infrastructure, rescue, transport, education, child care and flood preparedness.",
+          "credit": "Boho News graphic from WHO",
+          "height": 900,
+          "rightsId": "media-who-protect-strategies-2026",
+          "sourceUrl": "https://www.who.int/news/item/23-07-2026-who-launches-seven-strategies-to-prevent-drowning",
+          "src": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-protect-strategies-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "WHO launched the package in Ghana, where it estimates about 1,100 drowning deaths a year—roughly three each day—with children and young adults disproportionately affected. The location highlights the burden but does not make the guidance Ghana-only.",
+          "type": "paragraph"
+        },
+        {
+          "text": "A technical package is not evidence that deaths have already fallen. Governments still must adapt its recommendations, fund services, enforce transport and workplace rules, and measure outcomes consistently.",
+          "type": "paragraph"
+        },
+        {
+          "text": "PROTECT’s main contribution is organizational: it makes drowning a systems problem rather than an isolated accident. That creates a clearer accountability test—whether countries build coverage across all seven domains and whether mortality declines where implementation is sustained.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/who-protect-drowning-prevention-strategies-2026/",
+      "citations": [
+        {
+          "id": "source-who-drowning-protect-20260723",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "World Health Organization",
+          "title": "WHO launches seven strategies to prevent drowning",
+          "url": "https://www.who.int/news/item/23-07-2026-who-launches-seven-strategies-to-prevent-drowning"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Nearly 300,000 people die from drowning worldwide each year.",
+        "More than 90 percent of drowning deaths occur in low- and middle-income countries.",
+        "Drowning is among the ten leading causes of death for children ages 5 through 14.",
+        "WHO’s PROTECT package contains seven connected prevention strategies.",
+        "WHO says an estimated 1,100 people die from drowning annually in Ghana.",
+        "The technical package addresses infrastructure, rescue, work, transport, education, child care and hazard preparedness."
+      ],
+      "corrections": [],
+      "dek": "The PROTECT package links safer infrastructure and water transport with rescue skills, swimming education, child care and flood preparedness.",
+      "desk": "global-health-policy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Health Organization",
+        "Global Alliance for Drowning Prevention"
+      ],
+      "eventId": "event-who-protect-drowning-prevention-strategies-2026",
+      "headline": "WHO’s Seven-Part Drowning Plan Targets Nearly 300,000 Annual Deaths",
+      "id": "article-who-protect-drowning-prevention-strategies-2026",
+      "leadImage": {
+        "alt": "Two lifeguards operate a rescue watercraft through open water.",
+        "caption": "Lifeguards train with a rescue watercraft in Hawaii in 2024. WHO’s PROTECT package treats rescue capability as one part of a seven-part prevention system.",
+        "credit": "Samuel Estridge/U.S. Marine Corps",
+        "height": 900,
+        "rightsId": "media-dvids-lifeguard-rescue-watercraft-2024",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/dvids-lifeguard-rescue-watercraft-2024/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Worldwide",
+        "Ghana"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T18:16:14.768Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t172627z-1a9417d13ab5-792566236080",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "WHO launches seven PROTECT strategies to prevent nearly 300,000 annual drowning deaths worldwide.",
+        "index": true,
+        "title": "WHO PROTECT drowning prevention strategies 2026"
+      },
+      "section": "world",
+      "slug": "who-protect-drowning-prevention-strategies-2026",
+      "social": {
+        "description": "The PROTECT package links safer infrastructure and water transport with rescue skills, swimming education, child care and flood preparedness.",
+        "image": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/dvids-lifeguard-rescue-watercraft-2024/open-graph.webp",
+        "title": "WHO turns drowning prevention into a seven-part policy system"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Drowning prevention",
+        "Water safety",
+        "Public health",
+        "Climate adaptation",
+        "Child safety",
+        "Emergency preparedness"
+      ],
+      "uncertainty": [
+        "Global and country estimates are modeled public-health measures and may be revised as reporting improves.",
+        "The technical package supplies policy guidance; results depend on country-level adoption, enforcement and resources."
+      ],
+      "updatedAt": "2026-08-06T18:16:14.768Z"
+    },
+    {
       "articleType": "data-report",
       "authors": [
         "Boho News Staff"
@@ -21196,22 +22101,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T16:58:48Z",
+  "generatedAt": "2026-08-06T18:17:10Z",
   "inputHashes": {
-    "approvals": "7cd0b0767a7dfc34ab6d2b3bfc500c3e08c828d005725b7e2506e56742e93285",
-    "articles": "dcd8dbece62e620dcb9c0f680f56f3f27fd525dac244df075d71b0c264f27c62",
-    "claims": "f82a31b6cd4fc483bd02b033ff513e3b72a67aa8d8adb6e0e958d0d7e6f4cb5b",
+    "approvals": "75f65b6a8f1142348bb27f1e3eaa11a3d3f2971f7152bf4af7558801e527dd21",
+    "articles": "7018ddf3df53bc13fb6e40739b1907a7a82e86ece4251abcefaf67add8df10b7",
+    "claims": "3413397e78284b68dcedcfbaf5df6fe5a25b9fd52ba8f5ae09c60118f13d5bcf",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "524ee87e3999c5decfed41588c263c81903c817837a535cdbe7acb3c92ebccec",
-    "mediaRights": "e5ab5e8c79993fbed8b9c06276886b1bc8455e3ca3073b8e3ad5285a96e9b9b1",
-    "publicationIntents": "f26cc3d0bca205066779cbcab7bb7ea09589fbf5f1df0b546ffa8112ca6e5ec1",
-    "releaseRecords": "dbf647118cae142eadb37270b869c793866962977b7bf5b0815115a0100e1596",
-    "sourceItems": "4ed9c20ca68981671be87f7860d6109e0d7ee95cfe8c3db4fd35af8606a4d61f"
+    "events": "9f2719ad34daaab9d7514b9ce9e09edca06d0ea405740b603841bac068709d2f",
+    "mediaRights": "569d70c7d7b25534e91c853b75e461b18ac190fb154f2632f1b248dea2b72c53",
+    "publicationIntents": "d4240af4ea224485b7febb4c61d437212958b37378e2ee45be2b468618732445",
+    "releaseRecords": "c88802b6137ee2c3f0b3bca245d0a5203cd1e2775154231b5592423c404d7fdb",
+    "sourceItems": "ec83b7f3811cb15b83e55adefe314a4c79fd0802be7079297a6902f98ea3373d"
   },
   "inventory": {
-    "articleCount": 111,
-    "mediaCount": 319,
-    "routeCount": 111
+    "articleCount": 117,
+    "mediaCount": 337,
+    "routeCount": 117
   },
   "mediaRights": [
     {
@@ -22875,6 +23780,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "An Air Force basketball player rises for a dunk during a game at Clune Arena.",
+      "archivalStatus": "current",
+      "attribution": "Ray Bahner/U.S. Air Force",
+      "caption": "An Air Force player attempts a dunk against Miami University in 2025. NCAA men’s basketball rules committees approved two timing clarifications for 2026–27.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Ray Bahner, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "e864f7872a8e8f2457f8332236b6c80476abb033edf639cd7a0d32f824312dd3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/air-force-basketball-dunk-2025/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "dae605752b48dd999e120276182937f4d0bf52bcf44313a84234d91d78eaaaf9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/air-force-basketball-dunk-2025/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "fa0d993a9d0a00789298b0a355cf201455f12de2d7ea53adad2529c508e36fd9",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/air-force-basketball-dunk-2025/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "da26d9d2125cc5feea7d23949ef8707a35b78edaf20907fd198ec7759128269d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/air-force-basketball-dunk-2025/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "35471f733d205b3be15d433ed7928327fb8a684373e277ee1440d25dbdc1b1eb",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/air-force-basketball-dunk-2025/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "37eee339bc33ebb5029ddc5b30982077b09d20fdd4f5b9acb39b961ec98f91c8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/air-force-basketball-dunk-2025/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "9081573e194872eb894c2e54146583571cae4a952f560bfca00265767884940d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/air-force-basketball-dunk-2025/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-air-force-basketball-dunk-2025",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "e14fcf36a78b4d306abb0c8a35ed9ce470ab728036d89651075400ae37c71241",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:25:36Z",
+      "rightsBasis": "Official U.S. Air Force photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/9406981/usafa-mens-basketball-vs-miami-university-2025"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Two Air Force information-technology specialists examine equipment in a server room.",
       "archivalStatus": "current",
       "attribution": "Sharon Singleton/U.S. Air Force",
@@ -23629,6 +24610,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows 133,798 federal officers at 88 agencies, including 65,106 at the Department of Homeland Security.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from BJS NCJ 311643",
+      "caption": "Homeland Security employed 49% of the full-time federal law-enforcement officers counted for fiscal 2023.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "b2be5baa05feff1576e7d3a73c3693ba0f83597bc0ab37e2896d0c6468282209",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-count-2023/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "197d585c5bc8c0d1ba411ee45322e66be51eea5a23a92221b435471d25d1399b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-count-2023/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "33707ebf9d4ae8db3905d5fa1add5d99677f18b1d68f9b4c4c94751c47640045",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-count-2023/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c23552fa06fd1677a2f5f15d5e313f17b2c5432e2663a079322f98572229b4dc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-count-2023/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0508b460c4fb072222c9c3c4022c39d2ed65cf3bf71b8479ddcac182feeb4c77",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-count-2023/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e8b7b8cb77fdcb6f51d4ecfc3044931c40df4c627986930de57ce1988d87bcff",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-count-2023/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "99101eddf6c69137e8166e2328891d8f6630428b7d0f9a2379bbb72a0b0f9839",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-count-2023/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-bjs-federal-officers-count-2023",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5728cb85cf5f5b2052f63be6450f4a61ee5cc43c5ddf7eb3db197d2852b0ef3c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bjs.ojp.gov/library/publications/federal-law-enforcement-officers-2023-statistical-tables"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 70% primarily in investigations, 15% women, 57% White, 20% Hispanic or Latino and 10% Black.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from BJS NCJ 311643",
+      "caption": "BJS’s census describes officers’ main functions and demographic composition.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "f42040f0b8830d7ac121769ec6c8a802f8b7e58e7d13494fa541347e4746a267",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-profile-2023/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7eafa045e1478544ec5a0fbce4d11f8bf25968c9907a99ee258d8c9c9763dfff",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-profile-2023/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a0eed8732e6b18a3a6374f2769697b22fab4747da57a8ce183ae4d987cb4a68d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-profile-2023/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "2a8db5ac30a063b3176979d3c0f9f884687fd05514e04ebcea5028363c1ec728",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-profile-2023/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f046f84403b8d0cd24b4c91b39109d222e444e54f0d442e4840125bbc6232024",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-profile-2023/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a3b1a6dc8f3413487159187855a8f5232b7f3ad638361334f7590cb0f1702b45",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-profile-2023/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0025b4a6654f9cfed8920654ee4b6566e593be9129750da3fd69513b6f87cbec",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/bjs-federal-officers-profile-2023/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-bjs-federal-officers-profile-2023",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "19356ad32f62ff86f44bcd1b5128196b89f9ecb65f3fba85ba206241387b33a8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bjs.ojp.gov/library/publications/federal-law-enforcement-officers-2023-statistical-tables"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Bar chart showing 12-month changes of 3.4 percent for total compensation, 3.2 percent for wages and salaries, and 3.8 percent for benefits in June 2026.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic; data: U.S. Bureau of Labor Statistics",
@@ -24079,6 +25212,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows 1,326 expired authorizations, 304 expiring and $500 billion tied to 457 expired authorizations.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from CBO",
+      "caption": "CBO used its fiscal 2025 inventory to explain the scale of authorizations at issue.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "44d486668d2986cbe9ab7ec9c89bc0b5f615768ffe68693d3010f7a731e3d7dc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-expired-authorizations-2025/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1c4b9ce57748bdd80872d9186cfce65462e814313e2e60965d90e78c74afb8d0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-expired-authorizations-2025/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "124a7435bb6c203a2c8ee2ee4b5d2b5be735203c935f3d6bb4b01abd96c13e7f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-expired-authorizations-2025/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "986209fd6dd925876392dfe674560a04f1725844e28bd4b691f0a18d465c8f17",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-expired-authorizations-2025/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c53d513268994adf03d87807c62e32413799794f0bf35e536fc2d65d2b578038",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-expired-authorizations-2025/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d19729aa7ec489978bb6ce8aedd05732d3284130bb0029cca91b61333e6e9721",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-expired-authorizations-2025/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "36266204a7596911b4b46883656c92aebf6df38ecaff7b31843ea9910453af8f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-expired-authorizations-2025/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-expired-authorizations-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d2439a640be4291475817938077540dc6f6a80db41ecaf7a0bbdf395831a2fb4",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/62220"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic explains a three-year budget-reduction schedule, obligation limits and dependence on future appropriations.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from CBO",
+      "caption": "CBO says the bill changes budget rules but actual spending effects still depend on future appropriations.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "150103639b9f944e1844446e3fb33c91c863b2c618d475d2572d6927639a26fd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-hr143-schedule-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a11dc3d7d651bf256d05e4e7ad227a4b1bc4090ec5a9bbcd93862836d51664ea",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-hr143-schedule-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "fb90bcb518725eb559e1eefcc2c614a567c07223759bbb898a132bdeb9bb901f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-hr143-schedule-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c47bfad775abf6f3d6f3db4a465d0136e58f61a0e3c12e93a7aa4d8f09a5961c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-hr143-schedule-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1a203371d27a5d2cf9647ec2096b9279603511a50ebb6b09a8e63dccd1360c47",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-hr143-schedule-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "441de87d1eee4af2451fdea47925daaf9f1a097cff73c7af9960c8d0dd9a8d5f",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-hr143-schedule-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "88443463d8cd0e9cbdde5d2f9be99b0e60ba8ef1e73eeacaf5299b4c9c1f5b90",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/cbo-hr143-schedule-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-hr143-schedule-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8b9f782c75ec116b50ee62fb3de805d4a4cdbc27bd53ce80a00848630df0d331",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/62220"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Graphic shows June exports down $3.8 billion and imports down $8.2 billion.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from Census Bureau data",
@@ -24456,6 +25741,82 @@
       "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2026-census-test-enumeration-begins.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Two Coast Guard members demonstrate a ground-control technique during law-enforcement training.",
+      "archivalStatus": "current",
+      "attribution": "Stephen Lehmann/U.S. Coast Guard",
+      "caption": "Coast Guard members train in Virginia in 2020. BJS counted full-time federal officers with arrest authority, firearms authority or both.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Stephen Lehmann, U.S. Coast Guard",
+      "derivatives": [
+        {
+          "hash": "8262d82872c925b194d984cb3e02aef1fca396bc464dcc33cf9ffe9902a64d3f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/coast-guard-law-enforcement-training-2020/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5aeec17255bedc01c60eda20e338a41c1a0ede72a12034d20eddacd315dfdca8",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/coast-guard-law-enforcement-training-2020/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "fc839bfe95dc373aab22af63481b98a6efd610e906ff52cae3bb1a1f659c7c7d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/coast-guard-law-enforcement-training-2020/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "00079e5a17b03c53c73ef6a12a6a6c9809950322bdcd603d72a54fb447157b94",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/coast-guard-law-enforcement-training-2020/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "751752abd5a72409c68c980c89fe03131a00ae638330d825f18be4536e949d06",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/coast-guard-law-enforcement-training-2020/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e82fb57ebcb3328288f5197507598797dd410882ffa19516eebefc879ebb967e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/coast-guard-law-enforcement-training-2020/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b7f3c343324e7208d3ca38f93f8c814b2f875240a3555e07358c5e55fe0c152f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/federal-law-enforcement-officers-2023-bjs/coast-guard-law-enforcement-training-2020/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-coast-guard-law-enforcement-training-2020",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "1bc14981877c8b606bb0b39fa4670980a4c534168f6640caacba963b58aa925f",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Official U.S. Coast Guard photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/6125592/coast-guard-station-chincoteague-law-enforcement-training"
     },
     {
       "aiGenerated": false,
@@ -26278,6 +27639,82 @@
       "rightsBasis": "Original graphic derived only from the cited primary record: https://www.transportation.gov/briefing-room/trumps-transportation-department-launches-new-initiative-using-ai-modernize",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-department-launches-new-initiative-using-ai-modernize"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Two lifeguards operate a rescue watercraft through open water.",
+      "archivalStatus": "current",
+      "attribution": "Samuel Estridge/U.S. Marine Corps",
+      "caption": "Lifeguards train with a rescue watercraft in Hawaii in 2024. WHO’s PROTECT package treats rescue capability as one part of a seven-part prevention system.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Samuel Estridge, U.S. Marine Corps",
+      "derivatives": [
+        {
+          "hash": "69ac9182e92c2b8cc7a261e2be96e2675dac2566f8a7a79ea5cbbfb80b1fd732",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/dvids-lifeguard-rescue-watercraft-2024/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "421f30a0c057ca891d7801de0b938ed006e94843f4b45c6a7a901d2b54c91fdb",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/dvids-lifeguard-rescue-watercraft-2024/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bcfcdcd37b1aa660040656594b7ff10a0479daf334cfdefd77c804e931d0a881",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/dvids-lifeguard-rescue-watercraft-2024/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "936b0326eb46bd682e7022547ed37b11e031d1185e2ba588344994bd2a7ed038",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/dvids-lifeguard-rescue-watercraft-2024/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7cc9ec966ef0934c02e2697cf7ccee1024125cb2efa952059e4abc082709d0f3",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/dvids-lifeguard-rescue-watercraft-2024/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "47183e11e0791465a1fc5153fac5d6fbe97bd6e0098747f53603954978f177df",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/dvids-lifeguard-rescue-watercraft-2024/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "bf5b0828ca24c4ce30102a1fd58cfcd885d8fc8943ef5e703c067233fbc37344",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/dvids-lifeguard-rescue-watercraft-2024/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-dvids-lifeguard-rescue-watercraft-2024",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "15ba62576be32867d3ca82b29371ee4bee05859ced16ca063635f5513204b812",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Official U.S. Marine Corps photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/8278685/lifeguards-across-pacific-region-participate-rescue-watercraft-risk-technician-course"
     },
     {
       "aiGenerated": false,
@@ -33935,6 +35372,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Volunteers build a living shoreline with oyster-shell bags beside coastal water.",
+      "archivalStatus": "current",
+      "attribution": "Monique Stober/U.S. Air Force",
+      "caption": "Volunteers place oyster-shell bags at MacDill Air Force Base in 2026. NASA’s satellite indicator measures the global ocean signal that coastal projects must translate into local planning.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Monique Stober, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "4daec78a8a3fd043a46d1f023fe8066152107abdf8320714565864f51a21ccc8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/macdill-living-shoreline-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ea346666875847fe93f28a864e1bd1e0d8a7337356f0a15316c953d728342378",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/macdill-living-shoreline-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "cc3dde552d6b0ffdf504260e4144844d3b085f63941372caafd3151b662fddf4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/macdill-living-shoreline-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9fe465144a6fe25f6cf03c47160e3539ede0e527151b84462c8b792cfa9f5a73",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/macdill-living-shoreline-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c550a0d49e7f0876918558bbb7dbc65b4e4a9c9191991b1b4c517899fca5b7cd",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/macdill-living-shoreline-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "bb77cf484cebe20fc2f8c9e71f687d82bb4f4a811ff0f7839590e12a3d15db88",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/macdill-living-shoreline-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "192c3d7bc2a3e221268c7a769094744d14cccb144d035f8bbf928e25c6ea1d2c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/macdill-living-shoreline-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-macdill-living-shoreline-2026",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "8d50477d6210e9644adabf849bfa4e2b388ba23eb1bfd1917b2de430e87b7812",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Official U.S. Air Force photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/9510966/community-partners-support-macdill-living-shoreline-project"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Aerial view of Manila’s dense skyline, roads and Manila Bay under scattered clouds.",
       "archivalStatus": "current",
       "attribution": "Vyacheslav Argenberg/Wikimedia Commons",
@@ -35604,6 +37117,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic attributes about two-thirds of current rise to melting land ice and one-third to ocean warming.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NASA",
+      "caption": "NASA identifies melting land ice and thermal expansion as the two main physical drivers.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d2c3e655f36902b607d30c5eb81cc90e9a3fad156d42304d11490016bb7a8d4e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-causes-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1b660c8a86dc11e30d91e0b5b97c78c913f0de2e72f4779ee14dea91113a153e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-causes-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "220881d0a7b7d6317e3418c516f27cc691f88c93bd7f6ad574d06c839686bfd7",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-causes-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "0f506d03130867f3419ed72d7271d6daf472226d6f8b696a430f3225b764dea7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-causes-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0bc854da65348614e1dbe230cbc496054fb27098c8a959d47b030be824d5dd45",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-causes-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7297f4994b0ba2ed1f01c35681702074d330e0affef6c1485fee3b3c104d59e4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-causes-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "9d415e6a6ae28440b37c10d65e7106869704893fe97443d010548fe839cdcbcf",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-causes-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-sea-level-causes-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "bce2f43b399003baa816bdb6b132896aae9f7840b6f310509faf53cb80218441",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/earth/explore/earth-indicators/sea-leve/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 102.4 millimeters with plus or minus 4.0 millimeters uncertainty and about 3.6 inches since 1993.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NASA",
+      "caption": "NASA’s July 2026 Earth indicator tracks global mean sea-level change from satellite altimetry.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d2bace4e133c56a2673865b9355d2bf0a13a91a9780244599833b90f9c95618d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-measurement-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "00b98e0e17e08e8a0f32bd901e12627243027d518ab5fdb85086559ae867d7a4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-measurement-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f9d00d66d9297cdcfd4325b98f4e3203c37f7b74e1197f06f5805ac6e73f0d58",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-measurement-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "533205a3955ac555c1644a8e69fc89ea5cc9d4f0ac3c010d954b8fa341743222",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-measurement-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "55cfcdee79fdefa47e66ce8f4d91b464577e40eca22681a79e6015b5ef42724e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-measurement-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "909c6961aa954ebd47cb736b2258be67c2e0f8438b8f150c86c4b0acf2004552",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-measurement-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e07dac88f03dd0e1e587a9ddc46f932afee45d27c9f448d2470ac6d038ec4f86",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-global-sea-level-102-4-mm-july-2026/nasa-sea-level-measurement-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-sea-level-measurement-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "1f25d0929541e702f31927d400a1aa64218f6d8b37d7dc83c3aa4afda6a381d8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/earth/explore/earth-indicators/sea-leve/"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A white NASA WB-57 high-altitude research aircraft climbs into a blue sky after takeoff.",
       "archivalStatus": "current",
       "attribution": "Steven Lewis/U.S. Air Force",
@@ -35829,6 +37494,82 @@
       "rightsBasis": "Single documentary frame from an official Library of Congress event video, reproduced to identify the recurring festival.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.loc.gov/item/video-10234/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A health technician guides a patient through a block-design cognitive assessment.",
+      "archivalStatus": "current",
+      "attribution": "Jacob Sippel/U.S. Navy",
+      "caption": "A technician conducts a cognitive assessment at Naval Hospital Jacksonville in 2017. WHO’s new guideline focuses on reducing modifiable dementia risks across the life course.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Jacob Sippel, U.S. Navy",
+      "derivatives": [
+        {
+          "hash": "cd3da5492d3fbc4fbf4f9d6b2d525cc2a05693eab8761e5ced9dad4d4339e45b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/naval-hospital-brain-assessment-2017/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "96f489a12d55dfd7f1069b5706c793f918f17d474af6e6741875b81aa3f32e5a",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/naval-hospital-brain-assessment-2017/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "af537e6a2dc929a7fe735fd53c65bf9dc51214be3bcdd90c391d9b67a45fa03f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/naval-hospital-brain-assessment-2017/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "56dc006c5b3b13494ae1fc9c999e8cc946a8dffeac6917c126dd7cdec5ee2cfc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/naval-hospital-brain-assessment-2017/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "bd8c4d87d3b0cfdb5ba750d569358dd462b691168eeba1f5344982e5ad4306e0",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/naval-hospital-brain-assessment-2017/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "41807737b971c52bbaf16cf312deb77028af3f7709ac744ea221f4704102d561",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/naval-hospital-brain-assessment-2017/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "860e7e5871bae56b2dd11a2400a046d22c30a47cfda13d02592f97aabe02a8a9",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/naval-hospital-brain-assessment-2017/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-naval-hospital-brain-assessment-2017",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "25a8a7b2a28ff2ae2fc58e41ad832cbd43d6209548ad5c6a26e39ffb996c7e61",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Official U.S. Navy photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/3196767/brain-health-assessment"
     },
     {
       "aiGenerated": false,
@@ -36513,6 +38254,158 @@
       "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.ncaa.org/committees-propose-playing-and-technology-rule-changes-in-baseball/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists post physicality, offensive three seconds, freedom of movement and traveling.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NCAA",
+      "caption": "Officials will emphasize four recurring areas during the 2026–27 men’s basketball season.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "e7c55c1be1678a01072e31a9bc2d49c4cd88a494488285a675c46accdaf50924",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-emphasis-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "53c7152f33ecca5cf8c85f983c1fb35832a668ac67eab870cba0172cb24840e5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-emphasis-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "37621e9eec7493a9f04fbf86d9ae736b4bb3019e5794728a4376ec67c67fad52",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-emphasis-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7c90d8b2ecd9d1eae2d13c375ad745c28e373a7ef05c2f56f50a8e9b19a66505",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-emphasis-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "203902a05ce4ee8be62285a364c6bc3265a745220492bcebfce90daae038d9be",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-emphasis-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5baa1b1591dc3f5ecb2470a821739979120aada8e61cd63e80fe7d6ec6fc79ff",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-emphasis-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f51496301883cd788a980da4e075636d86ef121a96554ae483240e5ec9d6ea98",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-emphasis-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ncaa-basketball-emphasis-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f13d99e5df8a68210e59b947c0272df63f00baba5a675c767e0e67a3b5aea4db",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:25:36Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited NCAA record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ncaa.org/media-center-mens-basketball-rules-committees-discuss-state-of-the-game/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic explains the 19-second backcourt threshold and requirement that the game clock run between consecutive media timeouts.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NCAA",
+      "caption": "Two timing clarifications adjust how officials administer the 10-second count and media timeouts.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "80d94dda30efc0b4c8b7a0bc94727767e5021460179858cda867fcd777fca296",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-timing-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a829f935d93388ff94ad3c5e29b0463c58a96c64ec25e5b06ecf3eefa6d29505",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-timing-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f0b05650f684fb5236b66c6eed8f2a71dc2061d2e713b161d3aff77a9b48536c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-timing-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "284f4baa0c0134a9f25839f8671b99805f1428407257675ff858be3b38c7e3e7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-timing-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a96e68dcdee8718fe94cc22adfda04af41a60fffa51c592b22cb75d549670a1a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-timing-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5d1712a13724970205ff697d486d9f5e0b9e89d4b39056a5333c927bd19f73c0",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-timing-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a0715329b2873ac184486b3519b36bce32f3613dcb72d9e7519b0c1fa7da638a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/ncaa-mens-basketball-2026-27-timing-rules/ncaa-basketball-timing-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ncaa-basketball-timing-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "06ea23f1c6343c9993d0d51913463a968dbc7a64772e082fb355106b9894caa4",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:25:36Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited NCAA record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ncaa.org/media-center-mens-basketball-rules-committees-discuss-state-of-the-game/"
     },
     {
       "aiGenerated": false,
@@ -42133,6 +44026,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "National Guard members stand on the U.S. Capitol dome overlooking Washington.",
+      "archivalStatus": "current",
+      "attribution": "Andrew Enriquez/D.C. National Guard",
+      "caption": "National Guard members stand on the Capitol dome in 2021. H.R. 143 would link budget-resolution reductions to programs operating under expired appropriations authorizations.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Andrew Enriquez, D.C. National Guard",
+      "derivatives": [
+        {
+          "hash": "080dbf60b9f8856c320b63278a0756e31ae4b30ff5649faffe945e202f97d55a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/us-capitol-dome-2021/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "af510af6ecf59ff61c69933620f71d7099e0ac6729d37a12e59462503186f2e7",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/us-capitol-dome-2021/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a9c0701929c9e2208855769d6254bee70d7781420434cff71ccb6dc1f66bd8de",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/us-capitol-dome-2021/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "274b484bbd9a5d326651d3bd8ac29385c822598024e3d218e0b7e6aaee2152f5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/us-capitol-dome-2021/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a5f5c99be97607f69adf610e51b2705cf3557e004c6aa5292dbc96ea1269905b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/us-capitol-dome-2021/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "fa135c5969286684d9086094ea8ad2fb12e4c7f01aa06e0204e74a180b03b592",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/us-capitol-dome-2021/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "934c003bc5b00b54d624d706be3ca5f9102c026d101db5fb046e047d0bd47bcd",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/hr-143-unauthorized-spending-cbo-estimate-2026/us-capitol-dome-2021/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-us-capitol-dome-2021",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "fbbeaab5f6e30e4d5b46190f1b0069e1303d63024e711660f51f5f07636c8b22",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Official National Guard photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/6665700/national-guard-members-pose-photo-us-capitol-final-day-security-mission"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Graphic lists Chapter 7 filings at 369,702, Chapter 13 at 211,700, Chapter 11 at 9,941 and Chapter 12 at 312.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from U.S. Courts data",
@@ -43726,6 +45695,310 @@
       "rightsBasis": "Official U.S. Air Force photograph marked public domain by DVIDS.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.dvidshub.net/image/8361828/weather-radar-system-maintenance"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists health behaviors, condition management and a warning against supplements without deficiency.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from WHO",
+      "caption": "WHO recommends evidence-based risk reduction and rejects several supplement shortcuts.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ed5b6e0304cb438edd2a4d9becdb3e99107c8f7a2c165aabe81e443ac3534b63",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-actions-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6dba66ac5e6385982ab2aafcc638f0f69639a694a85320c7ad3a7b8fab8e6882",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-actions-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8fa10ccb9a2ade003c65ddc053cabcc0b4453619b72e0b002151432906dbae6a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-actions-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "47044fb745d994402649317a66a5236574008ac9b60528558cc37b6b93c26c43",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-actions-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5c6c0793f1310c0c9ed125657605a7e1c47652424c21e4cdb448cb5b28c11cda",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-actions-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "575f871a32d8e5cec5bdc6b1b9c92f888299153e5a8093ccd3c944c028c5b7d8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-actions-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "be927eda41da8276d7fc6cf0db0b701fa92df52b57e746d5d28d352ef337c479",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-actions-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-who-dementia-actions-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "1f9b3a71a414dd92340bc61764066c3b843841e7505b5ed19981ef42b2a26c7d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows up to 45% modifiable risk, more than 57 million people living with dementia and nearly 10 million new diagnoses yearly.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from WHO",
+      "caption": "WHO’s updated guidance frames dementia risk reduction as a population health strategy.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "00bd47ea7e072111dae3542b0786187556f6bb74aee523735e39b1c8e6c28f80",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-risk-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9a5c98f20bf2b1f5530edf175e4ff6e966a1fac7af44d512992255f738a2dc62",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-risk-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "934f4dc21969847822299fd5c4884b2d675b58fb80bd9614696fd214334f3a63",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-risk-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e9b3ae3b76dae616e01bc4c3ae2606b77adccdea372de96749d12a480c88ea35",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-risk-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4881adab5a9323fc507155646bb31deb30d0a73d3b5f56ea178673f12573a4db",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-risk-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5805d11e16b7f8d5a1e59a1077b0f242f1ff6448c83653d3254a93f77fbf107b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-risk-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5d96ef81f76aaa651e5516d04c14053071214011e3011c22ae61bf0b4c89f86f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/who-dementia-risk-reduction-guidelines-2026/who-dementia-risk-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-who-dementia-risk-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "13d8ff1b3c656dfae9c947dfd685de254cbb0b7dd79ea9e1b390ac71dc6368b8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.who.int/news/item/15-07-2026-new-who-guidelines--up-to-45--of-dementia-risk-could-be-prevented-or-delayed"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic states that nearly 300,000 people die from drowning annually, more than 90% in lower-income countries.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from WHO",
+      "caption": "WHO describes drowning as a preventable crisis concentrated in low- and middle-income countries.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ec9bf315ce6c3b3509064a2899139846a14ef2f4f4dda7ebc14defd2021c5cfa",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-drowning-scale-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ae92dda8353c3950cc08b3abe3995337046ed6c02e9d5a3b073194e3a87071ae",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-drowning-scale-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a69354679556d91c85db4e8a631d10ba50d33eee2c8655812aa066241f6fe052",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-drowning-scale-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "eb784bb02b51d5bbdb99bb0cdba7b7f50783222d0dccae0c78fd6a06ca4029fd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-drowning-scale-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "05fb90df5b4648a0d232be5df1c92c3ad21d423920cfecaba37d7f662afc36db",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-drowning-scale-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "eab24b96985fb8d7ddd0e0a5aa21b2dae0c47269e37d4da6f54fa7c66391b190",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-drowning-scale-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "9bd53aa9c283667e4dae9974866f87294ad8175e9aa9ab3e14dbc7e645329ecc",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-drowning-scale-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-who-drowning-scale-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8380ed48b7311c163580f52e6a7a06e75c0a5fd30cbfd69e49e000b9fe9d2d23",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.who.int/news/item/23-07-2026-who-launches-seven-strategies-to-prevent-drowning"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic groups WHO’s seven strategies into safer environments, skills and care, and hazard preparedness.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from WHO",
+      "caption": "The PROTECT package calls for connected policy across infrastructure, rescue, transport, education, child care and flood preparedness.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "110efbbd79ecb3091bc8ab56313d4260b0f619829e3bb78072378d673824968f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-protect-strategies-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "4572bd4f3009d2fad6d94b0f20528ba56bb1d94baf17bfbfb41b86124cdc4e2d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-protect-strategies-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "341f25a8b9d00ca74e7e8b43f2424336a8ba2bc460142f894b879ec5e09d5000",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-protect-strategies-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "22f395eeb5bf2ec8d7976867f2337c53c6430c57863f1649ba3081a1260d262d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-protect-strategies-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8bd81c98b6b903d939ec1afb6f3a978fa4307a3142e2029cda0e97ef5db4aefb",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-protect-strategies-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "904ba556f512549974696f731cd682d57a7bf7861bd7208331154311626f0c1a",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-protect-strategies-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f6da793631537315e1884c2f89365e64a6f623816250c347bb0a31c9c265d6d8",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/who-protect-drowning-prevention-strategies-2026/who-protect-strategies-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-who-protect-strategies-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8673def6cdb56f91420bd57993e8b92dad5c25a886d122c291b77598eb0e9b9a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T17:22:54Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.who.int/news/item/23-07-2026-who-launches-seven-strategies-to-prevent-drowning"
     },
     {
       "aiGenerated": false,
@@ -45390,7 +47663,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "067cd973c4eb8ecbfb00a9f31a5ce5bb174ff01372bc92f0f9ebcd3e22158ba7",
+  "packageDigest": "1a4253928a0784b50c07616790354fdf019edcb670b50e7e2efd5415793e24ee",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -46259,6 +48532,37 @@
       "providerActivatedAt": "2026-08-06T16:56:26.58828Z",
       "recordHash": "d37e670cd11ed8e1aa89b859f285200b8af1aab62af61c69a188bc3d106b3653",
       "releaseId": "release-pb-20260806t162017z-fe27217df153-4d495b46636a",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://993cc780.bohonews.pages.dev/",
+      "activationEvidenceHash": "1dfe36f707331e957dde08cd3dd1ef0fc156be22755cbd8bc5cc9ec644b7d4eb",
+      "canonicalFirstPublicAt": "2026-08-06T18:16:14.768Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/federal-law-enforcement-officers-2023-bjs/",
+        "https://bohonews.com/articles/hr-143-unauthorized-spending-cbo-estimate-2026/",
+        "https://bohonews.com/articles/nasa-global-sea-level-102-4-mm-july-2026/",
+        "https://bohonews.com/articles/ncaa-mens-basketball-2026-27-timing-rules/",
+        "https://bohonews.com/articles/who-dementia-risk-reduction-guidelines-2026/",
+        "https://bohonews.com/articles/who-protect-drowning-prevention-strategies-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-federal-law-enforcement-officers-2023-bjs",
+        "article-hr-143-unauthorized-spending-cbo-estimate-2026",
+        "article-nasa-global-sea-level-102-4-mm-july-2026",
+        "article-ncaa-mens-basketball-2026-27-timing-rules",
+        "article-who-dementia-risk-reduction-guidelines-2026",
+        "article-who-protect-drowning-prevention-strategies-2026"
+      ],
+      "previousVerifiedDeploymentReference": "b127618e3c4887a11d897be5090cd8b2928f7d2a982062cf798e6a394e0a0de7",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T18:15:11.50255Z",
+      "recordHash": "4a24a12a7657cba1a88e57a7b9485e2e99ff54d57de2661abf6ffc88b99ec4a7",
+      "releaseId": "release-pb-20260806t172627z-1a9417d13ab5-792566236080",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }
