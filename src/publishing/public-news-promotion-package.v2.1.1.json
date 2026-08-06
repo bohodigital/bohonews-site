@@ -1834,6 +1834,157 @@
       "updatedAt": "2026-08-06T04:03:01.647Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "U.S. power plants are forecast to burn a record amount of natural gas in summer 2027, as new data centers, manufacturing facilities and other large loads push electricity demand higher, according to the Energy Information Administration.\n\nEIA expects power-sector gas consumption to average 43.7 billion cubic feet per day from June through September 2026. That is flat with summer 2025 but 4% above the five-year summer average for 2021 through 2025.\n\nFor summer 2027, the agency projects 46.1 Bcf/d, an increase of 2.4 Bcf/d or 6% from 2026. The forecast would exceed the previous 2024 record by 3%. These are modeled expectations, not consumption already observed.\n\nThe load story is concentrated. EIA forecasts commercial and industrial electricity demand in the West South Central region will rise 20% from summer 2025 to summer 2027, driven in part by Texas data centers, manufacturing and electrification in oil and gas operations.\n\nWithin ERCOT, which runs most of the Texas grid, EIA expects natural-gas generation to increase 22% over that two-summer span. Solar generation also grows, so the forecast is not a simple substitution of gas for renewables.\n\nIn the Mid-Atlantic, the agency links rising commercial demand to computing facilities in Virginia. It forecasts PJM natural-gas generation 6% higher in 2027 than 2025, while solar generation rises 32% over the same period.\n\nNationally, renewables are forecast to supply 25% of summer generation in 2027, up from 21% in 2025. The mix can therefore become more renewable while absolute gas use also rises if total electricity demand expands fast enough.\n\nSummer gas use is particularly sensitive to weather because air-conditioning drives peak electricity demand. Plant additions, outages, fuel prices, transmission limits and the timing of large new customers can all shift the actual dispatch pattern away from the forecast.\n\nThe EIA outlook describes the scale and direction of expected demand, not a reliability verdict or a guarantee that every announced data center will connect on schedule. Its central message is that load growth can lift both renewable output and gas-fired generation at the same time.",
+      "bodyBlocks": [
+        {
+          "text": "U.S. power plants are forecast to burn a record amount of natural gas in summer 2027, as new data centers, manufacturing facilities and other large loads push electricity demand higher, according to the Energy Information Administration.",
+          "type": "paragraph"
+        },
+        {
+          "text": "EIA expects power-sector gas consumption to average 43.7 billion cubic feet per day from June through September 2026. That is flat with summer 2025 but 4% above the five-year summer average for 2021 through 2025.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For summer 2027, the agency projects 46.1 Bcf/d, an increase of 2.4 Bcf/d or 6% from 2026. The forecast would exceed the previous 2024 record by 3%. These are modeled expectations, not consumption already observed.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic compares EIA summer natural-gas demand forecasts for the power sector.",
+          "caption": "EIA expects power-sector gas demand to average 43.7 Bcf/d in summer 2026 and a record 46.1 Bcf/d in 2027.",
+          "credit": "Boho News graphic from EIA forecast",
+          "height": 900,
+          "rightsId": "media-eia-summer-power-gas-forecast-2026-2027",
+          "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67725",
+          "src": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-summer-power-gas-forecast-2026-2027/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The load story is concentrated. EIA forecasts commercial and industrial electricity demand in the West South Central region will rise 20% from summer 2025 to summer 2027, driven in part by Texas data centers, manufacturing and electrification in oil and gas operations.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Within ERCOT, which runs most of the Texas grid, EIA expects natural-gas generation to increase 22% over that two-summer span. Solar generation also grows, so the forecast is not a simple substitution of gas for renewables.",
+          "type": "paragraph"
+        },
+        {
+          "text": "In the Mid-Atlantic, the agency links rising commercial demand to computing facilities in Virginia. It forecasts PJM natural-gas generation 6% higher in 2027 than 2025, while solar generation rises 32% over the same period.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows EIA demand and generation forecasts for West South Central, ERCOT and PJM.",
+          "caption": "EIA ties projected growth to data centers, manufacturing and other large commercial and industrial loads.",
+          "credit": "Boho News graphic from EIA forecast",
+          "height": 900,
+          "rightsId": "media-eia-power-load-growth-regions-2027",
+          "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67725",
+          "src": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-power-load-growth-regions-2027/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Nationally, renewables are forecast to supply 25% of summer generation in 2027, up from 21% in 2025. The mix can therefore become more renewable while absolute gas use also rises if total electricity demand expands fast enough.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Summer gas use is particularly sensitive to weather because air-conditioning drives peak electricity demand. Plant additions, outages, fuel prices, transmission limits and the timing of large new customers can all shift the actual dispatch pattern away from the forecast.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The EIA outlook describes the scale and direction of expected demand, not a reliability verdict or a guarantee that every announced data center will connect on schedule. Its central message is that load growth can lift both renewable output and gas-fired generation at the same time.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/eia-natural-gas-power-demand-record-2027/",
+      "citations": [
+        {
+          "id": "source-eia-summer-gas-power-forecast-20260528",
+          "publishedAt": "2026-05-28T12:00:00Z",
+          "publisher": "U.S. Energy Information Administration",
+          "title": "Natural gas for power generation flat this summer, record high expected in 2027",
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=67725"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "EIA forecasts power-sector natural-gas consumption at 43.7 Bcf/d in summer 2026, unchanged from summer 2025.",
+        "The 2026 forecast is 4% above the 2021–2025 summer average.",
+        "EIA forecasts 46.1 Bcf/d in summer 2027, 6% above 2026 and 3% above the 2024 record.",
+        "West South Central commercial and industrial electricity demand is forecast 20% higher in summer 2027 than summer 2025.",
+        "EIA forecasts renewables at 25% of summer generation in 2027, up from 21% in 2025."
+      ],
+      "corrections": [],
+      "dek": "Data centers, manufacturing and electrification lift the outlook even as renewables take a larger share of U.S. summer generation.",
+      "desk": "energy-desk",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Energy Information Administration",
+        "Electric Reliability Council of Texas",
+        "PJM Interconnection"
+      ],
+      "eventId": "event-eia-natural-gas-power-demand-record-2027",
+      "headline": "EIA Forecasts Record Natural-Gas Demand From Power Plants in 2027",
+      "id": "article-eia-natural-gas-power-demand-record-2027",
+      "leadImage": {
+        "alt": "Officials cut a ribbon in front of a natural-gas peaking plant and its turbine building.",
+        "caption": "A 96-megawatt natural-gas peaking plant opened near Tinker Air Force Base in February 2026. EIA forecasts record power-sector gas demand in summer 2027.",
+        "credit": "Paul Shirk/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-tinker-natural-gas-peaking-plant-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/tinker-natural-gas-peaking-plant-2026/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Texas",
+        "Virginia",
+        "Mid-Atlantic"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T05:19:55.069Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t045636z-ea1de6535bd5-8f7ae1f22b12",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "EIA forecasts U.S. power-sector natural-gas use will reach a record 46.1 Bcf/d in summer 2027 as large loads grow.",
+        "index": true,
+        "title": "EIA record natural gas power demand forecast for 2027"
+      },
+      "section": "business",
+      "slug": "eia-natural-gas-power-demand-record-2027",
+      "social": {
+        "description": "Data centers, manufacturing and electrification lift the outlook even as renewables take a larger share of U.S. summer generation.",
+        "image": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/tinker-natural-gas-peaking-plant-2026/open-graph.webp",
+        "title": "EIA sees record power-sector gas demand in summer 2027"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Natural gas",
+        "Electricity demand",
+        "Data centers",
+        "Power generation",
+        "ERCOT",
+        "PJM"
+      ],
+      "uncertainty": [
+        "These are Short-Term Energy Outlook forecasts, not measured future consumption.",
+        "Weather, generator additions, fuel prices, data-center schedules and industrial activity can change the realized mix."
+      ],
+      "updatedAt": "2026-08-06T05:19:55.069Z"
+    },
+    {
       "articleType": "data-report",
       "authors": [
         "Boho News Data Desk"
@@ -2168,6 +2319,154 @@
         "State and local participation practices would vary; the proposal does not predict how each permitting authority would use the new discretion."
       ],
       "updatedAt": "2026-08-06T04:03:01.647Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Federal Communications Commission is collecting urban broadband prices from a sample covering as many as 2,000 census tracts, a yearly exercise that will shape the reasonable-comparability benchmarks used for federally supported service in 2027.\n\nThe survey is not a nationwide consumer poll. It is a required provider filing drawn from fixed-service operators identified through December 2025 Broadband Data Collection records. A separate sample can include as many as 500 urban tracts for fixed voice service.\n\nThe comparison matters to universal-service policy because supported rural offerings are judged against rates for comparable urban services. The annual urban survey supplies the observed price data used to build the next benchmark rather than assuming one national retail price.\n\nBecause one company may serve many sampled tracts, the same provider can receive more than one survey. The FCC said notifications would go around July 6 to each selected provider’s BDC contact person and certifying official, with access to a private online reporting form.\n\nCompleted surveys are due August 14. The one-page public notice does not name the sampled companies or reveal the submitted prices, so it cannot show whether a particular plan will raise or lower next year’s benchmark.\n\nThe sampling frame uses December 2025 BDC data and 2020 census-tract boundaries. That keeps the provider list tied to a defined filing vintage while the geographic units reflect the newer decennial census rather than the 2010 boundaries used in the original survey order.\n\nA benchmark produced from the survey is not a retail price cap. It is a federal comparability reference used in administering support rules, with the detailed calculation and supported-service requirements governed by the FCC’s broader universal-service framework.\n\nThe practical deadline belongs to the providers selected by the agency, not every internet-service provider. Customers do not submit the form, and companies outside the sample are not directed by this notice to file rates.\n\nFor policymakers, the quality question comes after collection: whether the sample, reported service characteristics and calculation method produce a reliable comparison across plans. The August filings are the input; the 2027 benchmark is the later policy output.",
+      "bodyBlocks": [
+        {
+          "text": "The Federal Communications Commission is collecting urban broadband prices from a sample covering as many as 2,000 census tracts, a yearly exercise that will shape the reasonable-comparability benchmarks used for federally supported service in 2027.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The survey is not a nationwide consumer poll. It is a required provider filing drawn from fixed-service operators identified through December 2025 Broadband Data Collection records. A separate sample can include as many as 500 urban tracts for fixed voice service.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The comparison matters to universal-service policy because supported rural offerings are judged against rates for comparable urban services. The annual urban survey supplies the observed price data used to build the next benchmark rather than assuming one national retail price.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows the FCC survey sample for fixed broadband and voice.",
+          "caption": "The FCC may sample up to 2,000 urban tracts for broadband and 500 for voice using December 2025 BDC data.",
+          "credit": "Boho News graphic from FCC DA 26-640",
+          "height": 900,
+          "rightsId": "media-fcc-urban-rate-survey-sample-2027",
+          "sourceUrl": "https://docs.fcc.gov/public/attachments/DA-26-640A1.pdf",
+          "src": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-sample-2027/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Because one company may serve many sampled tracts, the same provider can receive more than one survey. The FCC said notifications would go around July 6 to each selected provider’s BDC contact person and certifying official, with access to a private online reporting form.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Completed surveys are due August 14. The one-page public notice does not name the sampled companies or reveal the submitted prices, so it cannot show whether a particular plan will raise or lower next year’s benchmark.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The sampling frame uses December 2025 BDC data and 2020 census-tract boundaries. That keeps the provider list tied to a defined filing vintage while the geographic units reflect the newer decennial census rather than the 2010 boundaries used in the original survey order.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Timeline shows provider notices, the August 14 deadline and 2027 benchmark use.",
+          "caption": "Selected providers must complete the survey by August 14; the rates inform 2027 comparability benchmarks.",
+          "credit": "Boho News graphic from FCC DA 26-640",
+          "height": 900,
+          "rightsId": "media-fcc-urban-rate-survey-calendar-2027",
+          "sourceUrl": "https://docs.fcc.gov/public/attachments/DA-26-640A1.pdf",
+          "src": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-calendar-2027/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "A benchmark produced from the survey is not a retail price cap. It is a federal comparability reference used in administering support rules, with the detailed calculation and supported-service requirements governed by the FCC’s broader universal-service framework.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The practical deadline belongs to the providers selected by the agency, not every internet-service provider. Customers do not submit the form, and companies outside the sample are not directed by this notice to file rates.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For policymakers, the quality question comes after collection: whether the sample, reported service characteristics and calculation method produce a reliable comparison across plans. The August filings are the input; the 2027 benchmark is the later policy output.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/fcc-2027-urban-rate-survey-broadband-benchmarks/",
+      "citations": [
+        {
+          "id": "source-fcc-urban-rate-survey-2027-20260626",
+          "publishedAt": "2026-06-26T12:00:00Z",
+          "publisher": "Federal Communications Commission",
+          "title": "Urban Rate Survey 2027 Timeline",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-640A1.pdf"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The FCC initiated its 2027 urban rate survey to develop voice and broadband reasonable-comparability benchmarks.",
+        "The survey will draw fixed-service providers from December 2025 Broadband Data Collection filings.",
+        "The FCC may sample up to 2,000 urban census tracts for fixed broadband and 500 for fixed voice.",
+        "Selected providers were scheduled to receive notices around July 6, 2026, through their BDC contacts and certifying officials.",
+        "Completed surveys are due August 14, 2026."
+      ],
+      "corrections": [],
+      "dek": "Selected fixed-service providers have until August 14 to report rates that will shape the federal reasonable-comparability test for supported broadband service.",
+      "desk": "broadband-policy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Federal Communications Commission",
+        "Office of Economics and Analytics",
+        "Wireline Competition Bureau"
+      ],
+      "eventId": "event-fcc-2027-urban-rate-survey-broadband-benchmarks",
+      "headline": "FCC Samples 2,000 Urban Tracts to Set 2027 Broadband Benchmarks",
+      "id": "article-fcc-2027-urban-rate-survey-broadband-benchmarks",
+      "leadImage": {
+        "alt": "Airmen in safety harnesses assemble a communications tower against a clear sky.",
+        "caption": "Airmen erect a communications tower in New Jersey in 2021. The FCC’s 2027 urban rate survey will use provider prices to set federal broadband comparability benchmarks.",
+        "credit": "Andrew Moseley/U.S. Air National Guard",
+        "height": 900,
+        "rightsId": "media-radio-tower-177th-fighter-wing-2021",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/radio-tower-177th-fighter-wing-2021/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T05:19:55.069Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t045636z-ea1de6535bd5-8f7ae1f22b12",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "FCC samples up to 2,000 urban tracts for broadband rates that will set 2027 reasonable-comparability benchmarks.",
+        "index": true,
+        "title": "FCC 2027 broadband urban rate survey and August 14 deadline"
+      },
+      "section": "technology",
+      "slug": "fcc-2027-urban-rate-survey-broadband-benchmarks",
+      "social": {
+        "description": "Selected fixed-service providers have until August 14 to report rates that will shape the federal reasonable-comparability test for supported broadband service.",
+        "image": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/radio-tower-177th-fighter-wing-2021/open-graph.webp",
+        "title": "FCC’s 2027 broadband price survey reaches its August deadline"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Broadband policy",
+        "Urban Rate Survey",
+        "Universal service",
+        "Broadband prices",
+        "FCC Broadband Data Collection",
+        "Rural connectivity"
+      ],
+      "uncertainty": [
+        "The notice does not identify sampled providers or publish their submitted rates.",
+        "The resulting 2027 benchmarks will depend on the completed survey data and the FCC’s calculation methodology."
+      ],
+      "updatedAt": "2026-08-06T05:19:55.069Z"
     },
     {
       "articleType": "news-report",
@@ -9960,6 +10259,154 @@
       "authors": [
         "Boho News Staff"
       ],
+      "body": "NCAA Division I plans to move incoming athletes to an age-based eligibility model beginning with the fall 2027 class, replacing many sport-specific season limits, redshirt rules and extension waivers with a five-year period tied to enrollment age.\n\nUnder the Cabinet-approved model, a student can receive up to five years of eligibility if full-time college enrollment begins no later than the academic year after the student’s 19th birthday. The rule changes how the period is defined; it does not promise five seasons to every athlete regardless of enrollment history.\n\nThe transition separates three groups. Prospects first enrolling full time in fall 2027 or later use only the age model. Students first enrolling during 2026–27 and current athletes with eligibility remaining after 2025–26 use either the old four-seasons-in-five-years framework or the new model, whichever is more favorable.\n\nAthletes who used their final season under the prior rules during 2025–26 do not receive another season through the transition. That boundary prevents the change from reopening eligibility for everyone whose previous clock already ended.\n\nThe Cabinet listed pregnancy, active-duty military service and official religious missions as circumstances that can delay or pause the age-based period. The exception applies only when the student does not participate in organized competition during that time, and the NCAA Eligibility Center will administer it.\n\nThe new model also removes waivers under the age system, including clock extensions and waivers formerly used for hardship, season-of-competition or delayed-enrollment cases. Legacy waiver requests based on circumstances through 2025–26 had a July 31 submission deadline.\n\nFor schools, the change reduces the number of sport-specific calculations but makes age and first full-time enrollment central compliance facts. Roster planning during the transition will require schools to evaluate both systems for eligible current athletes rather than automatically applying only the new one.\n\nThe NCAA’s June 23 page states that the Cabinet voted unanimously and presents the change as adopted, while also noting that the action was not final until the meeting concluded the next day. The public record does not describe a later reversal, but that drafting caveat belongs in the implementation record.\n\nThe practical question for any athlete is therefore individual: date of birth, first full-time enrollment, participation history, and whether eligibility remained after 2025–26. The broad five-year description cannot replace a school’s fact-specific eligibility determination.",
+      "bodyBlocks": [
+        {
+          "text": "NCAA Division I plans to move incoming athletes to an age-based eligibility model beginning with the fall 2027 class, replacing many sport-specific season limits, redshirt rules and extension waivers with a five-year period tied to enrollment age.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Under the Cabinet-approved model, a student can receive up to five years of eligibility if full-time college enrollment begins no later than the academic year after the student’s 19th birthday. The rule changes how the period is defined; it does not promise five seasons to every athlete regardless of enrollment history.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The transition separates three groups. Prospects first enrolling full time in fall 2027 or later use only the age model. Students first enrolling during 2026–27 and current athletes with eligibility remaining after 2025–26 use either the old four-seasons-in-five-years framework or the new model, whichever is more favorable.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic explains which Division I athletes use the old or age-based eligibility model.",
+          "caption": "The transition gives many current athletes and 2026–27 entrants whichever model is more favorable; fall 2027 entrants use the age model.",
+          "credit": "Boho News graphic from NCAA record",
+          "height": 900,
+          "rightsId": "media-ncaa-age-eligibility-transition-2026",
+          "sourceUrl": "https://www.ncaa.org/division-i-adopts-age-based-eligibility-model/",
+          "src": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-transition-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Athletes who used their final season under the prior rules during 2025–26 do not receive another season through the transition. That boundary prevents the change from reopening eligibility for everyone whose previous clock already ended.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Cabinet listed pregnancy, active-duty military service and official religious missions as circumstances that can delay or pause the age-based period. The exception applies only when the student does not participate in organized competition during that time, and the NCAA Eligibility Center will administer it.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The new model also removes waivers under the age system, including clock extensions and waivers formerly used for hardship, season-of-competition or delayed-enrollment cases. Legacy waiver requests based on circumstances through 2025–26 had a July 31 submission deadline.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists pregnancy, active-duty service and official religious missions as exceptions.",
+          "caption": "The Cabinet listed three circumstances that can pause the eligibility period when the athlete does not compete during the exception.",
+          "credit": "Boho News graphic from NCAA record",
+          "height": 900,
+          "rightsId": "media-ncaa-age-eligibility-exceptions-2026",
+          "sourceUrl": "https://www.ncaa.org/division-i-adopts-age-based-eligibility-model/",
+          "src": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-exceptions-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "For schools, the change reduces the number of sport-specific calculations but makes age and first full-time enrollment central compliance facts. Roster planning during the transition will require schools to evaluate both systems for eligible current athletes rather than automatically applying only the new one.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The NCAA’s June 23 page states that the Cabinet voted unanimously and presents the change as adopted, while also noting that the action was not final until the meeting concluded the next day. The public record does not describe a later reversal, but that drafting caveat belongs in the implementation record.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The practical question for any athlete is therefore individual: date of birth, first full-time enrollment, participation history, and whether eligibility remained after 2025–26. The broad five-year description cannot replace a school’s fact-specific eligibility determination.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/ncaa-division-i-age-based-eligibility-model-2027/",
+      "citations": [
+        {
+          "id": "source-ncaa-division-i-age-eligibility-20260623",
+          "publishedAt": "2026-06-23T12:00:00Z",
+          "publisher": "NCAA",
+          "title": "Division I adopts age-based eligibility model",
+          "url": "https://www.ncaa.org/division-i-adopts-age-based-eligibility-model/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The Division I Cabinet unanimously approved an age-based eligibility model in June 2026.",
+        "A student can receive up to five years of eligibility by enrolling full time no later than the academic year after turning 19.",
+        "Prospects first enrolling full time in fall 2027 or later will use only the age-based model.",
+        "Current eligible athletes and first-time 2026–27 enrollees use the old rules or the age model, whichever is more favorable.",
+        "Listed pause exceptions include pregnancy, active-duty military service and official religious missions without organized competition."
+      ],
+      "corrections": [],
+      "dek": "The Cabinet plan replaces sport-specific season limits and most waivers with a five-year period tied to age at first full-time college enrollment.",
+      "desk": "college-sports",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NCAA Division I Cabinet",
+        "NCAA Eligibility Center",
+        "NCAA Student-Athlete Advocacy Committee"
+      ],
+      "eventId": "event-ncaa-division-i-age-based-eligibility-model-2027",
+      "headline": "NCAA Division I Age-Based Eligibility Model Starts With Fall 2027 Class",
+      "id": "article-ncaa-division-i-age-based-eligibility-model-2027",
+      "leadImage": {
+        "alt": "Navy football players celebrate near the sideline late in a game against Air Force.",
+        "caption": "Navy players react late in a 2019 Division I football game. The NCAA Division I Cabinet approved a shift from sport-specific season limits to an age-based eligibility period.",
+        "credit": "Lisa Ferdinando/Department of Defense",
+        "height": 900,
+        "rightsId": "media-navy-air-force-football-celebration-2019",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/navy-air-force-football-celebration-2019/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T05:19:55.069Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t045636z-ea1de6535bd5-8f7ae1f22b12",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NCAA Division I approves an age-based five-year eligibility model, with transition rules for current athletes and 2026 entrants.",
+        "index": true,
+        "title": "NCAA Division I age-based eligibility rules for fall 2027"
+      },
+      "section": "sports",
+      "slug": "ncaa-division-i-age-based-eligibility-model-2027",
+      "social": {
+        "description": "The Cabinet plan replaces sport-specific season limits and most waivers with a five-year period tied to age at first full-time college enrollment.",
+        "image": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/navy-air-force-football-celebration-2019/open-graph.webp",
+        "title": "Division I’s new eligibility clock is tied to age and enrollment"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "NCAA Division I",
+        "College eligibility",
+        "Student-athletes",
+        "Redshirt rules",
+        "Roster management",
+        "College football"
+      ],
+      "uncertainty": [
+        "The NCAA page says the changes were not final until the Cabinet meeting concluded the day after the vote; the public page’s adopted headline and implementation table are the available association record.",
+        "Individual transition outcomes depend on age, enrollment timing and remaining eligibility under the prior rules."
+      ],
+      "updatedAt": "2026-08-06T05:19:55.069Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
       "body": "Cut-resistant protective equipment will become mandatory for NCAA Division I men's hockey and National Collegiate women's hockey players beginning with the 2027-28 season, the association announced.\n\nPlayers currently have the option to wear the equipment. During the 2026-27 academic year, the NCAA is encouraging protection designed for the neck, wrist and ankle areas before the requirement takes effect.\n\nThe rule does not yet apply to Division III. Members of the Division II and III Playing Rules Oversight Panel supported sending the proposal out for comment, and the Division III panel is expected to act on it at a September meeting.\n\nThe NCAA announcement did not identify approved brands or publish a complete product specification. Schools and equipment managers will need later guidance on standards, certification and enforcement before the mandatory season begins.\n\nThe association also approved a clarification allowing audio-communication devices and health-and-safety tracking technology in the bench area for all NCAA hockey. Video may not be used for coaching purposes on the bench.\n\nOther changes arrive sooner. Division I men's hockey will add a trapezoid behind the net in 2026-27, limiting where goalkeepers may play the puck below the goal line. Division III men are scheduled to add the marking in 2027-28.\n\nRegular-season overtime remains five minutes of three-on-three play for both men's and women's hockey. Women's conferences will determine whether a shootout follows a tie, including rules for nonconference and neutral-site games.\n\nAdditional approved changes allow defensive-zone hand passes, require both men's faceoff players to place their stick blades flat before the puck drop and restrict timeouts by a Division I men's team that is not allowed to change players after certain stoppages.\n\nThe cut-resistant equipment rule is the clearest player-safety change in the package. Its delayed effective date gives programs time to obtain compliant gear and allows Division III to finish its separate governance process.",
       "bodyBlocks": [
         {
@@ -10252,6 +10699,154 @@
         "The fluorescent ball is recommended in 2026–27 and does not become mandatory until 2027–28."
       ],
       "updatedAt": "2026-08-06T02:34:08.835Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A fixed set of artificial-intelligence guardrails cannot be universally robust against adaptive adversarial prompts, according to a mathematical argument published by a senior National Institute of Standards and Technology scientist.\n\nThe finding is about a limit, not a declaration that AI security is impossible. Apostol Vassilev’s paper argues that when behavior is constrained by a finite rule system, a sufficiently adaptive adversary can construct inputs that expose cases the rules do not settle as intended.\n\nNIST connects that argument to the logic of Kurt Gödel’s incompleteness theorems. The analogy does not mean a language model is a formal proof system in every respect; it is used to show why a finite compliance scheme should not be treated as permanently complete.\n\nThe operational consequence is a shift away from “one and done” security. NIST says organizations should continuously red-team systems to uncover new adversarial prompts, update defenses as those failures are found, and build resilience that limits impact and accelerates recovery.\n\nThat sequence changes what readiness means. Passing a pre-release evaluation establishes how a system behaved against the tests available at that moment. It does not establish that future users or attackers cannot discover a new interaction that bypasses the same controls.\n\nContinuous monitoring also requires evidence, not merely a recurring calendar task. Teams need documented failure cases, reproducible tests, versioned control changes and recovery measures that show whether a newly hardened system actually reduces the identified risk.\n\nThe paper appeared in the May 2026 issue of IEEE Security & Privacy, and NIST summarized it publicly in June. NIST’s account says the long-run goal is to make finding new exploits more expensive than an attacker can justify, rather than promising absolute immunity.\n\nThe limits matter most where model actions can affect accounts, infrastructure, medical workflows or other high-consequence systems. A lower-risk assistant and an autonomous tool with privileged access should not receive identical monitoring budgets simply because both use generative AI.\n\nThe useful takeaway is narrower than the headline risk: fixed guardrails remain necessary, but they are not a finished security program. Deployment must include an operating loop for finding, patching and containing failures that were not visible when the original controls were written.",
+      "bodyBlocks": [
+        {
+          "text": "A fixed set of artificial-intelligence guardrails cannot be universally robust against adaptive adversarial prompts, according to a mathematical argument published by a senior National Institute of Standards and Technology scientist.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The finding is about a limit, not a declaration that AI security is impossible. Apostol Vassilev’s paper argues that when behavior is constrained by a finite rule system, a sufficiently adaptive adversary can construct inputs that expose cases the rules do not settle as intended.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NIST connects that argument to the logic of Kurt Gödel’s incompleteness theorems. The analogy does not mean a language model is a formal proof system in every respect; it is used to show why a finite compliance scheme should not be treated as permanently complete.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic explains the NIST result on finite AI guardrails and adaptive prompts.",
+          "caption": "NIST says a fixed finite set of guardrails cannot be universally robust against adaptive adversarial prompts.",
+          "credit": "Boho News graphic from NIST and IEEE record",
+          "height": 900,
+          "rightsId": "media-nist-ai-finite-guardrails-proof-2026",
+          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update",
+          "src": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-finite-guardrails-proof-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The operational consequence is a shift away from “one and done” security. NIST says organizations should continuously red-team systems to uncover new adversarial prompts, update defenses as those failures are found, and build resilience that limits impact and accelerates recovery.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That sequence changes what readiness means. Passing a pre-release evaluation establishes how a system behaved against the tests available at that moment. It does not establish that future users or attackers cannot discover a new interaction that bypasses the same controls.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Continuous monitoring also requires evidence, not merely a recurring calendar task. Teams need documented failure cases, reproducible tests, versioned control changes and recovery measures that show whether a newly hardened system actually reduces the identified risk.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows a red-team, update and recover cycle for AI security.",
+          "caption": "NIST’s proposed operating model combines continuous red-teaming, defense updates and operational resilience.",
+          "credit": "Boho News graphic from NIST record",
+          "height": 900,
+          "rightsId": "media-nist-ai-continuous-assurance-cycle-2026",
+          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update",
+          "src": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-continuous-assurance-cycle-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The paper appeared in the May 2026 issue of IEEE Security & Privacy, and NIST summarized it publicly in June. NIST’s account says the long-run goal is to make finding new exploits more expensive than an attacker can justify, rather than promising absolute immunity.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The limits matter most where model actions can affect accounts, infrastructure, medical workflows or other high-consequence systems. A lower-risk assistant and an autonomous tool with privileged access should not receive identical monitoring budgets simply because both use generative AI.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The useful takeaway is narrower than the headline risk: fixed guardrails remain necessary, but they are not a finished security program. Deployment must include an operating loop for finding, patching and containing failures that were not visible when the original controls were written.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nist-ai-security-continuous-monitoring-guardrails-2026/",
+      "citations": [
+        {
+          "id": "source-nist-ai-continuous-security-20260609",
+          "publishedAt": "2026-06-09T12:00:00Z",
+          "publisher": "National Institute of Standards and Technology",
+          "title": "NIST Mathematical Proof Supports Transition to a Continuous-Monitor-and-Update Security Model for AI Systems",
+          "url": "https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "A NIST scientist published a mathematical argument that no finite AI guardrail set is universally robust against adaptive adversarial prompts.",
+        "The work appeared in IEEE Security & Privacy in May 2026.",
+        "NIST describes three operational responses: continuous red-teaming, continuous defensive updates and resilience that limits impact and speeds recovery.",
+        "The result extends an incompleteness-style argument to AI systems whose behavior is governed through finite rules.",
+        "NIST does not claim that all security controls are useless or that every deployed AI system has the same risk."
+      ],
+      "corrections": [],
+      "dek": "The result supports a continuous cycle of red-teaming, updates and recovery planning instead of treating an AI system’s launch controls as final.",
+      "desk": "artificial-intelligence",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institute of Standards and Technology",
+        "Apostol Vassilev",
+        "IEEE Security & Privacy"
+      ],
+      "eventId": "event-nist-ai-security-continuous-monitoring-guardrails-2026",
+      "headline": "NIST Proof Finds Fixed AI Guardrails Cannot Stop Every Adaptive Prompt",
+      "id": "article-nist-ai-security-continuous-monitoring-guardrails-2026",
+      "leadImage": {
+        "alt": "A network specialist works at a desk surrounded by monitors and communications equipment.",
+        "caption": "A network specialist works on infrastructure at Scott Air Force Base in 2018. NIST argues that AI security must be treated as continuous operational work, not a one-time guardrail release.",
+        "credit": "Jon Quinlan/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-cyber-network-operations-scott-afb-2018",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/cyber-network-operations-scott-afb-2018/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T05:19:55.069Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t045636z-ea1de6535bd5-8f7ae1f22b12",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NIST says fixed AI guardrails cannot stop every adaptive prompt and recommends continuous red-teaming, updates and resilience.",
+        "index": true,
+        "title": "NIST AI guardrails proof and continuous security monitoring"
+      },
+      "section": "technology",
+      "slug": "nist-ai-security-continuous-monitoring-guardrails-2026",
+      "social": {
+        "description": "The result supports a continuous cycle of red-teaming, updates and recovery planning instead of treating an AI system’s launch controls as final.",
+        "image": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/cyber-network-operations-scott-afb-2018/open-graph.webp",
+        "title": "NIST says AI security cannot be a one-and-done launch task"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "AI security",
+        "Adversarial prompts",
+        "Red teaming",
+        "Continuous monitoring",
+        "AI guardrails",
+        "NIST"
+      ],
+      "uncertainty": [
+        "The paper is a formal argument about limits of finite guardrails, not an empirical measurement of every deployed model.",
+        "The cost and frequency of continuous testing will vary by system, threat model and consequence of failure."
+      ],
+      "updatedAt": "2026-08-06T05:19:55.069Z"
     },
     {
       "articleType": "explainer",
@@ -10603,6 +11198,158 @@
         "The mission results describe one expedition and do not by themselves establish ecosystem-scale recovery."
       ],
       "updatedAt": "2026-08-04T22:40:42.275Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "NOAA recorded 374 preliminary tornado reports across the United States in June, with Illinois, Indiana and Missouri each posting a state record for the month in an unusually active stretch of Midwest severe weather.\n\nIllinois accounted for 91 preliminary reports, Indiana 69 and Missouri 32, according to the National Centers for Environmental Information’s June climate assessment using Storm Prediction Center data. The national number is a report count, not yet a final tornado count.\n\nMultiple observers can report the same tornado, and later damage surveys may merge reports or revise event classifications. “Preliminary” is therefore essential: the figure measures the early operational record before NOAA completes its event-level reconciliation.\n\nThe severe-weather month occurred alongside broad warmth. The contiguous United States averaged 70.6°F in June, 2.2°F above the 20th-century average and within the warmest third of the 132-year national record.\n\nPrecipitation averaged 3.23 inches across the contiguous states, 0.31 inch above the 20th-century average and also in the wettest third of the record. Kansas, Illinois, Indiana and Kentucky ranked among their 10 wettest Junes.\n\nNational averages obscure the split geography. The West and Southwest completed their warmest January-through-June period on record while receiving less than 70% of normal precipitation. Several western states had only about half to two-thirds of average precipitation.\n\nThe East also contained dry pockets: nine states from South Carolina through Massachusetts ranked among their eight driest first halves of a year. At the same time, parts of the Midwest and Great Lakes were notably wet, and Michigan had its wettest January–June on record.\n\nDrought covered less than half of the contiguous United States by the end of June, but persisted across much of the interior West and developed in Puerto Rico. A smaller national drought footprint does not mean every region improved.\n\nThe report is a climate accounting, not a local forecast or warning. Its value is in separating the pieces: preliminary severe-weather reports, measured monthly averages and regional rankings that show how one wet and stormy month can coexist with persistent western heat and dryness.",
+      "bodyBlocks": [
+        {
+          "text": "NOAA recorded 374 preliminary tornado reports across the United States in June, with Illinois, Indiana and Missouri each posting a state record for the month in an unusually active stretch of Midwest severe weather.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Illinois accounted for 91 preliminary reports, Indiana 69 and Missouri 32, according to the National Centers for Environmental Information’s June climate assessment using Storm Prediction Center data. The national number is a report count, not yet a final tornado count.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Multiple observers can report the same tornado, and later damage surveys may merge reports or revise event classifications. “Preliminary” is therefore essential: the figure measures the early operational record before NOAA completes its event-level reconciliation.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 374 preliminary U.S. tornado reports and state record counts in Illinois, Indiana and Missouri.",
+          "caption": "NOAA’s preliminary June accounting shows exceptional Midwest tornado activity; reports can be consolidated after storm surveys.",
+          "credit": "Boho News graphic from NOAA NCEI and SPC data",
+          "height": 900,
+          "rightsId": "media-noaa-june-2026-preliminary-tornado-reports",
+          "sourceUrl": "https://www.ncei.noaa.gov/news/national-climate-202606",
+          "src": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-preliminary-tornado-reports/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The severe-weather month occurred alongside broad warmth. The contiguous United States averaged 70.6°F in June, 2.2°F above the 20th-century average and within the warmest third of the 132-year national record.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Precipitation averaged 3.23 inches across the contiguous states, 0.31 inch above the 20th-century average and also in the wettest third of the record. Kansas, Illinois, Indiana and Kentucky ranked among their 10 wettest Junes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "National averages obscure the split geography. The West and Southwest completed their warmest January-through-June period on record while receiving less than 70% of normal precipitation. Several western states had only about half to two-thirds of average precipitation.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows national June temperature and precipitation measurements.",
+          "caption": "The contiguous U.S. averaged 70.6°F and 3.23 inches of precipitation in June 2026.",
+          "credit": "Boho News graphic from NOAA NCEI data",
+          "height": 900,
+          "rightsId": "media-noaa-june-2026-temperature-precipitation",
+          "sourceUrl": "https://www.ncei.noaa.gov/news/national-climate-202606",
+          "src": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-temperature-precipitation/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The East also contained dry pockets: nine states from South Carolina through Massachusetts ranked among their eight driest first halves of a year. At the same time, parts of the Midwest and Great Lakes were notably wet, and Michigan had its wettest January–June on record.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Drought covered less than half of the contiguous United States by the end of June, but persisted across much of the interior West and developed in Puerto Rico. A smaller national drought footprint does not mean every region improved.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The report is a climate accounting, not a local forecast or warning. Its value is in separating the pieces: preliminary severe-weather reports, measured monthly averages and regional rankings that show how one wet and stormy month can coexist with persistent western heat and dryness.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/noaa-june-2026-tornado-reports-us-climate/",
+      "citations": [
+        {
+          "id": "source-noaa-us-climate-june-2026-20260709",
+          "publishedAt": "2026-07-09T12:00:00Z",
+          "publisher": "NOAA National Centers for Environmental Information",
+          "title": "Assessing the U.S. Temperature and Precipitation Analysis in June 2026",
+          "url": "https://www.ncei.noaa.gov/news/national-climate-202606"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "NOAA reported 374 preliminary tornado reports nationwide during June 2026.",
+        "Illinois had 91 preliminary reports, Indiana 69 and Missouri 32, each a June state record.",
+        "The contiguous U.S. June temperature averaged 70.6°F, 2.2°F above the 20th-century average.",
+        "Contiguous U.S. precipitation averaged 3.23 inches, 0.31 inch above the 20th-century average.",
+        "The West and Southwest had their warmest January–June period on record and received less than 70% of average year-to-date precipitation."
+      ],
+      "corrections": [],
+      "dek": "Illinois, Indiana and Missouri set state June report records while the western United States completed its warmest first half of a year on record.",
+      "desk": "severe-weather",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NOAA National Centers for Environmental Information",
+        "NOAA Storm Prediction Center"
+      ],
+      "eventId": "event-noaa-june-2026-tornado-reports-us-climate",
+      "headline": "NOAA Logs 374 Preliminary Tornado Reports in a Stormy June",
+      "id": "article-noaa-june-2026-tornado-reports-us-climate",
+      "leadImage": {
+        "alt": "A massive dark storm cloud rises above the Gulf of Mexico, seen from an aircraft.",
+        "caption": "A storm cloud over the Gulf of Mexico in 2019. NOAA’s June 2026 report combines preliminary tornado counts with national temperature and precipitation records.",
+        "credit": "John Raven/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-storm-clouds-gulf-of-mexico-2019",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/storm-clouds-gulf-of-mexico-2019/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Illinois",
+        "Indiana",
+        "Missouri",
+        "West",
+        "Southwest"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T05:19:55.069Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t045636z-ea1de6535bd5-8f7ae1f22b12",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NOAA counted 374 preliminary tornado reports in June 2026 as Illinois, Indiana and Missouri set state June records.",
+        "index": true,
+        "title": "NOAA June 2026 preliminary tornado reports and U.S. climate"
+      },
+      "section": "weather-climate",
+      "slug": "noaa-june-2026-tornado-reports-us-climate",
+      "social": {
+        "description": "Illinois, Indiana and Missouri set state June report records while the western United States completed its warmest first half of a year on record.",
+        "image": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/storm-clouds-gulf-of-mexico-2019/open-graph.webp",
+        "title": "NOAA’s preliminary June tornado count reaches 374"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Tornadoes",
+        "Severe weather",
+        "June climate",
+        "Midwest storms",
+        "U.S. temperature",
+        "U.S. precipitation"
+      ],
+      "uncertainty": [
+        "Tornado reports are preliminary and can include multiple reports of one tornado until surveys consolidate the event count.",
+        "National averages mask sharp regional contrasts in temperature, precipitation and drought."
+      ],
+      "updatedAt": "2026-08-06T05:19:55.069Z"
     },
     {
       "articleType": "news-report",
@@ -12672,6 +13419,153 @@
         "BEA's September 30 annual update may revise historical GDP, income and spending estimates."
       ],
       "updatedAt": "2026-08-02T00:12:55.738Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The U.S. goods trade deficit narrowed to an estimated $101.5 billion in June, as imports fell more than twice as much as exports in the Census Bureau’s advance monthly accounting.\n\nGoods exports were $204.7 billion, down $3.8 billion from May. Goods imports were $306.2 billion, down $8.2 billion. The larger import decline reduced the gap by $4.4 billion from May’s revised $105.9 billion.\n\nA smaller deficit does not by itself mean trade expanded. Both sides of the ledger declined. The balance narrowed because imports contracted by more dollars than exports, not because U.S. exports grew faster than purchases from abroad.\n\nThe figures are advance estimates for goods only. They arrive before the fuller monthly U.S. international trade release, which combines detailed goods data with services such as travel, transport, finance and intellectual-property transactions.\n\nThat distinction is important for headlines. The $101.5 billion number should not be called the total U.S. trade deficit because the United States typically records a services surplus that offsets part of the goods deficit in the combined account.\n\nThe same report estimated wholesale inventories at $945.9 billion at the end of June, up 0.3% from May, with a stated margin of error of 0.2 percentage point. Retail inventories were estimated at $831.3 billion, statistically unchanged from May within a 0.2-point margin.\n\nInventory estimates and trade flows offer different signals. Stocks can rise because firms expect demand, because goods arrived faster than sales, or because prices and seasonal adjustment moved the measured value. The release does not assign one cause to June’s inventory changes.\n\nAdvance trade figures are also revised as more complete records become available. Census compiles goods statistics primarily from shipment documentation, including automated records associated with goods entering or leaving the United States.\n\nThe clearest June conclusion is mechanical: exports decreased, imports decreased more, and the preliminary goods gap narrowed. Any claim about the broader economy or the effect of trade policy requires additional releases and a longer time series.",
+      "bodyBlocks": [
+        {
+          "text": "The U.S. goods trade deficit narrowed to an estimated $101.5 billion in June, as imports fell more than twice as much as exports in the Census Bureau’s advance monthly accounting.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Goods exports were $204.7 billion, down $3.8 billion from May. Goods imports were $306.2 billion, down $8.2 billion. The larger import decline reduced the gap by $4.4 billion from May’s revised $105.9 billion.",
+          "type": "paragraph"
+        },
+        {
+          "text": "A smaller deficit does not by itself mean trade expanded. Both sides of the ledger declined. The balance narrowed because imports contracted by more dollars than exports, not because U.S. exports grew faster than purchases from abroad.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows the June goods deficit, exports and imports.",
+          "caption": "Advance estimates put the June goods deficit at $101.5 billion, exports at $204.7 billion and imports at $306.2 billion.",
+          "credit": "Boho News graphic from Census Bureau data",
+          "height": 900,
+          "rightsId": "media-census-advance-goods-trade-june-2026",
+          "sourceUrl": "https://www.census.gov/econ/indicators/current/index.html",
+          "src": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-june-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The figures are advance estimates for goods only. They arrive before the fuller monthly U.S. international trade release, which combines detailed goods data with services such as travel, transport, finance and intellectual-property transactions.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That distinction is important for headlines. The $101.5 billion number should not be called the total U.S. trade deficit because the United States typically records a services surplus that offsets part of the goods deficit in the combined account.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The same report estimated wholesale inventories at $945.9 billion at the end of June, up 0.3% from May, with a stated margin of error of 0.2 percentage point. Retail inventories were estimated at $831.3 billion, statistically unchanged from May within a 0.2-point margin.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows June exports down $3.8 billion and imports down $8.2 billion.",
+          "caption": "Imports fell more than exports, narrowing the advance goods deficit by $4.4 billion.",
+          "credit": "Boho News graphic from Census Bureau data",
+          "height": 900,
+          "rightsId": "media-census-advance-goods-trade-change-june-2026",
+          "sourceUrl": "https://www.census.gov/econ/indicators/current/index.html",
+          "src": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-change-june-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Inventory estimates and trade flows offer different signals. Stocks can rise because firms expect demand, because goods arrived faster than sales, or because prices and seasonal adjustment moved the measured value. The release does not assign one cause to June’s inventory changes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Advance trade figures are also revised as more complete records become available. Census compiles goods statistics primarily from shipment documentation, including automated records associated with goods entering or leaving the United States.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The clearest June conclusion is mechanical: exports decreased, imports decreased more, and the preliminary goods gap narrowed. Any claim about the broader economy or the effect of trade policy requires additional releases and a longer time series.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/us-goods-trade-deficit-june-2026-advance/",
+      "citations": [
+        {
+          "id": "source-census-advance-economic-indicators-june-20260728",
+          "publishedAt": "2026-07-28T12:30:00Z",
+          "publisher": "U.S. Census Bureau",
+          "title": "Advance Economic Indicators Report — June 2026",
+          "url": "https://www.census.gov/econ/indicators/current/index.html"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The advance U.S. goods trade deficit was $101.5 billion in June 2026.",
+        "The deficit narrowed $4.4 billion from a revised $105.9 billion in May.",
+        "June goods exports were $204.7 billion, down $3.8 billion from May.",
+        "June goods imports were $306.2 billion, down $8.2 billion from May.",
+        "The report is an advance estimate and is separate from the broader final goods-and-services release."
+      ],
+      "corrections": [],
+      "dek": "Advance Census estimates show imports fell $8.2 billion while exports declined $3.8 billion, producing a $4.4 billion smaller gap.",
+      "desk": "economy-desk",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Census Bureau",
+        "U.S. Department of Commerce"
+      ],
+      "eventId": "event-us-goods-trade-deficit-june-2026-advance",
+      "headline": "U.S. Goods Trade Deficit Narrows to $101.5 Billion in June",
+      "id": "article-us-goods-trade-deficit-june-2026-advance",
+      "leadImage": {
+        "alt": "A loaded container ship moves across open water under a pale sky.",
+        "caption": "A container ship at sea. Census advance data show the U.S. goods deficit narrowed in June because imports fell more than exports.",
+        "credit": "U.S. Navy courtesy photo",
+        "height": 900,
+        "rightsId": "media-container-ship-at-sea-2008",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/container-ship-at-sea-2008/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-06T05:19:55.069Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260806t045636z-ea1de6535bd5-8f7ae1f22b12",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The U.S. advance goods trade deficit narrowed to $101.5 billion in June as imports fell more than exports.",
+        "index": true,
+        "title": "U.S. goods trade deficit June 2026 advance estimate"
+      },
+      "section": "business",
+      "slug": "us-goods-trade-deficit-june-2026-advance",
+      "social": {
+        "description": "Advance Census estimates show imports fell $8.2 billion while exports declined $3.8 billion, producing a $4.4 billion smaller gap.",
+        "image": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/container-ship-at-sea-2008/open-graph.webp",
+        "title": "Falling imports narrowed June’s advance goods-trade gap"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "U.S. trade deficit",
+        "Goods exports",
+        "Goods imports",
+        "Economic indicators",
+        "Wholesale inventories",
+        "Retail inventories"
+      ],
+      "uncertainty": [
+        "Advance estimates are subject to revision when fuller trade data are released.",
+        "The advance goods balance excludes services and should not be described as the total U.S. trade balance."
+      ],
+      "updatedAt": "2026-08-06T05:19:55.069Z"
     },
     {
       "articleType": "news-report",
@@ -14804,22 +15698,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T04:03:17Z",
+  "generatedAt": "2026-08-06T05:21:20Z",
   "inputHashes": {
-    "approvals": "dd34cd5198648ea0eb47e36ec81768a1af0f2a0a6c18ebbd738f9dafe49f1a46",
-    "articles": "7a08858202d53d3f4bb73cbd20acd4b5310d56bb30bd81b2fd5e7ddfaba2ae58",
-    "claims": "04ac5f5d3a93fbd2172c95e277bcb22613d7ee5bfd0c20f3a1eda4bcf9b1e8a6",
+    "approvals": "215e427ef0e62300241cee143395c8223010c0cb02bc276623e3a321808e0c18",
+    "articles": "ca08816c0768e3b4052d4c9d15287987492d8e9c5cc698066ba43d602460b0c2",
+    "claims": "9eb4222214eb821042b25f71f414aee4f1437446a0a157a01a1faccda5fdfe9d",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "3dc82781e7a7c1cc160da95ea9fd06e11b54f26fb8da116860143340005734fd",
-    "mediaRights": "a13ccf8e24fc60c27dea2c41f4a7fb5cfcf8d5f0dd7ce41bd9355fccbe164c1a",
-    "publicationIntents": "08a65108565e51306f9e22044c084f709ed8927a1b8f301e8d3118b8e1295cc9",
-    "releaseRecords": "37c41703f1f9259ff677be4425ea9ddf26bc28f66ad0032e6dbc98a2a916779a",
-    "sourceItems": "d6d3f2a15c3618c5eda6490053e62491a4d3ca8d4f831a293b88dbe2b1f8dcf4"
+    "events": "18da39397322dcf0bd2400c2129976d36a8470cae0e30f95ba7c17668c059550",
+    "mediaRights": "cf0a8c830dc5321a78e934a56619dbde6572c38a1ba33624ea135e4be25e4c0b",
+    "publicationIntents": "44ebbd3b734ef9902872aa55a6150a1cd604cab8dca0bb25e386bfa33efd2503",
+    "releaseRecords": "b683a96aeb2b1c73f8d2b7aa0d49033cc2ff08d5a9eb80a4cafa6a64be3ee349",
+    "sourceItems": "f1f7b5c10fcd721e2b4d50d79097d8f823794c303281d99197652f2492827965"
   },
   "inventory": {
-    "articleCount": 69,
-    "mediaCount": 193,
-    "routeCount": 69
+    "articleCount": 75,
+    "mediaCount": 211,
+    "routeCount": 75
   },
   "mediaRights": [
     {
@@ -17155,6 +18049,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows June exports down $3.8 billion and imports down $8.2 billion.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Census Bureau data",
+      "caption": "Imports fell more than exports, narrowing the advance goods deficit by $4.4 billion.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "506600247d7ffde25515b3506c21587ea9307c250a1061eacac0c1b77c8927ea",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-change-june-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1741124c6839d3df94d3dd616a4f79c526d9fe4861f49f84363975054dca1518",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-change-june-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "fa3d5b2fa7f003bb4ce3c061bce4dc2437238d105f7143e0e449fc6ffff444d3",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-change-june-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "cc2c9cf67bfdcd223aa610cea4238a50c6e4aaac5a66d0206041f42fa15823bc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-change-june-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "eee8ff39604a1b363ff95cf6f0458d4237e0f079548414e6eeb13d5e34fb2bb2",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-change-june-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "307ce115e6d0b8beebf0101aa4ad886128689ecf3688ca35558ab39bdf5dd4e7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-change-june-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0b1b5ff0cf1c525fa026a0b454c10e96846664d9fb94b3c02318ef37796924e8",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-change-june-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-advance-goods-trade-change-june-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4ddf11cfdb0af62ea3f8f908ce8b824706924ed94ee339708e2cbc60965f4444",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/econ/indicators/current/index.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the June goods deficit, exports and imports.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Census Bureau data",
+      "caption": "Advance estimates put the June goods deficit at $101.5 billion, exports at $204.7 billion and imports at $306.2 billion.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "bfff77f19d4191db44606a8a5d84d94104f36c4a94ef124bfbbc2babaaa4fac0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-june-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "91be254279904610af38c5f9eb69ceaa01fc85c6950e41ea6b121e446937e7c2",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-june-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c7059b9ba523d86a8ad2f870fc52a5d8299e11c7a9cb4bda89af5d05f0af5811",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-june-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "262d667c25bd8f794c6df64ebb4d7e31ccb9dd1c6ef0203d9e5cb887833adaa6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-june-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ad8e38d9a28f9f3d3a2d58a520162cc409c154acb780b32ce289a0e3264fd418",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-june-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "bd4973f3eb4630cdaa512ae90b3dc4db1ae4b7bfd81702bc47504237f6bd4ba9",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-june-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4a74bb27fbf3edf01976ffd16a0886c17c80df289a6fd28e6a9302f53abfa033",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/census-advance-goods-trade-june-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-advance-goods-trade-june-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d7a6748269e79f0277dfa2a2c0ef5911ddd6c999ea953334deada49005f51d7b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/econ/indicators/current/index.html"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Two college hockey players race toward the puck during a game in Anchorage, Alaska.",
       "archivalStatus": "current",
       "attribution": "Senior Airman Patrick Sullivan/U.S. Air Force",
@@ -17383,6 +18429,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "A loaded container ship moves across open water under a pale sky.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Navy courtesy photo",
+      "caption": "A container ship at sea. Census advance data show the U.S. goods deficit narrowed in June because imports fell more than exports.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "U.S. Navy",
+      "derivatives": [
+        {
+          "hash": "93c5f89660785375e8e54dba577299f3f7146fa37f72583d729da5013960f424",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/container-ship-at-sea-2008/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "864a9ec6a50b80b969bb69bfefd96fced4b6757a1e75557d20db2045f3baf5b8",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/container-ship-at-sea-2008/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "22537f1fa105602824d8370e816e85feaaf13a74ab2c378864c319f9de30fa42",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/container-ship-at-sea-2008/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "96e9e453bd62d032ca6ba7c78410941edf627a5e0068a297d89d3f50baf1e72c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/container-ship-at-sea-2008/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "649958abe88dac25d998c97a2f2c4d84195e8072d01260266113b8c4a394b531",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/container-ship-at-sea-2008/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d9c5094b99937505e13df45ef751f1fb56759dc8e4dfea49d6636be06c3b8382",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/container-ship-at-sea-2008/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "09221c2ceed29c8df4a67f45c1bb8a145cd1d25da5c6f23fd8dbeafd3623ddb3",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/us-goods-trade-deficit-june-2026-advance/container-ship-at-sea-2008/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-container-ship-at-sea-2008",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "604bb7be25e30ad1429659822289c30833cda24cd44f45fa8d04b7fa9fdbe19b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/99922/container-ship-sea"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Graphic lists extreme-heat and heavy-rain risk windows from Aug. 12 through Aug. 18.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from NOAA Climate Prediction Center records",
@@ -17532,6 +18654,82 @@
       "rightsBasis": "Official NOAA Climate Prediction Center composite map generated for the cited forecast.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.cpc.ncep.noaa.gov/products/predictions/experimental/threats/hazards_d8_14_contours.png"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A network specialist works at a desk surrounded by monitors and communications equipment.",
+      "archivalStatus": "current",
+      "attribution": "Jon Quinlan/U.S. Air Force",
+      "caption": "A network specialist works on infrastructure at Scott Air Force Base in 2018. NIST argues that AI security must be treated as continuous operational work, not a one-time guardrail release.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Maj. Jon Quinlan, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "805781e69865881107ce862d3b223f8427f7b74ac96f28863bbbaa52619609b7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/cyber-network-operations-scott-afb-2018/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c3ec9d088960ea11b81ac052383c9dfb5d83e9eba0df7b45353d10ecce20a557",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/cyber-network-operations-scott-afb-2018/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bdd090639eb5efdcab8eaea0ca51b2655d06d272bf434f7a46b0fb4f6d94354d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/cyber-network-operations-scott-afb-2018/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9d1892e324a1dca9265c490c2b57d29361cfad64b9d6338a9ee716dcb61fb984",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/cyber-network-operations-scott-afb-2018/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "74e6787f23b97c8f155b5f1d7ed8223a69623fc68fdc23af8c172230010d8d12",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/cyber-network-operations-scott-afb-2018/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6439b2518b1e7561b49f09e020108a4029be347c240946572f57cfae0dc4652c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/cyber-network-operations-scott-afb-2018/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3f19911b3dadb3931a65d8e0b2f9ecd69da2c638606794e0ce9948e7460ec77c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/cyber-network-operations-scott-afb-2018/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cyber-network-operations-scott-afb-2018",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "bbe570c80b687386427b5b2f9f50c6ef938476ab66f8f15e223f1047e9e526d3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/4365402/cyber-network-operations"
     },
     {
       "aiGenerated": false,
@@ -18596,6 +19794,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows EIA demand and generation forecasts for West South Central, ERCOT and PJM.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from EIA forecast",
+      "caption": "EIA ties projected growth to data centers, manufacturing and other large commercial and industrial loads.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d6ef4704130844c2a89a71b6a70767a6af32db624d0c57abd002ff43fdb384ef",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-power-load-growth-regions-2027/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a34efc95cbe912daef7cb0db3b5f7c6d1952b971cdb40372758baa01b7b19428",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-power-load-growth-regions-2027/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "068f90c63a9d6266a083693041bc3b0a4e71ba9f7c639db7de91a1154a289993",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-power-load-growth-regions-2027/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "92a64f16b4014399b558d72f3f6b9fa8b4731d974eaf452fe595f9409357e7f6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-power-load-growth-regions-2027/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "845ca0cd46eeef46addf466bacafad7214f7630f86a017dc43f913dd52ef66c9",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-power-load-growth-regions-2027/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "81f893e76fdbf06c2a7a2892e48d2bbecbc67796180e6f337d04b929e5844628",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-power-load-growth-regions-2027/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "897e62992f28f84c1132941d675a909b46071b7ce2e0a18ae24b07eb6c62f6c8",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-power-load-growth-regions-2027/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-eia-power-load-growth-regions-2027",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "708097b272b75b5dce585ce5a931a529a22141f2bec6738e4e33e5f115e01eec",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67725"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares EIA summer natural-gas demand forecasts for the power sector.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from EIA forecast",
+      "caption": "EIA expects power-sector gas demand to average 43.7 Bcf/d in summer 2026 and a record 46.1 Bcf/d in 2027.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "f24db6903016042dbef09adb326bb2fedcc0e65aa8eaa7104ae07792e46c607c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-summer-power-gas-forecast-2026-2027/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "22ffd197ec209a1fa82d1201013a38b5420561fcd2324fe2175a4217efd0abb0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-summer-power-gas-forecast-2026-2027/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3ccf4c94bbaecc7c89310bda1b960a99b8ab61c0e3ab415c8f43f8e2f65fd93c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-summer-power-gas-forecast-2026-2027/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "502cdfd10fcbf2efe105c3ddb17ea6f22d3ab42b405d203c7a925cf1ec77e890",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-summer-power-gas-forecast-2026-2027/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0d17d459381f7dc4fd02ab65977a3173321ed58eeddcacc0336da77fd4085d32",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-summer-power-gas-forecast-2026-2027/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1e4866b197eea4f7f22d8e0ca931878aff25e3aa75f4d5ca55d06daa27b0d10e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-summer-power-gas-forecast-2026-2027/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4763c6bd403e42ce082c78f182e6912be0198ecd99de3b38f7d4b97cb9cb98da",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/eia-summer-power-gas-forecast-2026-2027/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-eia-summer-power-gas-forecast-2026-2027",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "618111934c734a9087487483afec0ca22f9bc521053a1c70dca4ec7d084ef541",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=67725"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Graphic contrasts the current federal public-participation floor with state and local discretion under EPA’s proposal.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from EPA proposed rule announcement",
@@ -18745,6 +20095,158 @@
       "rightsBasis": "Original graphic derived solely from the cited EPA primary records.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.epa.gov/newsreleases/epa-proposes-streamline-state-and-local-permitting-process-minor-sources"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Timeline shows provider notices, the August 14 deadline and 2027 benchmark use.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from FCC DA 26-640",
+      "caption": "Selected providers must complete the survey by August 14; the rates inform 2027 comparability benchmarks.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "8a1cb56d692da2e650643fd68698f832662557d96a720777f62a9e307bbd576b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-calendar-2027/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "05087f6065aa5b201fe3b3f125156159b2e3f41303db7c6b7332987a2e287e7c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-calendar-2027/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "94e0c18ef688def3a49372eccc707e3cd6fe12a319fc1fc1b183b6d06af794cc",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-calendar-2027/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "aaa8e5c80f051d555b1feb34c1ddba1a7983c39eed3c53b6071851f351f4a379",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-calendar-2027/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e8a6227f4cc1b49fce844c84aef9aff7923620ad3034255875acc9b0509f440b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-calendar-2027/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "577bc64dcdc86391d014ced8d1b1cd5d3db80f63fbd685aa79a53ca0e47baefb",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-calendar-2027/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c0499fe5f3295d7b8ba3710cd9bed4cd48dd3b802815ba965061f2bf637083a7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-calendar-2027/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-fcc-urban-rate-survey-calendar-2027",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "72cd1cc682bd654281bd1fc277048c8696567d0d17d14fc78712496bf5e8f032",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://docs.fcc.gov/public/attachments/DA-26-640A1.pdf"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the FCC survey sample for fixed broadband and voice.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from FCC DA 26-640",
+      "caption": "The FCC may sample up to 2,000 urban tracts for broadband and 500 for voice using December 2025 BDC data.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "add8d6d78d917306ef6fe80850c9e421a69c0c1fd590447a5ae0ca6e8dc19bf7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-sample-2027/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a6562ad6bb76a39c9e8ae0e666db36eb79b75c5b87160d92ee7bd8e89a5bf17f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-sample-2027/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b36b3a6b84e234458491f1d465b0c7920d2ba8adbe1471a7d9f2b0852929b659",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-sample-2027/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "85990a40152992fac70392a20b231393f67b23bc144b172188904ba88a5d0955",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-sample-2027/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "cbd7def8b9ecd16d27ecf4d979b87b99ed95df9d3b0e5232e3fbd39514a19a32",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-sample-2027/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e7f97e6c15357b0f972cc3224560d1ea980cdc49fd00c0019f70d87d5d341975",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-sample-2027/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5c78152ffaf913bb72d96f1c0ba8b5625e927ba15643ca0aa06b519f9d27c6f0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/fcc-urban-rate-survey-sample-2027/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-fcc-urban-rate-survey-sample-2027",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "b2d7f759cc14c651eb67834f0fbfbadc9af5dbb78513b3cf0c97b261bbaa773e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://docs.fcc.gov/public/attachments/DA-26-640A1.pdf"
     },
     {
       "aiGenerated": false,
@@ -23816,6 +25318,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Navy football players celebrate near the sideline late in a game against Air Force.",
+      "archivalStatus": "current",
+      "attribution": "Lisa Ferdinando/Department of Defense",
+      "caption": "Navy players react late in a 2019 Division I football game. The NCAA Division I Cabinet approved a shift from sport-specific season limits to an age-based eligibility period.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Lisa Ferdinando, Department of Defense",
+      "derivatives": [
+        {
+          "hash": "529495bb48c064549d5fdded005cb40f810b1ac121e1ffa46a2e8180a7c5f8e8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/navy-air-force-football-celebration-2019/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6452d7f0ee300ed7d1272633c46277816fa61bf74fb3210d037e498dec1098a8",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/navy-air-force-football-celebration-2019/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "088e45ebe1e6c5ff7a8810dae8143f5383fab6674b969bcfb278bdd7a8ede748",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/navy-air-force-football-celebration-2019/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "fabfa1c97f124c3346f900971fcb0350be7e8afe642653863d9ced36b9424e86",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/navy-air-force-football-celebration-2019/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "929d559ef5c6a018b66b3a4b5b1952e612d620bfe853d17312fcf7549541bd23",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/navy-air-force-football-celebration-2019/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "fb4fa95b9c5ff37ba2e24fbbc08c840f0fdc6a43e83a8bee570c1104458e2c87",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/navy-air-force-football-celebration-2019/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "278ff0824d0f478235c51dab5a26051437f977404aa8c3a1db98297828f50974",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/navy-air-force-football-celebration-2019/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-navy-air-force-football-celebration-2019",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "9487ebc28dd885c38c775dedeea9d977c8388a7e4dc8a6e3455423cb376021d8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/5813102/navy-air-force-football-teams-meet-for-matchup-in-annapolis"
+    },
+    {
+      "aiGenerated": false,
       "altText": "An industrial power plant with three smokestacks stands behind electrical equipment and transmission lines.",
       "archivalStatus": "current",
       "attribution": "Gary Wagner/U.S. Navy",
@@ -23965,6 +25543,158 @@
       "rightsBasis": "Official Navy photograph marked public domain by DVIDS.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.dvidshub.net/image/4568129/nsa-naples-housing-inspection"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists pregnancy, active-duty service and official religious missions as exceptions.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NCAA record",
+      "caption": "The Cabinet listed three circumstances that can pause the eligibility period when the athlete does not compete during the exception.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "4c254aad5253c62ae3ace4f59ff8af85a90fc84b5cf7dd65fc8645e94d8c2f8c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-exceptions-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a8fe3664415e4995a99d2bdabcb3b6abdbc32acbbec3e23a28d94f8145291f1b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-exceptions-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "173155648f49c923d671ca083de1fb358b1aec53ea01a00d21b39af3f94f9545",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-exceptions-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "92120a86df583516f2c19fb0cd091fc33cdb029fcedb9c8feae69a1f7c0121d2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-exceptions-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "907a1408e8502694a544232d6d8543eaf2e3feededef108f3ec8df32b712a3ec",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-exceptions-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d030797babf3b011821629dc7f4059843f82d853bb0035e828a179c38879f5d1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-exceptions-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f7bcf63cbcb2fb21d54b3d432688bf5dc2a8d2b6115d15c2218c83081c996a00",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-exceptions-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ncaa-age-eligibility-exceptions-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "877307ec0e07000582f9c364a9ac3e6ce13744d37f02b49315fa61fda01c84ce",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ncaa.org/division-i-adopts-age-based-eligibility-model/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic explains which Division I athletes use the old or age-based eligibility model.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NCAA record",
+      "caption": "The transition gives many current athletes and 2026–27 entrants whichever model is more favorable; fall 2027 entrants use the age model.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "110867b4c67c484eb4b986cbffd119f3dd446fcdc12b62906f3739503e7f6740",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-transition-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "52fc52fe12e119d9155cc0006110956efd3dd5937a0b5dd7cfb7e8d1db8c5e4f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-transition-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5d4b03d132e30677f2cca84ad529519784b49a4b8ca8383d3a7de7762b50290d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-transition-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "55cf1ef1b9269cc23d32d9ac6b4fcd322fa907fd03ff8a9caabe79a0fd6839ff",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-transition-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1c9061668897f805c8036775ef5cbd8f8510b84c4c265ef15f0e605851752302",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-transition-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "79ffdcdfdf60f6fb9f8732d7f56c848efa6075fa2bd4265f99e4169268114184",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-transition-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2b56275b8644338fe6f085dbdf525d679f2cd947a89e6d78a1a82652e63d8977",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/ncaa-division-i-age-based-eligibility-model-2027/ncaa-age-eligibility-transition-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ncaa-age-eligibility-transition-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "348fede3a2d41fd091b096c4b5cd932e9d3b68ccf7da7ec0ea08d8fce8f8bbad",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ncaa.org/division-i-adopts-age-based-eligibility-model/"
     },
     {
       "aiGenerated": false,
@@ -24424,6 +26154,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows a red-team, update and recover cycle for AI security.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NIST record",
+      "caption": "NIST’s proposed operating model combines continuous red-teaming, defense updates and operational resilience.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "243de34d6f429dff4019a5b1ce8f4866fbb2b2dfd906b29982e59bf95d1f6178",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-continuous-assurance-cycle-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "73ab94ec103362e35c908fd71a5560b322d1926ab3c433ebfac105655c8c6b69",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-continuous-assurance-cycle-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3516cdc0e7086772e2be27a61cf201c19f683dfe2fcff5115201660ef9ed9725",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-continuous-assurance-cycle-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "27e9daa79fa6ed5407b176b2fb71987f5212147143fa95b9f9e08ca672bfee10",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-continuous-assurance-cycle-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ac1458e5dfc3e0cbe0e650ed126bb9f3b78bdfa22dea4595266da24cba31a1f7",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-continuous-assurance-cycle-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ec23dd2b6bdb99f12c8e476ccb10d98d3952ac619ec032e13218e041eb9bb8c7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-continuous-assurance-cycle-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "54fe2f803dcf807fa8e828fbe1d7dc2d0679c6a52d91e5004e93b2a26bb98014",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-continuous-assurance-cycle-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nist-ai-continuous-assurance-cycle-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "11aaaf9665d606b6624ae7bc7d06dff5244750bf492bf7ca01d9c81507a7dff5",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic explains the NIST result on finite AI guardrails and adaptive prompts.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NIST and IEEE record",
+      "caption": "NIST says a fixed finite set of guardrails cannot be universally robust against adaptive adversarial prompts.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "800147ae1e5d04ed66481290398ef5244d6a465f35bc02d1adc9dffe2ad8914e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-finite-guardrails-proof-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3a952708e32613844ea42f4d5ced711d3ba1267fc1beb6ad5cf0cbde655bda39",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-finite-guardrails-proof-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8ef6ec9bffae7e5a1cc276eae6143ccf96a2a99f94e930e3fdc499dadc57b442",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-finite-guardrails-proof-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ed6b694f14c0d0fd87a1523ab0bdaadc69452dbcaa7a7075289ff48e3afb52ce",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-finite-guardrails-proof-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4130f49d141450f3bbd5d2e1d046dc4828cb23b5901999a2e756f71652f337a5",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-finite-guardrails-proof-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "df043895dff58259af221d9b5c862ce3517ff328e7f0ccf82e67673ba5d8b8b6",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-finite-guardrails-proof-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3df25dbcda95bf4ae8ee8df139202d4585bc9338003c540509e126cbc2e1495c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nist-ai-security-continuous-monitoring-guardrails-2026/nist-ai-finite-guardrails-proof-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nist-ai-finite-guardrails-proof-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "c4bd3c577428e82573fa7402adb9423e5a8111ae66201e4b9a763d3c7b8d5b62",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Five labeled fabric swatches arranged around a reflective calibration target on a blue surface.",
       "archivalStatus": "current",
       "attribution": "NIST",
@@ -24801,6 +26683,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows 374 preliminary U.S. tornado reports and state record counts in Illinois, Indiana and Missouri.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NOAA NCEI and SPC data",
+      "caption": "NOAA’s preliminary June accounting shows exceptional Midwest tornado activity; reports can be consolidated after storm surveys.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ea5860807f1ba359b9eb471f750bf9afaf5ec540f5e039b6a59ae86cb8b93e4e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-preliminary-tornado-reports/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ba9a5ee80e4a03ef2e3dc2752399cab90d7a727f9d5744901425f9a55a148e51",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-preliminary-tornado-reports/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9a084081dd2f6dcbe70c0e51f0a21823f2f196725b33675d0f5a391e23a3344b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-preliminary-tornado-reports/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8733be6bf164a1e6bd1ad0caafe31dc53ba155ae39a95ae2c67c4979b65fe57a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-preliminary-tornado-reports/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b529605405629756c36a3eb5c6c6e99c22ea5bb2c9d78366622b60d30160ef51",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-preliminary-tornado-reports/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "9a05c3299983b019efe0e60a1cf3e6647b6b85eb57ea44c9f4b9e38623673cb4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-preliminary-tornado-reports/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e1302730842f48e040146a887a94e7efbc2ea7ac47bcc07d1ff58ec9edaa57af",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-preliminary-tornado-reports/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-noaa-june-2026-preliminary-tornado-reports",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "193ec48f5e7b8c82e7ecef4e9480430db34985e2c06faaacadaedc37d5de8e64",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ncei.noaa.gov/news/national-climate-202606"
+    },
+    {
+      "aiGenerated": false,
       "altText": "NOAA map shows June temperature percentiles, with much of the West, Southwest, Mid-Atlantic and Northeast shaded above average.",
       "archivalStatus": "current",
       "attribution": "NOAA National Centers for Environmental Information",
@@ -24874,6 +26832,82 @@
       "rightsBasis": "NOAA NCEI official June temperature-percentile map.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.ncei.noaa.gov/sites/default/files/inline-images/grid-ranks-tavg-202606.png"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows national June temperature and precipitation measurements.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NOAA NCEI data",
+      "caption": "The contiguous U.S. averaged 70.6°F and 3.23 inches of precipitation in June 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline only; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "0a54ab353c416ffcffcd09186ffaf960f7789337947c2268f7fd8fbd13aa1c96",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-temperature-precipitation/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b8a3c494bb8504a7e201bec808a973aa3d8e5e3e1de7b53a19dc51dd75f68a80",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-temperature-precipitation/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b74e99e34594517bed772fe9cb8532ec93f0138de03b1f8b33a5c480328cd754",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-temperature-precipitation/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ce842104373b644007878ebe51e6cfbd91b0d979e7187d82bbb133b374c2800e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-temperature-precipitation/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9c0b8b0b5b8c9f02b7e064e87fa3c6edb7a8fc7b061e6b8f976343b897753b72",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-temperature-precipitation/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b7db3e96c6916e7fb02ffffc20cb57905ee7b56a3e52c0a1a2286b631c973b99",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-temperature-precipitation/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "379906e382d7a8578a6c8152e18e0f42732f6e1f9f055f148b3b43e96fef7c97",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/noaa-june-2026-temperature-precipitation/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-noaa-june-2026-temperature-precipitation",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "6408ec75bb23336375da45645899ac402fc6966ed5227a97311ccde4e6e6474f",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ncei.noaa.gov/news/national-climate-202606"
     },
     {
       "aiGenerated": false,
@@ -26545,6 +28579,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Airmen in safety harnesses assemble a communications tower against a clear sky.",
+      "archivalStatus": "current",
+      "attribution": "Andrew Moseley/U.S. Air National Guard",
+      "caption": "Airmen erect a communications tower in New Jersey in 2021. The FCC’s 2027 urban rate survey will use provider prices to set federal broadband comparability benchmarks.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Senior Master Sgt. Andrew Moseley, U.S. Air National Guard",
+      "derivatives": [
+        {
+          "hash": "d8863621987bb8ec9f439d54c7bece958ce4515778094e32f76e9045a602952c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/radio-tower-177th-fighter-wing-2021/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b461a34f5e8a860553548754d291b8646e8fa236af79fbbd6caafacb91319314",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/radio-tower-177th-fighter-wing-2021/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bf6fa310c0bf280a88fa8adeb37ba01aeae2da23585f48c1415c3aee3ac46f07",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/radio-tower-177th-fighter-wing-2021/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "613460fe6cdb9840058552d373792e19a759167fe929c4208f32bf72a27f4a63",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/radio-tower-177th-fighter-wing-2021/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c843aa2e0ca6ea4f326d615c68f187135e25d8680f44db6ea731ba985e825691",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/radio-tower-177th-fighter-wing-2021/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ca4f5c03a5ca4e73f440166b17d7a222b46984b370b2ccb1a8bbc6c166fc825b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/radio-tower-177th-fighter-wing-2021/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "08b0205b0c97db28c8cd8ad78d73f7ad6e6f398d21c5317c3d0f2feec1d17573",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/fcc-2027-urban-rate-survey-broadband-benchmarks/radio-tower-177th-fighter-wing-2021/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-radio-tower-177th-fighter-wing-2021",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "8f2bc52851604bb90c0b75637a6389dbaf385980e8fe362c08f3a3315d2b9ecb",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/6664529/radio-communications-tower-erected-177th-fighter-wing-new-jersey-air-national-guard"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A gray pulp carton labeled Kroger Large Grade A Eggs is photographed from directly above.",
       "archivalStatus": "current",
       "attribution": "Midwest Poultry Services via FDA",
@@ -26849,6 +28959,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "A massive dark storm cloud rises above the Gulf of Mexico, seen from an aircraft.",
+      "archivalStatus": "current",
+      "attribution": "John Raven/U.S. Air Force",
+      "caption": "A storm cloud over the Gulf of Mexico in 2019. NOAA’s June 2026 report combines preliminary tornado counts with national temperature and precipitation records.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Tech. Sgt. John Raven, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "43ebf08068703302e6cae7011b65e1d9f43d49e8471f0e8f9cacfceca4e854bf",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/storm-clouds-gulf-of-mexico-2019/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "596409cd7a2f29871f62eb6c457fe615f9abd304b3fb0d6890d6e5e99993391e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/storm-clouds-gulf-of-mexico-2019/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8ecb15e6d62d9bb921d2bbe39fea883d1ac3dad3eb4e186e2b7b067671a99842",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/storm-clouds-gulf-of-mexico-2019/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "bc5dbee4c90cee805cf35520bfe8665062e9513ec23d3b2595e18aacb3649f9e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/storm-clouds-gulf-of-mexico-2019/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "93d7a39802f420a3f7862d8a15c33b147419b21dd35d9fb40008c0ef0391b406",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/storm-clouds-gulf-of-mexico-2019/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d236ec65df75188143d296875962f0766d28de7353b8c24cd900ce92365e9b48",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/storm-clouds-gulf-of-mexico-2019/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "cf9feb91567780e7ce5fed1ef80a1b67ea2987aa9134d14c80e55124767088be",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/noaa-june-2026-tornado-reports-us-climate/storm-clouds-gulf-of-mexico-2019/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-storm-clouds-gulf-of-mexico-2019",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "0f1d8e99964abd63d8f9d28e0212bd30c63777d273f3b5d98c4d4e20fffef8f3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/5539813/storm-clouds-over-gulf-mexico"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A tornado descends from a dark storm cloud beyond farm buildings near Streator, Illinois.",
       "archivalStatus": "current",
       "attribution": "Andrew Lapinskas/National Weather Service",
@@ -27074,6 +29260,82 @@
       "rightsBasis": "Ken Lund published the photograph under CC BY-SA 2.0; attribution, source and share-alike terms are retained.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thurgood_Marshall_U.S._Courthouse_(Home_of_the_U.S._Court_of_Appeals_for_the_Second_Circuit_and_S.D.N.Y.)_(7237324632).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Officials cut a ribbon in front of a natural-gas peaking plant and its turbine building.",
+      "archivalStatus": "current",
+      "attribution": "Paul Shirk/U.S. Air Force",
+      "caption": "A 96-megawatt natural-gas peaking plant opened near Tinker Air Force Base in February 2026. EIA forecasts record power-sector gas demand in summer 2027.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Unique documentary lead; responsive crops only."
+      },
+      "creator": "Paul Shirk, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "41bf7bb61698a2eab676a5a8c32bce2dcc7d0094d5eb3a3f8696c5423bdf83e1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/tinker-natural-gas-peaking-plant-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5dffe99eef73c61189a08049e7f6c57afed9e14297a87e2cef8ab273f6fe9df2",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/tinker-natural-gas-peaking-plant-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "fe35598dfb27cb825cb39313bedfb628c2b02fa123663504c521aaeedafb65c0",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/tinker-natural-gas-peaking-plant-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a6980a520f6b3fc3ca67c736fd1db22d661667be77d7dda8b368e72ce56e27eb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/tinker-natural-gas-peaking-plant-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "808a20d980423d76967d283be92689c2a6f2a0b39e1696f5ffd92d955f9c47fa",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/tinker-natural-gas-peaking-plant-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "dd9e972325097abc8bfd77fac2e109371d5e1f83002f3fb0c52b22f6c672ee27",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/tinker-natural-gas-peaking-plant-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "abda8999ec4ee665de6dce7136eecea5dca33396d1df92f169877cc3c2f07639",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/eia-natural-gas-power-demand-record-2027/tinker-natural-gas-peaking-plant-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-tinker-natural-gas-peaking-plant-2026",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "bf223572475f07c73a134c56f2430f9d6309e39cf5d57c761bec2cdf1a51e352",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-06T04:38:15Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/9533022/new-tinker-electrical-peaking-plant-enables-energy-resilience"
     },
     {
       "aiGenerated": false,
@@ -29422,7 +31684,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "47408b389b0ce06120316dc1d33546dee8d71cc1d2b8ebff8bc9343323874d3e",
+  "packageDigest": "ace9fcec6a2d1ab87778452845c19325a18e4466d14071ebf437e3d9951bc825",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -30074,6 +32336,37 @@
       "providerActivatedAt": "2026-08-06T04:01:45.242064Z",
       "recordHash": "e30a81f4a8400dad71f93425449adf697602ee220e5725e8bf19ebae3cf02eab",
       "releaseId": "release-pb-20260806t032810z-652d56c78f69-852cbb62bfb6",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://053ddf29.bohonews.pages.dev/",
+      "activationEvidenceHash": "b4be86cab3cc70e06ec64b322ac8496570d2c34b0eafda3b8cde3dfcfba2871a",
+      "canonicalFirstPublicAt": "2026-08-06T05:19:55.069Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/eia-natural-gas-power-demand-record-2027/",
+        "https://bohonews.com/articles/fcc-2027-urban-rate-survey-broadband-benchmarks/",
+        "https://bohonews.com/articles/ncaa-division-i-age-based-eligibility-model-2027/",
+        "https://bohonews.com/articles/nist-ai-security-continuous-monitoring-guardrails-2026/",
+        "https://bohonews.com/articles/noaa-june-2026-tornado-reports-us-climate/",
+        "https://bohonews.com/articles/us-goods-trade-deficit-june-2026-advance/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-eia-natural-gas-power-demand-record-2027",
+        "article-fcc-2027-urban-rate-survey-broadband-benchmarks",
+        "article-ncaa-division-i-age-based-eligibility-model-2027",
+        "article-nist-ai-security-continuous-monitoring-guardrails-2026",
+        "article-noaa-june-2026-tornado-reports-us-climate",
+        "article-us-goods-trade-deficit-june-2026-advance"
+      ],
+      "previousVerifiedDeploymentReference": "60c4f24cd1aa928d075ba609c3f58c5b2fc92c382b21896533658cce7ba64321",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T05:18:33.013544Z",
+      "recordHash": "c89285d03e1a19465688e5a5d171531c45e1e6a9c69658a227f47c99fb192005",
+      "releaseId": "release-pb-20260806t045636z-ea1de6535bd5-8f7ae1f22b12",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }
