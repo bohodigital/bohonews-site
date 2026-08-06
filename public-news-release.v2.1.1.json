@@ -1,9 +1,9 @@
 {
-  "articleCount": 93,
+  "articleCount": 99,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T13:28:25Z",
-  "mediaCount": 265,
-  "packageDigest": "b6aa921902b5dbc7bfd23ba7a165a872509f4cff3cc3487ccdda3fa808f07838",
+  "generatedAt": "2026-08-06T14:56:20Z",
+  "mediaCount": 283,
+  "packageDigest": "a03161801ce7952f445275f0b9a28fd2c5a830213cc56da526f65f336ead1bcc",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -781,6 +781,37 @@
       "releaseId": "release-pb-20260806t125118z-329604abd3e6-aba9fdbce2b8",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://a674949f.bohonews.pages.dev/",
+      "activationEvidenceHash": "39ef38257fe3da714c0b2dbcd2beff5dfcbb2a4e8331849f1de9f842345d44f7",
+      "canonicalFirstPublicAt": "2026-08-06T14:55:38.035Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/faa-1-776-billion-airport-grants-46-states-2026/",
+        "https://bohonews.com/articles/gao-public-debt-123-percent-gdp-2036/",
+        "https://bohonews.com/articles/gao-usaspending-data-gaps-7-trillion-outlays-2025/",
+        "https://bohonews.com/articles/nsf-83-million-ai-ready-scientific-data-systems/",
+        "https://bohonews.com/articles/us-courts-wiretap-authorizations-fell-24-percent-2025/",
+        "https://bohonews.com/articles/world-athletics-ratifies-eight-records-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-faa-1-776-billion-airport-grants-46-states-2026",
+        "article-gao-public-debt-123-percent-gdp-2036",
+        "article-gao-usaspending-data-gaps-7-trillion-outlays-2025",
+        "article-nsf-83-million-ai-ready-scientific-data-systems",
+        "article-us-courts-wiretap-authorizations-fell-24-percent-2025",
+        "article-world-athletics-ratifies-eight-records-2026"
+      ],
+      "previousVerifiedDeploymentReference": "c2ca3abfa56797adee4af0196b8f128164043c31fbf6b308261db8128d5f34b1",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T14:53:59.399078Z",
+      "recordHash": "787435debdbd724348e797bdca76b95820fa6666feab660002645e725df1a37a",
+      "releaseId": "release-pb-20260806t135104z-8846b9e2c45e-6df8800826d2",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -798,6 +829,7 @@
     "/articles/eia-natural-gas-power-demand-record-2027/",
     "/articles/employer-compensation-costs-june-2026/",
     "/articles/epa-minor-air-permit-public-comment-proposal-2026/",
+    "/articles/faa-1-776-billion-airport-grants-46-states-2026/",
     "/articles/fcc-2027-urban-rate-survey-broadband-benchmarks/",
     "/articles/fda-first-us-freeze-dried-plasma-ezplaz-2026/",
     "/articles/fda-lipfendra-first-oral-pcsk9-inhibitor-2026/",
@@ -813,7 +845,9 @@
     "/articles/gao-immigration-courts-remote-hearings-2025/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/gao-opm-workforce-down-35-percent-2026/",
+    "/articles/gao-public-debt-123-percent-gdp-2036/",
     "/articles/gao-state-administered-program-fraud-risks/",
+    "/articles/gao-usaspending-data-gaps-7-trillion-outlays-2025/",
     "/articles/gao-weapon-programs-average-delivery-over-12-years-2026/",
     "/articles/greece-men-usa-women-water-polo-world-cup-2026/",
     "/articles/hawaiian-honeycreeper-family-tree-smithsonian-2026/",
@@ -852,6 +886,7 @@
     "/articles/noaa-gulf-dead-zone-forecast-7027-square-miles-2026/",
     "/articles/noaa-june-2026-tornado-reports-us-climate/",
     "/articles/noaa-week-two-heat-monsoon-drought-august-2026/",
+    "/articles/nsf-83-million-ai-ready-scientific-data-systems/",
     "/articles/pce-prices-consumer-spending-june-2026/",
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
     "/articles/shell-egg-recall-19-million-eggs-carton-codes-2026/",
@@ -862,6 +897,7 @@
     "/articles/trump-smithsonian-warning-signs-executive-order/",
     "/articles/un-sdg-targets-progress-2026/",
     "/articles/us-construction-spending-june-2026/",
+    "/articles/us-courts-wiretap-authorizations-fell-24-percent-2025/",
     "/articles/us-crude-inventories-fall-refineries-july-2026/",
     "/articles/us-gdp-growth-slows-q2-2026/",
     "/articles/us-gdp-growth-slows-second-quarter-2026-advance-estimate/",
@@ -872,6 +908,7 @@
     "/articles/what-is-section-301-trade-act/",
     "/articles/who-controls-smithsonian-board-regents/",
     "/articles/work-training-americans-born-1980-1984/",
+    "/articles/world-athletics-ratifies-eight-records-2026/",
     "/articles/world-bank-china-partnership-framework-2026-2031/",
     "/articles/world-bank-pakistan-grid-wind-power-2026/",
     "/articles/world-bank-philippines-energy-water-financing-2026/",
