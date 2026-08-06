@@ -1,9 +1,9 @@
 {
-  "articleCount": 117,
+  "articleCount": 123,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T18:17:10Z",
-  "mediaCount": 337,
-  "packageDigest": "1a4253928a0784b50c07616790354fdf019edcb670b50e7e2efd5415793e24ee",
+  "generatedAt": "2026-08-06T21:13:44Z",
+  "mediaCount": 355,
+  "packageDigest": "fb12c37ac0651c4de564451aa03d7613d3636a102231ec77247cbef5cd81ff51",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -905,6 +905,37 @@
       "releaseId": "release-pb-20260806t172627z-1a9417d13ab5-792566236080",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://aeac8cdd.bohonews.pages.dev/",
+      "activationEvidenceHash": "6eb3c25da51bb827320660c01b0becbf53d745d31bbc666c3e5efc2b02a63a40",
+      "canonicalFirstPublicAt": "2026-08-06T21:13:05.188Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/education-department-10-open-gao-priority-recommendations-2026/",
+        "https://bohonews.com/articles/gao-battery-recycling-critical-mineral-imports-2026/",
+        "https://bohonews.com/articles/gao-fema-disaster-support-mothers-young-children-2026/",
+        "https://bohonews.com/articles/romorgniz-12-drawer-dresser-recall-10040-2026/",
+        "https://bohonews.com/articles/smithsonian-american-aspirations-extended-august-10-2026/",
+        "https://bohonews.com/articles/world-bank-south-africa-infrastructure-loan-1-5-billion-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-education-department-10-open-gao-priority-recommendations-2026",
+        "article-gao-battery-recycling-critical-mineral-imports-2026",
+        "article-gao-fema-disaster-support-mothers-young-children-2026",
+        "article-romorgniz-12-drawer-dresser-recall-10040-2026",
+        "article-smithsonian-american-aspirations-extended-august-10-2026",
+        "article-world-bank-south-africa-infrastructure-loan-1-5-billion-2026"
+      ],
+      "previousVerifiedDeploymentReference": "478f900ab10c9be7e0cbd22a7bf2a89169fe425f92e781db3602f302311c134f",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T21:11:39.400752Z",
+      "recordHash": "2b1560c959e167773648cbfcb81f45bf127dec8f8d621b2ca681a51221b420fb",
+      "releaseId": "release-pb-20260806t203204z-eabacebcd259-0174d871be9e",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -918,6 +949,7 @@
     "/articles/doj-task-force-officers-training-misconduct-gao/",
     "/articles/dol-opinion-letters-remote-work-commute-2026/",
     "/articles/dot-ai-transportation-infrastructure-initiative/",
+    "/articles/education-department-10-open-gao-priority-recommendations-2026/",
     "/articles/education-department-college-earnings-test-student-loans-2026/",
     "/articles/eia-natural-gas-power-demand-record-2027/",
     "/articles/employer-compensation-costs-june-2026/",
@@ -935,10 +967,12 @@
     "/articles/four-advanced-reactors-zero-power-criticality-2026/",
     "/articles/fta-610-million-bus-grants-2026/",
     "/articles/ftc-rentgrow-tenant-screening-settlement-2026/",
+    "/articles/gao-battery-recycling-critical-mineral-imports-2026/",
     "/articles/gao-education-10-priority-open-recommendations-2026/",
     "/articles/gao-federal-broadband-strategy-map-data-2026/",
     "/articles/gao-federal-duplication-cost-savings-2026/",
     "/articles/gao-federal-programs-lack-outcome-evidence-2026/",
+    "/articles/gao-fema-disaster-support-mothers-young-children-2026/",
     "/articles/gao-immigration-courts-remote-hearings-2025/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/gao-opm-workforce-down-35-percent-2026/",
@@ -994,9 +1028,11 @@
     "/articles/noaa-week-two-heat-monsoon-drought-august-2026/",
     "/articles/nsf-83-million-ai-ready-scientific-data-systems/",
     "/articles/pce-prices-consumer-spending-june-2026/",
+    "/articles/romorgniz-12-drawer-dresser-recall-10040-2026/",
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
     "/articles/shell-egg-recall-19-million-eggs-carton-codes-2026/",
     "/articles/sloosh-dive-sticks-expanded-recall-404000-2026/",
+    "/articles/smithsonian-american-aspirations-extended-august-10-2026/",
     "/articles/smithsonian-louvre-islamic-art-exhibition-2026/",
     "/articles/smithsonian-stem-education-40-communities-2026/",
     "/articles/special-education-general-classrooms-state-gaps-2026/",
@@ -1023,6 +1059,7 @@
     "/articles/world-bank-china-partnership-framework-2026-2031/",
     "/articles/world-bank-pakistan-grid-wind-power-2026/",
     "/articles/world-bank-philippines-energy-water-financing-2026/",
+    "/articles/world-bank-south-africa-infrastructure-loan-1-5-billion-2026/",
     "/articles/world-u20-championships-oregon-2026-opens/",
     "/articles/wto-goods-trade-barometer-101-7-june-2026/",
     "/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/"
