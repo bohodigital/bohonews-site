@@ -1,9 +1,9 @@
 {
-  "articleCount": 57,
+  "articleCount": 63,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T00:29:10Z",
-  "mediaCount": 157,
-  "packageDigest": "e8e9d7c6ec16f6860421686d405c7a86ca0c7ee36b8fcf077706d834e00c4156",
+  "generatedAt": "2026-08-06T02:34:25Z",
+  "mediaCount": 175,
+  "packageDigest": "6550b951826ea7bd963fe58df9fac2f0f3ca71351119efda02bd6bb780e1ba89",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -595,6 +595,37 @@
       "releaseId": "release-pb-20260805t235457z-487d936cf34c-62067f230745",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://14557e28.bohonews.pages.dev/",
+      "activationEvidenceHash": "c49e3c7e1d05f10c7d8ac99dd9c35e17ba41183c0c0a4ca511736ca4f5374f18",
+      "canonicalFirstPublicAt": "2026-08-06T02:34:08.835Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/dol-opinion-letters-remote-work-commute-2026/",
+        "https://bohonews.com/articles/fda-orange-b-citrus-red-2-revocations-2026/",
+        "https://bohonews.com/articles/gao-federal-broadband-strategy-map-data-2026/",
+        "https://bohonews.com/articles/ncaa-mens-lacrosse-video-review-overtime-2026/",
+        "https://bohonews.com/articles/usgs-federal-coal-resources-reserves-2026/",
+        "https://bohonews.com/articles/world-bank-philippines-energy-water-financing-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-dol-opinion-letters-remote-work-commute-2026",
+        "article-fda-orange-b-citrus-red-2-revocations-2026",
+        "article-gao-federal-broadband-strategy-map-data-2026",
+        "article-ncaa-mens-lacrosse-video-review-overtime-2026",
+        "article-usgs-federal-coal-resources-reserves-2026",
+        "article-world-bank-philippines-energy-water-financing-2026"
+      ],
+      "previousVerifiedDeploymentReference": "790579d8683e956f35a6f7246b3e2dab7525bfc9d33f19d9759d54a76dd6fc70",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T02:32:58.895101Z",
+      "recordHash": "0a59b81c5b7d0ee6f6ed55ee1d281e62caec1f5de99908d42ecc1b8a7f56c916",
+      "releaseId": "release-pb-20260806t010808z-3e1398f64b13-8bb6f3d12785",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -603,12 +634,15 @@
     "/articles/als-blood-protein-panel-predicts-symptom-timing/",
     "/articles/dea-7-oh-schedule-i-threshold-action-guide/",
     "/articles/doj-task-force-officers-training-misconduct-gao/",
+    "/articles/dol-opinion-letters-remote-work-commute-2026/",
     "/articles/dot-ai-transportation-infrastructure-initiative/",
     "/articles/employer-compensation-costs-june-2026/",
+    "/articles/fda-orange-b-citrus-red-2-revocations-2026/",
     "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
     "/articles/four-advanced-reactors-zero-power-criticality-2026/",
     "/articles/fta-610-million-bus-grants-2026/",
     "/articles/gao-education-10-priority-open-recommendations-2026/",
+    "/articles/gao-federal-broadband-strategy-map-data-2026/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
     "/articles/gao-opm-workforce-down-35-percent-2026/",
     "/articles/gao-state-administered-program-fraud-risks/",
@@ -634,6 +668,7 @@
     "/articles/national-book-festival-2026-more-than-80-authors/",
     "/articles/national-park-week-2026-fee-free-august-25/",
     "/articles/ncaa-hockey-cut-resistant-gear-rule/",
+    "/articles/ncaa-mens-lacrosse-video-review-overtime-2026/",
     "/articles/nist-five-fabric-squares-textile-recycling-test/",
     "/articles/noaa-coral-torpedo-deep-gulf-restoration/",
     "/articles/noaa-week-two-heat-monsoon-drought-august-2026/",
@@ -647,6 +682,7 @@
     "/articles/us-crude-inventories-fall-refineries-july-2026/",
     "/articles/us-gdp-growth-slows-q2-2026/",
     "/articles/us-gdp-growth-slows-second-quarter-2026-advance-estimate/",
+    "/articles/usgs-federal-coal-resources-reserves-2026/",
     "/articles/usgs-low-level-geophysical-flights-eastern-kansas/",
     "/articles/what-house-iran-war-powers-vote-can-do/",
     "/articles/what-is-section-301-trade-act/",
@@ -654,6 +690,7 @@
     "/articles/work-training-americans-born-1980-1984/",
     "/articles/world-bank-china-partnership-framework-2026-2031/",
     "/articles/world-bank-pakistan-grid-wind-power-2026/",
+    "/articles/world-bank-philippines-energy-water-financing-2026/",
     "/articles/world-u20-championships-oregon-2026-opens/",
     "/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/"
   ],
