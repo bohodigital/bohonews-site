@@ -1,9 +1,9 @@
 {
-  "articleCount": 135,
+  "articleCount": 141,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-06T23:50:42Z",
-  "mediaCount": 391,
-  "packageDigest": "ade5dd8875046db7a3d0cfb0c0324764dfb2e4107753200a5a9fa0f2240f2c9e",
+  "generatedAt": "2026-08-07T01:08:13Z",
+  "mediaCount": 409,
+  "packageDigest": "08734aae7b760974503dd70c490fa32a90dd5dabaee363d96b826613cb8d3088",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -998,6 +998,37 @@
       "releaseId": "release-pb-20260806t230406z-739d6db88a48-f2874800d053",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://db68b44e.bohonews.pages.dev/",
+      "activationEvidenceHash": "e4d033091e09d13fdd6974865ada45410b40709abde24125d5cd3b37bcb854db",
+      "canonicalFirstPublicAt": "2026-08-07T01:07:30.697Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/federal-health-insurance-subsidies-2026-2036-cbo/",
+        "https://bohonews.com/articles/federal-zero-point-sentencing-adjustment-fy2025/",
+        "https://bohonews.com/articles/global-temperature-june-2026-noaa-record/",
+        "https://bohonews.com/articles/imf-uk-growth-inflation-outlook-2026/",
+        "https://bohonews.com/articles/nsf-regional-ai-infrastructure-hubs-100-million/",
+        "https://bohonews.com/articles/ntsb-contract-spending-competition-it-systems-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-federal-health-insurance-subsidies-2026-2036-cbo",
+        "article-federal-zero-point-sentencing-adjustment-fy2025",
+        "article-global-temperature-june-2026-noaa-record",
+        "article-imf-uk-growth-inflation-outlook-2026",
+        "article-nsf-regional-ai-infrastructure-hubs-100-million",
+        "article-ntsb-contract-spending-competition-it-systems-2026"
+      ],
+      "previousVerifiedDeploymentReference": "357b669309123c95d96dc144840da209edfcbd63a966e0f2ee4f9a63aeaf9e27",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-07T01:06:30.552569Z",
+      "recordHash": "9d29a5458b289d5a34fc68f0fdcd36b17cc12b7f984ccde02a5868f39abff546",
+      "releaseId": "release-pb-20260807t001614z-45809f007bd1-7efc820bd427",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -1027,7 +1058,9 @@
     "/articles/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/",
     "/articles/fda-tempo-digital-health-pilot-dexcom-2026/",
     "/articles/federal-cyber-workforce-rotation-program-halted-2026/",
+    "/articles/federal-health-insurance-subsidies-2026-2036-cbo/",
     "/articles/federal-law-enforcement-officers-2023-bjs/",
+    "/articles/federal-zero-point-sentencing-adjustment-fy2025/",
     "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
     "/articles/four-advanced-reactors-zero-power-criticality-2026/",
     "/articles/fta-610-million-bus-grants-2026/",
@@ -1049,6 +1082,7 @@
     "/articles/gao-usaspending-data-gaps-7-trillion-outlays-2025/",
     "/articles/gao-weapon-programs-average-delivery-over-12-years-2026/",
     "/articles/global-hunger-falls-645-million-2025-un-report/",
+    "/articles/global-temperature-june-2026-noaa-record/",
     "/articles/greece-men-usa-women-water-polo-world-cup-2026/",
     "/articles/hawaiian-honeycreeper-family-tree-smithsonian-2026/",
     "/articles/hirshhorn-50-for-50-museum-loans-51-institutions/",
@@ -1057,6 +1091,7 @@
     "/articles/hr-143-unauthorized-spending-cbo-estimate-2026/",
     "/articles/hurricane-cone-inland-warnings-2026-explainer/",
     "/articles/imf-euro-area-growth-inflation-outlook-2026/",
+    "/articles/imf-uk-growth-inflation-outlook-2026/",
     "/articles/infrastructure-awards-pending-canceled-gao-2026/",
     "/articles/interlochen-abuse-investigation-report-findings/",
     "/articles/iowa-emt-first-workforce-pell-program-2026/",
@@ -1097,6 +1132,8 @@
     "/articles/noaa-weather-models-move-commercial-cloud-2026/",
     "/articles/noaa-week-two-heat-monsoon-drought-august-2026/",
     "/articles/nsf-83-million-ai-ready-scientific-data-systems/",
+    "/articles/nsf-regional-ai-infrastructure-hubs-100-million/",
+    "/articles/ntsb-contract-spending-competition-it-systems-2026/",
     "/articles/papua-new-guinea-growth-jobs-gap-2026/",
     "/articles/pce-prices-consumer-spending-june-2026/",
     "/articles/romorgniz-12-drawer-dresser-recall-10040-2026/",
