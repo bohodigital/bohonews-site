@@ -1,9 +1,9 @@
 {
-  "articleCount": 153,
+  "articleCount": 159,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-07T06:46:02Z",
-  "mediaCount": 445,
-  "packageDigest": "1f6d5b5bf684a2f97eff3d481b1aa3085699ad58415c51a2480be814843437ab",
+  "generatedAt": "2026-08-07T09:04:16Z",
+  "mediaCount": 463,
+  "packageDigest": "14e1f52004d36250028cb76c4ec8983940721e8a13df88d797b3598cce4d9f87",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -1091,6 +1091,37 @@
       "releaseId": "release-pb-20260807t050316z-c7421446c1d9-53c22ea21370",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://b9f6431f.bohonews.pages.dev/",
+      "activationEvidenceHash": "156ac420540a2fddf589e6733fbd267e19976da688439ef8d6ffb996d2b2a7df",
+      "canonicalFirstPublicAt": "2026-08-07T09:03:16.937Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/census-back-to-school-students-teachers-2026/",
+        "https://bohonews.com/articles/census-county-uninsured-rates-2024/",
+        "https://bohonews.com/articles/fifa-world-cup-2026-statistical-leaders/",
+        "https://bohonews.com/articles/gao-ai-medical-notes-coding-oversight-2026/",
+        "https://bohonews.com/articles/gao-food-import-origin-verification-2026/",
+        "https://bohonews.com/articles/who-world-health-statistics-2026-data-gaps/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-census-back-to-school-students-teachers-2026",
+        "article-census-county-uninsured-rates-2024",
+        "article-fifa-world-cup-2026-statistical-leaders",
+        "article-gao-ai-medical-notes-coding-oversight-2026",
+        "article-gao-food-import-origin-verification-2026",
+        "article-who-world-health-statistics-2026-data-gaps"
+      ],
+      "previousVerifiedDeploymentReference": "b9b5af50e18bc4e7547a9ccc0adaf1ccc79da63e74a5209ad013afafb691107d",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-07T09:01:48.401842Z",
+      "recordHash": "95db642559988fbc2a2078a45b50762286756ba61f1f484ff3554583ae8f914e",
+      "releaseId": "release-pb-20260807t080652z-872a33305b70-810a4e77bd47",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -1105,6 +1136,8 @@
     "/articles/bls-jolts-job-openings-hiring-june-2026/",
     "/articles/brain-immunity-microglia-midlife-shift-study-2026/",
     "/articles/brazil-growth-inflation-imf-outlook-2026/",
+    "/articles/census-back-to-school-students-teachers-2026/",
+    "/articles/census-county-uninsured-rates-2024/",
     "/articles/dea-7-oh-schedule-i-threshold-action-guide/",
     "/articles/dhs-acquisition-portfolio-cost-growth-oversight-2026/",
     "/articles/doe-grid-congestion-transmission-needs-study-2026/",
@@ -1130,9 +1163,11 @@
     "/articles/federal-prison-population-mandatory-minimums-2025/",
     "/articles/federal-zero-point-sentencing-adjustment-fy2025/",
     "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
+    "/articles/fifa-world-cup-2026-statistical-leaders/",
     "/articles/four-advanced-reactors-zero-power-criticality-2026/",
     "/articles/fta-610-million-bus-grants-2026/",
     "/articles/ftc-rentgrow-tenant-screening-settlement-2026/",
+    "/articles/gao-ai-medical-notes-coding-oversight-2026/",
     "/articles/gao-ai-tax-rule-comments-treasury-irs-2026/",
     "/articles/gao-bank-regulators-decennial-rule-reviews-2026/",
     "/articles/gao-battery-recycling-critical-mineral-imports-2026/",
@@ -1141,6 +1176,7 @@
     "/articles/gao-federal-duplication-cost-savings-2026/",
     "/articles/gao-federal-programs-lack-outcome-evidence-2026/",
     "/articles/gao-fema-disaster-support-mothers-young-children-2026/",
+    "/articles/gao-food-import-origin-verification-2026/",
     "/articles/gao-healthcare-gov-unauthorized-plan-changes-controls-2026/",
     "/articles/gao-immigration-courts-remote-hearings-2025/",
     "/articles/gao-legal-fee-awards-labor-agencies/",
@@ -1237,6 +1273,7 @@
     "/articles/who-controls-smithsonian-board-regents/",
     "/articles/who-dementia-risk-reduction-guidelines-2026/",
     "/articles/who-protect-drowning-prevention-strategies-2026/",
+    "/articles/who-world-health-statistics-2026-data-gaps/",
     "/articles/work-training-americans-born-1980-1984/",
     "/articles/world-athletics-ratifies-eight-records-2026/",
     "/articles/world-athletics-u20-5000m-race-walk-records/",
