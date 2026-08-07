@@ -726,6 +726,167 @@
       "authors": [
         "Boho News Staff"
       ],
+      "body": "A panel of 19 blood proteins estimated when amyotrophic lateral sclerosis would become clinically apparent with an average error of about 18 months in a longitudinal study of people at elevated genetic risk, researchers reported in Nature Medicine.\n\nThe team analyzed plasma samples from 137 participants in the NIH-funded Pre-symptomatic Familial ALS study. Thirty-three developed clinical signs of ALS or frontotemporal dementia during follow-up, giving investigators observed transitions from presymptomatic risk to manifest disease.\n\nUsing a high-throughput proteomic assay, researchers measured more than 5,000 proteins and identified 92 whose levels differed before symptoms among people who later converted. They then combined data-driven selection with expert review to build a core 19-protein panel that includes neurofilament light chain.\n\nModels were evaluated across horizons from six months to five years. In fivefold cross-validation, the reported logistic-regression models reached an area under the receiver-operating-characteristic curve of 0.945 for six-month prediction and 0.897 for five-year prediction. AUC measures discrimination in the study data, not guaranteed accuracy for an individual patient.\n\nThe timing model’s average error of roughly 18 months is potentially useful for preventive-trial design, where investigators need to enroll carriers who are near enough to symptom onset for an intervention to be tested efficiently. It is not a precise countdown and is not approved as a clinical diagnostic.\n\nThe work expands on neurofilament light, a structural protein that rises before ALS manifestations. Multi-protein models outperformed neurofilament light alone across the reported prediction windows, suggesting that changes in muscle, neuronal and metabolic proteins together may capture more of the transition.\n\nResearchers also examined UK Biobank data, which cover a broader population but are cross-sectional rather than the same kind of repeated presymptomatic follow-up. The authors reported similar patterns for overlapping proteins while emphasizing the limits of that comparison.\n\nThe next test is replication in larger independent longitudinal cohorts with more observed conversions. The discovery group is rare, genetically enriched and modest in size; machine-learning performance can look stronger in such datasets than it will after deployment.\n\nThe result therefore belongs in a trial-planning frame, not a promise of prevention. It offers a more informed estimate for when symptoms may emerge and a possible way to target research before irreversible motor-neuron damage accumulates, while leaving the therapeutic benefit itself to be demonstrated.",
+      "bodyBlocks": [
+        {
+          "text": "A panel of 19 blood proteins estimated when amyotrophic lateral sclerosis would become clinically apparent with an average error of about 18 months in a longitudinal study of people at elevated genetic risk, researchers reported in Nature Medicine.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The team analyzed plasma samples from 137 participants in the NIH-funded Pre-symptomatic Familial ALS study. Thirty-three developed clinical signs of ALS or frontotemporal dementia during follow-up, giving investigators observed transitions from presymptomatic risk to manifest disease.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Using a high-throughput proteomic assay, researchers measured more than 5,000 proteins and identified 92 whose levels differed before symptoms among people who later converted. They then combined data-driven selection with expert review to build a core 19-protein panel that includes neurofilament light chain.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 137 study participants, more than 5,000 proteins measured and a 19-protein core prediction panel.",
+          "caption": "The Pre-fALS analysis identified a compact panel from thousands of measured plasma proteins.",
+          "credit": "Boho News graphic from NIH and Nature Medicine",
+          "height": 900,
+          "rightsId": "media-als-protein-panel-2026",
+          "sourceUrl": "https://www.nature.com/articles/s41591-026-04528-x",
+          "src": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-protein-panel-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Models were evaluated across horizons from six months to five years. In fivefold cross-validation, the reported logistic-regression models reached an area under the receiver-operating-characteristic curve of 0.945 for six-month prediction and 0.897 for five-year prediction. AUC measures discrimination in the study data, not guaranteed accuracy for an individual patient.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The timing model’s average error of roughly 18 months is potentially useful for preventive-trial design, where investigators need to enroll carriers who are near enough to symptom onset for an intervention to be tested efficiently. It is not a precise countdown and is not approved as a clinical diagnostic.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The work expands on neurofilament light, a structural protein that rises before ALS manifestations. Multi-protein models outperformed neurofilament light alone across the reported prediction windows, suggesting that changes in muscle, neuronal and metabolic proteins together may capture more of the transition.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows validation AUC of 0.945 for six-month prediction, 0.897 for five-year prediction and average onset-timing error of about 18 months.",
+          "caption": "Cross-validated models performed well in the study data, but broader prospective validation is still needed.",
+          "credit": "Boho News graphic from Nature Medicine",
+          "height": 900,
+          "rightsId": "media-als-prediction-performance-2026",
+          "sourceUrl": "https://www.nature.com/articles/s41591-026-04528-x",
+          "src": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-prediction-performance-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Researchers also examined UK Biobank data, which cover a broader population but are cross-sectional rather than the same kind of repeated presymptomatic follow-up. The authors reported similar patterns for overlapping proteins while emphasizing the limits of that comparison.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The next test is replication in larger independent longitudinal cohorts with more observed conversions. The discovery group is rare, genetically enriched and modest in size; machine-learning performance can look stronger in such datasets than it will after deployment.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The result therefore belongs in a trial-planning frame, not a promise of prevention. It offers a more informed estimate for when symptoms may emerge and a possible way to target research before irreversible motor-neuron damage accumulates, while leaving the therapeutic benefit itself to be demonstrated.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/als-blood-protein-panel-symptom-onset-prediction-2026/",
+      "citations": [
+        {
+          "id": "source-nih-als-proteomics-20260727",
+          "publishedAt": "2026-07-27T12:00:00Z",
+          "publisher": "National Institutes of Health",
+          "title": "New blood-based biomarkers predict when ALS symptoms will emerge",
+          "url": "https://www.nih.gov/news-events/news-releases/new-blood-based-biomarkers-predict-when-als-symptoms-will-emerge"
+        },
+        {
+          "id": "source-nature-als-proteomics-20260727",
+          "publishedAt": "2026-07-27T12:00:00Z",
+          "publisher": "Nature Medicine",
+          "title": "Longitudinal plasma proteomics predict phenoconversion to clinically manifest ALS",
+          "url": "https://www.nature.com/articles/s41591-026-04528-x"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Researchers analyzed plasma from 137 Pre-fALS participants, 33 of whom developed clinical manifestations of ALS or frontotemporal dementia.",
+        "The assay measured more than 5,000 proteins and identified 92 whose levels differed before symptoms in eventual phenoconverters.",
+        "Researchers selected a 19-protein core panel that included neurofilament light chain.",
+        "The models evaluated prediction horizons from six months through five years.",
+        "Validation AUC was 0.945 at six months and 0.897 at five years in the reported logistic-regression models.",
+        "The 19-protein timing model estimated onset with average error of about 18 months.",
+        "The authors reported similar directional findings in UK Biobank data but said additional longitudinal replication is needed."
+      ],
+      "corrections": [],
+      "dek": "A longitudinal study of people at elevated genetic risk found a 19-protein panel could estimate when clinical ALS would emerge, but broader validation remains necessary.",
+      "desk": "neurology-research",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institutes of Health",
+        "National Institute of Neurological Disorders and Stroke",
+        "University of Miami",
+        "UK Biobank",
+        "Nature Medicine"
+      ],
+      "eventId": "event-als-blood-protein-panel-symptom-onset-prediction-2026",
+      "headline": "ALS Blood Protein Panel Predicted Symptom Onset Within About 18 Months",
+      "id": "article-als-blood-protein-panel-symptom-onset-prediction-2026",
+      "leadImage": {
+        "alt": "A medical laboratory technician loads blood-sample tubes into a centrifuge.",
+        "caption": "A U.S. Navy laboratory technician handles blood samples in 2014. Researchers measured more than 5,000 plasma proteins to model when ALS symptoms might emerge in people at elevated genetic risk.",
+        "credit": "Petty Officer 3rd Class Raymond Diaz III/U.S. Navy",
+        "height": 900,
+        "rightsId": "media-als-blood-samples-lab-2014",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-blood-samples-lab-2014/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "United Kingdom"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-07T03:03:51.577Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260807t013555z-4e998d9c3bcd-4fd56603b7c7",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "A Nature Medicine study found a 19-protein blood panel estimated ALS symptom onset with average error of about 18 months.",
+        "index": true,
+        "title": "ALS blood biomarker panel predicts symptom onset timing"
+      },
+      "section": "health-science",
+      "slug": "als-blood-protein-panel-symptom-onset-prediction-2026",
+      "social": {
+        "description": "A longitudinal study of people at elevated genetic risk found a 19-protein panel could estimate when clinical ALS would emerge, but broader validation remains necessary.",
+        "image": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-blood-samples-lab-2014/open-graph.webp",
+        "title": "A 19-protein blood panel narrowed the timing of ALS onset"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Amyotrophic lateral sclerosis",
+        "Blood biomarkers",
+        "Proteomics",
+        "Neurology",
+        "Disease prevention trials",
+        "Genetic risk"
+      ],
+      "uncertainty": [
+        "The discovery cohort was small and enriched for people carrying ALS-associated genetic variants, so the model is not ready for general-population diagnosis.",
+        "Cross-validation and a UK Biobank analysis support the result, but prospective replication in independent longitudinal cohorts is still required.",
+        "Predicting approximate timing does not show that starting treatment before symptoms will prevent or delay ALS."
+      ],
+      "updatedAt": "2026-08-07T03:03:51.577Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
       "body": "U.S. employers reported 7.4 million job openings at the end of June, while hiring held at 5.3 million, leaving the main measures of labor turnover little changed from May.\n\nThe seasonally adjusted openings rate was 4.4%, according to the Bureau of Labor Statistics’ Job Openings and Labor Turnover Survey. The hires rate was 3.4%, matching the 5.3 million people hired during the month.\n\nSeparations were similarly steady at 5.4 million, or 3.4% of employment. Within that total, 3.2 million workers quit and 1.8 million were laid off or discharged. Quits are generally voluntary; layoffs and discharges are employer initiated, so the two measures should not be combined into a single story about worker confidence.\n\nIndustry detail moved more than the national total. Openings increased by 97,000 in transportation, warehousing and utilities and by 39,000 in the federal government. They fell by 74,000 in wholesale trade and by 55,000 in nondurable-goods manufacturing.\n\nMining and logging openings also declined by 9,000. Those sector estimates show where the monthly change was concentrated, but they do not establish why employers added or removed postings.\n\nThe prior month was revised. BLS lowered May job openings by 57,000 to 7.5 million, a reminder that the first published estimate is not final. June’s 7.4 million figure is also subject to later revision.\n\nJOLTS measures stocks and flows rather than the same thing six ways. Openings are positions employers are actively recruiting to fill; hires count people added to payrolls; separations record workers leaving. A market can have millions of openings and still post flat hiring if matching, timing or employer demand changes.\n\nThe survey is sample based, and BLS evaluates whether monthly movements exceed the statistical uncertainty around each estimate. “Little changed” means the agency did not identify a statistically meaningful nationwide movement, not that the displayed number was identical.\n\nJune therefore reads as a holding pattern at the national level with sharper reallocations underneath: openings remained numerous, hiring did not accelerate, and selected logistics and government categories moved in the opposite direction from wholesale and factory categories.",
       "bodyBlocks": [
         {
@@ -1020,6 +1181,159 @@
         "The tissue came from neurologically healthy donors, so disease mechanisms require separate testing."
       ],
       "updatedAt": "2026-08-06T23:49:59.949Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Brazil’s economy is projected to grow 2.4 percent in 2026 while inflation rises to 5.6 percent by year-end, according to the International Monetary Fund’s annual review of the country.\n\nThe IMF expects growth to settle around 2.5 percent over the medium term, supported by structural changes including implementation of Brazil’s 2023 value-added-tax reform. The assessment describes an economy that has remained resilient through repeated external shocks.\n\nOil is the central two-sided force in the outlook. Brazil exports more oil than it imports, so higher global prices improve national income and government revenue. The same prices raise fuel and other costs at home, lifting consumer inflation and complicating interest-rate decisions.\n\nThe IMF projects inflation will converge to the central bank’s 3 percent target around mid-2028. It said earlier interest-rate cuts were consistent with the established inflation-targeting framework while urging flexibility because the energy shock and global uncertainty could change the path.\n\nFiscal policy carries a similar tradeoff. The Fund recommends saving oil-related revenue windfalls and making a more ambitious fiscal effort so public debt moves onto a durable downward path. At the same time, it says targeted social spending and priority investment should be protected.\n\nSaving a windfall can reduce pressure to spend temporary revenue as if it were permanent. It can also create a buffer if commodity prices reverse. But the recommendation leaves Brazil’s elected institutions to determine the precise mix of revenue, spending and investment.\n\nThe 2.4 percent growth and 5.6 percent inflation numbers are forecasts, not measurements. They depend on the duration of elevated oil prices, domestic demand, financial conditions, tax implementation and the global economy. A different energy path would change both sides of the projection.\n\nArticle IV consultations are the IMF’s regular surveillance process. The resulting policy advice is not a loan condition and does not bind Brazilian authorities; it is an external assessment reviewed by the Fund’s Executive Board.\n\nThe resulting picture is neither a simple commodity boom nor a conventional slowdown. Brazil gains as an exporter, faces higher prices as a consumer economy and must decide how much of the temporary public revenue to save while keeping investment and social protection intact.",
+      "bodyBlocks": [
+        {
+          "text": "Brazil’s economy is projected to grow 2.4 percent in 2026 while inflation rises to 5.6 percent by year-end, according to the International Monetary Fund’s annual review of the country.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The IMF expects growth to settle around 2.5 percent over the medium term, supported by structural changes including implementation of Brazil’s 2023 value-added-tax reform. The assessment describes an economy that has remained resilient through repeated external shocks.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Oil is the central two-sided force in the outlook. Brazil exports more oil than it imports, so higher global prices improve national income and government revenue. The same prices raise fuel and other costs at home, lifting consumer inflation and complicating interest-rate decisions.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows IMF projections of 2.4 percent real GDP growth and 5.6 percent end-year inflation in 2026, with medium-term growth near 2.5 percent.",
+          "caption": "The IMF expects growth to strengthen in 2026 while the oil-price shock temporarily raises inflation.",
+          "credit": "Boho News graphic from IMF 2026 Article IV consultation",
+          "height": 900,
+          "rightsId": "media-brazil-growth-inflation-2026",
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/23/pr26257-brazil-imf-executive-board-concludes-2026-article-iv-consultation",
+          "src": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-growth-inflation-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The IMF projects inflation will converge to the central bank’s 3 percent target around mid-2028. It said earlier interest-rate cuts were consistent with the established inflation-targeting framework while urging flexibility because the energy shock and global uncertainty could change the path.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Fiscal policy carries a similar tradeoff. The Fund recommends saving oil-related revenue windfalls and making a more ambitious fiscal effort so public debt moves onto a durable downward path. At the same time, it says targeted social spending and priority investment should be protected.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Saving a windfall can reduce pressure to spend temporary revenue as if it were permanent. It can also create a buffer if commodity prices reverse. But the recommendation leaves Brazil’s elected institutions to determine the precise mix of revenue, spending and investment.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic notes a projected return to the 3 percent inflation target around mid-2028 and IMF advice to save oil windfalls while protecting targeted social spending.",
+          "caption": "As a net oil exporter, Brazil gains revenue from higher prices even as consumers face inflation pressure.",
+          "credit": "Boho News graphic from IMF 2026 Article IV consultation",
+          "height": 900,
+          "rightsId": "media-brazil-oil-fiscal-policy-2026",
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/23/pr26257-brazil-imf-executive-board-concludes-2026-article-iv-consultation",
+          "src": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-oil-fiscal-policy-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The 2.4 percent growth and 5.6 percent inflation numbers are forecasts, not measurements. They depend on the duration of elevated oil prices, domestic demand, financial conditions, tax implementation and the global economy. A different energy path would change both sides of the projection.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Article IV consultations are the IMF’s regular surveillance process. The resulting policy advice is not a loan condition and does not bind Brazilian authorities; it is an external assessment reviewed by the Fund’s Executive Board.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The resulting picture is neither a simple commodity boom nor a conventional slowdown. Brazil gains as an exporter, faces higher prices as a consumer economy and must decide how much of the temporary public revenue to save while keeping investment and social protection intact.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/brazil-growth-inflation-imf-outlook-2026/",
+      "citations": [
+        {
+          "id": "source-imf-brazil-article-iv-20260723",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "International Monetary Fund",
+          "title": "IMF Executive Board Concludes 2026 Article IV Consultation with Brazil",
+          "url": "https://www.imf.org/en/news/articles/2026/07/23/pr26257-brazil-imf-executive-board-concludes-2026-article-iv-consultation"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The IMF projects Brazil’s real GDP will grow 2.4 percent in 2026.",
+        "Medium-term growth is projected at about 2.5 percent.",
+        "End-2026 inflation is projected at 5.6 percent.",
+        "Inflation is projected to converge to the 3 percent target around mid-2028.",
+        "Brazil is a net oil exporter, so higher global oil prices improve its terms of trade while raising domestic inflation.",
+        "The IMF said the 2023 value-added-tax reform supports medium-term growth.",
+        "The IMF recommended saving oil-related revenue windfalls and strengthening fiscal policy while protecting targeted social spending."
+      ],
+      "corrections": [],
+      "dek": "Higher oil prices help a net exporter but squeeze consumers; the IMF urges Brazil to save revenue windfalls and protect targeted social spending.",
+      "desk": "latin-america-economy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "International Monetary Fund",
+        "Central Bank of Brazil",
+        "Brazilian government"
+      ],
+      "eventId": "event-brazil-growth-inflation-imf-outlook-2026",
+      "headline": "IMF Projects Brazil Growth at 2.4% as Inflation Climbs to 5.6%",
+      "id": "article-brazil-growth-inflation-imf-outlook-2026",
+      "leadImage": {
+        "alt": "Brazilian guests and U.S. Navy officers speak at a reception on a ship off Rio de Janeiro.",
+        "caption": "A maritime reception off Rio de Janeiro in May 2026. The IMF projects Brazil’s economy will grow 2.4% this year as oil prices lift both export receipts and inflation.",
+        "credit": "Seaman Kaylee Beasley/U.S. Navy",
+        "height": 900,
+        "rightsId": "media-brazil-rio-reception-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-rio-reception-2026/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Brazil",
+        "Rio de Janeiro",
+        "Latin America"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-07T03:03:51.577Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260807t013555z-4e998d9c3bcd-4fd56603b7c7",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The IMF projects Brazil GDP growth of 2.4% and end-2026 inflation of 5.6%, with inflation returning to target around mid-2028.",
+        "index": true,
+        "title": "Brazil GDP growth and inflation forecast 2026 IMF"
+      },
+      "section": "world",
+      "slug": "brazil-growth-inflation-imf-outlook-2026",
+      "social": {
+        "description": "Higher oil prices help a net exporter but squeeze consumers; the IMF urges Brazil to save revenue windfalls and protect targeted social spending.",
+        "image": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-rio-reception-2026/open-graph.webp",
+        "title": "Brazil’s oil windfall comes with a 5.6% inflation outlook"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Brazil economy",
+        "IMF forecasts",
+        "Inflation",
+        "Oil prices",
+        "Fiscal policy",
+        "VAT reform"
+      ],
+      "uncertainty": [
+        "Growth and inflation values are IMF projections, not observed outcomes.",
+        "The outlook depends heavily on global oil prices, financial conditions and implementation of domestic fiscal and tax reforms.",
+        "Article IV recommendations are surveillance judgments and are not binding instructions or lending conditions."
+      ],
+      "updatedAt": "2026-08-07T03:03:51.577Z"
     },
     {
       "articleType": "explainer",
@@ -4759,6 +5073,157 @@
         "The 2023 census is periodic and does not describe staffing changes after fiscal 2023."
       ],
       "updatedAt": "2026-08-06T18:16:14.768Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The federal prison system held 154,932 people as of September 27, 2025, and 61 percent of the analyzed population had been convicted of an offense carrying a mandatory minimum penalty, according to the United States Sentencing Commission.\n\nOf the total in Federal Bureau of Prisons custody, 134,850 were serving a sentence for a federal conviction. The Commission matched its records to 132,371 of them for the detailed analysis. Another 20,082 people were awaiting trial or had been sentenced in District of Columbia or military courts.\n\nThe population largely reflects recent federal sentencing. Sixty-nine percent had been sentenced within the previous five years and 89 percent within the previous decade. The average age was 42; 24 percent were at least 50 and 8 percent were 60 or older.\n\nSentences were lengthy on average. The mean guideline minimum was 173 months, while the mean term actually imposed was 153 months. Ninety-eight percent also received a period of supervision to follow prison, placing most releases under continuing court-ordered conditions.\n\nMandatory minimum statutes applied to 61 percent of the analyzed group. Of those people, 20 percent were relieved from the penalty. Relief can arise through legal mechanisms that permit a sentence below the statutory floor, but the fact sheet does not reduce that mix to one single pathway.\n\nWeapons also appeared frequently in the records: 32 percent were serving a sentence for an offense involving a weapon. That category combines convictions under 18 U.S.C. Section 924(c), guideline weapon enhancements and cases involving both, so it should not be read as one uniform offense.\n\nThe Commission reported that 91 percent pleaded guilty and 98 percent of sentences were imposed after the Supreme Court’s Booker decision made the federal guidelines advisory rather than mandatory. Forty-five percent were sentenced within the guideline range, while other cases involved departures or variances.\n\nThese statistics describe people present in custody on a single date, which emphasizes longer sentences more than a count of annual admissions would. They also exclude incomplete sentencing records from some calculations and cannot show how quickly the population is changing.\n\nEven with those limits, the snapshot is a detailed scale check: more than 150,000 people were in federal custody, most had entered under sentences imposed within the past decade, and mandatory-minimum statutes shaped the legal exposure of a clear majority of the analyzed prison population.",
+      "bodyBlocks": [
+        {
+          "text": "The federal prison system held 154,932 people as of September 27, 2025, and 61 percent of the analyzed population had been convicted of an offense carrying a mandatory minimum penalty, according to the United States Sentencing Commission.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Of the total in Federal Bureau of Prisons custody, 134,850 were serving a sentence for a federal conviction. The Commission matched its records to 132,371 of them for the detailed analysis. Another 20,082 people were awaiting trial or had been sentenced in District of Columbia or military courts.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The population largely reflects recent federal sentencing. Sixty-nine percent had been sentenced within the previous five years and 89 percent within the previous decade. The average age was 42; 24 percent were at least 50 and 8 percent were 60 or older.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 154,932 people in Bureau of Prisons custody, including 134,850 serving federal sentences, with an average age of 42.",
+          "caption": "The Sentencing Commission matched records for 132,371 people serving federal sentences for its characteristics analysis.",
+          "credit": "Boho News graphic from U.S. Sentencing Commission",
+          "height": 900,
+          "rightsId": "media-federal-prison-profile-2025",
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/individuals-federal-bureau-prisons",
+          "src": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-profile-2025/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Sentences were lengthy on average. The mean guideline minimum was 173 months, while the mean term actually imposed was 153 months. Ninety-eight percent also received a period of supervision to follow prison, placing most releases under continuing court-ordered conditions.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Mandatory minimum statutes applied to 61 percent of the analyzed group. Of those people, 20 percent were relieved from the penalty. Relief can arise through legal mechanisms that permit a sentence below the statutory floor, but the fact sheet does not reduce that mix to one single pathway.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Weapons also appeared frequently in the records: 32 percent were serving a sentence for an offense involving a weapon. That category combines convictions under 18 U.S.C. Section 924(c), guideline weapon enhancements and cases involving both, so it should not be read as one uniform offense.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows an average imposed term of 153 months and that 61 percent were convicted of an offense carrying a mandatory minimum.",
+          "caption": "One in five people in the mandatory-minimum group received relief from that penalty.",
+          "credit": "Boho News graphic from U.S. Sentencing Commission",
+          "height": 900,
+          "rightsId": "media-federal-prison-sentences-2025",
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/individuals-federal-bureau-prisons",
+          "src": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-sentences-2025/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The Commission reported that 91 percent pleaded guilty and 98 percent of sentences were imposed after the Supreme Court’s Booker decision made the federal guidelines advisory rather than mandatory. Forty-five percent were sentenced within the guideline range, while other cases involved departures or variances.",
+          "type": "paragraph"
+        },
+        {
+          "text": "These statistics describe people present in custody on a single date, which emphasizes longer sentences more than a count of annual admissions would. They also exclude incomplete sentencing records from some calculations and cannot show how quickly the population is changing.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Even with those limits, the snapshot is a detailed scale check: more than 150,000 people were in federal custody, most had entered under sentences imposed within the past decade, and mandatory-minimum statutes shaped the legal exposure of a clear majority of the analyzed prison population.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-prison-population-mandatory-minimums-2025/",
+      "citations": [
+        {
+          "id": "source-ussc-bop-population-2026",
+          "publishedAt": "2026-06-01T12:00:00Z",
+          "publisher": "United States Sentencing Commission",
+          "title": "Individuals in the Federal Bureau of Prisons",
+          "url": "https://www.ussc.gov/research/quick-facts/individuals-federal-bureau-prisons"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "There were 154,932 people in Federal Bureau of Prisons custody as of September 27, 2025.",
+        "Of that total, 134,850 were serving a sentence for a federal conviction.",
+        "Commission records were matched to 132,371 people for the characteristics analysis.",
+        "Sixty-nine percent had been sentenced within the preceding five years and 89 percent within the preceding ten years.",
+        "The average imposed prison term was 153 months, compared with an average guideline minimum of 173 months.",
+        "Sixty-one percent were convicted of an offense carrying a mandatory minimum penalty.",
+        "Twenty percent of people in the mandatory-minimum group were relieved from that penalty."
+      ],
+      "corrections": [],
+      "dek": "Sentencing Commission data show most people in federal custody were sentenced within the past decade, with an average imposed term of 153 months.",
+      "desk": "corrections-and-sentencing",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Sentencing Commission",
+        "Federal Bureau of Prisons",
+        "United States district courts"
+      ],
+      "eventId": "event-federal-prison-population-mandatory-minimums-2025",
+      "headline": "Federal Prison Population Reached 154,932; 61% Had Mandatory-Minimum Offenses",
+      "id": "article-federal-prison-population-mandatory-minimums-2025",
+      "leadImage": {
+        "alt": "A uniformed correctional specialist reviews safety procedures with a prisoner inside a military correctional facility.",
+        "caption": "A correctional specialist reviews safety procedures at Joint Base Lewis-McChord in 2019. Sentencing Commission data describe 154,932 people in Federal Bureau of Prisons custody as of September 2025.",
+        "credit": "Staff Sgt. Adam Ross/U.S. Army",
+        "height": 900,
+        "rightsId": "media-federal-prison-safety-2019",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-safety-2019/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-07T03:03:51.577Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260807t013555z-4e998d9c3bcd-4fd56603b7c7",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "USSC reports 154,932 people in federal custody in September 2025; 61% of analyzed prisoners had mandatory-minimum offenses.",
+        "index": true,
+        "title": "Federal prison population and mandatory minimums 2025"
+      },
+      "section": "crime-justice",
+      "slug": "federal-prison-population-mandatory-minimums-2025",
+      "social": {
+        "description": "Sentencing Commission data show most people in federal custody were sentenced within the past decade, with an average imposed term of 153 months.",
+        "image": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-safety-2019/open-graph.webp",
+        "title": "Federal custody reached 154,932 people in September 2025"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal prisons",
+        "Mandatory minimums",
+        "Federal sentencing",
+        "Bureau of Prisons",
+        "Criminal justice data",
+        "Supervised release"
+      ],
+      "uncertainty": [
+        "The custody count includes people awaiting trial and people sentenced in District of Columbia or military courts; the characteristics analysis focuses on matched federal sentencing records.",
+        "Percentages may not total 100 because of rounding and excluded incomplete records.",
+        "The data describe the population at one point in time and should not be treated as admission or release flows."
+      ],
+      "updatedAt": "2026-08-07T03:03:51.577Z"
     },
     {
       "articleType": "news-report",
@@ -18993,6 +19458,161 @@
       "updatedAt": "2026-08-06T23:49:59.949Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Twenty-one fossil footprints at Kenya’s Lake Turkana record eight Paranthropus boisei individuals moving across the same lakeshore about 1.43 million years ago, offering an unusually direct glimpse of body size and group behavior.\n\nThe GaJi10 surface was first exposed in 1978 after Smithsonian geologist Kay Behrensmeyer noticed a hippopotamus print in an excavated layer. The site was reburied for protection and reopened in 2016 and 2023, when researchers revealed the much larger track assemblage.\n\nVolcanic ash in surrounding rock dated the surface to the Early Pleistocene. Along with the hominin tracks, it preserves impressions from hippopotamuses, antelope and other animals that used the ancient lake margin.\n\nResearchers attributed the hominin prints to Paranthropus boisei by analyzing foot anatomy and movement patterns. The assignment is an inference from track morphology and the species known in the region, not a genetic identification, but the paper reports a consistent anatomical signal.\n\nThe largest prints imply bodies up to about six feet tall and 165 pounds—human-like dimensions closer to Homo erectus than earlier estimates from sparse Paranthropus bones suggested. Footprints capture weight-bearing anatomy, but converting print dimensions into height and mass still depends on models.\n\nTrack orientation and spacing indicate that the eight individuals were present together. The researchers interpret the group as mostly adult males, raising the possibility of a social organization more complex than isolated foraging or chance overlap.\n\nThat behavioral conclusion is necessarily cautious. A trackway freezes one short episode, and preservation can omit other individuals. It cannot establish how often groups formed, whether females or young were nearby, or what purpose brought the walkers to the mudflat.\n\nA nearby, slightly older track surface described in 2024 preserved prints from both Paranthropus boisei and Homo erectus. Together, the sites show that two similarly sized hominins repeatedly used the Lake Turkana margin over a long interval.\n\nBones reveal anatomy accumulated over lifetimes; footprints preserve motion and association in minutes. At GaJi10, that difference turns an extinct relative from a list of skeletal traits into a group crossing a shared landscape—and makes the case for protecting the sediments that still hold such moments.",
+      "bodyBlocks": [
+        {
+          "text": "Twenty-one fossil footprints at Kenya’s Lake Turkana record eight Paranthropus boisei individuals moving across the same lakeshore about 1.43 million years ago, offering an unusually direct glimpse of body size and group behavior.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The GaJi10 surface was first exposed in 1978 after Smithsonian geologist Kay Behrensmeyer noticed a hippopotamus print in an excavated layer. The site was reburied for protection and reopened in 2016 and 2023, when researchers revealed the much larger track assemblage.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Volcanic ash in surrounding rock dated the surface to the Early Pleistocene. Along with the hominin tracks, it preserves impressions from hippopotamuses, antelope and other animals that used the ancient lake margin.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows the GaJi10 site preserved 21 footprints from eight individuals about 1.43 million years ago.",
+          "caption": "The Lake Turkana trackway records a group moving across the same ancient surface.",
+          "credit": "Boho News graphic from Smithsonian National Museum of Natural History",
+          "height": 900,
+          "rightsId": "media-hominin-trackway-gaji10-2026",
+          "sourceUrl": "https://www.si.edu/newsdesk/releases/fossil-footprints-reveal-ancient-human-relative-was-larger-previously-thought-and",
+          "src": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/hominin-trackway-gaji10-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Researchers attributed the hominin prints to Paranthropus boisei by analyzing foot anatomy and movement patterns. The assignment is an inference from track morphology and the species known in the region, not a genetic identification, but the paper reports a consistent anatomical signal.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The largest prints imply bodies up to about six feet tall and 165 pounds—human-like dimensions closer to Homo erectus than earlier estimates from sparse Paranthropus bones suggested. Footprints capture weight-bearing anatomy, but converting print dimensions into height and mass still depends on models.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Track orientation and spacing indicate that the eight individuals were present together. The researchers interpret the group as mostly adult males, raising the possibility of a social organization more complex than isolated foraging or chance overlap.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows footprint-based estimates up to six feet and about 165 pounds and notes two hominin species shared the lakeshore environment.",
+          "caption": "The largest prints imply some Paranthropus boisei individuals were comparable in size to Homo erectus.",
+          "credit": "Boho News graphic from Smithsonian National Museum of Natural History",
+          "height": 900,
+          "rightsId": "media-paranthropus-body-size-2026",
+          "sourceUrl": "https://www.si.edu/newsdesk/releases/fossil-footprints-reveal-ancient-human-relative-was-larger-previously-thought-and",
+          "src": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/paranthropus-body-size-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "That behavioral conclusion is necessarily cautious. A trackway freezes one short episode, and preservation can omit other individuals. It cannot establish how often groups formed, whether females or young were nearby, or what purpose brought the walkers to the mudflat.",
+          "type": "paragraph"
+        },
+        {
+          "text": "A nearby, slightly older track surface described in 2024 preserved prints from both Paranthropus boisei and Homo erectus. Together, the sites show that two similarly sized hominins repeatedly used the Lake Turkana margin over a long interval.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Bones reveal anatomy accumulated over lifetimes; footprints preserve motion and association in minutes. At GaJi10, that difference turns an extinct relative from a list of skeletal traits into a group crossing a shared landscape—and makes the case for protecting the sediments that still hold such moments.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/paranthropus-boisei-footprints-group-lake-turkana/",
+      "citations": [
+        {
+          "id": "source-smithsonian-hominin-footprints-20260727",
+          "publishedAt": "2026-07-27T12:00:00Z",
+          "publisher": "Smithsonian National Museum of Natural History",
+          "title": "Fossil Footprints Reveal That an Ancient Human Relative Was Larger Than Previously Thought and Traveled in Groups 1.4 Million Years Ago",
+          "url": "https://www.si.edu/newsdesk/releases/fossil-footprints-reveal-ancient-human-relative-was-larger-previously-thought-and"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The GaJi10 track surface near Lake Turkana was dated to about 1.43 million years ago.",
+        "The site preserves 21 hominin footprints attributed to eight individuals.",
+        "Researchers attributed the tracks to Paranthropus boisei based on footprint anatomy and movement patterns.",
+        "The footprints indicate body sizes up to about six feet tall and 165 pounds.",
+        "The group was interpreted as mostly adult males traveling together.",
+        "The surface also preserves tracks from hippopotamuses, antelope and other animals.",
+        "A nearby older trackway previously showed Paranthropus boisei and Homo erectus used the same lakeshore habitats."
+      ],
+      "corrections": [],
+      "dek": "Twenty-one tracks at Kenya’s Lake Turkana point to eight mostly adult males—and body sizes larger than fossil bones had suggested.",
+      "desk": "human-origins-and-heritage",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Smithsonian National Museum of Natural History",
+        "National Museums of Kenya",
+        "Turkana Basin Institute",
+        "Paranthropus boisei",
+        "Homo erectus"
+      ],
+      "eventId": "event-paranthropus-boisei-footprints-group-lake-turkana",
+      "headline": "1.43-Million-Year-Old Footprints Show Paranthropus Traveled in Groups",
+      "id": "article-paranthropus-boisei-footprints-group-lake-turkana",
+      "leadImage": {
+        "alt": "An archaeologist uses a shovel inside a carefully marked excavation trench.",
+        "caption": "An archaeologist excavates a site in Virginia in 2017. A separate study of fossil footprints at Kenya’s Lake Turkana found evidence of eight Paranthropus boisei moving together 1.43 million years ago.",
+        "credit": "Senior Airman Kaylee Dubois/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-archaeologist-shoveling-excavation-2017",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/archaeologist-shoveling-excavation-2017/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Lake Turkana",
+        "Kenya",
+        "East Africa"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-07T03:03:51.577Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260807t013555z-4e998d9c3bcd-4fd56603b7c7",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "A 1.43-million-year-old Kenyan trackway preserves 21 prints from eight Paranthropus boisei, revealing size and group movement.",
+        "index": true,
+        "title": "Paranthropus boisei footprints at Lake Turkana"
+      },
+      "section": "culture",
+      "slug": "paranthropus-boisei-footprints-group-lake-turkana",
+      "social": {
+        "description": "Twenty-one tracks at Kenya’s Lake Turkana point to eight mostly adult males—and body sizes larger than fossil bones had suggested.",
+        "image": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/archaeologist-shoveling-excavation-2017/open-graph.webp",
+        "title": "Ancient footprints capture eight Paranthropus moving together"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Human origins",
+        "Paleoanthropology",
+        "Paranthropus boisei",
+        "Fossil footprints",
+        "Lake Turkana",
+        "Archaeological heritage"
+      ],
+      "uncertainty": [
+        "Footprint anatomy supports attribution to Paranthropus boisei, but fossil track identification is inferential rather than a direct genetic match.",
+        "Body size is estimated from footprints and locomotor models, not measured from complete skeletons.",
+        "The mostly adult-male grouping suggests social structure, but one preserved moment cannot define the species’ typical behavior."
+      ],
+      "updatedAt": "2026-08-07T03:03:51.577Z"
+    },
+    {
       "articleType": "data-report",
       "authors": [
         "Boho News Staff"
@@ -20497,6 +21117,157 @@
         "GAO’s school visits and opt-in student questionnaire were not designed to be nationally representative."
       ],
       "updatedAt": "2026-08-06T16:58:00.447Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Twenty of the largest federally funded programs administered by states and other governments accounted for $1.1 trillion in obligations last year, but only five documented the fraud-risk assessment work federal auditors looked for, according to a Government Accountability Office review.\n\nGAO selected programs with more than $100 million in fiscal 2025 obligations. Together, the 20 represented nearly 90 percent of obligations in that universe. They span health care, nutrition, housing, education, transportation and disaster assistance, including Medicaid and the Supplemental Nutrition Assistance Program.\n\nThe concentration makes basic controls consequential. Of the 20 programs, five documented evidence consistent with identifying risks and assessing their likelihood so officials could prioritize action. The other 15 lacked that documented evidence, GAO said. That finding concerns a management process; it does not establish that fraud occurred in any particular program.\n\nThe delivery chain is unusually distributed. Federal agencies fund programs that states, local governments, subrecipients and contractors may help operate. That structure can improve reach and local delivery, but it also creates more points where false identities, ineligible payments, contractor schemes or manipulated records can enter.\n\nGAO recommended applying its Fraud Risk Framework and improper-payment practices, using federal analytics such as the Do Not Pay program to verify identity and eligibility, and implementing recommendations from inspectors general and other oversight bodies. Twenty-two recommendations tied to fraud-risk management in the selected programs remained open.\n\nThe report gives concrete examples of risks identified in prior cases and audits, from falsified permits in an airport project to unreported income in housing assistance and allegedly fraudulent student-aid applications. Those examples illustrate possible schemes; they are not evidence that every program in the review has the same exposure.\n\nThe scale figures also require separation. GAO estimates that the federal government as a whole loses $233 billion to $521 billion annually to fraud, based on fiscal 2018 through 2022 data. That is a government-wide estimate, not a loss total for these 20 programs and not a percentage that can be mechanically applied to $1.1 trillion.\n\nFor the review, auditors analyzed USAspending.gov data, laws, regulations, agency records, inspector-general and state audit work, adjudicated Justice Department cases and research on fraud controls. The result is a map of where safeguards are documented and where evidence is missing—not an accusation against beneficiaries or administrators.\n\nThe practical finding is narrower but important: huge programs can distribute essential services through many layers while still lacking a documented, prioritized view of fraud risk. Closing that management gap would not eliminate fraud, but it would give agencies a clearer basis for prevention, analytics and oversight.",
+      "bodyBlocks": [
+        {
+          "text": "Twenty of the largest federally funded programs administered by states and other governments accounted for $1.1 trillion in obligations last year, but only five documented the fraud-risk assessment work federal auditors looked for, according to a Government Accountability Office review.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO selected programs with more than $100 million in fiscal 2025 obligations. Together, the 20 represented nearly 90 percent of obligations in that universe. They span health care, nutrition, housing, education, transportation and disaster assistance, including Medicaid and the Supplemental Nutrition Assistance Program.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The concentration makes basic controls consequential. Of the 20 programs, five documented evidence consistent with identifying risks and assessing their likelihood so officials could prioritize action. The other 15 lacked that documented evidence, GAO said. That finding concerns a management process; it does not establish that fraud occurred in any particular program.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows 20 state-administered programs accounted for $1.1 trillion and nearly 90 percent of obligations in GAO’s review universe.",
+          "caption": "Twenty selected programs collectively accounted for $1.1 trillion in fiscal 2025 federal obligations.",
+          "credit": "Boho News graphic from GAO-26-109100",
+          "height": 900,
+          "rightsId": "media-state-program-fraud-scale-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-109100",
+          "src": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-scale-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The delivery chain is unusually distributed. Federal agencies fund programs that states, local governments, subrecipients and contractors may help operate. That structure can improve reach and local delivery, but it also creates more points where false identities, ineligible payments, contractor schemes or manipulated records can enter.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO recommended applying its Fraud Risk Framework and improper-payment practices, using federal analytics such as the Do Not Pay program to verify identity and eligibility, and implementing recommendations from inspectors general and other oversight bodies. Twenty-two recommendations tied to fraud-risk management in the selected programs remained open.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The report gives concrete examples of risks identified in prior cases and audits, from falsified permits in an airport project to unreported income in housing assistance and allegedly fraudulent student-aid applications. Those examples illustrate possible schemes; they are not evidence that every program in the review has the same exposure.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows five of 20 programs documented fraud-risk identification and prioritization, while 15 did not, and 22 recommendations remained open.",
+          "caption": "GAO found uneven documentation of fraud-risk assessments across the selected programs.",
+          "credit": "Boho News graphic from GAO-26-109100",
+          "height": 900,
+          "rightsId": "media-state-program-fraud-controls-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-109100",
+          "src": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-controls-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The scale figures also require separation. GAO estimates that the federal government as a whole loses $233 billion to $521 billion annually to fraud, based on fiscal 2018 through 2022 data. That is a government-wide estimate, not a loss total for these 20 programs and not a percentage that can be mechanically applied to $1.1 trillion.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For the review, auditors analyzed USAspending.gov data, laws, regulations, agency records, inspector-general and state audit work, adjudicated Justice Department cases and research on fraud controls. The result is a map of where safeguards are documented and where evidence is missing—not an accusation against beneficiaries or administrators.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The practical finding is narrower but important: huge programs can distribute essential services through many layers while still lacking a documented, prioritized view of fraud risk. Closing that management gap would not eliminate fraud, but it would give agencies a clearer basis for prevention, analytics and oversight.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/state-administered-federal-programs-fraud-controls-gao-2026/",
+      "citations": [
+        {
+          "id": "source-gao-state-program-fraud-20260723",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Combating Fraud: Managing Risks in Federally Funded, State-Administered Programs",
+          "url": "https://www.gao.gov/products/gao-26-109100"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "An estimated $1.2 trillion went to federally funded, state-administered programs in fiscal year 2025.",
+        "Twenty selected programs collectively accounted for $1.1 trillion in federal obligations.",
+        "The 20 programs represented nearly 90 percent of obligations among state-administered programs with more than $100 million in obligations.",
+        "Five of the 20 programs documented evidence of identifying fraud risks and assessing their likelihood to prioritize action.",
+        "The other 15 programs did not have that documented evidence.",
+        "GAO identified 22 open recommendations to agencies related to fraud-risk management among the selected programs.",
+        "GAO’s broader government-wide fraud-loss estimate of $233 billion to $521 billion annually is based on fiscal 2018 through 2022 data and is not a loss estimate for the selected 20 programs."
+      ],
+      "corrections": [],
+      "dek": "Only five of 20 large federally funded programs documented the risk identification and prioritization GAO looked for, while 22 related recommendations remain open.",
+      "desk": "public-integrity",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "State and local governments",
+        "Do Not Pay program"
+      ],
+      "eventId": "event-state-administered-federal-programs-fraud-controls-gao-2026",
+      "headline": "GAO Finds Fraud-Control Gaps Across $1.1 Trillion in State-Run Programs",
+      "id": "article-state-administered-federal-programs-fraud-controls-gao-2026",
+      "leadImage": {
+        "alt": "National Guard soldiers prepare rows of packaged food for distribution at Joint Base Anacostia-Bolling.",
+        "caption": "National Guard soldiers prepare food for distribution in Washington in August 2025. GAO reviewed fraud controls across 20 large federally funded programs administered by states and other governments.",
+        "credit": "Sgt. Jaison Jordan/U.S. Army",
+        "height": 900,
+        "rightsId": "media-state-program-food-distribution-2025",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-food-distribution-2025/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-07T03:03:51.577Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260807t013555z-4e998d9c3bcd-4fd56603b7c7",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO found only five of 20 large state-administered federal programs documented the fraud-risk assessment work it examined.",
+        "index": true,
+        "title": "GAO fraud controls in state-administered federal programs"
+      },
+      "section": "investigations",
+      "slug": "state-administered-federal-programs-fraud-controls-gao-2026",
+      "social": {
+        "description": "Only five of 20 large federally funded programs documented the risk identification and prioritization GAO looked for, while 22 related recommendations remain open.",
+        "image": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-food-distribution-2025/open-graph.webp",
+        "title": "GAO maps fraud-control gaps across $1.1 trillion in programs"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal program oversight",
+        "Fraud prevention",
+        "State-administered benefits",
+        "Medicaid",
+        "SNAP",
+        "Government accountability"
+      ],
+      "uncertainty": [
+        "GAO assessed whether programs documented specified risk-management work; the absence of that documentation is not proof that fraud occurred.",
+        "The $1.1 trillion is fiscal 2025 obligations for 20 programs, not a measured fraud-loss total.",
+        "The government-wide $233 billion to $521 billion annual estimate covers a different scope and earlier data and should not be assigned to these programs."
+      ],
+      "updatedAt": "2026-08-07T03:03:51.577Z"
     },
     {
       "articleType": "news-report",
@@ -24395,6 +25166,156 @@
       "authors": [
         "Boho News Staff"
       ],
+      "body": "World Athletics has restored the under-20 5,000-meter race walk as a world-record event, reopening an official record pathway for junior competitors after a vote by the sport’s governing Council.\n\nThe decision took effect immediately following the Council meeting held July 1 and 2. World Athletics set inaugural standards of 18 minutes, 50.00 seconds for men and 20 minutes, 30.00 seconds for women after reviewing all-time performances.\n\nThose thresholds are separated by one minute, 40 seconds over the same 5,000-meter distance. They function as entry points for the record category: an eligible performance must meet or better the relevant standard and satisfy ratification requirements.\n\nThe Council action does not automatically place a name beside either record. World Athletics still must receive and validate a qualifying performance under its rules, including the event’s technical conditions and the controls that apply to world-record ratification.\n\nRace walking is judged by two defining technical requirements. An athlete must maintain visible contact with the ground, and the advancing leg must remain straight from first contact until the body passes over it. Infractions can lead to warnings or disqualification.\n\nThe restored 5,000-meter category creates a track-based benchmark for under-20 athletes that is shorter than senior championship road distances. Because it is expressed in an exact time, it also gives national federations and meet organizers a clear target when planning record-eligible events.\n\nWorld Athletics did not publish the full list of historical performances it evaluated in the Council release. That limits independent reconstruction of why the two thresholds were chosen, though the governing body explicitly said its standards followed a review of all-time marks.\n\nAny eventual record will depend on more than the clock. Eligibility, certified timing, course or track conditions, officiating, doping control and formal ratification can all determine whether a performance enters the record book.\n\nFor junior race walkers, the immediate consequence is straightforward: the distance once again has a recognized global record category. The standards define the gate, but the first ratified athletes to clear it will supply the names and performances that make the restored records real.",
+      "bodyBlocks": [
+        {
+          "text": "World Athletics has restored the under-20 5,000-meter race walk as a world-record event, reopening an official record pathway for junior competitors after a vote by the sport’s governing Council.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The decision took effect immediately following the Council meeting held July 1 and 2. World Athletics set inaugural standards of 18 minutes, 50.00 seconds for men and 20 minutes, 30.00 seconds for women after reviewing all-time performances.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Those thresholds are separated by one minute, 40 seconds over the same 5,000-meter distance. They function as entry points for the record category: an eligible performance must meet or better the relevant standard and satisfy ratification requirements.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows inaugural U20 5,000-meter race-walk world-record standards of 18:50 for men and 20:30 for women.",
+          "caption": "World Athletics restored the record category with immediate effect.",
+          "credit": "Boho News graphic from World Athletics",
+          "height": 900,
+          "rightsId": "media-u20-race-walk-record-standards-2026",
+          "sourceUrl": "https://worldathletics.org/news/press-releases/decisions-made-241st-council-meeting",
+          "src": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-record-standards-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The Council action does not automatically place a name beside either record. World Athletics still must receive and validate a qualifying performance under its rules, including the event’s technical conditions and the controls that apply to world-record ratification.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Race walking is judged by two defining technical requirements. An athlete must maintain visible contact with the ground, and the advancing leg must remain straight from first contact until the body passes over it. Infractions can lead to warnings or disqualification.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The restored 5,000-meter category creates a track-based benchmark for under-20 athletes that is shorter than senior championship road distances. Because it is expressed in an exact time, it also gives national federations and meet organizers a clear target when planning record-eligible events.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows the two 5,000-meter standards differ by 100 seconds and explains that restoring a category does not automatically name a record holder.",
+          "caption": "An eligible performance must meet the standard and record-ratification rules before it can become the inaugural record.",
+          "credit": "Boho News graphic from World Athletics",
+          "height": 900,
+          "rightsId": "media-u20-race-walk-standards-gap-2026",
+          "sourceUrl": "https://worldathletics.org/news/press-releases/decisions-made-241st-council-meeting",
+          "src": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-standards-gap-2026/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "World Athletics did not publish the full list of historical performances it evaluated in the Council release. That limits independent reconstruction of why the two thresholds were chosen, though the governing body explicitly said its standards followed a review of all-time marks.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Any eventual record will depend on more than the clock. Eligibility, certified timing, course or track conditions, officiating, doping control and formal ratification can all determine whether a performance enters the record book.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For junior race walkers, the immediate consequence is straightforward: the distance once again has a recognized global record category. The standards define the gate, but the first ratified athletes to clear it will supply the names and performances that make the restored records real.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/world-athletics-u20-5000m-race-walk-records/",
+      "citations": [
+        {
+          "id": "source-world-athletics-u20-5000m-records-20260703",
+          "publishedAt": "2026-07-03T12:00:00Z",
+          "publisher": "World Athletics",
+          "title": "Decisions made at 241st World Athletics Council Meeting",
+          "url": "https://worldathletics.org/news/press-releases/decisions-made-241st-council-meeting"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The World Athletics Council restored the under-20 5,000-meter race walk as a world-record event.",
+        "The decision took effect immediately after the Council meeting held July 1 and 2, 2026.",
+        "The inaugural men’s world-record standard is 18 minutes, 50.00 seconds.",
+        "The inaugural women’s world-record standard is 20 minutes, 30.00 seconds.",
+        "The two standards differ by one minute, 40 seconds.",
+        "World Athletics set the thresholds after reviewing all-time performances.",
+        "Restoring the category and setting a standard does not itself designate an athlete as the record holder."
+      ],
+      "corrections": [],
+      "dek": "The Council set inaugural standards of 18:50.00 for men and 20:30.00 for women, reopening a global record pathway for junior athletes.",
+      "desk": "track-and-field",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Athletics",
+        "World Athletics Council"
+      ],
+      "eventId": "event-world-athletics-u20-5000m-race-walk-records",
+      "headline": "World Athletics Restores U20 5,000m Race-Walk World Records",
+      "id": "article-world-athletics-u20-5000m-race-walk-records",
+      "leadImage": {
+        "alt": "A race walker in a white uniform strides through a marked turn on a London course.",
+        "caption": "U.S. race walker John Nunn competes in London in 2012. World Athletics has restored the under-20 5,000-meter race walk as a world-record event.",
+        "credit": "Gary Sheftick/Defense Media Activity",
+        "height": 900,
+        "rightsId": "media-race-walker-london-2012",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/race-walker-london-2012/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Global"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-07T03:03:51.577Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260807t013555z-4e998d9c3bcd-4fd56603b7c7",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "World Athletics restored U20 5,000m race-walk world records with standards of 18:50.00 for men and 20:30.00 for women.",
+        "index": true,
+        "title": "U20 5,000m race-walk world record standards"
+      },
+      "section": "sports",
+      "slug": "world-athletics-u20-5000m-race-walk-records",
+      "social": {
+        "description": "The Council set inaugural standards of 18:50.00 for men and 20:30.00 for women, reopening a global record pathway for junior athletes.",
+        "image": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/race-walker-london-2012/open-graph.webp",
+        "title": "U20 5,000m race-walk records return with new standards"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Race walking",
+        "World Athletics",
+        "Under-20 athletics",
+        "Track and field records",
+        "5,000 meters",
+        "Junior sports"
+      ],
+      "uncertainty": [
+        "The Council announcement establishes standards, but a ratified athlete and performance are still required for an inaugural record.",
+        "The release does not list the historical performances used to set the thresholds.",
+        "Future records remain subject to World Athletics technical, eligibility, timing, doping-control and ratification rules."
+      ],
+      "updatedAt": "2026-08-07T03:03:51.577Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
       "body": "World Athletics added a career and media education program around the 2026 World U20 Championships in Oregon, extending athlete development beyond competition at Hayward Field.\n\nAthletes Connect runs from Aug. 3 through Aug. 10 at the University of Oregon, covering the days before and during the championships. Its core program consists of four workshop sessions across Aug. 3 and Aug. 4, plus a separate athlete zone in Bean Hall.\n\nTwo sessions titled Your Athlete Journey focus on balancing education with sport, building a support network and planning for life after competition. Christian Taylor, Ashton Eaton and Ato Boldon were named as speakers for that track.\n\nTwo more sessions, Your Image, Your Power, cover media work, social platforms and using public visibility responsibly. Commentator Rob Walker and a major social-media platform were listed for those discussions.\n\nValerie Adams, the two-time Olympic shot put champion who now chairs the World Athletics Athletes’ Commission, was named to present the workshops. Her own progression from youth and U20 titles to a long senior career matches the program’s intended bridge.\n\nThe Bean Hall athlete zone adds educational games, printed materials and spaces for photography and video. World Athletics says professional content creators can help athletes produce material and provide guidance on posting and messaging.\n\nThe concept builds on earlier zones in Lima and Tokyo. More than 1,500 visits were recorded at the 2024 World U20 Championships in Lima across subjects including health and science, safeguarding, social media, athlete representatives and competition rules.\n\nThat number measures visits, not unique athletes or long-term outcomes. It shows demand for the space but does not establish that a workshop produces better contracts, safer representation or a longer career.\n\nThe initiative is nevertheless a notable addition to a global age-group meet. Many competitors are encountering international media, agents and sponsorship interest for the first time; Oregon 26 is treating those off-track decisions as part of athlete preparation rather than leaving them entirely outside the championship.",
       "bodyBlocks": [
         {
@@ -25726,22 +26647,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-07T01:08:13Z",
+  "generatedAt": "2026-08-07T03:04:37Z",
   "inputHashes": {
-    "approvals": "cb76703911259cf2a3c52d4c460b4c88e1d156ef38d0a9598fd44484a205a044",
-    "articles": "220393adaff98f52d27c837f18dbdba624299144ed9a9407b531322313be3a36",
-    "claims": "a3c57750599a0b1c91f093cf28ce8361e3dd50d14ce8283d0b0fb524e2b06429",
+    "approvals": "11b65e9a43a191235a28ea36586a9f605ebb14782aacb905367531ab5c316c88",
+    "articles": "465f5f8842296450e3f4a74a4aa88ff22de1ddab5ea8459cbf3114feffd4e2d4",
+    "claims": "3df68fb1d1b6da2bb72e3d851fe12ffa701b9811f51a7b181e1f31aa82f9822d",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "0c2351b2e54a51f980617cfb11b17fc00ce8ba2319e54c3aa4b86b592ecd4f00",
-    "mediaRights": "902b274af2dd357eb1e09d75db5f074975dc540dca5a83212d024acd65b4c37a",
-    "publicationIntents": "2453cd1a03882a70fdae5df80920f1c84a46231ada8ed7e010d120561b72641f",
-    "releaseRecords": "68528f04624db850fc51a13bebd3c973aec1e6f779e23f5c6acb00e1a51f0b3d",
-    "sourceItems": "3f4862579c2db6665bc7d23f81a0b8344d176c294fda09d49b73db29bb1bb0b5"
+    "events": "c87f1501374d56c3c17ff84835bab7a1b7395e915f69c85414c9ab2e76db0fd2",
+    "mediaRights": "37c04ac1e2b48f0a0982709033922140ecbf0c259644c9078d0e2a359a75dd30",
+    "publicationIntents": "3ec46f8a6b8656bc6be4ea86f4ccf0683c14f1b6526f278b42d6dd4e3497c769",
+    "releaseRecords": "4939257bf7e652a1afa485cf61ce3c6d2c74800d2c11909a595d9e4e5475d081",
+    "sourceItems": "f8a1959169c60fed51fd870c8c5c4a73e9ad4d309df433c97f51599908e7b122"
   },
   "inventory": {
-    "articleCount": 141,
-    "mediaCount": 409,
-    "routeCount": 141
+    "articleCount": 147,
+    "mediaCount": 427,
+    "routeCount": 147
   },
   "mediaRights": [
     {
@@ -28013,6 +28934,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "A medical laboratory technician loads blood-sample tubes into a centrifuge.",
+      "archivalStatus": "current",
+      "attribution": "Petty Officer 3rd Class Raymond Diaz III/U.S. Navy",
+      "caption": "A U.S. Navy laboratory technician handles blood samples in 2014. Researchers measured more than 5,000 plasma proteins to model when ALS symptoms might emerge in people at elevated genetic risk.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary image; responsive crops only."
+      },
+      "creator": "Petty Officer 3rd Class Raymond Diaz III, U.S. Navy",
+      "derivatives": [
+        {
+          "hash": "ed03e14ae8d020fe2d05dcfa0a89e8a90f07a7f0e064f6ac891b7e62e0e3a973",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-blood-samples-lab-2014/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3b3deb0aef012fa9f12b397b7ebc945da850518b10475d8ffe340ae44ab463c3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-blood-samples-lab-2014/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0c75ecf42da1d08e01a90288381e7c748cff87461244e63d5470de9ca96c1a63",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-blood-samples-lab-2014/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4f3837860138fcdf1eb4e3db255009432a275749a51e0d6a66cf248912954f97",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-blood-samples-lab-2014/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a49314ab7b7e2c9884b689dba1dde151060dd7b96851b9764340a8dcc8e03c72",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-blood-samples-lab-2014/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7ea4e750be5b7f222791089a968e2920fc68791be0a3cd7fff5c3cbd7e7ae989",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-blood-samples-lab-2014/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "aa05ad1888cf442761b0c00e9d7537c037e9bb358839e98a2ac59343ee44481a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-blood-samples-lab-2014/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-als-blood-samples-lab-2014",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "6794fc80dace2ea1156a105cf0f9758891970b7c61fe5504e1ea184e53018158",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Official U.S. Navy photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/1589119/blood-samples"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Four-panel research figure comparing protein-panel predictions across time horizons and estimated versus observed symptom onset.",
       "archivalStatus": "current",
       "attribution": "Ran, Wuu, Qin et al., Nature Medicine (2026)",
@@ -28089,6 +29086,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows validation AUC of 0.945 for six-month prediction, 0.897 for five-year prediction and average onset-timing error of about 18 months.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Nature Medicine",
+      "caption": "Cross-validated models performed well in the study data, but broader prospective validation is still needed.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "83a01cc7c1bd54bdb65318a3c0b356f709e64ef4f6e29d7d905bf29c551a1c62",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-prediction-performance-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3f24b47df2eea8d9df6e189d5c98e61cb16e6fe034f23d89f9c05b17ca199071",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-prediction-performance-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a57b7800694e6e2191dadf4c9eec2cd122615c5f59d0538f7409c0d3ffd2022f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-prediction-performance-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "cbf304c099862b4fbd85687c7f89226991581872d2f7374756071c7d781aa757",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-prediction-performance-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8a2b152f98027cdd055061b8912589c9da9d7a74cb973ac0c4457fa81873149d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-prediction-performance-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "53ebdea032c0a2d4bd153a0203ccf6aad6c08b7d6204d8e455fcf17d2fe33b89",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-prediction-performance-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c05be2b17b9b0c2e27ea3abcc987e5b6495769b36105c2929b656a601c8deed8",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-prediction-performance-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-als-prediction-performance-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "202691d0a9c51d4ef9650025930336d36bc03a532a3f3c049e412146abb8f7bf",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nature.com/articles/s41591-026-04528-x"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 137 study participants, more than 5,000 proteins measured and a 19-protein core prediction panel.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from NIH and Nature Medicine",
+      "caption": "The Pre-fALS analysis identified a compact panel from thousands of measured plasma proteins.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "007dfd7606dcc87be298bcca315a01494a973a5f1dcdf1487dc83e43189a1082",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-protein-panel-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "dddbd888612bb76ce3b9a0bd09b7f08e5548296308e57420d0afe24d02785d43",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-protein-panel-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b1d322abbe842638e9388ad39bcbe97c4a3d6cde9a0c0108291f3104675d6f96",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-protein-panel-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "882f67a0d2bdb4bd0912659ac12243e899596023d0a29e584a9f97ebe0255235",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-protein-panel-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9cbc55b77b75530cb5d7fd65996cb4b2b049dd637ad396454bdad3ca2b191dbc",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-protein-panel-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d99c51457167c171633d648db880baf17f1fd70739ec9e77af38f1a0ba0ff12b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-protein-panel-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7c6d34d881b917b8cbbc24d772615c76a6ff0d61f1b2edee74ed080866aadc5b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/als-blood-protein-panel-symptom-onset-prediction-2026/als-protein-panel-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-als-protein-panel-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "79a684273aaee21613a68d4fd9a09dbc805d06f86254c3b3945ec582f01fd951",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nature.com/articles/s41591-026-04528-x"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Four-panel research figure showing replication of protein changes and timing models in UK Biobank data.",
       "archivalStatus": "current",
       "attribution": "Ran, Wuu, Qin et al., Nature Medicine (2026)",
@@ -28162,6 +29311,82 @@
       "rightsBasis": "Open-access Nature Medicine article and included figures licensed Creative Commons Attribution 4.0.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.nature.com/articles/s41591-026-04528-x/figures/5"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "An archaeologist uses a shovel inside a carefully marked excavation trench.",
+      "archivalStatus": "current",
+      "attribution": "Senior Airman Kaylee Dubois/U.S. Air Force",
+      "caption": "An archaeologist excavates a site in Virginia in 2017. A separate study of fossil footprints at Kenya’s Lake Turkana found evidence of eight Paranthropus boisei moving together 1.43 million years ago.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary image; responsive crops only."
+      },
+      "creator": "Senior Airman Kaylee Dubois, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "040bb9c5defb104f830f722b45c377d766306044dd9e75397c85afb0baec67e5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/archaeologist-shoveling-excavation-2017/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "4c850762439ffc73e10de5fd338da7ad943169b4a2cb12a0e92a8114980b4af3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/archaeologist-shoveling-excavation-2017/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b193f37bd3b83dfd7df298e013e7533d8a4a3aa55a3db1a95779d0e3a2daa9ef",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/archaeologist-shoveling-excavation-2017/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a06c4d37d1002ac2fe8d039c93aa902e00fcb7afa3868a5fa91df9325b4286ad",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/archaeologist-shoveling-excavation-2017/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "36aab23585eb12b8ddf7a4d1da8881a26fade1926f79f4bc75c1fe1483947897",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/archaeologist-shoveling-excavation-2017/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "66d9888eea953c570b89ac026c1d6269419d1f06217c0c35e4983426542a4b3f",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/archaeologist-shoveling-excavation-2017/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f8de40b93d0e77ae250402f6a05b79d95b99ee11ed20acd8698206bb6532a44d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/archaeologist-shoveling-excavation-2017/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-archaeologist-shoveling-excavation-2017",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "cde4e0f4100e7e3fa0c0b6f52e8a17832279c0b63387074f17a89b3b05fa68d4",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Official U.S. Air Force photograph marked public domain by DVIDS; used as a clearly labeled archaeology-process scene, not as the Kenyan trackway.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/3935826/uncovering-time-archeologists-perform-excavations-eustis"
     },
     {
       "aiGenerated": false,
@@ -29746,6 +30971,234 @@
       "rightsBasis": "Original graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.nih.gov/news-events/news-releases/brain-immunity-may-undergo-major-midlife-overhaul"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows IMF projections of 2.4 percent real GDP growth and 5.6 percent end-year inflation in 2026, with medium-term growth near 2.5 percent.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from IMF 2026 Article IV consultation",
+      "caption": "The IMF expects growth to strengthen in 2026 while the oil-price shock temporarily raises inflation.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "6c98ec4cd756f8e38be9a0b38dff3c23683a890d3979b2f98aca44e2002c4658",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-growth-inflation-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f8fad0aa1cd5a985356cebe0316dddcc4cb9af65051b1d0001b12227ae01308c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-growth-inflation-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "51d4ef35832818c915dd8ebdc31f40ed4ce33e77e369d8f268c4448731d081c1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-growth-inflation-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5b50d6522a04b0b3f1648408dd599d30331a0e213e7b2e7acea07b2de9850050",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-growth-inflation-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a44b0eb4f1a61da665333ad6e53120fec9294ad7ef5a8001a1bb5d278cc57be2",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-growth-inflation-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "361843a44c767d3e94d0594dc3ddfffdc85aae68da6948ef5bb18dce4b0c651c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-growth-inflation-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b10fbde2f661adabab223ff40a9c9b3ef5eb2484a30207f612591d57d226a238",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-growth-inflation-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-brazil-growth-inflation-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "af461d25f4344e0179946cfa9cdc0cfcafdd68fd9855a237af99e92dd41d8100",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/23/pr26257-brazil-imf-executive-board-concludes-2026-article-iv-consultation"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic notes a projected return to the 3 percent inflation target around mid-2028 and IMF advice to save oil windfalls while protecting targeted social spending.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from IMF 2026 Article IV consultation",
+      "caption": "As a net oil exporter, Brazil gains revenue from higher prices even as consumers face inflation pressure.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "6e8590d063909eb62a5a7d9c76621aa70ec178e4cd671141ba6a1b44bf8ad9f8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-oil-fiscal-policy-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7a8f72c06de7eb8d025faac22b2d81ab3e1e44ddf2a0adf0074ea5bcdd93b12d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-oil-fiscal-policy-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "35d75178ea959cba9c0bd28650ef8846e7039e27fefb497e187545683093901c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-oil-fiscal-policy-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "13e14a8e301ed6061d37c918b72859e0beb35b7ecd99e17b6b3e6121ba9f60f5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-oil-fiscal-policy-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5ecffc1d9394815f387a5f62be41b5195d97d0b684a05f405676d6cb798dd004",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-oil-fiscal-policy-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b0ccabda332526cdd24202946931e580c3fbc1d357f95e3fb5f9f02da0d07aa6",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-oil-fiscal-policy-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c10756dc5a69bcbe95d286c472ec0049bdb390a8e975836e0f71488a0b01ac6a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-oil-fiscal-policy-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-brazil-oil-fiscal-policy-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "790f229d42ae9863e01296a96117937e8d715397f67d98a329c48a1219f035f5",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/23/pr26257-brazil-imf-executive-board-concludes-2026-article-iv-consultation"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Brazilian guests and U.S. Navy officers speak at a reception on a ship off Rio de Janeiro.",
+      "archivalStatus": "current",
+      "attribution": "Seaman Kaylee Beasley/U.S. Navy",
+      "caption": "A maritime reception off Rio de Janeiro in May 2026. The IMF projects Brazil’s economy will grow 2.4% this year as oil prices lift both export receipts and inflation.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary image; responsive crops only."
+      },
+      "creator": "Seaman Kaylee Beasley, U.S. Navy",
+      "derivatives": [
+        {
+          "hash": "a271885cf07594709ac9796e6f53c581ea5e7d01049620cd301198b7405ca60c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-rio-reception-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2170ca03d7ded8aefc6fbc9194d67477644e8b3bcd650e25ff20d847c158337e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-rio-reception-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c68f8e5c1c8e66286c8eafd5085548fc4e8eba9f55c024e91ea37367911cec24",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-rio-reception-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "2d56424a93c9cfa48a35b8bb6f44195be1ff91ec01d87a482ceca68d51fcacfd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-rio-reception-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2d8d1bc5f17b770b8ff88cd6ed0bd48bc4a081e35087239180bb98acb81def8a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-rio-reception-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "78c9b4f33e16b5a0d7e75fd4cb2e2d844fb960c6b7962af5e01b6804a2645cb5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-rio-reception-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "229a5bc1236d57ede9f3ed02acc4fded68209a2d1689a94b1c904c846d5603db",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/brazil-growth-inflation-imf-outlook-2026/brazil-rio-reception-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-brazil-rio-reception-2026",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "11c1b695c609b4ee0c0257aa9920a5a7a368c18dbba1ab0f69fba3957c37a551",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Official U.S. Navy photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/9677733/nimitz-hosts-brazilian-distinguished-visitors"
     },
     {
       "aiGenerated": false,
@@ -34914,6 +36367,234 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows 154,932 people in Bureau of Prisons custody, including 134,850 serving federal sentences, with an average age of 42.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from U.S. Sentencing Commission",
+      "caption": "The Sentencing Commission matched records for 132,371 people serving federal sentences for its characteristics analysis.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "5392465920df21d787017a9e5e3d60319ca8b0c28185cf7ef8cec255949c0978",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-profile-2025/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c1596d2ae8083be7b920ef90d0e5715ec2d5b002e9b543f55a3c3e6f5f34b0e1",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-profile-2025/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bbbb387fe467c86aae070e8a6e5ecef747beaffe952d2b36aa5d3c97e8638b37",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-profile-2025/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "27061a869eec1cc236853ab074a4aefdaa94bf822ad69fdaf6345ceec83209f9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-profile-2025/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0fc45c9723d535aa2922d14968f8b4674ac9878b5b2a4cc1eabb68397bcd1b50",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-profile-2025/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "08dd19dbe55f43da42a7227eb6324c1258ef6deee02964f15214c5d81a91580f",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-profile-2025/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b7f7ef2f1cc7634850f8828bdce564d9eb06f96c0cfce36523f06f040773fd72",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-profile-2025/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-prison-profile-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "577660843f71e6d9832c746ac2906584bb05ee651a28e3b131236e7e0930a7ad",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/individuals-federal-bureau-prisons"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A uniformed correctional specialist reviews safety procedures with a prisoner inside a military correctional facility.",
+      "archivalStatus": "current",
+      "attribution": "Staff Sgt. Adam Ross/U.S. Army",
+      "caption": "A correctional specialist reviews safety procedures at Joint Base Lewis-McChord in 2019. Sentencing Commission data describe 154,932 people in Federal Bureau of Prisons custody as of September 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary image; responsive crops only."
+      },
+      "creator": "Staff Sgt. Adam Ross, U.S. Army",
+      "derivatives": [
+        {
+          "hash": "c26ef2c60cbbfe611f2adca574961c64212864c0255402b9d880648a92ec4a34",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-safety-2019/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ae00e825f926be05696615c4a4c9e99e5de8125beb9f77e917fec4792be6fcc7",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-safety-2019/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3d696533d7d3b55e616565dec740929cd7cb7ee3b78c78fb7420d98b3e5b3804",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-safety-2019/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1d986d6eaba35e509775e53c75fea372e51b5cebaaba01d910274cf1008dd9fb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-safety-2019/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "764813d24a05068615023842573a032d9b886f8a04beae84f1497eecd43eecf8",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-safety-2019/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "157c64460f913d0b72e1992be73bfb537ad74fc18f83ce433b2ab080fc29a77a",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-safety-2019/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "fa2864581bab6369868b1186d16adaaf22adf2e66c06ba3fcab5c2b21fc30c0f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-safety-2019/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-prison-safety-2019",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "0d3fc3bfc602cf1897978d8e34dee15150bc6ec19023d12dbf11f90923a5f8fe",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Official U.S. Army photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/5745238/northwestern-joint-regional-correctional-facility-jblm"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows an average imposed term of 153 months and that 61 percent were convicted of an offense carrying a mandatory minimum.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from U.S. Sentencing Commission",
+      "caption": "One in five people in the mandatory-minimum group received relief from that penalty.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "1290c451c68491e83d2367dd5fe03a6f77409ff49f709163c516f849bebae1b4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-sentences-2025/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d9cb51fe2ec01f283111a4ba57a789139660b347bd45d6e475a807236038de8e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-sentences-2025/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4ce35eb8596ed9b9893eb88a9ab25554eccaff1566cfa28571aa0855230e84fe",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-sentences-2025/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "59642371f0762f95aa9393026c4145266f6fd404014b3b0cdf3a65d18245d9fe",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-sentences-2025/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "15333b76a18d3ef422eceb2253fc42c9f20af9f6100b9c16d819ffbbf40f879e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-sentences-2025/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "15435d7b8d8dc5f78f49eb2b897c1e280f71ba0ab08797057a2c401bff0f67fe",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-sentences-2025/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b75fe8bcd7832a9c1afecaea18ca288d802de9676dd6097243cc248c17aff534",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/federal-prison-population-mandatory-minimums-2025/federal-prison-sentences-2025/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-prison-sentences-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "60cfb4413c0c22bce02ae3a0818a51bede6d2763a50327cfa61c522d104e5ca1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/individuals-federal-bureau-prisons"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A military judge speaks at a lectern in a courtroom while three uniformed officials sit nearby.",
       "archivalStatus": "current",
       "attribution": "Josiah Pugh/Louisiana National Guard",
@@ -39987,6 +41668,82 @@
       "rightsBasis": "Wide real-world photograph released into the public domain by the creator.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hirshhorn_Museum_DC_2007.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the GaJi10 site preserved 21 footprints from eight individuals about 1.43 million years ago.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Smithsonian National Museum of Natural History",
+      "caption": "The Lake Turkana trackway records a group moving across the same ancient surface.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "1be2c90485a3faea6c7d89a4edff9a392596290671ed65e4870c53a0430f8018",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/hominin-trackway-gaji10-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9e58f18526f6a36c9f399a597296c88075dd342ac192eac5df92c36acd09a759",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/hominin-trackway-gaji10-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "64e326e01dd71b6a5386f5024b0480867a17924d5c5d12c573ff4377dccf367d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/hominin-trackway-gaji10-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "962b8ea6ab436a68621012854e6b7ef960fcce4f5e5437864e0775be92ebd86b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/hominin-trackway-gaji10-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8627da6133edf8c74b499ad61026764c713a09a985f6fb321bc989cadbe21963",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/hominin-trackway-gaji10-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0dc9c782eb428dc2ab5d861c1e12c051f733f04cc445958f020916357e12880c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/hominin-trackway-gaji10-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1420e4e4c7a05b2bed93ed846c4adf43ecf4203e2768998cbbc38c214d7f9a8b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/hominin-trackway-gaji10-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-hominin-trackway-gaji10-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "05ca12be3da3fe2d5232805c9e6c051f775ee3d396193a31193b480f8b3c3834",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.si.edu/newsdesk/releases/fossil-footprints-reveal-ancient-human-relative-was-larger-previously-thought-and"
     },
     {
       "aiGenerated": false,
@@ -49175,6 +50932,82 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic shows footprint-based estimates up to six feet and about 165 pounds and notes two hominin species shared the lakeshore environment.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from Smithsonian National Museum of Natural History",
+      "caption": "The largest prints imply some Paranthropus boisei individuals were comparable in size to Homo erectus.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "6a9c1be7c396628ceeb77c3d0dfb2886f79d4c2eb230e940e05a7245b52b4fcd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/paranthropus-body-size-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "111ff27f3a0e8a5b1f2e55187280221671f788591ce5b773b8de26a850d60071",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/paranthropus-body-size-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "82f2ab300bbbe057d21290504c81f6c025fb47bb9b49434526bb62775be7b8b8",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/paranthropus-body-size-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "3ce6d1696c7fa9edc77c33bf21614b88c274d09313e72406474b812a1d9ae475",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/paranthropus-body-size-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9d7d755d530bf02606e2bf46148337e356d428d8a31b69ca34bd19f346127f98",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/paranthropus-body-size-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b8665b9113da2de34387ceea63b65a90d5639300075b33743894055dfbb40de3",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/paranthropus-body-size-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "01b6d730e5e74cb118eca8b544a2b32bc602699dd9bcf71fc88fbd74335dfbdb",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/paranthropus-boisei-footprints-group-lake-turkana/paranthropus-body-size-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-paranthropus-body-size-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "7595f5aae460a2491efe89482cf95b04cb09380a41e972ee77ca229147f2a52a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.si.edu/newsdesk/releases/fossil-footprints-reveal-ancient-human-relative-was-larger-previously-thought-and"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Bar chart showing June 2026 monthly changes in real consumer spending, headline and core PCE prices, and personal income.",
       "archivalStatus": "current",
       "attribution": "Boho News chart using U.S. Bureau of Economic Analysis data",
@@ -50080,6 +51913,82 @@
       "rightsBasis": "Official federal photograph marked public domain by DVIDS.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.dvidshub.net/image/9147435/stem-camp"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A race walker in a white uniform strides through a marked turn on a London course.",
+      "archivalStatus": "current",
+      "attribution": "Gary Sheftick/Defense Media Activity",
+      "caption": "U.S. race walker John Nunn competes in London in 2012. World Athletics has restored the under-20 5,000-meter race walk as a world-record event.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary image; responsive crops only."
+      },
+      "creator": "Gary Sheftick, Defense Media Activity",
+      "derivatives": [
+        {
+          "hash": "e46f9e67f48ce21e222a392315ae33cee9fb065ff999223fce0e5de411a252b3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/race-walker-london-2012/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2febaf8d522ea7051162399ddbf721345ecd311d168d66ebd7ef94f9994dc077",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/race-walker-london-2012/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f393862ffa04c4e7d8e13dd74169aea844c05c44e7f6c002f204e4ab11f4a88a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/race-walker-london-2012/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "facd22bfb99ec455c5e38946aa1798ee44f739c451476454abaabd06a790bcc7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/race-walker-london-2012/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6912e619d8a78f0fff63ffcc36c91c5de1e03bc082d8e1f2c5dd7a9d73a78595",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/race-walker-london-2012/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1b889c3638d0a208e392050b0ab3e0db0e94943e67e24155cf9c8022f8588114",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/race-walker-london-2012/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "ade6deafe269ef8c97dc65934e8df93f8b936a68b9f4e1215bcdecb71dd315ce",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/race-walker-london-2012/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-race-walker-london-2012",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "5d753a3fc0bde169f9b4f2d5f57f078b8768b823b4b608a530f310e3a3599213",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Official U.S. Defense Media Activity photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/644400/nunn-finishes-olympic-50-k-race-walk"
     },
     {
       "aiGenerated": false,
@@ -51223,6 +53132,234 @@
     },
     {
       "aiGenerated": false,
+      "altText": "National Guard soldiers prepare rows of packaged food for distribution at Joint Base Anacostia-Bolling.",
+      "archivalStatus": "current",
+      "attribution": "Sgt. Jaison Jordan/U.S. Army",
+      "caption": "National Guard soldiers prepare food for distribution in Washington in August 2025. GAO reviewed fraud controls across 20 large federally funded programs administered by states and other governments.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Lead documentary image; responsive crops only."
+      },
+      "creator": "Sgt. Jaison Jordan, U.S. Army",
+      "derivatives": [
+        {
+          "hash": "d036b17bc633514f524da19a8e5ab700a1fa136aefb8b9a74654c55c1da1888e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-food-distribution-2025/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "501acdae4669f2e125fec15f8430d0cace9d3a519d379417187b552afcfc6d10",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-food-distribution-2025/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "caf37b4cf9d3ee1892e4db989b959dfc4565a952449daa816a96d262a858ba00",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-food-distribution-2025/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6ce0b687b22bbf55909d04edf40f3328d2da105f08ebaf317c8ae926b951f2a3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-food-distribution-2025/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "799be26299d6f9a097abb6c2c29d94ab2bcef2c6b1d4872e4c051fc1ec1a6e7c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-food-distribution-2025/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "49157c736f79730e206a7d74bb98f8a1ec0f861ad936c9e4bf20f74c721277c8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-food-distribution-2025/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "9823283684917f07ed1d1a2bdda878cedc5a65098f982f587c0fd16bfddf8530",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-food-distribution-2025/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-state-program-food-distribution-2025",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "287299df791d59082bf902cc3534b59703ab24ab589eb41c6e8679a509e7d4ee",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Official U.S. Army photograph marked public domain by DVIDS.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/9285600/us-army-soldiers-distribute-food"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows five of 20 programs documented fraud-risk identification and prioritization, while 15 did not, and 22 recommendations remained open.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-109100",
+      "caption": "GAO found uneven documentation of fraud-risk assessments across the selected programs.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "8c274738548e3d96e36a8f522c36e58bd36dadec84c44f95c2047e832f038ccb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-controls-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e3955c08666507c5e20e3d4bd5902b7f49e6cf7f5c10b70ad9c653f847e5087b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-controls-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b73acf8558ed6f2be924f4f13e1da2141144db9661dfa962272371e11ae6867c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-controls-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "975ddec5daf7ac63b8ca20c0d4e2f61acc03bb474e0baf68406ab96d74759187",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-controls-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3ad5f059a6480e7915ed7b05e6ed498621d8cccfac78e921c0d2c695728ae9f3",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-controls-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "dc2e8531becbd193206b61137657e2d7b5447d8f03e27040f27b52c986683694",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-controls-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5cfe2f4d8046bfa39c76e9d52b10d5cda8a882dcca012fc303ae3b9c55892b40",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-controls-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-state-program-fraud-controls-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "447b3f20e9a4c9b294d04424ca1c7d17482df67fc32c2951a2afce0c00f91d99",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-109100"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 20 state-administered programs accounted for $1.1 trillion and nearly 90 percent of obligations in GAO’s review universe.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from GAO-26-109100",
+      "caption": "Twenty selected programs collectively accounted for $1.1 trillion in fiscal 2025 federal obligations.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "5786fbac169d444c7b53a3cb8b73ecccfb60a2a2379aa849a64e431a26b1581c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-scale-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "94e267e896e8932e5d5ad41ecc2dcdb39aeec9b6d6c9dc4b66c382ed9dd3ff6c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-scale-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e591e0c00a74e2d924492fcdf18455b6d1cfbca715af442acc2f6d78683eee76",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-scale-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9adfa62522afeb4035defadfb0758318c7fd727b7c0c45f1b4c93d27ca4ea5e7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-scale-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e6fff961b5e072ebd7a868bd8807b90cc9c9071c305490f02447b9059dc57491",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-scale-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "14cf657ace5650972e0327b472ce723196b266356be7cd86745ee0dc0f78aa4c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-scale-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "9a9238782f9cc4b428c76d8127a49105a01b6a59e00812efe377da16d2f17a8f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/state-administered-federal-programs-fraud-controls-gao-2026/state-program-fraud-scale-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-state-program-fraud-scale-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "85edb9dfdb56c44352f60f4b03f7483e140ccf68f3e10557bfc716422f662f4d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-109100"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A massive dark storm cloud rises above the Gulf of Mexico, seen from an aircraft.",
       "archivalStatus": "current",
       "attribution": "John Raven/U.S. Air Force",
@@ -52132,6 +54269,158 @@
       "rightsBasis": "Original graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.gao.gov/products/gao-26-107521"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows inaugural U20 5,000-meter race-walk world-record standards of 18:50 for men and 20:30 for women.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from World Athletics",
+      "caption": "World Athletics restored the record category with immediate effect.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "f2f51bfa33f128679d822b69227ae17ebada509d8e3b735d10c0f370b2c449c9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-record-standards-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "792cb6d0a01580e083c3b4256346f1c067eac8fac1346f9210f783ca306e63f9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-record-standards-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0770b95c3c50c4dfb0147708d9231a122f79e5ea8376cbd5efaf30c3439de827",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-record-standards-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "2d829fc8437788ed520a0cc6a7150eb6b46d445432ab421085462c95a441589a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-record-standards-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3cb5ad6ebcd8d8d0e513606ad4aa03aa2cd5fcc86642ae247f1cf3804aedf0de",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-record-standards-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "fba8cf385376db995ccf02da641793957dbc3b8db4abf39c493fe7ce37784fe6",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-record-standards-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a589abfac0371b3efe4f22f2d8312cb8771fb7f9a44e5005e4e314c909e44312",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-record-standards-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-u20-race-walk-record-standards-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "2649699f472d9cd5e3823dc8c9f18dae59e1083729b731c0f1e17420ade1b707",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://worldathletics.org/news/press-releases/decisions-made-241st-council-meeting"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the two 5,000-meter standards differ by 100 seconds and explains that restoring a category does not automatically name a record holder.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from World Athletics",
+      "caption": "An eligible performance must meet the standard and record-ratification rules before it can become the inaugural record.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never a headline image."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "cf2718f319efaea2658a7dc15a461307818ab63bc46aae77b477ccf4a2a601e1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-standards-gap-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e000d166c57fff8533636c113c1bdcf8dc7f9b19c099a52b88460e2d56d56bcb",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-standards-gap-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d6f0aab50805b08a41ab696ce6cf8643103e7d167813ec4b8dec38282fd9462b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-standards-gap-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8b9cfd460b7a880200208028cf5a8ce88f574143c5b1298d6ab46fe0236d0f5d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-standards-gap-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1e992c133c133a59ce471b3f83a4c441eaae31ed65790fd73d763edbfb78fb31",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-standards-gap-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5e9233e79b737a0615fb40ef2c7d0627b6c24cba46f0200199a7b66a0b5d194c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-standards-gap-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f97ec636752d71fcd53bb5da8269842b4f085b6484c26826b0ab2b9d8925014e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/world-athletics-u20-5000m-race-walk-records/u20-race-walk-standards-gap-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-u20-race-walk-standards-gap-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "ef8a8f139cc9201d7ad92c854a7726121cf182026fe7c60cf6a100b19e870623",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T01:35:13Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://worldathletics.org/news/press-releases/decisions-made-241st-council-meeting"
     },
     {
       "aiGenerated": false,
@@ -56760,7 +59049,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "08734aae7b760974503dd70c490fa32a90dd5dabaee363d96b826613cb8d3088",
+  "packageDigest": "572f7728dccd115ab3e185a051b28a4c8f784f634ed35040e3d1eff955b3ebbe",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -57784,6 +60073,37 @@
       "providerActivatedAt": "2026-08-07T01:06:30.552569Z",
       "recordHash": "9d29a5458b289d5a34fc68f0fdcd36b17cc12b7f984ccde02a5868f39abff546",
       "releaseId": "release-pb-20260807t001614z-45809f007bd1-7efc820bd427",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://cdfcb2c2.bohonews.pages.dev/",
+      "activationEvidenceHash": "92311e4db6c5b025874bd8dba3b2967dc99ca666b42a089945cdaab7525700c9",
+      "canonicalFirstPublicAt": "2026-08-07T03:03:51.577Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/als-blood-protein-panel-symptom-onset-prediction-2026/",
+        "https://bohonews.com/articles/brazil-growth-inflation-imf-outlook-2026/",
+        "https://bohonews.com/articles/federal-prison-population-mandatory-minimums-2025/",
+        "https://bohonews.com/articles/paranthropus-boisei-footprints-group-lake-turkana/",
+        "https://bohonews.com/articles/state-administered-federal-programs-fraud-controls-gao-2026/",
+        "https://bohonews.com/articles/world-athletics-u20-5000m-race-walk-records/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-als-blood-protein-panel-symptom-onset-prediction-2026",
+        "article-brazil-growth-inflation-imf-outlook-2026",
+        "article-federal-prison-population-mandatory-minimums-2025",
+        "article-paranthropus-boisei-footprints-group-lake-turkana",
+        "article-state-administered-federal-programs-fraud-controls-gao-2026",
+        "article-world-athletics-u20-5000m-race-walk-records"
+      ],
+      "previousVerifiedDeploymentReference": "225c9b584b203702f1692609befcc1f371018f84fc04fea1e3058ba4d47d6f43",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-07T03:02:28.338234Z",
+      "recordHash": "07cd3f983bd99e475f5365375a48bc23baa4865ee6aa448f2fc8f14de18af0a1",
+      "releaseId": "release-pb-20260807t013555z-4e998d9c3bcd-4fd56603b7c7",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }
