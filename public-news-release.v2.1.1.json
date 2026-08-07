@@ -1,9 +1,9 @@
 {
-  "articleCount": 171,
+  "articleCount": 177,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-07T14:17:24Z",
-  "mediaCount": 499,
-  "packageDigest": "fa9d6a5ea5aee752f477ae2e804986ed0c697c66200942dec579ceea44c0a99c",
+  "generatedAt": "2026-08-07T16:56:39Z",
+  "mediaCount": 517,
+  "packageDigest": "fb491ce1f090888c7f00034227355ee3f5b5f23dde2c496e71aa97b181b62fba",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -1184,6 +1184,37 @@
       "releaseId": "release-pb-20260807t131935z-1b08cb6248f0-147204a7964a",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://cff1bf56.bohonews.pages.dev/",
+      "activationEvidenceHash": "d57d498f35fb75625a6b56b60f1301f43482bf9ee80a2df8558493afedfe43bd",
+      "canonicalFirstPublicAt": "2026-08-07T16:55:00.648Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/east-asia-pacific-maritime-jobs-value-world-bank-2026/",
+        "https://bohonews.com/articles/gao-state-international-commitments-late-reporting-2026/",
+        "https://bohonews.com/articles/nasa-navcube3-mini-altus1-lunar-relay-2026/",
+        "https://bohonews.com/articles/nasa-prefire-two-years-polar-heat-data-2026/",
+        "https://bohonews.com/articles/nasa-tempo-lab-air-quality-educators-2026/",
+        "https://bohonews.com/articles/queen-sweat-bee-pheromones-daughters-stay-study-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-east-asia-pacific-maritime-jobs-value-world-bank-2026",
+        "article-gao-state-international-commitments-late-reporting-2026",
+        "article-nasa-navcube3-mini-altus1-lunar-relay-2026",
+        "article-nasa-prefire-two-years-polar-heat-data-2026",
+        "article-nasa-tempo-lab-air-quality-educators-2026",
+        "article-queen-sweat-bee-pheromones-daughters-stay-study-2026"
+      ],
+      "previousVerifiedDeploymentReference": "a2d25c55ffa45ae7a8626f7bd2da2cb7268403cb28fb32d400e274082dc767e9",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-07T16:53:31.325992Z",
+      "recordHash": "1ef3d4c04a16f73c1b4c78fb415ccdbd3a0229b38bf4e430abe8843a7f027c40",
+      "releaseId": "release-pb-20260807t145526z-e3407ebe7df2-aa2e7543dd39",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -1206,6 +1237,7 @@
     "/articles/doj-task-force-officers-training-misconduct-gao/",
     "/articles/dol-opinion-letters-remote-work-commute-2026/",
     "/articles/dot-ai-transportation-infrastructure-initiative/",
+    "/articles/east-asia-pacific-maritime-jobs-value-world-bank-2026/",
     "/articles/education-department-10-open-gao-priority-recommendations-2026/",
     "/articles/education-department-college-earnings-test-student-loans-2026/",
     "/articles/eia-natural-gas-power-demand-record-2027/",
@@ -1253,6 +1285,7 @@
     "/articles/gao-public-debt-123-percent-gdp-2036/",
     "/articles/gao-revoked-twic-port-access-risk-2026/",
     "/articles/gao-state-administered-program-fraud-risks/",
+    "/articles/gao-state-international-commitments-late-reporting-2026/",
     "/articles/gao-usaspending-data-gaps-7-trillion-outlays-2025/",
     "/articles/gao-weapon-programs-average-delivery-over-12-years-2026/",
     "/articles/global-hunger-falls-645-million-2025-un-report/",
@@ -1285,8 +1318,11 @@
     "/articles/nasa-flight-dynamics-wind-tunnel-opens-2026/",
     "/articles/nasa-global-sea-level-102-4-mm-july-2026/",
     "/articles/nasa-lunar-cargo-landers-ground-tests-2026/",
+    "/articles/nasa-navcube3-mini-altus1-lunar-relay-2026/",
+    "/articles/nasa-prefire-two-years-polar-heat-data-2026/",
     "/articles/nasa-punch-solar-storm-arrival-test-30-minutes/",
     "/articles/nasa-roman-space-telescope-launch-august-30-2026/",
+    "/articles/nasa-tempo-lab-air-quality-educators-2026/",
     "/articles/nasa-three-august-2026-spacewalks-iss/",
     "/articles/national-air-space-museum-five-galleries-2026/",
     "/articles/national-archives-pele-soccer-ball-exhibit-2026/",
@@ -1316,6 +1352,7 @@
     "/articles/papua-new-guinea-growth-jobs-gap-2026/",
     "/articles/paranthropus-boisei-footprints-group-lake-turkana/",
     "/articles/pce-prices-consumer-spending-june-2026/",
+    "/articles/queen-sweat-bee-pheromones-daughters-stay-study-2026/",
     "/articles/romorgniz-12-drawer-dresser-recall-10040-2026/",
     "/articles/senate-supreme-court-18-year-term-limits-bill/",
     "/articles/shell-egg-recall-19-million-eggs-carton-codes-2026/",
