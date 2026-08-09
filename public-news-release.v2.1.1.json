@@ -1,9 +1,9 @@
 {
-  "articleCount": 177,
+  "articleCount": 183,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-07T16:56:39Z",
-  "mediaCount": 517,
-  "packageDigest": "fb491ce1f090888c7f00034227355ee3f5b5f23dde2c496e71aa97b181b62fba",
+  "generatedAt": "2026-08-09T15:44:00Z",
+  "mediaCount": 535,
+  "packageDigest": "e0e30bd995fce65b4ee0369e97914ac38dcb4a69e97129b3c2edc363e36d26fd",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -1215,6 +1215,37 @@
       "releaseId": "release-pb-20260807t145526z-e3407ebe7df2-aa2e7543dd39",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://52d327f0.bohonews.pages.dev/",
+      "activationEvidenceHash": "28142770c45c5a14f5ed45db0328e6247f9bebdcf9bf966cacc667124cae79b5",
+      "canonicalFirstPublicAt": "2026-08-09T15:42:58.072Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/elbe-estuary-tides-shipping-landsat-2026/",
+        "https://bohonews.com/articles/emmanuel-eseme-983-commonwealth-games-record-glasgow/",
+        "https://bohonews.com/articles/federal-sentencing-cases-immigration-share-fy2026/",
+        "https://bohonews.com/articles/hirshhorn-sculpture-garden-reopens-october-2026/",
+        "https://bohonews.com/articles/nasa-ixpe-magnetar-vacuum-birefringence-2026/",
+        "https://bohonews.com/articles/us-jobs-report-july-2026-payrolls-unemployment/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-elbe-estuary-tides-shipping-landsat-2026",
+        "article-emmanuel-eseme-983-commonwealth-games-record-glasgow",
+        "article-federal-sentencing-cases-immigration-share-fy2026",
+        "article-hirshhorn-sculpture-garden-reopens-october-2026",
+        "article-nasa-ixpe-magnetar-vacuum-birefringence-2026",
+        "article-us-jobs-report-july-2026-payrolls-unemployment"
+      ],
+      "previousVerifiedDeploymentReference": "d8e4a9f3a75f337835a60734dd539ba6c17ea810493ae582e0f76c44dfce1508",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-09T15:42:04.313511Z",
+      "recordHash": "024be87a1334155d747878051b48d87f4ca1e1b3eea6fb1edc6e17d8cdb19eee",
+      "releaseId": "release-pb-20260807t174521z-292f2bf3cdcd-c89a32dd3e4d",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -1241,6 +1272,8 @@
     "/articles/education-department-10-open-gao-priority-recommendations-2026/",
     "/articles/education-department-college-earnings-test-student-loans-2026/",
     "/articles/eia-natural-gas-power-demand-record-2027/",
+    "/articles/elbe-estuary-tides-shipping-landsat-2026/",
+    "/articles/emmanuel-eseme-983-commonwealth-games-record-glasgow/",
     "/articles/employer-compensation-costs-june-2026/",
     "/articles/epa-minor-air-permit-public-comment-proposal-2026/",
     "/articles/epa-six-superfund-cleanups-pacific-southwest-2026/",
@@ -1257,6 +1290,7 @@
     "/articles/federal-law-enforcement-officers-2023-bjs/",
     "/articles/federal-organizational-sentencing-environmental-crimes-fy2025/",
     "/articles/federal-prison-population-mandatory-minimums-2025/",
+    "/articles/federal-sentencing-cases-immigration-share-fy2026/",
     "/articles/federal-zero-point-sentencing-adjustment-fy2025/",
     "/articles/fifa-4-2-billion-world-cup-sale-collapse/",
     "/articles/fifa-world-cup-2026-statistical-leaders/",
@@ -1293,6 +1327,7 @@
     "/articles/greece-men-usa-women-water-polo-world-cup-2026/",
     "/articles/hawaiian-honeycreeper-family-tree-smithsonian-2026/",
     "/articles/hirshhorn-50-for-50-museum-loans-51-institutions/",
+    "/articles/hirshhorn-sculpture-garden-reopens-october-2026/",
     "/articles/hopper-ftc-35-million-hidden-fees-settlement-2026/",
     "/articles/house-iran-war-powers-vote-214-208/",
     "/articles/hr-143-unauthorized-spending-cbo-estimate-2026/",
@@ -1317,6 +1352,7 @@
     "/articles/nasa-chris-williams-241-day-space-station-mission-2026/",
     "/articles/nasa-flight-dynamics-wind-tunnel-opens-2026/",
     "/articles/nasa-global-sea-level-102-4-mm-july-2026/",
+    "/articles/nasa-ixpe-magnetar-vacuum-birefringence-2026/",
     "/articles/nasa-lunar-cargo-landers-ground-tests-2026/",
     "/articles/nasa-navcube3-mini-altus1-lunar-relay-2026/",
     "/articles/nasa-prefire-two-years-polar-heat-data-2026/",
@@ -1374,6 +1410,7 @@
     "/articles/us-gdp-growth-slows-q2-2026/",
     "/articles/us-gdp-growth-slows-second-quarter-2026-advance-estimate/",
     "/articles/us-goods-trade-deficit-june-2026-advance/",
+    "/articles/us-jobs-report-july-2026-payrolls-unemployment/",
     "/articles/us-probation-parole-population-2024-bjs/",
     "/articles/usgs-federal-coal-resources-reserves-2026/",
     "/articles/usgs-low-level-geophysical-flights-eastern-kansas/",

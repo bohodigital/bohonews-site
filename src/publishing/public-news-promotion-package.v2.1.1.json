@@ -3963,6 +3963,315 @@
       "updatedAt": "2026-08-06T05:19:55.069Z"
     },
     {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Two Landsat 9 views of the Elbe River mouth show how a 2.9-meter mean tide can redraw a heavily traveled coast, exposing broad mudflats at low water and submerging all but islands and sandbars at high water.\n\nThe European river runs more than 1,000 kilometers before meeting the North Sea. Near Cuxhaven, its low-lying mouth is a shifting intersection of coastal habitat, river sediment and navigation infrastructure.\n\nNASA compared an Aug. 15, 2025 low-tide image with a May 11, 2025 high-tide scene. The images were taken on different dates, so they illustrate two tidal states rather than a same-day controlled sequence.\n\nThe estuary’s tide is asymmetrical: the flood period is shorter than the ebb. The faster incoming current typically carries more sediment into the 140-kilometer estuary than the outgoing current removes.\n\nThat sediment helps form the channels, sandbars and mudflats visible from orbit. The area lies within the Wadden Sea, the world’s largest continuous intertidal sand-and-mud-flat system and a stop for more than 10 million migratory birds each year.\n\nA maintained channel threads through that habitat to Cuxhaven and Hamburg. Dredging removes accumulated material, and some vessels require a sufficiently high tide to pass safely.\n\nThe same river mouth also opens toward the Kiel Canal, linking the North Sea and Baltic Sea. The overlap of natural tidal processes with container shipping makes water level and sediment more than scenery.\n\nNormal tides are distinct from storm surge. Cuxhaven’s record water level reached 5.1 meters above Europe’s sea-level reference in 1976, when wind and tide timing trapped water upstream. Local sea level has trended upward by 2.12 millimeters a year.\n\nNASA says newer NISAR and SWOT observations can add detailed water-level and inundation measurements. Landsat’s contribution here is visual context: the coast is not a fixed line but a working landscape that changes between every ebb and flood.",
+      "bodyBlocks": [
+        {
+          "text": "Two Landsat 9 views of the Elbe River mouth show how a 2.9-meter mean tide can redraw a heavily traveled coast, exposing broad mudflats at low water and submerging all but islands and sandbars at high water.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The European river runs more than 1,000 kilometers before meeting the North Sea. Near Cuxhaven, its low-lying mouth is a shifting intersection of coastal habitat, river sediment and navigation infrastructure.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NASA compared an Aug. 15, 2025 low-tide image with a May 11, 2025 high-tide scene. The images were taken on different dates, so they illustrate two tidal states rather than a same-day controlled sequence.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic summarizes the tidal range, estuary length and migratory-bird traffic.",
+          "caption": "The Elbe’s 2.9-meter mean tide exposes extensive channels and mudflats across a long estuary.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-elbe-tide-estuary-scale",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+          "src": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-tide-estuary-scale/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The estuary’s tide is asymmetrical: the flood period is shorter than the ebb. The faster incoming current typically carries more sediment into the 140-kilometer estuary than the outgoing current removes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That sediment helps form the channels, sandbars and mudflats visible from orbit. The area lies within the Wadden Sea, the world’s largest continuous intertidal sand-and-mud-flat system and a stop for more than 10 million migratory birds each year.",
+          "type": "paragraph"
+        },
+        {
+          "text": "A maintained channel threads through that habitat to Cuxhaven and Hamburg. Dredging removes accumulated material, and some vessels require a sufficiently high tide to pass safely.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic combines port rank, record water level and local sea-level trend.",
+          "caption": "The same estuary supports major shipping and faces storm-surge and sea-level pressures.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-elbe-navigation-coastal-risk",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/",
+          "src": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-navigation-coastal-risk/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The same river mouth also opens toward the Kiel Canal, linking the North Sea and Baltic Sea. The overlap of natural tidal processes with container shipping makes water level and sediment more than scenery.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Normal tides are distinct from storm surge. Cuxhaven’s record water level reached 5.1 meters above Europe’s sea-level reference in 1976, when wind and tide timing trapped water upstream. Local sea level has trended upward by 2.12 millimeters a year.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NASA says newer NISAR and SWOT observations can add detailed water-level and inundation measurements. Landsat’s contribution here is visual context: the coast is not a fixed line but a working landscape that changes between every ebb and flood.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/elbe-estuary-tides-shipping-landsat-2026/",
+      "citations": [
+        {
+          "id": "source-nasa-elbe-tides-20260806",
+          "publishedAt": "2026-08-06T12:00:00Z",
+          "publisher": "NASA Earth Observatory",
+          "title": "How the Tide Turns at the Mouth of the Elbe",
+          "url": "https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The Elbe flows more than 1,000 kilometers before reaching the North Sea.",
+        "The mean tidal range at Cuxhaven is 2.9 meters.",
+        "The flood period is shorter than the ebb, creating faster incoming currents that typically carry more sediment upstream.",
+        "The estuary is about 140 kilometers long and is part of the Wadden Sea intertidal system.",
+        "More than 10 million migratory birds pass through the Wadden Sea each year.",
+        "Cuxhaven sea level has trended upward by 2.12 millimeters per year."
+      ],
+      "corrections": [],
+      "dek": "Paired satellite views reveal mudflats, sandbars and channels where tidal asymmetry moves sediment toward Hamburg and North Sea ports.",
+      "desk": "coastal-observation",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NASA Earth Observatory",
+        "U.S. Geological Survey",
+        "Landsat 9"
+      ],
+      "eventId": "event-elbe-estuary-tides-shipping-landsat-2026",
+      "headline": "Landsat Shows Elbe Estuary’s 2.9-Meter Tide Reshaping a Shipping Route",
+      "id": "article-elbe-estuary-tides-shipping-landsat-2026",
+      "leadImage": {
+        "alt": "A container ship sits alongside cranes at a German port.",
+        "caption": "A Military Sealift Command cargo ship is unloaded at Nordenham, Germany, in 2023. Landsat imagery shows how tides and sediment shape nearby North Sea shipping routes.",
+        "credit": "Christina Johnson/U.S. Navy",
+        "height": 900,
+        "rightsId": "media-elbe-germany-cargo-port-2023",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-germany-cargo-port-2023/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Elbe Estuary",
+        "Cuxhaven",
+        "Hamburg",
+        "Germany",
+        "North Sea"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-09T15:42:58.072Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260807t174521z-292f2bf3cdcd-c89a32dd3e4d",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Landsat 9 images show how the Elbe estuary’s 2.9-meter tide reshapes mudflats, sediment and the shipping route to Hamburg.",
+        "index": true,
+        "title": "Elbe estuary tides and shipping route in Landsat images"
+      },
+      "section": "weather-climate",
+      "slug": "elbe-estuary-tides-shipping-landsat-2026",
+      "social": {
+        "description": "Paired satellite views reveal mudflats, sandbars and channels where tidal asymmetry moves sediment toward Hamburg and North Sea ports.",
+        "image": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-germany-cargo-port-2023/open-graph.webp",
+        "title": "Two Landsat views expose the Elbe’s moving coastline"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Elbe River",
+        "Tidal flats",
+        "Landsat 9",
+        "Wadden Sea",
+        "Coastal flooding",
+        "Maritime navigation"
+      ],
+      "uncertainty": [
+        "The paired Landsat scenes were captured on different dates and illustrate normal tidal states rather than a controlled same-day experiment.",
+        "The reported sea-level trend does not by itself predict the height or timing of a future storm surge."
+      ],
+      "updatedAt": "2026-08-09T15:42:58.072Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Cameroon’s Emmanuel Eseme ran 9.83 seconds in pouring rain to win the Commonwealth Games men’s 100 meters in Glasgow, breaking both the Games record and his national record.\n\nThe 1.3-meter-per-second following wind was inside the legal limit for record purposes. Eseme’s mark placed him third on the African all-time list and third among the world’s fastest sprinters in the 2026 season at the time of the race.\n\nAustralia’s Lachlan Kennedy finished second in 9.85, an Oceanian record. Nigeria’s Kayinsola Ajayi took bronze in 9.90, and South Africa’s Gift Leotlela ran 9.91 as all four finalists broke 10 seconds.\n\nEseme had already lowered Cameroon’s national record to 9.89 in the semifinal. The final therefore represented a second record improvement in the same competition.\n\nThe women’s 100 meters produced another continental mark. New Zealand’s Zoe Hobbs won in 10.93 with a legal 1.0 m/s following wind, ahead of Amy Hunt at 10.98 and Torrie Lewis at 10.99.\n\nCanada swept the hammer titles with Games records. Camryn Rogers threw 74.91 meters on her final attempt, improving the mark she had set at the previous Commonwealth Games.\n\nEthan Katzberg won the men’s hammer at 80.97 meters, surpassing the 80.26 Games record from 2018. All four of his valid throws traveled beyond 80 meters.\n\nRain paused the women’s high jump but did not prevent Eleanor Patterson from matching the Games record at 1.96 meters. The results made the opening athletics program a dense cluster of record performances rather than a single isolated breakthrough.\n\nFor Eseme, the headline measure is precise: 9.83, with a legal wind, in a championship final. Kennedy’s 9.85 and Hobbs’s 10.93 extended the record pattern across Australia, New Zealand and the wider Oceania region. The performance joins continental and Games records from the same wet Glasgow track, with official timing and wind readings establishing the record status.",
+      "bodyBlocks": [
+        {
+          "text": "Cameroon’s Emmanuel Eseme ran 9.83 seconds in pouring rain to win the Commonwealth Games men’s 100 meters in Glasgow, breaking both the Games record and his national record.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The 1.3-meter-per-second following wind was inside the legal limit for record purposes. Eseme’s mark placed him third on the African all-time list and third among the world’s fastest sprinters in the 2026 season at the time of the race.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Australia’s Lachlan Kennedy finished second in 9.85, an Oceanian record. Nigeria’s Kayinsola Ajayi took bronze in 9.90, and South Africa’s Gift Leotlela ran 9.91 as all four finalists broke 10 seconds.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists the three record performances in the men’s and women’s 100-meter finals.",
+          "caption": "Glasgow produced Games and continental records across both 100-meter finals.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-glasgow-sprint-records",
+          "sourceUrl": "https://worldathletics.org/news/report/commonwealth-games-glasgow-eseme-rogers-katzberg",
+          "src": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-sprint-records/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Eseme had already lowered Cameroon’s national record to 9.89 in the semifinal. The final therefore represented a second record improvement in the same competition.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The women’s 100 meters produced another continental mark. New Zealand’s Zoe Hobbs won in 10.93 with a legal 1.0 m/s following wind, ahead of Amy Hunt at 10.98 and Torrie Lewis at 10.99.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Canada swept the hammer titles with Games records. Camryn Rogers threw 74.91 meters on her final attempt, improving the mark she had set at the previous Commonwealth Games.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic compares the women’s and men’s Commonwealth Games hammer records.",
+          "caption": "Camryn Rogers and Ethan Katzberg completed a Canadian hammer double with Games records.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-glasgow-hammer-records",
+          "sourceUrl": "https://worldathletics.org/news/report/commonwealth-games-glasgow-eseme-rogers-katzberg",
+          "src": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-hammer-records/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Ethan Katzberg won the men’s hammer at 80.97 meters, surpassing the 80.26 Games record from 2018. All four of his valid throws traveled beyond 80 meters.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Rain paused the women’s high jump but did not prevent Eleanor Patterson from matching the Games record at 1.96 meters. The results made the opening athletics program a dense cluster of record performances rather than a single isolated breakthrough.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For Eseme, the headline measure is precise: 9.83, with a legal wind, in a championship final. Kennedy’s 9.85 and Hobbs’s 10.93 extended the record pattern across Australia, New Zealand and the wider Oceania region. The performance joins continental and Games records from the same wet Glasgow track, with official timing and wind readings establishing the record status.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/emmanuel-eseme-983-commonwealth-games-record-glasgow/",
+      "citations": [
+        {
+          "id": "source-world-athletics-glasgow-records-20260728",
+          "publishedAt": "2026-07-28T12:00:00Z",
+          "publisher": "World Athletics",
+          "title": "Eseme runs record-breaking 9.83 in the rain to win 100m gold in Glasgow",
+          "url": "https://worldathletics.org/news/report/commonwealth-games-glasgow-eseme-rogers-katzberg"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Emmanuel Eseme won the Commonwealth Games men’s 100m in 9.83 seconds with a 1.3 m/s following wind.",
+        "Eseme’s time was a Commonwealth Games and Cameroon national record.",
+        "Lachlan Kennedy ran an Oceanian record 9.85 and Kayinsola Ajayi took bronze in 9.90.",
+        "Zoe Hobbs won the women’s 100m in an Oceanian record 10.93.",
+        "Camryn Rogers set a women’s hammer Games record of 74.91 meters.",
+        "Ethan Katzberg set a men’s hammer Games record of 80.97 meters and all four valid throws exceeded 80 meters."
+      ],
+      "corrections": [],
+      "dek": "The rain-soaked meet also produced Oceanian sprint records and a Canadian hammer double from Camryn Rogers and Ethan Katzberg.",
+      "desk": "track-and-field",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Athletics",
+        "Emmanuel Eseme",
+        "Lachlan Kennedy",
+        "Kayinsola Ajayi",
+        "Zoe Hobbs",
+        "Camryn Rogers",
+        "Ethan Katzberg"
+      ],
+      "eventId": "event-emmanuel-eseme-983-commonwealth-games-record-glasgow",
+      "headline": "Emmanuel Eseme Runs 9.83 Commonwealth Games Record in Glasgow",
+      "id": "article-emmanuel-eseme-983-commonwealth-games-record-glasgow",
+      "leadImage": {
+        "alt": "A competitive sprinter accelerates around a track curve during training.",
+        "caption": "Army athlete Joseph Puntoriero trains on a track in Colorado in 2026. At the Commonwealth Games in Glasgow, Emmanuel Eseme ran a Games-record 9.83 in heavy rain.",
+        "credit": "Shelby Jones/U.S. Army",
+        "height": 900,
+        "rightsId": "media-glasgow-context-sprinter-training-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-context-sprinter-training-2026/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Glasgow",
+        "Scotland",
+        "Cameroon",
+        "Canada"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-09T15:42:58.072Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260807t174521z-292f2bf3cdcd-c89a32dd3e4d",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Emmanuel Eseme won the Glasgow Commonwealth Games 100m in a record 9.83 as Camryn Rogers and Ethan Katzberg set hammer records.",
+        "index": true,
+        "title": "Emmanuel Eseme 9.83 Commonwealth Games record in Glasgow"
+      },
+      "section": "sports",
+      "slug": "emmanuel-eseme-983-commonwealth-games-record-glasgow",
+      "social": {
+        "description": "The rain-soaked meet also produced Oceanian sprint records and a Canadian hammer double from Camryn Rogers and Ethan Katzberg.",
+        "image": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-context-sprinter-training-2026/open-graph.webp",
+        "title": "Eseme’s 9.83 leads a record rush in rainy Glasgow"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Commonwealth Games",
+        "Men’s 100 meters",
+        "Emmanuel Eseme",
+        "Track and field records",
+        "Hammer throw",
+        "Glasgow 2026"
+      ],
+      "uncertainty": [
+        "The record marks describe performances at this competition and do not determine future championship results.",
+        "Wind readings are material to sprint record status; Eseme’s final had a legal 1.3 m/s following wind."
+      ],
+      "updatedAt": "2026-08-09T15:42:58.072Z"
+    },
+    {
       "articleType": "data-report",
       "authors": [
         "Boho News Data Desk"
@@ -6441,6 +6750,154 @@
         "The data describe the population at one point in time and should not be treated as admission or release flows."
       ],
       "updatedAt": "2026-08-07T03:03:51.577Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Immigration cases made up 40.9% of the 32,586 federal sentencing cases reported to the U.S. Sentencing Commission through March 31, according to its second-quarter fiscal 2026 update.\n\nThe Commission counted 13,314 immigration cases from Oct. 1, 2025 through the end of March. Drug cases were the next largest category at 21.8%, including 7,071 drug-trafficking cases.\n\nFirearms cases accounted for 3,935 sentences, or 12.1%. Fraud, theft and embezzlement represented 2,375 cases, or 7.3%, while money laundering accounted for 623 cases, or 1.9%.\n\nThe geography was concentrated. The Fifth Circuit accounted for 11,119 cases, or 34.1% of the national total. The Ninth Circuit represented 16.1% and the Tenth Circuit 9.3%.\n\nWithin the Fifth Circuit, the Southern and Western Districts of Texas alone accounted for 13.8% and 14.7% of all cases reported nationwide. Arizona was 5.8%, New Mexico 5.3% and the Southern District of California 3.9%.\n\nThose distributions help explain the immigration share: federal districts along the southwest border carry a large number of immigration prosecutions and are grouped inside the circuits with the heaviest preliminary totals.\n\nThe report also changes how some guideline outcomes are presented after Amendment 836 eliminated departures and created an adjustment for participation in an Early Disposition Program. The Commission now uses four broad sentence-position categories, so direct comparisons require care.\n\nThe numbers are preliminary. Courts have up to 30 days after judgment to submit documents, and the Commission excludes cases until entry and quality review are complete. Later quarterly releases can revise earlier totals.\n\nThe dataset therefore measures sentences documented and reviewed by the Commission, not every arrest, charge or suspected offense. It also should not be used to infer a crime rate from the category shares or to describe unresolved cases. Its strongest use is as a current snapshot of the federal sentencing system’s composition, geography and workload.",
+      "bodyBlocks": [
+        {
+          "text": "Immigration cases made up 40.9% of the 32,586 federal sentencing cases reported to the U.S. Sentencing Commission through March 31, according to its second-quarter fiscal 2026 update.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Commission counted 13,314 immigration cases from Oct. 1, 2025 through the end of March. Drug cases were the next largest category at 21.8%, including 7,071 drug-trafficking cases.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Firearms cases accounted for 3,935 sentences, or 12.1%. Fraud, theft and embezzlement represented 2,375 cases, or 7.3%, while money laundering accounted for 623 cases, or 1.9%.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows total cases and the leading immigration and drug shares.",
+          "caption": "Immigration and drug cases together accounted for nearly two-thirds of preliminary federal sentencing cases.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-federal-sentencing-case-types",
+          "sourceUrl": "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf",
+          "src": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-case-types/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The geography was concentrated. The Fifth Circuit accounted for 11,119 cases, or 34.1% of the national total. The Ninth Circuit represented 16.1% and the Tenth Circuit 9.3%.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Within the Fifth Circuit, the Southern and Western Districts of Texas alone accounted for 13.8% and 14.7% of all cases reported nationwide. Arizona was 5.8%, New Mexico 5.3% and the Southern District of California 3.9%.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Those distributions help explain the immigration share: federal districts along the southwest border carry a large number of immigration prosecutions and are grouped inside the circuits with the heaviest preliminary totals.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows the Fifth, Ninth and Tenth Circuits’ shares of cases.",
+          "caption": "The preliminary caseload was concentrated in circuits containing much of the southwest border.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-federal-sentencing-circuit-shares",
+          "sourceUrl": "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf",
+          "src": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-circuit-shares/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The report also changes how some guideline outcomes are presented after Amendment 836 eliminated departures and created an adjustment for participation in an Early Disposition Program. The Commission now uses four broad sentence-position categories, so direct comparisons require care.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The numbers are preliminary. Courts have up to 30 days after judgment to submit documents, and the Commission excludes cases until entry and quality review are complete. Later quarterly releases can revise earlier totals.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The dataset therefore measures sentences documented and reviewed by the Commission, not every arrest, charge or suspected offense. It also should not be used to infer a crime rate from the category shares or to describe unresolved cases. Its strongest use is as a current snapshot of the federal sentencing system’s composition, geography and workload.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-sentencing-cases-immigration-share-fy2026/",
+      "citations": [
+        {
+          "id": "source-ussc-q2-fy26-20260701",
+          "publishedAt": "2026-07-01T12:00:00Z",
+          "publisher": "U.S. Sentencing Commission",
+          "title": "Preliminary FY26 Second Quarterly Federal Sentencing Data Report",
+          "url": "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The Commission reported 32,586 federal sentencing cases from Oct. 1, 2025 through March 31, 2026.",
+        "Immigration cases accounted for 13,314 cases, or 40.9% of the total.",
+        "Drug cases accounted for 21.8%, including 7,071 drug-trafficking cases.",
+        "Firearms cases accounted for 3,935 cases, or 12.1%.",
+        "The Fifth Circuit accounted for 34.1% of cases, the Ninth for 16.1% and the Tenth for 9.3%.",
+        "The report is preliminary and subject to change as courts submit and the Commission reviews additional cases."
+      ],
+      "corrections": [],
+      "dek": "The Sentencing Commission’s preliminary report counted 32,586 cases, with the Fifth Circuit alone accounting for about one-third of the total.",
+      "desk": "federal-sentencing-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Sentencing Commission",
+        "U.S. Courts"
+      ],
+      "eventId": "event-federal-sentencing-cases-immigration-share-fy2026",
+      "headline": "Immigration Cases Were 40.9% of Federal Sentences Through March",
+      "id": "article-federal-sentencing-cases-immigration-share-fy2026",
+      "leadImage": {
+        "alt": "An empty trial courtroom with a judge’s bench, witness stand and counsel tables.",
+        "caption": "A U.S. military trial courtroom in Germany in 2024. The Sentencing Commission’s new report covers 32,586 federal cases through March 31.",
+        "credit": "Albert Morel/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-federal-sentencing-courtroom-2024",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-courtroom-2024/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-09T15:42:58.072Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260807t174521z-292f2bf3cdcd-c89a32dd3e4d",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Immigration cases made up 40.9% of 32,586 preliminary federal sentences through March 2026, the Sentencing Commission reports.",
+        "index": true,
+        "title": "Federal sentencing cases FY2026 immigration share"
+      },
+      "section": "crime-justice",
+      "slug": "federal-sentencing-cases-immigration-share-fy2026",
+      "social": {
+        "description": "The Sentencing Commission’s preliminary report counted 32,586 cases, with the Fifth Circuit alone accounting for about one-third of the total.",
+        "image": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-courtroom-2024/open-graph.webp",
+        "title": "Immigration cases dominate preliminary federal sentencing data"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal sentencing",
+        "Immigration cases",
+        "U.S. Sentencing Commission",
+        "Drug trafficking",
+        "Firearms cases",
+        "Federal courts"
+      ],
+      "uncertainty": [
+        "The data are preliminary and may change as additional court documents are submitted, entered and reviewed.",
+        "Case counts reflect sentencing documents received by the Commission and are not a measure of all arrests, charges or criminal activity."
+      ],
+      "updatedAt": "2026-08-09T15:42:58.072Z"
     },
     {
       "articleType": "news-report",
@@ -13060,6 +13517,155 @@
       "authors": [
         "Boho News Staff"
       ],
+      "body": "The Hirshhorn Museum’s revitalized Sculpture Garden is scheduled to reopen Oct. 31 with 50% more artworks than its previous display, the Smithsonian announced Thursday.\n\nThe installation will include 24 major works from Joseph H. Hirshhorn’s foundational gift, bringing a larger share of the collection into the outdoor National Mall setting.\n\nThe percentage refers to the number of artworks installed, not a 50% increase in the garden’s physical footprint. That distinction matters because exhibition density and visitor space are different measures.\n\nOutdoor sculpture gardens ask museums to solve problems that enclosed galleries can control more easily: weather, sunlight, drainage, circulation, landscaping and views from multiple directions all affect how a work is encountered.\n\nThe reopening also reconnects the museum’s circular building with its open-air program. For visitors, the garden functions as both an exhibition and a public landscape rather than a conventional sequence of gallery rooms. That dual role makes paths, seating and shade part of the visitor experience.\n\nHighlighting 24 works from the founding gift places the museum’s origin story inside the redesign. The Smithsonian’s release frames those pieces as a substantial component of the new installation, not the entire display.\n\nThe Oct. 31 date is still a schedule, not a completed opening. Construction, installation and final readiness must be finished before the public can judge traffic flow, accessibility, sightlines and the balance between art and landscape.\n\nThe announcement gives travelers and local visitors a concrete date while leaving a more useful evaluation for opening week: whether the expanded display feels richer without becoming crowded.\n\nFor now, the measurable change is straightforward. The Hirshhorn plans to return a major outdoor space to the National Mall with half again as many artworks and two dozen objects tied directly to its founding collection. The reopening also adds a free outdoor art destination to a museum district where most experiences happen inside buildings.",
+      "bodyBlocks": [
+        {
+          "text": "The Hirshhorn Museum’s revitalized Sculpture Garden is scheduled to reopen Oct. 31 with 50% more artworks than its previous display, the Smithsonian announced Thursday.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The installation will include 24 major works from Joseph H. Hirshhorn’s foundational gift, bringing a larger share of the collection into the outdoor National Mall setting.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The percentage refers to the number of artworks installed, not a 50% increase in the garden’s physical footprint. That distinction matters because exhibition density and visitor space are different measures.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows the planned reopening date, 50% artwork increase and 24 works from the founding gift.",
+          "caption": "The garden’s redesigned display will include 50% more artworks and 24 works from Joseph H. Hirshhorn’s foundational gift.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-hirshhorn-reopening-numbers",
+          "sourceUrl": "https://www.si.edu/newsdesk/releases/revitalized-hirshhorn-sculpture-garden-opens-oct-31",
+          "src": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-reopening-numbers/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Outdoor sculpture gardens ask museums to solve problems that enclosed galleries can control more easily: weather, sunlight, drainage, circulation, landscaping and views from multiple directions all affect how a work is encountered.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The reopening also reconnects the museum’s circular building with its open-air program. For visitors, the garden functions as both an exhibition and a public landscape rather than a conventional sequence of gallery rooms. That dual role makes paths, seating and shade part of the visitor experience.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Highlighting 24 works from the founding gift places the museum’s origin story inside the redesign. The Smithsonian’s release frames those pieces as a substantial component of the new installation, not the entire display.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic identifies the museum’s 1974 opening, founding collection and National Mall setting.",
+          "caption": "The reopening renews an outdoor extension of the Hirshhorn’s modern and contemporary art program.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-hirshhorn-garden-context",
+          "sourceUrl": "https://www.si.edu/newsdesk/releases/revitalized-hirshhorn-sculpture-garden-opens-oct-31",
+          "src": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-garden-context/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The Oct. 31 date is still a schedule, not a completed opening. Construction, installation and final readiness must be finished before the public can judge traffic flow, accessibility, sightlines and the balance between art and landscape.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The announcement gives travelers and local visitors a concrete date while leaving a more useful evaluation for opening week: whether the expanded display feels richer without becoming crowded.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For now, the measurable change is straightforward. The Hirshhorn plans to return a major outdoor space to the National Mall with half again as many artworks and two dozen objects tied directly to its founding collection. The reopening also adds a free outdoor art destination to a museum district where most experiences happen inside buildings.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/hirshhorn-sculpture-garden-reopens-october-2026/",
+      "citations": [
+        {
+          "id": "source-smithsonian-hirshhorn-garden-20260806",
+          "publishedAt": "2026-08-06T12:00:00Z",
+          "publisher": "Smithsonian Institution",
+          "title": "Revitalized Hirshhorn Sculpture Garden Opens Oct. 31",
+          "url": "https://www.si.edu/newsdesk/releases/revitalized-hirshhorn-sculpture-garden-opens-oct-31"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The revitalized Hirshhorn Sculpture Garden is scheduled to reopen Oct. 31, 2026.",
+        "The redesign installs 50% more artworks than the prior garden display.",
+        "Twenty-four major works come from Joseph H. Hirshhorn’s foundational gift.",
+        "The Smithsonian announced the reopening on Aug. 6.",
+        "The garden is the outdoor exhibition space of the Hirshhorn Museum on the National Mall in Washington."
+      ],
+      "corrections": [],
+      "dek": "The Smithsonian says the redesigned National Mall garden will display 24 major works from Joseph H. Hirshhorn’s foundational gift.",
+      "desk": "museums-and-exhibitions",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Hirshhorn Museum and Sculpture Garden",
+        "Smithsonian Institution",
+        "Joseph H. Hirshhorn"
+      ],
+      "eventId": "event-hirshhorn-sculpture-garden-reopens-october-2026",
+      "headline": "Hirshhorn Sculpture Garden Reopens Oct. 31 With 50% More Art",
+      "id": "article-hirshhorn-sculpture-garden-reopens-october-2026",
+      "leadImage": {
+        "alt": "Visitors stand before a long bronze sculpture at an outdoor Washington memorial.",
+        "caption": "Visitors view a large outdoor bronze sculpture in Washington in 2024. The Hirshhorn will reopen its own revitalized sculpture garden Oct. 31 with 50% more artworks.",
+        "credit": "Zachary Wheeler/U.S. Navy",
+        "height": 900,
+        "rightsId": "media-hirshhorn-context-outdoor-sculpture-2024",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-context-outdoor-sculpture-2024/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington, D.C.",
+        "National Mall"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-09T15:42:58.072Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260807t174521z-292f2bf3cdcd-c89a32dd3e4d",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The Hirshhorn Sculpture Garden reopens Oct. 31 with 50% more artworks, including 24 from Joseph H. Hirshhorn’s founding gift.",
+        "index": true,
+        "title": "Hirshhorn Sculpture Garden reopening Oct. 31, 2026"
+      },
+      "section": "culture",
+      "slug": "hirshhorn-sculpture-garden-reopens-october-2026",
+      "social": {
+        "description": "The Smithsonian says the redesigned National Mall garden will display 24 major works from Joseph H. Hirshhorn’s foundational gift.",
+        "image": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-context-outdoor-sculpture-2024/open-graph.webp",
+        "title": "Hirshhorn sets Oct. 31 reopening for expanded sculpture display"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Hirshhorn Museum",
+        "Sculpture garden",
+        "Modern art",
+        "Smithsonian Institution",
+        "National Mall",
+        "Museum reopening"
+      ],
+      "uncertainty": [
+        "The opening is scheduled for Oct. 31 and remains a future event until the garden admits the public.",
+        "The 50% figure describes the number of installed artworks, not a 50% expansion in the garden’s physical area."
+      ],
+      "updatedAt": "2026-08-09T15:42:58.072Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
       "body": "The companies behind the Hopper travel apps agreed to pay $35 million for consumer redress and change how they present fees, under a proposed federal settlement over charges and product claims that regulators say were hidden or misleading.\n\nThe Federal Trade Commission filed its complaint and proposed stipulated order in U.S. District Court in Massachusetts on July 2. The Commission voted 2-0 to authorize the filing. The order still requires a judge’s approval before it has force of law.\n\nThe complaint names Hopper Inc., based in Canada, and Hopper (USA) Inc., based in Massachusetts. It alleges violations of the FTC Act and, for short-term lodging bookings beginning May 12, 2025, the federal rule governing unfair or deceptive fees.\n\nAccording to the complaint, Hopper promoted “no hidden fees” while adding Tip and VIP Support charges that were preselected and not included in the total price users saw near the end of some airfare, rental-car and lodging booking flows.\n\nThe agency says users could miss those add-ons unless they scrolled down, and that Hopper did not obtain express informed consent for the charges in the challenged flows. Those are allegations in a complaint, not findings reached after a contested trial.\n\nThe complaint also challenges claims about VIP Support. Hopper advertised rapid or instant contact with customer support, the agency alleges, even though some buyers could not reach an agent or faced substantial waits.\n\nHopper’s Price Freeze product lets a user pay to hold a travel price for a period before completing the booking. The FTC says Hopper did not clearly disclose key limits, including a cap on the amount of a price increase the service would cover and the possibility that a booking could become unavailable.\n\nThe complaint further alleges that Hopper represented the Price Freeze fee as applying toward the later booking cost when it did not do so in the challenged circumstances. The proposed order bars misrepresentations about fees and product benefits.\n\nThe $35 million judgment is designated for consumer redress. The public filing does not yet identify individual recipients, payment dates or refund amounts; those details depend on administration of the redress process after the order is entered.\n\nBeyond the money, Hopper would have to clearly and conspicuously disclose fees and charges, the total price of goods or services and the final amount of payment. The company also would be restricted from misrepresenting fees and material product terms.\n\nThe proposed resolution does not mean every Hopper transaction contained every practice described in the complaint. The filing identifies particular product flows and time periods, while the order sets forward-looking requirements across covered transactions.\n\nFor travelers, the practical distinction is between an advertised or initially displayed amount and the final amount authorized. The order’s total-price and consent provisions are designed to make that difference visible before payment rather than after a charge appears.\n\nThe case is also a test of the FTC’s fee rule for lodging transactions after its May 2025 effective date. The agency tied that count to short-term lodging bookings, while relying on the broader FTC Act for the other alleged deceptive or unfair conduct.",
       "bodyBlocks": [
         {
@@ -18086,6 +18692,159 @@
         "The latest value includes a stated measurement uncertainty and may be refined as the record is updated."
       ],
       "updatedAt": "2026-08-06T18:16:14.768Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "NASA’s Imaging X-ray Polarimetry Explorer may have captured the clearest evidence yet that empty space changes the way light travels inside an extreme magnetic field, a quantum-electrodynamics effect proposed in 1936.\n\nThe target was magnetar 1E 1547-5408, a city-sized remnant of a massive star with a magnetic field more than a trillion times stronger than the strongest permanent magnets built on Earth.\n\nIXPE observed the object for more than 140 hours between March and April 2025. NASA’s NICER instrument and Australia’s Murriyang radio telescope joined the campaign, producing the first coordinated radio and X-ray polarization measurement of a magnetar.\n\nThe neutron star rotates about once every 2.1 seconds. Its radio and X-ray peaks do not line up, indicating that the main X-ray hot spot is offset from the magnetic axis.\n\nResearchers reported X-ray polarization degrees of about 40% and 80% in two modeled emission cones. The total polarization was nearly three times greater than measurements from similar sources and could not be reproduced by standard surface-emission models alone.\n\nVacuum birefringence offers a possible explanation. In a sufficiently strong magnetic field, quantum theory predicts that the vacuum acts somewhat like a lens or prism, filtering light according to its direction and increasing the observed polarization.\n\nThe team’s simulations reproduced the combined radio and X-ray signatures only when that effect was included. The result was published in Nature and NASA called it strong support for the long-standing prediction.\n\nThe language remains conditional for a reason. A model that requires the effect is not identical to a laboratory-style direct detection, and the researchers want more IXPE observations of this source and other magnetars.\n\nThe finding is nonetheless distinctive: an object thousands of light-years away may provide a physics environment impossible to build on Earth, turning X-ray polarization into a test of how the vacuum itself behaves.",
+      "bodyBlocks": [
+        {
+          "text": "NASA’s Imaging X-ray Polarimetry Explorer may have captured the clearest evidence yet that empty space changes the way light travels inside an extreme magnetic field, a quantum-electrodynamics effect proposed in 1936.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The target was magnetar 1E 1547-5408, a city-sized remnant of a massive star with a magnetic field more than a trillion times stronger than the strongest permanent magnets built on Earth.",
+          "type": "paragraph"
+        },
+        {
+          "text": "IXPE observed the object for more than 140 hours between March and April 2025. NASA’s NICER instrument and Australia’s Murriyang radio telescope joined the campaign, producing the first coordinated radio and X-ray polarization measurement of a magnetar.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic summarizes the duration, rotation period and instruments in the magnetar campaign.",
+          "caption": "IXPE coordinated more than 140 hours of X-ray observations with NICER and Murriyang radio data.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-ixpe-coordinated-observation",
+          "sourceUrl": "https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/",
+          "src": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-coordinated-observation/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The neutron star rotates about once every 2.1 seconds. Its radio and X-ray peaks do not line up, indicating that the main X-ray hot spot is offset from the magnetic axis.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Researchers reported X-ray polarization degrees of about 40% and 80% in two modeled emission cones. The total polarization was nearly three times greater than measurements from similar sources and could not be reproduced by standard surface-emission models alone.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Vacuum birefringence offers a possible explanation. In a sufficiently strong magnetic field, quantum theory predicts that the vacuum acts somewhat like a lens or prism, filtering light according to its direction and increasing the observed polarization.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows the reported X-ray polarization and the age of the tested theory.",
+          "caption": "The unusually strong polarization supports, but does not yet finally confirm, vacuum birefringence.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-ixpe-polarization-signal",
+          "sourceUrl": "https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/",
+          "src": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-polarization-signal/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "The team’s simulations reproduced the combined radio and X-ray signatures only when that effect was included. The result was published in Nature and NASA called it strong support for the long-standing prediction.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The language remains conditional for a reason. A model that requires the effect is not identical to a laboratory-style direct detection, and the researchers want more IXPE observations of this source and other magnetars.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The finding is nonetheless distinctive: an object thousands of light-years away may provide a physics environment impossible to build on Earth, turning X-ray polarization into a test of how the vacuum itself behaves.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nasa-ixpe-magnetar-vacuum-birefringence-2026/",
+      "citations": [
+        {
+          "id": "source-nasa-ixpe-vacuum-birefringence-20260805",
+          "publishedAt": "2026-08-05T12:00:00Z",
+          "publisher": "NASA",
+          "title": "NASA’s IXPE May Have Proven 90-Year-Old Theory",
+          "url": "https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "IXPE observed magnetar 1E 1547-5408 for more than 140 hours between March and April 2025.",
+        "The campaign was the first coordinated radio and X-ray polarization measurement of a magnetar.",
+        "The source rotates about once every 2.1 seconds.",
+        "Researchers reported X-ray polarization degrees of 40% and 80% in two emission cones.",
+        "The observed polarization was nearly three times greater than in similar sources.",
+        "The team says simulations require vacuum birefringence to reproduce the combined radio and X-ray signatures, while further observations are needed to confirm the signal."
+      ],
+      "corrections": [],
+      "dek": "A 140-hour campaign recorded unusually strong X-ray polarization around 1E 1547-5408, offering the clearest evidence yet for a 90-year-old physics prediction.",
+      "desk": "astrophysics",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NASA",
+        "Italian Space Agency",
+        "Rice University",
+        "George Washington University",
+        "CSIRO"
+      ],
+      "eventId": "event-nasa-ixpe-magnetar-vacuum-birefringence-2026",
+      "headline": "NASA IXPE Magnetar Data May Show Vacuum Birefringence for First Time",
+      "id": "article-nasa-ixpe-magnetar-vacuum-birefringence-2026",
+      "leadImage": {
+        "alt": "Two technicians work on the drive assembly of a large optical telescope.",
+        "caption": "Technicians service an Air Force solar telescope in 2019. NASA’s IXPE mission used X-ray polarization to test extreme physics around a magnetar.",
+        "credit": "Christine Groening/U.S. Air Force",
+        "height": 900,
+        "rightsId": "media-ixpe-observatory-technicians-2019",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-observatory-technicians-2019/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Space",
+        "Australia",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-09T15:42:58.072Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260807t174521z-292f2bf3cdcd-c89a32dd3e4d",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NASA IXPE data from magnetar 1E 1547-5408 may provide the first direct evidence of vacuum birefringence, a 90-year-old theory.",
+        "index": true,
+        "title": "NASA IXPE magnetar evidence for vacuum birefringence"
+      },
+      "section": "health-science",
+      "slug": "nasa-ixpe-magnetar-vacuum-birefringence-2026",
+      "social": {
+        "description": "A 140-hour campaign recorded unusually strong X-ray polarization around 1E 1547-5408, offering the clearest evidence yet for a 90-year-old physics prediction.",
+        "image": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-observatory-technicians-2019/open-graph.webp",
+        "title": "A magnetar may have made empty space behave like a prism"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "IXPE mission",
+        "Magnetars",
+        "Vacuum birefringence",
+        "Quantum electrodynamics",
+        "X-ray polarization",
+        "Neutron stars"
+      ],
+      "uncertainty": [
+        "NASA and the researchers describe the result as possible first direct evidence, not a closed confirmation.",
+        "Further IXPE observations of this and other magnetars are needed to test whether the signal repeats."
+      ],
+      "updatedAt": "2026-08-09T15:42:58.072Z"
     },
     {
       "articleType": "news-report",
@@ -27426,6 +28185,153 @@
       "authors": [
         "Boho News Staff"
       ],
+      "body": "U.S. employers shed a seasonally adjusted 23,000 payroll jobs in July while the unemployment rate held at 4.1%, the Bureau of Labor Statistics reported Friday. The agency characterized both measures as little changed.\n\nThe revisions sharpened the report. BLS cut May’s gain from 129,000 to 63,000 and June’s from 57,000 to 20,000, leaving the two months together 103,000 jobs below the figures previously published.\n\nIndustry detail was uneven. Local government education lost 50,000 jobs and retail trade lost 19,000. Health care added 22,000 positions, but that was slower than its average monthly gain of 36,000 over the prior year.\n\nFinancial activities continued to trend down, losing 14,000 jobs in July and 121,000 since a May 2025 peak. Most other major industries showed little monthly change, according to the establishment survey.\n\nThe separate household survey put the number of unemployed people at 6.9 million. Temporary layoffs rose by 153,000 to 921,000, while the number of permanent job losers was little changed at 1.7 million.\n\nLabor-force participation was 61.4% and the employment-population ratio was 58.9%. Both were little changed in July, but since January they have declined by 0.7 and 0.5 percentage point, respectively.\n\nAverage hourly earnings for private nonfarm workers rose two cents to $37.62. That was a 3.2% increase from a year earlier. The average workweek remained 34.3 hours.\n\nThe payroll and household estimates come from different surveys and can move differently month to month. Payroll figures are also preliminary: BLS revises them as more employer reports arrive and seasonal calculations are updated.\n\nThe next employment report, covering August, is scheduled for Sept. 4. BLS will also publish a preliminary annual benchmark estimate Aug. 28, based on broader unemployment-insurance tax records. The July release leaves a clear near-term signal—job growth has softened—but not a final verdict on the direction of the labor market.",
+      "bodyBlocks": [
+        {
+          "text": "U.S. employers shed a seasonally adjusted 23,000 payroll jobs in July while the unemployment rate held at 4.1%, the Bureau of Labor Statistics reported Friday. The agency characterized both measures as little changed.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The revisions sharpened the report. BLS cut May’s gain from 129,000 to 63,000 and June’s from 57,000 to 20,000, leaving the two months together 103,000 jobs below the figures previously published.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Industry detail was uneven. Local government education lost 50,000 jobs and retail trade lost 19,000. Health care added 22,000 positions, but that was slower than its average monthly gain of 36,000 over the prior year.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic compares July payroll change, combined May–June revisions and unemployment.",
+          "caption": "July payrolls fell 23,000 while prior estimates were revised down by a combined 103,000.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-july-jobs-payroll-revisions",
+          "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "src": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-payroll-revisions/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Financial activities continued to trend down, losing 14,000 jobs in July and 121,000 since a May 2025 peak. Most other major industries showed little monthly change, according to the establishment survey.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The separate household survey put the number of unemployed people at 6.9 million. Temporary layoffs rose by 153,000 to 921,000, while the number of permanent job losers was little changed at 1.7 million.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Labor-force participation was 61.4% and the employment-population ratio was 58.9%. Both were little changed in July, but since January they have declined by 0.7 and 0.5 percentage point, respectively.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic shows selected July employment changes for education, retail and health care.",
+          "caption": "Local government education and retail lost jobs while health care continued to add positions.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-july-jobs-industry-changes",
+          "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "src": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-industry-changes/four-three.webp",
+          "type": "official-document-render",
+          "width": 1200
+        },
+        {
+          "text": "Average hourly earnings for private nonfarm workers rose two cents to $37.62. That was a 3.2% increase from a year earlier. The average workweek remained 34.3 hours.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The payroll and household estimates come from different surveys and can move differently month to month. Payroll figures are also preliminary: BLS revises them as more employer reports arrive and seasonal calculations are updated.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The next employment report, covering August, is scheduled for Sept. 4. BLS will also publish a preliminary annual benchmark estimate Aug. 28, based on broader unemployment-insurance tax records. The July release leaves a clear near-term signal—job growth has softened—but not a final verdict on the direction of the labor market.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/us-jobs-report-july-2026-payrolls-unemployment/",
+      "citations": [
+        {
+          "id": "source-bls-july-employment-20260807",
+          "publishedAt": "2026-08-07T12:30:00Z",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "title": "The Employment Situation — July 2026",
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "U.S. nonfarm payroll employment declined by 23,000 in July 2026.",
+        "The unemployment rate was 4.1%, with 6.9 million people unemployed.",
+        "May and June payroll estimates were revised down by a combined 103,000 jobs.",
+        "Local government education lost 50,000 jobs, retail lost 19,000 and health care added 22,000.",
+        "Labor-force participation was 61.4%, down 0.7 percentage point since January.",
+        "Average hourly earnings were $37.62, up 3.2% from a year earlier."
+      ],
+      "corrections": [],
+      "dek": "The latest BLS report also cut May and June growth by 103,000 jobs, while health care gains partly offset losses in education and retail.",
+      "desk": "labor-market",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Bureau of Labor Statistics"
+      ],
+      "eventId": "event-us-jobs-report-july-2026-payrolls-unemployment",
+      "headline": "U.S. Payrolls Fell 23,000 in July as Unemployment Held at 4.1%",
+      "id": "article-us-jobs-report-july-2026-payrolls-unemployment",
+      "leadImage": {
+        "alt": "A recruiter speaks with members of the public at a job fair.",
+        "caption": "Members of the public discuss recruitment opportunities during a job fair at the D.C. Armory on March 14, 2026. BLS reported a 23,000 decline in national payroll employment in July.",
+        "credit": "Thomas Norris/U.S. Army National Guard",
+        "height": 900,
+        "rightsId": "media-july-jobs-job-fair-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-job-fair-2026/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-09T15:42:58.072Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260807t174521z-292f2bf3cdcd-c89a32dd3e4d",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "U.S. payrolls fell 23,000 in July 2026, unemployment held at 4.1%, and May–June gains were revised down by 103,000.",
+        "index": true,
+        "title": "July 2026 jobs report: payrolls fall 23,000"
+      },
+      "section": "business",
+      "slug": "us-jobs-report-july-2026-payrolls-unemployment",
+      "social": {
+        "description": "The latest BLS report also cut May and June growth by 103,000 jobs, while health care gains partly offset losses in education and retail.",
+        "image": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-job-fair-2026/open-graph.webp",
+        "title": "July payrolls slip as earlier job growth is revised lower"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "U.S. jobs report",
+        "Nonfarm payrolls",
+        "Unemployment rate",
+        "Labor-force participation",
+        "Wage growth",
+        "BLS revisions"
+      ],
+      "uncertainty": [
+        "Monthly payroll estimates are revised as additional employer reports arrive and seasonal factors are recalculated.",
+        "BLS described both the payroll change and unemployment rate as little changed; a one-month estimate should not be treated as a complete trend."
+      ],
+      "updatedAt": "2026-08-09T15:42:58.072Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
       "body": "An estimated 3,681,900 adults were on probation or parole in the United States at the end of 2024, the Bureau of Justice Statistics reported, extending a decade-long contraction in the community-supervision population.\n\nAmong agencies with comparable beginning- and end-of-year data, the total fell by 15,000 people, or 0.4 percent, during 2024. BJS uses comparable agencies for the change calculation so shifts in who reported do not masquerade as a national trend.\n\nThe longer movement is much larger. From year-end 2014 through year-end 2024, the comparable population under probation or parole declined 24 percent. That measure tracks adults supervised in the community rather than people held in prisons or local jails.\n\nProbation turned downward after two years of increases. The estimated probation population moved from 3,036,700 on Jan. 1 to 3,030,500 on Dec. 31, a decline of 6,200 and the first annual decrease since 2021.\n\nProbation and parole are related but distinct. Probation generally places a person under court-ordered supervision in the community, while parole follows release from incarceration. The combined headline number is useful for scale but does not make the two systems interchangeable.\n\nThe report also describes movements onto and off supervision and categories of exit, including completion, incarceration, absconding and other unsatisfactory outcomes. Those details help distinguish a falling caseload from a claim that every exit represents successful completion.\n\nBJS based the estimates on the Annual Probation Survey and Annual Parole Survey, administrative collections that cover all 50 states, the federal system and the District of Columbia. The 2024 publication is the 33rd report in a series that began in 1981.\n\nAdministrative data have limits. The national total is an estimate, and annual-change calculations depend on consistent reports from participating agencies. The data do not by themselves explain why caseloads changed or measure recidivism, service quality or the intensity of supervision.\n\nThe clearest conclusion is one of scale and direction: community supervision still touches about 3.7 million adults, but the comparable population is smaller than a year earlier and roughly one-quarter below its level a decade ago.",
       "bodyBlocks": [
         {
@@ -31236,22 +32142,22 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-07T16:56:39Z",
+  "generatedAt": "2026-08-09T15:44:00Z",
   "inputHashes": {
-    "approvals": "8d4d43a6ddc005e63b522ff2cfb6e3c3c35577f322335cf4ae935ade430cb508",
-    "articles": "42bfb07570bc9c49c912ad769539f02ef35636790b2239a38b5c919d8e67e68b",
-    "claims": "2db23c4f0abe08a47557db1ea633a2d10f93a3d1206992f4af5773e15d2d1bef",
+    "approvals": "2a91a5a1c125bc606efe32666984eb4980bdc2b7b8bab6382ac1da67ff9916d0",
+    "articles": "72bb4424d157f9bccbd77c430fb4e2670b7347974a8c8f5220a3570bf5d0321b",
+    "claims": "cbca53ba04842081be4050aeb2a57bd6ed015bcb03e44cb2f7b3470a5908c5fb",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "203b740517f9322949968a61a25c74cfedc918c99ff607e908c4723105d605d5",
-    "mediaRights": "662ebcdf760dacc823a3f3340f7cd1dd7501b61f7d577efc37a34e8dd430e4cf",
-    "publicationIntents": "04471d61781a19f95ed0bd0c3793ea02096e17a407b8ca388c607e0e15b7f401",
-    "releaseRecords": "1f98be699da0e385b5f9686473797ece4b84b177c16b6510e894a8eba89b5b13",
-    "sourceItems": "fdd33764735a532ddabcea159fc7186fae1004b33fd1a73b512159874e984abf"
+    "events": "9528462e7500bd38957e668a05eb648a0aeebd4a05e556bbc70296a4a4085ae1",
+    "mediaRights": "fe7fc3a86a563648ec4c52243800f6a7264ade3f24d7fb94d128829d3d921389",
+    "publicationIntents": "05dcbd808245a991c4f033204e7b5c53f16ffcba45dc3c98772a34863b26a426",
+    "releaseRecords": "5dbea04fa088ac55b3e8ff623f324b0aa7eb201fcf1e955c6be005f96bfde9d1",
+    "sourceItems": "93853b6faf78e82dee391c76bf3f5ee64c4807777f78763f7ae796d336dee12c"
   },
   "inventory": {
-    "articleCount": 177,
-    "mediaCount": 517,
-    "routeCount": 177
+    "articleCount": 183,
+    "mediaCount": 535,
+    "routeCount": 183
   },
   "mediaRights": [
     {
@@ -40728,6 +41634,234 @@
     },
     {
       "aiGenerated": false,
+      "altText": "A container ship sits alongside cranes at a German port.",
+      "archivalStatus": "current",
+      "attribution": "Christina Johnson/U.S. Navy",
+      "caption": "A Military Sealift Command cargo ship is unloaded at Nordenham, Germany, in 2023. Landsat imagery shows how tides and sediment shape nearby North Sea shipping routes.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Documentary lead; responsive crops only."
+      },
+      "creator": "Christina Johnson, U.S. Navy",
+      "derivatives": [
+        {
+          "hash": "3e36799e55b299f51c46100d202a2823544909e59417702fc473179b2fdba7c7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-germany-cargo-port-2023/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "28ded4537f5f6968196dc3276b497871841551bb3b6f930e40bcf4c574eef4f5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-germany-cargo-port-2023/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3b0277ae57cda7a510cee25bd0315c8f87b6e0a1c48c92bea942318d543e72ba",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-germany-cargo-port-2023/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "fdfbfa3bb3e99ba2a158e44456dd8a099df144b82c25d5f268cac934b913cf9f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-germany-cargo-port-2023/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5fbdc7955675d6b7656bd4127faee9838ea1bec5f4d9230c1354556f20e4da41",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-germany-cargo-port-2023/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6d1dbfb4af13bb606becc2fba9f2ec51a4d72d7cc1a72ea91368ab3fbe8cfe27",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-germany-cargo-port-2023/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "04eeabee06668af5b39cf152dcca1cadf3915ff990a68d5d9dbb3c57ce574d37",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-germany-cargo-port-2023/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-elbe-germany-cargo-port-2023",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "109e74995ed6672e58defdbd820d093ebe16b387e1550284e732502bcc91aae9",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS; source metadata retained.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/news/448678/msceuraf-mts-team-doubles-efforts-2023"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic combines port rank, record water level and local sea-level trend.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The same estuary supports major shipping and faces storm-surge and sea-level pressures.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "771a02140419f2c99e1416d48d2a84503c9638121ff1275a69540ff15a2aa3d3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-navigation-coastal-risk/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7729aaf342afee90af0c5880ed2b340e7dcb17d19235ce680899cce5b3973b05",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-navigation-coastal-risk/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "db49f83f162b14a46d00f5787163859f1f09ede92027dac93630aa21beaaac24",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-navigation-coastal-risk/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "08d91b11cd50f52f59d6d4ed0a5d82de7aade2d90c0e547c2f2395ec1d070416",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-navigation-coastal-risk/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "38883558b70740ef4039ed7aa857a44fe437c9b4043ff58f4039d4a61eeaea83",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-navigation-coastal-risk/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2a451ed76d80153429a8a0b72dff5cf3d3ababcfd8a04f8f10a86c69a24d74b9",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-navigation-coastal-risk/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "31533d7f2db65d36057de535b414392d659334400de384f6865081e892ec0f86",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-navigation-coastal-risk/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-elbe-navigation-coastal-risk",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "e406de77edfc637ef1433eae956729e42ee37ea45113fc7ae63c57a9655df0dc",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic summarizes the tidal range, estuary length and migratory-bird traffic.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The Elbe’s 2.9-meter mean tide exposes extensive channels and mudflats across a long estuary.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "f1d9ac3212725cdd1d5b39e59ca4c4a32aea7cdd0ede8ef3b68fb4071af912fa",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-tide-estuary-scale/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "82c96b2eb4cd94c8d469b143add1c264741d258988882b37dca729db5172fed0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-tide-estuary-scale/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a9c9e5984c5d182042d23ec2aeb54b15ddd7fead9b1f82c5d3dc6d7ca1220cb3",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-tide-estuary-scale/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "cb8ed8620ae507400c2d4a8c25f8cefecb383fa0be783821c23897627534070b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-tide-estuary-scale/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "34af9b7e6091f8f5c1c529d8e5dddac21d08ff6ab6808eeb7e20cdece2b0ccda",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-tide-estuary-scale/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "41f94636f1c584f55ff5f97bb2fd1d99b036b4151d09a2fb8c0b8811366f666c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-tide-estuary-scale/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4a8683f7e6f17c0bf7661451a239299e348406b14b05e61e3d65748c45ac5a7f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/elbe-estuary-tides-shipping-landsat-2026/elbe-tide-estuary-scale/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-elbe-tide-estuary-scale",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "daaf6bd602416ccc22d54194b8ee248eb527e3305f9ab55d72294ab67968f946",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/how-the-tide-turns-at-the-mouth-of-the-elbe/"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Graphic contrasts the current federal public-participation floor with state and local discretion under EPA’s proposal.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from EPA proposed rule announcement",
@@ -42701,6 +43835,234 @@
       "rightsBasis": "Official federal photograph; source and public-domain rights record retained.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.dvidshub.net/image/8428536/federal-reserve-bank-tour"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows total cases and the leading immigration and drug shares.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Immigration and drug cases together accounted for nearly two-thirds of preliminary federal sentencing cases.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d5d8f24245b046a506b8b45a14197725abea57396870d9525c93135a505fd6f0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-case-types/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f5f5db0d1e4762552e9faca1a7812caa32d5649232017e6eb3c33b0c0202d95e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-case-types/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "efe655b27de4c17b57035a558c3ea0b907b7f38675ad917cfb2304975063efcb",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-case-types/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4cac6c2613051ec3dd6982642111f7492547e51c38d0154c206b061ca63e0a49",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-case-types/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9d63a47cf19c4d6d6beafdbbd068f4fbc3a87994c3f211eac4555e4166ef0f3a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-case-types/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d05586655231afa3fbac6e7aba4c241052a037882451667b5013161f47198c3a",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-case-types/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "610f964bbaeba782953c37f96cd949a4d40545db139d9057872cd4e044817f7d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-case-types/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-sentencing-case-types",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "15d709c72f43b77b9a812ad44a410de47fdb788769fd25810b335bec738e3620",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the Fifth, Ninth and Tenth Circuits’ shares of cases.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The preliminary caseload was concentrated in circuits containing much of the southwest border.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "6c0dd923624ef4eacc8585172681101c3907069d2a6b5b438a0a7df1faccf729",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-circuit-shares/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c6ee48f709245d4aff9db14b80723826a8821585471c3e095af5a6089bf513b7",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-circuit-shares/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "2984b6e2faa26bae5d05ec32842ce4185f6f2e429ac521bb158b7f094f19d0f5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-circuit-shares/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "dac33e09a65a8e6761dedfdd8fb1985d6bd6e162f6f54d09628c76aba40631d0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-circuit-shares/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d80514c89e33b9ed48b3d69b627bf6d2aca17ad705d5c16e588071768d1d8cca",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-circuit-shares/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "54fb6bc3a72b75aa4fa2ea93767233a70e13ef68f7f24b32aa2cd380be097fe3",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-circuit-shares/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "183c94887bfa90a42c342137aef092b3f105d7b83d191d16be9774fc42e99142",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-circuit-shares/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-sentencing-circuit-shares",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "00dbe92bac99abcabbcdc7f81c76a5a2f7645c28c38d0db77cbd3df0bcfcd667",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "An empty trial courtroom with a judge’s bench, witness stand and counsel tables.",
+      "archivalStatus": "current",
+      "attribution": "Albert Morel/U.S. Air Force",
+      "caption": "A U.S. military trial courtroom in Germany in 2024. The Sentencing Commission’s new report covers 32,586 federal cases through March 31.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Documentary lead; responsive crops only."
+      },
+      "creator": "Albert Morel, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "679983a2951f8d20d1a8d006546d2e2fa23de77d927459c25c9ccdb1bea6abd6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-courtroom-2024/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6a51df06477274c2e4a16902e39c118f1c8d31e2ba7f732d36ed8584f2229835",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-courtroom-2024/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "177aa25d52467be654a36ea28487e5dbfe035e0b8458fe077fb8ee9376bcd67d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-courtroom-2024/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9ac21ca894aff31c7f4a34bcb646b8ba8ee62436153fe60503ba1d11e8e36579",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-courtroom-2024/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6e342303920930558641f42d39b52e3ce03e8a08747168e655d3ed899bfb8c5e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-courtroom-2024/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "339bc37eac8703da6ea9170818ec5619791e36673ced2a5a0d32e8f165955416",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-courtroom-2024/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "62267d3d215b49b2994e686ba55fcc8ebf742df1352ec37ad54e212ab54833da",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/federal-sentencing-cases-immigration-share-fy2026/federal-sentencing-courtroom-2024/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-sentencing-courtroom-2024",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "174828ea65faade568ddee469402f7fdafe1bcccedb6c436a17e5c85e983b90a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS; source metadata retained.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/8410884/courtroom-spangdahlem-air-base"
     },
     {
       "aiGenerated": false,
@@ -48616,6 +49978,234 @@
     },
     {
       "aiGenerated": false,
+      "altText": "A competitive sprinter accelerates around a track curve during training.",
+      "archivalStatus": "current",
+      "attribution": "Shelby Jones/U.S. Army",
+      "caption": "Army athlete Joseph Puntoriero trains on a track in Colorado in 2026. At the Commonwealth Games in Glasgow, Emmanuel Eseme ran a Games-record 9.83 in heavy rain.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Documentary lead; responsive crops only."
+      },
+      "creator": "Shelby Jones, U.S. Army",
+      "derivatives": [
+        {
+          "hash": "6a6106ca360ac5e5dcae976c76d09ce19137ae6540a1d8748460cc867e617f4d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-context-sprinter-training-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c6f06e76d113e0285e60661a87341ba555ce974a0c471f9800396dd00cc2a614",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-context-sprinter-training-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "38bfb4fa36dacb55b3eb496945be0a318431a43d219cb3b63041abcc462c7b1b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-context-sprinter-training-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "df813a039dac36fffdebaf0636ee48fc34390cea93bb25fe58e1d12b23eb3e37",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-context-sprinter-training-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "431a4dbe3f6bdbe42e5954f40ff6c1b9385393d3bdece607c787dde7ab0526ca",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-context-sprinter-training-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a60c4c5eedb69726803bc487d0544619fd0ee5eec1207783d9b80fd62c102e09",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-context-sprinter-training-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "87551582decef9cee84da03d30ba8c466e52269fbb3860aed09a7c8f7465e5d4",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-context-sprinter-training-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-glasgow-context-sprinter-training-2026",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "5de75351fe33312623a69cbd5a2310d654690f9cf53ac7595ba7052d83ee647c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS; source metadata retained.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/news/555724/from-space-to-sprint-maj-joseph-puntorieros-journey-to-international-track-glory"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares the women’s and men’s Commonwealth Games hammer records.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Camryn Rogers and Ethan Katzberg completed a Canadian hammer double with Games records.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "2f922ef771901739fa6b85d99b03911996925f727d609e71be9bee4616873544",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-hammer-records/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "88d3db07ea92f97a535b15a972cf75f15cb6b41e87f76ec9614e6595107bf5dc",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-hammer-records/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "09977877a6a742d7efcc945a149dc71de93bc458f02a216a2174d300bf8180c9",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-hammer-records/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "0ab2ae2b542d14ea2919198064b21500d5d17378a7f4e07b6ecef7fd3f9a1405",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-hammer-records/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c95b4f46cb5b2df76186ce846a8f5805c031fbd27c10ab60ab7f04b6fdea7ef5",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-hammer-records/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e71714feb93a42c5ec1091ff525a3f712752e5e16a15bf00499e347c668fe3ca",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-hammer-records/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c96146f5088c2fc572912a7a00813fd363bc271aed0ae10d5137d0faf1f42f07",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-hammer-records/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-glasgow-hammer-records",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "e97ed9230806a24444eec1030ad8c345a693aedc9c6fe2cd87a083f72e6a6a82",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://worldathletics.org/news/report/commonwealth-games-glasgow-eseme-rogers-katzberg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists the three record performances in the men’s and women’s 100-meter finals.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Glasgow produced Games and continental records across both 100-meter finals.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "5ad0f6350f2e7a9990908cd66e767b92580cd09678e7e66e3b410155dbb41216",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-sprint-records/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "02bba42058ad79f2a55bd5df91748525fa3bde02e1570c52ffc57ce98d285dd5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-sprint-records/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c22ea52d7b3b886b9967e0535e9635f6aeeb0c6161ec52bb39cf230261c86322",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-sprint-records/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "dce15465c5130b9fd47fe43ebc29381093912b4ff1098e6ae0d746951a0b998f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-sprint-records/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0a511bf6d0e59090008555c1aac61879928c02faf7d2dbe152e2dddd168a5773",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-sprint-records/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "cc69fa0b05640840212bd56356cf736d7c86712152c8010b3d7d5cb23bc801f8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-sprint-records/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d6c9ee0a419f009e9148d4d27bdbb38f72cf6e5b90b8f2b211f3dbe3cc35fcb5",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/emmanuel-eseme-983-commonwealth-games-record-glasgow/glasgow-sprint-records/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-glasgow-sprint-records",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f7682b6b0e975802cbd17b9139b2984b98d9736faaff17caae51e752002d671a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://worldathletics.org/news/report/commonwealth-games-glasgow-eseme-rogers-katzberg"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A nurse demonstrates ultrasound vein location to medical students in a hospital trauma bay.",
       "archivalStatus": "current",
       "attribution": "Justin Woods/U.S. Navy",
@@ -49072,6 +50662,158 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Visitors stand before a long bronze sculpture at an outdoor Washington memorial.",
+      "archivalStatus": "current",
+      "attribution": "Zachary Wheeler/U.S. Navy",
+      "caption": "Visitors view a large outdoor bronze sculpture in Washington in 2024. The Hirshhorn will reopen its own revitalized sculpture garden Oct. 31 with 50% more artworks.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Documentary lead; responsive crops only."
+      },
+      "creator": "Zachary Wheeler, U.S. Navy",
+      "derivatives": [
+        {
+          "hash": "44b103f5d8cff0ab98cbd580e1a50c3bc18b1c6e8ebd94ceb6ab4f8d4c85f8d4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-context-outdoor-sculpture-2024/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5904be5a8f39296367d26299eb40a5b78cb53b3874c4ffa73241c63e15f4491f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-context-outdoor-sculpture-2024/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "180e7193ffd5d04cc745639b3d824a87145afd717007868fcb3d9e712b1b913b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-context-outdoor-sculpture-2024/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f669a292587b80b69723504ce0e1257cee64d8c9c57ee5176eb01c35eac4cc47",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-context-outdoor-sculpture-2024/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "cb252b771bfd2f18f73a308ee78f89eadf1a64c5aa7c6f4d8d11452f56943e0c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-context-outdoor-sculpture-2024/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "438e46c694378867686943e77df7bf9ffbfb2c1cb82f7dfee08e6f42737f9317",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-context-outdoor-sculpture-2024/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "ef9f5a646d4494d9df14107c29bbb0859183a7953262ab4737000def38579d0a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-context-outdoor-sculpture-2024/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-hirshhorn-context-outdoor-sculpture-2024",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "83c90b6f63c3a4f3d694530c34832877a66eb9b30e0952c1bffa8ff96a38b2d3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS; source metadata retained.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/8647435/wwi-memorial-illumination-ceremony"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic identifies the museum’s 1974 opening, founding collection and National Mall setting.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The reopening renews an outdoor extension of the Hirshhorn’s modern and contemporary art program.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "9e61878c3d1b32c1061f215fbf67ebeea9d5fd1a23958bc01c639815e57801dc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-garden-context/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "41011cd707ad34c57760e9fa31e8a688621192ed58440dcd32be1baae3126586",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-garden-context/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "16ce42c23d89c47b9281d2c2ffdadf6724aa5791d02236d05794dc51e4fe15b1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-garden-context/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b173888a4e0c82d2c8ee60cbf9e6f148d861e448fbca49e93237e694a95f052d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-garden-context/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5c6314c0c1b0d8dbd68463384bf528a3f1bdff28cab857ff41e5374f8f4dabb0",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-garden-context/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f6cded55bb3e87946dc0a3e4fbe0a339309c67a5eeed81324a7aa01e220fa8d4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-garden-context/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1edf3e701a6432267be364dc7fb15021ad6878bf579fe8d0a0c2cf9e5164cc33",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-garden-context/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-hirshhorn-garden-context",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "47464966a5c1274b4a96ce3a70aedc89e37224e246333e3632e600b55209d3ff",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.si.edu/newsdesk/releases/revitalized-hirshhorn-sculpture-garden-opens-oct-31"
+    },
+    {
+      "aiGenerated": false,
       "altText": "Graphic shows more than 200 requested works, 30 percent of partners serving smaller communities and 20 percent affiliated with colleges.",
       "archivalStatus": "current",
       "attribution": "Boho News graphic from Smithsonian release",
@@ -49145,6 +50887,82 @@
       "rightsBasis": "Original explanatory graphic derived solely from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.si.edu/newsdesk/releases/hirshhorn-museum-partners-art-bridges-foundation-announce-51-museums-landmark"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the planned reopening date, 50% artwork increase and 24 works from the founding gift.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The garden’s redesigned display will include 50% more artworks and 24 works from Joseph H. Hirshhorn’s foundational gift.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c04bc452f0adc5f0d1738a9f4c005015ac32986be0672c7b5ff8d86209f845a4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-reopening-numbers/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e64543402e7b420117bc78cd54886e341819e92ba7d0c825dc47540a8e6189bb",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-reopening-numbers/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6aef14a79fabe10e4443836390d58b9ac7438dcbc6ceeb0ec7ff44a38e118592",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-reopening-numbers/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b8b9c066ad56ee849d4b614e1ee48952d7938ecb48a612445a3b912b3f39949d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-reopening-numbers/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a628e17e709bce7dfd5e2b6113e3ad03880b10807437ee52961e806f248ef7b5",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-reopening-numbers/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d87207dcad0614d143041119e6ba58537d5b538191f5223b75c5457727f4cc23",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-reopening-numbers/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5bab85bc3f6a6d5871903294c3c7b0ba72d3fe46dfa6d6108e8de7e3b911b5cb",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/hirshhorn-sculpture-garden-reopens-october-2026/hirshhorn-reopening-numbers/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-hirshhorn-reopening-numbers",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "fb084cf66ae8f3f2f984a182fa8266d282703c67d1bfec312c0c84fc9da3ecc6",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.si.edu/newsdesk/releases/revitalized-hirshhorn-sculpture-garden-opens-oct-31"
     },
     {
       "aiGenerated": false,
@@ -49906,6 +51724,234 @@
     },
     {
       "aiGenerated": false,
+      "altText": "Graphic summarizes the duration, rotation period and instruments in the magnetar campaign.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "IXPE coordinated more than 140 hours of X-ray observations with NICER and Murriyang radio data.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ab3cdbf63f8705efe5671c13da4c6d6396300e13452fc249a6fb94fae27e268c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-coordinated-observation/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a38f58fc08c6c187a3715463a4ae5d3b9e92f45538ab676c97023a279e589b51",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-coordinated-observation/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "84cd68b32f5ee984e7ad23dc83e8ca07e9abc668a933657330a01344b4e921b0",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-coordinated-observation/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5dba557beee4b6475c08a6c4aa335226624886363092997e4bbb1896aac3fbff",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-coordinated-observation/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "cb1c0dbcb680085c0c27401a0d15eb10a2534b97778382ce40e4cf2d7a3d469d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-coordinated-observation/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3a858e710bdcf4a7f5384898d8959c14e6af7edfc610e33b088dbbeb06bc2304",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-coordinated-observation/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f08b2d7f0d4d43bff0d84ddce1924cc1ad1ab8dc02c6e7c89253297d39843525",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-coordinated-observation/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ixpe-coordinated-observation",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "de6c9463bc0dc5b56d8d0d135bc5d100c2eee306fb92c1205a25414799d789e1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Two technicians work on the drive assembly of a large optical telescope.",
+      "archivalStatus": "current",
+      "attribution": "Christine Groening/U.S. Air Force",
+      "caption": "Technicians service an Air Force solar telescope in 2019. NASA’s IXPE mission used X-ray polarization to test extreme physics around a magnetar.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Documentary lead; responsive crops only."
+      },
+      "creator": "Christine Groening, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "df4603d61cd10a42443504e22d6e97716222d1d4483e381d624c246ad190f6e5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-observatory-technicians-2019/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9613b17f083dad761b481b3e13f939fe6bad7b063a2545a5ea31052d2a49fd76",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-observatory-technicians-2019/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "974ceb666c1bfd6513a3bce7e9b06fdc7864df69abc05af88e18244c48516405",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-observatory-technicians-2019/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6fb301227df03c970a04476f98930bfe574b32458e9f12d9506e31a20eec4875",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-observatory-technicians-2019/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8989016e8fc34961a31b21bc28334b3a547b5cbd98b258b07f380262a268d2b2",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-observatory-technicians-2019/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "21eff11b9221ce4aeccc4d3b9bc7dc8b4bc8c5b89cf6e9a70ecac481e78f6a93",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-observatory-technicians-2019/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "87dbb3f2f34fe83eda8f1a442e9503eaca3e7bd13fb89b82b8ade6000d58967d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-observatory-technicians-2019/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ixpe-observatory-technicians-2019",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "34f58e263e8df1d0804ebec9797ef9ae62b1cfe428b55f81fd6b208a9efeea96",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS; source metadata retained.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/5282778/holloman-solar-observatory-maintaining-world-wide-soons"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the reported X-ray polarization and the age of the tested theory.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The unusually strong polarization supports, but does not yet finally confirm, vacuum birefringence.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "e596e742c9fa3cf2397aa8f328777becad35e6e6eb1722e6d12e924fc88cfd22",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-polarization-signal/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "273a1d2a36a1d71b856c96b8076d525f82b5c07650f6536d0175ca702795c185",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-polarization-signal/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "eb8031a3f804ea7445fd83119bbad77d805f74d00abf9af45c68e530ec4e1885",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-polarization-signal/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "10689a4d8928adeee117f4beb9449a355085fa3ef9f9e2792c9eb2c0759e5fe1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-polarization-signal/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0f84795a4a4303bb133b9f070d2e5dbd1c0ce675a362f046e1e630807b5e4e7b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-polarization-signal/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a993f3aa8f5ee18a878011a7078b8bc5f3cde516fa1eef31054ef7460cf05633",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-polarization-signal/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "805b9421f8cd98f2bb4f15b072a9ebaf1fc9043b29732ff1c73cfea554d076cb",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/nasa-ixpe-magnetar-vacuum-birefringence-2026/ixpe-polarization-signal/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ixpe-polarization-signal",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "ad07ae303f6de4d2066a45f0df37019a1a770d490f19715a94ee1788c4b204f8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/missions/ixpe/nasas-ixpe-may-have-proven-90-year-old-theory/"
+    },
+    {
+      "aiGenerated": false,
       "altText": "A technician in a utility hole reaches for equipment during underground fiber-optic cable installation.",
       "archivalStatus": "current",
       "attribution": "Taylor Curry/U.S. Air Force",
@@ -49979,6 +52025,234 @@
       "rightsBasis": "Official U.S. Air Force photograph marked public domain by DVIDS.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.dvidshub.net/image/8652694/fiber-optic-cable-install-at-jbsa"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows selected July employment changes for education, retail and health care.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Local government education and retail lost jobs while health care continued to add positions.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "64017993cf088135625c11752382548cc894f336729dc74f9af5eac25e216f5d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-industry-changes/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "46397685b0ad486879bff5456219a787b33b41615225d81947ac3d38c9efb244",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-industry-changes/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a25cee82a1305439dc826838f30750db9693680a95bbebc73ff64d3ddea091be",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-industry-changes/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "77b6fd2a21386ca0ea188522164431a153a6cac1dc934521f46e71a111c6ce7e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-industry-changes/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "284469b0014b5d1af40697a29b3a85dafd8136f4d3f367977e3477196cf6b234",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-industry-changes/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "08d55f40fd1516fa218112d35ea00a03c13bc15d132452336ab12208b5545e34",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-industry-changes/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "bbe0c7aa9b6a7a17e0efde39ff05ce8ac98144a6233d45ba00d7d701af75339d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-industry-changes/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-july-jobs-industry-changes",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "ba747fabf71abae010a990d315c9c0e4bce525dd4c30a115b09a0ab0c7d2ce2a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A recruiter speaks with members of the public at a job fair.",
+      "archivalStatus": "current",
+      "attribution": "Thomas Norris/U.S. Army National Guard",
+      "caption": "Members of the public discuss recruitment opportunities during a job fair at the D.C. Armory on March 14, 2026. BLS reported a 23,000 decline in national payroll employment in July.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Documentary lead; responsive crops only."
+      },
+      "creator": "Xavier Wilson, U.S. Air Force",
+      "derivatives": [
+        {
+          "hash": "0a0a0ccad37c7eb27223457be72af77c50d5fff3c179afce5e6a8b92edf3f32a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-job-fair-2026/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "361a8e7198cd5d9a309a084f39502d84afb86979b44eb163caaa2d826fefcf15",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-job-fair-2026/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "53e045abf1711e8c7f4cc802e43a18f6d1c7b0d0b902863a0ff8d5ecf277245a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-job-fair-2026/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a6af4279b7d8a52fbb52ed0ae33d331e20161d5b1db0b313728f79627f5915e0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-job-fair-2026/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4ceb407b41bd4886ec1b206e8d9cca3f5760602b42a29e98301310636021c0b7",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-job-fair-2026/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4c24224961acd08bcd59a347070df2c5857c856b3bc341aaba8def32aaaede7a",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-job-fair-2026/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "fbfe1e107948ddfb2375401f3c24ce296a7bee3f7069698760677c04618461c9",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-job-fair-2026/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-july-jobs-job-fair-2026",
+      "illustrationLabel": null,
+      "license": "Public domain — U.S. federal government work",
+      "originalFileHash": "ecb77d4d6179ebbbbb1c8e4113dee24511778d16ae2abce20ffc19156a1e4a8e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Official federal photograph marked public domain by DVIDS; source metadata retained.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.dvidshub.net/image/9566894/jtf-job-fair"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares July payroll change, combined May–June revisions and unemployment.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "July payrolls fell 23,000 while prior estimates were revised down by a combined 103,000.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "fe8f2981f90be62db64c80cd00b524fc17ee93cba60bccd2f9cca616880e14ca",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-payroll-revisions/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a33de863dcce4ff24b25eef6eb77506e149cc5d7c6175975ee2366037468866e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-payroll-revisions/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8ef4a5d409a8d269c4b2a5872019d5dd94b91a66ab9e38c26383ede850e726e3",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-payroll-revisions/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "efb55892ca333524b4819bbc69f01073c4ed9295b7000ea624549be1dced1333",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-payroll-revisions/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9c371ec4a5319a249da31c78508d2f05637c0a4d650786d53c2c2c8258be043f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-payroll-revisions/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c71ca8e2821cfd38095ad502c55c97282950cb869b18335d64a53705691fc913",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-payroll-revisions/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d161836ec4f3f7a7564b3b39203a86b45bdea60f13f7a6fc67868847e2d2cc42",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/us-jobs-report-july-2026-payrolls-unemployment/july-jobs-payroll-revisions/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-july-jobs-payroll-revisions",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8a279a5ac3cc9f98f23a045eee3cee76e7e743b4840109bb99e5197fc5aa7b41",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-07T17:44:28Z",
+      "rightsBasis": "Original graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm"
     },
     {
       "aiGenerated": false,
@@ -70478,7 +72752,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "fb491ce1f090888c7f00034227355ee3f5b5f23dde2c496e71aa97b181b62fba",
+  "packageDigest": "e0e30bd995fce65b4ee0369e97914ac38dcb4a69e97129b3c2edc363e36d26fd",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -71688,6 +73962,37 @@
       "providerActivatedAt": "2026-08-07T16:53:31.325992Z",
       "recordHash": "1ef3d4c04a16f73c1b4c78fb415ccdbd3a0229b38bf4e430abe8843a7f027c40",
       "releaseId": "release-pb-20260807t145526z-e3407ebe7df2-aa2e7543dd39",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://52d327f0.bohonews.pages.dev/",
+      "activationEvidenceHash": "28142770c45c5a14f5ed45db0328e6247f9bebdcf9bf966cacc667124cae79b5",
+      "canonicalFirstPublicAt": "2026-08-09T15:42:58.072Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/elbe-estuary-tides-shipping-landsat-2026/",
+        "https://bohonews.com/articles/emmanuel-eseme-983-commonwealth-games-record-glasgow/",
+        "https://bohonews.com/articles/federal-sentencing-cases-immigration-share-fy2026/",
+        "https://bohonews.com/articles/hirshhorn-sculpture-garden-reopens-october-2026/",
+        "https://bohonews.com/articles/nasa-ixpe-magnetar-vacuum-birefringence-2026/",
+        "https://bohonews.com/articles/us-jobs-report-july-2026-payrolls-unemployment/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-elbe-estuary-tides-shipping-landsat-2026",
+        "article-emmanuel-eseme-983-commonwealth-games-record-glasgow",
+        "article-federal-sentencing-cases-immigration-share-fy2026",
+        "article-hirshhorn-sculpture-garden-reopens-october-2026",
+        "article-nasa-ixpe-magnetar-vacuum-birefringence-2026",
+        "article-us-jobs-report-july-2026-payrolls-unemployment"
+      ],
+      "previousVerifiedDeploymentReference": "d8e4a9f3a75f337835a60734dd539ba6c17ea810493ae582e0f76c44dfce1508",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-09T15:42:04.313511Z",
+      "recordHash": "024be87a1334155d747878051b48d87f4ca1e1b3eea6fb1edc6e17d8cdb19eee",
+      "releaseId": "release-pb-20260807t174521z-292f2bf3cdcd-c89a32dd3e4d",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }
