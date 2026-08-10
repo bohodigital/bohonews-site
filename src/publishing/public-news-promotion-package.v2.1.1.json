@@ -40214,25 +40214,913 @@
         "The IMF says uncertainty remains elevated because of global and domestic risks."
       ],
       "updatedAt": "2026-08-10T18:32:21.473Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Federal Reserve's Main Street Lending Program still held 251 loans beyond their initial maturity dates as of Jan. 5, 2026, according to a Government Accountability Office review.\n\nThe emergency program made 1,830 loans totaling $16.6 billion to eligible small and midsize businesses during the COVID-19 pandemic. The Federal Reserve Bank of Boston administers the portfolio for the central bank system.\n\nSeventy percent of the loans, or 1,277, had been fully repaid by the January snapshot. The 251 loans remaining beyond their initial maturity represented nearly 14% of the total; the other 16% had resulted in losses, GAO said.\n\nThe portfolio had charged off $1.3 billion in loan amounts. It also had sold $1.4 billion in authorized loan amounts back to lenders at a net loss under arrangements used to resolve distressed credits.\n\nMain Street stopped purchasing new loan participations in January 2021, but servicing and resolution continue because some borrowers received modifications and some loans remained unresolved after their original terms ended.\n\nGAO examined the Boston Fed's administration of the program and the Federal Reserve Board's oversight. The review followed earlier work identifying 20 opportunities to improve internal controls over lending, monitoring and reporting.\n\nThe Federal Reserve and Boston Fed had addressed all 20 control opportunities by the time of the new report, and GAO reviewed the actions taken. The report nevertheless says continued oversight is needed while loans remain outstanding or move through recovery.\n\nThe aggregate figures describe the program portfolio, not the financial condition of any named borrower. GAO's public report does not forecast how much of the remaining balance will ultimately be repaid or recovered.\n\nThe loan-status counts are a snapshot as of Jan. 5, 2026. Later payments, modifications, sales or charge-offs can change the totals, and outstanding after maturity does not by itself establish a final loss.",
+      "bodyBlocks": [
+        {
+          "text": "The Federal Reserve's Main Street Lending Program still held 251 loans beyond their initial maturity dates as of Jan. 5, 2026, according to a Government Accountability Office review.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The emergency program made 1,830 loans totaling $16.6 billion to eligible small and midsize businesses during the COVID-19 pandemic. The Federal Reserve Bank of Boston administers the portfolio for the central bank system.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists 1,830 Main Street loans made, 1,277 fully repaid and 251 outstanding beyond initial maturity.",
+          "caption": "The Main Street program made 1,830 loans; 1,277 were fully repaid and 251 remained outstanding beyond initial maturity as of Jan. 5, 2026.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-gao-main-street-loan-status-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108011",
+          "src": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/loan-status/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "Seventy percent of the loans, or 1,277, had been fully repaid by the January snapshot. The 251 loans remaining beyond their initial maturity represented nearly 14% of the total; the other 16% had resulted in losses, GAO said.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The portfolio had charged off $1.3 billion in loan amounts. It also had sold $1.4 billion in authorized loan amounts back to lenders at a net loss under arrangements used to resolve distressed credits.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Main Street stopped purchasing new loan participations in January 2021, but servicing and resolution continue because some borrowers received modifications and some loans remained unresolved after their original terms ended.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO examined the Boston Fed's administration of the program and the Federal Reserve Board's oversight. The review followed earlier work identifying 20 opportunities to improve internal controls over lending, monitoring and reporting.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists 1.3 billion dollars charged off, 1.4 billion dollars in authorized amounts sold back and 20 control opportunities addressed.",
+          "caption": "The program had charged off $1.3 billion and sold $1.4 billion in authorized loan amounts back to lenders at a net loss; all 20 GAO control opportunities were addressed.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-gao-main-street-losses-controls-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108011",
+          "src": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/losses-controls/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "The Federal Reserve and Boston Fed had addressed all 20 control opportunities by the time of the new report, and GAO reviewed the actions taken. The report nevertheless says continued oversight is needed while loans remain outstanding or move through recovery.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The aggregate figures describe the program portfolio, not the financial condition of any named borrower. GAO's public report does not forecast how much of the remaining balance will ultimately be repaid or recovered.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The loan-status counts are a snapshot as of Jan. 5, 2026. Later payments, modifications, sales or charge-offs can change the totals, and outstanding after maturity does not by itself establish a final loss.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/main-street-lending-251-loans-outstanding-after-maturity/",
+      "citations": [
+        {
+          "id": "source-gao-main-street-lending-20260617",
+          "publishedAt": "2026-06-17T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Federal Reserve Lending Programs: Main Street Program Continues to Hold Outstanding Loans Beyond Initial Maturity Dates",
+          "url": "https://www.gao.gov/products/gao-26-108011"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The program made 1,830 loans totaling $16.6 billion.",
+        "A total of 1,277 loans were fully repaid as of Jan. 5, 2026.",
+        "Two hundred fifty-one loans remained outstanding beyond initial maturity.",
+        "The program had charged off $1.3 billion in loan amounts.",
+        "All 20 internal-control opportunities identified by GAO had been addressed."
+      ],
+      "corrections": [],
+      "dek": "GAO found the Federal Reserve program still held 251 loans beyond their initial maturity dates as of Jan. 5, 2026.",
+      "desk": "emergency-lending-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Board of Governors of the Federal Reserve System",
+        "Federal Reserve Bank of Boston",
+        "Main Street Lending Program"
+      ],
+      "eventId": "event-main-street-lending-251-loans-outstanding-after-maturity",
+      "headline": "251 Main Street Loans Remained Past Maturity",
+      "id": "article-main-street-lending-251-loans-outstanding-after-maturity",
+      "leadImage": {
+        "alt": "The tall concrete Federal Reserve Bank of Boston tower rises above a downtown intersection under a blue sky.",
+        "caption": "The Federal Reserve Bank of Boston building in 2017. The Boston Fed administers the Main Street Lending Program, which still held 251 loans beyond their initial maturity dates in early 2026.",
+        "credit": "Beyond My Ken / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-gao-main-street-boston-fed-building-2017",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/boston-fed/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Boston, Massachusetts"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-10T19:35:17.829Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260810t184820z-eaca183241d2",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO found 251 Main Street Lending Program loans remained outstanding beyond initial maturity as of Jan. 5, 2026.",
+        "index": true,
+        "title": "251 Main Street loans remained past maturity"
+      },
+      "section": "investigations",
+      "slug": "main-street-lending-251-loans-outstanding-after-maturity",
+      "social": {
+        "description": "GAO found the Federal Reserve program still held 251 loans beyond their initial maturity dates as of Jan. 5, 2026.",
+        "image": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/boston-fed/open-graph.webp",
+        "title": "251 Main Street Loans Remained Past Maturity"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Emergency lending",
+        "Main Street Lending Program",
+        "Loan performance",
+        "Federal Reserve",
+        "GAO oversight"
+      ],
+      "uncertainty": [
+        "Loan-status figures are a snapshot as of Jan. 5, 2026 and can change with later servicing activity.",
+        "Outstanding after maturity does not establish the amount that will ultimately be repaid, recovered or lost."
+      ],
+      "updatedAt": "2026-08-10T19:35:17.829Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal courts sentenced 718 people for credit-card and other financial-instrument fraud in fiscal 2025, according to the United States Sentencing Commission's latest offense profile.\n\nThe cases represented about 1.1% of the 66,662 federal cases reported to the Commission. The offense count was down 8% from fiscal 2021, when the comparable category included 777 cases.\n\nThe median loss was $152,596. Fifteen percent of cases involved less than $15,000, while 27% involved more than $550,000.\n\nThe Commission defines the category to include fraudulent activity involving credit cards, debit cards, checks, bank accounts or non-mortgage loans sentenced under the main theft-and-fraud guideline. It is broader than the stand-alone credit-card category used before fiscal 2020.\n\nThe average sentence imposed was 28 months, and 95% of sentenced individuals received prison terms. Twenty percent were convicted of an offense carrying a mandatory minimum; 15% of that group received relief from the penalty.\n\nHalf of the cases received a sentence increase tied to the number of victims or extent of harm. Unauthorized identification affected 39%, sophisticated means 21% and a leadership or supervisory role 13%.\n\nForty-five percent of sentences were within the guideline range. Thirteen percent were substantial-assistance departures, 38% were downward variances and 2% were upward variances.\n\nThe data describes completed federal sentencing outcomes, not arrests, unresolved allegations, state prosecutions or victim reports. Cases with incomplete sentencing information were excluded from the Commission's analysis.\n\nAggregate loss and sentence figures do not predict any individual case. Conduct, criminal history, guideline findings, statutory penalties, cooperation and judicial decisions vary by defendant.",
+      "bodyBlocks": [
+        {
+          "text": "Federal courts sentenced 718 people for credit-card and other financial-instrument fraud in fiscal 2025, according to the United States Sentencing Commission's latest offense profile.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The cases represented about 1.1% of the 66,662 federal cases reported to the Commission. The offense count was down 8% from fiscal 2021, when the comparable category included 777 cases.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists 718 federal financial-instrument fraud cases and a median loss of 152,596 dollars.",
+          "caption": "The Commission counted 718 cases and a median loss of $152,596 in fiscal 2025.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-ussc-financial-fraud-cases-loss-fy2025",
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/credit-card-and-other-financial-instrument-fraud",
+          "src": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/cases-loss/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "The median loss was $152,596. Fifteen percent of cases involved less than $15,000, while 27% involved more than $550,000.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Commission defines the category to include fraudulent activity involving credit cards, debit cards, checks, bank accounts or non-mortgage loans sentenced under the main theft-and-fraud guideline. It is broader than the stand-alone credit-card category used before fiscal 2020.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The average sentence imposed was 28 months, and 95% of sentenced individuals received prison terms. Twenty percent were convicted of an offense carrying a mandatory minimum; 15% of that group received relief from the penalty.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Half of the cases received a sentence increase tied to the number of victims or extent of harm. Unauthorized identification affected 39%, sophisticated means 21% and a leadership or supervisory role 13%.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists an average sentence of 28 months and a prison sentence rate of 95 percent.",
+          "caption": "The average sentence was 28 months, and 95% of defendants received a prison term.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-ussc-financial-fraud-sentences-fy2025",
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/credit-card-and-other-financial-instrument-fraud",
+          "src": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/sentences/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "Forty-five percent of sentences were within the guideline range. Thirteen percent were substantial-assistance departures, 38% were downward variances and 2% were upward variances.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The data describes completed federal sentencing outcomes, not arrests, unresolved allegations, state prosecutions or victim reports. Cases with incomplete sentencing information were excluded from the Commission's analysis.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Aggregate loss and sentence figures do not predict any individual case. Conduct, criminal history, guideline findings, statutory penalties, cooperation and judicial decisions vary by defendant.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/credit-card-financial-fraud-718-federal-sentences-fy2025/",
+      "citations": [
+        {
+          "id": "source-ussc-credit-card-financial-fraud-fy2025",
+          "publishedAt": "2026-06-01T12:00:00Z",
+          "publisher": "United States Sentencing Commission",
+          "title": "Credit Card and Other Financial Instrument Fraud: Fiscal Year 2025 Quick Facts",
+          "url": "https://www.ussc.gov/research/quick-facts/credit-card-and-other-financial-instrument-fraud"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The Commission reported 718 financial-instrument fraud cases in fiscal 2025.",
+        "The category declined 8% from fiscal 2021.",
+        "The median loss was $152,596.",
+        "The average sentence was 28 months.",
+        "Ninety-five percent of sentenced individuals received prison terms."
+      ],
+      "corrections": [],
+      "dek": "Sentencing Commission data puts the median loss at $152,596 and the average prison term at 28 months.",
+      "desk": "financial-instrument-fraud-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Sentencing Commission",
+        "United States Courts"
+      ],
+      "eventId": "event-credit-card-financial-fraud-718-federal-sentences-fy2025",
+      "headline": "Federal Courts Sentenced 718 Financial-Instrument Fraud Cases in 2025",
+      "id": "article-credit-card-financial-fraud-718-federal-sentences-fy2025",
+      "leadImage": {
+        "alt": "A broad stone United States courthouse with tall columns and steps on a sunny street corner in Davenport, Iowa.",
+        "caption": "The federal courthouse in Davenport, Iowa. The Sentencing Commission counted 718 credit-card and other financial-instrument fraud cases in fiscal 2025.",
+        "credit": "Carol M. Highsmith / Library of Congress",
+        "height": 900,
+        "rightsId": "media-ussc-financial-fraud-davenport-courthouse-2010",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/davenport-courthouse/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Davenport, Iowa"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-10T19:35:17.829Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260810t184820z-eaca183241d2",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "USSC counted 718 credit-card and financial-instrument fraud cases in FY2025, with a $152,596 median loss and 28-month average sentence.",
+        "index": true,
+        "title": "Federal courts sentenced 718 financial-fraud cases"
+      },
+      "section": "crime-justice",
+      "slug": "credit-card-financial-fraud-718-federal-sentences-fy2025",
+      "social": {
+        "description": "Sentencing Commission data puts the median loss at $152,596 and the average prison term at 28 months.",
+        "image": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/davenport-courthouse/open-graph.webp",
+        "title": "Federal Courts Sentenced 718 Financial-Instrument Fraud Cases in 2025"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal sentencing",
+        "Financial fraud",
+        "Credit card fraud",
+        "Sentencing guidelines",
+        "Economic crime"
+      ],
+      "uncertainty": [
+        "Cases with incomplete sentencing information were excluded from the analysis.",
+        "The category changed in fiscal 2020 and is not comparable with earlier stand-alone credit-card fraud data."
+      ],
+      "updatedAt": "2026-08-10T19:35:17.829Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The National Museum of American History has spread a single exhibition across all three public floors, using 250 objects and 250,000 square feet to examine how Americans have pursued life, liberty and happiness.\n\n‘In Pursuit of Life, Liberty & Happiness’ opened May 14 and remains on view through the end of 2026. The title rearranges the Declaration of Independence's familiar phrase to emphasize pursuit across generations.\n\nThe museum says 76 of the selected objects are being displayed for the first time or are rarely shown. Cases in the first- and second-floor entry halls connect with artifacts already installed throughout permanent galleries.\n\nThe selection ranges from Thomas Jefferson's writing desk and the Star-Spangled Banner to an 18th-century gunboat, an Earth Day flag, gloves from the 1980 U.S. Olympic hockey team and a hard hat used after the Sept. 11 attacks.\n\nSome objects are available only for limited periods because of conservation and loan requirements. Jefferson's desk, for example, moved to the Smithsonian Castle's ‘American Aspirations’ exhibition from June 2 through July 26.\n\nA free guidebook helps visitors locate the 250 artifacts, while the museum's digital project provides the stories behind them for people who cannot follow the full in-building route.\n\nCurators organized the exhibition around contested and evolving attempts to realize the founding document's ideals rather than presenting a single chronological gallery. Everyday objects sit alongside nationally recognized artifacts.\n\nThe museum is open without admission charge, but individual displays and visitor access can change. The institution advises checking its current visitor information before traveling.\n\nThe exhibition's scale is a curatorial framework, not a claim that 250 objects can represent every American experience. Its stated aim is to invite comparison among aspirations fulfilled, deferred and reinterpreted over time.",
+      "bodyBlocks": [
+        {
+          "text": "The National Museum of American History has spread a single exhibition across all three public floors, using 250 objects and 250,000 square feet to examine how Americans have pursued life, liberty and happiness.",
+          "type": "paragraph"
+        },
+        {
+          "text": "‘In Pursuit of Life, Liberty & Happiness’ opened May 14 and remains on view through the end of 2026. The title rearranges the Declaration of Independence's familiar phrase to emphasize pursuit across generations.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists 250 objects, 250,000 square feet and three public floors.",
+          "caption": "The museum-wide exhibition uses 250 objects across 250,000 square feet and all three public floors.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-smithsonian-in-pursuit-scale-2026",
+          "sourceUrl": "https://americanhistory.si.edu/press/releases/in-pursuit-may-14",
+          "src": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/scale/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "The museum says 76 of the selected objects are being displayed for the first time or are rarely shown. Cases in the first- and second-floor entry halls connect with artifacts already installed throughout permanent galleries.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The selection ranges from Thomas Jefferson's writing desk and the Star-Spangled Banner to an 18th-century gunboat, an Earth Day flag, gloves from the 1980 U.S. Olympic hockey team and a hard hat used after the Sept. 11 attacks.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Some objects are available only for limited periods because of conservation and loan requirements. Jefferson's desk, for example, moved to the Smithsonian Castle's ‘American Aspirations’ exhibition from June 2 through July 26.",
+          "type": "paragraph"
+        },
+        {
+          "text": "A free guidebook helps visitors locate the 250 artifacts, while the museum's digital project provides the stories behind them for people who cannot follow the full in-building route.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists 76 newly or rarely displayed objects and an exhibition run through the end of 2026.",
+          "caption": "Seventy-six objects are newly displayed or rarely shown; the exhibition remains on view through the end of 2026.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-smithsonian-in-pursuit-object-access-2026",
+          "sourceUrl": "https://americanhistory.si.edu/press/releases/in-pursuit-may-14",
+          "src": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/object-access/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "Curators organized the exhibition around contested and evolving attempts to realize the founding document's ideals rather than presenting a single chronological gallery. Everyday objects sit alongside nationally recognized artifacts.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The museum is open without admission charge, but individual displays and visitor access can change. The institution advises checking its current visitor information before traveling.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The exhibition's scale is a curatorial framework, not a claim that 250 objects can represent every American experience. Its stated aim is to invite comparison among aspirations fulfilled, deferred and reinterpreted over time.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/smithsonian-in-pursuit-250-objects-exhibition-2026/",
+      "citations": [
+        {
+          "id": "source-smithsonian-in-pursuit-exhibition-20260323",
+          "publishedAt": "2026-03-23T12:00:00Z",
+          "publisher": "National Museum of American History",
+          "title": "National Museum of American History Commemorates the 250th With an Exhibition That Spans the Entire Museum",
+          "url": "https://americanhistory.si.edu/press/releases/in-pursuit-may-14"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The exhibition opened May 14, 2026.",
+        "It includes 250 objects across 250,000 square feet.",
+        "Objects are distributed across all three public floors.",
+        "Seventy-six objects are newly displayed or rarely shown.",
+        "The exhibition is scheduled to remain through the end of 2026."
+      ],
+      "corrections": [],
+      "dek": "The National Museum of American History has turned 250,000 square feet into a yearlong exploration of life, liberty and happiness.",
+      "desk": "museum-wide-exhibitions",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Museum of American History",
+        "Smithsonian Institution"
+      ],
+      "eventId": "event-smithsonian-in-pursuit-250-objects-exhibition-2026",
+      "headline": "Smithsonian’s ‘In Pursuit’ Exhibition Spans 250 Objects and Three Floors",
+      "id": "article-smithsonian-in-pursuit-250-objects-exhibition-2026",
+      "leadImage": {
+        "alt": "An aerial view of the rectangular National Museum of American History beside trees and federal buildings on the National Mall.",
+        "caption": "The National Museum of American History on the National Mall. Its 2026 ‘In Pursuit’ exhibition places 250 objects across all three public floors.",
+        "credit": "Carol M. Highsmith / Library of Congress",
+        "height": 900,
+        "rightsId": "media-smithsonian-in-pursuit-nmah-aerial-highsmith",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/nmah-aerial/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C.",
+        "National Mall"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-10T19:35:17.829Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260810t184820z-eaca183241d2",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The National Museum of American History’s ‘In Pursuit’ exhibition uses 250 objects across 250,000 square feet and all three floors.",
+        "index": true,
+        "title": "Smithsonian ‘In Pursuit’ spans 250 objects"
+      },
+      "section": "culture",
+      "slug": "smithsonian-in-pursuit-250-objects-exhibition-2026",
+      "social": {
+        "description": "The National Museum of American History has turned 250,000 square feet into a yearlong exploration of life, liberty and happiness.",
+        "image": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/nmah-aerial/open-graph.webp",
+        "title": "Smithsonian’s ‘In Pursuit’ Exhibition Spans 250 Objects and Three Floors"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Smithsonian Institution",
+        "Museum exhibitions",
+        "American history",
+        "United States 250th",
+        "Material culture"
+      ],
+      "uncertainty": [
+        "Some individual artifacts are displayed only for limited periods because of conservation or loan requirements.",
+        "Visitor access and object locations can change after the museum's announcement."
+      ],
+      "updatedAt": "2026-08-10T19:35:17.829Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Adults with prediabetes assigned to an intensive lifestyle program had a lower long-term risk of developing multiple chronic conditions than those assigned to placebo, an NIH-supported clinical trial found.\n\nThe analysis followed 1,173 participants from 27 U.S. sites who consented to link their study records with Medicare claims. Participants entered the original Diabetes Prevention Program from 1996 to 1999 and were followed through 2021.\n\nCompared with placebo, the lifestyle group had a 21% lower risk of developing two chronic conditions and a 25% lower risk of developing three. The results persisted when diabetes was removed from the definition.\n\nBy the end of follow-up, 82% of lifestyle participants, 85% of metformin participants and 87% of placebo participants had at least two of the 15 tracked conditions.\n\nThe original lifestyle program used 16 individual sessions, then monthly sessions for about two years. It targeted reduced calories and fat, at least 150 minutes of weekly physical activity and weight loss of at least 7% from baseline.\n\nParticipants assigned to metformin did not have a statistically significant reduction in multimorbidity risk compared with placebo. That finding concerns the multiple-condition outcome and does not erase prior evidence that metformin can delay diabetes in some high-risk adults.\n\nThe 15 conditions included hypertension, heart disease, stroke, arthritis, chronic kidney disease, chronic obstructive pulmonary disease, cancer, depression, dementia, osteoporosis and diabetes.\n\nAfter the original trial, every group was offered lifestyle education, which may have reduced differences among the randomized groups. The Medicare-linked analysis also represents participants who survived, enrolled in Medicare and consented to the linkage.\n\nThe study supports population-level prevention programs; it is not individualized medical advice. People considering changes to activity, diet or medication should discuss their circumstances with a qualified clinician.",
+      "bodyBlocks": [
+        {
+          "text": "Adults with prediabetes assigned to an intensive lifestyle program had a lower long-term risk of developing multiple chronic conditions than those assigned to placebo, an NIH-supported clinical trial found.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The analysis followed 1,173 participants from 27 U.S. sites who consented to link their study records with Medicare claims. Participants entered the original Diabetes Prevention Program from 1996 to 1999 and were followed through 2021.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists 21 percent lower risk for two chronic conditions and 25 percent lower risk for three conditions.",
+          "caption": "Compared with placebo, the lifestyle group had 21% lower risk of two chronic conditions and 25% lower risk of three.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-nih-prediabetes-multimorbidity-risk-2026",
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/adults-prediabetes-lifestyle-intervention-lowered-risk-developing-multiple-chronic-conditions",
+          "src": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/risk/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "Compared with placebo, the lifestyle group had a 21% lower risk of developing two chronic conditions and a 25% lower risk of developing three. The results persisted when diabetes was removed from the definition.",
+          "type": "paragraph"
+        },
+        {
+          "text": "By the end of follow-up, 82% of lifestyle participants, 85% of metformin participants and 87% of placebo participants had at least two of the 15 tracked conditions.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The original lifestyle program used 16 individual sessions, then monthly sessions for about two years. It targeted reduced calories and fat, at least 150 minutes of weekly physical activity and weight loss of at least 7% from baseline.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Participants assigned to metformin did not have a statistically significant reduction in multimorbidity risk compared with placebo. That finding concerns the multiple-condition outcome and does not erase prior evidence that metformin can delay diabetes in some high-risk adults.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists 1,173 participants, 27 sites and follow-up through 2021.",
+          "caption": "The analysis linked 1,173 participants at 27 U.S. sites to Medicare claims and followed outcomes through 2021.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-nih-prediabetes-trial-design-2026",
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/adults-prediabetes-lifestyle-intervention-lowered-risk-developing-multiple-chronic-conditions",
+          "src": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/trial-design/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "The 15 conditions included hypertension, heart disease, stroke, arthritis, chronic kidney disease, chronic obstructive pulmonary disease, cancer, depression, dementia, osteoporosis and diabetes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "After the original trial, every group was offered lifestyle education, which may have reduced differences among the randomized groups. The Medicare-linked analysis also represents participants who survived, enrolled in Medicare and consented to the linkage.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The study supports population-level prevention programs; it is not individualized medical advice. People considering changes to activity, diet or medication should discuss their circumstances with a qualified clinician.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/prediabetes-lifestyle-intervention-lowered-multimorbidity-risk/",
+      "citations": [
+        {
+          "id": "source-nih-prediabetes-multimorbidity-20260615",
+          "publishedAt": "2026-06-15T12:00:00Z",
+          "publisher": "National Institutes of Health",
+          "title": "For adults with prediabetes, lifestyle intervention lowered risk of developing multiple chronic conditions",
+          "url": "https://www.nih.gov/news-events/news-releases/adults-prediabetes-lifestyle-intervention-lowered-risk-developing-multiple-chronic-conditions"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The analysis included 1,173 participants from 27 U.S. sites.",
+        "Participants were followed through 2021.",
+        "The lifestyle group had 21% lower risk of two chronic conditions.",
+        "The lifestyle group had 25% lower risk of three chronic conditions.",
+        "Metformin did not significantly reduce multimorbidity risk compared with placebo."
+      ],
+      "corrections": [],
+      "dek": "A 1,173-person NIH trial found a 21% lower risk of developing two chronic conditions; metformin did not significantly reduce that outcome.",
+      "desk": "prediabetes-prevention-research",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institutes of Health",
+        "National Institute on Aging",
+        "National Institute of Diabetes and Digestive and Kidney Diseases",
+        "JAMA"
+      ],
+      "eventId": "event-prediabetes-lifestyle-intervention-lowered-multimorbidity-risk",
+      "headline": "Prediabetes Lifestyle Program Cut Risk of Multiple Chronic Conditions",
+      "id": "article-prediabetes-lifestyle-intervention-lowered-multimorbidity-risk",
+      "leadImage": {
+        "alt": "A person pedals a stationary exercise bike while wearing monitoring equipment in a bright clinical research room.",
+        "caption": "A participant uses an exercise bike in the NIH Clinical Center's Metabolic Clinical Research Unit. A long-term NIH trial found lasting benefits from a diet-and-activity lifestyle program for adults with prediabetes.",
+        "credit": "NIDDK / National Institutes of Health",
+        "height": 900,
+        "rightsId": "media-nih-prediabetes-exercise-bike-clinical-center",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/exercise-bike/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-10T19:35:17.829Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260810t184820z-eaca183241d2",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "An NIH trial of 1,173 adults found lifestyle intervention lowered the risk of developing two chronic conditions by 21% versus placebo.",
+        "index": true,
+        "title": "Prediabetes lifestyle program cut multimorbidity risk"
+      },
+      "section": "health-science",
+      "slug": "prediabetes-lifestyle-intervention-lowered-multimorbidity-risk",
+      "social": {
+        "description": "A 1,173-person NIH trial found a 21% lower risk of developing two chronic conditions; metformin did not significantly reduce that outcome.",
+        "image": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/exercise-bike/open-graph.webp",
+        "title": "Prediabetes Lifestyle Program Cut Risk of Multiple Chronic Conditions"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Prediabetes",
+        "Lifestyle intervention",
+        "Chronic disease",
+        "Clinical trials",
+        "Preventive health"
+      ],
+      "uncertainty": [
+        "All groups received lifestyle education after the original randomized trial, which may have narrowed later differences.",
+        "The Medicare-linked cohort does not necessarily represent every adult with prediabetes."
+      ],
+      "updatedAt": "2026-08-10T19:35:17.829Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "World Athletics expects about 60% of competitors at the 2027 world championships in Beijing to qualify through world rankings and about 40% by meeting entry standards.\n\nThat reverses the previous 50-50 design. The governing body says the rankings now give more weight to performance scores and less to placing scores, an adjustment intended to reduce disadvantages for athletes with limited access to high-category meetings.\n\nAthletes in individual events can qualify in four ways: achieving the entry standard, earning a designated finishing position, receiving an eligible wild card or holding a high enough world-ranking position when the period closes.\n\nThe marathon window runs from Nov. 3, 2025, through May 2, 2027. The 10,000 meters, race walks, combined events and relays run from Feb. 23, 2026, through Aug. 22, 2027; most other disciplines run from Aug. 23, 2026, through Aug. 22, 2027.\n\nEntry-standard marks generally must come from category C competitions or above. World Athletics will also accept 5-kilometer and 10-kilometer performances from Label road races for the corresponding track standards, and Label marathons for the marathon standard.\n\nArea champions can be treated as qualified in individual events other than marathons if no other qualified athlete from the same area is entered in that event. Certain leading finishes at Platinum and Gold Label marathons also provide a route.\n\nWild cards cover 2025 defending world champions and specified winners from the 2026 Ultimate Championship, tour series and the 2027 Diamond League. Member federations still control selection and may have to choose among multiple wild-card holders in one event.\n\nFor each relay discipline, the first 12 teams from the 2026 World Relays in Gaborone qualified automatically. Four additional places will go to the highest-ranked teams at the end of the qualification period.\n\nMeeting an entry standard or ranking threshold makes an athlete eligible under the global system; it does not guarantee national-team selection. Federations may apply their own selection policies within World Athletics' entry rules.",
+      "bodyBlocks": [
+        {
+          "text": "World Athletics expects about 60% of competitors at the 2027 world championships in Beijing to qualify through world rankings and about 40% by meeting entry standards.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That reverses the previous 50-50 design. The governing body says the rankings now give more weight to performance scores and less to placing scores, an adjustment intended to reduce disadvantages for athletes with limited access to high-category meetings.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic compares a 60 percent world-ranking route with a 40 percent entry-standard route.",
+          "caption": "World Athletics expects roughly 60% of competitors to qualify through rankings and 40% through entry standards.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-world-athletics-qualification-split-2027",
+          "sourceUrl": "https://worldathletics.org/competitions/world-athletics-championships/beijing27/news/press-releases/qualification-system-world-athletics-championships-beijing-27",
+          "src": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/split/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "Athletes in individual events can qualify in four ways: achieving the entry standard, earning a designated finishing position, receiving an eligible wild card or holding a high enough world-ranking position when the period closes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The marathon window runs from Nov. 3, 2025, through May 2, 2027. The 10,000 meters, race walks, combined events and relays run from Feb. 23, 2026, through Aug. 22, 2027; most other disciplines run from Aug. 23, 2026, through Aug. 22, 2027.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Entry-standard marks generally must come from category C competitions or above. World Athletics will also accept 5-kilometer and 10-kilometer performances from Label road races for the corresponding track standards, and Label marathons for the marathon standard.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Area champions can be treated as qualified in individual events other than marathons if no other qualified athlete from the same area is entered in that event. Certain leading finishes at Platinum and Gold Label marathons also provide a route.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists a May 2, 2027 marathon deadline and an August 22, 2027 deadline for most disciplines.",
+          "caption": "The marathon window ends May 2, 2027; most other disciplines run through Aug. 22, 2027.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-world-athletics-qualification-windows-2027",
+          "sourceUrl": "https://worldathletics.org/competitions/world-athletics-championships/beijing27/news/press-releases/qualification-system-world-athletics-championships-beijing-27",
+          "src": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/windows/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "Wild cards cover 2025 defending world champions and specified winners from the 2026 Ultimate Championship, tour series and the 2027 Diamond League. Member federations still control selection and may have to choose among multiple wild-card holders in one event.",
+          "type": "paragraph"
+        },
+        {
+          "text": "For each relay discipline, the first 12 teams from the 2026 World Relays in Gaborone qualified automatically. Four additional places will go to the highest-ranked teams at the end of the qualification period.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Meeting an entry standard or ranking threshold makes an athlete eligible under the global system; it does not guarantee national-team selection. Federations may apply their own selection policies within World Athletics' entry rules.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/beijing-2027-world-athletics-qualification-standards/",
+      "citations": [
+        {
+          "id": "source-world-athletics-beijing-2027-qualification-20260526",
+          "publishedAt": "2026-05-26T12:00:00Z",
+          "publisher": "World Athletics",
+          "title": "Qualification system approved for World Athletics Championships Beijing 27",
+          "url": "https://worldathletics.org/competitions/world-athletics-championships/beijing27/news/press-releases/qualification-system-world-athletics-championships-beijing-27"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "World Athletics targets about 60% qualification through rankings and 40% through standards.",
+        "There are four qualification routes for individual events.",
+        "The marathon window ends May 2, 2027.",
+        "Most other disciplines close Aug. 22, 2027.",
+        "Twelve relay teams per discipline qualified at the 2026 World Relays, with four more places available."
+      ],
+      "corrections": [],
+      "dek": "World Athletics targets a 60%-40% split between rankings and entry standards, with four routes available for individual events.",
+      "desk": "world-championship-qualification",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Athletics",
+        "World Athletics Council",
+        "World Athletics Championships Beijing 27"
+      ],
+      "eventId": "event-beijing-2027-world-athletics-qualification-standards",
+      "headline": "Beijing 2027 Will Qualify Most Athletes Through World Rankings",
+      "id": "article-beijing-2027-world-athletics-qualification-standards",
+      "leadImage": {
+        "alt": "A group of middle-distance runners rounds a bend on an outdoor track during the United States Olympic trials.",
+        "caption": "Athletes contest the 800 meters at the U.S. Olympic trials in 2021. World Athletics has set a rankings-led qualification system for the 2027 world championships in Beijing.",
+        "credit": "jenaragon94 / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-world-athletics-qualification-us-trials-800m-2021",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/track-race/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Beijing, China",
+        "Gaborone, Botswana"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-10T19:35:17.829Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260810t184820z-eaca183241d2",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "World Athletics expects 60% of Beijing 2027 competitors to qualify through rankings and 40% through entry standards.",
+        "index": true,
+        "title": "Beijing 2027 qualification will lean on rankings"
+      },
+      "section": "sports",
+      "slug": "beijing-2027-world-athletics-qualification-standards",
+      "social": {
+        "description": "World Athletics targets a 60%-40% split between rankings and entry standards, with four routes available for individual events.",
+        "image": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/track-race/open-graph.webp",
+        "title": "Beijing 2027 Will Qualify Most Athletes Through World Rankings"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "World Athletics Championships",
+        "Beijing 2027",
+        "Athlete qualification",
+        "World rankings",
+        "Track and field"
+      ],
+      "uncertainty": [
+        "The 60%-40% split is an objective, not a guaranteed final distribution.",
+        "Eligibility under the global rules does not guarantee selection by a member federation."
+      ],
+      "updatedAt": "2026-08-10T19:35:17.829Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal excise taxes generated $106 billion in 2025, about 2% of all federal revenue and 0.3% of gross domestic product, according to a Congressional Budget Office review released Aug. 3.\n\nEighty-eight percent came from four broad sources: highway taxes, mainly on fuel; tobacco and alcohol taxes; aviation taxes; and the 1% tax on stock repurchases by certain publicly traded corporations.\n\nExcise taxes apply to the production or purchase of particular goods and services rather than income. The remainder came from a varied group that includes environmental, communications, insurance and other levies.\n\nAbout 70% of receipts were dedicated to trust funds. Gasoline and diesel taxes, for example, feed the Highway Trust Fund for road and transit spending; other excise receipts flow to the Treasury's general fund.\n\nCBO projects excise receipts will decline relative to the economy and total federal revenue from 2026 through 2036. A central reason is that several of the largest taxes are fixed per unit and do not automatically rise with inflation.\n\nUnder CBO's baseline convention, expiring excise taxes dedicated to trust funds are assumed to continue at their expiring rates through the 10-year projection period. That statutory baseline rule is not a forecast that Congress will enact an extension.\n\nCBO models each tax separately using historical collections and economic or market data for the activity being taxed. Its projections therefore depend on future fuel use, travel, product sales, prices and other behavior.\n\nThe $106 billion figure is observed revenue for fiscal 2025. The report's longer-run path is a baseline under current-law conventions, not a revenue target or a policy recommendation.\n\nChanges in law, consumption, technology or economic growth can shift both the amount collected and the finances of trust funds supported by excise taxes.",
+      "bodyBlocks": [
+        {
+          "text": "Federal excise taxes generated $106 billion in 2025, about 2% of all federal revenue and 0.3% of gross domestic product, according to a Congressional Budget Office review released Aug. 3.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Eighty-eight percent came from four broad sources: highway taxes, mainly on fuel; tobacco and alcohol taxes; aviation taxes; and the 1% tax on stock repurchases by certain publicly traded corporations.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists 106 billion dollars in excise tax revenue, 2 percent of federal revenue and 0.3 percent of GDP.",
+          "caption": "Excise taxes raised $106 billion in 2025, equal to about 2% of federal revenue and 0.3% of GDP.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-cbo-excise-tax-revenue-share-2025",
+          "sourceUrl": "https://www.cbo.gov/publication/61945",
+          "src": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/revenue-share/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "Excise taxes apply to the production or purchase of particular goods and services rather than income. The remainder came from a varied group that includes environmental, communications, insurance and other levies.",
+          "type": "paragraph"
+        },
+        {
+          "text": "About 70% of receipts were dedicated to trust funds. Gasoline and diesel taxes, for example, feed the Highway Trust Fund for road and transit spending; other excise receipts flow to the Treasury's general fund.",
+          "type": "paragraph"
+        },
+        {
+          "text": "CBO projects excise receipts will decline relative to the economy and total federal revenue from 2026 through 2036. A central reason is that several of the largest taxes are fixed per unit and do not automatically rise with inflation.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Under CBO's baseline convention, expiring excise taxes dedicated to trust funds are assumed to continue at their expiring rates through the 10-year projection period. That statutory baseline rule is not a forecast that Congress will enact an extension.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Graphic lists an 88 percent share from four major sources and about 70 percent dedicated to trust funds.",
+          "caption": "Four major source groups produced 88% of receipts, and roughly 70% of total excise revenue was dedicated to trust funds.",
+          "credit": "Boho News graphic from cited primary data",
+          "height": 900,
+          "rightsId": "media-cbo-excise-tax-sources-trust-funds-2025",
+          "sourceUrl": "https://www.cbo.gov/publication/61945",
+          "src": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/sources-trusts/four-three.webp",
+          "type": "media",
+          "width": 1200
+        },
+        {
+          "text": "CBO models each tax separately using historical collections and economic or market data for the activity being taxed. Its projections therefore depend on future fuel use, travel, product sales, prices and other behavior.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The $106 billion figure is observed revenue for fiscal 2025. The report's longer-run path is a baseline under current-law conventions, not a revenue target or a policy recommendation.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Changes in law, consumption, technology or economic growth can shift both the amount collected and the finances of trust funds supported by excise taxes.",
+          "type": "paragraph"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-excise-tax-revenue-106-billion-2025/",
+      "citations": [
+        {
+          "id": "source-cbo-federal-excise-tax-revenues-20260803",
+          "publishedAt": "2026-08-03T12:00:00Z",
+          "publisher": "Congressional Budget Office",
+          "title": "Federal Excise Tax Revenues",
+          "url": "https://www.cbo.gov/publication/61945"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Federal excise taxes raised $106 billion in fiscal 2025.",
+        "That was about 2% of federal revenues and 0.3% of GDP.",
+        "Four source groups accounted for 88% of receipts.",
+        "About 70% of excise tax revenue was dedicated to trust funds.",
+        "CBO projects the receipts will decline relative to the economy through 2036."
+      ],
+      "corrections": [],
+      "dek": "CBO says highway, aviation, tobacco and alcohol, and stock-buyback taxes produced 88% of 2025 receipts.",
+      "desk": "federal-tax-policy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Congressional Budget Office",
+        "United States Treasury",
+        "Highway Trust Fund"
+      ],
+      "eventId": "event-federal-excise-tax-revenue-106-billion-2025",
+      "headline": "Federal Excise Taxes Raised $106 Billion, Mostly From Four Sources",
+      "id": "article-federal-excise-tax-revenue-106-billion-2025",
+      "leadImage": {
+        "alt": "A historic view of the United States Treasury Building and its long colonnade beside a broad Washington street.",
+        "caption": "The U.S. Treasury Building in 1901. Federal excise taxes produced $106 billion in 2025, according to a new Congressional Budget Office review.",
+        "credit": "Detroit Publishing Company / Library of Congress",
+        "height": 900,
+        "rightsId": "media-cbo-excise-taxes-treasury-building-1901",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/treasury-building/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": "2026-08-10T19:35:17.829Z",
+      "relatedArticleIds": [],
+      "releaseId": "release-pb-20260810t184820z-eaca183241d2",
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "CBO says federal excise taxes raised $106 billion in 2025, with 88% from four source groups and about 70% dedicated to trust funds.",
+        "index": true,
+        "title": "Federal excise taxes raised $106 billion in 2025"
+      },
+      "section": "politics",
+      "slug": "federal-excise-tax-revenue-106-billion-2025",
+      "social": {
+        "description": "CBO says highway, aviation, tobacco and alcohol, and stock-buyback taxes produced 88% of 2025 receipts.",
+        "image": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/treasury-building/open-graph.webp",
+        "title": "Federal Excise Taxes Raised $106 Billion, Mostly From Four Sources"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal excise taxes",
+        "Tax policy",
+        "Trust funds",
+        "Highway funding",
+        "Congressional Budget Office"
+      ],
+      "uncertainty": [
+        "CBO's 2026-2036 figures are baseline projections under current-law conventions, not observed outcomes.",
+        "The convention that trust-fund excise taxes continue after expiration is not a forecast of congressional action."
+      ],
+      "updatedAt": "2026-08-10T19:35:17.829Z"
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-10T18:33:18.778Z",
+  "generatedAt": "2026-08-10T19:35:57.066Z",
   "inputHashes": {
     "approvals": "b261baf03d758b449bee8e3c4ee48e54f248f4a9a38caef3e0279bfebf17df26",
-    "articles": "06b3ad93553f7b3cb099331f130b2469e0b8dc6d3368da144754a3326dfc7ddd",
-    "claims": "54ba7590f06b2ffb5104f6d35ca63f977ea98cddfb09bdffdcb225342a2a62b6",
+    "articles": "2de54de03a9a09e2b4c5a450e2a7cc5ca129dac2c2611d24b68ef2aaa4f0d2e4",
+    "claims": "d407b78fa101561d24c5fd5cc45569ebe764a8395c6aa5103c6711ec67af9826",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "7980e575834ffad349dd44d9853f353c6651ea7e5c2a20587f640bb7ccafcf23",
-    "mediaRights": "3deb90433f3fc0190e35f4435eb71340ce4aaadf2676989f7a7581f83750db8f",
-    "publicationIntents": "3c8f269defb1348779b4de90b8ccc435687f7fd9e09abd54ec5808ea074bfc52",
-    "releaseRecords": "50b0f4f7ff67b82a35ab2fc52a3b54518e2df80ccf3d259fe6819929ee104a0c",
-    "sourceItems": "48c25f382a980ba7b5b80e8fb0b54c8d3adca5817c4e56bc3a3b84e24addf7c7"
+    "events": "e163c276972f233562f94452bde35a1e387331d3f88b4147f6d0b6cdba19edcd",
+    "mediaRights": "b4360f80d1035b7ad7d72bfdd16f4b9ed39d7ab50f1b4e437352e28e2cc65bcc",
+    "publicationIntents": "6eff9790a19d0242d4754a5c9a8656a14566dddb0113a43b8dcba6fbf9a2332b",
+    "releaseRecords": "acaf8d02f4751a94ec669779a8c21f83a0ea0daf94e926a1952cbef208cc3314",
+    "sourceItems": "38ad985029706afdb7b7d0598d918804cdab3791f86483599561b299e6308afb"
   },
   "inventory": {
-    "articleCount": 237,
-    "mediaCount": 697,
-    "routeCount": 237
+    "articleCount": 243,
+    "mediaCount": 715,
+    "routeCount": 243
   },
   "mediaRights": [
     {
@@ -93137,9 +94025,1377 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.imf.org/en/news/articles/2026/06/18/pr-26214-uzbekistan-imf-executive-board-concludes-2026-article-iv-consultation"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "The tall concrete Federal Reserve Bank of Boston tower rises above a downtown intersection under a blue sky.",
+      "archivalStatus": "current",
+      "attribution": "Beyond My Ken / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "The Federal Reserve Bank of Boston building in 2017. The Boston Fed administers the Main Street Lending Program, which still held 251 loans beyond their initial maturity dates in early 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Beyond My Ken",
+      "derivatives": [
+        {
+          "hash": "96b5a9dc26a49c389a7d02072f38d4d441b05ca51332e1be0d953d564c6d0eef",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/boston-fed/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1cc255c5a69ad7f6262bfa6b031f931eff9b27184891aeb2588a43b2d589613e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/boston-fed/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "10afa25dbbd2404fa7925df33c04ed95a344265f1f15a2cbb2c400a8bd3ed2a6",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/boston-fed/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c089ff85115836df9a99de49af979c6c4726c5078f3ba96df7eeecfdd30cc2df",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/boston-fed/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f0a494e675efa2d0f3c3a8ad6dc40c9019a75c13e1ca6e6df3152cbdbb5ba702",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/boston-fed/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "10bac2864f7e4954a0d5e9b507984b9e4e11a79cc17e679f64b03ca91339951d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/boston-fed/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4d747a60fd7fc662cebb190c1325943ab5556e2304afc651031563706beb399b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/boston-fed/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-main-street-boston-fed-building-2017",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "97b1846fd211db87afed141d367e525496a33a9fc4eae28edd4f454949b22c7b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 4.0 International, granted by the photographer on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2017_Federal_Reserve_Bank_of_Boston_Building.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 1,830 Main Street loans made, 1,277 fully repaid and 251 outstanding beyond initial maturity.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The Main Street program made 1,830 loans; 1,277 were fully repaid and 251 remained outstanding beyond initial maturity as of Jan. 5, 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "7a9a1b223e72b8b8fbc5407eed5e1ea3243669dbfbf95f9b552097e0281ba9bc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/loan-status/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1aff8e7f5dc3af1cd03f705ca2dd50b4730aabcdb336e8c984e226760487f3c5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/loan-status/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4eae15ced021c6d8b7b46dbd0c51d8e950d29eec4a132c5c4cfad81a6b897d53",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/loan-status/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "3b2cfa1cae3ebe252ff2a6cf3ee9e22b09542a3f919dee33ec00ca782f82b9a1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/loan-status/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7cf5dd7660c162c4650341ca0105ec99d9efae23d4b65900b75416ea7b428c9f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/loan-status/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8f09469c1e2261f7ff9e31ef378aed8f12e8c0ca0f46ba1dc2404b1167b7b7eb",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/loan-status/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a89d31daf5b3ba9857da6cdbd69c0afaa37161025eb2e4460103c31abf2bcce5",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/loan-status/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-main-street-loan-status-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "3b2cfa1cae3ebe252ff2a6cf3ee9e22b09542a3f919dee33ec00ca782f82b9a1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108011"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 1.3 billion dollars charged off, 1.4 billion dollars in authorized amounts sold back and 20 control opportunities addressed.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The program had charged off $1.3 billion and sold $1.4 billion in authorized loan amounts back to lenders at a net loss; all 20 GAO control opportunities were addressed.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "4ee9dfd13481eb19ae1386aea9098dd64b3df171fc3fe2bede038a2832c3ca9b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/losses-controls/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "613a9ce6592c5990a2d425f3d50934fcb8066261df950e47dcaab92b16142d5a",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/losses-controls/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "46a82659d5b7079ca13b7c0f0291833ec3d5948fa6f876f97dad06b250cc1533",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/losses-controls/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "56680d8af2dd2923ee09a46acfc1d7fb37ba8d4642b1da5240d89996bcbf668d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/losses-controls/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "db86407c37d9a34395e59b47768661b5a1a942495dfa1f25f44841435bd88629",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/losses-controls/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ee455b1a480ff61421bc6651b4dbef2be5e24399bfaf5b1118f86a15343edb4a",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/losses-controls/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e4e837303cf2b19da6df9e1c56c01dc5cacc26c0bbbed93f60ff39f8b1e439f6",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/gao-main-street-lending/losses-controls/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-main-street-losses-controls-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "56680d8af2dd2923ee09a46acfc1d7fb37ba8d4642b1da5240d89996bcbf668d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108011"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A broad stone United States courthouse with tall columns and steps on a sunny street corner in Davenport, Iowa.",
+      "archivalStatus": "current",
+      "attribution": "Carol M. Highsmith / Library of Congress",
+      "caption": "The federal courthouse in Davenport, Iowa. The Sentencing Commission counted 718 credit-card and other financial-instrument fraud cases in fiscal 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Carol M. Highsmith",
+      "derivatives": [
+        {
+          "hash": "b8ff9e862b671ce92d6a747ab4d1fe8b74c663a7cbcca11ccbcab8485545a817",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/davenport-courthouse/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b100dc847f514fb0f5e349ca59972e2e5662c1bda78a3ca217c64bcc3a6cc79e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/davenport-courthouse/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5e32b9c69474015af7ca18d81952056f98300fe051bb5334cbd75cf5355de8eb",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/davenport-courthouse/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6cc066bf8fbd3a78cdc1bc609c09a83eff3d2794cbc4513ffcba569a87de59f8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/davenport-courthouse/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f8de1703b09018e969d07ca3f3be600dc98c8573fe447495d6051efd5f17b014",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/davenport-courthouse/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7dc9eea804dc1dec1d3326f1c329967c49f8c94f565061c2226e077b86349698",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/davenport-courthouse/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2d4a32f976e186108f7c7d9e15b41a25bcf0a208431ec0a1b89c6b48debee577",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/davenport-courthouse/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-financial-fraud-davenport-courthouse-2010",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "0e65fcf98636a1ac92ac88542b49370d4b7dfb11d31203d5aae54ef6cecdfceb",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "The photographer dedicated the image to the public domain; the Library of Congress reports no known restrictions on publication.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Full_exterior,_United_States_Courthouse,_Davenport,_Iowa_LCCN2010719164.tif"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 718 federal financial-instrument fraud cases and a median loss of 152,596 dollars.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The Commission counted 718 cases and a median loss of $152,596 in fiscal 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "cb2b00cc96c7fd21f29a3ddd37ba9abfe90e6d247f541e8cc14d383c0beb1c90",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/cases-loss/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "449c42e628c83acbc066012ad5cff9e7d1969e450dd81ba967ed93bed9371f54",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/cases-loss/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6d9be80523144637ad51e076b57b94d8f59d1b21be41c91818aa9c15050cfc8c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/cases-loss/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8f793d6b7dd68f5d859c6a2cda1f3e1e6710936d3fa2de03b87e55f0ef073d3f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/cases-loss/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4363b6522386000edf45e9a2e12d8ef29323892dc9dde5d1dfdcc5533cac2fde",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/cases-loss/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "cf54f841b0b914d1a80ecbeeaf21b0c13827a5619cd321958303c5a39248bc81",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/cases-loss/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "45b06a87f716486276e1ed9f0bbfb6ddfb7edb9099abf96ea2230ee0ef20c7b7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/cases-loss/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-financial-fraud-cases-loss-fy2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8f793d6b7dd68f5d859c6a2cda1f3e1e6710936d3fa2de03b87e55f0ef073d3f",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/credit-card-and-other-financial-instrument-fraud"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists an average sentence of 28 months and a prison sentence rate of 95 percent.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The average sentence was 28 months, and 95% of defendants received a prison term.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "60a4602d522d19608dcde61e25da58a8dae2216f25803ef1ace196a13affe661",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/sentences/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a0d0b22488194b10e09b18e5bd2896fcaa785f6b1c5d8f9db51c3f46133ed161",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/sentences/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a43bcd14d706c4c5fb9746fdc34cc8148c8723f840723dd7bad0513b0e3ca635",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/sentences/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6b2e3df79fa6f203b2a4770606f5bbc297abdae0fa1ba62954b03497b1487687",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/sentences/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b88280f65d60a50ba190189b9119ebfe2e5521c524b9c112f52d01c5d695810b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/sentences/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7318f623bccb01e0d375b7763f6d2dc47f4988a07a38a07790e4db7585d59a21",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/sentences/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "573483dc09badfb89b36b506bc105fd357ed70bf4a4ef08e5463547214ece9e4",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/ussc-financial-fraud/sentences/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-financial-fraud-sentences-fy2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "6b2e3df79fa6f203b2a4770606f5bbc297abdae0fa1ba62954b03497b1487687",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/credit-card-and-other-financial-instrument-fraud"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "An aerial view of the rectangular National Museum of American History beside trees and federal buildings on the National Mall.",
+      "archivalStatus": "current",
+      "attribution": "Carol M. Highsmith / Library of Congress",
+      "caption": "The National Museum of American History on the National Mall. Its 2026 ‘In Pursuit’ exhibition places 250 objects across all three public floors.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Carol M. Highsmith",
+      "derivatives": [
+        {
+          "hash": "a2bc23a1a7f525bd282d40941fc887c48278310f05992c3c7a97be513ea8a89b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/nmah-aerial/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1303cd499dbd4a22a7ff36f5955c056f373f2c383b5adb0415ba23baa33e42a7",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/nmah-aerial/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7e3900efc7204a5bed05f3fd70b8311fac7497247d3c29899392e98f7edbbe42",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/nmah-aerial/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f175d02b999c271f4ae84a673910f164a9dc68a0ec2f9c0fd0fc7e3f465eafb0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/nmah-aerial/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "105a2351e025a93d60a0dd65ca47fd10b924d00fd2b100d0a4167f0bdf0e668b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/nmah-aerial/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d131ad725cff5b469f440444593446e31cc8a854a41757a3fc3ad04762d8b2a7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/nmah-aerial/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "59c3c68e3b732e00c373c45579812cd350e6bc85f614be9fbb4c8896f8d4d09a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/nmah-aerial/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-smithsonian-in-pursuit-nmah-aerial-highsmith",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "b35f5b52daa1828387c66db301783134fd7d68eb8740c2e76acb659c4b190e04",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "The photographer dedicated the image to the public domain; the Library of Congress reports no known restrictions on publication.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_National_Museum_of_American_History.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 250 objects, 250,000 square feet and three public floors.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The museum-wide exhibition uses 250 objects across 250,000 square feet and all three public floors.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "dbf7050fa1f0cb4f35b2d8f77ebbf04ababf58e5edf0f51aa0f0227b626f3e2a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/scale/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a60ad56b989fd951504b81f8f7bfe1197c5c432322d0b14c9b3b72045433fdf9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/scale/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ccbc8a5399f87f812ecfc3ee8b04396b8d6be3780a0c57a844508fcc08b5783e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/scale/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "532b180a2f543069f2efaac9a6ec69413d62a9d8f8ef244ca499fae729c514cf",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/scale/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ff4f35546373f03a4f71258420497393d1d396ddf9c0517aad37d6b4033f7b5b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/scale/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2a2f53a8db2923723c06e3030d143197345e71b5052eb47655b82c7c8d504c14",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/scale/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "54b92466cd4c6287d979eb58d55942b45b1026ec39de3c5505a17d7d7ae9314c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/scale/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-smithsonian-in-pursuit-scale-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "532b180a2f543069f2efaac9a6ec69413d62a9d8f8ef244ca499fae729c514cf",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://americanhistory.si.edu/press/releases/in-pursuit-may-14"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 76 newly or rarely displayed objects and an exhibition run through the end of 2026.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Seventy-six objects are newly displayed or rarely shown; the exhibition remains on view through the end of 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "67bc200b0b082c6245324fd15449c60cb2da6591d123fccdbf34f222a616f667",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/object-access/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b8ef225928bbe0f4bfcd58b3b5c66a5383814b7a4d4e1c91fbbc171ea5c670a3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/object-access/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3a9a676cc44f50d0239d7c1f5d5ef381dbaffdbc5e528bddba0602ceb416d767",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/object-access/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e288696905a8373e4648c99fe8b41723592a5a315c105ef63336126501b74ad3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/object-access/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "799d396e22d0ed6b99c1ebb6ddcc348f301dbfd51f6ced1b84d49949f57cfe34",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/object-access/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0584d7f6e9bfd59e9d3d049999cff1894bd733d9cd958a4bc891534e4761c725",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/object-access/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "6662cfed80ca757508751c0ef68ab1cfb1a89bd101e5126174326ecc7885d37b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/smithsonian-in-pursuit/object-access/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-smithsonian-in-pursuit-object-access-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "e288696905a8373e4648c99fe8b41723592a5a315c105ef63336126501b74ad3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://americanhistory.si.edu/press/releases/in-pursuit-may-14"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A person pedals a stationary exercise bike while wearing monitoring equipment in a bright clinical research room.",
+      "archivalStatus": "current",
+      "attribution": "NIDDK / National Institutes of Health",
+      "caption": "A participant uses an exercise bike in the NIH Clinical Center's Metabolic Clinical Research Unit. A long-term NIH trial found lasting benefits from a diet-and-activity lifestyle program for adults with prediabetes.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "derivatives": [
+        {
+          "hash": "5de0d504d48915775771cb5d4d828779bc015e55e1dd857641853e917a046fbb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/exercise-bike/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3d4c8d9c84eeabef473e71752348ea102d9aff9d1ec6db40c9239fa95c5972db",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/exercise-bike/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a6ab2db794c43914b67d04a6a0f9e9cb1fd35b8361a53f874753150e309b7760",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/exercise-bike/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6149cbcc939e99f528a580be6eb6f09cb85cbb98c62b9718a06d19ee46bcfd7e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/exercise-bike/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a8f665a59d6be9aee0f9a8f2ce4a85dbedd9e88f5426a85f51e48a60c608c19c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/exercise-bike/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a43e915b6bf6116646be36058ffbeb9c88970102bb1184dd1fe317e252e321ea",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/exercise-bike/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d253bb4ef5d7977ca59dd40ab9198f4b565b53c5eb0acbf456d9c4f676341f07",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/exercise-bike/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nih-prediabetes-exercise-bike-clinical-center",
+      "illustrationLabel": null,
+      "license": "Copyright-free U.S. government media asset",
+      "originalFileHash": "3b10346ad265060150125c1b71ce94f1ea27ad91fd7b5ca18656c8bd2bc52eae",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "NIDDK states that media-library images are copyright-free to the public at no cost with agency credit.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.niddk.nih.gov/news/media-library/23042"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 21 percent lower risk for two chronic conditions and 25 percent lower risk for three conditions.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Compared with placebo, the lifestyle group had 21% lower risk of two chronic conditions and 25% lower risk of three.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "2f840d89dcdfa1f4cb244282f2bdfac28db36bf04b2d91d3ead41bc1c20e5eb7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/risk/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d007985589973c8937aa9f5d890b8c82a62defc13390a2bb8630779d62e512ba",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/risk/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c72f53a7772b824cc09050ab09dabb9a4b771aaedd01c528686e678a5cc1a423",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/risk/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "dd14eba1e5929224a708713759eb657e6e588f77cb13cbe5f336a7dbac36b8f7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/risk/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "43efdf28016b494f2ee9e50ec8d1164b56c7793172e39862d492e85c84ffc53f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/risk/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "abed81ec85f7840a84de0cb5ce79745bf0b5274f652f423fbd903c8b38efac47",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/risk/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "59bb3b666e0e8f62b18a89f344550b0895b3e3540de0c5a6522f09d7b6c3a283",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/risk/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nih-prediabetes-multimorbidity-risk-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "dd14eba1e5929224a708713759eb657e6e588f77cb13cbe5f336a7dbac36b8f7",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nih.gov/news-events/news-releases/adults-prediabetes-lifestyle-intervention-lowered-risk-developing-multiple-chronic-conditions"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 1,173 participants, 27 sites and follow-up through 2021.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The analysis linked 1,173 participants at 27 U.S. sites to Medicare claims and followed outcomes through 2021.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d18181ede32ef67891b0e362172311114da0588c51b2d1db6668b31bc5d92d26",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/trial-design/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a4855fb4254d53ed1863cfade92e51419e2883da236724eace55026c5ea494b9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/trial-design/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bab82949d732660683b4029fe81798309d4dd760adc2a1124b6c6f957db4abe6",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/trial-design/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d104dc148678ec9d080258931bbcb701af433561ecb05838b83d57e22d14b51e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/trial-design/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "07aa6e0281b67b756ebb570feb4378311771b76e24549af4a0c970da5d8fffdd",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/trial-design/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "31659e767942d267c6d95fe9f04b7b413a5081f839e72965d5736aa765488b0f",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/trial-design/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8f70be1df565f3bc5cbacae309cfe2d28aee9e6031f00aca8b03a7c0d5267f6e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/nih-prediabetes/trial-design/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nih-prediabetes-trial-design-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d104dc148678ec9d080258931bbcb701af433561ecb05838b83d57e22d14b51e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nih.gov/news-events/news-releases/adults-prediabetes-lifestyle-intervention-lowered-risk-developing-multiple-chronic-conditions"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A group of middle-distance runners rounds a bend on an outdoor track during the United States Olympic trials.",
+      "archivalStatus": "current",
+      "attribution": "jenaragon94 / Wikimedia Commons, CC BY 2.0",
+      "caption": "Athletes contest the 800 meters at the U.S. Olympic trials in 2021. World Athletics has set a rankings-led qualification system for the 2027 world championships in Beijing.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "jenaragon94",
+      "derivatives": [
+        {
+          "hash": "8f37543a33e0e7fe98d41556c32ddd49072a4eb75e1175b2191d7ef9bfe125f1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/track-race/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "92b4aae5053b296125e7bc6fa111222af83e6d0618e719a66b3a1d40d67e146b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/track-race/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d98fbc5651af9b4587b62582d07b577af63b4d7fa86c824ae4e8fdf636712391",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/track-race/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e2a1e991933c0292991b067cb340bdbb7ef9471c0ccfbdec36cc59a033d379d1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/track-race/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9dd273c9f540cbbcd31cdd84b258a6f0516c7edebf88c7f52c868e49bebf1ad7",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/track-race/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d03aa08a7b045781e9961b1bed4847e14d4e01cfcdb9df992698321d91dbdf85",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/track-race/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e41b32d3835c8175f8f51f23dc62bdc0990b7bb8cd12aa600181f81f9f07872a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/track-race/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-world-athletics-qualification-us-trials-800m-2021",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "f66c3fe171f0dcf9f4f8b4012504340686de15eecfc61de2a7d7f21e314564d1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 Generic, granted by the photographer on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:800metresOlympicTrials2020.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares a 60 percent world-ranking route with a 40 percent entry-standard route.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "World Athletics expects roughly 60% of competitors to qualify through rankings and 40% through entry standards.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "0dbf434320583a352a5fd935c5977a7b45e76b1805fa9837f72feeec4a609c91",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/split/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "db339ba141d0a948ec9b9bb0dfcf8a046ccb6f9a469dcdd038e8a5acbc1caa1c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/split/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e5ee34f809616f70fbd35802e303ae7f9d2e854fe4057f12bf8428687e5e85ba",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/split/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a9f5b20ef775fbec157724496df632b63223bec3b3819f7d39a6b524de2fad15",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/split/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "40db42e12b4f644108fc591675bc380525a8a3b6d4b47bd3b56b25cce7fe9c2d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/split/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8f654760d4d011b7471f121d2ffe628a9dee711579e30aa064e5cf4c5fb00889",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/split/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b98574ca35373c39400da72ab63889fea0771dc3d52110fdc26499c637acef6b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/split/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-world-athletics-qualification-split-2027",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "a9f5b20ef775fbec157724496df632b63223bec3b3819f7d39a6b524de2fad15",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://worldathletics.org/competitions/world-athletics-championships/beijing27/news/press-releases/qualification-system-world-athletics-championships-beijing-27"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists a May 2, 2027 marathon deadline and an August 22, 2027 deadline for most disciplines.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The marathon window ends May 2, 2027; most other disciplines run through Aug. 22, 2027.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "5cc70526383a1dec4bb408064799f6d19e76d8a630812136da82a3c32ef8ec81",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/windows/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ba37c10222f81310b366c20edada92d8f6324da8cc0154149d746bcfd25d4109",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/windows/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bfaf9321eca9600570fbcfb90982dcd661477879968ceba5e533750caf1fcf3b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/windows/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8c2b01db655524b731f5b2d2fc8cd120f385b6f2443ab1e85271fdc9dc5b1216",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/windows/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "cc2906d5e06360544d1f798134c8982d9f4268c5ea7a2f6c147b759a60ada4c5",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/windows/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a4b7cd791f2272e3436994779afecc494a6a482e0f4517da465a599b00a7ed09",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/windows/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f9751cbbcf8771dcb424dbcf876a4fd3404485417496cb183609d0576719244c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/world-athletics-qualification/windows/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-world-athletics-qualification-windows-2027",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8c2b01db655524b731f5b2d2fc8cd120f385b6f2443ab1e85271fdc9dc5b1216",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://worldathletics.org/competitions/world-athletics-championships/beijing27/news/press-releases/qualification-system-world-athletics-championships-beijing-27"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A historic view of the United States Treasury Building and its long colonnade beside a broad Washington street.",
+      "archivalStatus": "current",
+      "attribution": "Detroit Publishing Company / Library of Congress",
+      "caption": "The U.S. Treasury Building in 1901. Federal excise taxes produced $106 billion in 2025, according to a new Congressional Budget Office review.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Detroit Publishing Company",
+      "derivatives": [
+        {
+          "hash": "d0edcb0358fc393c8d942d4448e0aa035f64a469e44149372154c22e91c24892",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/treasury-building/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "dbde3dedb3d8412c298309e6644b5ac805490be52754e3a14d02f3a80dcbc2fc",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/treasury-building/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5905a7cae5d6857458e0abaf54d316f8c2c4728a84d55ce76a81cff92ab1bc7a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/treasury-building/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9269bde68071e622f39ad78c181c8ccbfcfea5877a1df8f5d6d36878cd805904",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/treasury-building/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "42fa283aa92654dd102998f45fd4c72cbd79561b2788e90fcc63666ba91c4955",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/treasury-building/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6413a4513cf3a152d2c939f0237b6998d12d176899e881963267229c2c2b49f2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/treasury-building/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "35607896c77c3be7d47ee39bb03b3cc7ac2573e5ceca9f3b8a7473fbbd50088e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/treasury-building/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-excise-taxes-treasury-building-1901",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "f9106b4518af0c6b5a76d0a5291953366120653e3c2b120dca3d4cc9a49c577f",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Public-domain historical photograph held by the Library of Congress; Wikimedia Commons reports the work is free of known copyright restrictions.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:D.C.,_Washington,_Treasury_Building,_1901,_exterior_LCCN96510935.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 106 billion dollars in excise tax revenue, 2 percent of federal revenue and 0.3 percent of GDP.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Excise taxes raised $106 billion in 2025, equal to about 2% of federal revenue and 0.3% of GDP.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "8b865f5ba7c98c5d7fb80674427d1eb6c6153b1063201afd401e72458a67633b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/revenue-share/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c26f1db00e35220f038277255b4138d5cfc85c0639f10d9631afbb7b8924ea37",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/revenue-share/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "04277b875b0482e3b0e8e067794643904df9b21059b740f2d74737db323ad826",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/revenue-share/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "396ef1f05ec96919c438b70b2f76d0f5e750b3727eee90e0103667dc86afc76c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/revenue-share/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "29851a81477fb2475b0981cab916e62a9aef89d93fd9289089db07bdd384f22c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/revenue-share/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0c77cf2279141a0c5d69497486b2cea4525bac4173371824a59feec15519a8af",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/revenue-share/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4af40f69ad274db6fb0ecbe6242617c92704dd9ffa85a1825e9608d188a93e65",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/revenue-share/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-excise-tax-revenue-share-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "396ef1f05ec96919c438b70b2f76d0f5e750b3727eee90e0103667dc86afc76c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/61945"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists an 88 percent share from four major sources and about 70 percent dedicated to trust funds.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Four major source groups produced 88% of receipts, and roughly 70% of total excise revenue was dedicated to trust funds.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "7b1c743e4c4f7ecaadbf2f01135d4c0fa78bd3fe99788908d33fb2e89dc8d8c3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/sources-trusts/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "418770daa892f236447185867b6ff79d36e86f05d3b633da4ff15bdb5f254b58",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/sources-trusts/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9fdf7eec9e8f2a229dafc6dc6b50ea09e0625319161160370703c5259022b0c5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/sources-trusts/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "cd24369a1e500ee50b860c0fb16b843d34a0847a03a8d10e6b5b4ef788b08063",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/sources-trusts/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ce3e2e1a3b29b0a298db30eec1105df65002e2d32ebed89f183fd7e4fd52335f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/sources-trusts/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f920daa1bf413df21c448f171ca1a1346e680770e3fa57c490d21cbf44e460e6",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/sources-trusts/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "31192482ec649c284c6102648f9ed19a19c81929a3af03bb0f625dd77f45a714",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-184820/cbo-excise-taxes/sources-trusts/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-excise-tax-sources-trust-funds-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "cd24369a1e500ee50b860c0fb16b843d34a0847a03a8d10e6b5b4ef788b08063",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T19:13:40.517Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/61945"
     }
   ],
-  "packageDigest": "b63977a068ba4493b4f6d704e7a09e06479c75f8674f7570b8ffbf0e63d2f355",
+  "packageDigest": "74dbb2caa476d86a72f4265da5f98a193d8f7442611ddf3415622a73224055b1",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -94659,6 +96915,37 @@
       "providerActivatedAt": "2026-08-10T18:29:44.322116Z",
       "recordHash": "5821d5f70ce78ed7394f333b992e67e30b80d474d504abe35479518c781bdd21",
       "releaseId": "release-pb-20260810t174920z-a64d2e91c7f3",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://6c89b56e.bohonews.pages.dev/",
+      "activationEvidenceHash": "6c8c8a1f81eeac0002264048dee6112481150f84e009264f43cc86131238547d",
+      "canonicalFirstPublicAt": "2026-08-10T19:35:17.829Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/main-street-lending-251-loans-outstanding-after-maturity/",
+        "https://bohonews.com/articles/credit-card-financial-fraud-718-federal-sentences-fy2025/",
+        "https://bohonews.com/articles/smithsonian-in-pursuit-250-objects-exhibition-2026/",
+        "https://bohonews.com/articles/prediabetes-lifestyle-intervention-lowered-multimorbidity-risk/",
+        "https://bohonews.com/articles/beijing-2027-world-athletics-qualification-standards/",
+        "https://bohonews.com/articles/federal-excise-tax-revenue-106-billion-2025/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-main-street-lending-251-loans-outstanding-after-maturity",
+        "article-credit-card-financial-fraud-718-federal-sentences-fy2025",
+        "article-smithsonian-in-pursuit-250-objects-exhibition-2026",
+        "article-prediabetes-lifestyle-intervention-lowered-multimorbidity-risk",
+        "article-beijing-2027-world-athletics-qualification-standards",
+        "article-federal-excise-tax-revenue-106-billion-2025"
+      ],
+      "previousVerifiedDeploymentReference": "c60c584bbb0db8600f7d1e982c9168695646258e937ce081eb6c7db63b2dc9ec",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T19:31:43.358052Z",
+      "recordHash": "649011bcdfffcff54ba173b063ddaee0c21bf57c3d17540b8421b091f4f5632a",
+      "releaseId": "release-pb-20260810t184820z-eaca183241d2",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
     }

@@ -1,9 +1,9 @@
 {
-  "articleCount": 237,
+  "articleCount": 243,
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-10T18:33:18.778Z",
-  "mediaCount": 697,
-  "packageDigest": "b63977a068ba4493b4f6d704e7a09e06479c75f8674f7570b8ffbf0e63d2f355",
+  "generatedAt": "2026-08-10T19:35:57.066Z",
+  "mediaCount": 715,
+  "packageDigest": "74dbb2caa476d86a72f4265da5f98a193d8f7442611ddf3415622a73224055b1",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -1525,6 +1525,37 @@
       "releaseId": "release-pb-20260810t174920z-a64d2e91c7f3",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://6c89b56e.bohonews.pages.dev/",
+      "activationEvidenceHash": "6c8c8a1f81eeac0002264048dee6112481150f84e009264f43cc86131238547d",
+      "canonicalFirstPublicAt": "2026-08-10T19:35:17.829Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/main-street-lending-251-loans-outstanding-after-maturity/",
+        "https://bohonews.com/articles/credit-card-financial-fraud-718-federal-sentences-fy2025/",
+        "https://bohonews.com/articles/smithsonian-in-pursuit-250-objects-exhibition-2026/",
+        "https://bohonews.com/articles/prediabetes-lifestyle-intervention-lowered-multimorbidity-risk/",
+        "https://bohonews.com/articles/beijing-2027-world-athletics-qualification-standards/",
+        "https://bohonews.com/articles/federal-excise-tax-revenue-106-billion-2025/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-main-street-lending-251-loans-outstanding-after-maturity",
+        "article-credit-card-financial-fraud-718-federal-sentences-fy2025",
+        "article-smithsonian-in-pursuit-250-objects-exhibition-2026",
+        "article-prediabetes-lifestyle-intervention-lowered-multimorbidity-risk",
+        "article-beijing-2027-world-athletics-qualification-standards",
+        "article-federal-excise-tax-revenue-106-billion-2025"
+      ],
+      "previousVerifiedDeploymentReference": "c60c584bbb0db8600f7d1e982c9168695646258e937ce081eb6c7db63b2dc9ec",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T19:31:43.358052Z",
+      "recordHash": "649011bcdfffcff54ba173b063ddaee0c21bf57c3d17540b8421b091f4f5632a",
+      "releaseId": "release-pb-20260810t184820z-eaca183241d2",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -1765,7 +1796,13 @@
     "/articles/us-population-growth-slowed-05-percent-migration-2025/",
     "/articles/nasa-adds-eight-commercial-earth-data-providers-2026/",
     "/articles/drought-covered-4854-percent-lower-48-august-2026/",
-    "/articles/imf-uzbekistan-growth-68-percent-inflation-eases-2026/"
+    "/articles/imf-uzbekistan-growth-68-percent-inflation-eases-2026/",
+    "/articles/main-street-lending-251-loans-outstanding-after-maturity/",
+    "/articles/credit-card-financial-fraud-718-federal-sentences-fy2025/",
+    "/articles/smithsonian-in-pursuit-250-objects-exhibition-2026/",
+    "/articles/prediabetes-lifestyle-intervention-lowered-multimorbidity-risk/",
+    "/articles/beijing-2027-world-athletics-qualification-standards/",
+    "/articles/federal-excise-tax-revenue-106-billion-2025/"
   ],
   "schemaVersion": "2.1.1"
 }
