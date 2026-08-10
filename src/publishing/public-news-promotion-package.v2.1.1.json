@@ -32139,25 +32139,928 @@
         "Interpretations about memory, peace and snowdrifts are attributed to the artist and museum."
       ],
       "updatedAt": "2026-08-05T16:34:25.044Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A decade-long international effort funded by the National Institutes of Health has assembled 665 patient-derived cancer models spanning 25 tumor types and tissue from 2,780 donors, creating a shared laboratory resource intended to speed precision-oncology research.\n\nThe Human Cancer Models Initiative, or HCMI, pairs laboratory-grown models with genomic, transcriptomic, epigenomic and clinical information. NIH said the collection includes common cancer subtypes and many of the predominant genetic alterations within them.\n\nPatient-derived models let researchers test questions that cannot be explored directly in a person’s tumor. The collection includes organoids that reproduce aspects of an organ’s cellular makeup and neurosphere clusters derived from brain cancers.\n\nThe central quality question is whether a model still resembles the tumor after it has been grown in a laboratory. HCMI researchers compared 421 tumors with their paired models and reported 97.8 percent agreement in genetic alterations, 95 percent concordance in epigenetic features and 92 percent similarity in RNA-expression patterns.\n\nThose figures describe molecular agreement across the analyzed pairs; they do not mean every model predicts a patient’s treatment response with the same accuracy. A laboratory model is a research tool, not an individualized treatment recommendation.\n\nThe resource includes 522 models with detailed clinical data, 153 models of rare cancers and 71 models from people of non-European ancestry. NIH said models and associated data are being distributed through the American Type Culture Collection and an HCMI searchable catalog.\n\nResearchers can use the models to study tumor evolution, drug sensitivity and treatment resistance. In glioblastoma models, the project identified several genetic features associated with resistance to temozolomide, a chemotherapy drug.\n\nThe work was published Aug. 5 in Nature with companion studies led by the Wellcome Sanger Institute, the Broad Institute of MIT and Harvard and Cold Spring Harbor Laboratory. The compendium’s value will depend on how broadly researchers use it and how well later experiments reproduce clinically meaningful findings.\n\nFor now, the deliverable is concrete: a standardized, searchable collection that gives cancer laboratories access to hundreds of molecularly characterized models without each team having to build the same resource from scratch.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "A decade-long international effort funded by the National Institutes of Health has assembled 665 patient-derived cancer models spanning 25 tumor types and tissue from 2,780 donors, creating a shared laboratory resource intended to speed precision-oncology research."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Human Cancer Models Initiative, or HCMI, pairs laboratory-grown models with genomic, transcriptomic, epigenomic and clinical information. NIH said the collection includes common cancer subtypes and many of the predominant genetic alterations within them."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-hcmi-compendium-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-compendium/four-three.webp",
+          "alt": "Graphic lists 665 laboratory models, 25 cancer types and 2,780 patient donors.",
+          "caption": "The HCMI compendium covers hundreds of models and 25 cancer types.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/human-cancer-models-accelerate-research-precision-therapies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Patient-derived models let researchers test questions that cannot be explored directly in a person’s tumor. The collection includes organoids that reproduce aspects of an organ’s cellular makeup and neurosphere clusters derived from brain cancers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The central quality question is whether a model still resembles the tumor after it has been grown in a laboratory. HCMI researchers compared 421 tumors with their paired models and reported 97.8 percent agreement in genetic alterations, 95 percent concordance in epigenetic features and 92 percent similarity in RNA-expression patterns."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those figures describe molecular agreement across the analyzed pairs; they do not mean every model predicts a patient’s treatment response with the same accuracy. A laboratory model is a research tool, not an individualized treatment recommendation."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-hcmi-molecular-agreement-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-agreement/four-three.webp",
+          "alt": "Graphic shows 97.8 percent genetic, 95 percent epigenetic and 92 percent RNA-expression agreement.",
+          "caption": "Paired tumors and models retained high molecular agreement in NIH’s analysis.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/human-cancer-models-accelerate-research-precision-therapies"
+        },
+        {
+          "type": "paragraph",
+          "text": "The resource includes 522 models with detailed clinical data, 153 models of rare cancers and 71 models from people of non-European ancestry. NIH said models and associated data are being distributed through the American Type Culture Collection and an HCMI searchable catalog."
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers can use the models to study tumor evolution, drug sensitivity and treatment resistance. In glioblastoma models, the project identified several genetic features associated with resistance to temozolomide, a chemotherapy drug."
+        },
+        {
+          "type": "paragraph",
+          "text": "The work was published Aug. 5 in Nature with companion studies led by the Wellcome Sanger Institute, the Broad Institute of MIT and Harvard and Cold Spring Harbor Laboratory. The compendium’s value will depend on how broadly researchers use it and how well later experiments reproduce clinically meaningful findings."
+        },
+        {
+          "type": "paragraph",
+          "text": "For now, the deliverable is concrete: a standardized, searchable collection that gives cancer laboratories access to hundreds of molecularly characterized models without each team having to build the same resource from scratch."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nih-cancer-models-25-tumor-types-665-models-2026/",
+      "citations": [
+        {
+          "id": "source-nih-hcmi-20260805",
+          "title": "Human cancer models to accelerate research and precision therapies",
+          "publisher": "National Institutes of Health",
+          "publishedAt": "2026-08-05T12:00:00Z",
+          "url": "https://www.nih.gov/news-events/news-releases/human-cancer-models-accelerate-research-precision-therapies"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "HCMI includes 665 models representing 25 cancer types from 2,780 donors.",
+        "Researchers analyzed 421 paired tumors and models.",
+        "The paired analysis reported 97.8% genetic, 95% epigenetic and 92% RNA-expression agreement.",
+        "The collection includes 522 models with detailed clinical data, 153 rare-cancer models and 71 models from donors of non-European ancestry.",
+        "The study appeared in Nature on Aug. 5, 2026."
+      ],
+      "corrections": [],
+      "dek": "The international HCMI resource links 665 patient-derived laboratory models with molecular and clinical data for precision-oncology research.",
+      "desk": "precision-oncology",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institutes of Health",
+        "National Cancer Institute",
+        "Human Cancer Models Initiative",
+        "Nature"
+      ],
+      "eventId": "event-nih-cancer-models-25-tumor-types-665-models-2026",
+      "headline": "NIH Cancer Model Library Spans 25 Tumor Types and 2,780 Donors",
+      "id": "article-nih-cancer-models-25-tumor-types-665-models-2026",
+      "leadImage": {
+        "alt": "Scientist in a white laboratory coat works at a bench with research equipment.",
+        "caption": "A scientist works in a National Cancer Institute laboratory in Frederick, Maryland.",
+        "credit": "Diane A. Reid / National Cancer Institute",
+        "height": 900,
+        "rightsId": "media-nih-hcmi-laboratory",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/nih-nci-lab/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Cambridge, United Kingdom"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NIH’s HCMI resource includes 665 patient-derived cancer models across 25 tumor types and tissue from 2,780 donors.",
+        "index": true,
+        "title": "NIH cancer model library covers 25 tumor types"
+      },
+      "section": "health-science",
+      "slug": "nih-cancer-models-25-tumor-types-665-models-2026",
+      "social": {
+        "description": "The international HCMI resource links 665 patient-derived laboratory models with molecular and clinical data for precision-oncology research.",
+        "image": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/nih-nci-lab/open-graph.webp",
+        "title": "NIH Cancer Model Library Spans 25 Tumor Types and 2,780 Donors"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Human Cancer Models Initiative",
+        "Patient-derived tumor models",
+        "Precision oncology",
+        "Cancer organoids",
+        "Cancer research data"
+      ],
+      "uncertainty": [
+        "Molecular similarity does not establish that every model predicts an individual patient’s response.",
+        "The collection’s clinical value will depend on independent use, replication and future validation."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The National Institute of Standards and Technology will open two of its Gaithersburg research facilities for an evening public tour on Aug. 19, part of the agency’s 125th-anniversary program.\n\nThe event runs from 5:30 to 7 p.m. EDT at NIST’s Administration Building, 100 Bureau Drive. Registration closes Aug. 12, and NIST says the limited spaces will be allocated on a first-come, first-served basis.\n\nVisitors must select one of two destinations when registering. The Million Pounds-Force Deadweight Machine calibrates sensors used to measure very large forces, including the thrust of aircraft engines and loads on structures.\n\nThe second option is the NanoFab at NIST’s Center for Nanoscale Science and Technology, where researchers use semiconductor-processing and characterization equipment to build and study technologies at very small scales.\n\nThe tour is limited to U.S. citizens and permanent residents because of site-entry requirements. NIST says the program is most appropriate for high-school age and older and that children under 12 will not be admitted.\n\nPermanent residents must bring an unexpired green card. U.S. citizens using a state-issued identification card must present a REAL ID-compliant credential or another accepted federal photo ID, such as a passport or passport card. Digital copies and screenshots are not accepted.\n\nThe two facilities show opposite ends of the measurement scale: one creates precisely known forces approaching one million pounds, while the other supports fabrication and measurement at the nanoscale. Both are used to establish traceable measurements that other laboratories and industries can rely on.\n\nNIST was founded in 1901 as the National Bureau of Standards. The anniversary program includes lectures, tours and partnerships throughout 2026; the Aug. 19 event is one stop in that broader schedule.\n\nRegistration is not a guarantee of entry if required identification is missing. Prospective visitors should use NIST’s official event page for the current capacity and access instructions before traveling.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The National Institute of Standards and Technology will open two of its Gaithersburg research facilities for an evening public tour on Aug. 19, part of the agency’s 125th-anniversary program."
+        },
+        {
+          "type": "paragraph",
+          "text": "The event runs from 5:30 to 7 p.m. EDT at NIST’s Administration Building, 100 Bureau Drive. Registration closes Aug. 12, and NIST says the limited spaces will be allocated on a first-come, first-served basis."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nist-tour-timeline-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-tour-timeline/four-three.webp",
+          "alt": "Graphic shows registration closes Aug. 12 and the NIST tour runs Aug. 19 from 5:30 to 7 p.m.",
+          "caption": "The registration deadline falls one week before the Aug. 19 evening tour.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nist.gov/news-events/events/2026/08/august-tour-nists-125th-anniversary"
+        },
+        {
+          "type": "paragraph",
+          "text": "Visitors must select one of two destinations when registering. The Million Pounds-Force Deadweight Machine calibrates sensors used to measure very large forces, including the thrust of aircraft engines and loads on structures."
+        },
+        {
+          "type": "paragraph",
+          "text": "The second option is the NanoFab at NIST’s Center for Nanoscale Science and Technology, where researchers use semiconductor-processing and characterization equipment to build and study technologies at very small scales."
+        },
+        {
+          "type": "paragraph",
+          "text": "The tour is limited to U.S. citizens and permanent residents because of site-entry requirements. NIST says the program is most appropriate for high-school age and older and that children under 12 will not be admitted."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nist-tour-lab-options-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-lab-options/four-three.webp",
+          "alt": "Graphic lists the Million Pounds-Force machine and NanoFab as the two tour choices.",
+          "caption": "Registrants must choose between two laboratory visits.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nist.gov/news-events/events/2026/08/august-tour-nists-125th-anniversary"
+        },
+        {
+          "type": "paragraph",
+          "text": "Permanent residents must bring an unexpired green card. U.S. citizens using a state-issued identification card must present a REAL ID-compliant credential or another accepted federal photo ID, such as a passport or passport card. Digital copies and screenshots are not accepted."
+        },
+        {
+          "type": "paragraph",
+          "text": "The two facilities show opposite ends of the measurement scale: one creates precisely known forces approaching one million pounds, while the other supports fabrication and measurement at the nanoscale. Both are used to establish traceable measurements that other laboratories and industries can rely on."
+        },
+        {
+          "type": "paragraph",
+          "text": "NIST was founded in 1901 as the National Bureau of Standards. The anniversary program includes lectures, tours and partnerships throughout 2026; the Aug. 19 event is one stop in that broader schedule."
+        },
+        {
+          "type": "paragraph",
+          "text": "Registration is not a guarantee of entry if required identification is missing. Prospective visitors should use NIST’s official event page for the current capacity and access instructions before traveling."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nist-august-19-2026-lab-tour-registration/",
+      "citations": [
+        {
+          "id": "source-nist-tour-20260819",
+          "title": "August Tour for NIST's 125th Anniversary",
+          "publisher": "National Institute of Standards and Technology",
+          "publishedAt": "2026-07-06T12:00:00Z",
+          "url": "https://www.nist.gov/news-events/events/2026/08/august-tour-nists-125th-anniversary"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The tour is scheduled for Aug. 19, 2026, from 5:30 to 7 p.m. EDT.",
+        "Registration closes Aug. 12.",
+        "Visitors choose the Million Pounds-Force machine or NanoFab.",
+        "Attendance is limited to U.S. citizens and permanent residents.",
+        "Children under 12 are not allowed."
+      ],
+      "corrections": [],
+      "dek": "Registration closes Aug. 12 for the Gaithersburg anniversary tour, which is limited to U.S. citizens and permanent residents age 12 and older.",
+      "desk": "measurement-science",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institute of Standards and Technology",
+        "Center for Nanoscale Science and Technology"
+      ],
+      "eventId": "event-nist-august-19-2026-lab-tour-registration",
+      "headline": "NIST Aug. 19 Lab Tour Opens NanoFab and Million-Pound Force Machine",
+      "id": "article-nist-august-19-2026-lab-tour-registration",
+      "leadImage": {
+        "alt": "Wide panoramic view of the NIST campus and laboratory buildings in Gaithersburg.",
+        "caption": "The National Institute of Standards and Technology campus in Gaithersburg, Maryland.",
+        "credit": "Owenusa / Wikimedia Commons",
+        "height": 900,
+        "rightsId": "media-nist-gaithersburg-campus",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-gaithersburg-campus/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Gaithersburg, Maryland"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NIST’s Aug. 19 Gaithersburg tour includes NanoFab or its million-pound force machine; registration closes Aug. 12.",
+        "index": true,
+        "title": "NIST Aug. 19 lab tour: deadline and entry rules"
+      },
+      "section": "technology",
+      "slug": "nist-august-19-2026-lab-tour-registration",
+      "social": {
+        "description": "Registration closes Aug. 12 for the Gaithersburg anniversary tour, which is limited to U.S. citizens and permanent residents age 12 and older.",
+        "image": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-gaithersburg-campus/open-graph.webp",
+        "title": "NIST Aug. 19 Lab Tour Opens NanoFab and Million-Pound Force Machine"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "NIST 125th anniversary",
+        "NanoFab",
+        "Measurement science",
+        "Laboratory tours",
+        "STEM education"
+      ],
+      "uncertainty": [
+        "Capacity is limited and registration availability may change.",
+        "NIST may update access instructions; visitors should check the official page before travel."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Farah O’Keefe’s NCAA Division I individual championship has earned the University of Texas golfer an amateur exemption into the Standard Portland Classic, an LPGA Tour event scheduled for Aug. 13–16.\n\nThe NCAA and LPGA announced before the college championship that the 2026 individual winner would receive the place in Portland. O’Keefe secured it May 25 by finishing 12 under at Omni La Costa Resort & Spa in Carlsbad, California.\n\nO’Keefe posted rounds of 69, 69, 68 and 70. She made six birdies in the final round, including birdies on the final two holes, and won by two strokes.\n\nThe title made O’Keefe the third NCAA individual champion in Texas women’s golf history, following Charlotta Sörenstam in 1993 and Heather Bowie in 1997. It was her fourth victory of the 2025–26 college season and fifth collegiate win overall.\n\nThe Portland exemption is part of a broader invitation that also covers the winners of the U.S. Women’s Amateur, Women’s Amateur Championship and Augusta National Women’s Amateur. The NCAA said 2026 would be the first year all four amateur champions were offered places in the same LPGA event.\n\nAn exemption gives a golfer entry into the field; it does not change amateur status by itself or guarantee a made cut. The event places O’Keefe alongside full-time professionals in a standard LPGA competition setting.\n\nO’Keefe has already tested that level this year. Texas Athletics said she finished as low amateur at the Amundi Evian Championship in July, shooting 5 under and tying for 35th after four rounds.\n\nHer college season included top-10 finishes in all 12 events, according to Texas, along with the ANNIKA Award and Honda Sport Award. Those honors describe past performance, while Portland will offer a separate test against an LPGA field.\n\nFor readers tracking the field, the useful distinction is simple: O’Keefe qualified through the NCAA champion pathway announced in March, not through a weekly sponsor invitation created after the fact.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Farah O’Keefe’s NCAA Division I individual championship has earned the University of Texas golfer an amateur exemption into the Standard Portland Classic, an LPGA Tour event scheduled for Aug. 13–16."
+        },
+        {
+          "type": "paragraph",
+          "text": "The NCAA and LPGA announced before the college championship that the 2026 individual winner would receive the place in Portland. O’Keefe secured it May 25 by finishing 12 under at Omni La Costa Resort & Spa in Carlsbad, California."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-okeefe-ncaa-rounds-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-ncaa-rounds/four-three.webp",
+          "alt": "Graphic lists rounds of 69, 69, 68 and 70, a 12-under total and two-stroke win.",
+          "caption": "O’Keefe closed the NCAA tournament at 12 under after four subpar rounds.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ncaa.org/media-center-ncaa-di-womens-golf-champion-to-be-extended-amateur-exemption-to-lpga-event/"
+        },
+        {
+          "type": "paragraph",
+          "text": "O’Keefe posted rounds of 69, 69, 68 and 70. She made six birdies in the final round, including birdies on the final two holes, and won by two strokes."
+        },
+        {
+          "type": "paragraph",
+          "text": "The title made O’Keefe the third NCAA individual champion in Texas women’s golf history, following Charlotta Sörenstam in 1993 and Heather Bowie in 1997. It was her fourth victory of the 2025–26 college season and fifth collegiate win overall."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Portland exemption is part of a broader invitation that also covers the winners of the U.S. Women’s Amateur, Women’s Amateur Championship and Augusta National Women’s Amateur. The NCAA said 2026 would be the first year all four amateur champions were offered places in the same LPGA event."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-okeefe-season-summary-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-season/four-three.webp",
+          "alt": "Graphic lists four victories, top 10 in all 12 events and NCAA individual champion.",
+          "caption": "O’Keefe paired the NCAA title with a top-10 finish in every college event of the season.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ncaa.org/media-center-ncaa-di-womens-golf-champion-to-be-extended-amateur-exemption-to-lpga-event/"
+        },
+        {
+          "type": "paragraph",
+          "text": "An exemption gives a golfer entry into the field; it does not change amateur status by itself or guarantee a made cut. The event places O’Keefe alongside full-time professionals in a standard LPGA competition setting."
+        },
+        {
+          "type": "paragraph",
+          "text": "O’Keefe has already tested that level this year. Texas Athletics said she finished as low amateur at the Amundi Evian Championship in July, shooting 5 under and tying for 35th after four rounds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Her college season included top-10 finishes in all 12 events, according to Texas, along with the ANNIKA Award and Honda Sport Award. Those honors describe past performance, while Portland will offer a separate test against an LPGA field."
+        },
+        {
+          "type": "paragraph",
+          "text": "For readers tracking the field, the useful distinction is simple: O’Keefe qualified through the NCAA champion pathway announced in March, not through a weekly sponsor invitation created after the fact."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/farah-okeefe-standard-portland-classic-lpga-exemption-2026/",
+      "citations": [
+        {
+          "id": "source-ncaa-lpga-exemption-20260305",
+          "title": "NCAA DI women’s golf champion to be extended amateur exemption to LPGA event",
+          "publisher": "NCAA",
+          "publishedAt": "2026-03-05T12:00:00Z",
+          "url": "https://www.ncaa.org/media-center-ncaa-di-womens-golf-champion-to-be-extended-amateur-exemption-to-lpga-event/"
+        },
+        {
+          "id": "source-texas-okeefe-ncaa-20260525",
+          "title": "Women’s Golf’s O’Keefe wins individual NCAA Championship",
+          "publisher": "University of Texas Athletics",
+          "publishedAt": "2026-05-25T12:00:00Z",
+          "url": "https://texaslonghorns.com/news/2026/5/25/womens-golf-no-5-womens-golfs-farah-o-keefe-wins-individual-ncaa-championship"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Farah O’Keefe won the 2026 NCAA individual title at 12 under.",
+        "Her four rounds were 69, 69, 68 and 70.",
+        "The NCAA champion receives an amateur exemption into the Aug. 13–16 Standard Portland Classic.",
+        "O’Keefe won by two strokes.",
+        "She recorded four college victories and top-10 finishes in all 12 college events in 2025–26."
+      ],
+      "corrections": [],
+      "dek": "The Texas golfer’s NCAA title carries an amateur place in the Aug. 13–16 LPGA event after a 12-under championship performance.",
+      "desk": "womens-golf",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Farah O’Keefe",
+        "University of Texas",
+        "NCAA",
+        "LPGA Tour"
+      ],
+      "eventId": "event-farah-okeefe-standard-portland-classic-lpga-exemption-2026",
+      "headline": "NCAA Champion Farah O’Keefe Earns LPGA Portland Classic Exemption",
+      "id": "article-farah-okeefe-standard-portland-classic-lpga-exemption-2026",
+      "leadImage": {
+        "alt": "Woman golfer swings a club on a green with trees in the background.",
+        "caption": "A golfer plays from a green. NCAA champion Farah O’Keefe received an amateur exemption into Portland’s LPGA event.",
+        "credit": "jmw / Wikimedia Commons, CC0",
+        "height": 900,
+        "rightsId": "media-womens-golf-green-cc0",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/female-golfer-green/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Portland, Oregon",
+        "Carlsbad, California",
+        "Austin, Texas"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NCAA champion Farah O’Keefe earned an amateur exemption into the Aug. 13–16 LPGA Standard Portland Classic.",
+        "index": true,
+        "title": "Farah O’Keefe gets LPGA Portland Classic exemption"
+      },
+      "section": "sports",
+      "slug": "farah-okeefe-standard-portland-classic-lpga-exemption-2026",
+      "social": {
+        "description": "The Texas golfer’s NCAA title carries an amateur place in the Aug. 13–16 LPGA event after a 12-under championship performance.",
+        "image": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/female-golfer-green/open-graph.webp",
+        "title": "NCAA Champion Farah O’Keefe Earns LPGA Portland Classic Exemption"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Farah O’Keefe",
+        "NCAA women’s golf",
+        "LPGA Tour",
+        "Standard Portland Classic",
+        "College golf"
+      ],
+      "uncertainty": [
+        "An exemption provides entry but does not predict performance or a made cut.",
+        "Tournament field details can change before the opening round."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Great Atlantic Sargassum Belt reached its second-highest annual level in the satellite record in June 2026, while the Caribbean Sea and Gulf of Mexico each set regional records, according to NASA Earth Observatory and University of South Florida researchers.\n\nNASA’s PACE satellite mapped dense concentrations across the tropical Atlantic. The western Caribbean held an estimated 3.6 million metric tons, the eastern Caribbean 9 million and the Gulf 5 million.\n\nThe Gulf total was nearly twice its previous record, which was set in 2025. Across the basin, 2026 trailed only the 2025 peak in the satellite record.\n\nSargassum is floating brown algae. In moderate amounts offshore, it provides habitat for fish, turtles, birds and invertebrates. Large nearshore mats can reduce oxygen, smother corals and seagrass and release hydrogen sulfide as they decompose on beaches.\n\nThe word belt can be misleading at local scale. NASA’s map shows a nearly continuous basin-wide feature, but it is made of discrete, moving mats whose paths depend on currents and winds.\n\nThose patterns spared much of Florida’s west coast from heavy inundation earlier in the summer while steering more material toward the Florida Keys, the east coast and parts of the Caribbean, NASA reported.\n\nPACE’s Ocean Color Instrument detects the algae because chlorophyll and plant structure reflect near-infrared light differently from seawater. Scientists use that reflectance signal to estimate the fraction of ocean surface covered in each pixel and then convert coverage to biomass.\n\nThe newer hyperspectral instrument builds on the longer MODIS and VIIRS record. Researchers said PACE observes more ocean and has greater sensitivity, which may improve winter mapping and help distinguish Sargassum from other floating algae.\n\nJune was the annual peak, not a statement that biomass continued rising afterward. NASA said newer observations showed a decline through July, and researchers are still investigating the mix of ocean warming, nutrient sources and biological feedbacks behind the belt’s longer-term growth.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Great Atlantic Sargassum Belt reached its second-highest annual level in the satellite record in June 2026, while the Caribbean Sea and Gulf of Mexico each set regional records, according to NASA Earth Observatory and University of South Florida researchers."
+        },
+        {
+          "type": "paragraph",
+          "text": "NASA’s PACE satellite mapped dense concentrations across the tropical Atlantic. The western Caribbean held an estimated 3.6 million metric tons, the eastern Caribbean 9 million and the Gulf 5 million."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-sargassum-regional-mass-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-regions/four-three.webp",
+          "alt": "Graphic shows 9 million metric tons in the eastern Caribbean, 5 million in the Gulf and 3.6 million in the western Caribbean.",
+          "caption": "The eastern Caribbean held the largest of the three regional June totals reported by NASA.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Gulf total was nearly twice its previous record, which was set in 2025. Across the basin, 2026 trailed only the 2025 peak in the satellite record."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sargassum is floating brown algae. In moderate amounts offshore, it provides habitat for fish, turtles, birds and invertebrates. Large nearshore mats can reduce oxygen, smother corals and seagrass and release hydrogen sulfide as they decompose on beaches."
+        },
+        {
+          "type": "paragraph",
+          "text": "The word belt can be misleading at local scale. NASA’s map shows a nearly continuous basin-wide feature, but it is made of discrete, moving mats whose paths depend on currents and winds."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-sargassum-record-context-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-record/four-three.webp",
+          "alt": "Graphic says 2026 was the second-highest year, the Caribbean and Gulf set records, and the Gulf nearly doubled its prior high.",
+          "caption": "The basin ranked second in the satellite record while two regions set highs.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/"
+        },
+        {
+          "type": "paragraph",
+          "text": "Those patterns spared much of Florida’s west coast from heavy inundation earlier in the summer while steering more material toward the Florida Keys, the east coast and parts of the Caribbean, NASA reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "PACE’s Ocean Color Instrument detects the algae because chlorophyll and plant structure reflect near-infrared light differently from seawater. Scientists use that reflectance signal to estimate the fraction of ocean surface covered in each pixel and then convert coverage to biomass."
+        },
+        {
+          "type": "paragraph",
+          "text": "The newer hyperspectral instrument builds on the longer MODIS and VIIRS record. Researchers said PACE observes more ocean and has greater sensitivity, which may improve winter mapping and help distinguish Sargassum from other floating algae."
+        },
+        {
+          "type": "paragraph",
+          "text": "June was the annual peak, not a statement that biomass continued rising afterward. NASA said newer observations showed a decline through July, and researchers are still investigating the mix of ocean warming, nutrient sources and biological feedbacks behind the belt’s longer-term growth."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/great-atlantic-sargassum-belt-june-2026-records/",
+      "citations": [
+        {
+          "id": "source-nasa-sargassum-20260729",
+          "title": "Sizing Up the Sargassum Belt",
+          "publisher": "NASA Earth Observatory",
+          "publishedAt": "2026-07-29T12:00:00Z",
+          "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "June 2026 was the second-highest Sargassum year in the satellite record.",
+        "The eastern Caribbean held about 9 million metric tons, the western Caribbean 3.6 million and the Gulf 5 million.",
+        "The Caribbean Sea and Gulf each set regional records.",
+        "The Gulf total was nearly double its prior record.",
+        "PACE’s Ocean Color Instrument maps Sargassum through reflected-light signals."
+      ],
+      "corrections": [],
+      "dek": "NASA and University of South Florida measurements put June 2026 biomass at regional records in the Caribbean and Gulf, with July observations showing a decline.",
+      "desk": "ocean-observation",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NASA Earth Observatory",
+        "University of South Florida",
+        "NOAA",
+        "PACE mission"
+      ],
+      "eventId": "event-great-atlantic-sargassum-belt-june-2026-records",
+      "headline": "Atlantic Sargassum Belt Hits No. 2 Satellite-Era Peak as Gulf Sets Record",
+      "id": "article-great-atlantic-sargassum-belt-june-2026-records",
+      "leadImage": {
+        "alt": "Satellite-derived map shows orange and red Sargassum concentrations across the tropical Atlantic, Caribbean and Gulf.",
+        "caption": "PACE satellite data map Sargassum concentration across the tropical Atlantic in June 2026.",
+        "credit": "NASA Earth Observatory / Lauren Dauphin",
+        "height": 900,
+        "rightsId": "media-sargassum-pace-june-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-pace-map/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Tropical Atlantic Ocean",
+        "Caribbean Sea",
+        "Gulf of Mexico",
+        "Florida"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "June 2026 Sargassum reached the second-highest satellite-era level, with record totals in the Caribbean and Gulf.",
+        "index": true,
+        "title": "Atlantic Sargassum belt hits second-highest level"
+      },
+      "section": "weather-climate",
+      "slug": "great-atlantic-sargassum-belt-june-2026-records",
+      "social": {
+        "description": "NASA and University of South Florida measurements put June 2026 biomass at regional records in the Caribbean and Gulf, with July observations showing a decline.",
+        "image": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-pace-map/open-graph.webp",
+        "title": "Atlantic Sargassum Belt Hits No. 2 Satellite-Era Peak as Gulf Sets Record"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Great Atlantic Sargassum Belt",
+        "PACE satellite",
+        "Ocean Color Instrument",
+        "Caribbean Sea",
+        "Gulf of Mexico"
+      ],
+      "uncertainty": [
+        "The belt is patchy; basin-wide maps do not predict every beach impact.",
+        "The exact causes of long-term growth remain under investigation, and July observations showed biomass declining after the June peak."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The World Bank has approved a $100 million project for Argentina’s Salta Province that combines road rehabilitation, logistics upgrades, water and sanitation systems and new tools for managing growth in the mining sector.\n\nThe project will rehabilitate 24 kilometers of National Route 51 between Campo Quijano and Los Chorrillos. The bank said drainage and climate resilience are core parts of the road work.\n\nRoute 51 links high-altitude communities and production areas toward the Chilean border. The program also funds improvements at the General Güemes Logistics Hub and Industrial Park, which connects with the Belgrano Cargas freight rail network and the wider Bioceanic Corridor.\n\nIn Olacapato and San Antonio de los Cobres, financing is directed toward safe-water access and wastewater treatment. Those components make the operation broader than a transport loan.\n\nThe mining-governance track includes modernized information systems, digital platforms, environmental monitoring, technical training and transparency measures. The World Bank framed those systems as part of responsible critical-minerals development.\n\nApproval establishes financing and project scope; it does not mean every road, pipe or digital system is already built. Procurement, construction schedules and performance measures will determine when residents see the intended services.\n\nThe operation is a variable-spread loan with a 32-year maturity and seven-year grace period. Those terms spread repayment over decades while leaving interest costs sensitive to the loan’s rate structure.\n\nThe combined design reflects a regional-development theory: road reliability, freight connections, basic services and public-sector capacity can reinforce one another. Whether they do so will depend on project execution and whether benefits reach the targeted towns and workers.\n\nThe most concrete near-term benchmarks are therefore physical and auditable: 24 kilometers of Route 51, named logistics facilities, specified water and wastewater investments and working public information and environmental-monitoring systems.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The World Bank has approved a $100 million project for Argentina’s Salta Province that combines road rehabilitation, logistics upgrades, water and sanitation systems and new tools for managing growth in the mining sector."
+        },
+        {
+          "type": "paragraph",
+          "text": "The project will rehabilitate 24 kilometers of National Route 51 between Campo Quijano and Los Chorrillos. The bank said drainage and climate resilience are core parts of the road work."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-salta-project-scale-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-scale/four-three.webp",
+          "alt": "Graphic lists $100 million, 24 kilometers of Route 51, a 32-year maturity and seven-year grace period.",
+          "caption": "The approved project combines a $100 million loan with a defined Route 51 segment.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/07/banco-mundial-aprueba-financiamiento-para-infraestructura-resiliente-y-servicios-b-sicos-que-impulsar-n-el-empleo-en-sal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Route 51 links high-altitude communities and production areas toward the Chilean border. The program also funds improvements at the General Güemes Logistics Hub and Industrial Park, which connects with the Belgrano Cargas freight rail network and the wider Bioceanic Corridor."
+        },
+        {
+          "type": "paragraph",
+          "text": "In Olacapato and San Antonio de los Cobres, financing is directed toward safe-water access and wastewater treatment. Those components make the operation broader than a transport loan."
+        },
+        {
+          "type": "paragraph",
+          "text": "The mining-governance track includes modernized information systems, digital platforms, environmental monitoring, technical training and transparency measures. The World Bank framed those systems as part of responsible critical-minerals development."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-salta-project-components-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-parts/four-three.webp",
+          "alt": "Graphic lists Route 51 and logistics, water and wastewater, and mining data and governance.",
+          "caption": "Roads are one of several connected investment tracks in the Salta operation.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/07/banco-mundial-aprueba-financiamiento-para-infraestructura-resiliente-y-servicios-b-sicos-que-impulsar-n-el-empleo-en-sal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Approval establishes financing and project scope; it does not mean every road, pipe or digital system is already built. Procurement, construction schedules and performance measures will determine when residents see the intended services."
+        },
+        {
+          "type": "paragraph",
+          "text": "The operation is a variable-spread loan with a 32-year maturity and seven-year grace period. Those terms spread repayment over decades while leaving interest costs sensitive to the loan’s rate structure."
+        },
+        {
+          "type": "paragraph",
+          "text": "The combined design reflects a regional-development theory: road reliability, freight connections, basic services and public-sector capacity can reinforce one another. Whether they do so will depend on project execution and whether benefits reach the targeted towns and workers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The most concrete near-term benchmarks are therefore physical and auditable: 24 kilometers of Route 51, named logistics facilities, specified water and wastewater investments and working public information and environmental-monitoring systems."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/world-bank-salta-route-51-water-project-100-million/",
+      "citations": [
+        {
+          "id": "source-world-bank-salta-20260706",
+          "title": "World Bank Approves Financing for Resilient Infrastructure and Basic Services to Boost Employment in Salta",
+          "publisher": "World Bank",
+          "publishedAt": "2026-07-06T12:00:00Z",
+          "url": "https://www.worldbank.org/en/news/press-release/2026/07/07/banco-mundial-aprueba-financiamiento-para-infraestructura-resiliente-y-servicios-b-sicos-que-impulsar-n-el-empleo-en-sal"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The World Bank approved a $100 million operation for Salta Province.",
+        "The project covers 24 kilometers of National Route 51.",
+        "It includes the General Güemes Logistics Hub and Industrial Park.",
+        "Olacapato and San Antonio de los Cobres are named for water and wastewater investments.",
+        "The loan has a 32-year maturity and seven-year grace period."
+      ],
+      "corrections": [],
+      "dek": "The Argentina project includes 24 kilometers of climate-resilient road work, logistics-hub upgrades and water systems in two high-altitude towns.",
+      "desk": "argentina-infrastructure",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Bank",
+        "Province of Salta",
+        "General Güemes Logistics Hub",
+        "Belgrano Cargas"
+      ],
+      "eventId": "event-world-bank-salta-route-51-water-project-100-million",
+      "headline": "World Bank’s $100 Million Salta Plan Targets Route 51, Water and Logistics",
+      "id": "article-world-bank-salta-route-51-water-project-100-million",
+      "leadImage": {
+        "alt": "Two-lane road curves through dry mountains under a blue sky in Salta Province.",
+        "caption": "A highway crosses the mountain landscape of Salta Province, Argentina.",
+        "credit": "Agustinl19 / Wikimedia Commons, CC BY 4.0",
+        "height": 900,
+        "rightsId": "media-salta-road-scene-ccby",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-road-scene/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Salta Province, Argentina",
+        "Campo Quijano",
+        "Los Chorrillos",
+        "Olacapato",
+        "San Antonio de los Cobres"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "A $100 million World Bank project for Salta covers Route 51, logistics, water systems and mining governance.",
+        "index": true,
+        "title": "World Bank approves $100M Salta infrastructure plan"
+      },
+      "section": "world",
+      "slug": "world-bank-salta-route-51-water-project-100-million",
+      "social": {
+        "description": "The Argentina project includes 24 kilometers of climate-resilient road work, logistics-hub upgrades and water systems in two high-altitude towns.",
+        "image": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-road-scene/open-graph.webp",
+        "title": "World Bank’s $100 Million Salta Plan Targets Route 51, Water and Logistics"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Salta infrastructure",
+        "Argentina development",
+        "National Route 51",
+        "Water and sanitation",
+        "Critical minerals"
+      ],
+      "uncertainty": [
+        "Approval does not establish completion dates for each component.",
+        "Construction, procurement and outcome data will be needed to measure delivery and benefits."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Singer-songwriter Amanda Pascali will perform a free concert at the Library of Congress on Thursday, Aug. 13, in a program celebrating the American Folklife Center’s 50th anniversary.\n\nThe concert begins at 7 p.m. in the Coolidge Auditorium. The Library lists Pascali as its 2026 Artist in Resonance and describes the program as a blend of folk and Americana with Mediterranean, Balkan and Latin influences.\n\nAdmission is free, but the Library directs visitors to register through its Live! at the Library ticketing system. The ticket also provides access to exhibitions and extended Thursday evening hours in the Thomas Jefferson Building.\n\nPascali’s concert is the middle of three highlighted August music nights. The month opened Aug. 6 with K-pop programs and an outdoor screening of Apollo 13, and it closes Aug. 27 with a Great Hall café concert by banjo player Tray Wellington and his band.\n\nThe American Folklife Center was established in 1976 to preserve and present traditional culture. Its archive contains songs, oral histories, photographs and field recordings gathered from communities in the United States and abroad.\n\nThe Artist in Resonance designation connects a working artist with those collections and with public programming. In this case, the anniversary concert foregrounds music shaped by migration and multiple regional traditions rather than treating folk music as a single fixed style.\n\nVisitors during the Library’s Thursday evening program can also enter the Main Reading Room experience and current exhibitions, subject to the building’s access rules and capacity.\n\nThe event notice supplies the date, time, venue and registration path, but it does not publish a song-by-song set list. Attendees should not assume a specific repertoire beyond the musical traditions the Library identifies.\n\nFor planning purposes, the key details are straightforward: Thursday, Aug. 13; 7 p.m.; Coolidge Auditorium; free advance registration through the Library’s official event system.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Singer-songwriter Amanda Pascali will perform a free concert at the Library of Congress on Thursday, Aug. 13, in a program celebrating the American Folklife Center’s 50th anniversary."
+        },
+        {
+          "type": "paragraph",
+          "text": "The concert begins at 7 p.m. in the Coolidge Auditorium. The Library lists Pascali as its 2026 Artist in Resonance and describes the program as a blend of folk and Americana with Mediterranean, Balkan and Latin influences."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-pascali-concert-details-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/pascali-event/four-three.webp",
+          "alt": "Graphic lists Amanda Pascali, Aug. 13 at 7 p.m., Coolidge Auditorium and free registration.",
+          "caption": "The free Aug. 13 concert begins at 7 p.m. in the Coolidge Auditorium.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c"
+        },
+        {
+          "type": "paragraph",
+          "text": "Admission is free, but the Library directs visitors to register through its Live! at the Library ticketing system. The ticket also provides access to exhibitions and extended Thursday evening hours in the Thomas Jefferson Building."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pascali’s concert is the middle of three highlighted August music nights. The month opened Aug. 6 with K-pop programs and an outdoor screening of Apollo 13, and it closes Aug. 27 with a Great Hall café concert by banjo player Tray Wellington and his band."
+        },
+        {
+          "type": "paragraph",
+          "text": "The American Folklife Center was established in 1976 to preserve and present traditional culture. Its archive contains songs, oral histories, photographs and field recordings gathered from communities in the United States and abroad."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-loc-august-live-schedule-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-august-music/four-three.webp",
+          "alt": "Graphic lists K-pop and Apollo 13 on Aug. 6, Amanda Pascali on Aug. 13 and Tray Wellington on Aug. 27.",
+          "caption": "The Pascali performance sits between two other August Live! at the Library music dates.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Artist in Resonance designation connects a working artist with those collections and with public programming. In this case, the anniversary concert foregrounds music shaped by migration and multiple regional traditions rather than treating folk music as a single fixed style."
+        },
+        {
+          "type": "paragraph",
+          "text": "Visitors during the Library’s Thursday evening program can also enter the Main Reading Room experience and current exhibitions, subject to the building’s access rules and capacity."
+        },
+        {
+          "type": "paragraph",
+          "text": "The event notice supplies the date, time, venue and registration path, but it does not publish a song-by-song set list. Attendees should not assume a specific repertoire beyond the musical traditions the Library identifies."
+        },
+        {
+          "type": "paragraph",
+          "text": "For planning purposes, the key details are straightforward: Thursday, Aug. 13; 7 p.m.; Coolidge Auditorium; free advance registration through the Library’s official event system."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/amanda-pascali-library-congress-concert-august-13-2026/",
+      "citations": [
+        {
+          "id": "source-loc-live-august-20260723",
+          "title": "Library Spotlights K-Pop, Live Music and a Summer Movie During Live! At the Library in August",
+          "publisher": "Library of Congress",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "url": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Amanda Pascali is the American Folklife Center’s 2026 Artist in Resonance.",
+        "The concert is Aug. 13, 2026, at 7 p.m.",
+        "The venue is the Library of Congress Coolidge Auditorium.",
+        "The event is free with registration.",
+        "The program celebrates the American Folklife Center’s 50th anniversary."
+      ],
+      "corrections": [],
+      "dek": "The Artist in Resonance performance marks the American Folklife Center’s 50th anniversary with Mediterranean, Balkan, Latin, folk and Americana influences.",
+      "desk": "american-folklife",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Amanda Pascali",
+        "Library of Congress",
+        "American Folklife Center"
+      ],
+      "eventId": "event-amanda-pascali-library-congress-concert-august-13-2026",
+      "headline": "Amanda Pascali Plays Free Library of Congress Concert Aug. 13",
+      "id": "article-amanda-pascali-library-congress-concert-august-13-2026",
+      "leadImage": {
+        "alt": "Ornate Great Hall interior at the Library of Congress with arches, stained glass and murals.",
+        "caption": "The Great Hall of the Library of Congress Thomas Jefferson Building in Washington.",
+        "credit": "Carol M. Highsmith / Library of Congress",
+        "height": 900,
+        "rightsId": "media-loc-great-hall-highsmith",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-great-hall/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington, D.C.",
+        "Coolidge Auditorium"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Amanda Pascali performs a free Aug. 13 Library of Congress concert for the American Folklife Center’s 50th anniversary.",
+        "index": true,
+        "title": "Amanda Pascali Library of Congress concert Aug. 13"
+      },
+      "section": "culture",
+      "slug": "amanda-pascali-library-congress-concert-august-13-2026",
+      "social": {
+        "description": "The Artist in Resonance performance marks the American Folklife Center’s 50th anniversary with Mediterranean, Balkan, Latin, folk and Americana influences.",
+        "image": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-great-hall/open-graph.webp",
+        "title": "Amanda Pascali Plays Free Library of Congress Concert Aug. 13"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Amanda Pascali",
+        "American Folklife Center",
+        "Live! at the Library",
+        "Folk music",
+        "Library of Congress concerts"
+      ],
+      "uncertainty": [
+        "The Library has not published a complete set list.",
+        "Registration and building capacity may change; visitors should use the official event page."
+      ],
+      "updatedAt": null
     }
   ],
-  "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-09T15:44:00Z",
+  "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
+  "generatedAt": "2026-08-10T03:55:00Z",
   "inputHashes": {
-    "approvals": "2a91a5a1c125bc606efe32666984eb4980bdc2b7b8bab6382ac1da67ff9916d0",
-    "articles": "72bb4424d157f9bccbd77c430fb4e2670b7347974a8c8f5220a3570bf5d0321b",
-    "claims": "cbca53ba04842081be4050aeb2a57bd6ed015bcb03e44cb2f7b3470a5908c5fb",
+    "sourceItems": "8e8e61a2481b333a9bd0448df1e49bd0e87cb370308f4e6d7b6d63790c4722d6",
+    "events": "7f31fc2a8b5139436a83dfff111cd282fa555e4c4c226d6f7b197f78fa0267db",
+    "claims": "399e46ac0d9493791d49ecba4142d5f4c891d6b2b70aeccd96d3e8a85f5f0de5",
+    "articles": "17e73ed20e22e0cb1799ca412198ce584bc67f6f00a3719cb64b8a328f25f6be",
+    "approvals": "b261baf03d758b449bee8e3c4ee48e54f248f4a9a38caef3e0279bfebf17df26",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "9528462e7500bd38957e668a05eb648a0aeebd4a05e556bbc70296a4a4085ae1",
-    "mediaRights": "fe7fc3a86a563648ec4c52243800f6a7264ade3f24d7fb94d128829d3d921389",
-    "publicationIntents": "05dcbd808245a991c4f033204e7b5c53f16ffcba45dc3c98772a34863b26a426",
-    "releaseRecords": "5dbea04fa088ac55b3e8ff623f324b0aa7eb201fcf1e955c6be005f96bfde9d1",
-    "sourceItems": "93853b6faf78e82dee391c76bf3f5ee64c4807777f78763f7ae796d336dee12c"
+    "mediaRights": "98bcfb4aaf70a8f3567dabbaee94be005717adaef8976d46cff5931afc3b59c2",
+    "releaseRecords": "fa51f43e158fa384f873cbfcc9fd5434cd650f2e7fc3506e7bdd8ca2c3094385",
+    "publicationIntents": "229a9dfe0456f1060d508edb41e3ee25e9aa7511af3e4618b4257ff909b070e4"
   },
   "inventory": {
-    "articleCount": 183,
-    "mediaCount": 535,
-    "routeCount": 183
+    "articleCount": 189,
+    "routeCount": 189,
+    "mediaCount": 553
   },
   "mediaRights": [
     {
@@ -72750,9 +73653,1376 @@
       "rightsBasis": "Creative Commons Attribution 4.0 International",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Scientist in a white laboratory coat works at a bench with research equipment.",
+      "archivalStatus": "current",
+      "attribution": "Diane A. Reid / National Cancer Institute",
+      "caption": "A scientist works in a National Cancer Institute laboratory in Frederick, Maryland.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Diane A. Reid / National Cancer Institute",
+      "derivatives": [
+        {
+          "hash": "7b633475d363179fe06ec623ed5d296f47c17c048333d84e57e7ee7eebc23a36",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/nih-nci-lab/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "40855a467da42f98e5af043554c400439dbc8dada5accb7677f2112d1f7a0bcd",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/nih-nci-lab/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c69d0bb42a26992e9ddc33c94c0d1a89a1d93bc55baebf2747e695ed958db938",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/nih-nci-lab/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9bdcd248a2abef38bd8a40f3ad13a1c875a7f415784f22cab69cbb988d19969c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/nih-nci-lab/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e70db4241319f78c4cd70bfcaa32fbfc9ca5764cdbe9c8f3df3ce07ce9815cc4",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/nih-nci-lab/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8a9ba9ce08f6d4c88f7d380a7ce1f7fb2c49f02253d6a848c975585dd946e338",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/nih-nci-lab/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "584e2b32c0fe10487429d129bbc433e692cd36a3cbad86f23459cccd7671b56c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/nih-nci-lab/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nih-hcmi-laboratory",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "0018462b5d87211b18a31246b325ce1c8d72dcc02f5c777bfd666302d104b87e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Public domain: U.S. federal government work and author dedication.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scientist_working_in_laboratory.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 665 laboratory models, 25 cancer types and 2,780 patient donors.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The HCMI compendium covers hundreds of models and 25 cancer types.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "80687aaa1e42a32e06c631a4a0230cccbcd9a8371d928370ea4eb3b8c7baff46",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-compendium/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "532d65b1edd319bdc9d1087328e2decc169252fbe28404b974d8a475e8ad2bae",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-compendium/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6123317a90fa4ffd91e959bdcf27212f2f9063c1834f34f562bc1427427298ff",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-compendium/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ef087519d0529e736311acb100ae436148758e5a6aca63ef206cc709e69ece19",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-compendium/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "373f799e77fb087f68ad686c193fbbb51babaa711133cf6eb66fc43894b9a7ed",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-compendium/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "07d180abfa227e580b902d21f957f2615a2b62ab90c0c676fce90a8d65555aa6",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-compendium/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "556e891bb0989df061209f7cef23c140e73034b087350482bbfc0d993be227ad",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-compendium/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-hcmi-compendium-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "ef087519d0529e736311acb100ae436148758e5a6aca63ef206cc709e69ece19",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nih.gov/news-events/news-releases/human-cancer-models-accelerate-research-precision-therapies"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 97.8 percent genetic, 95 percent epigenetic and 92 percent RNA-expression agreement.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Paired tumors and models retained high molecular agreement in NIH’s analysis.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "18a516c3efcce838f8026130c2892ceb42e267a186e95387103b7d646bdc9d25",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-agreement/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5d33e5bc288799ac62a3876916831c71462ac81e90148adea4b24ff397786c11",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-agreement/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c01a90a32d4fc77f114aa59ad71a12edcd7548330298b032ddee32e91a299201",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-agreement/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "53a45de3f3d847d516cccec4f13adab3fcb683984ab4878954d08c67d8015bd6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-agreement/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e59909701e37de724355b2ca21c0ec54518cda7613d28f9e72e32388db2fc39f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-agreement/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f4b4abca1ec20624f90c0889d76a2dd340461000385d047121dc1794a7698490",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-agreement/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7d01c3ccc9ef0eb3e19e76c279ce5d5d83267d269416270711501388babd9f28",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-agreement/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-hcmi-molecular-agreement-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "53a45de3f3d847d516cccec4f13adab3fcb683984ab4878954d08c67d8015bd6",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nih.gov/news-events/news-releases/human-cancer-models-accelerate-research-precision-therapies"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Wide panoramic view of the NIST campus and laboratory buildings in Gaithersburg.",
+      "archivalStatus": "current",
+      "attribution": "Owenusa / Wikimedia Commons",
+      "caption": "The National Institute of Standards and Technology campus in Gaithersburg, Maryland.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Owenusa",
+      "derivatives": [
+        {
+          "hash": "931c1d418638b7d292529e7cc5497a63df75279a4988c09ed01eccb0ff90d31b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-gaithersburg-campus/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1d65cac7f489823b601e1ecbece61e730ec296f141d14434ec624dfeeb03a4d8",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-gaithersburg-campus/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7fe3ace16f65ef5ec4a23d0d5e0ed1203366660535167563edfd2bcd2ed2930b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-gaithersburg-campus/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "af1604016fce90d4bba2dfbbdbb52b3e14694afd7063c08236ce7b6e045672a4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-gaithersburg-campus/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0109903395ea86d4b4a99b1a8cae4074d6858af01450cf7227a12e677cff543a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-gaithersburg-campus/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "cfd4e3c37dd625c5906fedc2e4ff10cc5711a66dd86b486a6a1426b9d68f9694",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-gaithersburg-campus/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "ff28c0e8c41d79908821533d887b131b124888f90cb875c0343365aca495dcf1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-gaithersburg-campus/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nist-gaithersburg-campus",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "dbfc49661c8b8bbef9d3927d11d7038207779d22619f9b0736808ca4f51cbe8e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Public-domain dedication by the photographer.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nist_2.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows registration closes Aug. 12 and the NIST tour runs Aug. 19 from 5:30 to 7 p.m.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The registration deadline falls one week before the Aug. 19 evening tour.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "3b8fc96711c37cfd85b51057383065acada3878f3c432ee8feece840987c6694",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-tour-timeline/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9eba6390d0dba6dc698268f560b329a5443062ed266b22396f7ba6a0b22fffbe",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-tour-timeline/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3953fc641fca75e4ec516f3d861fcc8f4658a5b7dec631190b5e677821d93fca",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-tour-timeline/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e12c7acc4aeccc396622d10b1ca3ab95225b31b8f7687522e17eec3944f1800b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-tour-timeline/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "da7135088f701a730940bfb3920db3007ba5c0a45f652fa53027d44af2782efb",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-tour-timeline/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "712fc25a28d6827d8ee36415db2ed5a41b03db8d8279e34d3b432ddf55666ea5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-tour-timeline/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "17dd33577065086074fd2f53f752d5c1a240f2cd9ffc9ca54c113cdb1e75647a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-tour-timeline/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nist-tour-timeline-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "e12c7acc4aeccc396622d10b1ca3ab95225b31b8f7687522e17eec3944f1800b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nist.gov/news-events/events/2026/08/august-tour-nists-125th-anniversary"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists the Million Pounds-Force machine and NanoFab as the two tour choices.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Registrants must choose between two laboratory visits.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "05d8272669f2e5136cb3efb12b26260d9a221579f1d0aac7219fc7eb7827e271",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-lab-options/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "841c48f918044a0af4fdc05f2fee7a7b8f932372ae661abd1701264860d7e2d7",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-lab-options/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "44b495ff5edee3bcbffbf298fe75e28d97124a85472607fa8f0c1cb0f65e079b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-lab-options/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "95adf527027377523b65692ad69ede54be03023e5c7e10003d62a065572932fa",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-lab-options/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f95b1b8a68136a2dd5e063b13367a39ddc382d11d3de052a56d5d6232735aab1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-lab-options/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "826478031b558d3171063511b4d764bcc0bf6c2a1d570f975015ddc32582f627",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-lab-options/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5947852c396673d41f11baadcc4691b6dcdf3ffc67b4260223ca7d7671cb2ea5",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-lab-options/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nist-tour-lab-options-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "95adf527027377523b65692ad69ede54be03023e5c7e10003d62a065572932fa",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nist.gov/news-events/events/2026/08/august-tour-nists-125th-anniversary"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Woman golfer swings a club on a green with trees in the background.",
+      "archivalStatus": "current",
+      "attribution": "jmw / Wikimedia Commons, CC0",
+      "caption": "A golfer plays from a green. NCAA champion Farah O’Keefe received an amateur exemption into Portland’s LPGA event.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "jmw",
+      "derivatives": [
+        {
+          "hash": "a312e5a84e0622bfaf08a65d5c02c27b95e11f20e9ea0ae5aae3b607969b3048",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/female-golfer-green/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8c1e6eddd8d7e615eb682cafe8b9c6bae8e87af802338f3ecdc2d561b0b6e883",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/female-golfer-green/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "dd7c7ad13334e581103f2a93f542b13787eac83052c3bfa03a14b9ac4699fb05",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/female-golfer-green/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "be039bab11e0366d9758d9d4256a93470de57eddf8dd703d40cedd4e4327dc22",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/female-golfer-green/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "59d22ab375a31fb0c99eb6be04ad7c96861a44dafbfd406b5d2d07036aeeaed1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/female-golfer-green/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "91385e1a224238762bb3ef74638a13e836726be7123c3387b9c25dec8b908c39",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/female-golfer-green/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8d5b6b81e990ff72e6105d1ef78649d4c7bf76b08caaa6877e95f2f26381837b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/female-golfer-green/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-womens-golf-green-cc0",
+      "illustrationLabel": null,
+      "license": "CC0 1.0",
+      "originalFileHash": "81a432abab4c68ff1268f852c6444dc50065f150349b1ffffe11321b23aea6bc",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Creative Commons CC0 public-domain dedication.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Female_golfer_on_green.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists rounds of 69, 69, 68 and 70, a 12-under total and two-stroke win.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "O’Keefe closed the NCAA tournament at 12 under after four subpar rounds.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "9154c164a5d99d25e05f96002330b0efb7da2ca6a237f6b976b5b6ba0dd44fac",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-ncaa-rounds/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "eda1053474bd28011061853b7800610acd4cbee05037baa59b38969f4d03bb14",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-ncaa-rounds/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7aa9e0c27eb875216d1c86b085b5265da17c9973bbe4446edf6e10d64e61fd5f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-ncaa-rounds/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "56262a9556e1a1c6b9ed093cbdfb49ea7f64870c415eb9d56de3194e905852be",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-ncaa-rounds/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b8a4927c8b4c68980609b24fc8c098fb561accdbbfe4900bc3e1567eebfe09d8",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-ncaa-rounds/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "200bacddd1f7888c8d006c05519aa5957d34f6b91d4589ddff71aa6ef71fdb50",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-ncaa-rounds/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b7add49410224b49a3bafad13ec149b98f4ab0aff391dd30dc590f7d6ba185ed",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-ncaa-rounds/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-okeefe-ncaa-rounds-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "56262a9556e1a1c6b9ed093cbdfb49ea7f64870c415eb9d56de3194e905852be",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ncaa.org/media-center-ncaa-di-womens-golf-champion-to-be-extended-amateur-exemption-to-lpga-event/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists four victories, top 10 in all 12 events and NCAA individual champion.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "O’Keefe paired the NCAA title with a top-10 finish in every college event of the season.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ad13ea076def6374210c32eb3d11584a4c24e9b62661ab6260e19301a4d72880",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-season/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "110e1d72406014062d296a6de1e9e6afbec4e6022d45f5dc59381cbeddb1e063",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-season/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3ca01e33a3e0e0e3f662ff4633fd15acc89767927fbae2765f55920802d289c5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-season/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c9c9beec77a5f70b5e94e5e4833c5e1c547596398cc42bfb4c2bf50474919454",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-season/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "140f88f43334fad8c410050a8813a5f1c4b9f181a918237309f5da6b60cfe1ee",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-season/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "06a502ef5b2690c921cd98642674e2529b5620413650b1b7f129f4fee3e4e0b1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-season/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "43edb093135cd2d5680bd9c75683f672652c94ba78e46d39c046ada5a7de2c26",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-season/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-okeefe-season-summary-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "c9c9beec77a5f70b5e94e5e4833c5e1c547596398cc42bfb4c2bf50474919454",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ncaa.org/media-center-ncaa-di-womens-golf-champion-to-be-extended-amateur-exemption-to-lpga-event/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Satellite-derived map shows orange and red Sargassum concentrations across the tropical Atlantic, Caribbean and Gulf.",
+      "archivalStatus": "current",
+      "attribution": "NASA Earth Observatory / Lauren Dauphin",
+      "caption": "PACE satellite data map Sargassum concentration across the tropical Atlantic in June 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "NASA Earth Observatory / Lauren Dauphin",
+      "derivatives": [
+        {
+          "hash": "e01af73e67b2ab0218f7a102a38a92e63ca244c397847de643e61304b22305d0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-pace-map/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c719e6923173757aa506617ec4a41cabe257254e091ba733fa110241388d7489",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-pace-map/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ecf766697d422df13d91155357bc6594c28d6042b68d529d07482b569db524a4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-pace-map/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a697941e1b1a209c6a8fad0b48781e7e713545ca9c05c73012a85d4400e7a435",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-pace-map/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5c9c8b19a426181d0c26e96a10aed7d7eb15157f639ca296ab2d76b84798dcd3",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-pace-map/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d87c5ffdf0146c768139f54e30edfc5a1edd65c75a1f3e61de27f5f13db452b1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-pace-map/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "ac33cb68588f8bcc9bdc837c96c7033634fd61f864e8034cb62617b8df3fb92e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-pace-map/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-sargassum-pace-june-2026",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "ec5b7f876b0df8a283f858a75574faf42e6c62af63153ca3e4797858437fb7d1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Public domain U.S. federal government work using cited PACE/NOAA/USF data.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 9 million metric tons in the eastern Caribbean, 5 million in the Gulf and 3.6 million in the western Caribbean.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The eastern Caribbean held the largest of the three regional June totals reported by NASA.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "9222a711b6efaa390f9bc619cac671a3d6479524dd64eabe024b76d3921da422",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-regions/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6e12a2f21382525418254a05ab4ad2773ebd36e5693a49471ab001bc229026f4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-regions/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9ab632d79ef13d5a48a2cb3004e805a21a7fe049b93f0097a81b24eb8b0f1596",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-regions/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c8da8dd26faf9750fc59dc0f712a5979ced4b11d2836bea808ff7feebb0aeb13",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-regions/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2b5eb60e298d0b50be6af066c3457bb9b9c26f38ce564d12dd6cfca083f3eb36",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-regions/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "769154cda53b4f4276fb0ab41e4af914830f60a876a932d3b1e190de0763dd3d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-regions/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "74aa0c78c4e91887c16db84aa8da48790e7a6f9e188c2cea0f09ea8db719dcbc",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-regions/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-sargassum-regional-mass-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "c8da8dd26faf9750fc59dc0f712a5979ced4b11d2836bea808ff7feebb0aeb13",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic says 2026 was the second-highest year, the Caribbean and Gulf set records, and the Gulf nearly doubled its prior high.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The basin ranked second in the satellite record while two regions set highs.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "036a70ef013049899885784d920478f11abbed45bb2dcb18f010e45c4d80b15b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-record/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7464ea7e45dd77ca5af7563fa7d9cc45207c09297974d987cba23f4e9bfbeb0e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-record/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6272a5854ac72fd897ddb96b82b308d39c42894887427ef96402902b1c2a54a4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-record/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4483caff30f7eb0711322c1b5db572669d2d0e91cc9ed9e3f5120025cd3e40e6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-record/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9e4d36abcd2ea1047a1ff95b907e3d57a366583e6e1b40f74c16d60325812714",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-record/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "eca8dfe2ea905ac51c0c8057c34be09abb12258257f06822452ce8152e9c8a7b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-record/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b6976c048b774977e9494f5855d5bd45b6017491445912ace91f07bbeea4f9e1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-record/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-sargassum-record-context-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4483caff30f7eb0711322c1b5db572669d2d0e91cc9ed9e3f5120025cd3e40e6",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Two-lane road curves through dry mountains under a blue sky in Salta Province.",
+      "archivalStatus": "current",
+      "attribution": "Agustinl19 / Wikimedia Commons, CC BY 4.0",
+      "caption": "A highway crosses the mountain landscape of Salta Province, Argentina.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Agustinl19",
+      "derivatives": [
+        {
+          "hash": "4bf21bd6dca12f2be229954f796817832fdf11f838ee428649aec17e13fc4d62",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-road-scene/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "77aecaa571865b14ce97ab1e1efce632b4629890e7f5a73536fe3de6d45213b4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-road-scene/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1961a571f9beb6631b9af74fa5675797f8441d40a94bc6859b6fefecd78734fc",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-road-scene/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "43373eeef0dbbcdc21c4790e98d6d378268b087ebbc5ab34e44d0c1c9f5c5516",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-road-scene/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "237030b847283bf2370196f44a8e887495063d76f2c9557fcd1f901cf763f763",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-road-scene/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e467dc42fe0ef54deb253829594b4816fae2e77472423a266801f6116cb84753",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-road-scene/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "644a20b680e4f577f006b49966fee4c1e2a9f561e8056159872b8c2810ff933e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-road-scene/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-salta-road-scene-ccby",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "3d6e54f65a76834a03772e08fc166f06176234399a240997c95153b8fdf297ee",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Creative Commons Attribution 4.0 International.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruta_de_Salta.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists $100 million, 24 kilometers of Route 51, a 32-year maturity and seven-year grace period.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The approved project combines a $100 million loan with a defined Route 51 segment.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "176f5262b6a503b461e7f2cab0f5234f45882a8fea5d235714218c14e9c436e8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-scale/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "4e81ba06adf517e3e1a00ee907a9f976c7caf3b57ec785b9a52db1fd182642db",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-scale/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c30940caed2b79ea972dc1b25003fb6c8d1c0be04a421126bf5cb0631eb52740",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-scale/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7a1baf7c20d8168c8da21650ef7d99a8a00957e7caa7d82763858d3616e5624b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-scale/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1e1c88c3b67afde1752c190012e5b5ce7a36c0d52fca93959126b01378fd328a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-scale/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d33c2e261aa9969e894c56a7bf8e3d5c1a92a158ab130acba35f42561cb8e707",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-scale/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "855316b4ca78074e19091e80cf7b209c809cd0f5b1e554de7b7c7c861fc141de",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-scale/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-salta-project-scale-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "7a1baf7c20d8168c8da21650ef7d99a8a00957e7caa7d82763858d3616e5624b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/07/banco-mundial-aprueba-financiamiento-para-infraestructura-resiliente-y-servicios-b-sicos-que-impulsar-n-el-empleo-en-sal"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists Route 51 and logistics, water and wastewater, and mining data and governance.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Roads are one of several connected investment tracks in the Salta operation.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "cdb20a41704db8437b01bcabb4506a884a6624099d572dde54981802d8ad6038",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-parts/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ae53c162be80bec5ce4bc72464de7824fdd4b399d0f88643254ecc6e16c634f7",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-parts/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "dd4ec461e6c5ae62db0f6f0870b20fb8a07ed3d6de174af6e2964d193ca36c58",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-parts/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5a581fbc9c228b645ebdff5fcce2fb396e24122a35b09265531d929b315901d0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-parts/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "18bbb3445f1e547f13a8cac6919e69b5fa49f8c90d9b2a7f1f1faa6a3ab017b7",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-parts/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "618cb62b8da9a76cd00cdbabcb27419f9ce79c248c491f7d91da05f08d41999b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-parts/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d404728b10b38e7aaa89c9c751350790b6d753d3992331a6c34801f93c6883d4",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-parts/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-salta-project-components-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5a581fbc9c228b645ebdff5fcce2fb396e24122a35b09265531d929b315901d0",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/07/banco-mundial-aprueba-financiamiento-para-infraestructura-resiliente-y-servicios-b-sicos-que-impulsar-n-el-empleo-en-sal"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Ornate Great Hall interior at the Library of Congress with arches, stained glass and murals.",
+      "archivalStatus": "current",
+      "attribution": "Carol M. Highsmith / Library of Congress",
+      "caption": "The Great Hall of the Library of Congress Thomas Jefferson Building in Washington.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Carol M. Highsmith",
+      "derivatives": [
+        {
+          "hash": "a528bb9fd4d894e43e96f615062aefed5f23108da86465e6ec63d1a9a37adee5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-great-hall/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f4d6fd4387e04e431bd0658f533435a06d10a449573fd8065559a6d78f78675a",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-great-hall/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "547f90fc5c899f1936666c0073d3af6f072fcda8acc9b4b4cd38a961eccca09e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-great-hall/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "0a52200614377c7b8e7dcc866b0648762aa69dfc689b694a4dfae29e28e6a92c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-great-hall/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "123a5ec14b81b1ee7cf65c7bdaccd8a5236c88177809305ea465950d0806591e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-great-hall/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "14a0e658cfbf3f774879888b7345100bc6f8f99e1b0b8213d02db1d0543a87b4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-great-hall/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "53d07b4e8a63c6e9e1f8298f8040f007aa0c748cddc1a259857536bbf357f3b0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-great-hall/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-loc-great-hall-highsmith",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "5a33856d9426749b2bea9829ef99f9afe958207024607b6d2250e984d552d49d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Public domain dedication; Library of Congress Highsmith Archive has no known restrictions.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Library_of_Congress,_Thomas_Jefferson_Building,_Great_Hall,_ceiling_and_cove,_by_Carol_Highsmith_(LOC_highsm.02000).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists Amanda Pascali, Aug. 13 at 7 p.m., Coolidge Auditorium and free registration.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The free Aug. 13 concert begins at 7 p.m. in the Coolidge Auditorium.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "45f711bad77d89b697e530b8080e0f47714e38462ae0e3c97e1762242b39e206",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/pascali-event/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d57a115f5192a882686d7a7c3fb398e1aedb62add783a0e09b92540e3eec4a0d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/pascali-event/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5202c1e3e08110eafbcd66dad1dd548de45a282339059d96cec05f3b8dd6d74e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/pascali-event/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "bb750fba389753e9745be33f86db4625168624555dcab63f4d33af4e1e2085db",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/pascali-event/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "116fcc92c8a456b2e9c6a85c9236434f3404fb36315e9bce9bc67160e2d5a80e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/pascali-event/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "decbe8b14ffd76c6423684990387beb0a00426d0042d1dd5ac8da4b84cf0536e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/pascali-event/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7c285cfcd1a363acb7cca0a17e280f1f38bbbfba2cdc2a441f542ff1a51e8d9e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/pascali-event/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-pascali-concert-details-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "bb750fba389753e9745be33f86db4625168624555dcab63f4d33af4e1e2085db",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists K-pop and Apollo 13 on Aug. 6, Amanda Pascali on Aug. 13 and Tray Wellington on Aug. 27.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The Pascali performance sits between two other August Live! at the Library music dates.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "9bd404582946cc6617dd6417ee13839e7f5566bb64aa6438511d0476e912431a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-august-music/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "736121a4cc8eda6e0949993a6d3cce74ed60fa236e439125d7456cd7ebb0b11f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-august-music/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f40f743f72728bbec802d97034764df0ef0a686a8b13bcbaafa6b933390eddae",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-august-music/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "3f8d5db791ee565c2827091d59203cf2e6ca5f8ddf278a6ecac60f535319d368",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-august-music/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "93d1bee7c968eea1613d6f986715d9188f5039b177c3aaad5d00c9b2f23e38e5",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-august-music/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "535f92ba5c9d32a6334052c92f116e6ec003560da2c28dddbfe582b562ab8d47",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-august-music/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7afa5cc1231f66bfdc78766293283028075584f2c545d0b3eb6e85fac185875a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-august-music/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-loc-august-live-schedule-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "3f8d5db791ee565c2827091d59203cf2e6ca5f8ddf278a6ecac60f535319d368",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T03:43:58Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c"
     }
   ],
-  "packageDigest": "e0e30bd995fce65b4ee0369e97914ac38dcb4a69e97129b3c2edc363e36d26fd",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -73997,7 +76267,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "4e99fbc67d36afb0ff887345d9e2b90a9644ec473210ef89bb769a3c94191a2c"
 }
