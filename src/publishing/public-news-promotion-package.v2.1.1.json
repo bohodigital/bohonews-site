@@ -41102,25 +41102,925 @@
         "The convention that trust-fund excise taxes continue after expiration is not a forecast of congressional action."
       ],
       "updatedAt": "2026-08-10T19:35:17.829Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Two of six selected federal agencies reported finding small amounts of telecommunications or video-surveillance equipment covered by a 2018 procurement ban, according to a Government Accountability Office review.\n\nDefense Department officials identified three connected instances and said the devices had been blocked from external network access while removal work continued. The Energy Department also reported finding little covered equipment and addressing potential risks.\n\nOfficials at Homeland Security, Justice, State and Treasury told GAO they did not identify covered equipment connected to their information-technology networks.\n\nThe law generally bars executive agencies from procuring equipment made by specified companies, subsidiaries or affiliates linked to the People's Republic of China. It does not prohibit agencies from using covered equipment acquired before the ban.\n\nAll six agencies used combinations of hardware-inventory searches, network scans, procurement-record reviews and physical searches between 2019 and December 2025. No single method was used in every circumstance.\n\nGAO cautioned that each method has limits. Network scans may not cover every segment, including classified networks, and procurement records may not reveal components inside a finished device.\n\nSome agency officials cited limited supply-chain visibility and the lack of a comprehensive, authoritative list of subsidiaries and affiliates. Corporate names and ownership can also change over time.\n\nThe review covers six agencies selected because they have entities in the Intelligence Community. Its findings should not be generalized to every federal agency or treated as a full inventory of government equipment.\n\nThe agency-reported searches identify equipment matching the statutory definition, not evidence that a device was exploited. Counts and risk-remediation status may change after the report's December 2025 evidence window.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Two of six selected federal agencies reported finding small amounts of telecommunications or video-surveillance equipment covered by a 2018 procurement ban, according to a Government Accountability Office review."
+        },
+        {
+          "type": "paragraph",
+          "text": "Defense Department officials identified three connected instances and said the devices had been blocked from external network access while removal work continued. The Energy Department also reported finding little covered equipment and addressing potential risks."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-covered-telecom-agency-results-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/agency-results/four-three.webp",
+          "alt": "Graphic lists four agencies reporting none and two agencies reporting little covered equipment.",
+          "caption": "Four agencies reported no covered equipment connected to their networks; Defense and Energy reported finding little.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107668"
+        },
+        {
+          "type": "paragraph",
+          "text": "Officials at Homeland Security, Justice, State and Treasury told GAO they did not identify covered equipment connected to their information-technology networks."
+        },
+        {
+          "type": "paragraph",
+          "text": "The law generally bars executive agencies from procuring equipment made by specified companies, subsidiaries or affiliates linked to the People's Republic of China. It does not prohibit agencies from using covered equipment acquired before the ban."
+        },
+        {
+          "type": "paragraph",
+          "text": "All six agencies used combinations of hardware-inventory searches, network scans, procurement-record reviews and physical searches between 2019 and December 2025. No single method was used in every circumstance."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO cautioned that each method has limits. Network scans may not cover every segment, including classified networks, and procurement records may not reveal components inside a finished device."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-covered-telecom-search-methods-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/search-methods/four-three.webp",
+          "alt": "Graphic lists six agencies and four search methods used for covered telecommunications equipment.",
+          "caption": "All six agencies used a combination of inventory, network, procurement-record or physical searches since 2019.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107668"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some agency officials cited limited supply-chain visibility and the lack of a comprehensive, authoritative list of subsidiaries and affiliates. Corporate names and ownership can also change over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "The review covers six agencies selected because they have entities in the Intelligence Community. Its findings should not be generalized to every federal agency or treated as a full inventory of government equipment."
+        },
+        {
+          "type": "paragraph",
+          "text": "The agency-reported searches identify equipment matching the statutory definition, not evidence that a device was exploited. Counts and risk-remediation status may change after the report's December 2025 evidence window."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-six-agencies-covered-telecom-equipment-searches-2026/",
+      "citations": [
+        {
+          "id": "source-gao-covered-telecom-equipment-20260519",
+          "title": "Telecommunications: Selected Agencies Have Taken Steps to Address Risks of Equipment Linked to China",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-05-19T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-107668"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "GAO reviewed six selected federal agencies.",
+        "Four agencies reported no covered equipment connected to their networks.",
+        "Defense and Energy reported finding little covered equipment.",
+        "Defense identified three connected instances and blocked external access.",
+        "All six agencies used a combination of search methods since 2019."
+      ],
+      "corrections": [],
+      "dek": "Defense reported three connected instances and blocked external access while six agencies used several methods to search their networks and inventories.",
+      "desk": "federal-telecom-supply-chain-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "U.S. Department of Defense",
+        "U.S. Department of Energy",
+        "U.S. Department of Homeland Security",
+        "U.S. Department of Justice",
+        "U.S. Department of State",
+        "U.S. Department of the Treasury"
+      ],
+      "eventId": "event-gao-six-agencies-covered-telecom-equipment-searches-2026",
+      "headline": "GAO Finds Covered Telecom Equipment at Two Agencies",
+      "id": "article-gao-six-agencies-covered-telecom-equipment-searches-2026",
+      "leadImage": {
+        "alt": "A folded lattice mobile telecommunications tower rests on a dual-axle black trailer outside an industrial building.",
+        "caption": "A trailer-mounted mobile telecommunications tower. GAO found that two of six selected federal agencies reported small amounts of covered equipment and were addressing potential risks.",
+        "credit": "Eclypes2008 / Wikimedia Commons, CC0",
+        "height": 900,
+        "rightsId": "media-gao-covered-telecom-mobile-tower-cc0",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/mobile-cell-tower/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO found two of six selected agencies had small amounts of covered telecom equipment; Defense identified three connected instances.",
+        "index": true,
+        "title": "GAO reviews covered telecom equipment at six agencies"
+      },
+      "section": "investigations",
+      "slug": "gao-six-agencies-covered-telecom-equipment-searches-2026",
+      "social": {
+        "description": "Defense reported three connected instances and blocked external access while six agencies used several methods to search their networks and inventories.",
+        "image": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/mobile-cell-tower/open-graph.webp",
+        "title": "GAO Finds Covered Telecom Equipment at Two Agencies"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Telecommunications equipment",
+        "Federal cybersecurity",
+        "Hardware inventories",
+        "Supply chains",
+        "GAO oversight"
+      ],
+      "uncertainty": [
+        "The six selected agencies do not represent the entire federal government.",
+        "Search methods have coverage and supply-chain limitations, and the findings do not establish exploitation of any device."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal judges imposed sentences within the applicable guideline range in 19,136 cases during the first half of fiscal 2026, according to preliminary United States Sentencing Commission data.\n\nThose within-range decisions represented 59.1% of 32,390 cases eligible for the comparison. The Commission received 32,586 cases covering Oct. 1, 2025, through March 31, 2026, and excluded 196 from the range table.\n\nSentences were below the guideline range without a government motion in 9,537 cases, or 29.4%. Another 2,284 cases, 7.1%, were below range after a government motion for substantial assistance.\n\nJudges imposed above-range sentences in 1,433 cases, or 4.4%. The categories describe the sentence relative to the final guideline range and do not by themselves identify the offense, sentence length or reasons in an individual case.\n\nThe update covers cases reported to the Commission by the end of the quarter. Late submissions and later corrections can change the totals before the agency publishes final fiscal-year statistics.\n\nComparisons with older reports require care because Amendment 836 took effect Nov. 1, 2025. The amendment eliminated guideline departures and created an exceptional-degree-of-mitigation adjustment, changing how some outcomes are classified.\n\nThe Commission publishes quarterly tables to show the volume and characteristics of federal sentencing before the annual dataset is complete. The report also breaks cases down by offense, district, demographics and statutory penalties.\n\nThe percentages are aggregate judicial outcomes, not a measure of guilt, crime prevalence or the quality of any sentence. Federal sentencing depends on statutes, guideline calculations, criminal history and case-specific findings.\n\nBecause the six-month data is preliminary and the category definitions changed during the period, it should not be treated as a final trend line for the full fiscal year.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Federal judges imposed sentences within the applicable guideline range in 19,136 cases during the first half of fiscal 2026, according to preliminary United States Sentencing Commission data."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those within-range decisions represented 59.1% of 32,390 cases eligible for the comparison. The Commission received 32,586 cases covering Oct. 1, 2025, through March 31, 2026, and excluded 196 from the range table."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-ussc-guideline-range-outcomes-fy2026q2",
+          "src": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/outcomes/four-three.webp",
+          "alt": "Graphic lists 59.1 percent within guideline range, 29.4 percent below and 4.4 percent above.",
+          "caption": "Among comparable cases, 59.1% were within range, 29.4% below range without a government motion and 4.4% above range.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sentences were below the guideline range without a government motion in 9,537 cases, or 29.4%. Another 2,284 cases, 7.1%, were below range after a government motion for substantial assistance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Judges imposed above-range sentences in 1,433 cases, or 4.4%. The categories describe the sentence relative to the final guideline range and do not by themselves identify the offense, sentence length or reasons in an individual case."
+        },
+        {
+          "type": "paragraph",
+          "text": "The update covers cases reported to the Commission by the end of the quarter. Late submissions and later corrections can change the totals before the agency publishes final fiscal-year statistics."
+        },
+        {
+          "type": "paragraph",
+          "text": "Comparisons with older reports require care because Amendment 836 took effect Nov. 1, 2025. The amendment eliminated guideline departures and created an exceptional-degree-of-mitigation adjustment, changing how some outcomes are classified."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-ussc-guideline-range-case-counts-fy2026q2",
+          "src": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/case-counts/four-three.webp",
+          "alt": "Graphic lists 32,586 reported cases and 196 excluded from the guideline comparison.",
+          "caption": "The Commission reported 32,586 cases through March; 196 were excluded from the guideline-range comparison.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Commission publishes quarterly tables to show the volume and characteristics of federal sentencing before the annual dataset is complete. The report also breaks cases down by offense, district, demographics and statutory penalties."
+        },
+        {
+          "type": "paragraph",
+          "text": "The percentages are aggregate judicial outcomes, not a measure of guilt, crime prevalence or the quality of any sentence. Federal sentencing depends on statutes, guideline calculations, criminal history and case-specific findings."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the six-month data is preliminary and the category definitions changed during the period, it should not be treated as a final trend line for the full fiscal year."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-sentences-within-guideline-range-59-percent-2026/",
+      "citations": [
+        {
+          "id": "source-ussc-quarterly-update-second-quarter-fy2026",
+          "title": "Quarterly Sentencing Updates: Second Quarter of Fiscal Year 2026",
+          "publisher": "United States Sentencing Commission",
+          "publishedAt": "2026-05-01T12:00:00Z",
+          "url": "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The Commission reported 32,586 cases through March 31, 2026.",
+        "Nineteen thousand one hundred thirty-six cases, or 59.1%, were within guideline range.",
+        "Nine thousand five hundred thirty-seven cases, or 29.4%, were below range without a government motion.",
+        "One thousand four hundred thirty-three cases, or 4.4%, were above range.",
+        "One hundred ninety-six cases were excluded from the range comparison."
+      ],
+      "corrections": [],
+      "dek": "Preliminary Sentencing Commission data counted 19,136 within-range cases among 32,390 cases eligible for the comparison.",
+      "desk": "federal-guideline-range-sentencing",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Sentencing Commission",
+        "United States Courts"
+      ],
+      "eventId": "event-federal-sentences-within-guideline-range-59-percent-2026",
+      "headline": "59% of Federal Sentences Were Within Guideline Ranges Through March",
+      "id": "article-federal-sentences-within-guideline-range-59-percent-2026",
+      "leadImage": {
+        "alt": "Wood benches face the judge's bench in a formal federal courtroom with tall windows and pendant lights.",
+        "caption": "A courtroom inside the Federal Building and U.S. Courthouse in Asheville, North Carolina. Preliminary commission data shows 59.1% of comparable federal sentences were within guideline ranges through March 2026.",
+        "credit": "Carol M. Highsmith / Library of Congress",
+        "height": 900,
+        "rightsId": "media-ussc-asheville-federal-courtroom-highsmith-2013",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/asheville-courtroom/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Asheville, North Carolina"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Preliminary USSC data shows 59.1% of comparable federal sentences were within guideline ranges during the first half of fiscal 2026.",
+        "index": true,
+        "title": "59% of federal sentences were within guidelines"
+      },
+      "section": "crime-justice",
+      "slug": "federal-sentences-within-guideline-range-59-percent-2026",
+      "social": {
+        "description": "Preliminary Sentencing Commission data counted 19,136 within-range cases among 32,390 cases eligible for the comparison.",
+        "image": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/asheville-courtroom/open-graph.webp",
+        "title": "59% of Federal Sentences Were Within Guideline Ranges Through March"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal sentencing",
+        "Sentencing guidelines",
+        "Judicial data",
+        "Downward variances",
+        "Criminal justice statistics"
+      ],
+      "uncertainty": [
+        "Quarterly Commission data is preliminary and can change with late reporting or corrections.",
+        "Amendment 836 changed the departure framework on Nov. 1, 2025, limiting comparisons with older categories."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The National Institute of Standards and Technology added about 52,000 chemical fingerprints to the two main components of its commercial mass-spectral library in a 2026 update.\n\nMass spectra are patterns produced when an instrument ionizes a substance, breaks it into charged fragments and sorts those fragments by mass-to-charge ratio. Laboratories can compare an unknown sample against the reference collection.\n\nNIST added roughly 35,000 compounds to the Electron Ionization Library, bringing its total above 382,180. That collection is designed for compounds that can be vaporized for analysis.\n\nThe Tandem Library, used for nonvolatile compounds dissolved in liquids, gained 17,000 entries and now contains 68,635 substances.\n\nResearchers and manufacturers use the resource to identify materials in food, drugs, cosmetics, environmental samples, body fluids, forensic evidence and extraterrestrial samples. NIST has maintained the library since 1988.\n\nThe new entries include minor cannabinoids, nitazenes, sulfur-bearing thiophenes, complex organic compounds found in asteroid Bennu samples and an expanded set of PFAS reference spectra.\n\nNIST says software-based evaluation and expert review are used to check the library before release. The product, commonly called NIST26, is licensed through instrument manufacturers and independent distributors rather than offered as an unrestricted download.\n\nA larger reference library increases the set of compounds that can potentially be matched, but it does not guarantee identification of every unknown. Sample quality, instrument settings and similarity among spectra still affect results.\n\nThe totals refer to library entries, not unique substances encountered in the environment or proof that a listed compound was present in any specific sample.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The National Institute of Standards and Technology added about 52,000 chemical fingerprints to the two main components of its commercial mass-spectral library in a 2026 update."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mass spectra are patterns produced when an instrument ionizes a substance, breaks it into charged fragments and sorts those fragments by mass-to-charge ratio. Laboratories can compare an unknown sample against the reference collection."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nist-electron-ionization-library-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/electron-ionization/four-three.webp",
+          "alt": "Graphic lists 35,000 additions and more than 382,180 compounds in the electron ionization library.",
+          "caption": "NIST added about 35,000 compounds to the Electron Ionization Library, bringing it above 382,180.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-expands-its-library-chemical-fingerprints-identify-unknown-substances"
+        },
+        {
+          "type": "paragraph",
+          "text": "NIST added roughly 35,000 compounds to the Electron Ionization Library, bringing its total above 382,180. That collection is designed for compounds that can be vaporized for analysis."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Tandem Library, used for nonvolatile compounds dissolved in liquids, gained 17,000 entries and now contains 68,635 substances."
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers and manufacturers use the resource to identify materials in food, drugs, cosmetics, environmental samples, body fluids, forensic evidence and extraterrestrial samples. NIST has maintained the library since 1988."
+        },
+        {
+          "type": "paragraph",
+          "text": "The new entries include minor cannabinoids, nitazenes, sulfur-bearing thiophenes, complex organic compounds found in asteroid Bennu samples and an expanded set of PFAS reference spectra."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nist-tandem-library-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/tandem-library/four-three.webp",
+          "alt": "Graphic lists 17,000 additions and 68,635 substances in the tandem library.",
+          "caption": "The Tandem Library gained 17,000 substances and now contains 68,635.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-expands-its-library-chemical-fingerprints-identify-unknown-substances"
+        },
+        {
+          "type": "paragraph",
+          "text": "NIST says software-based evaluation and expert review are used to check the library before release. The product, commonly called NIST26, is licensed through instrument manufacturers and independent distributors rather than offered as an unrestricted download."
+        },
+        {
+          "type": "paragraph",
+          "text": "A larger reference library increases the set of compounds that can potentially be matched, but it does not guarantee identification of every unknown. Sample quality, instrument settings and similarity among spectra still affect results."
+        },
+        {
+          "type": "paragraph",
+          "text": "The totals refer to library entries, not unique substances encountered in the environment or proof that a listed compound was present in any specific sample."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nist-adds-52000-chemical-fingerprints-mass-spectra-2026/",
+      "citations": [
+        {
+          "id": "source-nist-chemical-fingerprints-library-20260609",
+          "title": "NIST Expands Its Library of ‘Chemical Fingerprints’ to Identify Unknown Substances",
+          "publisher": "National Institute of Standards and Technology",
+          "publishedAt": "2026-06-09T12:00:00Z",
+          "url": "https://www.nist.gov/news-events/news/2026/06/nist-expands-its-library-chemical-fingerprints-identify-unknown-substances"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "NIST added about 35,000 compounds to the Electron Ionization Library.",
+        "That library now contains more than 382,180 compounds.",
+        "The Tandem Library gained 17,000 substances.",
+        "The Tandem Library total is 68,635.",
+        "NIST has maintained the mass-spectral library since 1988."
+      ],
+      "corrections": [],
+      "dek": "The 2026 update expands two reference collections used to identify unknown substances in laboratories, manufacturing and forensic work.",
+      "desk": "mass-spectrometry-reference-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institute of Standards and Technology",
+        "NIST Mass Spectrometry Data Center",
+        "NIST Standard Reference Database 1A"
+      ],
+      "eventId": "event-nist-adds-52000-chemical-fingerprints-mass-spectra-2026",
+      "headline": "NIST Adds 52,000 Chemical Fingerprints to Its Mass-Spectra Library",
+      "id": "article-nist-adds-52000-chemical-fingerprints-mass-spectra-2026",
+      "leadImage": {
+        "alt": "Rows of labeled laboratory vials stand in fitted metal trays on a work surface.",
+        "caption": "Vials hold chemicals analyzed for the NIST mass-spectral database. The 2026 update added about 52,000 reference fingerprints across two libraries.",
+        "credit": "T. Mak / NIST",
+        "height": 900,
+        "rightsId": "media-nist-mass-spectra-vials-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/lab-vials/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Gaithersburg, Maryland"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NIST added about 52,000 mass spectra to two chemical reference libraries used to identify unknown substances.",
+        "index": true,
+        "title": "NIST adds 52,000 chemical fingerprints"
+      },
+      "section": "technology",
+      "slug": "nist-adds-52000-chemical-fingerprints-mass-spectra-2026",
+      "social": {
+        "description": "The 2026 update expands two reference collections used to identify unknown substances in laboratories, manufacturing and forensic work.",
+        "image": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/lab-vials/open-graph.webp",
+        "title": "NIST Adds 52,000 Chemical Fingerprints to Its Mass-Spectra Library"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Mass spectrometry",
+        "Chemical reference data",
+        "Laboratory technology",
+        "Analytical chemistry",
+        "NIST standards"
+      ],
+      "uncertainty": [
+        "A reference match depends on sample quality and instrument conditions and is not guaranteed for every unknown.",
+        "Library-entry totals do not measure the prevalence of compounds in real-world samples."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Census Bureau released a new set of tables from roughly 136,000 households that responded to its Household Trends and Outlook Pulse Survey in March 2026.\n\nThe experimental survey is designed to measure changing social and economic conditions faster than the bureau's longer-running annual products. Data is collected and released every other month.\n\nThe March tables cover employment, household energy use and expenses, mental health, social connectedness, arts participation, prices, household expenses and financial stress.\n\nCensus published national estimates and tables for smaller geographic areas. The release is intended to give agencies, researchers and communities a more current view of household conditions.\n\nThe product continues the bureau's rapid-response survey work while using a redesigned name and schedule. Its questionnaires can change between cycles as information needs change.\n\nA sample of 136,000 responding households is large, but survey estimates still carry sampling error and can be affected by nonresponse, weighting and question wording. Tables should be read with their technical notes and margins of error.\n\nThe release does not mean the Census Bureau contacted every household or produced a count of every person experiencing a condition. The tables estimate population patterns from survey responses.\n\nExperimental status means the bureau is still evaluating methods and user needs. Estimates can be revised, and measures may not be directly comparable with statistics from surveys that use different questions or collection periods.\n\nThe July announcement covers responses gathered in March, so the results are a snapshot rather than a real-time measure of household conditions in August.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Census Bureau released a new set of tables from roughly 136,000 households that responded to its Household Trends and Outlook Pulse Survey in March 2026."
+        },
+        {
+          "type": "paragraph",
+          "text": "The experimental survey is designed to measure changing social and economic conditions faster than the bureau's longer-running annual products. Data is collected and released every other month."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-census-htops-sample-topics-march-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/sample-topics/four-three.webp",
+          "alt": "Graphic lists about 136,000 households and survey topics including employment, expenses, energy and well-being.",
+          "caption": "The March survey included about 136,000 households and questions spanning employment, expenses, energy and well-being.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/htops-data-tables.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "The March tables cover employment, household energy use and expenses, mental health, social connectedness, arts participation, prices, household expenses and financial stress."
+        },
+        {
+          "type": "paragraph",
+          "text": "Census published national estimates and tables for smaller geographic areas. The release is intended to give agencies, researchers and communities a more current view of household conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The product continues the bureau's rapid-response survey work while using a redesigned name and schedule. Its questionnaires can change between cycles as information needs change."
+        },
+        {
+          "type": "paragraph",
+          "text": "A sample of 136,000 responding households is large, but survey estimates still carry sampling error and can be affected by nonresponse, weighting and question wording. Tables should be read with their technical notes and margins of error."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-census-htops-release-cycle-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/release-cycle/four-three.webp",
+          "alt": "Graphic labels the household survey an experimental product with an every-other-month cycle.",
+          "caption": "HTOPS is an experimental product designed to collect and release timely household data every other month.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/htops-data-tables.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "The release does not mean the Census Bureau contacted every household or produced a count of every person experiencing a condition. The tables estimate population patterns from survey responses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Experimental status means the bureau is still evaluating methods and user needs. Estimates can be revised, and measures may not be directly comparable with statistics from surveys that use different questions or collection periods."
+        },
+        {
+          "type": "paragraph",
+          "text": "The July announcement covers responses gathered in March, so the results are a snapshot rather than a real-time measure of household conditions in August."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/census-household-trends-tables-136000-homes-march-2026/",
+      "citations": [
+        {
+          "id": "source-census-htops-march-2026-tables",
+          "title": "Census Bureau Releases New Data Tables From the Household Trends and Outlook Pulse Survey",
+          "publisher": "United States Census Bureau",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "url": "https://www.census.gov/newsroom/press-releases/2026/htops-data-tables.html"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "About 136,000 households responded in March 2026.",
+        "The tables include national and smaller-area estimates.",
+        "Topics include employment, energy expenses, mental health and financial stress.",
+        "HTOPS collects and releases data every other month.",
+        "The Census Bureau classifies the product as experimental."
+      ],
+      "corrections": [],
+      "dek": "The experimental March 2026 release covers jobs, energy costs, well-being, prices and other fast-moving household conditions.",
+      "desk": "household-trends-survey",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Census Bureau",
+        "Household Trends and Outlook Pulse Survey"
+      ],
+      "eventId": "event-census-household-trends-tables-136000-homes-march-2026",
+      "headline": "Census Releases New Household Tables From a 136,000-Home Survey",
+      "id": "article-census-household-trends-tables-136000-homes-march-2026",
+      "leadImage": {
+        "alt": "The glass-and-wood facade of the United States Census Bureau headquarters curves beside a landscaped plaza.",
+        "caption": "The U.S. Census Bureau headquarters in Suitland, Maryland. The bureau released March 2026 household-trends tables based on responses from about 136,000 households.",
+        "credit": "U.S. Census Bureau",
+        "height": 900,
+        "rightsId": "media-census-suitland-headquarters-2007",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/suitland-headquarters/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Suitland, Maryland"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Census released experimental March 2026 tables from about 136,000 households on jobs, energy, expenses, well-being and prices.",
+        "index": true,
+        "title": "Census releases March household trends tables"
+      },
+      "section": "us",
+      "slug": "census-household-trends-tables-136000-homes-march-2026",
+      "social": {
+        "description": "The experimental March 2026 release covers jobs, energy costs, well-being, prices and other fast-moving household conditions.",
+        "image": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/suitland-headquarters/open-graph.webp",
+        "title": "Census Releases New Household Tables From a 136,000-Home Survey"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Household surveys",
+        "Census data",
+        "Employment",
+        "Household expenses",
+        "Experimental statistics"
+      ],
+      "uncertainty": [
+        "Survey estimates are subject to sampling error, nonresponse and weighting assumptions.",
+        "March responses do not measure household conditions at the later publication date."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Declining nitrogen-oxide pollution is giving some reactive organic molecules more time to rearrange into compounds that can help form fine particles over North American cities, a new NOAA-led study reports.\n\nResearchers combined aircraft measurements from the 2023 AEROMMA campaign with observations from NASA's TEMPO satellite. The flights sampled air over New York, Chicago, Toronto and Los Angeles.\n\nThe team inferred that organic peroxy radicals had average reaction windows near 17 seconds in New York, Chicago and Toronto, compared with about 7 seconds in Los Angeles, where nitrogen-oxide levels remained higher.\n\nAt lower nitrogen-oxide concentrations, some radicals can internally rearrange and add oxygen through autoxidation. The resulting highly oxidized molecules have low volatility and can condense into secondary organic aerosol, part of fine-particle pollution.\n\nFor alpha-pinene, the researchers estimated that 12% to 17% of radicals used the isomerization pathway across the four cities. The estimated share was 44% for 2-ethoxyethanol and approached 50% for hexanal.\n\nThe finding does not mean nitrogen-oxide reductions are harmful overall. Those reductions have helped cut ozone and smog, while the net effect of the newly emphasized particle pathway remains an open research question.\n\nNOAA says many air-quality models do not fully represent these reactions because laboratory rate measurements exist for only a limited set of compounds. Omitting them could understate some summer particle formation.\n\nThe measurements and calculations characterize atmospheric chemistry during a 2023 field campaign. They do not directly estimate a citywide health burden or show that every neighborhood experiences the same concentrations.\n\nThe study identifies a mechanism that may become more important as nitrogen oxides continue to fall. Further measurements and model development are needed to quantify its contribution to PM2.5 under different urban conditions.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Declining nitrogen-oxide pollution is giving some reactive organic molecules more time to rearrange into compounds that can help form fine particles over North American cities, a new NOAA-led study reports."
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers combined aircraft measurements from the 2023 AEROMMA campaign with observations from NASA's TEMPO satellite. The flights sampled air over New York, Chicago, Toronto and Los Angeles."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-noaa-urban-radical-lifetimes-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/radical-lifetimes/four-three.webp",
+          "alt": "Graphic compares 17-second radical lifetimes in three cities with 7 seconds in Los Angeles.",
+          "caption": "Researchers inferred average organic-peroxy-radical lifetimes near 17 seconds in New York, Chicago and Toronto, versus about 7 seconds in Los Angeles.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://csl.noaa.gov/news/2026/443_0513.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "The team inferred that organic peroxy radicals had average reaction windows near 17 seconds in New York, Chicago and Toronto, compared with about 7 seconds in Los Angeles, where nitrogen-oxide levels remained higher."
+        },
+        {
+          "type": "paragraph",
+          "text": "At lower nitrogen-oxide concentrations, some radicals can internally rearrange and add oxygen through autoxidation. The resulting highly oxidized molecules have low volatility and can condense into secondary organic aerosol, part of fine-particle pollution."
+        },
+        {
+          "type": "paragraph",
+          "text": "For alpha-pinene, the researchers estimated that 12% to 17% of radicals used the isomerization pathway across the four cities. The estimated share was 44% for 2-ethoxyethanol and approached 50% for hexanal."
+        },
+        {
+          "type": "paragraph",
+          "text": "The finding does not mean nitrogen-oxide reductions are harmful overall. Those reductions have helped cut ozone and smog, while the net effect of the newly emphasized particle pathway remains an open research question."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-noaa-urban-isomerization-fractions-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/isomerization/four-three.webp",
+          "alt": "Graphic lists isomerization shares of 12 to 17 percent, 44 percent and nearly 50 percent for three compounds.",
+          "caption": "The modeled isomerization share was 12% to 17% for alpha-pinene, 44% for 2-ethoxyethanol and nearly 50% for hexanal.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://csl.noaa.gov/news/2026/443_0513.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "NOAA says many air-quality models do not fully represent these reactions because laboratory rate measurements exist for only a limited set of compounds. Omitting them could understate some summer particle formation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The measurements and calculations characterize atmospheric chemistry during a 2023 field campaign. They do not directly estimate a citywide health burden or show that every neighborhood experiences the same concentrations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The study identifies a mechanism that may become more important as nitrogen oxides continue to fall. Further measurements and model development are needed to quantify its contribution to PM2.5 under different urban conditions."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/noaa-urban-air-chemistry-particle-formation-2026/",
+      "citations": [
+        {
+          "id": "source-noaa-urban-particle-pathway-20260513",
+          "title": "Understudied Chemistry May Already Be Adding to Urban Particulate Pollution",
+          "publisher": "NOAA Chemical Sciences Laboratory",
+          "publishedAt": "2026-05-13T12:00:00Z",
+          "url": "https://csl.noaa.gov/news/2026/443_0513.html"
+        },
+        {
+          "id": "source-science-advances-urban-photochemistry-2026",
+          "title": "Fate of isoprene peroxy radical constrains the urban photochemical regime",
+          "publisher": "Science Advances",
+          "publishedAt": "2026-05-13T12:00:00Z",
+          "url": "https://doi.org/10.1126/sciadv.aea6509"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Aircraft measurements covered four major North American cities in 2023.",
+        "Inferred radical lifetimes averaged about 17 seconds in New York, Chicago and Toronto.",
+        "The comparable Los Angeles average was about 7 seconds.",
+        "Alpha-pinene isomerization was estimated at 12% to 17%.",
+        "Many air-quality models do not fully include the studied pathways."
+      ],
+      "corrections": [],
+      "dek": "Aircraft and satellite measurements suggest falling nitrogen oxides are giving some organic molecules more time to form particle-building compounds.",
+      "desk": "urban-air-chemistry",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NOAA Chemical Sciences Laboratory",
+        "Cooperative Institute for Research in Environmental Sciences",
+        "NASA",
+        "Science Advances"
+      ],
+      "eventId": "event-noaa-urban-air-chemistry-particle-formation-2026",
+      "headline": "NOAA Finds Cleaner Urban Air Is Unlocking an Understudied Particle Pathway",
+      "id": "article-noaa-urban-air-chemistry-particle-formation-2026",
+      "leadImage": {
+        "alt": "Downtown Los Angeles skyscrapers appear through a thick layer of pale gray pollution haze.",
+        "caption": "Downtown Los Angeles seen through haze in 2023. New aircraft and satellite research finds that falling nitrogen oxides are changing particle-forming chemistry across North American cities.",
+        "credit": "Elizabeth Holloway / Wikimedia Commons, CC0",
+        "height": 900,
+        "rightsId": "media-noaa-urban-air-los-angeles-haze-2023",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/los-angeles-haze/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "New York City",
+        "Chicago",
+        "Toronto",
+        "Los Angeles",
+        "North America"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NOAA aircraft and satellite data suggests falling nitrogen oxides are enabling an understudied particle-forming pathway in cities.",
+        "index": true,
+        "title": "NOAA tracks changing urban particle chemistry"
+      },
+      "section": "weather-climate",
+      "slug": "noaa-urban-air-chemistry-particle-formation-2026",
+      "social": {
+        "description": "Aircraft and satellite measurements suggest falling nitrogen oxides are giving some organic molecules more time to form particle-building compounds.",
+        "image": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/los-angeles-haze/open-graph.webp",
+        "title": "NOAA Finds Cleaner Urban Air Is Unlocking an Understudied Particle Pathway"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Urban air pollution",
+        "Atmospheric chemistry",
+        "Particulate matter",
+        "Nitrogen oxides",
+        "Aircraft observations"
+      ],
+      "uncertainty": [
+        "The study identifies and constrains a chemical pathway but does not calculate a citywide health burden.",
+        "The contribution to PM2.5 depends on compound mix, season, nitrogen oxides and other local conditions."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The International Monetary Fund approved immediate financing worth about $22.51 million for The Gambia after completing reviews of two economic programs in July.\n\nThe package totals SDR 16.58 million. It includes SDR 6.22 million, about $8.44 million, under the Extended Credit Facility and SDR 10.36 million, about $14.06 million, under the Resilience and Sustainability Facility.\n\nTotal disbursements under the credit arrangement reached SDR 55.97 million, about $75.98 million. Resilience-facility disbursements reached SDR 25.90 million, about $35.16 million.\n\nThe board extended both arrangements by six months and augmented the credit program by SDR 12.44 million, equal to 20% of The Gambia's IMF quota.\n\nThe IMF estimated that the economy grew 6% in 2025 and projected growth to moderate to 4.7% in 2026 before returning to about 5% over the medium term.\n\nThe Fund said inflation was easing and foreign-exchange reserves remained adequate, while warning that global uncertainty, climate shocks, debt pressures and policy slippage could weaken the outlook.\n\nProgram priorities include domestic-revenue collection, public-finance management, state-owned enterprises, central-bank governance and measures intended to strengthen climate resilience.\n\nIMF approval and disbursement do not guarantee the projected growth path. The forecast assumes continued policy implementation and is exposed to external prices, tourism, weather and financing conditions.\n\nDollar equivalents in the IMF release are approximate because Special Drawing Right exchange rates fluctuate. The announcement describes financing to the government, not a direct payment to households or businesses.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The International Monetary Fund approved immediate financing worth about $22.51 million for The Gambia after completing reviews of two economic programs in July."
+        },
+        {
+          "type": "paragraph",
+          "text": "The package totals SDR 16.58 million. It includes SDR 6.22 million, about $8.44 million, under the Extended Credit Facility and SDR 10.36 million, about $14.06 million, under the Resilience and Sustainability Facility."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-imf-gambia-disbursements-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/disbursements/four-three.webp",
+          "alt": "Graphic lists 16.58 million SDR and approximately 22.51 million U.S. dollars in immediate IMF financing.",
+          "caption": "The IMF made SDR 16.58 million, about $22.51 million, immediately available across two programs.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/06/pr26239-the-gambia-imf-exec-board-concludes-2026-aiv-consult-completes-5th-rev-ecf-2nd-rev-rsf-arr"
+        },
+        {
+          "type": "paragraph",
+          "text": "Total disbursements under the credit arrangement reached SDR 55.97 million, about $75.98 million. Resilience-facility disbursements reached SDR 25.90 million, about $35.16 million."
+        },
+        {
+          "type": "paragraph",
+          "text": "The board extended both arrangements by six months and augmented the credit program by SDR 12.44 million, equal to 20% of The Gambia's IMF quota."
+        },
+        {
+          "type": "paragraph",
+          "text": "The IMF estimated that the economy grew 6% in 2025 and projected growth to moderate to 4.7% in 2026 before returning to about 5% over the medium term."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Fund said inflation was easing and foreign-exchange reserves remained adequate, while warning that global uncertainty, climate shocks, debt pressures and policy slippage could weaken the outlook."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-imf-gambia-growth-path-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/growth-path/four-three.webp",
+          "alt": "Graphic compares Gambia growth of 6 percent in 2025, 4.7 percent in 2026 and 5 percent medium term.",
+          "caption": "The IMF estimated 6% growth in 2025, projected 4.7% in 2026 and about 5% over the medium term.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/06/pr26239-the-gambia-imf-exec-board-concludes-2026-aiv-consult-completes-5th-rev-ecf-2nd-rev-rsf-arr"
+        },
+        {
+          "type": "paragraph",
+          "text": "Program priorities include domestic-revenue collection, public-finance management, state-owned enterprises, central-bank governance and measures intended to strengthen climate resilience."
+        },
+        {
+          "type": "paragraph",
+          "text": "IMF approval and disbursement do not guarantee the projected growth path. The forecast assumes continued policy implementation and is exposed to external prices, tourism, weather and financing conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dollar equivalents in the IMF release are approximate because Special Drawing Right exchange rates fluctuate. The announcement describes financing to the government, not a direct payment to households or businesses."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/imf-gambia-22-million-disbursement-growth-forecast-2026/",
+      "citations": [
+        {
+          "id": "source-imf-gambia-program-reviews-20260706",
+          "title": "IMF Executive Board Concludes 2026 Article IV Consultation and Completes Reviews Under the ECF and RSF Arrangements with The Gambia",
+          "publisher": "International Monetary Fund",
+          "publishedAt": "2026-07-06T12:00:00Z",
+          "url": "https://www.imf.org/en/news/articles/2026/07/06/pr26239-the-gambia-imf-exec-board-concludes-2026-aiv-consult-completes-5th-rev-ecf-2nd-rev-rsf-arr"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Immediate financing totaled SDR 16.58 million, about $22.51 million.",
+        "The credit-facility portion was about $8.44 million.",
+        "The resilience-facility portion was about $14.06 million.",
+        "The IMF estimated 2025 growth at 6%.",
+        "The IMF projected 2026 growth at 4.7%."
+      ],
+      "corrections": [],
+      "dek": "The board completed two program reviews, extended both arrangements and projected economic growth to ease from 6% in 2025 to 4.7% in 2026.",
+      "desk": "gambia-imf-program",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "International Monetary Fund",
+        "Government of The Gambia",
+        "IMF Executive Board"
+      ],
+      "eventId": "event-imf-gambia-22-million-disbursement-growth-forecast-2026",
+      "headline": "IMF Releases $22.5 Million as Gambia Growth Is Projected to Slow",
+      "id": "article-imf-gambia-22-million-disbursement-growth-forecast-2026",
+      "leadImage": {
+        "alt": "Cars and pedestrians move along a broad downtown street in Banjul lined with low commercial buildings and trees.",
+        "caption": "A downtown street in Banjul, The Gambia. The IMF approved an immediate disbursement worth about $22.5 million after completing two program reviews.",
+        "credit": "bartvanpoll / Wikimedia Commons, CC BY-SA 2.0",
+        "height": 900,
+        "rightsId": "media-imf-gambia-banjul-downtown-2008",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/banjul-downtown/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "The Gambia",
+        "Banjul"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The IMF released about $22.5 million after reviews of Gambia programs and projected growth to slow from 6% in 2025 to 4.7% in 2026.",
+        "index": true,
+        "title": "IMF releases $22.5 million for The Gambia"
+      },
+      "section": "world",
+      "slug": "imf-gambia-22-million-disbursement-growth-forecast-2026",
+      "social": {
+        "description": "The board completed two program reviews, extended both arrangements and projected economic growth to ease from 6% in 2025 to 4.7% in 2026.",
+        "image": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/banjul-downtown/open-graph.webp",
+        "title": "IMF Releases $22.5 Million as Gambia Growth Is Projected to Slow"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "The Gambia",
+        "International Monetary Fund",
+        "Economic growth",
+        "Climate finance",
+        "Public finance"
+      ],
+      "uncertainty": [
+        "Dollar equivalents vary with the Special Drawing Right exchange rate.",
+        "Growth projections depend on policy implementation and external economic and climate conditions."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-10T19:35:57.066Z",
+  "generatedAt": "2026-08-10T23:35:16.151Z",
   "inputHashes": {
-    "approvals": "b261baf03d758b449bee8e3c4ee48e54f248f4a9a38caef3e0279bfebf17df26",
-    "articles": "2de54de03a9a09e2b4c5a450e2a7cc5ca129dac2c2611d24b68ef2aaa4f0d2e4",
-    "claims": "d407b78fa101561d24c5fd5cc45569ebe764a8395c6aa5103c6711ec67af9826",
+    "sourceItems": "8bd44257e2db2e01a09d341884775c9659955097d03bcb7ece2c1da797133d0a",
+    "events": "4f232bc2b12fe4d29d50ddccf062258ce6de5f5ccc7fdf72125ae89b12a41cba",
+    "claims": "3069172e4f9d0706f859397842c6443e4309621ea79cd842ab1ad592dd88b5ed",
+    "articles": "9110b50682d7a71fd815cbd987ddf56484a916a214b4d524904bb0e75af2695a",
+    "approvals": "277c0eb009aed4452e9a2ac1c275d2b6f47b12eb1b697369db5bc5cf45a2684f",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "e163c276972f233562f94452bde35a1e387331d3f88b4147f6d0b6cdba19edcd",
-    "mediaRights": "b4360f80d1035b7ad7d72bfdd16f4b9ed39d7ab50f1b4e437352e28e2cc65bcc",
-    "publicationIntents": "6eff9790a19d0242d4754a5c9a8656a14566dddb0113a43b8dcba6fbf9a2332b",
+    "mediaRights": "c8450fd792808e7ef41637997d5e0e7b7aad5a60ced17dc4bf24b27403523315",
     "releaseRecords": "acaf8d02f4751a94ec669779a8c21f83a0ea0daf94e926a1952cbef208cc3314",
-    "sourceItems": "38ad985029706afdb7b7d0598d918804cdab3791f86483599561b299e6308afb"
+    "publicationIntents": "f6aeee0d5759e81e96e79e6738896aefe4073018d94e4c3741a78887d1b12d01"
   },
   "inventory": {
-    "articleCount": 243,
-    "mediaCount": 715,
-    "routeCount": 243
+    "articleCount": 249,
+    "routeCount": 249,
+    "mediaCount": 733
   },
   "mediaRights": [
     {
@@ -95393,9 +96293,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.cbo.gov/publication/61945"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A folded lattice mobile telecommunications tower rests on a dual-axle black trailer outside an industrial building.",
+      "archivalStatus": "current",
+      "attribution": "Eclypes2008 / Wikimedia Commons, CC0",
+      "caption": "A trailer-mounted mobile telecommunications tower. GAO found that two of six selected federal agencies reported small amounts of covered equipment and were addressing potential risks.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Eclypes2008",
+      "derivatives": [
+        {
+          "hash": "fc1215f7595cb7ac26bcb7ed2833d8bcc7583fc4f17a150eba96eaba217d0a71",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/mobile-cell-tower/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a8d9c17d53d9e30db04f6cbee40b34dcebb53bbb57b5b8bfb45d206165721941",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/mobile-cell-tower/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1a85d0eb7bf813cf42438888dbb2fab8ec7fd11da8335c455f0138db29dd467a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/mobile-cell-tower/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5a2f17e851332ec1a5303f72f3998f8f6f3d06c1e80591adc8a5eee970d84c18",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/mobile-cell-tower/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b8f980511ee07a3faa9ab1f36c1dd4b4a9a669813a132bf42a20956d9476ed10",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/mobile-cell-tower/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5e8273b1df8267027a5e8ce3573edee88217f0dce3d0b9578bee1a3bf9df7318",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/mobile-cell-tower/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "881b98eaf8cca408c143b7e1010a9a55839fb74d7760649d6835679f65af7fe4",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/mobile-cell-tower/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-covered-telecom-mobile-tower-cc0",
+      "illustrationLabel": null,
+      "license": "CC0 1.0",
+      "originalFileHash": "ea67177477b6ead676f5b2c0f8f8afebf7728475d3deeda73bce6a75ed61bfc4",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "The copyright holder released the photograph under the Creative Commons CC0 1.0 public-domain dedication on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mobile_Cell_Tower.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists four agencies reporting none and two agencies reporting little covered equipment.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Four agencies reported no covered equipment connected to their networks; Defense and Energy reported finding little.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "204cd7e6de276378ce158c344e563581ef49422ccf60fa841ff6a9842e9d98ff",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/agency-results/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9b3912090d43b39890fa52dcbdfb178dc93560472683bb55231aeaaba0425318",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/agency-results/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9b9567805ff455650f4accae0b4c476cc5f1c6534ff01815b7918bd7080af5ec",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/agency-results/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9161356df81d4e09de015339cc721092860d3e4f9bb7730aafc94e96111046e9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/agency-results/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8098366ac70fff45820cc3a0ab1b57b7b056fee8c78499b13c34382f708b3cae",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/agency-results/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a0d0c4d4071fdda1e7ae015ef4f718fafddc15b20a4734818c43e9bdac7da0f3",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/agency-results/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "88828f16c6b38f7362508edf06d98dbea6c7976690cc51261b61013e0f1a369d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/agency-results/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-covered-telecom-agency-results-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "9161356df81d4e09de015339cc721092860d3e4f9bb7730aafc94e96111046e9",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107668"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists six agencies and four search methods used for covered telecommunications equipment.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "All six agencies used a combination of inventory, network, procurement-record or physical searches since 2019.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "5c926aec73c919808296be1f98a6de65fa151d02ae662b1441ca7a0381f26ebc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/search-methods/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "4bec5459d84b7f435c1d5f427d1f5f40878be341df024ac3c7e1d8a254f47877",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/search-methods/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3c612aee763d5c7dd1ccfcaaefe29510e228806bac9064b2c3068011d64ce21f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/search-methods/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "2d4da87d61a059a66f892f250e7f0e3a5d1f08edee0bbb2e43749eefdcf52bee",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/search-methods/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e337b604b3938f8e8a58d759369e532875672fb0bf8f0acd80297c8d2f427cb7",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/search-methods/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "932c7d0fc1a1442d72bcfecd33278876da6072811f006d10b8cbbbe1863b83aa",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/search-methods/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "37684f0167085da4d8de05eb98fe5a55c108408eb2ba8a19e6cef788e75e0385",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/gao-covered-telecom/search-methods/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-covered-telecom-search-methods-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "2d4da87d61a059a66f892f250e7f0e3a5d1f08edee0bbb2e43749eefdcf52bee",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107668"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Wood benches face the judge's bench in a formal federal courtroom with tall windows and pendant lights.",
+      "archivalStatus": "current",
+      "attribution": "Carol M. Highsmith / Library of Congress",
+      "caption": "A courtroom inside the Federal Building and U.S. Courthouse in Asheville, North Carolina. Preliminary commission data shows 59.1% of comparable federal sentences were within guideline ranges through March 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Carol M. Highsmith",
+      "derivatives": [
+        {
+          "hash": "c2006d91b50b5364f7515bf1f0608bbece36d800a4ba9ff7eace0c4a93781ad4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/asheville-courtroom/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "33c185131820fb37f158c303b278a74afbff12d459cee6963823e7bfd76ad7de",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/asheville-courtroom/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d28738df8af6195435d5031f7fcbb7044c4c69d1aeb13c9b4bd58dab47569e4b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/asheville-courtroom/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "db076aa894f8fa69312a29ce77e64553b0d4a39143666374f59355b613d5891b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/asheville-courtroom/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e305f74b906a60bc073242bee9b8275092c27ec1a6e20dcdfb23baa46a032fa8",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/asheville-courtroom/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "14e5b261d6df8ddafed1af68dab58c80a8b0076ebcf2e8c9760e2c02a34531c7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/asheville-courtroom/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "ffb7c97959d845045db15c542e38d96f1ccf2b04bf211f09bf5368bd14751462",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/asheville-courtroom/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-asheville-federal-courtroom-highsmith-2013",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "27ec4a715db35d36dfb2d0da5e622e58edfb7025da1db06536ee80ac91e1eaa3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "The photographer dedicated the image to the public domain; the Library of Congress reports no known restrictions on publication.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Courtroom._Federal_Building_and_U.S._Courthouse,_Asheville,_North_Carolina_LCCN2014630038.tif"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 59.1 percent within guideline range, 29.4 percent below and 4.4 percent above.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Among comparable cases, 59.1% were within range, 29.4% below range without a government motion and 4.4% above range.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "94f5939f5a11a7a361517ccc4ee26dca63f60d52deda2f347f981528a9d7b7fd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/outcomes/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "448a5bb37b2411baca648c88cde351fa06543a3e062ca74310c946229ff2a681",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/outcomes/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "fe169c0b36b5f4ab4ba38d530da5d1c636ac3f471cc4710f7c1e342360f9a976",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/outcomes/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d74c825a0c0786d0a72eb1c04e534d9f6497f00732dd5c56d0535e49d8d8433e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/outcomes/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6ffe6e706bf592e16fc32baa84ef3ee57607a69494ccc68230bd02d2144228ae",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/outcomes/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0e8c7950443e178c88b19974d0f2a62911fe95720643136959f1f49c85f774b2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/outcomes/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "ffac9421ea98103c521a16f8f44032d4eb99a50292a7665988fb00f9d7336af0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/outcomes/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-guideline-range-outcomes-fy2026q2",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d74c825a0c0786d0a72eb1c04e534d9f6497f00732dd5c56d0535e49d8d8433e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 32,586 reported cases and 196 excluded from the guideline comparison.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The Commission reported 32,586 cases through March; 196 were excluded from the guideline-range comparison.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "3624b0f3ac366b4daf0d56bd390a94d75d569d511a38c8aeee14409310bb0ab0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/case-counts/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "dbd418a68e9e5608bb0fa7fa104401bfab087e038efe8857af5d9a9162b2269e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/case-counts/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "936496ccb1d298a852c2b61be0d9e648dbabd82b5fa27731dda3f5eb2757cab3",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/case-counts/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f90360ce9c3a740734a7af7af8d7c4b8c9502f0df1fa19fda69c96f40508b9cf",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/case-counts/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ea3133d8105ef266b7bccfd83f745797c18e4260adcf1c52219d362fed8ba85a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/case-counts/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "61f7c1ec49ebc1069424f395cb3146797282eff9cc789318813cfe2d040fa6bb",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/case-counts/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a5a380a54c68a62805534867795246348587648620244fcafd88fdd664e6640b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/ussc-guideline-ranges/case-counts/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-guideline-range-case-counts-fy2026q2",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f90360ce9c3a740734a7af7af8d7c4b8c9502f0df1fa19fda69c96f40508b9cf",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Rows of labeled laboratory vials stand in fitted metal trays on a work surface.",
+      "archivalStatus": "current",
+      "attribution": "T. Mak / NIST",
+      "caption": "Vials hold chemicals analyzed for the NIST mass-spectral database. The 2026 update added about 52,000 reference fingerprints across two libraries.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "T. Mak, National Institute of Standards and Technology",
+      "derivatives": [
+        {
+          "hash": "fb24773651a22bb81eee025a87db3c8b8d41dd070c3a27478571b471144a5b9c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/lab-vials/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "073a59f910c8cebf8564116edd34452552a366db51dd8b97bd8d2740e36425a6",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/lab-vials/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7f6d0d9909af331d0408fb7e0d421d35d8c9d0d2660023e08af9e3bf9dfe9830",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/lab-vials/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f076f158972531a5a79fb481876b7fc20c6d7a9d4ba06877e9a1550c36f7d3c7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/lab-vials/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "55a383554d03d5798dd295ae67218afe80748a490b024d5924b1d583a98aa4a1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/lab-vials/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "187a22fb01821fe701fe3906425e1c01cc1ae209e5cf873826cbdc100bce0c8c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/lab-vials/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2caeeb588e8a95dba0bc512c58d40ab8f350e8a978e2ca9752fe20cdf45ed976",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/lab-vials/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nist-mass-spectra-vials-2026",
+      "illustrationLabel": null,
+      "license": "U.S. government work",
+      "originalFileHash": "f61b430326252cfe96c832234c4d56600feb0cf2415f135a15f26b261fdb05c3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Official NIST image produced by a U.S. government agency and published for public reuse with agency credit.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nist.gov/sites/default/files/images/2026/06/02/vials_chem_fingerprints.JPG"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 35,000 additions and more than 382,180 compounds in the electron ionization library.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "NIST added about 35,000 compounds to the Electron Ionization Library, bringing it above 382,180.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c0e79bd0b3cfe90c67ad0563cc7702e85440f1c3e84c7d2a6fc00c081763c1c1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/electron-ionization/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1b4fc664a8a1fb647c8b86649f51d4fbf5a9ba8c4c62ad8ba2d31babc1598cdb",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/electron-ionization/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "709128379732618764b89c158de28206ca2cf27bed277ec6c8b281e0bc337016",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/electron-ionization/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "656cf286aba1a0f032b72693c6cf0a26aa12eb2d209be0ed5877dbb0fa99ce62",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/electron-ionization/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "563d6962ceff651bda4c7ac683207805191105250e22284127fb732ce569981e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/electron-ionization/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3e94a7245477c1909adb500166384a14211237abdfee3bcbf65fcc10d3b9ae61",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/electron-ionization/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3463c4834b61674919b1c758c4a26d4ccae11f02b3fb69b3d01722ff9ee7ecfa",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/electron-ionization/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nist-electron-ionization-library-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "656cf286aba1a0f032b72693c6cf0a26aa12eb2d209be0ed5877dbb0fa99ce62",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-expands-its-library-chemical-fingerprints-identify-unknown-substances"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 17,000 additions and 68,635 substances in the tandem library.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The Tandem Library gained 17,000 substances and now contains 68,635.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "e861a5ee88e4a89b2f1aa002a119f0cf79f49f8c48f00a10f9e687539ba3a538",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/tandem-library/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "13f9fa92b23d670c95dee64d42dd99990d529360d225a52da241f6fbae54670f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/tandem-library/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a97b163e075cf990ea034fa7ea6742587ed7d70b9c177e3b18fd5fb95002421f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/tandem-library/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9120c97eb2e18c4e40b83bc117649b1237c0e9989a6a59f43e76b144399dfcb1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/tandem-library/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6ff8aaf97cd84750c5099c832496b7fbcfc439cc63872a7fc39fbdad8cb73e96",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/tandem-library/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "08f2e9a83df12241f04c1ed3324f7154d3d65302a2d30ef4e303f2f702f61124",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/tandem-library/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "34935ff6d71cd9eb8ddcda374e4eed84c55b1c190a4b3ce8017146e2bb37de8c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/nist-chemical-fingerprints/tandem-library/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nist-tandem-library-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "9120c97eb2e18c4e40b83bc117649b1237c0e9989a6a59f43e76b144399dfcb1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-expands-its-library-chemical-fingerprints-identify-unknown-substances"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "The glass-and-wood facade of the United States Census Bureau headquarters curves beside a landscaped plaza.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Census Bureau",
+      "caption": "The U.S. Census Bureau headquarters in Suitland, Maryland. The bureau released March 2026 household-trends tables based on responses from about 136,000 households.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "United States Census Bureau",
+      "derivatives": [
+        {
+          "hash": "db05fa38b1d93f1724035cbcfbb3c02700127bd1dd7b95b7be83f405ff4dd4c1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/suitland-headquarters/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "0a6758b40ae7dda59fc4571225af2f743aef2f3744f9a0f3add46b67b2ba6c36",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/suitland-headquarters/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b904dd5efc0fe76fc626f187752e92d19d28665c310c6c24ef52acb7a7503507",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/suitland-headquarters/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e2ca13ee9917e7b4b6e7b6be281765131f8a35cedbae1f4a0952df36ba4d15f8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/suitland-headquarters/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b0470e133e2cf0a5d1e927bfc9c78e457e6343d7571f6fec116a814eef959a5a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/suitland-headquarters/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3e059595cf12739d3bd61eee5f9d01adb64e5d1d9e083c024e95ceab4ce4ebf7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/suitland-headquarters/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f4d0276753e7df9fee756479f475c42250f043d026f4fafafeb6a7039508f2d9",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/suitland-headquarters/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-suitland-headquarters-2007",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "19ebcd23033193f492f8e47a7a36f3c2a7f32d8f6fe76d0ee4dfa0cb59dfa6e3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Photograph created by a U.S. Census Bureau employee in the course of official duties and marked public domain on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Census_Bureau_headquarters,_Suitland,_Maryland,_2007.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists about 136,000 households and survey topics including employment, expenses, energy and well-being.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The March survey included about 136,000 households and questions spanning employment, expenses, energy and well-being.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "20272f1a25ee8e46d266b7d6b884a2f39675198a3a39258aa5353adcb1ffa3d5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/sample-topics/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c99fceeff2d7b999c87ee1822d7feaa51649d253b69d194520bda5c608245fce",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/sample-topics/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9847e47bd829f7da2ba3effb109367849e494dcb7d7d063801c3643f7dac1495",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/sample-topics/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "03d329a1b344a2b7ce75e8f47e62b25d0c705bd4500e5ea922884cc5df4d79ca",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/sample-topics/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "dcff14f600bb6ad1bcadd827fed1a5879874d650442f01a3eb4c926c77cd0d94",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/sample-topics/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3445f7c30952fe5627bfc15b283a833e3f99702b7b364f2a4a2f379fa777ae67",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/sample-topics/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "29fe2aae97e1d874eb56e380b7fe691d0aea54ba59d252b015ae69a4ccab5820",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/sample-topics/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-htops-sample-topics-march-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "03d329a1b344a2b7ce75e8f47e62b25d0c705bd4500e5ea922884cc5df4d79ca",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/htops-data-tables.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic labels the household survey an experimental product with an every-other-month cycle.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "HTOPS is an experimental product designed to collect and release timely household data every other month.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "6c7f3a2342d42c461d9657b813488ad865668ba5368e90b42abe7ab71fbe8516",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/release-cycle/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8ebcc34557d09cc634b16ef8113db1564117e3b817e563fe98b0e1d9547ea2a0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/release-cycle/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "fad4a16057a972cfc58130d6ff4d0909c4670195f3a1664e38d6f917657e76c2",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/release-cycle/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d65731dc7ff5b26b6bce3a73be3206e187abac58dcc60594361624c558a774db",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/release-cycle/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "dcb2e2e07ea49cb607650b7244d57b6e15899bdcc56de2b794ecd7f52b71378c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/release-cycle/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a0e28d9e73c2abcadf5c843049f62879f60f6e2f8055c2ba6766969a7647b021",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/release-cycle/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "cdf030a0999f283c49205648b198667f669ab891d34bf2df780b315395c85af2",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/census-household-trends/release-cycle/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-htops-release-cycle-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d65731dc7ff5b26b6bce3a73be3206e187abac58dcc60594361624c558a774db",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/htops-data-tables.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Downtown Los Angeles skyscrapers appear through a thick layer of pale gray pollution haze.",
+      "archivalStatus": "current",
+      "attribution": "Elizabeth Holloway / Wikimedia Commons, CC0",
+      "caption": "Downtown Los Angeles seen through haze in 2023. New aircraft and satellite research finds that falling nitrogen oxides are changing particle-forming chemistry across North American cities.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Elizabeth Holloway",
+      "derivatives": [
+        {
+          "hash": "506e8e69de0084848a3638670b84778803343cef9b45b64a4298a60cf5db1565",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/los-angeles-haze/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "cddaf3b9a7052735b695080372c502ef2837ea399dbbd29c9e93582d6f1b3a58",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/los-angeles-haze/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d6443e4111d3c4e86a689ac08f37f393b4f64aef9d6c4f11856c2bb0db25e1c4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/los-angeles-haze/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f31181cf5394895cb3d4fa4b3ac806740f6b12e9f0a6fb7a1db3cc5ee10c0934",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/los-angeles-haze/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "383e0175aaf62c49260ea096ce2024028ced1fe36c5b8d2e3515746037717a2d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/los-angeles-haze/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "90c8cc89acfef84cd0d9535f3b7157c01280455756d9d4ffd2fbc240d9467c68",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/los-angeles-haze/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "beb8de38c15930c635e2370bff8fe04ea281467c876e15184d9ee43f42645a27",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/los-angeles-haze/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-noaa-urban-air-los-angeles-haze-2023",
+      "illustrationLabel": null,
+      "license": "CC0 1.0",
+      "originalFileHash": "05e662406c2372a6c7bcf3e2a942c06b2900689e616f3400817f85451c396dd8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "The photographer released the image under the Creative Commons CC0 1.0 public-domain dedication on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Los_Angeles_Through_Pollution_Haze_2023.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares 17-second radical lifetimes in three cities with 7 seconds in Los Angeles.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Researchers inferred average organic-peroxy-radical lifetimes near 17 seconds in New York, Chicago and Toronto, versus about 7 seconds in Los Angeles.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "58a6a1cc1fa06eae86d5775ceaeaec93449f3dffb6ec24d420902ca1817b651e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/radical-lifetimes/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c81808e6dcafbc4d797e785598f3661bbd299654e87c771db24ffaf5c230621e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/radical-lifetimes/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c9e0d9efbe575996085eb85e8ab2d823e581fc3ecf0b56ba4e51e21b84d5071c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/radical-lifetimes/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a3f16e0c0dce474a3f99338212e1f79b131953e37fdc55655b6191cf015ce3e2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/radical-lifetimes/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "05ba69a4c3f6225c80b604859acfa27144ca8bc6db7bb4eef67908e4c0a12836",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/radical-lifetimes/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "146e8758c7e5350acf9b4cf1c4d4433990383c17818d79f99d50a018ee2d0182",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/radical-lifetimes/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "36af4c2897f8332811fa51f90ca01ab78a824de8b005f4950fe735790c650eec",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/radical-lifetimes/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-noaa-urban-radical-lifetimes-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "a3f16e0c0dce474a3f99338212e1f79b131953e37fdc55655b6191cf015ce3e2",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://csl.noaa.gov/news/2026/443_0513.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists isomerization shares of 12 to 17 percent, 44 percent and nearly 50 percent for three compounds.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The modeled isomerization share was 12% to 17% for alpha-pinene, 44% for 2-ethoxyethanol and nearly 50% for hexanal.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "913e22c357224283f4136f60cb9c224d55694323c4775225b64d893e61e8240a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/isomerization/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f3d379a533062964e8d8cf300772533a326dd2c25d61c3287aabdff5e61754d0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/isomerization/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "82cba5f6baad9d3319cbbfb638de059440fd298d67ef904df9fc74cce70d7b25",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/isomerization/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f9e67483d71b3a0df030d6baee6eb68e9bfd8f7ac34e04abeffb0cf12ebadeef",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/isomerization/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ffc7f23ec5003548a084bc105472ab09c8fe11a5135c079e9083b3a5e67f6586",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/isomerization/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "78fc4257efb98947c2f1dd8e2f52627fca490220b62e8bdebe0a933b1e89d736",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/isomerization/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d48a479bf45fa81758cae09581c3ff0f2b7185739212a9e756507a319d06611e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/noaa-urban-air-chemistry/isomerization/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-noaa-urban-isomerization-fractions-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f9e67483d71b3a0df030d6baee6eb68e9bfd8f7ac34e04abeffb0cf12ebadeef",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://csl.noaa.gov/news/2026/443_0513.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Cars and pedestrians move along a broad downtown street in Banjul lined with low commercial buildings and trees.",
+      "archivalStatus": "current",
+      "attribution": "bartvanpoll / Wikimedia Commons, CC BY-SA 2.0",
+      "caption": "A downtown street in Banjul, The Gambia. The IMF approved an immediate disbursement worth about $22.5 million after completing two program reviews.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "bartvanpoll",
+      "derivatives": [
+        {
+          "hash": "0177d4b1b37e31721a679079c3777b648172cf955b79e1951fc9b446081c8e4d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/banjul-downtown/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ba90b9507c9999ba4c0eadd7fc543c64670f3c4480d6ca01f2306501de49bbf0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/banjul-downtown/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ee8558689fcd8f872c07c99988ba2039771628b2ef345de7043fbe5b453ec236",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/banjul-downtown/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "92d6b71ed1c5fb67390d74fb2473029081edf8f0a6eb71595d9ebef4b7291b28",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/banjul-downtown/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ff86b5e158b518724d3673f75d7d251fb468018c9da6086e9096575e8152e697",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/banjul-downtown/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "13c6ac763eb1015c7c65f96254419b4779a2c39db8c2902e235f83a5446f34d1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/banjul-downtown/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4f6d8cfa2300ecac341c349c4742f0bc66bf4acda7f9cdcc62e75ad86690ceb1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/banjul-downtown/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-imf-gambia-banjul-downtown-2008",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 2.0",
+      "originalFileHash": "f64d3e1cf9ced483ba93e15ed4cdf31a762932606f786ebd6e94acd0d78b4a21",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 2.0 Generic, granted by the photographer on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banjul_Gambia_downtown_(2346354698).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 16.58 million SDR and approximately 22.51 million U.S. dollars in immediate IMF financing.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The IMF made SDR 16.58 million, about $22.51 million, immediately available across two programs.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "b7089f3fe21062ac08f0662cc243fa0eedecd56f36c784241ad9415f04b21107",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/disbursements/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b7c438887d78e5b827e4b00e7cfad651f1536036e63ae735f8d4b7d6bea208ec",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/disbursements/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "27e69fc7397b7a40948efa43d3acbcdec014bd4a89c0f524676afadfee0f7216",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/disbursements/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "3a49fed84dc594ddc6807d6f3b8c8358ecfcecf85dfb0b6c34fd6ff7c3373b43",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/disbursements/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "09d9c279256d3459ccd82fd786ab53f7269f54a32119b8fb50dda9b5f5964fcb",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/disbursements/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5ec2f57e49fcefc3f86dca6430c89021e979e000556f47d06b0b4db42cefe267",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/disbursements/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0d74c39ae0226de94b7245984cc8309f94ff2b236a4d3fa2c4615f9244c96c8a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/disbursements/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-imf-gambia-disbursements-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "3a49fed84dc594ddc6807d6f3b8c8358ecfcecf85dfb0b6c34fd6ff7c3373b43",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/06/pr26239-the-gambia-imf-exec-board-concludes-2026-aiv-consult-completes-5th-rev-ecf-2nd-rev-rsf-arr"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares Gambia growth of 6 percent in 2025, 4.7 percent in 2026 and 5 percent medium term.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The IMF estimated 6% growth in 2025, projected 4.7% in 2026 and about 5% over the medium term.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "76e0f2364b28700551890534d07c2027d3b398e8adc3e8688cccb1a37fb876ea",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/growth-path/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "59c82e974be8727c5645770df5f57b4667d93a8045d9efb0c291b262c1550cbf",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/growth-path/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7fa775726d98ef9cfbd52d8edadb7391c4e7306e5fa3cac6d6973e4d3f39a25e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/growth-path/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "663a155e8c1dc1ebc4847991f7b1a761a11c8f75f70d6424073cb97bcb773085",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/growth-path/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "65ab3db22a4eb051ec6ab1f76a526eb15aa44a112e8d0314086180263be7a371",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/growth-path/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "75cb0a350f565ba99b7ae473d021e1581d9fa6ece7ecb2589b30d2c7ed0e77c5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/growth-path/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "651c1ec5ceee262edd867025026ef03b11eee0030d7af6d7735000d07e375472",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-230421/imf-gambia/growth-path/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-imf-gambia-growth-path-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "663a155e8c1dc1ebc4847991f7b1a761a11c8f75f70d6424073cb97bcb773085",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T23:35:15.898Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/06/pr26239-the-gambia-imf-exec-board-concludes-2026-aiv-consult-completes-5th-rev-ecf-2nd-rev-rsf-arr"
     }
   ],
-  "packageDigest": "74dbb2caa476d86a72f4265da5f98a193d8f7442611ddf3415622a73224055b1",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -96950,7 +99217,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "24175fdbcc87114ea21febfde098e4641471fb319902cd2a0e9a2ed91caced0d"
 }
