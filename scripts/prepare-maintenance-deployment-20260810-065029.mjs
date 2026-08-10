@@ -62,7 +62,7 @@ const inventory = files.map((path) => ({
   path: relative(payload, path).split("\\").join("/"),
   sha256: sha256(readFileSync(path)),
   size: statSync(path).size
-})).sort((left, right) => left.path.localeCompare(right.path));
+})).sort((left, right) => left.path < right.path ? -1 : left.path > right.path ? 1 : 0);
 const inventorySha256 = sha256(Buffer.from(JSON.stringify(inventory)));
 const archive = join(output, `bohonews-${phase}-pages.tar.gz`);
 const tar = spawnSync("tar", ["-czf", archive, "-C", stage, "dist"], { encoding: "utf8" });
