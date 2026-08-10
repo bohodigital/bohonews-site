@@ -32148,71 +32148,71 @@
       "body": "A decade-long international effort funded by the National Institutes of Health has assembled 665 patient-derived cancer models spanning 25 tumor types and tissue from 2,780 donors, creating a shared laboratory resource intended to speed precision-oncology research.\n\nThe Human Cancer Models Initiative, or HCMI, pairs laboratory-grown models with genomic, transcriptomic, epigenomic and clinical information. NIH said the collection includes common cancer subtypes and many of the predominant genetic alterations within them.\n\nPatient-derived models let researchers test questions that cannot be explored directly in a person’s tumor. The collection includes organoids that reproduce aspects of an organ’s cellular makeup and neurosphere clusters derived from brain cancers.\n\nThe central quality question is whether a model still resembles the tumor after it has been grown in a laboratory. HCMI researchers compared 421 tumors with their paired models and reported 97.8 percent agreement in genetic alterations, 95 percent concordance in epigenetic features and 92 percent similarity in RNA-expression patterns.\n\nThose figures describe molecular agreement across the analyzed pairs; they do not mean every model predicts a patient’s treatment response with the same accuracy. A laboratory model is a research tool, not an individualized treatment recommendation.\n\nThe resource includes 522 models with detailed clinical data, 153 models of rare cancers and 71 models from people of non-European ancestry. NIH said models and associated data are being distributed through the American Type Culture Collection and an HCMI searchable catalog.\n\nResearchers can use the models to study tumor evolution, drug sensitivity and treatment resistance. In glioblastoma models, the project identified several genetic features associated with resistance to temozolomide, a chemotherapy drug.\n\nThe work was published Aug. 5 in Nature with companion studies led by the Wellcome Sanger Institute, the Broad Institute of MIT and Harvard and Cold Spring Harbor Laboratory. The compendium’s value will depend on how broadly researchers use it and how well later experiments reproduce clinically meaningful findings.\n\nFor now, the deliverable is concrete: a standardized, searchable collection that gives cancer laboratories access to hundreds of molecularly characterized models without each team having to build the same resource from scratch.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "A decade-long international effort funded by the National Institutes of Health has assembled 665 patient-derived cancer models spanning 25 tumor types and tissue from 2,780 donors, creating a shared laboratory resource intended to speed precision-oncology research."
+          "text": "A decade-long international effort funded by the National Institutes of Health has assembled 665 patient-derived cancer models spanning 25 tumor types and tissue from 2,780 donors, creating a shared laboratory resource intended to speed precision-oncology research.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The Human Cancer Models Initiative, or HCMI, pairs laboratory-grown models with genomic, transcriptomic, epigenomic and clinical information. NIH said the collection includes common cancer subtypes and many of the predominant genetic alterations within them."
+          "text": "The Human Cancer Models Initiative, or HCMI, pairs laboratory-grown models with genomic, transcriptomic, epigenomic and clinical information. NIH said the collection includes common cancer subtypes and many of the predominant genetic alterations within them.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-hcmi-compendium-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-compendium/four-three.webp",
           "alt": "Graphic lists 665 laboratory models, 25 cancer types and 2,780 patient donors.",
           "caption": "The HCMI compendium covers hundreds of models and 25 cancer types.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.nih.gov/news-events/news-releases/human-cancer-models-accelerate-research-precision-therapies"
-        },
-        {
-          "type": "paragraph",
-          "text": "Patient-derived models let researchers test questions that cannot be explored directly in a person’s tumor. The collection includes organoids that reproduce aspects of an organ’s cellular makeup and neurosphere clusters derived from brain cancers."
-        },
-        {
-          "type": "paragraph",
-          "text": "The central quality question is whether a model still resembles the tumor after it has been grown in a laboratory. HCMI researchers compared 421 tumors with their paired models and reported 97.8 percent agreement in genetic alterations, 95 percent concordance in epigenetic features and 92 percent similarity in RNA-expression patterns."
-        },
-        {
-          "type": "paragraph",
-          "text": "Those figures describe molecular agreement across the analyzed pairs; they do not mean every model predicts a patient’s treatment response with the same accuracy. A laboratory model is a research tool, not an individualized treatment recommendation."
-        },
-        {
+          "rightsId": "media-hcmi-compendium-2026",
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/human-cancer-models-accelerate-research-precision-therapies",
+          "src": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-compendium/four-three.webp",
           "type": "media",
-          "rightsId": "media-hcmi-molecular-agreement-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-agreement/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Patient-derived models let researchers test questions that cannot be explored directly in a person’s tumor. The collection includes organoids that reproduce aspects of an organ’s cellular makeup and neurosphere clusters derived from brain cancers.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The central quality question is whether a model still resembles the tumor after it has been grown in a laboratory. HCMI researchers compared 421 tumors with their paired models and reported 97.8 percent agreement in genetic alterations, 95 percent concordance in epigenetic features and 92 percent similarity in RNA-expression patterns.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Those figures describe molecular agreement across the analyzed pairs; they do not mean every model predicts a patient’s treatment response with the same accuracy. A laboratory model is a research tool, not an individualized treatment recommendation.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows 97.8 percent genetic, 95 percent epigenetic and 92 percent RNA-expression agreement.",
           "caption": "Paired tumors and models retained high molecular agreement in NIH’s analysis.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.nih.gov/news-events/news-releases/human-cancer-models-accelerate-research-precision-therapies"
+          "rightsId": "media-hcmi-molecular-agreement-2026",
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/human-cancer-models-accelerate-research-precision-therapies",
+          "src": "/media/newsroom/2026/08/manual-20260810/nih-cancer-models/hcmi-agreement/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "The resource includes 522 models with detailed clinical data, 153 models of rare cancers and 71 models from people of non-European ancestry. NIH said models and associated data are being distributed through the American Type Culture Collection and an HCMI searchable catalog."
+          "text": "The resource includes 522 models with detailed clinical data, 153 models of rare cancers and 71 models from people of non-European ancestry. NIH said models and associated data are being distributed through the American Type Culture Collection and an HCMI searchable catalog.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Researchers can use the models to study tumor evolution, drug sensitivity and treatment resistance. In glioblastoma models, the project identified several genetic features associated with resistance to temozolomide, a chemotherapy drug."
+          "text": "Researchers can use the models to study tumor evolution, drug sensitivity and treatment resistance. In glioblastoma models, the project identified several genetic features associated with resistance to temozolomide, a chemotherapy drug.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The work was published Aug. 5 in Nature with companion studies led by the Wellcome Sanger Institute, the Broad Institute of MIT and Harvard and Cold Spring Harbor Laboratory. The compendium’s value will depend on how broadly researchers use it and how well later experiments reproduce clinically meaningful findings."
+          "text": "The work was published Aug. 5 in Nature with companion studies led by the Wellcome Sanger Institute, the Broad Institute of MIT and Harvard and Cold Spring Harbor Laboratory. The compendium’s value will depend on how broadly researchers use it and how well later experiments reproduce clinically meaningful findings.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "For now, the deliverable is concrete: a standardized, searchable collection that gives cancer laboratories access to hundreds of molecularly characterized models without each team having to build the same resource from scratch."
+          "text": "For now, the deliverable is concrete: a standardized, searchable collection that gives cancer laboratories access to hundreds of molecularly characterized models without each team having to build the same resource from scratch.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/nih-cancer-models-25-tumor-types-665-models-2026/",
       "citations": [
         {
           "id": "source-nih-hcmi-20260805",
-          "title": "Human cancer models to accelerate research and precision therapies",
-          "publisher": "National Institutes of Health",
           "publishedAt": "2026-08-05T12:00:00Z",
+          "publisher": "National Institutes of Health",
+          "title": "Human cancer models to accelerate research and precision therapies",
           "url": "https://www.nih.gov/news-events/news-releases/human-cancer-models-accelerate-research-precision-therapies"
         }
       ],
@@ -32257,9 +32257,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-10T04:07:21.088Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260810t033529z-4e99fbc67d36-276b84f417dd",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -32287,7 +32287,7 @@
         "Molecular similarity does not establish that every model predicts an individual patient’s response.",
         "The collection’s clinical value will depend on independent use, replication and future validation."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-10T04:07:21.088Z"
     },
     {
       "articleType": "news-report",
@@ -32297,71 +32297,71 @@
       "body": "The National Institute of Standards and Technology will open two of its Gaithersburg research facilities for an evening public tour on Aug. 19, part of the agency’s 125th-anniversary program.\n\nThe event runs from 5:30 to 7 p.m. EDT at NIST’s Administration Building, 100 Bureau Drive. Registration closes Aug. 12, and NIST says the limited spaces will be allocated on a first-come, first-served basis.\n\nVisitors must select one of two destinations when registering. The Million Pounds-Force Deadweight Machine calibrates sensors used to measure very large forces, including the thrust of aircraft engines and loads on structures.\n\nThe second option is the NanoFab at NIST’s Center for Nanoscale Science and Technology, where researchers use semiconductor-processing and characterization equipment to build and study technologies at very small scales.\n\nThe tour is limited to U.S. citizens and permanent residents because of site-entry requirements. NIST says the program is most appropriate for high-school age and older and that children under 12 will not be admitted.\n\nPermanent residents must bring an unexpired green card. U.S. citizens using a state-issued identification card must present a REAL ID-compliant credential or another accepted federal photo ID, such as a passport or passport card. Digital copies and screenshots are not accepted.\n\nThe two facilities show opposite ends of the measurement scale: one creates precisely known forces approaching one million pounds, while the other supports fabrication and measurement at the nanoscale. Both are used to establish traceable measurements that other laboratories and industries can rely on.\n\nNIST was founded in 1901 as the National Bureau of Standards. The anniversary program includes lectures, tours and partnerships throughout 2026; the Aug. 19 event is one stop in that broader schedule.\n\nRegistration is not a guarantee of entry if required identification is missing. Prospective visitors should use NIST’s official event page for the current capacity and access instructions before traveling.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The National Institute of Standards and Technology will open two of its Gaithersburg research facilities for an evening public tour on Aug. 19, part of the agency’s 125th-anniversary program."
+          "text": "The National Institute of Standards and Technology will open two of its Gaithersburg research facilities for an evening public tour on Aug. 19, part of the agency’s 125th-anniversary program.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The event runs from 5:30 to 7 p.m. EDT at NIST’s Administration Building, 100 Bureau Drive. Registration closes Aug. 12, and NIST says the limited spaces will be allocated on a first-come, first-served basis."
+          "text": "The event runs from 5:30 to 7 p.m. EDT at NIST’s Administration Building, 100 Bureau Drive. Registration closes Aug. 12, and NIST says the limited spaces will be allocated on a first-come, first-served basis.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-nist-tour-timeline-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-tour-timeline/four-three.webp",
           "alt": "Graphic shows registration closes Aug. 12 and the NIST tour runs Aug. 19 from 5:30 to 7 p.m.",
           "caption": "The registration deadline falls one week before the Aug. 19 evening tour.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.nist.gov/news-events/events/2026/08/august-tour-nists-125th-anniversary"
-        },
-        {
-          "type": "paragraph",
-          "text": "Visitors must select one of two destinations when registering. The Million Pounds-Force Deadweight Machine calibrates sensors used to measure very large forces, including the thrust of aircraft engines and loads on structures."
-        },
-        {
-          "type": "paragraph",
-          "text": "The second option is the NanoFab at NIST’s Center for Nanoscale Science and Technology, where researchers use semiconductor-processing and characterization equipment to build and study technologies at very small scales."
-        },
-        {
-          "type": "paragraph",
-          "text": "The tour is limited to U.S. citizens and permanent residents because of site-entry requirements. NIST says the program is most appropriate for high-school age and older and that children under 12 will not be admitted."
-        },
-        {
+          "rightsId": "media-nist-tour-timeline-2026",
+          "sourceUrl": "https://www.nist.gov/news-events/events/2026/08/august-tour-nists-125th-anniversary",
+          "src": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-tour-timeline/four-three.webp",
           "type": "media",
-          "rightsId": "media-nist-tour-lab-options-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-lab-options/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Visitors must select one of two destinations when registering. The Million Pounds-Force Deadweight Machine calibrates sensors used to measure very large forces, including the thrust of aircraft engines and loads on structures.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The second option is the NanoFab at NIST’s Center for Nanoscale Science and Technology, where researchers use semiconductor-processing and characterization equipment to build and study technologies at very small scales.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The tour is limited to U.S. citizens and permanent residents because of site-entry requirements. NIST says the program is most appropriate for high-school age and older and that children under 12 will not be admitted.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists the Million Pounds-Force machine and NanoFab as the two tour choices.",
           "caption": "Registrants must choose between two laboratory visits.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.nist.gov/news-events/events/2026/08/august-tour-nists-125th-anniversary"
+          "rightsId": "media-nist-tour-lab-options-2026",
+          "sourceUrl": "https://www.nist.gov/news-events/events/2026/08/august-tour-nists-125th-anniversary",
+          "src": "/media/newsroom/2026/08/manual-20260810/nist-august-tour/nist-lab-options/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Permanent residents must bring an unexpired green card. U.S. citizens using a state-issued identification card must present a REAL ID-compliant credential or another accepted federal photo ID, such as a passport or passport card. Digital copies and screenshots are not accepted."
+          "text": "Permanent residents must bring an unexpired green card. U.S. citizens using a state-issued identification card must present a REAL ID-compliant credential or another accepted federal photo ID, such as a passport or passport card. Digital copies and screenshots are not accepted.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The two facilities show opposite ends of the measurement scale: one creates precisely known forces approaching one million pounds, while the other supports fabrication and measurement at the nanoscale. Both are used to establish traceable measurements that other laboratories and industries can rely on."
+          "text": "The two facilities show opposite ends of the measurement scale: one creates precisely known forces approaching one million pounds, while the other supports fabrication and measurement at the nanoscale. Both are used to establish traceable measurements that other laboratories and industries can rely on.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "NIST was founded in 1901 as the National Bureau of Standards. The anniversary program includes lectures, tours and partnerships throughout 2026; the Aug. 19 event is one stop in that broader schedule."
+          "text": "NIST was founded in 1901 as the National Bureau of Standards. The anniversary program includes lectures, tours and partnerships throughout 2026; the Aug. 19 event is one stop in that broader schedule.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Registration is not a guarantee of entry if required identification is missing. Prospective visitors should use NIST’s official event page for the current capacity and access instructions before traveling."
+          "text": "Registration is not a guarantee of entry if required identification is missing. Prospective visitors should use NIST’s official event page for the current capacity and access instructions before traveling.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/nist-august-19-2026-lab-tour-registration/",
       "citations": [
         {
           "id": "source-nist-tour-20260819",
-          "title": "August Tour for NIST's 125th Anniversary",
-          "publisher": "National Institute of Standards and Technology",
           "publishedAt": "2026-07-06T12:00:00Z",
+          "publisher": "National Institute of Standards and Technology",
+          "title": "August Tour for NIST's 125th Anniversary",
           "url": "https://www.nist.gov/news-events/events/2026/08/august-tour-nists-125th-anniversary"
         }
       ],
@@ -32403,9 +32403,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-10T04:07:21.088Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260810t033529z-4e99fbc67d36-276b84f417dd",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -32433,7 +32433,7 @@
         "Capacity is limited and registration availability may change.",
         "NIST may update access instructions; visitors should check the official page before travel."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-10T04:07:21.088Z"
     },
     {
       "articleType": "news-report",
@@ -32443,78 +32443,78 @@
       "body": "Farah O’Keefe’s NCAA Division I individual championship has earned the University of Texas golfer an amateur exemption into the Standard Portland Classic, an LPGA Tour event scheduled for Aug. 13–16.\n\nThe NCAA and LPGA announced before the college championship that the 2026 individual winner would receive the place in Portland. O’Keefe secured it May 25 by finishing 12 under at Omni La Costa Resort & Spa in Carlsbad, California.\n\nO’Keefe posted rounds of 69, 69, 68 and 70. She made six birdies in the final round, including birdies on the final two holes, and won by two strokes.\n\nThe title made O’Keefe the third NCAA individual champion in Texas women’s golf history, following Charlotta Sörenstam in 1993 and Heather Bowie in 1997. It was her fourth victory of the 2025–26 college season and fifth collegiate win overall.\n\nThe Portland exemption is part of a broader invitation that also covers the winners of the U.S. Women’s Amateur, Women’s Amateur Championship and Augusta National Women’s Amateur. The NCAA said 2026 would be the first year all four amateur champions were offered places in the same LPGA event.\n\nAn exemption gives a golfer entry into the field; it does not change amateur status by itself or guarantee a made cut. The event places O’Keefe alongside full-time professionals in a standard LPGA competition setting.\n\nO’Keefe has already tested that level this year. Texas Athletics said she finished as low amateur at the Amundi Evian Championship in July, shooting 5 under and tying for 35th after four rounds.\n\nHer college season included top-10 finishes in all 12 events, according to Texas, along with the ANNIKA Award and Honda Sport Award. Those honors describe past performance, while Portland will offer a separate test against an LPGA field.\n\nFor readers tracking the field, the useful distinction is simple: O’Keefe qualified through the NCAA champion pathway announced in March, not through a weekly sponsor invitation created after the fact.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Farah O’Keefe’s NCAA Division I individual championship has earned the University of Texas golfer an amateur exemption into the Standard Portland Classic, an LPGA Tour event scheduled for Aug. 13–16."
+          "text": "Farah O’Keefe’s NCAA Division I individual championship has earned the University of Texas golfer an amateur exemption into the Standard Portland Classic, an LPGA Tour event scheduled for Aug. 13–16.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The NCAA and LPGA announced before the college championship that the 2026 individual winner would receive the place in Portland. O’Keefe secured it May 25 by finishing 12 under at Omni La Costa Resort & Spa in Carlsbad, California."
+          "text": "The NCAA and LPGA announced before the college championship that the 2026 individual winner would receive the place in Portland. O’Keefe secured it May 25 by finishing 12 under at Omni La Costa Resort & Spa in Carlsbad, California.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-okeefe-ncaa-rounds-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-ncaa-rounds/four-three.webp",
           "alt": "Graphic lists rounds of 69, 69, 68 and 70, a 12-under total and two-stroke win.",
           "caption": "O’Keefe closed the NCAA tournament at 12 under after four subpar rounds.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.ncaa.org/media-center-ncaa-di-womens-golf-champion-to-be-extended-amateur-exemption-to-lpga-event/"
-        },
-        {
-          "type": "paragraph",
-          "text": "O’Keefe posted rounds of 69, 69, 68 and 70. She made six birdies in the final round, including birdies on the final two holes, and won by two strokes."
-        },
-        {
-          "type": "paragraph",
-          "text": "The title made O’Keefe the third NCAA individual champion in Texas women’s golf history, following Charlotta Sörenstam in 1993 and Heather Bowie in 1997. It was her fourth victory of the 2025–26 college season and fifth collegiate win overall."
-        },
-        {
-          "type": "paragraph",
-          "text": "The Portland exemption is part of a broader invitation that also covers the winners of the U.S. Women’s Amateur, Women’s Amateur Championship and Augusta National Women’s Amateur. The NCAA said 2026 would be the first year all four amateur champions were offered places in the same LPGA event."
-        },
-        {
+          "rightsId": "media-okeefe-ncaa-rounds-2026",
+          "sourceUrl": "https://www.ncaa.org/media-center-ncaa-di-womens-golf-champion-to-be-extended-amateur-exemption-to-lpga-event/",
+          "src": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-ncaa-rounds/four-three.webp",
           "type": "media",
-          "rightsId": "media-okeefe-season-summary-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-season/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "O’Keefe posted rounds of 69, 69, 68 and 70. She made six birdies in the final round, including birdies on the final two holes, and won by two strokes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The title made O’Keefe the third NCAA individual champion in Texas women’s golf history, following Charlotta Sörenstam in 1993 and Heather Bowie in 1997. It was her fourth victory of the 2025–26 college season and fifth collegiate win overall.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Portland exemption is part of a broader invitation that also covers the winners of the U.S. Women’s Amateur, Women’s Amateur Championship and Augusta National Women’s Amateur. The NCAA said 2026 would be the first year all four amateur champions were offered places in the same LPGA event.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists four victories, top 10 in all 12 events and NCAA individual champion.",
           "caption": "O’Keefe paired the NCAA title with a top-10 finish in every college event of the season.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.ncaa.org/media-center-ncaa-di-womens-golf-champion-to-be-extended-amateur-exemption-to-lpga-event/"
+          "rightsId": "media-okeefe-season-summary-2026",
+          "sourceUrl": "https://www.ncaa.org/media-center-ncaa-di-womens-golf-champion-to-be-extended-amateur-exemption-to-lpga-event/",
+          "src": "/media/newsroom/2026/08/manual-20260810/farah-okeefe-lpga/okeefe-season/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "An exemption gives a golfer entry into the field; it does not change amateur status by itself or guarantee a made cut. The event places O’Keefe alongside full-time professionals in a standard LPGA competition setting."
+          "text": "An exemption gives a golfer entry into the field; it does not change amateur status by itself or guarantee a made cut. The event places O’Keefe alongside full-time professionals in a standard LPGA competition setting.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "O’Keefe has already tested that level this year. Texas Athletics said she finished as low amateur at the Amundi Evian Championship in July, shooting 5 under and tying for 35th after four rounds."
+          "text": "O’Keefe has already tested that level this year. Texas Athletics said she finished as low amateur at the Amundi Evian Championship in July, shooting 5 under and tying for 35th after four rounds.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Her college season included top-10 finishes in all 12 events, according to Texas, along with the ANNIKA Award and Honda Sport Award. Those honors describe past performance, while Portland will offer a separate test against an LPGA field."
+          "text": "Her college season included top-10 finishes in all 12 events, according to Texas, along with the ANNIKA Award and Honda Sport Award. Those honors describe past performance, while Portland will offer a separate test against an LPGA field.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "For readers tracking the field, the useful distinction is simple: O’Keefe qualified through the NCAA champion pathway announced in March, not through a weekly sponsor invitation created after the fact."
+          "text": "For readers tracking the field, the useful distinction is simple: O’Keefe qualified through the NCAA champion pathway announced in March, not through a weekly sponsor invitation created after the fact.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/farah-okeefe-standard-portland-classic-lpga-exemption-2026/",
       "citations": [
         {
           "id": "source-ncaa-lpga-exemption-20260305",
-          "title": "NCAA DI women’s golf champion to be extended amateur exemption to LPGA event",
-          "publisher": "NCAA",
           "publishedAt": "2026-03-05T12:00:00Z",
+          "publisher": "NCAA",
+          "title": "NCAA DI women’s golf champion to be extended amateur exemption to LPGA event",
           "url": "https://www.ncaa.org/media-center-ncaa-di-womens-golf-champion-to-be-extended-amateur-exemption-to-lpga-event/"
         },
         {
           "id": "source-texas-okeefe-ncaa-20260525",
-          "title": "Women’s Golf’s O’Keefe wins individual NCAA Championship",
-          "publisher": "University of Texas Athletics",
           "publishedAt": "2026-05-25T12:00:00Z",
+          "publisher": "University of Texas Athletics",
+          "title": "Women’s Golf’s O’Keefe wins individual NCAA Championship",
           "url": "https://texaslonghorns.com/news/2026/5/25/womens-golf-no-5-womens-golfs-farah-o-keefe-wins-individual-ncaa-championship"
         }
       ],
@@ -32560,9 +32560,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-10T04:07:21.088Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260810t033529z-4e99fbc67d36-276b84f417dd",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -32590,7 +32590,7 @@
         "An exemption provides entry but does not predict performance or a made cut.",
         "Tournament field details can change before the opening round."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-10T04:07:21.088Z"
     },
     {
       "articleType": "news-report",
@@ -32600,71 +32600,71 @@
       "body": "The Great Atlantic Sargassum Belt reached its second-highest annual level in the satellite record in June 2026, while the Caribbean Sea and Gulf of Mexico each set regional records, according to NASA Earth Observatory and University of South Florida researchers.\n\nNASA’s PACE satellite mapped dense concentrations across the tropical Atlantic. The western Caribbean held an estimated 3.6 million metric tons, the eastern Caribbean 9 million and the Gulf 5 million.\n\nThe Gulf total was nearly twice its previous record, which was set in 2025. Across the basin, 2026 trailed only the 2025 peak in the satellite record.\n\nSargassum is floating brown algae. In moderate amounts offshore, it provides habitat for fish, turtles, birds and invertebrates. Large nearshore mats can reduce oxygen, smother corals and seagrass and release hydrogen sulfide as they decompose on beaches.\n\nThe word belt can be misleading at local scale. NASA’s map shows a nearly continuous basin-wide feature, but it is made of discrete, moving mats whose paths depend on currents and winds.\n\nThose patterns spared much of Florida’s west coast from heavy inundation earlier in the summer while steering more material toward the Florida Keys, the east coast and parts of the Caribbean, NASA reported.\n\nPACE’s Ocean Color Instrument detects the algae because chlorophyll and plant structure reflect near-infrared light differently from seawater. Scientists use that reflectance signal to estimate the fraction of ocean surface covered in each pixel and then convert coverage to biomass.\n\nThe newer hyperspectral instrument builds on the longer MODIS and VIIRS record. Researchers said PACE observes more ocean and has greater sensitivity, which may improve winter mapping and help distinguish Sargassum from other floating algae.\n\nJune was the annual peak, not a statement that biomass continued rising afterward. NASA said newer observations showed a decline through July, and researchers are still investigating the mix of ocean warming, nutrient sources and biological feedbacks behind the belt’s longer-term growth.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The Great Atlantic Sargassum Belt reached its second-highest annual level in the satellite record in June 2026, while the Caribbean Sea and Gulf of Mexico each set regional records, according to NASA Earth Observatory and University of South Florida researchers."
+          "text": "The Great Atlantic Sargassum Belt reached its second-highest annual level in the satellite record in June 2026, while the Caribbean Sea and Gulf of Mexico each set regional records, according to NASA Earth Observatory and University of South Florida researchers.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "NASA’s PACE satellite mapped dense concentrations across the tropical Atlantic. The western Caribbean held an estimated 3.6 million metric tons, the eastern Caribbean 9 million and the Gulf 5 million."
+          "text": "NASA’s PACE satellite mapped dense concentrations across the tropical Atlantic. The western Caribbean held an estimated 3.6 million metric tons, the eastern Caribbean 9 million and the Gulf 5 million.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-sargassum-regional-mass-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-regions/four-three.webp",
           "alt": "Graphic shows 9 million metric tons in the eastern Caribbean, 5 million in the Gulf and 3.6 million in the western Caribbean.",
           "caption": "The eastern Caribbean held the largest of the three regional June totals reported by NASA.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/"
-        },
-        {
-          "type": "paragraph",
-          "text": "The Gulf total was nearly twice its previous record, which was set in 2025. Across the basin, 2026 trailed only the 2025 peak in the satellite record."
-        },
-        {
-          "type": "paragraph",
-          "text": "Sargassum is floating brown algae. In moderate amounts offshore, it provides habitat for fish, turtles, birds and invertebrates. Large nearshore mats can reduce oxygen, smother corals and seagrass and release hydrogen sulfide as they decompose on beaches."
-        },
-        {
-          "type": "paragraph",
-          "text": "The word belt can be misleading at local scale. NASA’s map shows a nearly continuous basin-wide feature, but it is made of discrete, moving mats whose paths depend on currents and winds."
-        },
-        {
+          "rightsId": "media-sargassum-regional-mass-2026",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
+          "src": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-regions/four-three.webp",
           "type": "media",
-          "rightsId": "media-sargassum-record-context-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-record/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "The Gulf total was nearly twice its previous record, which was set in 2025. Across the basin, 2026 trailed only the 2025 peak in the satellite record.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Sargassum is floating brown algae. In moderate amounts offshore, it provides habitat for fish, turtles, birds and invertebrates. Large nearshore mats can reduce oxygen, smother corals and seagrass and release hydrogen sulfide as they decompose on beaches.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The word belt can be misleading at local scale. NASA’s map shows a nearly continuous basin-wide feature, but it is made of discrete, moving mats whose paths depend on currents and winds.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic says 2026 was the second-highest year, the Caribbean and Gulf set records, and the Gulf nearly doubled its prior high.",
           "caption": "The basin ranked second in the satellite record while two regions set highs.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/"
+          "rightsId": "media-sargassum-record-context-2026",
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/",
+          "src": "/media/newsroom/2026/08/manual-20260810/nasa-sargassum-2026/sargassum-record/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Those patterns spared much of Florida’s west coast from heavy inundation earlier in the summer while steering more material toward the Florida Keys, the east coast and parts of the Caribbean, NASA reported."
+          "text": "Those patterns spared much of Florida’s west coast from heavy inundation earlier in the summer while steering more material toward the Florida Keys, the east coast and parts of the Caribbean, NASA reported.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "PACE’s Ocean Color Instrument detects the algae because chlorophyll and plant structure reflect near-infrared light differently from seawater. Scientists use that reflectance signal to estimate the fraction of ocean surface covered in each pixel and then convert coverage to biomass."
+          "text": "PACE’s Ocean Color Instrument detects the algae because chlorophyll and plant structure reflect near-infrared light differently from seawater. Scientists use that reflectance signal to estimate the fraction of ocean surface covered in each pixel and then convert coverage to biomass.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The newer hyperspectral instrument builds on the longer MODIS and VIIRS record. Researchers said PACE observes more ocean and has greater sensitivity, which may improve winter mapping and help distinguish Sargassum from other floating algae."
+          "text": "The newer hyperspectral instrument builds on the longer MODIS and VIIRS record. Researchers said PACE observes more ocean and has greater sensitivity, which may improve winter mapping and help distinguish Sargassum from other floating algae.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "June was the annual peak, not a statement that biomass continued rising afterward. NASA said newer observations showed a decline through July, and researchers are still investigating the mix of ocean warming, nutrient sources and biological feedbacks behind the belt’s longer-term growth."
+          "text": "June was the annual peak, not a statement that biomass continued rising afterward. NASA said newer observations showed a decline through July, and researchers are still investigating the mix of ocean warming, nutrient sources and biological feedbacks behind the belt’s longer-term growth.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/great-atlantic-sargassum-belt-june-2026-records/",
       "citations": [
         {
           "id": "source-nasa-sargassum-20260729",
-          "title": "Sizing Up the Sargassum Belt",
-          "publisher": "NASA Earth Observatory",
           "publishedAt": "2026-07-29T12:00:00Z",
+          "publisher": "NASA Earth Observatory",
+          "title": "Sizing Up the Sargassum Belt",
           "url": "https://science.nasa.gov/earth/earth-observatory/sizing-up-the-sargassum-belt/"
         }
       ],
@@ -32711,9 +32711,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-10T04:07:21.088Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260810t033529z-4e99fbc67d36-276b84f417dd",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -32741,7 +32741,7 @@
         "The belt is patchy; basin-wide maps do not predict every beach impact.",
         "The exact causes of long-term growth remain under investigation, and July observations showed biomass declining after the June peak."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-10T04:07:21.088Z"
     },
     {
       "articleType": "news-report",
@@ -32751,71 +32751,71 @@
       "body": "The World Bank has approved a $100 million project for Argentina’s Salta Province that combines road rehabilitation, logistics upgrades, water and sanitation systems and new tools for managing growth in the mining sector.\n\nThe project will rehabilitate 24 kilometers of National Route 51 between Campo Quijano and Los Chorrillos. The bank said drainage and climate resilience are core parts of the road work.\n\nRoute 51 links high-altitude communities and production areas toward the Chilean border. The program also funds improvements at the General Güemes Logistics Hub and Industrial Park, which connects with the Belgrano Cargas freight rail network and the wider Bioceanic Corridor.\n\nIn Olacapato and San Antonio de los Cobres, financing is directed toward safe-water access and wastewater treatment. Those components make the operation broader than a transport loan.\n\nThe mining-governance track includes modernized information systems, digital platforms, environmental monitoring, technical training and transparency measures. The World Bank framed those systems as part of responsible critical-minerals development.\n\nApproval establishes financing and project scope; it does not mean every road, pipe or digital system is already built. Procurement, construction schedules and performance measures will determine when residents see the intended services.\n\nThe operation is a variable-spread loan with a 32-year maturity and seven-year grace period. Those terms spread repayment over decades while leaving interest costs sensitive to the loan’s rate structure.\n\nThe combined design reflects a regional-development theory: road reliability, freight connections, basic services and public-sector capacity can reinforce one another. Whether they do so will depend on project execution and whether benefits reach the targeted towns and workers.\n\nThe most concrete near-term benchmarks are therefore physical and auditable: 24 kilometers of Route 51, named logistics facilities, specified water and wastewater investments and working public information and environmental-monitoring systems.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The World Bank has approved a $100 million project for Argentina’s Salta Province that combines road rehabilitation, logistics upgrades, water and sanitation systems and new tools for managing growth in the mining sector."
+          "text": "The World Bank has approved a $100 million project for Argentina’s Salta Province that combines road rehabilitation, logistics upgrades, water and sanitation systems and new tools for managing growth in the mining sector.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The project will rehabilitate 24 kilometers of National Route 51 between Campo Quijano and Los Chorrillos. The bank said drainage and climate resilience are core parts of the road work."
+          "text": "The project will rehabilitate 24 kilometers of National Route 51 between Campo Quijano and Los Chorrillos. The bank said drainage and climate resilience are core parts of the road work.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-salta-project-scale-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-scale/four-three.webp",
           "alt": "Graphic lists $100 million, 24 kilometers of Route 51, a 32-year maturity and seven-year grace period.",
           "caption": "The approved project combines a $100 million loan with a defined Route 51 segment.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/07/banco-mundial-aprueba-financiamiento-para-infraestructura-resiliente-y-servicios-b-sicos-que-impulsar-n-el-empleo-en-sal"
-        },
-        {
-          "type": "paragraph",
-          "text": "Route 51 links high-altitude communities and production areas toward the Chilean border. The program also funds improvements at the General Güemes Logistics Hub and Industrial Park, which connects with the Belgrano Cargas freight rail network and the wider Bioceanic Corridor."
-        },
-        {
-          "type": "paragraph",
-          "text": "In Olacapato and San Antonio de los Cobres, financing is directed toward safe-water access and wastewater treatment. Those components make the operation broader than a transport loan."
-        },
-        {
-          "type": "paragraph",
-          "text": "The mining-governance track includes modernized information systems, digital platforms, environmental monitoring, technical training and transparency measures. The World Bank framed those systems as part of responsible critical-minerals development."
-        },
-        {
+          "rightsId": "media-salta-project-scale-2026",
+          "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/07/banco-mundial-aprueba-financiamiento-para-infraestructura-resiliente-y-servicios-b-sicos-que-impulsar-n-el-empleo-en-sal",
+          "src": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-scale/four-three.webp",
           "type": "media",
-          "rightsId": "media-salta-project-components-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-parts/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Route 51 links high-altitude communities and production areas toward the Chilean border. The program also funds improvements at the General Güemes Logistics Hub and Industrial Park, which connects with the Belgrano Cargas freight rail network and the wider Bioceanic Corridor.",
+          "type": "paragraph"
+        },
+        {
+          "text": "In Olacapato and San Antonio de los Cobres, financing is directed toward safe-water access and wastewater treatment. Those components make the operation broader than a transport loan.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The mining-governance track includes modernized information systems, digital platforms, environmental monitoring, technical training and transparency measures. The World Bank framed those systems as part of responsible critical-minerals development.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists Route 51 and logistics, water and wastewater, and mining data and governance.",
           "caption": "Roads are one of several connected investment tracks in the Salta operation.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/07/banco-mundial-aprueba-financiamiento-para-infraestructura-resiliente-y-servicios-b-sicos-que-impulsar-n-el-empleo-en-sal"
+          "rightsId": "media-salta-project-components-2026",
+          "sourceUrl": "https://www.worldbank.org/en/news/press-release/2026/07/07/banco-mundial-aprueba-financiamiento-para-infraestructura-resiliente-y-servicios-b-sicos-que-impulsar-n-el-empleo-en-sal",
+          "src": "/media/newsroom/2026/08/manual-20260810/world-bank-salta/salta-project-parts/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Approval establishes financing and project scope; it does not mean every road, pipe or digital system is already built. Procurement, construction schedules and performance measures will determine when residents see the intended services."
+          "text": "Approval establishes financing and project scope; it does not mean every road, pipe or digital system is already built. Procurement, construction schedules and performance measures will determine when residents see the intended services.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The operation is a variable-spread loan with a 32-year maturity and seven-year grace period. Those terms spread repayment over decades while leaving interest costs sensitive to the loan’s rate structure."
+          "text": "The operation is a variable-spread loan with a 32-year maturity and seven-year grace period. Those terms spread repayment over decades while leaving interest costs sensitive to the loan’s rate structure.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The combined design reflects a regional-development theory: road reliability, freight connections, basic services and public-sector capacity can reinforce one another. Whether they do so will depend on project execution and whether benefits reach the targeted towns and workers."
+          "text": "The combined design reflects a regional-development theory: road reliability, freight connections, basic services and public-sector capacity can reinforce one another. Whether they do so will depend on project execution and whether benefits reach the targeted towns and workers.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The most concrete near-term benchmarks are therefore physical and auditable: 24 kilometers of Route 51, named logistics facilities, specified water and wastewater investments and working public information and environmental-monitoring systems."
+          "text": "The most concrete near-term benchmarks are therefore physical and auditable: 24 kilometers of Route 51, named logistics facilities, specified water and wastewater investments and working public information and environmental-monitoring systems.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/world-bank-salta-route-51-water-project-100-million/",
       "citations": [
         {
           "id": "source-world-bank-salta-20260706",
-          "title": "World Bank Approves Financing for Resilient Infrastructure and Basic Services to Boost Employment in Salta",
-          "publisher": "World Bank",
           "publishedAt": "2026-07-06T12:00:00Z",
+          "publisher": "World Bank",
+          "title": "World Bank Approves Financing for Resilient Infrastructure and Basic Services to Boost Employment in Salta",
           "url": "https://www.worldbank.org/en/news/press-release/2026/07/07/banco-mundial-aprueba-financiamiento-para-infraestructura-resiliente-y-servicios-b-sicos-que-impulsar-n-el-empleo-en-sal"
         }
       ],
@@ -32863,9 +32863,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-10T04:07:21.088Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260810t033529z-4e99fbc67d36-276b84f417dd",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -32893,7 +32893,7 @@
         "Approval does not establish completion dates for each component.",
         "Construction, procurement and outcome data will be needed to measure delivery and benefits."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-10T04:07:21.088Z"
     },
     {
       "articleType": "news-report",
@@ -32903,71 +32903,71 @@
       "body": "Singer-songwriter Amanda Pascali will perform a free concert at the Library of Congress on Thursday, Aug. 13, in a program celebrating the American Folklife Center’s 50th anniversary.\n\nThe concert begins at 7 p.m. in the Coolidge Auditorium. The Library lists Pascali as its 2026 Artist in Resonance and describes the program as a blend of folk and Americana with Mediterranean, Balkan and Latin influences.\n\nAdmission is free, but the Library directs visitors to register through its Live! at the Library ticketing system. The ticket also provides access to exhibitions and extended Thursday evening hours in the Thomas Jefferson Building.\n\nPascali’s concert is the middle of three highlighted August music nights. The month opened Aug. 6 with K-pop programs and an outdoor screening of Apollo 13, and it closes Aug. 27 with a Great Hall café concert by banjo player Tray Wellington and his band.\n\nThe American Folklife Center was established in 1976 to preserve and present traditional culture. Its archive contains songs, oral histories, photographs and field recordings gathered from communities in the United States and abroad.\n\nThe Artist in Resonance designation connects a working artist with those collections and with public programming. In this case, the anniversary concert foregrounds music shaped by migration and multiple regional traditions rather than treating folk music as a single fixed style.\n\nVisitors during the Library’s Thursday evening program can also enter the Main Reading Room experience and current exhibitions, subject to the building’s access rules and capacity.\n\nThe event notice supplies the date, time, venue and registration path, but it does not publish a song-by-song set list. Attendees should not assume a specific repertoire beyond the musical traditions the Library identifies.\n\nFor planning purposes, the key details are straightforward: Thursday, Aug. 13; 7 p.m.; Coolidge Auditorium; free advance registration through the Library’s official event system.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Singer-songwriter Amanda Pascali will perform a free concert at the Library of Congress on Thursday, Aug. 13, in a program celebrating the American Folklife Center’s 50th anniversary."
+          "text": "Singer-songwriter Amanda Pascali will perform a free concert at the Library of Congress on Thursday, Aug. 13, in a program celebrating the American Folklife Center’s 50th anniversary.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The concert begins at 7 p.m. in the Coolidge Auditorium. The Library lists Pascali as its 2026 Artist in Resonance and describes the program as a blend of folk and Americana with Mediterranean, Balkan and Latin influences."
+          "text": "The concert begins at 7 p.m. in the Coolidge Auditorium. The Library lists Pascali as its 2026 Artist in Resonance and describes the program as a blend of folk and Americana with Mediterranean, Balkan and Latin influences.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-pascali-concert-details-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/pascali-event/four-three.webp",
           "alt": "Graphic lists Amanda Pascali, Aug. 13 at 7 p.m., Coolidge Auditorium and free registration.",
           "caption": "The free Aug. 13 concert begins at 7 p.m. in the Coolidge Auditorium.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c"
-        },
-        {
-          "type": "paragraph",
-          "text": "Admission is free, but the Library directs visitors to register through its Live! at the Library ticketing system. The ticket also provides access to exhibitions and extended Thursday evening hours in the Thomas Jefferson Building."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pascali’s concert is the middle of three highlighted August music nights. The month opened Aug. 6 with K-pop programs and an outdoor screening of Apollo 13, and it closes Aug. 27 with a Great Hall café concert by banjo player Tray Wellington and his band."
-        },
-        {
-          "type": "paragraph",
-          "text": "The American Folklife Center was established in 1976 to preserve and present traditional culture. Its archive contains songs, oral histories, photographs and field recordings gathered from communities in the United States and abroad."
-        },
-        {
+          "rightsId": "media-pascali-concert-details-2026",
+          "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c",
+          "src": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/pascali-event/four-three.webp",
           "type": "media",
-          "rightsId": "media-loc-august-live-schedule-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-august-music/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Admission is free, but the Library directs visitors to register through its Live! at the Library ticketing system. The ticket also provides access to exhibitions and extended Thursday evening hours in the Thomas Jefferson Building.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Pascali’s concert is the middle of three highlighted August music nights. The month opened Aug. 6 with K-pop programs and an outdoor screening of Apollo 13, and it closes Aug. 27 with a Great Hall café concert by banjo player Tray Wellington and his band.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The American Folklife Center was established in 1976 to preserve and present traditional culture. Its archive contains songs, oral histories, photographs and field recordings gathered from communities in the United States and abroad.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists K-pop and Apollo 13 on Aug. 6, Amanda Pascali on Aug. 13 and Tray Wellington on Aug. 27.",
           "caption": "The Pascali performance sits between two other August Live! at the Library music dates.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c"
+          "rightsId": "media-loc-august-live-schedule-2026",
+          "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c",
+          "src": "/media/newsroom/2026/08/manual-20260810/loc-pascali-concert/loc-august-music/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "The Artist in Resonance designation connects a working artist with those collections and with public programming. In this case, the anniversary concert foregrounds music shaped by migration and multiple regional traditions rather than treating folk music as a single fixed style."
+          "text": "The Artist in Resonance designation connects a working artist with those collections and with public programming. In this case, the anniversary concert foregrounds music shaped by migration and multiple regional traditions rather than treating folk music as a single fixed style.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Visitors during the Library’s Thursday evening program can also enter the Main Reading Room experience and current exhibitions, subject to the building’s access rules and capacity."
+          "text": "Visitors during the Library’s Thursday evening program can also enter the Main Reading Room experience and current exhibitions, subject to the building’s access rules and capacity.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The event notice supplies the date, time, venue and registration path, but it does not publish a song-by-song set list. Attendees should not assume a specific repertoire beyond the musical traditions the Library identifies."
+          "text": "The event notice supplies the date, time, venue and registration path, but it does not publish a song-by-song set list. Attendees should not assume a specific repertoire beyond the musical traditions the Library identifies.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "For planning purposes, the key details are straightforward: Thursday, Aug. 13; 7 p.m.; Coolidge Auditorium; free advance registration through the Library’s official event system."
+          "text": "For planning purposes, the key details are straightforward: Thursday, Aug. 13; 7 p.m.; Coolidge Auditorium; free advance registration through the Library’s official event system.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/amanda-pascali-library-congress-concert-august-13-2026/",
       "citations": [
         {
           "id": "source-loc-live-august-20260723",
-          "title": "Library Spotlights K-Pop, Live Music and a Summer Movie During Live! At the Library in August",
-          "publisher": "Library of Congress",
           "publishedAt": "2026-07-23T12:00:00Z",
+          "publisher": "Library of Congress",
+          "title": "Library Spotlights K-Pop, Live Music and a Summer Movie During Live! At the Library in August",
           "url": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c"
         }
       ],
@@ -33011,9 +33011,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-10T04:07:21.088Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260810t033529z-4e99fbc67d36-276b84f417dd",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -33041,26 +33041,26 @@
         "The Library has not published a complete set list.",
         "Registration and building capacity may change; visitors should use the official event page."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-10T04:07:21.088Z"
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-10T03:55:00Z",
+  "generatedAt": "2026-08-10T04:09:09.761Z",
   "inputHashes": {
-    "sourceItems": "8e8e61a2481b333a9bd0448df1e49bd0e87cb370308f4e6d7b6d63790c4722d6",
-    "events": "7f31fc2a8b5139436a83dfff111cd282fa555e4c4c226d6f7b197f78fa0267db",
-    "claims": "399e46ac0d9493791d49ecba4142d5f4c891d6b2b70aeccd96d3e8a85f5f0de5",
-    "articles": "17e73ed20e22e0cb1799ca412198ce584bc67f6f00a3719cb64b8a328f25f6be",
     "approvals": "b261baf03d758b449bee8e3c4ee48e54f248f4a9a38caef3e0279bfebf17df26",
+    "articles": "17e73ed20e22e0cb1799ca412198ce584bc67f6f00a3719cb64b8a328f25f6be",
+    "claims": "399e46ac0d9493791d49ecba4142d5f4c891d6b2b70aeccd96d3e8a85f5f0de5",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "events": "7f31fc2a8b5139436a83dfff111cd282fa555e4c4c226d6f7b197f78fa0267db",
     "mediaRights": "98bcfb4aaf70a8f3567dabbaee94be005717adaef8976d46cff5931afc3b59c2",
-    "releaseRecords": "fa51f43e158fa384f873cbfcc9fd5434cd650f2e7fc3506e7bdd8ca2c3094385",
-    "publicationIntents": "229a9dfe0456f1060d508edb41e3ee25e9aa7511af3e4618b4257ff909b070e4"
+    "publicationIntents": "229a9dfe0456f1060d508edb41e3ee25e9aa7511af3e4618b4257ff909b070e4",
+    "releaseRecords": "00349b99e9e6349e948036922cd238318850cb3a099e49494561445eb570abe9",
+    "sourceItems": "8e8e61a2481b333a9bd0448df1e49bd0e87cb370308f4e6d7b6d63790c4722d6"
   },
   "inventory": {
     "articleCount": 189,
-    "routeCount": 189,
-    "mediaCount": 553
+    "mediaCount": 553,
+    "routeCount": 189
   },
   "mediaRights": [
     {
@@ -75023,6 +75023,7 @@
       "sourceUrl": "https://newsroom.loc.gov/news/library-spotlights-k-pop--live-music-and-a-summer-movie-during-live--at-the-library-in-august/s/95f40d33-085a-46f1-afc3-6cffe021ef6c"
     }
   ],
+  "packageDigest": "a3e4bd2a33174c327379cf51bd466aa7d7036ab419394cbc79fca653ee026d87",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -76265,10 +76266,40 @@
       "releaseId": "release-pb-20260807t174521z-292f2bf3cdcd-c89a32dd3e4d",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://ec7bb5f3.bohonews.pages.dev/",
+      "activationEvidenceHash": "86433ff986c931da84bcc0147791c3683008c8d5da051a75eab455e74cf6ad54",
+      "canonicalFirstPublicAt": "2026-08-10T04:07:21.088Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/nih-cancer-models-25-tumor-types-665-models-2026/",
+        "https://bohonews.com/articles/nist-august-19-2026-lab-tour-registration/",
+        "https://bohonews.com/articles/farah-okeefe-standard-portland-classic-lpga-exemption-2026/",
+        "https://bohonews.com/articles/great-atlantic-sargassum-belt-june-2026-records/",
+        "https://bohonews.com/articles/world-bank-salta-route-51-water-project-100-million/",
+        "https://bohonews.com/articles/amanda-pascali-library-congress-concert-august-13-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-nih-cancer-models-25-tumor-types-665-models-2026",
+        "article-nist-august-19-2026-lab-tour-registration",
+        "article-farah-okeefe-standard-portland-classic-lpga-exemption-2026",
+        "article-great-atlantic-sargassum-belt-june-2026-records",
+        "article-world-bank-salta-route-51-water-project-100-million",
+        "article-amanda-pascali-library-congress-concert-august-13-2026"
+      ],
+      "previousVerifiedDeploymentReference": "5342d9cb95669dd1c0492e364f98c84d37e0c008d5d000617857c9ed1ef355a2",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T04:05:21.599868Z",
+      "recordHash": "a6000a7fb0f720ccbda70302d6649845b1db6a9de5e9e064678692f5b22f719b",
+      "releaseId": "release-pb-20260810t033529z-4e99fbc67d36-276b84f417dd",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
-  "releaseState": "candidate",
+  "releaseState": "final",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com",
-  "packageDigest": "4e99fbc67d36afb0ff887345d9e2b90a9644ec473210ef89bb769a3c94191a2c"
+  "site": "https://bohonews.com"
 }
