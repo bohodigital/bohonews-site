@@ -359,7 +359,7 @@ main { margin: 0 auto; max-width: 92rem; padding: 1.35rem clamp(1rem,4vw,3rem) 5
 .series-context > a:first-child span { color: var(--text); font-family: var(--serif); font-size: 1rem; letter-spacing: 0; text-transform: none; }
 .series-context > a:first-child strong { color: var(--investigation); }
 .article-header { border-bottom: 1px solid var(--border); padding: 3rem 0 2rem; }
-.article-header h1 { font-size: clamp(3.2rem,8vw,7rem); }
+.article-header h1 { font-size: clamp(3.2rem,8vw,7rem); overflow-wrap: anywhere; }
 .article-kicker { align-items: center; display: flex; flex-wrap: wrap; gap: .65rem; }
 .article-kicker span,.article-kicker strong { color: var(--accent); font-size: .68rem; font-weight: 900; letter-spacing: .11em; text-transform: uppercase; }
 .article-kicker span + span { border-left: 1px solid var(--border); padding-left: .65rem; }
