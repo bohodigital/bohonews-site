@@ -33949,25 +33949,916 @@
         "The final number and size of awards depend on applications, review and negotiations."
       ],
       "updatedAt": "2026-08-10T05:03:17.356Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal agencies have made progress toward immediate public access for taxpayer-funded research, but most have not planned for the publishing costs that could follow, the Government Accountability Office reported.\n\nGAO reviewed nine agencies affected by a 2022 White House policy directing agencies to make federally funded research articles publicly available without an embargo. Seven had issued updated public-access plans when the audit was completed.\n\nThe watchdog estimated that federal spending on article-processing charges and related publishing costs could roughly triple each year under the expanded policy. The estimate is not a bill already incurred; it models what broader immediate access may cost if current publishing practices continue.\n\nOnly the National Institutes of Health had developed a plan for handling those costs, GAO said. Without comparable plans elsewhere, added publication fees could consume money that otherwise supports experiments, staff, equipment or new awards.\n\nThe issue is not whether the public should receive access. The policy is designed to remove waiting periods and make federally supported findings available to researchers, clinicians, businesses and readers without subscription barriers.\n\nThe accountability question is who pays and how agencies prevent the policy from shrinking the amount of research they can support. Researchers may face different fee structures across journals, while some publishers offer no-fee routes or institutional agreements.\n\nGAO made 11 recommendations across the nine agencies, principally calling for cost estimates, implementation plans and monitoring. Four agencies agreed with their recommendations; the other five did not provide comments, according to the report.\n\nThose response categories should not be read as evidence that an agency rejected public access. They describe whether agencies formally concurred with GAO's specific planning recommendations at the time of publication.\n\nThe next measurable steps are agency cost plans and actual spending data. Those records will show whether publication expenses approach GAO's projection and whether agencies protect research awards while meeting the access deadline.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Federal agencies have made progress toward immediate public access for taxpayer-funded research, but most have not planned for the publishing costs that could follow, the Government Accountability Office reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO reviewed nine agencies affected by a 2022 White House policy directing agencies to make federally funded research articles publicly available without an embargo. Seven had issued updated public-access plans when the audit was completed."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-federal-open-access-agency-status-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/agency-status/four-three.webp",
+          "alt": "Graphic lists nine agencies reviewed, seven updated plans and eleven GAO recommendations.",
+          "caption": "GAO reviewed nine research agencies, seven of which had issued updated public-access plans.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://files.gao.gov/reports/GAO-26-107738/index.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "The watchdog estimated that federal spending on article-processing charges and related publishing costs could roughly triple each year under the expanded policy. The estimate is not a bill already incurred; it models what broader immediate access may cost if current publishing practices continue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Only the National Institutes of Health had developed a plan for handling those costs, GAO said. Without comparable plans elsewhere, added publication fees could consume money that otherwise supports experiments, staff, equipment or new awards."
+        },
+        {
+          "type": "paragraph",
+          "text": "The issue is not whether the public should receive access. The policy is designed to remove waiting periods and make federally supported findings available to researchers, clinicians, businesses and readers without subscription barriers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The accountability question is who pays and how agencies prevent the policy from shrinking the amount of research they can support. Researchers may face different fee structures across journals, while some publishers offer no-fee routes or institutional agreements."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-federal-open-access-cost-risk-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/cost-risk/four-three.webp",
+          "alt": "Graphic says publishing costs may triple annually and only NIH had a cost plan.",
+          "caption": "GAO estimates annual federal publishing costs could roughly triple as immediate public access expands.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://files.gao.gov/reports/GAO-26-107738/index.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO made 11 recommendations across the nine agencies, principally calling for cost estimates, implementation plans and monitoring. Four agencies agreed with their recommendations; the other five did not provide comments, according to the report."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those response categories should not be read as evidence that an agency rejected public access. They describe whether agencies formally concurred with GAO's specific planning recommendations at the time of publication."
+        },
+        {
+          "type": "paragraph",
+          "text": "The next measurable steps are agency cost plans and actual spending data. Those records will show whether publication expenses approach GAO's projection and whether agencies protect research awards while meeting the access deadline."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-federal-open-access-publishing-costs-could-triple-2026/",
+      "citations": [
+        {
+          "id": "source-gao-open-access-20260521",
+          "title": "Federal Research: Agencies Need to Plan for Costs of Public Access to Research Articles",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-05-21T12:00:00Z",
+          "url": "https://files.gao.gov/reports/GAO-26-107738/index.html"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "GAO reviewed nine federal research agencies.",
+        "Seven had issued updated public-access plans.",
+        "GAO estimated annual publishing costs could roughly triple.",
+        "Only NIH had planned for the added costs.",
+        "GAO made 11 recommendations."
+      ],
+      "corrections": [],
+      "dek": "Seven of nine agencies updated public-access plans, but the watchdog found only NIH had planned for the added publishing expense.",
+      "desk": "research-funding-accountability",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Government Accountability Office",
+        "National Institutes of Health",
+        "Office of Science and Technology Policy"
+      ],
+      "eventId": "event-gao-federal-open-access-publishing-costs-could-triple-2026",
+      "headline": "GAO Says Federal Open-Access Publishing Costs Could Triple",
+      "id": "article-gao-federal-open-access-publishing-costs-could-triple-2026",
+      "leadImage": {
+        "alt": "Laboratory researcher looks through a microscope beside scientific equipment.",
+        "caption": "A researcher works at a microscope. GAO says federal agencies need plans for the publishing costs created by expanded public access.",
+        "credit": "Rhoda Baer / National Cancer Institute",
+        "height": 900,
+        "rightsId": "media-federal-open-access-research-lab-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/research-lab/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says federal open-access publishing costs may roughly triple and found only NIH had planned for the added expense.",
+        "index": true,
+        "title": "GAO: federal open-access publishing costs may triple"
+      },
+      "section": "investigations",
+      "slug": "gao-federal-open-access-publishing-costs-could-triple-2026",
+      "social": {
+        "description": "Seven of nine agencies updated public-access plans, but the watchdog found only NIH had planned for the added publishing expense.",
+        "image": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/research-lab/open-graph.webp",
+        "title": "GAO Says Federal Open-Access Publishing Costs Could Triple"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Open-access publishing",
+        "Federal research funding",
+        "Public access policy",
+        "Research accountability",
+        "Scientific publishing"
+      ],
+      "uncertainty": [
+        "The cost projection depends on future publishing choices and fee structures.",
+        "The audit does not establish that every agency will experience the same cost increase."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "State and local law-enforcement agencies reported about 64,200 vacant sworn-officer positions in 2020, according to statistical tables released by the Bureau of Justice Statistics in March 2026.\n\nThe agencies reported hiring roughly 55,000 officers during the year while about 57,400 officers separated. The figures describe a national survey period shaped by the pandemic and should not be treated as a current vacancy count for 2026.\n\nEntry-level recruits accounted for 81% of hires, while lateral hires from other law-enforcement agencies accounted for 16%. The remaining share included other hiring paths identified in the survey tables.\n\nVoluntary resignations made up 47% of reported separations. Retirements, dismissals and other departures accounted for the balance, making retention as important to staffing totals as recruiting new officers.\n\nAgency size affected the resources available to recruits. BJS found that 97% of agencies with 500 or more full-time-equivalent sworn officers paid for academy training, compared with 57% of agencies with 24 or fewer.\n\nThat gap does not by itself explain vacancies. Compensation, local labor markets, retirement eligibility, hiring standards, academy capacity and community conditions can all affect whether an agency fills an authorized position.\n\nThe tables also distinguish authorized vacancies from a universal statement about service levels. A vacancy is an approved position that was unfilled under the agency's reporting rules; it does not show how every agency deployed personnel or whether budgets supported immediate hiring.\n\nBecause the data cover 2020, the report is best used as a baseline for comparing later staffing surveys rather than as a live roster. Changes after 2020 require newer agency or national records.\n\nThe clearest national signal is the workforce flow: reported separations exceeded hires, and nearly half of departures were voluntary resignations. Future releases can show whether recruitment and retention efforts reversed that pattern.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "State and local law-enforcement agencies reported about 64,200 vacant sworn-officer positions in 2020, according to statistical tables released by the Bureau of Justice Statistics in March 2026."
+        },
+        {
+          "type": "paragraph",
+          "text": "The agencies reported hiring roughly 55,000 officers during the year while about 57,400 officers separated. The figures describe a national survey period shaped by the pandemic and should not be treated as a current vacancy count for 2026."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-police-hiring-workforce-flow-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/workforce-flow/four-three.webp",
+          "alt": "Graphic lists 55,000 hires, 57,400 separations and 64,200 reported vacancies.",
+          "caption": "State and local agencies reported 55,000 hires, 57,400 separations and 64,200 vacancies in 2020.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://bjs.ojp.gov/library/publications/hiring-and-retention-state-and-local-law-enforcement-officers-2020-statistical-tables"
+        },
+        {
+          "type": "paragraph",
+          "text": "Entry-level recruits accounted for 81% of hires, while lateral hires from other law-enforcement agencies accounted for 16%. The remaining share included other hiring paths identified in the survey tables."
+        },
+        {
+          "type": "paragraph",
+          "text": "Voluntary resignations made up 47% of reported separations. Retirements, dismissals and other departures accounted for the balance, making retention as important to staffing totals as recruiting new officers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Agency size affected the resources available to recruits. BJS found that 97% of agencies with 500 or more full-time-equivalent sworn officers paid for academy training, compared with 57% of agencies with 24 or fewer."
+        },
+        {
+          "type": "paragraph",
+          "text": "That gap does not by itself explain vacancies. Compensation, local labor markets, retirement eligibility, hiring standards, academy capacity and community conditions can all affect whether an agency fills an authorized position."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-police-hiring-retention-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/retention/four-three.webp",
+          "alt": "Graphic lists 47 percent voluntary resignations, 81 percent entry-level hires and 16 percent lateral hires.",
+          "caption": "Voluntary resignations made up 47% of reported sworn-officer separations in 2020.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://bjs.ojp.gov/library/publications/hiring-and-retention-state-and-local-law-enforcement-officers-2020-statistical-tables"
+        },
+        {
+          "type": "paragraph",
+          "text": "The tables also distinguish authorized vacancies from a universal statement about service levels. A vacancy is an approved position that was unfilled under the agency's reporting rules; it does not show how every agency deployed personnel or whether budgets supported immediate hiring."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the data cover 2020, the report is best used as a baseline for comparing later staffing surveys rather than as a live roster. Changes after 2020 require newer agency or national records."
+        },
+        {
+          "type": "paragraph",
+          "text": "The clearest national signal is the workforce flow: reported separations exceeded hires, and nearly half of departures were voluntary resignations. Future releases can show whether recruitment and retention efforts reversed that pattern."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/state-local-law-enforcement-64200-officer-vacancies-2020/",
+      "citations": [
+        {
+          "id": "source-bjs-police-hiring-20260318",
+          "title": "Hiring and Retention of State and Local Law Enforcement Officers, 2020 – Statistical Tables",
+          "publisher": "Bureau of Justice Statistics",
+          "publishedAt": "2026-03-18T12:00:00Z",
+          "url": "https://bjs.ojp.gov/library/publications/hiring-and-retention-state-and-local-law-enforcement-officers-2020-statistical-tables"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Agencies reported about 64,200 sworn-officer vacancies in 2020.",
+        "They reported about 55,000 hires and 57,400 separations.",
+        "Entry-level recruits were 81% of hires.",
+        "Lateral hires were 16% of hires.",
+        "Voluntary resignations were 47% of separations."
+      ],
+      "corrections": [],
+      "dek": "A new Bureau of Justice Statistics report finds separations exceeded hires in 2020 and voluntary resignations accounted for nearly half of departures.",
+      "desk": "law-enforcement-workforce",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Bureau of Justice Statistics",
+        "State and local law enforcement agencies"
+      ],
+      "eventId": "event-state-local-law-enforcement-64200-officer-vacancies-2020",
+      "headline": "State and Local Agencies Reported 64,200 Sworn-Officer Vacancies",
+      "id": "article-state-local-law-enforcement-64200-officer-vacancies-2020",
+      "leadImage": {
+        "alt": "Marked police patrol car parked outdoors in daylight.",
+        "caption": "A marked police patrol car. State and local agencies reported 64,200 sworn-officer vacancies in the 2020 LEMAS survey.",
+        "credit": "Scorpion381 / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-police-hiring-patrol-car-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/patrol-car/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "BJS says state and local agencies reported 64,200 sworn-officer vacancies, 55,000 hires and 57,400 separations in 2020.",
+        "index": true,
+        "title": "BJS: agencies reported 64,200 officer vacancies"
+      },
+      "section": "crime-justice",
+      "slug": "state-local-law-enforcement-64200-officer-vacancies-2020",
+      "social": {
+        "description": "A new Bureau of Justice Statistics report finds separations exceeded hires in 2020 and voluntary resignations accounted for nearly half of departures.",
+        "image": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/patrol-car/open-graph.webp",
+        "title": "State and Local Agencies Reported 64,200 Sworn-Officer Vacancies"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Police staffing",
+        "Law enforcement hiring",
+        "Officer retention",
+        "Public safety workforce",
+        "LEMAS survey"
+      ],
+      "uncertainty": [
+        "The data cover 2020 and are not a current 2026 staffing count.",
+        "Reported vacancies do not alone measure local service levels or budget capacity."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Congress designated about $39 billion for more than 20,000 community projects in fiscal years 2022 through 2024, according to a Government Accountability Office review of the revived appropriations practice.\n\nBy the end of fiscal 2024, federal agencies had obligated 61% of the designated money and outlayed 16%, GAO reported. An obligation is a legal commitment; an outlay is money actually paid, so the two measures describe different stages of delivery.\n\nThe projects span infrastructure, facilities, economic development, public services and other local priorities selected by members of Congress. The system is also known as congressionally directed spending or community project funding, depending on the chamber and account.\n\nGAO found that about 1% of the projects were not moving forward. That share is small, but it represents projects that may require rescission, reprogramming or other congressional and agency action before designated funds can be resolved.\n\nImplementation challenges were more common. Sixty percent of recipients in GAO's sample reported at least one problem, including rising costs, administrative requirements, delayed agreements, matching-fund demands or changes in project scope.\n\nThe audit drew on a sample of 790 projects, interviews with 167 recipients and 36 site visits. Those methods provide detailed evidence, but the recipient findings are not a census of every project in the $39 billion portfolio.\n\nSixteen of the 19 agencies administering these funds also identified oversight challenges. Agencies must apply the rules of varied grant, procurement and infrastructure programs to projects selected through appropriations rather than through a single competitive program.\n\nThe 16% outlay rate should not automatically be read as evidence that the remaining money was lost or idle. Multi-year construction and grant projects often pay after milestones, though slow obligations or unresolved scopes can still delay public benefit.\n\nThe next accountability checkpoints are project-level status, final costs, completed outputs and explanations for cancellations. Those records will show whether the designated money produced the local results Congress and recipients described.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Congress designated about $39 billion for more than 20,000 community projects in fiscal years 2022 through 2024, according to a Government Accountability Office review of the revived appropriations practice."
+        },
+        {
+          "type": "paragraph",
+          "text": "By the end of fiscal 2024, federal agencies had obligated 61% of the designated money and outlayed 16%, GAO reported. An obligation is a legal commitment; an outlay is money actually paid, so the two measures describe different stages of delivery."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-community-projects-funding-status-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/funding-status/four-three.webp",
+          "alt": "Graphic lists about 39 billion dollars, 61 percent obligated and 16 percent outlayed.",
+          "caption": "Congress designated about $39 billion for community projects, with 61% obligated and 16% outlayed by the end of fiscal 2024.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107944"
+        },
+        {
+          "type": "paragraph",
+          "text": "The projects span infrastructure, facilities, economic development, public services and other local priorities selected by members of Congress. The system is also known as congressionally directed spending or community project funding, depending on the chamber and account."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO found that about 1% of the projects were not moving forward. That share is small, but it represents projects that may require rescission, reprogramming or other congressional and agency action before designated funds can be resolved."
+        },
+        {
+          "type": "paragraph",
+          "text": "Implementation challenges were more common. Sixty percent of recipients in GAO's sample reported at least one problem, including rising costs, administrative requirements, delayed agreements, matching-fund demands or changes in project scope."
+        },
+        {
+          "type": "paragraph",
+          "text": "The audit drew on a sample of 790 projects, interviews with 167 recipients and 36 site visits. Those methods provide detailed evidence, but the recipient findings are not a census of every project in the $39 billion portfolio."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-community-projects-implementation-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/implementation/four-three.webp",
+          "alt": "Graphic lists more than 20,000 projects, 60 percent reporting a challenge and about 1 percent not moving forward.",
+          "caption": "GAO reviewed implementation across more than 20,000 projects and found challenges were common among sampled recipients.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107944"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sixteen of the 19 agencies administering these funds also identified oversight challenges. Agencies must apply the rules of varied grant, procurement and infrastructure programs to projects selected through appropriations rather than through a single competitive program."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 16% outlay rate should not automatically be read as evidence that the remaining money was lost or idle. Multi-year construction and grant projects often pay after milestones, though slow obligations or unresolved scopes can still delay public benefit."
+        },
+        {
+          "type": "paragraph",
+          "text": "The next accountability checkpoints are project-level status, final costs, completed outputs and explanations for cancellations. Those records will show whether the designated money produced the local results Congress and recipients described."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/congressional-community-projects-39-billion-obligated-gao-2026/",
+      "citations": [
+        {
+          "id": "source-gao-community-projects-20260716",
+          "title": "Congressionally Directed Spending: Implementation and Oversight of Community Project Funding",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-07-16T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-107944"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Congress designated about $39 billion for more than 20,000 projects.",
+        "Agencies had obligated 61% by the end of fiscal 2024.",
+        "Agencies had outlayed 16% by the end of fiscal 2024.",
+        "About 1% of projects were not moving forward.",
+        "Sixty percent of sampled recipients reported a challenge."
+      ],
+      "corrections": [],
+      "dek": "GAO says more than 20,000 congressionally directed projects were funded in fiscal years 2022–2024, while recipients and agencies reported implementation challenges.",
+      "desk": "congressional-spending",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Government Accountability Office",
+        "U.S. Congress",
+        "Federal agencies"
+      ],
+      "eventId": "event-congressional-community-projects-39-billion-obligated-gao-2026",
+      "headline": "Congressional Community Projects Had 61% of $39 Billion Obligated",
+      "id": "article-congressional-community-projects-39-billion-obligated-gao-2026",
+      "leadImage": {
+        "alt": "Road construction worker in reflective gear directs traffic beside work vehicles.",
+        "caption": "A road worker directs traffic at a construction site. Infrastructure was among the local projects funded through congressionally directed spending.",
+        "credit": "Tony Webster / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-community-projects-road-worker-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/road-work/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says 61% of about $39 billion for congressional community projects was obligated and 16% outlayed by fiscal 2024.",
+        "index": true,
+        "title": "GAO tracks $39B in congressional community projects"
+      },
+      "section": "politics",
+      "slug": "congressional-community-projects-39-billion-obligated-gao-2026",
+      "social": {
+        "description": "GAO says more than 20,000 congressionally directed projects were funded in fiscal years 2022–2024, while recipients and agencies reported implementation challenges.",
+        "image": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/road-work/open-graph.webp",
+        "title": "Congressional Community Projects Had 61% of $39 Billion Obligated"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Community project funding",
+        "Congressionally directed spending",
+        "Federal grants",
+        "Appropriations oversight",
+        "Government accountability"
+      ],
+      "uncertainty": [
+        "GAO's detailed recipient findings come from a sample rather than every project.",
+        "Low outlays can reflect legitimate multi-year schedules as well as implementation delays."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The 2026 U.S. Open begins its public program with Fan Week on Sunday, Aug. 23, followed by qualifying on Monday, Aug. 24, and the singles main draw on Sunday, Aug. 30.\n\nThe tournament runs at the USTA Billie Jean King National Tennis Center in Flushing Meadows, New York. The women's singles final is scheduled for Saturday, Sept. 12, and the men's final for Sunday, Sept. 13.\n\nQualifying is scheduled from Aug. 24 through Aug. 27. The mixed-doubles competition is listed for Aug. 25 and 26, giving it a distinct place during the week before the main singles draw.\n\nFan Week continues through Aug. 29 and includes qualifying access and other on-site programming. Ticket and access conditions vary by event, so visitors should use the official U.S. Open listing for the day they plan to attend.\n\nMain-draw play starts Aug. 30 with first-round singles. The opening rounds extend across multiple show courts before the schedule narrows toward quarterfinals, semifinals and championship weekend.\n\nArthur Ashe Stadium day sessions generally begin at 11:30 a.m., except where the official schedule notes a different start. Evening sessions and matches on other courts have separate times and admission rules.\n\nA daily start time is not a guaranteed match time for a particular player. Draws, order-of-play assignments, weather, match length and television scheduling can all change when an individual contest begins.\n\nThe official event schedule is explicitly subject to change. Fans making travel plans should recheck both the order of play and ticket terms close to their visit rather than relying only on the tournament-wide calendar.\n\nThe stable planning anchors are the date sequence: Fan Week on Aug. 23, qualifying from Aug. 24, main-draw singles from Aug. 30, and the two singles finals on Sept. 12 and 13.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The 2026 U.S. Open begins its public program with Fan Week on Sunday, Aug. 23, followed by qualifying on Monday, Aug. 24, and the singles main draw on Sunday, Aug. 30."
+        },
+        {
+          "type": "paragraph",
+          "text": "The tournament runs at the USTA Billie Jean King National Tennis Center in Flushing Meadows, New York. The women's singles final is scheduled for Saturday, Sept. 12, and the men's final for Sunday, Sept. 13."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-us-open-key-dates-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/key-dates/four-three.webp",
+          "alt": "Graphic lists Fan Week August 23, qualifying August 24 and main draw August 30.",
+          "caption": "Fan Week begins Aug. 23, qualifying starts Aug. 24 and the main draw opens Aug. 30.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.usopen.org/en_US/about/eventschedule.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "Qualifying is scheduled from Aug. 24 through Aug. 27. The mixed-doubles competition is listed for Aug. 25 and 26, giving it a distinct place during the week before the main singles draw."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fan Week continues through Aug. 29 and includes qualifying access and other on-site programming. Ticket and access conditions vary by event, so visitors should use the official U.S. Open listing for the day they plan to attend."
+        },
+        {
+          "type": "paragraph",
+          "text": "Main-draw play starts Aug. 30 with first-round singles. The opening rounds extend across multiple show courts before the schedule narrows toward quarterfinals, semifinals and championship weekend."
+        },
+        {
+          "type": "paragraph",
+          "text": "Arthur Ashe Stadium day sessions generally begin at 11:30 a.m., except where the official schedule notes a different start. Evening sessions and matches on other courts have separate times and admission rules."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-us-open-finals-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/finals/four-three.webp",
+          "alt": "Graphic lists women's final September 12, men's final September 13 and schedule subject to change.",
+          "caption": "The women's singles final is scheduled for Sept. 12 and the men's final for Sept. 13.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.usopen.org/en_US/about/eventschedule.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "A daily start time is not a guaranteed match time for a particular player. Draws, order-of-play assignments, weather, match length and television scheduling can all change when an individual contest begins."
+        },
+        {
+          "type": "paragraph",
+          "text": "The official event schedule is explicitly subject to change. Fans making travel plans should recheck both the order of play and ticket terms close to their visit rather than relying only on the tournament-wide calendar."
+        },
+        {
+          "type": "paragraph",
+          "text": "The stable planning anchors are the date sequence: Fan Week on Aug. 23, qualifying from Aug. 24, main-draw singles from Aug. 30, and the two singles finals on Sept. 12 and 13."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/us-open-2026-schedule-fan-week-main-draw-finals/",
+      "citations": [
+        {
+          "id": "source-usopen-2026-schedule",
+          "title": "2026 U.S. Open Event Schedule",
+          "publisher": "U.S. Open",
+          "publishedAt": "2026-07-14T18:24:00Z",
+          "url": "https://www.usopen.org/en_US/about/eventschedule.html"
+        },
+        {
+          "id": "source-usopen-2026-dates",
+          "title": "2026 U.S. Open Tournament Dates",
+          "publisher": "U.S. Open",
+          "publishedAt": "2026-07-14T18:24:00Z",
+          "url": "https://www.usopen.org/amp/en_US/news/articles/2025-12-11/2026_us_open_tournament_dates.html"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Fan Week begins Aug. 23, 2026.",
+        "Qualifying begins Aug. 24.",
+        "Mixed doubles is scheduled for Aug. 25–26.",
+        "The main draw begins Aug. 30.",
+        "Singles finals are scheduled for Sept. 12–13."
+      ],
+      "corrections": [],
+      "dek": "Qualifying begins Aug. 24, mixed doubles returns Aug. 25–26, and the singles champions are scheduled to be decided Sept. 12–13.",
+      "desk": "tennis-scheduling",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Open",
+        "United States Tennis Association",
+        "USTA Billie Jean King National Tennis Center"
+      ],
+      "eventId": "event-us-open-2026-schedule-fan-week-main-draw-finals",
+      "headline": "2026 U.S. Open Starts Fan Week Aug. 23 and Main Draw Aug. 30",
+      "id": "article-us-open-2026-schedule-fan-week-main-draw-finals",
+      "leadImage": {
+        "alt": "Arthur Ashe Stadium rises above the grounds of the USTA tennis center beneath a blue sky.",
+        "caption": "Arthur Ashe Stadium at the USTA Billie Jean King National Tennis Center. The 2026 U.S. Open main draw begins Aug. 30.",
+        "credit": "ajay_suresh / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-us-open-arthur-ashe-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/arthur-ashe/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "New York City",
+        "Flushing Meadows",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The 2026 U.S. Open starts Fan Week Aug. 23, qualifying Aug. 24 and the main draw Aug. 30; finals are Sept. 12–13.",
+        "index": true,
+        "title": "2026 U.S. Open schedule: key dates and finals"
+      },
+      "section": "sports",
+      "slug": "us-open-2026-schedule-fan-week-main-draw-finals",
+      "social": {
+        "description": "Qualifying begins Aug. 24, mixed doubles returns Aug. 25–26, and the singles champions are scheduled to be decided Sept. 12–13.",
+        "image": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/arthur-ashe/open-graph.webp",
+        "title": "2026 U.S. Open Starts Fan Week Aug. 23 and Main Draw Aug. 30"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "2026 U.S. Open",
+        "Tennis schedule",
+        "Fan Week",
+        "Grand Slam tennis",
+        "Arthur Ashe Stadium"
+      ],
+      "uncertainty": [
+        "The official schedule is subject to change.",
+        "Individual match times depend on draws, order of play, weather and earlier matches."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "NOAA now gives the 2026 Atlantic hurricane season a 75% chance of finishing below normal, up from its preseason assessment, according to the agency's Aug. 6 update.\n\nThe outlook assigns a 20% chance to a near-normal season and 5% to an above-normal one. Those probabilities describe overall basin activity, not whether a storm will strike a particular coast.\n\nFor the full June-through-November season, NOAA projects 7 to 13 named storms, including the two that had already formed when the update was issued. The range includes 2 to 6 hurricanes and 0 to 2 major hurricanes of Category 3 or stronger.\n\nNOAA expects accumulated cyclone energy, a combined measure of storm strength and duration, to finish between 30% and 90% of the long-term median. About 3% of the median had accumulated by the outlook date.\n\nThe agency lowered its activity expectations largely because El Niño is strengthening. NOAA gives a 90% chance of strong or very strong El Niño conditions during the August-through-October peak of the Atlantic season.\n\nEl Niño often increases upper-level winds that disrupt Atlantic tropical cyclones, but it does not eliminate them. Warm water, local atmospheric conditions and short-term weather patterns can still support a damaging storm.\n\nSeasonal totals also do not measure impact. One hurricane making landfall near a populated or vulnerable area can cause severe consequences during a season that is below normal by basin-wide statistics.\n\nNOAA's update is therefore not a reason to relax preparedness. Residents and businesses in hurricane-prone areas should use forecasts and instructions from official local and national authorities when a specific system develops.\n\nThe outlook's value is probabilistic planning: the most likely season category is now below normal, while the ranges preserve uncertainty about how many storms will form and how strong or long-lived they will become.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "NOAA now gives the 2026 Atlantic hurricane season a 75% chance of finishing below normal, up from its preseason assessment, according to the agency's Aug. 6 update."
+        },
+        {
+          "type": "paragraph",
+          "text": "The outlook assigns a 20% chance to a near-normal season and 5% to an above-normal one. Those probabilities describe overall basin activity, not whether a storm will strike a particular coast."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-noaa-atlantic-outlook-storm-ranges-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/storm-ranges/four-three.webp",
+          "alt": "Graphic lists 7 to 13 named storms, 2 to 6 hurricanes and zero to two major hurricanes.",
+          "caption": "NOAA's full-season outlook calls for 7–13 named storms, 2–6 hurricanes and 0–2 major hurricanes.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cpc.ncep.noaa.gov/products/outlooks/hurricane.shtml?vm=r"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the full June-through-November season, NOAA projects 7 to 13 named storms, including the two that had already formed when the update was issued. The range includes 2 to 6 hurricanes and 0 to 2 major hurricanes of Category 3 or stronger."
+        },
+        {
+          "type": "paragraph",
+          "text": "NOAA expects accumulated cyclone energy, a combined measure of storm strength and duration, to finish between 30% and 90% of the long-term median. About 3% of the median had accumulated by the outlook date."
+        },
+        {
+          "type": "paragraph",
+          "text": "The agency lowered its activity expectations largely because El Niño is strengthening. NOAA gives a 90% chance of strong or very strong El Niño conditions during the August-through-October peak of the Atlantic season."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Niño often increases upper-level winds that disrupt Atlantic tropical cyclones, but it does not eliminate them. Warm water, local atmospheric conditions and short-term weather patterns can still support a damaging storm."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-noaa-atlantic-outlook-probabilities-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/probabilities/four-three.webp",
+          "alt": "Graphic lists 75 percent below normal, 20 percent near normal and 5 percent above normal.",
+          "caption": "NOAA assigns a 75% chance of a below-normal season, 20% near normal and 5% above normal.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cpc.ncep.noaa.gov/products/outlooks/hurricane.shtml?vm=r"
+        },
+        {
+          "type": "paragraph",
+          "text": "Seasonal totals also do not measure impact. One hurricane making landfall near a populated or vulnerable area can cause severe consequences during a season that is below normal by basin-wide statistics."
+        },
+        {
+          "type": "paragraph",
+          "text": "NOAA's update is therefore not a reason to relax preparedness. Residents and businesses in hurricane-prone areas should use forecasts and instructions from official local and national authorities when a specific system develops."
+        },
+        {
+          "type": "paragraph",
+          "text": "The outlook's value is probabilistic planning: the most likely season category is now below normal, while the ranges preserve uncertainty about how many storms will form and how strong or long-lived they will become."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/noaa-atlantic-hurricane-outlook-75-percent-below-normal-2026/",
+      "citations": [
+        {
+          "id": "source-noaa-atlantic-outlook-20260806",
+          "title": "NOAA 2026 Atlantic Hurricane Season Outlook Update",
+          "publisher": "NOAA Climate Prediction Center",
+          "publishedAt": "2026-08-06T12:00:00Z",
+          "url": "https://www.cpc.ncep.noaa.gov/products/outlooks/hurricane.shtml?vm=r"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "NOAA assigns a 75% chance of a below-normal Atlantic season.",
+        "The near-normal probability is 20% and above-normal probability 5%.",
+        "NOAA projects 7–13 named storms.",
+        "The range includes 2–6 hurricanes and 0–2 major hurricanes.",
+        "NOAA gives a 90% chance of strong or very strong El Niño during the peak."
+      ],
+      "corrections": [],
+      "dek": "The Aug. 6 update projects 7–13 named storms for the full season and cites a strengthening El Niño, while stressing that it is not a landfall forecast.",
+      "desk": "seasonal-forecasting",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Oceanic and Atmospheric Administration",
+        "Climate Prediction Center",
+        "National Hurricane Center"
+      ],
+      "eventId": "event-noaa-atlantic-hurricane-outlook-75-percent-below-normal-2026",
+      "headline": "NOAA Raises Odds of a Below-Normal Atlantic Hurricane Season to 75%",
+      "id": "article-noaa-atlantic-hurricane-outlook-75-percent-below-normal-2026",
+      "leadImage": {
+        "alt": "Large hurricane swirls over blue ocean in a NASA satellite view.",
+        "caption": "Hurricane Karl over the Gulf of Mexico in 2010, seen by NASA's Terra satellite. NOAA's 2026 update favors a below-normal Atlantic season.",
+        "credit": "NASA Terra / MODIS",
+        "height": 900,
+        "rightsId": "media-noaa-atlantic-outlook-hurricane-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/hurricane-satellite/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Atlantic Ocean",
+        "Caribbean Sea",
+        "Gulf of Mexico"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NOAA's Aug. 6 update gives a 75% chance of a below-normal Atlantic hurricane season, with 7–13 named storms projected.",
+        "index": true,
+        "title": "NOAA: 75% chance of below-normal 2026 Atlantic season"
+      },
+      "section": "weather-climate",
+      "slug": "noaa-atlantic-hurricane-outlook-75-percent-below-normal-2026",
+      "social": {
+        "description": "The Aug. 6 update projects 7–13 named storms for the full season and cites a strengthening El Niño, while stressing that it is not a landfall forecast.",
+        "image": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/hurricane-satellite/open-graph.webp",
+        "title": "NOAA Raises Odds of a Below-Normal Atlantic Hurricane Season to 75%"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Atlantic hurricane season",
+        "NOAA seasonal outlook",
+        "El Niño",
+        "Tropical cyclones",
+        "Hurricane preparedness"
+      ],
+      "uncertainty": [
+        "The seasonal outlook does not predict landfalls or impacts at a specific location.",
+        "Storm counts and accumulated cyclone energy can finish outside the forecast ranges."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "About 32 million people living with HIV were receiving treatment by the end of 2025, the World Health Organization said in a new assessment of global strategies for HIV, viral hepatitis and sexually transmitted infections.\n\nWHO reported that new HIV infections fell 42% and AIDS-related deaths fell 57% between 2010 and 2025. Those global trends show substantial progress, but they do not mean access or outcomes are equal within every country or population.\n\nRoughly 9 million people living with HIV still lacked treatment at the end of 2025, according to the agency. Closing that gap requires diagnosis, affordable medicines, durable supply chains and services people can reach without stigma or discrimination.\n\nThe hepatitis picture is mixed. Since 2015, WHO says new hepatitis B infections declined 32% and hepatitis C deaths declined 12%, while deaths associated with hepatitis B increased 17%.\n\nThose percentages use different conditions and outcome measures, so they should not be collapsed into one combined trend. WHO's point is that prevention gains coexist with persistent gaps in testing, treatment and mortality reduction.\n\nThe assessment highlights service integration: offering HIV, hepatitis and STI prevention, testing and treatment through connected programs rather than requiring people to navigate separate systems for related needs.\n\nWHO also cited new prevention tools. Injectable lenacapavir had been introduced in 10 countries, with 14 more planning introduction, but rollout, affordability, eligibility and supply will determine how broadly the option changes prevention access.\n\nThe figures are population-level public-health indicators, not guidance for an individual's treatment. Clinical decisions require a qualified health professional and the protocols available in the patient's country or health system.\n\nWHO's next global strategies will be judged not only by aggregate declines but by whether countries reach the people still outside care, sustain financing and document reductions across HIV, hepatitis and STIs without leaving high-burden communities behind.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "About 32 million people living with HIV were receiving treatment by the end of 2025, the World Health Organization said in a new assessment of global strategies for HIV, viral hepatitis and sexually transmitted infections."
+        },
+        {
+          "type": "paragraph",
+          "text": "WHO reported that new HIV infections fell 42% and AIDS-related deaths fell 57% between 2010 and 2025. Those global trends show substantial progress, but they do not mean access or outcomes are equal within every country or population."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-who-health-strategies-hiv-progress-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/hiv-progress/four-three.webp",
+          "alt": "Graphic lists new HIV infections down 42 percent, AIDS deaths down 57 percent and 32 million treated in 2025.",
+          "caption": "WHO says 32 million people were receiving HIV treatment in 2025 as infections and AIDS-related deaths declined from 2010 levels.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.who.int/news-room/releases/27-07-2026-who--integration--innovation-and-community-leadership-key-to-ending-hiv--hepatitis-and-stis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Roughly 9 million people living with HIV still lacked treatment at the end of 2025, according to the agency. Closing that gap requires diagnosis, affordable medicines, durable supply chains and services people can reach without stigma or discrimination."
+        },
+        {
+          "type": "paragraph",
+          "text": "The hepatitis picture is mixed. Since 2015, WHO says new hepatitis B infections declined 32% and hepatitis C deaths declined 12%, while deaths associated with hepatitis B increased 17%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those percentages use different conditions and outcome measures, so they should not be collapsed into one combined trend. WHO's point is that prevention gains coexist with persistent gaps in testing, treatment and mortality reduction."
+        },
+        {
+          "type": "paragraph",
+          "text": "The assessment highlights service integration: offering HIV, hepatitis and STI prevention, testing and treatment through connected programs rather than requiring people to navigate separate systems for related needs."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-who-health-strategies-remaining-gaps-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/remaining-gaps/four-three.webp",
+          "alt": "Graphic lists 9 million lacking HIV treatment, hepatitis B infections down 32 percent and hepatitis B deaths up 17 percent.",
+          "caption": "WHO's assessment identifies major remaining treatment and hepatitis gaps despite progress.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.who.int/news-room/releases/27-07-2026-who--integration--innovation-and-community-leadership-key-to-ending-hiv--hepatitis-and-stis"
+        },
+        {
+          "type": "paragraph",
+          "text": "WHO also cited new prevention tools. Injectable lenacapavir had been introduced in 10 countries, with 14 more planning introduction, but rollout, affordability, eligibility and supply will determine how broadly the option changes prevention access."
+        },
+        {
+          "type": "paragraph",
+          "text": "The figures are population-level public-health indicators, not guidance for an individual's treatment. Clinical decisions require a qualified health professional and the protocols available in the patient's country or health system."
+        },
+        {
+          "type": "paragraph",
+          "text": "WHO's next global strategies will be judged not only by aggregate declines but by whether countries reach the people still outside care, sustain financing and document reductions across HIV, hepatitis and STIs without leaving high-burden communities behind."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/who-hiv-hepatitis-sti-progress-gaps-2026/",
+      "citations": [
+        {
+          "id": "source-who-hiv-hepatitis-sti-20260727",
+          "title": "Integration, innovation and community leadership key to ending HIV, hepatitis and STIs",
+          "publisher": "World Health Organization",
+          "publishedAt": "2026-07-27T15:45:00Z",
+          "url": "https://www.who.int/news-room/releases/27-07-2026-who--integration--innovation-and-community-leadership-key-to-ending-hiv--hepatitis-and-stis"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "About 32 million people were receiving HIV treatment by the end of 2025.",
+        "New HIV infections declined 42% from 2010 to 2025.",
+        "AIDS-related deaths declined 57% over that period.",
+        "About 9 million people living with HIV still lacked treatment.",
+        "WHO says hepatitis B deaths increased 17% since 2015."
+      ],
+      "corrections": [],
+      "dek": "The agency reports large declines in new HIV infections and AIDS-related deaths since 2010 but warns treatment gaps and rising hepatitis B deaths remain.",
+      "desk": "global-health-systems",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Health Organization",
+        "United Nations member states"
+      ],
+      "eventId": "event-who-hiv-hepatitis-sti-progress-gaps-2026",
+      "headline": "WHO Says 32 Million People With HIV Were Receiving Treatment in 2025",
+      "id": "article-who-hiv-hepatitis-sti-progress-gaps-2026",
+      "leadImage": {
+        "alt": "Doctor sits beside a patient during a consultation in a clinic room.",
+        "caption": "A doctor consults with a patient. WHO says integration of HIV, hepatitis and STI services is essential to closing treatment gaps.",
+        "credit": "Bill Branson / National Cancer Institute",
+        "height": 900,
+        "rightsId": "media-who-health-strategies-clinic-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/doctor-patient/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Worldwide"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "WHO says 32 million people received HIV treatment in 2025, while 9 million remained without it and hepatitis gaps persisted.",
+        "index": true,
+        "title": "WHO: 32M on HIV treatment, major gaps remain"
+      },
+      "section": "world",
+      "slug": "who-hiv-hepatitis-sti-progress-gaps-2026",
+      "social": {
+        "description": "The agency reports large declines in new HIV infections and AIDS-related deaths since 2010 but warns treatment gaps and rising hepatitis B deaths remain.",
+        "image": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/doctor-patient/open-graph.webp",
+        "title": "WHO Says 32 Million People With HIV Were Receiving Treatment in 2025"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Global HIV response",
+        "Viral hepatitis",
+        "Sexually transmitted infections",
+        "Public health systems",
+        "Disease prevention"
+      ],
+      "uncertainty": [
+        "Global aggregates mask differences among countries and populations.",
+        "The impact of newer prevention tools depends on access, affordability, eligibility and supply."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-10T05:04:24.296Z",
+  "generatedAt": "2026-08-10T06:20:00Z",
   "inputHashes": {
+    "sourceItems": "9b6406766e13c9b9710885ac5150f6f16dbc3e76a33e18ba46bd3a81fc8ace18",
+    "events": "524a09ee4971212cf2bb75fc66043977fc24fc658245af4fbf1ed6b9d8e7759c",
+    "claims": "031b7877507aae0aa0da2f42169c24c37b82692b80f21e0d00f1bebcc08e614f",
+    "articles": "0c1e5c6fa5c7fce98323caf5923974a0d54e048db622d9b6b96cdda7213b03ee",
     "approvals": "b261baf03d758b449bee8e3c4ee48e54f248f4a9a38caef3e0279bfebf17df26",
-    "articles": "808c16c0bd1949fc3acf76979bd466203b9ba3fa48261f5bf05d5ba88a57df9d",
-    "claims": "b40c0164b98e0075cef9555a20d49315b627077b8e9ae34400cb187470354d83",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "20a6ade4149d511d5e16c91b3a9a10d9f939e7a7dc6a2cf20d3bdcdced40880f",
-    "mediaRights": "d49e1ffebeaee24549dadf0dd162e99223e1d023f7193b542bc9ae7168ba7eea",
-    "publicationIntents": "196386ec40ac4be9bb3aa02aaf3b16e5a47650c1954c9850d5cae7d4d509a017",
+    "mediaRights": "a3a7914cf659e4fe066731123e3e826db52d5880267d11b3a375950d688a6393",
     "releaseRecords": "a416cff5983723ed1f0e6cad59b6dcba162a4d9a548cd971667ad36cfd0414d8",
-    "sourceItems": "c883b449c41eaa21739b4d19bfb8aa0da13778bcaab3f92bd8693f4d4ebbeffc"
+    "publicationIntents": "d99e479002268cdcc177ae8cec2a8885e89dd0320a7a3d82a336236fb974ccfb"
   },
   "inventory": {
-    "articleCount": 195,
-    "mediaCount": 571,
-    "routeCount": 195
+    "articleCount": 201,
+    "routeCount": 201,
+    "mediaCount": 589
   },
   "mediaRights": [
     {
@@ -77296,9 +78187,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.energy.gov/articles/energy-department-announces-655-million-advance-domestic-oil-and-natural-gas-production"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Laboratory researcher looks through a microscope beside scientific equipment.",
+      "archivalStatus": "current",
+      "attribution": "Rhoda Baer / National Cancer Institute",
+      "caption": "A researcher works at a microscope. GAO says federal agencies need plans for the publishing costs created by expanded public access.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Rhoda Baer / National Cancer Institute",
+      "derivatives": [
+        {
+          "hash": "4186adc0c82d4ae329dfc54a26e818c5ee28ff5256318e3bb5fab0e0504c1c52",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/research-lab/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "304b3557e75cf53731b2dc2c5da5c5e1a7fb86e547f6721581e7ae5689cc9d23",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/research-lab/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6bd4ecb8594d3c33df5f48a0706181323eaa8fdfd10884b3c09d707c919cbf2d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/research-lab/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f34240004858ccdb850d7db2b014edd3625a9c31ff3b96bd14574d21fa5ffed8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/research-lab/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a182899647bca899ff5ab768f6775debaf3299396b69620a088bd501cad4b505",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/research-lab/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d1cda6e004e4d55599e7b651c7712b6f9d6fdaea8e8e1ca60773bbc6f67e3dca",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/research-lab/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b436be9fa752c132402f33c1cba1b26b3775487d98b514e9bc1f2f061bad9f32",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/research-lab/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-open-access-research-lab-2026",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "438ca7679900690701c4984eef5139801768321f45cdd54f6c768d4e97bc728b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Public domain: work of the U.S. federal government.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Researcher_looking_through_microscope.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists nine agencies reviewed, seven updated plans and eleven GAO recommendations.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO reviewed nine research agencies, seven of which had issued updated public-access plans.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "873f017d6bb261e5ee8f4e019a653d8d0c016d57f46c8d62d88f84e88178a916",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/agency-status/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c4c444f371522d5bb42c5dc1b39c4f3ac1bcbaa42383d8d6604662775fa4d536",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/agency-status/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8933dab210b87820daa169a43628b84ded36249e1bacd97a1d40bb2606a5657e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/agency-status/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "57cde03891631619426222315c78539c329e3e0efe8a676ebca19207323226da",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/agency-status/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "404c434724443e9727f691e9a64f90c8db7024650ee79b14cbbc3cf860a3956c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/agency-status/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2ad2b5bd4245b2ee4965f4aeab1792381431d87a26083205f42a827197cdd2de",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/agency-status/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "eec17c11b1b3a08beeb29cfc78073db45d263b0e24a209459985c50f100d8b3f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/agency-status/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-open-access-agency-status-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "57cde03891631619426222315c78539c329e3e0efe8a676ebca19207323226da",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://files.gao.gov/reports/GAO-26-107738/index.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic says publishing costs may triple annually and only NIH had a cost plan.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO estimates annual federal publishing costs could roughly triple as immediate public access expands.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "40c4cc1a7f271f4d58e684bb27c2dcb32ba6afd1de0ff62b41e13fddf5392ac6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/cost-risk/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "aa23db587a1f58f53f3312d1a5bb0a01bb267b20e028ce2e551d17eaf1ec8acd",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/cost-risk/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "880a77736267c7e8ca42f1e3a3ea5b42c5f2963951154a4d3d2eccc60ced9e46",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/cost-risk/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "89972c7abaa053815f4951bed82b1fd3edc2f7d6443e4e2bab51ae72cf846d94",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/cost-risk/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "70099b522c3fa4ad007f810108357f8d86582f54b8b0bf8aab50850a47480b2c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/cost-risk/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5bc87857189f60870b9754d2dd63276a4dec171671d00c79c53faaaa6173d0d8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/cost-risk/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f156c7f821a61d11f7ea8c12a46ce45065c29e7cc90293f30f318162553568e8",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/federal-open-access/cost-risk/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-open-access-cost-risk-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "89972c7abaa053815f4951bed82b1fd3edc2f7d6443e4e2bab51ae72cf846d94",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://files.gao.gov/reports/GAO-26-107738/index.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Marked police patrol car parked outdoors in daylight.",
+      "archivalStatus": "current",
+      "attribution": "Scorpion381 / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "A marked police patrol car. State and local agencies reported 64,200 sworn-officer vacancies in the 2020 LEMAS survey.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Scorpion381",
+      "derivatives": [
+        {
+          "hash": "b9f1b710fdd25993a4c83acecc17371e81c616cedf1d85d0f6423a231b030afd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/patrol-car/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8428c7d924d0b1279499687699b6a23cce159245a2f89e42055d42c552cbf491",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/patrol-car/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c69d43611b603daf1950ad7c523084b6392015fd0fbccbe235d2d80f948a582c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/patrol-car/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "15fd033b35469c4fca10b842e5740c22a59ab412cadc4e9152dfc9f924909495",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/patrol-car/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4d235572721925878247624658fc89226df633c1ad1358e83366ed5a5ec24032",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/patrol-car/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2beda599f4738f9e3b5b7b85da044c2e9383afdf096bdff373d66398b3040305",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/patrol-car/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "df4efa716fa36d5a6bed88f2d6125aba8ce04db04264603af2b46edb0f1ec6b6",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/patrol-car/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-police-hiring-patrol-car-2026",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "2e624c9217fb6c024d01cdd43d76be40e06312f6fe207a6d919b91df246d45c1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 4.0 International.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patrol_car.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 55,000 hires, 57,400 separations and 64,200 reported vacancies.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "State and local agencies reported 55,000 hires, 57,400 separations and 64,200 vacancies in 2020.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "7de0f3c6b1bef211c65099ac512e739f45209c5ac7641d26f704e02484fe4ce7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/workforce-flow/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b814292d2fac1c3203c9c63f8185cfc550efdaef43e5f0c56514c268f3fe6902",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/workforce-flow/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7f9931a854e96f2febbb252ef1b51fad936a900b6a1f10602614e2c46655f0fe",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/workforce-flow/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8c05ccba20d20682f30a149846665d4c8052a0a9067b57668598d259856f8ff7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/workforce-flow/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3a3ffb6bc58453674f706a2b4552afe9ccb6f827a418d220a3808beb1af8bd10",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/workforce-flow/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "98770bc7b50808a443f09e37aaf8206e27ffb57f013c62f3f1a2cefc7358e3a8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/workforce-flow/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8070df909183c53ef492fb7820f7ffa86b3f5c1e9c36962effd2b80680ecede7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/workforce-flow/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-police-hiring-workforce-flow-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8c05ccba20d20682f30a149846665d4c8052a0a9067b57668598d259856f8ff7",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bjs.ojp.gov/library/publications/hiring-and-retention-state-and-local-law-enforcement-officers-2020-statistical-tables"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 47 percent voluntary resignations, 81 percent entry-level hires and 16 percent lateral hires.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Voluntary resignations made up 47% of reported sworn-officer separations in 2020.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "22ac1ff26abc0d74dd7f0c63eaf9e23f88f3266765f420bc2ccb65d00d4bdfb4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/retention/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a95c374df8a8aed18e913b01a6485d177068080dc11e105f503d3e34fc33475a",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/retention/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5fb013c5e5b081e4393bad567d24bbbc48d9c84da33cea7e604c5c1eb9a0cc09",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/retention/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "3e1d496c868c41d40a101fe02d06100f115c8007548a6f61466e2a53290e9e5d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/retention/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3916ace87ce8abb9db31ef291e820bfa677bb493a93e27f60813d20995bc9a8c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/retention/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a30ba29c987d950d1784af628334183477f1a8ef173b398df746e6280dbc54fc",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/retention/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "98022dff13a3215f7e5cea228ad724b2bc8df653833092b5a7e98ff63afc71f9",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/police-hiring/retention/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-police-hiring-retention-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "3e1d496c868c41d40a101fe02d06100f115c8007548a6f61466e2a53290e9e5d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bjs.ojp.gov/library/publications/hiring-and-retention-state-and-local-law-enforcement-officers-2020-statistical-tables"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Road construction worker in reflective gear directs traffic beside work vehicles.",
+      "archivalStatus": "current",
+      "attribution": "Tony Webster / Wikimedia Commons, CC BY 2.0",
+      "caption": "A road worker directs traffic at a construction site. Infrastructure was among the local projects funded through congressionally directed spending.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Tony Webster",
+      "derivatives": [
+        {
+          "hash": "83016d0798ee8d3f7ad8efb686970e842e8014cd2007569488365f7cc4c3927f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/road-work/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b3ed9f76a7fa542cc83c4e25aa67f6724a1ae50b168ac746278bd69bcc6939e8",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/road-work/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a0390d1c707084c3c1e0731d53ae8ea1b6a394d528d0a13792bae7fa5546d7d6",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/road-work/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1dfd4161da9110fb920dfaea0f2f4395384f6857e7225326778b5e5b371aaa15",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/road-work/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5c43a552282713ac06df22d74d915e6b406f793f13afa207f40c71abdc02f85c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/road-work/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7a47bee838a6b10ba2d6d94cd7b5e5d6bf395fa9face12d4b68afabe185d7323",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/road-work/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e38e7ead52a4b1028710425f09bd231a23da79b93a5be66ab4e76fd8acc957c7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/road-work/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-community-projects-road-worker-2026",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "d220189f57b0a34367d276976fbca0a37230dc65b068823e8f850f2581530dd6",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 Generic.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Road_Construction_Worker_-_Controlling_Traffic.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists about 39 billion dollars, 61 percent obligated and 16 percent outlayed.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Congress designated about $39 billion for community projects, with 61% obligated and 16% outlayed by the end of fiscal 2024.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "0c454bc4f936fc5dad9d97a502e0c5d57207fc1d4415b3b3d17d4eecfc9ba854",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/funding-status/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "32139f89f3fd089caff6d9658ced87445a926e30c4e577a7f30730e32598d836",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/funding-status/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "eda4f02edc68aa2522e614758c5c0c6078720050f7dcd8eee7358568b2ef88da",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/funding-status/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "be1ffb6471317b06cbdb4856a0d11e372336969ea38bf5f330dddf091e4cee74",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/funding-status/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a62ab82fcac51030ee786a42943c5dfdbc66129137f69c65bd9d6ec07b33b90b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/funding-status/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "70ebdd094f781d862b74f9ccd0ed662caa010dd1604368dd5754edb48ebf6ab8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/funding-status/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "217aec1c47761ab222961ff6a573fe4652dd54b018f2a7ae73a9be9da14ae3a3",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/funding-status/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-community-projects-funding-status-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "be1ffb6471317b06cbdb4856a0d11e372336969ea38bf5f330dddf091e4cee74",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107944"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists more than 20,000 projects, 60 percent reporting a challenge and about 1 percent not moving forward.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO reviewed implementation across more than 20,000 projects and found challenges were common among sampled recipients.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "95188d25317f7532cd5ef565333bf66b1d11069912990c43cdc5534d62e257f0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/implementation/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "25a43c5de9f3d5f321d8d7d7b1d6b92bf4457e5df16f4153bb63465b5aa0d4a9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/implementation/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "046b7955695604a974fa7b6204d6645d9e440ecfcc635df7a6798407f0a4f462",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/implementation/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f7fcaa8d65840f05665936e1a8387060f8275f4fc690cca133aa40b1f6ab9bd2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/implementation/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "14db9765a5d943abfdd0a628b0c88d121b8f7091b95cb55296fbb33b7cd61032",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/implementation/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "fa71d635dfeacaa837cf5224dcf8cf1c7e7c6ef29b25a044c9f59247079aed00",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/implementation/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "853a0c64e1c9463ead540e8e5ff4d66d2165cfea2c270cfa1d4e82a9848fec01",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/community-projects/implementation/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-community-projects-implementation-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f7fcaa8d65840f05665936e1a8387060f8275f4fc690cca133aa40b1f6ab9bd2",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107944"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Arthur Ashe Stadium rises above the grounds of the USTA tennis center beneath a blue sky.",
+      "archivalStatus": "current",
+      "attribution": "ajay_suresh / Wikimedia Commons, CC BY 2.0",
+      "caption": "Arthur Ashe Stadium at the USTA Billie Jean King National Tennis Center. The 2026 U.S. Open main draw begins Aug. 30.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "ajay_suresh",
+      "derivatives": [
+        {
+          "hash": "5a7779087610705625e1da38c07de4cc6e4989778877164e04fd55f0d779f3b6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/arthur-ashe/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b8bcbee506787c6d8a83cb554d12d2a02e7476497ec94b7416a221950b4f3ee3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/arthur-ashe/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e401b5bd36f30d4398996e43a57bbe35e5e9df812ef47078f824571c016273bf",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/arthur-ashe/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "3c9853d805de8172d7cfe5211301410fa4c373180965cd4ccddf29868bf49602",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/arthur-ashe/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ff9288f1c0b319133ec3872091ebc422e535a4263f42ecd2d47d92c832b1468c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/arthur-ashe/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2c7538ce7275fd3f0e409f3b6b458b19112c247b45a83b214027cace26513d39",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/arthur-ashe/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "48df95606caffff4bfc1d06d7c3d52a1757cba6b576b2df6862f7731ccbeaa0f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/arthur-ashe/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-us-open-arthur-ashe-2026",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "f1d9f881d805e5ecff75b8c03ca998fd9fdc2dd766a732106444f854a2d4ee71",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 Generic.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Ashe_Stadium_(48613684807).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists Fan Week August 23, qualifying August 24 and main draw August 30.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Fan Week begins Aug. 23, qualifying starts Aug. 24 and the main draw opens Aug. 30.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "19d5b5832f7d69afd10d985bfaa62eae0a5d5fa5a4f5a5da3750180e6ac77440",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/key-dates/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a962747006733f5ccb48fb0f2935a6fd8a78097a24781e2e42de8c7862e4e1fa",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/key-dates/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "02b962cd019b796ac05768fd61ce87991b9d78b984a8480ea90b11047aa15e03",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/key-dates/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7159f380391c692142149f565274479fea71eb4a079cb82553820acccbcd58ff",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/key-dates/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e8872217b43f225de563792253fe15c2e55cefae516788cb636468f39495c097",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/key-dates/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "9624dc7da8a036ae5e8ec95daf371e7f1c227a8256cdfc2212893dc91dd977a7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/key-dates/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "da1d32bd96004292dd2bb85b8410bb888408b6447243d87bc157ecd7aee6a7ae",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/key-dates/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-us-open-key-dates-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "7159f380391c692142149f565274479fea71eb4a079cb82553820acccbcd58ff",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.usopen.org/en_US/about/eventschedule.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists women's final September 12, men's final September 13 and schedule subject to change.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The women's singles final is scheduled for Sept. 12 and the men's final for Sept. 13.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "0efd4534c4d14f462655b14cc865f44ef7cb44fe8490897e9e498fa86e17d841",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/finals/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ef278720743175eb4e75bc623be20411ab798b5a2baa07187e24d79a3373382d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/finals/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f5c3fa56c678142997c7dd128d7db88e489fbed51450d1a74ea4a65bf5e1f1dc",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/finals/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "308ac2b7ec5962faf49050e9e2ff8c6aaa06ea70a947782d37f73ea6d0f02753",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/finals/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "fb34c37008777d8dbb802b7ea67c3c5d2a6aa7f72d106460a5b6e4402d5c74da",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/finals/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7120477b40a9f8048cebacf027d7a57dbcb4ab310fc20173f883dbfe86d1e40c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/finals/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "54914cedd7449aa7a7a1139c14edaf2dcf411abfb6665acc1e300daa13931d05",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/us-open-schedule/finals/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-us-open-finals-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "308ac2b7ec5962faf49050e9e2ff8c6aaa06ea70a947782d37f73ea6d0f02753",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.usopen.org/en_US/about/eventschedule.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Large hurricane swirls over blue ocean in a NASA satellite view.",
+      "archivalStatus": "current",
+      "attribution": "NASA Terra / MODIS",
+      "caption": "Hurricane Karl over the Gulf of Mexico in 2010, seen by NASA's Terra satellite. NOAA's 2026 update favors a below-normal Atlantic season.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "NASA Terra / MODIS",
+      "derivatives": [
+        {
+          "hash": "e2b285551fda2c67187597cbbb85076beb92c3fdc411592f6065d1da73b3f741",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/hurricane-satellite/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "bfe6a7e3e4a8f7f7ad0e7007fceef3bfe173e6b3a2e7970b1758f0d425026386",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/hurricane-satellite/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4949f1147fe6d6ef865d150705d2a40cb614ec7c9b998960a9cbe0a4f09cc354",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/hurricane-satellite/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "db031fef5346103e91d839f2f2c3235791f5e0f7fc95d5ab66d20b424e6a5428",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/hurricane-satellite/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "311c3df2c8bd815af35fe589e1f6e7575eadac2fe2a48f9762fe6571a9f60706",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/hurricane-satellite/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "326468947baf60e29bda6790d70390ed314fd52c747cb038684a00aba06b5774",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/hurricane-satellite/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "bbf536947c39190bd733d60e982fa1890a12d075d672a564d33095c84c82e74c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/hurricane-satellite/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-noaa-atlantic-outlook-hurricane-2026",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "2e8facdd3bb5f7ecdeb3414f0a6e6ec492307564eefc2cae329dfec95e917ba1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Public domain: NASA satellite imagery produced by the U.S. federal government.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hurricane_Karl_2010-09-16_1720Z.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 7 to 13 named storms, 2 to 6 hurricanes and zero to two major hurricanes.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "NOAA's full-season outlook calls for 7–13 named storms, 2–6 hurricanes and 0–2 major hurricanes.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "f7e3529cd4f722bf3dfd6ceca20ea1bb7d2965f4772eecc7b80f97fad37ccc48",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/storm-ranges/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "99e676eaa301c7255fa6c5c6766d33b6fdec7202ea2ceb2304f9b4117772d337",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/storm-ranges/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b862a67c1d9c90f2031bbb56f9e2732af384f84cd00d2590ff833bae2bd1d1b1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/storm-ranges/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4989092318018951178999e4f9fa80471fea6dddc210084b26bc60fe92a321d0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/storm-ranges/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8393e52beb724c432ff6163195d5fcfa007d7f656e2eb8fb64212190f62f0844",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/storm-ranges/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "9494ae3ae4fc02c041dc75948f79f220f729a516b01625832aa4b75283f0d876",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/storm-ranges/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c2e281c99be4d110465e17d9d26319bdeff5b6f4dcc59fe5abf3fd432d053e1f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/storm-ranges/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-noaa-atlantic-outlook-storm-ranges-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4989092318018951178999e4f9fa80471fea6dddc210084b26bc60fe92a321d0",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cpc.ncep.noaa.gov/products/outlooks/hurricane.shtml?vm=r"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 75 percent below normal, 20 percent near normal and 5 percent above normal.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "NOAA assigns a 75% chance of a below-normal season, 20% near normal and 5% above normal.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ab8703e23f533e505ea730c7a2a1af6c33e4df1f8a27dd96b5287d4b33c32f3a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/probabilities/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "db1bbe978b300e3f868e32f9ac0331faf857248454bf066fa17694cbc1a6daa9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/probabilities/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d6bd4a4f6eb59dba77cec6406c73d1d8d68ca5b7d6588d123194eda46938a5db",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/probabilities/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d913d37b1238187532ae091a8ce2f5e705c89556cdbd131ec136c4904ac7284e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/probabilities/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9266fb5d77034e5c48d40532a34d3f3d16c196f9b5bfc5ff32e7b36caed01143",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/probabilities/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "911647088900d835d27ef260888177a4de2a27b8f31195e3b9bd6b13cdc4a9c1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/probabilities/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f4b2b20065efb9f496ab1bd5d52a81ad3d689cd43dc7639bbb7bf60db64a7af9",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/noaa-atlantic-outlook/probabilities/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-noaa-atlantic-outlook-probabilities-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d913d37b1238187532ae091a8ce2f5e705c89556cdbd131ec136c4904ac7284e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cpc.ncep.noaa.gov/products/outlooks/hurricane.shtml?vm=r"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Doctor sits beside a patient during a consultation in a clinic room.",
+      "archivalStatus": "current",
+      "attribution": "Bill Branson / National Cancer Institute",
+      "caption": "A doctor consults with a patient. WHO says integration of HIV, hepatitis and STI services is essential to closing treatment gaps.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Bill Branson / National Cancer Institute",
+      "derivatives": [
+        {
+          "hash": "a4c742e677c87d2dbccb896f06837929496b0ad8ad318e8266846a92cbc9c89e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/doctor-patient/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b424e7025307f32e5a7e1698dbf4861125b590acd299d1fd6a75cf7997b76ea4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/doctor-patient/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "35e4181104300ebd5537baf4f6b8fdf553df84a714f9d29d956ba8120316f353",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/doctor-patient/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "49bafebb81ed12099a636516194ccdafeb49a87d7c162715485c28719bb60c52",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/doctor-patient/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7d112f57731f07b217fbf0f3603338142aa580d1f210b0aece845a016d30615c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/doctor-patient/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4eaecbac5e6627dc3634accd437b87aee8d002bcc2e67fbf5f7f66c66202b344",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/doctor-patient/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2365e43d734359177b6b87b731246d55cb8fc3f10ed39f6a5270f9a7d26e6ed0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/doctor-patient/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-who-health-strategies-clinic-2026",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "2bf8804cab80c94d5d41ffd4b4ce8614ff920c37efb82c7b52554239da3bc6f1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Public domain: work of the U.S. federal government.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doctor_consults_with_patient_(7).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists new HIV infections down 42 percent, AIDS deaths down 57 percent and 32 million treated in 2025.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "WHO says 32 million people were receiving HIV treatment in 2025 as infections and AIDS-related deaths declined from 2010 levels.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "6c44f244f038454a7d7ae969f5c1ef15a90cc4b95c20268a875a23e7a7188955",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/hiv-progress/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "bfab86e4d611d5fa25946db7ef5a2dd5f07b7ac3ed59034b04be4afe9dc6cb76",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/hiv-progress/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "90226073a4d6b136f59daedae141cdc9dd94c815b67dcb090e5d8cfffb4e6b84",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/hiv-progress/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "07d1c8b21c5edbd2fb08c65b365f842ff7942c3f44451fb5e6b77ce903b8b8e1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/hiv-progress/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4aab42e0d26db1cf6c7ad446f5ca94e69fbbe9fee16a123e7f0f3a6f6f951c1d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/hiv-progress/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "aad66ddd29c70783709675b87992d16310d3dae63fda4f5c20b4b20c1a1598f1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/hiv-progress/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "df503fe82d9ca51b840fc643ad8cdcfaa5b49cef36cbb73a70187cc4bef2e6cb",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/hiv-progress/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-who-health-strategies-hiv-progress-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "07d1c8b21c5edbd2fb08c65b365f842ff7942c3f44451fb5e6b77ce903b8b8e1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.who.int/news-room/releases/27-07-2026-who--integration--innovation-and-community-leadership-key-to-ending-hiv--hepatitis-and-stis"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 9 million lacking HIV treatment, hepatitis B infections down 32 percent and hepatitis B deaths up 17 percent.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "WHO's assessment identifies major remaining treatment and hepatitis gaps despite progress.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c7cddd283245c87916e5bb4d78307322a863f1dc804f6a5f354bde553b70bc3f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/remaining-gaps/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a00385d03920ba374264625b8eae5f51c6cd4cfd3b020cda9fa94aa71c1d76ad",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/remaining-gaps/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "21f17103a014eefa164301ae5ea69782528f0d1980e282057a4c040a7565485e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/remaining-gaps/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "26e6a39a7fe433872e21e4994b407ba5d45e80ef4dd7fa6addd0191c75e289ff",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/remaining-gaps/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "90854e25363be3540c246a83e2be5958ad3f553324b11374e01b85d0f3995466",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/remaining-gaps/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d395777714138de08e1b84e41bf9da75db9a69c87985691735a4a1f87808e72b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/remaining-gaps/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5ff0a3d01bb83132aef103685f3a408cfeeb71f6acc7f86edca659f8513b2fd1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-051729/who-health-strategies/remaining-gaps/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-who-health-strategies-remaining-gaps-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "26e6a39a7fe433872e21e4994b407ba5d45e80ef4dd7fa6addd0191c75e289ff",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T06:15:00Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.who.int/news-room/releases/27-07-2026-who--integration--innovation-and-community-leadership-key-to-ending-hiv--hepatitis-and-stis"
     }
   ],
-  "packageDigest": "3db48c9380ab29092494ecd959ba1ea4a5638a4fdca9d56a9de4f1f7b3b1ceca",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -78605,7 +80863,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "4a823a253ce3b1eaa332dd1d24902396877ba0fe0586e2f61bb984676939221d"
 }
