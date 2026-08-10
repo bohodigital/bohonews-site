@@ -78,7 +78,7 @@ const articleEvidence = articles.map((article) => ({
 const routes = [
   "/", "/rss.xml", "/sitemap.xml", "/news-sitemap.xml", "/search/", "/robots.txt",
   "/politics/", "/sports/", "/weather-climate/", "/world/", "/business/", "/us/",
-  "/games/",
+  ...(phase === "activation" ? ["/games/"] : []),
   ...articleEvidence.map(({ route }) => route)
 ];
 const request = {
