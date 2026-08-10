@@ -576,6 +576,7 @@ figcaption { color: var(--text-muted); font-size: .75rem; margin-top: .55rem; }
   .fixture-banner { margin-left: -.35rem; margin-right: -.35rem; }
   .breaking-strip { margin-top: -.8rem; }
   .dominant-story h1 { font-size: clamp(2.6rem,13vw,4.3rem); }
+  .index-header h1 { font-size: clamp(2.4rem,12vw,3.2rem); overflow-wrap: anywhere; }
   .secondary-stack { grid-template-columns: 1fr; }
   .secondary-stack .story-card,.secondary-stack .story-card:first-child,.secondary-stack .story-card:last-child {
     border-bottom: 1px solid var(--border); border-right: 0; padding: 1rem 0;
