@@ -36630,71 +36630,71 @@
       "body": "Fifteen Government Accountability Office recommendations for the Department of Veterans Affairs' disability-compensation program remained open in July, as VA explored artificial intelligence and other technology changes for processing claims.\n\nSince 2021, GAO has made 43 recommendations on the program. VA had implemented 28 and taken some steps on the remaining 15, the watchdog told a House Veterans' Affairs subcommittee.\n\nThe program provided more than $195 billion to more than 6.9 million veterans and family members in fiscal 2025. Its scale makes processing speed, accuracy and explainability material to both claimants and federal spending.\n\nVA began developing the electronic Veterans Benefits Management System in 2009. GAO said that effort lacked robust planning and did not include goals for response time or user satisfaction, limiting the agency's ability to measure progress.\n\nThe watchdog has also found gaps in VA oversight of exams performed by contracted medical providers and in management of training for claims processors. Those are program-management issues independent of whether AI is added.\n\nVA is considering AI to automate more claims-processing work. GAO said that could improve efficiency and accuracy, but opaque model behavior can make errors or misuse harder to detect.\n\nGenerative AI can also require significant computing and technical resources. A successful pilot therefore would need evidence on accuracy, cost, processing time, appeals and whether results differ across claim types or claimant groups.\n\nGAO pointed VA to its AI Accountability Framework for governance, data, performance and monitoring. The testimony did not approve a specific AI product or say automated decisions should replace human review.\n\nThe next accountability checkpoints are implementation of the 15 open recommendations and published performance measures for any modernization. Faster processing alone would not establish improvement if error, appeal or user-satisfaction outcomes deteriorate.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Fifteen Government Accountability Office recommendations for the Department of Veterans Affairs' disability-compensation program remained open in July, as VA explored artificial intelligence and other technology changes for processing claims."
+          "text": "Fifteen Government Accountability Office recommendations for the Department of Veterans Affairs' disability-compensation program remained open in July, as VA explored artificial intelligence and other technology changes for processing claims.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Since 2021, GAO has made 43 recommendations on the program. VA had implemented 28 and taken some steps on the remaining 15, the watchdog told a House Veterans' Affairs subcommittee."
+          "text": "Since 2021, GAO has made 43 recommendations on the program. VA had implemented 28 and taken some steps on the remaining 15, the watchdog told a House Veterans' Affairs subcommittee.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-gao-va-disability-program-scale-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/program-scale/four-three.webp",
           "alt": "Graphic lists more than 195 billion dollars in benefits and more than 6.9 million recipients in fiscal 2025.",
           "caption": "VA provided more than $195 billion in disability benefits to more than 6.9 million veterans and family members in fiscal 2025.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.gao.gov/products/gao-26-109137"
-        },
-        {
-          "type": "paragraph",
-          "text": "The program provided more than $195 billion to more than 6.9 million veterans and family members in fiscal 2025. Its scale makes processing speed, accuracy and explainability material to both claimants and federal spending."
-        },
-        {
-          "type": "paragraph",
-          "text": "VA began developing the electronic Veterans Benefits Management System in 2009. GAO said that effort lacked robust planning and did not include goals for response time or user satisfaction, limiting the agency's ability to measure progress."
-        },
-        {
-          "type": "paragraph",
-          "text": "The watchdog has also found gaps in VA oversight of exams performed by contracted medical providers and in management of training for claims processors. Those are program-management issues independent of whether AI is added."
-        },
-        {
-          "type": "paragraph",
-          "text": "VA is considering AI to automate more claims-processing work. GAO said that could improve efficiency and accuracy, but opaque model behavior can make errors or misuse harder to detect."
-        },
-        {
+          "rightsId": "media-gao-va-disability-program-scale-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-109137",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/program-scale/four-three.webp",
           "type": "media",
-          "rightsId": "media-gao-va-disability-recommendations-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/recommendations/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "The program provided more than $195 billion to more than 6.9 million veterans and family members in fiscal 2025. Its scale makes processing speed, accuracy and explainability material to both claimants and federal spending.",
+          "type": "paragraph"
+        },
+        {
+          "text": "VA began developing the electronic Veterans Benefits Management System in 2009. GAO said that effort lacked robust planning and did not include goals for response time or user satisfaction, limiting the agency's ability to measure progress.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The watchdog has also found gaps in VA oversight of exams performed by contracted medical providers and in management of training for claims processors. Those are program-management issues independent of whether AI is added.",
+          "type": "paragraph"
+        },
+        {
+          "text": "VA is considering AI to automate more claims-processing work. GAO said that could improve efficiency and accuracy, but opaque model behavior can make errors or misuse harder to detect.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists 43 recommendations since 2021, 28 implemented and 15 still open.",
           "caption": "VA has implemented 28 of 43 GAO recommendations made since 2021; 15 remain open.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.gao.gov/products/gao-26-109137"
+          "rightsId": "media-gao-va-disability-recommendations-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-109137",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/recommendations/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Generative AI can also require significant computing and technical resources. A successful pilot therefore would need evidence on accuracy, cost, processing time, appeals and whether results differ across claim types or claimant groups."
+          "text": "Generative AI can also require significant computing and technical resources. A successful pilot therefore would need evidence on accuracy, cost, processing time, appeals and whether results differ across claim types or claimant groups.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "GAO pointed VA to its AI Accountability Framework for governance, data, performance and monitoring. The testimony did not approve a specific AI product or say automated decisions should replace human review."
+          "text": "GAO pointed VA to its AI Accountability Framework for governance, data, performance and monitoring. The testimony did not approve a specific AI product or say automated decisions should replace human review.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The next accountability checkpoints are implementation of the 15 open recommendations and published performance measures for any modernization. Faster processing alone would not establish improvement if error, appeal or user-satisfaction outcomes deteriorate."
+          "text": "The next accountability checkpoints are implementation of the 15 open recommendations and published performance measures for any modernization. Faster processing alone would not establish improvement if error, appeal or user-satisfaction outcomes deteriorate.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/gao-va-disability-ai-modernization-15-open-actions-2026/",
       "citations": [
         {
           "id": "source-gao-va-disability-ai-20260713",
-          "title": "VA Disability Benefits: Opportunities and Challenges to Modernizing Technology and Adopting AI",
-          "publisher": "U.S. Government Accountability Office",
           "publishedAt": "2026-07-13T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "VA Disability Benefits: Opportunities and Challenges to Modernizing Technology and Adopting AI",
           "url": "https://www.gao.gov/products/gao-26-109137"
         }
       ],
@@ -36737,9 +36737,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-10T15:49:03.460Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260810t074930z-be1bd1000061",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -36767,7 +36767,7 @@
         "GAO did not evaluate or approve a specific AI product in this testimony.",
         "Potential speed or accuracy gains require measured implementation evidence."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-10T15:49:03.460Z"
     },
     {
       "articleType": "news-report",
@@ -36777,71 +36777,71 @@
       "body": "The estimated U.S. rate of violent offenses reported to law enforcement fell from 393.9 per 100,000 people in 2023 to 370.8 in 2024, the Bureau of Justice Statistics reported.\n\nThe estimates come from the BJS and FBI National Incident-Based Reporting System Estimation Program. NIBRS collects detailed information about incidents known to participating law-enforcement agencies and the program adjusts those records to produce national estimates.\n\nBJS estimated 1,261,210 violent offenses in 2024, down from 1,319,280 in 2023. Its violent category combines homicide, rape, robbery and aggravated assault.\n\nThe property-offense rate declined 9%, from 2,019.7 to 1,835.1 per 100,000. Estimated property offenses fell from 6.76 million to 6.24 million.\n\nWithin that category, the estimated burglary rate fell from 255.6 to 230.0 per 100,000, larceny-theft from 1,431.9 to 1,334.5, and motor-vehicle theft from 332.2 to 270.6.\n\nThe estimated violent-victimization rate was 376.9 per 100,000 in 2024, down from 401.1 in 2023. Offense and victimization rates differ because one incident can involve more than one victim.\n\nBJS also reported decreases in homicide victimization rates for both males and females and lower victimization rates for burglary and larceny-theft.\n\nThese figures measure crime known to law enforcement, not every crime that occurred. Reporting behavior, agency participation and estimation methods affect the results, so the series should not be substituted for surveys of unreported victimization.\n\nThe 2024 movement is a national estimate and does not describe every city or neighborhood. Local comparisons require consistent agency data and population denominators rather than applying the national change to a specific community.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The estimated U.S. rate of violent offenses reported to law enforcement fell from 393.9 per 100,000 people in 2023 to 370.8 in 2024, the Bureau of Justice Statistics reported."
+          "text": "The estimated U.S. rate of violent offenses reported to law enforcement fell from 393.9 per 100,000 people in 2023 to 370.8 in 2024, the Bureau of Justice Statistics reported.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The estimates come from the BJS and FBI National Incident-Based Reporting System Estimation Program. NIBRS collects detailed information about incidents known to participating law-enforcement agencies and the program adjusts those records to produce national estimates."
+          "text": "The estimates come from the BJS and FBI National Incident-Based Reporting System Estimation Program. NIBRS collects detailed information about incidents known to participating law-enforcement agencies and the program adjusts those records to produce national estimates.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-bjs-crime-violent-rate-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/violent-rate/four-three.webp",
           "alt": "Graphic compares violent-offense rates of 393.9 in 2023 and 370.8 in 2024 per 100,000.",
           "caption": "The estimated violent-offense rate declined from 393.9 per 100,000 in 2023 to 370.8 in 2024.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://bjs.ojp.gov/library/publications/crime-known-law-enforcement-2024"
-        },
-        {
-          "type": "paragraph",
-          "text": "BJS estimated 1,261,210 violent offenses in 2024, down from 1,319,280 in 2023. Its violent category combines homicide, rape, robbery and aggravated assault."
-        },
-        {
-          "type": "paragraph",
-          "text": "The property-offense rate declined 9%, from 2,019.7 to 1,835.1 per 100,000. Estimated property offenses fell from 6.76 million to 6.24 million."
-        },
-        {
-          "type": "paragraph",
-          "text": "Within that category, the estimated burglary rate fell from 255.6 to 230.0 per 100,000, larceny-theft from 1,431.9 to 1,334.5, and motor-vehicle theft from 332.2 to 270.6."
-        },
-        {
-          "type": "paragraph",
-          "text": "The estimated violent-victimization rate was 376.9 per 100,000 in 2024, down from 401.1 in 2023. Offense and victimization rates differ because one incident can involve more than one victim."
-        },
-        {
+          "rightsId": "media-bjs-crime-violent-rate-2026",
+          "sourceUrl": "https://bjs.ojp.gov/library/publications/crime-known-law-enforcement-2024",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/violent-rate/four-three.webp",
           "type": "media",
-          "rightsId": "media-bjs-crime-property-rate-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/property-rate/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "BJS estimated 1,261,210 violent offenses in 2024, down from 1,319,280 in 2023. Its violent category combines homicide, rape, robbery and aggravated assault.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The property-offense rate declined 9%, from 2,019.7 to 1,835.1 per 100,000. Estimated property offenses fell from 6.76 million to 6.24 million.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Within that category, the estimated burglary rate fell from 255.6 to 230.0 per 100,000, larceny-theft from 1,431.9 to 1,334.5, and motor-vehicle theft from 332.2 to 270.6.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The estimated violent-victimization rate was 376.9 per 100,000 in 2024, down from 401.1 in 2023. Offense and victimization rates differ because one incident can involve more than one victim.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows the property-offense rate falling 9 percent from 2019.7 to 1835.1 per 100,000.",
           "caption": "The estimated property-offense rate declined 9%, from 2,019.7 to 1,835.1 per 100,000.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://bjs.ojp.gov/library/publications/crime-known-law-enforcement-2024"
+          "rightsId": "media-bjs-crime-property-rate-2026",
+          "sourceUrl": "https://bjs.ojp.gov/library/publications/crime-known-law-enforcement-2024",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/property-rate/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "BJS also reported decreases in homicide victimization rates for both males and females and lower victimization rates for burglary and larceny-theft."
+          "text": "BJS also reported decreases in homicide victimization rates for both males and females and lower victimization rates for burglary and larceny-theft.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "These figures measure crime known to law enforcement, not every crime that occurred. Reporting behavior, agency participation and estimation methods affect the results, so the series should not be substituted for surveys of unreported victimization."
+          "text": "These figures measure crime known to law enforcement, not every crime that occurred. Reporting behavior, agency participation and estimation methods affect the results, so the series should not be substituted for surveys of unreported victimization.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The 2024 movement is a national estimate and does not describe every city or neighborhood. Local comparisons require consistent agency data and population denominators rather than applying the national change to a specific community."
+          "text": "The 2024 movement is a national estimate and does not describe every city or neighborhood. Local comparisons require consistent agency data and population denominators rather than applying the national change to a specific community.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/bjs-violent-offense-rate-370-8-per-100000-2024/",
       "citations": [
         {
           "id": "source-bjs-crime-known-2024",
-          "title": "Crime Known to Law Enforcement, 2024",
-          "publisher": "Bureau of Justice Statistics",
           "publishedAt": "2026-03-16T12:00:00Z",
+          "publisher": "Bureau of Justice Statistics",
+          "title": "Crime Known to Law Enforcement, 2024",
           "url": "https://bjs.ojp.gov/library/publications/crime-known-law-enforcement-2024"
         }
       ],
@@ -36883,9 +36883,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-10T15:49:03.460Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260810t074930z-be1bd1000061",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -36913,7 +36913,7 @@
         "The report covers incidents known to law enforcement and excludes unreported crime.",
         "National estimates do not establish local trends."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-10T15:49:03.460Z"
     },
     {
       "articleType": "news-report",
@@ -36923,71 +36923,71 @@
       "body": "The Government Accountability Office counted 277 matters for congressional consideration that remained open as of April 9, 2026, spanning health, defense, energy, technology and federal financial management.\n\nGAO has sent Congress more than 1,150 such matters since 2000. Nearly 80% had closed, either because action was taken, circumstances changed or GAO determined the recommendation was no longer applicable.\n\nOf the open matters, GAO identified 53 that could produce financial benefits. Thirteen each carried potential benefits of at least $1 billion, although those figures are estimates and depend on the scope and timing of legislation.\n\nThe largest example in the report is a recommendation to equalize certain Medicare payment rates across care settings. GAO estimated that policy could save $156.9 billion over 10 years.\n\nThat estimate is not money already saved or appropriated. Congress would have to define and enact a policy, agencies would have to implement it, and actual effects could differ from the modeled amount.\n\nBills introduced in the 118th and 119th Congresses would have fully or partly addressed 103 of the 277 open matters, about 37%, as of February. Introduction alone does not mean a bill will advance or become law.\n\nAge varies across the inventory. GAO said 123 open matters, about 44%, had been open five years or less, while the oldest was almost 25 years old and concerned federal food-safety oversight.\n\nGAO previously attributed $66 billion in financial benefits from fiscal 2001 through March 2024 to addressing matters where Congress was a contributing entity. That retrospective measure uses a different period from the forward-looking estimates in the new inventory.\n\nThe useful accountability test is matter by matter: whether relevant legislation advances, whether the final text addresses GAO's finding and whether later budget or program evidence confirms the projected benefit. The headline count alone does not establish achievable savings.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The Government Accountability Office counted 277 matters for congressional consideration that remained open as of April 9, 2026, spanning health, defense, energy, technology and federal financial management."
+          "text": "The Government Accountability Office counted 277 matters for congressional consideration that remained open as of April 9, 2026, spanning health, defense, energy, technology and federal financial management.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "GAO has sent Congress more than 1,150 such matters since 2000. Nearly 80% had closed, either because action was taken, circumstances changed or GAO determined the recommendation was no longer applicable."
+          "text": "GAO has sent Congress more than 1,150 such matters since 2000. Nearly 80% had closed, either because action was taken, circumstances changed or GAO determined the recommendation was no longer applicable.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-gao-congress-open-matters-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/open-matters/four-three.webp",
           "alt": "Graphic lists more than 1150 matters since 2000 and 277 still open in April 2026.",
           "caption": "Of more than 1,150 matters GAO has sent Congress since 2000, 277 remained open on April 9, 2026.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.gao.gov/products/gao-26-108896"
-        },
-        {
-          "type": "paragraph",
-          "text": "Of the open matters, GAO identified 53 that could produce financial benefits. Thirteen each carried potential benefits of at least $1 billion, although those figures are estimates and depend on the scope and timing of legislation."
-        },
-        {
-          "type": "paragraph",
-          "text": "The largest example in the report is a recommendation to equalize certain Medicare payment rates across care settings. GAO estimated that policy could save $156.9 billion over 10 years."
-        },
-        {
-          "type": "paragraph",
-          "text": "That estimate is not money already saved or appropriated. Congress would have to define and enact a policy, agencies would have to implement it, and actual effects could differ from the modeled amount."
-        },
-        {
-          "type": "paragraph",
-          "text": "Bills introduced in the 118th and 119th Congresses would have fully or partly addressed 103 of the 277 open matters, about 37%, as of February. Introduction alone does not mean a bill will advance or become law."
-        },
-        {
+          "rightsId": "media-gao-congress-open-matters-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108896",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/open-matters/four-three.webp",
           "type": "media",
-          "rightsId": "media-gao-congress-financial-benefits-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/financial-benefits/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Of the open matters, GAO identified 53 that could produce financial benefits. Thirteen each carried potential benefits of at least $1 billion, although those figures are estimates and depend on the scope and timing of legislation.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The largest example in the report is a recommendation to equalize certain Medicare payment rates across care settings. GAO estimated that policy could save $156.9 billion over 10 years.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That estimate is not money already saved or appropriated. Congress would have to define and enact a policy, agencies would have to implement it, and actual effects could differ from the modeled amount.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Bills introduced in the 118th and 119th Congresses would have fully or partly addressed 103 of the 277 open matters, about 37%, as of February. Introduction alone does not mean a bill will advance or become law.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists 53 matters with possible financial benefits and 13 worth at least one billion dollars each.",
           "caption": "GAO identified 53 open matters with possible financial benefits, including 13 potentially worth at least $1 billion each.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.gao.gov/products/gao-26-108896"
+          "rightsId": "media-gao-congress-financial-benefits-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108896",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/financial-benefits/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Age varies across the inventory. GAO said 123 open matters, about 44%, had been open five years or less, while the oldest was almost 25 years old and concerned federal food-safety oversight."
+          "text": "Age varies across the inventory. GAO said 123 open matters, about 44%, had been open five years or less, while the oldest was almost 25 years old and concerned federal food-safety oversight.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "GAO previously attributed $66 billion in financial benefits from fiscal 2001 through March 2024 to addressing matters where Congress was a contributing entity. That retrospective measure uses a different period from the forward-looking estimates in the new inventory."
+          "text": "GAO previously attributed $66 billion in financial benefits from fiscal 2001 through March 2024 to addressing matters where Congress was a contributing entity. That retrospective measure uses a different period from the forward-looking estimates in the new inventory.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The useful accountability test is matter by matter: whether relevant legislation advances, whether the final text addresses GAO's finding and whether later budget or program evidence confirms the projected benefit. The headline count alone does not establish achievable savings."
+          "text": "The useful accountability test is matter by matter: whether relevant legislation advances, whether the final text addresses GAO's finding and whether later budget or program evidence confirms the projected benefit. The headline count alone does not establish achievable savings.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/gao-277-open-recommendations-congress-2026/",
       "citations": [
         {
           "id": "source-gao-congress-recommendations-20260512",
-          "title": "Recommendations for Congress: Action Can Cut Costs, Reduce Waste, and Improve Services",
-          "publisher": "U.S. Government Accountability Office",
           "publishedAt": "2026-05-12T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Recommendations for Congress: Action Can Cut Costs, Reduce Waste, and Improve Services",
           "url": "https://www.gao.gov/products/gao-26-108896"
         }
       ],
@@ -37032,9 +37032,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-10T15:49:03.460Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260810t074930z-be1bd1000061",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -37062,7 +37062,7 @@
         "Potential financial benefits are estimates, not realized savings.",
         "Introduced legislation may change or fail to become law."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-10T15:49:03.460Z"
     },
     {
       "articleType": "news-report",
@@ -37072,78 +37072,78 @@
       "body": "Aryna Sabalenka, Carlos Alcaraz, Jannik Sinner and Jessica Pegula are among the players named in the U.S. Open's initial 2026 field announcement.\n\nThe announcement establishes entry, not a seed, draw position or guarantee that every listed player will compete. Injuries, withdrawals and eligibility changes can alter a Grand Slam field before play begins.\n\nSabalenka and Pegula headline the names highlighted from the women's field, while Alcaraz and Sinner lead the men's names in the tournament's July 21 announcement.\n\nThe event is scheduled at the USTA Billie Jean King National Tennis Center in Flushing, New York. The broader tournament calendar runs from Aug. 23 through Sept. 13.\n\nMen's and women's singles qualifying is scheduled Aug. 24-27. USTA says 128 men and 128 women will compete for 16 final main-draw places in each singles field.\n\nMain-draw singles play begins Sunday, Aug. 30, with first-round sessions on Aug. 30 and 31 and Sept. 1. The women's singles final is scheduled Sept. 12 and the men's final Sept. 13.\n\nEntry lists and qualifying fields answer different questions. A player named in the direct-entry announcement is not competing for one of the 16 qualifying places unless later circumstances change the route into the draw.\n\nSeeds and brackets will be set closer to competition using the tournament's rules and current rankings. The July announcement should not be read as a projected semifinal or final lineup.\n\nThe next useful checks are the official withdrawal list, qualifying draw, seed announcement and main draw. USTA notes that schedules remain subject to change, so session buyers should verify the latest order of play.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Aryna Sabalenka, Carlos Alcaraz, Jannik Sinner and Jessica Pegula are among the players named in the U.S. Open's initial 2026 field announcement."
+          "text": "Aryna Sabalenka, Carlos Alcaraz, Jannik Sinner and Jessica Pegula are among the players named in the U.S. Open's initial 2026 field announcement.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The announcement establishes entry, not a seed, draw position or guarantee that every listed player will compete. Injuries, withdrawals and eligibility changes can alter a Grand Slam field before play begins."
+          "text": "The announcement establishes entry, not a seed, draw position or guarantee that every listed player will compete. Injuries, withdrawals and eligibility changes can alter a Grand Slam field before play begins.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-usopen-field-headliners-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/headliners/four-three.webp",
           "alt": "Graphic lists Sabalenka, Alcaraz, Sinner and Pegula as announced U.S. Open entrants.",
           "caption": "The U.S. Open's initial field announcement names Aryna Sabalenka, Carlos Alcaraz, Jannik Sinner and Jessica Pegula among the entrants.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.usopen.org/en_US/news/articles/2026-07-21/who_is_playing_the_2026_us_open_sabalenka_alcaraz_sinner_pegula_more.html"
-        },
-        {
-          "type": "paragraph",
-          "text": "Sabalenka and Pegula headline the names highlighted from the women's field, while Alcaraz and Sinner lead the men's names in the tournament's July 21 announcement."
-        },
-        {
-          "type": "paragraph",
-          "text": "The event is scheduled at the USTA Billie Jean King National Tennis Center in Flushing, New York. The broader tournament calendar runs from Aug. 23 through Sept. 13."
-        },
-        {
-          "type": "paragraph",
-          "text": "Men's and women's singles qualifying is scheduled Aug. 24-27. USTA says 128 men and 128 women will compete for 16 final main-draw places in each singles field."
-        },
-        {
-          "type": "paragraph",
-          "text": "Main-draw singles play begins Sunday, Aug. 30, with first-round sessions on Aug. 30 and 31 and Sept. 1. The women's singles final is scheduled Sept. 12 and the men's final Sept. 13."
-        },
-        {
+          "rightsId": "media-usopen-field-headliners-2026",
+          "sourceUrl": "https://www.usopen.org/en_US/news/articles/2026-07-21/who_is_playing_the_2026_us_open_sabalenka_alcaraz_sinner_pegula_more.html",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/headliners/four-three.webp",
           "type": "media",
-          "rightsId": "media-usopen-field-calendar-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/calendar/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Sabalenka and Pegula headline the names highlighted from the women's field, while Alcaraz and Sinner lead the men's names in the tournament's July 21 announcement.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The event is scheduled at the USTA Billie Jean King National Tennis Center in Flushing, New York. The broader tournament calendar runs from Aug. 23 through Sept. 13.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Men's and women's singles qualifying is scheduled Aug. 24-27. USTA says 128 men and 128 women will compete for 16 final main-draw places in each singles field.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Main-draw singles play begins Sunday, Aug. 30, with first-round sessions on Aug. 30 and 31 and Sept. 1. The women's singles final is scheduled Sept. 12 and the men's final Sept. 13.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists qualifying August 24 through 27 and the singles main draw beginning August 30.",
           "caption": "Singles qualifying is scheduled Aug. 24-27, with main-draw singles beginning Aug. 30.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.usopen.org/en_US/news/articles/2026-07-21/who_is_playing_the_2026_us_open_sabalenka_alcaraz_sinner_pegula_more.html"
+          "rightsId": "media-usopen-field-calendar-2026",
+          "sourceUrl": "https://www.usopen.org/en_US/news/articles/2026-07-21/who_is_playing_the_2026_us_open_sabalenka_alcaraz_sinner_pegula_more.html",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/calendar/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Entry lists and qualifying fields answer different questions. A player named in the direct-entry announcement is not competing for one of the 16 qualifying places unless later circumstances change the route into the draw."
+          "text": "Entry lists and qualifying fields answer different questions. A player named in the direct-entry announcement is not competing for one of the 16 qualifying places unless later circumstances change the route into the draw.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Seeds and brackets will be set closer to competition using the tournament's rules and current rankings. The July announcement should not be read as a projected semifinal or final lineup."
+          "text": "Seeds and brackets will be set closer to competition using the tournament's rules and current rankings. The July announcement should not be read as a projected semifinal or final lineup.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The next useful checks are the official withdrawal list, qualifying draw, seed announcement and main draw. USTA notes that schedules remain subject to change, so session buyers should verify the latest order of play."
+          "text": "The next useful checks are the official withdrawal list, qualifying draw, seed announcement and main draw. USTA notes that schedules remain subject to change, so session buyers should verify the latest order of play.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula/",
       "citations": [
         {
           "id": "source-usopen-player-field-20260721",
-          "title": "Who is playing the 2026 US Open? Sabalenka, Alcaraz, Sinner, Pegula & more",
-          "publisher": "U.S. Open / USTA",
           "publishedAt": "2026-07-21T12:00:00Z",
+          "publisher": "U.S. Open / USTA",
+          "title": "Who is playing the 2026 US Open? Sabalenka, Alcaraz, Sinner, Pegula & more",
           "url": "https://www.usopen.org/en_US/news/articles/2026-07-21/who_is_playing_the_2026_us_open_sabalenka_alcaraz_sinner_pegula_more.html"
         },
         {
           "id": "source-usopen-schedule-2026",
-          "title": "2026 U.S. Open Tournament Schedule",
-          "publisher": "U.S. Open / USTA",
           "publishedAt": "2026-08-01T12:00:00Z",
+          "publisher": "U.S. Open / USTA",
+          "title": "2026 U.S. Open Tournament Schedule",
           "url": "https://www.usopen.org/en_US/about/eventschedule.html"
         }
       ],
@@ -37191,9 +37191,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-10T15:49:03.460Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260810t074930z-be1bd1000061",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -37221,7 +37221,7 @@
         "Entries can change because of withdrawals, injuries or eligibility developments.",
         "Seeds, draws and daily orders of play are not fixed by the field announcement."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-10T15:49:03.460Z"
     },
     {
       "articleType": "news-report",
@@ -37231,71 +37231,71 @@
       "body": "The National Library Service for the Blind and Print Disabled at the Library of Congress recognized two libraries in Georgia and Massachusetts for accessible service to readers with visual, physical or print disabilities.\n\nThe Georgia Library Service for the Blind and Print Disabled in Atlanta received the 2026 Regional Library of the Year Award.\n\nThe Worcester Talking Book Library in Worcester, Massachusetts, received the 2026 Subregional Library of the Year Award.\n\nThe Library of Congress scheduled recognition for both programs at a July 22 luncheon in the Thomas Jefferson Building in Washington.\n\nEstablished in 2004, the awards recognize libraries in the National Library Service network for support of the program's mission, innovation in service and high reader satisfaction.\n\nNLS and its cooperating network provide accessible reading materials to eligible patrons. The awards distinguish the performance of individual network libraries rather than ranking every public-library service in the two states.\n\nThe regional and subregional labels describe different places in the NLS network. Georgia's statewide program and Worcester's local talking-book library therefore received separate award categories.\n\nAn award is a qualitative recognition, not a national access metric. Evaluating service availability still requires patron enrollment, wait times, format availability, outreach and user feedback over time.\n\nThe immediate public record identifies the honorees and award criteria. More detailed program comparisons would require the libraries' service data and documentation of the innovations considered by NLS.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The National Library Service for the Blind and Print Disabled at the Library of Congress recognized two libraries in Georgia and Massachusetts for accessible service to readers with visual, physical or print disabilities."
+          "text": "The National Library Service for the Blind and Print Disabled at the Library of Congress recognized two libraries in Georgia and Massachusetts for accessible service to readers with visual, physical or print disabilities.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The Georgia Library Service for the Blind and Print Disabled in Atlanta received the 2026 Regional Library of the Year Award."
+          "text": "The Georgia Library Service for the Blind and Print Disabled in Atlanta received the 2026 Regional Library of the Year Award.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-loc-accessible-awardees-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/awardees/four-three.webp",
           "alt": "Graphic names the Georgia regional winner and Worcester subregional winner.",
           "caption": "The 2026 awards went to the Georgia Library Service for the Blind and Print Disabled and Worcester Talking Book Library.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://newsroom.loc.gov/news/library-of-congress-program-honors-accessible-libraries-in-georgia-and-massachusetts/s/573a6399-8f67-4c34-b244-659e02828608"
-        },
-        {
-          "type": "paragraph",
-          "text": "The Worcester Talking Book Library in Worcester, Massachusetts, received the 2026 Subregional Library of the Year Award."
-        },
-        {
-          "type": "paragraph",
-          "text": "The Library of Congress scheduled recognition for both programs at a July 22 luncheon in the Thomas Jefferson Building in Washington."
-        },
-        {
-          "type": "paragraph",
-          "text": "Established in 2004, the awards recognize libraries in the National Library Service network for support of the program's mission, innovation in service and high reader satisfaction."
-        },
-        {
-          "type": "paragraph",
-          "text": "NLS and its cooperating network provide accessible reading materials to eligible patrons. The awards distinguish the performance of individual network libraries rather than ranking every public-library service in the two states."
-        },
-        {
+          "rightsId": "media-loc-accessible-awardees-2026",
+          "sourceUrl": "https://newsroom.loc.gov/news/library-of-congress-program-honors-accessible-libraries-in-georgia-and-massachusetts/s/573a6399-8f67-4c34-b244-659e02828608",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/awardees/four-three.webp",
           "type": "media",
-          "rightsId": "media-loc-accessible-award-criteria-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/criteria/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "The Worcester Talking Book Library in Worcester, Massachusetts, received the 2026 Subregional Library of the Year Award.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Library of Congress scheduled recognition for both programs at a July 22 luncheon in the Thomas Jefferson Building in Washington.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Established in 2004, the awards recognize libraries in the National Library Service network for support of the program's mission, innovation in service and high reader satisfaction.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NLS and its cooperating network provide accessible reading materials to eligible patrons. The awards distinguish the performance of individual network libraries rather than ranking every public-library service in the two states.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists mission support, service innovation and reader satisfaction as award criteria.",
           "caption": "The awards recognize mission support, service innovation and reader satisfaction in the NLS network.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://newsroom.loc.gov/news/library-of-congress-program-honors-accessible-libraries-in-georgia-and-massachusetts/s/573a6399-8f67-4c34-b244-659e02828608"
+          "rightsId": "media-loc-accessible-award-criteria-2026",
+          "sourceUrl": "https://newsroom.loc.gov/news/library-of-congress-program-honors-accessible-libraries-in-georgia-and-massachusetts/s/573a6399-8f67-4c34-b244-659e02828608",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/criteria/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "The regional and subregional labels describe different places in the NLS network. Georgia's statewide program and Worcester's local talking-book library therefore received separate award categories."
+          "text": "The regional and subregional labels describe different places in the NLS network. Georgia's statewide program and Worcester's local talking-book library therefore received separate award categories.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "An award is a qualitative recognition, not a national access metric. Evaluating service availability still requires patron enrollment, wait times, format availability, outreach and user feedback over time."
+          "text": "An award is a qualitative recognition, not a national access metric. Evaluating service availability still requires patron enrollment, wait times, format availability, outreach and user feedback over time.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The immediate public record identifies the honorees and award criteria. More detailed program comparisons would require the libraries' service data and documentation of the innovations considered by NLS."
+          "text": "The immediate public record identifies the honorees and award criteria. More detailed program comparisons would require the libraries' service data and documentation of the innovations considered by NLS.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/library-congress-accessible-library-awards-georgia-massachusetts-2026/",
       "citations": [
         {
           "id": "source-loc-accessible-library-awards-20260722",
-          "title": "Library of Congress Program Honors Accessible Libraries in Georgia and Massachusetts",
-          "publisher": "Library of Congress",
           "publishedAt": "2026-07-22T12:00:00Z",
+          "publisher": "Library of Congress",
+          "title": "Library of Congress Program Honors Accessible Libraries in Georgia and Massachusetts",
           "url": "https://newsroom.loc.gov/news/library-of-congress-program-honors-accessible-libraries-in-georgia-and-massachusetts/s/573a6399-8f67-4c34-b244-659e02828608"
         }
       ],
@@ -37343,9 +37343,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-10T15:49:03.460Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260810t074930z-be1bd1000061",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -37373,7 +37373,7 @@
         "The release does not provide comparative performance metrics for every network library.",
         "Award recognition does not by itself measure statewide availability for every eligible reader."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-10T15:49:03.460Z"
     },
     {
       "articleType": "news-report",
@@ -37383,71 +37383,71 @@
       "body": "Elevated levels of a group of circular RNA molecules in blood were associated with nearly three times the risk of progressing to symptomatic Alzheimer’s disease in an NIH-funded study.\n\nCircular RNAs are stable loops of genetic material. Unlike amyloid plaques, which can accumulate slowly for years, their levels may reflect more recent biological activity.\n\nResearchers analyzed blood data from more than 1,200 people across multiple independent cohorts. They identified 34 circular RNAs associated with Alzheimer’s disease.\n\nA model using those 34 molecules identified Alzheimer’s pathology about as well as a model based on pTau217, a leading protein blood biomarker.\n\nThe difference appeared in forecasting progression. NIH said the circular-RNA model was better at predicting who would develop symptoms, with the RNA levels diverging from normal about two to four years before onset.\n\nThe researchers reported similar findings in samples from two independent cohorts. Replication across cohorts strengthens the result but does not substitute for prospective clinical validation.\n\nThe work could help select participants for prevention trials or monitor response to treatments. Those are research uses; the study does not establish that the model improves patient outcomes.\n\nNo clinical circular-RNA assay is available from this report. Researchers are working with commercial partners on translatable tests, and performance in routine care may differ from performance in study cohorts.\n\nThe nearly threefold figure is a relative risk estimate, not a certainty that an individual will develop symptoms. Useful next evidence includes prespecified prospective testing, absolute-risk calibration and comparison across populations before clinical adoption.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Elevated levels of a group of circular RNA molecules in blood were associated with nearly three times the risk of progressing to symptomatic Alzheimer’s disease in an NIH-funded study."
+          "text": "Elevated levels of a group of circular RNA molecules in blood were associated with nearly three times the risk of progressing to symptomatic Alzheimer’s disease in an NIH-funded study.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Circular RNAs are stable loops of genetic material. Unlike amyloid plaques, which can accumulate slowly for years, their levels may reflect more recent biological activity."
+          "text": "Circular RNAs are stable loops of genetic material. Unlike amyloid plaques, which can accumulate slowly for years, their levels may reflect more recent biological activity.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-nih-alzheimers-circrna-cohort-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/cohort/four-three.webp",
           "alt": "Graphic lists more than 1200 participants, multiple cohorts and 34 circular RNAs associated with Alzheimer's.",
           "caption": "Researchers analyzed blood data from more than 1,200 people across multiple independent cohorts and identified 34 circular RNAs associated with Alzheimer’s disease.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner"
-        },
-        {
-          "type": "paragraph",
-          "text": "Researchers analyzed blood data from more than 1,200 people across multiple independent cohorts. They identified 34 circular RNAs associated with Alzheimer’s disease."
-        },
-        {
-          "type": "paragraph",
-          "text": "A model using those 34 molecules identified Alzheimer’s pathology about as well as a model based on pTau217, a leading protein blood biomarker."
-        },
-        {
-          "type": "paragraph",
-          "text": "The difference appeared in forecasting progression. NIH said the circular-RNA model was better at predicting who would develop symptoms, with the RNA levels diverging from normal about two to four years before onset."
-        },
-        {
-          "type": "paragraph",
-          "text": "The researchers reported similar findings in samples from two independent cohorts. Replication across cohorts strengthens the result but does not substitute for prospective clinical validation."
-        },
-        {
+          "rightsId": "media-nih-alzheimers-circrna-cohort-2026",
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/cohort/four-three.webp",
           "type": "media",
-          "rightsId": "media-nih-alzheimers-circrna-window-2026",
-          "src": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/window/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Researchers analyzed blood data from more than 1,200 people across multiple independent cohorts. They identified 34 circular RNAs associated with Alzheimer’s disease.",
+          "type": "paragraph"
+        },
+        {
+          "text": "A model using those 34 molecules identified Alzheimer’s pathology about as well as a model based on pTau217, a leading protein blood biomarker.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The difference appeared in forecasting progression. NIH said the circular-RNA model was better at predicting who would develop symptoms, with the RNA levels diverging from normal about two to four years before onset.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The researchers reported similar findings in samples from two independent cohorts. Replication across cohorts strengthens the result but does not substitute for prospective clinical validation.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists a two-to-four-year window and nearly threefold estimated symptom risk.",
           "caption": "The circular-RNA pattern diverged from normal about two to four years before symptoms and nearly tripled estimated symptom risk.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner"
+          "rightsId": "media-nih-alzheimers-circrna-window-2026",
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/window/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "The work could help select participants for prevention trials or monitor response to treatments. Those are research uses; the study does not establish that the model improves patient outcomes."
+          "text": "The work could help select participants for prevention trials or monitor response to treatments. Those are research uses; the study does not establish that the model improves patient outcomes.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "No clinical circular-RNA assay is available from this report. Researchers are working with commercial partners on translatable tests, and performance in routine care may differ from performance in study cohorts."
+          "text": "No clinical circular-RNA assay is available from this report. Researchers are working with commercial partners on translatable tests, and performance in routine care may differ from performance in study cohorts.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The nearly threefold figure is a relative risk estimate, not a certainty that an individual will develop symptoms. Useful next evidence includes prespecified prospective testing, absolute-risk calibration and comparison across populations before clinical adoption."
+          "text": "The nearly threefold figure is a relative risk estimate, not a certainty that an individual will develop symptoms. Useful next evidence includes prespecified prospective testing, absolute-risk calibration and comparison across populations before clinical adoption.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/alzheimers-circular-rna-blood-biomarkers-symptom-risk-2026/",
       "citations": [
         {
           "id": "source-nih-alzheimers-circrna-20260701",
-          "title": "New Alzheimer’s blood test may tell when symptoms are around the corner",
-          "publisher": "National Institutes of Health",
           "publishedAt": "2026-07-01T12:00:00Z",
+          "publisher": "National Institutes of Health",
+          "title": "New Alzheimer’s blood test may tell when symptoms are around the corner",
           "url": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner"
         }
       ],
@@ -37492,9 +37492,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-10T15:49:03.460Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260810t074930z-be1bd1000061",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -37522,26 +37522,26 @@
         "The study does not provide an approved clinical test.",
         "Relative risk does not establish an individual's absolute risk, and prospective validation is needed."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-10T15:49:03.460Z"
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-10T15:38:52.795Z",
+  "generatedAt": "2026-08-10T15:50:02.598Z",
   "inputHashes": {
-    "sourceItems": "0e5985a5685cb4a78d48787d31e96f4d2338fa23bdfc564611152326443845e5",
-    "events": "f18c31f73c75ffb6ffec70224a848b302fe44831e6785f23ff77818f270bd975",
-    "claims": "8bd4839ddd4b085b48ddb4b9c7b810a39c39b338770a2333f9287d003c67de7f",
-    "articles": "2e75249ab6e4f788b4203891a94dd84a4548573e7d9ef712e23fc25aaf702b75",
     "approvals": "b261baf03d758b449bee8e3c4ee48e54f248f4a9a38caef3e0279bfebf17df26",
+    "articles": "2e75249ab6e4f788b4203891a94dd84a4548573e7d9ef712e23fc25aaf702b75",
+    "claims": "8bd4839ddd4b085b48ddb4b9c7b810a39c39b338770a2333f9287d003c67de7f",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "events": "f18c31f73c75ffb6ffec70224a848b302fe44831e6785f23ff77818f270bd975",
     "mediaRights": "1a38425f20d8daec60d15286cfec1e342b79bdd542a47e6f6d8f59d134f4942f",
-    "releaseRecords": "c9891141675a622a7ee073328b562092674bf6b772d34c6ff66a0778a4aeae88",
-    "publicationIntents": "7a2daf38b7dad32c103cb79ffe44891a6bb59cc42b5fdeb55fefecbf3db5d52f"
+    "publicationIntents": "7a2daf38b7dad32c103cb79ffe44891a6bb59cc42b5fdeb55fefecbf3db5d52f",
+    "releaseRecords": "59768e3ea01fc31acca18c6d6851ebac0acc6e6b87abe3fa07583949f7bfe8d9",
+    "sourceItems": "0e5985a5685cb4a78d48787d31e96f4d2338fa23bdfc564611152326443845e5"
   },
   "inventory": {
     "articleCount": 219,
-    "routeCount": 219,
-    "mediaCount": 643
+    "mediaCount": 643,
+    "routeCount": 219
   },
   "mediaRights": [
     {
@@ -86344,6 +86344,7 @@
       "sourceUrl": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner"
     }
   ],
+  "packageDigest": "1753378c6d316e007977c61de153548b5b54672cb1a38fd07e5e8a5d6665888e",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -87741,10 +87742,40 @@
       "releaseId": "release-pb-20260810t065029z-cccbc6c948cd-6584626af79b",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://8523e3ed.bohonews.pages.dev/",
+      "activationEvidenceHash": "6028e7a5bf3e464f85be544035c370653a478d30f063907834fd174ab3ace551",
+      "canonicalFirstPublicAt": "2026-08-10T15:49:03.460Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-va-disability-ai-modernization-15-open-actions-2026/",
+        "https://bohonews.com/articles/bjs-violent-offense-rate-370-8-per-100000-2024/",
+        "https://bohonews.com/articles/gao-277-open-recommendations-congress-2026/",
+        "https://bohonews.com/articles/2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula/",
+        "https://bohonews.com/articles/library-congress-accessible-library-awards-georgia-massachusetts-2026/",
+        "https://bohonews.com/articles/alzheimers-circular-rna-blood-biomarkers-symptom-risk-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-va-disability-ai-modernization-15-open-actions-2026",
+        "article-bjs-violent-offense-rate-370-8-per-100000-2024",
+        "article-gao-277-open-recommendations-congress-2026",
+        "article-2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula",
+        "article-library-congress-accessible-library-awards-georgia-massachusetts-2026",
+        "article-alzheimers-circular-rna-blood-biomarkers-symptom-risk-2026"
+      ],
+      "previousVerifiedDeploymentReference": "36657dab04e37509afe07fd74ec2a47e7d38b5172e10c9233ee35bad056558d0",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T15:45:47.382201Z",
+      "recordHash": "2b712a35bafceb38028ae4095104051b8e33cca4c44f9af47ee4ec5b8bd4d13a",
+      "releaseId": "release-pb-20260810t074930z-be1bd1000061",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
-  "releaseState": "candidate",
+  "releaseState": "final",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com",
-  "packageDigest": "3b25c519b6dd7af779607d6b18768afb0d3c9b57fbab10b746f77959651859d3"
+  "site": "https://bohonews.com"
 }
