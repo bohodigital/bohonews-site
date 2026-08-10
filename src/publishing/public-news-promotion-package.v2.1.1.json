@@ -37523,25 +37523,918 @@
         "Relative risk does not establish an individual's absolute risk, and prospective validation is needed."
       ],
       "updatedAt": "2026-08-10T15:49:03.460Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Department of Veterans Affairs and the Centers for Medicare & Medicaid Services reported a combined $24.3 billion in estimated improper payments across two health programs in fiscal 2025, according to the Government Accountability Office.\n\nVA estimated $608 million in improper payments in Community Care, equal to 2.4% of that program's outlays. CMS estimated $23.7 billion in improper payments in Medicare Advantage, or 6.1% of outlays.\n\nAn improper payment is not automatically fraud. The category can include overpayments, underpayments, payments made without enough documentation and other errors; GAO assessed payment-error controls and fraud risk as related but distinct issues.\n\nGAO found that both agencies had processes to identify root causes of improper payments. VA also had corrective-action plans that the watchdog said adequately addressed identified causes for the years reviewed.\n\nCMS's Medicare Advantage improper-payment rate had remained steady, GAO said. Its corrective plans were not detailed enough, and the agency lacked a detailed plan to clear a backlog of Risk Adjustment Data Validation audits used to identify and recover improper payments.\n\nNeither agency had completed a comprehensive fraud-risk assessment for the program GAO reviewed. VA had taken some fraud-risk steps, but GAO said they did not cover all key elements of its framework.\n\nGAO issued three recommendations: VA should conduct a comprehensive Community Care fraud-risk assessment, while CMS should create a detailed RADV-audit plan and conduct a Medicare Advantage fraud-risk assessment. All three were open when GAO published the report.\n\nVA concurred with its recommendation. CMS neither agreed nor disagreed with its two recommendations and described actions it believed addressed them; GAO maintained that additional action was warranted.\n\nThe accountability measures are whether the agencies complete the assessments, reduce the audit backlog and publish evidence that corrective plans lower error rates. The reported improper-payment estimates do not establish the amount lost to fraud or the amount that can be recovered.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Department of Veterans Affairs and the Centers for Medicare & Medicaid Services reported a combined $24.3 billion in estimated improper payments across two health programs in fiscal 2025, according to the Government Accountability Office."
+        },
+        {
+          "type": "paragraph",
+          "text": "VA estimated $608 million in improper payments in Community Care, equal to 2.4% of that program's outlays. CMS estimated $23.7 billion in improper payments in Medicare Advantage, or 6.1% of outlays."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-program-integrity-payment-estimates-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/payment-estimates/four-three.webp",
+          "alt": "Graphic lists 608 million dollars for VA Community Care and 23.7 billion dollars for Medicare Advantage.",
+          "caption": "Fiscal 2025 improper-payment estimates were $608 million for VA Community Care and $23.7 billion for Medicare Advantage.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107946"
+        },
+        {
+          "type": "paragraph",
+          "text": "An improper payment is not automatically fraud. The category can include overpayments, underpayments, payments made without enough documentation and other errors; GAO assessed payment-error controls and fraud risk as related but distinct issues."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO found that both agencies had processes to identify root causes of improper payments. VA also had corrective-action plans that the watchdog said adequately addressed identified causes for the years reviewed."
+        },
+        {
+          "type": "paragraph",
+          "text": "CMS's Medicare Advantage improper-payment rate had remained steady, GAO said. Its corrective plans were not detailed enough, and the agency lacked a detailed plan to clear a backlog of Risk Adjustment Data Validation audits used to identify and recover improper payments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Neither agency had completed a comprehensive fraud-risk assessment for the program GAO reviewed. VA had taken some fraud-risk steps, but GAO said they did not cover all key elements of its framework."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-program-integrity-open-actions-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/open-actions/four-three.webp",
+          "alt": "Graphic lists three open GAO recommendations, one for VA and two for CMS.",
+          "caption": "GAO made three open recommendations: one to VA and two to CMS.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107946"
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO issued three recommendations: VA should conduct a comprehensive Community Care fraud-risk assessment, while CMS should create a detailed RADV-audit plan and conduct a Medicare Advantage fraud-risk assessment. All three were open when GAO published the report."
+        },
+        {
+          "type": "paragraph",
+          "text": "VA concurred with its recommendation. CMS neither agreed nor disagreed with its two recommendations and described actions it believed addressed them; GAO maintained that additional action was warranted."
+        },
+        {
+          "type": "paragraph",
+          "text": "The accountability measures are whether the agencies complete the assessments, reduce the audit backlog and publish evidence that corrective plans lower error rates. The reported improper-payment estimates do not establish the amount lost to fraud or the amount that can be recovered."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-improper-payments-va-medicare-24-billion-2026/",
+      "citations": [
+        {
+          "id": "source-gao-program-integrity-20260721",
+          "title": "Program Integrity: Actions Needed to Reduce Improper Payment and Fraud Risks in VA Community Care and Medicare Advantage",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-07-21T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-107946"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "VA Community Care reported $608 million in estimated improper payments for fiscal 2025.",
+        "Medicare Advantage reported $23.7 billion in estimated improper payments.",
+        "The rates were 2.4% and 6.1% of program outlays, respectively.",
+        "Neither program had a comprehensive fraud-risk assessment.",
+        "GAO made three recommendations, all open at publication."
+      ],
+      "corrections": [],
+      "dek": "VA Community Care and Medicare Advantage reported improper-payment estimates of $608 million and $23.7 billion for fiscal 2025; GAO says both lack comprehensive fraud-risk assessments.",
+      "desk": "federal-health-program-integrity",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Department of Veterans Affairs",
+        "Centers for Medicare & Medicaid Services"
+      ],
+      "eventId": "event-gao-improper-payments-va-medicare-24-billion-2026",
+      "headline": "GAO Reports $24.3 Billion in Estimated Improper Payments",
+      "id": "article-gao-improper-payments-va-medicare-24-billion-2026",
+      "leadImage": {
+        "alt": "Medical exam room with an examination table, chair, counter and clinical equipment.",
+        "caption": "A medical exam room. GAO reviewed improper-payment and fraud-risk controls in VA Community Care and Medicare Advantage.",
+        "credit": "Tony Webster / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-gao-program-integrity-exam-room-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/exam-room/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO reports $24.3 billion in fiscal 2025 improper-payment estimates across VA Community Care and Medicare Advantage.",
+        "index": true,
+        "title": "GAO: $24.3B in health-program improper-payment estimates"
+      },
+      "section": "investigations",
+      "slug": "gao-improper-payments-va-medicare-24-billion-2026",
+      "social": {
+        "description": "VA Community Care and Medicare Advantage reported improper-payment estimates of $608 million and $23.7 billion for fiscal 2025; GAO says both lack comprehensive fraud-risk assessments.",
+        "image": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/exam-room/open-graph.webp",
+        "title": "GAO Reports $24.3 Billion in Estimated Improper Payments"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Improper payments",
+        "Program integrity",
+        "Medicare Advantage",
+        "VA Community Care",
+        "Fraud-risk assessment"
+      ],
+      "uncertainty": [
+        "Improper-payment estimates are not estimates of fraud losses.",
+        "Future recovery and error-rate reductions depend on agency implementation and audit results."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal courts sentenced people in 517 cases that the United States Sentencing Commission classified as national-defense offenses in fiscal 2025, 132% more than in fiscal 2021.\n\nThose cases were 0.8% of the 66,662 cases reported to the commission for the year. The category is broader than espionage or terrorism and depends on the sentencing guideline or conduct assigned to each case.\n\nUSSC says national-defense cases include offenses under the guideline chapter for national defense and weapons of mass destruction, other guideline cases involving conduct that threatens national defense and cases receiving the terrorism sentencing adjustment.\n\nA 2025 classification change is central to the trend. In April 2025, portions of the U.S.-Mexico border were designated National Defense Areas, and USSC assigned some convictions for illegally entering those locations under 50 U.S.C. § 797 to the national-defense crime type.\n\nThe Western District of Texas accounted for 252 cases, followed by the Southern District of Texas with 66, Arizona with 51, Northern Alabama with 49 and Middle Florida with 13.\n\nEighty-five percent of people sentenced in the category received prison terms. The average sentence was 21 months, but averages varied sharply by offense and by whether the terrorism adjustment applied.\n\nThe average was 24 months for unauthorized arms-export cases, 23 months for export-control and terrorism-financing cases, and 111 months for support-to-terrorism cases. People receiving the terrorism adjustment averaged 196 months.\n\nThe quick-facts sheet describes sentenced federal cases, not arrests, intelligence investigations or a count of unique threats. It also excludes cases with incomplete sentencing information from some demographic calculations.\n\nThe 132% increase therefore needs classification context. A useful follow-up is to separate the 2025 National Defense Area cases from the longer-running national-security categories before interpreting the change as a shift in underlying conduct.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Federal courts sentenced people in 517 cases that the United States Sentencing Commission classified as national-defense offenses in fiscal 2025, 132% more than in fiscal 2021."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those cases were 0.8% of the 66,662 cases reported to the commission for the year. The category is broader than espionage or terrorism and depends on the sentencing guideline or conduct assigned to each case."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-ussc-national-defense-case-count-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/case-count/four-three.webp",
+          "alt": "Graphic lists 517 national-defense cases, 66,662 total cases and a 132 percent increase since fiscal 2021.",
+          "caption": "National-defense cases numbered 517 of 66,662 federal cases in fiscal 2025, up 132% from fiscal 2021.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/national-defense"
+        },
+        {
+          "type": "paragraph",
+          "text": "USSC says national-defense cases include offenses under the guideline chapter for national defense and weapons of mass destruction, other guideline cases involving conduct that threatens national defense and cases receiving the terrorism sentencing adjustment."
+        },
+        {
+          "type": "paragraph",
+          "text": "A 2025 classification change is central to the trend. In April 2025, portions of the U.S.-Mexico border were designated National Defense Areas, and USSC assigned some convictions for illegally entering those locations under 50 U.S.C. § 797 to the national-defense crime type."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Western District of Texas accounted for 252 cases, followed by the Southern District of Texas with 66, Arizona with 51, Northern Alabama with 49 and Middle Florida with 13."
+        },
+        {
+          "type": "paragraph",
+          "text": "Eighty-five percent of people sentenced in the category received prison terms. The average sentence was 21 months, but averages varied sharply by offense and by whether the terrorism adjustment applied."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-ussc-national-defense-sentences-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/sentences/four-three.webp",
+          "alt": "Graphic lists 85 percent receiving prison and an average sentence of 21 months.",
+          "caption": "Eighty-five percent received prison sentences, with an average sentence of 21 months across the category.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/national-defense"
+        },
+        {
+          "type": "paragraph",
+          "text": "The average was 24 months for unauthorized arms-export cases, 23 months for export-control and terrorism-financing cases, and 111 months for support-to-terrorism cases. People receiving the terrorism adjustment averaged 196 months."
+        },
+        {
+          "type": "paragraph",
+          "text": "The quick-facts sheet describes sentenced federal cases, not arrests, intelligence investigations or a count of unique threats. It also excludes cases with incomplete sentencing information from some demographic calculations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 132% increase therefore needs classification context. A useful follow-up is to separate the 2025 National Defense Area cases from the longer-running national-security categories before interpreting the change as a shift in underlying conduct."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/ussc-national-defense-cases-517-fiscal-2025/",
+      "citations": [
+        {
+          "id": "source-ussc-national-defense-fy2025",
+          "title": "National Defense Quick Facts",
+          "publisher": "United States Sentencing Commission",
+          "publishedAt": "2026-07-01T12:00:00Z",
+          "url": "https://www.ussc.gov/research/quick-facts/national-defense"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "USSC counted 517 national-defense cases in fiscal 2025.",
+        "The category rose 132% from fiscal 2021.",
+        "The 517 cases were part of 66,662 total cases.",
+        "The Western District of Texas accounted for 252 cases.",
+        "Eighty-five percent received prison sentences and the average sentence was 21 months."
+      ],
+      "corrections": [],
+      "dek": "The category rose 132% from fiscal 2021, but the Sentencing Commission says a 2025 border designation brought some illegal-entry convictions into the count.",
+      "desk": "federal-sentencing-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Sentencing Commission",
+        "U.S. District Court for the Western District of Texas"
+      ],
+      "eventId": "event-ussc-national-defense-cases-517-fiscal-2025",
+      "headline": "USSC Counts 517 National-Defense Cases in Fiscal 2025",
+      "id": "article-ussc-national-defense-cases-517-fiscal-2025",
+      "leadImage": {
+        "alt": "Stone federal courthouse with broad steps and columns in Washington, D.C.",
+        "caption": "The E. Barrett Prettyman United States Courthouse in Washington. The Sentencing Commission counted 517 national-defense cases in fiscal 2025.",
+        "credit": "Ajay Suresh / Wikimedia Commons, CC BY 4.0",
+        "height": 900,
+        "rightsId": "media-ussc-national-defense-courthouse-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/courthouse/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Texas",
+        "Arizona",
+        "Alabama",
+        "Florida"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "USSC counted 517 national-defense cases in fiscal 2025, up 132% from 2021, with a border classification change shaping the total.",
+        "index": true,
+        "title": "USSC counted 517 national-defense cases in fiscal 2025"
+      },
+      "section": "crime-justice",
+      "slug": "ussc-national-defense-cases-517-fiscal-2025",
+      "social": {
+        "description": "The category rose 132% from fiscal 2021, but the Sentencing Commission says a 2025 border designation brought some illegal-entry convictions into the count.",
+        "image": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/courthouse/open-graph.webp",
+        "title": "USSC Counts 517 National-Defense Cases in Fiscal 2025"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal sentencing",
+        "National-defense offenses",
+        "Sentencing Commission",
+        "National Defense Areas",
+        "Guideline data"
+      ],
+      "uncertainty": [
+        "The category includes some 2025 border-entry convictions because of National Defense Area designations.",
+        "Case totals do not measure arrests, investigations or a single homogeneous type of conduct."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Two methods for measuring the lifetime cost of federal credit programs produce estimates that differ by $67.2 billion for loans and guarantees projected in fiscal 2027, the Congressional Budget Office reported.\n\nProcedures under the Federal Credit Reform Act, the method used in the federal budget, show $15.3 billion in lifetime savings. CBO's fair-value method instead shows a $51.9 billion lifetime cost.\n\nBoth estimates use projected cash flows. The fair-value approach adds a market-risk premium, while the FCRA approach discounts projected cash flows using Treasury rates.\n\nCBO analyzed 94 programs projected to provide $1.9 trillion in credit assistance: $216 billion in direct loans and $1.7 trillion in loan guarantees.\n\nMortgage guarantees and student loans account for 87% of the total. Fannie Mae and Freddie Mac alone are projected to provide $1 trillion in new mortgage-backed-security guarantees.\n\nNearly two-thirds of the gap between the methods comes from Fannie and Freddie guarantees, Housing and Urban Development programs, and Department of Education student loans.\n\nFor Fannie and Freddie, FCRA shows $12.5 billion in savings while fair value shows a $3.9 billion cost. HUD credit shifts from $8.7 billion in savings to an $8.1 billion cost, and student-loan costs rise from $3.6 billion to $13.7 billion.\n\nThe estimates are projections, not current cash balances. Policy changes, updated data, estimating methods, economic conditions and the characteristics of borrowers can all change projected loan volumes and cash flows.\n\nCBO says fair value is more comprehensive for comparing policy trade-offs because it includes market risk, while FCRA remains the statutory budget measure. The $67.2 billion gap describes a measurement choice, not an accounting error.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Two methods for measuring the lifetime cost of federal credit programs produce estimates that differ by $67.2 billion for loans and guarantees projected in fiscal 2027, the Congressional Budget Office reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "Procedures under the Federal Credit Reform Act, the method used in the federal budget, show $15.3 billion in lifetime savings. CBO's fair-value method instead shows a $51.9 billion lifetime cost."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cbo-federal-credit-methods-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/methods/four-three.webp",
+          "alt": "Graphic compares 15.3 billion dollars in projected FCRA savings with a 51.9 billion dollar fair-value cost.",
+          "caption": "FCRA procedures project $15.3 billion in lifetime savings; fair value projects a $51.9 billion lifetime cost.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cbo.gov/publication/62594"
+        },
+        {
+          "type": "paragraph",
+          "text": "Both estimates use projected cash flows. The fair-value approach adds a market-risk premium, while the FCRA approach discounts projected cash flows using Treasury rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "CBO analyzed 94 programs projected to provide $1.9 trillion in credit assistance: $216 billion in direct loans and $1.7 trillion in loan guarantees."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mortgage guarantees and student loans account for 87% of the total. Fannie Mae and Freddie Mac alone are projected to provide $1 trillion in new mortgage-backed-security guarantees."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nearly two-thirds of the gap between the methods comes from Fannie and Freddie guarantees, Housing and Urban Development programs, and Department of Education student loans."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cbo-federal-credit-volume-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/volume/four-three.webp",
+          "alt": "Graphic lists 94 programs and 1.9 trillion dollars in projected federal credit assistance for 2027.",
+          "caption": "CBO analyzed 94 programs projected to provide $1.9 trillion in new loans and guarantees in 2027.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cbo.gov/publication/62594"
+        },
+        {
+          "type": "paragraph",
+          "text": "For Fannie and Freddie, FCRA shows $12.5 billion in savings while fair value shows a $3.9 billion cost. HUD credit shifts from $8.7 billion in savings to an $8.1 billion cost, and student-loan costs rise from $3.6 billion to $13.7 billion."
+        },
+        {
+          "type": "paragraph",
+          "text": "The estimates are projections, not current cash balances. Policy changes, updated data, estimating methods, economic conditions and the characteristics of borrowers can all change projected loan volumes and cash flows."
+        },
+        {
+          "type": "paragraph",
+          "text": "CBO says fair value is more comprehensive for comparing policy trade-offs because it includes market risk, while FCRA remains the statutory budget measure. The $67.2 billion gap describes a measurement choice, not an accounting error."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/cbo-federal-credit-cost-methods-67-billion-gap-2027/",
+      "citations": [
+        {
+          "id": "source-cbo-federal-credit-2027",
+          "title": "Estimates of the Cost of Federal Credit Programs in 2027",
+          "publisher": "Congressional Budget Office",
+          "publishedAt": "2026-07-28T12:00:00Z",
+          "url": "https://www.cbo.gov/publication/62594"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "CBO analyzed 94 federal credit programs.",
+        "Projected 2027 credit assistance totals $1.9 trillion.",
+        "FCRA projects $15.3 billion in lifetime savings.",
+        "Fair value projects a $51.9 billion lifetime cost.",
+        "Mortgage guarantees and student loans account for 87% of projected credit assistance."
+      ],
+      "corrections": [],
+      "dek": "The budget method projects $15.3 billion in lifetime savings, while a fair-value method that accounts for market risk projects a $51.9 billion cost.",
+      "desk": "federal-budget-methods",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Congressional Budget Office",
+        "Fannie Mae",
+        "Freddie Mac",
+        "Department of Education"
+      ],
+      "eventId": "event-cbo-federal-credit-cost-methods-67-billion-gap-2027",
+      "headline": "CBO’s Two Cost Methods Differ by $67.2 Billion for 2027 Federal Credit",
+      "id": "article-cbo-federal-credit-cost-methods-67-billion-gap-2027",
+      "leadImage": {
+        "alt": "Single metal house key resting on a dark surface.",
+        "caption": "A house key. Mortgage guarantees and student loans make up most of the federal credit assistance CBO analyzed for 2027.",
+        "credit": "Linuxerist~commonswiki / Wikimedia Commons, CC BY-SA 3.0",
+        "height": 900,
+        "rightsId": "media-cbo-federal-credit-house-key-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/house-key/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "CBO's FCRA and fair-value methods differ by $67.2 billion on the lifetime cost of federal loans and guarantees projected for 2027.",
+        "index": true,
+        "title": "CBO finds $67.2B gap between federal credit cost methods"
+      },
+      "section": "politics",
+      "slug": "cbo-federal-credit-cost-methods-67-billion-gap-2027",
+      "social": {
+        "description": "The budget method projects $15.3 billion in lifetime savings, while a fair-value method that accounts for market risk projects a $51.9 billion cost.",
+        "image": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/house-key/open-graph.webp",
+        "title": "CBO’s Two Cost Methods Differ by $67.2 Billion for 2027 Federal Credit"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal credit programs",
+        "Congressional Budget Office",
+        "Fair value",
+        "Federal Credit Reform Act",
+        "Budget estimates"
+      ],
+      "uncertainty": [
+        "The figures are lifetime projections for 2027 lending, not realized cash results.",
+        "Economic conditions, policy changes and updated data can change projected costs."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The U.S. National Science Foundation has launched Project Triad, an initiative intended to integrate quantum sensing, quantum networking and quantum computing into one operational research system.\n\nThe three domains perform different jobs. Sensors collect information using quantum effects, networks transfer quantum information, and computers process it. Project Triad's central technical goal is to preserve quantum coherence as information moves through the system.\n\nNSF says the National Quantum Virtual Laboratory will deliver a proof-of-concept integrated system for experimentation and testing. NQVL is in its design phase.\n\nThe agency plans to accelerate several NQVL projects from design into implementation by December 2026, subject to funding availability. That date is a program target, not evidence that an integrated system already operates.\n\nNSF X-Labs will organize independent teams of researchers, engineers and entrepreneurs around milestone-based challenges. Interconnects and photonics are among the technologies needed to move quantum information between devices.\n\nA third component, NSF Quantum+X, is meant to work with industry on use cases. NSF is seeking partnerships for initial tracks that could include energy, finance, biotechnology and pharmaceuticals.\n\nNSF describes possible future applications in navigation without satellite access, underground-resource detection and medical imaging. Those examples are prospective and do not establish that Project Triad has demonstrated them.\n\nThe project joins government, universities and private industry around a shared test environment. It also draws on existing NSF quantum institutes, engineering centers and research-infrastructure programs rather than replacing them.\n\nThe next evidence checkpoints are funded NQVL implementations, interfaces that preserve coherence across sensing, transmission and computation, and independently measured performance on selected use cases. The launch announcement defines a program architecture, not a commercial product.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The U.S. National Science Foundation has launched Project Triad, an initiative intended to integrate quantum sensing, quantum networking and quantum computing into one operational research system."
+        },
+        {
+          "type": "paragraph",
+          "text": "The three domains perform different jobs. Sensors collect information using quantum effects, networks transfer quantum information, and computers process it. Project Triad's central technical goal is to preserve quantum coherence as information moves through the system."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nsf-project-triad-domains-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/domains/four-three.webp",
+          "alt": "Graphic lists quantum sensing, quantum networking and quantum computing as three linked domains.",
+          "caption": "Project Triad is organized around three linked domains: quantum sensing, quantum networking and quantum computing.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+        },
+        {
+          "type": "paragraph",
+          "text": "NSF says the National Quantum Virtual Laboratory will deliver a proof-of-concept integrated system for experimentation and testing. NQVL is in its design phase."
+        },
+        {
+          "type": "paragraph",
+          "text": "The agency plans to accelerate several NQVL projects from design into implementation by December 2026, subject to funding availability. That date is a program target, not evidence that an integrated system already operates."
+        },
+        {
+          "type": "paragraph",
+          "text": "NSF X-Labs will organize independent teams of researchers, engineers and entrepreneurs around milestone-based challenges. Interconnects and photonics are among the technologies needed to move quantum information between devices."
+        },
+        {
+          "type": "paragraph",
+          "text": "A third component, NSF Quantum+X, is meant to work with industry on use cases. NSF is seeking partnerships for initial tracks that could include energy, finance, biotechnology and pharmaceuticals."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nsf-project-triad-programs-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/programs/four-three.webp",
+          "alt": "Graphic lists the National Quantum Virtual Laboratory, NSF X-Labs and NSF Quantum plus X.",
+          "caption": "NSF identifies three program components: NQVL, X-Labs and Quantum+X.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+        },
+        {
+          "type": "paragraph",
+          "text": "NSF describes possible future applications in navigation without satellite access, underground-resource detection and medical imaging. Those examples are prospective and do not establish that Project Triad has demonstrated them."
+        },
+        {
+          "type": "paragraph",
+          "text": "The project joins government, universities and private industry around a shared test environment. It also draws on existing NSF quantum institutes, engineering centers and research-infrastructure programs rather than replacing them."
+        },
+        {
+          "type": "paragraph",
+          "text": "The next evidence checkpoints are funded NQVL implementations, interfaces that preserve coherence across sensing, transmission and computation, and independently measured performance on selected use cases. The launch announcement defines a program architecture, not a commercial product."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nsf-project-triad-quantum-sensors-networks-computers-2026/",
+      "citations": [
+        {
+          "id": "source-nsf-project-triad-20260707",
+          "title": "NSF launches Project Triad to advance quantum technology for real-world applications",
+          "publisher": "U.S. National Science Foundation",
+          "publishedAt": "2026-07-07T12:00:00Z",
+          "url": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Project Triad links quantum sensing, networking and computing.",
+        "NQVL is assigned to deliver a proof-of-concept integrated system.",
+        "NQVL is currently in the design phase.",
+        "NSF aims to move several NQVL projects into implementation by December 2026, pending funding.",
+        "X-Labs and Quantum+X are the other two program components."
+      ],
+      "corrections": [],
+      "dek": "The initiative would integrate quantum sensing, networking and computing, with a proof-of-concept system planned through the National Quantum Virtual Laboratory.",
+      "desk": "quantum-systems-integration",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. National Science Foundation",
+        "National Quantum Virtual Laboratory",
+        "NSF X-Labs",
+        "NSF Quantum+X"
+      ],
+      "eventId": "event-nsf-project-triad-quantum-sensors-networks-computers-2026",
+      "headline": "NSF Project Triad Aims to Link Three Quantum Systems",
+      "id": "article-nsf-project-triad-quantum-sensors-networks-computers-2026",
+      "leadImage": {
+        "alt": "Quantum laboratory equipment surrounding a dilution refrigerator used for spin measurements.",
+        "caption": "A dilution-refrigerator experiment at Oak Ridge National Laboratory measures spin lifetime and coherence. NSF's Project Triad aims to integrate quantum sensing, networking and computing.",
+        "credit": "Oak Ridge National Laboratory / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-nsf-project-triad-quantum-lab-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/quantum-lab/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NSF Project Triad aims to integrate quantum sensing, networking and computing through NQVL, X-Labs and industry partnerships.",
+        "index": true,
+        "title": "NSF Project Triad links quantum sensors, networks and computers"
+      },
+      "section": "technology",
+      "slug": "nsf-project-triad-quantum-sensors-networks-computers-2026",
+      "social": {
+        "description": "The initiative would integrate quantum sensing, networking and computing, with a proof-of-concept system planned through the National Quantum Virtual Laboratory.",
+        "image": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/quantum-lab/open-graph.webp",
+        "title": "NSF Project Triad Aims to Link Three Quantum Systems"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Quantum technology",
+        "Quantum sensing",
+        "Quantum networking",
+        "Quantum computing",
+        "Research infrastructure"
+      ],
+      "uncertainty": [
+        "The integrated system has not yet been demonstrated in the launch announcement.",
+        "Implementation timing and scope depend on funding, technical milestones and partnerships."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "NASA's Goddard Earth Observing System model tracked wildfire-produced brown carbon across North America from July 14 through July 20, showing smoke moving through Canada and the United States.\n\nBrown carbon is organic aerosol emitted by fires and a component of wildfire PM2.5. It contributes to the yellow, orange and brown tint of smoke plumes.\n\nThe GEOS system assimilates observations from satellites, aircraft and ground instruments with temperature, moisture and wind data. The resulting animation is a model reconstruction, not a camera recording or a single satellite image.\n\nMore than 180 fires were active in Ontario on July 14, NASA reported, along with several in northern Minnesota. Winds carried smoke southeast by the following day.\n\nAir quality declined from southern Ontario into the Upper Midwest and Northeast. NASA said Detroit remained in the hazardous range for several consecutive days, while Toronto, Chicago, New York and Washington ranged from unhealthy to hazardous.\n\nSmoke continued to affect the Great Lakes region on July 19 and 20. Storms improved air quality in parts of the East as fires in the Pacific Northwest began degrading conditions there.\n\nThe brown-carbon field in the animation represents organic carbon specifically attributed to wildfire smoke. Wildfires also emit black carbon, but black carbon has substantial vehicle and industrial sources that complicate attribution.\n\nA NASA model update in February 2026 separated anthropogenic and biomass-burning organic carbon, allowing the animation to isolate wildfire brown carbon more directly than earlier versions.\n\nThe reconstruction explains where modeled smoke moved during one completed week; it is not a current forecast. Current health decisions require local official air-quality readings and advisories rather than the July animation.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "NASA's Goddard Earth Observing System model tracked wildfire-produced brown carbon across North America from July 14 through July 20, showing smoke moving through Canada and the United States."
+        },
+        {
+          "type": "paragraph",
+          "text": "Brown carbon is organic aerosol emitted by fires and a component of wildfire PM2.5. It contributes to the yellow, orange and brown tint of smoke plumes."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nasa-brown-carbon-window-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/window/four-three.webp",
+          "alt": "Graphic lists a model window from July 14 through July 20, 2026.",
+          "caption": "NASA's GEOS animation tracked wildfire brown carbon from July 14 through July 20, 2026.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/"
+        },
+        {
+          "type": "paragraph",
+          "text": "The GEOS system assimilates observations from satellites, aircraft and ground instruments with temperature, moisture and wind data. The resulting animation is a model reconstruction, not a camera recording or a single satellite image."
+        },
+        {
+          "type": "paragraph",
+          "text": "More than 180 fires were active in Ontario on July 14, NASA reported, along with several in northern Minnesota. Winds carried smoke southeast by the following day."
+        },
+        {
+          "type": "paragraph",
+          "text": "Air quality declined from southern Ontario into the Upper Midwest and Northeast. NASA said Detroit remained in the hazardous range for several consecutive days, while Toronto, Chicago, New York and Washington ranged from unhealthy to hazardous."
+        },
+        {
+          "type": "paragraph",
+          "text": "Smoke continued to affect the Great Lakes region on July 19 and 20. Storms improved air quality in parts of the East as fires in the Pacific Northwest began degrading conditions there."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nasa-brown-carbon-model-inputs-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/model-inputs/four-three.webp",
+          "alt": "Graphic lists satellite, aircraft, ground and weather data as inputs to the GEOS model.",
+          "caption": "GEOS assimilates satellite, aircraft and ground observations with meteorological data to reconstruct plume behavior.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/"
+        },
+        {
+          "type": "paragraph",
+          "text": "The brown-carbon field in the animation represents organic carbon specifically attributed to wildfire smoke. Wildfires also emit black carbon, but black carbon has substantial vehicle and industrial sources that complicate attribution."
+        },
+        {
+          "type": "paragraph",
+          "text": "A NASA model update in February 2026 separated anthropogenic and biomass-burning organic carbon, allowing the animation to isolate wildfire brown carbon more directly than earlier versions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The reconstruction explains where modeled smoke moved during one completed week; it is not a current forecast. Current health decisions require local official air-quality readings and advisories rather than the July animation."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nasa-brown-carbon-wildfire-smoke-july-2026/",
+      "citations": [
+        {
+          "id": "source-nasa-brown-carbon-20260722",
+          "title": "A Week of Smoky Skies Across North America",
+          "publisher": "NASA Earth Observatory",
+          "publishedAt": "2026-07-22T12:00:00Z",
+          "url": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The animation covers July 14-20, 2026.",
+        "GEOS assimilates satellite, aircraft, ground and meteorological data.",
+        "More than 180 fires were active in Ontario on July 14.",
+        "Brown carbon is a component of wildfire PM2.5.",
+        "A February 2026 model update separated wildfire and human-source organic carbon."
+      ],
+      "corrections": [],
+      "dek": "The GEOS reconstruction followed smoke from July 14-20 as air quality fell from southern Ontario through parts of the Midwest and Northeast.",
+      "desk": "wildfire-smoke-observation",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NASA Earth Observatory",
+        "NASA Global Modeling and Assimilation Office",
+        "Environment and Climate Change Canada"
+      ],
+      "eventId": "event-nasa-brown-carbon-wildfire-smoke-july-2026",
+      "headline": "NASA Model Tracked Wildfire Brown Carbon Across North America for a Week",
+      "id": "article-nasa-brown-carbon-wildfire-smoke-july-2026",
+      "leadImage": {
+        "alt": "Heavy wildfire smoke turns the sky orange above traffic and pedestrians on a Manhattan street.",
+        "caption": "Wildfire smoke shrouded 42nd Street in New York City in June 2023. NASA modeled a separate week of North American wildfire brown carbon in July 2026.",
+        "credit": "Marc A. Hermann / MTA, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-nasa-brown-carbon-wildfire-smoke-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/wildfire-smoke/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Canada",
+        "United States",
+        "Ontario",
+        "Great Lakes",
+        "New York City"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NASA's GEOS model reconstructed wildfire brown carbon across North America from July 14-20, 2026, as air quality deteriorated.",
+        "index": true,
+        "title": "NASA tracked wildfire brown carbon across North America"
+      },
+      "section": "weather-climate",
+      "slug": "nasa-brown-carbon-wildfire-smoke-july-2026",
+      "social": {
+        "description": "The GEOS reconstruction followed smoke from July 14-20 as air quality fell from southern Ontario through parts of the Midwest and Northeast.",
+        "image": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/wildfire-smoke/open-graph.webp",
+        "title": "NASA Model Tracked Wildfire Brown Carbon Across North America for a Week"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Wildfire smoke",
+        "Brown carbon",
+        "Air quality",
+        "GEOS model",
+        "PM2.5"
+      ],
+      "uncertainty": [
+        "The animation is a model reconstruction and not a direct measurement at every location.",
+        "The completed July event does not describe current air quality or forecast future smoke."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "International Monetary Fund staff projects Kazakhstan's economy will grow about 4.6% in 2026, while inflation remains around 10% and well above the central bank's 5% target.\n\nReal GDP expanded 3.7% in the first five months of 2026, down from 6.5% at the end of 2025. IMF staff attributed the moderation partly to lower oil production after an accident affecting the Caspian Pipeline Consortium.\n\nServices, transport, construction and manufacturing helped offset lower oil output. The 4.6% full-year projection assumes elevated oil prices counter slower household credit growth, stable oil output and fiscal consolidation.\n\nAnnual inflation fell from 12.9% in September 2025 to 10.4% in May 2026. The National Bank of Kazakhstan reduced its policy rate by 100 basis points in June after the decline and tighter liquidity.\n\nIMF staff said monetary policy should stay tight until inflation is firmly moving toward target. Utility-price adjustments, external price pressure and faster quasi-fiscal or capital spending could push inflation higher.\n\nThe current account is projected to shift from a deficit equal to 4.1% of GDP in 2025 to a marginal surplus in 2026 as stronger exports offset public-investment-related imports.\n\nInternational reserves cover about 10 months of imports, according to the staff statement. The banking sector was described as well capitalized, liquid and profitable overall, with low, provisioned nonperforming loans.\n\nRisks run in both directions. Strong domestic demand or higher import prices could reignite inflation, while global uncertainty, tighter financial conditions or pipeline disruption could weaken growth; sustained oil prices could strengthen buffers.\n\nThese are preliminary staff findings after a June 3-12 visit, not a decision by the IMF Executive Board. The next tests are official growth and inflation data, fiscal execution and whether policy keeps price growth on a durable path toward target.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "International Monetary Fund staff projects Kazakhstan's economy will grow about 4.6% in 2026, while inflation remains around 10% and well above the central bank's 5% target."
+        },
+        {
+          "type": "paragraph",
+          "text": "Real GDP expanded 3.7% in the first five months of 2026, down from 6.5% at the end of 2025. IMF staff attributed the moderation partly to lower oil production after an accident affecting the Caspian Pipeline Consortium."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-imf-kazakhstan-growth-inflation-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/growth-inflation/four-three.webp",
+          "alt": "Graphic lists projected growth of 4.6 percent and inflation around 10 percent in 2026.",
+          "caption": "IMF staff projects 4.6% growth and inflation around 10% for Kazakhstan in 2026.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/06/15/pr26207-kazakhstan-imf-staff-concludes-visit"
+        },
+        {
+          "type": "paragraph",
+          "text": "Services, transport, construction and manufacturing helped offset lower oil output. The 4.6% full-year projection assumes elevated oil prices counter slower household credit growth, stable oil output and fiscal consolidation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Annual inflation fell from 12.9% in September 2025 to 10.4% in May 2026. The National Bank of Kazakhstan reduced its policy rate by 100 basis points in June after the decline and tighter liquidity."
+        },
+        {
+          "type": "paragraph",
+          "text": "IMF staff said monetary policy should stay tight until inflation is firmly moving toward target. Utility-price adjustments, external price pressure and faster quasi-fiscal or capital spending could push inflation higher."
+        },
+        {
+          "type": "paragraph",
+          "text": "The current account is projected to shift from a deficit equal to 4.1% of GDP in 2025 to a marginal surplus in 2026 as stronger exports offset public-investment-related imports."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-imf-kazakhstan-external-balance-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/external-balance/four-three.webp",
+          "alt": "Graphic shows the current account moving from a 4.1 percent deficit in 2025 to a marginal surplus in 2026.",
+          "caption": "The current account is projected to move from a 4.1% deficit in 2025 to a marginal surplus in 2026.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/06/15/pr26207-kazakhstan-imf-staff-concludes-visit"
+        },
+        {
+          "type": "paragraph",
+          "text": "International reserves cover about 10 months of imports, according to the staff statement. The banking sector was described as well capitalized, liquid and profitable overall, with low, provisioned nonperforming loans."
+        },
+        {
+          "type": "paragraph",
+          "text": "Risks run in both directions. Strong domestic demand or higher import prices could reignite inflation, while global uncertainty, tighter financial conditions or pipeline disruption could weaken growth; sustained oil prices could strengthen buffers."
+        },
+        {
+          "type": "paragraph",
+          "text": "These are preliminary staff findings after a June 3-12 visit, not a decision by the IMF Executive Board. The next tests are official growth and inflation data, fiscal execution and whether policy keeps price growth on a durable path toward target."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/imf-kazakhstan-growth-4-6-inflation-10-2026/",
+      "citations": [
+        {
+          "id": "source-imf-kazakhstan-visit-20260615",
+          "title": "IMF Staff Concludes Visit to Kazakhstan",
+          "publisher": "International Monetary Fund",
+          "publishedAt": "2026-06-15T12:00:00Z",
+          "url": "https://www.imf.org/en/news/articles/2026/06/15/pr26207-kazakhstan-imf-staff-concludes-visit"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "IMF staff projects 4.6% economic growth in 2026.",
+        "Inflation is projected around 10% in 2026.",
+        "Real GDP grew 3.7% in the first five months of 2026.",
+        "May inflation was 10.4%, down from 12.9% in September 2025.",
+        "The current account is projected to move from a 4.1% deficit to a marginal surplus."
+      ],
+      "corrections": [],
+      "dek": "Staff expects the current account to move from a 4.1% deficit in 2025 to a marginal surplus, while warning that inflation remains well above target.",
+      "desk": "central-asia-economic-outlook",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "International Monetary Fund",
+        "National Bank of Kazakhstan",
+        "Government of Kazakhstan"
+      ],
+      "eventId": "event-imf-kazakhstan-growth-4-6-inflation-10-2026",
+      "headline": "IMF Projects Kazakhstan Growth at 4.6% as Inflation Stays Near 10%",
+      "id": "article-imf-kazakhstan-growth-4-6-inflation-10-2026",
+      "leadImage": {
+        "alt": "Wide panorama of modern towers and government buildings along the Astana skyline.",
+        "caption": "The Astana skyline. IMF staff projects Kazakhstan's economy will grow about 4.6% in 2026 while inflation remains near 10%.",
+        "credit": "Ken and Nyetta / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-imf-kazakhstan-astana-skyline-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/astana-skyline/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Kazakhstan",
+        "Astana",
+        "Central Asia"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "IMF staff projects Kazakhstan growth at 4.6% in 2026 and inflation near 10%, with the current account moving toward surplus.",
+        "index": true,
+        "title": "IMF sees Kazakhstan growth at 4.6%, inflation near 10%"
+      },
+      "section": "world",
+      "slug": "imf-kazakhstan-growth-4-6-inflation-10-2026",
+      "social": {
+        "description": "Staff expects the current account to move from a 4.1% deficit in 2025 to a marginal surplus, while warning that inflation remains well above target.",
+        "image": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/astana-skyline/open-graph.webp",
+        "title": "IMF Projects Kazakhstan Growth at 4.6% as Inflation Stays Near 10%"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Kazakhstan economy",
+        "Inflation",
+        "Economic growth",
+        "Current account",
+        "Monetary policy"
+      ],
+      "uncertainty": [
+        "The figures are IMF staff projections and do not represent an Executive Board decision.",
+        "Oil prices, pipeline conditions, domestic demand and policy execution could change the outlook."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-10T15:50:02.598Z",
+  "generatedAt": "2026-08-10T16:26:27.272Z",
   "inputHashes": {
+    "sourceItems": "003a45937baeb1ce0d7a1d55edace47653e565e08ffddf19a864e4b16bfbdd88",
+    "events": "d12d7b776809cc80d3a653b42aca4b41c1c4213d3d5d783f4736ae432e7f2326",
+    "claims": "007814ca4e707774398d111b68d857706d87b9813c9d9577adde6d952316a4d7",
+    "articles": "3ccb6c116034451bd2861bd6d985863a67fd4e8a3b51176c5d5f499954955f1a",
     "approvals": "b261baf03d758b449bee8e3c4ee48e54f248f4a9a38caef3e0279bfebf17df26",
-    "articles": "2e75249ab6e4f788b4203891a94dd84a4548573e7d9ef712e23fc25aaf702b75",
-    "claims": "8bd4839ddd4b085b48ddb4b9c7b810a39c39b338770a2333f9287d003c67de7f",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "f18c31f73c75ffb6ffec70224a848b302fe44831e6785f23ff77818f270bd975",
-    "mediaRights": "1a38425f20d8daec60d15286cfec1e342b79bdd542a47e6f6d8f59d134f4942f",
-    "publicationIntents": "7a2daf38b7dad32c103cb79ffe44891a6bb59cc42b5fdeb55fefecbf3db5d52f",
+    "mediaRights": "c709adf906b1890c6632ebd28786d6d87398d735c9ed7b49afe65d020503bf3f",
     "releaseRecords": "59768e3ea01fc31acca18c6d6851ebac0acc6e6b87abe3fa07583949f7bfe8d9",
-    "sourceItems": "0e5985a5685cb4a78d48787d31e96f4d2338fa23bdfc564611152326443845e5"
+    "publicationIntents": "684d38ef2c62e0aaafbc15e5df39c915844d72436572841eaa84169669e9900f"
   },
   "inventory": {
-    "articleCount": 219,
-    "mediaCount": 643,
-    "routeCount": 219
+    "articleCount": 225,
+    "routeCount": 225,
+    "mediaCount": 661
   },
   "mediaRights": [
     {
@@ -86342,9 +87235,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Medical exam room with an examination table, chair, counter and clinical equipment.",
+      "archivalStatus": "current",
+      "attribution": "Tony Webster / Wikimedia Commons, CC BY 2.0",
+      "caption": "A medical exam room. GAO reviewed improper-payment and fraud-risk controls in VA Community Care and Medicare Advantage.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Tony Webster",
+      "derivatives": [
+        {
+          "hash": "c3d566520cd4be9499723028f0b9a48351f428e3fb59f775c0be8301b0cadaae",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/exam-room/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6ca9b89ff28b2e344f375b3dad3afec3216a4ad94ee3180e2b89744e8bc6fd79",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/exam-room/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6f398a48281f15694497a0357a9206656a5120b99c8508334eadd8c61b9781b6",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/exam-room/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "db863051b16df8a2153465314855c45616c70dcb4ade7ca9da70e5ab1bf966c8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/exam-room/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "391f3c4352dbc45377aa42ee87155949acbf7eb5f1849a39f88d9cfe88c0c8d5",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/exam-room/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "efb4940976fa57049614f2fe36172336dbe50b2ea92656c428ce5dcce8b551c8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/exam-room/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "6bec0d376c26fc432c7c84db6f7868744789b0917c842ba1fb512117461a90cc",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/exam-room/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-program-integrity-exam-room-2026",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "ba8e607a6fa690d6975793d20b3f0eaeed5f47aeaec6987a7749a8a7510d9471",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 Generic, verified by Wikimedia Commons Flickr review.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Doctor%27s_Office_Exam_Room_Table_(54122731722).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 608 million dollars for VA Community Care and 23.7 billion dollars for Medicare Advantage.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Fiscal 2025 improper-payment estimates were $608 million for VA Community Care and $23.7 billion for Medicare Advantage.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "44c0bac176ead951596dc705006a467576b27d3d4cf31efa37ce6cf47d7df682",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/payment-estimates/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "40b7b1cc6f1895a594a8b4e6995c32bb090c59f82a80be5886ea3c9bfca0a912",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/payment-estimates/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "caffbd5233550364677df7b5324fd00c3a1bc86b44e4f0e03e1812db3045c86e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/payment-estimates/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "afa598df1e73d68d995674378e9be3c078959e0d432df74ce48061dcd847dcab",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/payment-estimates/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c64c7d1a22f05ed7a659848c29f49d1b449aa3f36cdaa6ed0f06e5643f31b09e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/payment-estimates/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ec181becb2ca50751fee917b0573ce258dc6c90a437b245e7d739ee523a9fc07",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/payment-estimates/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5176064583ad2ceddb7921c0a51d7b65504de87a18d993957e1ccc1d7ddf22f4",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/payment-estimates/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-program-integrity-payment-estimates-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "afa598df1e73d68d995674378e9be3c078959e0d432df74ce48061dcd847dcab",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107946"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists three open GAO recommendations, one for VA and two for CMS.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO made three open recommendations: one to VA and two to CMS.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "cc3f75f7e0220017e06ec90b397af3b8a8b1ce568185c0d75e88e981f1b6bce0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/open-actions/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ee78c1fd926be67ae0ce751c4e71116b2c4410bec3ba6937cebab7d1928e82f3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/open-actions/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a2fcc6e8ae9dea5163713a272f28ca024a7dbae7621712266dc419f0a787b936",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/open-actions/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d767dc3d99c5858152186edc6a7ca52febb909d354f39a63c4bfbf8be1fb0d6a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/open-actions/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f2eb038813ebafd8fabeee1b8158384265d39586ef408e3df75c5fe9a5568aef",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/open-actions/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "684a84e13434710ee07c2577006348a01255adae9efff8918a32c8400400d4a4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/open-actions/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e8c1092366ee9c95043caa4f66fd091b68cb118c3a88a15aa978edb14fa23729",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/gao-program-integrity/open-actions/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-program-integrity-open-actions-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d767dc3d99c5858152186edc6a7ca52febb909d354f39a63c4bfbf8be1fb0d6a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107946"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Stone federal courthouse with broad steps and columns in Washington, D.C.",
+      "archivalStatus": "current",
+      "attribution": "Ajay Suresh / Wikimedia Commons, CC BY 4.0",
+      "caption": "The E. Barrett Prettyman United States Courthouse in Washington. The Sentencing Commission counted 517 national-defense cases in fiscal 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Ajay Suresh",
+      "derivatives": [
+        {
+          "hash": "2cbb6a7afa805fd9920b04d2a2e210db7d70ab145ee5dd326428a7fbf7381025",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/courthouse/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8a950f6529264297d1b421b92a0e30b17ac235afa9d367cf16e14189a2779cfb",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/courthouse/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7a7e0212b557f41a9e682582b53dd43f5562ccc66244ce0328c1c5449e514b1b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/courthouse/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c0941f2717ce70572b136229a9e5e35f9d825a2afc42daa5492adeded5215a6b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/courthouse/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4cc4af95ac2b4edb8eea65b48e063aa708a661c9dd008c6c4cf1e0153d077ddf",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/courthouse/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "889bc0e015cb37f6f56f47f8f15f732354ea58da78e555b06e398f154203be1d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/courthouse/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5be92c978d2269259e12bcc858c28582f2f6a6fa6e86c48d96c1a312c4202a3c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/courthouse/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-national-defense-courthouse-2026",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "7be6c5d10c38ebf863d2256ec27470d7134cb93ba64c32862436df0c5f68b2b8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Creative Commons Attribution 4.0 International, verified by Wikimedia Commons Flickr review.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:E._Barrett_Prettyman_United_States_Courthouse_-_2026_(55266857098).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 517 national-defense cases, 66,662 total cases and a 132 percent increase since fiscal 2021.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "National-defense cases numbered 517 of 66,662 federal cases in fiscal 2025, up 132% from fiscal 2021.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "741b5d93f579e6f00eb271d51d068f7ca73a2aa7f598c27c8c1edd7551afa107",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/case-count/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e5a8a2df303e9dcdbe229a817593d8bedea3314325dcb88b63969eb7a42df876",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/case-count/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4d7cb1e59c1a4d5276ab3c1e883c1b0fa8d7b4c1df6aa867125a2519e85981b9",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/case-count/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "637c21b5f22d87c29566104453ca54af3df09a3fd38c97b6b44305d56ff0d7f8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/case-count/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7d5e01325747333ca1682df80cea0fd72c59cf69fccebffe8e8cd72416191c93",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/case-count/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4749d73a638a0a1a8bdbbd832620a2dfd11ea0ae3253b9fbcdfe639f485463d9",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/case-count/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4a560ba5bd187d99380d7ce39be3e13f6d8e1564fda1e5ce04fc1311dd99b603",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/case-count/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-national-defense-case-count-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "637c21b5f22d87c29566104453ca54af3df09a3fd38c97b6b44305d56ff0d7f8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/national-defense"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 85 percent receiving prison and an average sentence of 21 months.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Eighty-five percent received prison sentences, with an average sentence of 21 months across the category.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "9efd3c42b6990239aabc90e1a11ab78de35f419cecaab76bb589b8e03a83473c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/sentences/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c2c0352f8abd2b72fa3b4725e91c66f14a5af99b17c69d5e41356e038654db41",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/sentences/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "960a83f3fd477f96823ad3c2fca1a376231cc971218dfdd91fd30b2e4f4c00f1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/sentences/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7afb6297d25b5f3de3556d27b1917f811a66ec0fb3cf745f232845c0da4966ff",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/sentences/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b508a843660385011db84f8fb3c10094f48ec52ef367e1c8c6aaa06008c04fa1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/sentences/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c3cfbfc7be53facbad0b8e4a0ee13eac8c41f2440af9cabf59b00593e60fdb93",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/sentences/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4e14c16ef0469cf634169f8aa95b172de9f2edfc291e233f61b6be6dc519dccb",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/ussc-national-defense/sentences/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-national-defense-sentences-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "7afb6297d25b5f3de3556d27b1917f811a66ec0fb3cf745f232845c0da4966ff",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/national-defense"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Single metal house key resting on a dark surface.",
+      "archivalStatus": "current",
+      "attribution": "Linuxerist~commonswiki / Wikimedia Commons, CC BY-SA 3.0",
+      "caption": "A house key. Mortgage guarantees and student loans make up most of the federal credit assistance CBO analyzed for 2027.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Linuxerist~commonswiki",
+      "derivatives": [
+        {
+          "hash": "52670b3bf3f01c56c2d04592f2f2a4125d750be07963d4a2f511f114afa81e96",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/house-key/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2d5a1787cd2e0959981721222ba8353789a276c3f9b812081b20991ee8b0b912",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/house-key/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ba07e4a620c52a5a54621817b7814bc228ab10ee805354c6bdecd7f9264dbe01",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/house-key/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ea606a5ee93aaae7a6554564971fdc181a5e26ad2a0426b2f62e70456e10b76e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/house-key/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2f9c53c6cdbeb06fcd5b3101a4cb9be88867c1818a5193f222971c33b669a32e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/house-key/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ca81299c8fc2fcce705d02d8349ca16e5d1fdf89aa22288a1b7485e87f945365",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/house-key/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a508004d590d3bfd379f7884742f1bf1e407e90222a6040a5a8abb0e67ebf2e6",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/house-key/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-federal-credit-house-key-2026",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 3.0",
+      "originalFileHash": "1dba86716374534339c5834409b71220b5e6d4350714679e48b7d1930e070b3b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 3.0 Unported; selected from the file's offered licenses.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_key.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares 15.3 billion dollars in projected FCRA savings with a 51.9 billion dollar fair-value cost.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "FCRA procedures project $15.3 billion in lifetime savings; fair value projects a $51.9 billion lifetime cost.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "18b2bfe63fde38e5cf792cf6baf4ae665e7c77e6b3f0d56676491bc89d75b788",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/methods/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d25aca73f1d6a47cfd73a0948c94989c17c232bcaa1dff6d97b88f4fcf7fb148",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/methods/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1fc1477439ec9fb6b7af756bcc4da2cae936aa27770865c5314eb96d550f70a8",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/methods/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d4ab7232b5ab134bfa86e18392ca71efbf3dbe4ceb7df569199532721912cea8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/methods/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "427c608b635871863be10afaca9cf78efdd1fbb894f3b237b1bd51255a4932de",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/methods/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a8d9d08311434f3706b536565fce06415645d047cc37d60f80cc3733237d6485",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/methods/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8ed61e2b586518d3ae7e6066720061e98fe55b6016b2e7c5124536e387059cf1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/methods/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-federal-credit-methods-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d4ab7232b5ab134bfa86e18392ca71efbf3dbe4ceb7df569199532721912cea8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/62594"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 94 programs and 1.9 trillion dollars in projected federal credit assistance for 2027.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "CBO analyzed 94 programs projected to provide $1.9 trillion in new loans and guarantees in 2027.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "2a4e157eb408c4a8c6657465e4f28c4501d7253a8dfa4302e5c881838b202cae",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/volume/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "43fcd2a02c2d58c53a4813a3cf4a53402b2bdc373bec3665cb670eb1c1e0b686",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/volume/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7ad95aebb6b31780564618dacc370a2756c20e2f33a06a54ffa768cd5dfe21ed",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/volume/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "871fe793b9b17af5e151413c1a0f8ba5f908e6e482731f20f6c176978ee26907",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/volume/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d9271a4a1e3eaad6a292d7126bfba0871f384455d6924e70a3c9245e90150b12",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/volume/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2885b7c183c01ae902f6fe35619f2523d42c5ebd0f6802b0526434cdcc275e01",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/volume/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "fa28a1deb550632c20012d80462ded3683173ec197ead4b24df5bc16256ee53c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/cbo-federal-credit/volume/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-federal-credit-volume-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "871fe793b9b17af5e151413c1a0f8ba5f908e6e482731f20f6c176978ee26907",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/62594"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Quantum laboratory equipment surrounding a dilution refrigerator used for spin measurements.",
+      "archivalStatus": "current",
+      "attribution": "Oak Ridge National Laboratory / Wikimedia Commons, CC BY 2.0",
+      "caption": "A dilution-refrigerator experiment at Oak Ridge National Laboratory measures spin lifetime and coherence. NSF's Project Triad aims to integrate quantum sensing, networking and computing.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Oak Ridge National Laboratory",
+      "derivatives": [
+        {
+          "hash": "f82f19bb0823d44f1204788a6655e47b53c90e8e8535fedf78e833cf82db0e2e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/quantum-lab/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "372cb7117c4fba899dbf5712145e668a36bfac6cf81bcfe3d6d5d674aaeade2e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/quantum-lab/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6fc4e3b9c0b49b2933425c6f042800b5ff1c8b486bba71593ed7fa1d1ecd178a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/quantum-lab/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b53dbe38899bccd9803101b3c20b65c151b0b50506c310fc8c24a1bca049ac50",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/quantum-lab/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "684493f9daa9a55f47e5f05ddb9fbca43ed81f47579ee8adf1c5691d2ef506c2",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/quantum-lab/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "44f1f49a5fbca01ef19721916b34ca83ed35029ee94cc6e8c477b8141a07eb79",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/quantum-lab/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "fb003a8e97062b9d006aa3f8babc0577d682bcbe3db70cfd59e0644c2a962bab",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/quantum-lab/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nsf-project-triad-quantum-lab-2026",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "2c272399f2681538e98d47619820d052e55ae0dc1573289bc54d0b6fcfdcab08",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 Generic, verified by Wikimedia Commons Flickr review.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quantum_lab_(53804603313).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists quantum sensing, quantum networking and quantum computing as three linked domains.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Project Triad is organized around three linked domains: quantum sensing, quantum networking and quantum computing.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "38d1161ce4cdf288f4c1a3f8cb9c934e03acbf24de683c14b2664b64d394eab8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/domains/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "061e06ef1265d3a55db8a30298aad41fe898bdaef0bdbf8f66a6e43a51bd7f67",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/domains/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7616a7622f11b12f03d7dee37c5f9bfe036ece2c5aec3e2eb95b27badfb1f678",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/domains/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c9175821f76a2068e6da464e67cf6b527b47c17dad5c47d65648cea83cc0169a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/domains/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f6349a61916cbd7d2e43059c5d1d99b120fa6a743dae9380dc14cfb5ab1cb03c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/domains/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ab3af14eacf321d8eee7a8f97c641320449bd688f9287956467a71f0b1aa94a6",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/domains/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "039af8825914c9680f6616826be777141d9d1da5f937221a3e124afbd1e69f9a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/domains/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nsf-project-triad-domains-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "c9175821f76a2068e6da464e67cf6b527b47c17dad5c47d65648cea83cc0169a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists the National Quantum Virtual Laboratory, NSF X-Labs and NSF Quantum plus X.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "NSF identifies three program components: NQVL, X-Labs and Quantum+X.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c01fad2640b094d243592256cfa0d7081e89351136bcd996c0be800c443ab5f3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/programs/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e48a93cffd9834244c263ac2dc5abac2f4d9559ba69d00cc27645ec589cb44ff",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/programs/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "cf3791640334633427d1cc310da0ad229fdefb72ded0eb6c98b58a35348bd829",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/programs/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "2c7e9033c6348434d2afdbcddf73c5efef9ad49d19f2b68432c64cc6b0de20bb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/programs/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f81a7597182baa8720ac104dfc174305f177386d812e152c6757d7b6616aeaa6",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/programs/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4e856b81311be2fb69df612000828354d718e29025647e4fa6314361829fe57c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/programs/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "37b40c83688a3606d101c53fa2cc45129db8e5dc0f63f71f74bac05d30d2be72",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nsf-project-triad/programs/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nsf-project-triad-programs-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "2c7e9033c6348434d2afdbcddf73c5efef9ad49d19f2b68432c64cc6b0de20bb",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nsf.gov/news/nsf-launches-project-triad-advance-quantum-technology-real"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Heavy wildfire smoke turns the sky orange above traffic and pedestrians on a Manhattan street.",
+      "archivalStatus": "current",
+      "attribution": "Marc A. Hermann / MTA, CC BY 2.0",
+      "caption": "Wildfire smoke shrouded 42nd Street in New York City in June 2023. NASA modeled a separate week of North American wildfire brown carbon in July 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Marc A. Hermann / Metropolitan Transportation Authority",
+      "derivatives": [
+        {
+          "hash": "cfab638a76720a52a41eade1d7f5055f9198350418f09e5d7a4a10bd01dcc2ef",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/wildfire-smoke/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "475063b76a8fd1ca3e7ddff709d6f67daef5f5f7299aa7585c7f9c3b6d593734",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/wildfire-smoke/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b975f79fba23aba91f7d2affc5bbb55b95c7769ded3103f3fd250b1ff967a929",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/wildfire-smoke/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "705e232d4396d29cb66a6d87ccaead191eed4e7c0039952e44440ceba0e20879",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/wildfire-smoke/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7483df6c89be7d0dc2020355fc58c8652a1ccc8b41f3419ea44aa57fbc146092",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/wildfire-smoke/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a8c9968e7a020516a08983c6a37a8b3af5785a4e09de9cf670a4a9000610b67f",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/wildfire-smoke/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "bd76cd35d11451e8d9dc72f50000a5e4b273b0dc26bccdde15e3e9c65fac670a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/wildfire-smoke/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-brown-carbon-wildfire-smoke-2026",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "2d8a890ec11600b0f62d3f3f061ef190d207be0c12c119aa5ca04f244d343fd4",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 Generic, verified by Wikimedia Commons Flickr review.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wildfire_Smoke_-_52958907889.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists a model window from July 14 through July 20, 2026.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "NASA's GEOS animation tracked wildfire brown carbon from July 14 through July 20, 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "3b816455c8bf79e543a64cf56f0f9dfd6c4f5a2542272a06ec05066b09d71c65",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/window/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f455edf4ba4b396234514685a36b491a37751163d54f000434a5685725678822",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/window/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7d4dc1c009b442d8c6d71bb360fbe12455a9b9fb6e2a46289c2b346efcb65bb2",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/window/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6f69a24c12a4414f1c4e8833affc218b1570117202718ad033d3036ae1033c1c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/window/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "89df93e22ac06ed8176cb1c9c8e451e68eb5eaa9f027f3df25ae937226bdf613",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/window/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "514c7d825062755573b02694d017826faf76011c1648cef5148f5f4bd8dc3c2e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/window/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3e9c24f0975f16ace742948880e3804c8537b978a101a41a37f310b5d1c4f801",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/window/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-brown-carbon-window-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "6f69a24c12a4414f1c4e8833affc218b1570117202718ad033d3036ae1033c1c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists satellite, aircraft, ground and weather data as inputs to the GEOS model.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GEOS assimilates satellite, aircraft and ground observations with meteorological data to reconstruct plume behavior.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "b70eff110ec3b1b91ff8896209b403c98649b76eb94f9f2d9c0260ad62dd8ff6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/model-inputs/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "150c69e823ba763a288fd22dbdb80e566140bae87c3c93f10a6b334172cacc0b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/model-inputs/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "61d0cfc191e86be161d2d25d023be832ea1a5e5778a052864d5af87a399d0b59",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/model-inputs/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "3d653522192214e75dd8c141b3e24b9ee52bb70cdb6eab8c53f561a41dcd9aa5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/model-inputs/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ba69383616d53c760402dee9d935f200f87953fc788bfa7a3bbe6e264ed4b118",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/model-inputs/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "88248e156b9e8200b5a3192105ca8f7014b1278e2c3b25dae76b87a88cadff04",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/model-inputs/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a45afffd7ba2fdaab8f0008dd29f915020ec74f1a44257c466e80405c6f8df58",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/nasa-brown-carbon/model-inputs/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-brown-carbon-model-inputs-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "3d653522192214e75dd8c141b3e24b9ee52bb70cdb6eab8c53f561a41dcd9aa5",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/earth/earth-observatory/a-week-of-smoky-skies-across-north-america/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Wide panorama of modern towers and government buildings along the Astana skyline.",
+      "archivalStatus": "current",
+      "attribution": "Ken and Nyetta / Wikimedia Commons, CC BY 2.0",
+      "caption": "The Astana skyline. IMF staff projects Kazakhstan's economy will grow about 4.6% in 2026 while inflation remains near 10%.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Ken and Nyetta",
+      "derivatives": [
+        {
+          "hash": "724a032a1c6ab43f56cd3fef1066552ed8cf9ec12b510b46d02cba32fd607ca3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/astana-skyline/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ce9b2bb7e28b42a93d600caf072ce165476ac85dbfd7f999757e3ee153d68467",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/astana-skyline/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "192787edc348f3f701f39190ecaf558e7b78695a671def1d519e4749e44da90f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/astana-skyline/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "218e128e8f440acffc1a009926ea0b291da3a7e07b701c5b6704aabe999838c6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/astana-skyline/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e90422bb82b4827963d8e5a433038380f6f052753128db8889168f89fcd7dbae",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/astana-skyline/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7165acc8a1ffb37abd4a99e0d40ef955b01f24da5d91c90bba4b3f161767e5c4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/astana-skyline/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c2a28eab70ca13aacd2fb986bc332a1e07941886a48949c751b821b91fe47ccc",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/astana-skyline/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-imf-kazakhstan-astana-skyline-2026",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "225b1b29690a687826ae5757537dab59a962173f675744bb36ab0628e0087772",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 Generic, verified by Wikimedia Commons Flickr review.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Astana_Skyline_(9587635437).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists projected growth of 4.6 percent and inflation around 10 percent in 2026.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "IMF staff projects 4.6% growth and inflation around 10% for Kazakhstan in 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "79dfee0a241342654423d62b316e083eb1bf2bab4fd644857ba3c0eef2c410a8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/growth-inflation/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6fa3c5e1a35c224085b22903d984f730b2ce01fac3a638bf5129695216be219e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/growth-inflation/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8cbda6a837ab5411bf651c30efdb1348f4f4dceebfe323b702e92d7ecaf71294",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/growth-inflation/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f4ce4fdb6037d2275542d5e3f3ce1d194480539e289ca21bf65e44f18f9611da",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/growth-inflation/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ce0c96469970269f715a14b2d3e9071b5cb22a525e3b53dec22ea8773ba6c4d4",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/growth-inflation/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "dbcdcbadca123db6d16eb1caff16d0cb9dc9b54c824e5fb2451ef50ca39c55db",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/growth-inflation/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "49ed015fa2106cdd29ee5f269e125d71b9862902051026cb4d5168deafb488f8",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/growth-inflation/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-imf-kazakhstan-growth-inflation-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f4ce4fdb6037d2275542d5e3f3ce1d194480539e289ca21bf65e44f18f9611da",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/06/15/pr26207-kazakhstan-imf-staff-concludes-visit"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the current account moving from a 4.1 percent deficit in 2025 to a marginal surplus in 2026.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The current account is projected to move from a 4.1% deficit in 2025 to a marginal surplus in 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "178f5c1358fa1ab090108a692a43da039427946255aa60f3d9e4582e277cb10c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/external-balance/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6c9239720c98366fbf47d513a2ab407f156fb8fb57278212a98d3e4bf2ac4e8c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/external-balance/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bf00749ebf62f901d2dff04e85cf33985ffc1b8fef870ce49a30ebf819d61dbd",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/external-balance/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "84c913928bdd46ca60a9a62953e2a17f534ebb25447fc194e3363e4c91444b26",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/external-balance/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d52ec63558711d08a02eddc28977f1a0747ef04b7676f933173270f607b81838",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/external-balance/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "cc9637746768d166c71334148e48b40fc8637d48e5e07dd14dc95efa1a3c2b33",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/external-balance/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "45489db6cad82774d77e1c0fce2501697d5b4c1f3814f91050fd0923c02aef13",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-160849/imf-kazakhstan/external-balance/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-imf-kazakhstan-external-balance-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "84c913928bdd46ca60a9a62953e2a17f534ebb25447fc194e3363e4c91444b26",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T16:26:27.232Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/06/15/pr26207-kazakhstan-imf-staff-concludes-visit"
     }
   ],
-  "packageDigest": "1753378c6d316e007977c61de153548b5b54672cb1a38fd07e5e8a5d6665888e",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -87775,7 +90035,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "e5efe15d24a727c1bc7dd112979ed75981c79bf3bc5382cb791312bceffca749"
 }
