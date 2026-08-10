@@ -39313,25 +39313,926 @@
         "The data release is research infrastructure and does not itself establish clinical utility."
       ],
       "updatedAt": "2026-08-10T17:36:35.268Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Department of Energy's cleanup of the former uranium mill site near Moab, Utah, is expected to cost about $1.16 billion, according to a Government Accountability Office review released July 15.\n\nThe project had cost approximately $970 million through fiscal 2025. The federal government pays the full cleanup cost, GAO said.\n\nEnergy's Office of Environmental Management had removed more than 16 million tons of uranium mill tailings and other contaminated material as of 2026. The waste is transported to a disposal site away from the Colorado River.\n\nTailings are the material left after uranium is removed from rock. Groundwater around the former mill was contaminated and flows toward the nearby Colorado River, creating an environmental risk that the cleanup also addresses.\n\nEnergy plans to finish cleanup and close the disposal site by 2029. Its Office of Legacy Management would then assume long-term federal responsibilities for both locations.\n\nThe department expects to keep ownership of the disposal site. It has not made a final decision about the former mill property, although Environmental Management expects most of that land to be transferred to Grand County after cleanup.\n\nCommunity stakeholders have proposed recreational uses for the mill property. GAO said the transfer plan is still being developed, so those uses and the ultimate ownership arrangement are not final.\n\nGAO reviewed laws, regulations and agency records and interviewed five stakeholder groups. The review assessed cleanup progress and whether Energy followed leading practices for involving stakeholders; the interview sample was not designed to represent every affected group.\n\nThe 2029 date and $1.16 billion total remain plans and estimates. The documented record is that more than 16 million tons had been removed and about $970 million had been spent through fiscal 2025.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Department of Energy's cleanup of the former uranium mill site near Moab, Utah, is expected to cost about $1.16 billion, according to a Government Accountability Office review released July 15."
+        },
+        {
+          "type": "paragraph",
+          "text": "The project had cost approximately $970 million through fiscal 2025. The federal government pays the full cleanup cost, GAO said."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-moab-cleanup-cost-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/cleanup-cost/four-three.webp",
+          "alt": "Graphic compares about 970 million dollars spent through fiscal 2025 with an expected total cost of 1.16 billion dollars.",
+          "caption": "The Moab project cost about $970 million through fiscal 2025 and is expected to reach roughly $1.16 billion.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108654"
+        },
+        {
+          "type": "paragraph",
+          "text": "Energy's Office of Environmental Management had removed more than 16 million tons of uranium mill tailings and other contaminated material as of 2026. The waste is transported to a disposal site away from the Colorado River."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tailings are the material left after uranium is removed from rock. Groundwater around the former mill was contaminated and flows toward the nearby Colorado River, creating an environmental risk that the cleanup also addresses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Energy plans to finish cleanup and close the disposal site by 2029. Its Office of Legacy Management would then assume long-term federal responsibilities for both locations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The department expects to keep ownership of the disposal site. It has not made a final decision about the former mill property, although Environmental Management expects most of that land to be transferred to Grand County after cleanup."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-moab-waste-timeline-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/waste-timeline/four-three.webp",
+          "alt": "Graphic lists more than 16 million tons of waste removed and a planned cleanup completion in 2029.",
+          "caption": "DOE has removed more than 16 million tons of waste and plans to finish cleanup and close the disposal site by 2029.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108654"
+        },
+        {
+          "type": "paragraph",
+          "text": "Community stakeholders have proposed recreational uses for the mill property. GAO said the transfer plan is still being developed, so those uses and the ultimate ownership arrangement are not final."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO reviewed laws, regulations and agency records and interviewed five stakeholder groups. The review assessed cleanup progress and whether Energy followed leading practices for involving stakeholders; the interview sample was not designed to represent every affected group."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 2029 date and $1.16 billion total remain plans and estimates. The documented record is that more than 16 million tons had been removed and about $970 million had been spent through fiscal 2025."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/moab-uranium-cleanup-cost-116-billion-2026/",
+      "citations": [
+        {
+          "id": "source-gao-moab-cleanup-20260715",
+          "title": "Nuclear Waste: DOE's Plans to Complete Cleanup and Transfer of Moab Mill Site",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-07-15T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-108654"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The cleanup cost about $970 million through fiscal 2025.",
+        "GAO expects the total cost to reach about $1.16 billion.",
+        "More than 16 million tons of waste had been removed as of 2026.",
+        "Energy plans to finish cleanup and close the disposal site by 2029.",
+        "The federal government pays 100% of the cleanup cost."
+      ],
+      "corrections": [],
+      "dek": "GAO says the Energy Department has removed more than 16 million tons of waste and plans to finish the Utah project by 2029.",
+      "desk": "nuclear-cleanup-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "U.S. Department of Energy",
+        "Office of Environmental Management",
+        "Office of Legacy Management",
+        "Nuclear Regulatory Commission"
+      ],
+      "eventId": "event-moab-uranium-cleanup-cost-116-billion-2026",
+      "headline": "Moab Uranium Cleanup Cost Is Expected to Reach $1.16 Billion",
+      "id": "article-moab-uranium-cleanup-cost-116-billion-2026",
+      "leadImage": {
+        "alt": "A broad uranium-tailings remediation site with excavation roads below red cliffs, snowy mountains and the Colorado River corridor near Moab.",
+        "caption": "The Energy Department's uranium-tailings excavation and remediation site near Moab in 2010. GAO says more than 16 million tons of waste had been removed by 2026.",
+        "credit": "U.S. Department of Energy",
+        "height": 900,
+        "rightsId": "media-gao-moab-remediation-site-2010",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/remediation-site/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Moab, Utah",
+        "Grand County, Utah",
+        "Colorado River"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says DOE has removed more than 16 million tons from the Moab uranium mill site and expects cleanup to cost about $1.16 billion.",
+        "index": true,
+        "title": "Moab uranium cleanup cost expected to reach $1.16B"
+      },
+      "section": "investigations",
+      "slug": "moab-uranium-cleanup-cost-116-billion-2026",
+      "social": {
+        "description": "GAO says the Energy Department has removed more than 16 million tons of waste and plans to finish the Utah project by 2029.",
+        "image": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/remediation-site/open-graph.webp",
+        "title": "Moab Uranium Cleanup Cost Is Expected to Reach $1.16 Billion"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Moab Cleanup Project",
+        "Nuclear waste",
+        "Environmental cleanup",
+        "Groundwater",
+        "Government accountability"
+      ],
+      "uncertainty": [
+        "The $1.16 billion cost and 2029 completion date are estimates and plans, not completed outcomes.",
+        "Energy has not made a final decision on ownership of the former mill site, and proposed recreational uses remain under development."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Mandatory minimum penalties applied at sentencing to 15% of people in federal cases during fiscal 2025, according to the United States Sentencing Commission's latest annual profile.\n\nThe Commission received 66,662 cases, including 13,926 involving an offense that carried a statutory mandatory minimum. That means 21% of cases carried a possible mandatory floor, although some defendants later received relief.\n\nOne-third of people convicted of an offense carrying a mandatory minimum were relieved of the penalty. Fourteen percent qualified through the safety-valve provision, 15% provided substantial assistance to the government and 5% received both forms of relief.\n\nThe difference in sentence length was substantial. The average was 158 months for defendants still subject to the minimum, 74 months for those receiving relief and 28 months for people who were not convicted of an offense carrying a mandatory minimum.\n\nDrug trafficking made up 68% of cases carrying mandatory minimums. Sexual abuse accounted for 8%, child pornography 7%, firearms 5% and fraud 3%.\n\nAmong 16,073 people sentenced for drug offenses, 58% were convicted of an offense carrying a mandatory minimum and 57% of that group remained subject to it. Their average sentence was 144 months, compared with 72 months for those receiving relief.\n\nThe Commission also counted 2,382 convictions under 18 U.S.C. Section 924(c). Eighty-four percent remained subject to that provision's minimum, with average sentences of 158 months, or 99 months when relief was granted.\n\nThe data describes completed sentencing outcomes, not arrests, pending allegations or state cases. It also excludes cases with incomplete sentencing information from relevant calculations.\n\nGroup averages do not predict any individual's sentence. Offense statutes, criminal history, guideline findings, relief eligibility and judicial decisions differ from case to case.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Mandatory minimum penalties applied at sentencing to 15% of people in federal cases during fiscal 2025, according to the United States Sentencing Commission's latest annual profile."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Commission received 66,662 cases, including 13,926 involving an offense that carried a statutory mandatory minimum. That means 21% of cases carried a possible mandatory floor, although some defendants later received relief."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-ussc-mandatory-minimum-case-share-fy2025",
+          "src": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/case-share/four-three.webp",
+          "alt": "Graphic lists 66,662 total federal cases, 13,926 carrying a mandatory minimum and 15 percent subject to the penalty at sentencing.",
+          "caption": "Of 66,662 federal cases in fiscal 2025, 13,926 carried a mandatory minimum and 15% of sentenced individuals remained subject to one.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/mandatory-minimum-penalties"
+        },
+        {
+          "type": "paragraph",
+          "text": "One-third of people convicted of an offense carrying a mandatory minimum were relieved of the penalty. Fourteen percent qualified through the safety-valve provision, 15% provided substantial assistance to the government and 5% received both forms of relief."
+        },
+        {
+          "type": "paragraph",
+          "text": "The difference in sentence length was substantial. The average was 158 months for defendants still subject to the minimum, 74 months for those receiving relief and 28 months for people who were not convicted of an offense carrying a mandatory minimum."
+        },
+        {
+          "type": "paragraph",
+          "text": "Drug trafficking made up 68% of cases carrying mandatory minimums. Sexual abuse accounted for 8%, child pornography 7%, firearms 5% and fraud 3%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Among 16,073 people sentenced for drug offenses, 58% were convicted of an offense carrying a mandatory minimum and 57% of that group remained subject to it. Their average sentence was 144 months, compared with 72 months for those receiving relief."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-ussc-mandatory-minimum-sentence-length-fy2025",
+          "src": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/sentence-length/four-three.webp",
+          "alt": "Graphic compares average federal sentences of 158 months subject to a mandatory minimum, 74 months with relief and 28 months without such a conviction.",
+          "caption": "Average sentences were 158 months for people subject to a mandatory minimum, 74 months with relief and 28 months without a mandatory-minimum conviction.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/mandatory-minimum-penalties"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Commission also counted 2,382 convictions under 18 U.S.C. Section 924(c). Eighty-four percent remained subject to that provision's minimum, with average sentences of 158 months, or 99 months when relief was granted."
+        },
+        {
+          "type": "paragraph",
+          "text": "The data describes completed sentencing outcomes, not arrests, pending allegations or state cases. It also excludes cases with incomplete sentencing information from relevant calculations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Group averages do not predict any individual's sentence. Offense statutes, criminal history, guideline findings, relief eligibility and judicial decisions differ from case to case."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/mandatory-minimums-applied-15-percent-federal-sentences-fy2025/",
+      "citations": [
+        {
+          "id": "source-ussc-mandatory-minimums-fy2025",
+          "title": "Mandatory Minimum Penalties: Fiscal Year 2025 Quick Facts",
+          "publisher": "United States Sentencing Commission",
+          "publishedAt": "2026-07-01T12:00:00Z",
+          "url": "https://www.ussc.gov/research/quick-facts/mandatory-minimum-penalties"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "USSC reported 66,662 federal cases in fiscal 2025.",
+        "There were 13,926 cases involving an offense carrying a statutory mandatory minimum.",
+        "Fifteen percent of sentenced individuals remained subject to a mandatory minimum.",
+        "Thirty-three percent of people convicted of such an offense received relief.",
+        "Average sentences were 158 months subject to the minimum and 74 months with relief."
+      ],
+      "corrections": [],
+      "dek": "The Sentencing Commission counted 13,926 cases carrying a statutory floor; one-third of convicted defendants received relief from that penalty.",
+      "desk": "mandatory-minimum-sentencing-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Sentencing Commission",
+        "United States Courts"
+      ],
+      "eventId": "event-mandatory-minimums-applied-15-percent-federal-sentences-fy2025",
+      "headline": "Mandatory Minimums Applied in 15% of Federal Sentences in 2025",
+      "id": "article-mandatory-minimums-applied-15-percent-federal-sentences-fy2025",
+      "leadImage": {
+        "alt": "Front entrance and steps of the United States courthouse in London, Kentucky.",
+        "caption": "The federal courthouse in London, Kentucky, in 2015. New Sentencing Commission data says 15% of federally sentenced individuals remained subject to a mandatory minimum in fiscal 2025.",
+        "credit": "Carol M. Highsmith / Library of Congress",
+        "height": 900,
+        "rightsId": "media-ussc-mandatory-minimums-kentucky-courthouse-2015",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/kentucky-courthouse/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "London, Kentucky"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "USSC says 13,926 federal cases carried a mandatory minimum in FY2025 and 15% of sentenced individuals remained subject to one.",
+        "index": true,
+        "title": "Mandatory minimums applied in 15% of federal sentences"
+      },
+      "section": "crime-justice",
+      "slug": "mandatory-minimums-applied-15-percent-federal-sentences-fy2025",
+      "social": {
+        "description": "The Sentencing Commission counted 13,926 cases carrying a statutory floor; one-third of convicted defendants received relief from that penalty.",
+        "image": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/kentucky-courthouse/open-graph.webp",
+        "title": "Mandatory Minimums Applied in 15% of Federal Sentences in 2025"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal sentencing",
+        "Mandatory minimums",
+        "Safety valve",
+        "Substantial assistance",
+        "Sentencing Commission"
+      ],
+      "uncertainty": [
+        "Cases with incomplete sentencing information were excluded from relevant calculations.",
+        "Aggregate sentencing averages do not predict an individual outcome and do not measure arrests or unresolved cases."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The U.S. population grew by an estimated 1.8 million people, or 0.5%, in the year ending July 1, 2025, reaching 341.8 million, according to the Census Bureau's Vintage 2025 estimates.\n\nThat was half the prior year's 1.0% growth rate, when the country added 3.2 million people. Census called the latest pace the slowest since 2021.\n\nThe main change was net international migration. The estimate fell from 2.7 million to 1.3 million, a decline of 53.8%, while births and deaths changed comparatively little.\n\nNatural change, the difference between births and deaths, was nearly 519,000. That was close to the prior year but far below levels recorded before the pandemic and during the 2000s.\n\nAll four Census regions grew, though each slowed. The South's rate dropped from 1.4% to 0.9%, and the Northeast's from 0.8% to 0.2%.\n\nThe Midwest added 244,385 residents and was the only region where every state gained population. It also posted modest positive domestic migration for the first time this decade.\n\nSouth Carolina grew fastest at 1.5%, adding 79,958 residents, including a net domestic migration gain of 66,622. Idaho followed at 1.4% and North Carolina at 1.3%.\n\nFive states lost population: California, Hawaii, New Mexico, Vermont and West Virginia. Every state and the District of Columbia recorded lower net international migration than a year earlier, though all remained positive on that measure.\n\nPopulation estimates are revised as new administrative records and methods become available. Census said this release incorporated methodological improvements, so the figures are estimates rather than a final count.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The U.S. population grew by an estimated 1.8 million people, or 0.5%, in the year ending July 1, 2025, reaching 341.8 million, according to the Census Bureau's Vintage 2025 estimates."
+        },
+        {
+          "type": "paragraph",
+          "text": "That was half the prior year's 1.0% growth rate, when the country added 3.2 million people. Census called the latest pace the slowest since 2021."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-census-population-growth-rate-2025",
+          "src": "/media/newsroom/2026/08/manual-20260810-174920/census-population/growth-rate/four-three.webp",
+          "alt": "Graphic compares U.S. population growth of 1.8 million and 0.5 percent in 2025 with 3.2 million and 1 percent in 2024.",
+          "caption": "The United States added 1.8 million people, or 0.5%, in the year ending July 1, 2025, compared with 3.2 million and 1.0% a year earlier.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/population-growth-slows.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "The main change was net international migration. The estimate fell from 2.7 million to 1.3 million, a decline of 53.8%, while births and deaths changed comparatively little."
+        },
+        {
+          "type": "paragraph",
+          "text": "Natural change, the difference between births and deaths, was nearly 519,000. That was close to the prior year but far below levels recorded before the pandemic and during the 2000s."
+        },
+        {
+          "type": "paragraph",
+          "text": "All four Census regions grew, though each slowed. The South's rate dropped from 1.4% to 0.9%, and the Northeast's from 0.8% to 0.2%."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Midwest added 244,385 residents and was the only region where every state gained population. It also posted modest positive domestic migration for the first time this decade."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-census-net-migration-decline-2025",
+          "src": "/media/newsroom/2026/08/manual-20260810-174920/census-population/net-migration/four-three.webp",
+          "alt": "Graphic shows net international migration falling from 2.7 million to 1.3 million, down 53.8 percent.",
+          "caption": "Estimated net international migration fell from 2.7 million to 1.3 million, a 53.8% decline.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/population-growth-slows.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "South Carolina grew fastest at 1.5%, adding 79,958 residents, including a net domestic migration gain of 66,622. Idaho followed at 1.4% and North Carolina at 1.3%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Five states lost population: California, Hawaii, New Mexico, Vermont and West Virginia. Every state and the District of Columbia recorded lower net international migration than a year earlier, though all remained positive on that measure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Population estimates are revised as new administrative records and methods become available. Census said this release incorporated methodological improvements, so the figures are estimates rather than a final count."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/us-population-growth-slowed-05-percent-migration-2025/",
+      "citations": [
+        {
+          "id": "source-census-population-growth-20260127",
+          "title": "U.S. Population Growth Slows Due to Historic Decline in Net International Migration",
+          "publisher": "United States Census Bureau",
+          "publishedAt": "2026-01-27T12:00:00Z",
+          "url": "https://www.census.gov/newsroom/press-releases/2026/population-growth-slows.html"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The U.S. population reached an estimated 341.8 million on July 1, 2025.",
+        "The annual increase was 1.8 million people, or 0.5%.",
+        "The prior year added 3.2 million people, or 1.0%.",
+        "Net international migration fell from 2.7 million to 1.3 million, a 53.8% decline.",
+        "South Carolina had the fastest state growth rate at 1.5%."
+      ],
+      "corrections": [],
+      "dek": "The Census Bureau estimates the country added 1.8 million people to reach 341.8 million, half the prior year's growth rate.",
+      "desk": "population-and-migration-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Census Bureau"
+      ],
+      "eventId": "event-us-population-growth-slowed-05-percent-migration-2025",
+      "headline": "U.S. Population Growth Slowed to 0.5% as Net Migration Fell 54%",
+      "id": "article-us-population-growth-slowed-05-percent-migration-2025",
+      "leadImage": {
+        "alt": "A dense crowd of pedestrians and tourists moving through Times Square in New York.",
+        "caption": "A crowd in New York's Times Square in 2017. Census estimates put the U.S. population at 341.8 million on July 1, 2025.",
+        "credit": "Rosapicci / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-census-population-times-square-crowd-2017",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-174920/census-population/times-square-crowd/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "South Carolina",
+        "Idaho",
+        "North Carolina"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Census estimates U.S. population reached 341.8 million as growth slowed to 0.5% and net international migration fell 53.8%.",
+        "index": true,
+        "title": "U.S. population growth slowed to 0.5% in 2025"
+      },
+      "section": "us",
+      "slug": "us-population-growth-slowed-05-percent-migration-2025",
+      "social": {
+        "description": "The Census Bureau estimates the country added 1.8 million people to reach 341.8 million, half the prior year's growth rate.",
+        "image": "/media/newsroom/2026/08/manual-20260810-174920/census-population/times-square-crowd/open-graph.webp",
+        "title": "U.S. Population Growth Slowed to 0.5% as Net Migration Fell 54%"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Population estimates",
+        "International migration",
+        "Domestic migration",
+        "Natural change",
+        "Census Bureau"
+      ],
+      "uncertainty": [
+        "Vintage population estimates can be revised as additional administrative data and methodological improvements are incorporated.",
+        "The 2026 migration figure discussed by Census is a projection and is not treated here as an observed population count."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "NASA selected eight new companies for its commercial satellite data contract and will buy new products from six existing holders, expanding the program to 14 listed awardees.\n\nThe additions are part of the Commercial Satellite Data Acquisition Program's second contract on-ramp. NASA uses commercial measurements to supplement observations from government Earth-science missions.\n\nThe contract is firm-fixed-price, indefinite-delivery and indefinite-quantity. Its original maximum value is $476 million, and the performance period that began in 2023 runs through Nov. 15, 2028.\n\nThe $476 million figure is a contract ceiling, not a new lump-sum award to the eight incoming companies. Actual spending depends on task orders and data purchases under the vehicle.\n\nNASA said commercial sources can add high-resolution and more frequent measurements for researchers, civil agencies and decision-makers. The agency evaluates the data as a complement to its own satellites rather than a replacement for public missions.\n\nThe awardee list includes Airbus DS Geo, GHGSat, Hydrosat, ICEYE US, ImageSat International, Kuva US, Muon Space, Orbital Sidekick, OroraTech USA, Planet Labs Federal, PlanetiQ, SATLANTIS US, Tomorrow.io and Wyvern.\n\nThose companies cover different sensing and forecasting capabilities. A broader vendor pool can give NASA more options, but the announcement does not assign identical workloads or guaranteed revenue to each awardee.\n\nNASA describes the program as a way to acquire data cost-effectively and accelerate access for science and public-service uses including environmental intelligence and disaster response.\n\nThe next test is delivery: which datasets pass scientific evaluation, how widely they are licensed for research and civil use, and how much NASA orders before the contract period ends.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "NASA selected eight new companies for its commercial satellite data contract and will buy new products from six existing holders, expanding the program to 14 listed awardees."
+        },
+        {
+          "type": "paragraph",
+          "text": "The additions are part of the Commercial Satellite Data Acquisition Program's second contract on-ramp. NASA uses commercial measurements to supplement observations from government Earth-science missions."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nasa-commercial-data-provider-count-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/provider-count/four-three.webp",
+          "alt": "Graphic lists eight new providers, six existing providers and 14 total listed awardees.",
+          "caption": "NASA selected eight new providers and new products from six existing holders, for 14 listed awardees.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-contract-for-commercial-satellite-data-acquisition/"
+        },
+        {
+          "type": "paragraph",
+          "text": "The contract is firm-fixed-price, indefinite-delivery and indefinite-quantity. Its original maximum value is $476 million, and the performance period that began in 2023 runs through Nov. 15, 2028."
+        },
+        {
+          "type": "paragraph",
+          "text": "The $476 million figure is a contract ceiling, not a new lump-sum award to the eight incoming companies. Actual spending depends on task orders and data purchases under the vehicle."
+        },
+        {
+          "type": "paragraph",
+          "text": "NASA said commercial sources can add high-resolution and more frequent measurements for researchers, civil agencies and decision-makers. The agency evaluates the data as a complement to its own satellites rather than a replacement for public missions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The awardee list includes Airbus DS Geo, GHGSat, Hydrosat, ICEYE US, ImageSat International, Kuva US, Muon Space, Orbital Sidekick, OroraTech USA, Planet Labs Federal, PlanetiQ, SATLANTIS US, Tomorrow.io and Wyvern."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nasa-commercial-data-contract-window-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/contract-window/four-three.webp",
+          "alt": "Graphic lists a 476 million dollar maximum contract value and a 2023 to November 15, 2028 performance period.",
+          "caption": "The original contract ceiling is $476 million, and its performance period runs from 2023 through Nov. 15, 2028.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-contract-for-commercial-satellite-data-acquisition/"
+        },
+        {
+          "type": "paragraph",
+          "text": "Those companies cover different sensing and forecasting capabilities. A broader vendor pool can give NASA more options, but the announcement does not assign identical workloads or guaranteed revenue to each awardee."
+        },
+        {
+          "type": "paragraph",
+          "text": "NASA describes the program as a way to acquire data cost-effectively and accelerate access for science and public-service uses including environmental intelligence and disaster response."
+        },
+        {
+          "type": "paragraph",
+          "text": "The next test is delivery: which datasets pass scientific evaluation, how widely they are licensed for research and civil use, and how much NASA orders before the contract period ends."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nasa-adds-eight-commercial-earth-data-providers-2026/",
+      "citations": [
+        {
+          "id": "source-nasa-commercial-satellite-contract-20260618",
+          "title": "NASA Awards Contract for Commercial Satellite Data Acquisition",
+          "publisher": "National Aeronautics and Space Administration",
+          "publishedAt": "2026-06-18T12:00:00Z",
+          "url": "https://www.nasa.gov/news-release/nasa-awards-contract-for-commercial-satellite-data-acquisition/"
+        },
+        {
+          "id": "source-nasa-csda-onramp2-20260618",
+          "title": "CSDA Selects Eight Commercial Satellite Data Providers for On-Ramp 2 Contract Awards",
+          "publisher": "National Aeronautics and Space Administration",
+          "publishedAt": "2026-06-18T12:00:00Z",
+          "url": "https://science.nasa.gov/science-research/earth-science/csda-selects-eight-commercial-satellite-data-providers-for-on-ramp-2-contract-awards/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "NASA selected eight new commercial satellite data companies.",
+        "The agency will acquire new products from six existing contract holders.",
+        "The release lists 14 awardees.",
+        "The original maximum contract value is $476 million.",
+        "The performance period runs from 2023 through Nov. 15, 2028."
+      ],
+      "corrections": [],
+      "dek": "The on-ramp expands the commercial satellite program to 14 listed awardees while keeping the original contract ceiling and 2028 end date.",
+      "desk": "commercial-earth-observation",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Aeronautics and Space Administration",
+        "Commercial Satellite Data Acquisition Program"
+      ],
+      "eventId": "event-nasa-adds-eight-commercial-earth-data-providers-2026",
+      "headline": "NASA Adds Eight Providers to Its $476 Million Earth-Data Contract",
+      "id": "article-nasa-adds-eight-commercial-earth-data-providers-2026",
+      "leadImage": {
+        "alt": "A large Earth-observing satellite standing inside a brightly lit spacecraft cleanroom.",
+        "caption": "NOAA's GOES-T Earth-observing satellite inside a Florida cleanroom in 2022. NASA has expanded the commercial data sources that supplement public Earth-observation missions.",
+        "credit": "Ben Smegelsky / NASA",
+        "height": 900,
+        "rightsId": "media-nasa-commercial-data-goes-t-cleanroom-2022",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/goes-t-cleanroom/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Titusville, Florida"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NASA added eight providers to its commercial Earth-data contract, bringing the listed field to 14 under a $476 million ceiling through 2028.",
+        "index": true,
+        "title": "NASA adds eight commercial Earth-data providers"
+      },
+      "section": "technology",
+      "slug": "nasa-adds-eight-commercial-earth-data-providers-2026",
+      "social": {
+        "description": "The on-ramp expands the commercial satellite program to 14 listed awardees while keeping the original contract ceiling and 2028 end date.",
+        "image": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/goes-t-cleanroom/open-graph.webp",
+        "title": "NASA Adds Eight Providers to Its $476 Million Earth-Data Contract"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Commercial satellite data",
+        "Earth observation",
+        "NASA contracts",
+        "Remote sensing",
+        "Public-private partnerships"
+      ],
+      "uncertainty": [
+        "The $476 million figure is the contract ceiling, not a guaranteed award or a new payment to each provider.",
+        "The announcement does not disclose task-order amounts or guarantee that every listed dataset will be purchased at the same scale."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Drought covered 48.54% of the Lower 48 states as of Aug. 4, up again as conditions deteriorated across parts of the Plains and Northwest, according to the U.S. Drought Monitor.\n\nIncluding Alaska, Hawaii and Puerto Rico, 40.72% of the area was in moderate drought or worse. That national share increased 1.6% from the previous week and 2.9% from a month earlier.\n\nThe weekly summary estimated that 94.4 million people in the United States were affected, including 91.5 million in the Lower 48. Forty-five states had at least some area in moderate drought or worse.\n\nDrought worsened again in the Northern Plains and began deteriorating in the Southern Plains. The Northwest also continued to worsen during the July 29-Aug. 4 reporting period.\n\nThe Eastern United States, Central Plains, Upper Midwest and Interior West recorded improvement. A national percentage can therefore rise even while some regions get relief.\n\nThe Drought Monitor uses five categories, from abnormally dry through exceptional drought. The headline area share counts moderate drought, labeled D1, or worse and does not include the D0 category.\n\nThe map is produced jointly by the National Drought Mitigation Center, USDA, NOAA and NASA. Authors combine physical indicators such as precipitation and soil moisture with reports from local observers.\n\nDrought classifications are updated every Thursday using data valid through Tuesday morning. They are a weekly synthesis, not a forecast or a direct measure of economic loss.\n\nThe Aug. 4 snapshot establishes the scale at that date. Conditions, population exposure estimates and affected-state counts can change with each weekly release.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Drought covered 48.54% of the Lower 48 states as of Aug. 4, up again as conditions deteriorated across parts of the Plains and Northwest, according to the U.S. Drought Monitor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Including Alaska, Hawaii and Puerto Rico, 40.72% of the area was in moderate drought or worse. That national share increased 1.6% from the previous week and 2.9% from a month earlier."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-drought-monitor-area-share-20260804",
+          "src": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/area-share/four-three.webp",
+          "alt": "Graphic lists drought coverage of 48.54 percent in the Lower 48 and 40.72 percent in the United States and Puerto Rico.",
+          "caption": "As of Aug. 4, drought covered 48.54% of the Lower 48 and 40.72% of the United States and Puerto Rico.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.drought.gov/current-conditions"
+        },
+        {
+          "type": "paragraph",
+          "text": "The weekly summary estimated that 94.4 million people in the United States were affected, including 91.5 million in the Lower 48. Forty-five states had at least some area in moderate drought or worse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Drought worsened again in the Northern Plains and began deteriorating in the Southern Plains. The Northwest also continued to worsen during the July 29-Aug. 4 reporting period."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Eastern United States, Central Plains, Upper Midwest and Interior West recorded improvement. A national percentage can therefore rise even while some regions get relief."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Drought Monitor uses five categories, from abnormally dry through exceptional drought. The headline area share counts moderate drought, labeled D1, or worse and does not include the D0 category."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-drought-monitor-population-states-20260804",
+          "src": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/population-states/four-three.webp",
+          "alt": "Graphic lists 94.4 million people affected by drought and 45 states in moderate drought or worse.",
+          "caption": "The weekly summary estimated 94.4 million U.S. residents were affected and 45 states had moderate drought or worse.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.drought.gov/current-conditions"
+        },
+        {
+          "type": "paragraph",
+          "text": "The map is produced jointly by the National Drought Mitigation Center, USDA, NOAA and NASA. Authors combine physical indicators such as precipitation and soil moisture with reports from local observers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Drought classifications are updated every Thursday using data valid through Tuesday morning. They are a weekly synthesis, not a forecast or a direct measure of economic loss."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Aug. 4 snapshot establishes the scale at that date. Conditions, population exposure estimates and affected-state counts can change with each weekly release."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/drought-covered-4854-percent-lower-48-august-2026/",
+      "citations": [
+        {
+          "id": "source-droughtgov-current-conditions-20260804",
+          "title": "National Current Conditions: July 29-August 4, 2026",
+          "publisher": "National Integrated Drought Information System",
+          "publishedAt": "2026-08-06T12:00:00Z",
+          "url": "https://www.drought.gov/current-conditions"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Drought covered 48.54% of the Lower 48 as of Aug. 4, 2026.",
+        "Drought covered 40.72% of the United States and Puerto Rico.",
+        "The national area share rose 1.6% from the prior week.",
+        "An estimated 94.4 million U.S. residents were affected.",
+        "Forty-five states had moderate drought or worse."
+      ],
+      "corrections": [],
+      "dek": "The Aug. 4 Drought Monitor showed another weekly increase as conditions worsened in the Northern and Southern Plains and the Northwest.",
+      "desk": "national-drought-monitoring",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Integrated Drought Information System",
+        "National Drought Mitigation Center",
+        "National Oceanic and Atmospheric Administration",
+        "United States Department of Agriculture",
+        "National Aeronautics and Space Administration"
+      ],
+      "eventId": "event-drought-covered-4854-percent-lower-48-august-2026",
+      "headline": "Drought Covered 48.54% of the Lower 48 in Early August",
+      "id": "article-drought-covered-4854-percent-lower-48-august-2026",
+      "leadImage": {
+        "alt": "Dry brown corn plants stand above cracked soil in a drought-affected Texas field.",
+        "caption": "Drought-damaged corn in Texas in 2013. The Aug. 4, 2026, Drought Monitor classified 48.54% of the Lower 48 in moderate drought or worse.",
+        "credit": "Bob Nichols / U.S. Department of Agriculture",
+        "height": 900,
+        "rightsId": "media-drought-monitor-corn-field-texas-2013",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/texas-corn-field/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Northern Plains",
+        "Southern Plains",
+        "Pacific Northwest"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The Aug. 4 Drought Monitor put 48.54% of the Lower 48 in drought and estimated 94.4 million U.S. residents were affected.",
+        "index": true,
+        "title": "Drought covered 48.54% of the Lower 48 on Aug. 4"
+      },
+      "section": "weather-climate",
+      "slug": "drought-covered-4854-percent-lower-48-august-2026",
+      "social": {
+        "description": "The Aug. 4 Drought Monitor showed another weekly increase as conditions worsened in the Northern and Southern Plains and the Northwest.",
+        "image": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/texas-corn-field/open-graph.webp",
+        "title": "Drought Covered 48.54% of the Lower 48 in Early August"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "U.S. Drought Monitor",
+        "Drought conditions",
+        "Agriculture",
+        "Water supply",
+        "Climate monitoring"
+      ],
+      "uncertainty": [
+        "The Drought Monitor is a weekly synthesis that combines indicators and local-observer input; it is not a forecast.",
+        "Population exposure and affected-area figures are date-specific and change with later releases."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Uzbekistan's real economy is projected to grow 6.8% in 2026 and 6.0% in 2027, according to the International Monetary Fund's latest review.\n\nThe forecast represents moderation after 7.7% growth in 2025. Activity remained strong at the start of this year, with gross domestic product up 8.7% from a year earlier in the first quarter.\n\nInflation eased to 7.0% year over year in April 2026 after price pressures associated with the May 2024 energy-price reform. The IMF expects inflation to reach the Central Bank of Uzbekistan's 5% target by the end of 2027.\n\nThe consolidated fiscal deficit narrowed to 2.1% of GDP in 2025. Strong activity and high gold prices supported government finances, while remittances and non-gold exports helped reduce the current-account deficit to 3.9% of GDP.\n\nThe fund projects the current-account deficit will narrow again to 3.2% of GDP in 2026. International reserves are expected to exceed 12 months of imports by year-end.\n\nPrivate consumption, investment and continued structural reforms underpin the baseline growth forecast. IMF directors said monetary policy should remain restrictive enough to prevent inflation from stalling above target.\n\nThe review also urged fiscal restraint to avoid adding to demand pressures and called for stronger budgeting, public-investment management and oversight of state-owned enterprises and public-private partnerships.\n\nDownside risks include weaker global demand, lower export prices, tighter financial conditions, procyclical spending and delays in structural reforms. Faster reform implementation could produce an upside surprise.\n\nThe projections are a baseline, not a guarantee. Uzbekistan's exposure to gold prices, remittances, external demand and domestic credit policy can move growth, inflation and the external balance away from the IMF path.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Uzbekistan's real economy is projected to grow 6.8% in 2026 and 6.0% in 2027, according to the International Monetary Fund's latest review."
+        },
+        {
+          "type": "paragraph",
+          "text": "The forecast represents moderation after 7.7% growth in 2025. Activity remained strong at the start of this year, with gross domestic product up 8.7% from a year earlier in the first quarter."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-imf-uzbekistan-growth-path-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/growth-path/four-three.webp",
+          "alt": "Graphic lists Uzbekistan real GDP growth of 7.7 percent in 2025, 6.8 percent projected in 2026 and 6 percent in 2027.",
+          "caption": "Uzbekistan grew 7.7% in 2025; the IMF projects 6.8% growth in 2026 and 6.0% in 2027.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/06/18/pr-26214-uzbekistan-imf-executive-board-concludes-2026-article-iv-consultation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inflation eased to 7.0% year over year in April 2026 after price pressures associated with the May 2024 energy-price reform. The IMF expects inflation to reach the Central Bank of Uzbekistan's 5% target by the end of 2027."
+        },
+        {
+          "type": "paragraph",
+          "text": "The consolidated fiscal deficit narrowed to 2.1% of GDP in 2025. Strong activity and high gold prices supported government finances, while remittances and non-gold exports helped reduce the current-account deficit to 3.9% of GDP."
+        },
+        {
+          "type": "paragraph",
+          "text": "The fund projects the current-account deficit will narrow again to 3.2% of GDP in 2026. International reserves are expected to exceed 12 months of imports by year-end."
+        },
+        {
+          "type": "paragraph",
+          "text": "Private consumption, investment and continued structural reforms underpin the baseline growth forecast. IMF directors said monetary policy should remain restrictive enough to prevent inflation from stalling above target."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-imf-uzbekistan-inflation-external-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/inflation-external/four-three.webp",
+          "alt": "Graphic lists Uzbekistan inflation of 7 percent in April and a projected 2026 current-account deficit of 3.2 percent of GDP.",
+          "caption": "Inflation was 7.0% in April, while the IMF projects the current-account deficit will narrow to 3.2% of GDP in 2026.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/06/18/pr-26214-uzbekistan-imf-executive-board-concludes-2026-article-iv-consultation"
+        },
+        {
+          "type": "paragraph",
+          "text": "The review also urged fiscal restraint to avoid adding to demand pressures and called for stronger budgeting, public-investment management and oversight of state-owned enterprises and public-private partnerships."
+        },
+        {
+          "type": "paragraph",
+          "text": "Downside risks include weaker global demand, lower export prices, tighter financial conditions, procyclical spending and delays in structural reforms. Faster reform implementation could produce an upside surprise."
+        },
+        {
+          "type": "paragraph",
+          "text": "The projections are a baseline, not a guarantee. Uzbekistan's exposure to gold prices, remittances, external demand and domestic credit policy can move growth, inflation and the external balance away from the IMF path."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/imf-uzbekistan-growth-68-percent-inflation-eases-2026/",
+      "citations": [
+        {
+          "id": "source-imf-uzbekistan-article-iv-20260618",
+          "title": "IMF Executive Board Concludes 2026 Article IV Consultation with the Republic of Uzbekistan",
+          "publisher": "International Monetary Fund",
+          "publishedAt": "2026-06-18T12:00:00Z",
+          "url": "https://www.imf.org/en/news/articles/2026/06/18/pr-26214-uzbekistan-imf-executive-board-concludes-2026-article-iv-consultation"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Uzbekistan's real GDP grew 7.7% in 2025.",
+        "First-quarter 2026 growth was 8.7% year over year.",
+        "The IMF projects 6.8% growth in 2026 and 6.0% in 2027.",
+        "Inflation was 7.0% year over year in April 2026.",
+        "The current-account deficit is projected at 3.2% of GDP in 2026."
+      ],
+      "corrections": [],
+      "dek": "The fund expects output to moderate from 2025's 7.7% pace while inflation moves toward the central bank's 5% target by the end of 2027.",
+      "desk": "uzbekistan-economic-outlook",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "International Monetary Fund",
+        "Central Bank of Uzbekistan",
+        "Republic of Uzbekistan"
+      ],
+      "eventId": "event-imf-uzbekistan-growth-68-percent-inflation-eases-2026",
+      "headline": "IMF Projects Uzbekistan Growth at 6.8% as Inflation Eases",
+      "id": "article-imf-uzbekistan-growth-68-percent-inflation-eases-2026",
+      "leadImage": {
+        "alt": "Tashkent's low-rise neighborhoods and distant high-rises seen under a hazy sky.",
+        "caption": "A view across Tashkent in December 2024. The IMF projects Uzbekistan's real economy will grow 6.8% in 2026.",
+        "credit": "Umad~ruwiki / Wikimedia Commons, CC BY 4.0",
+        "height": 900,
+        "rightsId": "media-imf-uzbekistan-tashkent-city-2024",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/tashkent-city/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Uzbekistan",
+        "Tashkent"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The IMF projects Uzbekistan growth of 6.8% in 2026, with inflation moving toward 5% and the current-account deficit narrowing.",
+        "index": true,
+        "title": "IMF projects Uzbekistan growth at 6.8% in 2026"
+      },
+      "section": "world",
+      "slug": "imf-uzbekistan-growth-68-percent-inflation-eases-2026",
+      "social": {
+        "description": "The fund expects output to moderate from 2025's 7.7% pace while inflation moves toward the central bank's 5% target by the end of 2027.",
+        "image": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/tashkent-city/open-graph.webp",
+        "title": "IMF Projects Uzbekistan Growth at 6.8% as Inflation Eases"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Uzbekistan economy",
+        "IMF outlook",
+        "Economic growth",
+        "Inflation",
+        "Central Asia"
+      ],
+      "uncertainty": [
+        "The growth, inflation, current-account and reserve figures for future periods are IMF projections, not observed outcomes.",
+        "The IMF says uncertainty remains elevated because of global and domestic risks."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-10T17:37:21.500Z",
+  "generatedAt": "2026-08-10T18:10:54.798Z",
   "inputHashes": {
+    "sourceItems": "48c25f382a980ba7b5b80e8fb0b54c8d3adca5817c4e56bc3a3b84e24addf7c7",
+    "events": "7980e575834ffad349dd44d9853f353c6651ea7e5c2a20587f640bb7ccafcf23",
+    "claims": "54ba7590f06b2ffb5104f6d35ca63f977ea98cddfb09bdffdcb225342a2a62b6",
+    "articles": "06b3ad93553f7b3cb099331f130b2469e0b8dc6d3368da144754a3326dfc7ddd",
     "approvals": "b261baf03d758b449bee8e3c4ee48e54f248f4a9a38caef3e0279bfebf17df26",
-    "articles": "16024699ab876995386d122ff851673fdbfd78e851f508d971602421ee50cf6b",
-    "claims": "93d29e5152f83cbd1027af89adcd7cf60f719ccb7b3892ec8879fe3ea01a9969",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "d06e3ec8eab2c6513b9ae5aab12c0ec6270230896276772443101a1bde22d2b7",
-    "mediaRights": "38a6b77c4ac7d24a8ddbe6a6c1a7bcb13d9f7a804df6ddeda36009bcbe1ae250",
-    "publicationIntents": "646dd8cce79a3912853a666f098bf1d4ec16f068625f1c1947874598455858de",
+    "mediaRights": "3deb90433f3fc0190e35f4435eb71340ce4aaadf2676989f7a7581f83750db8f",
     "releaseRecords": "8ad018e1af9959fdba4a28c6103905f5091c43c262ed4119764333ae37da53c0",
-    "sourceItems": "2aa58d8e2c0793d20ff225f7ecc1af5443a7a58d17a38eb8b12a618e2235cdb1"
+    "publicationIntents": "3c8f269defb1348779b4de90b8ccc435687f7fd9e09abd54ec5808ea074bfc52"
   },
   "inventory": {
-    "articleCount": 231,
-    "mediaCount": 679,
-    "routeCount": 231
+    "articleCount": 237,
+    "routeCount": 237,
+    "mediaCount": 697
   },
   "mediaRights": [
     {
@@ -90868,9 +91769,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.nih.gov/news-events/news-releases/nihs-all-us-research-program-now-largest-integrated-genomics-health-database-world"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A broad uranium-tailings remediation site with excavation roads below red cliffs, snowy mountains and the Colorado River corridor near Moab.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Department of Energy",
+      "caption": "The Energy Department's uranium-tailings excavation and remediation site near Moab in 2010. GAO says more than 16 million tons of waste had been removed by 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "U.S. Department of Energy",
+      "derivatives": [
+        {
+          "hash": "f146c96383b3d01289521749a6ddafe4959027241a6b0b3e18d4fb6b39cc2876",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/remediation-site/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "0242c7cd6a5c8aebd7168f9b57640dae3bac8b5cbd5b4ce889ef370bcb1cec2e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/remediation-site/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "28afade5fe06d5f74a9503490cb9a3ef7aad95fad3dd4103f81341d5acd2383f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/remediation-site/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "435a1eba64f9329a846b6029159fe3eb86653a61bcdaeca60a1e17ea412f8239",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/remediation-site/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "db560ae472ef711cd6bedf6ff9961ba9c94afced58710e9bb4855197eaa36a44",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/remediation-site/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6c0a0c532990cd223cfb576bb77a7b56e36375aa99d1b0a221d37ea6fe32e4a3",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/remediation-site/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b5a62794e979a112ec85dc9c5918793c94c09a49dde9aed4e79b444f8893c83a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/remediation-site/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-moab-remediation-site-2010",
+      "illustrationLabel": null,
+      "license": "Public domain (U.S. government work)",
+      "originalFileHash": "6eef756b3011688b066ef6e4736c00d7e0fd10300293b256b2f63c61b15529ef",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Public-domain work of a U.S. Department of Energy employee created as part of official duties; Wikimedia Commons verified the federal-work status.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moab_Tailings_Department_of_Energy_Remedial_Action.jpeg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares about 970 million dollars spent through fiscal 2025 with an expected total cost of 1.16 billion dollars.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The Moab project cost about $970 million through fiscal 2025 and is expected to reach roughly $1.16 billion.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "3085c334f623aaba7adbda2e82ee74c8029bd91870c8f92b8cc5c64228f5b8d7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/cleanup-cost/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "942a6cd90480d53f600e066854d8fd3681a2298780cbeb9ee2280ff432e22484",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/cleanup-cost/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d246bb293b23b68026f3e6cf47c71636778e722ee605f419a734647b2a535d53",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/cleanup-cost/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "714db79bb3b0cd146dc8ec7c3ecfeb269317dbb6a3985f6febd9c45ceb2d1e48",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/cleanup-cost/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5b0c473fb53326b7649f8c1dfada2c193ce3b5f09451f5006444e43bf9af37b1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/cleanup-cost/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4f490db1584b54303f6cefdce0f981306e11aaf32599829ac7f726db8e1a51eb",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/cleanup-cost/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "69e5e1ba04632b60295f821ffbd15c16f84eefeaae97410b0eba05332f4daa3c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/cleanup-cost/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-moab-cleanup-cost-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "714db79bb3b0cd146dc8ec7c3ecfeb269317dbb6a3985f6febd9c45ceb2d1e48",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108654"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists more than 16 million tons of waste removed and a planned cleanup completion in 2029.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "DOE has removed more than 16 million tons of waste and plans to finish cleanup and close the disposal site by 2029.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "0f774751414bd3cc71c3e893ef57dd1b380c1438d9a0c4c1bcfa3ee5dd23cc1a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/waste-timeline/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6cc3f4e4482580386ff7be2bd736640ef4eb02f70f38b32e4a08a85320a1abdf",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/waste-timeline/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c2f213708595068e90d798552b55698ab7a667a3b66dd04ab94298f55616971e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/waste-timeline/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b809215c0b969970f8e1238bf07006b9ba517a9a7fcf1abd82260b89bee67cbd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/waste-timeline/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "573eff2f014b4c069a948bd1b26ea7dbed8ba78bf8164b29553157b5832f6a11",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/waste-timeline/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "eea8068534a2b081d5a61774a88264b596206951cbaa90eabf9def047d0daa37",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/waste-timeline/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "028e0cdf0e60ba83df28e5191cc2ef83918ea2b043e46d55519ce7ea3f5573ec",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/gao-moab-cleanup/waste-timeline/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-moab-waste-timeline-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "b809215c0b969970f8e1238bf07006b9ba517a9a7fcf1abd82260b89bee67cbd",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108654"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Front entrance and steps of the United States courthouse in London, Kentucky.",
+      "archivalStatus": "current",
+      "attribution": "Carol M. Highsmith / Library of Congress",
+      "caption": "The federal courthouse in London, Kentucky, in 2015. New Sentencing Commission data says 15% of federally sentenced individuals remained subject to a mandatory minimum in fiscal 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Carol M. Highsmith",
+      "derivatives": [
+        {
+          "hash": "8f1de58bbe6e0bc6b5bdc99524fcf73ba1fd92c673eee79741d3e0c06f60ad39",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/kentucky-courthouse/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e00b4883511ba41198bb8ea0bdf990dec5b95215340750ff05fdef7076449bd7",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/kentucky-courthouse/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "594e65a1d8012c8b6bad06c8424f5d24d46eecc675153af452d9c89c6c9a0ab7",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/kentucky-courthouse/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9ef5030a7f5accc82f56b540a4639b0a0092704180eb2ae63e3285bc77e697d2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/kentucky-courthouse/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ad66d90fcd3c1fbd114ae1b924439dbcfbdee1714f45d3a470993c688b09ded4",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/kentucky-courthouse/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4ad7b8c1392786fe45d7e849743c3a6cfb8136fe4dae31715fe369b1b4a2830b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/kentucky-courthouse/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f11c4b01a465c204b809646aca90eb2b4f233e5a23437407e967008e2c020ce9",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/kentucky-courthouse/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-mandatory-minimums-kentucky-courthouse-2015",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "8db170c18e29e5b78272677619d0372f76f1223f485a03d51df0bb8a3ade26ba",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Public-domain dedication by the photographer; Library of Congress reports no known restrictions on publication.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Federal_Building_and_U.S._Courthouse_and_Annex,_London,_Kentucky_LCCN2015646761_(cropped).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 66,662 total federal cases, 13,926 carrying a mandatory minimum and 15 percent subject to the penalty at sentencing.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Of 66,662 federal cases in fiscal 2025, 13,926 carried a mandatory minimum and 15% of sentenced individuals remained subject to one.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "b630f574583bbaaea5d6b9c8cf8315263bdc2e87643fbcbf1f3c763ebbe57802",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/case-share/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f48c74658cf44f367840f9dc1a75fd7e45b98236ca7ccad156749e50d0b62c2c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/case-share/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ca286f1d76907a2dfecb9cb87dc30894b6ed79d126972a5ed0c4f16ab066e1f5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/case-share/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a52cbf6850bef5371acca98f096cff8d30cd28114dcf0146b8e2e363ed491fdb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/case-share/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "00d7a8ce3f2b4655750f38f0c30fb7325948c5a944249c82818ee4266c69d617",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/case-share/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3e8f04c3ae35369f00c3f8d50b56a54e136ae5e9285877d92541eb7972f4a744",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/case-share/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "03f91348c0f2fc55183f3d83f13ff10c21b1fbe8aa1ad7f654ed9b3f1f3c8e9a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/case-share/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-mandatory-minimum-case-share-fy2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "a52cbf6850bef5371acca98f096cff8d30cd28114dcf0146b8e2e363ed491fdb",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/mandatory-minimum-penalties"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares average federal sentences of 158 months subject to a mandatory minimum, 74 months with relief and 28 months without such a conviction.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Average sentences were 158 months for people subject to a mandatory minimum, 74 months with relief and 28 months without a mandatory-minimum conviction.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ac81c857b953c8fa589130896a429d089480a96b03b30a14dfd7368ba246ba15",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/sentence-length/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "006f50705d6fbd1a3bd0161a021e08b6defc080916652924cc16a888683b6f4e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/sentence-length/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "908e617b182addc0cd056d326bba6a4e48c566a5ea502b155bb66f8f5b9cbaa1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/sentence-length/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "322856823da8d2ccbfcde665851f0d24be43badfade8465d0ce1ec62d503dc77",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/sentence-length/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "aa7e5bcbab01af99c15a496cc962539a0b25f7ad5280ae74ee9c46c5e218f6a1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/sentence-length/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f462f0f324f7ddfe31e7b7adfc74a48c9ead6a00da4364bab12ddf2bad8db7c9",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/sentence-length/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "756fd69a14203ee8e0652ddd85b3547aa8e846214d1aaf643bb1ea4d01a507ba",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/ussc-mandatory-minimums/sentence-length/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-mandatory-minimum-sentence-length-fy2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "322856823da8d2ccbfcde665851f0d24be43badfade8465d0ce1ec62d503dc77",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/mandatory-minimum-penalties"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A dense crowd of pedestrians and tourists moving through Times Square in New York.",
+      "archivalStatus": "current",
+      "attribution": "Rosapicci / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "A crowd in New York's Times Square in 2017. Census estimates put the U.S. population at 341.8 million on July 1, 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Rosapicci",
+      "derivatives": [
+        {
+          "hash": "044d67524bfdb72bc996dcb1298fc2d46e5ea0f49cc2099c8d93079c68e0f5f0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/times-square-crowd/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "88e632017fcb586e299a8342859fa84037a5828925dcfde6e4b3c39c7de4416a",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/times-square-crowd/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d44e8cac67d14aeb07202bb5e074718472ace7f298231fd89065e124efed7836",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/times-square-crowd/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8047937a9d4eb34e58e642c5dce2f2201c969ba38f250a9af3142107f39e14c1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/times-square-crowd/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9fee598bee2f88cc48269661af0dc093d6ade11cbcdcd8ea53a36af9dd927013",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/times-square-crowd/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "fb7aac203a87f8991e364a92082ef4559eb58e89d06aa4644807a1aa7ba62ec1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/times-square-crowd/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "edac3cb055167bf00e6886be0c03e534deb2dcdc6892a0367d5d935f5ddbe7d6",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/times-square-crowd/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-population-times-square-crowd-2017",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "4aa8594b36ebf647ca42fe5b86e425cb810d0641ecc736e40b11f1eab817a59e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 4.0 International, granted by the photographer on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Times_Square_4.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares U.S. population growth of 1.8 million and 0.5 percent in 2025 with 3.2 million and 1 percent in 2024.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The United States added 1.8 million people, or 0.5%, in the year ending July 1, 2025, compared with 3.2 million and 1.0% a year earlier.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "516a9b5e16662c913efa6d5bf36984504752288c070e4c7a7da5251887d10fe2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/growth-rate/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f0648d9a967d8e69579c5f762cbb384ca8c72a38dc99e9122ff510b0cd2b4cc0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/growth-rate/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "26a3798bb764cc75eeaf34976f55a6505e14e4e9796f0a69a5260e7b94b5acf3",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/growth-rate/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "460b1b0839977317218ddb90adaf4b33f0582ad62d573c88ac8e6189e54e839d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/growth-rate/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "11b7af736d63e5220c681b60d392d1ae7f38168756b53d92d11255a67f72238d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/growth-rate/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b42eed89159881dafee7902acdd5d46b44e60102931ac2d288a43d13b31abfbb",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/growth-rate/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "11ab5f89a5d587f0e61495f45d365b4e13b55942cd0e2c582e0cccb0a620c405",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/growth-rate/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-population-growth-rate-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "460b1b0839977317218ddb90adaf4b33f0582ad62d573c88ac8e6189e54e839d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/population-growth-slows.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows net international migration falling from 2.7 million to 1.3 million, down 53.8 percent.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Estimated net international migration fell from 2.7 million to 1.3 million, a 53.8% decline.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "97cdb78cf23f916ecfa98cbd1b336b2b38380b3904f810ef999646b63e75fc3d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/net-migration/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "dc4da3945927cb7376da00805097ab942394efbb3edaa4c3aec98a89ee8f7b98",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/net-migration/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "eae75ab46c7668c2d9033eaa3d6aaa737a0704235fff77c4f0486783ae8be564",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/net-migration/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a16a79302b532188d623f85b5a9b3e189cbea24ee0710ce3648c0be337e3e934",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/net-migration/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4c661a42d1f0acd9090986cef29863c94d9d2aa121c8f1111392a8a893f070c2",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/net-migration/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "54a392de20f71b4622db6def3d94297b7de5e643b3054a1b55f28bd62081ee48",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/net-migration/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0e8a899c7652482cf4133e8e0476c778f6b5224adb3c1f710b0d1f14432502f3",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/census-population/net-migration/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-net-migration-decline-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "a16a79302b532188d623f85b5a9b3e189cbea24ee0710ce3648c0be337e3e934",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/population-growth-slows.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A large Earth-observing satellite standing inside a brightly lit spacecraft cleanroom.",
+      "archivalStatus": "current",
+      "attribution": "Ben Smegelsky / NASA",
+      "caption": "NOAA's GOES-T Earth-observing satellite inside a Florida cleanroom in 2022. NASA has expanded the commercial data sources that supplement public Earth-observation missions.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Ben Smegelsky / NASA",
+      "derivatives": [
+        {
+          "hash": "2597378005cf04ae8f9e6829a734e9857af034730c3ae5f5a13c33ee364c8eeb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/goes-t-cleanroom/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5498918dd12c19a3fd9af1b0cdf254de534e2fc1b7489ae8ad5ba151445d80c4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/goes-t-cleanroom/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "721719a6450e417c3c9db488434cba6150b238d3aad2e08d7adb3ed8d61b5ca5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/goes-t-cleanroom/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a64c644ca3894e30422bc565cad0c19416054a4701f02bf7bb4e332313c82093",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/goes-t-cleanroom/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "764e97c23b3d9adacf47fe69969fdbf1897506f9b09f4b819f3a0865ee649003",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/goes-t-cleanroom/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b166de7e15c8cc4f93f587effe476c22671630d73830897f6df452cff6baa4a7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/goes-t-cleanroom/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "85bde8d911f22b77b60bb5c6d241a9ded37d1f9588bb98928a3f2b0b3edd2c1b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/goes-t-cleanroom/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-commercial-data-goes-t-cleanroom-2022",
+      "illustrationLabel": null,
+      "license": "Public domain (U.S. government work)",
+      "originalFileHash": "7f1df83792a14a3ab24c1b79e66f0918583090d67d11c8c14c5152e6d25e399e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Public-domain U.S. government photograph from NASA and NOAA, verified on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:GOES-T_Inside_Cleanroom_(51854686355).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists eight new providers, six existing providers and 14 total listed awardees.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "NASA selected eight new providers and new products from six existing holders, for 14 listed awardees.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "faa42a38cf62ef5c052f52fe51eddd9de6387580610701c7bf743f008c9ef3ed",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/provider-count/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c343d52e4ed46a2c84a1cd2b488bd1e1412c002a71eba167cfe071c24ce35bcf",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/provider-count/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8e82cf4513f955d26363f81deae39f01466da9fda5037ba114fcb27000ae74f4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/provider-count/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8df568e4a2fb9b4eb5a652859f74e809f499b6279bbfdd1e20dd4198335a1ef6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/provider-count/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "51d98f68625ebce9da9ba600154b9543ec373b5c1dbe583a546959408e4dedea",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/provider-count/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "31823c2e28deefbcfca040f9e90d4001ed53e520e0f3eb645662cf73ef13e4d2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/provider-count/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d2c1df4d9161f67e8766586fc2a9fcc265c552d2131804e316fae7dee277f189",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/provider-count/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-commercial-data-provider-count-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8df568e4a2fb9b4eb5a652859f74e809f499b6279bbfdd1e20dd4198335a1ef6",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-contract-for-commercial-satellite-data-acquisition/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists a 476 million dollar maximum contract value and a 2023 to November 15, 2028 performance period.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The original contract ceiling is $476 million, and its performance period runs from 2023 through Nov. 15, 2028.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c38ec599b1a1c1396b45b523e9946608889167880e820714ecd7ca26786c727e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/contract-window/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8fd7b52a2e4b106cf00e5f7c3c6ef1e011a451f97d7f57571f6efc6cf548812c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/contract-window/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f3008dd7223d450bf986f7564ef9ccc4959dd79c74e05026f92b6e1e238b154c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/contract-window/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7b12c235bf529d967baf3262671c22d2acef120453b06fbe9671bb6c7ae0ef23",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/contract-window/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6883162fff78a103b74a4336d012f06478fe8d4aafa7ede98fc170f3e4839dbc",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/contract-window/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b4cd08b974419d4fa343af757376c6d607d0bbb8986e7b9fcb6466547c5e42a3",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/contract-window/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1505eb0e13dadc571606772f24af242141a209ae666cacd3f77e4699dfb18023",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/nasa-commercial-data/contract-window/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-commercial-data-contract-window-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "7b12c235bf529d967baf3262671c22d2acef120453b06fbe9671bb6c7ae0ef23",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nasa.gov/news-release/nasa-awards-contract-for-commercial-satellite-data-acquisition/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Dry brown corn plants stand above cracked soil in a drought-affected Texas field.",
+      "archivalStatus": "current",
+      "attribution": "Bob Nichols / U.S. Department of Agriculture",
+      "caption": "Drought-damaged corn in Texas in 2013. The Aug. 4, 2026, Drought Monitor classified 48.54% of the Lower 48 in moderate drought or worse.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Bob Nichols / U.S. Department of Agriculture",
+      "derivatives": [
+        {
+          "hash": "bc3126ff11f2d90aa4f6684ab7ff33436a74949f04fca25bd43251a7f3ec837d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/texas-corn-field/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "413f3274d2b9874a70682a5e0b4f87e446a8d234a534bd06dc0892dfa8995043",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/texas-corn-field/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d6d61131dd184695df6665dbd3a16d5e3535f876ef576ec39c8d440eaf0a58ca",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/texas-corn-field/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "2c8c25649b5ae871370397277cee475acb892e3004fb402997e446f6e301ac0f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/texas-corn-field/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f8ace80f3b2624d605169b26810aa189b53a4fa274b0ffeca868b1638f2fa9e4",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/texas-corn-field/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2664fb482a168ea5c3b2e12b99922f251f2cf73cdbbd9f8d50b311f765b97b50",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/texas-corn-field/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7b0c8bed7a773339ebd8f0a0d6e039cb8267b583d1a10bb6d1ead73cb89e9412",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/texas-corn-field/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-drought-monitor-corn-field-texas-2013",
+      "illustrationLabel": null,
+      "license": "Public domain (U.S. government work)",
+      "originalFileHash": "14b5f9ff6438d3fc2d79fddb46875c17e4c99809c19db99d02407fcf9ced947c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Public-domain work of a U.S. Department of Agriculture employee created as part of official duties.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corn_shows_the_effect_of_drought.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists drought coverage of 48.54 percent in the Lower 48 and 40.72 percent in the United States and Puerto Rico.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "As of Aug. 4, drought covered 48.54% of the Lower 48 and 40.72% of the United States and Puerto Rico.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "6ef5af37074d581218379b2288039a594d0c47df3f974132a7c129c85dd7bbf5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/area-share/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "86a19e3a724f8251670e5af8dedc1bd701bcf2c670ec5ebd0279146891288da3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/area-share/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7607551879c8a45307230ef62a0f7a9fdba1008338394ad5d9f658c4f3a48168",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/area-share/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6ec6ccbb0f086dadddf6ef5ff2885c56de1563ee77c91e457265b8ec376c2d90",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/area-share/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9c66c9502d5fc694b6b076c885e2f2222e748239a37c4411f2541cd785307589",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/area-share/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "be1d2d1e0955dfadf02acaa1129a425d48b9f88f8897d478461f5b1b30345a52",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/area-share/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "07e55151c58f056c4450bdee674f510aa7c9e32a00c7b4064b8484134e09a266",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/area-share/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-drought-monitor-area-share-20260804",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "6ec6ccbb0f086dadddf6ef5ff2885c56de1563ee77c91e457265b8ec376c2d90",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.drought.gov/current-conditions"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 94.4 million people affected by drought and 45 states in moderate drought or worse.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The weekly summary estimated 94.4 million U.S. residents were affected and 45 states had moderate drought or worse.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d3e6cdff3d63e29e653c915c6a865cc49defc4f3d311561695dcce5a6dc1ec24",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/population-states/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2d71bd4e0852bfe83c80d1d43aeb8fe0c67f94cb4df45b6b02924be1ea2f6bee",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/population-states/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bd993960586d06c8045d015e583065396db6f06d63fbd7ee570f8c875e46b5c9",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/population-states/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c626d47894b37d0828fdb375478ae559c4d3026ff5558f7f1fafcd619543661b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/population-states/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3df7f0f443f2390a4eabb3b5aec6a26bda1a29fb088224bcb53eca3c1d601ac6",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/population-states/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b569da4ed1cb7411e6357d73dd5982a4021fbd4bdb24dfe052aba3e550ab2379",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/population-states/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3d66ad906403441aba897b4fbd0b8f562abba887b8097d20ed97bb011c4439cd",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/drought-monitor/population-states/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-drought-monitor-population-states-20260804",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "c626d47894b37d0828fdb375478ae559c4d3026ff5558f7f1fafcd619543661b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.drought.gov/current-conditions"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Tashkent's low-rise neighborhoods and distant high-rises seen under a hazy sky.",
+      "archivalStatus": "current",
+      "attribution": "Umad~ruwiki / Wikimedia Commons, CC BY 4.0",
+      "caption": "A view across Tashkent in December 2024. The IMF projects Uzbekistan's real economy will grow 6.8% in 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Umad~ruwiki",
+      "derivatives": [
+        {
+          "hash": "67a5826b181a01893bab8b6833ec578ab17a242f87b7f749573668e8cac03441",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/tashkent-city/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "365b662b09fa67d55cf8456a7bff8a548830be9afe6641ffc74ba3c5802e8efa",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/tashkent-city/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4bf6d49a3161c5cc8d1d3324aee0cb7c382011c5eb71bceee7c815ff9f4cd4df",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/tashkent-city/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7f9072c72799d5bcc277ffd90e1bdbc2f1c5f6ea8ef4eb0d8571adde58b19061",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/tashkent-city/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "12440fcf804f7f7228a8955a3be57459b3467ee1dfbd7bb5397da1b8e6450d31",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/tashkent-city/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a155b6a9c2fd06b9e5dd0dbdc8a16395df5e9b22611faa5e14471452cbef4573",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/tashkent-city/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "6615e3b16fcbbc0e52565de98f0fd72b3125da2e5eba164da8ac58e7e3ba1bcd",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/tashkent-city/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-imf-uzbekistan-tashkent-city-2024",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "5352395ceac7818f05a6218510ab6f75d2db8e6580f38f656e7932a9fd0a5a32",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Creative Commons Attribution 4.0 International, granted by the photographer on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tashkent_Uzbekistan_city.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists Uzbekistan real GDP growth of 7.7 percent in 2025, 6.8 percent projected in 2026 and 6 percent in 2027.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Uzbekistan grew 7.7% in 2025; the IMF projects 6.8% growth in 2026 and 6.0% in 2027.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "e4e8886b04cf6566a3d72fa431ac37d4cedf14836155d70535c6e2a920b8a630",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/growth-path/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7969ef3d1da2b0f2dc27ffcf3549c74b41e03db87c23b726db22869baa6a2499",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/growth-path/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "81d79f3e705ac92d8e9df31721e030985b3860644fe3d7b1c583fdef1c1a3b9d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/growth-path/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6a168b0e5a415dbb386479cc69bdce08cba494727de3494d262bdab7224f4051",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/growth-path/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b578fb78523eb8185cdb8aba926c137a8accd03ae66a14c41646b1814fe1c89a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/growth-path/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7797f95d5a3cab32c186b3bad84f30bd8b539fac6de47cdbd6b01e5f23b333a1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/growth-path/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3200d14cecc5ddafada2468da81a9d687b8ba9150414e7e09a0dc7cc77462db4",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/growth-path/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-imf-uzbekistan-growth-path-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "6a168b0e5a415dbb386479cc69bdce08cba494727de3494d262bdab7224f4051",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/06/18/pr-26214-uzbekistan-imf-executive-board-concludes-2026-article-iv-consultation"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists Uzbekistan inflation of 7 percent in April and a projected 2026 current-account deficit of 3.2 percent of GDP.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Inflation was 7.0% in April, while the IMF projects the current-account deficit will narrow to 3.2% of GDP in 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "6e1685be6a8de24c1f3584c2e24d3c27e34c020fb424c6253f53b830e330caf6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/inflation-external/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "4e96aa64e28984d7901fce4f41de1d83ac01bf22f58bf0ef14e237d9eafe3fe6",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/inflation-external/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4795a159f18895dae63202736aeef2b7f1a67cbf6d0ce42da64f0e4cdf50cc40",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/inflation-external/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1840a68636d82d10a75bc5ec16186d3b7101374ad6939efae5546d3764e5f046",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/inflation-external/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "00fb06fcab1939702257a903ea5f7adc1be05caacd44faaed44df13c8273d0d0",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/inflation-external/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "22acb31356fdcb5af9ef4eee8b9ce969b28a2028aefb1d4c218ce0856e963ac9",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/inflation-external/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7f89ee96d93125dd2b3f35056cecf4bc57cb9f6baf6f6531f62f3fca0232efad",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-174920/imf-uzbekistan/inflation-external/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-imf-uzbekistan-inflation-external-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "1840a68636d82d10a75bc5ec16186d3b7101374ad6939efae5546d3764e5f046",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T18:10:54.767Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/06/18/pr-26214-uzbekistan-imf-executive-board-concludes-2026-article-iv-consultation"
     }
   ],
-  "packageDigest": "13499494d9001313b3bb1081badc8ad187c52eb6685c055cdaa71cd5a9118a9e",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -92363,7 +94631,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "8e6c2579c79335e28f230c81fa501192d6542fbf5ffd194e8d96e15ac7497d4c"
 }

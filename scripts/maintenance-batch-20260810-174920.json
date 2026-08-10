@@ -1,0 +1,191 @@
+[
+  {
+    "slug": "moab-uranium-cleanup-cost-116-billion-2026",
+    "headline": "Moab Uranium Cleanup Cost Is Expected to Reach $1.16 Billion",
+    "dek": "GAO says the Energy Department has removed more than 16 million tons of waste and plans to finish the Utah project by 2029.",
+    "section": "investigations",
+    "desk": "nuclear-cleanup-oversight",
+    "topics": ["Moab Cleanup Project", "Nuclear waste", "Environmental cleanup", "Groundwater", "Government accountability"],
+    "entities": ["U.S. Government Accountability Office", "U.S. Department of Energy", "Office of Environmental Management", "Office of Legacy Management", "Nuclear Regulatory Commission"],
+    "locations": ["United States", "Moab, Utah", "Grand County, Utah", "Colorado River"],
+    "sources": [{"id":"source-gao-moab-cleanup-20260715","title":"Nuclear Waste: DOE's Plans to Complete Cleanup and Transfer of Moab Mill Site","publisher":"U.S. Government Accountability Office","publishedAt":"2026-07-15T12:00:00Z","url":"https://www.gao.gov/products/gao-26-108654"}],
+    "lead": {"id":"media-gao-moab-remediation-site-2010","dir":"gao-moab-cleanup/remediation-site","sourceUrl":"https://commons.wikimedia.org/wiki/File:Moab_Tailings_Department_of_Energy_Remedial_Action.jpeg","creator":"U.S. Department of Energy","rightsBasis":"Public-domain work of a U.S. Department of Energy employee created as part of official duties; Wikimedia Commons verified the federal-work status.","license":"Public domain (U.S. government work)","attribution":"U.S. Department of Energy","caption":"The Energy Department's uranium-tailings excavation and remediation site near Moab in 2010. GAO says more than 16 million tons of waste had been removed by 2026.","alt":"A broad uranium-tailings remediation site with excavation roads below red cliffs, snowy mountains and the Colorado River corridor near Moab.","original":"moab.jpg"},
+    "charts": [
+      {"id":"media-gao-moab-cleanup-cost-2026","dir":"gao-moab-cleanup/cleanup-cost","caption":"The Moab project cost about $970 million through fiscal 2025 and is expected to reach roughly $1.16 billion.","alt":"Graphic compares about 970 million dollars spent through fiscal 2025 with an expected total cost of 1.16 billion dollars."},
+      {"id":"media-gao-moab-waste-timeline-2026","dir":"gao-moab-cleanup/waste-timeline","caption":"DOE has removed more than 16 million tons of waste and plans to finish cleanup and close the disposal site by 2029.","alt":"Graphic lists more than 16 million tons of waste removed and a planned cleanup completion in 2029."}
+    ],
+    "paragraphs": [
+      "The Department of Energy's cleanup of the former uranium mill site near Moab, Utah, is expected to cost about $1.16 billion, according to a Government Accountability Office review released July 15.",
+      "The project had cost approximately $970 million through fiscal 2025. The federal government pays the full cleanup cost, GAO said.",
+      "Energy's Office of Environmental Management had removed more than 16 million tons of uranium mill tailings and other contaminated material as of 2026. The waste is transported to a disposal site away from the Colorado River.",
+      "Tailings are the material left after uranium is removed from rock. Groundwater around the former mill was contaminated and flows toward the nearby Colorado River, creating an environmental risk that the cleanup also addresses.",
+      "Energy plans to finish cleanup and close the disposal site by 2029. Its Office of Legacy Management would then assume long-term federal responsibilities for both locations.",
+      "The department expects to keep ownership of the disposal site. It has not made a final decision about the former mill property, although Environmental Management expects most of that land to be transferred to Grand County after cleanup.",
+      "Community stakeholders have proposed recreational uses for the mill property. GAO said the transfer plan is still being developed, so those uses and the ultimate ownership arrangement are not final.",
+      "GAO reviewed laws, regulations and agency records and interviewed five stakeholder groups. The review assessed cleanup progress and whether Energy followed leading practices for involving stakeholders; the interview sample was not designed to represent every affected group.",
+      "The 2029 date and $1.16 billion total remain plans and estimates. The documented record is that more than 16 million tons had been removed and about $970 million had been spent through fiscal 2025."
+    ],
+    "facts": ["The cleanup cost about $970 million through fiscal 2025.","GAO expects the total cost to reach about $1.16 billion.","More than 16 million tons of waste had been removed as of 2026.","Energy plans to finish cleanup and close the disposal site by 2029.","The federal government pays 100% of the cleanup cost."],
+    "uncertainty": ["The $1.16 billion cost and 2029 completion date are estimates and plans, not completed outcomes.","Energy has not made a final decision on ownership of the former mill site, and proposed recreational uses remain under development."],
+    "seoTitle": "Moab uranium cleanup cost expected to reach $1.16B",
+    "seoDescription": "GAO says DOE has removed more than 16 million tons from the Moab uranium mill site and expects cleanup to cost about $1.16 billion."
+  },
+  {
+    "slug": "mandatory-minimums-applied-15-percent-federal-sentences-fy2025",
+    "headline": "Mandatory Minimums Applied in 15% of Federal Sentences in 2025",
+    "dek": "The Sentencing Commission counted 13,926 cases carrying a statutory floor; one-third of convicted defendants received relief from that penalty.",
+    "section": "crime-justice",
+    "desk": "mandatory-minimum-sentencing-data",
+    "topics": ["Federal sentencing", "Mandatory minimums", "Safety valve", "Substantial assistance", "Sentencing Commission"],
+    "entities": ["United States Sentencing Commission", "United States Courts"],
+    "locations": ["United States", "London, Kentucky"],
+    "sources": [{"id":"source-ussc-mandatory-minimums-fy2025","title":"Mandatory Minimum Penalties: Fiscal Year 2025 Quick Facts","publisher":"United States Sentencing Commission","publishedAt":"2026-07-01T12:00:00Z","url":"https://www.ussc.gov/research/quick-facts/mandatory-minimum-penalties"}],
+    "lead": {"id":"media-ussc-mandatory-minimums-kentucky-courthouse-2015","dir":"ussc-mandatory-minimums/kentucky-courthouse","sourceUrl":"https://commons.wikimedia.org/wiki/File:Federal_Building_and_U.S._Courthouse_and_Annex,_London,_Kentucky_LCCN2015646761_(cropped).jpg","creator":"Carol M. Highsmith","rightsBasis":"Public-domain dedication by the photographer; Library of Congress reports no known restrictions on publication.","license":"Public domain","attribution":"Carol M. Highsmith / Library of Congress","caption":"The federal courthouse in London, Kentucky, in 2015. New Sentencing Commission data says 15% of federally sentenced individuals remained subject to a mandatory minimum in fiscal 2025.","alt":"Front entrance and steps of the United States courthouse in London, Kentucky.","original":"courthouse.jpg"},
+    "charts": [
+      {"id":"media-ussc-mandatory-minimum-case-share-fy2025","dir":"ussc-mandatory-minimums/case-share","caption":"Of 66,662 federal cases in fiscal 2025, 13,926 carried a mandatory minimum and 15% of sentenced individuals remained subject to one.","alt":"Graphic lists 66,662 total federal cases, 13,926 carrying a mandatory minimum and 15 percent subject to the penalty at sentencing."},
+      {"id":"media-ussc-mandatory-minimum-sentence-length-fy2025","dir":"ussc-mandatory-minimums/sentence-length","caption":"Average sentences were 158 months for people subject to a mandatory minimum, 74 months with relief and 28 months without a mandatory-minimum conviction.","alt":"Graphic compares average federal sentences of 158 months subject to a mandatory minimum, 74 months with relief and 28 months without such a conviction."}
+    ],
+    "paragraphs": [
+      "Mandatory minimum penalties applied at sentencing to 15% of people in federal cases during fiscal 2025, according to the United States Sentencing Commission's latest annual profile.",
+      "The Commission received 66,662 cases, including 13,926 involving an offense that carried a statutory mandatory minimum. That means 21% of cases carried a possible mandatory floor, although some defendants later received relief.",
+      "One-third of people convicted of an offense carrying a mandatory minimum were relieved of the penalty. Fourteen percent qualified through the safety-valve provision, 15% provided substantial assistance to the government and 5% received both forms of relief.",
+      "The difference in sentence length was substantial. The average was 158 months for defendants still subject to the minimum, 74 months for those receiving relief and 28 months for people who were not convicted of an offense carrying a mandatory minimum.",
+      "Drug trafficking made up 68% of cases carrying mandatory minimums. Sexual abuse accounted for 8%, child pornography 7%, firearms 5% and fraud 3%.",
+      "Among 16,073 people sentenced for drug offenses, 58% were convicted of an offense carrying a mandatory minimum and 57% of that group remained subject to it. Their average sentence was 144 months, compared with 72 months for those receiving relief.",
+      "The Commission also counted 2,382 convictions under 18 U.S.C. Section 924(c). Eighty-four percent remained subject to that provision's minimum, with average sentences of 158 months, or 99 months when relief was granted.",
+      "The data describes completed sentencing outcomes, not arrests, pending allegations or state cases. It also excludes cases with incomplete sentencing information from relevant calculations.",
+      "Group averages do not predict any individual's sentence. Offense statutes, criminal history, guideline findings, relief eligibility and judicial decisions differ from case to case."
+    ],
+    "facts": ["USSC reported 66,662 federal cases in fiscal 2025.","There were 13,926 cases involving an offense carrying a statutory mandatory minimum.","Fifteen percent of sentenced individuals remained subject to a mandatory minimum.","Thirty-three percent of people convicted of such an offense received relief.","Average sentences were 158 months subject to the minimum and 74 months with relief."],
+    "uncertainty": ["Cases with incomplete sentencing information were excluded from relevant calculations.","Aggregate sentencing averages do not predict an individual outcome and do not measure arrests or unresolved cases."],
+    "seoTitle": "Mandatory minimums applied in 15% of federal sentences",
+    "seoDescription": "USSC says 13,926 federal cases carried a mandatory minimum in FY2025 and 15% of sentenced individuals remained subject to one."
+  },
+  {
+    "slug": "us-population-growth-slowed-05-percent-migration-2025",
+    "headline": "U.S. Population Growth Slowed to 0.5% as Net Migration Fell 54%",
+    "dek": "The Census Bureau estimates the country added 1.8 million people to reach 341.8 million, half the prior year's growth rate.",
+    "section": "us",
+    "desk": "population-and-migration-data",
+    "topics": ["Population estimates", "International migration", "Domestic migration", "Natural change", "Census Bureau"],
+    "entities": ["United States Census Bureau"],
+    "locations": ["United States", "South Carolina", "Idaho", "North Carolina"],
+    "sources": [{"id":"source-census-population-growth-20260127","title":"U.S. Population Growth Slows Due to Historic Decline in Net International Migration","publisher":"United States Census Bureau","publishedAt":"2026-01-27T12:00:00Z","url":"https://www.census.gov/newsroom/press-releases/2026/population-growth-slows.html"}],
+    "lead": {"id":"media-census-population-times-square-crowd-2017","dir":"census-population/times-square-crowd","sourceUrl":"https://commons.wikimedia.org/wiki/File:Times_Square_4.jpg","creator":"Rosapicci","rightsBasis":"Creative Commons Attribution-ShareAlike 4.0 International, granted by the photographer on Wikimedia Commons.","license":"CC BY-SA 4.0","attribution":"Rosapicci / Wikimedia Commons, CC BY-SA 4.0","caption":"A crowd in New York's Times Square in 2017. Census estimates put the U.S. population at 341.8 million on July 1, 2025.","alt":"A dense crowd of pedestrians and tourists moving through Times Square in New York.","original":"times-square.jpg"},
+    "charts": [
+      {"id":"media-census-population-growth-rate-2025","dir":"census-population/growth-rate","caption":"The United States added 1.8 million people, or 0.5%, in the year ending July 1, 2025, compared with 3.2 million and 1.0% a year earlier.","alt":"Graphic compares U.S. population growth of 1.8 million and 0.5 percent in 2025 with 3.2 million and 1 percent in 2024."},
+      {"id":"media-census-net-migration-decline-2025","dir":"census-population/net-migration","caption":"Estimated net international migration fell from 2.7 million to 1.3 million, a 53.8% decline.","alt":"Graphic shows net international migration falling from 2.7 million to 1.3 million, down 53.8 percent."}
+    ],
+    "paragraphs": [
+      "The U.S. population grew by an estimated 1.8 million people, or 0.5%, in the year ending July 1, 2025, reaching 341.8 million, according to the Census Bureau's Vintage 2025 estimates.",
+      "That was half the prior year's 1.0% growth rate, when the country added 3.2 million people. Census called the latest pace the slowest since 2021.",
+      "The main change was net international migration. The estimate fell from 2.7 million to 1.3 million, a decline of 53.8%, while births and deaths changed comparatively little.",
+      "Natural change, the difference between births and deaths, was nearly 519,000. That was close to the prior year but far below levels recorded before the pandemic and during the 2000s.",
+      "All four Census regions grew, though each slowed. The South's rate dropped from 1.4% to 0.9%, and the Northeast's from 0.8% to 0.2%.",
+      "The Midwest added 244,385 residents and was the only region where every state gained population. It also posted modest positive domestic migration for the first time this decade.",
+      "South Carolina grew fastest at 1.5%, adding 79,958 residents, including a net domestic migration gain of 66,622. Idaho followed at 1.4% and North Carolina at 1.3%.",
+      "Five states lost population: California, Hawaii, New Mexico, Vermont and West Virginia. Every state and the District of Columbia recorded lower net international migration than a year earlier, though all remained positive on that measure.",
+      "Population estimates are revised as new administrative records and methods become available. Census said this release incorporated methodological improvements, so the figures are estimates rather than a final count."
+    ],
+    "facts": ["The U.S. population reached an estimated 341.8 million on July 1, 2025.","The annual increase was 1.8 million people, or 0.5%.","The prior year added 3.2 million people, or 1.0%.","Net international migration fell from 2.7 million to 1.3 million, a 53.8% decline.","South Carolina had the fastest state growth rate at 1.5%."],
+    "uncertainty": ["Vintage population estimates can be revised as additional administrative data and methodological improvements are incorporated.","The 2026 migration figure discussed by Census is a projection and is not treated here as an observed population count."],
+    "seoTitle": "U.S. population growth slowed to 0.5% in 2025",
+    "seoDescription": "Census estimates U.S. population reached 341.8 million as growth slowed to 0.5% and net international migration fell 53.8%."
+  },
+  {
+    "slug": "nasa-adds-eight-commercial-earth-data-providers-2026",
+    "headline": "NASA Adds Eight Providers to Its $476 Million Earth-Data Contract",
+    "dek": "The on-ramp expands the commercial satellite program to 14 listed awardees while keeping the original contract ceiling and 2028 end date.",
+    "section": "technology",
+    "desk": "commercial-earth-observation",
+    "topics": ["Commercial satellite data", "Earth observation", "NASA contracts", "Remote sensing", "Public-private partnerships"],
+    "entities": ["National Aeronautics and Space Administration", "Commercial Satellite Data Acquisition Program"],
+    "locations": ["United States", "Titusville, Florida"],
+    "sources": [
+      {"id":"source-nasa-commercial-satellite-contract-20260618","title":"NASA Awards Contract for Commercial Satellite Data Acquisition","publisher":"National Aeronautics and Space Administration","publishedAt":"2026-06-18T12:00:00Z","url":"https://www.nasa.gov/news-release/nasa-awards-contract-for-commercial-satellite-data-acquisition/"},
+      {"id":"source-nasa-csda-onramp2-20260618","title":"CSDA Selects Eight Commercial Satellite Data Providers for On-Ramp 2 Contract Awards","publisher":"National Aeronautics and Space Administration","publishedAt":"2026-06-18T12:00:00Z","url":"https://science.nasa.gov/science-research/earth-science/csda-selects-eight-commercial-satellite-data-providers-for-on-ramp-2-contract-awards/"}
+    ],
+    "lead": {"id":"media-nasa-commercial-data-goes-t-cleanroom-2022","dir":"nasa-commercial-data/goes-t-cleanroom","sourceUrl":"https://commons.wikimedia.org/wiki/File:GOES-T_Inside_Cleanroom_(51854686355).jpg","creator":"Ben Smegelsky / NASA","rightsBasis":"Public-domain U.S. government photograph from NASA and NOAA, verified on Wikimedia Commons.","license":"Public domain (U.S. government work)","attribution":"Ben Smegelsky / NASA","caption":"NOAA's GOES-T Earth-observing satellite inside a Florida cleanroom in 2022. NASA has expanded the commercial data sources that supplement public Earth-observation missions.","alt":"A large Earth-observing satellite standing inside a brightly lit spacecraft cleanroom.","original":"satellite.jpg"},
+    "charts": [
+      {"id":"media-nasa-commercial-data-provider-count-2026","dir":"nasa-commercial-data/provider-count","caption":"NASA selected eight new providers and new products from six existing holders, for 14 listed awardees.","alt":"Graphic lists eight new providers, six existing providers and 14 total listed awardees."},
+      {"id":"media-nasa-commercial-data-contract-window-2026","dir":"nasa-commercial-data/contract-window","caption":"The original contract ceiling is $476 million, and its performance period runs from 2023 through Nov. 15, 2028.","alt":"Graphic lists a 476 million dollar maximum contract value and a 2023 to November 15, 2028 performance period."}
+    ],
+    "paragraphs": [
+      "NASA selected eight new companies for its commercial satellite data contract and will buy new products from six existing holders, expanding the program to 14 listed awardees.",
+      "The additions are part of the Commercial Satellite Data Acquisition Program's second contract on-ramp. NASA uses commercial measurements to supplement observations from government Earth-science missions.",
+      "The contract is firm-fixed-price, indefinite-delivery and indefinite-quantity. Its original maximum value is $476 million, and the performance period that began in 2023 runs through Nov. 15, 2028.",
+      "The $476 million figure is a contract ceiling, not a new lump-sum award to the eight incoming companies. Actual spending depends on task orders and data purchases under the vehicle.",
+      "NASA said commercial sources can add high-resolution and more frequent measurements for researchers, civil agencies and decision-makers. The agency evaluates the data as a complement to its own satellites rather than a replacement for public missions.",
+      "The awardee list includes Airbus DS Geo, GHGSat, Hydrosat, ICEYE US, ImageSat International, Kuva US, Muon Space, Orbital Sidekick, OroraTech USA, Planet Labs Federal, PlanetiQ, SATLANTIS US, Tomorrow.io and Wyvern.",
+      "Those companies cover different sensing and forecasting capabilities. A broader vendor pool can give NASA more options, but the announcement does not assign identical workloads or guaranteed revenue to each awardee.",
+      "NASA describes the program as a way to acquire data cost-effectively and accelerate access for science and public-service uses including environmental intelligence and disaster response.",
+      "The next test is delivery: which datasets pass scientific evaluation, how widely they are licensed for research and civil use, and how much NASA orders before the contract period ends."
+    ],
+    "facts": ["NASA selected eight new commercial satellite data companies.","The agency will acquire new products from six existing contract holders.","The release lists 14 awardees.","The original maximum contract value is $476 million.","The performance period runs from 2023 through Nov. 15, 2028."],
+    "uncertainty": ["The $476 million figure is the contract ceiling, not a guaranteed award or a new payment to each provider.","The announcement does not disclose task-order amounts or guarantee that every listed dataset will be purchased at the same scale."],
+    "seoTitle": "NASA adds eight commercial Earth-data providers",
+    "seoDescription": "NASA added eight providers to its commercial Earth-data contract, bringing the listed field to 14 under a $476 million ceiling through 2028."
+  },
+  {
+    "slug": "drought-covered-4854-percent-lower-48-august-2026",
+    "headline": "Drought Covered 48.54% of the Lower 48 in Early August",
+    "dek": "The Aug. 4 Drought Monitor showed another weekly increase as conditions worsened in the Northern and Southern Plains and the Northwest.",
+    "section": "weather-climate",
+    "desk": "national-drought-monitoring",
+    "topics": ["U.S. Drought Monitor", "Drought conditions", "Agriculture", "Water supply", "Climate monitoring"],
+    "entities": ["National Integrated Drought Information System", "National Drought Mitigation Center", "National Oceanic and Atmospheric Administration", "United States Department of Agriculture", "National Aeronautics and Space Administration"],
+    "locations": ["United States", "Northern Plains", "Southern Plains", "Pacific Northwest"],
+    "sources": [{"id":"source-droughtgov-current-conditions-20260804","title":"National Current Conditions: July 29-August 4, 2026","publisher":"National Integrated Drought Information System","publishedAt":"2026-08-06T12:00:00Z","url":"https://www.drought.gov/current-conditions"}],
+    "lead": {"id":"media-drought-monitor-corn-field-texas-2013","dir":"drought-monitor/texas-corn-field","sourceUrl":"https://commons.wikimedia.org/wiki/File:Corn_shows_the_effect_of_drought.jpg","creator":"Bob Nichols / U.S. Department of Agriculture","rightsBasis":"Public-domain work of a U.S. Department of Agriculture employee created as part of official duties.","license":"Public domain (U.S. government work)","attribution":"Bob Nichols / U.S. Department of Agriculture","caption":"Drought-damaged corn in Texas in 2013. The Aug. 4, 2026, Drought Monitor classified 48.54% of the Lower 48 in moderate drought or worse.","alt":"Dry brown corn plants stand above cracked soil in a drought-affected Texas field.","original":"drought.jpg"},
+    "charts": [
+      {"id":"media-drought-monitor-area-share-20260804","dir":"drought-monitor/area-share","caption":"As of Aug. 4, drought covered 48.54% of the Lower 48 and 40.72% of the United States and Puerto Rico.","alt":"Graphic lists drought coverage of 48.54 percent in the Lower 48 and 40.72 percent in the United States and Puerto Rico."},
+      {"id":"media-drought-monitor-population-states-20260804","dir":"drought-monitor/population-states","caption":"The weekly summary estimated 94.4 million U.S. residents were affected and 45 states had moderate drought or worse.","alt":"Graphic lists 94.4 million people affected by drought and 45 states in moderate drought or worse."}
+    ],
+    "paragraphs": [
+      "Drought covered 48.54% of the Lower 48 states as of Aug. 4, up again as conditions deteriorated across parts of the Plains and Northwest, according to the U.S. Drought Monitor.",
+      "Including Alaska, Hawaii and Puerto Rico, 40.72% of the area was in moderate drought or worse. That national share increased 1.6% from the previous week and 2.9% from a month earlier.",
+      "The weekly summary estimated that 94.4 million people in the United States were affected, including 91.5 million in the Lower 48. Forty-five states had at least some area in moderate drought or worse.",
+      "Drought worsened again in the Northern Plains and began deteriorating in the Southern Plains. The Northwest also continued to worsen during the July 29-Aug. 4 reporting period.",
+      "The Eastern United States, Central Plains, Upper Midwest and Interior West recorded improvement. A national percentage can therefore rise even while some regions get relief.",
+      "The Drought Monitor uses five categories, from abnormally dry through exceptional drought. The headline area share counts moderate drought, labeled D1, or worse and does not include the D0 category.",
+      "The map is produced jointly by the National Drought Mitigation Center, USDA, NOAA and NASA. Authors combine physical indicators such as precipitation and soil moisture with reports from local observers.",
+      "Drought classifications are updated every Thursday using data valid through Tuesday morning. They are a weekly synthesis, not a forecast or a direct measure of economic loss.",
+      "The Aug. 4 snapshot establishes the scale at that date. Conditions, population exposure estimates and affected-state counts can change with each weekly release."
+    ],
+    "facts": ["Drought covered 48.54% of the Lower 48 as of Aug. 4, 2026.","Drought covered 40.72% of the United States and Puerto Rico.","The national area share rose 1.6% from the prior week.","An estimated 94.4 million U.S. residents were affected.","Forty-five states had moderate drought or worse."],
+    "uncertainty": ["The Drought Monitor is a weekly synthesis that combines indicators and local-observer input; it is not a forecast.","Population exposure and affected-area figures are date-specific and change with later releases."],
+    "seoTitle": "Drought covered 48.54% of the Lower 48 on Aug. 4",
+    "seoDescription": "The Aug. 4 Drought Monitor put 48.54% of the Lower 48 in drought and estimated 94.4 million U.S. residents were affected."
+  },
+  {
+    "slug": "imf-uzbekistan-growth-68-percent-inflation-eases-2026",
+    "headline": "IMF Projects Uzbekistan Growth at 6.8% as Inflation Eases",
+    "dek": "The fund expects output to moderate from 2025's 7.7% pace while inflation moves toward the central bank's 5% target by the end of 2027.",
+    "section": "world",
+    "desk": "uzbekistan-economic-outlook",
+    "topics": ["Uzbekistan economy", "IMF outlook", "Economic growth", "Inflation", "Central Asia"],
+    "entities": ["International Monetary Fund", "Central Bank of Uzbekistan", "Republic of Uzbekistan"],
+    "locations": ["Uzbekistan", "Tashkent"],
+    "sources": [{"id":"source-imf-uzbekistan-article-iv-20260618","title":"IMF Executive Board Concludes 2026 Article IV Consultation with the Republic of Uzbekistan","publisher":"International Monetary Fund","publishedAt":"2026-06-18T12:00:00Z","url":"https://www.imf.org/en/news/articles/2026/06/18/pr-26214-uzbekistan-imf-executive-board-concludes-2026-article-iv-consultation"}],
+    "lead": {"id":"media-imf-uzbekistan-tashkent-city-2024","dir":"imf-uzbekistan/tashkent-city","sourceUrl":"https://commons.wikimedia.org/wiki/File:Tashkent_Uzbekistan_city.jpg","creator":"Umad~ruwiki","rightsBasis":"Creative Commons Attribution 4.0 International, granted by the photographer on Wikimedia Commons.","license":"CC BY 4.0","attribution":"Umad~ruwiki / Wikimedia Commons, CC BY 4.0","caption":"A view across Tashkent in December 2024. The IMF projects Uzbekistan's real economy will grow 6.8% in 2026.","alt":"Tashkent's low-rise neighborhoods and distant high-rises seen under a hazy sky.","original":"tashkent.jpg"},
+    "charts": [
+      {"id":"media-imf-uzbekistan-growth-path-2026","dir":"imf-uzbekistan/growth-path","caption":"Uzbekistan grew 7.7% in 2025; the IMF projects 6.8% growth in 2026 and 6.0% in 2027.","alt":"Graphic lists Uzbekistan real GDP growth of 7.7 percent in 2025, 6.8 percent projected in 2026 and 6 percent in 2027."},
+      {"id":"media-imf-uzbekistan-inflation-external-2026","dir":"imf-uzbekistan/inflation-external","caption":"Inflation was 7.0% in April, while the IMF projects the current-account deficit will narrow to 3.2% of GDP in 2026.","alt":"Graphic lists Uzbekistan inflation of 7 percent in April and a projected 2026 current-account deficit of 3.2 percent of GDP."}
+    ],
+    "paragraphs": [
+      "Uzbekistan's real economy is projected to grow 6.8% in 2026 and 6.0% in 2027, according to the International Monetary Fund's latest review.",
+      "The forecast represents moderation after 7.7% growth in 2025. Activity remained strong at the start of this year, with gross domestic product up 8.7% from a year earlier in the first quarter.",
+      "Inflation eased to 7.0% year over year in April 2026 after price pressures associated with the May 2024 energy-price reform. The IMF expects inflation to reach the Central Bank of Uzbekistan's 5% target by the end of 2027.",
+      "The consolidated fiscal deficit narrowed to 2.1% of GDP in 2025. Strong activity and high gold prices supported government finances, while remittances and non-gold exports helped reduce the current-account deficit to 3.9% of GDP.",
+      "The fund projects the current-account deficit will narrow again to 3.2% of GDP in 2026. International reserves are expected to exceed 12 months of imports by year-end.",
+      "Private consumption, investment and continued structural reforms underpin the baseline growth forecast. IMF directors said monetary policy should remain restrictive enough to prevent inflation from stalling above target.",
+      "The review also urged fiscal restraint to avoid adding to demand pressures and called for stronger budgeting, public-investment management and oversight of state-owned enterprises and public-private partnerships.",
+      "Downside risks include weaker global demand, lower export prices, tighter financial conditions, procyclical spending and delays in structural reforms. Faster reform implementation could produce an upside surprise.",
+      "The projections are a baseline, not a guarantee. Uzbekistan's exposure to gold prices, remittances, external demand and domestic credit policy can move growth, inflation and the external balance away from the IMF path."
+    ],
+    "facts": ["Uzbekistan's real GDP grew 7.7% in 2025.","First-quarter 2026 growth was 8.7% year over year.","The IMF projects 6.8% growth in 2026 and 6.0% in 2027.","Inflation was 7.0% year over year in April 2026.","The current-account deficit is projected at 3.2% of GDP in 2026."],
+    "uncertainty": ["The growth, inflation, current-account and reserve figures for future periods are IMF projections, not observed outcomes.","The IMF says uncertainty remains elevated because of global and domestic risks."],
+    "seoTitle": "IMF projects Uzbekistan growth at 6.8% in 2026",
+    "seoDescription": "The IMF projects Uzbekistan growth of 6.8% in 2026, with inflation moving toward 5% and the current-account deficit narrowing."
+  }
+]
