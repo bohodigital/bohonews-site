@@ -35730,25 +35730,916 @@
         "Funding adequacy requires plan-level liabilities, assumptions and actuarial records not summarized by the asset total."
       ],
       "updatedAt": "2026-08-10T06:36:18.101Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The federal budget deficit totaled an estimated $1.4 trillion in the first nine months of fiscal year 2026, according to the Congressional Budget Office's June monthly review.\n\nThat cumulative shortfall was $35 billion larger than the deficit recorded over the same October-through-June period of fiscal 2025. CBO's figures are estimates based on the government's daily cash reports and other available data.\n\nFederal revenues rose by $142 billion, or 4%, from the comparable prior-year period. Outlays increased by $178 billion, or 3%, and the larger dollar increase in spending widened the deficit despite the revenue growth.\n\nPercent changes and dollar changes answer different questions because the revenue and spending bases are not the same size. The 3% outlay rise produced a larger dollar change than the 4% revenue rise.\n\nThe $1.4 trillion figure covers nine months, not the entire fiscal year. Federal fiscal 2026 runs through Sept. 30, so July, August and September receipts and payments will change the final annual total.\n\nMonthly budget results can be affected by calendar shifts that move scheduled payments or tax deadlines across month boundaries. CBO's full report provides adjustments and category-level detail needed to interpret those timing effects.\n\nA deficit is the amount by which federal outlays exceed revenues during the measured period. It is not the same as the total federal debt, which reflects accumulated borrowing and other financing over time.\n\nCBO's monthly review is an early accounting estimate rather than the Treasury Department's final year-end statement. Later administrative data can revise individual categories or the overall balance.\n\nThe next useful checkpoints are CBO's July and August reviews and the final fiscal-year results. Together they will show whether the $35 billion year-over-year gap persisted, widened or narrowed in the closing quarter.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The federal budget deficit totaled an estimated $1.4 trillion in the first nine months of fiscal year 2026, according to the Congressional Budget Office's June monthly review."
+        },
+        {
+          "type": "paragraph",
+          "text": "That cumulative shortfall was $35 billion larger than the deficit recorded over the same October-through-June period of fiscal 2025. CBO's figures are estimates based on the government's daily cash reports and other available data."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cbo-june-budget-balance-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/balance/four-three.webp",
+          "alt": "Graphic lists a 1.4 trillion dollar deficit and a 35 billion dollar year-over-year increase.",
+          "caption": "CBO estimates the deficit totaled $1.4 trillion through June, $35 billion more than in the comparable fiscal 2025 period.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cbo.gov/publication/61982"
+        },
+        {
+          "type": "paragraph",
+          "text": "Federal revenues rose by $142 billion, or 4%, from the comparable prior-year period. Outlays increased by $178 billion, or 3%, and the larger dollar increase in spending widened the deficit despite the revenue growth."
+        },
+        {
+          "type": "paragraph",
+          "text": "Percent changes and dollar changes answer different questions because the revenue and spending bases are not the same size. The 3% outlay rise produced a larger dollar change than the 4% revenue rise."
+        },
+        {
+          "type": "paragraph",
+          "text": "The $1.4 trillion figure covers nine months, not the entire fiscal year. Federal fiscal 2026 runs through Sept. 30, so July, August and September receipts and payments will change the final annual total."
+        },
+        {
+          "type": "paragraph",
+          "text": "Monthly budget results can be affected by calendar shifts that move scheduled payments or tax deadlines across month boundaries. CBO's full report provides adjustments and category-level detail needed to interpret those timing effects."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cbo-june-budget-flows-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/flows/four-three.webp",
+          "alt": "Graphic lists revenues up 142 billion dollars, outlays up 178 billion dollars, and nine months covered.",
+          "caption": "CBO estimates revenues rose $142 billion while outlays rose $178 billion in the first nine months of fiscal 2026.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cbo.gov/publication/61982"
+        },
+        {
+          "type": "paragraph",
+          "text": "A deficit is the amount by which federal outlays exceed revenues during the measured period. It is not the same as the total federal debt, which reflects accumulated borrowing and other financing over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "CBO's monthly review is an early accounting estimate rather than the Treasury Department's final year-end statement. Later administrative data can revise individual categories or the overall balance."
+        },
+        {
+          "type": "paragraph",
+          "text": "The next useful checkpoints are CBO's July and August reviews and the final fiscal-year results. Together they will show whether the $35 billion year-over-year gap persisted, widened or narrowed in the closing quarter."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/cbo-federal-deficit-1-4-trillion-through-june-2026/",
+      "citations": [
+        {
+          "id": "source-cbo-budget-review-june-2026",
+          "title": "Monthly Budget Review: June 2026",
+          "publisher": "Congressional Budget Office",
+          "publishedAt": "2026-07-09T12:00:00Z",
+          "url": "https://www.cbo.gov/publication/61982"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "CBO estimates a $1.4 trillion deficit in the first nine months of fiscal 2026.",
+        "The deficit was $35 billion larger than in the comparable fiscal 2025 period.",
+        "Revenues rose $142 billion, or 4%.",
+        "Outlays rose $178 billion, or 3%.",
+        "The period runs from October 2025 through June 2026."
+      ],
+      "corrections": [],
+      "dek": "Revenues rose 4% in the first nine months of fiscal 2026, but a 3% increase in outlays left the cumulative deficit $35 billion above the prior-year period.",
+      "desk": "federal-budget-monitoring",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Congressional Budget Office",
+        "U.S. Treasury"
+      ],
+      "eventId": "event-cbo-federal-deficit-1-4-trillion-through-june-2026",
+      "headline": "Federal Deficit Reached $1.4 Trillion Through June, CBO Estimates",
+      "id": "article-cbo-federal-deficit-1-4-trillion-through-june-2026",
+      "leadImage": {
+        "alt": "The columned U.S. Treasury Building seen from a Washington street.",
+        "caption": "The U.S. Treasury Building in Washington. CBO estimates the federal deficit totaled $1.4 trillion through June in fiscal 2026.",
+        "credit": "Loren / Wikimedia Commons, public domain",
+        "height": 900,
+        "rightsId": "media-cbo-june-budget-treasury-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/treasury/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "CBO estimates the federal deficit reached $1.4 trillion through June, as revenues rose 4% and outlays rose 3%.",
+        "index": true,
+        "title": "CBO: deficit hit $1.4T through June 2026"
+      },
+      "section": "politics",
+      "slug": "cbo-federal-deficit-1-4-trillion-through-june-2026",
+      "social": {
+        "description": "Revenues rose 4% in the first nine months of fiscal 2026, but a 3% increase in outlays left the cumulative deficit $35 billion above the prior-year period.",
+        "image": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/treasury/open-graph.webp",
+        "title": "Federal Deficit Reached $1.4 Trillion Through June, CBO Estimates"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal budget",
+        "Budget deficit",
+        "Federal revenue",
+        "Federal spending",
+        "Congressional Budget Office"
+      ],
+      "uncertainty": [
+        "The figures are CBO estimates and can be revised as administrative data become available.",
+        "Nine-month results do not determine the final fiscal-year deficit."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Major League Baseball is returning to the Field of Dreams site in Dyersville, Iowa, on Thursday, Aug. 13, for a regular-season game between the Minnesota Twins and Philadelphia Phillies.\n\nThe matchup will be the third MLB game staged at the site and the first since 2022. The New York Yankees and Chicago White Sox played the inaugural edition in 2021, followed by the Cincinnati Reds and Chicago Cubs in 2022.\n\nA Triple-A game will open the week's program on Tuesday, Aug. 11, when the Iowa Cubs meet the St. Paul Saints. The two dates are separate ticketed events and should not be treated as one doubleheader.\n\nMLB says the Twins-Phillies game will be the first Field of Dreams edition available globally on Netflix. Availability can still vary by account, location and service terms, so viewers should confirm access with the platform.\n\nThe setting connects the event to the 1989 film while the game itself counts in the clubs' regular-season schedule. The temporary ballpark is near the film site rather than a replacement home stadium for either team.\n\nMLB's announcement described ticket lotteries and sales that occurred in June. Fans looking for entry now should use official event and authorized resale channels and verify the event-specific terms before paying.\n\nOutdoor event details remain vulnerable to weather and operational changes. A published date does not guarantee an uninterrupted start or completion at the originally announced time.\n\nThe event's recent history is short enough that claims about a permanent annual tradition would be premature. MLB held two editions, paused after 2022 and scheduled this third game four years later.\n\nFor planning, the stable sequence is the Triple-A game on Aug. 11 and the MLB game on Aug. 13. Updated start times, transportation rules and venue policies should come from MLB close to each date.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Major League Baseball is returning to the Field of Dreams site in Dyersville, Iowa, on Thursday, Aug. 13, for a regular-season game between the Minnesota Twins and Philadelphia Phillies."
+        },
+        {
+          "type": "paragraph",
+          "text": "The matchup will be the third MLB game staged at the site and the first since 2022. The New York Yankees and Chicago White Sox played the inaugural edition in 2021, followed by the Cincinnati Reds and Chicago Cubs in 2022."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-field-of-dreams-two-games-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/two-games/four-three.webp",
+          "alt": "Graphic lists Iowa Cubs versus St. Paul Saints August 11 and Twins versus Phillies August 13.",
+          "caption": "The Dyersville program pairs an Aug. 11 Triple-A game with the Aug. 13 Twins-Phillies matchup.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.mlb.com/press-release/press-release-ticket-schedule-announced-for-august-s-mlb-at-field-of-dreams-major-and-minor-league-games"
+        },
+        {
+          "type": "paragraph",
+          "text": "A Triple-A game will open the week's program on Tuesday, Aug. 11, when the Iowa Cubs meet the St. Paul Saints. The two dates are separate ticketed events and should not be treated as one doubleheader."
+        },
+        {
+          "type": "paragraph",
+          "text": "MLB says the Twins-Phillies game will be the first Field of Dreams edition available globally on Netflix. Availability can still vary by account, location and service terms, so viewers should confirm access with the platform."
+        },
+        {
+          "type": "paragraph",
+          "text": "The setting connects the event to the 1989 film while the game itself counts in the clubs' regular-season schedule. The temporary ballpark is near the film site rather than a replacement home stadium for either team."
+        },
+        {
+          "type": "paragraph",
+          "text": "MLB's announcement described ticket lotteries and sales that occurred in June. Fans looking for entry now should use official event and authorized resale channels and verify the event-specific terms before paying."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-field-of-dreams-history-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/history/four-three.webp",
+          "alt": "Graphic lists MLB games in 2021, 2022 and 2026, with the 2026 game streaming globally on Netflix.",
+          "caption": "The 2026 game is MLB's third Field of Dreams edition and the first since 2022.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.mlb.com/press-release/press-release-ticket-schedule-announced-for-august-s-mlb-at-field-of-dreams-major-and-minor-league-games"
+        },
+        {
+          "type": "paragraph",
+          "text": "Outdoor event details remain vulnerable to weather and operational changes. A published date does not guarantee an uninterrupted start or completion at the originally announced time."
+        },
+        {
+          "type": "paragraph",
+          "text": "The event's recent history is short enough that claims about a permanent annual tradition would be premature. MLB held two editions, paused after 2022 and scheduled this third game four years later."
+        },
+        {
+          "type": "paragraph",
+          "text": "For planning, the stable sequence is the Triple-A game on Aug. 11 and the MLB game on Aug. 13. Updated start times, transportation rules and venue policies should come from MLB close to each date."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/field-of-dreams-twins-phillies-august-13-2026/",
+      "citations": [
+        {
+          "id": "source-mlb-field-of-dreams-20260604",
+          "title": "Ticket schedule announced for August's MLB at Field of Dreams Major and Minor League games",
+          "publisher": "Major League Baseball",
+          "publishedAt": "2026-06-04T12:00:00Z",
+          "url": "https://www.mlb.com/press-release/press-release-ticket-schedule-announced-for-august-s-mlb-at-field-of-dreams-major-and-minor-league-games"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The Twins and Phillies are scheduled to play Aug. 13, 2026.",
+        "The Iowa Cubs and St. Paul Saints are scheduled to play Aug. 11.",
+        "The 2026 MLB game is the third Field of Dreams edition.",
+        "The prior MLB editions were in 2021 and 2022.",
+        "MLB says the 2026 game will be available globally on Netflix."
+      ],
+      "corrections": [],
+      "dek": "The third MLB game in Dyersville follows an Aug. 11 Triple-A matchup and will be the event's first edition available globally on Netflix.",
+      "desk": "baseball-events",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Major League Baseball",
+        "Minnesota Twins",
+        "Philadelphia Phillies",
+        "Iowa Cubs",
+        "St. Paul Saints",
+        "Netflix"
+      ],
+      "eventId": "event-field-of-dreams-twins-phillies-august-13-2026",
+      "headline": "Field of Dreams Returns Aug. 13 With Twins-Phillies Game",
+      "id": "article-field-of-dreams-twins-phillies-august-13-2026",
+      "leadImage": {
+        "alt": "Baseball diamond surrounded by green fields and rows of corn under a blue sky.",
+        "caption": "The Field of Dreams site near Dyersville, Iowa. The Twins and Phillies are scheduled to play there Aug. 13.",
+        "credit": "CGP Grey / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-field-of-dreams-dyersville-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/dyersville/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Dyersville",
+        "Iowa",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "MLB returns to Field of Dreams on Aug. 13 for Twins-Phillies, following an Iowa Cubs-St. Paul Saints game Aug. 11.",
+        "index": true,
+        "title": "Field of Dreams 2026: Twins vs. Phillies Aug. 13"
+      },
+      "section": "sports",
+      "slug": "field-of-dreams-twins-phillies-august-13-2026",
+      "social": {
+        "description": "The third MLB game in Dyersville follows an Aug. 11 Triple-A matchup and will be the event's first edition available globally on Netflix.",
+        "image": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/dyersville/open-graph.webp",
+        "title": "Field of Dreams Returns Aug. 13 With Twins-Phillies Game"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "MLB at Field of Dreams",
+        "Minnesota Twins",
+        "Philadelphia Phillies",
+        "Baseball schedule",
+        "Dyersville"
+      ],
+      "uncertainty": [
+        "Weather and operations can change event timing.",
+        "Streaming availability and ticket access depend on current platform and seller terms."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The National Weather Service is proposing to issue full-ocean Atlantic and Pacific sea-state analyses twice each day while discontinuing eight smaller regional wind-and-wave analysis products.\n\nUnder the proposal, both full-basin products would carry effective times of 00 and 12 Coordinated Universal Time. The Atlantic full-ocean analysis now runs at 12 UTC, while the Pacific product runs at 00 UTC.\n\nNWS would add a 00 UTC Atlantic product under heading PJAA98 KWNM and a 12 UTC Pacific product under PJBA99 KWNM. Existing full-ocean headings would remain part of the twice-daily set.\n\nThe eight regional products proposed for discontinuation cover smaller areas off parts of the U.S. Atlantic and Pacific coasts at 00, 06, 12 and 18 UTC. NWS says those regions are already included within the full-ocean analyses.\n\nThe change trades regional frequency for broader basin consistency. Mariners who now use a six-hour regional product should compare its timing and coverage with the proposed full-ocean schedule rather than assume the products are interchangeable in every workflow.\n\nNWS says the proposal is intended to align products across its marine centers and improve operational consistency. That is the agency's rationale, not evidence that every user will prefer the new cadence.\n\nPublic comments are open through Aug. 31. Questions or feedback can be sent to the NWS Marine Services address listed in the public information statement.\n\nNo change has taken effect. NWS says any implementation would occur in fall 2026 and would be announced separately through a Service Change Notice after the comment process.\n\nThe practical test is whether twice-daily basin products meet mariners' timing and detail needs without leaving a gap created by the regional retirements. The final notice should explain any changes made in response to user feedback.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The National Weather Service is proposing to issue full-ocean Atlantic and Pacific sea-state analyses twice each day while discontinuing eight smaller regional wind-and-wave analysis products."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under the proposal, both full-basin products would carry effective times of 00 and 12 Coordinated Universal Time. The Atlantic full-ocean analysis now runs at 12 UTC, while the Pacific product runs at 00 UTC."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nws-sea-state-frequency-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/frequency/four-three.webp",
+          "alt": "Graphic lists Atlantic and Pacific full-ocean analyses at 00 UTC and 12 UTC.",
+          "caption": "NWS proposes full-ocean Atlantic and Pacific sea-state analyses at both 00 and 12 UTC each day.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.weather.gov/media/notification/pdf_2026/pns26-56_Discontinue_Regional_Sea_State_Analyses.pdf"
+        },
+        {
+          "type": "paragraph",
+          "text": "NWS would add a 00 UTC Atlantic product under heading PJAA98 KWNM and a 12 UTC Pacific product under PJBA99 KWNM. Existing full-ocean headings would remain part of the twice-daily set."
+        },
+        {
+          "type": "paragraph",
+          "text": "The eight regional products proposed for discontinuation cover smaller areas off parts of the U.S. Atlantic and Pacific coasts at 00, 06, 12 and 18 UTC. NWS says those regions are already included within the full-ocean analyses."
+        },
+        {
+          "type": "paragraph",
+          "text": "The change trades regional frequency for broader basin consistency. Mariners who now use a six-hour regional product should compare its timing and coverage with the proposed full-ocean schedule rather than assume the products are interchangeable in every workflow."
+        },
+        {
+          "type": "paragraph",
+          "text": "NWS says the proposal is intended to align products across its marine centers and improve operational consistency. That is the agency's rationale, not evidence that every user will prefer the new cadence."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nws-sea-state-products-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/products/four-three.webp",
+          "alt": "Graphic lists eight regional products proposed for discontinuation, two new full-ocean headings and an August 31 comment deadline.",
+          "caption": "The proposal would discontinue eight regional products and create two additional full-ocean product headings.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.weather.gov/media/notification/pdf_2026/pns26-56_Discontinue_Regional_Sea_State_Analyses.pdf"
+        },
+        {
+          "type": "paragraph",
+          "text": "Public comments are open through Aug. 31. Questions or feedback can be sent to the NWS Marine Services address listed in the public information statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "No change has taken effect. NWS says any implementation would occur in fall 2026 and would be announced separately through a Service Change Notice after the comment process."
+        },
+        {
+          "type": "paragraph",
+          "text": "The practical test is whether twice-daily basin products meet mariners' timing and detail needs without leaving a gap created by the regional retirements. The final notice should explain any changes made in response to user feedback."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nws-full-ocean-sea-state-analysis-proposal-2026/",
+      "citations": [
+        {
+          "id": "source-nws-sea-state-proposal-20260729",
+          "title": "Soliciting Comments Through August 31, 2026 on Sea-State Analysis Changes",
+          "publisher": "National Weather Service",
+          "publishedAt": "2026-07-29T15:20:00Z",
+          "url": "https://www.weather.gov/media/notification/pdf_2026/pns26-56_Discontinue_Regional_Sea_State_Analyses.pdf"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "NWS proposes full-ocean Atlantic and Pacific analyses at 00 and 12 UTC.",
+        "Eight regional products would be discontinued.",
+        "Two new full-ocean product headings would be added.",
+        "Comments are open through Aug. 31, 2026.",
+        "Any implementation would occur in fall 2026 through a later Service Change Notice."
+      ],
+      "corrections": [],
+      "dek": "The agency would add Atlantic and Pacific basin products at 00 and 12 UTC while discontinuing eight regional wind-and-wave analyses; comments close Aug. 31.",
+      "desk": "marine-forecast-services",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Weather Service",
+        "Ocean Prediction Center",
+        "National Oceanic and Atmospheric Administration"
+      ],
+      "eventId": "event-nws-full-ocean-sea-state-analysis-proposal-2026",
+      "headline": "NWS Proposes Twice-Daily Full-Ocean Sea-State Analyses",
+      "id": "article-nws-full-ocean-sea-state-analysis-proposal-2026",
+      "leadImage": {
+        "alt": "White ship wake stretches across deep blue ocean beneath scattered clouds.",
+        "caption": "A ship's wake crosses the open ocean. NWS is seeking comment on a change to its Atlantic and Pacific sea-state analysis products.",
+        "credit": "NOAA",
+        "height": 900,
+        "rightsId": "media-nws-sea-state-ship-wake-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/ship-wake/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "North Atlantic Ocean",
+        "North Pacific Ocean",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NWS proposes twice-daily Atlantic and Pacific sea-state analyses, retirement of eight regional products, and an Aug. 31 comment deadline.",
+        "index": true,
+        "title": "NWS proposes twice-daily full-ocean sea-state products"
+      },
+      "section": "weather-climate",
+      "slug": "nws-full-ocean-sea-state-analysis-proposal-2026",
+      "social": {
+        "description": "The agency would add Atlantic and Pacific basin products at 00 and 12 UTC while discontinuing eight regional wind-and-wave analyses; comments close Aug. 31.",
+        "image": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/ship-wake/open-graph.webp",
+        "title": "NWS Proposes Twice-Daily Full-Ocean Sea-State Analyses"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Marine forecasts",
+        "Sea-state analysis",
+        "Ocean weather",
+        "National Weather Service",
+        "Mariner services"
+      ],
+      "uncertainty": [
+        "The proposal has not been implemented and can change after public comments.",
+        "The agency has not established that the new cadence will meet every mariner's workflow."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "International Monetary Fund staff projects Bangladesh's economic growth will moderate to 3.5% in fiscal 2027 after a July visit prompted by the government's request for a new Fund-supported program.\n\nStaff said growth could weaken further to below 3% over the medium term without decisive reforms to raise revenue, create fiscal space and address weaknesses in the banking sector.\n\nThe forecast is conditional, not a guaranteed outcome. Stronger policy implementation, a different external environment or new shocks could move actual growth above or below the stated path.\n\nThe IMF team visited Dhaka from July 12 through 16. It described the trip as fact-finding and said discussions about the possible size of a new arrangement and its reform commitments will take place in coming months.\n\nThat means no new lending program was approved during the visit. The end-of-mission statement contains preliminary staff views, does not represent an IMF Executive Board decision and will not itself lead to a Board discussion.\n\nStaff identified fiscal, financial-sector and inflation pressures, including higher import and subsidy costs, pressure on external accounts and elevated banking stress. It also noted continued strong remittance growth.\n\nThe policy priorities include stronger revenue mobilization, more targeted social support, prudent fiscal and monetary policy, consistent use of the crawling-peg exchange-rate regime and a credible banking-sector restructuring strategy.\n\nEach measure carries distributional and implementation choices that the statement does not resolve. Future program documents would need to specify timelines, safeguards, financing and how vulnerable households are protected.\n\nThe next material evidence will be the terms of any staff-level agreement, a published debt and financing analysis, and an Executive Board decision. Until then, the request and staff forecast should not be described as an approved IMF program.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "International Monetary Fund staff projects Bangladesh's economic growth will moderate to 3.5% in fiscal 2027 after a July visit prompted by the government's request for a new Fund-supported program."
+        },
+        {
+          "type": "paragraph",
+          "text": "Staff said growth could weaken further to below 3% over the medium term without decisive reforms to raise revenue, create fiscal space and address weaknesses in the banking sector."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-imf-bangladesh-growth-outlook-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/growth-outlook/four-three.webp",
+          "alt": "Graphic lists 3.5 percent growth in fiscal 2027 and below 3 percent medium-term growth without reforms.",
+          "caption": "IMF staff projects 3.5% growth in FY2027 and below 3% over the medium term without decisive reforms.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/16/pr26248-bangladesh-imf-staff-concludes-visit-to-bangladesh"
+        },
+        {
+          "type": "paragraph",
+          "text": "The forecast is conditional, not a guaranteed outcome. Stronger policy implementation, a different external environment or new shocks could move actual growth above or below the stated path."
+        },
+        {
+          "type": "paragraph",
+          "text": "The IMF team visited Dhaka from July 12 through 16. It described the trip as fact-finding and said discussions about the possible size of a new arrangement and its reform commitments will take place in coming months."
+        },
+        {
+          "type": "paragraph",
+          "text": "That means no new lending program was approved during the visit. The end-of-mission statement contains preliminary staff views, does not represent an IMF Executive Board decision and will not itself lead to a Board discussion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Staff identified fiscal, financial-sector and inflation pressures, including higher import and subsidy costs, pressure on external accounts and elevated banking stress. It also noted continued strong remittance growth."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-imf-bangladesh-reform-areas-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/reform-areas/four-three.webp",
+          "alt": "Graphic lists revenue mobilization, subsidy rationalization, reserve rebuilding and banking-sector restructuring.",
+          "caption": "The IMF visit identified revenue, subsidy, reserve and banking-sector measures for future program talks.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/16/pr26248-bangladesh-imf-staff-concludes-visit-to-bangladesh"
+        },
+        {
+          "type": "paragraph",
+          "text": "The policy priorities include stronger revenue mobilization, more targeted social support, prudent fiscal and monetary policy, consistent use of the crawling-peg exchange-rate regime and a credible banking-sector restructuring strategy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Each measure carries distributional and implementation choices that the statement does not resolve. Future program documents would need to specify timelines, safeguards, financing and how vulnerable households are protected."
+        },
+        {
+          "type": "paragraph",
+          "text": "The next material evidence will be the terms of any staff-level agreement, a published debt and financing analysis, and an Executive Board decision. Until then, the request and staff forecast should not be described as an approved IMF program."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/imf-bangladesh-growth-3-5-percent-fy2027-reform-program/",
+      "citations": [
+        {
+          "id": "source-imf-bangladesh-visit-20260716",
+          "title": "IMF Staff Concludes Visit to Bangladesh",
+          "publisher": "International Monetary Fund",
+          "publishedAt": "2026-07-16T12:00:00Z",
+          "url": "https://www.imf.org/en/news/articles/2026/07/16/pr26248-bangladesh-imf-staff-concludes-visit-to-bangladesh"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Bangladesh requested a new Fund-supported program.",
+        "IMF staff visited Dhaka July 12-16, 2026.",
+        "Staff projects 3.5% growth in FY2027.",
+        "Staff projects medium-term growth below 3% without decisive reforms.",
+        "The visit did not approve a program or result in an Executive Board discussion."
+      ],
+      "corrections": [],
+      "dek": "After Dhaka requested a new Fund-supported program, staff warned that growth could slip below 3% in the medium term without fiscal and banking reforms.",
+      "desk": "south-asia-economy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "International Monetary Fund",
+        "Government of Bangladesh",
+        "Bangladesh Bank"
+      ],
+      "eventId": "event-imf-bangladesh-growth-3-5-percent-fy2027-reform-program",
+      "headline": "IMF Projects Bangladesh Growth at 3.5% in FY2027",
+      "id": "article-imf-bangladesh-growth-3-5-percent-fy2027-reform-program",
+      "leadImage": {
+        "alt": "Pedestrians in colorful clothing walk along a busy street in Dhaka.",
+        "caption": "Pedestrians walk along a street in Dhaka. Bangladesh has asked the IMF to discuss a new Fund-supported economic reform program.",
+        "credit": "John C. / Wikimedia Commons, CC BY-SA 2.0",
+        "height": 900,
+        "rightsId": "media-imf-bangladesh-dhaka-street-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/dhaka-street/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Bangladesh",
+        "Dhaka",
+        "South Asia"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "IMF staff projects 3.5% Bangladesh growth in FY2027 and below 3% medium-term growth without fiscal and banking reforms.",
+        "index": true,
+        "title": "IMF projects Bangladesh growth at 3.5% in FY2027"
+      },
+      "section": "world",
+      "slug": "imf-bangladesh-growth-3-5-percent-fy2027-reform-program",
+      "social": {
+        "description": "After Dhaka requested a new Fund-supported program, staff warned that growth could slip below 3% in the medium term without fiscal and banking reforms.",
+        "image": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/dhaka-street/open-graph.webp",
+        "title": "IMF Projects Bangladesh Growth at 3.5% in FY2027"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Bangladesh economy",
+        "IMF programs",
+        "Economic growth",
+        "Banking reform",
+        "Fiscal policy"
+      ],
+      "uncertainty": [
+        "The projections are preliminary staff views and depend on reforms and external conditions.",
+        "The size and conditions of any new IMF arrangement remain under discussion."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "U.S. consumer credit increased at a seasonally adjusted annual rate of 3.3% in June, the Federal Reserve reported in its Aug. 7 G.19 release.\n\nRevolving credit, which includes credit-card balances, grew at a 6% annual rate. Nonrevolving credit, including auto, education and other installment loans but excluding real-estate-secured borrowing, increased at a 2.3% rate.\n\nThe June expansion followed a revised 0.3% annual-rate decline in total credit in May. A one-month annualized rate magnifies that month's movement and should not be read as a forecast that balances will grow 3.3% over the next year.\n\nSeasonally adjusted consumer credit outstanding reached $5.1669 trillion in June. Revolving balances were $1.3511 trillion and nonrevolving balances were $3.8158 trillion.\n\nFor the second quarter as a whole, total consumer credit grew at a 2.6% annual rate. Revolving credit increased 3.9% and nonrevolving credit 2.1% on the same basis.\n\nThe release also reported an average 20.94% annual percentage rate across all commercial-bank credit-card accounts in the second quarter. Accounts assessed interest averaged 22.15%.\n\nThose rate figures are broad bank averages, not offers available to every borrower. Individual pricing depends on product terms, credit history, promotions and other underwriting factors.\n\nThe G.19 measure covers most credit extended to individuals but excludes loans secured by real estate. It therefore cannot be used as a complete measure of household debt or financial health.\n\nThe next monthly release can show whether June's rebound in revolving credit persisted. Assessment of household strain also requires delinquency, income, repayment and distributional data beyond the aggregate balance.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "U.S. consumer credit increased at a seasonally adjusted annual rate of 3.3% in June, the Federal Reserve reported in its Aug. 7 G.19 release."
+        },
+        {
+          "type": "paragraph",
+          "text": "Revolving credit, which includes credit-card balances, grew at a 6% annual rate. Nonrevolving credit, including auto, education and other installment loans but excluding real-estate-secured borrowing, increased at a 2.3% rate."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-fed-consumer-credit-growth-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/growth/four-three.webp",
+          "alt": "Graphic lists June total credit growth 3.3 percent, revolving 6 percent and nonrevolving 2.3 percent at annual rates.",
+          "caption": "Consumer credit grew at a 3.3% annual rate in June after a revised 0.3% decline in May.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.federalreserve.gov/releases/g19/20260807/"
+        },
+        {
+          "type": "paragraph",
+          "text": "The June expansion followed a revised 0.3% annual-rate decline in total credit in May. A one-month annualized rate magnifies that month's movement and should not be read as a forecast that balances will grow 3.3% over the next year."
+        },
+        {
+          "type": "paragraph",
+          "text": "Seasonally adjusted consumer credit outstanding reached $5.1669 trillion in June. Revolving balances were $1.3511 trillion and nonrevolving balances were $3.8158 trillion."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the second quarter as a whole, total consumer credit grew at a 2.6% annual rate. Revolving credit increased 3.9% and nonrevolving credit 2.1% on the same basis."
+        },
+        {
+          "type": "paragraph",
+          "text": "The release also reported an average 20.94% annual percentage rate across all commercial-bank credit-card accounts in the second quarter. Accounts assessed interest averaged 22.15%."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-fed-consumer-credit-balances-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/balances/four-three.webp",
+          "alt": "Graphic lists 5.17 trillion dollars total, 1.35 trillion revolving and 3.82 trillion nonrevolving credit.",
+          "caption": "Seasonally adjusted consumer credit outstanding reached $5.17 trillion in June, including $1.35 trillion in revolving balances.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.federalreserve.gov/releases/g19/20260807/"
+        },
+        {
+          "type": "paragraph",
+          "text": "Those rate figures are broad bank averages, not offers available to every borrower. Individual pricing depends on product terms, credit history, promotions and other underwriting factors."
+        },
+        {
+          "type": "paragraph",
+          "text": "The G.19 measure covers most credit extended to individuals but excludes loans secured by real estate. It therefore cannot be used as a complete measure of household debt or financial health."
+        },
+        {
+          "type": "paragraph",
+          "text": "The next monthly release can show whether June's rebound in revolving credit persisted. Assessment of household strain also requires delinquency, income, repayment and distributional data beyond the aggregate balance."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-reserve-consumer-credit-june-2026-3-3-percent/",
+      "citations": [
+        {
+          "id": "source-fed-g19-june-2026",
+          "title": "Consumer Credit - G.19, June 2026",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "publishedAt": "2026-08-07T19:00:00Z",
+          "url": "https://www.federalreserve.gov/releases/g19/20260807/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Consumer credit grew at a 3.3% annual rate in June.",
+        "Revolving credit grew at a 6% annual rate.",
+        "Nonrevolving credit grew at a 2.3% annual rate.",
+        "Seasonally adjusted credit outstanding reached $5.1669 trillion.",
+        "Second-quarter total credit growth was 2.6% at an annual rate."
+      ],
+      "corrections": [],
+      "dek": "Federal Reserve data show revolving credit rebounded after a May decline, while total seasonally adjusted balances reached $5.17 trillion.",
+      "desk": "consumer-credit-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Federal Reserve Board",
+        "U.S. consumers",
+        "Depository institutions"
+      ],
+      "eventId": "event-federal-reserve-consumer-credit-june-2026-3-3-percent",
+      "headline": "U.S. Consumer Credit Grew at a 3.3% Annual Rate in June",
+      "id": "article-federal-reserve-consumer-credit-june-2026-3-3-percent",
+      "leadImage": {
+        "alt": "Hand slides a payment card through a blue point-of-sale terminal.",
+        "caption": "A payment card is used at a point-of-sale terminal. Federal Reserve data show U.S. consumer credit grew in June.",
+        "credit": "Hloom Templates / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-fed-consumer-credit-payment-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/card-payment/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Federal Reserve data show consumer credit grew at a 3.3% annual rate in June, with revolving balances rising at a 6% rate.",
+        "index": true,
+        "title": "Consumer credit grew 3.3% annualized in June 2026"
+      },
+      "section": "business",
+      "slug": "federal-reserve-consumer-credit-june-2026-3-3-percent",
+      "social": {
+        "description": "Federal Reserve data show revolving credit rebounded after a May decline, while total seasonally adjusted balances reached $5.17 trillion.",
+        "image": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/card-payment/open-graph.webp",
+        "title": "U.S. Consumer Credit Grew at a 3.3% Annual Rate in June"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Consumer credit",
+        "Credit cards",
+        "Household finance",
+        "Federal Reserve data",
+        "Interest rates"
+      ],
+      "uncertainty": [
+        "Monthly annualized growth is not a forecast for the next 12 months.",
+        "Aggregate credit balances do not establish financial conditions for individual households."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The U.S. Department of Education approved an Arkansas waiver that allows the state to consolidate more than $8.8 million in federal education funding over the next four years.\n\nThe Returning Education to the States waiver combines state-level activity funds from four Elementary and Secondary Education Act programs: Titles II-A, III-A, IV-A and IV-B.\n\nConsolidation changes how Arkansas can manage the covered money; it does not create an additional $8.8 million appropriation. The funds remain subject to the waiver terms and continuing duties to support eligible students and programs.\n\nThe department also approved Arkansas as the 21st state with Ed-Flex authority. Ed-Flex permits the state to waive selected federal requirements for local education agencies without seeking a separate federal approval each time, within statutory limits.\n\nRural eligibility will expand so districts qualifying under the Rural and Low-Income School program can use an alternative fund-use authority previously limited to Small, Rural School Achievement eligibility.\n\nFor advanced students, Arkansas may count specified high-school assessment results taken before high school within its accountability system. The flexibility expands to grades five and six and to reading and language arts in grades five through eight under the approved terms.\n\nThe waiver also lets Arkansas assign students in temporary alternative-learning local education agencies back to their school of origin for accountability and identification purposes. The department says the change is intended to track long-term outcomes more accurately.\n\nApproval does not establish that the flexibilities will improve academic results. That claim requires later evidence on spending, participation, assessment performance, school identification and outcomes for the students affected.\n\nThe practical accountability test is whether Arkansas publishes clear allocation rules and comparable outcome data while using the broader discretion. Families and districts will need to see which requirements changed and which protections remain.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The U.S. Department of Education approved an Arkansas waiver that allows the state to consolidate more than $8.8 million in federal education funding over the next four years."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Returning Education to the States waiver combines state-level activity funds from four Elementary and Secondary Education Act programs: Titles II-A, III-A, IV-A and IV-B."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-arkansas-education-funding-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/funding/four-three.webp",
+          "alt": "Graphic lists more than 8.8 million dollars, four funding streams and four years.",
+          "caption": "The waiver allows Arkansas to consolidate more than $8.8 million across four federal education funding streams over four years.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ed.gov/about/news/press-release/us-department-of-education-approves-arkansas-returning-education-states-waiver-other-education-flexibilities"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consolidation changes how Arkansas can manage the covered money; it does not create an additional $8.8 million appropriation. The funds remain subject to the waiver terms and continuing duties to support eligible students and programs."
+        },
+        {
+          "type": "paragraph",
+          "text": "The department also approved Arkansas as the 21st state with Ed-Flex authority. Ed-Flex permits the state to waive selected federal requirements for local education agencies without seeking a separate federal approval each time, within statutory limits."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rural eligibility will expand so districts qualifying under the Rural and Low-Income School program can use an alternative fund-use authority previously limited to Small, Rural School Achievement eligibility."
+        },
+        {
+          "type": "paragraph",
+          "text": "For advanced students, Arkansas may count specified high-school assessment results taken before high school within its accountability system. The flexibility expands to grades five and six and to reading and language arts in grades five through eight under the approved terms."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-arkansas-education-flexibilities-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/flexibilities/four-three.webp",
+          "alt": "Graphic lists Ed-Flex authority, advanced assessment results and alternative-learning school assignment.",
+          "caption": "The approvals cover Ed-Flex, advanced-assessment accounting and alternative-learning accountability assignments.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ed.gov/about/news/press-release/us-department-of-education-approves-arkansas-returning-education-states-waiver-other-education-flexibilities"
+        },
+        {
+          "type": "paragraph",
+          "text": "The waiver also lets Arkansas assign students in temporary alternative-learning local education agencies back to their school of origin for accountability and identification purposes. The department says the change is intended to track long-term outcomes more accurately."
+        },
+        {
+          "type": "paragraph",
+          "text": "Approval does not establish that the flexibilities will improve academic results. That claim requires later evidence on spending, participation, assessment performance, school identification and outcomes for the students affected."
+        },
+        {
+          "type": "paragraph",
+          "text": "The practical accountability test is whether Arkansas publishes clear allocation rules and comparable outcome data while using the broader discretion. Families and districts will need to see which requirements changed and which protections remain."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/arkansas-education-waiver-ed-flex-8-8-million-2026/",
+      "citations": [
+        {
+          "id": "source-ed-arkansas-waiver-20260707",
+          "title": "U.S. Department of Education Approves Arkansas' Returning Education to the States Waiver, Other Education Flexibilities",
+          "publisher": "U.S. Department of Education",
+          "publishedAt": "2026-07-07T12:00:00Z",
+          "url": "https://www.ed.gov/about/news/press-release/us-department-of-education-approves-arkansas-returning-education-states-waiver-other-education-flexibilities"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Arkansas may consolidate more than $8.8 million over four years.",
+        "The consolidation covers four ESEA state-level funding streams.",
+        "Arkansas became the 21st state with Ed-Flex authority.",
+        "The waiver expands rural fund-use eligibility.",
+        "The approval changes advanced-assessment and alternative-learning accountability treatment."
+      ],
+      "corrections": [],
+      "dek": "The Education Department also approved Ed-Flex authority and accountability changes covering advanced assessments and temporary alternative-learning placements.",
+      "desk": "education-policy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Department of Education",
+        "Arkansas Department of Education",
+        "Elementary and Secondary Education Act"
+      ],
+      "eventId": "event-arkansas-education-waiver-ed-flex-8-8-million-2026",
+      "headline": "Arkansas Wins Federal Waiver to Consolidate $8.8 Million in Education Funds",
+      "id": "article-arkansas-education-waiver-ed-flex-8-8-million-2026",
+      "leadImage": {
+        "alt": "Students and a teacher work together at tables in an Arkansas classroom.",
+        "caption": "Public-school students work on an ecology project in Fort Smith, Arkansas, in 1972. The state received new federal education funding and accountability flexibilities in 2026.",
+        "credit": "Jim Olive / U.S. EPA / National Archives",
+        "height": 900,
+        "rightsId": "media-arkansas-education-classroom-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/classroom/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Arkansas",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Arkansas can consolidate more than $8.8 million in federal education funds and use new Ed-Flex and accountability options.",
+        "index": true,
+        "title": "Arkansas education waiver consolidates $8.8M"
+      },
+      "section": "us",
+      "slug": "arkansas-education-waiver-ed-flex-8-8-million-2026",
+      "social": {
+        "description": "The Education Department also approved Ed-Flex authority and accountability changes covering advanced assessments and temporary alternative-learning placements.",
+        "image": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/classroom/open-graph.webp",
+        "title": "Arkansas Wins Federal Waiver to Consolidate $8.8 Million in Education Funds"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Arkansas education",
+        "Federal education waivers",
+        "Ed-Flex",
+        "School accountability",
+        "Rural schools"
+      ],
+      "uncertainty": [
+        "Approval does not establish that the flexibilities will improve student outcomes.",
+        "Implementation details and measurable effects depend on Arkansas guidance and later data."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-10T06:37:21.822Z",
+  "generatedAt": "2026-08-10T07:10:13.991Z",
   "inputHashes": {
+    "sourceItems": "6305888c3c237df32012cbafebfa9bbc1e6ee6456573486df0064471571ee830",
+    "events": "b6e3bca72a0f2b4eb28acbc276a8cd70afeee2594816602e05bbd23e189879d1",
+    "claims": "848161a9c50b773dcd2003dc0792bb036f4c521dad6e422e901d6b44643daa12",
+    "articles": "aeccd17fe2cc4c5c9ca0a602ba2a4f2af60d6246f96af539cd871357cdca821c",
     "approvals": "b261baf03d758b449bee8e3c4ee48e54f248f4a9a38caef3e0279bfebf17df26",
-    "articles": "fe9ae675dee50a15c044231cea4d3b23fc4c30f0063660945207fe17421ac951",
-    "claims": "d700067c930b0fe76f2a8d2edf5f9454f51e3a38b16ce7026cc7bce0c87bd34d",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "15e264774f448fcd062e4a0d68714a0ae8702b3e7fdcd556cab8bf3aefab407f",
-    "mediaRights": "62db2ab7b034cae197804e45b12ec5a66b4716bb22140a18e9e77976a82808c7",
-    "publicationIntents": "9b5355b2530554616fa1986e00d31ddb9db497c7f5557426ea01e859e20f0cd6",
+    "mediaRights": "763ef28a53850dd3cb2751b9d2dd353c87733a364d166bb8f472a53bc0a22a53",
     "releaseRecords": "c3e11bc981b3ce6367fff38f4535f838e461a5cdcbd78df7b407c5b96dc5ab2d",
-    "sourceItems": "45ca6d2df12a7e1a1c0d01b3ac6e3f3f2197e90bd25887a9a49d5f7185f799b4"
+    "publicationIntents": "efe749f7acb492eade24b21357a425f38f2960aa9685539a2079fdcec1439bd9"
   },
   "inventory": {
-    "articleCount": 207,
-    "mediaCount": 607,
-    "routeCount": 207
+    "articleCount": 213,
+    "routeCount": 213,
+    "mediaCount": 625
   },
   "mediaRights": [
     {
@@ -81813,9 +82704,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "The columned U.S. Treasury Building seen from a Washington street.",
+      "archivalStatus": "current",
+      "attribution": "Loren / Wikimedia Commons, public domain",
+      "caption": "The U.S. Treasury Building in Washington. CBO estimates the federal deficit totaled $1.4 trillion through June in fiscal 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Loren",
+      "derivatives": [
+        {
+          "hash": "65055ee5096772c942437fc14ae3e93838b25a0eb2ab54573b95b4051679c1e5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/treasury/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "411a5de28458884716be03a79e1de05d3fb527796cdadb7af079e434befdba08",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/treasury/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3c30e202d9600f93373cc40d4abfba1e703b5ee51f1c0bfb4aca5ad60976dd43",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/treasury/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "713f6c3255af6b63691b57e3af2eae8756b3214eb7dffaa169b23f145d85d0ff",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/treasury/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "839ef1209b503ad21e810f80d7dc80beba7a0d7bceae529b4fa847f16b5fb569",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/treasury/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b7d149aa02bc289e41bade2a5ca48c329f1e60c0b64c42084d79ae86e8e4f29b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/treasury/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "74a0f34221cce618ae47c53a7b3167d46e83b6cd237a3592a2e5f2cfd27976cb",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/treasury/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-june-budget-treasury-2026",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "5727f1146cfa3b8bc72ebdd3ff91740987f6bf9aa9b55539dbc64eef233bb7e7",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Public domain dedication by the copyright holder.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_Treasury_Building.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists a 1.4 trillion dollar deficit and a 35 billion dollar year-over-year increase.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "CBO estimates the deficit totaled $1.4 trillion through June, $35 billion more than in the comparable fiscal 2025 period.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "0974c3a9f0ff111a5333a717a4ce2926a19250d7c748546ec7c62973ac20509d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/balance/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f8343ca3262382893f77ba33420581ed4448b3b74943651db639d2179f5be838",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/balance/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5ae36b944b5b857a670960f0b52ff7e755c199c114fc4d0f2de9abc2f3bb3564",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/balance/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f3076b6a8fd740c54df2a09b5e63f16da2c54ad98148f66f740b0474bef5466e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/balance/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d54f64f7459ee82af664538d257e99269a6f28a0dacdc84a027dd236f3afaa73",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/balance/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6a063a63158317146244415822fb38879c981c010b427d1c75d7fce3e08908cc",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/balance/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d8491b9d8f9c53a7d41c5d03b77cc22ff1cbf4d034922f1d0be1e62f8410c171",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/balance/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-june-budget-balance-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f3076b6a8fd740c54df2a09b5e63f16da2c54ad98148f66f740b0474bef5466e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/61982"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists revenues up 142 billion dollars, outlays up 178 billion dollars, and nine months covered.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "CBO estimates revenues rose $142 billion while outlays rose $178 billion in the first nine months of fiscal 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "83ad32ab9cba1327ff60be7192b986be40411023438db71aa8fc01f2e2dd0591",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/flows/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7df64300c8d7fd35915deebdc1e8990ba672243b337cbced73928eeb275d1db1",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/flows/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e492876c9c7af775c737f88882f825c6653ceb7cf48c7d860b28d4aabe36633e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/flows/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8c60d287b21b3f4b27b281596b3b1b6aa870b74ccd862d9774a836c1ccc871e3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/flows/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "331721506743e8d5851301ea577ea1ccf030223686cd9bbb4b4e47e3f69b0ee8",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/flows/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d6ab3b032a046906460ee18a6eec3db553978aa7a0969f821ef4dd1d570f4d1d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/flows/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "60b72152e20074ee7fe4242bba761ea2c88006126b234f0725e6ddbc9c950c0e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/cbo-june-budget/flows/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-june-budget-flows-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8c60d287b21b3f4b27b281596b3b1b6aa870b74ccd862d9774a836c1ccc871e3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/61982"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Baseball diamond surrounded by green fields and rows of corn under a blue sky.",
+      "archivalStatus": "current",
+      "attribution": "CGP Grey / Wikimedia Commons, CC BY 2.0",
+      "caption": "The Field of Dreams site near Dyersville, Iowa. The Twins and Phillies are scheduled to play there Aug. 13.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "CGP Grey",
+      "derivatives": [
+        {
+          "hash": "012de1a2bb10bf3cd04dd517636441b51a4d5c6d27825166ad9ec21cecf4fc6c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/dyersville/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "336297110415af8c558df080bce8a6ce0e63fcfa865a054a58198d162ba176b9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/dyersville/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "967f660d4b483ee3612df125645e313127f9fd9dab1eb2814a38ad995ab8cc62",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/dyersville/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a9ca2a380be2eba5664040bebd351e1be0f6b4476855e502b5d20650f2cc5c7f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/dyersville/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1da6c997e766d2c2d4766044ee1b9325e3c312bd27f0ce32c000eea0b49985c6",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/dyersville/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a6bce2a6b389354e88272a4c6399e0e166d9018594628ccb105815d110742f44",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/dyersville/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "be6a8bc05ac400519b700e5c32ee0a30180d9ffeba8d9e3e9dd8ee62b84b6591",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/dyersville/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-field-of-dreams-dyersville-2026",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "375778386edc9804f9ccc7b85a45c215d56195ee68f0c397639f60aba7db51bd",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 Generic.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Field_of_Dreams_4889145990.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists Iowa Cubs versus St. Paul Saints August 11 and Twins versus Phillies August 13.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The Dyersville program pairs an Aug. 11 Triple-A game with the Aug. 13 Twins-Phillies matchup.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "e9743706f048903f867a564db01fa115b1c2cce82e7cc0c584c9983f1af40461",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/two-games/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "fc7114a9b280619200d41d1c13db751cb58b310d03abb187645e8430eb28f510",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/two-games/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "57ce6b318a9a6b42166fe220ab692f4fe7f123c1c626267c9eccb7270d4700c6",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/two-games/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "bd84e08a96e91c98a8dd204846f6400ebdddd8a8a42abe9d6f9bd66eb983b087",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/two-games/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "19edfca24fa7481111198ca9ae06090535b88b7c2806dc7cbbcd2206e3aee49c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/two-games/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "70581b49f2e01db47ec8e8f7ba8b1396c291d7176c40c24938f8144c49283c8b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/two-games/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f00385ef19dc5f67b72e6425d91e069049d95518aa6b3afcd5cd7cdec4720639",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/two-games/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-field-of-dreams-two-games-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "bd84e08a96e91c98a8dd204846f6400ebdddd8a8a42abe9d6f9bd66eb983b087",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.mlb.com/press-release/press-release-ticket-schedule-announced-for-august-s-mlb-at-field-of-dreams-major-and-minor-league-games"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists MLB games in 2021, 2022 and 2026, with the 2026 game streaming globally on Netflix.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The 2026 game is MLB's third Field of Dreams edition and the first since 2022.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "811fd2c9d2c8d998c91bc619010106f8c4abdf782365aece9fe9ed801ba2ae83",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/history/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "983edf95aae3813f0aad1ea96e43dc21c8460507e6244b29290086b764aa53c1",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/history/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ecec89ebd162b9328d7ccac329b6e97992e244a2fa59ca52bc72d4e21bb0a057",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/history/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c4d45932fe7c7bab27929969d8107b746ab94386e8a0975b57947787d46ff280",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/history/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8da2234664a4f92c6a5996a93d2b74061ee0211d91fc9ba91d975e8e45017d91",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/history/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "02824a651c146f7695d52487002776b6ba2505a143295cf59b45c65edbd4b9ca",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/history/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "143813a7fa4fe44a716f74d6d0a3cee056e333dbd2abe5c0bbddd3a8ff17dbda",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/field-of-dreams/history/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-field-of-dreams-history-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "c4d45932fe7c7bab27929969d8107b746ab94386e8a0975b57947787d46ff280",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.mlb.com/press-release/press-release-ticket-schedule-announced-for-august-s-mlb-at-field-of-dreams-major-and-minor-league-games"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "White ship wake stretches across deep blue ocean beneath scattered clouds.",
+      "archivalStatus": "current",
+      "attribution": "NOAA",
+      "caption": "A ship's wake crosses the open ocean. NWS is seeking comment on a change to its Atlantic and Pacific sea-state analysis products.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "National Oceanic and Atmospheric Administration",
+      "derivatives": [
+        {
+          "hash": "d685f58f04eda180b073d0d2fc6658599c7bd6d21af755bfb09f9977621d1b25",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/ship-wake/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "46ae9d2c40aade462aeb605ca210ade38481e8cce1957623b124c554f6bdf28e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/ship-wake/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d26ab66dbdb88130fb422263ebb49832402b3d6db53d93d19195dc93fba3ea0e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/ship-wake/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "69bc8e4329e894f7c4770f4624aef944f02c0c718c95f6a1e1dfc5950126c072",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/ship-wake/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a9bbd726a90c0262210988389391a0cc2b415dc7e31119024f80124dac5a4884",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/ship-wake/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "eda7d5cf29b119f5241841381e1103475e377cc73f2f677cfeedf4fd000ab83d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/ship-wake/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "569f07004e928a073f393d6d63b922d085908d6efdbcf45f3066e63cf3df7f25",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/ship-wake/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nws-sea-state-ship-wake-2026",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "46f4ad40046b7c70edfeea8d27c98ae78fd193a8de424a9caa85ee344d939684",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Public domain: NOAA work created as part of official federal duties.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ship_wake_at_sea_NOAA_image.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists Atlantic and Pacific full-ocean analyses at 00 UTC and 12 UTC.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "NWS proposes full-ocean Atlantic and Pacific sea-state analyses at both 00 and 12 UTC each day.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "5b0f261af9eb2929af64206342df55b5036dbd1ad3ee2f1853a243e889281395",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/frequency/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d9e7b07d08bb8607049b95e262b12e0cf9833349c87a85384f69c51199557a00",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/frequency/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "023465e1efc8a25ce71cbc7abb6a3636a97cbc662ab5aa08aa172246d11aa3e7",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/frequency/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b7e97107a4132415613058f869ae14d09d3dbaa426dd26b2642d606f8101d443",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/frequency/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "32a3a2aedf11683de4d48876fdc59d4f96642b363054b99ba328e570bb79e7c5",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/frequency/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4b5d4928f649521c6ac0b5090175752ac75db2efedb99a15cef0db75a41b645d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/frequency/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "67cc2aa94bafb52b86f190a74a4ecbf7597f72fb1002be2ffc641f57f7273803",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/frequency/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nws-sea-state-frequency-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "b7e97107a4132415613058f869ae14d09d3dbaa426dd26b2642d606f8101d443",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.weather.gov/media/notification/pdf_2026/pns26-56_Discontinue_Regional_Sea_State_Analyses.pdf"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists eight regional products proposed for discontinuation, two new full-ocean headings and an August 31 comment deadline.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The proposal would discontinue eight regional products and create two additional full-ocean product headings.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "5971f271dc890ba478f2f45767b30ea99f742c3c6a4ff2ddc7c58ce21ec85a6d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/products/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "61f18f0e469c9f8fbbf6dc33f2337670f5c81152e12e50e8c7a075c2a10694ea",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/products/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "635633aa097beb749acfdaa0b2de82359488266660a1af5aa17931194a74e267",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/products/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "964169f00b1f1a16cf5e17aa98e77474a7127ab894f74950a09ff362f58f3eed",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/products/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "30a0e0dc6198e737f773abada7fb4eecdd6cd47ef206ed3b5a851abfceb1830b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/products/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "bf57a535d89a70f961b5b867efa9901c696080077c3b9410b3e67c9a5a4c86f4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/products/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d780ae8a8014bf989fbd58c10f99c960273005cad2dfcbf4efe8f172ea61d1bc",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/nws-sea-state/products/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nws-sea-state-products-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "964169f00b1f1a16cf5e17aa98e77474a7127ab894f74950a09ff362f58f3eed",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.weather.gov/media/notification/pdf_2026/pns26-56_Discontinue_Regional_Sea_State_Analyses.pdf"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Pedestrians in colorful clothing walk along a busy street in Dhaka.",
+      "archivalStatus": "current",
+      "attribution": "John C. / Wikimedia Commons, CC BY-SA 2.0",
+      "caption": "Pedestrians walk along a street in Dhaka. Bangladesh has asked the IMF to discuss a new Fund-supported economic reform program.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "John C. from USA",
+      "derivatives": [
+        {
+          "hash": "a3b3ad56671473245e96f14beaf434d5c701c52df274618df9fdca11fad9fe25",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/dhaka-street/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "35b666216cc2d3b85d25722ae2174e450998faf3755d81da3f667f940e876933",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/dhaka-street/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8510ee522420c97b4d73e84cbe1ee6c503465a0f5f95161eecf250f2d9f508a7",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/dhaka-street/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d9ad021b01610d4a57ee8cd4ce39b31e174130101378bb29409eda899c621258",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/dhaka-street/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "eb2d7bf1d7c30efc9edab75a130ef6f10ed6dce0a40fef2ddcbc9ed8cf71aaaa",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/dhaka-street/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "eeaa050ae6f93ef61525ed328760bc157ae8fd6d77dcbfabaf8211488ae9291f",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/dhaka-street/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "636a4586cdbed30977f24243cc65f5f152a60fb2f587a6069f4a94dcf40f5b43",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/dhaka-street/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-imf-bangladesh-dhaka-street-2026",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 2.0",
+      "originalFileHash": "4fdf7ce7a55cc17f0b12c44ce1939ef13149cbb1d267823fdec4c1a3c12aadfe",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 2.0 Generic.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Women_on_the_street_(Dhaka).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 3.5 percent growth in fiscal 2027 and below 3 percent medium-term growth without reforms.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "IMF staff projects 3.5% growth in FY2027 and below 3% over the medium term without decisive reforms.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c6ccb0b9afbba3ec4fe6b7d23ac6586d8c0849413319e3676c3a1b35887373eb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/growth-outlook/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b1cc7623d5674ed422983d39be7cf5b0dce5e14cfaa72ed77966ac2ea9e2c163",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/growth-outlook/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "97a3ea476f49846770d598665be8c738fe4e48059882274a0d8937c3cab52f98",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/growth-outlook/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a21b8174ab62a8f1bd9f4871956f63f3e4953fba4b8447948a12087c1bda9b0a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/growth-outlook/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6ffd89de37b88c425cf8c27e56bfe4b930bf078504cae4cb7596ca1c69b17dea",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/growth-outlook/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "47a004498069167fe49bb337df767e6e162dd9da6316b1f4daeb26186f066416",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/growth-outlook/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3f8da9495f105f5cd11235778e27425c1c8ddd91eb178b96d4d45e635027aec7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/growth-outlook/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-imf-bangladesh-growth-outlook-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "a21b8174ab62a8f1bd9f4871956f63f3e4953fba4b8447948a12087c1bda9b0a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/16/pr26248-bangladesh-imf-staff-concludes-visit-to-bangladesh"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists revenue mobilization, subsidy rationalization, reserve rebuilding and banking-sector restructuring.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The IMF visit identified revenue, subsidy, reserve and banking-sector measures for future program talks.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "a724fc17badf13581fdc21926468cd7aec16e31ab7b194bef96eb102d1a3fd24",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/reform-areas/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e88e32b9ee2676080b51ca0a464d70dd8c8fd58be3fa3ada445215e8d3854842",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/reform-areas/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a038f93055ee194052344d83cfda5ed09450ddc0c00207cf0dcdb654bd7fcab7",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/reform-areas/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4b50a39ca16a5df57d28a21a1ed296cccc25f27f56802ed4a3cd6403ddcc3cd9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/reform-areas/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ac3ad07b16508fdcc048740e4d1984805d80f7550175ab1e2cd0a35d2a5adb42",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/reform-areas/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "39862384f2a973c445338f4f8191465c02dbc80edba4c50b90311c02ca5911bc",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/reform-areas/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b7274d2b5ecba8898b25f446a02e430bbba2799113e57d796035eb3ce8126818",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/imf-bangladesh/reform-areas/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-imf-bangladesh-reform-areas-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4b50a39ca16a5df57d28a21a1ed296cccc25f27f56802ed4a3cd6403ddcc3cd9",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/16/pr26248-bangladesh-imf-staff-concludes-visit-to-bangladesh"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Hand slides a payment card through a blue point-of-sale terminal.",
+      "archivalStatus": "current",
+      "attribution": "Hloom Templates / Wikimedia Commons, CC BY 2.0",
+      "caption": "A payment card is used at a point-of-sale terminal. Federal Reserve data show U.S. consumer credit grew in June.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Hloom Templates",
+      "derivatives": [
+        {
+          "hash": "6272a44cf8e8547897e7ce908cbc44ea56e57b7890020298a049a237dcae22ad",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/card-payment/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "74152f27685e438d853308348a88d71ffaaaed034bc6607fae1681564bcdfc88",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/card-payment/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e21bfbc637080bce69ef08562e4bce456ea6644e5a40486001b2f251adc97086",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/card-payment/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d690fe5e7d279efa02d1fef48e1f92a4cece60687d6f5d15fe6f5614c2de0392",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/card-payment/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a3d77e9823892ebc2532134fa046f064cfbc1fbfd146f9a3328ac7750c10ae4f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/card-payment/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b1b5ec8db932ac1b15ba77417d02f446d2454012c1b3e6b6cd60401de3bf218e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/card-payment/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "fea22279deae06752eb105c5f9ee678c0643713d1aedc81ac1c48b07657f0b88",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/card-payment/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-fed-consumer-credit-payment-2026",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "f61f0a9fe01e8e12c48a4eb88afcefde92e158c1e8c870470c473c4b983831e4",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 Generic.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paying_with_a_Credit_Card_(28886645201).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists June total credit growth 3.3 percent, revolving 6 percent and nonrevolving 2.3 percent at annual rates.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Consumer credit grew at a 3.3% annual rate in June after a revised 0.3% decline in May.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "726b65acd2b6f9146f95205a38c062f7af6cb78974a2fbb3eed42d4a2fcf4f59",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/growth/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "03f8a48140129e0b4248869324f1e67ea07517fe10f133b1ade7e821961653ac",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/growth/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b20a07790ea45d576fc2eb516937c8ea504077be2598c713f56046137e00ff1a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/growth/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "cfa96a89c877ee56be2cb5870c56b2fc33460e6f519c6ccca93ebcf611b53558",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/growth/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b645aa8cf538b0da163a1b09ff552ee2866241eda19b65b60eda91afccfe4d43",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/growth/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6dcbf3c557aa69a565d977713066d5924fe42541d00064e48d4309145ba46d66",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/growth/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "9371fce53bce288063a474beadf23ed5d0c89801af0bf01adf98bc4bc0638c27",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/growth/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-fed-consumer-credit-growth-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "cfa96a89c877ee56be2cb5870c56b2fc33460e6f519c6ccca93ebcf611b53558",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.federalreserve.gov/releases/g19/20260807/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 5.17 trillion dollars total, 1.35 trillion revolving and 3.82 trillion nonrevolving credit.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Seasonally adjusted consumer credit outstanding reached $5.17 trillion in June, including $1.35 trillion in revolving balances.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "51ef155956bff8b431aaf1d47848f4007e3adbf0dd5f0c778e1587a10902b711",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/balances/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b58e4d930f7a3f54480897600238ee7d5a590f82b953eaede788edd3b332ffbc",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/balances/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "69bfc466657211b6aad9e2b4048194e3590f1ffbbf53d3e7005608d28265f042",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/balances/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a8c774df53729dd7e5036314d0477fe492aa72c00fba91b19420e94ab6beba8e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/balances/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6a4e9fb7a4923a19676c4b4cf6b05f88a9278efdceaa736ef145493085ef69fb",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/balances/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e60b6e5406737bb2001b9ebfe4b59602326450ecf05efba7ce483815a13b53d9",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/balances/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "fa774388002d3a535e81c1c00cfe080429edc260d69db74b1f2458f55c47c4f4",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/fed-consumer-credit/balances/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-fed-consumer-credit-balances-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "a8c774df53729dd7e5036314d0477fe492aa72c00fba91b19420e94ab6beba8e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.federalreserve.gov/releases/g19/20260807/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Students and a teacher work together at tables in an Arkansas classroom.",
+      "archivalStatus": "current",
+      "attribution": "Jim Olive / U.S. EPA / National Archives",
+      "caption": "Public-school students work on an ecology project in Fort Smith, Arkansas, in 1972. The state received new federal education funding and accountability flexibilities in 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Jim Olive / U.S. Environmental Protection Agency",
+      "derivatives": [
+        {
+          "hash": "9dacd0efdee30e96ee9d4b124ec9852ea2f4f14792581442f1515d9e6e87d891",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/classroom/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8ef2f169fd52f7f8364afbe453f5128c75aa2993dda5c6b08b7895558424e434",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/classroom/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "530a61864e2844a2dc34627db00cefe2bf72fa17d1a16158fcadf385d344e25c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/classroom/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "07ae81eb6a815552b33e6bb126e279c3d8e0444e97f73247655214b8eaf33286",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/classroom/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4a912f02b7b9752e5d23aed4dca40619c072972cdcedd4c74456d1f516437941",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/classroom/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a1f7c245385ee657506f6f8d820468f6c59a5105dc8debd1a73ce1c266c548fe",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/classroom/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "16ea6a6d165e655486ae378561356b4db552467b8bb7f0e5428b6427d4502178",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/classroom/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-arkansas-education-classroom-2026",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "3cb8c27df171078caa1f48731063cf11f7d9084bbdf1f341c2291b4d94244b3a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Public domain: U.S. Environmental Protection Agency work held by the National Archives.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PUBLIC_SCHOOL_STUDENTS_WORK_ON_ECOLOGY_PROJECT_-_NARA_-_543919.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists more than 8.8 million dollars, four funding streams and four years.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The waiver allows Arkansas to consolidate more than $8.8 million across four federal education funding streams over four years.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "fd99d1f5aa55ca69da45efed6fcb147cd9b6b3fa00336e313a0caf32aabec581",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/funding/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9a8f0ce53a95ce7b84fc1a6eb423832f33d87e981c5313e64187fb363eca5dd3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/funding/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "fcf5e45d19c05c1dd7ebe925ceb646fcf1cbc19a0760fabae0223072cdd1053f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/funding/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "36f115b9e9a94cdac961decdd503d5138d8c8f349130664bc72c4eeb5295f8d7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/funding/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "13f4aeaedf8000c964d0b5bdc31e8b30e3dc632724cbda554410f0e804cfee14",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/funding/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2348ff91eb758e526f691227f583edcc07353b8ab1654368a5d45c3de9acaf8c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/funding/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "782783174b68d823462b581a28c2b3306670ad0e2c66f254831ae97a233cf437",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/funding/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-arkansas-education-funding-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "36f115b9e9a94cdac961decdd503d5138d8c8f349130664bc72c4eeb5295f8d7",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ed.gov/about/news/press-release/us-department-of-education-approves-arkansas-returning-education-states-waiver-other-education-flexibilities"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists Ed-Flex authority, advanced assessment results and alternative-learning school assignment.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The approvals cover Ed-Flex, advanced-assessment accounting and alternative-learning accountability assignments.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "593c66747fddd9e9a17055527b4e52ab3ef9bd54cf30f4c71bef1986ff5f0be0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/flexibilities/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c3377a54fc5f9a72c7914b9fc974e49775dc90050ae1f2fafca9368302aaad34",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/flexibilities/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3955923d9cfeb6c00b27fa67384890c0be48ccfa5125b630cb0092714cc9e732",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/flexibilities/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e77c2537bd32739de69508d944a1a8cf05c4a3f678b6d9779c920f17201f5d66",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/flexibilities/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e9a981e6f58c23a51c7409f62bf9d64a127467332f71940441fcd21d65db82cd",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/flexibilities/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d25f8b287f75231608743315f8c1fea0458f5614f35d13b9a4e475740e2711e2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/flexibilities/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0ec9d14205de9411dd7bb6379c6ce44fe276a7727f8eb5e598bb841fb29598a1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-065029/arkansas-education/flexibilities/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-arkansas-education-flexibilities-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "e77c2537bd32739de69508d944a1a8cf05c4a3f678b6d9779c920f17201f5d66",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T07:04:17.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ed.gov/about/news/press-release/us-department-of-education-approves-arkansas-returning-education-states-waiver-other-education-flexibilities"
     }
   ],
-  "packageDigest": "caad4fa339c6d9a701ac79f2134dbe2bcab4c727795b869fba34a67736e55e51",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -83184,7 +85442,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "cccbc6c948cd479697f49a2b04f0bce9f45efe733280d1d39090369e3a842822"
 }
