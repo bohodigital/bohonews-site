@@ -36621,25 +36621,927 @@
         "Implementation details and measurable effects depend on Arkansas guidance and later data."
       ],
       "updatedAt": "2026-08-10T07:26:51.474Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Fifteen Government Accountability Office recommendations for the Department of Veterans Affairs' disability-compensation program remained open in July, as VA explored artificial intelligence and other technology changes for processing claims.\n\nSince 2021, GAO has made 43 recommendations on the program. VA had implemented 28 and taken some steps on the remaining 15, the watchdog told a House Veterans' Affairs subcommittee.\n\nThe program provided more than $195 billion to more than 6.9 million veterans and family members in fiscal 2025. Its scale makes processing speed, accuracy and explainability material to both claimants and federal spending.\n\nVA began developing the electronic Veterans Benefits Management System in 2009. GAO said that effort lacked robust planning and did not include goals for response time or user satisfaction, limiting the agency's ability to measure progress.\n\nThe watchdog has also found gaps in VA oversight of exams performed by contracted medical providers and in management of training for claims processors. Those are program-management issues independent of whether AI is added.\n\nVA is considering AI to automate more claims-processing work. GAO said that could improve efficiency and accuracy, but opaque model behavior can make errors or misuse harder to detect.\n\nGenerative AI can also require significant computing and technical resources. A successful pilot therefore would need evidence on accuracy, cost, processing time, appeals and whether results differ across claim types or claimant groups.\n\nGAO pointed VA to its AI Accountability Framework for governance, data, performance and monitoring. The testimony did not approve a specific AI product or say automated decisions should replace human review.\n\nThe next accountability checkpoints are implementation of the 15 open recommendations and published performance measures for any modernization. Faster processing alone would not establish improvement if error, appeal or user-satisfaction outcomes deteriorate.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Fifteen Government Accountability Office recommendations for the Department of Veterans Affairs' disability-compensation program remained open in July, as VA explored artificial intelligence and other technology changes for processing claims."
+        },
+        {
+          "type": "paragraph",
+          "text": "Since 2021, GAO has made 43 recommendations on the program. VA had implemented 28 and taken some steps on the remaining 15, the watchdog told a House Veterans' Affairs subcommittee."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-va-disability-program-scale-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/program-scale/four-three.webp",
+          "alt": "Graphic lists more than 195 billion dollars in benefits and more than 6.9 million recipients in fiscal 2025.",
+          "caption": "VA provided more than $195 billion in disability benefits to more than 6.9 million veterans and family members in fiscal 2025.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-109137"
+        },
+        {
+          "type": "paragraph",
+          "text": "The program provided more than $195 billion to more than 6.9 million veterans and family members in fiscal 2025. Its scale makes processing speed, accuracy and explainability material to both claimants and federal spending."
+        },
+        {
+          "type": "paragraph",
+          "text": "VA began developing the electronic Veterans Benefits Management System in 2009. GAO said that effort lacked robust planning and did not include goals for response time or user satisfaction, limiting the agency's ability to measure progress."
+        },
+        {
+          "type": "paragraph",
+          "text": "The watchdog has also found gaps in VA oversight of exams performed by contracted medical providers and in management of training for claims processors. Those are program-management issues independent of whether AI is added."
+        },
+        {
+          "type": "paragraph",
+          "text": "VA is considering AI to automate more claims-processing work. GAO said that could improve efficiency and accuracy, but opaque model behavior can make errors or misuse harder to detect."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-va-disability-recommendations-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/recommendations/four-three.webp",
+          "alt": "Graphic lists 43 recommendations since 2021, 28 implemented and 15 still open.",
+          "caption": "VA has implemented 28 of 43 GAO recommendations made since 2021; 15 remain open.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-109137"
+        },
+        {
+          "type": "paragraph",
+          "text": "Generative AI can also require significant computing and technical resources. A successful pilot therefore would need evidence on accuracy, cost, processing time, appeals and whether results differ across claim types or claimant groups."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO pointed VA to its AI Accountability Framework for governance, data, performance and monitoring. The testimony did not approve a specific AI product or say automated decisions should replace human review."
+        },
+        {
+          "type": "paragraph",
+          "text": "The next accountability checkpoints are implementation of the 15 open recommendations and published performance measures for any modernization. Faster processing alone would not establish improvement if error, appeal or user-satisfaction outcomes deteriorate."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-va-disability-ai-modernization-15-open-actions-2026/",
+      "citations": [
+        {
+          "id": "source-gao-va-disability-ai-20260713",
+          "title": "VA Disability Benefits: Opportunities and Challenges to Modernizing Technology and Adopting AI",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-07-13T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-109137"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "GAO has made 43 recommendations since 2021.",
+        "VA implemented 28 recommendations and 15 remain open.",
+        "The program paid more than $195 billion in fiscal 2025.",
+        "More than 6.9 million veterans and family members received benefits.",
+        "VA is exploring AI for claims processing."
+      ],
+      "corrections": [],
+      "dek": "VA is exploring AI for claims processing after a long-running system modernization lacked response-time and user-satisfaction goals, the congressional watchdog says.",
+      "desk": "veterans-benefits-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Department of Veterans Affairs",
+        "Veterans Benefits Administration"
+      ],
+      "eventId": "event-gao-va-disability-ai-modernization-15-open-actions-2026",
+      "headline": "GAO Says 15 VA Disability-Program Recommendations Remain Open",
+      "id": "article-gao-va-disability-ai-modernization-15-open-actions-2026",
+      "leadImage": {
+        "alt": "Computer, keyboard, stethoscope and medical forms arranged on a clinician's desk.",
+        "caption": "A computer, stethoscope and forms on a clinician's desk. VA is exploring AI and other technology changes for disability claims processing.",
+        "credit": "Kaboompics / Pixabay, CC0",
+        "height": 900,
+        "rightsId": "media-gao-va-disability-computer-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/doctor-computer/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says 15 VA disability-program recommendations remain open as the agency explores AI and other claims-processing technology.",
+        "index": true,
+        "title": "GAO: 15 VA disability-program actions remain open"
+      },
+      "section": "investigations",
+      "slug": "gao-va-disability-ai-modernization-15-open-actions-2026",
+      "social": {
+        "description": "VA is exploring AI for claims processing after a long-running system modernization lacked response-time and user-satisfaction goals, the congressional watchdog says.",
+        "image": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/doctor-computer/open-graph.webp",
+        "title": "GAO Says 15 VA Disability-Program Recommendations Remain Open"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Veterans disability benefits",
+        "Claims processing",
+        "Artificial intelligence",
+        "VA technology",
+        "Program oversight"
+      ],
+      "uncertainty": [
+        "GAO did not evaluate or approve a specific AI product in this testimony.",
+        "Potential speed or accuracy gains require measured implementation evidence."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The estimated U.S. rate of violent offenses reported to law enforcement fell from 393.9 per 100,000 people in 2023 to 370.8 in 2024, the Bureau of Justice Statistics reported.\n\nThe estimates come from the BJS and FBI National Incident-Based Reporting System Estimation Program. NIBRS collects detailed information about incidents known to participating law-enforcement agencies and the program adjusts those records to produce national estimates.\n\nBJS estimated 1,261,210 violent offenses in 2024, down from 1,319,280 in 2023. Its violent category combines homicide, rape, robbery and aggravated assault.\n\nThe property-offense rate declined 9%, from 2,019.7 to 1,835.1 per 100,000. Estimated property offenses fell from 6.76 million to 6.24 million.\n\nWithin that category, the estimated burglary rate fell from 255.6 to 230.0 per 100,000, larceny-theft from 1,431.9 to 1,334.5, and motor-vehicle theft from 332.2 to 270.6.\n\nThe estimated violent-victimization rate was 376.9 per 100,000 in 2024, down from 401.1 in 2023. Offense and victimization rates differ because one incident can involve more than one victim.\n\nBJS also reported decreases in homicide victimization rates for both males and females and lower victimization rates for burglary and larceny-theft.\n\nThese figures measure crime known to law enforcement, not every crime that occurred. Reporting behavior, agency participation and estimation methods affect the results, so the series should not be substituted for surveys of unreported victimization.\n\nThe 2024 movement is a national estimate and does not describe every city or neighborhood. Local comparisons require consistent agency data and population denominators rather than applying the national change to a specific community.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The estimated U.S. rate of violent offenses reported to law enforcement fell from 393.9 per 100,000 people in 2023 to 370.8 in 2024, the Bureau of Justice Statistics reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "The estimates come from the BJS and FBI National Incident-Based Reporting System Estimation Program. NIBRS collects detailed information about incidents known to participating law-enforcement agencies and the program adjusts those records to produce national estimates."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-bjs-crime-violent-rate-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/violent-rate/four-three.webp",
+          "alt": "Graphic compares violent-offense rates of 393.9 in 2023 and 370.8 in 2024 per 100,000.",
+          "caption": "The estimated violent-offense rate declined from 393.9 per 100,000 in 2023 to 370.8 in 2024.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://bjs.ojp.gov/library/publications/crime-known-law-enforcement-2024"
+        },
+        {
+          "type": "paragraph",
+          "text": "BJS estimated 1,261,210 violent offenses in 2024, down from 1,319,280 in 2023. Its violent category combines homicide, rape, robbery and aggravated assault."
+        },
+        {
+          "type": "paragraph",
+          "text": "The property-offense rate declined 9%, from 2,019.7 to 1,835.1 per 100,000. Estimated property offenses fell from 6.76 million to 6.24 million."
+        },
+        {
+          "type": "paragraph",
+          "text": "Within that category, the estimated burglary rate fell from 255.6 to 230.0 per 100,000, larceny-theft from 1,431.9 to 1,334.5, and motor-vehicle theft from 332.2 to 270.6."
+        },
+        {
+          "type": "paragraph",
+          "text": "The estimated violent-victimization rate was 376.9 per 100,000 in 2024, down from 401.1 in 2023. Offense and victimization rates differ because one incident can involve more than one victim."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-bjs-crime-property-rate-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/property-rate/four-three.webp",
+          "alt": "Graphic shows the property-offense rate falling 9 percent from 2019.7 to 1835.1 per 100,000.",
+          "caption": "The estimated property-offense rate declined 9%, from 2,019.7 to 1,835.1 per 100,000.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://bjs.ojp.gov/library/publications/crime-known-law-enforcement-2024"
+        },
+        {
+          "type": "paragraph",
+          "text": "BJS also reported decreases in homicide victimization rates for both males and females and lower victimization rates for burglary and larceny-theft."
+        },
+        {
+          "type": "paragraph",
+          "text": "These figures measure crime known to law enforcement, not every crime that occurred. Reporting behavior, agency participation and estimation methods affect the results, so the series should not be substituted for surveys of unreported victimization."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 2024 movement is a national estimate and does not describe every city or neighborhood. Local comparisons require consistent agency data and population denominators rather than applying the national change to a specific community."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/bjs-violent-offense-rate-370-8-per-100000-2024/",
+      "citations": [
+        {
+          "id": "source-bjs-crime-known-2024",
+          "title": "Crime Known to Law Enforcement, 2024",
+          "publisher": "Bureau of Justice Statistics",
+          "publishedAt": "2026-03-16T12:00:00Z",
+          "url": "https://bjs.ojp.gov/library/publications/crime-known-law-enforcement-2024"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The violent-offense rate fell from 393.9 to 370.8 per 100,000.",
+        "Estimated violent offenses totaled 1,261,210 in 2024.",
+        "The property-offense rate fell 9% to 1,835.1 per 100,000.",
+        "Violent victimization declined to 376.9 per 100,000.",
+        "The estimates are based on the NIBRS Estimation Program."
+      ],
+      "corrections": [],
+      "dek": "BJS and FBI estimates show lower violent- and property-offense rates than in 2023, while the report remains limited to incidents reported to law enforcement.",
+      "desk": "national-crime-statistics",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Bureau of Justice Statistics",
+        "Federal Bureau of Investigation"
+      ],
+      "eventId": "event-bjs-violent-offense-rate-370-8-per-100000-2024",
+      "headline": "Reported Violent-Offense Rate Fell to 370.8 per 100,000 in 2024",
+      "id": "article-bjs-violent-offense-rate-370-8-per-100000-2024",
+      "leadImage": {
+        "alt": "Marked county police patrol vehicle traveling on a divided roadway.",
+        "caption": "A county police patrol vehicle on a roadway. National estimates from BJS and the FBI show reported violent- and property-offense rates declined in 2024.",
+        "credit": "Hastengeims / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-bjs-crime-police-patrol-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/police-patrol/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "BJS estimates the reported violent-offense rate fell to 370.8 per 100,000 in 2024 and the property-offense rate declined 9%.",
+        "index": true,
+        "title": "Violent-offense rate fell to 370.8 in 2024"
+      },
+      "section": "crime-justice",
+      "slug": "bjs-violent-offense-rate-370-8-per-100000-2024",
+      "social": {
+        "description": "BJS and FBI estimates show lower violent- and property-offense rates than in 2023, while the report remains limited to incidents reported to law enforcement.",
+        "image": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/police-patrol/open-graph.webp",
+        "title": "Reported Violent-Offense Rate Fell to 370.8 per 100,000 in 2024"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Crime statistics",
+        "Violent offenses",
+        "Property offenses",
+        "NIBRS",
+        "Law enforcement data"
+      ],
+      "uncertainty": [
+        "The report covers incidents known to law enforcement and excludes unreported crime.",
+        "National estimates do not establish local trends."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Government Accountability Office counted 277 matters for congressional consideration that remained open as of April 9, 2026, spanning health, defense, energy, technology and federal financial management.\n\nGAO has sent Congress more than 1,150 such matters since 2000. Nearly 80% had closed, either because action was taken, circumstances changed or GAO determined the recommendation was no longer applicable.\n\nOf the open matters, GAO identified 53 that could produce financial benefits. Thirteen each carried potential benefits of at least $1 billion, although those figures are estimates and depend on the scope and timing of legislation.\n\nThe largest example in the report is a recommendation to equalize certain Medicare payment rates across care settings. GAO estimated that policy could save $156.9 billion over 10 years.\n\nThat estimate is not money already saved or appropriated. Congress would have to define and enact a policy, agencies would have to implement it, and actual effects could differ from the modeled amount.\n\nBills introduced in the 118th and 119th Congresses would have fully or partly addressed 103 of the 277 open matters, about 37%, as of February. Introduction alone does not mean a bill will advance or become law.\n\nAge varies across the inventory. GAO said 123 open matters, about 44%, had been open five years or less, while the oldest was almost 25 years old and concerned federal food-safety oversight.\n\nGAO previously attributed $66 billion in financial benefits from fiscal 2001 through March 2024 to addressing matters where Congress was a contributing entity. That retrospective measure uses a different period from the forward-looking estimates in the new inventory.\n\nThe useful accountability test is matter by matter: whether relevant legislation advances, whether the final text addresses GAO's finding and whether later budget or program evidence confirms the projected benefit. The headline count alone does not establish achievable savings.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Government Accountability Office counted 277 matters for congressional consideration that remained open as of April 9, 2026, spanning health, defense, energy, technology and federal financial management."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO has sent Congress more than 1,150 such matters since 2000. Nearly 80% had closed, either because action was taken, circumstances changed or GAO determined the recommendation was no longer applicable."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-congress-open-matters-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/open-matters/four-three.webp",
+          "alt": "Graphic lists more than 1150 matters since 2000 and 277 still open in April 2026.",
+          "caption": "Of more than 1,150 matters GAO has sent Congress since 2000, 277 remained open on April 9, 2026.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108896"
+        },
+        {
+          "type": "paragraph",
+          "text": "Of the open matters, GAO identified 53 that could produce financial benefits. Thirteen each carried potential benefits of at least $1 billion, although those figures are estimates and depend on the scope and timing of legislation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The largest example in the report is a recommendation to equalize certain Medicare payment rates across care settings. GAO estimated that policy could save $156.9 billion over 10 years."
+        },
+        {
+          "type": "paragraph",
+          "text": "That estimate is not money already saved or appropriated. Congress would have to define and enact a policy, agencies would have to implement it, and actual effects could differ from the modeled amount."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bills introduced in the 118th and 119th Congresses would have fully or partly addressed 103 of the 277 open matters, about 37%, as of February. Introduction alone does not mean a bill will advance or become law."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-congress-financial-benefits-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/financial-benefits/four-three.webp",
+          "alt": "Graphic lists 53 matters with possible financial benefits and 13 worth at least one billion dollars each.",
+          "caption": "GAO identified 53 open matters with possible financial benefits, including 13 potentially worth at least $1 billion each.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108896"
+        },
+        {
+          "type": "paragraph",
+          "text": "Age varies across the inventory. GAO said 123 open matters, about 44%, had been open five years or less, while the oldest was almost 25 years old and concerned federal food-safety oversight."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO previously attributed $66 billion in financial benefits from fiscal 2001 through March 2024 to addressing matters where Congress was a contributing entity. That retrospective measure uses a different period from the forward-looking estimates in the new inventory."
+        },
+        {
+          "type": "paragraph",
+          "text": "The useful accountability test is matter by matter: whether relevant legislation advances, whether the final text addresses GAO's finding and whether later budget or program evidence confirms the projected benefit. The headline count alone does not establish achievable savings."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-277-open-recommendations-congress-2026/",
+      "citations": [
+        {
+          "id": "source-gao-congress-recommendations-20260512",
+          "title": "Recommendations for Congress: Action Can Cut Costs, Reduce Waste, and Improve Services",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-05-12T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-108896"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "GAO counted 277 open matters as of April 9, 2026.",
+        "GAO has made more than 1,150 matters for congressional consideration since 2000.",
+        "Fifty-three open matters could produce financial benefits.",
+        "Thirteen have potential benefits of at least $1 billion each.",
+        "Bills could fully or partly address 103 open matters."
+      ],
+      "corrections": [],
+      "dek": "Fifty-three open matters could produce financial benefits, GAO says, including 13 with at least $1 billion in potential savings each.",
+      "desk": "congressional-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "U.S. Congress",
+        "Department of Health and Human Services"
+      ],
+      "eventId": "event-gao-277-open-recommendations-congress-2026",
+      "headline": "GAO Counts 277 Open Recommendations for Congress",
+      "id": "article-gao-277-open-recommendations-congress-2026",
+      "leadImage": {
+        "alt": "West front of the United States Capitol beneath a blue sky.",
+        "caption": "The west front of the U.S. Capitol. GAO counted 277 matters for congressional consideration that remained open in April 2026.",
+        "credit": "Architect of the Capitol",
+        "height": 900,
+        "rightsId": "media-gao-congress-capitol-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/capitol/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington",
+        "District of Columbia",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says 277 matters for congressional consideration remain open, including 53 that could produce financial benefits.",
+        "index": true,
+        "title": "GAO counts 277 open recommendations for Congress"
+      },
+      "section": "politics",
+      "slug": "gao-277-open-recommendations-congress-2026",
+      "social": {
+        "description": "Fifty-three open matters could produce financial benefits, GAO says, including 13 with at least $1 billion in potential savings each.",
+        "image": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/capitol/open-graph.webp",
+        "title": "GAO Counts 277 Open Recommendations for Congress"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Congressional oversight",
+        "GAO recommendations",
+        "Federal spending",
+        "Legislation",
+        "Program accountability"
+      ],
+      "uncertainty": [
+        "Potential financial benefits are estimates, not realized savings.",
+        "Introduced legislation may change or fail to become law."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Aryna Sabalenka, Carlos Alcaraz, Jannik Sinner and Jessica Pegula are among the players named in the U.S. Open's initial 2026 field announcement.\n\nThe announcement establishes entry, not a seed, draw position or guarantee that every listed player will compete. Injuries, withdrawals and eligibility changes can alter a Grand Slam field before play begins.\n\nSabalenka and Pegula headline the names highlighted from the women's field, while Alcaraz and Sinner lead the men's names in the tournament's July 21 announcement.\n\nThe event is scheduled at the USTA Billie Jean King National Tennis Center in Flushing, New York. The broader tournament calendar runs from Aug. 23 through Sept. 13.\n\nMen's and women's singles qualifying is scheduled Aug. 24-27. USTA says 128 men and 128 women will compete for 16 final main-draw places in each singles field.\n\nMain-draw singles play begins Sunday, Aug. 30, with first-round sessions on Aug. 30 and 31 and Sept. 1. The women's singles final is scheduled Sept. 12 and the men's final Sept. 13.\n\nEntry lists and qualifying fields answer different questions. A player named in the direct-entry announcement is not competing for one of the 16 qualifying places unless later circumstances change the route into the draw.\n\nSeeds and brackets will be set closer to competition using the tournament's rules and current rankings. The July announcement should not be read as a projected semifinal or final lineup.\n\nThe next useful checks are the official withdrawal list, qualifying draw, seed announcement and main draw. USTA notes that schedules remain subject to change, so session buyers should verify the latest order of play.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Aryna Sabalenka, Carlos Alcaraz, Jannik Sinner and Jessica Pegula are among the players named in the U.S. Open's initial 2026 field announcement."
+        },
+        {
+          "type": "paragraph",
+          "text": "The announcement establishes entry, not a seed, draw position or guarantee that every listed player will compete. Injuries, withdrawals and eligibility changes can alter a Grand Slam field before play begins."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-usopen-field-headliners-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/headliners/four-three.webp",
+          "alt": "Graphic lists Sabalenka, Alcaraz, Sinner and Pegula as announced U.S. Open entrants.",
+          "caption": "The U.S. Open's initial field announcement names Aryna Sabalenka, Carlos Alcaraz, Jannik Sinner and Jessica Pegula among the entrants.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.usopen.org/en_US/news/articles/2026-07-21/who_is_playing_the_2026_us_open_sabalenka_alcaraz_sinner_pegula_more.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sabalenka and Pegula headline the names highlighted from the women's field, while Alcaraz and Sinner lead the men's names in the tournament's July 21 announcement."
+        },
+        {
+          "type": "paragraph",
+          "text": "The event is scheduled at the USTA Billie Jean King National Tennis Center in Flushing, New York. The broader tournament calendar runs from Aug. 23 through Sept. 13."
+        },
+        {
+          "type": "paragraph",
+          "text": "Men's and women's singles qualifying is scheduled Aug. 24-27. USTA says 128 men and 128 women will compete for 16 final main-draw places in each singles field."
+        },
+        {
+          "type": "paragraph",
+          "text": "Main-draw singles play begins Sunday, Aug. 30, with first-round sessions on Aug. 30 and 31 and Sept. 1. The women's singles final is scheduled Sept. 12 and the men's final Sept. 13."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-usopen-field-calendar-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/calendar/four-three.webp",
+          "alt": "Graphic lists qualifying August 24 through 27 and the singles main draw beginning August 30.",
+          "caption": "Singles qualifying is scheduled Aug. 24-27, with main-draw singles beginning Aug. 30.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.usopen.org/en_US/news/articles/2026-07-21/who_is_playing_the_2026_us_open_sabalenka_alcaraz_sinner_pegula_more.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "Entry lists and qualifying fields answer different questions. A player named in the direct-entry announcement is not competing for one of the 16 qualifying places unless later circumstances change the route into the draw."
+        },
+        {
+          "type": "paragraph",
+          "text": "Seeds and brackets will be set closer to competition using the tournament's rules and current rankings. The July announcement should not be read as a projected semifinal or final lineup."
+        },
+        {
+          "type": "paragraph",
+          "text": "The next useful checks are the official withdrawal list, qualifying draw, seed announcement and main draw. USTA notes that schedules remain subject to change, so session buyers should verify the latest order of play."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula/",
+      "citations": [
+        {
+          "id": "source-usopen-player-field-20260721",
+          "title": "Who is playing the 2026 US Open? Sabalenka, Alcaraz, Sinner, Pegula & more",
+          "publisher": "U.S. Open / USTA",
+          "publishedAt": "2026-07-21T12:00:00Z",
+          "url": "https://www.usopen.org/en_US/news/articles/2026-07-21/who_is_playing_the_2026_us_open_sabalenka_alcaraz_sinner_pegula_more.html"
+        },
+        {
+          "id": "source-usopen-schedule-2026",
+          "title": "2026 U.S. Open Tournament Schedule",
+          "publisher": "U.S. Open / USTA",
+          "publishedAt": "2026-08-01T12:00:00Z",
+          "url": "https://www.usopen.org/en_US/about/eventschedule.html"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Sabalenka, Alcaraz, Sinner and Pegula appear in the official field announcement.",
+        "Qualifying is scheduled Aug. 24-27.",
+        "Qualifying has 128 men and 128 women competing for 16 places in each main draw.",
+        "Main-draw singles begins Aug. 30.",
+        "The men's singles final is scheduled Sept. 13."
+      ],
+      "corrections": [],
+      "dek": "The tournament's initial player announcement names leading men's and women's entrants ahead of qualifying Aug. 24-27 and the singles main draw starting Aug. 30.",
+      "desk": "tennis-player-fields",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Tennis Association",
+        "Aryna Sabalenka",
+        "Carlos Alcaraz",
+        "Jannik Sinner",
+        "Jessica Pegula"
+      ],
+      "eventId": "event-2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula",
+      "headline": "2026 U.S. Open Field Includes Sabalenka, Alcaraz, Sinner and Pegula",
+      "id": "article-2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula",
+      "leadImage": {
+        "alt": "Walkways, trees and crowds lead toward Arthur Ashe Stadium at the U.S. Open grounds.",
+        "caption": "The USTA Billie Jean King National Tennis Center during U.S. Open Fan Week. The tournament has announced leading entrants for its 2026 singles fields.",
+        "credit": "Beyond My Ken / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-usopen-field-east-gate-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/east-gate/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Flushing",
+        "Queens",
+        "New York City",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The 2026 U.S. Open field announcement includes Sabalenka, Alcaraz, Sinner and Pegula before qualifying starts Aug. 24.",
+        "index": true,
+        "title": "2026 U.S. Open field: Sabalenka, Alcaraz and more"
+      },
+      "section": "sports",
+      "slug": "2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula",
+      "social": {
+        "description": "The tournament's initial player announcement names leading men's and women's entrants ahead of qualifying Aug. 24-27 and the singles main draw starting Aug. 30.",
+        "image": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/east-gate/open-graph.webp",
+        "title": "2026 U.S. Open Field Includes Sabalenka, Alcaraz, Sinner and Pegula"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "2026 U.S. Open",
+        "Tennis entries",
+        "Aryna Sabalenka",
+        "Carlos Alcaraz",
+        "Jannik Sinner"
+      ],
+      "uncertainty": [
+        "Entries can change because of withdrawals, injuries or eligibility developments.",
+        "Seeds, draws and daily orders of play are not fixed by the field announcement."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The National Library Service for the Blind and Print Disabled at the Library of Congress recognized two libraries in Georgia and Massachusetts for accessible service to readers with visual, physical or print disabilities.\n\nThe Georgia Library Service for the Blind and Print Disabled in Atlanta received the 2026 Regional Library of the Year Award.\n\nThe Worcester Talking Book Library in Worcester, Massachusetts, received the 2026 Subregional Library of the Year Award.\n\nThe Library of Congress scheduled recognition for both programs at a July 22 luncheon in the Thomas Jefferson Building in Washington.\n\nEstablished in 2004, the awards recognize libraries in the National Library Service network for support of the program's mission, innovation in service and high reader satisfaction.\n\nNLS and its cooperating network provide accessible reading materials to eligible patrons. The awards distinguish the performance of individual network libraries rather than ranking every public-library service in the two states.\n\nThe regional and subregional labels describe different places in the NLS network. Georgia's statewide program and Worcester's local talking-book library therefore received separate award categories.\n\nAn award is a qualitative recognition, not a national access metric. Evaluating service availability still requires patron enrollment, wait times, format availability, outreach and user feedback over time.\n\nThe immediate public record identifies the honorees and award criteria. More detailed program comparisons would require the libraries' service data and documentation of the innovations considered by NLS.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The National Library Service for the Blind and Print Disabled at the Library of Congress recognized two libraries in Georgia and Massachusetts for accessible service to readers with visual, physical or print disabilities."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Georgia Library Service for the Blind and Print Disabled in Atlanta received the 2026 Regional Library of the Year Award."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-loc-accessible-awardees-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/awardees/four-three.webp",
+          "alt": "Graphic names the Georgia regional winner and Worcester subregional winner.",
+          "caption": "The 2026 awards went to the Georgia Library Service for the Blind and Print Disabled and Worcester Talking Book Library.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://newsroom.loc.gov/news/library-of-congress-program-honors-accessible-libraries-in-georgia-and-massachusetts/s/573a6399-8f67-4c34-b244-659e02828608"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Worcester Talking Book Library in Worcester, Massachusetts, received the 2026 Subregional Library of the Year Award."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Library of Congress scheduled recognition for both programs at a July 22 luncheon in the Thomas Jefferson Building in Washington."
+        },
+        {
+          "type": "paragraph",
+          "text": "Established in 2004, the awards recognize libraries in the National Library Service network for support of the program's mission, innovation in service and high reader satisfaction."
+        },
+        {
+          "type": "paragraph",
+          "text": "NLS and its cooperating network provide accessible reading materials to eligible patrons. The awards distinguish the performance of individual network libraries rather than ranking every public-library service in the two states."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-loc-accessible-award-criteria-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/criteria/four-three.webp",
+          "alt": "Graphic lists mission support, service innovation and reader satisfaction as award criteria.",
+          "caption": "The awards recognize mission support, service innovation and reader satisfaction in the NLS network.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://newsroom.loc.gov/news/library-of-congress-program-honors-accessible-libraries-in-georgia-and-massachusetts/s/573a6399-8f67-4c34-b244-659e02828608"
+        },
+        {
+          "type": "paragraph",
+          "text": "The regional and subregional labels describe different places in the NLS network. Georgia's statewide program and Worcester's local talking-book library therefore received separate award categories."
+        },
+        {
+          "type": "paragraph",
+          "text": "An award is a qualitative recognition, not a national access metric. Evaluating service availability still requires patron enrollment, wait times, format availability, outreach and user feedback over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "The immediate public record identifies the honorees and award criteria. More detailed program comparisons would require the libraries' service data and documentation of the innovations considered by NLS."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/library-congress-accessible-library-awards-georgia-massachusetts-2026/",
+      "citations": [
+        {
+          "id": "source-loc-accessible-library-awards-20260722",
+          "title": "Library of Congress Program Honors Accessible Libraries in Georgia and Massachusetts",
+          "publisher": "Library of Congress",
+          "publishedAt": "2026-07-22T12:00:00Z",
+          "url": "https://newsroom.loc.gov/news/library-of-congress-program-honors-accessible-libraries-in-georgia-and-massachusetts/s/573a6399-8f67-4c34-b244-659e02828608"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Georgia received the Regional Library of the Year Award.",
+        "Worcester received the Subregional Library of the Year Award.",
+        "Both awards are for 2026.",
+        "NLS serves readers with visual, physical or print disabilities.",
+        "The award program was established in 2004."
+      ],
+      "corrections": [],
+      "dek": "The National Library Service recognized statewide service in Atlanta and a Worcester talking-book library for work serving readers with print disabilities.",
+      "desk": "library-accessibility",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Library of Congress",
+        "National Library Service for the Blind and Print Disabled",
+        "Georgia Library Service for the Blind and Print Disabled",
+        "Worcester Talking Book Library"
+      ],
+      "eventId": "event-library-congress-accessible-library-awards-georgia-massachusetts-2026",
+      "headline": "Library of Congress Honors Accessible Libraries in Georgia and Worcester",
+      "id": "article-library-congress-accessible-library-awards-georgia-massachusetts-2026",
+      "leadImage": {
+        "alt": "Ground-level view across desks and columns in the Library of Congress Main Reading Room.",
+        "caption": "The Library of Congress Main Reading Room. Its National Library Service recognized accessible-library programs in Georgia and Massachusetts for 2026.",
+        "credit": "Sdkb / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-loc-accessible-reading-room-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/reading-room/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Atlanta",
+        "Georgia",
+        "Worcester",
+        "Massachusetts",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Library of Congress awards honored accessible-library services in Atlanta, Georgia, and Worcester, Massachusetts, for 2026.",
+        "index": true,
+        "title": "Library of Congress names 2026 accessible-library winners"
+      },
+      "section": "culture",
+      "slug": "library-congress-accessible-library-awards-georgia-massachusetts-2026",
+      "social": {
+        "description": "The National Library Service recognized statewide service in Atlanta and a Worcester talking-book library for work serving readers with print disabilities.",
+        "image": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/reading-room/open-graph.webp",
+        "title": "Library of Congress Honors Accessible Libraries in Georgia and Worcester"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Accessible libraries",
+        "Talking books",
+        "Print disabilities",
+        "Library services",
+        "National Library Service"
+      ],
+      "uncertainty": [
+        "The release does not provide comparative performance metrics for every network library.",
+        "Award recognition does not by itself measure statewide availability for every eligible reader."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Elevated levels of a group of circular RNA molecules in blood were associated with nearly three times the risk of progressing to symptomatic Alzheimer’s disease in an NIH-funded study.\n\nCircular RNAs are stable loops of genetic material. Unlike amyloid plaques, which can accumulate slowly for years, their levels may reflect more recent biological activity.\n\nResearchers analyzed blood data from more than 1,200 people across multiple independent cohorts. They identified 34 circular RNAs associated with Alzheimer’s disease.\n\nA model using those 34 molecules identified Alzheimer’s pathology about as well as a model based on pTau217, a leading protein blood biomarker.\n\nThe difference appeared in forecasting progression. NIH said the circular-RNA model was better at predicting who would develop symptoms, with the RNA levels diverging from normal about two to four years before onset.\n\nThe researchers reported similar findings in samples from two independent cohorts. Replication across cohorts strengthens the result but does not substitute for prospective clinical validation.\n\nThe work could help select participants for prevention trials or monitor response to treatments. Those are research uses; the study does not establish that the model improves patient outcomes.\n\nNo clinical circular-RNA assay is available from this report. Researchers are working with commercial partners on translatable tests, and performance in routine care may differ from performance in study cohorts.\n\nThe nearly threefold figure is a relative risk estimate, not a certainty that an individual will develop symptoms. Useful next evidence includes prespecified prospective testing, absolute-risk calibration and comparison across populations before clinical adoption.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Elevated levels of a group of circular RNA molecules in blood were associated with nearly three times the risk of progressing to symptomatic Alzheimer’s disease in an NIH-funded study."
+        },
+        {
+          "type": "paragraph",
+          "text": "Circular RNAs are stable loops of genetic material. Unlike amyloid plaques, which can accumulate slowly for years, their levels may reflect more recent biological activity."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nih-alzheimers-circrna-cohort-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/cohort/four-three.webp",
+          "alt": "Graphic lists more than 1200 participants, multiple cohorts and 34 circular RNAs associated with Alzheimer's.",
+          "caption": "Researchers analyzed blood data from more than 1,200 people across multiple independent cohorts and identified 34 circular RNAs associated with Alzheimer’s disease.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner"
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers analyzed blood data from more than 1,200 people across multiple independent cohorts. They identified 34 circular RNAs associated with Alzheimer’s disease."
+        },
+        {
+          "type": "paragraph",
+          "text": "A model using those 34 molecules identified Alzheimer’s pathology about as well as a model based on pTau217, a leading protein blood biomarker."
+        },
+        {
+          "type": "paragraph",
+          "text": "The difference appeared in forecasting progression. NIH said the circular-RNA model was better at predicting who would develop symptoms, with the RNA levels diverging from normal about two to four years before onset."
+        },
+        {
+          "type": "paragraph",
+          "text": "The researchers reported similar findings in samples from two independent cohorts. Replication across cohorts strengthens the result but does not substitute for prospective clinical validation."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nih-alzheimers-circrna-window-2026",
+          "src": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/window/four-three.webp",
+          "alt": "Graphic lists a two-to-four-year window and nearly threefold estimated symptom risk.",
+          "caption": "The circular-RNA pattern diverged from normal about two to four years before symptoms and nearly tripled estimated symptom risk.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner"
+        },
+        {
+          "type": "paragraph",
+          "text": "The work could help select participants for prevention trials or monitor response to treatments. Those are research uses; the study does not establish that the model improves patient outcomes."
+        },
+        {
+          "type": "paragraph",
+          "text": "No clinical circular-RNA assay is available from this report. Researchers are working with commercial partners on translatable tests, and performance in routine care may differ from performance in study cohorts."
+        },
+        {
+          "type": "paragraph",
+          "text": "The nearly threefold figure is a relative risk estimate, not a certainty that an individual will develop symptoms. Useful next evidence includes prespecified prospective testing, absolute-risk calibration and comparison across populations before clinical adoption."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/alzheimers-circular-rna-blood-biomarkers-symptom-risk-2026/",
+      "citations": [
+        {
+          "id": "source-nih-alzheimers-circrna-20260701",
+          "title": "New Alzheimer’s blood test may tell when symptoms are around the corner",
+          "publisher": "National Institutes of Health",
+          "publishedAt": "2026-07-01T12:00:00Z",
+          "url": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The analysis included more than 1,200 people.",
+        "Researchers identified 34 circular RNAs associated with Alzheimer's disease.",
+        "The model performed similarly to pTau217 for identifying pathology.",
+        "Circular-RNA levels diverged about two to four years before symptoms.",
+        "Elevated levels were associated with nearly three times the risk of symptomatic progression."
+      ],
+      "corrections": [],
+      "dek": "An NIH-funded study of more than 1,200 people found 34 circular RNAs predicted progression better than a leading protein marker, but no clinical assay is yet available.",
+      "desk": "alzheimers-biomarker-research",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institutes of Health",
+        "National Institute on Aging",
+        "Washington University School of Medicine"
+      ],
+      "eventId": "event-alzheimers-circular-rna-blood-biomarkers-symptom-risk-2026",
+      "headline": "Circular-RNA Blood Model Nearly Tripled Alzheimer’s Symptom-Risk Estimate",
+      "id": "article-alzheimers-circular-rna-blood-biomarkers-symptom-risk-2026",
+      "leadImage": {
+        "alt": "Laboratory worker processes blood samples beside racks and equipment in an NIH blood bank.",
+        "caption": "Blood samples are processed at an NIH blood bank. An NIH-funded study linked 34 circulating RNA molecules to Alzheimer’s pathology and symptom progression.",
+        "credit": "Chris Spielmann / National Cancer Institute",
+        "height": 900,
+        "rightsId": "media-nih-alzheimers-blood-bank-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/blood-bank/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "St. Louis",
+        "Missouri",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "An NIH-funded study found 34 blood circular RNAs predicted Alzheimer’s symptom progression better than a leading protein biomarker.",
+        "index": true,
+        "title": "Circular-RNA blood model predicted Alzheimer’s progression"
+      },
+      "section": "health-science",
+      "slug": "alzheimers-circular-rna-blood-biomarkers-symptom-risk-2026",
+      "social": {
+        "description": "An NIH-funded study of more than 1,200 people found 34 circular RNAs predicted progression better than a leading protein marker, but no clinical assay is yet available.",
+        "image": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/blood-bank/open-graph.webp",
+        "title": "Circular-RNA Blood Model Nearly Tripled Alzheimer’s Symptom-Risk Estimate"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Alzheimer's research",
+        "Blood biomarkers",
+        "Circular RNA",
+        "Dementia",
+        "Clinical trials"
+      ],
+      "uncertainty": [
+        "The study does not provide an approved clinical test.",
+        "Relative risk does not establish an individual's absolute risk, and prospective validation is needed."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-10T07:27:50.934Z",
+  "generatedAt": "2026-08-10T15:38:52.795Z",
   "inputHashes": {
+    "sourceItems": "0e5985a5685cb4a78d48787d31e96f4d2338fa23bdfc564611152326443845e5",
+    "events": "f18c31f73c75ffb6ffec70224a848b302fe44831e6785f23ff77818f270bd975",
+    "claims": "8bd4839ddd4b085b48ddb4b9c7b810a39c39b338770a2333f9287d003c67de7f",
+    "articles": "2e75249ab6e4f788b4203891a94dd84a4548573e7d9ef712e23fc25aaf702b75",
     "approvals": "b261baf03d758b449bee8e3c4ee48e54f248f4a9a38caef3e0279bfebf17df26",
-    "articles": "aeccd17fe2cc4c5c9ca0a602ba2a4f2af60d6246f96af539cd871357cdca821c",
-    "claims": "848161a9c50b773dcd2003dc0792bb036f4c521dad6e422e901d6b44643daa12",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "b6e3bca72a0f2b4eb28acbc276a8cd70afeee2594816602e05bbd23e189879d1",
-    "mediaRights": "763ef28a53850dd3cb2751b9d2dd353c87733a364d166bb8f472a53bc0a22a53",
-    "publicationIntents": "efe749f7acb492eade24b21357a425f38f2960aa9685539a2079fdcec1439bd9",
+    "mediaRights": "1a38425f20d8daec60d15286cfec1e342b79bdd542a47e6f6d8f59d134f4942f",
     "releaseRecords": "c9891141675a622a7ee073328b562092674bf6b772d34c6ff66a0778a4aeae88",
-    "sourceItems": "6305888c3c237df32012cbafebfa9bbc1e6ee6456573486df0064471571ee830"
+    "publicationIntents": "7a2daf38b7dad32c103cb79ffe44891a6bb59cc42b5fdeb55fefecbf3db5d52f"
   },
   "inventory": {
-    "articleCount": 213,
-    "mediaCount": 625,
-    "routeCount": 213
+    "articleCount": 219,
+    "routeCount": 219,
+    "mediaCount": 643
   },
   "mediaRights": [
     {
@@ -84072,9 +84974,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.ed.gov/about/news/press-release/us-department-of-education-approves-arkansas-returning-education-states-waiver-other-education-flexibilities"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Computer, keyboard, stethoscope and medical forms arranged on a clinician's desk.",
+      "archivalStatus": "current",
+      "attribution": "Kaboompics / Pixabay, CC0",
+      "caption": "A computer, stethoscope and forms on a clinician's desk. VA is exploring AI and other technology changes for disability claims processing.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Kaboompics / Pixabay",
+      "derivatives": [
+        {
+          "hash": "430490777f72f2129a9847f154ba22133dab7b20627f93bbebe60020379ac252",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/doctor-computer/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "51892b8cc79d0d4692d1420a572f1b77c09e994c54e98159c46dff12be6b0ab8",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/doctor-computer/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "726c9f25bf9774003a441f555b9cc1aed76927a04c78ffd32b156cc71cb43a35",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/doctor-computer/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "acc3a8fc549fc9a6d8648868723c43061a0d57125fc50ebd12a2a30b0f0bd09f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/doctor-computer/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ae3ecc6756d332b8e628db9252f9fcb6bae2fe8c12497518e8cb4745048bde4b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/doctor-computer/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d574a63acabf20167a7752b673550b7d627ab7b302b3376d186a90cde1c0006d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/doctor-computer/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f33bdf74ded7e692f9706b54e3f04a68bb14eeadbcb4efc33d67148125082d81",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/doctor-computer/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-va-disability-computer-2026",
+      "illustrationLabel": null,
+      "license": "CC0 1.0",
+      "originalFileHash": "dec86826c6b78cf2cf3e6e3c943745ec9ab6648a87a844c71a20639e86c67384",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Creative Commons CC0 1.0 public-domain dedication, verified by Wikimedia Commons review.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Computer-1149148_1920.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists more than 195 billion dollars in benefits and more than 6.9 million recipients in fiscal 2025.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "VA provided more than $195 billion in disability benefits to more than 6.9 million veterans and family members in fiscal 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "0d6b1f6ec8bca2acbea6650dfd48875f2c3aa77a76745c0b7e673cf2ea1cf020",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/program-scale/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "49378a3fc96144c990ac56902316256e06e22102c1db5cb0472c6e71d6249c64",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/program-scale/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a83c158522737ed821a74e4a2b7beab5131ee798f308706e70a72c92fbbe8d5e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/program-scale/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "599f397ddf988f75816a7cfb3d9cc4dc29e8e9b76a5a4406e4fcdeec9366b8e7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/program-scale/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "07d9ef89ec9bf267e699099e04cd3f049b44c2669310152e2b19357857efe6bc",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/program-scale/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "67eb39626af35420c3913408bb055c9b17a3d87c1f732a1f650a284979ed254c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/program-scale/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3347d48aa85131e9b39239425e3ad44ebb75aeca312c1f3a45016ff549a92a6f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/program-scale/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-va-disability-program-scale-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "599f397ddf988f75816a7cfb3d9cc4dc29e8e9b76a5a4406e4fcdeec9366b8e7",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-109137"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 43 recommendations since 2021, 28 implemented and 15 still open.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "VA has implemented 28 of 43 GAO recommendations made since 2021; 15 remain open.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d93b617e3fb4b4c1e264dc31127d08ab8151cd4eec3cde750d9c7000dfcb3fdf",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/recommendations/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b247acbc9179ef12b90f8f4788f98b81fbc72cfaa405ad09ad1b539c41f1b53d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/recommendations/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "942fb0cce6ab95f160cfb6e5f45c0d9340185065adbb6baabd31341e1c00a909",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/recommendations/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d8f3929d1a302f1415acdfc1f3e9011941359f2d5eadd5a0effb349f5f1fd547",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/recommendations/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a7e8a95ebf1967916afa742ed0ef38182234592b8844f45a3063218b1f6fe1c6",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/recommendations/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "38b1389a92a45638805d2bb6cfcda922a0885d421c6ac78de4b46af9729c740b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/recommendations/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "188d30f48eb6a5a57ce0c3038e0d8240198e5b88e1680ac3ad22152ce8ce5019",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-va-disability/recommendations/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-va-disability-recommendations-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d8f3929d1a302f1415acdfc1f3e9011941359f2d5eadd5a0effb349f5f1fd547",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-109137"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Marked county police patrol vehicle traveling on a divided roadway.",
+      "archivalStatus": "current",
+      "attribution": "Hastengeims / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "A county police patrol vehicle on a roadway. National estimates from BJS and the FBI show reported violent- and property-offense rates declined in 2024.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Hastengeims",
+      "derivatives": [
+        {
+          "hash": "6645a782d1720e94a4b973f8553e9f059cdc33c67e66b87c9868f6adfa68588f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/police-patrol/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a1e738d56184fbe92f7d2886d902343b3ab540a8ee766ecce652ebad364b93ca",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/police-patrol/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "abd15bb9f3d761d34f9224fc44e461805ef05bef8ba068b7eca66f20f1854bc1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/police-patrol/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "62affccdff59791ac2a080e1461ce1b11469ca812c0eef7705676ee512562c30",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/police-patrol/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "58c9dea2caee3943d49625d1386da60537fbb571bad9aabfffb84c3a9c24b3f2",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/police-patrol/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "73ad96ca8a72acba41aba66788092bbf068cfa1cbf5fdcf38dd98a545c21f9a4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/police-patrol/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "014a274836b08492ed89c31f37797d8d0f340bc5c59a7f5a7009f87085204ac9",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/police-patrol/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-bjs-crime-police-patrol-2026",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "a3210a3ac1a9f15cf457c5141967299d6a08a18a284141eae12a346cb6620fb2",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 4.0 International.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Police_patrol.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares violent-offense rates of 393.9 in 2023 and 370.8 in 2024 per 100,000.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The estimated violent-offense rate declined from 393.9 per 100,000 in 2023 to 370.8 in 2024.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ba957ab3673c7121549f5b07764448415ad05ca50b648d696e30eb083ee71aa8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/violent-rate/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "acf72fe8cc8c1fb0f628139a2bdeb4fedba825ee7daf4d8699eee051db9ed6d9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/violent-rate/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4be5924786dd76d0adbadf468c5e29bc1e08a1ef78e50c8297e7ca15ae28051d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/violent-rate/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5e5d99fbbc772c81553d2a4a002b970e5a929b0375a3115378637684ecbfadf6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/violent-rate/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9feb532ccec21333840a26a4b10a856e93033599600048abd445d825865ac254",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/violent-rate/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "263f98be1eae8303215f7c9b7ddc100940eca45a44c4a7bbc1f328c90d639012",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/violent-rate/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "25cace8aaa8c63e76a4dc762ce8a0d57caea0c4fef62000c609185b5abb60121",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/violent-rate/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-bjs-crime-violent-rate-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5e5d99fbbc772c81553d2a4a002b970e5a929b0375a3115378637684ecbfadf6",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bjs.ojp.gov/library/publications/crime-known-law-enforcement-2024"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the property-offense rate falling 9 percent from 2019.7 to 1835.1 per 100,000.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The estimated property-offense rate declined 9%, from 2,019.7 to 1,835.1 per 100,000.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "83d8d59891979c4015fa700162c98f2f01b1d2981fcbd52c25adecb5f9ab3202",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/property-rate/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a707825e7117a7a3a28d359208e8c8a59ceaeae6c7c6ee63207676f5b5df9425",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/property-rate/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5fde5755807cdc724441ef4c59cdbd4d40e69f68227ef5152dcdc023ebd2fff5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/property-rate/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "19d7b87c6a3ab2a67d211f7e33a41577e53d7ef81ba9cd37a96300ad74ee2bd8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/property-rate/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f4ccdc449555a0ff1ef9af8cb8ea3d9c0480a9626b974a94efac163796f87c92",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/property-rate/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4207e9c6d00854d9219df08228406cee2f41a00c7f8d4c8c34f34211e7856c77",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/property-rate/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f318977e68c52f2b038875d1a4a2f69cfb23a4059626936bb0623395b10a00b3",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/bjs-crime/property-rate/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-bjs-crime-property-rate-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "19d7b87c6a3ab2a67d211f7e33a41577e53d7ef81ba9cd37a96300ad74ee2bd8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bjs.ojp.gov/library/publications/crime-known-law-enforcement-2024"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "West front of the United States Capitol beneath a blue sky.",
+      "archivalStatus": "current",
+      "attribution": "Architect of the Capitol",
+      "caption": "The west front of the U.S. Capitol. GAO counted 277 matters for congressional consideration that remained open in April 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Architect of the Capitol",
+      "derivatives": [
+        {
+          "hash": "e3b1dc66e850cf2496f00feacd74ddcab8991e92064003e50996d61865f0d8bf",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/capitol/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ae79cbd7f16b81638d03d70c18671a97199bb73ccdbbcf9ca6a0f74de430c4f0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/capitol/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "70932fd5ee75cc6ab914fe89966f6dc88c786c6fafed171ce19157f8462c697a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/capitol/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "295386d6510f0a3090c667990e7002080087959fcfac3073c91512aad2d68324",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/capitol/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6d290b149f4f32e1d0bd4be187474973fe1e1b9941d94ae54d97ec306dcb3214",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/capitol/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "14499fbaf301f85c5de3255c804c6298c39522231510900de29212e95c732b9b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/capitol/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7d130f7cc176ff5d28655c7de3de9986a870a6871b8d305dbbeaa469b81125af",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/capitol/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-congress-capitol-2026",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "f9cf33643467ec435be62c55dc8a3409b968600334d567e6730a21ed4ae75b0d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Public domain: work of the U.S. federal government created in official duties.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:United_States_Capitol_-_west_front_edit.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists more than 1150 matters since 2000 and 277 still open in April 2026.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Of more than 1,150 matters GAO has sent Congress since 2000, 277 remained open on April 9, 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "98d2cc609975363de5cce0a022229d6a610d01db7b8fd6c87ff7ed0595c9b8da",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/open-matters/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b4c5f13b6e2d4a0f6759ca33663dabaf1ec8ee7c926f6153c9f1fd95a2a830d0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/open-matters/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "83d0bfdef4fdcabace646098a85db9d26c61dd17bd0c01f19c8f3ad69eb4c675",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/open-matters/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5d49baec16ffb6b12646ef4451d7e45a19f3ae03b6e88dec5f7934fd8dd372a6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/open-matters/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1d931ef4221778e27c797c962265adedec3399cb5b60cd2e38cdd348d80158b1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/open-matters/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a681ad78367c15b58144d39c9d790870da04718f02515879b381d3a25cfe8d07",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/open-matters/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "99303fcf34c301c1e8fc41091527a4153e2cf166c37e238ab71bc4e7abf676da",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/open-matters/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-congress-open-matters-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5d49baec16ffb6b12646ef4451d7e45a19f3ae03b6e88dec5f7934fd8dd372a6",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108896"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 53 matters with possible financial benefits and 13 worth at least one billion dollars each.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO identified 53 open matters with possible financial benefits, including 13 potentially worth at least $1 billion each.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "757113b9d655d614ffa3be11b5c08b41701c9dfed2d72ffedb1e7255e39acb2b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/financial-benefits/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "22f220ab9726cb6db514e7f8cfa93a9569b5f1feef62cd2d15f4659b6204e6b2",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/financial-benefits/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "343dd7220e1141fe941cebb3e5aca6be3135f72ec67e63e9f2c5b4b7b2e79ed3",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/financial-benefits/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "59f7fd1bbd2237dfdb7c1179ced6f11dac51c806233382e8594292a42126178f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/financial-benefits/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9ab0418670d398deb24a8fe3554c8673e0d78eb276cc2257e4f124027a4e6150",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/financial-benefits/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "9acb24a6411cc0d53db97781bebec143ef59f2374abed5d05fca2b2ca2beaed5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/financial-benefits/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c9404200c7341a279f9223b661f053f4946ba14dc55a835bf8d85d0068e9194d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/gao-congress/financial-benefits/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-congress-financial-benefits-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "59f7fd1bbd2237dfdb7c1179ced6f11dac51c806233382e8594292a42126178f",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108896"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Walkways, trees and crowds lead toward Arthur Ashe Stadium at the U.S. Open grounds.",
+      "archivalStatus": "current",
+      "attribution": "Beyond My Ken / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "The USTA Billie Jean King National Tennis Center during U.S. Open Fan Week. The tournament has announced leading entrants for its 2026 singles fields.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Beyond My Ken",
+      "derivatives": [
+        {
+          "hash": "e68bc878b9526020b21d35ce26399bb8433e43ba21b0a16e7e320933ec92a2e4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/east-gate/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e1493a3ffb287eceff7b0e300f140938d01f5bd972f60e3d63c963c732ee6258",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/east-gate/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ee7d92d7663632db26581f8bfaf833030afec379703a2da601b76075d53e7fd4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/east-gate/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1400d335b7e91b1604239191e9654bdd7a23e8fc4ec0fa511a6754bf90691de7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/east-gate/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a4daf2216a765724821e4a284f2bdc0454854890913744588b27138f8a8a0a8b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/east-gate/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "9fa15b78cc530db51d7c4d5a64ffd080c970ba43f6759c167ab1e72478c3af23",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/east-gate/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a08b1964041710a9a4e6faa5ab2cdea399cb05899362ce2f76a6dc31609bd67e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/east-gate/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-usopen-field-east-gate-2026",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "d92f8730b1af673682f002ea9f114fb291cb9a063230f1fa78cdbf8d531c533a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 4.0 International.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019_USTA_NTC_View_from_East_Gate_towards_Ashe.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists Sabalenka, Alcaraz, Sinner and Pegula as announced U.S. Open entrants.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The U.S. Open's initial field announcement names Aryna Sabalenka, Carlos Alcaraz, Jannik Sinner and Jessica Pegula among the entrants.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "df96e0d8c7db2b0f2e2503d6cd0c47b71e90a3736db81a103a62f335a5a2dfcb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/headliners/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "70cfab9a3b543146448e3e893dd98146c77a6d95c068b093e05fcf2192a50488",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/headliners/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ea1a6807aeb4424916b61d80f694c7080028290d7f5e7517d6f518a8e32c4154",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/headliners/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "2108b849671bdf893d647f2ca019c0dcb4baed9f51bfc419b14d30e9e371c015",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/headliners/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7c98c2e0a0f2379e1e24dc9ecd480a5dfdeabf8c51b7c0cc35319d61940f8c98",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/headliners/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a1f58df1a85b8ad32af5aa3604900b41c04e178392b920bfe46d7a2112e65333",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/headliners/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1dc5a506181af596f35f1f4dfa6576d18c30275f1f3c37a83898ea66dd53e392",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/headliners/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-usopen-field-headliners-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "2108b849671bdf893d647f2ca019c0dcb4baed9f51bfc419b14d30e9e371c015",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.usopen.org/en_US/news/articles/2026-07-21/who_is_playing_the_2026_us_open_sabalenka_alcaraz_sinner_pegula_more.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists qualifying August 24 through 27 and the singles main draw beginning August 30.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Singles qualifying is scheduled Aug. 24-27, with main-draw singles beginning Aug. 30.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "27e16d6ff48c3c8ceca889fb2ea2539488267e1b18749be635959240e391d2f1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/calendar/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "169b6ba39fa9496e06b897956329eafa7ea7894c28c9a33203922bb9535cf3c4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/calendar/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3dba3793c4480c592c7915af5b18c8f5c7063a28ee6d89ef2e8daf77fed0307b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/calendar/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b1a3f9add3f3d46e7dab1a81d3e040a46dc80c1da23a617e2becd1b81be1f0aa",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/calendar/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c4df9f5037403c8206be36ee9208808cd8b7beee2b6df2bc4950cc1b29a598d3",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/calendar/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1ce2d4d3861b553a0bb00ab338a19ba2736149be6f5192872c13a36198cb0154",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/calendar/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "766978478e00752453c032cbe3bab3fe1d37f171c09d58bd96310c2dd02b6c65",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/usopen-field/calendar/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-usopen-field-calendar-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "b1a3f9add3f3d46e7dab1a81d3e040a46dc80c1da23a617e2becd1b81be1f0aa",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.usopen.org/en_US/news/articles/2026-07-21/who_is_playing_the_2026_us_open_sabalenka_alcaraz_sinner_pegula_more.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Ground-level view across desks and columns in the Library of Congress Main Reading Room.",
+      "archivalStatus": "current",
+      "attribution": "Sdkb / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "The Library of Congress Main Reading Room. Its National Library Service recognized accessible-library programs in Georgia and Massachusetts for 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Sdkb",
+      "derivatives": [
+        {
+          "hash": "42f209c3d505b40ae76776bc33939a921909785b5b20a2ce5543bbcedcbc5d62",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/reading-room/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ad6f660f194419663a7255742803c737d5b1d789b6b8e3c8574b83c2b9c8a6a7",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/reading-room/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5588ac54777c2b7e7d44c3187bcb288cf8a8f7a76279cc2eedf2eefbd59156f1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/reading-room/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6c43ab17f13bfc0a7f111d213c723e30463a4ced072b3d12cfe265d61e961ec9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/reading-room/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2ec8263d13983b764c21ad290784b722cc8f9207cdd39493a443011b7921a60b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/reading-room/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4a0d749deb99cfb0124aa906b9c8e6220b9b51d3e5353796528e98b41a0271b3",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/reading-room/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "199f565bafa6fc9d504c90f7c430c15462764a415b78d27ee1f64905f7da2e9f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/reading-room/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-loc-accessible-reading-room-2026",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "96138c014c68eacad119f51468135a20ca9e531a055661f4b9cf668f8e493db2",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 4.0 International.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Library_of_Congress_main_reading_room_ground-level_view.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic names the Georgia regional winner and Worcester subregional winner.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The 2026 awards went to the Georgia Library Service for the Blind and Print Disabled and Worcester Talking Book Library.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "fe63d6ce0be4833a93a37a752efa4e0d360d2c1e5864641e7312c94a2e44420b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/awardees/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f8489483c30478e77edeb285684641c57053030aac100d3719727243ec70e936",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/awardees/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f744506e689602b911f7487e2f6ad9796e836e4ecf8e4c8d0d27455060ea962f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/awardees/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "89891ae0a2dd56bfb9d73d7817c4b684688db00b33e5d50e4e9f37d090685070",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/awardees/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ce12a0e0d0c6ed56b851e13c457c61e501ad548523727880b669a0c30cf00fc5",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/awardees/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7f8d75949afbb8dfc99d532060fc834a1b8a76aa2fdf219fb4b5ca78c3ab7377",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/awardees/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "87d5803da1a44530bb1174b32f4ccebab5f95751d00913a18a2350f0e5382819",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/awardees/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-loc-accessible-awardees-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "89891ae0a2dd56bfb9d73d7817c4b684688db00b33e5d50e4e9f37d090685070",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://newsroom.loc.gov/news/library-of-congress-program-honors-accessible-libraries-in-georgia-and-massachusetts/s/573a6399-8f67-4c34-b244-659e02828608"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists mission support, service innovation and reader satisfaction as award criteria.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The awards recognize mission support, service innovation and reader satisfaction in the NLS network.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "88db37849581c454d56291ef9c30f2dff2bac14f85622166faa3860817cd91a1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/criteria/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3b7861d714857d9097b5c268603eb417d0e83b31510173dfb47e415ee4eda23a",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/criteria/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8a4ef1b26af6b4df8ec8ff85bf8ec24a674afd49cff5c76251aab73ce7051827",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/criteria/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ea042d8c65f4000c39544117f5e4c33e50fd31795dde28ee7f7a782910493f08",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/criteria/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f2b86a68035f363d3590433e2b3636fcd87bb5e0d856e3e7e71704cde2fcba80",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/criteria/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8594116c67a4cb3934b32e5e15d3d807ac353b7ef30a483251f8dd8657d34356",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/criteria/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "bdae4ed8a2123ec46f55b5400e22aad27c7219b9322ed42e945b5059586d6133",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/loc-accessible/criteria/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-loc-accessible-award-criteria-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "ea042d8c65f4000c39544117f5e4c33e50fd31795dde28ee7f7a782910493f08",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://newsroom.loc.gov/news/library-of-congress-program-honors-accessible-libraries-in-georgia-and-massachusetts/s/573a6399-8f67-4c34-b244-659e02828608"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Laboratory worker processes blood samples beside racks and equipment in an NIH blood bank.",
+      "archivalStatus": "current",
+      "attribution": "Chris Spielmann / National Cancer Institute",
+      "caption": "Blood samples are processed at an NIH blood bank. An NIH-funded study linked 34 circulating RNA molecules to Alzheimer’s pathology and symptom progression.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Chris Spielmann / National Cancer Institute",
+      "derivatives": [
+        {
+          "hash": "dc6eb8bf1a6f425b482fc376b68c1ae9f58e2bf17ef4e870285043acf4ccbe1d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/blood-bank/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b6495904ed028018d2f80e6c569969be49c07e1765be516d4ce0b12d220d081f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/blood-bank/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6a5cdafa251c8c57ed6871516ce5acad3655fe4cd35b6422427da49d9180529a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/blood-bank/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f8cfd1b0459b7889f4877862f1dc7538763499dc70e0d05d5f27d95149b677c3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/blood-bank/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5c35e0674953846156957020d4b1b888a570e6e6317ce697270152d00384e5ef",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/blood-bank/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e0d22bb5bef3420c9f0b28e11c7e653be68614d361d739fab23a98b2b25e17ad",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/blood-bank/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0d86ccd5ac9863d1b29b4cf8954e106dc7eb62db7c680a94464c45240905ed7d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/blood-bank/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nih-alzheimers-blood-bank-2026",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "8b8a60da35c8ad817d5434aa08df69e81b269efd6090a6ad3a9c7943bbb96aef",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Public domain: National Institutes of Health work created in official duties; no reuse restrictions.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NIH_blood_bank.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists more than 1200 participants, multiple cohorts and 34 circular RNAs associated with Alzheimer's.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Researchers analyzed blood data from more than 1,200 people across multiple independent cohorts and identified 34 circular RNAs associated with Alzheimer’s disease.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "68541d7d23d1bb36af283b9b4605da2d3f8831b2ef6dafa23c07fccac1a92aea",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/cohort/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "fed6f90dc1696acc87bf5be5e3e6acd755d0e86da34998ac7c39040fa5d0dbe9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/cohort/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "14a5b25e8afcd9ab5a1068e55060e118e7ed931e548516b88a228a64d4c6a97f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/cohort/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4c2dbf5a9d5ee27ebe6682f824456ca072fecb6e2a4db6d328a7ff6ef1af9d23",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/cohort/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3823f852281913116a1cbba96f06d6305c856892f4bc85d45e41695991c792a7",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/cohort/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6ef27e15a1468c8d10503321396f55a35539c653be3c6d4c5ce091422304a19a",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/cohort/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "935b215eed4e9939d9efc86a984476654c2ee5656d378bcfa21e13a464279fca",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/cohort/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nih-alzheimers-circrna-cohort-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4c2dbf5a9d5ee27ebe6682f824456ca072fecb6e2a4db6d328a7ff6ef1af9d23",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists a two-to-four-year window and nearly threefold estimated symptom risk.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The circular-RNA pattern diverged from normal about two to four years before symptoms and nearly tripled estimated symptom risk.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c8eb0fa638ce82104e1369ed758eb763141825668bd0b4ed0b170d4a3ecaee63",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/window/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e60b31f2bd521eeb857b9e5a41c8d2888c33bbaaa556a3ca87e6cdaf8793ed6e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/window/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c0efafc511c36379b3e0a0aef6998629aa53d5c31b58fa0caaa633b205511cf2",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/window/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "dac19c9029f4099d04fbbd253a942ec518deaa2c4ba33aab07701e248fcb80f8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/window/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d0a7cb4d12bc44a396cb976398919c4825d2aac16f97cd6f199f9ce6d318f9e1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/window/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "db3c4d717c2c09fc37e7474a2922cb05ddc48b15415f5d00e10f1c160ab72bdf",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/window/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "30ef9321ec881c1a5f56da6d182ad7665e186792ef637e7b3b72360330836b0f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260810-074930/nih-alzheimers/window/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nih-alzheimers-circrna-window-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "dac19c9029f4099d04fbbd253a942ec518deaa2c4ba33aab07701e248fcb80f8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-10T15:38:52.764Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nih.gov/news-events/news-releases/new-alzheimers-blood-test-may-tell-when-symptoms-are-around-corner"
     }
   ],
-  "packageDigest": "f239e9c30b47a72745d848e2e80a9303db294e2fd3f89e9b7ca92be41d54c3e3",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -85474,7 +87743,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "3b25c519b6dd7af779607d6b18768afb0d3c9b57fbab10b746f77959651859d3"
 }
