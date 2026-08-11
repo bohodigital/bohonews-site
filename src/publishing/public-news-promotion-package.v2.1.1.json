@@ -47393,71 +47393,71 @@
       "body": "Federal financial regulators remain in the early stages of implementing joint data standards required by the Financial Data Transparency Act, the Government Accountability Office said in a May review.\n\nCongress enacted the law in December 2022 to make financial information easier to share and analyze. Regulators were working to finalize an August 2024 proposed rule when GAO completed its review; most agencies must then write their own rules to apply the joint standards.\n\nThe intended result is more interoperable reporting. Banks, market participants and other entities can be required to submit the same or similar information to multiple agencies, and common data fields could reduce duplication and support automated exchange.\n\nGAO said standardized reporting could improve the quality and efficiency of regulatory analysis, help agencies identify compliance concerns sooner and reduce filing burdens across multiple regulators.\n\nThose gains are not automatic. Agencies may need to modernize legacy systems, coordinate technical decisions and establish durable data-governance policies. Reporting entities may face costs to change software, business processes and testing programs.\n\nThe watchdog reviewed records and corresponded with officials from nine financial regulatory agencies. It also spoke with four practitioner groups, four groups representing reporting entities and two academic researchers.\n\nSome stakeholders see the law as a possible foundation for a broader system known as Standard Business Reporting, in which a government-wide taxonomy lets data move automatically between reporting entities and agencies. The United States does not currently have such a system.\n\nGAO did not estimate a net dollar benefit or say that implementation is complete. Its report describes a sequence of rulemaking and systems work whose costs and results will depend on choices that regulators and filers have not yet finished.\n\nThe near-term test is therefore practical: whether agencies can agree on usable standards, govern them consistently and implement them without replacing duplicate paperwork with incompatible technical systems.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Federal financial regulators remain in the early stages of implementing joint data standards required by the Financial Data Transparency Act, the Government Accountability Office said in a May review."
+          "text": "Federal financial regulators remain in the early stages of implementing joint data standards required by the Financial Data Transparency Act, the Government Accountability Office said in a May review.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Congress enacted the law in December 2022 to make financial information easier to share and analyze. Regulators were working to finalize an August 2024 proposed rule when GAO completed its review; most agencies must then write their own rules to apply the joint standards."
+          "text": "Congress enacted the law in December 2022 to make financial information easier to share and analyze. Regulators were working to finalize an August 2024 proposed rule when GAO completed its review; most agencies must then write their own rules to apply the joint standards.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-gao-fdta-rulemaking-sequence-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/sequence/four-three.webp",
           "alt": "Graphic shows joint standards followed by agency rules and standardized reporting.",
           "caption": "Financial regulators must finish joint standards before most agencies issue their own implementation rules.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.gao.gov/products/gao-26-108420"
-        },
-        {
-          "type": "paragraph",
-          "text": "The intended result is more interoperable reporting. Banks, market participants and other entities can be required to submit the same or similar information to multiple agencies, and common data fields could reduce duplication and support automated exchange."
-        },
-        {
-          "type": "paragraph",
-          "text": "GAO said standardized reporting could improve the quality and efficiency of regulatory analysis, help agencies identify compliance concerns sooner and reduce filing burdens across multiple regulators."
-        },
-        {
-          "type": "paragraph",
-          "text": "Those gains are not automatic. Agencies may need to modernize legacy systems, coordinate technical decisions and establish durable data-governance policies. Reporting entities may face costs to change software, business processes and testing programs."
-        },
-        {
-          "type": "paragraph",
-          "text": "The watchdog reviewed records and corresponded with officials from nine financial regulatory agencies. It also spoke with four practitioner groups, four groups representing reporting entities and two academic researchers."
-        },
-        {
+          "rightsId": "media-gao-fdta-rulemaking-sequence-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108420",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/sequence/four-three.webp",
           "type": "media",
-          "rightsId": "media-gao-fdta-benefits-costs-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/tradeoffs/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "The intended result is more interoperable reporting. Banks, market participants and other entities can be required to submit the same or similar information to multiple agencies, and common data fields could reduce duplication and support automated exchange.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO said standardized reporting could improve the quality and efficiency of regulatory analysis, help agencies identify compliance concerns sooner and reduce filing burdens across multiple regulators.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Those gains are not automatic. Agencies may need to modernize legacy systems, coordinate technical decisions and establish durable data-governance policies. Reporting entities may face costs to change software, business processes and testing programs.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The watchdog reviewed records and corresponded with officials from nine financial regulatory agencies. It also spoke with four practitioner groups, four groups representing reporting entities and two academic researchers.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic contrasts shared-data benefits with system and implementation costs.",
           "caption": "GAO identified potential gains in interoperability and analysis alongside modernization, coordination and testing costs.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.gao.gov/products/gao-26-108420"
+          "rightsId": "media-gao-fdta-benefits-costs-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108420",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/tradeoffs/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Some stakeholders see the law as a possible foundation for a broader system known as Standard Business Reporting, in which a government-wide taxonomy lets data move automatically between reporting entities and agencies. The United States does not currently have such a system."
+          "text": "Some stakeholders see the law as a possible foundation for a broader system known as Standard Business Reporting, in which a government-wide taxonomy lets data move automatically between reporting entities and agencies. The United States does not currently have such a system.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "GAO did not estimate a net dollar benefit or say that implementation is complete. Its report describes a sequence of rulemaking and systems work whose costs and results will depend on choices that regulators and filers have not yet finished."
+          "text": "GAO did not estimate a net dollar benefit or say that implementation is complete. Its report describes a sequence of rulemaking and systems work whose costs and results will depend on choices that regulators and filers have not yet finished.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The near-term test is therefore practical: whether agencies can agree on usable standards, govern them consistently and implement them without replacing duplicate paperwork with incompatible technical systems."
+          "text": "The near-term test is therefore practical: whether agencies can agree on usable standards, govern them consistently and implement them without replacing duplicate paperwork with incompatible technical systems.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/gao-financial-data-transparency-standards-2026/",
       "citations": [
         {
           "id": "source-gao-financial-data-transparency-20260514",
-          "title": "Regulatory Reporting Reform: Financial Data Transparency Act Requires Initial Steps Toward Government-wide Data Standards",
-          "publisher": "U.S. Government Accountability Office",
           "publishedAt": "2026-05-14T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Regulatory Reporting Reform: Financial Data Transparency Act Requires Initial Steps Toward Government-wide Data Standards",
           "url": "https://www.gao.gov/products/gao-26-108420"
         }
       ],
@@ -47501,9 +47501,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T06:57:02.567Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t061222z-2f7c9a4e1b63",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -47531,7 +47531,7 @@
         "The report does not quantify net implementation costs or savings.",
         "The timing and details of final agency rules were not settled in GAO's review."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T06:57:02.567Z"
     },
     {
       "articleType": "news-report",
@@ -47541,78 +47541,78 @@
       "body": "Federal cases involving the aggravated identity-theft statute declined 8% from fiscal 2021 to fiscal 2025, according to updated United States Sentencing Commission data.\n\nThe commission counted 561 cases involving 18 U.S.C. § 1028A among 66,662 felony and Class A misdemeanor cases reported for fiscal 2025. The data cover sentencing events, not every reported instance of identity theft.\n\nSection 1028A carries a mandatory minimum term of 24 months that generally must run consecutively to punishment for another offense. Ninety-two percent of people convicted under the provision were also convicted of another offense in fiscal 2025.\n\nThe average sentence was 54 months, and 99% of sentenced individuals received prison terms. The average was 24 months for cases involving only section 1028A and 57 months when another offense was also present.\n\nAverage punishment increased even as the number of cases fell. The average guideline minimum rose from 61 months in fiscal 2021 to 71 months in fiscal 2025, while the average sentence imposed rose from 46 months to 54 months.\n\nHalf of the sentenced individuals were in Criminal History Category I, which indicates little or no prior criminal history under the federal guidelines. The average age was 38.\n\nFlorida had the two districts with the largest case counts: the Southern District of Florida reported 50 and the Middle District reported 36. Those counts describe where federal cases were sentenced, not population-adjusted offending rates.\n\nThe commission excludes cases with incomplete information from some calculations and caps certain sentence-length analyses under its sourcebook methods. Documents for fiscal 2025 cases had to be reported to the commission by February 26, 2026.\n\nThe data establish a smaller section 1028A caseload than four years earlier, alongside longer average sentences. They do not explain why charging patterns, underlying conduct or sentence outcomes changed.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Federal cases involving the aggravated identity-theft statute declined 8% from fiscal 2021 to fiscal 2025, according to updated United States Sentencing Commission data."
+          "text": "Federal cases involving the aggravated identity-theft statute declined 8% from fiscal 2021 to fiscal 2025, according to updated United States Sentencing Commission data.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The commission counted 561 cases involving 18 U.S.C. § 1028A among 66,662 felony and Class A misdemeanor cases reported for fiscal 2025. The data cover sentencing events, not every reported instance of identity theft."
+          "text": "The commission counted 561 cases involving 18 U.S.C. § 1028A among 66,662 felony and Class A misdemeanor cases reported for fiscal 2025. The data cover sentencing events, not every reported instance of identity theft.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-ussc-identity-theft-caseload-2025",
-          "src": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/caseload/four-three.webp",
           "alt": "Graphic shows 561 aggravated identity-theft cases and an 8 percent four-year decline.",
           "caption": "Of 66,662 federal cases reported for fiscal 2025, 561 involved 18 U.S.C. § 1028A, 8% fewer than in fiscal 2021.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.ussc.gov/research/quick-facts/aggravated-identity-theft"
-        },
-        {
-          "type": "paragraph",
-          "text": "Section 1028A carries a mandatory minimum term of 24 months that generally must run consecutively to punishment for another offense. Ninety-two percent of people convicted under the provision were also convicted of another offense in fiscal 2025."
-        },
-        {
-          "type": "paragraph",
-          "text": "The average sentence was 54 months, and 99% of sentenced individuals received prison terms. The average was 24 months for cases involving only section 1028A and 57 months when another offense was also present."
-        },
-        {
-          "type": "paragraph",
-          "text": "Average punishment increased even as the number of cases fell. The average guideline minimum rose from 61 months in fiscal 2021 to 71 months in fiscal 2025, while the average sentence imposed rose from 46 months to 54 months."
-        },
-        {
-          "type": "paragraph",
-          "text": "Half of the sentenced individuals were in Criminal History Category I, which indicates little or no prior criminal history under the federal guidelines. The average age was 38."
-        },
-        {
+          "rightsId": "media-ussc-identity-theft-caseload-2025",
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/aggravated-identity-theft",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/caseload/four-three.webp",
           "type": "media",
-          "rightsId": "media-ussc-identity-theft-sentences-2025",
-          "src": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/sentences/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Section 1028A carries a mandatory minimum term of 24 months that generally must run consecutively to punishment for another offense. Ninety-two percent of people convicted under the provision were also convicted of another offense in fiscal 2025.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The average sentence was 54 months, and 99% of sentenced individuals received prison terms. The average was 24 months for cases involving only section 1028A and 57 months when another offense was also present.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Average punishment increased even as the number of cases fell. The average guideline minimum rose from 61 months in fiscal 2021 to 71 months in fiscal 2025, while the average sentence imposed rose from 46 months to 54 months.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Half of the sentenced individuals were in Criminal History Category I, which indicates little or no prior criminal history under the federal guidelines. The average age was 38.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows average sentence rising from 46 to 54 months and a 99 percent prison rate.",
           "caption": "The average sentence rose from 46 months in fiscal 2021 to 54 months in fiscal 2025; 99% received prison terms.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.ussc.gov/research/quick-facts/aggravated-identity-theft"
+          "rightsId": "media-ussc-identity-theft-sentences-2025",
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/aggravated-identity-theft",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/sentences/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Florida had the two districts with the largest case counts: the Southern District of Florida reported 50 and the Middle District reported 36. Those counts describe where federal cases were sentenced, not population-adjusted offending rates."
+          "text": "Florida had the two districts with the largest case counts: the Southern District of Florida reported 50 and the Middle District reported 36. Those counts describe where federal cases were sentenced, not population-adjusted offending rates.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The commission excludes cases with incomplete information from some calculations and caps certain sentence-length analyses under its sourcebook methods. Documents for fiscal 2025 cases had to be reported to the commission by February 26, 2026."
+          "text": "The commission excludes cases with incomplete information from some calculations and caps certain sentence-length analyses under its sourcebook methods. Documents for fiscal 2025 cases had to be reported to the commission by February 26, 2026.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The data establish a smaller section 1028A caseload than four years earlier, alongside longer average sentences. They do not explain why charging patterns, underlying conduct or sentence outcomes changed."
+          "text": "The data establish a smaller section 1028A caseload than four years earlier, alongside longer average sentences. They do not explain why charging patterns, underlying conduct or sentence outcomes changed.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/aggravated-identity-theft-sentencing-fy2025/",
       "citations": [
         {
           "id": "source-ussc-aggravated-identity-theft-fy2025",
-          "title": "Aggravated Identity Theft: Quick Facts",
-          "publisher": "United States Sentencing Commission",
           "publishedAt": "2026-04-01T12:00:00Z",
+          "publisher": "United States Sentencing Commission",
+          "title": "Aggravated Identity Theft: Quick Facts",
           "url": "https://www.ussc.gov/research/quick-facts/aggravated-identity-theft"
         },
         {
           "id": "source-ussc-sourcebook-2025",
-          "title": "2025 Sourcebook of Federal Sentencing Statistics",
-          "publisher": "United States Sentencing Commission",
           "publishedAt": "2026-04-01T12:00:00Z",
+          "publisher": "United States Sentencing Commission",
+          "title": "2025 Sourcebook of Federal Sentencing Statistics",
           "url": "https://www.ussc.gov/research/sourcebook-2025"
         }
       ],
@@ -47655,9 +47655,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T06:57:02.567Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t061222z-2f7c9a4e1b63",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -47685,7 +47685,7 @@
         "Sentencing cases are not a measure of every identity-theft incident.",
         "The descriptive data do not establish causes for changes in caseload or sentence length."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T06:57:02.567Z"
     },
     {
       "articleType": "news-report",
@@ -47695,71 +47695,71 @@
       "body": "The federal budget deficit totaled an estimated $1.8 trillion in the first 10 months of fiscal 2026, the Congressional Budget Office reported Monday.\n\nThat shortfall was $169 billion larger than in the same October-through-July period a year earlier. The estimate updates CBO's monthly budget tracking with two months remaining in the fiscal year.\n\nFederal revenues rose by $139 billion, or 3%, compared with the first 10 months of fiscal 2025. Outlays increased by $308 billion, or 5%, so spending growth exceeded the additional receipts.\n\nA deficit measures the gap between federal outlays and revenues during the period. It adds to federal borrowing but is not the same as the total national debt accumulated across years.\n\nMonthly results can be affected by the timing of weekends, holidays and benefit payments. CBO's review adjusts comparisons when calendar shifts move transactions between months, and Treasury later reports finalized figures.\n\nThe July update extends the trajectory CBO reported through June, when the cumulative shortfall was about $1.4 trillion. The additional month should not be read as a simple trend line because receipts and spending are seasonal.\n\nCBO's monthly review is an estimate based on daily Treasury statements and other information available before the government's official monthly statement. Small revisions can occur when final accounting data arrive.\n\nThe figures describe the enacted federal budget, not the separate long-term projections lawmakers use to assess future debt. Policy changes, economic conditions, interest costs and emergency spending can alter the final two months and later years.\n\nFor the fiscal year to date, the central result is clear: both sides of the ledger grew, but the 5% increase in outlays was larger than the 3% increase in revenues, widening the cumulative deficit.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The federal budget deficit totaled an estimated $1.8 trillion in the first 10 months of fiscal 2026, the Congressional Budget Office reported Monday."
+          "text": "The federal budget deficit totaled an estimated $1.8 trillion in the first 10 months of fiscal 2026, the Congressional Budget Office reported Monday.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "That shortfall was $169 billion larger than in the same October-through-July period a year earlier. The estimate updates CBO's monthly budget tracking with two months remaining in the fiscal year."
+          "text": "That shortfall was $169 billion larger than in the same October-through-July period a year earlier. The estimate updates CBO's monthly budget tracking with two months remaining in the fiscal year.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-cbo-deficit-through-july-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/deficit/four-three.webp",
           "alt": "Graphic shows a 1.8 trillion dollar deficit and a 169 billion dollar year-over-year increase.",
           "caption": "CBO estimates a $1.8 trillion deficit for the first 10 months of fiscal 2026, $169 billion more than in the comparable 2025 period.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.cbo.gov/publication/61983"
-        },
-        {
-          "type": "paragraph",
-          "text": "Federal revenues rose by $139 billion, or 3%, compared with the first 10 months of fiscal 2025. Outlays increased by $308 billion, or 5%, so spending growth exceeded the additional receipts."
-        },
-        {
-          "type": "paragraph",
-          "text": "A deficit measures the gap between federal outlays and revenues during the period. It adds to federal borrowing but is not the same as the total national debt accumulated across years."
-        },
-        {
-          "type": "paragraph",
-          "text": "Monthly results can be affected by the timing of weekends, holidays and benefit payments. CBO's review adjusts comparisons when calendar shifts move transactions between months, and Treasury later reports finalized figures."
-        },
-        {
-          "type": "paragraph",
-          "text": "The July update extends the trajectory CBO reported through June, when the cumulative shortfall was about $1.4 trillion. The additional month should not be read as a simple trend line because receipts and spending are seasonal."
-        },
-        {
+          "rightsId": "media-cbo-deficit-through-july-2026",
+          "sourceUrl": "https://www.cbo.gov/publication/61983",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/deficit/four-three.webp",
           "type": "media",
-          "rightsId": "media-cbo-revenue-outlay-growth-july-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/flows/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Federal revenues rose by $139 billion, or 3%, compared with the first 10 months of fiscal 2025. Outlays increased by $308 billion, or 5%, so spending growth exceeded the additional receipts.",
+          "type": "paragraph"
+        },
+        {
+          "text": "A deficit measures the gap between federal outlays and revenues during the period. It adds to federal borrowing but is not the same as the total national debt accumulated across years.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Monthly results can be affected by the timing of weekends, holidays and benefit payments. CBO's review adjusts comparisons when calendar shifts move transactions between months, and Treasury later reports finalized figures.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The July update extends the trajectory CBO reported through June, when the cumulative shortfall was about $1.4 trillion. The additional month should not be read as a simple trend line because receipts and spending are seasonal.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic compares 3 percent revenue growth with 5 percent outlay growth.",
           "caption": "Through July, revenues rose $139 billion, or 3%, while outlays rose $308 billion, or 5%.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.cbo.gov/publication/61983"
+          "rightsId": "media-cbo-revenue-outlay-growth-july-2026",
+          "sourceUrl": "https://www.cbo.gov/publication/61983",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/flows/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "CBO's monthly review is an estimate based on daily Treasury statements and other information available before the government's official monthly statement. Small revisions can occur when final accounting data arrive."
+          "text": "CBO's monthly review is an estimate based on daily Treasury statements and other information available before the government's official monthly statement. Small revisions can occur when final accounting data arrive.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The figures describe the enacted federal budget, not the separate long-term projections lawmakers use to assess future debt. Policy changes, economic conditions, interest costs and emergency spending can alter the final two months and later years."
+          "text": "The figures describe the enacted federal budget, not the separate long-term projections lawmakers use to assess future debt. Policy changes, economic conditions, interest costs and emergency spending can alter the final two months and later years.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "For the fiscal year to date, the central result is clear: both sides of the ledger grew, but the 5% increase in outlays was larger than the 3% increase in revenues, widening the cumulative deficit."
+          "text": "For the fiscal year to date, the central result is clear: both sides of the ledger grew, but the 5% increase in outlays was larger than the 3% increase in revenues, widening the cumulative deficit.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/federal-deficit-through-july-2026-cbo/",
       "citations": [
         {
           "id": "source-cbo-monthly-budget-review-august-2026",
-          "title": "Monthly Budget Review: August 2026",
-          "publisher": "Congressional Budget Office",
           "publishedAt": "2026-08-10T12:00:00Z",
+          "publisher": "Congressional Budget Office",
+          "title": "Monthly Budget Review: August 2026",
           "url": "https://www.cbo.gov/publication/61983"
         }
       ],
@@ -47803,9 +47803,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T06:57:02.567Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t061222z-2f7c9a4e1b63",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -47833,7 +47833,7 @@
         "CBO's monthly figures are preliminary estimates that can be revised with final Treasury data.",
         "Calendar timing and seasonal flows can make one month's change unrepresentative of the full-year pace."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T06:57:02.567Z"
     },
     {
       "articleType": "news-report",
@@ -47843,71 +47843,71 @@
       "body": "NOAA researchers are testing hyperspectral cameras aboard small aircraft and drones to capture Great Lakes ice conditions at greater detail than conventional images provide.\n\nThe Great Lakes Environmental Research Laboratory began exploring winter ice flights in 2024 after using hyperspectral imagery for more than a decade to monitor harmful algal blooms in warmer months.\n\nA conventional digital image records red, green and blue light. GLERL's camera captures more than 150 bands, including near-infrared wavelengths, producing a three-dimensional data cube in which materials can be identified by distinct spectral fingerprints.\n\nDuring its most recent ice-flight mission, a Cessna 210 followed a planned survey route at 10,500 feet. Researchers also established an aerial drone program in 2024 to collect much lower-altitude, higher-resolution observations.\n\nThe extra detail matters because lake conditions can change quickly. GLERL showed ice sheets shifting across one Lake Erie camera view over three hours as wind and currents moved them.\n\nSatellites and numerical models already track ice using radar, visible and infrared information. NOAA says satellites provide periodic snapshots, while models need accurate observations for validation; airborne data are being explored as a supplement, not a replacement.\n\nResearchers are testing deep-learning methods on the 150-band imagery to classify features such as open water and different ice conditions. Training those systems requires ground-truth observations and repeated validation.\n\nNOAA says better ice information could aid forecasting, ecology and commercial navigation. Great Lakes freighters move nearly 200 million tons of material a year, but the agency has not yet quantified how much the experimental system would improve forecasts or reduce costs.\n\nThe project remains research. Its value will depend on whether airborne and drone observations can be collected consistently, validated against conditions on the water and integrated into operational ice products.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "NOAA researchers are testing hyperspectral cameras aboard small aircraft and drones to capture Great Lakes ice conditions at greater detail than conventional images provide."
+          "text": "NOAA researchers are testing hyperspectral cameras aboard small aircraft and drones to capture Great Lakes ice conditions at greater detail than conventional images provide.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The Great Lakes Environmental Research Laboratory began exploring winter ice flights in 2024 after using hyperspectral imagery for more than a decade to monitor harmful algal blooms in warmer months."
+          "text": "The Great Lakes Environmental Research Laboratory began exploring winter ice flights in 2024 after using hyperspectral imagery for more than a decade to monitor harmful algal blooms in warmer months.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-noaa-hyperspectral-bands-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/bands/four-three.webp",
           "alt": "Graphic compares three visible-light bands with more than 150 hyperspectral bands.",
           "caption": "A conventional image uses red, green and blue; GLERL's hyperspectral camera records more than 150 bands.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.glerl.noaa.gov/blog/2026/04/21/eyes-in-the-sky-how-hyperspectral-flights-improve-knowledge-of-great-lakes-winter-ice/"
-        },
-        {
-          "type": "paragraph",
-          "text": "A conventional digital image records red, green and blue light. GLERL's camera captures more than 150 bands, including near-infrared wavelengths, producing a three-dimensional data cube in which materials can be identified by distinct spectral fingerprints."
-        },
-        {
-          "type": "paragraph",
-          "text": "During its most recent ice-flight mission, a Cessna 210 followed a planned survey route at 10,500 feet. Researchers also established an aerial drone program in 2024 to collect much lower-altitude, higher-resolution observations."
-        },
-        {
-          "type": "paragraph",
-          "text": "The extra detail matters because lake conditions can change quickly. GLERL showed ice sheets shifting across one Lake Erie camera view over three hours as wind and currents moved them."
-        },
-        {
-          "type": "paragraph",
-          "text": "Satellites and numerical models already track ice using radar, visible and infrared information. NOAA says satellites provide periodic snapshots, while models need accurate observations for validation; airborne data are being explored as a supplement, not a replacement."
-        },
-        {
+          "rightsId": "media-noaa-hyperspectral-bands-2026",
+          "sourceUrl": "https://www.glerl.noaa.gov/blog/2026/04/21/eyes-in-the-sky-how-hyperspectral-flights-improve-knowledge-of-great-lakes-winter-ice/",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/bands/four-three.webp",
           "type": "media",
-          "rightsId": "media-noaa-ice-observation-stack-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/stack/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "A conventional digital image records red, green and blue light. GLERL's camera captures more than 150 bands, including near-infrared wavelengths, producing a three-dimensional data cube in which materials can be identified by distinct spectral fingerprints.",
+          "type": "paragraph"
+        },
+        {
+          "text": "During its most recent ice-flight mission, a Cessna 210 followed a planned survey route at 10,500 feet. Researchers also established an aerial drone program in 2024 to collect much lower-altitude, higher-resolution observations.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The extra detail matters because lake conditions can change quickly. GLERL showed ice sheets shifting across one Lake Erie camera view over three hours as wind and currents moved them.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Satellites and numerical models already track ice using radar, visible and infrared information. NOAA says satellites provide periodic snapshots, while models need accurate observations for validation; airborne data are being explored as a supplement, not a replacement.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows aircraft and drones supplementing satellites and numerical models.",
           "caption": "Aircraft and drones could add high-resolution observations to satellite imagery and numerical ice models.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.glerl.noaa.gov/blog/2026/04/21/eyes-in-the-sky-how-hyperspectral-flights-improve-knowledge-of-great-lakes-winter-ice/"
+          "rightsId": "media-noaa-ice-observation-stack-2026",
+          "sourceUrl": "https://www.glerl.noaa.gov/blog/2026/04/21/eyes-in-the-sky-how-hyperspectral-flights-improve-knowledge-of-great-lakes-winter-ice/",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/stack/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Researchers are testing deep-learning methods on the 150-band imagery to classify features such as open water and different ice conditions. Training those systems requires ground-truth observations and repeated validation."
+          "text": "Researchers are testing deep-learning methods on the 150-band imagery to classify features such as open water and different ice conditions. Training those systems requires ground-truth observations and repeated validation.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "NOAA says better ice information could aid forecasting, ecology and commercial navigation. Great Lakes freighters move nearly 200 million tons of material a year, but the agency has not yet quantified how much the experimental system would improve forecasts or reduce costs."
+          "text": "NOAA says better ice information could aid forecasting, ecology and commercial navigation. Great Lakes freighters move nearly 200 million tons of material a year, but the agency has not yet quantified how much the experimental system would improve forecasts or reduce costs.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The project remains research. Its value will depend on whether airborne and drone observations can be collected consistently, validated against conditions on the water and integrated into operational ice products."
+          "text": "The project remains research. Its value will depend on whether airborne and drone observations can be collected consistently, validated against conditions on the water and integrated into operational ice products.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/noaa-hyperspectral-great-lakes-ice-flights-2026/",
       "citations": [
         {
           "id": "source-noaa-glerl-hyperspectral-ice-20260421",
-          "title": "Eyes in the Sky: How Hyperspectral Flights Improve Knowledge of Great Lakes Winter Ice",
-          "publisher": "NOAA Great Lakes Environmental Research Laboratory",
           "publishedAt": "2026-04-21T12:00:00Z",
+          "publisher": "NOAA Great Lakes Environmental Research Laboratory",
+          "title": "Eyes in the Sky: How Hyperspectral Flights Improve Knowledge of Great Lakes Winter Ice",
           "url": "https://www.glerl.noaa.gov/blog/2026/04/21/eyes-in-the-sky-how-hyperspectral-flights-improve-knowledge-of-great-lakes-winter-ice/"
         }
       ],
@@ -47951,9 +47951,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T06:57:02.567Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t061222z-2f7c9a4e1b63",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -47981,7 +47981,7 @@
         "NOAA describes an experimental research program, not a fully operational replacement for current products.",
         "The agency has not quantified forecast gains or economic benefits from the flights."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T06:57:02.567Z"
     },
     {
       "articleType": "news-report",
@@ -47991,71 +47991,71 @@
       "body": "The National Institute of Standards and Technology has released a reference resin designed to make a critical measurement in photopolymer 3D printing more comparable across laboratories and machines.\n\nReference Material 8047 supports measurement of a resin's working curve, the relationship between radiant light exposure and the depth at which liquid resin cures into solid material.\n\nReliable working curves help operators expose each printed layer deeply enough to bond with the next one without curing too much material. Errors can change dimensions, weaken bonding or reduce reproducibility.\n\nNIST says each unit contains about 20 grams of photoactive resin. The mixture is roughly 40% each of two acrylate components and 20% of a third, with smaller quantities of a photoinitiator and photoabsorber.\n\nParticipants in an interlaboratory study measured cure depth and radiant exposure using three sets of NIST-built, calibrated light sources at wavelengths of 385 and 405 nanometers.\n\nNIST analyzed the nonzero cure-depth and exposure pairs with the Jacobs Equation to calculate penetration depth and critical exposure energy, two parameters used to characterize photopolymer behavior.\n\nA shared material lets laboratories test whether differences in a working curve come from equipment, calibration or analysis rather than from using different resin batches.\n\nRM 8047 does not certify every printer, process or finished part. Manufacturers still need to validate layer settings, geometry, post-curing and performance for each intended application.\n\nThe reference material creates a common starting point for that work: the same documented resin can be exposed at the same wavelengths and its measured working curve compared across instruments and facilities.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The National Institute of Standards and Technology has released a reference resin designed to make a critical measurement in photopolymer 3D printing more comparable across laboratories and machines."
+          "text": "The National Institute of Standards and Technology has released a reference resin designed to make a critical measurement in photopolymer 3D printing more comparable across laboratories and machines.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Reference Material 8047 supports measurement of a resin's working curve, the relationship between radiant light exposure and the depth at which liquid resin cures into solid material."
+          "text": "Reference Material 8047 supports measurement of a resin's working curve, the relationship between radiant light exposure and the depth at which liquid resin cures into solid material.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-nist-rm8047-working-curve-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/working-curve/four-three.webp",
           "alt": "Graphic shows radiant exposure, cure depth and a controlled bonding window.",
           "caption": "A resin working curve relates radiant exposure to cure depth, helping printers bond layers without overexposure.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/rm-assessing-working-curve-resin-3d-printing"
-        },
-        {
-          "type": "paragraph",
-          "text": "Reliable working curves help operators expose each printed layer deeply enough to bond with the next one without curing too much material. Errors can change dimensions, weaken bonding or reduce reproducibility."
-        },
-        {
-          "type": "paragraph",
-          "text": "NIST says each unit contains about 20 grams of photoactive resin. The mixture is roughly 40% each of two acrylate components and 20% of a third, with smaller quantities of a photoinitiator and photoabsorber."
-        },
-        {
-          "type": "paragraph",
-          "text": "Participants in an interlaboratory study measured cure depth and radiant exposure using three sets of NIST-built, calibrated light sources at wavelengths of 385 and 405 nanometers."
-        },
-        {
-          "type": "paragraph",
-          "text": "NIST analyzed the nonzero cure-depth and exposure pairs with the Jacobs Equation to calculate penetration depth and critical exposure energy, two parameters used to characterize photopolymer behavior."
-        },
-        {
+          "rightsId": "media-nist-rm8047-working-curve-2026",
+          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/rm-assessing-working-curve-resin-3d-printing",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/working-curve/four-three.webp",
           "type": "media",
-          "rightsId": "media-nist-rm8047-test-wavelengths-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/wavelengths/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Reliable working curves help operators expose each printed layer deeply enough to bond with the next one without curing too much material. Errors can change dimensions, weaken bonding or reduce reproducibility.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NIST says each unit contains about 20 grams of photoactive resin. The mixture is roughly 40% each of two acrylate components and 20% of a third, with smaller quantities of a photoinitiator and photoabsorber.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Participants in an interlaboratory study measured cure depth and radiant exposure using three sets of NIST-built, calibrated light sources at wavelengths of 385 and 405 nanometers.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NIST analyzed the nonzero cure-depth and exposure pairs with the Jacobs Equation to calculate penetration depth and critical exposure energy, two parameters used to characterize photopolymer behavior.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows calibrated tests at 385 and 405 nanometers and a shared resin sample.",
           "caption": "Interlaboratory participants measured RM 8047 with calibrated light sources at 385 and 405 nanometers.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/rm-assessing-working-curve-resin-3d-printing"
+          "rightsId": "media-nist-rm8047-test-wavelengths-2026",
+          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/rm-assessing-working-curve-resin-3d-printing",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/wavelengths/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "A shared material lets laboratories test whether differences in a working curve come from equipment, calibration or analysis rather than from using different resin batches."
+          "text": "A shared material lets laboratories test whether differences in a working curve come from equipment, calibration or analysis rather than from using different resin batches.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "RM 8047 does not certify every printer, process or finished part. Manufacturers still need to validate layer settings, geometry, post-curing and performance for each intended application."
+          "text": "RM 8047 does not certify every printer, process or finished part. Manufacturers still need to validate layer settings, geometry, post-curing and performance for each intended application.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The reference material creates a common starting point for that work: the same documented resin can be exposed at the same wavelengths and its measured working curve compared across instruments and facilities."
+          "text": "The reference material creates a common starting point for that work: the same documented resin can be exposed at the same wavelengths and its measured working curve compared across instruments and facilities.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/nist-rm-8047-resin-3d-printing-working-curve/",
       "citations": [
         {
           "id": "source-nist-rm-8047-20260630",
-          "title": "An RM for Assessing the Working Curve for Resin 3D Printing",
-          "publisher": "National Institute of Standards and Technology",
           "publishedAt": "2026-06-30T12:00:00Z",
+          "publisher": "National Institute of Standards and Technology",
+          "title": "An RM for Assessing the Working Curve for Resin 3D Printing",
           "url": "https://www.nist.gov/news-events/news/2026/06/rm-assessing-working-curve-resin-3d-printing"
         }
       ],
@@ -48098,9 +48098,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T06:57:02.567Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t061222z-2f7c9a4e1b63",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -48128,7 +48128,7 @@
         "The reference material supports a measurement method but does not certify every printer or finished part.",
         "Results still depend on equipment calibration, exposure settings, geometry and post-processing."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T06:57:02.567Z"
     },
     {
       "articleType": "news-report",
@@ -48138,78 +48138,78 @@
       "body": "The South was the only U.S. region whose population grew in every broad age group from April 2020 to July 2025, according to new Census Bureau estimates.\n\nThe region added about 7.6 million people, a 6.0% increase that was nearly twice the nation's 3.1% growth. The South reached an estimated 133.8 million residents in July 2025.\n\nIts under-18 population grew 1.1%, while the same age group declined 4.1% in the Northeast, 3.9% in the Midwest and 5.7% in the West.\n\nThe South also was the only region with growth among people ages 45 to 64, though the increase was just 0.1%, or about 19,000 people. The region's population age 65 and older grew 17.5%.\n\nAdults ages 25 to 44 posted the South's fastest non-retirement-age growth, rising 9.0%, or about 2.9 million. The 18-to-24 population increased 5.0%.\n\nMetro counties drove much of the change. Southern metro counties grew 6.7%, and the Census Bureau said outlying counties on metro edges grew fastest across all age groups.\n\nThe agency attributes regional patterns to the aging of baby boomers, migration and fertility. Its estimates describe net population change and do not assign one cause to every county or household move.\n\nVintage 2025 incorporates detailed results from the 2020 Census into the estimates base for the first time. Census advises comparing years within the same vintage because each annual release revises the entire post-2020 series.\n\nThe results show that the South's growth was broader than a simple retirement story: it included children, young adults, working-age groups and older residents, with the strongest geographic momentum around the outer edges of metro areas.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The South was the only U.S. region whose population grew in every broad age group from April 2020 to July 2025, according to new Census Bureau estimates."
+          "text": "The South was the only U.S. region whose population grew in every broad age group from April 2020 to July 2025, according to new Census Bureau estimates.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The region added about 7.6 million people, a 6.0% increase that was nearly twice the nation's 3.1% growth. The South reached an estimated 133.8 million residents in July 2025."
+          "text": "The region added about 7.6 million people, a 6.0% increase that was nearly twice the nation's 3.1% growth. The South reached an estimated 133.8 million residents in July 2025.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-census-regional-growth-2020-2025",
-          "src": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/regions/four-three.webp",
           "alt": "Graphic compares 6 percent Southern population growth with 3.1 percent national growth.",
           "caption": "The South grew 6.0% from 2020 to 2025, compared with 3.1% nationally and slower gains in the other three regions.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html"
-        },
-        {
-          "type": "paragraph",
-          "text": "Its under-18 population grew 1.1%, while the same age group declined 4.1% in the Northeast, 3.9% in the Midwest and 5.7% in the West."
-        },
-        {
-          "type": "paragraph",
-          "text": "The South also was the only region with growth among people ages 45 to 64, though the increase was just 0.1%, or about 19,000 people. The region's population age 65 and older grew 17.5%."
-        },
-        {
-          "type": "paragraph",
-          "text": "Adults ages 25 to 44 posted the South's fastest non-retirement-age growth, rising 9.0%, or about 2.9 million. The 18-to-24 population increased 5.0%."
-        },
-        {
-          "type": "paragraph",
-          "text": "Metro counties drove much of the change. Southern metro counties grew 6.7%, and the Census Bureau said outlying counties on metro edges grew fastest across all age groups."
-        },
-        {
+          "rightsId": "media-census-regional-growth-2020-2025",
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/regions/four-three.webp",
           "type": "media",
-          "rightsId": "media-census-south-age-groups-2020-2025",
-          "src": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/ages/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Its under-18 population grew 1.1%, while the same age group declined 4.1% in the Northeast, 3.9% in the Midwest and 5.7% in the West.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The South also was the only region with growth among people ages 45 to 64, though the increase was just 0.1%, or about 19,000 people. The region's population age 65 and older grew 17.5%.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Adults ages 25 to 44 posted the South's fastest non-retirement-age growth, rising 9.0%, or about 2.9 million. The 18-to-24 population increased 5.0%.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Metro counties drove much of the change. Southern metro counties grew 6.7%, and the Census Bureau said outlying counties on metro edges grew fastest across all age groups.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows growth across five Southern age groups from under 18 through 65 and older.",
           "caption": "Southern growth reached all five broad age groups, including 1.1% for children and 17.5% for people 65 and older.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html"
+          "rightsId": "media-census-south-age-groups-2020-2025",
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/ages/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "The agency attributes regional patterns to the aging of baby boomers, migration and fertility. Its estimates describe net population change and do not assign one cause to every county or household move."
+          "text": "The agency attributes regional patterns to the aging of baby boomers, migration and fertility. Its estimates describe net population change and do not assign one cause to every county or household move.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Vintage 2025 incorporates detailed results from the 2020 Census into the estimates base for the first time. Census advises comparing years within the same vintage because each annual release revises the entire post-2020 series."
+          "text": "Vintage 2025 incorporates detailed results from the 2020 Census into the estimates base for the first time. Census advises comparing years within the same vintage because each annual release revises the entire post-2020 series.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The results show that the South's growth was broader than a simple retirement story: it included children, young adults, working-age groups and older residents, with the strongest geographic momentum around the outer edges of metro areas."
+          "text": "The results show that the South's growth was broader than a simple retirement story: it included children, young adults, working-age groups and older residents, with the strongest geographic momentum around the outer edges of metro areas.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/south-population-growth-all-age-groups-2020-2025/",
       "citations": [
         {
           "id": "source-census-vintage-2025-age-region-20260625",
-          "title": "Populations in All Age Groups Growing in the South, Driven by Outlying Counties in Metro Areas",
-          "publisher": "U.S. Census Bureau",
           "publishedAt": "2026-06-25T12:00:00Z",
+          "publisher": "U.S. Census Bureau",
+          "title": "Populations in All Age Groups Growing in the South, Driven by Outlying Counties in Metro Areas",
           "url": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html"
         },
         {
           "id": "source-census-vintage-2025-characteristics",
-          "title": "Vintage 2025 Population Estimates by Age, Sex, Race and Hispanic Origin",
-          "publisher": "U.S. Census Bureau",
           "publishedAt": "2026-06-25T12:00:00Z",
+          "publisher": "U.S. Census Bureau",
+          "title": "Vintage 2025 Population Estimates by Age, Sex, Race and Hispanic Origin",
           "url": "https://www.census.gov/newsroom/press-kits/2026/vintage-2025-pop-estimates.html"
         }
       ],
@@ -48253,9 +48253,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T06:57:02.567Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t061222z-2f7c9a4e1b63",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -48283,26 +48283,26 @@
         "Population estimates are revised with each vintage and should be compared within the same vintage.",
         "Regional totals do not describe every county and do not isolate the cause of each local change."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T06:57:02.567Z"
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T06:48:49.004Z",
+  "generatedAt": "2026-08-11T06:58:23.658Z",
   "inputHashes": {
-    "sourceItems": "99d467245a6b8b023fea8f8d5532ebbc8543315978ae657ef118fd4656a484a0",
-    "events": "8633fd633a05c74306c18d69a7eeaca00aab41b75979ab4d6c639659424ef5a8",
-    "claims": "e1de7ce60f23a727549eec6dc81c60d3c0dc5670f34f051cd69ac2585e2898d9",
-    "articles": "e82cfa5200284e46777f99dec43ff7775b4d77109b84deb285ce23412e99e3ae",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
+    "articles": "e82cfa5200284e46777f99dec43ff7775b4d77109b84deb285ce23412e99e3ae",
+    "claims": "e1de7ce60f23a727549eec6dc81c60d3c0dc5670f34f051cd69ac2585e2898d9",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "events": "8633fd633a05c74306c18d69a7eeaca00aab41b75979ab4d6c639659424ef5a8",
     "mediaRights": "1119a6caf75c90ca758af03c223e8aabfc780a9542e06b84529f80e65b91164a",
-    "releaseRecords": "584196331ca755fc1950396ba5fec6f1c61787da1274c22b5263be67344af041",
-    "publicationIntents": "1d06d6ae86d5528042feb67577c11360bcdf8d70cfe021a4dca88e0c8d2b633a"
+    "publicationIntents": "1d06d6ae86d5528042feb67577c11360bcdf8d70cfe021a4dca88e0c8d2b633a",
+    "releaseRecords": "587ac3aea8d201bf80b1331f83110e027bc72233f9ef0ef1ca4d44634aec9a0b",
+    "sourceItems": "99d467245a6b8b023fea8f8d5532ebbc8543315978ae657ef118fd4656a484a0"
   },
   "inventory": {
     "articleCount": 291,
-    "routeCount": 291,
-    "mediaCount": 859
+    "mediaCount": 859,
+    "routeCount": 291
   },
   "mediaRights": [
     {
@@ -113521,6 +113521,7 @@
       "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html"
     }
   ],
+  "packageDigest": "37eb08a386dfde70c2c2e543d76ce986ec8172f905ece0dadd2f9b55b6f2ae11",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -115290,10 +115291,40 @@
       "releaseId": "release-pb-20260811t051252z-5e8a1c3d7f20",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://0b303d05.bohonews.pages.dev/",
+      "activationEvidenceHash": "efcee8e7ee9ae57673334acdbaa8acf98f124653de28d804e4092308b7c58fa5",
+      "canonicalFirstPublicAt": "2026-08-11T06:57:02.567Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-financial-data-transparency-standards-2026/",
+        "https://bohonews.com/articles/aggravated-identity-theft-sentencing-fy2025/",
+        "https://bohonews.com/articles/federal-deficit-through-july-2026-cbo/",
+        "https://bohonews.com/articles/noaa-hyperspectral-great-lakes-ice-flights-2026/",
+        "https://bohonews.com/articles/nist-rm-8047-resin-3d-printing-working-curve/",
+        "https://bohonews.com/articles/south-population-growth-all-age-groups-2020-2025/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-financial-data-transparency-standards-2026",
+        "article-aggravated-identity-theft-sentencing-fy2025",
+        "article-federal-deficit-through-july-2026-cbo",
+        "article-noaa-hyperspectral-great-lakes-ice-flights-2026",
+        "article-nist-rm-8047-resin-3d-printing-working-curve",
+        "article-south-population-growth-all-age-groups-2020-2025"
+      ],
+      "previousVerifiedDeploymentReference": "f70d0056bbe6342f9aa8a37e56602cb8f778cb8232db922189d55c1b86482a7d",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T06:55:01.610228Z",
+      "recordHash": "c083daa9ef3e13af231e30858efd992a8bc64dc8fa05fc963080c8c0a92875e8",
+      "releaseId": "release-pb-20260811t061222z-2f7c9a4e1b63",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
-  "releaseState": "candidate",
+  "releaseState": "final",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com",
-  "packageDigest": "380215c8f14956c08f658e5235bdaa61e3e8f84fbd113c1c469c121631492bc3"
+  "site": "https://bohonews.com"
 }
