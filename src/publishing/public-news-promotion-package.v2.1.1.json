@@ -51861,25 +51861,927 @@
         "The survey's participant count includes inactive workers eligible for future benefits."
       ],
       "updatedAt": "2026-08-11T11:40:06.116Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal tax-fraud cases carried a median loss of $546,562 in fiscal year 2025, according to the United States Sentencing Commission's latest Quick Facts release.\n\nThe commission counted 324 tax-fraud cases among 66,662 federal cases reported for the year. The category covers sentences under guidelines for tax evasion, willful failure to file or pay, false returns and assisting tax fraud.\n\nThe number of tax-fraud offenses was 12% lower than in fiscal 2021. That comparison describes cases sentenced under the commission's definition, not an estimate of all unpaid taxes or undetected conduct.\n\nTwenty-eight percent of cases involved losses above $1.5 million, while 7% involved less than $100,000. Sixteen percent received a sentence increase for sophisticated means.\n\nMost sentenced individuals had little or no prior criminal history: 86% were in Criminal History Category I, and 72% received the adjustment for zero criminal-history points.\n\nSixty-eight percent were sentenced to prison. The average sentence was 17 months, and none of the cases carried a mandatory minimum penalty.\n\nThe Middle District of Florida led the district count with 30 cases, followed by New Jersey with 24 and the Southern District of New York with 17. District counts can reflect case mix and enforcement patterns and are not population-adjusted rates.\n\nFifty-seven percent of sentences were variances, nearly all downward. The commission reported an average 61% reduction for downward variances, measured against the guideline range.\n\nThe release is a descriptive sentencing snapshot. It does not measure audit activity, civil collections, deterrence or the prevalence of tax fraud outside cases reaching federal sentencing.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Federal tax-fraud cases carried a median loss of $546,562 in fiscal year 2025, according to the United States Sentencing Commission's latest Quick Facts release."
+        },
+        {
+          "type": "paragraph",
+          "text": "The commission counted 324 tax-fraud cases among 66,662 federal cases reported for the year. The category covers sentences under guidelines for tax evasion, willful failure to file or pay, false returns and assisting tax fraud."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-tax-fraud-cases-loss-fy2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/cases-loss/four-three.webp",
+          "alt": "Graphic shows 324 cases, a 546,562 dollar median loss and a 12 percent decline since 2021.",
+          "caption": "The commission counted 324 tax-fraud cases and a median loss of $546,562 in fiscal 2025.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/tax-fraud"
+        },
+        {
+          "type": "paragraph",
+          "text": "The number of tax-fraud offenses was 12% lower than in fiscal 2021. That comparison describes cases sentenced under the commission's definition, not an estimate of all unpaid taxes or undetected conduct."
+        },
+        {
+          "type": "paragraph",
+          "text": "Twenty-eight percent of cases involved losses above $1.5 million, while 7% involved less than $100,000. Sixteen percent received a sentence increase for sophisticated means."
+        },
+        {
+          "type": "paragraph",
+          "text": "Most sentenced individuals had little or no prior criminal history: 86% were in Criminal History Category I, and 72% received the adjustment for zero criminal-history points."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sixty-eight percent were sentenced to prison. The average sentence was 17 months, and none of the cases carried a mandatory minimum penalty."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-tax-fraud-punishment-fy2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/punishment/four-three.webp",
+          "alt": "Graphic shows 68 percent imprisoned, a 17 month average sentence and 57 percent variances.",
+          "caption": "Sixty-eight percent received prison sentences; the average prison term was 17 months.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/tax-fraud"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Middle District of Florida led the district count with 30 cases, followed by New Jersey with 24 and the Southern District of New York with 17. District counts can reflect case mix and enforcement patterns and are not population-adjusted rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fifty-seven percent of sentences were variances, nearly all downward. The commission reported an average 61% reduction for downward variances, measured against the guideline range."
+        },
+        {
+          "type": "paragraph",
+          "text": "The release is a descriptive sentencing snapshot. It does not measure audit activity, civil collections, deterrence or the prevalence of tax fraud outside cases reaching federal sentencing."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-tax-fraud-median-loss-546562-fy2025/",
+      "citations": [
+        {
+          "id": "source-ussc-tax-fraud-fy2025",
+          "title": "Tax Fraud Quick Facts, Fiscal Year 2025",
+          "publisher": "United States Sentencing Commission",
+          "publishedAt": "2026-07-01T12:00:00Z",
+          "url": "https://www.ussc.gov/research/quick-facts/tax-fraud"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The commission counted 324 tax-fraud cases in fiscal 2025.",
+        "The median loss was $546,562.",
+        "Sixty-eight percent received prison sentences.",
+        "The average sentence was 17 months."
+      ],
+      "corrections": [],
+      "dek": "The Sentencing Commission counted 324 tax-fraud cases; 68% resulted in prison and the average sentence was 17 months.",
+      "desk": "federal-economic-crime-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Sentencing Commission",
+        "Internal Revenue Service"
+      ],
+      "eventId": "event-federal-tax-fraud-median-loss-546562-fy2025",
+      "headline": "Federal Tax-Fraud Median Loss Hit $546,562 in 2025",
+      "id": "article-federal-tax-fraud-median-loss-546562-fy2025",
+      "leadImage": {
+        "alt": "Historic federal courthouse with columns and palm trees in Miami.",
+        "caption": "The David W. Dyer Federal Building and U.S. Courthouse in Miami. The Middle District of Florida recorded the most federal tax-fraud sentences in fiscal 2025.",
+        "credit": "Carol M. Highsmith / Library of Congress",
+        "height": 900,
+        "rightsId": "media-tax-fraud-miami-courthouse-highsmith",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/miami-courthouse/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Miami, Florida"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-mandatory-minimums-applied-15-percent-federal-sentences-fy2025"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "USSC data show 324 federal tax-fraud cases, a $546,562 median loss and a 17-month average sentence in fiscal 2025.",
+        "index": true,
+        "title": "Federal tax-fraud cases had $546,562 median loss in FY2025"
+      },
+      "section": "crime-justice",
+      "slug": "federal-tax-fraud-median-loss-546562-fy2025",
+      "social": {
+        "description": "The Sentencing Commission counted 324 tax-fraud cases; 68% resulted in prison and the average sentence was 17 months.",
+        "image": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/miami-courthouse/open-graph.webp",
+        "title": "Federal Tax-Fraud Median Loss Hit $546,562 in 2025"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Tax fraud",
+        "Federal sentencing",
+        "Economic crime",
+        "Federal courts"
+      ],
+      "uncertainty": [
+        "Cases with incomplete sentencing information were excluded from some calculations.",
+        "District totals are not adjusted for population, enforcement resources or underlying case mix."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The share of adults age 25 and older with a bachelor's degree or higher rose to 37.8% across U.S. metropolitan areas in the 2020–2024 period, Census Bureau estimates show.\n\nThat was up from 34.2% in the 2015–2019 American Community Survey five-year estimates, a 3.6-percentage-point increase. The bureau said about 89% of metro areas recorded a statistically significant gain.\n\nDurham–Chapel Hill, North Carolina, posted one of the largest metro increases, from 45.3% to 53.4%. The comparison covers adults across the full metro area, not only the two named cities.\n\nSpringfield, Massachusetts, was the only metro area the bureau identified with a significant decline, from 32.8% to 29.3%.\n\nAmong micropolitan areas, which center on smaller urban areas, 50.8% recorded an increase. Taos, New Mexico, rose 9.8 points, from 28.7% to 38.5%.\n\nMetro and micro boundaries include surrounding counties linked to the urban core through commuting. They should not be read as city-limit statistics.\n\nThe ACS is a sample survey. The bureau said the highlighted comparisons were tested at the 90% confidence level; individual estimates still have margins of error.\n\nFive-year estimates pool responses across longer periods to support detailed local statistics. They are not a year-by-year measure of how quickly degrees were earned.\n\nThe broad gain establishes a change in educational attainment, not its cause. Migration, aging, local institutions and degree completion can all affect a place's measured share.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The share of adults age 25 and older with a bachelor's degree or higher rose to 37.8% across U.S. metropolitan areas in the 2020–2024 period, Census Bureau estimates show."
+        },
+        {
+          "type": "paragraph",
+          "text": "That was up from 34.2% in the 2015–2019 American Community Survey five-year estimates, a 3.6-percentage-point increase. The bureau said about 89% of metro areas recorded a statistically significant gain."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-education-metro-change-2024",
+          "src": "/media/newsroom/2026/08/manual-20260811-120523/education/metro-change/four-three.webp",
+          "alt": "Graphic shows metro educational attainment rising from 34.2 percent to 37.8 percent.",
+          "caption": "The share of metro-area adults with a bachelor's degree or higher rose from 34.2% to 37.8% between the two five-year periods.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/acs-5-year-gains-educational-attainment.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "Durham–Chapel Hill, North Carolina, posted one of the largest metro increases, from 45.3% to 53.4%. The comparison covers adults across the full metro area, not only the two named cities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Springfield, Massachusetts, was the only metro area the bureau identified with a significant decline, from 32.8% to 29.3%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Among micropolitan areas, which center on smaller urban areas, 50.8% recorded an increase. Taos, New Mexico, rose 9.8 points, from 28.7% to 38.5%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Metro and micro boundaries include surrounding counties linked to the urban core through commuting. They should not be read as city-limit statistics."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-education-local-changes-2024",
+          "src": "/media/newsroom/2026/08/manual-20260811-120523/education/local-changes/four-three.webp",
+          "alt": "Graphic compares educational attainment changes in Durham Chapel Hill, Taos and Springfield.",
+          "caption": "Durham–Chapel Hill gained 8.1 points and the Taos micro area gained 9.8 points; Springfield, Massachusetts, declined.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/acs-5-year-gains-educational-attainment.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "The ACS is a sample survey. The bureau said the highlighted comparisons were tested at the 90% confidence level; individual estimates still have margins of error."
+        },
+        {
+          "type": "paragraph",
+          "text": "Five-year estimates pool responses across longer periods to support detailed local statistics. They are not a year-by-year measure of how quickly degrees were earned."
+        },
+        {
+          "type": "paragraph",
+          "text": "The broad gain establishes a change in educational attainment, not its cause. Migration, aging, local institutions and degree completion can all affect a place's measured share."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/metro-bachelors-degree-rate-378-percent-acs-2024/",
+      "citations": [
+        {
+          "id": "source-census-acs-education-gains-20260129",
+          "title": "Census Bureau Data Show Large Gains in Educational Attainment in Metropolitan and Micropolitan Statistical Areas",
+          "publisher": "U.S. Census Bureau",
+          "publishedAt": "2026-01-29T12:00:00Z",
+          "url": "https://www.census.gov/newsroom/press-releases/2026/acs-5-year-gains-educational-attainment.html"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Metro bachelor's attainment rose from 34.2% to 37.8%.",
+        "About 89% of metro areas recorded an increase.",
+        "Durham–Chapel Hill rose from 45.3% to 53.4%.",
+        "Taos rose from 28.7% to 38.5%."
+      ],
+      "corrections": [],
+      "dek": "Census estimates show a 3.6-point gain from 2015–2019, with Durham–Chapel Hill and Taos posting some of the largest increases.",
+      "desk": "local-demographic-trends",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Census Bureau",
+        "American Community Survey"
+      ],
+      "eventId": "event-metro-bachelors-degree-rate-378-percent-acs-2024",
+      "headline": "Metro Bachelor's-Degree Share Rose to 37.8%",
+      "id": "article-metro-bachelors-degree-rate-378-percent-acs-2024",
+      "leadImage": {
+        "alt": "Carolina Theatre marquee and brick facade in downtown Durham.",
+        "caption": "The Carolina Theatre in downtown Durham, North Carolina. The Durham–Chapel Hill metro posted one of the largest increases in the share of adults with a bachelor's degree or higher.",
+        "credit": "Warren LeMay / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-education-durham-carolina-theatre-lemay",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-120523/education/durham/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Durham, North Carolina",
+        "Taos, New Mexico",
+        "Springfield, Massachusetts"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-work-training-americans-born-1980-1984"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "ACS five-year estimates show bachelor's attainment increased in about 89% of U.S. metro areas.",
+        "index": true,
+        "title": "Metro bachelor's-degree share rose to 37.8%, Census says"
+      },
+      "section": "us",
+      "slug": "metro-bachelors-degree-rate-378-percent-acs-2024",
+      "social": {
+        "description": "Census estimates show a 3.6-point gain from 2015–2019, with Durham–Chapel Hill and Taos posting some of the largest increases.",
+        "image": "/media/newsroom/2026/08/manual-20260811-120523/education/durham/open-graph.webp",
+        "title": "Metro Bachelor's-Degree Share Rose to 37.8%"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Educational attainment",
+        "American Community Survey",
+        "Metropolitan areas",
+        "Demographics"
+      ],
+      "uncertainty": [
+        "ACS estimates are subject to sampling and nonsampling error.",
+        "Five-year pooled estimates do not isolate annual changes or causal drivers."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Individual human neurons carried information about grammar, meaning and sentence context before people spoke, an NIH-funded study of natural conversation found.\n\nResearchers at Massachusetts General Hospital used microelectrode recordings from eight patients who already had implants for epilepsy monitoring. The implants were not placed solely for the language study.\n\nParticipants held open-ended conversations in English. The team aligned transcripts with activity from hundreds of neurons in the frontotemporal cortex, a region linked to speech production.\n\nMachine-learning language models connected patterns immediately before speech with features of the coming words and sentences across many discussion topics.\n\nSome neurons reflected relatively basic information, including word meaning and grammatical roles. Other activity tracked how phrases were assembled and distinguished similar words or phrases by sentence context.\n\nThe result extends language mapping from broad brain regions to single cells. It does not mean researchers reconstructed unrestricted private thoughts or achieved a deployable speech decoder.\n\nThe sample was small and clinically specific: eight English-speaking patients undergoing epilepsy monitoring. Implant location and available recordings were shaped by medical care.\n\nResearchers say the cellular map could inform future systems that translate neural activity into generated speech for people with communication disorders.\n\nThat application remains prospective. Larger and more diverse studies must test how stable the signals are across people, languages, clinical conditions and recording technologies.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Individual human neurons carried information about grammar, meaning and sentence context before people spoke, an NIH-funded study of natural conversation found."
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers at Massachusetts General Hospital used microelectrode recordings from eight patients who already had implants for epilepsy monitoring. The implants were not placed solely for the language study."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-speech-neurons-study-design-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/design/four-three.webp",
+          "alt": "Graphic shows eight participants, hundreds of neurons and natural English conversation.",
+          "caption": "The study aligned natural conversations from eight patients with recordings from hundreds of frontotemporal neurons.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/researchers-discover-single-cell-brain-activity-underlies-human-speech"
+        },
+        {
+          "type": "paragraph",
+          "text": "Participants held open-ended conversations in English. The team aligned transcripts with activity from hundreds of neurons in the frontotemporal cortex, a region linked to speech production."
+        },
+        {
+          "type": "paragraph",
+          "text": "Machine-learning language models connected patterns immediately before speech with features of the coming words and sentences across many discussion topics."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some neurons reflected relatively basic information, including word meaning and grammatical roles. Other activity tracked how phrases were assembled and distinguished similar words or phrases by sentence context."
+        },
+        {
+          "type": "paragraph",
+          "text": "The result extends language mapping from broad brain regions to single cells. It does not mean researchers reconstructed unrestricted private thoughts or achieved a deployable speech decoder."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-speech-neurons-language-signals-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/signals/four-three.webp",
+          "alt": "Graphic lists meaning, grammatical roles and sentence context detected before speech.",
+          "caption": "Models linked pre-speech neuronal activity with word meaning, grammar and sentence context.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nih.gov/news-events/news-releases/researchers-discover-single-cell-brain-activity-underlies-human-speech"
+        },
+        {
+          "type": "paragraph",
+          "text": "The sample was small and clinically specific: eight English-speaking patients undergoing epilepsy monitoring. Implant location and available recordings were shaped by medical care."
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers say the cellular map could inform future systems that translate neural activity into generated speech for people with communication disorders."
+        },
+        {
+          "type": "paragraph",
+          "text": "That application remains prospective. Larger and more diverse studies must test how stable the signals are across people, languages, clinical conditions and recording technologies."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/human-speech-neurons-grammar-context-nih-study-2026/",
+      "citations": [
+        {
+          "id": "source-nih-human-speech-neurons-20260617",
+          "title": "Researchers discover single-cell brain activity that underlies human speech",
+          "publisher": "National Institutes of Health",
+          "publishedAt": "2026-06-17T12:00:00Z",
+          "url": "https://www.nih.gov/news-events/news-releases/researchers-discover-single-cell-brain-activity-underlies-human-speech"
+        },
+        {
+          "id": "source-nature-language-neurons-2026",
+          "title": "Mapping the neuronal building blocks of human language with language models",
+          "publisher": "Nature",
+          "publishedAt": "2026-06-17T12:00:00Z",
+          "url": "https://doi.org/10.1038/s41586-026-10691-5"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The study included eight patients.",
+        "Recordings covered hundreds of frontotemporal neurons.",
+        "Models linked pre-speech activity with grammar, meaning and context.",
+        "The underlying study was published in Nature."
+      ],
+      "corrections": [],
+      "dek": "Recordings from eight epilepsy patients let NIH-funded researchers map language features at single-cell resolution during conversation.",
+      "desk": "neuroscience-and-communication-research",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institutes of Health",
+        "Massachusetts General Hospital",
+        "National Institute on Deafness and Other Communication Disorders",
+        "Nature"
+      ],
+      "eventId": "event-human-speech-neurons-grammar-context-nih-study-2026",
+      "headline": "Neurons Encoded Grammar and Context Before Speech",
+      "id": "article-human-speech-neurons-grammar-context-nih-study-2026",
+      "leadImage": {
+        "alt": "Brick and stone Bulfinch Building at Massachusetts General Hospital.",
+        "caption": "The Bulfinch Building at Massachusetts General Hospital in Boston. Researchers there recorded neuronal activity during natural conversation.",
+        "credit": "Kenneth C. Zirkel / Wikimedia Commons, CC BY 4.0",
+        "height": 900,
+        "rightsId": "media-speech-neurons-mgh-bulfinch-zirkel",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/mgh/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Boston, Massachusetts"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-nih-midlife-brain-immune-cell-shift-hippocampus-study-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NIH-funded recordings from eight patients mapped meaning, grammar and context at single-cell resolution during conversation.",
+        "index": true,
+        "title": "Human neurons encoded grammar and context before speech"
+      },
+      "section": "health-science",
+      "slug": "human-speech-neurons-grammar-context-nih-study-2026",
+      "social": {
+        "description": "Recordings from eight epilepsy patients let NIH-funded researchers map language features at single-cell resolution during conversation.",
+        "image": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/mgh/open-graph.webp",
+        "title": "Neurons Encoded Grammar and Context Before Speech"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Speech neuroscience",
+        "Human brain",
+        "Language",
+        "Neural interfaces"
+      ],
+      "uncertainty": [
+        "The small clinical sample limits generalization.",
+        "The study does not demonstrate a ready-to-use thought-reading or speech-restoration device."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Mauritius' economic growth is projected to slow to 2.8% in 2026 as higher commodity costs and weaker tourism weigh on the island economy, the International Monetary Fund said.\n\nReal GDP grew 3.2% in 2025, supported by tourism and financial services while construction contracted. The IMF expects medium-term growth to recover gradually to 3.2% as investment offsets demographic pressure.\n\nInflation eased early in 2026 before rising to 3.6% in April. The fund projects year-over-year inflation near 6.4% by the end of 2026, then a return toward the midpoint of the central bank's 2%–5% target range.\n\nPublic debt reached 86% of GDP at the end of June 2025 after higher current spending widened the fiscal stance. The IMF estimated debt would remain elevated at the end of June 2026.\n\nThe current-account deficit widened to 7.1% of GDP in 2025 and is projected at 7.4% in 2026. Gross international reserves rose to $10.3 billion and remained within the fund's adequacy range.\n\nThe IMF urged fiscal reforms, a stronger monetary-policy framework and closer monitoring of financial risks, while protecting priority social and investment spending.\n\nIt also highlighted productivity, private investment and climate resilience as longer-term needs for an economy exposed to tourism cycles and demographic headwinds.\n\nArticle IV projections are staff estimates built on assumptions about external demand, prices and policy. They are not guarantees, and the outlook was described as tilted to the downside.\n\nThe report's central tension is resilience without much buffer: services continued to expand, but high debt and a wider external deficit leave less room to absorb new shocks.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Mauritius' economic growth is projected to slow to 2.8% in 2026 as higher commodity costs and weaker tourism weigh on the island economy, the International Monetary Fund said."
+        },
+        {
+          "type": "paragraph",
+          "text": "Real GDP grew 3.2% in 2025, supported by tourism and financial services while construction contracted. The IMF expects medium-term growth to recover gradually to 3.2% as investment offsets demographic pressure."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-mauritius-growth-inflation-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/outlook/four-three.webp",
+          "alt": "Graphic shows 3.2 percent growth in 2025, 2.8 percent in 2026 and 6.4 percent year-end inflation.",
+          "caption": "The IMF projects 2.8% growth in 2026 and year-end inflation of about 6.4%.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/15/pr26246-mauritius-imf-executive-board-concludes-2026-article-iv-consultation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inflation eased early in 2026 before rising to 3.6% in April. The fund projects year-over-year inflation near 6.4% by the end of 2026, then a return toward the midpoint of the central bank's 2%–5% target range."
+        },
+        {
+          "type": "paragraph",
+          "text": "Public debt reached 86% of GDP at the end of June 2025 after higher current spending widened the fiscal stance. The IMF estimated debt would remain elevated at the end of June 2026."
+        },
+        {
+          "type": "paragraph",
+          "text": "The current-account deficit widened to 7.1% of GDP in 2025 and is projected at 7.4% in 2026. Gross international reserves rose to $10.3 billion and remained within the fund's adequacy range."
+        },
+        {
+          "type": "paragraph",
+          "text": "The IMF urged fiscal reforms, a stronger monetary-policy framework and closer monitoring of financial risks, while protecting priority social and investment spending."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-mauritius-debt-external-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/buffers/four-three.webp",
+          "alt": "Graphic shows debt at 86 percent of GDP, current-account deficit at 7.1 percent and reserves at 10.3 billion dollars.",
+          "caption": "Public debt reached 86% of GDP at end-June 2025 and the 2025 current-account deficit was 7.1% of GDP.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/15/pr26246-mauritius-imf-executive-board-concludes-2026-article-iv-consultation"
+        },
+        {
+          "type": "paragraph",
+          "text": "It also highlighted productivity, private investment and climate resilience as longer-term needs for an economy exposed to tourism cycles and demographic headwinds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Article IV projections are staff estimates built on assumptions about external demand, prices and policy. They are not guarantees, and the outlook was described as tilted to the downside."
+        },
+        {
+          "type": "paragraph",
+          "text": "The report's central tension is resilience without much buffer: services continued to expand, but high debt and a wider external deficit leave less room to absorb new shocks."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/mauritius-growth-28-percent-debt-86-imf-2026/",
+      "citations": [
+        {
+          "id": "source-imf-mauritius-article-iv-20260715",
+          "title": "IMF Executive Board Concludes 2026 Article IV Consultation with Mauritius",
+          "publisher": "International Monetary Fund",
+          "publishedAt": "2026-07-15T12:00:00Z",
+          "url": "https://www.imf.org/en/news/articles/2026/07/15/pr26246-mauritius-imf-executive-board-concludes-2026-article-iv-consultation"
+        },
+        {
+          "id": "source-imf-mauritius-country-report-2026-178",
+          "title": "Mauritius: 2026 Article IV Consultation",
+          "publisher": "International Monetary Fund",
+          "publishedAt": "2026-07-15T12:00:00Z",
+          "url": "https://www.imf.org/en/publications/cr/issues/2026/07/15/mauritius-2026-article-iv-consultation-press-release-staff-report-staff-supplement-and-577737"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Real GDP grew 3.2% in 2025.",
+        "The IMF projects 2.8% growth in 2026.",
+        "Public debt reached 86% of GDP at end-June 2025.",
+        "Gross reserves rose to $10.3 billion."
+      ],
+      "corrections": [],
+      "dek": "The fund projects year-end inflation near 6.4% and a wider current-account deficit after 3.2% growth in 2025.",
+      "desk": "small-economy-macro-outlooks",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "International Monetary Fund",
+        "Bank of Mauritius"
+      ],
+      "eventId": "event-mauritius-growth-28-percent-debt-86-imf-2026",
+      "headline": "IMF Sees Mauritius Growth Slowing to 2.8%",
+      "id": "article-mauritius-growth-28-percent-debt-86-imf-2026",
+      "leadImage": {
+        "alt": "Port Louis waterfront and city buildings beneath green mountains.",
+        "caption": "Port Louis, Mauritius. The IMF says services remained resilient while debt and external imbalances narrowed the policy room.",
+        "credit": "Ashok Prabhakaran / Wikimedia Commons, CC BY-SA 2.0",
+        "height": 900,
+        "rightsId": "media-mauritius-port-louis-prabhakaran",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/port-louis/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Mauritius",
+        "Port Louis"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-cambodia-growth-inflation-imf-2026-outlook"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The IMF projects slower Mauritius growth, 6.4% year-end inflation and persistently high public debt in 2026.",
+        "index": true,
+        "title": "Mauritius growth seen slowing to 2.8% in 2026, IMF says"
+      },
+      "section": "world",
+      "slug": "mauritius-growth-28-percent-debt-86-imf-2026",
+      "social": {
+        "description": "The fund projects year-end inflation near 6.4% and a wider current-account deficit after 3.2% growth in 2025.",
+        "image": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/port-louis/open-graph.webp",
+        "title": "IMF Sees Mauritius Growth Slowing to 2.8%"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Mauritius economy",
+        "Public debt",
+        "Inflation",
+        "Tourism"
+      ],
+      "uncertainty": [
+        "IMF forecasts depend on external, commodity-price and policy assumptions.",
+        "Debt and current-account ratios may be revised with later national data."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "More than 600 specimens and cultural objects from every state, the District of Columbia and five inhabited U.S. territories anchor a new long-running Smithsonian exhibition.\n\n‘From These Lands: Sharing Our Natural and Cultural Heritage’ opened June 18 at the National Museum of Natural History in Washington and is scheduled to remain through December 2029.\n\nThe exhibition covers 5,000 square feet. The museum says many of the objects are rare or have not previously been displayed.\n\nDisplays pair natural specimens with cultural materials to examine how people identify with place. State symbols include birds, flowers, shells, rocks, gems and fossils.\n\nA section on shorelines draws connections across ocean coasts, Great Lakes and territories. Sixteen of the 23 states with ocean coastlines have official state shells, the museum noted.\n\nThe show also uses mollusks to move beyond a simple coastal frame: more than 100,000 species live in oceans, rivers, lakes, land and trees.\n\nObjects come from a Smithsonian natural-history collection of roughly 148 million specimens and artifacts. The exhibition is selective rather than a comprehensive account of every place.\n\nThe institution framed the show around the United States' 250th anniversary, but its four-year run gives it a life beyond the anniversary season.\n\nThe central curatorial choice is to treat natural and cultural heritage as connected. Visitors still need to distinguish the symbolic examples from complete histories of the communities and ecosystems represented.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "More than 600 specimens and cultural objects from every state, the District of Columbia and five inhabited U.S. territories anchor a new long-running Smithsonian exhibition."
+        },
+        {
+          "type": "paragraph",
+          "text": "‘From These Lands: Sharing Our Natural and Cultural Heritage’ opened June 18 at the National Museum of Natural History in Washington and is scheduled to remain through December 2029."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-from-these-lands-scale-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/scale/four-three.webp",
+          "alt": "Graphic shows 5,000 square feet, more than 600 objects and a run through December 2029.",
+          "caption": "The exhibition spans 5,000 square feet and includes more than 600 specimens and cultural objects.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.si.edu/newsdesk/releases/smithsonian-mark-nations-250th-exhibition-presenting-americas-shared-natural-and"
+        },
+        {
+          "type": "paragraph",
+          "text": "The exhibition covers 5,000 square feet. The museum says many of the objects are rare or have not previously been displayed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Displays pair natural specimens with cultural materials to examine how people identify with place. State symbols include birds, flowers, shells, rocks, gems and fossils."
+        },
+        {
+          "type": "paragraph",
+          "text": "A section on shorelines draws connections across ocean coasts, Great Lakes and territories. Sixteen of the 23 states with ocean coastlines have official state shells, the museum noted."
+        },
+        {
+          "type": "paragraph",
+          "text": "The show also uses mollusks to move beyond a simple coastal frame: more than 100,000 species live in oceans, rivers, lakes, land and trees."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-from-these-lands-geography-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/geography/four-three.webp",
+          "alt": "Graphic lists 50 states, Washington D.C. and five inhabited territories.",
+          "caption": "Displays represent all 50 states, the District of Columbia and five inhabited U.S. territories.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.si.edu/newsdesk/releases/smithsonian-mark-nations-250th-exhibition-presenting-americas-shared-natural-and"
+        },
+        {
+          "type": "paragraph",
+          "text": "Objects come from a Smithsonian natural-history collection of roughly 148 million specimens and artifacts. The exhibition is selective rather than a comprehensive account of every place."
+        },
+        {
+          "type": "paragraph",
+          "text": "The institution framed the show around the United States' 250th anniversary, but its four-year run gives it a life beyond the anniversary season."
+        },
+        {
+          "type": "paragraph",
+          "text": "The central curatorial choice is to treat natural and cultural heritage as connected. Visitors still need to distinguish the symbolic examples from complete histories of the communities and ecosystems represented."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/from-these-lands-smithsonian-600-objects-2029/",
+      "citations": [
+        {
+          "id": "source-smithsonian-from-these-lands-20260408",
+          "title": "Smithsonian To Mark Nation's 250th With Exhibition Presenting America's Shared Natural and Cultural Heritage",
+          "publisher": "Smithsonian Institution",
+          "publishedAt": "2026-04-08T12:00:00Z",
+          "url": "https://www.si.edu/newsdesk/releases/smithsonian-mark-nations-250th-exhibition-presenting-americas-shared-natural-and"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The exhibition includes more than 600 objects.",
+        "It spans 5,000 square feet.",
+        "It represents all 50 states, D.C. and five inhabited territories.",
+        "It is scheduled through December 2029."
+      ],
+      "corrections": [],
+      "dek": "The 5,000-square-foot Natural History Museum show represents every state, D.C. and five inhabited U.S. territories through December 2029.",
+      "desk": "museum-exhibitions-and-collections",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Smithsonian Institution",
+        "National Museum of Natural History"
+      ],
+      "eventId": "event-from-these-lands-smithsonian-600-objects-2029",
+      "headline": "Smithsonian's ‘From These Lands’ Opens With 600 Objects",
+      "id": "article-from-these-lands-smithsonian-600-objects-2029",
+      "leadImage": {
+        "alt": "National Museum of Natural History facade and entrance on the National Mall.",
+        "caption": "The Smithsonian National Museum of Natural History in Washington. ‘From These Lands’ uses more than 600 collection objects to connect places across the United States and territories.",
+        "credit": "Gary Todd / Wikimedia Commons, CC0",
+        "height": 900,
+        "rightsId": "media-from-these-lands-nmnh-gary-todd",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/museum/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington, D.C.",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-smithsonian-voices-votes-democracy-exhibit-september-7-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The Natural History Museum exhibition spans 5,000 square feet and represents every state, D.C. and five territories.",
+        "index": true,
+        "title": "Smithsonian ‘From These Lands’ exhibition brings together 600 objects"
+      },
+      "section": "culture",
+      "slug": "from-these-lands-smithsonian-600-objects-2029",
+      "social": {
+        "description": "The 5,000-square-foot Natural History Museum show represents every state, D.C. and five inhabited U.S. territories through December 2029.",
+        "image": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/museum/open-graph.webp",
+        "title": "Smithsonian's ‘From These Lands’ Opens With 600 Objects"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Museums",
+        "Natural history",
+        "Cultural heritage",
+        "Smithsonian Institution"
+      ],
+      "uncertainty": [
+        "The museum describes many objects as rare or never before displayed but does not provide a count for that subset.",
+        "A selective exhibition cannot represent every community or ecosystem comprehensively."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Women's College Cup moves one week later beginning with the 2026 season, putting the Division I men's and women's soccer championships on the same December weekend.\n\nThe NCAA Division I Sports Oversight Committee approved placing the women's semifinals and final on the second full weekend in December. They had been held on the first full weekend.\n\nCary, North Carolina, was already selected to host both College Cups in 2026 and 2027, so the two championships will share the same host city and weekend.\n\nThe schedule change follows legislation that added two weeks to the playing season. The NCAA said the longer calendar was intended to allow more rest and reduce missed class time.\n\nMoving the championship later does not itself add games. It changes how the existing tournament fits within the expanded season.\n\nThe committee also required preliminary-round hosts to provide video review beginning with the 2025 men's and women's championships, extending technology previously used in the semifinals and finals.\n\nThat requirement is separate from the two coach challenges adopted for the 2026–27 soccer rules cycle. Championship-host infrastructure and in-game challenge rules govern different parts of review.\n\nThe NCAA announcement sets the formula and host years, not exact 2026 match times. Broadcast and session details can be published closer to the tournament.\n\nFor teams, the practical consequence is a longer path to the final weekend with more recovery space in the season. The actual effect on missed class time will depend on scheduling throughout the tournament.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Women's College Cup moves one week later beginning with the 2026 season, putting the Division I men's and women's soccer championships on the same December weekend."
+        },
+        {
+          "type": "paragraph",
+          "text": "The NCAA Division I Sports Oversight Committee approved placing the women's semifinals and final on the second full weekend in December. They had been held on the first full weekend."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-womens-college-cup-calendar-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/calendar/four-three.webp",
+          "alt": "Graphic shows the Women's College Cup moving one week later to the second full December weekend.",
+          "caption": "Beginning in 2026, the Women's College Cup moves from the first to the second full weekend in December.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ncaa.org/news/2025/4/14/media-center-di-womens-soccer-championship-schedule-to-shift-beginning-in-2026.aspx"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cary, North Carolina, was already selected to host both College Cups in 2026 and 2027, so the two championships will share the same host city and weekend."
+        },
+        {
+          "type": "paragraph",
+          "text": "The schedule change follows legislation that added two weeks to the playing season. The NCAA said the longer calendar was intended to allow more rest and reduce missed class time."
+        },
+        {
+          "type": "paragraph",
+          "text": "Moving the championship later does not itself add games. It changes how the existing tournament fits within the expanded season."
+        },
+        {
+          "type": "paragraph",
+          "text": "The committee also required preliminary-round hosts to provide video review beginning with the 2025 men's and women's championships, extending technology previously used in the semifinals and finals."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-womens-college-cup-cary-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/cary/four-three.webp",
+          "alt": "Graphic lists Cary, North Carolina, both College Cups and the 2026 and 2027 seasons.",
+          "caption": "Cary will stage both the men's and women's Division I soccer championships on the same weekend in 2026 and 2027.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ncaa.org/news/2025/4/14/media-center-di-womens-soccer-championship-schedule-to-shift-beginning-in-2026.aspx"
+        },
+        {
+          "type": "paragraph",
+          "text": "That requirement is separate from the two coach challenges adopted for the 2026–27 soccer rules cycle. Championship-host infrastructure and in-game challenge rules govern different parts of review."
+        },
+        {
+          "type": "paragraph",
+          "text": "The NCAA announcement sets the formula and host years, not exact 2026 match times. Broadcast and session details can be published closer to the tournament."
+        },
+        {
+          "type": "paragraph",
+          "text": "For teams, the practical consequence is a longer path to the final weekend with more recovery space in the season. The actual effect on missed class time will depend on scheduling throughout the tournament."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/ncaa-womens-soccer-college-cup-second-weekend-december-2026/",
+      "citations": [
+        {
+          "id": "source-ncaa-womens-college-cup-schedule-20250414",
+          "title": "DI Women's Soccer Championship schedule to shift, beginning in 2026",
+          "publisher": "NCAA",
+          "publishedAt": "2025-04-14T12:00:00Z",
+          "url": "https://www.ncaa.org/news/2025/4/14/media-center-di-womens-soccer-championship-schedule-to-shift-beginning-in-2026.aspx"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The Women's College Cup moves to the second full December weekend.",
+        "The change begins with the 2026 season.",
+        "Cary will host both College Cups in 2026 and 2027.",
+        "The playing season was expanded by two weeks."
+      ],
+      "corrections": [],
+      "dek": "The NCAA schedule puts the women's and men's Division I soccer championships on the same December weekend in Cary, North Carolina.",
+      "desk": "college-soccer-competition-format",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NCAA",
+        "Division I Sports Oversight Committee",
+        "Women's College Cup",
+        "Men's College Cup"
+      ],
+      "eventId": "event-ncaa-womens-soccer-college-cup-second-weekend-december-2026",
+      "headline": "Women's College Cup Moves One Week Later in 2026",
+      "id": "article-ncaa-womens-soccer-college-cup-second-weekend-december-2026",
+      "leadImage": {
+        "alt": "Women's soccer match under stadium lights at WakeMed Soccer Park.",
+        "caption": "A professional match at WakeMed Soccer Park in Cary, North Carolina. Cary will host the men's and women's College Cups on the same weekend in 2026 and 2027.",
+        "credit": "Hameltion / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-womens-college-cup-wakemed-hameltion",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/wakemed/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Cary, North Carolina",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-ncaa-soccer-two-video-challenges-2026-27"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The NCAA will stage the men's and women's Division I soccer championships on the same December weekend in Cary.",
+        "index": true,
+        "title": "Women's College Cup moves one week later starting in 2026"
+      },
+      "section": "sports",
+      "slug": "ncaa-womens-soccer-college-cup-second-weekend-december-2026",
+      "social": {
+        "description": "The NCAA schedule puts the women's and men's Division I soccer championships on the same December weekend in Cary, North Carolina.",
+        "image": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/wakemed/open-graph.webp",
+        "title": "Women's College Cup Moves One Week Later in 2026"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "College soccer",
+        "Women's sports",
+        "NCAA championships",
+        "Competition schedule"
+      ],
+      "uncertainty": [
+        "Exact 2026 match and broadcast times were not included in the source announcement.",
+        "The schedule change's effect on rest and class time will depend on team-specific calendars."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T11:40:50.638Z",
+  "generatedAt": "2026-08-11T12:44:07.666Z",
   "inputHashes": {
+    "sourceItems": "ee9fb4ce8c2d002aee7b8a321972ff2eb3a0665bbfb5bfd30938493448cf792a",
+    "events": "8005857da56b6f5aba6c96774b4fc334b6ffd660953d3424d70f12394e883a66",
+    "claims": "51c4300df3cdbd0c3df5e5e9f686df91645c54f420ee839fd2eea992531d4407",
+    "articles": "1235130c456239e0c5d476a0897f08284396efde02494973040a00d5d57f0963",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
-    "articles": "4d91f34b6880498eec403af543ff1ea723f17a46f3c02f54d92e4935f6770535",
-    "claims": "b7cade3aa391caa3f6680255a222efc444028463605b9dc470c17761c940fe85",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "ada30467c455084278b87a0390c646add21f0089b813714e2b4e24baef273d82",
-    "mediaRights": "cd3d4410a2bc79091ee4639f6d37056379e4b61b7aba2de2257700925fe1905c",
-    "publicationIntents": "958045968a2dfe187e44fddfe43781181a2a8df78570d08bf771038828bc246d",
+    "mediaRights": "c909915f2276efe21afc04875be68f49a5762073afe35f305e724f60cd306c31",
     "releaseRecords": "fc996113c292721382aa91bced5dda519a68307da5feecf187245447b9490ccb",
-    "sourceItems": "94d58ea73622d475eacec99ec89deb9d898f78cf069eea7f5744d3133c3e9c03"
+    "publicationIntents": "3fe8fc5bb7e09f481cf4b771cd63538403124603e3ca815cd3e60411fc28a697"
   },
   "inventory": {
-    "articleCount": 315,
-    "mediaCount": 931,
-    "routeCount": 315
+    "articleCount": 321,
+    "routeCount": 321,
+    "mediaCount": 949
   },
   "mediaRights": [
     {
@@ -122568,9 +123470,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Historic federal courthouse with columns and palm trees in Miami.",
+      "archivalStatus": "current",
+      "attribution": "Carol M. Highsmith / Library of Congress",
+      "caption": "The David W. Dyer Federal Building and U.S. Courthouse in Miami. The Middle District of Florida recorded the most federal tax-fraud sentences in fiscal 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Carol M. Highsmith",
+      "derivatives": [
+        {
+          "hash": "9641a9ccaf097a8c463e3f716dee8c5f24ee500e87653420fcde61f1fcb5e15d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/miami-courthouse/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5f159841b15afb98344f9f03035c0a65c237b8b37e030aafd6d41590b0d4ba7d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/miami-courthouse/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ee13f4abab775ad1d54622360f9625afa8782badd94e0203429b5737eb911637",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/miami-courthouse/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9daa1bf8401b25583eea2802f73af0a19781a191617b8458e216de4cef6797a4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/miami-courthouse/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "df7f8045b8ac821d28be6b06729c5347e2643d98e67bf26570a84079c21ed55f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/miami-courthouse/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2fe32f67da93d9c66b029c2aa742befd72516d3c892e9eead853c34c31668ae4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/miami-courthouse/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a879873cd92b51180e31b111d7d51460f9e911020d90fdbe2a91f72fd67f2466",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/miami-courthouse/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-tax-fraud-miami-courthouse-highsmith",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "a5de438d9bc5420837308eac8bdd500479ecdae7f63977a2f3f3390a797f870d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Carol M. Highsmith donated the Library of Congress photograph to the public domain; Commons records it as public domain.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exterior,_David_W._Dyer_Federal_Building_and_U.S._Courthouse,_Miami,_Florida_LCCN2010719000.tif"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 324 cases, a 546,562 dollar median loss and a 12 percent decline since 2021.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The commission counted 324 tax-fraud cases and a median loss of $546,562 in fiscal 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "7a6283085bc21cac0a286bb067bafbf47f8e884279532f7fc0608bb598f86723",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/cases-loss/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9187c7f05f0acdf3eb43336799c2a7f0bf5a6968375b003262c88080dc5085a0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/cases-loss/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "94bd6bbcd0bbe6ef2760cd71be8a4e38516330226a1717dcc1ac306b5797a8c3",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/cases-loss/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7ee7bd0d0d3f0d7f1d28ef2f6c8c2db6fc82e86b1339b4b7c2367bef7134be8c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/cases-loss/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2c7b9aa951d1a12353049e30b7c782552d500d545053069106aa428da6859513",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/cases-loss/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5e8099e6a428a61f3513cb5c6ee026e89a592e043aaf1d0ed4693ff8c4f87ae4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/cases-loss/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a40e0c78ff6df600e8f13619908934c81deb18350aba16e604d256d5728bebaf",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/cases-loss/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-tax-fraud-cases-loss-fy2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "7ee7bd0d0d3f0d7f1d28ef2f6c8c2db6fc82e86b1339b4b7c2367bef7134be8c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/tax-fraud"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 68 percent imprisoned, a 17 month average sentence and 57 percent variances.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Sixty-eight percent received prison sentences; the average prison term was 17 months.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "a2491b8549126d7de6e04438b3bf7418c6284b78c98f753d0e0d6a098a4cb3bc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/punishment/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6b1165ee6f762d811fa6d0dd6a3d4139cd3ed56ed8e85569c3738dcb85655c9e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/punishment/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "68977e897697a214257f63f66150133227fa921ea657b6ebbb00fe256bef74d4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/punishment/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "02f089e0cfb068f9c8297685c26ab7983f4205db9c2085f9f0dbad745ab3daa9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/punishment/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c7593bffd503ebbaa0038a05b35948dd29d3d8a253665dddeac55265a7279757",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/punishment/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a40eaba18ad3d4da51586026289025025d991151779e4ae76c018da1d91b65a7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/punishment/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "9bcd064034844481152af6067d46c27ae22bf2b38614e6cebefb5722805c04d5",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/tax-fraud/punishment/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-tax-fraud-punishment-fy2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "02f089e0cfb068f9c8297685c26ab7983f4205db9c2085f9f0dbad745ab3daa9",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/tax-fraud"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Carolina Theatre marquee and brick facade in downtown Durham.",
+      "archivalStatus": "current",
+      "attribution": "Warren LeMay / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "The Carolina Theatre in downtown Durham, North Carolina. The Durham–Chapel Hill metro posted one of the largest increases in the share of adults with a bachelor's degree or higher.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Warren LeMay",
+      "derivatives": [
+        {
+          "hash": "2aa2e71a53623d0604c192baea15193554070fb1070b934cc9fab5084644e580",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/durham/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "156ccd2b0520ae5d685e5dd372325465c3ab422623da8c3dba825503fdc90a49",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/durham/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bf60262ef14cf6eb2ef7aebd097bf3bb63df119be0de574821ac0f9246cd0b3e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/durham/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6d30979aa3dc5698befbab410bd2a2bc40f0ceec5ebd3ea9c833bc90dd645aca",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/durham/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "92e885fd49485095f2700d861d516c9cede29456ee2447eae5b7a44690e24b80",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/durham/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "fbb6a02f2cd6a45806f1463c0ec56b6146e11b386e5cf244312718cc1f2a9965",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/durham/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2b53aa4c4b4fbd096d17d5dedf6a4665a3c947c6f90e1f336b0d87ade012d0a3",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/durham/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-education-durham-carolina-theatre-lemay",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "891384c3aea76afb89a07788ae188f1379e1ca59fe8b07ae1de9e3abf273b1ba",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "The photographer licensed the image CC BY-SA 4.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carolina_Theatre,_Durham,_NC.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows metro educational attainment rising from 34.2 percent to 37.8 percent.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The share of metro-area adults with a bachelor's degree or higher rose from 34.2% to 37.8% between the two five-year periods.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "06d782fd6d0454720934649996ea07d1fcd20c338c7a0308347ab141493a6bde",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/metro-change/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c30ef7b3c91cbbf6e74ed708a05caf988a9c3125f10aed446de65e984692ca02",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/metro-change/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "219e0079a60b10d19968de111e7e116fd60b7e681427e439452b343d95b6675b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/metro-change/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b0c5050daf89727071f0f5738a4bb7371510a4b0d9ebbd6b4efdfe9c9db3720d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/metro-change/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6106cfe51135236c7e63147aab592fe3ffcbd03c456732e5e5015129e3150e6b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/metro-change/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8127ce001577d45b6c9d957aa854760fd26c2560568696726d4aa982ab8fb9d8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/metro-change/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7d9cbb427b8fef1b495fb869d9b205f752cd2d06e1acd1a2969bacae309e377d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/metro-change/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-education-metro-change-2024",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "b0c5050daf89727071f0f5738a4bb7371510a4b0d9ebbd6b4efdfe9c9db3720d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/acs-5-year-gains-educational-attainment.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares educational attainment changes in Durham Chapel Hill, Taos and Springfield.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Durham–Chapel Hill gained 8.1 points and the Taos micro area gained 9.8 points; Springfield, Massachusetts, declined.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "5f89dc8dcba11c5c19b389283eb20ae3e1c73aaffc947bd3e192aedbf26dcecb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/local-changes/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8412d0c4d2d3e4e37412fd1ee0f42d207a31c078cf945aa10f0f5cb5afff7529",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/local-changes/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "12eaec1293d49be13698e60ef31320c3a5e2f9ea8caff9daa3cdcb4bbec74b8e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/local-changes/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ed2ae1284accbbead8e41cc35fa32add37e034bee01bfaefe0162c161cf93d0f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/local-changes/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b9d27687c482cbe4978b362e758bb3514f66e0a5ecf43e44fb791ac38f29f804",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/local-changes/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "08dcb2033c6645572e3daa8698f4f59a2c04084dff7f6c7dd33d4e6c570c4b42",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/local-changes/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b31793deca36a8bc147c5ffe5f66ff32b9b3bebd58726fb34fafbc5b5f3b87f2",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/education/local-changes/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-education-local-changes-2024",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "ed2ae1284accbbead8e41cc35fa32add37e034bee01bfaefe0162c161cf93d0f",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/acs-5-year-gains-educational-attainment.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Brick and stone Bulfinch Building at Massachusetts General Hospital.",
+      "archivalStatus": "current",
+      "attribution": "Kenneth C. Zirkel / Wikimedia Commons, CC BY 4.0",
+      "caption": "The Bulfinch Building at Massachusetts General Hospital in Boston. Researchers there recorded neuronal activity during natural conversation.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Kenneth C. Zirkel",
+      "derivatives": [
+        {
+          "hash": "8f6a400625d2f3e754f8725e4f5f80af0c561bf82f821328f2b53a43893fea58",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/mgh/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9922c5fa7267562bdb788b19d751383cb0df552070c2cb6abf23203f80e0dc51",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/mgh/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9b0d7b5158db475818a53bea9580167b0426ed47bb234ed1ad2467d120811542",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/mgh/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8e9a7edf3b90ab6c25319220e8685d67e127bf74f84492b58ff88a75c29804fb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/mgh/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "bcf246c238441e08305c038bed0f4e6c4866a6c7f3120cb5d698ebeb610f00a9",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/mgh/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "78c01d1ff5513cb6955fdd5dd137e7db0c57f28ec8bd5d6d676746fec76ba99e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/mgh/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2684428742ebbc03bedc856f17b80701bf065e3acdb6a041f2d5ab7a0f2ccff2",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/mgh/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-speech-neurons-mgh-bulfinch-zirkel",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "39d05fe146a594919d73e2e97b73633e2551c448fbb52cbe498d5660e949df41",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "The photographer licensed the image CC BY 4.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bulfinch_Building_at_Massachusetts_General_Hospital,_2024.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows eight participants, hundreds of neurons and natural English conversation.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The study aligned natural conversations from eight patients with recordings from hundreds of frontotemporal neurons.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "68bb98a6f5de6626e6bd4e609644327a078cad0acbcf0a5cb17ca2e3171ca7a8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/design/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8bd55180231e16e672f01c29d07864067e2f30c410f3e0a747e50aa044ca3d00",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/design/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "620fa08480c0b1f4b298591d3a1a9fa6543d78dd5a51273d8b7a83c6c3564fae",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/design/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4921c2b3bbf202a75966771e1eb8ae85c095cb9ff7cd26886f5bae570796ac9a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/design/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1b8edb27526e72b3d17a0cdb42100c536b7e49c28e9bb93f770ef571f9a095e9",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/design/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "9fc85da92bd981d8bf81ba9f7486e0c89d073fdb7538f3d634c5a6aca56c9acf",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/design/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f2c2823f5cbf31b057d472199bd6d9745197de565c46be8f9deb702c9418839c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/design/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-speech-neurons-study-design-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4921c2b3bbf202a75966771e1eb8ae85c095cb9ff7cd26886f5bae570796ac9a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nih.gov/news-events/news-releases/researchers-discover-single-cell-brain-activity-underlies-human-speech"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists meaning, grammatical roles and sentence context detected before speech.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Models linked pre-speech neuronal activity with word meaning, grammar and sentence context.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "db2b4fdcce57b1c0bef4f3cc54425779c580771490254a111895c448d048d65c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/signals/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "749c4f77cd5613122a2f05fafdacb8e6b86726508e321ec5cc20b6e9556a7347",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/signals/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9ad18fd11f030f42601814e8f687c00aa89615e5fb74fea4fb26385aead70bb0",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/signals/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5e2a34e6aa0f136a6e3f4852e6e2651d977d2dfb284dd736476710bd8f0c2f97",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/signals/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "237ac7f35668ff058a354ab12b4eb545c7ac104149a29fe97e7f3fe8649fb42d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/signals/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "72b237636e74ebb6c0a9581f03e6321dd018a824c7c502263ee4ef184810beec",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/signals/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c31bfd25430ab6c2ac54073b0ca8ddb8eda95049a90440e965f9f3df9a8657cc",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/speech-neurons/signals/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-speech-neurons-language-signals-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5e2a34e6aa0f136a6e3f4852e6e2651d977d2dfb284dd736476710bd8f0c2f97",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nih.gov/news-events/news-releases/researchers-discover-single-cell-brain-activity-underlies-human-speech"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Port Louis waterfront and city buildings beneath green mountains.",
+      "archivalStatus": "current",
+      "attribution": "Ashok Prabhakaran / Wikimedia Commons, CC BY-SA 2.0",
+      "caption": "Port Louis, Mauritius. The IMF says services remained resilient while debt and external imbalances narrowed the policy room.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Ashok Prabhakaran",
+      "derivatives": [
+        {
+          "hash": "5ccbc2c07734dafac55d19d31519b93b2ca2c334f2f3643b729139d42d7bd6c6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/port-louis/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1ee48fa78813c8f4c799c518b1c53be412a02fc566a806e554ff082e22088207",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/port-louis/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "31948523f69f36b5b58818cd44ade25699ae3cb7221c9cffc6614515e19ef384",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/port-louis/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d019a72514d843e7a639d456c25fd96b04be78649be1a839eb6f963deb1eb81e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/port-louis/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ae8bde2547752b4d94a79bffc7cc296a274c3fedbf428d303b1748eb5a809ddb",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/port-louis/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a0dd5c1fa7343bfabc0c57c57ca2a09c8237c610c22a1b8ff5ced6b8586d04f0",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/port-louis/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "42baeebbab3e36230fbeb882516d29913b45de0ac573a54a1918ed6ccbb15929",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/port-louis/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-mauritius-port-louis-prabhakaran",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 2.0",
+      "originalFileHash": "2439ca7e2fb49a159cbfdae4cff2e1a9c83175d21f2a15647cc5833f7c2db60b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "The photographer licensed the image CC BY-SA 2.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Port_Louis,_Mauritius.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 3.2 percent growth in 2025, 2.8 percent in 2026 and 6.4 percent year-end inflation.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The IMF projects 2.8% growth in 2026 and year-end inflation of about 6.4%.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "873abc9051c942591fcf2ef8e2d9da77594b57b9077b852c94c4cf6d0bb5336c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/outlook/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6fa7aaf21f132f4262abceebd8d2b8bd4c7ebbb794ff4fba68e521be765c7e0f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/outlook/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "83bf8d93c2f8cbea3ab2270578484cbab2a538d34e9f9ee48f45d78bbdf62d04",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/outlook/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "511a01b438d9b0177f7b927d5f30164ee7ec3a203b54ad972a32400a914a7d47",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/outlook/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f3084fa4e84e5bbfc7c8f0bfe7b9c8c0c188210773a47e3df637cbd4a040a5ba",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/outlook/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2b625d5e3e8fb2937387036c0dcbb109ce7f74fcd60d82c14f2d1c97b2a55842",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/outlook/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0473403d05c0825d6e02a55b01cc21b760f79971d09ea77ae5152d8072e242c8",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/outlook/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-mauritius-growth-inflation-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "511a01b438d9b0177f7b927d5f30164ee7ec3a203b54ad972a32400a914a7d47",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/15/pr26246-mauritius-imf-executive-board-concludes-2026-article-iv-consultation"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows debt at 86 percent of GDP, current-account deficit at 7.1 percent and reserves at 10.3 billion dollars.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Public debt reached 86% of GDP at end-June 2025 and the 2025 current-account deficit was 7.1% of GDP.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "aa5246cb59ad914396b0f752cc0a5a911ebf329c727436bc3b2c8f6d460e489f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/buffers/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "330f0edbf06b4ca7b95d9318917bd9825363a31ef9adb281f1e0dc550f61c8c2",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/buffers/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3c0074405c45968d38c5ad278baea26045371ae2e84e51c162943fc1338d7100",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/buffers/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e3f072187d11aa63ebc8e6666f1ceae3faab03a393e6b7e2039c1270b0eef4fc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/buffers/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5313e959042703f8143c6ab825b79455b8bd34221ae83ee4886c3c217652470b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/buffers/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "bc8928579bd35fccd7707357f8351a61b85d0789328a9b14011db7a6b42ce6d1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/buffers/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "bd22e7db22af1137e1a196d201fee5448af4f719d14701f605dfa5a0c15c2801",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/mauritius/buffers/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-mauritius-debt-external-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "e3f072187d11aa63ebc8e6666f1ceae3faab03a393e6b7e2039c1270b0eef4fc",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/15/pr26246-mauritius-imf-executive-board-concludes-2026-article-iv-consultation"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "National Museum of Natural History facade and entrance on the National Mall.",
+      "archivalStatus": "current",
+      "attribution": "Gary Todd / Wikimedia Commons, CC0",
+      "caption": "The Smithsonian National Museum of Natural History in Washington. ‘From These Lands’ uses more than 600 collection objects to connect places across the United States and territories.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Gary Todd",
+      "derivatives": [
+        {
+          "hash": "19d69e4549c68b81182ddeb55705efc17601ebccc3ee5bce7c885c64866cae7c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/museum/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ee96efd64f6f31902fffc319343ce15023e70547e60ae833b5d995d0abe944d1",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/museum/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "aed3782b9687aeb28dbf4a6df07d2674fafbbe7e7cbfa9b9e16b3a30934c312b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/museum/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a6c8ae7ea9959b4523b04535bd6fc19002b879aa78ed3f954350983ef181ee4d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/museum/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0e8314eae817cb0fe24d2727bda8c1d1e8dd971aa9fbe520454ad6b3d15b404f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/museum/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "369e9bf7b0a4c8acdcb1c02a258f0a848eb6b1f8b82ed3fde407029a8dd31d26",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/museum/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f0ddbd3ca3f469ab5044c1b168cf630d4282c021e3a9073bc78d89147d3831c8",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/museum/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-from-these-lands-nmnh-gary-todd",
+      "illustrationLabel": null,
+      "license": "CC0 1.0",
+      "originalFileHash": "09a67bc8b738f95f64eaacecb5c59657bd669eb6f7b6362e575b0d60006f59bf",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "The photographer released the image under the CC0 1.0 public-domain dedication on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Natural_History_Museum,_Smithsonian_Institution_(10436462115).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 5,000 square feet, more than 600 objects and a run through December 2029.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The exhibition spans 5,000 square feet and includes more than 600 specimens and cultural objects.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "16f0451d37027969823f54456b003346ac2cad875eaa7bedbf14ec4c90902754",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/scale/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1509195db1cd2092ab0c6cf53a36cd10e05285580b10f51153d8dc2ec2aa54a5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/scale/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5a7e5aebcdec7a549005ead38bb3b818f04994a8cec44e4dd3386dc5acf6939f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/scale/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "58a29a96723828006c3b76d40ea1e4875ee2e953c1ff24ab41eccd042403bdad",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/scale/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3140a2503d6826019e558a581e3896f7c58548cee051d8b4da1068e99b36b436",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/scale/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8f0d105d88fad4e9a961e6a3ec3ef128658bd53f6acbdd1163e8d05f4b8c76e3",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/scale/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c2e60754ec06d57777976f3fedb7e7160708fd7b5c7cdbc814942a9d93736bfe",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/scale/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-from-these-lands-scale-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "58a29a96723828006c3b76d40ea1e4875ee2e953c1ff24ab41eccd042403bdad",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.si.edu/newsdesk/releases/smithsonian-mark-nations-250th-exhibition-presenting-americas-shared-natural-and"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 50 states, Washington D.C. and five inhabited territories.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Displays represent all 50 states, the District of Columbia and five inhabited U.S. territories.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d4addb81c20386b3750cf75fc855e362e0822234b971cb878e87753f5b4a4c88",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/geography/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "48be27b2ecc6c62b32d8d9aace40edd9f49d6c5e4cd435e71ee2a8cc438060ca",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/geography/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e7bb802c1204cca888aec5ee8c03c044172056c21eb780910e960231bac45abc",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/geography/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6bb0f5841b1d9cf9e9ae47620111d70bba144531f93ae8c37509ce8239e1a915",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/geography/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "35768e4fd96af9195e386baabe4f7a3b25280b36b099d2a6b6b1eac75f865ed1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/geography/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "12f2d7ba66718ac174e1802f0e60250d72a6f7989a8e28ed9879b25112b365df",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/geography/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f6355932007a9c3dadcf954c07a0745058a3dee29118fdaa6e77461e08fe4141",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/from-these-lands/geography/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-from-these-lands-geography-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "6bb0f5841b1d9cf9e9ae47620111d70bba144531f93ae8c37509ce8239e1a915",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.si.edu/newsdesk/releases/smithsonian-mark-nations-250th-exhibition-presenting-americas-shared-natural-and"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Women's soccer match under stadium lights at WakeMed Soccer Park.",
+      "archivalStatus": "current",
+      "attribution": "Hameltion / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "A professional match at WakeMed Soccer Park in Cary, North Carolina. Cary will host the men's and women's College Cups on the same weekend in 2026 and 2027.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Hameltion",
+      "derivatives": [
+        {
+          "hash": "1b6c67e8e87976c82773f7acfeffb6f1b03000c780d6f408eb3489fe73f027a7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/wakemed/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "374498062a86fee113afb77abcc41f34d8ceed9f29f257e87c46cd1f89ee86aa",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/wakemed/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e1183ca5312f6f422b84897d8b9a3db4bc9b02251e9e8ba2627f7aaac1f1af3e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/wakemed/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "0b1d4858d945080861179d283e6b0e23ece00b6d3962be7b661790008e277dcf",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/wakemed/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "359da9a52dd31c1db35a991ac767d07232e59aa178b1b0a2005b7876d6f447c8",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/wakemed/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "313cfb18707da3c3f82fda28656a7c4c40b108ced9ecfbed49edd6fd88f55bdd",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/wakemed/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "be6579c3dffce56ad0b0a05d5d3e2c5d484704c894a813bbc0a9858b6016d6bb",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/wakemed/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-womens-college-cup-wakemed-hameltion",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "3bb6903ccf554e4e7295bbe919cfc29598a1bbf26f2ba49754ee17e55b9542d2",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "The photographer licensed the image CC BY-SA 4.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Gotham_FC_2023-05-03_09.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the Women's College Cup moving one week later to the second full December weekend.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Beginning in 2026, the Women's College Cup moves from the first to the second full weekend in December.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "e215ceeaa513379d3e032fefdb04e92e37fefef7fb21163a4b958019f03238f5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/calendar/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "db580d647065f1be6a92c56f38d24ee6b1cdaba1ded3eda9a7c8e162986f3295",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/calendar/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "55e0475a075cf01053bfb1058686c26515d6bc171fb6cbcc4137144587335a09",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/calendar/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "dcdfd2204b586fe4c361f3405f501a6cd7a267470b4f02063206d4716d1f4451",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/calendar/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b8499a8dceafd9910f1a882c48d35449abc246bd95e461f957f8107c364298e2",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/calendar/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a2a7c41406eeb941acdf39668dfea93d52ca9ad3b046d7fe57945ae269d6b7b6",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/calendar/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "593c569d710841ef52b54b7b894ad9aa0c6689d7e6dccc216c231fcd1d15d2fe",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/calendar/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-womens-college-cup-calendar-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "dcdfd2204b586fe4c361f3405f501a6cd7a267470b4f02063206d4716d1f4451",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ncaa.org/news/2025/4/14/media-center-di-womens-soccer-championship-schedule-to-shift-beginning-in-2026.aspx"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists Cary, North Carolina, both College Cups and the 2026 and 2027 seasons.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Cary will stage both the men's and women's Division I soccer championships on the same weekend in 2026 and 2027.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "cad7e44354e1b44dc2f91c23e611cd87ad5b78489deb0ee26f6e14705a1a3a1d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/cary/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e6bf479d0b35f98fb89034c14d91f799b6979236e0c68c0b6794e16cab611745",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/cary/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "37eea9f9c988ec0ead4bafffd486d157dda88b640b619931f2c9f60a00f708c5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/cary/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "591e21ba1615e25ae7b959ffaed54b8e7500a68151b75df0d1c7c5292ba3ae2c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/cary/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "17f3e940d18e498e86876f3c0911a7a64fa719bc0bcf44f3758fce7d72ee72e8",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/cary/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "abc5ccba36ac92ab0553a06db1150bb616d23e3647e4326ad619c068c12248b5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/cary/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0476951d2b4bb8de52de128356fd2611e94c7d7d317e0e1f7035e10733a9cb2d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-120523/womens-college-cup/cary/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-womens-college-cup-cary-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "591e21ba1615e25ae7b959ffaed54b8e7500a68151b75df0d1c7c5292ba3ae2c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T12:44:07.569Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ncaa.org/news/2025/4/14/media-center-di-womens-soccer-championship-schedule-to-shift-beginning-in-2026.aspx"
     }
   ],
-  "packageDigest": "d83cc576e9ba42c8256573ad3b7b3911b23bde7e39f54923481f1184c870806b",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -124497,7 +126766,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "ced8e2d98c755fc71a30f92a553334bda32244478d1bab390c0a1a4ec3a41aca"
 }
