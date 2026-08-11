@@ -1,0 +1,263 @@
+[
+  {
+    "slug": "hybrid-electric-saab-340-flight-above-30000-feet",
+    "headline": "Hybrid-Electric Saab 340 Flew Above 30,000 Feet",
+    "dek": "NASA says the megawatt-class system combined electric motors, a gas turbine and energy storage in a regional-aircraft demonstration.",
+    "section": "technology",
+    "desk": "electrified-aviation-demonstrations",
+    "topics": ["Hybrid-electric aircraft", "Aviation technology", "Electric propulsion", "Regional aviation"],
+    "entities": ["NASA", "GE Aerospace", "Farnborough International Airshow"],
+    "locations": ["Farnborough, United Kingdom", "United States"],
+    "relatedSlugs": ["faa-1-776-billion-airport-grants-46-states-2026"],
+    "sources": [{"id":"source-nasa-hybrid-electric-flight-2026","title":"NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration","publisher":"NASA","publishedAt":"2026-07-20T12:00:00Z","url":"https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/"}],
+    "lead": {
+      "id": "media-hybrid-saab-farnborough-colin-cooke",
+      "dir": "hybrid-saab/farnborough",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:N399CL_Saab_340_General_Electric_Farnborough_15.7.26.jpg",
+      "creator": "Colin Cooke Photo",
+      "rightsBasis": "The photographer licensed the image CC BY-SA 4.0 on Wikimedia Commons.",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Colin Cooke Photo / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "GE Aerospace's modified Saab 340 at the Farnborough International Airshow in July 2026. NASA says the megawatt-class hybrid-electric system had flown above 30,000 feet.",
+      "alt": "Blue and white Saab 340 aircraft flying above the runway at Farnborough.",
+      "original": "hybrid-saab.jpg"
+    },
+    "charts": [
+      {"id":"media-hybrid-saab-system-components","dir":"hybrid-saab/system","caption":"The demonstrator combines electric motors, a gas turbine and energy storage in one propulsion system.","alt":"Graphic lists electric motors, a gas turbine and energy storage as parts of the hybrid system."},
+      {"id":"media-hybrid-saab-test-milestones","dir":"hybrid-saab/milestones","caption":"The flight program followed ground testing at simulated altitudes up to 45,000 feet.","alt":"Graphic shows flight above 30,000 feet, simulated testing at 45,000 feet and more than 15 years of research."}
+    ],
+    "paragraphs": [
+      "A modified Saab 340B powered in part by a megawatt-class hybrid-electric engine became the first hybrid-electric aircraft to fly above 30,000 feet, according to NASA.",
+      "The aircraft made its public debut at the Farnborough International Airshow in the United Kingdom after a series of test flights. GE Aerospace built the propulsion system through work that included NASA facilities, researchers and earlier demonstration awards.",
+      "The engine integrates electric motors, a gas turbine and energy-storage capability. NASA says the design is intended to demonstrate enough power for an aircraft around the size of a regional jet while testing whether electrical assistance can reduce fuel use and operating cost.",
+      "The altitude matters because regional and single-aisle aircraft operate where thin air and low temperatures complicate heat management, insulation and power electronics. A system that works near the ground has not yet answered those flight-environment questions.",
+      "NASA and GE tested an integrated version at the NASA Electric Aircraft Testbed in Ohio in 2022 under conditions simulating 45,000 feet. The team then added motors, converters, propellers and a commercial GE engine before ground and flight tests.",
+      "The program builds on more than 15 years of research into power density, thermal control, batteries and aircraft integration. Those are linked constraints: weight added by one component can erase fuel savings elsewhere.",
+      "NASA did not publish a measured fuel-burn reduction, battery capacity, commercial entry date or certification plan in the announcement. The flight therefore demonstrates operation and integration, not a finished airline product.",
+      "A hybrid system can use a turbine where batteries alone lack sufficient energy density while using electrical machinery to redistribute or supplement power. The practical benefit will depend on the final aircraft, mission length, component weight and maintenance profile.",
+      "The test narrows an engineering question that once existed mainly in models: megawatt-class hybrid hardware can power a regional-size aircraft at high altitude. Certification, reliability, economics and quantified emissions remain separate gates before passenger service."
+    ],
+    "facts": ["The modified Saab 340B flew above 30,000 feet.", "The propulsion system is megawatt-class.", "It combines electric motors, a gas turbine and energy storage.", "NASA previously tested the system at a simulated 45,000 feet."],
+    "uncertainty": ["NASA did not publish a measured fuel-burn reduction for the flight demonstration.", "The announcement did not provide a certification schedule or commercial service date."],
+    "seoTitle": "Hybrid-electric Saab 340 flies above 30,000 feet",
+    "seoDescription": "NASA says a megawatt-class hybrid-electric Saab 340 flew above 30,000 feet after years of propulsion and altitude testing."
+  },
+  {
+    "slug": "nasa-sweet-15-wing-failed-127-percent-design-load",
+    "headline": "NASA Test Wing Failed at 127% of Its Design Limit",
+    "dek": "The 15-foot SWEET-15 composite wing matched computer predictions before engineers deliberately loaded it to failure.",
+    "section": "us",
+    "desk": "aviation-infrastructure-research",
+    "topics": ["Aircraft structures", "Composite materials", "Truss-braced wings", "Aviation research"],
+    "entities": ["NASA Armstrong Flight Research Center", "NASA Langley Research Center"],
+    "locations": ["Edwards, California", "Hampton, Virginia"],
+    "relatedSlugs": ["faa-1-776-billion-airport-grants-46-states-2026"],
+    "sources": [{"id":"source-nasa-sweet15-structural-test-2026","title":"NASA Pushes New Wing Design to Find Structural Limits","publisher":"NASA","publishedAt":"2026-07-17T12:00:00Z","url":"https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/"}],
+    "lead": {
+      "id": "media-sweet15-mock-wing-nasa-freeman",
+      "dir": "sweet15/mock-test",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NASA_Prepares_for_Mock_Truss-Braced_Wing_Tests_(AFRC2024-0047-03).jpg",
+      "creator": "NASA / Steve Freeman",
+      "rightsBasis": "NASA created the photograph as part of its official duties; Wikimedia Commons records it as public domain in the United States.",
+      "license": "Public domain",
+      "attribution": "NASA / Steve Freeman",
+      "caption": "A technician works with a fiber-optic sensor while NASA Armstrong prepares a mock truss-braced wing test in 2024. The later 15-foot SWEET-15 article was loaded until it failed at about 127% of design limit.",
+      "alt": "A technician's hand and a red sensor light above a metal wing-test component.",
+      "original": "sweet15-wing.jpg"
+    },
+    "charts": [
+      {"id":"media-sweet15-load-result","dir":"sweet15/load-result","caption":"SWEET-15 survived anticipated flight forces and failed only after loading reached about 127% of design limit.","alt":"Graphic shows anticipated flight loads passed and failure at about 127 percent of design limit."},
+      {"id":"media-sweet15-test-article","dir":"sweet15/test-article","caption":"The 15-foot composite test article used load, strain and fiber-optic sensors to compare physical behavior with models.","alt":"Graphic lists a 15-foot span, composite structure and multiple strain and load sensors."}
+    ],
+    "paragraphs": [
+      "A 15-foot composite truss-braced wing test article withstood expected flight loads and failed only after NASA engineers pushed it to roughly 127% of its design limit load.",
+      "The Structural Wing Experiment Evaluating Truss-bracing, known as SWEET-15, is a long, thin wing supported by an aerodynamic strut. It adapts ideas from NASA's earlier Transonic Truss-Braced Wing work for possible use in more efficient commercial aircraft.",
+      "NASA Langley designed and fabricated the article using five advanced composite manufacturing and assembly technologies. It was then installed in the Flight Loads Laboratory at NASA Armstrong in Edwards, California.",
+      "Engineers bent the wing over several months while conventional and fiber-optic sensors measured strain and load throughout the structure. NASA says the measurements confirmed predictions from its computer models through the anticipated in-flight range.",
+      "That agreement is as important as the headline failure number. Airframe designers need models that reliably predict where loads travel before they can reduce structural weight without sacrificing margin.",
+      "For the final test, engineers deliberately exceeded the design envelope. Visible damage appeared near the wing's back edge and in the upper cover when the structure failed at about 127% of design limit.",
+      "The test also showed how the joints connecting the wing to its main strut and smaller jury strut behaved beyond expected flight forces. NASA called it the first structural evaluation of this kind for a representative composite truss-braced configuration.",
+      "SWEET-15 is not a full aircraft wing and the test does not certify an airliner. Scale, manufacturing consistency, fatigue, aerodynamics and integration with a fuselage remain separate engineering questions.",
+      "NASA will analyze the sensor record to refine airframe designs. The practical aim is a lighter, stronger structure that lets a longer wing reduce aerodynamic drag without adding back the weight that the efficiency gain was meant to save."
+    ],
+    "facts": ["SWEET-15 is a 15-foot test article.", "The wing survived anticipated in-flight forces.", "It failed at roughly 127% of design limit load.", "NASA used strain, load and fiber-optic sensors during testing."],
+    "uncertainty": ["The result comes from a subscale structural article, not a certified production wing.", "NASA has not yet published the full post-test analysis or a commercial deployment timetable."],
+    "seoTitle": "NASA SWEET-15 wing failed at 127% of design load",
+    "seoDescription": "NASA's 15-foot SWEET-15 composite wing matched models through flight loads and failed at about 127% of its design limit."
+  },
+  {
+    "slug": "sec-regulation-e-delivery-paper-opt-out-proposal-2026",
+    "headline": "SEC Proposal Would Make Investor E-Delivery the Default",
+    "dek": "Regulation E-Delivery would allow electronic delivery without prior affirmative consent while preserving paper on request.",
+    "section": "business",
+    "desk": "investor-disclosure-rules",
+    "topics": ["SEC regulation", "Investor disclosures", "Electronic delivery", "Paper statements"],
+    "entities": ["Securities and Exchange Commission"],
+    "locations": ["United States", "Washington, D.C."],
+    "relatedSlugs": ["fed-july-2026-bank-lending-standards-demand"],
+    "sources": [{"id":"source-sec-regulation-e-delivery-2026","title":"SEC Proposes New E-Delivery Approach to Make Information More Readily Accessible and Useful for Investors","publisher":"U.S. Securities and Exchange Commission","publishedAt":"2026-07-16T12:00:00Z","url":"https://www.sec.gov/newsroom/press-releases/2026-67-sec-proposes-new-e-delivery-approach-make-information-more-readily-accessible-useful-investors"}],
+    "lead": {
+      "id": "media-sec-edelivery-nyse-kidfly182",
+      "dir": "sec-edelivery/nyse",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_June_2024.jpg",
+      "creator": "Kidfly182",
+      "rightsBasis": "The photographer licensed the image CC BY 4.0 on Wikimedia Commons.",
+      "license": "CC BY 4.0",
+      "attribution": "Kidfly182 / Wikimedia Commons, CC BY 4.0",
+      "caption": "The New York Stock Exchange on Wall Street. A proposed SEC rule would make electronic delivery the default for a broad range of investor documents.",
+      "alt": "Stone facade and columns of the New York Stock Exchange on Wall Street.",
+      "original": "sec-edelivery.jpg"
+    },
+    "charts": [
+      {"id":"media-sec-edelivery-default-change","dir":"sec-edelivery/default","caption":"The proposal would switch the default from paper to electronic delivery, with paper still available on request.","alt":"Graphic contrasts today's paper default with proposed electronic delivery and a paper opt-out."},
+      {"id":"media-sec-edelivery-document-scope","dir":"sec-edelivery/documents","caption":"The proposed rule would cover prospectuses, shareholder reports, proxy statements, confirmations and adviser disclosures.","alt":"Graphic lists prospectuses, shareholder reports, proxy statements and trade confirmations."}
+    ],
+    "paragraphs": [
+      "The Securities and Exchange Commission has proposed making electronic delivery the default for many documents that issuers, brokers, funds and investment advisers must provide under federal securities laws.",
+      "Proposed Regulation E-Delivery would allow covered firms to satisfy delivery obligations electronically without first obtaining a recipient's affirmative consent, subject to conditions in the rule.",
+      "Paper would remain available on request. People already receiving documents on paper would get two paper notices before a transition, including information on how to opt out of electronic delivery.",
+      "The proposal covers a broad range of records, including prospectuses, annual and semiannual shareholder reports, proxy statements, trade confirmations, Form CRS disclosures and investment-adviser brochures.",
+      "Current SEC practice generally treats paper as the default unless the recipient affirmatively chooses electronic delivery. The proposed regulation would replace much of the agency's guidance-based framework developed over several decades.",
+      "The SEC says electronic delivery could reduce paper, printing and postage costs while enabling more timely, accessible and interactive disclosures. Those are expected benefits of the proposal, not measured savings guaranteed by the rule.",
+      "A digital default also shifts practical burdens. Recipients need a working address, reliable access and a clear way to retrieve older records; the final rule's conditions will determine how failed delivery and accessibility are handled.",
+      "The commission set a public-comment period of 60 days after the proposing release appears in the Federal Register. The press release does not supply a final adoption date because the commission may revise or decline the proposal after review.",
+      "For investors, nothing changed on the announcement date. The operative question is whether the SEC adopts a final rule and, if so, what transition process and delivery safeguards it includes."
+    ],
+    "facts": ["The proposal would make electronic delivery available without prior affirmative consent under specified conditions.", "Paper delivery would remain available on request.", "Existing paper recipients would receive two transition notices.", "The comment period runs 60 days after Federal Register publication."],
+    "uncertainty": ["Regulation E-Delivery is a proposal and may change before any final vote.", "The SEC did not provide a final adoption or compliance date in the announcement."],
+    "seoTitle": "SEC proposes electronic delivery as investor-document default",
+    "seoDescription": "The SEC's Regulation E-Delivery proposal would default many investor documents to electronic delivery while keeping paper available on request."
+  },
+  {
+    "slug": "italy-growth-05-percent-inflation-29-imf-2026",
+    "headline": "IMF Sees Italy Growth at 0.5% Through 2027",
+    "dek": "The Fund projects inflation at 2.9% in 2026 as imported energy costs and high public debt constrain the outlook.",
+    "section": "world",
+    "desk": "euro-area-economic-outlooks",
+    "topics": ["Italy economy", "Economic growth", "Inflation", "Public debt"],
+    "entities": ["International Monetary Fund", "Government of Italy"],
+    "locations": ["Italy", "Rome"],
+    "relatedSlugs": ["imf-austria-growth-inflation-outlook-2026"],
+    "sources": [{"id":"source-imf-italy-article-iv-2026","title":"IMF Executive Board Concludes 2026 Article IV Consultation with Italy","publisher":"International Monetary Fund","publishedAt":"2026-07-24T12:00:00Z","url":"https://www.imf.org/en/news/articles/2026/07/24/pr26256-italy-imf-executive-board-concludes-2026-article-iv-consultation"}],
+    "lead": {
+      "id": "media-italy-rome-skyline-erik-drost",
+      "dir": "italy-outlook/rome",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rome,_Italy_Skyline_(5986629405).jpg",
+      "creator": "Erik Drost",
+      "rightsBasis": "The photographer licensed the image CC BY 2.0 on Wikimedia Commons.",
+      "license": "CC BY 2.0",
+      "attribution": "Erik Drost / Wikimedia Commons, CC BY 2.0",
+      "caption": "Rome's skyline. The IMF projects Italy's economy will grow 0.5% in both 2026 and 2027 while inflation stays above 2% next year.",
+      "alt": "Rome skyline with domes, tiled roofs and distant hills under a blue sky.",
+      "original": "italy-rome.jpg"
+    },
+    "charts": [
+      {"id":"media-italy-outlook-growth-inflation","dir":"italy-outlook/growth","caption":"The IMF projects 0.5% growth in 2026 and 2027, with 2026 inflation at 2.9%.","alt":"Graphic shows Italy growth of 0.5 percent in 2026 and 2027 and inflation of 2.9 percent in 2026."},
+      {"id":"media-italy-outlook-policy-constraints","dir":"italy-outlook/constraints","caption":"High public debt, population aging and weak productivity narrow Italy's medium-term policy room.","alt":"Graphic lists high public debt, rapid aging and weak productivity as Italy's constraints."}
+    ],
+    "paragraphs": [
+      "Italy's economy is projected to grow 0.5% in both 2026 and 2027, according to the International Monetary Fund's annual review.",
+      "Real GDP also grew 0.5% in 2025. The IMF attributes part of that expansion to continued investment under Italy's National Recovery and Resilience Plan and expects that investment to support activity in the near term.",
+      "Inflation is projected to rise to 2.9% in 2026 and remain above 2% in 2027. The Fund links the increase to higher global energy prices and Italy's dependence on imported fossil fuels.",
+      "The fiscal position has improved as the primary surplus strengthened, but the IMF says public debt remains too high and vulnerable to shifts in interest rates and growth. That limits room to absorb another shock.",
+      "Employment has remained near historic highs, while labor-force participation still trails peer countries, particularly among women and young people. The IMF treats higher participation as part of the growth agenda rather than evidence that current employment gains are broad enough.",
+      "The accompanying financial-sector assessment found Italy's system broadly sound, with robust oversight and banks resilient in severe stress scenarios. That conclusion does not remove exposure to sovereign-market volatility or slower growth.",
+      "Over the medium term, rapid population aging and persistently weak productivity are expected to keep growth subdued. The Fund points to public-investment execution, digitalization and technology adoption as possible sources of stronger productivity.",
+      "Risks are tilted downward. Higher energy costs, geopolitical escalation, tighter financial conditions or delays in investment could weaken output; faster reform and productivity gains could improve it.",
+      "The 0.5% and 2.9% figures are forecasts conditioned on current policy and external assumptions. Article IV advice is an external assessment and does not bind Italy's elected institutions."
+    ],
+    "facts": ["Italy's real GDP grew 0.5% in 2025.", "The IMF projects 0.5% growth in 2026 and 2027.", "Inflation is projected at 2.9% in 2026.", "The financial system was assessed as broadly sound."],
+    "uncertainty": ["IMF forecasts depend on energy prices, financial conditions and policy execution.", "Public-debt and growth figures may be revised as national data are updated."],
+    "seoTitle": "IMF projects Italy growth at 0.5% in 2026 and 2027",
+    "seoDescription": "The IMF projects Italy GDP growth of 0.5% through 2027 and inflation of 2.9% in 2026 amid energy and debt pressures."
+  },
+  {
+    "slug": "education-department-title-vi-disparate-impact-provisions-2026",
+    "headline": "Education Department Removes Title VI Disparate-Impact Rules",
+    "dek": "The department says its civil-rights office will focus Title VI enforcement on intentional discrimination while retaining a complaint process.",
+    "section": "politics",
+    "desk": "federal-education-civil-rights-policy",
+    "topics": ["Title VI", "Education policy", "Civil rights enforcement", "Federal regulation"],
+    "entities": ["U.S. Department of Education", "Office for Civil Rights"],
+    "locations": ["United States", "Washington, D.C."],
+    "relatedSlugs": ["arkansas-education-waiver-ed-flex-8-8-million-2026"],
+    "sources": [{"id":"source-ed-titlevi-disparate-impact-2026","title":"U.S. Department of Education Removes Disparate-Impact from Title VI Regulations","publisher":"U.S. Department of Education","publishedAt":"2026-07-23T12:00:00Z","url":"https://www.ed.gov/about/news/press-release/us-department-of-education-removes-disparate-impact-title-vi-regulations"}],
+    "lead": {
+      "id": "media-education-lbj-building-johnson",
+      "dir": "titlevi-rules/lbj-building",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Department_of_Education_Lyndon_Baines_Johnson_building_entrance_Washington_DC_2025-02-04_12-12-38.jpg",
+      "creator": "G. Edward Johnson",
+      "rightsBasis": "The photographer licensed the image CC BY 4.0 on Wikimedia Commons.",
+      "license": "CC BY 4.0",
+      "attribution": "G. Edward Johnson / Wikimedia Commons, CC BY 4.0",
+      "caption": "The Lyndon Baines Johnson Department of Education Building in Washington. The department announced removal of disparate-impact provisions from its Title VI regulations.",
+      "alt": "Entrance to the Department of Education headquarters building in Washington.",
+      "original": "education-lbj.jpg"
+    },
+    "charts": [
+      {"id":"media-titlevi-rule-enforcement-change","dir":"titlevi-rules/change","caption":"The department says Title VI enforcement will no longer use the rescinded disparate-impact provisions.","alt":"Graphic shows rescinded disparate-impact provisions and continued intentional-discrimination enforcement."},
+      {"id":"media-titlevi-rule-scope","dir":"titlevi-rules/scope","caption":"Title VI continues to prohibit discrimination based on race, color and national origin in federally funded education programs.","alt":"Graphic lists race, color and national origin as protected under Title VI."}
+    ],
+    "paragraphs": [
+      "The U.S. Department of Education announced that it is removing several disparate-impact provisions from the regulations its Office for Civil Rights uses to enforce Title VI.",
+      "Title VI bars discrimination based on race, color and national origin in programs receiving federal financial assistance. The department says the change aligns enforcement with intentional discrimination rather than outcomes produced by facially neutral policies.",
+      "A disparate-impact framework can examine whether a neutral rule falls more heavily on a protected group without requiring proof that the rule was adopted with discriminatory intent. The department's announcement rejects that basis within the provisions it identified.",
+      "The action follows Executive Order 14281, issued in April 2025, which set an administration policy to eliminate disparate-impact liability across federal enforcement. The Justice Department had updated its own Title VI regulations in December 2025.",
+      "The Education Department's release points specifically to Title 34, Part 100, the regulations governing Title VI enforcement for recipients of its funding. It does not repeal the Title VI statute.",
+      "Schools can still face federal action for intentional discrimination, and students, parents and advocates may continue to file discrimination or retaliation complaints electronically with the Office for Civil Rights.",
+      "The policy changes what evidence the department says it will use to establish a violation. It does not by itself resolve how courts will treat disparate-impact theories under other statutes or regulations.",
+      "The announcement did not identify a school-specific finding or quantify how many pending cases could be affected. Any effect on investigations will depend on the facts, legal authority and procedural status of each matter.",
+      "For education institutions, the immediate operational signal is a narrower federal administrative theory under Part 100, paired with continuing obligations not to discriminate intentionally and to respond to the existing complaint process."
+    ],
+    "facts": ["The department announced removal of several disparate-impact provisions from Title 34, Part 100.", "The action follows Executive Order 14281.", "Title VI continues to prohibit discrimination based on race, color and national origin.", "The Office for Civil Rights continues to accept discrimination and retaliation complaints."],
+    "uncertainty": ["The announcement did not quantify effects on pending investigations or identify an implementation date for every procedural change.", "The action does not determine how courts may interpret other statutes or agencies' regulations."],
+    "seoTitle": "Education Department removes Title VI disparate-impact provisions",
+    "seoDescription": "The Education Department removed several Title VI disparate-impact provisions while keeping intentional-discrimination enforcement and complaints."
+  },
+  {
+    "slug": "who-kala-azar-14-day-treatment-guidelines-2026",
+    "headline": "WHO Cuts East Africa Kala-Azar Regimen to 14 Days",
+    "dek": "New guidance recommends the first sodium-stibogluconate-free option for many patients and shorter regimens for a related skin condition.",
+    "section": "health-science",
+    "desk": "neglected-tropical-disease-guidelines",
+    "topics": ["Leishmaniasis", "Kala-azar", "Treatment guidelines", "Neglected tropical diseases"],
+    "entities": ["World Health Organization"],
+    "locations": ["Eastern Africa", "South-East Asia"],
+    "relatedSlugs": ["who-dementia-risk-reduction-guidelines-2026"],
+    "sources": [
+      {"id":"source-who-leishmaniasis-guidelines-update-2026","title":"WHO updates treatment guidelines on visceral and post-kala-azar dermal leishmaniasis","publisher":"World Health Organization","publishedAt":"2026-07-29T12:00:00Z","url":"https://www.who.int/news/item/29-07-2026-who-updates-treatment-guidelines-on-visceral-and-post-kala-azar-dermal-leishmaniasis"},
+      {"id":"source-who-leishmaniasis-guideline-2026","title":"WHO guidelines on leishmaniases: treatment of visceral leishmaniasis and post-kala-azar dermal leishmaniasis in eastern Africa and South-East Asia","publisher":"World Health Organization","publishedAt":"2026-07-28T12:00:00Z","url":"https://www.who.int/southeastasia/publications/i/item/9789240123298"}
+    ],
+    "lead": {
+      "id": "media-kala-azar-sandfly-cdc-gathany",
+      "dir": "kala-azar/sandfly",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phlebotomus_pappatasi_bloodmeal_begin.jpg",
+      "creator": "CDC / Frank Collins; James Gathany",
+      "rightsBasis": "The U.S. Centers for Disease Control and Prevention created the image as part of official duties; Wikimedia Commons records it as public domain.",
+      "license": "Public domain",
+      "attribution": "CDC / Frank Collins; photo by James Gathany",
+      "caption": "A Phlebotomus sandfly begins a blood meal. Visceral leishmaniasis, or kala-azar, is transmitted through infected sandflies.",
+      "alt": "Close-up of a pale sandfly biting human skin.",
+      "original": "kala-azar-sandfly.jpg"
+    },
+    "charts": [
+      {"id":"media-kala-azar-treatment-change","dir":"kala-azar/treatment","caption":"WHO's new eastern Africa regimen runs 14 days with one daily injection instead of two injections over 17 days.","alt":"Graphic compares the new 14-day one-injection regimen with the older 17-day two-injection regimen."},
+      {"id":"media-kala-azar-global-burden","dir":"kala-azar/burden","caption":"WHO estimates 50,000 to 90,000 kala-azar cases annually, with only 25% to 45% reported.","alt":"Graphic shows 50,000 to 90,000 annual cases across 80 endemic countries and 25 to 45 percent reported."}
+    ],
+    "paragraphs": [
+      "The World Health Organization has recommended a 14-day treatment regimen for many visceral leishmaniasis patients in eastern Africa, shortening the previous 17-day course and reducing daily injections from two to one.",
+      "Visceral leishmaniasis, also called kala-azar, is transmitted by infected sandflies and can cause fever, weight loss, anemia and enlarged organs. WHO estimates 50,000 to 90,000 cases a year across 80 endemic countries, with only 25% to 45% reported.",
+      "For the first time, WHO recommends regimens that do not use sodium stibogluconate for eligible patients. In eastern Africa, the new option combines oral miltefosine with injected paromomycin.",
+      "Sodium stibogluconate remains an option for patients who are not eligible for the new combinations. WHO says treatment still depends on disease form, immune status, parasite species, other conditions and geography.",
+      "The guidance also updates treatment for post-kala-azar dermal leishmaniasis, a skin condition that can follow apparent cure. PKDL is not usually life-threatening but may maintain transmission and can cause stigma and social isolation.",
+      "For eastern Africa, WHO recommends shorter combinations for PKDL; in South-East Asia, the options include liposomal amphotericin B alone or with oral miltefosine. The document also gives clearer guidance for relapse in immunocompetent patients in South-East Asia.",
+      "WHO expects almost half of primary visceral-leishmaniasis patients and all PKDL patients to be potentially eligible for the new recommendations. That estimate describes potential clinical eligibility, not guaranteed access to medicines or completion of treatment.",
+      "The 55-page guideline applies to HIV-negative patients and incorporates clinical trials, systematic reviews, safety evidence and implementation considerations. National health authorities must still translate it into local protocols and supply systems.",
+      "The changes are clinical guidance for trained health systems, not instructions for self-treatment. Diagnosis and regimen choice require medical evaluation because the recommended drugs carry important risks and are not interchangeable across regions or patients."
+    ],
+    "facts": ["The new eastern Africa regimen runs 14 days.", "It uses one injection rather than two injections over 17 days.", "WHO estimates 50,000 to 90,000 kala-azar cases annually.", "Only 25% to 45% of cases are reported to WHO."],
+    "uncertainty": ["Country adoption, medicine supply and patient eligibility will determine practical access.", "The recommendations apply to defined regions and HIV-negative populations and should not be generalized to every patient."],
+    "seoTitle": "WHO recommends 14-day kala-azar regimen in East Africa",
+    "seoDescription": "WHO's 2026 kala-azar guideline shortens treatment to 14 days for many East African patients and adds SSG-free options."
+  }
+]

@@ -52763,25 +52763,913 @@
         "The schedule change's effect on rest and class time will depend on team-specific calendars."
       ],
       "updatedAt": "2026-08-11T12:59:13.296Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A modified Saab 340B powered in part by a megawatt-class hybrid-electric engine became the first hybrid-electric aircraft to fly above 30,000 feet, according to NASA.\n\nThe aircraft made its public debut at the Farnborough International Airshow in the United Kingdom after a series of test flights. GE Aerospace built the propulsion system through work that included NASA facilities, researchers and earlier demonstration awards.\n\nThe engine integrates electric motors, a gas turbine and energy-storage capability. NASA says the design is intended to demonstrate enough power for an aircraft around the size of a regional jet while testing whether electrical assistance can reduce fuel use and operating cost.\n\nThe altitude matters because regional and single-aisle aircraft operate where thin air and low temperatures complicate heat management, insulation and power electronics. A system that works near the ground has not yet answered those flight-environment questions.\n\nNASA and GE tested an integrated version at the NASA Electric Aircraft Testbed in Ohio in 2022 under conditions simulating 45,000 feet. The team then added motors, converters, propellers and a commercial GE engine before ground and flight tests.\n\nThe program builds on more than 15 years of research into power density, thermal control, batteries and aircraft integration. Those are linked constraints: weight added by one component can erase fuel savings elsewhere.\n\nNASA did not publish a measured fuel-burn reduction, battery capacity, commercial entry date or certification plan in the announcement. The flight therefore demonstrates operation and integration, not a finished airline product.\n\nA hybrid system can use a turbine where batteries alone lack sufficient energy density while using electrical machinery to redistribute or supplement power. The practical benefit will depend on the final aircraft, mission length, component weight and maintenance profile.\n\nThe test narrows an engineering question that once existed mainly in models: megawatt-class hybrid hardware can power a regional-size aircraft at high altitude. Certification, reliability, economics and quantified emissions remain separate gates before passenger service.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "A modified Saab 340B powered in part by a megawatt-class hybrid-electric engine became the first hybrid-electric aircraft to fly above 30,000 feet, according to NASA."
+        },
+        {
+          "type": "paragraph",
+          "text": "The aircraft made its public debut at the Farnborough International Airshow in the United Kingdom after a series of test flights. GE Aerospace built the propulsion system through work that included NASA facilities, researchers and earlier demonstration awards."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-hybrid-saab-system-components",
+          "src": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/system/four-three.webp",
+          "alt": "Graphic lists electric motors, a gas turbine and energy storage as parts of the hybrid system.",
+          "caption": "The demonstrator combines electric motors, a gas turbine and energy storage in one propulsion system.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/"
+        },
+        {
+          "type": "paragraph",
+          "text": "The engine integrates electric motors, a gas turbine and energy-storage capability. NASA says the design is intended to demonstrate enough power for an aircraft around the size of a regional jet while testing whether electrical assistance can reduce fuel use and operating cost."
+        },
+        {
+          "type": "paragraph",
+          "text": "The altitude matters because regional and single-aisle aircraft operate where thin air and low temperatures complicate heat management, insulation and power electronics. A system that works near the ground has not yet answered those flight-environment questions."
+        },
+        {
+          "type": "paragraph",
+          "text": "NASA and GE tested an integrated version at the NASA Electric Aircraft Testbed in Ohio in 2022 under conditions simulating 45,000 feet. The team then added motors, converters, propellers and a commercial GE engine before ground and flight tests."
+        },
+        {
+          "type": "paragraph",
+          "text": "The program builds on more than 15 years of research into power density, thermal control, batteries and aircraft integration. Those are linked constraints: weight added by one component can erase fuel savings elsewhere."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-hybrid-saab-test-milestones",
+          "src": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/milestones/four-three.webp",
+          "alt": "Graphic shows flight above 30,000 feet, simulated testing at 45,000 feet and more than 15 years of research.",
+          "caption": "The flight program followed ground testing at simulated altitudes up to 45,000 feet.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/"
+        },
+        {
+          "type": "paragraph",
+          "text": "NASA did not publish a measured fuel-burn reduction, battery capacity, commercial entry date or certification plan in the announcement. The flight therefore demonstrates operation and integration, not a finished airline product."
+        },
+        {
+          "type": "paragraph",
+          "text": "A hybrid system can use a turbine where batteries alone lack sufficient energy density while using electrical machinery to redistribute or supplement power. The practical benefit will depend on the final aircraft, mission length, component weight and maintenance profile."
+        },
+        {
+          "type": "paragraph",
+          "text": "The test narrows an engineering question that once existed mainly in models: megawatt-class hybrid hardware can power a regional-size aircraft at high altitude. Certification, reliability, economics and quantified emissions remain separate gates before passenger service."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/hybrid-electric-saab-340-flight-above-30000-feet/",
+      "citations": [
+        {
+          "id": "source-nasa-hybrid-electric-flight-2026",
+          "title": "NASA, GE Aerospace Work Enables Hybrid-Electric Flight Demonstration",
+          "publisher": "NASA",
+          "publishedAt": "2026-07-20T12:00:00Z",
+          "url": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The modified Saab 340B flew above 30,000 feet.",
+        "The propulsion system is megawatt-class.",
+        "It combines electric motors, a gas turbine and energy storage.",
+        "NASA previously tested the system at a simulated 45,000 feet."
+      ],
+      "corrections": [],
+      "dek": "NASA says the megawatt-class system combined electric motors, a gas turbine and energy storage in a regional-aircraft demonstration.",
+      "desk": "electrified-aviation-demonstrations",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NASA",
+        "GE Aerospace",
+        "Farnborough International Airshow"
+      ],
+      "eventId": "event-hybrid-electric-saab-340-flight-above-30000-feet",
+      "headline": "Hybrid-Electric Saab 340 Flew Above 30,000 Feet",
+      "id": "article-hybrid-electric-saab-340-flight-above-30000-feet",
+      "leadImage": {
+        "alt": "Blue and white Saab 340 aircraft flying above the runway at Farnborough.",
+        "caption": "GE Aerospace's modified Saab 340 at the Farnborough International Airshow in July 2026. NASA says the megawatt-class hybrid-electric system had flown above 30,000 feet.",
+        "credit": "Colin Cooke Photo / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-hybrid-saab-farnborough-colin-cooke",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/farnborough/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Farnborough, United Kingdom",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-faa-1-776-billion-airport-grants-46-states-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NASA says a megawatt-class hybrid-electric Saab 340 flew above 30,000 feet after years of propulsion and altitude testing.",
+        "index": true,
+        "title": "Hybrid-electric Saab 340 flies above 30,000 feet"
+      },
+      "section": "technology",
+      "slug": "hybrid-electric-saab-340-flight-above-30000-feet",
+      "social": {
+        "description": "NASA says the megawatt-class system combined electric motors, a gas turbine and energy storage in a regional-aircraft demonstration.",
+        "image": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/farnborough/open-graph.webp",
+        "title": "Hybrid-Electric Saab 340 Flew Above 30,000 Feet"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Hybrid-electric aircraft",
+        "Aviation technology",
+        "Electric propulsion",
+        "Regional aviation"
+      ],
+      "uncertainty": [
+        "NASA did not publish a measured fuel-burn reduction for the flight demonstration.",
+        "The announcement did not provide a certification schedule or commercial service date."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A 15-foot composite truss-braced wing test article withstood expected flight loads and failed only after NASA engineers pushed it to roughly 127% of its design limit load.\n\nThe Structural Wing Experiment Evaluating Truss-bracing, known as SWEET-15, is a long, thin wing supported by an aerodynamic strut. It adapts ideas from NASA's earlier Transonic Truss-Braced Wing work for possible use in more efficient commercial aircraft.\n\nNASA Langley designed and fabricated the article using five advanced composite manufacturing and assembly technologies. It was then installed in the Flight Loads Laboratory at NASA Armstrong in Edwards, California.\n\nEngineers bent the wing over several months while conventional and fiber-optic sensors measured strain and load throughout the structure. NASA says the measurements confirmed predictions from its computer models through the anticipated in-flight range.\n\nThat agreement is as important as the headline failure number. Airframe designers need models that reliably predict where loads travel before they can reduce structural weight without sacrificing margin.\n\nFor the final test, engineers deliberately exceeded the design envelope. Visible damage appeared near the wing's back edge and in the upper cover when the structure failed at about 127% of design limit.\n\nThe test also showed how the joints connecting the wing to its main strut and smaller jury strut behaved beyond expected flight forces. NASA called it the first structural evaluation of this kind for a representative composite truss-braced configuration.\n\nSWEET-15 is not a full aircraft wing and the test does not certify an airliner. Scale, manufacturing consistency, fatigue, aerodynamics and integration with a fuselage remain separate engineering questions.\n\nNASA will analyze the sensor record to refine airframe designs. The practical aim is a lighter, stronger structure that lets a longer wing reduce aerodynamic drag without adding back the weight that the efficiency gain was meant to save.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "A 15-foot composite truss-braced wing test article withstood expected flight loads and failed only after NASA engineers pushed it to roughly 127% of its design limit load."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Structural Wing Experiment Evaluating Truss-bracing, known as SWEET-15, is a long, thin wing supported by an aerodynamic strut. It adapts ideas from NASA's earlier Transonic Truss-Braced Wing work for possible use in more efficient commercial aircraft."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-sweet15-load-result",
+          "src": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/load-result/four-three.webp",
+          "alt": "Graphic shows anticipated flight loads passed and failure at about 127 percent of design limit.",
+          "caption": "SWEET-15 survived anticipated flight forces and failed only after loading reached about 127% of design limit.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/"
+        },
+        {
+          "type": "paragraph",
+          "text": "NASA Langley designed and fabricated the article using five advanced composite manufacturing and assembly technologies. It was then installed in the Flight Loads Laboratory at NASA Armstrong in Edwards, California."
+        },
+        {
+          "type": "paragraph",
+          "text": "Engineers bent the wing over several months while conventional and fiber-optic sensors measured strain and load throughout the structure. NASA says the measurements confirmed predictions from its computer models through the anticipated in-flight range."
+        },
+        {
+          "type": "paragraph",
+          "text": "That agreement is as important as the headline failure number. Airframe designers need models that reliably predict where loads travel before they can reduce structural weight without sacrificing margin."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the final test, engineers deliberately exceeded the design envelope. Visible damage appeared near the wing's back edge and in the upper cover when the structure failed at about 127% of design limit."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-sweet15-test-article",
+          "src": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/test-article/four-three.webp",
+          "alt": "Graphic lists a 15-foot span, composite structure and multiple strain and load sensors.",
+          "caption": "The 15-foot composite test article used load, strain and fiber-optic sensors to compare physical behavior with models.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/"
+        },
+        {
+          "type": "paragraph",
+          "text": "The test also showed how the joints connecting the wing to its main strut and smaller jury strut behaved beyond expected flight forces. NASA called it the first structural evaluation of this kind for a representative composite truss-braced configuration."
+        },
+        {
+          "type": "paragraph",
+          "text": "SWEET-15 is not a full aircraft wing and the test does not certify an airliner. Scale, manufacturing consistency, fatigue, aerodynamics and integration with a fuselage remain separate engineering questions."
+        },
+        {
+          "type": "paragraph",
+          "text": "NASA will analyze the sensor record to refine airframe designs. The practical aim is a lighter, stronger structure that lets a longer wing reduce aerodynamic drag without adding back the weight that the efficiency gain was meant to save."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nasa-sweet-15-wing-failed-127-percent-design-load/",
+      "citations": [
+        {
+          "id": "source-nasa-sweet15-structural-test-2026",
+          "title": "NASA Pushes New Wing Design to Find Structural Limits",
+          "publisher": "NASA",
+          "publishedAt": "2026-07-17T12:00:00Z",
+          "url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "SWEET-15 is a 15-foot test article.",
+        "The wing survived anticipated in-flight forces.",
+        "It failed at roughly 127% of design limit load.",
+        "NASA used strain, load and fiber-optic sensors during testing."
+      ],
+      "corrections": [],
+      "dek": "The 15-foot SWEET-15 composite wing matched computer predictions before engineers deliberately loaded it to failure.",
+      "desk": "aviation-infrastructure-research",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NASA Armstrong Flight Research Center",
+        "NASA Langley Research Center"
+      ],
+      "eventId": "event-nasa-sweet-15-wing-failed-127-percent-design-load",
+      "headline": "NASA Test Wing Failed at 127% of Its Design Limit",
+      "id": "article-nasa-sweet-15-wing-failed-127-percent-design-load",
+      "leadImage": {
+        "alt": "A technician's hand and a red sensor light above a metal wing-test component.",
+        "caption": "A technician works with a fiber-optic sensor while NASA Armstrong prepares a mock truss-braced wing test in 2024. The later 15-foot SWEET-15 article was loaded until it failed at about 127% of design limit.",
+        "credit": "NASA / Steve Freeman",
+        "height": 900,
+        "rightsId": "media-sweet15-mock-wing-nasa-freeman",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/mock-test/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Edwards, California",
+        "Hampton, Virginia"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-faa-1-776-billion-airport-grants-46-states-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NASA's 15-foot SWEET-15 composite wing matched models through flight loads and failed at about 127% of its design limit.",
+        "index": true,
+        "title": "NASA SWEET-15 wing failed at 127% of design load"
+      },
+      "section": "us",
+      "slug": "nasa-sweet-15-wing-failed-127-percent-design-load",
+      "social": {
+        "description": "The 15-foot SWEET-15 composite wing matched computer predictions before engineers deliberately loaded it to failure.",
+        "image": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/mock-test/open-graph.webp",
+        "title": "NASA Test Wing Failed at 127% of Its Design Limit"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Aircraft structures",
+        "Composite materials",
+        "Truss-braced wings",
+        "Aviation research"
+      ],
+      "uncertainty": [
+        "The result comes from a subscale structural article, not a certified production wing.",
+        "NASA has not yet published the full post-test analysis or a commercial deployment timetable."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Securities and Exchange Commission has proposed making electronic delivery the default for many documents that issuers, brokers, funds and investment advisers must provide under federal securities laws.\n\nProposed Regulation E-Delivery would allow covered firms to satisfy delivery obligations electronically without first obtaining a recipient's affirmative consent, subject to conditions in the rule.\n\nPaper would remain available on request. People already receiving documents on paper would get two paper notices before a transition, including information on how to opt out of electronic delivery.\n\nThe proposal covers a broad range of records, including prospectuses, annual and semiannual shareholder reports, proxy statements, trade confirmations, Form CRS disclosures and investment-adviser brochures.\n\nCurrent SEC practice generally treats paper as the default unless the recipient affirmatively chooses electronic delivery. The proposed regulation would replace much of the agency's guidance-based framework developed over several decades.\n\nThe SEC says electronic delivery could reduce paper, printing and postage costs while enabling more timely, accessible and interactive disclosures. Those are expected benefits of the proposal, not measured savings guaranteed by the rule.\n\nA digital default also shifts practical burdens. Recipients need a working address, reliable access and a clear way to retrieve older records; the final rule's conditions will determine how failed delivery and accessibility are handled.\n\nThe commission set a public-comment period of 60 days after the proposing release appears in the Federal Register. The press release does not supply a final adoption date because the commission may revise or decline the proposal after review.\n\nFor investors, nothing changed on the announcement date. The operative question is whether the SEC adopts a final rule and, if so, what transition process and delivery safeguards it includes.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Securities and Exchange Commission has proposed making electronic delivery the default for many documents that issuers, brokers, funds and investment advisers must provide under federal securities laws."
+        },
+        {
+          "type": "paragraph",
+          "text": "Proposed Regulation E-Delivery would allow covered firms to satisfy delivery obligations electronically without first obtaining a recipient's affirmative consent, subject to conditions in the rule."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-sec-edelivery-default-change",
+          "src": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/default/four-three.webp",
+          "alt": "Graphic contrasts today's paper default with proposed electronic delivery and a paper opt-out.",
+          "caption": "The proposal would switch the default from paper to electronic delivery, with paper still available on request.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.sec.gov/newsroom/press-releases/2026-67-sec-proposes-new-e-delivery-approach-make-information-more-readily-accessible-useful-investors"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paper would remain available on request. People already receiving documents on paper would get two paper notices before a transition, including information on how to opt out of electronic delivery."
+        },
+        {
+          "type": "paragraph",
+          "text": "The proposal covers a broad range of records, including prospectuses, annual and semiannual shareholder reports, proxy statements, trade confirmations, Form CRS disclosures and investment-adviser brochures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Current SEC practice generally treats paper as the default unless the recipient affirmatively chooses electronic delivery. The proposed regulation would replace much of the agency's guidance-based framework developed over several decades."
+        },
+        {
+          "type": "paragraph",
+          "text": "The SEC says electronic delivery could reduce paper, printing and postage costs while enabling more timely, accessible and interactive disclosures. Those are expected benefits of the proposal, not measured savings guaranteed by the rule."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-sec-edelivery-document-scope",
+          "src": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/documents/four-three.webp",
+          "alt": "Graphic lists prospectuses, shareholder reports, proxy statements and trade confirmations.",
+          "caption": "The proposed rule would cover prospectuses, shareholder reports, proxy statements, confirmations and adviser disclosures.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.sec.gov/newsroom/press-releases/2026-67-sec-proposes-new-e-delivery-approach-make-information-more-readily-accessible-useful-investors"
+        },
+        {
+          "type": "paragraph",
+          "text": "A digital default also shifts practical burdens. Recipients need a working address, reliable access and a clear way to retrieve older records; the final rule's conditions will determine how failed delivery and accessibility are handled."
+        },
+        {
+          "type": "paragraph",
+          "text": "The commission set a public-comment period of 60 days after the proposing release appears in the Federal Register. The press release does not supply a final adoption date because the commission may revise or decline the proposal after review."
+        },
+        {
+          "type": "paragraph",
+          "text": "For investors, nothing changed on the announcement date. The operative question is whether the SEC adopts a final rule and, if so, what transition process and delivery safeguards it includes."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/sec-regulation-e-delivery-paper-opt-out-proposal-2026/",
+      "citations": [
+        {
+          "id": "source-sec-regulation-e-delivery-2026",
+          "title": "SEC Proposes New E-Delivery Approach to Make Information More Readily Accessible and Useful for Investors",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "publishedAt": "2026-07-16T12:00:00Z",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-67-sec-proposes-new-e-delivery-approach-make-information-more-readily-accessible-useful-investors"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The proposal would make electronic delivery available without prior affirmative consent under specified conditions.",
+        "Paper delivery would remain available on request.",
+        "Existing paper recipients would receive two transition notices.",
+        "The comment period runs 60 days after Federal Register publication."
+      ],
+      "corrections": [],
+      "dek": "Regulation E-Delivery would allow electronic delivery without prior affirmative consent while preserving paper on request.",
+      "desk": "investor-disclosure-rules",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Securities and Exchange Commission"
+      ],
+      "eventId": "event-sec-regulation-e-delivery-paper-opt-out-proposal-2026",
+      "headline": "SEC Proposal Would Make Investor E-Delivery the Default",
+      "id": "article-sec-regulation-e-delivery-paper-opt-out-proposal-2026",
+      "leadImage": {
+        "alt": "Stone facade and columns of the New York Stock Exchange on Wall Street.",
+        "caption": "The New York Stock Exchange on Wall Street. A proposed SEC rule would make electronic delivery the default for a broad range of investor documents.",
+        "credit": "Kidfly182 / Wikimedia Commons, CC BY 4.0",
+        "height": 900,
+        "rightsId": "media-sec-edelivery-nyse-kidfly182",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/nyse/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-fed-july-2026-bank-lending-standards-demand"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The SEC's Regulation E-Delivery proposal would default many investor documents to electronic delivery while keeping paper available on request.",
+        "index": true,
+        "title": "SEC proposes electronic delivery as investor-document default"
+      },
+      "section": "business",
+      "slug": "sec-regulation-e-delivery-paper-opt-out-proposal-2026",
+      "social": {
+        "description": "Regulation E-Delivery would allow electronic delivery without prior affirmative consent while preserving paper on request.",
+        "image": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/nyse/open-graph.webp",
+        "title": "SEC Proposal Would Make Investor E-Delivery the Default"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "SEC regulation",
+        "Investor disclosures",
+        "Electronic delivery",
+        "Paper statements"
+      ],
+      "uncertainty": [
+        "Regulation E-Delivery is a proposal and may change before any final vote.",
+        "The SEC did not provide a final adoption or compliance date in the announcement."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Italy's economy is projected to grow 0.5% in both 2026 and 2027, according to the International Monetary Fund's annual review.\n\nReal GDP also grew 0.5% in 2025. The IMF attributes part of that expansion to continued investment under Italy's National Recovery and Resilience Plan and expects that investment to support activity in the near term.\n\nInflation is projected to rise to 2.9% in 2026 and remain above 2% in 2027. The Fund links the increase to higher global energy prices and Italy's dependence on imported fossil fuels.\n\nThe fiscal position has improved as the primary surplus strengthened, but the IMF says public debt remains too high and vulnerable to shifts in interest rates and growth. That limits room to absorb another shock.\n\nEmployment has remained near historic highs, while labor-force participation still trails peer countries, particularly among women and young people. The IMF treats higher participation as part of the growth agenda rather than evidence that current employment gains are broad enough.\n\nThe accompanying financial-sector assessment found Italy's system broadly sound, with robust oversight and banks resilient in severe stress scenarios. That conclusion does not remove exposure to sovereign-market volatility or slower growth.\n\nOver the medium term, rapid population aging and persistently weak productivity are expected to keep growth subdued. The Fund points to public-investment execution, digitalization and technology adoption as possible sources of stronger productivity.\n\nRisks are tilted downward. Higher energy costs, geopolitical escalation, tighter financial conditions or delays in investment could weaken output; faster reform and productivity gains could improve it.\n\nThe 0.5% and 2.9% figures are forecasts conditioned on current policy and external assumptions. Article IV advice is an external assessment and does not bind Italy's elected institutions.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Italy's economy is projected to grow 0.5% in both 2026 and 2027, according to the International Monetary Fund's annual review."
+        },
+        {
+          "type": "paragraph",
+          "text": "Real GDP also grew 0.5% in 2025. The IMF attributes part of that expansion to continued investment under Italy's National Recovery and Resilience Plan and expects that investment to support activity in the near term."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-italy-outlook-growth-inflation",
+          "src": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/growth/four-three.webp",
+          "alt": "Graphic shows Italy growth of 0.5 percent in 2026 and 2027 and inflation of 2.9 percent in 2026.",
+          "caption": "The IMF projects 0.5% growth in 2026 and 2027, with 2026 inflation at 2.9%.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/24/pr26256-italy-imf-executive-board-concludes-2026-article-iv-consultation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inflation is projected to rise to 2.9% in 2026 and remain above 2% in 2027. The Fund links the increase to higher global energy prices and Italy's dependence on imported fossil fuels."
+        },
+        {
+          "type": "paragraph",
+          "text": "The fiscal position has improved as the primary surplus strengthened, but the IMF says public debt remains too high and vulnerable to shifts in interest rates and growth. That limits room to absorb another shock."
+        },
+        {
+          "type": "paragraph",
+          "text": "Employment has remained near historic highs, while labor-force participation still trails peer countries, particularly among women and young people. The IMF treats higher participation as part of the growth agenda rather than evidence that current employment gains are broad enough."
+        },
+        {
+          "type": "paragraph",
+          "text": "The accompanying financial-sector assessment found Italy's system broadly sound, with robust oversight and banks resilient in severe stress scenarios. That conclusion does not remove exposure to sovereign-market volatility or slower growth."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-italy-outlook-policy-constraints",
+          "src": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/constraints/four-three.webp",
+          "alt": "Graphic lists high public debt, rapid aging and weak productivity as Italy's constraints.",
+          "caption": "High public debt, population aging and weak productivity narrow Italy's medium-term policy room.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/24/pr26256-italy-imf-executive-board-concludes-2026-article-iv-consultation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Over the medium term, rapid population aging and persistently weak productivity are expected to keep growth subdued. The Fund points to public-investment execution, digitalization and technology adoption as possible sources of stronger productivity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Risks are tilted downward. Higher energy costs, geopolitical escalation, tighter financial conditions or delays in investment could weaken output; faster reform and productivity gains could improve it."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 0.5% and 2.9% figures are forecasts conditioned on current policy and external assumptions. Article IV advice is an external assessment and does not bind Italy's elected institutions."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/italy-growth-05-percent-inflation-29-imf-2026/",
+      "citations": [
+        {
+          "id": "source-imf-italy-article-iv-2026",
+          "title": "IMF Executive Board Concludes 2026 Article IV Consultation with Italy",
+          "publisher": "International Monetary Fund",
+          "publishedAt": "2026-07-24T12:00:00Z",
+          "url": "https://www.imf.org/en/news/articles/2026/07/24/pr26256-italy-imf-executive-board-concludes-2026-article-iv-consultation"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Italy's real GDP grew 0.5% in 2025.",
+        "The IMF projects 0.5% growth in 2026 and 2027.",
+        "Inflation is projected at 2.9% in 2026.",
+        "The financial system was assessed as broadly sound."
+      ],
+      "corrections": [],
+      "dek": "The Fund projects inflation at 2.9% in 2026 as imported energy costs and high public debt constrain the outlook.",
+      "desk": "euro-area-economic-outlooks",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "International Monetary Fund",
+        "Government of Italy"
+      ],
+      "eventId": "event-italy-growth-05-percent-inflation-29-imf-2026",
+      "headline": "IMF Sees Italy Growth at 0.5% Through 2027",
+      "id": "article-italy-growth-05-percent-inflation-29-imf-2026",
+      "leadImage": {
+        "alt": "Rome skyline with domes, tiled roofs and distant hills under a blue sky.",
+        "caption": "Rome's skyline. The IMF projects Italy's economy will grow 0.5% in both 2026 and 2027 while inflation stays above 2% next year.",
+        "credit": "Erik Drost / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-italy-rome-skyline-erik-drost",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/rome/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Italy",
+        "Rome"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-imf-austria-growth-inflation-outlook-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The IMF projects Italy GDP growth of 0.5% through 2027 and inflation of 2.9% in 2026 amid energy and debt pressures.",
+        "index": true,
+        "title": "IMF projects Italy growth at 0.5% in 2026 and 2027"
+      },
+      "section": "world",
+      "slug": "italy-growth-05-percent-inflation-29-imf-2026",
+      "social": {
+        "description": "The Fund projects inflation at 2.9% in 2026 as imported energy costs and high public debt constrain the outlook.",
+        "image": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/rome/open-graph.webp",
+        "title": "IMF Sees Italy Growth at 0.5% Through 2027"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Italy economy",
+        "Economic growth",
+        "Inflation",
+        "Public debt"
+      ],
+      "uncertainty": [
+        "IMF forecasts depend on energy prices, financial conditions and policy execution.",
+        "Public-debt and growth figures may be revised as national data are updated."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The U.S. Department of Education announced that it is removing several disparate-impact provisions from the regulations its Office for Civil Rights uses to enforce Title VI.\n\nTitle VI bars discrimination based on race, color and national origin in programs receiving federal financial assistance. The department says the change aligns enforcement with intentional discrimination rather than outcomes produced by facially neutral policies.\n\nA disparate-impact framework can examine whether a neutral rule falls more heavily on a protected group without requiring proof that the rule was adopted with discriminatory intent. The department's announcement rejects that basis within the provisions it identified.\n\nThe action follows Executive Order 14281, issued in April 2025, which set an administration policy to eliminate disparate-impact liability across federal enforcement. The Justice Department had updated its own Title VI regulations in December 2025.\n\nThe Education Department's release points specifically to Title 34, Part 100, the regulations governing Title VI enforcement for recipients of its funding. It does not repeal the Title VI statute.\n\nSchools can still face federal action for intentional discrimination, and students, parents and advocates may continue to file discrimination or retaliation complaints electronically with the Office for Civil Rights.\n\nThe policy changes what evidence the department says it will use to establish a violation. It does not by itself resolve how courts will treat disparate-impact theories under other statutes or regulations.\n\nThe announcement did not identify a school-specific finding or quantify how many pending cases could be affected. Any effect on investigations will depend on the facts, legal authority and procedural status of each matter.\n\nFor education institutions, the immediate operational signal is a narrower federal administrative theory under Part 100, paired with continuing obligations not to discriminate intentionally and to respond to the existing complaint process.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The U.S. Department of Education announced that it is removing several disparate-impact provisions from the regulations its Office for Civil Rights uses to enforce Title VI."
+        },
+        {
+          "type": "paragraph",
+          "text": "Title VI bars discrimination based on race, color and national origin in programs receiving federal financial assistance. The department says the change aligns enforcement with intentional discrimination rather than outcomes produced by facially neutral policies."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-titlevi-rule-enforcement-change",
+          "src": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/change/four-three.webp",
+          "alt": "Graphic shows rescinded disparate-impact provisions and continued intentional-discrimination enforcement.",
+          "caption": "The department says Title VI enforcement will no longer use the rescinded disparate-impact provisions.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ed.gov/about/news/press-release/us-department-of-education-removes-disparate-impact-title-vi-regulations"
+        },
+        {
+          "type": "paragraph",
+          "text": "A disparate-impact framework can examine whether a neutral rule falls more heavily on a protected group without requiring proof that the rule was adopted with discriminatory intent. The department's announcement rejects that basis within the provisions it identified."
+        },
+        {
+          "type": "paragraph",
+          "text": "The action follows Executive Order 14281, issued in April 2025, which set an administration policy to eliminate disparate-impact liability across federal enforcement. The Justice Department had updated its own Title VI regulations in December 2025."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Education Department's release points specifically to Title 34, Part 100, the regulations governing Title VI enforcement for recipients of its funding. It does not repeal the Title VI statute."
+        },
+        {
+          "type": "paragraph",
+          "text": "Schools can still face federal action for intentional discrimination, and students, parents and advocates may continue to file discrimination or retaliation complaints electronically with the Office for Civil Rights."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-titlevi-rule-scope",
+          "src": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/scope/four-three.webp",
+          "alt": "Graphic lists race, color and national origin as protected under Title VI.",
+          "caption": "Title VI continues to prohibit discrimination based on race, color and national origin in federally funded education programs.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ed.gov/about/news/press-release/us-department-of-education-removes-disparate-impact-title-vi-regulations"
+        },
+        {
+          "type": "paragraph",
+          "text": "The policy changes what evidence the department says it will use to establish a violation. It does not by itself resolve how courts will treat disparate-impact theories under other statutes or regulations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The announcement did not identify a school-specific finding or quantify how many pending cases could be affected. Any effect on investigations will depend on the facts, legal authority and procedural status of each matter."
+        },
+        {
+          "type": "paragraph",
+          "text": "For education institutions, the immediate operational signal is a narrower federal administrative theory under Part 100, paired with continuing obligations not to discriminate intentionally and to respond to the existing complaint process."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/education-department-title-vi-disparate-impact-provisions-2026/",
+      "citations": [
+        {
+          "id": "source-ed-titlevi-disparate-impact-2026",
+          "title": "U.S. Department of Education Removes Disparate-Impact from Title VI Regulations",
+          "publisher": "U.S. Department of Education",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "url": "https://www.ed.gov/about/news/press-release/us-department-of-education-removes-disparate-impact-title-vi-regulations"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The department announced removal of several disparate-impact provisions from Title 34, Part 100.",
+        "The action follows Executive Order 14281.",
+        "Title VI continues to prohibit discrimination based on race, color and national origin.",
+        "The Office for Civil Rights continues to accept discrimination and retaliation complaints."
+      ],
+      "corrections": [],
+      "dek": "The department says its civil-rights office will focus Title VI enforcement on intentional discrimination while retaining a complaint process.",
+      "desk": "federal-education-civil-rights-policy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Department of Education",
+        "Office for Civil Rights"
+      ],
+      "eventId": "event-education-department-title-vi-disparate-impact-provisions-2026",
+      "headline": "Education Department Removes Title VI Disparate-Impact Rules",
+      "id": "article-education-department-title-vi-disparate-impact-provisions-2026",
+      "leadImage": {
+        "alt": "Entrance to the Department of Education headquarters building in Washington.",
+        "caption": "The Lyndon Baines Johnson Department of Education Building in Washington. The department announced removal of disparate-impact provisions from its Title VI regulations.",
+        "credit": "G. Edward Johnson / Wikimedia Commons, CC BY 4.0",
+        "height": 900,
+        "rightsId": "media-education-lbj-building-johnson",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/lbj-building/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-arkansas-education-waiver-ed-flex-8-8-million-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The Education Department removed several Title VI disparate-impact provisions while keeping intentional-discrimination enforcement and complaints.",
+        "index": true,
+        "title": "Education Department removes Title VI disparate-impact provisions"
+      },
+      "section": "politics",
+      "slug": "education-department-title-vi-disparate-impact-provisions-2026",
+      "social": {
+        "description": "The department says its civil-rights office will focus Title VI enforcement on intentional discrimination while retaining a complaint process.",
+        "image": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/lbj-building/open-graph.webp",
+        "title": "Education Department Removes Title VI Disparate-Impact Rules"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Title VI",
+        "Education policy",
+        "Civil rights enforcement",
+        "Federal regulation"
+      ],
+      "uncertainty": [
+        "The announcement did not quantify effects on pending investigations or identify an implementation date for every procedural change.",
+        "The action does not determine how courts may interpret other statutes or agencies' regulations."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The World Health Organization has recommended a 14-day treatment regimen for many visceral leishmaniasis patients in eastern Africa, shortening the previous 17-day course and reducing daily injections from two to one.\n\nVisceral leishmaniasis, also called kala-azar, is transmitted by infected sandflies and can cause fever, weight loss, anemia and enlarged organs. WHO estimates 50,000 to 90,000 cases a year across 80 endemic countries, with only 25% to 45% reported.\n\nFor the first time, WHO recommends regimens that do not use sodium stibogluconate for eligible patients. In eastern Africa, the new option combines oral miltefosine with injected paromomycin.\n\nSodium stibogluconate remains an option for patients who are not eligible for the new combinations. WHO says treatment still depends on disease form, immune status, parasite species, other conditions and geography.\n\nThe guidance also updates treatment for post-kala-azar dermal leishmaniasis, a skin condition that can follow apparent cure. PKDL is not usually life-threatening but may maintain transmission and can cause stigma and social isolation.\n\nFor eastern Africa, WHO recommends shorter combinations for PKDL; in South-East Asia, the options include liposomal amphotericin B alone or with oral miltefosine. The document also gives clearer guidance for relapse in immunocompetent patients in South-East Asia.\n\nWHO expects almost half of primary visceral-leishmaniasis patients and all PKDL patients to be potentially eligible for the new recommendations. That estimate describes potential clinical eligibility, not guaranteed access to medicines or completion of treatment.\n\nThe 55-page guideline applies to HIV-negative patients and incorporates clinical trials, systematic reviews, safety evidence and implementation considerations. National health authorities must still translate it into local protocols and supply systems.\n\nThe changes are clinical guidance for trained health systems, not instructions for self-treatment. Diagnosis and regimen choice require medical evaluation because the recommended drugs carry important risks and are not interchangeable across regions or patients.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The World Health Organization has recommended a 14-day treatment regimen for many visceral leishmaniasis patients in eastern Africa, shortening the previous 17-day course and reducing daily injections from two to one."
+        },
+        {
+          "type": "paragraph",
+          "text": "Visceral leishmaniasis, also called kala-azar, is transmitted by infected sandflies and can cause fever, weight loss, anemia and enlarged organs. WHO estimates 50,000 to 90,000 cases a year across 80 endemic countries, with only 25% to 45% reported."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-kala-azar-treatment-change",
+          "src": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/treatment/four-three.webp",
+          "alt": "Graphic compares the new 14-day one-injection regimen with the older 17-day two-injection regimen.",
+          "caption": "WHO's new eastern Africa regimen runs 14 days with one daily injection instead of two injections over 17 days.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.who.int/news/item/29-07-2026-who-updates-treatment-guidelines-on-visceral-and-post-kala-azar-dermal-leishmaniasis"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the first time, WHO recommends regimens that do not use sodium stibogluconate for eligible patients. In eastern Africa, the new option combines oral miltefosine with injected paromomycin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sodium stibogluconate remains an option for patients who are not eligible for the new combinations. WHO says treatment still depends on disease form, immune status, parasite species, other conditions and geography."
+        },
+        {
+          "type": "paragraph",
+          "text": "The guidance also updates treatment for post-kala-azar dermal leishmaniasis, a skin condition that can follow apparent cure. PKDL is not usually life-threatening but may maintain transmission and can cause stigma and social isolation."
+        },
+        {
+          "type": "paragraph",
+          "text": "For eastern Africa, WHO recommends shorter combinations for PKDL; in South-East Asia, the options include liposomal amphotericin B alone or with oral miltefosine. The document also gives clearer guidance for relapse in immunocompetent patients in South-East Asia."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-kala-azar-global-burden",
+          "src": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/burden/four-three.webp",
+          "alt": "Graphic shows 50,000 to 90,000 annual cases across 80 endemic countries and 25 to 45 percent reported.",
+          "caption": "WHO estimates 50,000 to 90,000 kala-azar cases annually, with only 25% to 45% reported.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.who.int/news/item/29-07-2026-who-updates-treatment-guidelines-on-visceral-and-post-kala-azar-dermal-leishmaniasis"
+        },
+        {
+          "type": "paragraph",
+          "text": "WHO expects almost half of primary visceral-leishmaniasis patients and all PKDL patients to be potentially eligible for the new recommendations. That estimate describes potential clinical eligibility, not guaranteed access to medicines or completion of treatment."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 55-page guideline applies to HIV-negative patients and incorporates clinical trials, systematic reviews, safety evidence and implementation considerations. National health authorities must still translate it into local protocols and supply systems."
+        },
+        {
+          "type": "paragraph",
+          "text": "The changes are clinical guidance for trained health systems, not instructions for self-treatment. Diagnosis and regimen choice require medical evaluation because the recommended drugs carry important risks and are not interchangeable across regions or patients."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/who-kala-azar-14-day-treatment-guidelines-2026/",
+      "citations": [
+        {
+          "id": "source-who-leishmaniasis-guidelines-update-2026",
+          "title": "WHO updates treatment guidelines on visceral and post-kala-azar dermal leishmaniasis",
+          "publisher": "World Health Organization",
+          "publishedAt": "2026-07-29T12:00:00Z",
+          "url": "https://www.who.int/news/item/29-07-2026-who-updates-treatment-guidelines-on-visceral-and-post-kala-azar-dermal-leishmaniasis"
+        },
+        {
+          "id": "source-who-leishmaniasis-guideline-2026",
+          "title": "WHO guidelines on leishmaniases: treatment of visceral leishmaniasis and post-kala-azar dermal leishmaniasis in eastern Africa and South-East Asia",
+          "publisher": "World Health Organization",
+          "publishedAt": "2026-07-28T12:00:00Z",
+          "url": "https://www.who.int/southeastasia/publications/i/item/9789240123298"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The new eastern Africa regimen runs 14 days.",
+        "It uses one injection rather than two injections over 17 days.",
+        "WHO estimates 50,000 to 90,000 kala-azar cases annually.",
+        "Only 25% to 45% of cases are reported to WHO."
+      ],
+      "corrections": [],
+      "dek": "New guidance recommends the first sodium-stibogluconate-free option for many patients and shorter regimens for a related skin condition.",
+      "desk": "neglected-tropical-disease-guidelines",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Health Organization"
+      ],
+      "eventId": "event-who-kala-azar-14-day-treatment-guidelines-2026",
+      "headline": "WHO Cuts East Africa Kala-Azar Regimen to 14 Days",
+      "id": "article-who-kala-azar-14-day-treatment-guidelines-2026",
+      "leadImage": {
+        "alt": "Close-up of a pale sandfly biting human skin.",
+        "caption": "A Phlebotomus sandfly begins a blood meal. Visceral leishmaniasis, or kala-azar, is transmitted through infected sandflies.",
+        "credit": "CDC / Frank Collins; photo by James Gathany",
+        "height": 900,
+        "rightsId": "media-kala-azar-sandfly-cdc-gathany",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/sandfly/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Eastern Africa",
+        "South-East Asia"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-who-dementia-risk-reduction-guidelines-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "WHO's 2026 kala-azar guideline shortens treatment to 14 days for many East African patients and adds SSG-free options.",
+        "index": true,
+        "title": "WHO recommends 14-day kala-azar regimen in East Africa"
+      },
+      "section": "health-science",
+      "slug": "who-kala-azar-14-day-treatment-guidelines-2026",
+      "social": {
+        "description": "New guidance recommends the first sodium-stibogluconate-free option for many patients and shorter regimens for a related skin condition.",
+        "image": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/sandfly/open-graph.webp",
+        "title": "WHO Cuts East Africa Kala-Azar Regimen to 14 Days"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Leishmaniasis",
+        "Kala-azar",
+        "Treatment guidelines",
+        "Neglected tropical diseases"
+      ],
+      "uncertainty": [
+        "Country adoption, medicine supply and patient eligibility will determine practical access.",
+        "The recommendations apply to defined regions and HIV-negative populations and should not be generalized to every patient."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T13:00:20.882Z",
+  "generatedAt": "2026-08-11T14:01:34.994Z",
   "inputHashes": {
+    "sourceItems": "c13c85a21c9ec1f366d3d0501edabd4b24246fbab386e9f120ee3da292544831",
+    "events": "dd4698813c78b3724fa9201fbf30bc750566edc831435bab0cea549620ac913f",
+    "claims": "73c2d7db50a96832e71899a03dca0463c11c634739c9348b366aa37f563c3106",
+    "articles": "6e46a6fed6b484e998ddbe4984af35a4c2ba3d24b84569db365506f1c193e0aa",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
-    "articles": "1235130c456239e0c5d476a0897f08284396efde02494973040a00d5d57f0963",
-    "claims": "51c4300df3cdbd0c3df5e5e9f686df91645c54f420ee839fd2eea992531d4407",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "8005857da56b6f5aba6c96774b4fc334b6ffd660953d3424d70f12394e883a66",
-    "mediaRights": "c909915f2276efe21afc04875be68f49a5762073afe35f305e724f60cd306c31",
-    "publicationIntents": "3fe8fc5bb7e09f481cf4b771cd63538403124603e3ca815cd3e60411fc28a697",
+    "mediaRights": "127f2becdbca45ddfc17a79e2a8ab125f29a3a2a2d2802af35238d934ce18289",
     "releaseRecords": "012ae3e45b66d9f4ccb0c5b8b21525e7e137583d69b00aeb1264fc6cd390a386",
-    "sourceItems": "ee9fb4ce8c2d002aee7b8a321972ff2eb3a0665bbfb5bfd30938493448cf792a"
+    "publicationIntents": "40c698ee8effef28c41e405457ec5d9ff3865ebf873802c822ce14a9e0a5670e"
   },
   "inventory": {
-    "articleCount": 321,
-    "mediaCount": 949,
-    "routeCount": 321
+    "articleCount": 327,
+    "routeCount": 327,
+    "mediaCount": 967
   },
   "mediaRights": [
     {
@@ -124838,9 +125726,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.ncaa.org/news/2025/4/14/media-center-di-womens-soccer-championship-schedule-to-shift-beginning-in-2026.aspx"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Blue and white Saab 340 aircraft flying above the runway at Farnborough.",
+      "archivalStatus": "current",
+      "attribution": "Colin Cooke Photo / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "GE Aerospace's modified Saab 340 at the Farnborough International Airshow in July 2026. NASA says the megawatt-class hybrid-electric system had flown above 30,000 feet.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Colin Cooke Photo",
+      "derivatives": [
+        {
+          "hash": "3ac705e8e4f98b145dac8c4c3cf67f0a8521e0b04ccd7c9d4ee0cb365edf0327",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/farnborough/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6d9cb9a420032e8d094ad3640d2af194ce1ed79057bdf5613100ad3e71a2abe1",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/farnborough/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "750cbdd2fb80cf5bb0ba35cad5a48a61b8614b20ea9f0cff447d77c4e6faebc2",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/farnborough/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "dd2e13198e11e57130e112de2a8da27699c8d9207fd1267f61ddcdaac5636bf9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/farnborough/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "43de106720fee7b41efcdf5bdf1f3aa105c7dab81faed0f4eed25bbe82cf61d2",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/farnborough/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "789118dca6dcd009f059694a5c541f7382a61aef2f80f1bfaed9354a0ee16554",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/farnborough/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7985f4623987f4167154344f08fb809eaf1d4d340a7eb5136cf5ef4d9eb5888b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/farnborough/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-hybrid-saab-farnborough-colin-cooke",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "c2dbd61d7388ab0cd6e568e33456a42e967820dc3e1c0046433c4c4e1e6d0756",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "The photographer licensed the image CC BY-SA 4.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:N399CL_Saab_340_General_Electric_Farnborough_15.7.26.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists electric motors, a gas turbine and energy storage as parts of the hybrid system.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The demonstrator combines electric motors, a gas turbine and energy storage in one propulsion system.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "360cf71f73fba97ddf6de17dab0a446099427b08970f64171f3643847fa3612b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/system/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b1707b298be8ac40468babd0eddd975fe79d09194224939edcf5289eb7098032",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/system/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0391892cf46e8f400794b8a29dd3778b2e944113daa905c1438d39906abcf701",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/system/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d45d94bae8c8797621062984d4cd5afa7124fb753a08e8ad528db9ef6260f072",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/system/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "fbcc03498288b38bdf355cf24acbe4a9f27380f6a5889ec54c9316413b48c81b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/system/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ebe35c054c5c34731548d3a40e587129c15a3a73fa970b1af570b684ed0e9a63",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/system/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0c85d5d7481caa855f9e7f77f2f1506c3d327ffcaa02a089acbf5105ed3803f5",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/system/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-hybrid-saab-system-components",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d45d94bae8c8797621062984d4cd5afa7124fb753a08e8ad528db9ef6260f072",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows flight above 30,000 feet, simulated testing at 45,000 feet and more than 15 years of research.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The flight program followed ground testing at simulated altitudes up to 45,000 feet.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "81280674dc9c951916cf289beb0f2ed76a439cde9481b1b65a73b1d3c097830a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/milestones/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6d7adbc1cdaff32b83275b9c61764e6f5e4dca54b8ea21fed90c9b961f3cb019",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/milestones/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1677771c30ad450f98145027bafe8f3e183b1771d64fd7893e5c35e9c9a53c1f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/milestones/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d04d5a8fef6cec9eca9334e6fbb9344d3483a2102160763b8d73ee0ab91a7191",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/milestones/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8a68471c30c3bf61e133086632d45e38650b16a02efdfef5c85de70164f0d077",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/milestones/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ae27dc381ceec545719449f4dc9c253896e24f90808700f5b6a4fd76d8a2933d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/milestones/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "86680dce882cfb193ebf77f3ce8627d2a896bfa896b4e562463f7c572f1305f8",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/hybrid-saab/milestones/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-hybrid-saab-test-milestones",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d04d5a8fef6cec9eca9334e6fbb9344d3483a2102160763b8d73ee0ab91a7191",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nasa.gov/directorates/rtmd/nasa-ge-hybrid-electric-flight/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A technician's hand and a red sensor light above a metal wing-test component.",
+      "archivalStatus": "current",
+      "attribution": "NASA / Steve Freeman",
+      "caption": "A technician works with a fiber-optic sensor while NASA Armstrong prepares a mock truss-braced wing test in 2024. The later 15-foot SWEET-15 article was loaded until it failed at about 127% of design limit.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "NASA / Steve Freeman",
+      "derivatives": [
+        {
+          "hash": "97a9f06dda3156a55f5e97ba0b7fdc598f2e5b23431c1c633002467c79b07ab3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/mock-test/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6848a44ac64dc97f0e9d2266e97e4cede4ba96ba8fbcfd3d7c4b06755c971324",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/mock-test/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4e6b503e73dd721212e2611e7249e853d6534dfb538bc3043ac7c1e4d11cc2b1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/mock-test/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7054027da9773387eb72517e6bedade4943909caa8e92c618f4375232d845590",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/mock-test/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2d53f48f431c2b77266422dcdbd8e25783f9bd6e2e74999f120c21bf5d7fc1ee",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/mock-test/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d3d4e3786ebfe14ff82276067884a5b54c4e7b81f59eb65fce5f3fc5b0500457",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/mock-test/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0e96b0d5c61d3bf60b3c9f8615fd96c7939a5ca908537fefa45dd2b2bc5ef648",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/mock-test/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-sweet15-mock-wing-nasa-freeman",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "41409436ad3819fe83b6bb7296ff4e84c2786e38aa76a5525773769722f43370",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "NASA created the photograph as part of its official duties; Wikimedia Commons records it as public domain in the United States.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NASA_Prepares_for_Mock_Truss-Braced_Wing_Tests_(AFRC2024-0047-03).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows anticipated flight loads passed and failure at about 127 percent of design limit.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "SWEET-15 survived anticipated flight forces and failed only after loading reached about 127% of design limit.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "dc2955da90456afd3535a8d6c7b116e72eef9fc453c0eb86e91c504fce71cfe9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/load-result/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e4692b2904ebe9a5f6c05512fb0a5b93ce386ced2435c039c95bbbf869e01cdb",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/load-result/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "50b398b6afbe0a96500ad758273227fa3ec6f5e217d54c259735dfab5b4ef440",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/load-result/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "27fbdacbdbf992bd473be2437f78831c16773b14edc10134a9f0854712fcc77e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/load-result/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "fb37f37fb99abda180c7513fb879af8351378bd45d6f0b42c8ca2b4d91c43786",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/load-result/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f91e897684eec13bf908b9581352dfdda515d0eafe50e21543a248e52d88a04d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/load-result/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0760ae2b8f4cbb13540e0aa958d016d54a12e7029215aac826da74041a559b65",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/load-result/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-sweet15-load-result",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "27fbdacbdbf992bd473be2437f78831c16773b14edc10134a9f0854712fcc77e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists a 15-foot span, composite structure and multiple strain and load sensors.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The 15-foot composite test article used load, strain and fiber-optic sensors to compare physical behavior with models.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "122a6cf84b0f3d8dd8a40d5d4d6d34e4ccf8c0480d39d37ed8db4d1136196e3a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/test-article/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9a29082e6070605ef70eec4894ac2758c82d40603d3e2449c9a5e9fd8849e6ec",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/test-article/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "dcb97577913616eeebd07d6d1aae337b1eb19b92e00a1f9ed27f9fe7817c891b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/test-article/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1d74268cecfa42705bfb8277e553c53bc89397977546eff4a18f86f45cc85ab5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/test-article/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "db05bdcd77bdf46b20eeb2419d64bfd729baf2f78fdb7cb10e85cd6591df1c5f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/test-article/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b5a11b6c30fe27e47b358ac7652da33bdaf65b5d70d92591b4ebd11e91bf7690",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/test-article/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c415a8ab6d5c98336c927097858240c9d00a5f5c681f9e19e87d6cd0d6d53bf0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sweet15/test-article/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-sweet15-test-article",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "1d74268cecfa42705bfb8277e553c53bc89397977546eff4a18f86f45cc85ab5",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nasa.gov/centers-and-facilities/armstrong/nasa-pushes-new-wing-design-to-find-structural-limits/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Stone facade and columns of the New York Stock Exchange on Wall Street.",
+      "archivalStatus": "current",
+      "attribution": "Kidfly182 / Wikimedia Commons, CC BY 4.0",
+      "caption": "The New York Stock Exchange on Wall Street. A proposed SEC rule would make electronic delivery the default for a broad range of investor documents.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Kidfly182",
+      "derivatives": [
+        {
+          "hash": "7fef9bedb348982371525152eba04497d121851d57083cc3963683722d378772",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/nyse/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "438a135651380ac2deac0031c5667ed177250292c175170511276ad5e181701d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/nyse/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a97eb5b2b8888ed51e945087b4c6e577a19709c3ab54d23330c4fa7b8bb0814a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/nyse/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "56eef748a41c3c9ccd3643bcfd22e52a2f55edf720b93a0274d2f446566fe612",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/nyse/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0828ec7e9d6d6383e49da4acfbf1a40cb709e2c63a3c6aba7c80be40bdc3958f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/nyse/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "cc48c0c02ecca7e08bd89fb04eff2d5408c57deb40032df96d72b878ea00ac4e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/nyse/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "91393eb66b9deaba623901d17ea4c27fbae01ae7ac7d0e319ad9bda5d6440a0b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/nyse/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-sec-edelivery-nyse-kidfly182",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "902ef8b68dd1423ae7ed3cda09f90d16658eb92922bab8bd376c17c226296b0c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "The photographer licensed the image CC BY 4.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_June_2024.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic contrasts today's paper default with proposed electronic delivery and a paper opt-out.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The proposal would switch the default from paper to electronic delivery, with paper still available on request.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "a65694d0cc81cafd3be290e8d9a6b85ee4ade80aa0cf5b515f3eee7f3e8f3ecf",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/default/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "173d21defb649ea11d5d6875ac49f39780d82ae9a1fb5fb3abff05ae466e8e87",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/default/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "966b3d0ea26e1187cbba890c31a05639392f7f35962495b7f25365e8ed37330b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/default/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f60e5b1dff7b83b6905f30dc71fb7927d27f02b47b1144c1c67087e902a1c41e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/default/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "09ac04b16b648c85781da6347dede01ef345c44a74bfe0bb096fb56d4f60a66c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/default/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "747e1f336e02d1cd0c27b0f543e11303e3fa176f2d0b6e48f8f29b66c5ad98b1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/default/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "269e0638d50c831adc56b57e58745bbbe437c26200864c8ed05fc906739242f6",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/default/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-sec-edelivery-default-change",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f60e5b1dff7b83b6905f30dc71fb7927d27f02b47b1144c1c67087e902a1c41e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.sec.gov/newsroom/press-releases/2026-67-sec-proposes-new-e-delivery-approach-make-information-more-readily-accessible-useful-investors"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists prospectuses, shareholder reports, proxy statements and trade confirmations.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The proposed rule would cover prospectuses, shareholder reports, proxy statements, confirmations and adviser disclosures.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "aa23aa22a5b740f9bf2015d03775d7709996103c2990aeb0619592dfa9774309",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/documents/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "98382f458eef02626f8d9632581cc0239aac8491e277a1aee32530e762404c35",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/documents/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "da90e405a0dc2c5a5e47db2dd4eb3bc0b61a872ba3e3bfeea63178e2d3ca3bd1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/documents/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "0dab9dda4df5be51743172c4b3a1e775431e550f8c5699ac47cb73aa499ecac8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/documents/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "939ac61b79a044b90e91b80e5517018a00174ec1884ff2813e03311044b91d4f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/documents/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "573e64d9993c3a0ddfdbece634e50be293700bdc0ea2bf56d1dce62e74334e2f",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/documents/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c7c4402ddfa9d02db226121b94274db20fe0b5aacb33a7b4995858e50f246b08",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/sec-edelivery/documents/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-sec-edelivery-document-scope",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "0dab9dda4df5be51743172c4b3a1e775431e550f8c5699ac47cb73aa499ecac8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.sec.gov/newsroom/press-releases/2026-67-sec-proposes-new-e-delivery-approach-make-information-more-readily-accessible-useful-investors"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Rome skyline with domes, tiled roofs and distant hills under a blue sky.",
+      "archivalStatus": "current",
+      "attribution": "Erik Drost / Wikimedia Commons, CC BY 2.0",
+      "caption": "Rome's skyline. The IMF projects Italy's economy will grow 0.5% in both 2026 and 2027 while inflation stays above 2% next year.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Erik Drost",
+      "derivatives": [
+        {
+          "hash": "9b234c4c00bc0a996c02b8f070303029b6413e0e3e919352ab48fd0be423aea6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/rome/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a1b7f9530e91f002c51fa469c78ebc286a751aa89931e0873d21cd20fbde6c29",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/rome/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "559a89afb0c564c5a489f6f326a30abf0e07e67f9cd521a5557cc67fbfebea6d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/rome/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "be51ba334fe0db6b63fecef3690b19e36cf9ffecccdf4ebdeacfbd7ca0faf145",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/rome/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4bdb081e340c7abf761e530a9f04b0f1a4347b5807c8da5c62d25e7a6880263f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/rome/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "db5bd77b141ed45e5986f2c3e99de6fe883916eb0c892a149bbfee80ce2dcee1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/rome/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "47fcf27f7548bf64cbb53235c88eccb64b67efd319048528917c851d3b73dfc3",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/rome/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-italy-rome-skyline-erik-drost",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "1a4bef18774c7a973ab21577c6ed1ed681f6922103bb297db8bfecbbf981a422",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "The photographer licensed the image CC BY 2.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rome,_Italy_Skyline_(5986629405).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows Italy growth of 0.5 percent in 2026 and 2027 and inflation of 2.9 percent in 2026.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The IMF projects 0.5% growth in 2026 and 2027, with 2026 inflation at 2.9%.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "1d56dd7691001493bb48c8a43c01bcbf4b08ad3af340f04c4dd5787215865f39",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/growth/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c86bda1336590878f514d7e3ae30b103abbb4beb2a9a6ea7d98e502f47b986b6",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/growth/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "713394449e563e1fdc39c47971c9d699abe7f121ed4471a9e91e0aac9442a052",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/growth/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4c115fdc9383301c3679c641e4f2c91bce9d5340546e431c6f50c8a8e906fbfa",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/growth/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "72200313a7b32664a2e3eae540a00edf00167c2cd77c6ae14f7f30a8a6a92723",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/growth/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0c3025f7dbc953f1de65a5dff0cd990f38154f263e630acb9f191eecfdf197d4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/growth/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "9c77f1abca57b65ec5a5b6c3fc5917453b71e341e24da3d876516c39e4875353",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/growth/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-italy-outlook-growth-inflation",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4c115fdc9383301c3679c641e4f2c91bce9d5340546e431c6f50c8a8e906fbfa",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/24/pr26256-italy-imf-executive-board-concludes-2026-article-iv-consultation"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists high public debt, rapid aging and weak productivity as Italy's constraints.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "High public debt, population aging and weak productivity narrow Italy's medium-term policy room.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "23ef69a491298f2f1dfdfa51d51f7d66bd52f37cb67e8324c517088f8e4fa201",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/constraints/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "548186cd77aa8069cf09bb9db1e6f6ae19ce15a5e9da2455456f8f4e551c4ba4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/constraints/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "55fe7797a7ee40717c65ecd584b8b98db4f3aff3e5ab6133a6a07c97cba934f0",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/constraints/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "fd6600d956450d46d0cf28c3cb58e11da7ef5bd95c94957581ab4cdee5370aa0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/constraints/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b5725c0dcc008bc23dd420058a07e835fc6be923dab8d0009125d71975555486",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/constraints/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d66450639691a71bbb1f8f34e2eab7c1f7dede9c6dde9028f908b4020e63b72d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/constraints/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4739123bff7c353921e5056190ed848f6afa56fa0c4276e76fec9dd63d997e8d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/italy-outlook/constraints/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-italy-outlook-policy-constraints",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "fd6600d956450d46d0cf28c3cb58e11da7ef5bd95c94957581ab4cdee5370aa0",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/24/pr26256-italy-imf-executive-board-concludes-2026-article-iv-consultation"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Entrance to the Department of Education headquarters building in Washington.",
+      "archivalStatus": "current",
+      "attribution": "G. Edward Johnson / Wikimedia Commons, CC BY 4.0",
+      "caption": "The Lyndon Baines Johnson Department of Education Building in Washington. The department announced removal of disparate-impact provisions from its Title VI regulations.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "G. Edward Johnson",
+      "derivatives": [
+        {
+          "hash": "7d6d995c25dfa5e6712ddb392cd64af926f6babf447635165c03f50f796ef6e7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/lbj-building/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "feeb6b7c5040478feac4d4198f25882543cbc66a0975339f2d5b623e8b906dda",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/lbj-building/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0e5a76a4e4636aade68ef5cb45f128bb4d2fb2b983eb7f2f4413c289bdcd5997",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/lbj-building/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f182c4a067bec474b2e3e75bdc81278a3ac6a2b8ae86031f485a04074cc10925",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/lbj-building/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a66a7609b65d63cea89fa63cb43fc327d474551d44b66f70bbe2d6b8e3db5cba",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/lbj-building/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0df7838bc6e26bd298d4a1d5b5f26fbaa7ab6f694d382a95a0d2b882482484c7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/lbj-building/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c395f26061b646810a3bbdfe987a9a334d44dbeb342d929638e913339e1ada48",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/lbj-building/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-education-lbj-building-johnson",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "0ff071603a087cb063c8848a72cb31ad3fa0794e03cb15eb37a76b0d338e5075",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "The photographer licensed the image CC BY 4.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Department_of_Education_Lyndon_Baines_Johnson_building_entrance_Washington_DC_2025-02-04_12-12-38.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows rescinded disparate-impact provisions and continued intentional-discrimination enforcement.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The department says Title VI enforcement will no longer use the rescinded disparate-impact provisions.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "5d6668b0240bfceae8f82c8df2224dd473a1da0ba1da9cf1e2489cfbdcbc2bf3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/change/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f0502c60cc1d58589df76be49faa85583688fac634a5c2f20d61dc3b990933b4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/change/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "cee0a50023f7f3d3ba42e4df0f3bde4b5fedc4eed7b5f6b1120079afade1dab4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/change/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "61637eb936ea2962c1d1390e43431939936228d70ba56d552840b18639a127bc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/change/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f9476794586937c36d974b5e59c55434ce3c059410f386a83415571b941b3c52",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/change/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "565833a05c6e127c5d37d7fc522ceffdee94c3ac98cd754ac6ccf9312083f966",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/change/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3bf5899827dac02a3585cccf0a3559839ebdb3603691eb460a987d501c141b1b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/change/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-titlevi-rule-enforcement-change",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "61637eb936ea2962c1d1390e43431939936228d70ba56d552840b18639a127bc",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ed.gov/about/news/press-release/us-department-of-education-removes-disparate-impact-title-vi-regulations"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists race, color and national origin as protected under Title VI.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Title VI continues to prohibit discrimination based on race, color and national origin in federally funded education programs.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "1abc5400b00a5cacc33cdd3acbc6dea9bc7879ecea4194ad68a6e7fe731e2f12",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/scope/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2cb1c338fda35d113675ca9a21f42b0fbb8a3147413a1ba0e1a7787e680a8817",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/scope/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a44ddccc97ee8d44023eb471052b369d4f0ebbfe7799b575b550103ef3551df7",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/scope/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c9771af308e4850203858e2c345a46619b23a6d0db5f0068e0c5c5468f590bda",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/scope/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3d7526a7ca1fee97e367bcbb124f57249f537f639ec10b3a2d25bcd0be661214",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/scope/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1e0483d988fb0aa06957ccc152e55571fae3ee2f10588e806c74422a647ffbd8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/scope/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b4201eabcedc28233269987445b94ff6385d497af4ea25f809d27dcb2bb3cab7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/titlevi-rules/scope/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-titlevi-rule-scope",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "c9771af308e4850203858e2c345a46619b23a6d0db5f0068e0c5c5468f590bda",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ed.gov/about/news/press-release/us-department-of-education-removes-disparate-impact-title-vi-regulations"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Close-up of a pale sandfly biting human skin.",
+      "archivalStatus": "current",
+      "attribution": "CDC / Frank Collins; photo by James Gathany",
+      "caption": "A Phlebotomus sandfly begins a blood meal. Visceral leishmaniasis, or kala-azar, is transmitted through infected sandflies.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "CDC / Frank Collins; James Gathany",
+      "derivatives": [
+        {
+          "hash": "2f1c8cf7397bad528e647701dbb78fe27c2ba1187eeb3f74b3f7223550986210",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/sandfly/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5807d6539104a7fa42201fd6ac4a0ddb31edcc59e115120155a94f148173a1a4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/sandfly/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "305dfcd92014dd0eda4ed9c13b6b0688b0deb5413fe3aaff1549fe83ec5c9b03",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/sandfly/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "57aff39efa9be1f44117e45b1a4de6fc61abcf033d02e4b497fa92318401b617",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/sandfly/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "cfca7e76f5e361f67eb0d9971dca9ec662c2e9ab7c5362f213cb3efb45ccc220",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/sandfly/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3e735b3c7cfa593acfa16bd839eded272ffe6386f8ccea88d04cf428b9e91f92",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/sandfly/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b8758964183d4ec5e89bdabf27e0332297ac5930a3cdad191ae33d4726813460",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/sandfly/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-kala-azar-sandfly-cdc-gathany",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "300b43d9fc28d553cc7de2ef8036fe28efa536917f569d32063f5844ba6baa3b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "The U.S. Centers for Disease Control and Prevention created the image as part of official duties; Wikimedia Commons records it as public domain.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phlebotomus_pappatasi_bloodmeal_begin.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares the new 14-day one-injection regimen with the older 17-day two-injection regimen.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "WHO's new eastern Africa regimen runs 14 days with one daily injection instead of two injections over 17 days.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ded0bc29acef95243c2b9bd6c743a3994517df9241a65d00aaf0050dae4b0356",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/treatment/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "39a1943d27d1e9a3a5d05e17406f5c428bc6fb8c38438db30f956da2459dcd94",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/treatment/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5425a4db402153632e34c6092f3443af518a42feaa68f91757f9deb1efc80a2a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/treatment/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "fe3ad02576314ec897daeffb97658cb269c7af9cf8e8abfab78bc87cd3f5fa0b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/treatment/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c3bb2414313d245148c83b3c1d24cf6aba13afc9ec0a5614cf2456fa7cae64bf",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/treatment/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d13c9ed3e6e9f0392874b44056c65182cd4a334fed4f509dcd49bf59e30c58fe",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/treatment/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "bb81f7ad202b1a5cd985992924936ffda5f138972205649b0d71004f9a1c7da3",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/treatment/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-kala-azar-treatment-change",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "fe3ad02576314ec897daeffb97658cb269c7af9cf8e8abfab78bc87cd3f5fa0b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.who.int/news/item/29-07-2026-who-updates-treatment-guidelines-on-visceral-and-post-kala-azar-dermal-leishmaniasis"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 50,000 to 90,000 annual cases across 80 endemic countries and 25 to 45 percent reported.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "WHO estimates 50,000 to 90,000 kala-azar cases annually, with only 25% to 45% reported.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "4212feca8a116bdb9ff4b8eaf2e4e6bf1f9e38006cbb357c9874753f0877d761",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/burden/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ff093627b8b191bb312d8c9cbb5fb8e1c2c736ded951ecae611dc7d78ef65fa0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/burden/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "34a1dc3e01793b2d9d4b7c12bdb665c206daf6dda2a5d56f55df39db5d6e33d4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/burden/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "3e6a930651c1542917c5e581463952e44c4d150a98a4115aaaa56826c83183c2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/burden/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9db4b8c1e2424d33d5f63bd59bce6fecaf88ed96c2fd8793d625c6bcabb5a905",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/burden/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "aa90501009624e29f5770a108eaf58d622c42e2532ccdc13929bda9a3337456c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/burden/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2e60842ac9118007cf35d0cf9ea257faf5765edba3963c000e9b755749231aeb",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-132424/kala-azar/burden/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-kala-azar-global-burden",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "3e6a930651c1542917c5e581463952e44c4d150a98a4115aaaa56826c83183c2",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T14:01:34.834Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.who.int/news/item/29-07-2026-who-updates-treatment-guidelines-on-visceral-and-post-kala-azar-dermal-leishmaniasis"
     }
   ],
-  "packageDigest": "31dc1ee30cc49d4d9453b8a670f8d2c764e8f573a25fe8ac0e29020a3805f6b5",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -126798,7 +129053,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "75f659d75cb6742f2cc0fe0c9aa8d104a4dd299ff68030030766ed37192c7303"
 }
