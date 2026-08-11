@@ -46281,7 +46281,7 @@
         "Federal agencies"
       ],
       "eventId": "event-gao-four-pillar-us-ai-competitiveness-framework-2026",
-      "headline": "GAO Sets Four-Pillar Test for U.S. AI Competitiveness",
+      "headline": "GAO Sets Four-Pillar Test for U.S. AI Standing",
       "id": "article-gao-four-pillar-us-ai-competitiveness-framework-2026",
       "leadImage": {
         "alt": "A technician uses a laptop beside tall server racks in a computing center.",
@@ -46315,7 +46315,7 @@
       "social": {
         "description": "The method asks analysts to assess science and technology, human capital, governance and the economy before ranking the United States against peers.",
         "image": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/nersc-technician/open-graph.webp",
-        "title": "GAO Sets Four-Pillar Test for U.S. AI Competitiveness"
+        "title": "GAO Sets Four-Pillar Test for U.S. AI Standing"
       },
       "supersededByArticleId": null,
       "supersedesArticleId": null,
@@ -46485,12 +46485,12 @@
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T04:30:33.363Z",
+  "generatedAt": "2026-08-11T04:44:10.441Z",
   "inputHashes": {
     "sourceItems": "bde9d6e104561bd51fc9f5ca85fcef9167e9bc2cc77f307023775fedb24f35ba",
     "events": "606802ceb82363ace3d4f17f3696b11a09aed94257d1437df7b6e124e5f6c80b",
     "claims": "0db19b2d732e00bb669ea2b82658c6baf5d090efca55dbf0b84d72a7edeba06d",
-    "articles": "c8a365a331c243c67a4a51cc29c883dcf0b5b58942f9300ca8a2e101acf43d5c",
+    "articles": "c0e7ac70d50a7144f5c1758ae537139fb4592fef5fb430d438325c2b1f72026d",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "mediaRights": "7065cd4c380b379c2b4e43f53696920d256c8a32b6d84145eb5a72e89c05a6b7",
@@ -110695,5 +110695,5 @@
   "releaseState": "candidate",
   "schemaVersion": "2.1.1",
   "site": "https://bohonews.com",
-  "packageDigest": "360a4752102825ea1b239f192dfa8d5df67c3c78c17ae291a26d717afff96308"
+  "packageDigest": "73eec2c3fe2040d33c4e99f6e92d509cd60ff31b707ad0c17450e9b6f5bd3c6a"
 }
