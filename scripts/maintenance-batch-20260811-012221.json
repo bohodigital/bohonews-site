@@ -1,0 +1,179 @@
+[
+  {
+    "slug": "coast-guard-cleanup-liabilities-448-million-gao-2026",
+    "headline": "Coast Guard Reported $448 Million in Cleanup Liabilities, GAO Says",
+    "dek": "Auditors said the service has not told Congress about potential additional costs, including PFAS exposure that could add hundreds of millions of dollars.",
+    "section": "investigations",
+    "desk": "federal-environmental-liabilities",
+    "topics": ["Coast Guard", "Environmental cleanup", "Federal liabilities", "PFAS", "Shore infrastructure"],
+    "entities": ["U.S. Government Accountability Office", "U.S. Coast Guard", "Department of Homeland Security", "Congress"],
+    "locations": ["United States"],
+    "sources": [{"id":"source-gao-coast-guard-environmental-liabilities-20260714","title":"Environmental Liabilities: Coast Guard Should Give Congress More Information on Millions of Dollars in Potential Costs","publisher":"U.S. Government Accountability Office","publishedAt":"2026-07-14T12:00:00Z","url":"https://www.gao.gov/products/gao-26-108173"}],
+    "lead": {
+      "id":"media-coast-guard-cutter-base-boston-2026","dir":"coast-guard-liabilities/cutter-base-boston","sourceUrl":"https://commons.wikimedia.org/wiki/File:U.S._Coast_Guard_Cutter_Escanaba_docked_at_USCG_Base_Boston.jpg","creator":"Beyond My Ken","rightsBasis":"Creative Commons Attribution-ShareAlike 4.0 license granted by the photographer on Wikimedia Commons.","license":"CC BY-SA 4.0","attribution":"Beyond My Ken / Wikimedia Commons, CC BY-SA 4.0","caption":"The Coast Guard cutter Escanaba is docked at Base Boston. GAO says the service reported $448 million in environmental liabilities tied to its shore infrastructure.","alt":"A red-and-white Coast Guard cutter is moored beside brick buildings at a waterfront base.","original":"coast-guard.jpg"
+    },
+    "charts": [
+      {"id":"media-coast-guard-liability-breakdown-2026","dir":"coast-guard-liabilities/liability-breakdown","caption":"The Coast Guard reported about $228 million for aging structures presumed to contain asbestos or lead and about $220 million for cleanup projects.","alt":"Graphic breaks 448 million dollars into 228 million for aging structures and 220 million for cleanup sites."},
+      {"id":"media-coast-guard-gao-recommendations-2026","dir":"coast-guard-liabilities/recommendations","caption":"GAO recommended fuller disclosure to Congress and a long-term, risk-informed cleanup strategy; Homeland Security agreed.","alt":"Graphic lists two GAO recommendations: expand disclosures and develop a long-term cleanup strategy."}
+    ],
+    "paragraphs": [
+      "The U.S. Coast Guard reported about $448 million in environmental liabilities for shore infrastructure as of September 2025, according to a Government Accountability Office review released July 14.",
+      "The total included about $228 million for structures presumed, because of their age, to contain asbestos or lead-based paint. Another $220 million covered projects at sites with known or suspected contaminant releases.",
+      "GAO said the reported total does not capture every potential cost. Additional contamination can be discovered during cleanup, and some projects cannot yet be estimated with enough confidence to enter the accounting liability.",
+      "Properties that may contain per- and polyfluoroalkyl substances, commonly called PFAS, could increase the government's fiscal exposure by hundreds of millions of dollars beyond the reported amount, the auditors said. That is a potential range, not a booked cost.",
+      "The Coast Guard manages a $28 billion inventory of shore assets, including boat stations, air stations, housing and lighthouses. Past operations and building materials have left contamination at some sites.",
+      "GAO found that the service had not developed a long-term strategy with defined program objectives and performance measures. The report said risk-based sequencing could help direct limited cleanup funds toward the greatest hazards and possible savings.",
+      "The auditors recommended that the commandant expand information provided to Congress, including projects that cannot yet be reasonably estimated and the scale of uncertainty in existing estimates.",
+      "A second recommendation calls for a long-term strategy that measures outcomes and evaluates ways to optimize cleanup projects. The Department of Homeland Security agreed with both recommendations, which GAO lists as open.",
+      "The $448 million figure is an accounting estimate for anticipated cleanup, not a final invoice. Actual costs can rise or fall as contamination is characterized, remedies are selected and work is completed."
+    ],
+    "facts": ["The Coast Guard reported about $448 million in environmental liabilities as of September 2025.","About $228 million was tied to aging structures and $220 million to cleanup sites.","GAO said potential PFAS costs could add hundreds of millions of dollars.","The Coast Guard has about $28 billion in shore infrastructure assets.","DHS agreed with GAO's two recommendations."],
+    "uncertainty": ["The reported liability excludes some costs that cannot yet be reasonably estimated.","Potential PFAS exposure is not a booked cost and will depend on site testing and cleanup decisions."],
+    "seoTitle":"Coast Guard reported $448 million in cleanup liabilities","seoDescription":"GAO says Coast Guard environmental liabilities totaled $448 million, with PFAS and other unknowns potentially adding hundreds of millions more."
+  },
+  {
+    "slug":"tribal-law-enforcement-violent-offenses-down-11-percent-2023",
+    "headline":"Tribal Agencies Reported 11% Fewer Violent Offenses in 2023",
+    "dek":"BJS estimates show 3,780 violent offenses and a statistically unchanged overall clearance rate, while homicide and robbery clearance percentages fell.",
+    "section":"crime-justice","desk":"tribal-crime-statistics",
+    "topics":["Tribal law enforcement","Crime statistics","Clearance rates","NIBRS","Justice data"],
+    "entities":["Bureau of Justice Statistics","Federal Bureau of Investigation","Tribally operated law enforcement agencies"],
+    "locations":["United States","Tribal lands"],
+    "sources":[{"id":"source-bjs-tribal-violent-offenses-2022-2023","title":"Violent Offenses Reported and Cleared by Tribally Operated Law Enforcement Agencies, 2022-2023","publisher":"Bureau of Justice Statistics","publishedAt":"2026-05-07T12:00:00Z","url":"https://bjs.ojp.gov/library/publications/violent-offenses-reported-and-cleared-tribally-operated-law-enforcement"}],
+    "lead":{"id":"media-swinomish-tribal-police-building-2026","dir":"tribal-crime-statistics/swinomish-police","sourceUrl":"https://commons.wikimedia.org/wiki/File:Swinomish_Tribal_Police_Department_01.jpg","creator":"Joe Mabel","rightsBasis":"Creative Commons Attribution-ShareAlike 3.0 license granted by the photographer on Wikimedia Commons.","license":"CC BY-SA 3.0","attribution":"Joe Mabel / Wikimedia Commons, CC BY-SA 3.0","caption":"The Swinomish Tribal Police Department in Washington state. New BJS estimates summarize offenses reported by tribally operated agencies nationwide and do not rank individual departments.","alt":"A small tribal police department building stands beneath a broad cloudy sky.","original":"tribal-police.jpg"},
+    "charts":[
+      {"id":"media-tribal-violent-offenses-counts-2023","dir":"tribal-crime-statistics/offense-counts","caption":"Tribally operated agencies reported an estimated 3,780 violent offenses in 2023, down from 4,250 in 2022.","alt":"Graphic shows violent offenses declining from 4,250 in 2022 to 3,780 in 2023, an 11 percent decrease."},
+      {"id":"media-tribal-offense-clearance-rates-2023","dir":"tribal-crime-statistics/clearance-rates","caption":"The overall clearance estimate was 55% in 2023, statistically unchanged from 54% in 2022; homicide and robbery clearance estimates declined.","alt":"Graphic shows 55 percent overall clearance, 42 percent homicide clearance and 29 percent robbery clearance in 2023."}
+    ],
+    "paragraphs":[
+      "Tribally operated law enforcement agencies reported an estimated 3,780 violent offenses in 2023, an 11% decline from 4,250 in 2022, according to a Bureau of Justice Statistics report released May 7.",
+      "The estimates combine data from BJS and the FBI's National Incident-Based Reporting System Estimation Program. They describe offenses known to participating law enforcement systems, not every act of violence or every person's experience.",
+      "Reported rape offenses declined 23%, from an estimated 540 in 2022 to 410 in 2023. BJS said estimated counts for homicide, robbery and aggravated assault did not change significantly over the same period.",
+      "Agencies cleared an estimated 55% of total violent offenses in 2023. The comparable 2022 estimate was 54%, and BJS said the difference was not statistically significant.",
+      "A clearance generally means an agency arrested and charged a person or resolved an offense through qualifying exceptional circumstances. It does not necessarily mean a conviction, and one clearance can involve more than one offense.",
+      "The estimated homicide clearance percentage fell from 61% in 2022 to 42% in 2023. The robbery clearance estimate declined from 42% to 29%.",
+      "Those category-level changes should not be read as performance rankings for individual tribal agencies. Small numbers, reporting coverage and year-to-year variation can have a larger effect on percentage estimates for less frequent offenses.",
+      "The report focuses on tribally operated agencies rather than all law enforcement serving tribal communities. Federal, state, local and cross-deputized agencies may also have jurisdiction in Indian country under arrangements that vary by place.",
+      "BJS presents the results as statistical estimates and flags which differences are significant. The figures are most useful for tracking the covered system over time, not for drawing conclusions about any specific community or case."
+    ],
+    "facts":["Agencies reported an estimated 3,780 violent offenses in 2023.","That was 11% below the 4,250 estimated for 2022.","Reported rape offenses declined from 540 to 410.","The total violent-offense clearance estimate was 55% in 2023.","Homicide and robbery clearance estimates fell to 42% and 29%, respectively."],
+    "uncertainty":["The figures are estimates based on covered reporting systems and do not measure all victimization.","Category percentages can be sensitive to small counts and should not be used to rank individual agencies."],
+    "seoTitle":"Tribal agencies reported 11% fewer violent offenses in 2023","seoDescription":"BJS estimates 3,780 violent offenses reported by tribally operated agencies in 2023, with overall clearance statistically unchanged at 55%."
+  },
+  {
+    "slug":"library-congress-gil-evans-manuscripts-unrecorded-scores",
+    "headline":"Library of Congress Opens Gil Evans Archive With 160 Unrecorded Scores",
+    "dek":"The complete manuscript collection spans four decades of the jazz orchestrator's work and includes hundreds of scores, lead sheets and instrumental parts.",
+    "section":"culture","desk":"jazz-archives-manuscripts",
+    "topics":["Jazz archives","Music manuscripts","Gil Evans","Library collections","Orchestration"],
+    "entities":["Library of Congress","Gil Evans","Miles Davis","Music Division"],
+    "locations":["Washington, D.C.","United States"],
+    "sources":[{"id":"source-loc-gil-evans-manuscripts-20260218","title":"Library of Congress Acquires Manuscripts of Jazz Musician Gil Evans","publisher":"Library of Congress","publishedAt":"2026-02-18T12:00:00Z","url":"https://newsroom.loc.gov/news/library-of-congress-acquires-manuscripts-of-jazz-musician-gil-evans/s/7c052f41-51b7-49ff-9f8b-fd32639bcb60"}],
+    "lead":{"id":"media-navy-jazz-band-capitol-concert-2017","dir":"gil-evans-archive/navy-jazz-band","sourceUrl":"https://commons.wikimedia.org/wiki/File:U.S._Navy_Band_Commodores_Capitol_Concert_(35255445466).jpg","creator":"U.S. Navy Band / Senior Chief Musician Stephen Hassay","rightsBasis":"Work created by an employee of the United States Navy as part of official duties and identified as public domain on Wikimedia Commons.","license":"U.S. government public domain","attribution":"U.S. Navy Band / Senior Chief Musician Stephen Hassay","caption":"The U.S. Navy Band Commodores perform a jazz concert near the Capitol in 2017. The scene illustrates large-ensemble jazz orchestration; it does not depict Gil Evans or his archive.","alt":"A large jazz ensemble performs on an outdoor stage with brass, woodwind and rhythm sections.","original":"jazz-band.jpg"},
+    "charts":[
+      {"id":"media-gil-evans-archive-inventory-2026","dir":"gil-evans-archive/inventory","caption":"The archive contains about 350 scores, 35 lead sheets, five sketches and 50 instrumental parts from recording projects spanning 1947 to 1987.","alt":"Graphic lists 350 scores, 35 lead sheets, five sketches and 50 instrumental parts."},
+      {"id":"media-gil-evans-unrecorded-material-2026","dir":"gil-evans-archive/unrecorded","caption":"The Library says about 160 scores, 20 lead sheets and 35 instrumental parts in the collection were never recorded.","alt":"Graphic lists 160 unrecorded scores, 20 unrecorded lead sheets and 35 unrecorded instrumental parts."}
+    ],
+    "paragraphs":[
+      "The Library of Congress has acquired the complete collection of music manuscripts by jazz arranger, composer, pianist and bandleader Gil Evans, making previously unavailable work accessible to researchers.",
+      "The archive includes approximately 350 scores, 35 lead sheets, five music sketches and 50 instrumental parts for recording projects created between 1947 and 1987, the Library said.",
+      "About 160 scores, 20 lead sheets and 35 instrumental parts were never recorded. The Library described their arrival as the first time those materials would be publicly available for researchers to examine.",
+      "The collection also contains 14 boxes of professionally copied scores, an extensive group of lead sheets Evans called his Fake Book and a large manuscript sketchbook.",
+      "Evans is especially associated with orchestrations for trumpeter Miles Davis, including the albums Miles Ahead, Porgy and Bess and Sketches of Spain. The archive covers a broader career that also reached film scoring and electronic instrumentation.",
+      "His arrangements drew on instruments uncommon in many jazz groups of the period, including French horn, flute and tuba. Those choices helped build the dense, dark-toned ensemble sound identified with his work.",
+      "Manuscripts in the collection arrange music connected with writers and performers ranging from Duke Ellington and Thelonious Monk to Jimi Hendrix and Maurice Ravel, illustrating how widely Evans worked across styles.",
+      "The papers complement other Library music collections linked to Davis collaborators and major arrangers. Researchers can use the manuscripts to compare working drafts, orchestration decisions and recorded results.",
+      "The Library announced the acquisition in February and said the collection would be available in late spring 2026. Access conditions can depend on processing, preservation and reading-room procedures."
+    ],
+    "facts":["The Library acquired the complete Gil Evans manuscript collection.","The archive includes about 350 scores and 35 lead sheets.","About 160 scores in the collection were never recorded.","The recording projects span 1947 through 1987.","The materials include Evans's collaborations with Miles Davis."],
+    "uncertainty":["Inventory totals are approximate descriptions supplied by the Library.","Individual items may have access or handling limits after archival processing."],
+    "seoTitle":"Gil Evans archive includes 160 unrecorded scores","seoDescription":"The Library of Congress acquired Gil Evans's complete manuscript collection, including about 160 scores that were never recorded."
+  },
+  {
+    "slug":"cbo-president-2027-budget-defense-nondefense-spending",
+    "headline":"CBO Finds 2027 Budget Shifts Trillions From Nondefense to Defense",
+    "dek":"Over 2027 through 2036, the request would add $2.4 trillion in defense discretionary outlays and cut $2.6 trillion in nondefense discretionary spending.",
+    "section":"politics","desk":"federal-budget-priorities",
+    "topics":["Federal budget","Defense spending","Nondefense spending","Mandatory outlays","CBO analysis"],
+    "entities":["Congressional Budget Office","White House","Congress"],
+    "locations":["Washington, D.C.","United States"],
+    "sources":[{"id":"source-cbo-president-2027-budget-spending-20260630","title":"An Analysis of Spending Proposals in the President's 2027 Budget","publisher":"Congressional Budget Office","publishedAt":"2026-06-30T12:00:00Z","url":"https://www.cbo.gov/publication/62385"}],
+    "lead":{"id":"media-us-capitol-at-night-budget-2026","dir":"cbo-2027-budget/capitol-night","sourceUrl":"https://commons.wikimedia.org/wiki/File:United_States_Capitol_at_night_(53385131597).jpg","creator":"John Brighenti","rightsBasis":"Creative Commons Attribution 2.0 license granted by the photographer on Wikimedia Commons.","license":"CC BY 2.0","attribution":"John Brighenti / Wikimedia Commons, CC BY 2.0","caption":"The U.S. Capitol at night. CBO compared the president's fiscal 2027 spending proposals with updated current-law projections for 2027 through 2036.","alt":"The illuminated U.S. Capitol dome rises above the grounds at night.","original":"capitol.jpg"},
+    "charts":[
+      {"id":"media-cbo-budget-spending-changes-2027-2036","dir":"cbo-2027-budget/spending-changes","caption":"CBO estimated $2.4 trillion more in defense discretionary outlays and $2.6 trillion less in nondefense discretionary outlays over 2027 through 2036.","alt":"Graphic contrasts a 2.4 trillion dollar defense increase with a 2.6 trillion dollar nondefense decrease."},
+      {"id":"media-cbo-budget-analysis-limits-2026","dir":"cbo-2027-budget/analysis-limits","caption":"The request contained no revenue proposals or deficit and debt totals, so CBO's report analyzes spending rather than a complete budget balance.","alt":"Graphic notes that the CBO report covers spending, not revenue, deficits or debt totals."}
+    ],
+    "paragraphs":[
+      "The president's fiscal 2027 budget request would redirect trillions of dollars in discretionary spending from nondefense programs to defense over the next decade, according to a Congressional Budget Office analysis.",
+      "CBO estimated that defense discretionary outlays would be $2.4 trillion higher over 2027 through 2036 than under its updated current-law projections.",
+      "Nondefense discretionary outlays would be $2.6 trillion lower over the same period. The two categories cover annually appropriated programs and do not by themselves represent total federal spending.",
+      "The proposals would also increase mandatory outlays by $351 billion, primarily for defense programs and activities, CBO said. Mandatory spending generally operates under laws that continue without annual appropriations.",
+      "The administration submitted the request on April 3. It included proposals affecting mandatory and discretionary spending but did not include proposals affecting federal revenues.",
+      "The request also lacked summary calculations for deficits and federal debt. CBO therefore did not present the report as a full accounting of the budget's effect on borrowing or fiscal balance.",
+      "CBO measured the proposals against updated spending projections that generally assume current law remains in place. The agency incorporated legislation enacted after its February 2026 baseline and made small technical revisions.",
+      "A budget request is a policy proposal, not enacted law. Congress determines appropriations and can accept, reject or modify the requested changes; mandatory-policy changes generally require legislation.",
+      "The decade totals are estimates, not fixed future amounts. Economic conditions, new laws, technical assumptions and the timing of program changes can all alter realized spending."
+    ],
+    "facts":["Defense discretionary outlays would rise by $2.4 trillion over 2027 through 2036.","Nondefense discretionary outlays would fall by $2.6 trillion.","Mandatory outlays would increase by $351 billion.","The request contained no revenue proposals.","CBO did not calculate the request's total deficit or debt effect."],
+    "uncertainty":["The figures compare proposals with CBO's updated current-law projections and can change with laws or assumptions.","The analysis is not a complete fiscal balance because the request omitted revenue and summary deficit information."],
+    "seoTitle":"CBO: 2027 budget shifts trillions toward defense","seoDescription":"CBO estimates the 2027 budget would add $2.4 trillion in defense outlays and cut $2.6 trillion in nondefense spending over a decade."
+  },
+  {
+    "slug":"imf-tanzania-444-million-final-program-reviews-2026",
+    "headline":"IMF Releases $443.9 Million After Tanzania Completes Final Reviews",
+    "dek":"The disbursements close the review cycle for two multiyear programs as the fund projects medium-term growth near 6.2% and flags unfinished energy reforms.",
+    "section":"world","desk":"east-africa-economic-programs",
+    "topics":["Tanzania economy","IMF programs","Climate resilience","Economic reform","East Africa"],
+    "entities":["International Monetary Fund","Government of Tanzania","IMF Executive Board"],
+    "locations":["Tanzania","Dar es Salaam","East Africa"],
+    "sources":[{"id":"source-imf-tanzania-final-ecf-rsf-reviews-20260710","title":"IMF Executive Board Completes the Sixth and Seventh Reviews Under the Extended Credit Facility Arrangement and Third and Fourth Reviews Under the Resilience and Sustainability Facility Arrangement with Tanzania","publisher":"International Monetary Fund","publishedAt":"2026-07-10T12:00:00Z","url":"https://www.imf.org/en/news/articles/2026/07/10/pr26244-tanzania-imf-exec-board-completes-6th-7th-rev-ecf-arr-3rd-4th-rev-rsf-arr"}],
+    "lead":{"id":"media-dar-es-salaam-port-view-2016","dir":"tanzania-imf-reviews/dar-port","sourceUrl":"https://commons.wikimedia.org/wiki/File:The_detailed_view_of_Dar_es_Salaam_Port.jpg","creator":"Prof. Chen Hualin","rightsBasis":"Creative Commons Attribution-ShareAlike 4.0 license granted by the photographer on Wikimedia Commons.","license":"CC BY-SA 4.0","attribution":"Prof. Chen Hualin / Wikimedia Commons, CC BY-SA 4.0","caption":"Ships and cargo facilities at the Port of Dar es Salaam in 2016. The IMF completed final reviews of Tanzania's credit and resilience programs in July 2026.","alt":"Cargo ships, cranes and waterfront facilities fill a wide view of Dar es Salaam port.","original":"dar-port.jpg"},
+    "charts":[
+      {"id":"media-tanzania-imf-disbursements-2026","dir":"tanzania-imf-reviews/disbursements","caption":"The reviews made about $154.1 million available under the Extended Credit Facility and $289.7 million under the Resilience and Sustainability Facility.","alt":"Graphic shows 154.1 million dollars from the ECF and 289.7 million dollars from the RSF, totaling 443.9 million dollars."},
+      {"id":"media-tanzania-imf-outlook-reforms-2026","dir":"tanzania-imf-reviews/outlook","caption":"The IMF reported 5.9% growth in 2025, inflation of 4% in June 2026 and medium-term growth projected near 6.2%, while three energy reforms remained unfinished.","alt":"Graphic lists 5.9 percent 2025 growth, 4 percent June inflation, about 6.2 percent medium-term growth and three unfinished energy measures."}
+    ],
+    "paragraphs":[
+      "The International Monetary Fund approved the final reviews of Tanzania's two multiyear programs, making a combined $443.9 million available immediately, the fund said July 10.",
+      "The Extended Credit Facility reviews released SDR 113.37 million, about $154.1 million. The Resilience and Sustainability Facility reviews released SDR 213.12 million, about $289.7 million.",
+      "Total access over the completed arrangements reached about $1.063 billion under the credit facility and $636.5 million under the resilience facility, according to the IMF.",
+      "The fund said Tanzania's real gross domestic product grew 5.9% in 2025, supported by agriculture, mining and construction. It projected growth of about 6.2% over the medium term.",
+      "Inflation was 4% in June 2026, within the Bank of Tanzania's target range, the statement said. Forecasts remain vulnerable to global trade conditions, commodity prices, weather and domestic implementation.",
+      "The Executive Board approved a waiver for one missed quantitative performance criterion after Tanzania took corrective measures. A waiver allows the review to proceed; it does not erase the underlying deviation.",
+      "Five reform measures under the resilience facility were completed. Three measures in the energy sector were not completed, and the IMF said they will be pursued after the program.",
+      "The fund emphasized revenue mobilization, spending efficiency, governance and business-climate reforms, alongside investments intended to make infrastructure and public finances more resilient to climate shocks.",
+      "IMF disbursements are financing under agreed program terms, not grants. The dollar equivalents can move with the SDR exchange rate, and future economic outcomes will depend on policy execution and external conditions."
+    ],
+    "facts":["The final reviews made about $443.9 million immediately available.","About $154.1 million came through the ECF and $289.7 million through the RSF.","The IMF reported 5.9% real GDP growth in 2025.","June 2026 inflation was 4%.","Five resilience reforms were completed and three energy measures remained unfinished."],
+    "uncertainty":["Dollar values are IMF conversions from SDR amounts and can vary with exchange rates.","The 6.2% medium-term growth figure is a forecast subject to domestic and external risks."],
+    "seoTitle":"IMF releases $443.9 million after Tanzania reviews","seoDescription":"Tanzania completed final IMF credit and resilience reviews, unlocking $443.9 million as the fund projects medium-term growth near 6.2%."
+  },
+  {
+    "slug":"mlb-draft-2026-first-day-135-picks-position-breakdown",
+    "headline":"2026 MLB Draft Opened With 135 Picks and 22 Shortstops or Right-Handers",
+    "dek":"College players accounted for 26 of the first 40 selections, while the first-day group leaned heavily toward shortstops, right-handed pitchers and outfielders.",
+    "section":"sports","desk":"baseball-draft-development",
+    "topics":["MLB Draft","Baseball prospects","Player development","College baseball","High school baseball"],
+    "entities":["Major League Baseball","Chicago White Sox","UCLA","Roch Cholowsky"],
+    "locations":["Philadelphia, Pennsylvania","United States"],
+    "sources":[{"id":"source-mlb-2026-draft-first-day-20260711","title":"MLB completes first day of 2026 Draft presented by Nippon Express","publisher":"Major League Baseball","publishedAt":"2026-07-11T12:00:00Z","url":"https://www.mlb.com/press-release/press-release-mlb-completes-first-day-of-2026-draft-presented-by-nippon-express"}],
+    "lead":{"id":"media-mlb-draft-lumen-field-2023","dir":"mlb-draft-2026/draft-stage","sourceUrl":"https://commons.wikimedia.org/wiki/File:2023_MLB_Draft_at_Lumen_Field_in_Seattle,_WA.jpg","creator":"SounderBruce","rightsBasis":"Creative Commons Attribution-ShareAlike 4.0 license granted by the photographer on Wikimedia Commons.","license":"CC BY-SA 4.0","attribution":"SounderBruce / Wikimedia Commons, CC BY-SA 4.0","caption":"The 2023 MLB Draft stage at Lumen Field in Seattle. The photograph illustrates MLB's annual selection event and does not depict the 2026 draft in Philadelphia.","alt":"A brightly lit Major League Baseball draft stage stands inside a stadium before the audience.","original":"mlb-draft.jpg"},
+    "charts":[
+      {"id":"media-mlb-draft-2026-first-day-counts","dir":"mlb-draft-2026/player-counts","caption":"MLB clubs selected 135 players across the first four rounds and associated compensation, competitive-balance and prospect-promotion selections.","alt":"Graphic lists 135 players selected on day one across four rounds and additional pick categories."},
+      {"id":"media-mlb-draft-2026-first-40-composition","dir":"mlb-draft-2026/first-40","caption":"Among the first 40 picks were 11 shortstops, 11 right-handed pitchers and nine outfielders; 26 selections came from colleges and 14 from high schools.","alt":"Graphic shows 11 shortstops, 11 right-handed pitchers, nine outfielders, 26 college players and 14 high school players among the first 40 picks."}
+    ],
+    "paragraphs":[
+      "Major League Baseball clubs selected 135 players on the opening day of the 2026 Draft, covering four rounds plus compensation, competitive-balance and prospect-promotion selections.",
+      "The Chicago White Sox used the first overall pick on UCLA shortstop Roch Cholowsky. This article tracks the composition of the first-day class rather than projecting individual careers.",
+      "College players accounted for 26 of the first 40 selections, compared with 14 players from high schools, according to MLB's official first-day summary.",
+      "Shortstop and right-handed pitching were the most common positions in that group, with 11 selections each. Outfielders followed with nine picks.",
+      "The remaining first 40 included four left-handed pitchers, three catchers, one third baseman and one second baseman. Listed draft positions can change as players develop in professional systems.",
+      "For the fourth consecutive year, teammates were selected among the top 10 picks, MLB said. That streak describes draft history and does not indicate how quickly any prospect will reach the major leagues.",
+      "The 135 selections include more than the numbered rounds because MLB's draft order incorporates compensation choices, competitive-balance rounds and a prospect-promotion incentive pick.",
+      "Draft position determines negotiating context and the club that holds a player's signing rights, but selection is not the same as signing. Clubs and players still must reach agreements under league rules and deadlines.",
+      "Early-round totals show how organizations allocated scarce picks on draft day. They do not establish which source, position or player will ultimately produce the strongest professional career."
+    ],
+    "facts":["MLB clubs selected 135 players on the first day.","The White Sox selected UCLA shortstop Roch Cholowsky first overall.","College players accounted for 26 of the first 40 picks.","The first 40 included 11 shortstops and 11 right-handed pitchers.","Nine outfielders were chosen among the first 40."],
+    "uncertainty":["Draft selection does not guarantee that a player will sign or reach the major leagues.","Listed amateur positions can change during professional development."],
+    "seoTitle":"2026 MLB Draft day one: 135 picks and position breakdown","seoDescription":"The 2026 MLB Draft opened with 135 picks; 26 of the first 40 came from colleges, led by 11 shortstops and 11 right-handed pitchers."
+  }
+]
