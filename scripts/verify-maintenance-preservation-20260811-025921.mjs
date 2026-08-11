@@ -3,7 +3,7 @@ import {readFileSync} from "node:fs";
 import {resolve} from "node:path";
 import {spawnSync} from "node:child_process";
 import {stableJson} from "./publishing/stable-json.mjs";
-const root=resolve(import.meta.dirname,"..");const baselineCommit="d46bd3adacdccf07558b5e3a4914987ab0ed40c3";const packagePath="src/publishing/public-news-promotion-package.v2.1.1.json";const digest=(v)=>createHash("sha256").update(stableJson(v)).digest("hex");
+const root=resolve(import.meta.dirname,"..");const baselineCommit="602dbc190043caba148d49db916a68a40693be53";const packagePath="src/publishing/public-news-promotion-package.v2.1.1.json";const digest=(v)=>createHash("sha256").update(stableJson(v)).digest("hex");
 const git=(...args)=>{const r=spawnSync("git",args,{cwd:root,encoding:"utf8",maxBuffer:64*1024*1024});if(r.status!==0)throw new Error(r.stderr||r.error?.message||`git ${args.join(" ")} failed`);return r.stdout;};
 const baseline=JSON.parse(git("show",`${baselineCommit}:${packagePath}`));const candidate=JSON.parse(readFileSync(resolve(root,packagePath),"utf8"));if(candidate.articles.length!==baseline.articles.length+6)throw new Error("Candidate does not append exactly six articles");if(candidate.mediaRights.length!==baseline.mediaRights.length+18)throw new Error("Candidate does not append exactly eighteen media-rights records");
 for(let i=0;i<baseline.articles.length;i++)if(stableJson(candidate.articles[i])!==stableJson(baseline.articles[i]))throw new Error(`Published article drift at ${baseline.articles[i].id}`);for(let i=0;i<baseline.mediaRights.length;i++)if(stableJson(candidate.mediaRights[i])!==stableJson(baseline.mediaRights[i]))throw new Error(`Published media drift at ${baseline.mediaRights[i].id}`);
