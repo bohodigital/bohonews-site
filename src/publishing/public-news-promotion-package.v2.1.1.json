@@ -53660,78 +53660,78 @@
       "body": "Transparency obligations for certain artificial-intelligence systems under Article 50 of the European Union's AI Act began applying on Aug. 2, 2026.\n\nThe rules cover distinct actors and uses rather than imposing one universal label. Providers of systems that interact directly with people generally must make clear that the interaction is with AI unless that fact is already obvious from the context.\n\nProviders of systems that generate or manipulate image, audio, video or text content must also make covered output detectable as artificial through effective, interoperable, robust and reliable machine-readable techniques.\n\nDeployers face separate disclosure duties. The Commission's guidance identifies deepfakes, text published to inform the public on matters of public interest without human review or editorial responsibility, and use of emotion-recognition or biometric-categorization systems among the covered situations.\n\nThat scope matters. The rules do not mean every AI-assisted edit requires a visible badge, and the guidance describes exceptions for standard editing, assistance that does not substantially alter input, and some legally authorized uses.\n\nA limited transition applies to systems placed on the market before Aug. 2. For the machine-readable marking and detection duty, the Commission says those systems have until Dec. 2, 2026; content generated before Aug. 2 does not need retroactive labeling.\n\nThe Commission published final guidance on July 20 to give providers, deployers and national authorities a common interpretation. A voluntary code of practice offers one route to demonstrate compliance, but entities that do not sign must show equivalent compliance by other means.\n\nNational market-surveillance authorities will handle most enforcement. The EU AI Office has a narrower role for certain systems tied to general-purpose models or very large online platforms and search engines.\n\nThe operational question is therefore not whether all AI content gets the same warning. It is which Article 50 role, content type, exception and transition rule applies to a specific system or publication. The Commission guidance is explanatory and does not replace the regulation's legal text.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Transparency obligations for certain artificial-intelligence systems under Article 50 of the European Union's AI Act began applying on Aug. 2, 2026."
+          "text": "Transparency obligations for certain artificial-intelligence systems under Article 50 of the European Union's AI Act began applying on Aug. 2, 2026.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The rules cover distinct actors and uses rather than imposing one universal label. Providers of systems that interact directly with people generally must make clear that the interaction is with AI unless that fact is already obvious from the context."
+          "text": "The rules cover distinct actors and uses rather than imposing one universal label. Providers of systems that interact directly with people generally must make clear that the interaction is with AI unless that fact is already obvious from the context.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-eu-ai-rules-provider-duties",
-          "src": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/providers/four-three.webp",
           "alt": "Graphic lists direct-interaction notice and machine-readable marking as provider duties.",
           "caption": "Covered providers must disclose direct AI interaction and add machine-readable marks to generated or manipulated output.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
-        },
-        {
-          "type": "paragraph",
-          "text": "Providers of systems that generate or manipulate image, audio, video or text content must also make covered output detectable as artificial through effective, interoperable, robust and reliable machine-readable techniques."
-        },
-        {
-          "type": "paragraph",
-          "text": "Deployers face separate disclosure duties. The Commission's guidance identifies deepfakes, text published to inform the public on matters of public interest without human review or editorial responsibility, and use of emotion-recognition or biometric-categorization systems among the covered situations."
-        },
-        {
-          "type": "paragraph",
-          "text": "That scope matters. The rules do not mean every AI-assisted edit requires a visible badge, and the guidance describes exceptions for standard editing, assistance that does not substantially alter input, and some legally authorized uses."
-        },
-        {
-          "type": "paragraph",
-          "text": "A limited transition applies to systems placed on the market before Aug. 2. For the machine-readable marking and detection duty, the Commission says those systems have until Dec. 2, 2026; content generated before Aug. 2 does not need retroactive labeling."
-        },
-        {
+          "rightsId": "media-eu-ai-rules-provider-duties",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/providers/four-three.webp",
           "type": "media",
-          "rightsId": "media-eu-ai-rules-deployer-duties",
-          "src": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/deployers/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Providers of systems that generate or manipulate image, audio, video or text content must also make covered output detectable as artificial through effective, interoperable, robust and reliable machine-readable techniques.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Deployers face separate disclosure duties. The Commission's guidance identifies deepfakes, text published to inform the public on matters of public interest without human review or editorial responsibility, and use of emotion-recognition or biometric-categorization systems among the covered situations.",
+          "type": "paragraph"
+        },
+        {
+          "text": "That scope matters. The rules do not mean every AI-assisted edit requires a visible badge, and the guidance describes exceptions for standard editing, assistance that does not substantially alter input, and some legally authorized uses.",
+          "type": "paragraph"
+        },
+        {
+          "text": "A limited transition applies to systems placed on the market before Aug. 2. For the machine-readable marking and detection duty, the Commission says those systems have until Dec. 2, 2026; content generated before Aug. 2 does not need retroactive labeling.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists deepfakes, public-interest text and biometric systems as deployer disclosure areas.",
           "caption": "Covered deployers must disclose deepfakes, some public-interest text, and exposure to emotion recognition or biometric categorization.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+          "rightsId": "media-eu-ai-rules-deployer-duties",
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/deployers/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "The Commission published final guidance on July 20 to give providers, deployers and national authorities a common interpretation. A voluntary code of practice offers one route to demonstrate compliance, but entities that do not sign must show equivalent compliance by other means."
+          "text": "The Commission published final guidance on July 20 to give providers, deployers and national authorities a common interpretation. A voluntary code of practice offers one route to demonstrate compliance, but entities that do not sign must show equivalent compliance by other means.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "National market-surveillance authorities will handle most enforcement. The EU AI Office has a narrower role for certain systems tied to general-purpose models or very large online platforms and search engines."
+          "text": "National market-surveillance authorities will handle most enforcement. The EU AI Office has a narrower role for certain systems tied to general-purpose models or very large online platforms and search engines.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The operational question is therefore not whether all AI content gets the same warning. It is which Article 50 role, content type, exception and transition rule applies to a specific system or publication. The Commission guidance is explanatory and does not replace the regulation's legal text."
+          "text": "The operational question is therefore not whether all AI content gets the same warning. It is which Article 50 role, content type, exception and transition rule applies to a specific system or publication. The Commission guidance is explanatory and does not replace the regulation's legal text.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/eu-ai-act-transparency-rules-article-50-2026/",
       "citations": [
         {
           "id": "source-eu-ai-act-article50-guidance-2026",
-          "title": "Guidelines on transparency obligations for providers and deployers of AI systems",
-          "publisher": "European Commission",
           "publishedAt": "2026-07-20T12:00:00Z",
+          "publisher": "European Commission",
+          "title": "Guidelines on transparency obligations for providers and deployers of AI systems",
           "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
         },
         {
           "id": "source-eu-ai-act-article50-faq-2026",
-          "title": "Transparency obligations under Article 50 of the AI Act",
-          "publisher": "European Commission",
           "publishedAt": "2026-07-20T12:00:00Z",
+          "publisher": "European Commission",
+          "title": "Transparency obligations under Article 50 of the AI Act",
           "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act"
         }
       ],
@@ -53773,11 +53773,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T15:57:51.935Z",
       "relatedArticleIds": [
         "article-dot-ai-transportation-infrastructure-initiative"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t144754z-a47c19e6b2d5",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -53804,7 +53804,7 @@
         "Application depends on the provider or deployer role, content type and listed exceptions.",
         "National authorities and courts may further interpret the regulation and guidance."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T15:57:51.935Z"
     },
     {
       "articleType": "news-report",
@@ -53814,78 +53814,78 @@
       "body": "A federal electronic-filing requirement is now in effect for importers of most regulated consumer products that need a certificate of compliance.\n\nSince July 8, importers have had to transmit certificate data electronically through U.S. Customs and Border Protection before covered goods enter U.S. commerce, according to the Consumer Product Safety Commission.\n\nThe filing identifies the finished product, the party certifying compliance, each applicable safety rule, manufacturing information, the most recent compliance test, and the person who maintains test records.\n\nCPSC says receiving those fields before entry lets it target higher-risk shipments while reducing unnecessary inspections and delays for importers with compliant records. That is the agency's stated enforcement objective, not a guarantee that every unsafe shipment will be detected.\n\nThe requirement applies to imported products subject to mandatory safety standards. CPSC guidance says importers of most regulated consumer products must file through the customs Partner Government Agency message set.\n\nThe commission says the system creates no new testing or certification obligation and does not apply to domestic manufacturers as an import-filing requirement. Importers were already required to create and keep the underlying certificate information.\n\nProducts imported into a Foreign Trade Zone and later entered for consumption or warehousing follow a later date: Jan. 8, 2027.\n\nThe system followed alpha and beta pilots conducted from 2016 through 2024 and a voluntary implementation period intended to let importers test their processes.\n\nFor businesses, the immediate change is how existing compliance data reaches the government and when. Whether a particular product requires certification still depends on the applicable CPSC rule, so the agency's product-specific guidance and final rule remain the controlling references.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "A federal electronic-filing requirement is now in effect for importers of most regulated consumer products that need a certificate of compliance."
+          "text": "A federal electronic-filing requirement is now in effect for importers of most regulated consumer products that need a certificate of compliance.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Since July 8, importers have had to transmit certificate data electronically through U.S. Customs and Border Protection before covered goods enter U.S. commerce, according to the Consumer Product Safety Commission."
+          "text": "Since July 8, importers have had to transmit certificate data electronically through U.S. Customs and Border Protection before covered goods enter U.S. commerce, according to the Consumer Product Safety Commission.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-cpsc-efiling-scope",
-          "src": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/scope/four-three.webp",
           "alt": "Graphic contrasts regulated imports covered by eFiling with domestic manufacturers outside the import filing requirement.",
           "caption": "Most regulated imported consumer products now require electronic certificate data before entry; domestic manufacturers are not subject to this import filing step.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Implements-Mandatory-eFiling-for-Certificates-of-Compliance-Targeting-Dangerous-Foreign-Imports"
-        },
-        {
-          "type": "paragraph",
-          "text": "The filing identifies the finished product, the party certifying compliance, each applicable safety rule, manufacturing information, the most recent compliance test, and the person who maintains test records."
-        },
-        {
-          "type": "paragraph",
-          "text": "CPSC says receiving those fields before entry lets it target higher-risk shipments while reducing unnecessary inspections and delays for importers with compliant records. That is the agency's stated enforcement objective, not a guarantee that every unsafe shipment will be detected."
-        },
-        {
-          "type": "paragraph",
-          "text": "The requirement applies to imported products subject to mandatory safety standards. CPSC guidance says importers of most regulated consumer products must file through the customs Partner Government Agency message set."
-        },
-        {
-          "type": "paragraph",
-          "text": "The commission says the system creates no new testing or certification obligation and does not apply to domestic manufacturers as an import-filing requirement. Importers were already required to create and keep the underlying certificate information."
-        },
-        {
+          "rightsId": "media-cpsc-efiling-scope",
+          "sourceUrl": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Implements-Mandatory-eFiling-for-Certificates-of-Compliance-Targeting-Dangerous-Foreign-Imports",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/scope/four-three.webp",
           "type": "media",
-          "rightsId": "media-cpsc-efiling-timeline",
-          "src": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/timeline/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "The filing identifies the finished product, the party certifying compliance, each applicable safety rule, manufacturing information, the most recent compliance test, and the person who maintains test records.",
+          "type": "paragraph"
+        },
+        {
+          "text": "CPSC says receiving those fields before entry lets it target higher-risk shipments while reducing unnecessary inspections and delays for importers with compliant records. That is the agency's stated enforcement objective, not a guarantee that every unsafe shipment will be detected.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The requirement applies to imported products subject to mandatory safety standards. CPSC guidance says importers of most regulated consumer products must file through the customs Partner Government Agency message set.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The commission says the system creates no new testing or certification obligation and does not apply to domestic manufacturers as an import-filing requirement. Importers were already required to create and keep the underlying certificate information.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Timeline shows July 8, 2026 general eFiling start and Jan. 8, 2027 Foreign Trade Zone start.",
           "caption": "The general requirement began July 8, 2026; covered goods from Foreign Trade Zones follow on Jan. 8, 2027.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Implements-Mandatory-eFiling-for-Certificates-of-Compliance-Targeting-Dangerous-Foreign-Imports"
+          "rightsId": "media-cpsc-efiling-timeline",
+          "sourceUrl": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Implements-Mandatory-eFiling-for-Certificates-of-Compliance-Targeting-Dangerous-Foreign-Imports",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/timeline/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Products imported into a Foreign Trade Zone and later entered for consumption or warehousing follow a later date: Jan. 8, 2027."
+          "text": "Products imported into a Foreign Trade Zone and later entered for consumption or warehousing follow a later date: Jan. 8, 2027.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The system followed alpha and beta pilots conducted from 2016 through 2024 and a voluntary implementation period intended to let importers test their processes."
+          "text": "The system followed alpha and beta pilots conducted from 2016 through 2024 and a voluntary implementation period intended to let importers test their processes.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "For businesses, the immediate change is how existing compliance data reaches the government and when. Whether a particular product requires certification still depends on the applicable CPSC rule, so the agency's product-specific guidance and final rule remain the controlling references."
+          "text": "For businesses, the immediate change is how existing compliance data reaches the government and when. Whether a particular product requires certification still depends on the applicable CPSC rule, so the agency's product-specific guidance and final rule remain the controlling references.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/cpsc-import-efiling-certificates-effective-july-2026/",
       "citations": [
         {
           "id": "source-cpsc-import-efiling-effective-2026",
-          "title": "CPSC Implements Mandatory eFiling for Certificates of Compliance, Targeting Dangerous Foreign Imports",
-          "publisher": "U.S. Consumer Product Safety Commission",
           "publishedAt": "2026-07-08T12:00:00Z",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "title": "CPSC Implements Mandatory eFiling for Certificates of Compliance, Targeting Dangerous Foreign Imports",
           "url": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Implements-Mandatory-eFiling-for-Certificates-of-Compliance-Targeting-Dangerous-Foreign-Imports"
         },
         {
           "id": "source-cpsc-efiling-certification-guidance-2026",
-          "title": "General Use Products: Certification and Testing",
-          "publisher": "U.S. Consumer Product Safety Commission",
           "publishedAt": "2026-07-08T12:00:00Z",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "title": "General Use Products: Certification and Testing",
           "url": "https://www.cpsc.gov/Business--Manufacturing/Testing-Certification/General-Use-Products-Certification-and-Testing"
         }
       ],
@@ -53927,11 +53927,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T15:57:51.935Z",
       "relatedArticleIds": [
         "article-louisville-attic-ladder-recall-1-77-million-2026"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t144754z-a47c19e6b2d5",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -53958,7 +53958,7 @@
         "Coverage depends on whether a product is subject to a mandatory safety standard and certification requirement.",
         "CPSC has not quantified the system's eventual interception rate for unsafe shipments."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T15:57:51.935Z"
     },
     {
       "articleType": "news-report",
@@ -53968,71 +53968,71 @@
       "body": "The U.S. Department of Transportation is putting another $24 million into developing a public-private partnership for the overhaul of Washington Union Station.\n\nDOT says the partnership work is intended to produce a fundable path for expanding capacity, improving the passenger experience and shortening the project timeline. The announcement does not award a final construction contract or set a completion date.\n\nThe $24 million is separate from $466 million announced in May for structural repairs, a larger passenger concourse, security work and family-oriented infrastructure.\n\nAmtrak and the Union Station Redevelopment Corporation agreed in 2025 to a cooperative arrangement that restored stronger federal control over the facility, according to DOT.\n\nThe Federal Railroad Administration is also conducting a service-optimization study. DOT says the work is meant to maximize passenger benefits while keeping operations moving during construction.\n\nThe department compares the delivery approach with the public-private model being pursued for New York Penn Station. Private participation can supply design, construction or financing capacity, but the announcement does not identify a selected partner, financing share or binding risk allocation.\n\nDOT's release criticizes an earlier expansion concept as costing more than $10 billion. That characterization is the current administration's assessment; the release does not provide a like-for-like independent cost comparison.\n\nAmtrak President Roger Harris called Union Station a gateway used by millions of travelers and said the railroad would continue working with DOT, FRA and USRC on the customer experience and station's long-term future.\n\nFor passengers, the immediate milestone is planning money and a delivery strategy. The practical scope, private contribution, procurement schedule and construction phasing remain to be established.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The U.S. Department of Transportation is putting another $24 million into developing a public-private partnership for the overhaul of Washington Union Station."
+          "text": "The U.S. Department of Transportation is putting another $24 million into developing a public-private partnership for the overhaul of Washington Union Station.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "DOT says the partnership work is intended to produce a fundable path for expanding capacity, improving the passenger experience and shortening the project timeline. The announcement does not award a final construction contract or set a completion date."
+          "text": "DOT says the partnership work is intended to produce a fundable path for expanding capacity, improving the passenger experience and shortening the project timeline. The announcement does not award a final construction contract or set a completion date.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-union-station-funding-layers",
-          "src": "/media/newsroom/2026/08/manual-20260811-144754/union-station/funding/four-three.webp",
           "alt": "Graphic shows 24 million dollars for partnership planning and 466 million dollars for station upgrades.",
           "caption": "DOT describes $24 million for partnership development on top of $466 million announced for repairs and passenger improvements.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-hits-another-key-milestone-washington"
-        },
-        {
-          "type": "paragraph",
-          "text": "The $24 million is separate from $466 million announced in May for structural repairs, a larger passenger concourse, security work and family-oriented infrastructure."
-        },
-        {
-          "type": "paragraph",
-          "text": "Amtrak and the Union Station Redevelopment Corporation agreed in 2025 to a cooperative arrangement that restored stronger federal control over the facility, according to DOT."
-        },
-        {
-          "type": "paragraph",
-          "text": "The Federal Railroad Administration is also conducting a service-optimization study. DOT says the work is meant to maximize passenger benefits while keeping operations moving during construction."
-        },
-        {
-          "type": "paragraph",
-          "text": "The department compares the delivery approach with the public-private model being pursued for New York Penn Station. Private participation can supply design, construction or financing capacity, but the announcement does not identify a selected partner, financing share or binding risk allocation."
-        },
-        {
+          "rightsId": "media-union-station-funding-layers",
+          "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-hits-another-key-milestone-washington",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/union-station/funding/four-three.webp",
           "type": "media",
-          "rightsId": "media-union-station-partners",
-          "src": "/media/newsroom/2026/08/manual-20260811-144754/union-station/partners/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "The $24 million is separate from $466 million announced in May for structural repairs, a larger passenger concourse, security work and family-oriented infrastructure.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Amtrak and the Union Station Redevelopment Corporation agreed in 2025 to a cooperative arrangement that restored stronger federal control over the facility, according to DOT.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Federal Railroad Administration is also conducting a service-optimization study. DOT says the work is meant to maximize passenger benefits while keeping operations moving during construction.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The department compares the delivery approach with the public-private model being pursued for New York Penn Station. Private participation can supply design, construction or financing capacity, but the announcement does not identify a selected partner, financing share or binding risk allocation.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists DOT, FRA, Amtrak and USRC as project partners.",
           "caption": "DOT, FRA, Amtrak and the Union Station Redevelopment Corporation are the principal public partners named in the plan.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-hits-another-key-milestone-washington"
+          "rightsId": "media-union-station-partners",
+          "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-hits-another-key-milestone-washington",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/union-station/partners/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "DOT's release criticizes an earlier expansion concept as costing more than $10 billion. That characterization is the current administration's assessment; the release does not provide a like-for-like independent cost comparison."
+          "text": "DOT's release criticizes an earlier expansion concept as costing more than $10 billion. That characterization is the current administration's assessment; the release does not provide a like-for-like independent cost comparison.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Amtrak President Roger Harris called Union Station a gateway used by millions of travelers and said the railroad would continue working with DOT, FRA and USRC on the customer experience and station's long-term future."
+          "text": "Amtrak President Roger Harris called Union Station a gateway used by millions of travelers and said the railroad would continue working with DOT, FRA and USRC on the customer experience and station's long-term future.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "For passengers, the immediate milestone is planning money and a delivery strategy. The practical scope, private contribution, procurement schedule and construction phasing remain to be established."
+          "text": "For passengers, the immediate milestone is planning money and a delivery strategy. The practical scope, private contribution, procurement schedule and construction phasing remain to be established.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/washington-union-station-24-million-partnership-plan-2026/",
       "citations": [
         {
           "id": "source-dot-union-station-partnership-24m-2026",
-          "title": "Trump’s Transportation Secretary Sean P. Duffy Hits Another Key Milestone in Washington Union Station Overhaul",
-          "publisher": "U.S. Department of Transportation",
           "publishedAt": "2026-07-24T12:00:00Z",
+          "publisher": "U.S. Department of Transportation",
+          "title": "Trump’s Transportation Secretary Sean P. Duffy Hits Another Key Milestone in Washington Union Station Overhaul",
           "url": "https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-hits-another-key-milestone-washington"
         }
       ],
@@ -54076,11 +54076,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T15:57:51.935Z",
       "relatedArticleIds": [
         "article-faa-1-776-billion-airport-grants-46-states-2026"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t144754z-a47c19e6b2d5",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -54107,7 +54107,7 @@
         "No private partner, final construction contract or completion date was announced.",
         "The public-private financing structure and allocation of risk remain unspecified."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T15:57:51.935Z"
     },
     {
       "articleType": "news-report",
@@ -54117,78 +54117,78 @@
       "body": "A July executive order directs the U.S. defense department to sharply restrict waivers that allow specified critical materials from non-allied foreign countries into military supply chains.\n\nExecutive Order 14415 says that on January 1, 2027, the defense secretary and military-department secretaries must stop issuing most waivers under 10 U.S.C. 4872 unless a contractor submits a formal mitigation plan that the department accepts.\n\nThe plan must identify the noncompliant material's source, document exhaustive efforts to obtain compliant material or show that none was available, describe how the material will be removed from the supply chain and set a strict implementation timeline.\n\nThe order says failing to qualify a domestic source does not by itself establish non-availability. An exception applies when a contractor demonstrates active, adequately funded and continuing efforts to qualify one.\n\nThe underlying statute generally bars the department from procuring covered materials made in specified non-allied countries, subject to exceptions. Its current preliminary text defines covered materials to include samarium-cobalt and neodymium-iron-boron magnets, tungsten products, tantalum and molybdenum.\n\nThe order also calls for new supply-chain mapping rules. Within 180 days, the department must develop policy and implementation guidance requiring contractors to trace critical supply chains from raw materials to end products. Implementing regulations are due within 90 days after that work is completed.\n\nThose future regulations are supposed to account for small businesses, nontraditional defense companies and new entrants. The order does not itself provide a cost estimate or quantify how many contracts or suppliers will be affected.\n\nSeparate provisions direct the department to accelerate qualification of alternative sources, review an electronic-device exemption and report every six months through January 1, 2028 on waivers, mitigation plans and regulations.\n\nThe sourcing and security judgments stated in the order are administration policy findings. Practical effects will depend on later guidance, rulemaking, individual mitigation plans, appropriations and implementation consistent with existing law.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "A July executive order directs the U.S. defense department to sharply restrict waivers that allow specified critical materials from non-allied foreign countries into military supply chains."
+          "text": "A July executive order directs the U.S. defense department to sharply restrict waivers that allow specified critical materials from non-allied foreign countries into military supply chains.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Executive Order 14415 says that on January 1, 2027, the defense secretary and military-department secretaries must stop issuing most waivers under 10 U.S.C. 4872 unless a contractor submits a formal mitigation plan that the department accepts."
+          "text": "Executive Order 14415 says that on January 1, 2027, the defense secretary and military-department secretaries must stop issuing most waivers under 10 U.S.C. 4872 unless a contractor submits a formal mitigation plan that the department accepts.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-defense-critical-materials-waiver-path",
-          "src": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/waiver-path/four-three.webp",
           "alt": "Graphic shows the steps required for a covered-material waiver beginning January 1, 2027.",
           "caption": "Beginning January 1, 2027, covered-material waivers generally require an accepted plan identifying the source, documenting acquisition efforts and setting a removal timeline.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/07/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials/"
-        },
-        {
-          "type": "paragraph",
-          "text": "The plan must identify the noncompliant material's source, document exhaustive efforts to obtain compliant material or show that none was available, describe how the material will be removed from the supply chain and set a strict implementation timeline."
-        },
-        {
-          "type": "paragraph",
-          "text": "The order says failing to qualify a domestic source does not by itself establish non-availability. An exception applies when a contractor demonstrates active, adequately funded and continuing efforts to qualify one."
-        },
-        {
-          "type": "paragraph",
-          "text": "The underlying statute generally bars the department from procuring covered materials made in specified non-allied countries, subject to exceptions. Its current preliminary text defines covered materials to include samarium-cobalt and neodymium-iron-boron magnets, tungsten products, tantalum and molybdenum."
-        },
-        {
-          "type": "paragraph",
-          "text": "The order also calls for new supply-chain mapping rules. Within 180 days, the department must develop policy and implementation guidance requiring contractors to trace critical supply chains from raw materials to end products. Implementing regulations are due within 90 days after that work is completed."
-        },
-        {
+          "rightsId": "media-defense-critical-materials-waiver-path",
+          "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/07/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials/",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/waiver-path/four-three.webp",
           "type": "media",
-          "rightsId": "media-defense-critical-materials-statutory-list",
-          "src": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/materials/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "The plan must identify the noncompliant material's source, document exhaustive efforts to obtain compliant material or show that none was available, describe how the material will be removed from the supply chain and set a strict implementation timeline.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The order says failing to qualify a domestic source does not by itself establish non-availability. An exception applies when a contractor demonstrates active, adequately funded and continuing efforts to qualify one.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The underlying statute generally bars the department from procuring covered materials made in specified non-allied countries, subject to exceptions. Its current preliminary text defines covered materials to include samarium-cobalt and neodymium-iron-boron magnets, tungsten products, tantalum and molybdenum.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The order also calls for new supply-chain mapping rules. Within 180 days, the department must develop policy and implementation guidance requiring contractors to trace critical supply chains from raw materials to end products. Implementing regulations are due within 90 days after that work is completed.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists magnets, tungsten products, tantalum and molybdenum as covered materials under the statute.",
           "caption": "The statute's covered-material definition includes specified magnets, tungsten products, tantalum and molybdenum.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/07/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials/"
+          "rightsId": "media-defense-critical-materials-statutory-list",
+          "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/07/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials/",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/materials/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Those future regulations are supposed to account for small businesses, nontraditional defense companies and new entrants. The order does not itself provide a cost estimate or quantify how many contracts or suppliers will be affected."
+          "text": "Those future regulations are supposed to account for small businesses, nontraditional defense companies and new entrants. The order does not itself provide a cost estimate or quantify how many contracts or suppliers will be affected.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Separate provisions direct the department to accelerate qualification of alternative sources, review an electronic-device exemption and report every six months through January 1, 2028 on waivers, mitigation plans and regulations."
+          "text": "Separate provisions direct the department to accelerate qualification of alternative sources, review an electronic-device exemption and report every six months through January 1, 2028 on waivers, mitigation plans and regulations.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The sourcing and security judgments stated in the order are administration policy findings. Practical effects will depend on later guidance, rulemaking, individual mitigation plans, appropriations and implementation consistent with existing law."
+          "text": "The sourcing and security judgments stated in the order are administration policy findings. Practical effects will depend on later guidance, rulemaking, individual mitigation plans, appropriations and implementation consistent with existing law.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/defense-critical-materials-waiver-rules-supply-chain-order-2026/",
       "citations": [
         {
           "id": "source-white-house-defense-supply-chains-eo-14415-2026",
-          "title": "Securing America's Defense Supply Chains and Ensuring Domestic Acquisition of Critical Materials",
-          "publisher": "The White House",
           "publishedAt": "2026-07-20T12:00:00Z",
+          "publisher": "The White House",
+          "title": "Securing America's Defense Supply Chains and Ensuring Domestic Acquisition of Critical Materials",
           "url": "https://www.whitehouse.gov/presidential-actions/2026/07/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials/"
         },
         {
           "id": "source-us-code-title-10-section-4872-prelim-2026",
-          "title": "10 U.S.C. 4872: Acquisition of sensitive materials from non-allied foreign nations: prohibition",
-          "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
           "publishedAt": "2026-07-20T12:00:00Z",
+          "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+          "title": "10 U.S.C. 4872: Acquisition of sensitive materials from non-allied foreign nations: prohibition",
           "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A10+section%3A4872+edition%3Aprelim%29"
         }
       ],
@@ -54231,11 +54231,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T15:57:51.935Z",
       "relatedArticleIds": [
         "article-gao-battery-recycling-critical-mineral-imports-2026"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t144754z-a47c19e6b2d5",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -54262,7 +54262,7 @@
         "The order does not quantify affected contracts, suppliers or compliance costs.",
         "Later guidance and regulations will determine operational details, and implementation remains subject to law and appropriations."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T15:57:51.935Z"
     },
     {
       "articleType": "news-report",
@@ -54272,78 +54272,78 @@
       "body": "Okefenokee National Wildlife Refuge has joined UNESCO's World Heritage List, becoming the United States' 27th listed property.\n\nThe World Heritage Committee inscribed the Georgia-Florida refuge in 2026 under natural criteria ix and x, which concern ecological processes and biological diversity. UNESCO records the property at 164,565.5 hectares.\n\nOkefenokee was one of 25 properties added during the committee's 48th session in Busan. The group comprised 19 cultural sites, five natural sites and one mixed site, along with approved extensions to two existing properties.\n\nThe additions brought the World Heritage List to 1,273 sites across 173 countries, according to UNESCO.\n\nComoros, São Tomé and Príncipe, and South Sudan received their first inscriptions. UNESCO says the number of state parties without a listed property consequently fell from 26 to 23.\n\nThe committee adopted all inscription decisions by consensus. Listing recognizes what UNESCO calls outstanding universal value and commits the state party to continued protection and management.\n\nFor Okefenokee, the World Heritage Centre highlights the large peat wetland and areas of longleaf-pine savanna. The listing page says less than 3% of that savanna type remains.\n\nWorld Heritage status is an international designation, not an automatic guarantee against every environmental threat. Conservation outcomes still depend on management, monitoring, funding and decisions by responsible authorities.\n\nThe 2026 session also added six properties to the List of World Heritage in Danger and removed Vienna's historic center from that list. Those actions are separate from Okefenokee's new inscription.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Okefenokee National Wildlife Refuge has joined UNESCO's World Heritage List, becoming the United States' 27th listed property."
+          "text": "Okefenokee National Wildlife Refuge has joined UNESCO's World Heritage List, becoming the United States' 27th listed property.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The World Heritage Committee inscribed the Georgia-Florida refuge in 2026 under natural criteria ix and x, which concern ecological processes and biological diversity. UNESCO records the property at 164,565.5 hectares."
+          "text": "The World Heritage Committee inscribed the Georgia-Florida refuge in 2026 under natural criteria ix and x, which concern ecological processes and biological diversity. UNESCO records the property at 164,565.5 hectares.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-unesco-2026-new-sites",
-          "src": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/new-sites/four-three.webp",
           "alt": "Graphic shows 19 cultural, five natural and one mixed World Heritage additions in 2026.",
           "caption": "The 2026 session added 19 cultural, five natural and one mixed property to the World Heritage List.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.unesco.org/en/articles/unesco-world-heritage-25-new-sites-inscribed"
-        },
-        {
-          "type": "paragraph",
-          "text": "Okefenokee was one of 25 properties added during the committee's 48th session in Busan. The group comprised 19 cultural sites, five natural sites and one mixed site, along with approved extensions to two existing properties."
-        },
-        {
-          "type": "paragraph",
-          "text": "The additions brought the World Heritage List to 1,273 sites across 173 countries, according to UNESCO."
-        },
-        {
-          "type": "paragraph",
-          "text": "Comoros, São Tomé and Príncipe, and South Sudan received their first inscriptions. UNESCO says the number of state parties without a listed property consequently fell from 26 to 23."
-        },
-        {
-          "type": "paragraph",
-          "text": "The committee adopted all inscription decisions by consensus. Listing recognizes what UNESCO calls outstanding universal value and commits the state party to continued protection and management."
-        },
-        {
+          "rightsId": "media-unesco-2026-new-sites",
+          "sourceUrl": "https://www.unesco.org/en/articles/unesco-world-heritage-25-new-sites-inscribed",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/new-sites/four-three.webp",
           "type": "media",
-          "rightsId": "media-okefenokee-world-heritage-profile",
-          "src": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/profile/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Okefenokee was one of 25 properties added during the committee's 48th session in Busan. The group comprised 19 cultural sites, five natural sites and one mixed site, along with approved extensions to two existing properties.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The additions brought the World Heritage List to 1,273 sites across 173 countries, according to UNESCO.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Comoros, São Tomé and Príncipe, and South Sudan received their first inscriptions. UNESCO says the number of state parties without a listed property consequently fell from 26 to 23.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The committee adopted all inscription decisions by consensus. Listing recognizes what UNESCO calls outstanding universal value and commits the state party to continued protection and management.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows Okefenokee criteria nine and ten and area of 164,565.5 hectares.",
           "caption": "UNESCO lists Okefenokee under natural criteria ix and x, covering 164,565.5 hectares.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.unesco.org/en/articles/unesco-world-heritage-25-new-sites-inscribed"
+          "rightsId": "media-okefenokee-world-heritage-profile",
+          "sourceUrl": "https://www.unesco.org/en/articles/unesco-world-heritage-25-new-sites-inscribed",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/profile/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "For Okefenokee, the World Heritage Centre highlights the large peat wetland and areas of longleaf-pine savanna. The listing page says less than 3% of that savanna type remains."
+          "text": "For Okefenokee, the World Heritage Centre highlights the large peat wetland and areas of longleaf-pine savanna. The listing page says less than 3% of that savanna type remains.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "World Heritage status is an international designation, not an automatic guarantee against every environmental threat. Conservation outcomes still depend on management, monitoring, funding and decisions by responsible authorities."
+          "text": "World Heritage status is an international designation, not an automatic guarantee against every environmental threat. Conservation outcomes still depend on management, monitoring, funding and decisions by responsible authorities.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The 2026 session also added six properties to the List of World Heritage in Danger and removed Vienna's historic center from that list. Those actions are separate from Okefenokee's new inscription."
+          "text": "The 2026 session also added six properties to the List of World Heritage in Danger and removed Vienna's historic center from that list. Those actions are separate from Okefenokee's new inscription.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/okefenokee-unesco-world-heritage-list-2026/",
       "citations": [
         {
           "id": "source-unesco-world-heritage-new-sites-2026",
-          "title": "UNESCO World Heritage: 25 new sites inscribed",
-          "publisher": "UNESCO",
           "publishedAt": "2026-07-28T12:00:00Z",
+          "publisher": "UNESCO",
+          "title": "UNESCO World Heritage: 25 new sites inscribed",
           "url": "https://www.unesco.org/en/articles/unesco-world-heritage-25-new-sites-inscribed"
         },
         {
           "id": "source-unesco-okefenokee-listing-2026",
-          "title": "Okefenokee National Wildlife Refuge",
-          "publisher": "UNESCO World Heritage Centre",
           "publishedAt": "2026-07-28T12:00:00Z",
+          "publisher": "UNESCO World Heritage Centre",
+          "title": "Okefenokee National Wildlife Refuge",
           "url": "https://whc.unesco.org/en/list/1751/"
         }
       ],
@@ -54387,11 +54387,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T15:57:51.935Z",
       "relatedArticleIds": [
         "article-national-recording-registry-2026-25-selections"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t144754z-a47c19e6b2d5",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -54418,7 +54418,7 @@
         "World Heritage inscription does not by itself guarantee conservation outcomes.",
         "UNESCO's property area and descriptions may be refined as geospatial records are completed."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T15:57:51.935Z"
     },
     {
       "articleType": "news-report",
@@ -54428,71 +54428,71 @@
       "body": "The 2026 Cincinnati Open men's tournament runs from Aug. 13 through Aug. 23 at the Lindner Family Tennis Center in Ohio.\n\nThe ATP Tour lists a 96-player singles draw, a 32-team doubles draw and $9,193,540 in men's prize money for the hard-court Masters 1000 event.\n\nThose figures describe the ATP competition. Women's draw and prize-money details are governed separately by the WTA and are not included in the ATP total cited here.\n\nThe tournament expanded to two weeks in 2025 after a $260 million campus investment, according to the ATP. The work doubled the venue's acreage and increased player and fan facilities.\n\nThe larger draw gives more players direct entry and stretches competition across additional days, but it also means early rounds begin well before championship weekend.\n\nCincinnati is part of the North American hard-court swing before the U.S. Open. Results here do not determine the U.S. Open field, though players use the event for ranking points and match preparation.\n\nThe ATP overview supplies dates, draw sizes, surface and prize money but does not by itself confirm every entrant or daily order of play. Those details can change with withdrawals and scheduling decisions.\n\nThe event is branded for Cincinnati but the venue is in Mason, Ohio, north of the city. Center Court and the surrounding campus host both singles and doubles competition.\n\nFor fans planning around the event, the stable facts are the Aug. 13–23 window and expanded format. Player participation, match times and results require the current official draw and schedule.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The 2026 Cincinnati Open men's tournament runs from Aug. 13 through Aug. 23 at the Lindner Family Tennis Center in Ohio."
+          "text": "The 2026 Cincinnati Open men's tournament runs from Aug. 13 through Aug. 23 at the Lindner Family Tennis Center in Ohio.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The ATP Tour lists a 96-player singles draw, a 32-team doubles draw and $9,193,540 in men's prize money for the hard-court Masters 1000 event."
+          "text": "The ATP Tour lists a 96-player singles draw, a 32-team doubles draw and $9,193,540 in men's prize money for the hard-court Masters 1000 event.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-cincinnati-open-2026-format",
-          "src": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/format/four-three.webp",
           "alt": "Graphic lists 96 singles players, 32 doubles teams and hard-court surface.",
           "caption": "The 2026 ATP listing shows 96 singles players, 32 doubles teams and hard courts.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.atptour.com/en/tournaments/atp-masters-1000-cincinnati/422/overview"
-        },
-        {
-          "type": "paragraph",
-          "text": "Those figures describe the ATP competition. Women's draw and prize-money details are governed separately by the WTA and are not included in the ATP total cited here."
-        },
-        {
-          "type": "paragraph",
-          "text": "The tournament expanded to two weeks in 2025 after a $260 million campus investment, according to the ATP. The work doubled the venue's acreage and increased player and fan facilities."
-        },
-        {
-          "type": "paragraph",
-          "text": "The larger draw gives more players direct entry and stretches competition across additional days, but it also means early rounds begin well before championship weekend."
-        },
-        {
-          "type": "paragraph",
-          "text": "Cincinnati is part of the North American hard-court swing before the U.S. Open. Results here do not determine the U.S. Open field, though players use the event for ranking points and match preparation."
-        },
-        {
+          "rightsId": "media-cincinnati-open-2026-format",
+          "sourceUrl": "https://www.atptour.com/en/tournaments/atp-masters-1000-cincinnati/422/overview",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/format/four-three.webp",
           "type": "media",
-          "rightsId": "media-cincinnati-open-2026-dates-prize",
-          "src": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/dates/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Those figures describe the ATP competition. Women's draw and prize-money details are governed separately by the WTA and are not included in the ATP total cited here.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The tournament expanded to two weeks in 2025 after a $260 million campus investment, according to the ATP. The work doubled the venue's acreage and increased player and fan facilities.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The larger draw gives more players direct entry and stretches competition across additional days, but it also means early rounds begin well before championship weekend.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Cincinnati is part of the North American hard-court swing before the U.S. Open. Results here do not determine the U.S. Open field, though players use the event for ranking points and match preparation.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows Cincinnati Open dates Aug. 13 to 23 and prize money of 9,193,540 dollars.",
           "caption": "The men's event runs Aug. 13–23 and lists $9,193,540 in prize money.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.atptour.com/en/tournaments/atp-masters-1000-cincinnati/422/overview"
+          "rightsId": "media-cincinnati-open-2026-dates-prize",
+          "sourceUrl": "https://www.atptour.com/en/tournaments/atp-masters-1000-cincinnati/422/overview",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/dates/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "The ATP overview supplies dates, draw sizes, surface and prize money but does not by itself confirm every entrant or daily order of play. Those details can change with withdrawals and scheduling decisions."
+          "text": "The ATP overview supplies dates, draw sizes, surface and prize money but does not by itself confirm every entrant or daily order of play. Those details can change with withdrawals and scheduling decisions.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The event is branded for Cincinnati but the venue is in Mason, Ohio, north of the city. Center Court and the surrounding campus host both singles and doubles competition."
+          "text": "The event is branded for Cincinnati but the venue is in Mason, Ohio, north of the city. Center Court and the surrounding campus host both singles and doubles competition.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "For fans planning around the event, the stable facts are the Aug. 13–23 window and expanded format. Player participation, match times and results require the current official draw and schedule."
+          "text": "For fans planning around the event, the stable facts are the Aug. 13–23 window and expanded format. Player participation, match times and results require the current official draw and schedule.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/cincinnati-open-2026-atp-dates-draw-prize-money/",
       "citations": [
         {
           "id": "source-atp-cincinnati-open-overview-2026",
-          "title": "Cincinnati Open tournament overview",
-          "publisher": "ATP Tour",
           "publishedAt": "2026-08-11T12:00:00Z",
+          "publisher": "ATP Tour",
+          "title": "Cincinnati Open tournament overview",
           "url": "https://www.atptour.com/en/tournaments/atp-masters-1000-cincinnati/422/overview"
         }
       ],
@@ -54535,11 +54535,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T15:57:51.935Z",
       "relatedArticleIds": [
         "article-us-open-2026-schedule-fan-week-main-draw-finals"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t144754z-a47c19e6b2d5",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -54566,26 +54566,26 @@
         "Entrants and daily match times can change before and during the event.",
         "The cited draw and prize-money figures are the ATP men's listing, not a combined ATP-WTA total."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T15:57:51.935Z"
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T15:38:02.335Z",
+  "generatedAt": "2026-08-11T15:58:58.501Z",
   "inputHashes": {
-    "sourceItems": "001322d46238ac1ccac24e7d645620360eb204d66216df1a2e3bca5d7e00454f",
-    "events": "6d288fc3a5c1239fb784aa5cdeee5d74879529298fb85b87c750552458b3d0fc",
-    "claims": "0a8b4b7d22594c4a148d3454e298e3930ccbdb30c0fa7cf54abf0bd015ee1c2d",
-    "articles": "1cbbe0d70bc24555e0e9aadc77be919e4f6d7f7ffe731a95b4573f60f41d3cdf",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
+    "articles": "1cbbe0d70bc24555e0e9aadc77be919e4f6d7f7ffe731a95b4573f60f41d3cdf",
+    "claims": "0a8b4b7d22594c4a148d3454e298e3930ccbdb30c0fa7cf54abf0bd015ee1c2d",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "events": "6d288fc3a5c1239fb784aa5cdeee5d74879529298fb85b87c750552458b3d0fc",
     "mediaRights": "6a1006f626fc709a2c53fd922e13c0f83593f85606e1ed90ec9649ce4986314a",
-    "releaseRecords": "3e4fda070c403aa70a91522c9ca28b651eb318f1db81177cab0ea59e2cd7b432",
-    "publicationIntents": "47589fdb425ac266db1755b29370fbef20d9c563fd0bd73dc36278090fa293ec"
+    "publicationIntents": "47589fdb425ac266db1755b29370fbef20d9c563fd0bd73dc36278090fa293ec",
+    "releaseRecords": "980a9f667f25db110c3355effcb187a0654ecc6786cd0aa59f316934cfd0d8a1",
+    "sourceItems": "001322d46238ac1ccac24e7d645620360eb204d66216df1a2e3bca5d7e00454f"
   },
   "inventory": {
     "articleCount": 333,
-    "routeCount": 333,
-    "mediaCount": 985
+    "mediaCount": 985,
+    "routeCount": 333
   },
   "mediaRights": [
     {
@@ -129380,6 +129380,7 @@
       "sourceUrl": "https://www.atptour.com/en/tournaments/atp-masters-1000-cincinnati/422/overview"
     }
   ],
+  "packageDigest": "b943f513b3364b3b113ca4a288bdea9757b381f1040bece671990501a8de363a",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -131366,10 +131367,40 @@
       "releaseId": "release-pb-20260811t132424z-6f1a9d3c8e52",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://96de47e8.bohonews.pages.dev/",
+      "activationEvidenceHash": "ce99a30a1c0736d8625d67443dc70d0d9122434f12528fa7a415789de8f027ea",
+      "canonicalFirstPublicAt": "2026-08-11T15:57:51.935Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/eu-ai-act-transparency-rules-article-50-2026/",
+        "https://bohonews.com/articles/cpsc-import-efiling-certificates-effective-july-2026/",
+        "https://bohonews.com/articles/washington-union-station-24-million-partnership-plan-2026/",
+        "https://bohonews.com/articles/defense-critical-materials-waiver-rules-supply-chain-order-2026/",
+        "https://bohonews.com/articles/okefenokee-unesco-world-heritage-list-2026/",
+        "https://bohonews.com/articles/cincinnati-open-2026-atp-dates-draw-prize-money/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-eu-ai-act-transparency-rules-article-50-2026",
+        "article-cpsc-import-efiling-certificates-effective-july-2026",
+        "article-washington-union-station-24-million-partnership-plan-2026",
+        "article-defense-critical-materials-waiver-rules-supply-chain-order-2026",
+        "article-okefenokee-unesco-world-heritage-list-2026",
+        "article-cincinnati-open-2026-atp-dates-draw-prize-money"
+      ],
+      "previousVerifiedDeploymentReference": "023a6fbd242e605bc830ad237101ac5120e8fa3e9d99447fbd2338c9a79b3e4d",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T15:56:15.283114Z",
+      "recordHash": "9c82cedc7f1a7d5978d7a38d4c15c50796643d19486eca1842dc51c61392a30d",
+      "releaseId": "release-pb-20260811t144754z-a47c19e6b2d5",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
-  "releaseState": "candidate",
+  "releaseState": "final",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com",
-  "packageDigest": "522c63186e66351e7ab972b7db542d5cf67b18d2cce230d71e75bbb2f6e49171"
+  "site": "https://bohonews.com"
 }
