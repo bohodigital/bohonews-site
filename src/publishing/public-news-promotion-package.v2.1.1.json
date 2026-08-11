@@ -47384,25 +47384,925 @@
         "Schools, conferences and existing contracts may impose narrower commercial limits."
       ],
       "updatedAt": "2026-08-11T05:49:44.112Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal financial regulators remain in the early stages of implementing joint data standards required by the Financial Data Transparency Act, the Government Accountability Office said in a May review.\n\nCongress enacted the law in December 2022 to make financial information easier to share and analyze. Regulators were working to finalize an August 2024 proposed rule when GAO completed its review; most agencies must then write their own rules to apply the joint standards.\n\nThe intended result is more interoperable reporting. Banks, market participants and other entities can be required to submit the same or similar information to multiple agencies, and common data fields could reduce duplication and support automated exchange.\n\nGAO said standardized reporting could improve the quality and efficiency of regulatory analysis, help agencies identify compliance concerns sooner and reduce filing burdens across multiple regulators.\n\nThose gains are not automatic. Agencies may need to modernize legacy systems, coordinate technical decisions and establish durable data-governance policies. Reporting entities may face costs to change software, business processes and testing programs.\n\nThe watchdog reviewed records and corresponded with officials from nine financial regulatory agencies. It also spoke with four practitioner groups, four groups representing reporting entities and two academic researchers.\n\nSome stakeholders see the law as a possible foundation for a broader system known as Standard Business Reporting, in which a government-wide taxonomy lets data move automatically between reporting entities and agencies. The United States does not currently have such a system.\n\nGAO did not estimate a net dollar benefit or say that implementation is complete. Its report describes a sequence of rulemaking and systems work whose costs and results will depend on choices that regulators and filers have not yet finished.\n\nThe near-term test is therefore practical: whether agencies can agree on usable standards, govern them consistently and implement them without replacing duplicate paperwork with incompatible technical systems.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Federal financial regulators remain in the early stages of implementing joint data standards required by the Financial Data Transparency Act, the Government Accountability Office said in a May review."
+        },
+        {
+          "type": "paragraph",
+          "text": "Congress enacted the law in December 2022 to make financial information easier to share and analyze. Regulators were working to finalize an August 2024 proposed rule when GAO completed its review; most agencies must then write their own rules to apply the joint standards."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-fdta-rulemaking-sequence-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/sequence/four-three.webp",
+          "alt": "Graphic shows joint standards followed by agency rules and standardized reporting.",
+          "caption": "Financial regulators must finish joint standards before most agencies issue their own implementation rules.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108420"
+        },
+        {
+          "type": "paragraph",
+          "text": "The intended result is more interoperable reporting. Banks, market participants and other entities can be required to submit the same or similar information to multiple agencies, and common data fields could reduce duplication and support automated exchange."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO said standardized reporting could improve the quality and efficiency of regulatory analysis, help agencies identify compliance concerns sooner and reduce filing burdens across multiple regulators."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those gains are not automatic. Agencies may need to modernize legacy systems, coordinate technical decisions and establish durable data-governance policies. Reporting entities may face costs to change software, business processes and testing programs."
+        },
+        {
+          "type": "paragraph",
+          "text": "The watchdog reviewed records and corresponded with officials from nine financial regulatory agencies. It also spoke with four practitioner groups, four groups representing reporting entities and two academic researchers."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-fdta-benefits-costs-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/tradeoffs/four-three.webp",
+          "alt": "Graphic contrasts shared-data benefits with system and implementation costs.",
+          "caption": "GAO identified potential gains in interoperability and analysis alongside modernization, coordination and testing costs.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108420"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some stakeholders see the law as a possible foundation for a broader system known as Standard Business Reporting, in which a government-wide taxonomy lets data move automatically between reporting entities and agencies. The United States does not currently have such a system."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO did not estimate a net dollar benefit or say that implementation is complete. Its report describes a sequence of rulemaking and systems work whose costs and results will depend on choices that regulators and filers have not yet finished."
+        },
+        {
+          "type": "paragraph",
+          "text": "The near-term test is therefore practical: whether agencies can agree on usable standards, govern them consistently and implement them without replacing duplicate paperwork with incompatible technical systems."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-financial-data-transparency-standards-2026/",
+      "citations": [
+        {
+          "id": "source-gao-financial-data-transparency-20260514",
+          "title": "Regulatory Reporting Reform: Financial Data Transparency Act Requires Initial Steps Toward Government-wide Data Standards",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-05-14T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-108420"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The FDTA was enacted in December 2022.",
+        "Regulators were working to finalize an August 2024 proposed joint rule.",
+        "Most covered agencies must then issue their own implementation regulations.",
+        "GAO reviewed information from nine regulatory agencies.",
+        "The United States does not currently have government-wide Standard Business Reporting."
+      ],
+      "corrections": [],
+      "dek": "The Financial Data Transparency Act could reduce duplicate reporting, but agencies must first finish shared standards, modernize systems and write their own implementation rules.",
+      "desk": "financial-regulatory-data-standards-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Federal financial regulators",
+        "Congress"
+      ],
+      "eventId": "event-gao-financial-data-transparency-standards-2026",
+      "headline": "GAO Says Financial Regulators Are Still Building Joint Data Standards",
+      "id": "article-gao-financial-data-transparency-standards-2026",
+      "leadImage": {
+        "alt": "Scaffolding and construction equipment surround the Federal Reserve's stone headquarters in Washington.",
+        "caption": "Construction at the Federal Reserve's Eccles Building in Washington in June 2026. GAO says financial regulators are still finalizing the shared data standards required by a 2022 law.",
+        "credit": "G. Edward Johnson / Wikimedia Commons, CC BY 4.0",
+        "height": 900,
+        "rightsId": "media-gao-fdta-eccles-construction-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/eccles-building/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says financial regulators are still finalizing joint data standards before agencies can issue their own FDTA implementation rules.",
+        "index": true,
+        "title": "GAO reviews Financial Data Transparency Act implementation"
+      },
+      "section": "investigations",
+      "slug": "gao-financial-data-transparency-standards-2026",
+      "social": {
+        "description": "The Financial Data Transparency Act could reduce duplicate reporting, but agencies must first finish shared standards, modernize systems and write their own implementation rules.",
+        "image": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/eccles-building/open-graph.webp",
+        "title": "GAO Says Financial Regulators Are Still Building Joint Data Standards"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Financial Data Transparency Act",
+        "Regulatory reporting",
+        "Data standards",
+        "Government oversight",
+        "Financial regulation"
+      ],
+      "uncertainty": [
+        "The report does not quantify net implementation costs or savings.",
+        "The timing and details of final agency rules were not settled in GAO's review."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal cases involving the aggravated identity-theft statute declined 8% from fiscal 2021 to fiscal 2025, according to updated United States Sentencing Commission data.\n\nThe commission counted 561 cases involving 18 U.S.C. § 1028A among 66,662 felony and Class A misdemeanor cases reported for fiscal 2025. The data cover sentencing events, not every reported instance of identity theft.\n\nSection 1028A carries a mandatory minimum term of 24 months that generally must run consecutively to punishment for another offense. Ninety-two percent of people convicted under the provision were also convicted of another offense in fiscal 2025.\n\nThe average sentence was 54 months, and 99% of sentenced individuals received prison terms. The average was 24 months for cases involving only section 1028A and 57 months when another offense was also present.\n\nAverage punishment increased even as the number of cases fell. The average guideline minimum rose from 61 months in fiscal 2021 to 71 months in fiscal 2025, while the average sentence imposed rose from 46 months to 54 months.\n\nHalf of the sentenced individuals were in Criminal History Category I, which indicates little or no prior criminal history under the federal guidelines. The average age was 38.\n\nFlorida had the two districts with the largest case counts: the Southern District of Florida reported 50 and the Middle District reported 36. Those counts describe where federal cases were sentenced, not population-adjusted offending rates.\n\nThe commission excludes cases with incomplete information from some calculations and caps certain sentence-length analyses under its sourcebook methods. Documents for fiscal 2025 cases had to be reported to the commission by February 26, 2026.\n\nThe data establish a smaller section 1028A caseload than four years earlier, alongside longer average sentences. They do not explain why charging patterns, underlying conduct or sentence outcomes changed.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Federal cases involving the aggravated identity-theft statute declined 8% from fiscal 2021 to fiscal 2025, according to updated United States Sentencing Commission data."
+        },
+        {
+          "type": "paragraph",
+          "text": "The commission counted 561 cases involving 18 U.S.C. § 1028A among 66,662 felony and Class A misdemeanor cases reported for fiscal 2025. The data cover sentencing events, not every reported instance of identity theft."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-ussc-identity-theft-caseload-2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/caseload/four-three.webp",
+          "alt": "Graphic shows 561 aggravated identity-theft cases and an 8 percent four-year decline.",
+          "caption": "Of 66,662 federal cases reported for fiscal 2025, 561 involved 18 U.S.C. § 1028A, 8% fewer than in fiscal 2021.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/aggravated-identity-theft"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section 1028A carries a mandatory minimum term of 24 months that generally must run consecutively to punishment for another offense. Ninety-two percent of people convicted under the provision were also convicted of another offense in fiscal 2025."
+        },
+        {
+          "type": "paragraph",
+          "text": "The average sentence was 54 months, and 99% of sentenced individuals received prison terms. The average was 24 months for cases involving only section 1028A and 57 months when another offense was also present."
+        },
+        {
+          "type": "paragraph",
+          "text": "Average punishment increased even as the number of cases fell. The average guideline minimum rose from 61 months in fiscal 2021 to 71 months in fiscal 2025, while the average sentence imposed rose from 46 months to 54 months."
+        },
+        {
+          "type": "paragraph",
+          "text": "Half of the sentenced individuals were in Criminal History Category I, which indicates little or no prior criminal history under the federal guidelines. The average age was 38."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-ussc-identity-theft-sentences-2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/sentences/four-three.webp",
+          "alt": "Graphic shows average sentence rising from 46 to 54 months and a 99 percent prison rate.",
+          "caption": "The average sentence rose from 46 months in fiscal 2021 to 54 months in fiscal 2025; 99% received prison terms.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/aggravated-identity-theft"
+        },
+        {
+          "type": "paragraph",
+          "text": "Florida had the two districts with the largest case counts: the Southern District of Florida reported 50 and the Middle District reported 36. Those counts describe where federal cases were sentenced, not population-adjusted offending rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "The commission excludes cases with incomplete information from some calculations and caps certain sentence-length analyses under its sourcebook methods. Documents for fiscal 2025 cases had to be reported to the commission by February 26, 2026."
+        },
+        {
+          "type": "paragraph",
+          "text": "The data establish a smaller section 1028A caseload than four years earlier, alongside longer average sentences. They do not explain why charging patterns, underlying conduct or sentence outcomes changed."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/aggravated-identity-theft-sentencing-fy2025/",
+      "citations": [
+        {
+          "id": "source-ussc-aggravated-identity-theft-fy2025",
+          "title": "Aggravated Identity Theft: Quick Facts",
+          "publisher": "United States Sentencing Commission",
+          "publishedAt": "2026-04-01T12:00:00Z",
+          "url": "https://www.ussc.gov/research/quick-facts/aggravated-identity-theft"
+        },
+        {
+          "id": "source-ussc-sourcebook-2025",
+          "title": "2025 Sourcebook of Federal Sentencing Statistics",
+          "publisher": "United States Sentencing Commission",
+          "publishedAt": "2026-04-01T12:00:00Z",
+          "url": "https://www.ussc.gov/research/sourcebook-2025"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "561 fiscal 2025 cases involved 18 U.S.C. § 1028A.",
+        "That count was 8% lower than in fiscal 2021.",
+        "The average sentence was 54 months and 99% received prison.",
+        "Ninety-two percent also involved another conviction.",
+        "The average guideline minimum rose from 61 to 71 months from fiscal 2021 to 2025."
+      ],
+      "corrections": [],
+      "dek": "Sentencing Commission data show 561 federal cases in fiscal 2025 involved the mandatory consecutive identity-theft statute, with an average sentence of 54 months.",
+      "desk": "aggravated-identity-theft-sentencing-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Sentencing Commission",
+        "Federal courts"
+      ],
+      "eventId": "event-aggravated-identity-theft-sentencing-fy2025",
+      "headline": "Aggravated Identity-Theft Cases Fell 8% Over Four Years",
+      "id": "article-aggravated-identity-theft-sentencing-fy2025",
+      "leadImage": {
+        "alt": "The modernist stone facade and main entrance of the E. Barrett Prettyman U.S. Courthouse.",
+        "caption": "The E. Barrett Prettyman U.S. Courthouse in Washington. Sentencing Commission data show 561 fiscal 2025 cases involved the aggravated identity-theft statute.",
+        "credit": "G. Edward Johnson / Wikimedia Commons, CC BY 4.0",
+        "height": 900,
+        "rightsId": "media-ussc-prettyman-courthouse-july-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/prettyman-courthouse/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Sentencing Commission data show 561 aggravated identity-theft cases in fiscal 2025, with a 54-month average sentence.",
+        "index": true,
+        "title": "Aggravated identity-theft cases fell 8% by fiscal 2025"
+      },
+      "section": "crime-justice",
+      "slug": "aggravated-identity-theft-sentencing-fy2025",
+      "social": {
+        "description": "Sentencing Commission data show 561 federal cases in fiscal 2025 involved the mandatory consecutive identity-theft statute, with an average sentence of 54 months.",
+        "image": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/prettyman-courthouse/open-graph.webp",
+        "title": "Aggravated Identity-Theft Cases Fell 8% Over Four Years"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Aggravated identity theft",
+        "Federal sentencing",
+        "Mandatory minimums",
+        "Sentencing data",
+        "18 U.S.C. 1028A"
+      ],
+      "uncertainty": [
+        "Sentencing cases are not a measure of every identity-theft incident.",
+        "The descriptive data do not establish causes for changes in caseload or sentence length."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The federal budget deficit totaled an estimated $1.8 trillion in the first 10 months of fiscal 2026, the Congressional Budget Office reported Monday.\n\nThat shortfall was $169 billion larger than in the same October-through-July period a year earlier. The estimate updates CBO's monthly budget tracking with two months remaining in the fiscal year.\n\nFederal revenues rose by $139 billion, or 3%, compared with the first 10 months of fiscal 2025. Outlays increased by $308 billion, or 5%, so spending growth exceeded the additional receipts.\n\nA deficit measures the gap between federal outlays and revenues during the period. It adds to federal borrowing but is not the same as the total national debt accumulated across years.\n\nMonthly results can be affected by the timing of weekends, holidays and benefit payments. CBO's review adjusts comparisons when calendar shifts move transactions between months, and Treasury later reports finalized figures.\n\nThe July update extends the trajectory CBO reported through June, when the cumulative shortfall was about $1.4 trillion. The additional month should not be read as a simple trend line because receipts and spending are seasonal.\n\nCBO's monthly review is an estimate based on daily Treasury statements and other information available before the government's official monthly statement. Small revisions can occur when final accounting data arrive.\n\nThe figures describe the enacted federal budget, not the separate long-term projections lawmakers use to assess future debt. Policy changes, economic conditions, interest costs and emergency spending can alter the final two months and later years.\n\nFor the fiscal year to date, the central result is clear: both sides of the ledger grew, but the 5% increase in outlays was larger than the 3% increase in revenues, widening the cumulative deficit.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The federal budget deficit totaled an estimated $1.8 trillion in the first 10 months of fiscal 2026, the Congressional Budget Office reported Monday."
+        },
+        {
+          "type": "paragraph",
+          "text": "That shortfall was $169 billion larger than in the same October-through-July period a year earlier. The estimate updates CBO's monthly budget tracking with two months remaining in the fiscal year."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cbo-deficit-through-july-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/deficit/four-three.webp",
+          "alt": "Graphic shows a 1.8 trillion dollar deficit and a 169 billion dollar year-over-year increase.",
+          "caption": "CBO estimates a $1.8 trillion deficit for the first 10 months of fiscal 2026, $169 billion more than in the comparable 2025 period.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cbo.gov/publication/61983"
+        },
+        {
+          "type": "paragraph",
+          "text": "Federal revenues rose by $139 billion, or 3%, compared with the first 10 months of fiscal 2025. Outlays increased by $308 billion, or 5%, so spending growth exceeded the additional receipts."
+        },
+        {
+          "type": "paragraph",
+          "text": "A deficit measures the gap between federal outlays and revenues during the period. It adds to federal borrowing but is not the same as the total national debt accumulated across years."
+        },
+        {
+          "type": "paragraph",
+          "text": "Monthly results can be affected by the timing of weekends, holidays and benefit payments. CBO's review adjusts comparisons when calendar shifts move transactions between months, and Treasury later reports finalized figures."
+        },
+        {
+          "type": "paragraph",
+          "text": "The July update extends the trajectory CBO reported through June, when the cumulative shortfall was about $1.4 trillion. The additional month should not be read as a simple trend line because receipts and spending are seasonal."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cbo-revenue-outlay-growth-july-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/flows/four-three.webp",
+          "alt": "Graphic compares 3 percent revenue growth with 5 percent outlay growth.",
+          "caption": "Through July, revenues rose $139 billion, or 3%, while outlays rose $308 billion, or 5%.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cbo.gov/publication/61983"
+        },
+        {
+          "type": "paragraph",
+          "text": "CBO's monthly review is an estimate based on daily Treasury statements and other information available before the government's official monthly statement. Small revisions can occur when final accounting data arrive."
+        },
+        {
+          "type": "paragraph",
+          "text": "The figures describe the enacted federal budget, not the separate long-term projections lawmakers use to assess future debt. Policy changes, economic conditions, interest costs and emergency spending can alter the final two months and later years."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the fiscal year to date, the central result is clear: both sides of the ledger grew, but the 5% increase in outlays was larger than the 3% increase in revenues, widening the cumulative deficit."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-deficit-through-july-2026-cbo/",
+      "citations": [
+        {
+          "id": "source-cbo-monthly-budget-review-august-2026",
+          "title": "Monthly Budget Review: August 2026",
+          "publisher": "Congressional Budget Office",
+          "publishedAt": "2026-08-10T12:00:00Z",
+          "url": "https://www.cbo.gov/publication/61983"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The estimated deficit through July was $1.8 trillion.",
+        "It was $169 billion larger than the comparable fiscal 2025 period.",
+        "Revenues rose $139 billion, or 3%.",
+        "Outlays rose $308 billion, or 5%.",
+        "The period covers the first 10 months of fiscal 2026."
+      ],
+      "corrections": [],
+      "dek": "The shortfall for the first 10 months of fiscal 2026 was $169 billion larger than a year earlier as outlays grew faster than revenues.",
+      "desk": "federal-budget-monitoring-july-2026",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Congressional Budget Office",
+        "U.S. Treasury",
+        "Congress"
+      ],
+      "eventId": "event-federal-deficit-through-july-2026-cbo",
+      "headline": "Federal Deficit Reached $1.8 Trillion Through July, CBO Estimates",
+      "id": "article-federal-deficit-through-july-2026-cbo",
+      "leadImage": {
+        "alt": "The U.S. Capitol dome and western steps rise behind a broad lawn beneath a blue sky.",
+        "caption": "The western front of the U.S. Capitol. CBO estimates the federal deficit reached $1.8 trillion through July, with two months left in fiscal 2026.",
+        "credit": "Noclip / Wikimedia Commons, public domain",
+        "height": 900,
+        "rightsId": "media-cbo-capitol-full-view-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/capitol/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "CBO estimates the federal deficit reached $1.8 trillion through July as outlays rose 5% and revenues rose 3%.",
+        "index": true,
+        "title": "Federal deficit hit $1.8 trillion through July 2026, CBO says"
+      },
+      "section": "politics",
+      "slug": "federal-deficit-through-july-2026-cbo",
+      "social": {
+        "description": "The shortfall for the first 10 months of fiscal 2026 was $169 billion larger than a year earlier as outlays grew faster than revenues.",
+        "image": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/capitol/open-graph.webp",
+        "title": "Federal Deficit Reached $1.8 Trillion Through July, CBO Estimates"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal deficit",
+        "Congressional Budget Office",
+        "Federal spending",
+        "Federal revenue",
+        "Fiscal 2026"
+      ],
+      "uncertainty": [
+        "CBO's monthly figures are preliminary estimates that can be revised with final Treasury data.",
+        "Calendar timing and seasonal flows can make one month's change unrepresentative of the full-year pace."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "NOAA researchers are testing hyperspectral cameras aboard small aircraft and drones to capture Great Lakes ice conditions at greater detail than conventional images provide.\n\nThe Great Lakes Environmental Research Laboratory began exploring winter ice flights in 2024 after using hyperspectral imagery for more than a decade to monitor harmful algal blooms in warmer months.\n\nA conventional digital image records red, green and blue light. GLERL's camera captures more than 150 bands, including near-infrared wavelengths, producing a three-dimensional data cube in which materials can be identified by distinct spectral fingerprints.\n\nDuring its most recent ice-flight mission, a Cessna 210 followed a planned survey route at 10,500 feet. Researchers also established an aerial drone program in 2024 to collect much lower-altitude, higher-resolution observations.\n\nThe extra detail matters because lake conditions can change quickly. GLERL showed ice sheets shifting across one Lake Erie camera view over three hours as wind and currents moved them.\n\nSatellites and numerical models already track ice using radar, visible and infrared information. NOAA says satellites provide periodic snapshots, while models need accurate observations for validation; airborne data are being explored as a supplement, not a replacement.\n\nResearchers are testing deep-learning methods on the 150-band imagery to classify features such as open water and different ice conditions. Training those systems requires ground-truth observations and repeated validation.\n\nNOAA says better ice information could aid forecasting, ecology and commercial navigation. Great Lakes freighters move nearly 200 million tons of material a year, but the agency has not yet quantified how much the experimental system would improve forecasts or reduce costs.\n\nThe project remains research. Its value will depend on whether airborne and drone observations can be collected consistently, validated against conditions on the water and integrated into operational ice products.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "NOAA researchers are testing hyperspectral cameras aboard small aircraft and drones to capture Great Lakes ice conditions at greater detail than conventional images provide."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Great Lakes Environmental Research Laboratory began exploring winter ice flights in 2024 after using hyperspectral imagery for more than a decade to monitor harmful algal blooms in warmer months."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-noaa-hyperspectral-bands-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/bands/four-three.webp",
+          "alt": "Graphic compares three visible-light bands with more than 150 hyperspectral bands.",
+          "caption": "A conventional image uses red, green and blue; GLERL's hyperspectral camera records more than 150 bands.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.glerl.noaa.gov/blog/2026/04/21/eyes-in-the-sky-how-hyperspectral-flights-improve-knowledge-of-great-lakes-winter-ice/"
+        },
+        {
+          "type": "paragraph",
+          "text": "A conventional digital image records red, green and blue light. GLERL's camera captures more than 150 bands, including near-infrared wavelengths, producing a three-dimensional data cube in which materials can be identified by distinct spectral fingerprints."
+        },
+        {
+          "type": "paragraph",
+          "text": "During its most recent ice-flight mission, a Cessna 210 followed a planned survey route at 10,500 feet. Researchers also established an aerial drone program in 2024 to collect much lower-altitude, higher-resolution observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The extra detail matters because lake conditions can change quickly. GLERL showed ice sheets shifting across one Lake Erie camera view over three hours as wind and currents moved them."
+        },
+        {
+          "type": "paragraph",
+          "text": "Satellites and numerical models already track ice using radar, visible and infrared information. NOAA says satellites provide periodic snapshots, while models need accurate observations for validation; airborne data are being explored as a supplement, not a replacement."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-noaa-ice-observation-stack-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/stack/four-three.webp",
+          "alt": "Graphic shows aircraft and drones supplementing satellites and numerical models.",
+          "caption": "Aircraft and drones could add high-resolution observations to satellite imagery and numerical ice models.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.glerl.noaa.gov/blog/2026/04/21/eyes-in-the-sky-how-hyperspectral-flights-improve-knowledge-of-great-lakes-winter-ice/"
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers are testing deep-learning methods on the 150-band imagery to classify features such as open water and different ice conditions. Training those systems requires ground-truth observations and repeated validation."
+        },
+        {
+          "type": "paragraph",
+          "text": "NOAA says better ice information could aid forecasting, ecology and commercial navigation. Great Lakes freighters move nearly 200 million tons of material a year, but the agency has not yet quantified how much the experimental system would improve forecasts or reduce costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "The project remains research. Its value will depend on whether airborne and drone observations can be collected consistently, validated against conditions on the water and integrated into operational ice products."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/noaa-hyperspectral-great-lakes-ice-flights-2026/",
+      "citations": [
+        {
+          "id": "source-noaa-glerl-hyperspectral-ice-20260421",
+          "title": "Eyes in the Sky: How Hyperspectral Flights Improve Knowledge of Great Lakes Winter Ice",
+          "publisher": "NOAA Great Lakes Environmental Research Laboratory",
+          "publishedAt": "2026-04-21T12:00:00Z",
+          "url": "https://www.glerl.noaa.gov/blog/2026/04/21/eyes-in-the-sky-how-hyperspectral-flights-improve-knowledge-of-great-lakes-winter-ice/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "GLERL began exploring hyperspectral winter ice flights in 2024.",
+        "The camera captures more than 150 spectral bands.",
+        "The most recent cited survey flew at 10,500 feet.",
+        "GLERL established an aerial drone program in 2024.",
+        "The tests are intended to supplement satellites and numerical models."
+      ],
+      "corrections": [],
+      "dek": "Hyperspectral cameras aboard a Cessna and drones can distinguish spectral fingerprints in rapidly shifting ice that satellites and models may miss.",
+      "desk": "great-lakes-ice-observation",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NOAA Great Lakes Environmental Research Laboratory",
+        "NOAA"
+      ],
+      "eventId": "event-noaa-hyperspectral-great-lakes-ice-flights-2026",
+      "headline": "NOAA Tests 150-Band Flights to Improve Great Lakes Ice Tracking",
+      "id": "article-noaa-hyperspectral-great-lakes-ice-flights-2026",
+      "leadImage": {
+        "alt": "Broken white ice sheets and dark open water stretch across Lake Erie beneath a research aircraft.",
+        "caption": "Lake Erie ice seen from a research aircraft. NOAA GLERL is testing hyperspectral flights to improve observations when winter buoys are removed.",
+        "credit": "NOAA Great Lakes Environmental Research Laboratory",
+        "height": 900,
+        "rightsId": "media-noaa-lake-erie-ice-flight-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/lake-erie/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Lake Erie",
+        "Great Lakes",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NOAA is testing 150-band hyperspectral cameras on aircraft and drones to improve high-resolution Great Lakes ice observations.",
+        "index": true,
+        "title": "NOAA tests hyperspectral flights for Great Lakes ice tracking"
+      },
+      "section": "weather-climate",
+      "slug": "noaa-hyperspectral-great-lakes-ice-flights-2026",
+      "social": {
+        "description": "Hyperspectral cameras aboard a Cessna and drones can distinguish spectral fingerprints in rapidly shifting ice that satellites and models may miss.",
+        "image": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/lake-erie/open-graph.webp",
+        "title": "NOAA Tests 150-Band Flights to Improve Great Lakes Ice Tracking"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Great Lakes ice",
+        "Hyperspectral imagery",
+        "NOAA research",
+        "Weather observation",
+        "Lake Erie"
+      ],
+      "uncertainty": [
+        "NOAA describes an experimental research program, not a fully operational replacement for current products.",
+        "The agency has not quantified forecast gains or economic benefits from the flights."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The National Institute of Standards and Technology has released a reference resin designed to make a critical measurement in photopolymer 3D printing more comparable across laboratories and machines.\n\nReference Material 8047 supports measurement of a resin's working curve, the relationship between radiant light exposure and the depth at which liquid resin cures into solid material.\n\nReliable working curves help operators expose each printed layer deeply enough to bond with the next one without curing too much material. Errors can change dimensions, weaken bonding or reduce reproducibility.\n\nNIST says each unit contains about 20 grams of photoactive resin. The mixture is roughly 40% each of two acrylate components and 20% of a third, with smaller quantities of a photoinitiator and photoabsorber.\n\nParticipants in an interlaboratory study measured cure depth and radiant exposure using three sets of NIST-built, calibrated light sources at wavelengths of 385 and 405 nanometers.\n\nNIST analyzed the nonzero cure-depth and exposure pairs with the Jacobs Equation to calculate penetration depth and critical exposure energy, two parameters used to characterize photopolymer behavior.\n\nA shared material lets laboratories test whether differences in a working curve come from equipment, calibration or analysis rather than from using different resin batches.\n\nRM 8047 does not certify every printer, process or finished part. Manufacturers still need to validate layer settings, geometry, post-curing and performance for each intended application.\n\nThe reference material creates a common starting point for that work: the same documented resin can be exposed at the same wavelengths and its measured working curve compared across instruments and facilities.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The National Institute of Standards and Technology has released a reference resin designed to make a critical measurement in photopolymer 3D printing more comparable across laboratories and machines."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reference Material 8047 supports measurement of a resin's working curve, the relationship between radiant light exposure and the depth at which liquid resin cures into solid material."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nist-rm8047-working-curve-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/working-curve/four-three.webp",
+          "alt": "Graphic shows radiant exposure, cure depth and a controlled bonding window.",
+          "caption": "A resin working curve relates radiant exposure to cure depth, helping printers bond layers without overexposure.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/rm-assessing-working-curve-resin-3d-printing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reliable working curves help operators expose each printed layer deeply enough to bond with the next one without curing too much material. Errors can change dimensions, weaken bonding or reduce reproducibility."
+        },
+        {
+          "type": "paragraph",
+          "text": "NIST says each unit contains about 20 grams of photoactive resin. The mixture is roughly 40% each of two acrylate components and 20% of a third, with smaller quantities of a photoinitiator and photoabsorber."
+        },
+        {
+          "type": "paragraph",
+          "text": "Participants in an interlaboratory study measured cure depth and radiant exposure using three sets of NIST-built, calibrated light sources at wavelengths of 385 and 405 nanometers."
+        },
+        {
+          "type": "paragraph",
+          "text": "NIST analyzed the nonzero cure-depth and exposure pairs with the Jacobs Equation to calculate penetration depth and critical exposure energy, two parameters used to characterize photopolymer behavior."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nist-rm8047-test-wavelengths-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/wavelengths/four-three.webp",
+          "alt": "Graphic shows calibrated tests at 385 and 405 nanometers and a shared resin sample.",
+          "caption": "Interlaboratory participants measured RM 8047 with calibrated light sources at 385 and 405 nanometers.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/rm-assessing-working-curve-resin-3d-printing"
+        },
+        {
+          "type": "paragraph",
+          "text": "A shared material lets laboratories test whether differences in a working curve come from equipment, calibration or analysis rather than from using different resin batches."
+        },
+        {
+          "type": "paragraph",
+          "text": "RM 8047 does not certify every printer, process or finished part. Manufacturers still need to validate layer settings, geometry, post-curing and performance for each intended application."
+        },
+        {
+          "type": "paragraph",
+          "text": "The reference material creates a common starting point for that work: the same documented resin can be exposed at the same wavelengths and its measured working curve compared across instruments and facilities."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nist-rm-8047-resin-3d-printing-working-curve/",
+      "citations": [
+        {
+          "id": "source-nist-rm-8047-20260630",
+          "title": "An RM for Assessing the Working Curve for Resin 3D Printing",
+          "publisher": "National Institute of Standards and Technology",
+          "publishedAt": "2026-06-30T12:00:00Z",
+          "url": "https://www.nist.gov/news-events/news/2026/06/rm-assessing-working-curve-resin-3d-printing"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "RM 8047 is intended for photopolymer additive manufacturing working curves.",
+        "Each bottle contains about 20 grams of resin.",
+        "Interlaboratory tests used 385- and 405-nanometer light.",
+        "NIST used three sets of built and calibrated light sources.",
+        "The analysis estimates penetration depth and critical exposure energy."
+      ],
+      "corrections": [],
+      "dek": "Reference Material 8047 gives photopolymer laboratories a shared resin for measuring how light exposure controls cure depth and layer bonding.",
+      "desk": "additive-manufacturing-measurement",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institute of Standards and Technology",
+        "U.S. Department of Commerce"
+      ],
+      "eventId": "event-nist-rm-8047-resin-3d-printing-working-curve",
+      "headline": "NIST Resin Standard Aims to Make 3D-Print Curing Reproducible",
+      "id": "article-nist-rm-8047-resin-3d-printing-working-curve",
+      "leadImage": {
+        "alt": "A desktop stereolithography 3D printer operates behind an orange-tinted cover in a workshop.",
+        "caption": "A stereolithography printer uses liquid photopolymer resin to build objects in layers. NIST's RM 8047 provides a common material for measuring cure-depth working curves.",
+        "credit": "Creative Tools / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-nist-resin-printer-formlabs-form2",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/form2/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Gaithersburg, Maryland"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NIST's RM 8047 gives resin 3D-printing labs a shared material for measuring cure depth at 385 and 405 nanometers.",
+        "index": true,
+        "title": "NIST RM 8047 standardizes resin 3D-print working curves"
+      },
+      "section": "technology",
+      "slug": "nist-rm-8047-resin-3d-printing-working-curve",
+      "social": {
+        "description": "Reference Material 8047 gives photopolymer laboratories a shared resin for measuring how light exposure controls cure depth and layer bonding.",
+        "image": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/form2/open-graph.webp",
+        "title": "NIST Resin Standard Aims to Make 3D-Print Curing Reproducible"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Resin 3D printing",
+        "Reference materials",
+        "Photopolymer curing",
+        "Additive manufacturing",
+        "Measurement science"
+      ],
+      "uncertainty": [
+        "The reference material supports a measurement method but does not certify every printer or finished part.",
+        "Results still depend on equipment calibration, exposure settings, geometry and post-processing."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The South was the only U.S. region whose population grew in every broad age group from April 2020 to July 2025, according to new Census Bureau estimates.\n\nThe region added about 7.6 million people, a 6.0% increase that was nearly twice the nation's 3.1% growth. The South reached an estimated 133.8 million residents in July 2025.\n\nIts under-18 population grew 1.1%, while the same age group declined 4.1% in the Northeast, 3.9% in the Midwest and 5.7% in the West.\n\nThe South also was the only region with growth among people ages 45 to 64, though the increase was just 0.1%, or about 19,000 people. The region's population age 65 and older grew 17.5%.\n\nAdults ages 25 to 44 posted the South's fastest non-retirement-age growth, rising 9.0%, or about 2.9 million. The 18-to-24 population increased 5.0%.\n\nMetro counties drove much of the change. Southern metro counties grew 6.7%, and the Census Bureau said outlying counties on metro edges grew fastest across all age groups.\n\nThe agency attributes regional patterns to the aging of baby boomers, migration and fertility. Its estimates describe net population change and do not assign one cause to every county or household move.\n\nVintage 2025 incorporates detailed results from the 2020 Census into the estimates base for the first time. Census advises comparing years within the same vintage because each annual release revises the entire post-2020 series.\n\nThe results show that the South's growth was broader than a simple retirement story: it included children, young adults, working-age groups and older residents, with the strongest geographic momentum around the outer edges of metro areas.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The South was the only U.S. region whose population grew in every broad age group from April 2020 to July 2025, according to new Census Bureau estimates."
+        },
+        {
+          "type": "paragraph",
+          "text": "The region added about 7.6 million people, a 6.0% increase that was nearly twice the nation's 3.1% growth. The South reached an estimated 133.8 million residents in July 2025."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-census-regional-growth-2020-2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/regions/four-three.webp",
+          "alt": "Graphic compares 6 percent Southern population growth with 3.1 percent national growth.",
+          "caption": "The South grew 6.0% from 2020 to 2025, compared with 3.1% nationally and slower gains in the other three regions.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "Its under-18 population grew 1.1%, while the same age group declined 4.1% in the Northeast, 3.9% in the Midwest and 5.7% in the West."
+        },
+        {
+          "type": "paragraph",
+          "text": "The South also was the only region with growth among people ages 45 to 64, though the increase was just 0.1%, or about 19,000 people. The region's population age 65 and older grew 17.5%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Adults ages 25 to 44 posted the South's fastest non-retirement-age growth, rising 9.0%, or about 2.9 million. The 18-to-24 population increased 5.0%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Metro counties drove much of the change. Southern metro counties grew 6.7%, and the Census Bureau said outlying counties on metro edges grew fastest across all age groups."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-census-south-age-groups-2020-2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/ages/four-three.webp",
+          "alt": "Graphic shows growth across five Southern age groups from under 18 through 65 and older.",
+          "caption": "Southern growth reached all five broad age groups, including 1.1% for children and 17.5% for people 65 and older.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "The agency attributes regional patterns to the aging of baby boomers, migration and fertility. Its estimates describe net population change and do not assign one cause to every county or household move."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vintage 2025 incorporates detailed results from the 2020 Census into the estimates base for the first time. Census advises comparing years within the same vintage because each annual release revises the entire post-2020 series."
+        },
+        {
+          "type": "paragraph",
+          "text": "The results show that the South's growth was broader than a simple retirement story: it included children, young adults, working-age groups and older residents, with the strongest geographic momentum around the outer edges of metro areas."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/south-population-growth-all-age-groups-2020-2025/",
+      "citations": [
+        {
+          "id": "source-census-vintage-2025-age-region-20260625",
+          "title": "Populations in All Age Groups Growing in the South, Driven by Outlying Counties in Metro Areas",
+          "publisher": "U.S. Census Bureau",
+          "publishedAt": "2026-06-25T12:00:00Z",
+          "url": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html"
+        },
+        {
+          "id": "source-census-vintage-2025-characteristics",
+          "title": "Vintage 2025 Population Estimates by Age, Sex, Race and Hispanic Origin",
+          "publisher": "U.S. Census Bureau",
+          "publishedAt": "2026-06-25T12:00:00Z",
+          "url": "https://www.census.gov/newsroom/press-kits/2026/vintage-2025-pop-estimates.html"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The South grew 6.0% from April 2020 to July 2025.",
+        "The national population grew 3.1% over the same period.",
+        "The South was the only region with growth in all five broad age groups.",
+        "Its under-18 population grew 1.1% and its 65-plus population grew 17.5%.",
+        "Southern metro counties grew 6.7%."
+      ],
+      "corrections": [],
+      "dek": "Census estimates show a 6% regional gain from 2020 to 2025, led by outlying metro counties and growth that extended from children to older adults.",
+      "desk": "regional-demographic-change",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Census Bureau",
+        "Population Estimates Program"
+      ],
+      "eventId": "event-south-population-growth-all-age-groups-2020-2025",
+      "headline": "The South Was the Only U.S. Region to Grow in Every Age Group",
+      "id": "article-south-population-growth-all-age-groups-2020-2025",
+      "leadImage": {
+        "alt": "Charlotte's skyline rises beyond neighborhoods and tree-lined streets in a wide aerial view.",
+        "caption": "Uptown Charlotte and surrounding neighborhoods. Census estimates show the South's population grew 6% from 2020 to 2025, faster than every other U.S. region.",
+        "credit": "Precisionviews and Cmao20 / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-census-charlotte-uptown-aerial-2018",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/charlotte/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Southern United States",
+        "Charlotte, North Carolina",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Census estimates show the South grew 6% from 2020 to 2025 and was the only region with gains across all five age groups.",
+        "index": true,
+        "title": "South was only U.S. region growing in every age group"
+      },
+      "section": "us",
+      "slug": "south-population-growth-all-age-groups-2020-2025",
+      "social": {
+        "description": "Census estimates show a 6% regional gain from 2020 to 2025, led by outlying metro counties and growth that extended from children to older adults.",
+        "image": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/charlotte/open-graph.webp",
+        "title": "The South Was the Only U.S. Region to Grow in Every Age Group"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Southern population growth",
+        "Population estimates",
+        "Age groups",
+        "Metro counties",
+        "Migration"
+      ],
+      "uncertainty": [
+        "Population estimates are revised with each vintage and should be compared within the same vintage.",
+        "Regional totals do not describe every county and do not isolate the cause of each local change."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T05:51:50.753Z",
+  "generatedAt": "2026-08-11T06:48:49.004Z",
   "inputHashes": {
+    "sourceItems": "99d467245a6b8b023fea8f8d5532ebbc8543315978ae657ef118fd4656a484a0",
+    "events": "8633fd633a05c74306c18d69a7eeaca00aab41b75979ab4d6c639659424ef5a8",
+    "claims": "e1de7ce60f23a727549eec6dc81c60d3c0dc5670f34f051cd69ac2585e2898d9",
+    "articles": "e82cfa5200284e46777f99dec43ff7775b4d77109b84deb285ce23412e99e3ae",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
-    "articles": "27c0408cc0b83f474ac76e2070f36d35114773e4b5fcf4db10b53214cc8718a9",
-    "claims": "3acdca0d363afecbc263d4ceb74ab5a7484af3aab0af8fb521bb105f024ceebc",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "05370a9cf6f9aab60c3d779dfe9e6663991e2bb756e0424f5275df47abcd8806",
-    "mediaRights": "44267cb59a8b48191199548ef4eab6a1b7ffbf9c0a3ab038882d12c8010d75f3",
-    "publicationIntents": "214a6f6b8d0a71334dd7f84dd94f1330692c35839b0dd3aa4a84f07dc3229520",
+    "mediaRights": "1119a6caf75c90ca758af03c223e8aabfc780a9542e06b84529f80e65b91164a",
     "releaseRecords": "584196331ca755fc1950396ba5fec6f1c61787da1274c22b5263be67344af041",
-    "sourceItems": "1873ae48c2d6e7424fbc42b325db2a5cb280d8f914aff23696740d37b7d8b5de"
+    "publicationIntents": "1d06d6ae86d5528042feb67577c11360bcdf8d70cfe021a4dca88e0c8d2b633a"
   },
   "inventory": {
-    "articleCount": 285,
-    "mediaCount": 841,
-    "routeCount": 285
+    "articleCount": 291,
+    "routeCount": 291,
+    "mediaCount": 859
   },
   "mediaRights": [
     {
@@ -111251,9 +112151,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.ncaa.org/media-center-di-cabinet-approves-commercial-patches-for-uniforms-equipment-and-apparel/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Scaffolding and construction equipment surround the Federal Reserve's stone headquarters in Washington.",
+      "archivalStatus": "current",
+      "attribution": "G. Edward Johnson / Wikimedia Commons, CC BY 4.0",
+      "caption": "Construction at the Federal Reserve's Eccles Building in Washington in June 2026. GAO says financial regulators are still finalizing the shared data standards required by a 2022 law.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "G. Edward Johnson",
+      "derivatives": [
+        {
+          "hash": "afdd93a90986f3deeb457a38adb54f0eb0d2080556df6dd45e4b1fd4823a3415",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/eccles-building/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a7854e1ae164e68fcd6dec9d387d92ed16ece7530c57d0713016af137139d4eb",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/eccles-building/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "2b46ccb3eeb218c7560ff6cebefd13a6f2bb9c22b87dca78dfaa1b74d2ac5116",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/eccles-building/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a4c678e851efbd345b8b94e6bc1f504740042fd2207e5479c40cfa81dcd71ff3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/eccles-building/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3cd0696d891172556d00763d10785c2963f2d84ca9fae2899c5e056ea3d3a608",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/eccles-building/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3e275853b4362dd0f964e4c1c43ad5100c3f9728b81674c36db289ef1fad6cba",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/eccles-building/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4d87f395e40cc65f5816a54a6a929e52c32ef869c65be1e52fc543130774428d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/eccles-building/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-fdta-eccles-construction-2026",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "a54516ec1a7046fffb8367f63f435e953abff41001db71dd64c1589fc228a5e9",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Creative Commons Attribution 4.0 license documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2026_construction_Eccles_Federal_Reserve_Building_Washington_DC_2026-06-08_13-38-48_1.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows joint standards followed by agency rules and standardized reporting.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Financial regulators must finish joint standards before most agencies issue their own implementation rules.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "b1ace52cd1c2a30ad369dde8ad5b7667af39e615fae9d07fa707517f6152c225",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/sequence/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f2053b05576cd2d9522c7e17095ad696a005c5467bb48bac93f93b19d7b689b1",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/sequence/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "570ac9d88b1700825ddfdd1a76d827be04235ee77898e980d2a0ceecf3cb885f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/sequence/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "780e51edc0e9b5a5ee3b9fdbd9b96d9b0514108a90d295d3e6612f562542c91e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/sequence/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3c57751cd4d4105f86e3227f9a5dac8b7fb93b66fd1586d68a4dee168585adf4",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/sequence/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6fcf20d6a0d60c3f6ea716cf46c378ee4a6e9225d061920181175ff400a1420a",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/sequence/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e85814ba884ce93cf8c0abf724f9038ed292ed8a7d557c6dd5171c03e1108e59",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/sequence/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-fdta-rulemaking-sequence-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "780e51edc0e9b5a5ee3b9fdbd9b96d9b0514108a90d295d3e6612f562542c91e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108420"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic contrasts shared-data benefits with system and implementation costs.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO identified potential gains in interoperability and analysis alongside modernization, coordination and testing costs.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "62b7f18ec43725cb352c1fddf9b70165ea607613eed5587779ec18300a9d6fc0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/tradeoffs/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c62bf644eb07f596c477fda78ce05a96a05da8195e37e9013ff2b219960618a3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/tradeoffs/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ec71adb6e3ab9f9747227ab335867900b234d9f8342d54e16914827b349996dd",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/tradeoffs/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "6f45d21b6d0e7a5daa58f6a4deaff7c52244555f9493dfd614d2b5e81e44bc7a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/tradeoffs/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b0ea53f2cb962a491255a50171c99ae96ca34a5c61f2f70ac790999296826cca",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/tradeoffs/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "9e1c633e1461542d01aa15980b1821c47ecc779b650df7108f5d5a9dc3fe2629",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/tradeoffs/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "6a3680b1349600965a9745c3826ced6702f0b83db476384d93f3cf4b29b411c1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/gao-fdta/tradeoffs/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-fdta-benefits-costs-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "6f45d21b6d0e7a5daa58f6a4deaff7c52244555f9493dfd614d2b5e81e44bc7a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108420"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "The modernist stone facade and main entrance of the E. Barrett Prettyman U.S. Courthouse.",
+      "archivalStatus": "current",
+      "attribution": "G. Edward Johnson / Wikimedia Commons, CC BY 4.0",
+      "caption": "The E. Barrett Prettyman U.S. Courthouse in Washington. Sentencing Commission data show 561 fiscal 2025 cases involved the aggravated identity-theft statute.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "G. Edward Johnson",
+      "derivatives": [
+        {
+          "hash": "dc8aeef73a781733e257572ea81e07b9d66bc767aca9f330bab694eec1aa3154",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/prettyman-courthouse/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "89319d28bab74684e06ffc2fe5dc9915fcf0a5d9f4a461b51d6b8ddac56cd67f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/prettyman-courthouse/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1a59e9fb0d455e6617391ad3e9e4a36864955b5034d2e1369642976d06d67d75",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/prettyman-courthouse/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "db46e7e5c17ed7b779a9a149a68715d5373cd7692f4e8bc4f535435830fbc4c3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/prettyman-courthouse/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "ac896d68f42ab7f9ecb6d52842ab2f5151d6526e06647b4697ed1a6934d975fc",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/prettyman-courthouse/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4d944accc4f6fe27ae700e0b0bb0854acf0a0be17aa68291cf9a2291183fa37d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/prettyman-courthouse/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "634eec8f67f35f8fb32f7ebc7753a0bd1c66c8fbf68ab0e12f55bb0f8bb2471d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/prettyman-courthouse/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-prettyman-courthouse-july-2026",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "78bbf845f10c710cd4fcbf9ead39a9db3b7807b7805d46dbe445c206cddf629d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Creative Commons Attribution 4.0 license documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:E_Barrett_Prettyman_court_house_front_Washington_DC_2026-07-31_11-10-38.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 561 aggravated identity-theft cases and an 8 percent four-year decline.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Of 66,662 federal cases reported for fiscal 2025, 561 involved 18 U.S.C. § 1028A, 8% fewer than in fiscal 2021.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "e03df7527a799fdf459012487eb669594cc1e98669d4df5b34bb481e60461bde",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/caseload/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "fd132f0c736428a1855fa4a46e6077c570afae600c7caeccebe58ee9d3cb6ba5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/caseload/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d6c44bc5fa23e9b060f07a337d1eb22ddf1155e2095811d743265bef51a39967",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/caseload/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9802d67ffd7b5005e37a9d377a5259710e55d51ff3d8771c94eb342eedb94bd5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/caseload/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "70d1125d7376d6fd9545dd6b0723d3ceeb129eda4ce58dba2734de2a7eaf2dd3",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/caseload/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "cf60744bddbd9b5d75bde18e8075b279abad79264c5dfed0f89537c1342f7bd2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/caseload/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "bde46b7d0f4c7472bb406251a88a7727c81cf1ef2a5018aee5002a5ba7760eac",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/caseload/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-identity-theft-caseload-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "9802d67ffd7b5005e37a9d377a5259710e55d51ff3d8771c94eb342eedb94bd5",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/aggravated-identity-theft"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows average sentence rising from 46 to 54 months and a 99 percent prison rate.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The average sentence rose from 46 months in fiscal 2021 to 54 months in fiscal 2025; 99% received prison terms.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "97c7d24c4fbc0399e73dffca34fa7f05c75d75b9318abbb2568414332dfe5d77",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/sentences/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a1b165b967f4525628db572edddfe319fcb9505e366ec16546486a12c270f390",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/sentences/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "259f1adb29168a9c7d5117c2bb5735fc5068d9f9437b576c86b8131e1043d1eb",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/sentences/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f08c89d06d136d3107044804c1855837654137b8bec8898939a5ecacac6e1a5b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/sentences/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f68940d573fd3f17200aab3a15e7509b1991f81a7f04682a07b49bcf6d8e2746",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/sentences/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "aa86514d1e78423e0adff431f9442b239e519acf42212a975a8bb7ed5771deea",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/sentences/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "52c5c27fddd00cdd0d40d7f9b4596c13f15fe03b1e29fbe79c1f2d82e0c35d8b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/ussc-identity-theft/sentences/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ussc-identity-theft-sentences-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f08c89d06d136d3107044804c1855837654137b8bec8898939a5ecacac6e1a5b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/aggravated-identity-theft"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "The U.S. Capitol dome and western steps rise behind a broad lawn beneath a blue sky.",
+      "archivalStatus": "current",
+      "attribution": "Noclip / Wikimedia Commons, public domain",
+      "caption": "The western front of the U.S. Capitol. CBO estimates the federal deficit reached $1.8 trillion through July, with two months left in fiscal 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Noclip",
+      "derivatives": [
+        {
+          "hash": "146065c474fe55be53d40029021c48417ce0f865269c41abcfbf86aa7b3a1497",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/capitol/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "87addae9e9ba9fe81a9ae0a7a0fcd90b047aa3c518e061aca17f4438177354be",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/capitol/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c7f4e97ad56e16e53dced0624b10735c878f120571b017026931de332d40ffdd",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/capitol/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e6ff65032f97ddee657c34096f54019e5839528dfaacbbccdf29ce63a80e4a3a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/capitol/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "67ad18595dd2a04deb2ac56d237e67c2d372ec5d0a5fe36e8f14942a469ceef3",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/capitol/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6cb3e499a6dae67d4ff2cbca6366c7ae87106d39aa955496026a25cefcc6dfa2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/capitol/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "31fff78585caa9f543b0ceca7ad2c28a08fe953da0a461db2e7efa3bd262d9e8",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/capitol/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-capitol-full-view-2026",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "5b9e5283332ecb1f3261d0731651674ed60005d7768f419a212c3140cbee06df",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Author dedicated the photograph to the public domain, as documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capitol_Building_Full_View.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows a 1.8 trillion dollar deficit and a 169 billion dollar year-over-year increase.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "CBO estimates a $1.8 trillion deficit for the first 10 months of fiscal 2026, $169 billion more than in the comparable 2025 period.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "084785a140bb5151984117a6fe58bb914645440039dd059d74b8de2f02cca49a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/deficit/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c4197589cdccb9db5c6537cc5efc676fef9f3630d5e082ed0b50f953aa4a87b1",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/deficit/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "19f5c8fe45ca90e6fa176f71dd10ee20b597dde4efc0177c59486ce1203614f2",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/deficit/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4f483983600a50e80a90d896263481fe0ff8e98566149b34db2346e914a431b6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/deficit/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "af740840d96201c9005eb99eea10f77f2f242459f09b2187635f8e6214dac62e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/deficit/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0ab76794355beef040cb09168fedf8b1e0c0389bec0c6cc779796274fd321517",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/deficit/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "784d9ee55589db1bca5215fac17de5fd555267525133f1bca6ea994007782fd1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/deficit/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-deficit-through-july-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4f483983600a50e80a90d896263481fe0ff8e98566149b34db2346e914a431b6",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/61983"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares 3 percent revenue growth with 5 percent outlay growth.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Through July, revenues rose $139 billion, or 3%, while outlays rose $308 billion, or 5%.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ecd8448cb4893955029aceacf07453e305427a9bc38f58ba1c9a1ece0edd0435",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/flows/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "765631e030cf0ea46597cea5e244429dcbce44c3ffac35d2c648ed02dcbf4de7",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/flows/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "69fba947c9914bf926788ccc0709fa9f483330391bca2bbf28465edd9bad55c1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/flows/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f9815b39b16557252a2dd2dbb9e94c0bba096cdcbc74382d1d8f15302e9c3c1b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/flows/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "dbce8ead95397a5f7949c173102b9f2935959a4638a93fe3f82ba9817a65c9ec",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/flows/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "055feebc2209e2e6246d376cf41fd3a0604be1831fa51ef3e3e2883652466cb5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/flows/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "eb4c1c493644858b9ec725ff19c660fd9da7655c1342a828ca6969e7b7bf431b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/cbo-july-deficit/flows/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-revenue-outlay-growth-july-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f9815b39b16557252a2dd2dbb9e94c0bba096cdcbc74382d1d8f15302e9c3c1b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/61983"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Broken white ice sheets and dark open water stretch across Lake Erie beneath a research aircraft.",
+      "archivalStatus": "current",
+      "attribution": "NOAA Great Lakes Environmental Research Laboratory",
+      "caption": "Lake Erie ice seen from a research aircraft. NOAA GLERL is testing hyperspectral flights to improve observations when winter buoys are removed.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "NOAA Great Lakes Environmental Research Laboratory",
+      "derivatives": [
+        {
+          "hash": "1d0f1379cc8370d4253b2c5ca08ee479e04054ea4d84e5ec07fc9eef1b4934f4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/lake-erie/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1ec1f8f993ed4af76dcaeb59fd8399987bf712d5eabf4d6d9f04b13357774714",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/lake-erie/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "032c6ad5f5b3677b2633752c3d6b66a78e91836fd36c6d6d269f6dd2fcc5835d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/lake-erie/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "cbd1aed008d05815734109953a2a19a4c1f2b62a7181bb136c7d2889a0abe130",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/lake-erie/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "aefdb5230d6fc2c5e7a11dbc15e37b85985e2d52143a18c1ad94c22381d96451",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/lake-erie/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6eec4973163631b01566caf9aae7a1c93bbb0da8782db6b9fe33727358abe849",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/lake-erie/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "70fe6726a284bc64a2d0080a23907bc38c76cf37189713b24d9ad2855df26f0e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/lake-erie/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-noaa-lake-erie-ice-flight-2026",
+      "illustrationLabel": null,
+      "license": "U.S. government public domain",
+      "originalFileHash": "0b25c6dcf0b05ea93de9656dd25e0df8a8d1f56fee2014001433d754682a11fb",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Official NOAA photograph, a work of the U.S. federal government, published by NOAA GLERL without a third-party rights notice.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.glerl.noaa.gov/blog/2026/04/21/eyes-in-the-sky-how-hyperspectral-flights-improve-knowledge-of-great-lakes-winter-ice/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares three visible-light bands with more than 150 hyperspectral bands.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "A conventional image uses red, green and blue; GLERL's hyperspectral camera records more than 150 bands.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "6f9c515dcd495750415cd27910e0c345e90e33de31b6d7eb345d000a4c8d66c2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/bands/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "492f3fcafe464e0bd8f6eb09b594171780f017da1751a775c4d9c4c137bf7811",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/bands/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6c44698779c9a7bff5168bfb1ae5708684f6f3bcd55e57ea9ea0560d7573bc9f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/bands/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "47d21a29e271d1d66faebd92c16ebe1d17e91eebc468004191168b47b38f4bb6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/bands/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a91c5411793aeb5386f55a8269ec015c517895b575baaacf29b8f4ca772ba0d1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/bands/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c912d107d2b7ebf8c510f0e40ef24cfcc174763d6de4976a63fc90f2f5cf762b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/bands/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d68bf671956e00a5d52c0b8771bba93fdfd42829c6ac4a59969803563b4f32fb",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/bands/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-noaa-hyperspectral-bands-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "47d21a29e271d1d66faebd92c16ebe1d17e91eebc468004191168b47b38f4bb6",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.glerl.noaa.gov/blog/2026/04/21/eyes-in-the-sky-how-hyperspectral-flights-improve-knowledge-of-great-lakes-winter-ice/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows aircraft and drones supplementing satellites and numerical models.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Aircraft and drones could add high-resolution observations to satellite imagery and numerical ice models.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "87621d7c0731da1bcfde74b52bf5c534639ad955eb3d8f7a066e90c29d0b5ef9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/stack/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b2a8427211fb9604d8d930fbb18953d1a14bbe142b3a001650df456e40971226",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/stack/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9daa3b8f1e900e2b9c592bb074f2a59a19e63e8717c74b135c0764afda316329",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/stack/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9d405087f92819e08446014dd1f7dd90dde7eead4efaa4b19e239ba6499219f9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/stack/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "fbea1b944baba1457a7cce96ab88b7453d9220eda5ea18287bee4b0e0dcd21c9",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/stack/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "15828acf4c1f189c38fc0a34c589bae361bc71d4dd7778eee2cf88ae71e416bb",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/stack/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c106360faf081495419f4291be6d8e75943c4ae0639fe480e405e9fa7d53b18a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/noaa-ice-flights/stack/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-noaa-ice-observation-stack-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "9d405087f92819e08446014dd1f7dd90dde7eead4efaa4b19e239ba6499219f9",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.glerl.noaa.gov/blog/2026/04/21/eyes-in-the-sky-how-hyperspectral-flights-improve-knowledge-of-great-lakes-winter-ice/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A desktop stereolithography 3D printer operates behind an orange-tinted cover in a workshop.",
+      "archivalStatus": "current",
+      "attribution": "Creative Tools / Wikimedia Commons, CC BY 2.0",
+      "caption": "A stereolithography printer uses liquid photopolymer resin to build objects in layers. NIST's RM 8047 provides a common material for measuring cure-depth working curves.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Creative Tools from Halmstad, Sweden",
+      "derivatives": [
+        {
+          "hash": "95f6559739701526a7b9ca6d3d60320382c14b89bafd37950651bd34608b61ac",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/form2/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1877c99875d8b9e09bb4f33ae303e22b670a7813d4dfca9d64de114673fa4948",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/form2/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "09765effbc3990f70f8d4b488e84d724fb76e9b6ef3548cb851320b4f67cd06c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/form2/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "66bc1be2a201f5539ae5a4d62c47207732d97661f66b6a4d234470f0f4bdb1b7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/form2/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "32edc196585836e801397975e85992d3e7a4291e7dee1fb2ff968c51861176ca",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/form2/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1dcb536b46965a85c75ae2732b31b134bf94b08f6b8685a15f3380f11c4ad7ec",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/form2/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "daae81564620849864316e369f67ce28066b11997fb8a49a27bf7bbb679fd12f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/form2/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nist-resin-printer-formlabs-form2",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "3694fd33c77d54e5fc8e979156f3a757143b8171c13010ee707a71d0f7519d0a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 license documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Formlabs_Form2_Bild02_5184x2912_(23870438984).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows radiant exposure, cure depth and a controlled bonding window.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "A resin working curve relates radiant exposure to cure depth, helping printers bond layers without overexposure.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "9a2cc6722f674636771824fe6d5be23c145ed931ae8e4342abb2234f673c8741",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/working-curve/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "09abc69f4eff98e1d97e004ffc64910026036f7917563e91f3cadeaff837be57",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/working-curve/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1de1fda8b1cfb7153e2b90eac155f6afd144dc4da50135c0d6b245ad7b32e3b5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/working-curve/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "aa5092cb4c97bd8d37c6379557a68f43503c3fe7b90c040f98ca8eac0f18efa3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/working-curve/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2925a7daea51644009f68c02ba2c74fa0d246bdbae226c916f26b165d2fabf01",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/working-curve/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8a13003d58e0f380032b8963568eff82c32187c54871787b5b5ebd49617e36dc",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/working-curve/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "983b1f7f63920a463b8d254111a59d029b8520a0db1df2ad080f1b713c7b35f7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/working-curve/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nist-rm8047-working-curve-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "aa5092cb4c97bd8d37c6379557a68f43503c3fe7b90c040f98ca8eac0f18efa3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/rm-assessing-working-curve-resin-3d-printing"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows calibrated tests at 385 and 405 nanometers and a shared resin sample.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Interlaboratory participants measured RM 8047 with calibrated light sources at 385 and 405 nanometers.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "185debc29a7905cee2a7fef66d7d13916e98e43201ca7c6db0f18f7a0e49fe51",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/wavelengths/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "766282bf220c110ce1981620f8ea8d7271efc326b1dce9bf186d28f467e45b59",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/wavelengths/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c54fdf7973b22180d252b646b7cc2bfeb8f172c784de4781e5fa90052e7a3de5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/wavelengths/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4e9083cdb9ce78a5c4dabad8ce0d3839759d2f44d99966a8ce3d6296cfeba772",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/wavelengths/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8dd0fcb0e4b8593538032df813e1babeb412eb0d23e6cbd337120dc76ca81132",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/wavelengths/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2bfcd65f347e95e307e1e98d08843715d7ebd238509830c93b1655ee1b301f71",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/wavelengths/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "ffe764f07f25b45b2aa6dd08d2517157e22aacd496ad724ab0875b0042f0388c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/nist-resin-printing/wavelengths/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nist-rm8047-test-wavelengths-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4e9083cdb9ce78a5c4dabad8ce0d3839759d2f44d99966a8ce3d6296cfeba772",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/rm-assessing-working-curve-resin-3d-printing"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Charlotte's skyline rises beyond neighborhoods and tree-lined streets in a wide aerial view.",
+      "archivalStatus": "current",
+      "attribution": "Precisionviews and Cmao20 / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "Uptown Charlotte and surrounding neighborhoods. Census estimates show the South's population grew 6% from 2020 to 2025, faster than every other U.S. region.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Precisionviews; perspective and color edits by Cmao20",
+      "derivatives": [
+        {
+          "hash": "d38b8746b281c2ca9ea4c3ef3a2b7292234f43c9ad18f597d3d340e454c460d7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/charlotte/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a506e86513da90af8f0b136b8f8e8e8d2e277fdcb23f89fed8ee2f037e477123",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/charlotte/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f7a262105f59728cc2fc3b96331f1e2da884737b07a01235b2d3cf9f56cd561e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/charlotte/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "27dc5eaff45031e0912e21c4aaa92fd1b19429205fb9449803db32772cdd9e14",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/charlotte/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3aaa811e0a3e597467d928659c87133ac57ec90d38fe601a105c10c4c1aca895",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/charlotte/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0e2430538a758696046dc3cee8d809e34b9274aa78a86bd7c9941022cb9aa065",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/charlotte/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "29f1cd6f397a83d045b2aae9c3039cfdf9f50e8ec89950d958f1e82ebe7fc0b7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/charlotte/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-charlotte-uptown-aerial-2018",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "52067ac194d88ec193e00caf043f54546a60151d03236f546493f99a5a841b91",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 4.0 license documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uptown_Charlotte_2018_taking_by_DJI_Phantom_4_pro_-_Perspective_Corrected_Edit.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares 6 percent Southern population growth with 3.1 percent national growth.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The South grew 6.0% from 2020 to 2025, compared with 3.1% nationally and slower gains in the other three regions.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "4201d4fec3602a6f006d8000a52558f1dd9d026cb141cfa9f017a9cb3790ae07",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/regions/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a4ce6fd1a3abbc080330399a1319c37c8ee0fdad17b9300f3bfd103828a0d9d3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/regions/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "24bf815fc66b9f083f9ef1034722c778b894cc47dd1b0990ea2a1c45dd736ff9",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/regions/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ec3a2fce270e44e20f3bb7375642cc864c2c461844d90c261c102fb023565888",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/regions/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e4887ebe7d69ca5f916cddb726e262756706519420fc8a47b2ad3df3fc19e113",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/regions/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1667ad1af4d1d986dd3bdc2b9347ed45c8ce4e7e693be0ed236982123a7db9ce",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/regions/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2b37bfb9d50c0b2cd08e558ee50c1ecda9f01630809d9d203bfdea7f1621bb41",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/regions/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-regional-growth-2020-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "ec3a2fce270e44e20f3bb7375642cc864c2c461844d90c261c102fb023565888",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows growth across five Southern age groups from under 18 through 65 and older.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Southern growth reached all five broad age groups, including 1.1% for children and 17.5% for people 65 and older.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "44d39034552466248a1877fd0541b48883eb11de91ce2e1b3630a88fbf79daa2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/ages/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "dd25e32c8fb3df4da5975c344968dc7e21fb4a2bf29ac86934256eaaee59ae9c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/ages/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8087ea75ae9f0f13f684534263716101db871857db0b03111cfe1177a2a704cb",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/ages/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "34ce1b9ae2203c9ce19d4322c0a7ea608f3f5a06dfa95a3dd99bc2fdd056c22b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/ages/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "68e48e836cf4b72d351e9f8d6e03a99c2a383e48f615fcd5dcf38ae96ed2abf0",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/ages/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e79fb65bf20a523877a6e858e6f271e2add442c806a5824d4b7fd0507a4ea623",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/ages/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "865c35fe7938cdc41b51801cff2b4464fe08d1d100faf329ab7160be940aae9a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-061222/census-south-growth/ages/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-census-south-age-groups-2020-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "34ce1b9ae2203c9ce19d4322c0a7ea608f3f5a06dfa95a3dd99bc2fdd056c22b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T06:40:48.298Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/vintage-2025-pop-estimates.html"
     }
   ],
-  "packageDigest": "e580f45a14072d2c61840f2848c85fdfd6aec725728b7b741e9f0d17f4ca996f",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -113025,7 +115292,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "380215c8f14956c08f658e5235bdaa61e3e8f84fbd113c1c469c121631492bc3"
 }
