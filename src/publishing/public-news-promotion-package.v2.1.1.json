@@ -53651,25 +53651,941 @@
         "The recommendations apply to defined regions and HIV-negative populations and should not be generalized to every patient."
       ],
       "updatedAt": "2026-08-11T14:12:08.085Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Transparency obligations for certain artificial-intelligence systems under Article 50 of the European Union's AI Act began applying on Aug. 2, 2026.\n\nThe rules cover distinct actors and uses rather than imposing one universal label. Providers of systems that interact directly with people generally must make clear that the interaction is with AI unless that fact is already obvious from the context.\n\nProviders of systems that generate or manipulate image, audio, video or text content must also make covered output detectable as artificial through effective, interoperable, robust and reliable machine-readable techniques.\n\nDeployers face separate disclosure duties. The Commission's guidance identifies deepfakes, text published to inform the public on matters of public interest without human review or editorial responsibility, and use of emotion-recognition or biometric-categorization systems among the covered situations.\n\nThat scope matters. The rules do not mean every AI-assisted edit requires a visible badge, and the guidance describes exceptions for standard editing, assistance that does not substantially alter input, and some legally authorized uses.\n\nA limited transition applies to systems placed on the market before Aug. 2. For the machine-readable marking and detection duty, the Commission says those systems have until Dec. 2, 2026; content generated before Aug. 2 does not need retroactive labeling.\n\nThe Commission published final guidance on July 20 to give providers, deployers and national authorities a common interpretation. A voluntary code of practice offers one route to demonstrate compliance, but entities that do not sign must show equivalent compliance by other means.\n\nNational market-surveillance authorities will handle most enforcement. The EU AI Office has a narrower role for certain systems tied to general-purpose models or very large online platforms and search engines.\n\nThe operational question is therefore not whether all AI content gets the same warning. It is which Article 50 role, content type, exception and transition rule applies to a specific system or publication. The Commission guidance is explanatory and does not replace the regulation's legal text.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Transparency obligations for certain artificial-intelligence systems under Article 50 of the European Union's AI Act began applying on Aug. 2, 2026."
+        },
+        {
+          "type": "paragraph",
+          "text": "The rules cover distinct actors and uses rather than imposing one universal label. Providers of systems that interact directly with people generally must make clear that the interaction is with AI unless that fact is already obvious from the context."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-eu-ai-rules-provider-duties",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/providers/four-three.webp",
+          "alt": "Graphic lists direct-interaction notice and machine-readable marking as provider duties.",
+          "caption": "Covered providers must disclose direct AI interaction and add machine-readable marks to generated or manipulated output.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+        },
+        {
+          "type": "paragraph",
+          "text": "Providers of systems that generate or manipulate image, audio, video or text content must also make covered output detectable as artificial through effective, interoperable, robust and reliable machine-readable techniques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Deployers face separate disclosure duties. The Commission's guidance identifies deepfakes, text published to inform the public on matters of public interest without human review or editorial responsibility, and use of emotion-recognition or biometric-categorization systems among the covered situations."
+        },
+        {
+          "type": "paragraph",
+          "text": "That scope matters. The rules do not mean every AI-assisted edit requires a visible badge, and the guidance describes exceptions for standard editing, assistance that does not substantially alter input, and some legally authorized uses."
+        },
+        {
+          "type": "paragraph",
+          "text": "A limited transition applies to systems placed on the market before Aug. 2. For the machine-readable marking and detection duty, the Commission says those systems have until Dec. 2, 2026; content generated before Aug. 2 does not need retroactive labeling."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-eu-ai-rules-deployer-duties",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/deployers/four-three.webp",
+          "alt": "Graphic lists deepfakes, public-interest text and biometric systems as deployer disclosure areas.",
+          "caption": "Covered deployers must disclose deepfakes, some public-interest text, and exposure to emotion recognition or biometric categorization.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Commission published final guidance on July 20 to give providers, deployers and national authorities a common interpretation. A voluntary code of practice offers one route to demonstrate compliance, but entities that do not sign must show equivalent compliance by other means."
+        },
+        {
+          "type": "paragraph",
+          "text": "National market-surveillance authorities will handle most enforcement. The EU AI Office has a narrower role for certain systems tied to general-purpose models or very large online platforms and search engines."
+        },
+        {
+          "type": "paragraph",
+          "text": "The operational question is therefore not whether all AI content gets the same warning. It is which Article 50 role, content type, exception and transition rule applies to a specific system or publication. The Commission guidance is explanatory and does not replace the regulation's legal text."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/eu-ai-act-transparency-rules-article-50-2026/",
+      "citations": [
+        {
+          "id": "source-eu-ai-act-article50-guidance-2026",
+          "title": "Guidelines on transparency obligations for providers and deployers of AI systems",
+          "publisher": "European Commission",
+          "publishedAt": "2026-07-20T12:00:00Z",
+          "url": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+        },
+        {
+          "id": "source-eu-ai-act-article50-faq-2026",
+          "title": "Transparency obligations under Article 50 of the AI Act",
+          "publisher": "European Commission",
+          "publishedAt": "2026-07-20T12:00:00Z",
+          "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Article 50 transparency duties began applying on Aug. 2, 2026.",
+        "Providers must disclose certain direct AI interactions.",
+        "Covered generated or manipulated content must carry machine-readable marks.",
+        "A limited Dec. 2, 2026 transition applies to some pre-Aug. 2 systems."
+      ],
+      "corrections": [],
+      "dek": "Article 50 requires disclosures for direct AI interaction and certain synthetic content, with narrow exceptions and a limited transition for older systems.",
+      "desk": "eu-ai-transparency-regulation",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "European Commission",
+        "European Union AI Office"
+      ],
+      "eventId": "event-eu-ai-act-transparency-rules-article-50-2026",
+      "headline": "EU AI Act Transparency Rules Now Apply",
+      "id": "article-eu-ai-act-transparency-rules-article-50-2026",
+      "leadImage": {
+        "alt": "Curved glass and steel facade of the Berlaymont building in Brussels.",
+        "caption": "The Berlaymont building in Brussels, headquarters of the European Commission. The EU AI Act's Article 50 transparency duties began applying on Aug. 2, 2026.",
+        "credit": "KenSwe72 / Wikimedia Commons, CC BY 4.0",
+        "height": 900,
+        "rightsId": "media-eu-ai-rules-berlaymont-kenswe72",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/berlaymont/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "European Union",
+        "Brussels, Belgium"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-dot-ai-transportation-infrastructure-initiative"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "EU AI Act Article 50 duties began Aug. 2, requiring notices for some AI interactions and disclosures for certain synthetic content.",
+        "index": true,
+        "title": "EU AI Act Article 50 transparency rules now apply"
+      },
+      "section": "world",
+      "slug": "eu-ai-act-transparency-rules-article-50-2026",
+      "social": {
+        "description": "Article 50 requires disclosures for direct AI interaction and certain synthetic content, with narrow exceptions and a limited transition for older systems.",
+        "image": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/berlaymont/open-graph.webp",
+        "title": "EU AI Act Transparency Rules Now Apply"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "European Union",
+        "AI Act",
+        "Synthetic content",
+        "Technology regulation"
+      ],
+      "uncertainty": [
+        "Application depends on the provider or deployer role, content type and listed exceptions.",
+        "National authorities and courts may further interpret the regulation and guidance."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A federal electronic-filing requirement is now in effect for importers of most regulated consumer products that need a certificate of compliance.\n\nSince July 8, importers have had to transmit certificate data electronically through U.S. Customs and Border Protection before covered goods enter U.S. commerce, according to the Consumer Product Safety Commission.\n\nThe filing identifies the finished product, the party certifying compliance, each applicable safety rule, manufacturing information, the most recent compliance test, and the person who maintains test records.\n\nCPSC says receiving those fields before entry lets it target higher-risk shipments while reducing unnecessary inspections and delays for importers with compliant records. That is the agency's stated enforcement objective, not a guarantee that every unsafe shipment will be detected.\n\nThe requirement applies to imported products subject to mandatory safety standards. CPSC guidance says importers of most regulated consumer products must file through the customs Partner Government Agency message set.\n\nThe commission says the system creates no new testing or certification obligation and does not apply to domestic manufacturers as an import-filing requirement. Importers were already required to create and keep the underlying certificate information.\n\nProducts imported into a Foreign Trade Zone and later entered for consumption or warehousing follow a later date: Jan. 8, 2027.\n\nThe system followed alpha and beta pilots conducted from 2016 through 2024 and a voluntary implementation period intended to let importers test their processes.\n\nFor businesses, the immediate change is how existing compliance data reaches the government and when. Whether a particular product requires certification still depends on the applicable CPSC rule, so the agency's product-specific guidance and final rule remain the controlling references.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "A federal electronic-filing requirement is now in effect for importers of most regulated consumer products that need a certificate of compliance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Since July 8, importers have had to transmit certificate data electronically through U.S. Customs and Border Protection before covered goods enter U.S. commerce, according to the Consumer Product Safety Commission."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cpsc-efiling-scope",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/scope/four-three.webp",
+          "alt": "Graphic contrasts regulated imports covered by eFiling with domestic manufacturers outside the import filing requirement.",
+          "caption": "Most regulated imported consumer products now require electronic certificate data before entry; domestic manufacturers are not subject to this import filing step.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Implements-Mandatory-eFiling-for-Certificates-of-Compliance-Targeting-Dangerous-Foreign-Imports"
+        },
+        {
+          "type": "paragraph",
+          "text": "The filing identifies the finished product, the party certifying compliance, each applicable safety rule, manufacturing information, the most recent compliance test, and the person who maintains test records."
+        },
+        {
+          "type": "paragraph",
+          "text": "CPSC says receiving those fields before entry lets it target higher-risk shipments while reducing unnecessary inspections and delays for importers with compliant records. That is the agency's stated enforcement objective, not a guarantee that every unsafe shipment will be detected."
+        },
+        {
+          "type": "paragraph",
+          "text": "The requirement applies to imported products subject to mandatory safety standards. CPSC guidance says importers of most regulated consumer products must file through the customs Partner Government Agency message set."
+        },
+        {
+          "type": "paragraph",
+          "text": "The commission says the system creates no new testing or certification obligation and does not apply to domestic manufacturers as an import-filing requirement. Importers were already required to create and keep the underlying certificate information."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cpsc-efiling-timeline",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/timeline/four-three.webp",
+          "alt": "Timeline shows July 8, 2026 general eFiling start and Jan. 8, 2027 Foreign Trade Zone start.",
+          "caption": "The general requirement began July 8, 2026; covered goods from Foreign Trade Zones follow on Jan. 8, 2027.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Implements-Mandatory-eFiling-for-Certificates-of-Compliance-Targeting-Dangerous-Foreign-Imports"
+        },
+        {
+          "type": "paragraph",
+          "text": "Products imported into a Foreign Trade Zone and later entered for consumption or warehousing follow a later date: Jan. 8, 2027."
+        },
+        {
+          "type": "paragraph",
+          "text": "The system followed alpha and beta pilots conducted from 2016 through 2024 and a voluntary implementation period intended to let importers test their processes."
+        },
+        {
+          "type": "paragraph",
+          "text": "For businesses, the immediate change is how existing compliance data reaches the government and when. Whether a particular product requires certification still depends on the applicable CPSC rule, so the agency's product-specific guidance and final rule remain the controlling references."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/cpsc-import-efiling-certificates-effective-july-2026/",
+      "citations": [
+        {
+          "id": "source-cpsc-import-efiling-effective-2026",
+          "title": "CPSC Implements Mandatory eFiling for Certificates of Compliance, Targeting Dangerous Foreign Imports",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "publishedAt": "2026-07-08T12:00:00Z",
+          "url": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Implements-Mandatory-eFiling-for-Certificates-of-Compliance-Targeting-Dangerous-Foreign-Imports"
+        },
+        {
+          "id": "source-cpsc-efiling-certification-guidance-2026",
+          "title": "General Use Products: Certification and Testing",
+          "publisher": "U.S. Consumer Product Safety Commission",
+          "publishedAt": "2026-07-08T12:00:00Z",
+          "url": "https://www.cpsc.gov/Business--Manufacturing/Testing-Certification/General-Use-Products-Certification-and-Testing"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The general eFiling requirement began July 8, 2026.",
+        "It covers most regulated imported consumer products requiring certification.",
+        "The filing uses CBP's Partner Government Agency message set.",
+        "Foreign Trade Zone requirements begin Jan. 8, 2027."
+      ],
+      "corrections": [],
+      "dek": "Importers of most regulated consumer products must transmit certificate data electronically before goods enter U.S. commerce.",
+      "desk": "consumer-product-import-compliance",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Consumer Product Safety Commission",
+        "U.S. Customs and Border Protection"
+      ],
+      "eventId": "event-cpsc-import-efiling-certificates-effective-july-2026",
+      "headline": "CPSC Import eFiling Rule Is Now in Effect",
+      "id": "article-cpsc-import-efiling-certificates-effective-july-2026",
+      "leadImage": {
+        "alt": "Container ships being loaded and unloaded by cranes at the Port of Los Angeles.",
+        "caption": "Container ships and cranes at the Port of Los Angeles in 2021. CPSC's new eFiling requirement supplies product-certificate data before regulated imports enter U.S. commerce.",
+        "credit": "Downtowngal / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-cpsc-efiling-port-los-angeles-downtowngal",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/port/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "U.S. ports of entry"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-louisville-attic-ladder-recall-1-77-million-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "CPSC now requires electronic certificate data for most regulated consumer-product imports before entry into U.S. commerce.",
+        "index": true,
+        "title": "CPSC import eFiling rule took effect July 8, 2026"
+      },
+      "section": "business",
+      "slug": "cpsc-import-efiling-certificates-effective-july-2026",
+      "social": {
+        "description": "Importers of most regulated consumer products must transmit certificate data electronically before goods enter U.S. commerce.",
+        "image": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/port/open-graph.webp",
+        "title": "CPSC Import eFiling Rule Is Now in Effect"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Consumer product safety",
+        "Import compliance",
+        "Electronic filing",
+        "Supply chains"
+      ],
+      "uncertainty": [
+        "Coverage depends on whether a product is subject to a mandatory safety standard and certification requirement.",
+        "CPSC has not quantified the system's eventual interception rate for unsafe shipments."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The U.S. Department of Transportation is putting another $24 million into developing a public-private partnership for the overhaul of Washington Union Station.\n\nDOT says the partnership work is intended to produce a fundable path for expanding capacity, improving the passenger experience and shortening the project timeline. The announcement does not award a final construction contract or set a completion date.\n\nThe $24 million is separate from $466 million announced in May for structural repairs, a larger passenger concourse, security work and family-oriented infrastructure.\n\nAmtrak and the Union Station Redevelopment Corporation agreed in 2025 to a cooperative arrangement that restored stronger federal control over the facility, according to DOT.\n\nThe Federal Railroad Administration is also conducting a service-optimization study. DOT says the work is meant to maximize passenger benefits while keeping operations moving during construction.\n\nThe department compares the delivery approach with the public-private model being pursued for New York Penn Station. Private participation can supply design, construction or financing capacity, but the announcement does not identify a selected partner, financing share or binding risk allocation.\n\nDOT's release criticizes an earlier expansion concept as costing more than $10 billion. That characterization is the current administration's assessment; the release does not provide a like-for-like independent cost comparison.\n\nAmtrak President Roger Harris called Union Station a gateway used by millions of travelers and said the railroad would continue working with DOT, FRA and USRC on the customer experience and station's long-term future.\n\nFor passengers, the immediate milestone is planning money and a delivery strategy. The practical scope, private contribution, procurement schedule and construction phasing remain to be established.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The U.S. Department of Transportation is putting another $24 million into developing a public-private partnership for the overhaul of Washington Union Station."
+        },
+        {
+          "type": "paragraph",
+          "text": "DOT says the partnership work is intended to produce a fundable path for expanding capacity, improving the passenger experience and shortening the project timeline. The announcement does not award a final construction contract or set a completion date."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-union-station-funding-layers",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/union-station/funding/four-three.webp",
+          "alt": "Graphic shows 24 million dollars for partnership planning and 466 million dollars for station upgrades.",
+          "caption": "DOT describes $24 million for partnership development on top of $466 million announced for repairs and passenger improvements.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-hits-another-key-milestone-washington"
+        },
+        {
+          "type": "paragraph",
+          "text": "The $24 million is separate from $466 million announced in May for structural repairs, a larger passenger concourse, security work and family-oriented infrastructure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amtrak and the Union Station Redevelopment Corporation agreed in 2025 to a cooperative arrangement that restored stronger federal control over the facility, according to DOT."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Federal Railroad Administration is also conducting a service-optimization study. DOT says the work is meant to maximize passenger benefits while keeping operations moving during construction."
+        },
+        {
+          "type": "paragraph",
+          "text": "The department compares the delivery approach with the public-private model being pursued for New York Penn Station. Private participation can supply design, construction or financing capacity, but the announcement does not identify a selected partner, financing share or binding risk allocation."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-union-station-partners",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/union-station/partners/four-three.webp",
+          "alt": "Graphic lists DOT, FRA, Amtrak and USRC as project partners.",
+          "caption": "DOT, FRA, Amtrak and the Union Station Redevelopment Corporation are the principal public partners named in the plan.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-hits-another-key-milestone-washington"
+        },
+        {
+          "type": "paragraph",
+          "text": "DOT's release criticizes an earlier expansion concept as costing more than $10 billion. That characterization is the current administration's assessment; the release does not provide a like-for-like independent cost comparison."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amtrak President Roger Harris called Union Station a gateway used by millions of travelers and said the railroad would continue working with DOT, FRA and USRC on the customer experience and station's long-term future."
+        },
+        {
+          "type": "paragraph",
+          "text": "For passengers, the immediate milestone is planning money and a delivery strategy. The practical scope, private contribution, procurement schedule and construction phasing remain to be established."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/washington-union-station-24-million-partnership-plan-2026/",
+      "citations": [
+        {
+          "id": "source-dot-union-station-partnership-24m-2026",
+          "title": "Trump’s Transportation Secretary Sean P. Duffy Hits Another Key Milestone in Washington Union Station Overhaul",
+          "publisher": "U.S. Department of Transportation",
+          "publishedAt": "2026-07-24T12:00:00Z",
+          "url": "https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-hits-another-key-milestone-washington"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "DOT announced $24 million for public-private partnership development.",
+        "$466 million had been announced for structural and passenger upgrades.",
+        "Amtrak and USRC entered a cooperative agreement in 2025.",
+        "FRA is conducting a service-optimization study."
+      ],
+      "corrections": [],
+      "dek": "The new funding is for a public-private delivery plan, separate from $466 million announced for structural and passenger upgrades.",
+      "desk": "passenger-rail-infrastructure",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Department of Transportation",
+        "Federal Railroad Administration",
+        "Amtrak",
+        "Union Station Redevelopment Corporation"
+      ],
+      "eventId": "event-washington-union-station-24-million-partnership-plan-2026",
+      "headline": "DOT Adds $24 Million to Shape Union Station Partnership",
+      "id": "article-washington-union-station-24-million-partnership-plan-2026",
+      "leadImage": {
+        "alt": "Travelers beneath the vaulted ceiling and arches of Washington Union Station.",
+        "caption": "The main interior of Washington Union Station. DOT says a new $24 million investment will develop a public-private delivery plan for the station's overhaul.",
+        "credit": "ZhengZhou / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-union-station-interior-zhengzhou",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-144754/union-station/interior/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington, D.C.",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-faa-1-776-billion-airport-grants-46-states-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "DOT added $24 million to develop a public-private plan for Washington Union Station, alongside $466 million for repairs and upgrades.",
+        "index": true,
+        "title": "Washington Union Station gets $24 million partnership plan"
+      },
+      "section": "us",
+      "slug": "washington-union-station-24-million-partnership-plan-2026",
+      "social": {
+        "description": "The new funding is for a public-private delivery plan, separate from $466 million announced for structural and passenger upgrades.",
+        "image": "/media/newsroom/2026/08/manual-20260811-144754/union-station/interior/open-graph.webp",
+        "title": "DOT Adds $24 Million to Shape Union Station Partnership"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Washington Union Station",
+        "Rail infrastructure",
+        "Public-private partnerships",
+        "Passenger rail"
+      ],
+      "uncertainty": [
+        "No private partner, final construction contract or completion date was announced.",
+        "The public-private financing structure and allocation of risk remain unspecified."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A July executive order directs the U.S. defense department to sharply restrict waivers that allow specified critical materials from non-allied foreign countries into military supply chains.\n\nExecutive Order 14415 says that on January 1, 2027, the defense secretary and military-department secretaries must stop issuing most waivers under 10 U.S.C. 4872 unless a contractor submits a formal mitigation plan that the department accepts.\n\nThe plan must identify the noncompliant material's source, document exhaustive efforts to obtain compliant material or show that none was available, describe how the material will be removed from the supply chain and set a strict implementation timeline.\n\nThe order says failing to qualify a domestic source does not by itself establish non-availability. An exception applies when a contractor demonstrates active, adequately funded and continuing efforts to qualify one.\n\nThe underlying statute generally bars the department from procuring covered materials made in specified non-allied countries, subject to exceptions. Its current preliminary text defines covered materials to include samarium-cobalt and neodymium-iron-boron magnets, tungsten products, tantalum and molybdenum.\n\nThe order also calls for new supply-chain mapping rules. Within 180 days, the department must develop policy and implementation guidance requiring contractors to trace critical supply chains from raw materials to end products. Implementing regulations are due within 90 days after that work is completed.\n\nThose future regulations are supposed to account for small businesses, nontraditional defense companies and new entrants. The order does not itself provide a cost estimate or quantify how many contracts or suppliers will be affected.\n\nSeparate provisions direct the department to accelerate qualification of alternative sources, review an electronic-device exemption and report every six months through January 1, 2028 on waivers, mitigation plans and regulations.\n\nThe sourcing and security judgments stated in the order are administration policy findings. Practical effects will depend on later guidance, rulemaking, individual mitigation plans, appropriations and implementation consistent with existing law.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "A July executive order directs the U.S. defense department to sharply restrict waivers that allow specified critical materials from non-allied foreign countries into military supply chains."
+        },
+        {
+          "type": "paragraph",
+          "text": "Executive Order 14415 says that on January 1, 2027, the defense secretary and military-department secretaries must stop issuing most waivers under 10 U.S.C. 4872 unless a contractor submits a formal mitigation plan that the department accepts."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-defense-critical-materials-waiver-path",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/waiver-path/four-three.webp",
+          "alt": "Graphic shows the steps required for a covered-material waiver beginning January 1, 2027.",
+          "caption": "Beginning January 1, 2027, covered-material waivers generally require an accepted plan identifying the source, documenting acquisition efforts and setting a removal timeline.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/07/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials/"
+        },
+        {
+          "type": "paragraph",
+          "text": "The plan must identify the noncompliant material's source, document exhaustive efforts to obtain compliant material or show that none was available, describe how the material will be removed from the supply chain and set a strict implementation timeline."
+        },
+        {
+          "type": "paragraph",
+          "text": "The order says failing to qualify a domestic source does not by itself establish non-availability. An exception applies when a contractor demonstrates active, adequately funded and continuing efforts to qualify one."
+        },
+        {
+          "type": "paragraph",
+          "text": "The underlying statute generally bars the department from procuring covered materials made in specified non-allied countries, subject to exceptions. Its current preliminary text defines covered materials to include samarium-cobalt and neodymium-iron-boron magnets, tungsten products, tantalum and molybdenum."
+        },
+        {
+          "type": "paragraph",
+          "text": "The order also calls for new supply-chain mapping rules. Within 180 days, the department must develop policy and implementation guidance requiring contractors to trace critical supply chains from raw materials to end products. Implementing regulations are due within 90 days after that work is completed."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-defense-critical-materials-statutory-list",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/materials/four-three.webp",
+          "alt": "Graphic lists magnets, tungsten products, tantalum and molybdenum as covered materials under the statute.",
+          "caption": "The statute's covered-material definition includes specified magnets, tungsten products, tantalum and molybdenum.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/07/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials/"
+        },
+        {
+          "type": "paragraph",
+          "text": "Those future regulations are supposed to account for small businesses, nontraditional defense companies and new entrants. The order does not itself provide a cost estimate or quantify how many contracts or suppliers will be affected."
+        },
+        {
+          "type": "paragraph",
+          "text": "Separate provisions direct the department to accelerate qualification of alternative sources, review an electronic-device exemption and report every six months through January 1, 2028 on waivers, mitigation plans and regulations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The sourcing and security judgments stated in the order are administration policy findings. Practical effects will depend on later guidance, rulemaking, individual mitigation plans, appropriations and implementation consistent with existing law."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/defense-critical-materials-waiver-rules-supply-chain-order-2026/",
+      "citations": [
+        {
+          "id": "source-white-house-defense-supply-chains-eo-14415-2026",
+          "title": "Securing America's Defense Supply Chains and Ensuring Domestic Acquisition of Critical Materials",
+          "publisher": "The White House",
+          "publishedAt": "2026-07-20T12:00:00Z",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/07/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials/"
+        },
+        {
+          "id": "source-us-code-title-10-section-4872-prelim-2026",
+          "title": "10 U.S.C. 4872: Acquisition of sensitive materials from non-allied foreign nations: prohibition",
+          "publisher": "Office of the Law Revision Counsel, U.S. House of Representatives",
+          "publishedAt": "2026-07-20T12:00:00Z",
+          "url": "https://uscode.house.gov/view.xhtml?req=%28title%3A10+section%3A4872+edition%3Aprelim%29"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Executive Order 14415 was issued July 20, 2026.",
+        "Most covered-material waivers are to stop January 1, 2027 unless an accepted mitigation plan applies.",
+        "Supply-chain policy and implementation guidance is due within 180 days.",
+        "The order requires reports every six months through January 1, 2028."
+      ],
+      "corrections": [],
+      "dek": "A July executive order says most waivers under a defense sourcing law must stop in 2027 unless contractors submit an accepted mitigation plan.",
+      "desk": "defense-procurement-policy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "White House",
+        "Department of War",
+        "U.S. Congress"
+      ],
+      "eventId": "event-defense-critical-materials-waiver-rules-supply-chain-order-2026",
+      "headline": "Defense Materials Waivers Tighten in 2027",
+      "id": "article-defense-critical-materials-waiver-rules-supply-chain-order-2026",
+      "leadImage": {
+        "alt": "Workers in protective clothing tend machinery beside glowing metal inside a steel mill.",
+        "caption": "Workers tend a steel-melting machine in Herat, Afghanistan, in 2009. The photograph illustrates industrial materials production and does not depict a contractor covered by the order.",
+        "credit": "Riza Caparros / U.S. Navy, public domain",
+        "height": 900,
+        "rightsId": "media-defense-critical-materials-steel-workers-us-navy",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/steel-workers/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-gao-battery-recycling-critical-mineral-imports-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Executive Order 14415 limits defense critical-materials waivers from 2027 and requires accepted mitigation plans and new supply-chain mapping rules.",
+        "index": true,
+        "title": "Defense critical-materials waivers tighten in 2027"
+      },
+      "section": "politics",
+      "slug": "defense-critical-materials-waiver-rules-supply-chain-order-2026",
+      "social": {
+        "description": "A July executive order says most waivers under a defense sourcing law must stop in 2027 unless contractors submit an accepted mitigation plan.",
+        "image": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/steel-workers/open-graph.webp",
+        "title": "Defense Materials Waivers Tighten in 2027"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Defense procurement",
+        "Critical materials",
+        "Industrial policy",
+        "Supply chains"
+      ],
+      "uncertainty": [
+        "The order does not quantify affected contracts, suppliers or compliance costs.",
+        "Later guidance and regulations will determine operational details, and implementation remains subject to law and appropriations."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Okefenokee National Wildlife Refuge has joined UNESCO's World Heritage List, becoming the United States' 27th listed property.\n\nThe World Heritage Committee inscribed the Georgia-Florida refuge in 2026 under natural criteria ix and x, which concern ecological processes and biological diversity. UNESCO records the property at 164,565.5 hectares.\n\nOkefenokee was one of 25 properties added during the committee's 48th session in Busan. The group comprised 19 cultural sites, five natural sites and one mixed site, along with approved extensions to two existing properties.\n\nThe additions brought the World Heritage List to 1,273 sites across 173 countries, according to UNESCO.\n\nComoros, São Tomé and Príncipe, and South Sudan received their first inscriptions. UNESCO says the number of state parties without a listed property consequently fell from 26 to 23.\n\nThe committee adopted all inscription decisions by consensus. Listing recognizes what UNESCO calls outstanding universal value and commits the state party to continued protection and management.\n\nFor Okefenokee, the World Heritage Centre highlights the large peat wetland and areas of longleaf-pine savanna. The listing page says less than 3% of that savanna type remains.\n\nWorld Heritage status is an international designation, not an automatic guarantee against every environmental threat. Conservation outcomes still depend on management, monitoring, funding and decisions by responsible authorities.\n\nThe 2026 session also added six properties to the List of World Heritage in Danger and removed Vienna's historic center from that list. Those actions are separate from Okefenokee's new inscription.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Okefenokee National Wildlife Refuge has joined UNESCO's World Heritage List, becoming the United States' 27th listed property."
+        },
+        {
+          "type": "paragraph",
+          "text": "The World Heritage Committee inscribed the Georgia-Florida refuge in 2026 under natural criteria ix and x, which concern ecological processes and biological diversity. UNESCO records the property at 164,565.5 hectares."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-unesco-2026-new-sites",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/new-sites/four-three.webp",
+          "alt": "Graphic shows 19 cultural, five natural and one mixed World Heritage additions in 2026.",
+          "caption": "The 2026 session added 19 cultural, five natural and one mixed property to the World Heritage List.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.unesco.org/en/articles/unesco-world-heritage-25-new-sites-inscribed"
+        },
+        {
+          "type": "paragraph",
+          "text": "Okefenokee was one of 25 properties added during the committee's 48th session in Busan. The group comprised 19 cultural sites, five natural sites and one mixed site, along with approved extensions to two existing properties."
+        },
+        {
+          "type": "paragraph",
+          "text": "The additions brought the World Heritage List to 1,273 sites across 173 countries, according to UNESCO."
+        },
+        {
+          "type": "paragraph",
+          "text": "Comoros, São Tomé and Príncipe, and South Sudan received their first inscriptions. UNESCO says the number of state parties without a listed property consequently fell from 26 to 23."
+        },
+        {
+          "type": "paragraph",
+          "text": "The committee adopted all inscription decisions by consensus. Listing recognizes what UNESCO calls outstanding universal value and commits the state party to continued protection and management."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-okefenokee-world-heritage-profile",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/profile/four-three.webp",
+          "alt": "Graphic shows Okefenokee criteria nine and ten and area of 164,565.5 hectares.",
+          "caption": "UNESCO lists Okefenokee under natural criteria ix and x, covering 164,565.5 hectares.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.unesco.org/en/articles/unesco-world-heritage-25-new-sites-inscribed"
+        },
+        {
+          "type": "paragraph",
+          "text": "For Okefenokee, the World Heritage Centre highlights the large peat wetland and areas of longleaf-pine savanna. The listing page says less than 3% of that savanna type remains."
+        },
+        {
+          "type": "paragraph",
+          "text": "World Heritage status is an international designation, not an automatic guarantee against every environmental threat. Conservation outcomes still depend on management, monitoring, funding and decisions by responsible authorities."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 2026 session also added six properties to the List of World Heritage in Danger and removed Vienna's historic center from that list. Those actions are separate from Okefenokee's new inscription."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/okefenokee-unesco-world-heritage-list-2026/",
+      "citations": [
+        {
+          "id": "source-unesco-world-heritage-new-sites-2026",
+          "title": "UNESCO World Heritage: 25 new sites inscribed",
+          "publisher": "UNESCO",
+          "publishedAt": "2026-07-28T12:00:00Z",
+          "url": "https://www.unesco.org/en/articles/unesco-world-heritage-25-new-sites-inscribed"
+        },
+        {
+          "id": "source-unesco-okefenokee-listing-2026",
+          "title": "Okefenokee National Wildlife Refuge",
+          "publisher": "UNESCO World Heritage Centre",
+          "publishedAt": "2026-07-28T12:00:00Z",
+          "url": "https://whc.unesco.org/en/list/1751/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Okefenokee was inscribed on the World Heritage List in 2026.",
+        "The committee added 25 new properties in total.",
+        "The new sites included 19 cultural, five natural and one mixed property.",
+        "The list now contains 1,273 sites across 173 countries."
+      ],
+      "corrections": [],
+      "dek": "The Georgia-Florida refuge is among 25 properties added at the World Heritage Committee's 2026 session, lifting the global list to 1,273 sites.",
+      "desk": "world-heritage-designations",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "UNESCO World Heritage Committee",
+        "Okefenokee National Wildlife Refuge",
+        "U.S. Fish and Wildlife Service"
+      ],
+      "eventId": "event-okefenokee-unesco-world-heritage-list-2026",
+      "headline": "Okefenokee Joins UNESCO World Heritage List",
+      "id": "article-okefenokee-unesco-world-heritage-list-2026",
+      "leadImage": {
+        "alt": "Open water and wetland vegetation beneath a blue sky at Okefenokee National Wildlife Refuge.",
+        "caption": "Wetland habitat in Okefenokee National Wildlife Refuge. UNESCO inscribed the refuge on the World Heritage List in 2026 under natural criteria ix and x.",
+        "credit": "Baldacchino Nell / U.S. Fish and Wildlife Service",
+        "height": 900,
+        "rightsId": "media-okefenokee-refuge-usfws-baldacchino-nell",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/refuge/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Georgia",
+        "Florida",
+        "Busan, Republic of Korea"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-national-recording-registry-2026-25-selections"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "UNESCO added Okefenokee and 24 other properties in 2026, bringing the World Heritage List to 1,273 sites across 173 countries.",
+        "index": true,
+        "title": "Okefenokee joins UNESCO World Heritage List in 2026"
+      },
+      "section": "culture",
+      "slug": "okefenokee-unesco-world-heritage-list-2026",
+      "social": {
+        "description": "The Georgia-Florida refuge is among 25 properties added at the World Heritage Committee's 2026 session, lifting the global list to 1,273 sites.",
+        "image": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/refuge/open-graph.webp",
+        "title": "Okefenokee Joins UNESCO World Heritage List"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "UNESCO World Heritage",
+        "Okefenokee",
+        "Cultural heritage",
+        "Natural heritage"
+      ],
+      "uncertainty": [
+        "World Heritage inscription does not by itself guarantee conservation outcomes.",
+        "UNESCO's property area and descriptions may be refined as geospatial records are completed."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The 2026 Cincinnati Open men's tournament runs from Aug. 13 through Aug. 23 at the Lindner Family Tennis Center in Ohio.\n\nThe ATP Tour lists a 96-player singles draw, a 32-team doubles draw and $9,193,540 in men's prize money for the hard-court Masters 1000 event.\n\nThose figures describe the ATP competition. Women's draw and prize-money details are governed separately by the WTA and are not included in the ATP total cited here.\n\nThe tournament expanded to two weeks in 2025 after a $260 million campus investment, according to the ATP. The work doubled the venue's acreage and increased player and fan facilities.\n\nThe larger draw gives more players direct entry and stretches competition across additional days, but it also means early rounds begin well before championship weekend.\n\nCincinnati is part of the North American hard-court swing before the U.S. Open. Results here do not determine the U.S. Open field, though players use the event for ranking points and match preparation.\n\nThe ATP overview supplies dates, draw sizes, surface and prize money but does not by itself confirm every entrant or daily order of play. Those details can change with withdrawals and scheduling decisions.\n\nThe event is branded for Cincinnati but the venue is in Mason, Ohio, north of the city. Center Court and the surrounding campus host both singles and doubles competition.\n\nFor fans planning around the event, the stable facts are the Aug. 13–23 window and expanded format. Player participation, match times and results require the current official draw and schedule.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The 2026 Cincinnati Open men's tournament runs from Aug. 13 through Aug. 23 at the Lindner Family Tennis Center in Ohio."
+        },
+        {
+          "type": "paragraph",
+          "text": "The ATP Tour lists a 96-player singles draw, a 32-team doubles draw and $9,193,540 in men's prize money for the hard-court Masters 1000 event."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cincinnati-open-2026-format",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/format/four-three.webp",
+          "alt": "Graphic lists 96 singles players, 32 doubles teams and hard-court surface.",
+          "caption": "The 2026 ATP listing shows 96 singles players, 32 doubles teams and hard courts.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.atptour.com/en/tournaments/atp-masters-1000-cincinnati/422/overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "Those figures describe the ATP competition. Women's draw and prize-money details are governed separately by the WTA and are not included in the ATP total cited here."
+        },
+        {
+          "type": "paragraph",
+          "text": "The tournament expanded to two weeks in 2025 after a $260 million campus investment, according to the ATP. The work doubled the venue's acreage and increased player and fan facilities."
+        },
+        {
+          "type": "paragraph",
+          "text": "The larger draw gives more players direct entry and stretches competition across additional days, but it also means early rounds begin well before championship weekend."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cincinnati is part of the North American hard-court swing before the U.S. Open. Results here do not determine the U.S. Open field, though players use the event for ranking points and match preparation."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cincinnati-open-2026-dates-prize",
+          "src": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/dates/four-three.webp",
+          "alt": "Graphic shows Cincinnati Open dates Aug. 13 to 23 and prize money of 9,193,540 dollars.",
+          "caption": "The men's event runs Aug. 13–23 and lists $9,193,540 in prize money.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.atptour.com/en/tournaments/atp-masters-1000-cincinnati/422/overview"
+        },
+        {
+          "type": "paragraph",
+          "text": "The ATP overview supplies dates, draw sizes, surface and prize money but does not by itself confirm every entrant or daily order of play. Those details can change with withdrawals and scheduling decisions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The event is branded for Cincinnati but the venue is in Mason, Ohio, north of the city. Center Court and the surrounding campus host both singles and doubles competition."
+        },
+        {
+          "type": "paragraph",
+          "text": "For fans planning around the event, the stable facts are the Aug. 13–23 window and expanded format. Player participation, match times and results require the current official draw and schedule."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/cincinnati-open-2026-atp-dates-draw-prize-money/",
+      "citations": [
+        {
+          "id": "source-atp-cincinnati-open-overview-2026",
+          "title": "Cincinnati Open tournament overview",
+          "publisher": "ATP Tour",
+          "publishedAt": "2026-08-11T12:00:00Z",
+          "url": "https://www.atptour.com/en/tournaments/atp-masters-1000-cincinnati/422/overview"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The ATP event runs Aug. 13–23, 2026.",
+        "The men's singles draw has 96 places.",
+        "The men's doubles draw has 32 teams.",
+        "The ATP lists $9,193,540 in men's prize money."
+      ],
+      "corrections": [],
+      "dek": "The ATP Masters 1000 event lists a 32-team doubles draw and $9.19 million in men's prize money after its expanded 2025 debut.",
+      "desk": "tennis-tournament-schedules",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "ATP Tour",
+        "Cincinnati Open",
+        "Lindner Family Tennis Center"
+      ],
+      "eventId": "event-cincinnati-open-2026-atp-dates-draw-prize-money",
+      "headline": "Cincinnati Open Runs Aug. 13–23 With 96-Player Men’s Draw",
+      "id": "article-cincinnati-open-2026-atp-dates-draw-prize-money",
+      "leadImage": {
+        "alt": "A tennis match in progress on Center Court at the Cincinnati Open with spectators in the stands.",
+        "caption": "Center Court during the 2024 Cincinnati Open. The 2026 ATP event runs Aug. 13–23 with 96 singles players and 32 doubles teams.",
+        "credit": "Andrewc013 / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-cincinnati-open-center-court-andrewc013",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/center-court/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Mason, Ohio",
+        "Cincinnati, Ohio"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-us-open-2026-schedule-fan-week-main-draw-finals"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The 2026 Cincinnati Open ATP event runs Aug. 13–23 with 96 singles players, 32 doubles teams and $9.19 million in prize money.",
+        "index": true,
+        "title": "Cincinnati Open 2026 dates, ATP draw and prize money"
+      },
+      "section": "sports",
+      "slug": "cincinnati-open-2026-atp-dates-draw-prize-money",
+      "social": {
+        "description": "The ATP Masters 1000 event lists a 32-team doubles draw and $9.19 million in men's prize money after its expanded 2025 debut.",
+        "image": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/center-court/open-graph.webp",
+        "title": "Cincinnati Open Runs Aug. 13–23 With 96-Player Men’s Draw"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Cincinnati Open",
+        "ATP Tour",
+        "Tennis schedule",
+        "Prize money"
+      ],
+      "uncertainty": [
+        "Entrants and daily match times can change before and during the event.",
+        "The cited draw and prize-money figures are the ATP men's listing, not a combined ATP-WTA total."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T14:14:15.487Z",
+  "generatedAt": "2026-08-11T15:38:02.335Z",
   "inputHashes": {
+    "sourceItems": "001322d46238ac1ccac24e7d645620360eb204d66216df1a2e3bca5d7e00454f",
+    "events": "6d288fc3a5c1239fb784aa5cdeee5d74879529298fb85b87c750552458b3d0fc",
+    "claims": "0a8b4b7d22594c4a148d3454e298e3930ccbdb30c0fa7cf54abf0bd015ee1c2d",
+    "articles": "1cbbe0d70bc24555e0e9aadc77be919e4f6d7f7ffe731a95b4573f60f41d3cdf",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
-    "articles": "6e46a6fed6b484e998ddbe4984af35a4c2ba3d24b84569db365506f1c193e0aa",
-    "claims": "73c2d7db50a96832e71899a03dca0463c11c634739c9348b366aa37f563c3106",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "dd4698813c78b3724fa9201fbf30bc750566edc831435bab0cea549620ac913f",
-    "mediaRights": "127f2becdbca45ddfc17a79e2a8ab125f29a3a2a2d2802af35238d934ce18289",
-    "publicationIntents": "40c698ee8effef28c41e405457ec5d9ff3865ebf873802c822ce14a9e0a5670e",
+    "mediaRights": "6a1006f626fc709a2c53fd922e13c0f83593f85606e1ed90ec9649ce4986314a",
     "releaseRecords": "3e4fda070c403aa70a91522c9ca28b651eb318f1db81177cab0ea59e2cd7b432",
-    "sourceItems": "c13c85a21c9ec1f366d3d0501edabd4b24246fbab386e9f120ee3da292544831"
+    "publicationIntents": "47589fdb425ac266db1755b29370fbef20d9c563fd0bd73dc36278090fa293ec"
   },
   "inventory": {
-    "articleCount": 327,
-    "mediaCount": 967,
-    "routeCount": 327
+    "articleCount": 333,
+    "routeCount": 333,
+    "mediaCount": 985
   },
   "mediaRights": [
     {
@@ -127094,9 +128010,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.who.int/news/item/29-07-2026-who-updates-treatment-guidelines-on-visceral-and-post-kala-azar-dermal-leishmaniasis"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Curved glass and steel facade of the Berlaymont building in Brussels.",
+      "archivalStatus": "current",
+      "attribution": "KenSwe72 / Wikimedia Commons, CC BY 4.0",
+      "caption": "The Berlaymont building in Brussels, headquarters of the European Commission. The EU AI Act's Article 50 transparency duties began applying on Aug. 2, 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "KenSwe72",
+      "derivatives": [
+        {
+          "hash": "c22040385c52b660de8f3db11cbcaec9ea576e38a02612102239d09a7d99f1e3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/berlaymont/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9820576b92e15c23b4f3a65689972c1ce334a7e547579b32d928b05394a65e81",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/berlaymont/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3d30c1bccf7548436df48cad88bfbabe744f6aa2f343c0379cbed315ea8162a2",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/berlaymont/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e0cffc78fef8ec7ac102f0bdfcf910d48f93c7d8b24c1b0420522896172530f2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/berlaymont/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "fa4c7795152d1700ae4a78da8df38cdcd58a321d3d76e42d8db2dad1c6ba52bf",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/berlaymont/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a5fce111fb802e12a37405317159db31f2c12cc71567185749d6ea3ae84cbea4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/berlaymont/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0332c9a2748ab0491deaaacbb88cdab9fde8efc095579ac886dffca7e8e5a05e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/berlaymont/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-eu-ai-rules-berlaymont-kenswe72",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "15e7ecacc0534a04fa7a0eaf58320834404278bb54121e034822ee3b84a05142",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "The photographer licensed the image CC BY 4.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berlaymont_building_Brussels.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists direct-interaction notice and machine-readable marking as provider duties.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Covered providers must disclose direct AI interaction and add machine-readable marks to generated or manipulated output.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ad2783ae35f0bc1919b84ddf26a9289340638f8ad15ac7f3fe4e2e9c9675b278",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/providers/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "525d6b573990395c4a88d25251cac469dbc901eeaa11e2d77d54d9187f4d0053",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/providers/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "50681271f809a6939836381ebd7243b7765d931b81cec6ee3ee3b1c4ce003624",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/providers/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "0a36cb136f30f4bd95302bd5f7d7ea61f6433754fe8b0f676ada8789fd8b5cb7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/providers/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3a3d3aa661ea60ea964f9f7b2db19426d74251609227c49ad4bf7d5753f144e6",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/providers/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d461859a5bc13806202e505cf7b22764adbc54ba659a75eeea40cb06cc87e02c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/providers/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "72debd54b29a7829b9842a947e5f39798c7f8bd3cf701fd0462c284910513db0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/providers/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-eu-ai-rules-provider-duties",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "0a36cb136f30f4bd95302bd5f7d7ea61f6433754fe8b0f676ada8789fd8b5cb7",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists deepfakes, public-interest text and biometric systems as deployer disclosure areas.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Covered deployers must disclose deepfakes, some public-interest text, and exposure to emotion recognition or biometric categorization.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d299f95f3f10f837d66f7cf214922bf2c75ebf2a304dd16a3a5b8a58f0a88bb9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/deployers/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e4adfc800db61e5e264eebaf62f053acb1a4f1f891d3deeec14808cdd53e2f15",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/deployers/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9f98c98ba1cc3870357db23b314b67129637d45e282545aea920186630787dab",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/deployers/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "eda31b3a7338287f2e5a38f08652a3d430a8f2955bba9134cc5f1512facb0016",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/deployers/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "edcc44bff2ab0540880cc411ad2ca521d07468a217dd43fc9cc155935143ffff",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/deployers/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "abb57161128698a2e92882bed9ab7ab02d8abf3a4a7636744940e484967658d7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/deployers/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "34947ab644af94c681670a04fcb1f8d378e351ccf564db158492c21fe58d58bb",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/eu-ai-rules/deployers/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-eu-ai-rules-deployer-duties",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "eda31b3a7338287f2e5a38f08652a3d430a8f2955bba9134cc5f1512facb0016",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Container ships being loaded and unloaded by cranes at the Port of Los Angeles.",
+      "archivalStatus": "current",
+      "attribution": "Downtowngal / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "Container ships and cranes at the Port of Los Angeles in 2021. CPSC's new eFiling requirement supplies product-certificate data before regulated imports enter U.S. commerce.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Downtowngal",
+      "derivatives": [
+        {
+          "hash": "d95cae51299589834962d748c710d4915b0b78c35a4a2b62f3d0dfc6f42beb38",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/port/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "fdba4288de7261dc8e69c4c2ff8b684855a4331a98cca99b71c3f55c49be9479",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/port/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "034ac1e176f426d4f6335006a8d8d490f1b3de0069934158b55367c8860509cb",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/port/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5041f57d0696bce04e976337b09129c2f750dbd328a8dfbdc0a8f5de63a16f6a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/port/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "280cb25e37ab551c87dcf16439044613193bb849f35175b2f4ad048b1bcb3e5f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/port/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "fd54ed86b10401cb772575b108ad289bdc6374b708934a1a1b715f3b5a56d5dd",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/port/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "33a5d7704b8ecd1c8d2ee57c6edae8f7fe112eb0f8ddfb942deab2b2b68b0830",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/port/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cpsc-efiling-port-los-angeles-downtowngal",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "e46e5853282bd1123ec937135fe53937a8d324c048311f5e08bd3a8276281387",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "The photographer licensed the image CC BY-SA 4.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Port_of_Los_Angeles_with_container_ships.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic contrasts regulated imports covered by eFiling with domestic manufacturers outside the import filing requirement.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Most regulated imported consumer products now require electronic certificate data before entry; domestic manufacturers are not subject to this import filing step.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "6bdd93e6539ba20da021df431da8c87ebfede0a884945beb632569c4262ca75b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/scope/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d34acfe127cb1236b78ebde986bd764cefdde490836220d200578da98f11ccad",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/scope/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1b7a33243255596c2d089b172fac2904935f45e433d0cafaa5cb55f17392e4ad",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/scope/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "0fdfc8cc7b9732c9adc9f3a0fd95059c07aef07da774153a38f624d646867176",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/scope/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0799254ba3c4d1ce0dd12d7e75e52da4acfd84137f59f6a595017b651744c072",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/scope/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "521b5932e5ab69bfbc0aa2715e5c1ceb51b9ab7d002a8d28e8f077f6bb82bf90",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/scope/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "dbd64d326c6af3725047273fb79c1c1a82b9e7ec99d9acba1a4f7036d3393c37",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/scope/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cpsc-efiling-scope",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "0fdfc8cc7b9732c9adc9f3a0fd95059c07aef07da774153a38f624d646867176",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Implements-Mandatory-eFiling-for-Certificates-of-Compliance-Targeting-Dangerous-Foreign-Imports"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Timeline shows July 8, 2026 general eFiling start and Jan. 8, 2027 Foreign Trade Zone start.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The general requirement began July 8, 2026; covered goods from Foreign Trade Zones follow on Jan. 8, 2027.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "0ac36511e536924cd9db97f7f851b275d7a470d3c6db2eb03235515b730e2227",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/timeline/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a1d60d437622211a34caac96fba7bca2aa1caad8708c7ea72d15409a97ced986",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/timeline/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "35ef5401a408d56d2eca4853dcf6d8e5f588d71d3d190930d8ffe8f2f4b44d3a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/timeline/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "182e44da5a8b80fe51d4fa29167cfd0cd1601f68f47b4895543ac95b02d74d2f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/timeline/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "68fee48ad3ab20abefccf14c825e0d594132bed57729ae56e20b6d852974f671",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/timeline/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "45766ed6c6f20c1a645f6a340380c085d0e6f6c34cb242cbb3ed9825e95f9f08",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/timeline/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "6da340cedef429a05290dd4cef4d4cdcc4f8ed5ac954a315db5cf6b43ebb5a93",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cpsc-efiling/timeline/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cpsc-efiling-timeline",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "182e44da5a8b80fe51d4fa29167cfd0cd1601f68f47b4895543ac95b02d74d2f",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cpsc.gov/Newsroom/News-Releases/2026/CPSC-Implements-Mandatory-eFiling-for-Certificates-of-Compliance-Targeting-Dangerous-Foreign-Imports"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Travelers beneath the vaulted ceiling and arches of Washington Union Station.",
+      "archivalStatus": "current",
+      "attribution": "ZhengZhou / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "The main interior of Washington Union Station. DOT says a new $24 million investment will develop a public-private delivery plan for the station's overhaul.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "ZhengZhou",
+      "derivatives": [
+        {
+          "hash": "a6aa2edc20d8706c7c1ec5b1274aaebe4c4a4496a0fbd7fd0cdb065db8f13bda",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/interior/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d2522239324e8fa3c7c652e9ea44fd4cc98e714cd49be3a4d166f5347fa0d01e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/interior/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "65f6f35eb1b3aa48bb43438b10a5d0092877a73723ec6a303aa44d61c386ea15",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/interior/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "388c10f7f65c22527fa91e786cc5ccdc7d0061c610780d40968a460d621a28e3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/interior/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "bcfcc8ad6de31833d4b78577e718dfae6e5d1a3c3051560f4d07aad976cc69d6",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/interior/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f630e463b92eec27d00aab6461e4f573ec0a034ab1d5049b2fc2c81c4ad9a400",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/interior/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "50561188a026f62ac07b5c3277e6fa594ff703d86369f8263b9ebdcc7d019a66",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/interior/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-union-station-interior-zhengzhou",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "ef9a404b2c11184b2092d6314c961fdbc28a85cf8a5f84133895f0484185f41a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "The photographer licensed the image CC BY-SA 4.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Interior_of_Washington_Union_Station.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 24 million dollars for partnership planning and 466 million dollars for station upgrades.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "DOT describes $24 million for partnership development on top of $466 million announced for repairs and passenger improvements.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "330b23b5947774d86919af302026e7658b9e6524d29b13bf11e6816b0206291c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/funding/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9647f21984225734d6eae4d9a8ee2f01f3d63ef2db799d77124f98ed38a92063",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/funding/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1436cf748432b74dfe64c50469f18aa585c3f026fd10a76fe3f1bb54989cc32c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/funding/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "00dc45d4c68ae538de8f88c0c2c02306de0096848be80c37b8621d8cd18e6379",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/funding/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "76e6f5c83743d2dce6f84a36af00c9ca31bbaa77c773557b053a602bac168252",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/funding/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "26eea24fec18a61024bd4110e919f54d35721ed69af4a587b32c1c4f470375e3",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/funding/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e889f25228bfd71620247c808b8a3964d4077ea376cee3c0ce1b20e20ab2b58d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/funding/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-union-station-funding-layers",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "00dc45d4c68ae538de8f88c0c2c02306de0096848be80c37b8621d8cd18e6379",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-hits-another-key-milestone-washington"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists DOT, FRA, Amtrak and USRC as project partners.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "DOT, FRA, Amtrak and the Union Station Redevelopment Corporation are the principal public partners named in the plan.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "59274e3da189818616faa94c00ee3af5d4c0c928b46304e507524b80a741c436",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/partners/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "702463dba03e7bde5cc93eb4bd46dd09d8ad67a166d0e70d97ba752bebc1b0d3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/partners/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0e57a3a5164ce9881fab10101a5e7f5561bf623137ac172e5fb2f113ac40fbd5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/partners/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ad5d56bdd1091f29a6c7ba2b3e9dd72a47a5f036ccd479430d0869fbfc582487",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/partners/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5d84f57c2c2d939fd93d34e3ae12cffcfdd8011ad15b7bc765e874d443be7a65",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/partners/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6857a4f34be6cfded3b2580e33be9517f19aeb0e370d126d8be4d6ae6ea363bd",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/partners/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3114a5f49a619841921751315c81e233412f0a69f82ca3c66208adaea0060dad",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/union-station/partners/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-union-station-partners",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "ad5d56bdd1091f29a6c7ba2b3e9dd72a47a5f036ccd479430d0869fbfc582487",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.transportation.gov/briefing-room/trumps-transportation-secretary-sean-p-duffy-hits-another-key-milestone-washington"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Workers in protective clothing tend machinery beside glowing metal inside a steel mill.",
+      "archivalStatus": "current",
+      "attribution": "Riza Caparros / U.S. Navy, public domain",
+      "caption": "Workers tend a steel-melting machine in Herat, Afghanistan, in 2009. The photograph illustrates industrial materials production and does not depict a contractor covered by the order.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Mass Communication Specialist 2nd Class Riza Caparros / U.S. Navy",
+      "derivatives": [
+        {
+          "hash": "347383f535f8627373b458c15426520bde7b6bc82952061e67279cac3a7e231f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/steel-workers/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7b738f562b91f66c95f272477d6bce95d936d418f66f51205d28a22d8d814283",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/steel-workers/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1467f51fd2232faa96c39c3930bbe849b0f4b96b12eac24c0d2e2939c01ee295",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/steel-workers/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d2b0844097c0daefef522b71dfd4a3b21de39de38d76613ffcacee24b0384009",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/steel-workers/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "62bb2e1b05d297da24e9ad7601af36028039073ab55682cbbe6bf3ed07098288",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/steel-workers/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ed218919798a5d4e566e1c7d20ae692eb7b2526ac394ea515030590aa8deba80",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/steel-workers/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "635956f6ab86b15da21701faa1f4eb17cf111e2caf5a41ab8965c36d5efdff62",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/steel-workers/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-defense-critical-materials-steel-workers-us-navy",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "e7f3f53c4895995f1d4d245c7f0afcffdeb65b3ed13eda5ac75bf99109fbf562",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "The U.S. Navy photograph is marked public domain on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Factory_workers_in_Herat.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the steps required for a covered-material waiver beginning January 1, 2027.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Beginning January 1, 2027, covered-material waivers generally require an accepted plan identifying the source, documenting acquisition efforts and setting a removal timeline.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "9a44f24f19e748ceb60cae349b80f8b5fd410eb8325bf09b2b61c3a1b655f915",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/waiver-path/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3e8b1560c91759b49c65a604e8963b0d96cb3040d874cea3ec96d928c1e87f94",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/waiver-path/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "678a046d8569acd8b708f7205a3e60893902e28b838cf04f8f45b9c9c82e1725",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/waiver-path/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a30cd2e82c09727a196cc0e7d5c8326dc522bc103376100552f3c90163b3cf37",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/waiver-path/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "01fecc95d104558bfa8ba00bb5d5216180f4ef6d4d7d293baec8ae9d0d771861",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/waiver-path/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "31477c8bd51783976b59306fe8d6d29046d4f723ad483c580755f700dcd0caaa",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/waiver-path/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "53e9b4609edcdf1ad86d85cb50fcd05a9551891d446f1494cfa049e42fea1198",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/waiver-path/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-defense-critical-materials-waiver-path",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "a30cd2e82c09727a196cc0e7d5c8326dc522bc103376100552f3c90163b3cf37",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/07/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists magnets, tungsten products, tantalum and molybdenum as covered materials under the statute.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The statute's covered-material definition includes specified magnets, tungsten products, tantalum and molybdenum.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "58a6ee0c4dc915ea1f1146257e1a21b4fdbc16793c7c08ce10c0b56ab62216c2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/materials/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5d49f4c984a48f2c0b090783a25034740de9a47068b79be65be3b07578f80137",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/materials/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0263b850a464e196e217aa7704d487a429901d8701efb7704e78592389a486b1",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/materials/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f3938fe1ebeeeb02459e75d1591d80db1c85ee7555b5b22798b563ff0a98290d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/materials/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "fe3bd44f0cadfe9b2ff478670f9fc347fb63a6e09055c3426d2f44acabece0ee",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/materials/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "cd95a7179e34311ae0ff52af2c6781d2f7a0a10dcce8fdac20f1f57f864ec52b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/materials/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "1710c97ccb62eef1eeffb93daad81b6530c64c6a8b48504844a31e48840eb6c2",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/defense-critical-materials/materials/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-defense-critical-materials-statutory-list",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f3938fe1ebeeeb02459e75d1591d80db1c85ee7555b5b22798b563ff0a98290d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/07/securing-americas-defense-supply-chains-and-ensuring-domestic-acquisition-of-critical-materials/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Open water and wetland vegetation beneath a blue sky at Okefenokee National Wildlife Refuge.",
+      "archivalStatus": "current",
+      "attribution": "Baldacchino Nell / U.S. Fish and Wildlife Service",
+      "caption": "Wetland habitat in Okefenokee National Wildlife Refuge. UNESCO inscribed the refuge on the World Heritage List in 2026 under natural criteria ix and x.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Baldacchino Nell / U.S. Fish and Wildlife Service",
+      "derivatives": [
+        {
+          "hash": "60e79e8cb45ef60e265f8d6567153fefa7be74b2746d9a85f390df53bd9fcf69",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/refuge/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "57f08c62a31e7ec807dc87fbc03be326909c263e83d542548eb154780a8e788e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/refuge/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1df287321fcf405c7531a2a62dca7fcb20f2052a35a65f0ada07c40c230d0d10",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/refuge/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ce6dab7584a7ce2b5996a2f7a2a545717e2bbc6d16be1140908ced86a3877786",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/refuge/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "9055e63f7e9c5298f39a80da7822ef493267f8ccb77a8ddc90b9d4911fda5838",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/refuge/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7ee493aae6ad7473626de6efd36b4ae1651bf4192dace249e76c57a8f3d7a056",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/refuge/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5e2b3f0cba2bd44dbdb06523f41a5b293828e796d4690b331742e51908e3b49a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/refuge/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-okefenokee-refuge-usfws-baldacchino-nell",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "2ab6051d613d00fb9040a6424f081defbca7e5cfe01f98b006412f3d918e6272",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "The U.S. Fish and Wildlife Service photograph was created in official federal duties and is public domain in the United States.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Part_of_the_Okefenokee_national_wildlife_refuge.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 19 cultural, five natural and one mixed World Heritage additions in 2026.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The 2026 session added 19 cultural, five natural and one mixed property to the World Heritage List.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "9acbbe4e965e7479080f286ca8d55d957625565377ee45b0f7dec0d44b2afb3d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/new-sites/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "28f889b6a2426ec9b6841bda0cc32a649c030d1cf072f07b6f4daed553c7f89d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/new-sites/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d3ea4d56c2de1d67e8557d4518239bed4b2e825d54d15bc21655c436792b7ae2",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/new-sites/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "602f731968ca185a0356be362453e56d7ccb78f9bf8cab286feabb1159599165",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/new-sites/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "055f998ef7ce7d519a76d5c8bb6af32bc4f1665ed9f1cd2a316f82ae9c503283",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/new-sites/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2b7198528e38c345e192baf857573dbb12c49c832bd6bb7797bccd73ef25dddd",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/new-sites/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "17672125d55b610b6326cddad73ccf6d6c486169329429f28518a5aa3bd904e9",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/new-sites/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-unesco-2026-new-sites",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "602f731968ca185a0356be362453e56d7ccb78f9bf8cab286feabb1159599165",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.unesco.org/en/articles/unesco-world-heritage-25-new-sites-inscribed"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows Okefenokee criteria nine and ten and area of 164,565.5 hectares.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "UNESCO lists Okefenokee under natural criteria ix and x, covering 164,565.5 hectares.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c51a811e304ef20f04bf5ebdb040bedcf8f0e59a731354a561aa979e5451f190",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/profile/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "10713291dfccaed266b39a0cee70527d917671f8e6c0287b95ab048612bf21f2",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/profile/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f2e4e385abaff4d4ff3f69b269953482a7efcbb976a8d0756b31919bdaebd79a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/profile/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c006978860a7c0a1fb0dd3451c2e36524af57fc53a2180e9e72221dfd7a1e3f1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/profile/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3f6b2fd7bbc9a0d28d983cde13de06145c2c8c2f1029896062323de106418c52",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/profile/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "476d7c3b789dacc6b3535899c4088549345238889c83c4be8033d41e48758b0d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/profile/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "6e4d0caebb79b0951107996d03d87b22d3ae2882095e164a2c715c2fcf6b43eb",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/okefenokee/profile/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-okefenokee-world-heritage-profile",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "c006978860a7c0a1fb0dd3451c2e36524af57fc53a2180e9e72221dfd7a1e3f1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.unesco.org/en/articles/unesco-world-heritage-25-new-sites-inscribed"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A tennis match in progress on Center Court at the Cincinnati Open with spectators in the stands.",
+      "archivalStatus": "current",
+      "attribution": "Andrewc013 / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "Center Court during the 2024 Cincinnati Open. The 2026 ATP event runs Aug. 13–23 with 96 singles players and 32 doubles teams.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Andrewc013",
+      "derivatives": [
+        {
+          "hash": "f84864dfb0e22c5340ecf9eefd00dbdd4b552cb008c00dfa50a32e677c9b174b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/center-court/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3e5d864e6db13279c223b1aaf065ab6690ecaa02aee44adc8f7b5ec012412fac",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/center-court/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1c2bc53fb3fdc8269c5ef89257b56a8470e37dc511a00a11bc0095724c4e766d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/center-court/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4576cc8ba4e465b21d6150cd483d11ff5d345abca3568bcfbae67e2a8e0f779e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/center-court/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "68519cbb4d5b786b2a3222777651d1d5ff7110d190d965dfe459c2e3f1723775",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/center-court/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5e870f9cd7525f21ce78f5c971d0d23e6d4127863f451dace3a7799e09d598af",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/center-court/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b412ef79da48060575ce278d0db564a049fe0f57b0dbe59a4b591387cfb22614",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/center-court/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cincinnati-open-center-court-andrewc013",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "3fc02d74b05e3973beff2762d62c3cfa8f3d22325ef64787c1f08a8762e3f2cf",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "The photographer licensed the image CC BY-SA 4.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Center_Court_(Lindner_Family_Tennis_Center)_(cropped).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 96 singles players, 32 doubles teams and hard-court surface.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The 2026 ATP listing shows 96 singles players, 32 doubles teams and hard courts.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "631caf25cd7d605a5af74365d7211889ac537d0e365a440362f243b0e07da8cb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/format/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "dcdf7b91c0737be08a426ff52f8f7b442ee5893190f064974a7cf5a84068a8a3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/format/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "922b5701ea7af1e69f3cb6467c7b1f813f55c9c3b264ba2b6763f49eb57474af",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/format/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1c20f380e3eed337a7fdc3e173758b406a2ff8fd9f47a985dd1174ff45ab89ed",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/format/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "110549eb43eed3bd2801a5b44638765282168a9d53992047c3b7fedf36193353",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/format/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5b170ad44b0b3b3f5824dd86898d3ef71f72923e0e778f4fe8b482da5761fcc9",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/format/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "79730e5812e5e7484c950377a95447916e9f201a17dd13f92690f8e051e0ff18",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/format/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cincinnati-open-2026-format",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "1c20f380e3eed337a7fdc3e173758b406a2ff8fd9f47a985dd1174ff45ab89ed",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.atptour.com/en/tournaments/atp-masters-1000-cincinnati/422/overview"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows Cincinnati Open dates Aug. 13 to 23 and prize money of 9,193,540 dollars.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The men's event runs Aug. 13–23 and lists $9,193,540 in prize money.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ac69a0acddd5e1b83f93f8993017df29e7ee41f2f1b65d7a01b1c4cbbd51c891",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/dates/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "74ca462df93bdcd2afe9722a757c3f3a110b4a970f90d4d81f5c43b457c48c13",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/dates/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "504d8a7f7b942fe9deaa029509492f874154abcd023ca103b315898c3415cdd0",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/dates/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b0f666e56b6e78668d1ac2c4adaa7e0effc0da84858e145ec96ac098b46fbcb1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/dates/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "27dd5a08c94e6e9e04067b093ffae7182f677c94f7b7d650ec105638b07e048d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/dates/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6e7c27429ed69142406410aa4a85a1f836368189f0f3c2d655c3fc83a48dec2d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/dates/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8ce4ef3ed16555de9be398224802e3118935df31b9116790bc1c8d5b35f51636",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-144754/cincinnati-open/dates/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cincinnati-open-2026-dates-prize",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "b0f666e56b6e78668d1ac2c4adaa7e0effc0da84858e145ec96ac098b46fbcb1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T15:38:02.191Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.atptour.com/en/tournaments/atp-masters-1000-cincinnati/422/overview"
     }
   ],
-  "packageDigest": "f8d17bb7bdfddbc9f7581b8e76033dfac06536dda9ea96fd998f192f1fd501a8",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -129085,7 +131368,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "522c63186e66351e7ab972b7db542d5cf67b18d2cce230d71e75bbb2f6e49171"
 }
