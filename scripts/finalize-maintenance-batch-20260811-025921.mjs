@@ -14,12 +14,12 @@ const markerPath=resolve(root,"public/.well-known/bohonews-release.json");
 const digest=(value)=>createHash("sha256").update(stableJson(value)).digest("hex");
 const batchId="PB-20260811T025921Z-4A7C9D1E8B20";
 const slugs=[
-  "doe-nuclear-cleanup-end-state-contracts-cost-growth-gao-2026",
-  "federal-prison-population-first-step-act-statistics-2024",
-  "smithsonian-pulverer-japanese-books-digital-catalog",
-  "gao-opm-eight-priority-recommendations-2026",
-  "gao-overlapping-cybersecurity-reporting-rules-2026",
-  "nsf-four-year-phd-industry-research-pilot-2026"
+  "gao-nuclear-cleanup-international-lessons-2026",
+  "doj-inventory-62-criminal-regulatory-offenses-2026",
+  "smithsonian-princess-grace-program-swan-benches-2026",
+  "nih-sennet-senescent-cell-atlas-senotypes-2026",
+  "ncaa-wichita-opening-round-march-madness-2027-2028",
+  "imf-austria-growth-inflation-outlook-2026"
 ];
 const promotion=JSON.parse(readFileSync(promotionPath,"utf8"));
 const articles=slugs.map((slug)=>promotion.articles.find((article)=>article.slug===slug));
