@@ -45587,25 +45587,920 @@
         "The IMF said additional fiscal consolidation may be needed but did not prescribe a single guaranteed policy path."
       ],
       "updatedAt": "2026-08-11T03:32:26.385Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Four major federal agencies were not systematically collecting lessons from artificial-intelligence purchases even as government use of AI expanded, the Government Accountability Office said in an April report.\n\nGAO conducted in-depth reviews of 13 acquisitions at the departments of Defense, Homeland Security and Veterans Affairs and at the General Services Administration. The sample included chatbots, computer vision, airport facial comparison and systems supporting benefits work.\n\nFederal agencies reportedly more than doubled their use of AI from 2023 to 2024. GAO said acquisition officials faced recurring challenges involving technical expertise, requirements, data rights, vendor lock-in, testing and the difficulty of estimating AI costs.\n\nOfficials at all four reviewed agencies told auditors they did not consistently document lessons because department policies did not require a formal process. That limited the material available for a government-wide repository managed by GSA.\n\nGAO said shared lessons could help agencies reuse effective contract language, protect government data, test systems before larger commitments and avoid repeating pricing or performance mistakes.\n\nThe watchdog made one recommendation to each agency: update policy so officials systematically collect lessons, including useful contract clauses, and submit them for government-wide sharing. All four agencies concurred.\n\nThe report does not conclude that every reviewed AI system failed or that a single contract model fits every use. It describes trade-offs between products and services, traditional contracts and other agreements, and agency-led versus vendor-led proposals.\n\nGAO also cautioned that the market and federal policy were changing too quickly to determine which approaches would produce the best returns in every setting. Continuous evaluation remains important because AI performance can change with data and use conditions.\n\nThe oversight gap is therefore procedural: agencies are buying increasingly consequential systems without a consistent way to preserve what prior acquisitions taught them about requirements, rights, testing and cost.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Four major federal agencies were not systematically collecting lessons from artificial-intelligence purchases even as government use of AI expanded, the Government Accountability Office said in an April report."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO conducted in-depth reviews of 13 acquisitions at the departments of Defense, Homeland Security and Veterans Affairs and at the General Services Administration. The sample included chatbots, computer vision, airport facial comparison and systems supporting benefits work."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-ai-acquisition-sample-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/sample/four-three.webp",
+          "alt": "Graphic shows 13 AI acquisitions reviewed across four federal agencies.",
+          "caption": "GAO conducted in-depth reviews of 13 AI acquisitions across four federal agencies.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107859"
+        },
+        {
+          "type": "paragraph",
+          "text": "Federal agencies reportedly more than doubled their use of AI from 2023 to 2024. GAO said acquisition officials faced recurring challenges involving technical expertise, requirements, data rights, vendor lock-in, testing and the difficulty of estimating AI costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Officials at all four reviewed agencies told auditors they did not consistently document lessons because department policies did not require a formal process. That limited the material available for a government-wide repository managed by GSA."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO said shared lessons could help agencies reuse effective contract language, protect government data, test systems before larger commitments and avoid repeating pricing or performance mistakes."
+        },
+        {
+          "type": "paragraph",
+          "text": "The watchdog made one recommendation to each agency: update policy so officials systematically collect lessons, including useful contract clauses, and submit them for government-wide sharing. All four agencies concurred."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-ai-lessons-recommendations-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/recommendations/four-three.webp",
+          "alt": "Graphic lists four agencies and four recommendations on AI procurement lessons.",
+          "caption": "GAO made four recommendations requiring Defense, DHS, GSA and VA to systematically collect and share lessons from AI acquisitions.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107859"
+        },
+        {
+          "type": "paragraph",
+          "text": "The report does not conclude that every reviewed AI system failed or that a single contract model fits every use. It describes trade-offs between products and services, traditional contracts and other agreements, and agency-led versus vendor-led proposals."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO also cautioned that the market and federal policy were changing too quickly to determine which approaches would produce the best returns in every setting. Continuous evaluation remains important because AI performance can change with data and use conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The oversight gap is therefore procedural: agencies are buying increasingly consequential systems without a consistent way to preserve what prior acquisitions taught them about requirements, rights, testing and cost."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-ai-acquisitions-lessons-four-agencies-2026/",
+      "citations": [
+        {
+          "id": "source-gao-ai-acquisitions-20260413",
+          "title": "Artificial Intelligence Acquisitions: Agencies Should Collect and Apply Lessons Learned to Improve Future Procurements",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-04-13T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-107859"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "GAO reviewed 13 AI acquisitions at four agencies.",
+        "Federal agencies reportedly more than doubled AI use from 2023 to 2024.",
+        "The four agencies did not systematically collect acquisition lessons.",
+        "GAO made four recommendations.",
+        "All four agencies concurred."
+      ],
+      "corrections": [],
+      "dek": "GAO reviewed 13 acquisitions and found that Defense, DHS, GSA and Veterans Affairs did not systematically collect lessons that could improve future contract terms, testing and pricing.",
+      "desk": "federal-ai-procurement-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Department of Defense",
+        "Department of Homeland Security",
+        "General Services Administration",
+        "Department of Veterans Affairs"
+      ],
+      "eventId": "event-gao-ai-acquisitions-lessons-four-agencies-2026",
+      "headline": "Four Agencies Lack Required Lessons-Learned Systems for AI Purchases, GAO Says",
+      "id": "article-gao-ai-acquisitions-lessons-four-agencies-2026",
+      "leadImage": {
+        "alt": "Travelers queue beside screening equipment at an airport security checkpoint.",
+        "caption": "A Transportation Security Administration checkpoint. GAO examined federal AI purchases including facial-comparison technology used for traveler identity verification.",
+        "credit": "Tony Webster / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-tsa-security-checkpoint-tony-webster",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/tsa-checkpoint/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO found Defense, DHS, GSA and VA did not systematically collect lessons from 13 reviewed AI acquisitions and made four recommendations.",
+        "index": true,
+        "title": "GAO finds four agencies lack AI procurement lesson systems"
+      },
+      "section": "investigations",
+      "slug": "gao-ai-acquisitions-lessons-four-agencies-2026",
+      "social": {
+        "description": "GAO reviewed 13 acquisitions and found that Defense, DHS, GSA and Veterans Affairs did not systematically collect lessons that could improve future contract terms, testing and pricing.",
+        "image": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/tsa-checkpoint/open-graph.webp",
+        "title": "Four Agencies Lack Required Lessons-Learned Systems for AI Purchases, GAO Says"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Artificial intelligence",
+        "Federal procurement",
+        "Government oversight",
+        "Contracting",
+        "Technology policy"
+      ],
+      "uncertainty": [
+        "GAO's selected acquisitions are not a statistical sample of every federal AI purchase.",
+        "The report said it was too soon to identify a universally best acquisition approach."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal courts sentenced 7,245 people under the main prohibited-person firearm statute in fiscal 2025, according to a new United States Sentencing Commission summary.\n\nThose cases represented about 10.9% of the 66,662 federal cases reported to the commission for the year. Section 922(g) prohibits specified categories of people from shipping, transporting, possessing or receiving firearms or ammunition.\n\nThe most common basis was a prior felony conviction: 89% of the Section 922(g) defendants in the dataset were sentenced under that category. The statute also covers other categories defined by federal law.\n\nThe commission reported an average sentence of 63 months. Sentence length varied with criminal history, conduct, guideline calculations, statutory exposure and case-specific judicial findings.\n\nTwenty-three percent of the sentenced individuals were in Criminal History Category VI, the highest category, while 10% were in Category I. Eight percent were also convicted under another statute carrying a mandatory minimum, most often a drug offense.\n\nThe demographic tables say 98% were men, the average age was 37 and 94% were U.S. citizens. Those descriptive figures do not measure offending rates in the general population and should not be used to infer individual conduct.\n\nCommission data cover federal sentencing, not state firearm prosecutions, arrests that did not result in a federal conviction or every gun-related offense. Section 922(g) is one part of the federal criminal code.\n\nThe quick-facts series draws on fiscal 2021 through 2025 commission datafiles, allowing year-to-year comparisons, but changes can reflect enforcement patterns, charging practices and case mix as well as underlying conduct.\n\nThe 2025 snapshot establishes the scale and profile of federal Section 922(g) sentencing without identifying private defendants or predicting the outcome of any current case.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Federal courts sentenced 7,245 people under the main prohibited-person firearm statute in fiscal 2025, according to a new United States Sentencing Commission summary."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those cases represented about 10.9% of the 66,662 federal cases reported to the commission for the year. Section 922(g) prohibits specified categories of people from shipping, transporting, possessing or receiving firearms or ammunition."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-922g-case-snapshot-2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/cases/four-three.webp",
+          "alt": "Graphic shows 7,245 Section 922(g) cases out of 66,662 federal cases in fiscal 2025.",
+          "caption": "Of 66,662 federal cases reported for fiscal 2025, 7,245 involved convictions under Section 922(g).",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/section-922g-firearms"
+        },
+        {
+          "type": "paragraph",
+          "text": "The most common basis was a prior felony conviction: 89% of the Section 922(g) defendants in the dataset were sentenced under that category. The statute also covers other categories defined by federal law."
+        },
+        {
+          "type": "paragraph",
+          "text": "The commission reported an average sentence of 63 months. Sentence length varied with criminal history, conduct, guideline calculations, statutory exposure and case-specific judicial findings."
+        },
+        {
+          "type": "paragraph",
+          "text": "Twenty-three percent of the sentenced individuals were in Criminal History Category VI, the highest category, while 10% were in Category I. Eight percent were also convicted under another statute carrying a mandatory minimum, most often a drug offense."
+        },
+        {
+          "type": "paragraph",
+          "text": "The demographic tables say 98% were men, the average age was 37 and 94% were U.S. citizens. Those descriptive figures do not measure offending rates in the general population and should not be used to infer individual conduct."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-922g-sentence-profile-2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/sentences/four-three.webp",
+          "alt": "Graphic shows an average 63-month sentence and 89 percent involving a prior felony conviction.",
+          "caption": "The average Section 922(g) sentence was 63 months; 89% of cases involved a prior felony conviction.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/section-922g-firearms"
+        },
+        {
+          "type": "paragraph",
+          "text": "Commission data cover federal sentencing, not state firearm prosecutions, arrests that did not result in a federal conviction or every gun-related offense. Section 922(g) is one part of the federal criminal code."
+        },
+        {
+          "type": "paragraph",
+          "text": "The quick-facts series draws on fiscal 2021 through 2025 commission datafiles, allowing year-to-year comparisons, but changes can reflect enforcement patterns, charging practices and case mix as well as underlying conduct."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 2025 snapshot establishes the scale and profile of federal Section 922(g) sentencing without identifying private defendants or predicting the outcome of any current case."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-section-922g-firearm-sentences-7245-2025/",
+      "citations": [
+        {
+          "id": "source-ussc-section-922g-fy2025",
+          "title": "Section 922(g) Firearms",
+          "publisher": "United States Sentencing Commission",
+          "publishedAt": "2026-06-01T12:00:00Z",
+          "url": "https://www.ussc.gov/research/quick-facts/section-922g-firearms"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "There were 7,245 Section 922(g) cases in fiscal 2025.",
+        "The commission reported 66,662 federal cases overall.",
+        "Eighty-nine percent involved a prior felony conviction.",
+        "The average sentence was 63 months.",
+        "Twenty-three percent were in Criminal History Category VI."
+      ],
+      "corrections": [],
+      "dek": "The Sentencing Commission says 89% of the cases involved a prior felony conviction and the average sentence was 63 months.",
+      "desk": "federal-firearm-sentencing-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Sentencing Commission",
+        "Federal courts",
+        "Congress"
+      ],
+      "eventId": "event-federal-section-922g-firearm-sentences-7245-2025",
+      "headline": "Federal Courts Sentenced 7,245 People Under Section 922(g) in 2025",
+      "id": "article-federal-section-922g-firearm-sentences-7245-2025",
+      "leadImage": {
+        "alt": "A historic stone federal courthouse rises above a downtown Indianapolis street.",
+        "caption": "The Birch Bayh Federal Building and U.S. Courthouse in Indianapolis. New Sentencing Commission tables summarize fiscal 2025 Section 922(g) cases nationwide.",
+        "credit": "Richie Diesterheft / Wikimedia Commons, CC BY-SA 2.0",
+        "height": 900,
+        "rightsId": "media-birch-bayh-courthouse-january-2012",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/birch-bayh-courthouse/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Indianapolis, Indiana"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Sentencing Commission data show 7,245 Section 922(g) cases in fiscal 2025, with an average sentence of 63 months.",
+        "index": true,
+        "title": "Section 922(g) federal firearm cases reached 7,245 in 2025"
+      },
+      "section": "crime-justice",
+      "slug": "federal-section-922g-firearm-sentences-7245-2025",
+      "social": {
+        "description": "The Sentencing Commission says 89% of the cases involved a prior felony conviction and the average sentence was 63 months.",
+        "image": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/birch-bayh-courthouse/open-graph.webp",
+        "title": "Federal Courts Sentenced 7,245 People Under Section 922(g) in 2025"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal sentencing",
+        "Firearm offenses",
+        "Section 922(g)",
+        "Criminal justice data",
+        "Sentencing Commission"
+      ],
+      "uncertainty": [
+        "The data describe federal sentences and do not represent state prosecutions or all firearm conduct.",
+        "Case counts and sentence averages are affected by charging practices, case mix and criminal history."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The U.S. population relevant to Social Security is projected to grow from 349 million people in 2026 to 364 million in 2056 while becoming older on average, the Congressional Budget Office said in its latest demographic outlook.\n\nThat increase of about 15 million over three decades amounts to slow average growth. CBO said the age shift matters for the economy and federal budget because older people are less likely to work and are generally eligible for Social Security and Medicare.\n\nThe office projects 2.7 people ages 25 to 64 for every person age 65 or older in 2026. By 2056, the ratio is expected to fall to 2.2 to one.\n\nThe population age 24 or younger is projected to decline in every year of the 30-year period. The number of people ages 25 to 54 rises through 2042 and then declines, while the 65-and-older population grows fastest in the first decade.\n\nCBO projects life expectancy at birth to rise from 79.0 years in 2026 to 82.3 years in 2056. It also expects fertility to remain below the replacement rate, reaching about 1.53 births per woman in 2035.\n\nImmigration becomes an increasingly important source of population growth under the projection. The categories and assumptions reflect laws, policies and administrative actions in place when CBO completed the forecast.\n\nCompared with its January 2025 outlook, CBO now projects 8 million fewer people in 2055, mainly because of lower near-term net immigration and lower fertility assumptions.\n\nThese are baseline projections, not targets or certain outcomes. Fertility, mortality, migration, legislation and administrative policy can differ materially from the assumptions, and small annual gaps compound over 30 years.\n\nThe report supplies Congress with a common demographic baseline: modest total growth, fewer young people and a smaller working-age population relative to retirees will shape future labor-force and benefit-program debates.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The U.S. population relevant to Social Security is projected to grow from 349 million people in 2026 to 364 million in 2056 while becoming older on average, the Congressional Budget Office said in its latest demographic outlook."
+        },
+        {
+          "type": "paragraph",
+          "text": "That increase of about 15 million over three decades amounts to slow average growth. CBO said the age shift matters for the economy and federal budget because older people are less likely to work and are generally eligible for Social Security and Medicare."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cbo-population-growth-2026-2056",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/population/four-three.webp",
+          "alt": "Graphic shows population rising from 349 million in 2026 to 364 million in 2056.",
+          "caption": "CBO projects the Social Security area population will grow from 349 million in 2026 to 364 million in 2056.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cbo.gov/publication/61994"
+        },
+        {
+          "type": "paragraph",
+          "text": "The office projects 2.7 people ages 25 to 64 for every person age 65 or older in 2026. By 2056, the ratio is expected to fall to 2.2 to one."
+        },
+        {
+          "type": "paragraph",
+          "text": "The population age 24 or younger is projected to decline in every year of the 30-year period. The number of people ages 25 to 54 rises through 2042 and then declines, while the 65-and-older population grows fastest in the first decade."
+        },
+        {
+          "type": "paragraph",
+          "text": "CBO projects life expectancy at birth to rise from 79.0 years in 2026 to 82.3 years in 2056. It also expects fertility to remain below the replacement rate, reaching about 1.53 births per woman in 2035."
+        },
+        {
+          "type": "paragraph",
+          "text": "Immigration becomes an increasingly important source of population growth under the projection. The categories and assumptions reflect laws, policies and administrative actions in place when CBO completed the forecast."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cbo-working-age-older-ratio-2056",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/age-ratio/four-three.webp",
+          "alt": "Graphic shows the working-age-to-older-person ratio declining from 2.7 to 2.2.",
+          "caption": "CBO projects the ratio of people ages 25–64 to each person age 65 or older will decline from 2.7 in 2026 to 2.2 in 2056.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cbo.gov/publication/61994"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compared with its January 2025 outlook, CBO now projects 8 million fewer people in 2055, mainly because of lower near-term net immigration and lower fertility assumptions."
+        },
+        {
+          "type": "paragraph",
+          "text": "These are baseline projections, not targets or certain outcomes. Fertility, mortality, migration, legislation and administrative policy can differ materially from the assumptions, and small annual gaps compound over 30 years."
+        },
+        {
+          "type": "paragraph",
+          "text": "The report supplies Congress with a common demographic baseline: modest total growth, fewer young people and a smaller working-age population relative to retirees will shape future labor-force and benefit-program debates."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/cbo-us-population-364-million-aging-2056/",
+      "citations": [
+        {
+          "id": "source-cbo-demographic-outlook-202601",
+          "title": "The Demographic Outlook: 2026 to 2056",
+          "publisher": "Congressional Budget Office",
+          "publishedAt": "2026-01-01T12:00:00Z",
+          "url": "https://www.cbo.gov/publication/61994"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "CBO projects population growth from 349 million in 2026 to 364 million in 2056.",
+        "The ages 25–64 to 65-plus ratio falls from 2.7 to 2.2.",
+        "The under-25 population declines throughout the projection.",
+        "Life expectancy at birth rises to 82.3 years by 2056.",
+        "The 2055 projection is 8 million lower than CBO's January 2025 projection."
+      ],
+      "corrections": [],
+      "dek": "The office expects the ratio of people ages 25–64 to those 65 and older to fall from 2.7 to 2.2 over three decades.",
+      "desk": "federal-demographic-outlook",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Congressional Budget Office",
+        "Congress",
+        "Social Security",
+        "Medicare"
+      ],
+      "eventId": "event-cbo-us-population-364-million-aging-2056",
+      "headline": "CBO Projects U.S. Population Will Reach 364 Million in 2056 as the Country Ages",
+      "id": "article-cbo-us-population-364-million-aging-2056",
+      "leadImage": {
+        "alt": "A large crowd of pedestrians and cyclists fills a broad New York City avenue.",
+        "caption": "Pedestrians fill a New York City street. CBO projects slow population growth and a continuing rise in the share of older Americans through 2056.",
+        "credit": "Marianne O'Leary / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-summer-streets-crowd-3823998194",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/summer-streets/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "New York City"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "CBO projects slow growth to 364 million people by 2056 and a decline in the working-age-to-older-person ratio from 2.7 to 2.2.",
+        "index": true,
+        "title": "CBO projects U.S. population at 364 million in 2056"
+      },
+      "section": "politics",
+      "slug": "cbo-us-population-364-million-aging-2056",
+      "social": {
+        "description": "The office expects the ratio of people ages 25–64 to those 65 and older to fall from 2.7 to 2.2 over three decades.",
+        "image": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/summer-streets/open-graph.webp",
+        "title": "CBO Projects U.S. Population Will Reach 364 Million in 2056 as the Country Ages"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Population projections",
+        "Aging",
+        "Immigration",
+        "Fertility",
+        "Federal budget"
+      ],
+      "uncertainty": [
+        "Long-range demographic projections are sensitive to fertility, mortality, migration and policy assumptions.",
+        "The Social Security area population differs from the resident population measure used in some other datasets."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The U.S. Geological Survey has released a machine-learning system that forecasts streamflow drought at more than 3,000 river and stream locations for as long as 13 weeks.\n\nRiver DroughtCast is trained on data from thousands of USGS streamgages, some with more than a century of continuous records. The public tool covers gages with at least 40 years of data.\n\nStreamflow drought occurs when rivers and streams remain below normal levels for an extended period. It differs from meteorological drought because soil moisture, snowpack and groundwater affect how a rainfall deficit reaches waterways.\n\nUsers can select a forecast from one to 13 weeks. USGS says the system is most reliable over the first four to six weeks and includes confidence estimates for each prediction horizon.\n\nThe first week of severe or extreme drought is correctly predicted about 75% of the time, according to the agency. Reported reliability falls to about 55% by week 13.\n\nThe tool is intended to bridge shorter weather forecasts and seasonal water-supply outlooks. Farmers, municipal water managers and recreation operators could use the added lead time to consider irrigation, conservation or operating changes.\n\nUSGS developed River DroughtCast with NOAA's National Integrated Drought Information System. Developers say a future version is intended to expand access into areas without qualifying streamgages and further improve accuracy.\n\nA probabilistic forecast is not a guarantee that a river will cross a drought threshold. Accuracy varies with lead time, local conditions and available historical data, and users should read the confidence information with each forecast.\n\nThe operational advance is a nationwide early-warning layer built from long-running public measurements: managers can now inspect weekly low-flow risk months ahead while seeing how forecast confidence declines with time.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The U.S. Geological Survey has released a machine-learning system that forecasts streamflow drought at more than 3,000 river and stream locations for as long as 13 weeks."
+        },
+        {
+          "type": "paragraph",
+          "text": "River DroughtCast is trained on data from thousands of USGS streamgages, some with more than a century of continuous records. The public tool covers gages with at least 40 years of data."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-usgs-river-droughtcast-gage-coverage-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/coverage/four-three.webp",
+          "alt": "Graphic shows more than 3,000 streamgages, at least 40 years of data and forecasts up to 13 weeks.",
+          "caption": "River DroughtCast provides one- to 13-week forecasts at more than 3,000 USGS streamgages with at least 40 years of data.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.usgs.gov/news/national-news-release/new-ai-tool-forecasts-drought-90-days-ahead-nationwide"
+        },
+        {
+          "type": "paragraph",
+          "text": "Streamflow drought occurs when rivers and streams remain below normal levels for an extended period. It differs from meteorological drought because soil moisture, snowpack and groundwater affect how a rainfall deficit reaches waterways."
+        },
+        {
+          "type": "paragraph",
+          "text": "Users can select a forecast from one to 13 weeks. USGS says the system is most reliable over the first four to six weeks and includes confidence estimates for each prediction horizon."
+        },
+        {
+          "type": "paragraph",
+          "text": "The first week of severe or extreme drought is correctly predicted about 75% of the time, according to the agency. Reported reliability falls to about 55% by week 13."
+        },
+        {
+          "type": "paragraph",
+          "text": "The tool is intended to bridge shorter weather forecasts and seasonal water-supply outlooks. Farmers, municipal water managers and recreation operators could use the added lead time to consider irrigation, conservation or operating changes."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-usgs-river-droughtcast-reliability-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/reliability/four-three.webp",
+          "alt": "Graphic shows forecast reliability declining from about 75 percent in week one to about 55 percent in week 13.",
+          "caption": "USGS reports about 75% first-week accuracy for severe or extreme drought onset, declining to about 55% by week 13.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.usgs.gov/news/national-news-release/new-ai-tool-forecasts-drought-90-days-ahead-nationwide"
+        },
+        {
+          "type": "paragraph",
+          "text": "USGS developed River DroughtCast with NOAA's National Integrated Drought Information System. Developers say a future version is intended to expand access into areas without qualifying streamgages and further improve accuracy."
+        },
+        {
+          "type": "paragraph",
+          "text": "A probabilistic forecast is not a guarantee that a river will cross a drought threshold. Accuracy varies with lead time, local conditions and available historical data, and users should read the confidence information with each forecast."
+        },
+        {
+          "type": "paragraph",
+          "text": "The operational advance is a nationwide early-warning layer built from long-running public measurements: managers can now inspect weekly low-flow risk months ahead while seeing how forecast confidence declines with time."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/usgs-river-droughtcast-90-day-streamflow-forecast-2026/",
+      "citations": [
+        {
+          "id": "source-usgs-river-droughtcast-20260331",
+          "title": "New AI Tool Forecasts Drought 90 Days Ahead Nationwide",
+          "publisher": "U.S. Geological Survey",
+          "publishedAt": "2026-03-31T12:00:00Z",
+          "url": "https://www.usgs.gov/news/national-news-release/new-ai-tool-forecasts-drought-90-days-ahead-nationwide"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "River DroughtCast forecasts one to 13 weeks ahead.",
+        "The tool covers more than 3,000 streamgages.",
+        "Covered gages have at least 40 years of data.",
+        "First-week severe or extreme drought onset is predicted correctly about 75% of the time.",
+        "Reliability is about 55% by week 13."
+      ],
+      "corrections": [],
+      "dek": "The machine-learning system covers more than 3,000 streamgages and correctly predicts the first week of severe or extreme drought about 75% of the time.",
+      "desk": "streamflow-drought-forecasting",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Geological Survey",
+        "NOAA National Integrated Drought Information System",
+        "River DroughtCast"
+      ],
+      "eventId": "event-usgs-river-droughtcast-90-day-streamflow-forecast-2026",
+      "headline": "USGS River DroughtCast Forecasts Low Streamflow Up to 90 Days Ahead",
+      "id": "article-usgs-river-droughtcast-90-day-streamflow-forecast-2026",
+      "leadImage": {
+        "alt": "A hydrologic technician in a small boat measures the flow of a broad river.",
+        "caption": "A USGS hydrologic technician measures Boise River streamflow. River DroughtCast forecasts abnormally low flows at thousands of long-running streamgages.",
+        "credit": "Tim Merrick / U.S. Geological Survey",
+        "height": 900,
+        "rightsId": "media-usgs-boise-river-streamflow-adcp",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/boise-streamflow/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Boise River",
+        "Idaho"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "USGS River DroughtCast uses machine learning to forecast streamflow drought up to 13 weeks at more than 3,000 gages.",
+        "index": true,
+        "title": "USGS River DroughtCast forecasts streamflow drought 90 days ahead"
+      },
+      "section": "weather-climate",
+      "slug": "usgs-river-droughtcast-90-day-streamflow-forecast-2026",
+      "social": {
+        "description": "The machine-learning system covers more than 3,000 streamgages and correctly predicts the first week of severe or extreme drought about 75% of the time.",
+        "image": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/boise-streamflow/open-graph.webp",
+        "title": "USGS River DroughtCast Forecasts Low Streamflow Up to 90 Days Ahead"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Streamflow drought",
+        "Water forecasting",
+        "Machine learning",
+        "River DroughtCast",
+        "USGS"
+      ],
+      "uncertainty": [
+        "Forecasts are probabilistic and reliability declines with longer lead times.",
+        "The current version is limited to qualifying streamgage locations and does not cover every river reach."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Government Accountability Office has published a four-pillar framework for measuring U.S. artificial-intelligence competitiveness, an attempt to make broad claims about the global AI race more systematic and testable.\n\nThe pillars are science and technology, human capital, governance and the economy. Each includes subpillars such as research and development, workforce, laws and policies, infrastructure, investment and financing.\n\nGAO says an assessment should begin by selecting the outcome policymakers care about. An analysis focused on exporting AI technology, for example, may use different indicators than one focused on research leadership or standards influence.\n\nAnalysts then identify indicators, conduct data analysis and develop policy options. The method can compare the United States with other countries or track U.S. capabilities over time.\n\nThe report does not produce a single U.S. score or declare a winner in the AI competition. It provides a structure for choosing evidence and explaining why particular metrics are relevant.\n\nGAO developed the framework through literature review and consultation with experts from government, academia, industry and nonprofit organizations. It is designed for analysts in any of those sectors.\n\nThe office notes that AI competitiveness involves trade-offs. Computing infrastructure, talent and investment can accelerate development, while deployment also creates risks involving jobs, energy use, safety and governance.\n\nRankings produced with the framework will still depend on indicator quality, weights, available international data and the chosen outcome. Different defensible choices can yield different results and should be disclosed.\n\nThe practical contribution is a common checklist: national AI strength cannot be reduced to model performance or private investment alone, and policy comparisons should account for the institutions, people and economy around the technology.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Government Accountability Office has published a four-pillar framework for measuring U.S. artificial-intelligence competitiveness, an attempt to make broad claims about the global AI race more systematic and testable."
+        },
+        {
+          "type": "paragraph",
+          "text": "The pillars are science and technology, human capital, governance and the economy. Each includes subpillars such as research and development, workforce, laws and policies, infrastructure, investment and financing."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-ai-competitiveness-four-pillars-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/pillars/four-three.webp",
+          "alt": "Graphic lists four AI competitiveness pillars: science and technology, human capital, governance and economy.",
+          "caption": "GAO organizes AI competitiveness around four pillars: science and technology, human capital, governance and the economy.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107624"
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO says an assessment should begin by selecting the outcome policymakers care about. An analysis focused on exporting AI technology, for example, may use different indicators than one focused on research leadership or standards influence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts then identify indicators, conduct data analysis and develop policy options. The method can compare the United States with other countries or track U.S. capabilities over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "The report does not produce a single U.S. score or declare a winner in the AI competition. It provides a structure for choosing evidence and explaining why particular metrics are relevant."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO developed the framework through literature review and consultation with experts from government, academia, industry and nonprofit organizations. It is designed for analysts in any of those sectors."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-ai-assessment-four-steps-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/steps/four-three.webp",
+          "alt": "Graphic shows four assessment steps from selecting outcomes through developing policy options.",
+          "caption": "The framework uses four steps: select outcomes, identify indicators, analyze data and develop policy options.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107624"
+        },
+        {
+          "type": "paragraph",
+          "text": "The office notes that AI competitiveness involves trade-offs. Computing infrastructure, talent and investment can accelerate development, while deployment also creates risks involving jobs, energy use, safety and governance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rankings produced with the framework will still depend on indicator quality, weights, available international data and the chosen outcome. Different defensible choices can yield different results and should be disclosed."
+        },
+        {
+          "type": "paragraph",
+          "text": "The practical contribution is a common checklist: national AI strength cannot be reduced to model performance or private investment alone, and policy comparisons should account for the institutions, people and economy around the technology."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-four-pillar-us-ai-competitiveness-framework-2026/",
+      "citations": [
+        {
+          "id": "source-gao-ai-competitiveness-framework-20260521",
+          "title": "Artificial Intelligence: A Framework to Assess U.S. Competitiveness and Inform Policy Options",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-05-21T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-107624"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "GAO's framework has four pillars.",
+        "The pillars cover science and technology, human capital, governance and the economy.",
+        "The method has four assessment steps.",
+        "It can compare countries or track change over time.",
+        "The report does not assign the United States a single score."
+      ],
+      "corrections": [],
+      "dek": "The method asks analysts to assess science and technology, human capital, governance and the economy before ranking the United States against peers.",
+      "desk": "ai-competitiveness-measurement",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Congress",
+        "Federal agencies"
+      ],
+      "eventId": "event-gao-four-pillar-us-ai-competitiveness-framework-2026",
+      "headline": "GAO Builds Four-Pillar Framework to Measure U.S. AI Competitiveness",
+      "id": "article-gao-four-pillar-us-ai-competitiveness-framework-2026",
+      "leadImage": {
+        "alt": "A technician uses a laptop beside tall server racks in a computing center.",
+        "caption": "A technician works beside computing equipment at the National Energy Research Scientific Computing Center. GAO's new framework treats infrastructure as one component of national AI competitiveness.",
+        "credit": "Derrick Coetzee / Wikimedia Commons, CC0",
+        "height": 900,
+        "rightsId": "media-nersc-technician-server-rack",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/nersc-technician/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Berkeley, California"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO's new AI competitiveness framework measures science and technology, human capital, governance and the economy in four steps.",
+        "index": true,
+        "title": "GAO releases four-pillar U.S. AI competitiveness framework"
+      },
+      "section": "technology",
+      "slug": "gao-four-pillar-us-ai-competitiveness-framework-2026",
+      "social": {
+        "description": "The method asks analysts to assess science and technology, human capital, governance and the economy before ranking the United States against peers.",
+        "image": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/nersc-technician/open-graph.webp",
+        "title": "GAO Builds Four-Pillar Framework to Measure U.S. AI Competitiveness"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Artificial intelligence",
+        "U.S. competitiveness",
+        "Technology measurement",
+        "Human capital",
+        "AI governance"
+      ],
+      "uncertainty": [
+        "Results depend on selected outcomes, indicators, weighting and data quality.",
+        "The framework structures analysis but does not guarantee consensus on national rankings."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Current spending by U.S. public school systems reached a record $17,619 per pupil in fiscal 2024, up 6.6% from $16,526 a year earlier, the Census Bureau reported.\n\nThe figures come from the Annual Survey of School System Finances and are not adjusted for inflation or regional cost-of-living differences. They cover public elementary and secondary systems in every state and the District of Columbia.\n\nNew York recorded the highest state-level current spending at $31,918 per pupil, followed by the District of Columbia at $31,529 and Vermont at $28,818. Idaho was lowest at $11,060.\n\nRevenue from all sources totaled $994.9 billion, a 5.1% increase from fiscal 2023. State governments provided $450.0 billion, or 45.2%, while local sources supplied $429.8 billion, or 43.2%.\n\nFederal revenue fell 4.4% to $115.1 billion and accounted for 11.6% of the total. The federal share varied substantially among states, from 22.7% in Mississippi to 6.3% in New Jersey.\n\nTotal expenditures were $983.7 billion. Current spending accounted for $842.3 billion, capital outlay for $113.1 billion and other categories made up the remainder.\n\nInstruction represented $495.0 billion, or 58.8% of current spending. Instructional salaries alone totaled $291.8 billion, 29.7% of all expenditures.\n\nPer-pupil rankings do not measure school quality or student outcomes on their own. Staffing costs, enrollment, geography, services, wages and accounting structures differ across systems.\n\nThe release nevertheless establishes a nationwide financing benchmark: nominal spending per student set a record even as the federal contribution declined and state and local sources supplied nearly nine-tenths of revenue.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Current spending by U.S. public school systems reached a record $17,619 per pupil in fiscal 2024, up 6.6% from $16,526 a year earlier, the Census Bureau reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "The figures come from the Annual Survey of School System Finances and are not adjusted for inflation or regional cost-of-living differences. They cover public elementary and secondary systems in every state and the District of Columbia."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-us-school-spending-per-pupil-2024",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/per-pupil/four-three.webp",
+          "alt": "Graphic shows per-pupil spending rising from 16,526 dollars to 17,619 dollars.",
+          "caption": "Current spending rose 6.6% from $16,526 per pupil in fiscal 2023 to $17,619 in fiscal 2024.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/school-system-finances.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "New York recorded the highest state-level current spending at $31,918 per pupil, followed by the District of Columbia at $31,529 and Vermont at $28,818. Idaho was lowest at $11,060."
+        },
+        {
+          "type": "paragraph",
+          "text": "Revenue from all sources totaled $994.9 billion, a 5.1% increase from fiscal 2023. State governments provided $450.0 billion, or 45.2%, while local sources supplied $429.8 billion, or 43.2%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Federal revenue fell 4.4% to $115.1 billion and accounted for 11.6% of the total. The federal share varied substantially among states, from 22.7% in Mississippi to 6.3% in New Jersey."
+        },
+        {
+          "type": "paragraph",
+          "text": "Total expenditures were $983.7 billion. Current spending accounted for $842.3 billion, capital outlay for $113.1 billion and other categories made up the remainder."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-us-school-revenue-sources-2024",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/revenue/four-three.webp",
+          "alt": "Graphic shows school revenue shares of 45.2 percent state, 43.2 percent local and 11.6 percent federal.",
+          "caption": "State sources supplied 45.2% of school revenue, local sources 43.2% and federal sources 11.6% in fiscal 2024.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/school-system-finances.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "Instruction represented $495.0 billion, or 58.8% of current spending. Instructional salaries alone totaled $291.8 billion, 29.7% of all expenditures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Per-pupil rankings do not measure school quality or student outcomes on their own. Staffing costs, enrollment, geography, services, wages and accounting structures differ across systems."
+        },
+        {
+          "type": "paragraph",
+          "text": "The release nevertheless establishes a nationwide financing benchmark: nominal spending per student set a record even as the federal contribution declined and state and local sources supplied nearly nine-tenths of revenue."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/us-public-school-spending-17619-per-pupil-2024/",
+      "citations": [
+        {
+          "id": "source-census-school-finances-fy2024",
+          "title": "Public School Spending Per Pupil Reaches Historic High in 2024",
+          "publisher": "U.S. Census Bureau",
+          "publishedAt": "2026-05-07T12:00:00Z",
+          "url": "https://www.census.gov/newsroom/press-releases/2026/school-system-finances.html"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Current spending reached $17,619 per pupil in fiscal 2024.",
+        "The increase from fiscal 2023 was 6.6%.",
+        "Total revenue was $994.9 billion.",
+        "Federal revenue fell 4.4% to $115.1 billion.",
+        "Instruction represented 58.8% of current spending."
+      ],
+      "corrections": [],
+      "dek": "Census data show a 6.6% increase in current spending per student while federal revenue fell 4.4% from the prior fiscal year.",
+      "desk": "public-education-finance",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Census Bureau",
+        "Public school systems",
+        "State governments",
+        "Local governments"
+      ],
+      "eventId": "event-us-public-school-spending-17619-per-pupil-2024",
+      "headline": "U.S. Public School Spending Reached a Record $17,619 Per Pupil in 2024",
+      "id": "article-us-public-school-spending-17619-per-pupil-2024",
+      "leadImage": {
+        "alt": "A modern brick-and-glass public high school stands behind a landscaped lawn.",
+        "caption": "High Technology High School in Lincroft, New Jersey. Census data show nationwide current spending per pupil reached a record in fiscal 2024.",
+        "credit": "ForeverFlying / Wikimedia Commons, CC BY 4.0",
+        "height": 900,
+        "rightsId": "media-high-technology-high-school-exterior",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/high-technology-high-school/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Lincroft, New Jersey",
+        "New York",
+        "Idaho"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Census data show public school current spending rose 6.6% to a record $17,619 per pupil in fiscal 2024 as federal revenue declined.",
+        "index": true,
+        "title": "Public school spending hit $17,619 per pupil in 2024"
+      },
+      "section": "us",
+      "slug": "us-public-school-spending-17619-per-pupil-2024",
+      "social": {
+        "description": "Census data show a 6.6% increase in current spending per student while federal revenue fell 4.4% from the prior fiscal year.",
+        "image": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/high-technology-high-school/open-graph.webp",
+        "title": "U.S. Public School Spending Reached a Record $17,619 Per Pupil in 2024"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Public schools",
+        "Education spending",
+        "School finance",
+        "Census Bureau",
+        "State and local government"
+      ],
+      "uncertainty": [
+        "Dollar figures are not adjusted for inflation or geographic cost differences.",
+        "Spending levels alone do not measure education quality or student outcomes."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T03:33:29.719Z",
+  "generatedAt": "2026-08-11T04:14:00.981Z",
   "inputHashes": {
+    "sourceItems": "bde9d6e104561bd51fc9f5ca85fcef9167e9bc2cc77f307023775fedb24f35ba",
+    "events": "606802ceb82363ace3d4f17f3696b11a09aed94257d1437df7b6e124e5f6c80b",
+    "claims": "0db19b2d732e00bb669ea2b82658c6baf5d090efca55dbf0b84d72a7edeba06d",
+    "articles": "6233df24162b96e5c159a9d3d5e89bdbbf823a13836d5f7cf4bcfe041755f74d",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
-    "articles": "5cbd2d77d1da453bfbb22cc38000ed7949ee46004eb897dccccd1b24899cf635",
-    "claims": "e45ef6e120b6f7a50d495fa6c7a9cf39cc652e982c8b9af0e403fb0b429870ba",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "1ab8c7913181c90d92f96dcade5d5101baedc97bd630adf3f6464baf218be683",
-    "mediaRights": "d5463e96befbdf7d0aa31347d25f98e2310280ad30d48685cf33d271db432c9d",
-    "publicationIntents": "280e33edbcc51a5badb28700e1dbba21c2550785f1d54d6302a25a05087c6e3c",
+    "mediaRights": "7065cd4c380b379c2b4e43f53696920d256c8a32b6d84145eb5a72e89c05a6b7",
     "releaseRecords": "83294979a599dc72799df5e112da30316da838b53438748aa285cc714771cad8",
-    "sourceItems": "bc24d3c62fac97efc324349693030d00e5e753d959e7709fc4a3aca628ba554e"
+    "publicationIntents": "d6fdda10a6218b94c13b59473700a8b9641f53c117054a98834ee572bd1aad2b"
   },
   "inventory": {
-    "articleCount": 273,
-    "mediaCount": 805,
-    "routeCount": 273
+    "articleCount": 279,
+    "routeCount": 279,
+    "mediaCount": 823
   },
   "mediaRights": [
     {
@@ -106718,9 +107613,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.imf.org/en/news/articles/2026/07/20/pr26252-austria-imf-executive-board-concludes-2026-article-iv-consultation"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Travelers queue beside screening equipment at an airport security checkpoint.",
+      "archivalStatus": "current",
+      "attribution": "Tony Webster / Wikimedia Commons, CC BY 2.0",
+      "caption": "A Transportation Security Administration checkpoint. GAO examined federal AI purchases including facial-comparison technology used for traveler identity verification.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Tony Webster",
+      "derivatives": [
+        {
+          "hash": "f093f72f67753d2a6c677c04f79c9ab57c376e1b9dfde4373c4cd404e3304b39",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/tsa-checkpoint/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9be9654a7351a475e688f6103ac973b5412dbe707aaf3c9bf38376706c44e8c4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/tsa-checkpoint/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b48bf28dec8333bc73845d8ccb36449f9ea545dc15208e6745bbcc3636670a75",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/tsa-checkpoint/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c762751633d763d83c1ca55653adfee08c3adee54d00be929b4830449b49ae13",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/tsa-checkpoint/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4ba525d1b7e50fffddfa741f693e1d7b4bd56ab988f2ef021f9a93e71f86f77d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/tsa-checkpoint/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "708438733947f5759953cad4a099292af1d3c58ff4aab3ee77a586c3745badb2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/tsa-checkpoint/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3cd83b91b6657e615ece31d5a21787c0a5407dead2df94b9149f5254f822fb0b",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/tsa-checkpoint/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-tsa-security-checkpoint-tony-webster",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "2181387270976b57392c52c62d23803b25d4e4e73130eeded7c364f7c67c7c23",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 license documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:TSA_Security_Checkpoint_at_Airport.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 13 AI acquisitions reviewed across four federal agencies.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO conducted in-depth reviews of 13 AI acquisitions across four federal agencies.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "a4d152ec40f4b4609a9ffa832959be9d2b6128d6d436ac2bb56329fa20a5fc59",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/sample/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "fe566563aaf6611dd74ca980410d15f5bf1e0449090d9f709c2a5c7f2b539c7a",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/sample/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6742a5d449bbb39a855e69f094bfc828b94083fbd6ba5e02ede07983c92c0bd5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/sample/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "47618f331acfea4af6b740f2a4f396a757465a79135b2969ead36c7d8c4bb243",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/sample/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "73e7e71f1bad0904af1b5b9fa7727b0e4aaca992cdafb0761f701b23e91ceb83",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/sample/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "81dd847c4e9751d25ebeb01454eb318c5f68d266e263a943430e53f280205e4f",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/sample/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "525fbc9d1cc76271cadf2f6386164537c701cb615a5847a1b1c487e57b440dd0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/sample/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-ai-acquisition-sample-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "47618f331acfea4af6b740f2a4f396a757465a79135b2969ead36c7d8c4bb243",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107859"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists four agencies and four recommendations on AI procurement lessons.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO made four recommendations requiring Defense, DHS, GSA and VA to systematically collect and share lessons from AI acquisitions.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "41efbf2cb6015d5ec2ca794f10069197fbb6e6cece054a1556e594cf98fda323",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/recommendations/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2284075bc93bc8850efb763098a8982d130c560ffd0524d511c130286cef68ad",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/recommendations/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f3c807262901d0007f986d7441a22783bf3dfd347968022a9c66d384b2a5d763",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/recommendations/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "13c340ed8988520939fedc1f5d3fe87a12949825a8fbca9598d7ef2ebfeea54c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/recommendations/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "346b32558b701ff328ff221963b5f66e567c5287cb5cb9612ca42723721fa151",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/recommendations/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8cc1bd5cf800ff0606be918c0a3d375b05f407ecaee29ddc6ed9b9933cd198f5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/recommendations/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "243954539043f048d5be81050f3e4b84c2092f8db829e6d3373c4a4de0f0eb44",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/recommendations/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-ai-lessons-recommendations-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "13c340ed8988520939fedc1f5d3fe87a12949825a8fbca9598d7ef2ebfeea54c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107859"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A historic stone federal courthouse rises above a downtown Indianapolis street.",
+      "archivalStatus": "current",
+      "attribution": "Richie Diesterheft / Wikimedia Commons, CC BY-SA 2.0",
+      "caption": "The Birch Bayh Federal Building and U.S. Courthouse in Indianapolis. New Sentencing Commission tables summarize fiscal 2025 Section 922(g) cases nationwide.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Richie Diesterheft",
+      "derivatives": [
+        {
+          "hash": "0f1f97b4f95c76d07f94e6caae641a602d1383c4d61b1e680039249e815c4bbf",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/birch-bayh-courthouse/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "431509ca53beb467db9f1bd84215a1b66c0263c430ad6e845bbf9b874411a4d5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/birch-bayh-courthouse/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5c0a35e30b275420058f8c9d99ef2a626d8a78353b3df72fc638c6941dd1da59",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/birch-bayh-courthouse/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "03080de48f146e3007737cd281d7f10e0bec61c4be708f8be942911964331444",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/birch-bayh-courthouse/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "771eaa63188ea4d6127b638605c625a5e1a800517725bf0772da0f6b275b1b1b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/birch-bayh-courthouse/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "80043f57391da26691b73a85ad77128a344458f7845d7f3e6218ffcf7b18c6c3",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/birch-bayh-courthouse/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "067041a286e0ab052d3a1bddb34fb3a8815c445400a8282d6e5ed03212596f31",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/birch-bayh-courthouse/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-birch-bayh-courthouse-january-2012",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 2.0",
+      "originalFileHash": "437bd02af5f076d50b5f80039ec6e7c153f0e0801e8a0580566c90c58aad261d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 2.0 license documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Birch_Bayh_Federal_Building_%26_U.S._Courthouse_-_Jan_2012.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 7,245 Section 922(g) cases out of 66,662 federal cases in fiscal 2025.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Of 66,662 federal cases reported for fiscal 2025, 7,245 involved convictions under Section 922(g).",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "5f2703ca2eed5d8e0ee4bde05290ad3178910e5db64d9af0c0955fc931366646",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/cases/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "820ef54e2caf0cb8042799ee604aa37e77dda74d02d88733baadb34db9a3da63",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/cases/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ed01b443c73817ee0998096d3cc4eb28cf5ceda35694a5e116adea0d28da9001",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/cases/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "49d39122658bab7aacdad56185bc19bf28c94c3c5e858833415819ea421a5d23",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/cases/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "794149035d40eb138846c65f1a6550789a1aa4eebcc2429d3b324e679b1e87d3",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/cases/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "90ff09519214ecaa1bdb88bae1da65bb37f31891acce9ecae706465aa346b178",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/cases/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "64bfc4502575d89e22f1aaec9c76bb19166e48ec62a5455827903cb8c2d0e896",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/cases/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-922g-case-snapshot-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "49d39122658bab7aacdad56185bc19bf28c94c3c5e858833415819ea421a5d23",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/section-922g-firearms"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows an average 63-month sentence and 89 percent involving a prior felony conviction.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The average Section 922(g) sentence was 63 months; 89% of cases involved a prior felony conviction.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "81420c388ba94bda63eb725bee7d7edb7f7d70847f4b44286782ee1e5b372f00",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/sentences/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "debd2d51b40369992b8f0ef0a61227f55f38c3b601db03d9a68d93f2ebe40687",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/sentences/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d1f935ad7657c3c26fa1ba74dcf343f068c4352d34d78207a6ea11d826b53b9a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/sentences/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "976b39de2d4a6f9b510ec922a7a31d25de36e3a7ff3aa761409deb12f61fbbaf",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/sentences/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f882e42b5adc3aac771a1844038a3abbaa63f28be9a904b1efbac30c83e843d5",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/sentences/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "20b017160bf8ba0c6c693904910e7cbc369b980ef5889230f399d83559d37e3d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/sentences/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5767a6d9e540c226c89ad40dfc131d7c31379101734177773ef7cab20cf9ea59",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/sentences/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-922g-sentence-profile-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "976b39de2d4a6f9b510ec922a7a31d25de36e3a7ff3aa761409deb12f61fbbaf",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/section-922g-firearms"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A large crowd of pedestrians and cyclists fills a broad New York City avenue.",
+      "archivalStatus": "current",
+      "attribution": "Marianne O'Leary / Wikimedia Commons, CC BY 2.0",
+      "caption": "Pedestrians fill a New York City street. CBO projects slow population growth and a continuing rise in the share of older Americans through 2056.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Marianne O'Leary",
+      "derivatives": [
+        {
+          "hash": "14df7ec457555511b062e2999e2892b074efa1bdae03dc46479c461d201d3324",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/summer-streets/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "684a3c2eb566e29d1696cea58100fd281057b2a7588229505dae8f8e8b27d578",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/summer-streets/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b097209ae2aabfc46aac873a9c7c5547dc587a85a4d52d6a444b5e3f09306c64",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/summer-streets/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "bc9c983f35fb583940c801530b62fd336efae2a2024486c5693961f56069c3b8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/summer-streets/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "84579071743735f1a153ca3a1257ac1643ec66c3234fd382fd2c09dc4a5b45d1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/summer-streets/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b0a142ee3b8d7c7e981cd0c1c51664cc38c7dc03f7b2fe2c7819cefdc9ddabed",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/summer-streets/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "06b07c233750667502e6e45aea2c57e6c3d0c886ee8dc1b05a0fa341d157ed38",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/summer-streets/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-summer-streets-crowd-3823998194",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "4215b0a534043e45f64c55c37d8920ab5f08e6553a0baa290f859e3154e86704",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 license documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Summer_Streets_-_Crowded_Summer_Streets_(3823998194).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows population rising from 349 million in 2026 to 364 million in 2056.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "CBO projects the Social Security area population will grow from 349 million in 2026 to 364 million in 2056.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "27dd8a02af2f21e45ec5ac30ea1f0a916fff4451a3ec01877d2e59158192c652",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/population/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e8fdcce353bd29e3dcf9789f7232304d28fb6a14a759887e206715147cdf553d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/population/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "714e67d9b30c5e0f6765bfb6fabba3602b4aa460b7b7ab2e8c1409dbc37ef402",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/population/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "23e5ab3dde044cc96ea64aeecd529fd194fae4e24456e34f0fdedacd00d81431",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/population/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1c82d07bf2b6f8a8bd374169303404aa09fb406d8c3d7e8068f19379571c7b4b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/population/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "63d96ca2feacdd42ed46b85a626e94923efa07a9d191e014fb96c0107be06a93",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/population/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4d3845703fb13c5e322a6d905c18dad276f6bcc114a3de01df51d5b80a9e6480",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/population/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-population-growth-2026-2056",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "23e5ab3dde044cc96ea64aeecd529fd194fae4e24456e34f0fdedacd00d81431",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/61994"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the working-age-to-older-person ratio declining from 2.7 to 2.2.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "CBO projects the ratio of people ages 25–64 to each person age 65 or older will decline from 2.7 in 2026 to 2.2 in 2056.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "a3312b6977e29cd04deaaaecd1e6909dc6db93f571fdd08665a3be312ad77d2d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/age-ratio/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7c700da6aa43cce48f6e1d459bf2cd1f4ddfe299574c861b667e74d86af41e77",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/age-ratio/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "86c26c6dbb9a3d7bd58684b397e346e34a43536203e35dd53902bf089cf2065c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/age-ratio/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "428bcfc6c4cf20b7b1073642641cf10a194a7c19c1e709e8361461b76468d1bc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/age-ratio/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "89acfbba06a4bd8643ab683afd4039e35ec2cc1542e0ec5e1b823bdbccde4f86",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/age-ratio/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d3f6cbb1656e38bf94a4c0d14e69bc5cbfd0be18b20449cd107eefb71b647a62",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/age-ratio/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2a1b65d9778b057c416b14580a943c1c845de2cc6fee4c73be531bf0f8570fbf",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/age-ratio/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cbo-working-age-older-ratio-2056",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "428bcfc6c4cf20b7b1073642641cf10a194a7c19c1e709e8361461b76468d1bc",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/61994"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A hydrologic technician in a small boat measures the flow of a broad river.",
+      "archivalStatus": "current",
+      "attribution": "Tim Merrick / U.S. Geological Survey",
+      "caption": "A USGS hydrologic technician measures Boise River streamflow. River DroughtCast forecasts abnormally low flows at thousands of long-running streamgages.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Tim Merrick / U.S. Geological Survey",
+      "derivatives": [
+        {
+          "hash": "6688863a29ba6993b60f373f874793c370964390942174a32957f94654f3d4cb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/boise-streamflow/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "891c5ac1ed45290eb677e657ab82eafe6a065a9d2e4df34b68b3f8af3df2d6f4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/boise-streamflow/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "23e7750b95242f2c006229d33895cf07ff1ec8af94945d9fd7a91e1fd3b02d87",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/boise-streamflow/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a32d2cf5e1612b291ad059cb8ef6e9dec701fe6af171493bbb84f30cf55e7f7e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/boise-streamflow/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "db41f46a36341b2133ecbed2ccd7151fc05e37cc88b8643477e0d5577dce6bff",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/boise-streamflow/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f9616846749ed4a1fbe56595be6457dce064519ecb23bb6b75b0bafd9f796025",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/boise-streamflow/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d8893c26a3ba0873bc90d6d48b8594c273a3cd9a5cc8850e48f5bfff69bf4987",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/boise-streamflow/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-usgs-boise-river-streamflow-adcp",
+      "illustrationLabel": null,
+      "license": "U.S. government public domain",
+      "originalFileHash": "25f9493c3858eeaf728505db66c755249e2c6ed6b933d8e31889cf77379be2cd",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "U.S. government public-domain photograph documented by USGS and Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Measuring_Boise_River_Streamflow_with_an_ADCP.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows more than 3,000 streamgages, at least 40 years of data and forecasts up to 13 weeks.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "River DroughtCast provides one- to 13-week forecasts at more than 3,000 USGS streamgages with at least 40 years of data.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "803f3fe52b69504605ea728477599d23b2d0abef1d5f16985c86baa883fc3551",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/coverage/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2bd603736097c36938ee8841b57c04f368cb2d407bd6df72ff6777c4014c9322",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/coverage/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c14623a1edbc691b691254c96fa110897b0d5f150d317952fbeeab341a8e9b44",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/coverage/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1f07b67f4d85640abb7a6ee516cb8926485c893478f7912bac8fbe2b078e081a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/coverage/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1a055a710b35dfe86f82e99ccca00ebfb2ec843c84ab4aad95c25ea29b047ae3",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/coverage/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "72b42b83564ec3ad1960062a25e8bbace158c5db2b192524be32c343eb1148c7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/coverage/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3cc5324afee17bfab951cde512e16c1bd60388b7a3da978d8ea951d55b17a04d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/coverage/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-usgs-river-droughtcast-gage-coverage-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "1f07b67f4d85640abb7a6ee516cb8926485c893478f7912bac8fbe2b078e081a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.usgs.gov/news/national-news-release/new-ai-tool-forecasts-drought-90-days-ahead-nationwide"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows forecast reliability declining from about 75 percent in week one to about 55 percent in week 13.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "USGS reports about 75% first-week accuracy for severe or extreme drought onset, declining to about 55% by week 13.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "60a972dd441c4b2af7e9296c052506f0b0b39289b30433bef9d250c321067fbb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/reliability/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ee029076367f2dbb391f8ce6ca475a5a2912f7de98a50d08b4e10f2790829e47",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/reliability/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bc75b994abeb8cc47631a8c73bb01b00e56a11d1074c9257c4d331b868dab7ad",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/reliability/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9f8ebcf0bcbfc9eea59dcd34664173800698f72b1ebc8f213572c27c28999b9e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/reliability/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "fa430c1fbe10f482500a9d15747af7e4899433c373ab9fbb0d3f6ebb4293c48d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/reliability/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "002fc7ba4789ffefd8f42b3ece1562a4d5ee05cdfa14ee5a510e6c6e44b043d8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/reliability/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a341b553831d9a4054ee4e879053abb6c203195c7167b1c7e43e36ee6d4f282f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/reliability/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-usgs-river-droughtcast-reliability-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "9f8ebcf0bcbfc9eea59dcd34664173800698f72b1ebc8f213572c27c28999b9e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.usgs.gov/news/national-news-release/new-ai-tool-forecasts-drought-90-days-ahead-nationwide"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A technician uses a laptop beside tall server racks in a computing center.",
+      "archivalStatus": "current",
+      "attribution": "Derrick Coetzee / Wikimedia Commons, CC0",
+      "caption": "A technician works beside computing equipment at the National Energy Research Scientific Computing Center. GAO's new framework treats infrastructure as one component of national AI competitiveness.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Derrick Coetzee",
+      "derivatives": [
+        {
+          "hash": "16d83e90fbc7a1cb689f325aee35672ee06784dcffab2df6835f455edbb63592",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/nersc-technician/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8ded01c69765e4aa21630200794388bee814df44c39c837329a8b915d517a63d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/nersc-technician/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8e7aa69981c2a7e76cee33679f397157a5ae56ae58b2b99f3e30c191ffb99c9a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/nersc-technician/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "fe0ee335181416b4474db7885913de838b48f321f20fe9dde690b5c85c7c37b0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/nersc-technician/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "80785ca130eea9e14ee83ed53449ddd0d9ed21c0ca3e6f903b2f8ec1cb755c2b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/nersc-technician/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c4e49db354778b79c7b3890b82ff6ce495643e8fde76e9d3d51d858b6d12597d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/nersc-technician/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "42d4da2cbd41d814d5cef25ea3e4df39c8eca0725d0c2968a8f1ba034c52b9ed",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/nersc-technician/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nersc-technician-server-rack",
+      "illustrationLabel": null,
+      "license": "CC0 1.0",
+      "originalFileHash": "a709bdaf5c9e76184f429cc0d3723744d1341837148b1ae5f86e5a36e709c2c7",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "CC0 public-domain dedication documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Technician_with_laptop_working_on_server_rack_at_NERSC.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists four AI competitiveness pillars: science and technology, human capital, governance and economy.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO organizes AI competitiveness around four pillars: science and technology, human capital, governance and the economy.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "2b87617181350c328bfacd06172b100dfab29c5488af263c8ecba006bbca2925",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/pillars/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e7142cd6e5de1414911a6a200081b0ff668133b97d70e0ab1f51aafb7e3a8ff5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/pillars/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "490eadcde33f449f1d9beae6b29693d3c3db936c22e320d32406bc6c4a3ed6f8",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/pillars/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "dc820b5a00b0c6814e7d96e153f07b667b2b14ff316eb00ca7385066a9dda6eb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/pillars/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3f9ae351757cfa571aaf591567a131face63b8117520f6df9f162c53bcddc79a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/pillars/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "460c7a89320ef753ba75862b34a2b005618e5f35f49d4fa58a52aa17bc7f7ab2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/pillars/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "63a3d736b02dbd29afe32ef43ef88a31d0d45588905f15f3f60325f392ca1a00",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/pillars/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-ai-competitiveness-four-pillars-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "dc820b5a00b0c6814e7d96e153f07b667b2b14ff316eb00ca7385066a9dda6eb",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107624"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows four assessment steps from selecting outcomes through developing policy options.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The framework uses four steps: select outcomes, identify indicators, analyze data and develop policy options.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "6abe6939dc12c27ae510eef518e75fee543e3be8e4064b501cb968364d3dea70",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/steps/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a0317c216f92f9e42d85632b2dbcfe4f17f6c86e093f0c3a94af31599ed3dbc8",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/steps/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "458d86793e9210665f71d5572e33379856effa08e563ebd78f27c73d444e85da",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/steps/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "68cfaec0d6287da4257b7eb383cbf38b422a0a4bb2b0bd73e22bbf76d55c787e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/steps/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "499c617e228046cd13d711f174006f313dc66ae7692c8b338abf33ed609a6c05",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/steps/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8b0964523bf5cf47f68dd31240710cc3d114d03515f877ac4b0f75d5be0b13be",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/steps/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "22b33d35e7707a4e1a626c13fcb0febb00d088a66d0622290bbe09c73ea885d4",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/steps/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-ai-assessment-four-steps-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "68cfaec0d6287da4257b7eb383cbf38b422a0a4bb2b0bd73e22bbf76d55c787e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107624"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A modern brick-and-glass public high school stands behind a landscaped lawn.",
+      "archivalStatus": "current",
+      "attribution": "ForeverFlying / Wikimedia Commons, CC BY 4.0",
+      "caption": "High Technology High School in Lincroft, New Jersey. Census data show nationwide current spending per pupil reached a record in fiscal 2024.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "ForeverFlying",
+      "derivatives": [
+        {
+          "hash": "252e77f0537fc1fe74accf99019e15f0ce9707000281f03d058086a749bc99e9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/high-technology-high-school/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2fa4f42c52b9b1a315097ddc12d7268d11affc6bb2049a7428a8109063dac97e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/high-technology-high-school/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "87d5dbe8448a7e90f3a9a6f56d856f7072824e9ffd7ee4940298532ce190e842",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/high-technology-high-school/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "020c1fd504d10fd7c633a631c87c5839cc606ae1e777af33c9cbd8400059d0c4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/high-technology-high-school/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3cacb9cea69c182ac03d744463684b455a740355a09423eac1e80cfe18c1d3c8",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/high-technology-high-school/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "9a7fc83ab162c425aaa326130bb1f509af0ab271d0934f3b28b7b4f8f01a4303",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/high-technology-high-school/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "32e40e693e45fc151b9b608ec45c2cc06265cbbffeee491662fa835a44eade10",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/high-technology-high-school/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-high-technology-high-school-exterior",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "3196ff46bd805e04d057eaae8f5a4c4cb7fecb39e5f26b3f1ae566707def8a54",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Creative Commons Attribution 4.0 license documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exterior_of_High_Technology_High_School.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows per-pupil spending rising from 16,526 dollars to 17,619 dollars.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Current spending rose 6.6% from $16,526 per pupil in fiscal 2023 to $17,619 in fiscal 2024.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "4b47d2156f3d0c91ff0e747fd9a195507dc8080c350afdd3123a85f518ab052c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/per-pupil/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f566cdd53bf81264f5b1842647ee439ee52d6dcf3b8f5855128a4fa496921d93",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/per-pupil/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d5bc8754372e9da7b30f1b5d55e19274e787fc94de80248ee676e9f7e62a3c26",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/per-pupil/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5ab0acc4805c78e0bc98cbec644ac9c63377055825c0691aa71184e9fd985d31",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/per-pupil/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "53842fe0098c4d01d98853a0c793e8797038a7e70483c13baedd544f65eb2749",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/per-pupil/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "191edc16ae65e1000026c6000d9aa86392b1fe00e0d484c4725804d937586a29",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/per-pupil/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2d4b427a57a6e3aadca31e201984288566007b46adb93207899f3d7c66213849",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/per-pupil/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-us-school-spending-per-pupil-2024",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5ab0acc4805c78e0bc98cbec644ac9c63377055825c0691aa71184e9fd985d31",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/school-system-finances.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows school revenue shares of 45.2 percent state, 43.2 percent local and 11.6 percent federal.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "State sources supplied 45.2% of school revenue, local sources 43.2% and federal sources 11.6% in fiscal 2024.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "f65c5f58768f94e9ec1ddec8f481e794a6751b8823cf1d9a991ea265154961de",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/revenue/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e60f392e6ab9210e49338566589c959fec01b3587d633e315a6883f79940bdbf",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/revenue/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a66ced9648a4d21708d22456c5a856745fc11d66ce493e77e3fecd34ffeedcbe",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/revenue/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1677762854c36ae158b0c73594a110b2a5d9cae5603536baa71b46b012fa37bb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/revenue/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "953fb4990ecd7fa22bb1b08ba9a35bd76f4352b9790ad573c14bafcf2f4a71af",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/revenue/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c52af421ec8147ed2d48a79bf9604cea8f8bc64df59e0709c0ebae096ade6728",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/revenue/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a877d0a7e64ddac47c99da532e67cd5b7108c3911615d2a5904898bd64e91781",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/revenue/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-us-school-revenue-sources-2024",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "1677762854c36ae158b0c73594a110b2a5d9cae5603536baa71b46b012fa37bb",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T04:14:00.887Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/school-system-finances.html"
     }
   ],
-  "packageDigest": "80c857b77ef681daaf19a920f4d66d28719a422fbd506ff17a18745e1a27f3e2",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -108430,7 +110692,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "d03f4f7b97b680b2631b2ddd60da685fcb7eb4aa653c381f07ed94cc00d3e235"
 }
