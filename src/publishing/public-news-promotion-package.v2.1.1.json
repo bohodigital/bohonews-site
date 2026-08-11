@@ -45596,71 +45596,71 @@
       "body": "Four major federal agencies were not systematically collecting lessons from artificial-intelligence purchases even as government use of AI expanded, the Government Accountability Office said in an April report.\n\nGAO conducted in-depth reviews of 13 acquisitions at the departments of Defense, Homeland Security and Veterans Affairs and at the General Services Administration. The sample included chatbots, computer vision, airport facial comparison and systems supporting benefits work.\n\nFederal agencies reportedly more than doubled their use of AI from 2023 to 2024. GAO said acquisition officials faced recurring challenges involving technical expertise, requirements, data rights, vendor lock-in, testing and the difficulty of estimating AI costs.\n\nOfficials at all four reviewed agencies told auditors they did not consistently document lessons because department policies did not require a formal process. That limited the material available for a government-wide repository managed by GSA.\n\nGAO said shared lessons could help agencies reuse effective contract language, protect government data, test systems before larger commitments and avoid repeating pricing or performance mistakes.\n\nThe watchdog made one recommendation to each agency: update policy so officials systematically collect lessons, including useful contract clauses, and submit them for government-wide sharing. All four agencies concurred.\n\nThe report does not conclude that every reviewed AI system failed or that a single contract model fits every use. It describes trade-offs between products and services, traditional contracts and other agreements, and agency-led versus vendor-led proposals.\n\nGAO also cautioned that the market and federal policy were changing too quickly to determine which approaches would produce the best returns in every setting. Continuous evaluation remains important because AI performance can change with data and use conditions.\n\nThe oversight gap is therefore procedural: agencies are buying increasingly consequential systems without a consistent way to preserve what prior acquisitions taught them about requirements, rights, testing and cost.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Four major federal agencies were not systematically collecting lessons from artificial-intelligence purchases even as government use of AI expanded, the Government Accountability Office said in an April report."
+          "text": "Four major federal agencies were not systematically collecting lessons from artificial-intelligence purchases even as government use of AI expanded, the Government Accountability Office said in an April report.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "GAO conducted in-depth reviews of 13 acquisitions at the departments of Defense, Homeland Security and Veterans Affairs and at the General Services Administration. The sample included chatbots, computer vision, airport facial comparison and systems supporting benefits work."
+          "text": "GAO conducted in-depth reviews of 13 acquisitions at the departments of Defense, Homeland Security and Veterans Affairs and at the General Services Administration. The sample included chatbots, computer vision, airport facial comparison and systems supporting benefits work.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-gao-ai-acquisition-sample-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/sample/four-three.webp",
           "alt": "Graphic shows 13 AI acquisitions reviewed across four federal agencies.",
           "caption": "GAO conducted in-depth reviews of 13 AI acquisitions across four federal agencies.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.gao.gov/products/gao-26-107859"
-        },
-        {
-          "type": "paragraph",
-          "text": "Federal agencies reportedly more than doubled their use of AI from 2023 to 2024. GAO said acquisition officials faced recurring challenges involving technical expertise, requirements, data rights, vendor lock-in, testing and the difficulty of estimating AI costs."
-        },
-        {
-          "type": "paragraph",
-          "text": "Officials at all four reviewed agencies told auditors they did not consistently document lessons because department policies did not require a formal process. That limited the material available for a government-wide repository managed by GSA."
-        },
-        {
-          "type": "paragraph",
-          "text": "GAO said shared lessons could help agencies reuse effective contract language, protect government data, test systems before larger commitments and avoid repeating pricing or performance mistakes."
-        },
-        {
-          "type": "paragraph",
-          "text": "The watchdog made one recommendation to each agency: update policy so officials systematically collect lessons, including useful contract clauses, and submit them for government-wide sharing. All four agencies concurred."
-        },
-        {
+          "rightsId": "media-gao-ai-acquisition-sample-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107859",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/sample/four-three.webp",
           "type": "media",
-          "rightsId": "media-gao-ai-lessons-recommendations-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/recommendations/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Federal agencies reportedly more than doubled their use of AI from 2023 to 2024. GAO said acquisition officials faced recurring challenges involving technical expertise, requirements, data rights, vendor lock-in, testing and the difficulty of estimating AI costs.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Officials at all four reviewed agencies told auditors they did not consistently document lessons because department policies did not require a formal process. That limited the material available for a government-wide repository managed by GSA.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO said shared lessons could help agencies reuse effective contract language, protect government data, test systems before larger commitments and avoid repeating pricing or performance mistakes.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The watchdog made one recommendation to each agency: update policy so officials systematically collect lessons, including useful contract clauses, and submit them for government-wide sharing. All four agencies concurred.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists four agencies and four recommendations on AI procurement lessons.",
           "caption": "GAO made four recommendations requiring Defense, DHS, GSA and VA to systematically collect and share lessons from AI acquisitions.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.gao.gov/products/gao-26-107859"
+          "rightsId": "media-gao-ai-lessons-recommendations-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107859",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-acquisitions/recommendations/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "The report does not conclude that every reviewed AI system failed or that a single contract model fits every use. It describes trade-offs between products and services, traditional contracts and other agreements, and agency-led versus vendor-led proposals."
+          "text": "The report does not conclude that every reviewed AI system failed or that a single contract model fits every use. It describes trade-offs between products and services, traditional contracts and other agreements, and agency-led versus vendor-led proposals.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "GAO also cautioned that the market and federal policy were changing too quickly to determine which approaches would produce the best returns in every setting. Continuous evaluation remains important because AI performance can change with data and use conditions."
+          "text": "GAO also cautioned that the market and federal policy were changing too quickly to determine which approaches would produce the best returns in every setting. Continuous evaluation remains important because AI performance can change with data and use conditions.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The oversight gap is therefore procedural: agencies are buying increasingly consequential systems without a consistent way to preserve what prior acquisitions taught them about requirements, rights, testing and cost."
+          "text": "The oversight gap is therefore procedural: agencies are buying increasingly consequential systems without a consistent way to preserve what prior acquisitions taught them about requirements, rights, testing and cost.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/gao-ai-acquisitions-lessons-four-agencies-2026/",
       "citations": [
         {
           "id": "source-gao-ai-acquisitions-20260413",
-          "title": "Artificial Intelligence Acquisitions: Agencies Should Collect and Apply Lessons Learned to Improve Future Procurements",
-          "publisher": "U.S. Government Accountability Office",
           "publishedAt": "2026-04-13T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Artificial Intelligence Acquisitions: Agencies Should Collect and Apply Lessons Learned to Improve Future Procurements",
           "url": "https://www.gao.gov/products/gao-26-107859"
         }
       ],
@@ -45706,9 +45706,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T04:51:32.552Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t034822z-7d2a9c4e6b10",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -45736,7 +45736,7 @@
         "GAO's selected acquisitions are not a statistical sample of every federal AI purchase.",
         "The report said it was too soon to identify a universally best acquisition approach."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T04:51:32.552Z"
     },
     {
       "articleType": "news-report",
@@ -45746,71 +45746,71 @@
       "body": "Federal courts sentenced 7,245 people under the main prohibited-person firearm statute in fiscal 2025, according to a new United States Sentencing Commission summary.\n\nThose cases represented about 10.9% of the 66,662 federal cases reported to the commission for the year. Section 922(g) prohibits specified categories of people from shipping, transporting, possessing or receiving firearms or ammunition.\n\nThe most common basis was a prior felony conviction: 89% of the Section 922(g) defendants in the dataset were sentenced under that category. The statute also covers other categories defined by federal law.\n\nThe commission reported an average sentence of 63 months. Sentence length varied with criminal history, conduct, guideline calculations, statutory exposure and case-specific judicial findings.\n\nTwenty-three percent of the sentenced individuals were in Criminal History Category VI, the highest category, while 10% were in Category I. Eight percent were also convicted under another statute carrying a mandatory minimum, most often a drug offense.\n\nThe demographic tables say 98% were men, the average age was 37 and 94% were U.S. citizens. Those descriptive figures do not measure offending rates in the general population and should not be used to infer individual conduct.\n\nCommission data cover federal sentencing, not state firearm prosecutions, arrests that did not result in a federal conviction or every gun-related offense. Section 922(g) is one part of the federal criminal code.\n\nThe quick-facts series draws on fiscal 2021 through 2025 commission datafiles, allowing year-to-year comparisons, but changes can reflect enforcement patterns, charging practices and case mix as well as underlying conduct.\n\nThe 2025 snapshot establishes the scale and profile of federal Section 922(g) sentencing without identifying private defendants or predicting the outcome of any current case.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Federal courts sentenced 7,245 people under the main prohibited-person firearm statute in fiscal 2025, according to a new United States Sentencing Commission summary."
+          "text": "Federal courts sentenced 7,245 people under the main prohibited-person firearm statute in fiscal 2025, according to a new United States Sentencing Commission summary.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Those cases represented about 10.9% of the 66,662 federal cases reported to the commission for the year. Section 922(g) prohibits specified categories of people from shipping, transporting, possessing or receiving firearms or ammunition."
+          "text": "Those cases represented about 10.9% of the 66,662 federal cases reported to the commission for the year. Section 922(g) prohibits specified categories of people from shipping, transporting, possessing or receiving firearms or ammunition.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-922g-case-snapshot-2025",
-          "src": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/cases/four-three.webp",
           "alt": "Graphic shows 7,245 Section 922(g) cases out of 66,662 federal cases in fiscal 2025.",
           "caption": "Of 66,662 federal cases reported for fiscal 2025, 7,245 involved convictions under Section 922(g).",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.ussc.gov/research/quick-facts/section-922g-firearms"
-        },
-        {
-          "type": "paragraph",
-          "text": "The most common basis was a prior felony conviction: 89% of the Section 922(g) defendants in the dataset were sentenced under that category. The statute also covers other categories defined by federal law."
-        },
-        {
-          "type": "paragraph",
-          "text": "The commission reported an average sentence of 63 months. Sentence length varied with criminal history, conduct, guideline calculations, statutory exposure and case-specific judicial findings."
-        },
-        {
-          "type": "paragraph",
-          "text": "Twenty-three percent of the sentenced individuals were in Criminal History Category VI, the highest category, while 10% were in Category I. Eight percent were also convicted under another statute carrying a mandatory minimum, most often a drug offense."
-        },
-        {
-          "type": "paragraph",
-          "text": "The demographic tables say 98% were men, the average age was 37 and 94% were U.S. citizens. Those descriptive figures do not measure offending rates in the general population and should not be used to infer individual conduct."
-        },
-        {
+          "rightsId": "media-922g-case-snapshot-2025",
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/section-922g-firearms",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/cases/four-three.webp",
           "type": "media",
-          "rightsId": "media-922g-sentence-profile-2025",
-          "src": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/sentences/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "The most common basis was a prior felony conviction: 89% of the Section 922(g) defendants in the dataset were sentenced under that category. The statute also covers other categories defined by federal law.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The commission reported an average sentence of 63 months. Sentence length varied with criminal history, conduct, guideline calculations, statutory exposure and case-specific judicial findings.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Twenty-three percent of the sentenced individuals were in Criminal History Category VI, the highest category, while 10% were in Category I. Eight percent were also convicted under another statute carrying a mandatory minimum, most often a drug offense.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The demographic tables say 98% were men, the average age was 37 and 94% were U.S. citizens. Those descriptive figures do not measure offending rates in the general population and should not be used to infer individual conduct.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows an average 63-month sentence and 89 percent involving a prior felony conviction.",
           "caption": "The average Section 922(g) sentence was 63 months; 89% of cases involved a prior felony conviction.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.ussc.gov/research/quick-facts/section-922g-firearms"
+          "rightsId": "media-922g-sentence-profile-2025",
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/section-922g-firearms",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/section-922g-sentencing/sentences/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Commission data cover federal sentencing, not state firearm prosecutions, arrests that did not result in a federal conviction or every gun-related offense. Section 922(g) is one part of the federal criminal code."
+          "text": "Commission data cover federal sentencing, not state firearm prosecutions, arrests that did not result in a federal conviction or every gun-related offense. Section 922(g) is one part of the federal criminal code.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The quick-facts series draws on fiscal 2021 through 2025 commission datafiles, allowing year-to-year comparisons, but changes can reflect enforcement patterns, charging practices and case mix as well as underlying conduct."
+          "text": "The quick-facts series draws on fiscal 2021 through 2025 commission datafiles, allowing year-to-year comparisons, but changes can reflect enforcement patterns, charging practices and case mix as well as underlying conduct.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The 2025 snapshot establishes the scale and profile of federal Section 922(g) sentencing without identifying private defendants or predicting the outcome of any current case."
+          "text": "The 2025 snapshot establishes the scale and profile of federal Section 922(g) sentencing without identifying private defendants or predicting the outcome of any current case.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/federal-section-922g-firearm-sentences-7245-2025/",
       "citations": [
         {
           "id": "source-ussc-section-922g-fy2025",
-          "title": "Section 922(g) Firearms",
-          "publisher": "United States Sentencing Commission",
           "publishedAt": "2026-06-01T12:00:00Z",
+          "publisher": "United States Sentencing Commission",
+          "title": "Section 922(g) Firearms",
           "url": "https://www.ussc.gov/research/quick-facts/section-922g-firearms"
         }
       ],
@@ -45854,9 +45854,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T04:51:32.552Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t034822z-7d2a9c4e6b10",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -45884,7 +45884,7 @@
         "The data describe federal sentences and do not represent state prosecutions or all firearm conduct.",
         "Case counts and sentence averages are affected by charging practices, case mix and criminal history."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T04:51:32.552Z"
     },
     {
       "articleType": "news-report",
@@ -45894,71 +45894,71 @@
       "body": "The U.S. population relevant to Social Security is projected to grow from 349 million people in 2026 to 364 million in 2056 while becoming older on average, the Congressional Budget Office said in its latest demographic outlook.\n\nThat increase of about 15 million over three decades amounts to slow average growth. CBO said the age shift matters for the economy and federal budget because older people are less likely to work and are generally eligible for Social Security and Medicare.\n\nThe office projects 2.7 people ages 25 to 64 for every person age 65 or older in 2026. By 2056, the ratio is expected to fall to 2.2 to one.\n\nThe population age 24 or younger is projected to decline in every year of the 30-year period. The number of people ages 25 to 54 rises through 2042 and then declines, while the 65-and-older population grows fastest in the first decade.\n\nCBO projects life expectancy at birth to rise from 79.0 years in 2026 to 82.3 years in 2056. It also expects fertility to remain below the replacement rate, reaching about 1.53 births per woman in 2035.\n\nImmigration becomes an increasingly important source of population growth under the projection. The categories and assumptions reflect laws, policies and administrative actions in place when CBO completed the forecast.\n\nCompared with its January 2025 outlook, CBO now projects 8 million fewer people in 2055, mainly because of lower near-term net immigration and lower fertility assumptions.\n\nThese are baseline projections, not targets or certain outcomes. Fertility, mortality, migration, legislation and administrative policy can differ materially from the assumptions, and small annual gaps compound over 30 years.\n\nThe report supplies Congress with a common demographic baseline: modest total growth, fewer young people and a smaller working-age population relative to retirees will shape future labor-force and benefit-program debates.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The U.S. population relevant to Social Security is projected to grow from 349 million people in 2026 to 364 million in 2056 while becoming older on average, the Congressional Budget Office said in its latest demographic outlook."
+          "text": "The U.S. population relevant to Social Security is projected to grow from 349 million people in 2026 to 364 million in 2056 while becoming older on average, the Congressional Budget Office said in its latest demographic outlook.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "That increase of about 15 million over three decades amounts to slow average growth. CBO said the age shift matters for the economy and federal budget because older people are less likely to work and are generally eligible for Social Security and Medicare."
+          "text": "That increase of about 15 million over three decades amounts to slow average growth. CBO said the age shift matters for the economy and federal budget because older people are less likely to work and are generally eligible for Social Security and Medicare.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-cbo-population-growth-2026-2056",
-          "src": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/population/four-three.webp",
           "alt": "Graphic shows population rising from 349 million in 2026 to 364 million in 2056.",
           "caption": "CBO projects the Social Security area population will grow from 349 million in 2026 to 364 million in 2056.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.cbo.gov/publication/61994"
-        },
-        {
-          "type": "paragraph",
-          "text": "The office projects 2.7 people ages 25 to 64 for every person age 65 or older in 2026. By 2056, the ratio is expected to fall to 2.2 to one."
-        },
-        {
-          "type": "paragraph",
-          "text": "The population age 24 or younger is projected to decline in every year of the 30-year period. The number of people ages 25 to 54 rises through 2042 and then declines, while the 65-and-older population grows fastest in the first decade."
-        },
-        {
-          "type": "paragraph",
-          "text": "CBO projects life expectancy at birth to rise from 79.0 years in 2026 to 82.3 years in 2056. It also expects fertility to remain below the replacement rate, reaching about 1.53 births per woman in 2035."
-        },
-        {
-          "type": "paragraph",
-          "text": "Immigration becomes an increasingly important source of population growth under the projection. The categories and assumptions reflect laws, policies and administrative actions in place when CBO completed the forecast."
-        },
-        {
+          "rightsId": "media-cbo-population-growth-2026-2056",
+          "sourceUrl": "https://www.cbo.gov/publication/61994",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/population/four-three.webp",
           "type": "media",
-          "rightsId": "media-cbo-working-age-older-ratio-2056",
-          "src": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/age-ratio/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "The office projects 2.7 people ages 25 to 64 for every person age 65 or older in 2026. By 2056, the ratio is expected to fall to 2.2 to one.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The population age 24 or younger is projected to decline in every year of the 30-year period. The number of people ages 25 to 54 rises through 2042 and then declines, while the 65-and-older population grows fastest in the first decade.",
+          "type": "paragraph"
+        },
+        {
+          "text": "CBO projects life expectancy at birth to rise from 79.0 years in 2026 to 82.3 years in 2056. It also expects fertility to remain below the replacement rate, reaching about 1.53 births per woman in 2035.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Immigration becomes an increasingly important source of population growth under the projection. The categories and assumptions reflect laws, policies and administrative actions in place when CBO completed the forecast.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows the working-age-to-older-person ratio declining from 2.7 to 2.2.",
           "caption": "CBO projects the ratio of people ages 25–64 to each person age 65 or older will decline from 2.7 in 2026 to 2.2 in 2056.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.cbo.gov/publication/61994"
+          "rightsId": "media-cbo-working-age-older-ratio-2056",
+          "sourceUrl": "https://www.cbo.gov/publication/61994",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/cbo-demographic-outlook/age-ratio/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Compared with its January 2025 outlook, CBO now projects 8 million fewer people in 2055, mainly because of lower near-term net immigration and lower fertility assumptions."
+          "text": "Compared with its January 2025 outlook, CBO now projects 8 million fewer people in 2055, mainly because of lower near-term net immigration and lower fertility assumptions.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "These are baseline projections, not targets or certain outcomes. Fertility, mortality, migration, legislation and administrative policy can differ materially from the assumptions, and small annual gaps compound over 30 years."
+          "text": "These are baseline projections, not targets or certain outcomes. Fertility, mortality, migration, legislation and administrative policy can differ materially from the assumptions, and small annual gaps compound over 30 years.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The report supplies Congress with a common demographic baseline: modest total growth, fewer young people and a smaller working-age population relative to retirees will shape future labor-force and benefit-program debates."
+          "text": "The report supplies Congress with a common demographic baseline: modest total growth, fewer young people and a smaller working-age population relative to retirees will shape future labor-force and benefit-program debates.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/cbo-us-population-364-million-aging-2056/",
       "citations": [
         {
           "id": "source-cbo-demographic-outlook-202601",
-          "title": "The Demographic Outlook: 2026 to 2056",
-          "publisher": "Congressional Budget Office",
           "publishedAt": "2026-01-01T12:00:00Z",
+          "publisher": "Congressional Budget Office",
+          "title": "The Demographic Outlook: 2026 to 2056",
           "url": "https://www.cbo.gov/publication/61994"
         }
       ],
@@ -46003,9 +46003,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T04:51:32.552Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t034822z-7d2a9c4e6b10",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -46033,7 +46033,7 @@
         "Long-range demographic projections are sensitive to fertility, mortality, migration and policy assumptions.",
         "The Social Security area population differs from the resident population measure used in some other datasets."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T04:51:32.552Z"
     },
     {
       "articleType": "news-report",
@@ -46043,71 +46043,71 @@
       "body": "The U.S. Geological Survey has released a machine-learning system that forecasts streamflow drought at more than 3,000 river and stream locations for as long as 13 weeks.\n\nRiver DroughtCast is trained on data from thousands of USGS streamgages, some with more than a century of continuous records. The public tool covers gages with at least 40 years of data.\n\nStreamflow drought occurs when rivers and streams remain below normal levels for an extended period. It differs from meteorological drought because soil moisture, snowpack and groundwater affect how a rainfall deficit reaches waterways.\n\nUsers can select a forecast from one to 13 weeks. USGS says the system is most reliable over the first four to six weeks and includes confidence estimates for each prediction horizon.\n\nThe first week of severe or extreme drought is correctly predicted about 75% of the time, according to the agency. Reported reliability falls to about 55% by week 13.\n\nThe tool is intended to bridge shorter weather forecasts and seasonal water-supply outlooks. Farmers, municipal water managers and recreation operators could use the added lead time to consider irrigation, conservation or operating changes.\n\nUSGS developed River DroughtCast with NOAA's National Integrated Drought Information System. Developers say a future version is intended to expand access into areas without qualifying streamgages and further improve accuracy.\n\nA probabilistic forecast is not a guarantee that a river will cross a drought threshold. Accuracy varies with lead time, local conditions and available historical data, and users should read the confidence information with each forecast.\n\nThe operational advance is a nationwide early-warning layer built from long-running public measurements: managers can now inspect weekly low-flow risk months ahead while seeing how forecast confidence declines with time.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The U.S. Geological Survey has released a machine-learning system that forecasts streamflow drought at more than 3,000 river and stream locations for as long as 13 weeks."
+          "text": "The U.S. Geological Survey has released a machine-learning system that forecasts streamflow drought at more than 3,000 river and stream locations for as long as 13 weeks.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "River DroughtCast is trained on data from thousands of USGS streamgages, some with more than a century of continuous records. The public tool covers gages with at least 40 years of data."
+          "text": "River DroughtCast is trained on data from thousands of USGS streamgages, some with more than a century of continuous records. The public tool covers gages with at least 40 years of data.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-usgs-river-droughtcast-gage-coverage-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/coverage/four-three.webp",
           "alt": "Graphic shows more than 3,000 streamgages, at least 40 years of data and forecasts up to 13 weeks.",
           "caption": "River DroughtCast provides one- to 13-week forecasts at more than 3,000 USGS streamgages with at least 40 years of data.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.usgs.gov/news/national-news-release/new-ai-tool-forecasts-drought-90-days-ahead-nationwide"
-        },
-        {
-          "type": "paragraph",
-          "text": "Streamflow drought occurs when rivers and streams remain below normal levels for an extended period. It differs from meteorological drought because soil moisture, snowpack and groundwater affect how a rainfall deficit reaches waterways."
-        },
-        {
-          "type": "paragraph",
-          "text": "Users can select a forecast from one to 13 weeks. USGS says the system is most reliable over the first four to six weeks and includes confidence estimates for each prediction horizon."
-        },
-        {
-          "type": "paragraph",
-          "text": "The first week of severe or extreme drought is correctly predicted about 75% of the time, according to the agency. Reported reliability falls to about 55% by week 13."
-        },
-        {
-          "type": "paragraph",
-          "text": "The tool is intended to bridge shorter weather forecasts and seasonal water-supply outlooks. Farmers, municipal water managers and recreation operators could use the added lead time to consider irrigation, conservation or operating changes."
-        },
-        {
+          "rightsId": "media-usgs-river-droughtcast-gage-coverage-2026",
+          "sourceUrl": "https://www.usgs.gov/news/national-news-release/new-ai-tool-forecasts-drought-90-days-ahead-nationwide",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/coverage/four-three.webp",
           "type": "media",
-          "rightsId": "media-usgs-river-droughtcast-reliability-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/reliability/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Streamflow drought occurs when rivers and streams remain below normal levels for an extended period. It differs from meteorological drought because soil moisture, snowpack and groundwater affect how a rainfall deficit reaches waterways.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Users can select a forecast from one to 13 weeks. USGS says the system is most reliable over the first four to six weeks and includes confidence estimates for each prediction horizon.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The first week of severe or extreme drought is correctly predicted about 75% of the time, according to the agency. Reported reliability falls to about 55% by week 13.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The tool is intended to bridge shorter weather forecasts and seasonal water-supply outlooks. Farmers, municipal water managers and recreation operators could use the added lead time to consider irrigation, conservation or operating changes.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows forecast reliability declining from about 75 percent in week one to about 55 percent in week 13.",
           "caption": "USGS reports about 75% first-week accuracy for severe or extreme drought onset, declining to about 55% by week 13.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.usgs.gov/news/national-news-release/new-ai-tool-forecasts-drought-90-days-ahead-nationwide"
+          "rightsId": "media-usgs-river-droughtcast-reliability-2026",
+          "sourceUrl": "https://www.usgs.gov/news/national-news-release/new-ai-tool-forecasts-drought-90-days-ahead-nationwide",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/river-droughtcast/reliability/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "USGS developed River DroughtCast with NOAA's National Integrated Drought Information System. Developers say a future version is intended to expand access into areas without qualifying streamgages and further improve accuracy."
+          "text": "USGS developed River DroughtCast with NOAA's National Integrated Drought Information System. Developers say a future version is intended to expand access into areas without qualifying streamgages and further improve accuracy.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "A probabilistic forecast is not a guarantee that a river will cross a drought threshold. Accuracy varies with lead time, local conditions and available historical data, and users should read the confidence information with each forecast."
+          "text": "A probabilistic forecast is not a guarantee that a river will cross a drought threshold. Accuracy varies with lead time, local conditions and available historical data, and users should read the confidence information with each forecast.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The operational advance is a nationwide early-warning layer built from long-running public measurements: managers can now inspect weekly low-flow risk months ahead while seeing how forecast confidence declines with time."
+          "text": "The operational advance is a nationwide early-warning layer built from long-running public measurements: managers can now inspect weekly low-flow risk months ahead while seeing how forecast confidence declines with time.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/usgs-river-droughtcast-90-day-streamflow-forecast-2026/",
       "citations": [
         {
           "id": "source-usgs-river-droughtcast-20260331",
-          "title": "New AI Tool Forecasts Drought 90 Days Ahead Nationwide",
-          "publisher": "U.S. Geological Survey",
           "publishedAt": "2026-03-31T12:00:00Z",
+          "publisher": "U.S. Geological Survey",
+          "title": "New AI Tool Forecasts Drought 90 Days Ahead Nationwide",
           "url": "https://www.usgs.gov/news/national-news-release/new-ai-tool-forecasts-drought-90-days-ahead-nationwide"
         }
       ],
@@ -46152,9 +46152,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T04:51:32.552Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t034822z-7d2a9c4e6b10",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -46182,7 +46182,7 @@
         "Forecasts are probabilistic and reliability declines with longer lead times.",
         "The current version is limited to qualifying streamgage locations and does not cover every river reach."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T04:51:32.552Z"
     },
     {
       "articleType": "news-report",
@@ -46192,71 +46192,71 @@
       "body": "The Government Accountability Office has published a four-pillar framework for measuring U.S. artificial-intelligence competitiveness, an attempt to make broad claims about the global AI race more systematic and testable.\n\nThe pillars are science and technology, human capital, governance and the economy. Each includes subpillars such as research and development, workforce, laws and policies, infrastructure, investment and financing.\n\nGAO says an assessment should begin by selecting the outcome policymakers care about. An analysis focused on exporting AI technology, for example, may use different indicators than one focused on research leadership or standards influence.\n\nAnalysts then identify indicators, conduct data analysis and develop policy options. The method can compare the United States with other countries or track U.S. capabilities over time.\n\nThe report does not produce a single U.S. score or declare a winner in the AI competition. It provides a structure for choosing evidence and explaining why particular metrics are relevant.\n\nGAO developed the framework through literature review and consultation with experts from government, academia, industry and nonprofit organizations. It is designed for analysts in any of those sectors.\n\nThe office notes that AI competitiveness involves trade-offs. Computing infrastructure, talent and investment can accelerate development, while deployment also creates risks involving jobs, energy use, safety and governance.\n\nRankings produced with the framework will still depend on indicator quality, weights, available international data and the chosen outcome. Different defensible choices can yield different results and should be disclosed.\n\nThe practical contribution is a common checklist: national AI strength cannot be reduced to model performance or private investment alone, and policy comparisons should account for the institutions, people and economy around the technology.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "The Government Accountability Office has published a four-pillar framework for measuring U.S. artificial-intelligence competitiveness, an attempt to make broad claims about the global AI race more systematic and testable."
+          "text": "The Government Accountability Office has published a four-pillar framework for measuring U.S. artificial-intelligence competitiveness, an attempt to make broad claims about the global AI race more systematic and testable.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The pillars are science and technology, human capital, governance and the economy. Each includes subpillars such as research and development, workforce, laws and policies, infrastructure, investment and financing."
+          "text": "The pillars are science and technology, human capital, governance and the economy. Each includes subpillars such as research and development, workforce, laws and policies, infrastructure, investment and financing.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-gao-ai-competitiveness-four-pillars-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/pillars/four-three.webp",
           "alt": "Graphic lists four AI competitiveness pillars: science and technology, human capital, governance and economy.",
           "caption": "GAO organizes AI competitiveness around four pillars: science and technology, human capital, governance and the economy.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.gao.gov/products/gao-26-107624"
-        },
-        {
-          "type": "paragraph",
-          "text": "GAO says an assessment should begin by selecting the outcome policymakers care about. An analysis focused on exporting AI technology, for example, may use different indicators than one focused on research leadership or standards influence."
-        },
-        {
-          "type": "paragraph",
-          "text": "Analysts then identify indicators, conduct data analysis and develop policy options. The method can compare the United States with other countries or track U.S. capabilities over time."
-        },
-        {
-          "type": "paragraph",
-          "text": "The report does not produce a single U.S. score or declare a winner in the AI competition. It provides a structure for choosing evidence and explaining why particular metrics are relevant."
-        },
-        {
-          "type": "paragraph",
-          "text": "GAO developed the framework through literature review and consultation with experts from government, academia, industry and nonprofit organizations. It is designed for analysts in any of those sectors."
-        },
-        {
+          "rightsId": "media-gao-ai-competitiveness-four-pillars-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107624",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/pillars/four-three.webp",
           "type": "media",
-          "rightsId": "media-gao-ai-assessment-four-steps-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/steps/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "GAO says an assessment should begin by selecting the outcome policymakers care about. An analysis focused on exporting AI technology, for example, may use different indicators than one focused on research leadership or standards influence.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Analysts then identify indicators, conduct data analysis and develop policy options. The method can compare the United States with other countries or track U.S. capabilities over time.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The report does not produce a single U.S. score or declare a winner in the AI competition. It provides a structure for choosing evidence and explaining why particular metrics are relevant.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO developed the framework through literature review and consultation with experts from government, academia, industry and nonprofit organizations. It is designed for analysts in any of those sectors.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows four assessment steps from selecting outcomes through developing policy options.",
           "caption": "The framework uses four steps: select outcomes, identify indicators, analyze data and develop policy options.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.gao.gov/products/gao-26-107624"
+          "rightsId": "media-gao-ai-assessment-four-steps-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107624",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/gao-ai-competitiveness/steps/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "The office notes that AI competitiveness involves trade-offs. Computing infrastructure, talent and investment can accelerate development, while deployment also creates risks involving jobs, energy use, safety and governance."
+          "text": "The office notes that AI competitiveness involves trade-offs. Computing infrastructure, talent and investment can accelerate development, while deployment also creates risks involving jobs, energy use, safety and governance.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Rankings produced with the framework will still depend on indicator quality, weights, available international data and the chosen outcome. Different defensible choices can yield different results and should be disclosed."
+          "text": "Rankings produced with the framework will still depend on indicator quality, weights, available international data and the chosen outcome. Different defensible choices can yield different results and should be disclosed.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The practical contribution is a common checklist: national AI strength cannot be reduced to model performance or private investment alone, and policy comparisons should account for the institutions, people and economy around the technology."
+          "text": "The practical contribution is a common checklist: national AI strength cannot be reduced to model performance or private investment alone, and policy comparisons should account for the institutions, people and economy around the technology.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/gao-four-pillar-us-ai-competitiveness-framework-2026/",
       "citations": [
         {
           "id": "source-gao-ai-competitiveness-framework-20260521",
-          "title": "Artificial Intelligence: A Framework to Assess U.S. Competitiveness and Inform Policy Options",
-          "publisher": "U.S. Government Accountability Office",
           "publishedAt": "2026-05-21T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Artificial Intelligence: A Framework to Assess U.S. Competitiveness and Inform Policy Options",
           "url": "https://www.gao.gov/products/gao-26-107624"
         }
       ],
@@ -46300,9 +46300,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T04:51:32.552Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t034822z-7d2a9c4e6b10",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -46330,7 +46330,7 @@
         "Results depend on selected outcomes, indicators, weighting and data quality.",
         "The framework structures analysis but does not guarantee consensus on national rankings."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T04:51:32.552Z"
     },
     {
       "articleType": "news-report",
@@ -46340,71 +46340,71 @@
       "body": "Current spending by U.S. public school systems reached a record $17,619 per pupil in fiscal 2024, up 6.6% from $16,526 a year earlier, the Census Bureau reported.\n\nThe figures come from the Annual Survey of School System Finances and are not adjusted for inflation or regional cost-of-living differences. They cover public elementary and secondary systems in every state and the District of Columbia.\n\nNew York recorded the highest state-level current spending at $31,918 per pupil, followed by the District of Columbia at $31,529 and Vermont at $28,818. Idaho was lowest at $11,060.\n\nRevenue from all sources totaled $994.9 billion, a 5.1% increase from fiscal 2023. State governments provided $450.0 billion, or 45.2%, while local sources supplied $429.8 billion, or 43.2%.\n\nFederal revenue fell 4.4% to $115.1 billion and accounted for 11.6% of the total. The federal share varied substantially among states, from 22.7% in Mississippi to 6.3% in New Jersey.\n\nTotal expenditures were $983.7 billion. Current spending accounted for $842.3 billion, capital outlay for $113.1 billion and other categories made up the remainder.\n\nInstruction represented $495.0 billion, or 58.8% of current spending. Instructional salaries alone totaled $291.8 billion, 29.7% of all expenditures.\n\nPer-pupil rankings do not measure school quality or student outcomes on their own. Staffing costs, enrollment, geography, services, wages and accounting structures differ across systems.\n\nThe release nevertheless establishes a nationwide financing benchmark: nominal spending per student set a record even as the federal contribution declined and state and local sources supplied nearly nine-tenths of revenue.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Current spending by U.S. public school systems reached a record $17,619 per pupil in fiscal 2024, up 6.6% from $16,526 a year earlier, the Census Bureau reported."
+          "text": "Current spending by U.S. public school systems reached a record $17,619 per pupil in fiscal 2024, up 6.6% from $16,526 a year earlier, the Census Bureau reported.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The figures come from the Annual Survey of School System Finances and are not adjusted for inflation or regional cost-of-living differences. They cover public elementary and secondary systems in every state and the District of Columbia."
+          "text": "The figures come from the Annual Survey of School System Finances and are not adjusted for inflation or regional cost-of-living differences. They cover public elementary and secondary systems in every state and the District of Columbia.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-us-school-spending-per-pupil-2024",
-          "src": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/per-pupil/four-three.webp",
           "alt": "Graphic shows per-pupil spending rising from 16,526 dollars to 17,619 dollars.",
           "caption": "Current spending rose 6.6% from $16,526 per pupil in fiscal 2023 to $17,619 in fiscal 2024.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/school-system-finances.html"
-        },
-        {
-          "type": "paragraph",
-          "text": "New York recorded the highest state-level current spending at $31,918 per pupil, followed by the District of Columbia at $31,529 and Vermont at $28,818. Idaho was lowest at $11,060."
-        },
-        {
-          "type": "paragraph",
-          "text": "Revenue from all sources totaled $994.9 billion, a 5.1% increase from fiscal 2023. State governments provided $450.0 billion, or 45.2%, while local sources supplied $429.8 billion, or 43.2%."
-        },
-        {
-          "type": "paragraph",
-          "text": "Federal revenue fell 4.4% to $115.1 billion and accounted for 11.6% of the total. The federal share varied substantially among states, from 22.7% in Mississippi to 6.3% in New Jersey."
-        },
-        {
-          "type": "paragraph",
-          "text": "Total expenditures were $983.7 billion. Current spending accounted for $842.3 billion, capital outlay for $113.1 billion and other categories made up the remainder."
-        },
-        {
+          "rightsId": "media-us-school-spending-per-pupil-2024",
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/school-system-finances.html",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/per-pupil/four-three.webp",
           "type": "media",
-          "rightsId": "media-us-school-revenue-sources-2024",
-          "src": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/revenue/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "New York recorded the highest state-level current spending at $31,918 per pupil, followed by the District of Columbia at $31,529 and Vermont at $28,818. Idaho was lowest at $11,060.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Revenue from all sources totaled $994.9 billion, a 5.1% increase from fiscal 2023. State governments provided $450.0 billion, or 45.2%, while local sources supplied $429.8 billion, or 43.2%.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Federal revenue fell 4.4% to $115.1 billion and accounted for 11.6% of the total. The federal share varied substantially among states, from 22.7% in Mississippi to 6.3% in New Jersey.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Total expenditures were $983.7 billion. Current spending accounted for $842.3 billion, capital outlay for $113.1 billion and other categories made up the remainder.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows school revenue shares of 45.2 percent state, 43.2 percent local and 11.6 percent federal.",
           "caption": "State sources supplied 45.2% of school revenue, local sources 43.2% and federal sources 11.6% in fiscal 2024.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/school-system-finances.html"
+          "rightsId": "media-us-school-revenue-sources-2024",
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/school-system-finances.html",
+          "src": "/media/newsroom/2026/08/manual-20260811-034822/school-spending/revenue/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Instruction represented $495.0 billion, or 58.8% of current spending. Instructional salaries alone totaled $291.8 billion, 29.7% of all expenditures."
+          "text": "Instruction represented $495.0 billion, or 58.8% of current spending. Instructional salaries alone totaled $291.8 billion, 29.7% of all expenditures.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Per-pupil rankings do not measure school quality or student outcomes on their own. Staffing costs, enrollment, geography, services, wages and accounting structures differ across systems."
+          "text": "Per-pupil rankings do not measure school quality or student outcomes on their own. Staffing costs, enrollment, geography, services, wages and accounting structures differ across systems.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The release nevertheless establishes a nationwide financing benchmark: nominal spending per student set a record even as the federal contribution declined and state and local sources supplied nearly nine-tenths of revenue."
+          "text": "The release nevertheless establishes a nationwide financing benchmark: nominal spending per student set a record even as the federal contribution declined and state and local sources supplied nearly nine-tenths of revenue.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/us-public-school-spending-17619-per-pupil-2024/",
       "citations": [
         {
           "id": "source-census-school-finances-fy2024",
-          "title": "Public School Spending Per Pupil Reaches Historic High in 2024",
-          "publisher": "U.S. Census Bureau",
           "publishedAt": "2026-05-07T12:00:00Z",
+          "publisher": "U.S. Census Bureau",
+          "title": "Public School Spending Per Pupil Reaches Historic High in 2024",
           "url": "https://www.census.gov/newsroom/press-releases/2026/school-system-finances.html"
         }
       ],
@@ -46451,9 +46451,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T04:51:32.552Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t034822z-7d2a9c4e6b10",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -46481,26 +46481,26 @@
         "Dollar figures are not adjusted for inflation or geographic cost differences.",
         "Spending levels alone do not measure education quality or student outcomes."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T04:51:32.552Z"
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T04:44:10.441Z",
+  "generatedAt": "2026-08-11T04:54:32.955Z",
   "inputHashes": {
-    "sourceItems": "bde9d6e104561bd51fc9f5ca85fcef9167e9bc2cc77f307023775fedb24f35ba",
-    "events": "606802ceb82363ace3d4f17f3696b11a09aed94257d1437df7b6e124e5f6c80b",
-    "claims": "0db19b2d732e00bb669ea2b82658c6baf5d090efca55dbf0b84d72a7edeba06d",
-    "articles": "c0e7ac70d50a7144f5c1758ae537139fb4592fef5fb430d438325c2b1f72026d",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
+    "articles": "c0e7ac70d50a7144f5c1758ae537139fb4592fef5fb430d438325c2b1f72026d",
+    "claims": "0db19b2d732e00bb669ea2b82658c6baf5d090efca55dbf0b84d72a7edeba06d",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "events": "606802ceb82363ace3d4f17f3696b11a09aed94257d1437df7b6e124e5f6c80b",
     "mediaRights": "7065cd4c380b379c2b4e43f53696920d256c8a32b6d84145eb5a72e89c05a6b7",
-    "releaseRecords": "83294979a599dc72799df5e112da30316da838b53438748aa285cc714771cad8",
-    "publicationIntents": "d6fdda10a6218b94c13b59473700a8b9641f53c117054a98834ee572bd1aad2b"
+    "publicationIntents": "d6fdda10a6218b94c13b59473700a8b9641f53c117054a98834ee572bd1aad2b",
+    "releaseRecords": "f63cadb28d7fc5b70e70abb5ecedb4f4cd382201d032a919424d017fa9048a2f",
+    "sourceItems": "bde9d6e104561bd51fc9f5ca85fcef9167e9bc2cc77f307023775fedb24f35ba"
   },
   "inventory": {
     "articleCount": 279,
-    "routeCount": 279,
-    "mediaCount": 823
+    "mediaCount": 823,
+    "routeCount": 279
   },
   "mediaRights": [
     {
@@ -108983,6 +108983,7 @@
       "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/school-system-finances.html"
     }
   ],
+  "packageDigest": "d4f3ceba4920d50cbd49b5e2a06d3e7a8d38d2b3c49d0f2c9f80c4a7cfb7a114",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -110690,10 +110691,40 @@
       "releaseId": "release-pb-20260811t025921z-4a7c9d1e8b20",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://c8524b3a.bohonews.pages.dev/",
+      "activationEvidenceHash": "585b564d4ac5553232e43ea474ebad89682bc9d81a527ef867d93d8094b22379",
+      "canonicalFirstPublicAt": "2026-08-11T04:51:32.552Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-ai-acquisitions-lessons-four-agencies-2026/",
+        "https://bohonews.com/articles/federal-section-922g-firearm-sentences-7245-2025/",
+        "https://bohonews.com/articles/cbo-us-population-364-million-aging-2056/",
+        "https://bohonews.com/articles/usgs-river-droughtcast-90-day-streamflow-forecast-2026/",
+        "https://bohonews.com/articles/gao-four-pillar-us-ai-competitiveness-framework-2026/",
+        "https://bohonews.com/articles/us-public-school-spending-17619-per-pupil-2024/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-ai-acquisitions-lessons-four-agencies-2026",
+        "article-federal-section-922g-firearm-sentences-7245-2025",
+        "article-cbo-us-population-364-million-aging-2056",
+        "article-usgs-river-droughtcast-90-day-streamflow-forecast-2026",
+        "article-gao-four-pillar-us-ai-competitiveness-framework-2026",
+        "article-us-public-school-spending-17619-per-pupil-2024"
+      ],
+      "previousVerifiedDeploymentReference": "d0be17842c8b57bb484187e64f8704bfc9fbd6ef2c31f5deca503598ab7a6ad7",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T04:47:30.828398Z",
+      "recordHash": "569ca4583fe66957e1dd46c24defbe2a5875ecc0a0d9dd61f02390b80cffd195",
+      "releaseId": "release-pb-20260811t034822z-7d2a9c4e6b10",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
-  "releaseState": "candidate",
+  "releaseState": "final",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com",
-  "packageDigest": "73eec2c3fe2040d33c4e99f6e92d509cd60ff31b707ad0c17450e9b6f5bd3c6a"
+  "site": "https://bohonews.com"
 }
