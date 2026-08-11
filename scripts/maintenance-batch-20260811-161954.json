@@ -1,0 +1,283 @@
+[
+  {
+    "slug": "us-polysilicon-import-price-floors-december-2026",
+    "headline": "U.S. Sets December Polysilicon Import Price Floors",
+    "dek": "A presidential proclamation sets minimum import prices for polysilicon, wafers, solar cells and modules beginning Dec. 4, alongside a generally applicable 15% additional duty.",
+    "section": "world",
+    "desk": "solar-trade-policy",
+    "topics": ["Polysilicon", "Solar manufacturing", "Import policy", "Section 232"],
+    "entities": ["The White House", "U.S. Department of Commerce", "U.S. Customs and Border Protection"],
+    "locations": ["United States", "Global solar supply chain"],
+    "relatedSlugs": ["trump-section-301-tariffs-60-economies"],
+    "sources": [
+      {"id":"source-fr-polysilicon-proclamation-11052-2026","title":"Adjusting Imports of Polysilicon and Its Derivatives Into the United States","publisher":"Federal Register","publishedAt":"2026-08-11T12:00:00Z","url":"https://www.federalregister.gov/documents/2026/08/11/2026-16400/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states"},
+      {"id":"source-govinfo-polysilicon-proclamation-11052-pdf-2026","title":"Proclamation 11052 official PDF","publisher":"U.S. Government Publishing Office","publishedAt":"2026-08-11T12:00:00Z","url":"https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16400.pdf"}
+    ],
+    "lead": {
+      "id": "media-polysilicon-solar-production-nrel",
+      "dir": "polysilicon/solar-production",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:United_Solar_Ovonic_roll-to-roll_solar_photovoltaic_production_line_with_30_MW_annual_capacity.jpg",
+      "creator": "U.S. Department of Energy / National Renewable Energy Laboratory",
+      "rightsBasis": "The NREL image is identified as a work of the U.S. federal government and public domain on Wikimedia Commons.",
+      "license": "Public domain",
+      "attribution": "U.S. Department of Energy / NREL, public domain",
+      "caption": "A U.S. roll-to-roll photovoltaic manufacturing line. New import price floors for polysilicon and several solar derivatives are scheduled to begin Dec. 4, 2026.",
+      "alt": "Workers and industrial equipment on a solar photovoltaic manufacturing line.",
+      "original": "polysilicon-solar-line.jpg"
+    },
+    "charts": [
+      {"id":"media-polysilicon-import-price-floors","dir":"polysilicon/price-floors","caption":"The proclamation sets four minimum import prices, with different units for raw material, wafers, cells and modules.","alt":"Graphic lists 21 dollars per kilogram for polysilicon, 100 dollars per kilogram for ingots and wafers, 22 cents per watt for cells, and 38 cents per watt for modules."},
+      {"id":"media-polysilicon-us-capacity-shares","dir":"polysilicon/capacity-shares","caption":"The proclamation says the U.S. share of global polysilicon capacity fell below 2% in 2024 from 50% in 2005, while wafer-fabrication share fell to 10% from 37% in 1990.","alt":"Graphic compares U.S. polysilicon and wafer-fabrication capacity shares across the years cited in the proclamation."}
+    ],
+    "paragraphs": [
+      "The United States will impose minimum import prices on polysilicon and several downstream solar products beginning at 12:01 a.m. Eastern time on Dec. 4, 2026, under a presidential proclamation published Tuesday.",
+      "The floors are $21 per kilogram for raw polysilicon, $100 per kilogram for polysilicon ingots and wafers, 22 cents per watt for solar cells and 38 cents per watt for solar modules. Products entered below the applicable floor will be valued at that minimum for the remedy described in the proclamation.",
+      "The action also generally adds a 15% ad valorem duty to covered imports. The proclamation contains country-specific treatment and an annex of tariff classifications, so the headline rates do not by themselves determine the charge on every shipment.",
+      "The effective date matters: the measures were announced in August but are not scheduled to begin until December. The document directs Customs and Border Protection to administer the remedy and Commerce to monitor imports and market conditions.",
+      "The administration says global polysilicon production capacity has increased by more than 270% since 2020 and inventories reached about 400,000 metric tons at the end of 2024. Those figures are executive-branch findings supporting the action, not independent forecasts of future demand or prices.",
+      "The proclamation also says the U.S. share of global polysilicon capacity declined from 50% in 2005 to less than 2% in 2024. For wafer fabrication, it cites a decline from 37% in 1990 to 10% in 2024.",
+      "Polysilicon is a foundational material for most crystalline-silicon solar cells. It is refined, formed into ingots and sliced into wafers before cells and modules are assembled, which is why the remedy spans several points in the production chain.",
+      "A minimum import price differs from an ordinary percentage tariff because it establishes a floor for the covered product category. The additional 15% duty is a separate element, and the annex and country provisions control how the two interact.",
+      "The proclamation does not estimate what U.S. consumers or project developers will pay after Dec. 4. Exchange rates, contracts, product mix, country treatment and domestic supply can all affect market prices.",
+      "Importers therefore need the tariff classifications and customs instructions, not only the four headline floors. The Federal Register text and annex remain the controlling record for product coverage and effective timing."
+    ],
+    "facts": ["The remedy is scheduled to begin Dec. 4, 2026.", "Four minimum import prices cover polysilicon, ingots and wafers, cells, and modules.", "A generally applicable 15% additional duty is also specified.", "Country provisions and tariff classifications affect shipment-level treatment."],
+    "uncertainty": ["The proclamation does not forecast retail solar prices or domestic output.", "Coverage and duty calculations depend on the annex, origin and customs classification."],
+    "seoTitle": "U.S. polysilicon import price floors start Dec. 4, 2026",
+    "seoDescription": "New U.S. minimum import prices for polysilicon, wafers, solar cells and modules are scheduled to begin Dec. 4, with an additional duty."
+  },
+  {
+    "slug": "sba-8a-social-disadvantage-rule-september-2026",
+    "headline": "SBA Ends Group-Based 8(a) Presumption",
+    "dek": "Beginning Sept. 10, pending individually owned applicants must establish social disadvantage without the former rebuttable presumption; already certified participants are not required to requalify.",
+    "section": "politics",
+    "desk": "small-business-contracting-policy",
+    "topics": ["8(a) Business Development Program", "Federal contracting", "Small Business Administration", "Administrative law"],
+    "entities": ["U.S. Small Business Administration", "Office of Federal Procurement Policy"],
+    "locations": ["United States", "Washington, D.C."],
+    "relatedSlugs": ["gao-ai-acquisitions-lessons-four-agencies-2026"],
+    "sources": [
+      {"id":"source-fr-sba-8a-social-disadvantage-final-rule-2026","title":"Reforms to 13 CFR 124.103 To Remove SBA's 8(a) Program's Rebuttable Presumption of Social Disadvantage","publisher":"Federal Register","publishedAt":"2026-08-11T12:00:00Z","url":"https://www.federalregister.gov/documents/2026/08/11/2026-16370/reforms-to-13-cfr-124103-to-remove-sbas-8a-programs-rebuttable-presumption-of-social-disadvantage"}
+    ],
+    "lead": {
+      "id": "media-sba-loan-event-coons-office",
+      "dir": "sba-8a/small-business-event",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fulton_Bank_and_Admiral_Hotel%27s_SBA_loan_event_with_full_zeal_and_zest.jpg",
+      "creator": "Office of U.S. Senator Chris Coons",
+      "rightsBasis": "The photograph is identified as a U.S. government work and public domain on Wikimedia Commons.",
+      "license": "Public domain",
+      "attribution": "Office of U.S. Senator Chris Coons, public domain",
+      "caption": "A Small Business Administration loan event in Delaware in 2024. The photograph illustrates SBA activity and does not depict an 8(a) application covered by the new rule.",
+      "alt": "People gather around tables at a Small Business Administration event inside a hotel.",
+      "original": "sba-event.jpg"
+    },
+    "charts": [
+      {"id":"media-sba-8a-rule-timeline","dir":"sba-8a/timeline","caption":"The rule is effective Sept. 10 and applies to individually owned applications still pending on that date.","alt":"Timeline shows Aug. 11 publication, Sept. 10 effective date and application to pending individually owned applications."},
+      {"id":"media-sba-8a-who-requalifies","dir":"sba-8a/scope","caption":"Already certified individuals do not have to re-establish social disadvantage, while entity-owned tribal, ANC, NHO and CDC firms are unaffected by this change.","alt":"Graphic separates pending individually owned applicants from already certified and specified entity-owned participants."}
+    ],
+    "paragraphs": [
+      "The Small Business Administration is removing the 8(a) Business Development Program's regulatory presumption that members of specified racial and ethnic groups are socially disadvantaged.",
+      "The final rule takes effect Sept. 10, 2026. SBA says it will apply to individually owned applications that remain pending on that date, so those applicants must establish social disadvantage under the revised standard.",
+      "Under the new text, any U.S. citizen may seek to show social disadvantage by identifying membership in a group that has experienced prejudice or bias and explaining material harm tied to that treatment. The rule does not guarantee admission based on group membership alone.",
+      "The 8(a) program provides business-development assistance and access to certain federal contracting opportunities for qualifying small businesses owned and controlled by socially and economically disadvantaged individuals or eligible entities.",
+      "The change does not require people who are already certified in the program to re-establish social disadvantage. SBA also says the rule does not alter eligibility for firms owned by tribes, Alaska Native Corporations, Native Hawaiian Organizations or Community Development Corporations.",
+      "SBA presents the revision as a response to court decisions and its reading of constitutional requirements. That is the agency's legal rationale; the rule does not resolve every future question about how individual applications or contracting decisions may be reviewed.",
+      "For pending individually owned applicants, the practical change is evidentiary. They can no longer rely on the former rebuttable presumption and will need to submit the information SBA requires under the revised regulation.",
+      "The final rule distinguishes pending applications from current participants because certification decisions have already been made for the latter. It also preserves the separate statutory framework for specified entity-owned businesses.",
+      "The document does not forecast how many applicants will qualify under the new test or how federal contract awards will change. Those outcomes depend on the applications received, SBA adjudication and agency procurement decisions.",
+      "Applicants and contracting officers should use the final regulatory text and SBA's program instructions for case-specific requirements. This report describes the rule's general effect and is not legal advice."
+    ],
+    "facts": ["The rule is effective Sept. 10, 2026.", "It removes the former rebuttable presumption from the regulation.", "Pending individually owned applications are subject to the revised standard.", "Already certified and specified entity-owned participants do not requalify under this change."],
+    "uncertainty": ["SBA did not project applicant or contract-award outcomes.", "Future administrative and judicial interpretation may shape application of the individual evidence standard."],
+    "seoTitle": "SBA 8(a) social-disadvantage rule changes Sept. 10",
+    "seoDescription": "SBA's final 8(a) rule removes the group-based presumption for pending individually owned applicants while preserving current certifications."
+  },
+  {
+    "slug": "ies-fy2027-education-research-grants-october-deadline",
+    "headline": "IES Opens Five Education Research Grant Competitions",
+    "dek": "Applications for training, methods, replication and state longitudinal-data programs are due Oct. 1, with maximum awards ranging from $800,000 to $1.2 million.",
+    "section": "us",
+    "desk": "education-research-funding",
+    "topics": ["Education research", "Research training", "Longitudinal data systems", "Federal grants"],
+    "entities": ["Institute of Education Sciences", "U.S. Department of Education", "Grants.gov"],
+    "locations": ["United States"],
+    "relatedSlugs": ["nsf-four-year-phd-industry-research-pilot-2026"],
+    "sources": [
+      {"id":"source-fr-ies-fy2027-research-competitions-2026","title":"Notice Announcing Research Training Programs in the Education Sciences and Research Grants Focused on Systematic Replication, Methods Training, and State Longitudinal Data Systems","publisher":"Federal Register","publishedAt":"2026-08-10T12:00:00Z","url":"https://www.federalregister.gov/documents/2026/08/10/2026-16259/notice-announcing-research-training-programs-in-the-education-sciences-research-training-programs-in"}
+    ],
+    "lead": {
+      "id": "media-ies-college-classroom-dpla",
+      "dir": "ies-grants/classroom",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:College_classroom_-_DPLA_-_d95b0f32bb9671052fce6fc8421434bd.jpg",
+      "creator": "Columbus Metropolitan Library / Digital Public Library of America",
+      "rightsBasis": "The archival photograph is marked No Copyright—United States and public domain on Wikimedia Commons.",
+      "license": "Public domain",
+      "attribution": "Columbus Metropolitan Library / DPLA, public domain",
+      "caption": "A college classroom in an archival photograph. IES has opened five fiscal 2027 competitions covering research training, methods, replication and state education data systems.",
+      "alt": "Students sit at desks in a college classroom while an instructor stands at the front.",
+      "original": "ies-classroom.jpg"
+    },
+    "charts": [
+      {"id":"media-ies-grant-award-caps","dir":"ies-grants/award-caps","caption":"Maximum awards are $800,000 for the two training programs, $900,000 for methods training and $1.2 million for each state longitudinal-data competition.","alt":"Graphic lists maximum awards of 800 thousand, 900 thousand and 1.2 million dollars across five IES competitions."},
+      {"id":"media-ies-grant-programs-deadline","dir":"ies-grants/programs","caption":"Five assistance listings cover predoctoral and methods training, early-career mentoring, replication, data-resource methods and state longitudinal systems; applications are due Oct. 1.","alt":"Graphic lists five IES grant areas and the October 1, 2026 application deadline."}
+    ],
+    "paragraphs": [
+      "The Institute of Education Sciences has opened five fiscal 2027 grant competitions for research training, methods development, systematic replication and state longitudinal-data systems.",
+      "Applications are due through Grants.gov by 11:59:59 p.m. Eastern time on Oct. 1, 2026, according to the Education Department notice published Monday.",
+      "The competitions use assistance listing numbers 84.305B, 84.324B, 84.305D, 84.305S and 84.324S. Each has a separate request for applications that controls eligibility, scope, budgets and required materials.",
+      "The two research-training listings, 84.305B and 84.324B, have maximum awards of $800,000. They cover training in the education sciences and special education research.",
+      "The methods-training listing, 84.305D, has a maximum award of $900,000. The notice identifies early-career mentoring, systematic replication and methods training using existing data resources among the supported areas.",
+      "The two state longitudinal-data-system listings, 84.305S and 84.324S, allow maximum awards of $1.2 million. They focus respectively on education policy and special education policy research using state data systems.",
+      "Those figures are award ceilings, not money already granted. IES will review applications under the individual competition rules, and the notice does not identify recipients or guarantee that every maximum will be used.",
+      "Longitudinal systems can link records across years to study pathways and policy effects, but projects handling student data remain subject to privacy, security and access requirements. The notice does not authorize publication of identifiable student records.",
+      "The five-program structure lets IES fund both people and research infrastructure: training researchers, improving methods, testing whether findings replicate and expanding the analytic use of state systems.",
+      "Prospective applicants need the program-specific request for applications in addition to the Federal Register notice. Deadline mechanics, eligible institutions and cost rules can differ by listing."
+    ],
+    "facts": ["Five fiscal 2027 competitions are open.", "Applications are due Oct. 1, 2026.", "Maximum awards range from $800,000 to $1.2 million.", "Program-specific requests for applications control eligibility and requirements."],
+    "uncertainty": ["The notice announces competitions, not awards or recipients.", "Final award counts and amounts depend on review, appropriations and program decisions."],
+    "seoTitle": "IES education research grants due Oct. 1, 2026",
+    "seoDescription": "IES opened five fiscal 2027 education-research competitions with an Oct. 1 deadline and award caps from $800,000 to $1.2 million."
+  },
+  {
+    "slug": "fda-mandatory-gras-notice-proposal-2026",
+    "headline": "FDA Proposes Mandatory GRAS Notices",
+    "dek": "The proposal would replace a voluntary notification system for many generally recognized as safe uses; comments are due Dec. 9, and the rule is not yet final.",
+    "section": "business",
+    "desk": "food-ingredient-oversight",
+    "topics": ["Food ingredients", "GRAS notices", "Food and Drug Administration", "Rulemaking"],
+    "entities": ["U.S. Food and Drug Administration", "Center for Veterinary Medicine", "Human Foods Program"],
+    "locations": ["United States"],
+    "relatedSlugs": ["fda-bht-food-additive-comment-period-august-2026"],
+    "sources": [
+      {"id":"source-fr-fda-gras-mandatory-notice-proposal-2026","title":"Substances Generally Recognized as Safe","publisher":"Federal Register","publishedAt":"2026-08-11T12:00:00Z","url":"https://www.federalregister.gov/documents/2026/08/11/2026-16296/substances-generally-recognized-as-safe"},
+      {"id":"source-govinfo-fda-gras-proposal-pdf-2026","title":"Substances Generally Recognized as Safe proposed rule official PDF","publisher":"U.S. Government Publishing Office","publishedAt":"2026-08-11T12:00:00Z","url":"https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16296.pdf"}
+    ],
+    "lead": {
+      "id": "media-gras-grocery-aisle-mildredstore",
+      "dir": "gras/grocery-aisle",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Groceries_line_the_aisle.jpg",
+      "creator": "MildredStore",
+      "rightsBasis": "The photographer licensed the image CC BY 4.0 on Wikimedia Commons.",
+      "license": "CC BY 4.0",
+      "attribution": "MildredStore / Wikimedia Commons, CC BY 4.0",
+      "caption": "Packaged foods line a grocery aisle. FDA is proposing mandatory notices for many food-substance uses now handled through a voluntary GRAS notification program.",
+      "alt": "Shelves of packaged groceries extend along a brightly lit supermarket aisle.",
+      "original": "gras-grocery-aisle.jpg"
+    },
+    "charts": [
+      {"id":"media-gras-voluntary-mandatory-proposal","dir":"gras/notice-change","caption":"FDA's current GRAS notification program is voluntary; the proposal would make notices mandatory for covered human- and animal-food uses, subject to listed exceptions.","alt":"Graphic contrasts the current voluntary GRAS notice system with the proposed mandatory notice system."},
+      {"id":"media-gras-proposal-record-cost","dir":"gras/record-cost","caption":"FDA cites more than 1,200 Human Foods Program notices and 75 veterinary notices, and estimates a 10-year present-value cost of $89.6 million at a 3% discount rate.","alt":"Graphic shows FDA notice counts and the proposal's central 10-year cost estimate."}
+    ],
+    "paragraphs": [
+      "The Food and Drug Administration is proposing to require notices for many human- and animal-food substances that companies conclude are generally recognized as safe, replacing a notification program that is currently voluntary.",
+      "Comments on the proposed rule are due Dec. 9, 2026. The requirement is not yet final, and the Federal Register proposal—not a press summary—defines the covered uses, exceptions and transition provisions.",
+      "Under the current system, a company may reach an independent GRAS conclusion for a particular use without submitting a notice to FDA, and a notifier does not have to wait for an agency response before marketing. FDA says the proposal would make notification mandatory for covered conclusions.",
+      "A mandatory notice would not be the same as converting every GRAS substance into a premarket food-additive approval. The proposed framework retains the statutory GRAS standard while requiring information to be submitted for agency review and public record in more cases.",
+      "FDA says its Human Foods Program had filed more than 1,200 GRAS notices by March 25, 2025, while the Center for Veterinary Medicine had filed 75 by March 28. The agency cites a 2011 estimate of more than 10,000 substances added to food.",
+      "The proposal also discusses legacy uses, exceptions and changes to the threshold-of-regulation process. Those details matter because not every substance or historical use would follow an identical filing path.",
+      "FDA's central economic estimate is a 10-year present-value cost of $89.6 million at a 3% discount rate, in 2024 dollars. Its stated range is $34.9 million to $210 million, with a central annualized estimate of $10.5 million.",
+      "The agency says broader notification would improve its visibility into substances used in food. That is FDA's regulatory rationale; the proposal does not establish that every independently concluded use is unsafe or predict which products may change.",
+      "Manufacturers, researchers, consumers and other interested parties can comment on the scope and estimates before FDA decides whether and how to issue a final rule.",
+      "Until a final rule takes effect, the current framework remains in place. Businesses evaluating a specific ingredient should rely on FDA's legal text and qualified regulatory advice rather than this general news summary."
+    ],
+    "facts": ["FDA is proposing, not finalizing, mandatory GRAS notices.", "Comments are due Dec. 9, 2026.", "The proposal covers human and animal food with exceptions and transition details.", "FDA's central 10-year present-value cost estimate is $89.6 million."],
+    "uncertainty": ["FDA may revise the proposal after public comment.", "The agency says it cannot quantify every market transfer or product-level response."],
+    "seoTitle": "FDA proposes mandatory GRAS food-substance notices",
+    "seoDescription": "FDA wants to make many GRAS notices mandatory for human and animal food. The proposal is open for comments through Dec. 9, 2026."
+  },
+  {
+    "slug": "usitc-asus-plume-wifi-import-relief-comments-2026",
+    "headline": "USITC Seeks Comment on Wi-Fi Import Relief",
+    "dek": "An administrative judge recommended limited exclusion and cease-and-desist orders after an initial patent finding; the commission has not issued a final remedy.",
+    "section": "technology",
+    "desk": "wireless-patent-trade-cases",
+    "topics": ["Wi-Fi routers", "U.S. International Trade Commission", "Patent disputes", "Import exclusion"],
+    "entities": ["U.S. International Trade Commission", "ASUSTeK Computer Inc.", "ASUS Computer International", "Plume Design Inc."],
+    "locations": ["United States", "Washington, D.C."],
+    "relatedSlugs": ["gao-overlapping-cybersecurity-reporting-rules-2026"],
+    "sources": [
+      {"id":"source-fr-usitc-wifi-337-ta-1454-public-interest-2026","title":"Certain Wi-Fi Routers, Wi-Fi Devices, Mesh Wi-Fi Network Devices, and Components Thereof; Notice of Request for Submissions on the Public Interest","publisher":"Federal Register","publishedAt":"2026-08-11T12:00:00Z","url":"https://www.federalregister.gov/documents/2026/08/11/2026-16363/certain-wi-fi-routers-wi-fi-devices-mesh-wi-fi-network-devices-and-components-thereof-notice-of"},
+      {"id":"source-govinfo-usitc-wifi-337-ta-1454-pdf-2026","title":"Investigation 337-TA-1454 public-interest notice official PDF","publisher":"U.S. Government Publishing Office","publishedAt":"2026-08-11T12:00:00Z","url":"https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16363.pdf"}
+    ],
+    "lead": {
+      "id": "media-usitc-asus-router-dinkun-chen",
+      "dir": "usitc-wifi/asus-router",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ASUS_Wi-Fi_ROUTER_TUF_6500.jpg",
+      "creator": "Dinkun Chen",
+      "rightsBasis": "The photographer licensed the image CC BY-SA 4.0 on Wikimedia Commons.",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Dinkun Chen / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "An ASUS-branded Wi-Fi router. The image is illustrative; the USITC notice does not establish that this model is among the products at issue.",
+      "alt": "A black ASUS Wi-Fi router with several upright antennas sits on a tabletop.",
+      "original": "usitc-asus-router.jpg"
+    },
+    "charts": [
+      {"id":"media-usitc-wifi-proposed-remedies","dir":"usitc-wifi/remedies","caption":"The administrative judge recommended a limited exclusion order for certain covered imports and cease-and-desist orders for Plume and ASUS Computer International if the commission finds a violation.","alt":"Graphic summarizes proposed limited exclusion and cease-and-desist remedies in investigation 337-TA-1454."},
+      {"id":"media-usitc-wifi-public-interest-factors","dir":"usitc-wifi/public-interest","caption":"The commission is asking about health and welfare, competition, U.S. substitutes and capacity, and effects on consumers; submissions are due Sept. 8.","alt":"Graphic lists the USITC public-interest factors and September 8, 2026 comment deadline."}
+    ],
+    "paragraphs": [
+      "The U.S. International Trade Commission is seeking public-interest comments before deciding whether to impose import-related remedies involving certain Wi-Fi routers, mesh devices and components associated with ASUS and Plume.",
+      "An administrative law judge issued an initial determination on Aug. 6 finding a violation in investigation 337-TA-1454 and recommending remedies. The commission has not yet made a final violation finding or issued an exclusion order.",
+      "If the commission ultimately finds a violation, the judge recommended a limited exclusion order covering certain products imported by or for ASUSTeK Computer, ASUS Computer International and Plume Design.",
+      "The recommendation also includes cease-and-desist orders directed to Plume and ASUS Computer International. A recommendation is not an operative border order; the commission must review the record and determine the remedy.",
+      "Public submissions are limited to five pages and due by the close of business on Sept. 8, 2026, according to the notice.",
+      "The commission is asking how a possible remedy could affect public health and welfare, competitive conditions in the U.S. economy, production of substitutes in the United States and U.S. consumers.",
+      "It also wants information about whether directly competitive products are available, whether domestic suppliers have capacity to replace excluded imports and how long substitution could take.",
+      "The case concerns certain devices and components, not every router sold under the named brands. Product coverage depends on the asserted patents, adjudicated claims and the final scope of any commission order.",
+      "Section 337 proceedings can lead to exclusion orders enforced at the border, but the public-interest stage gives the commission a separate record on the consequences of relief before it acts.",
+      "The notice does not predict the commission's final decision or a timetable for any order taking effect. Interested parties need the investigation docket and commission rules for filing and confidential-treatment requirements."
+    ],
+    "facts": ["The judge issued an initial determination and recommended remedies Aug. 6.", "The commission has not issued a final exclusion order.", "Public-interest submissions are due Sept. 8, 2026.", "The notice concerns certain products and components, not every branded router."],
+    "uncertainty": ["The commission may affirm, modify or reject the initial determination and recommended remedy.", "The final product scope and consumer effect cannot be known before a commission decision."],
+    "seoTitle": "USITC seeks ASUS and Plume Wi-Fi remedy comments",
+    "seoDescription": "USITC is taking public-interest comments through Sept. 8 on proposed Wi-Fi import remedies after an initial patent finding."
+  },
+  {
+    "slug": "federal-mileage-reimbursement-76-cents-july-2026",
+    "headline": "Federal Mileage Rate Rises to 76 Cents",
+    "dek": "GSA's midyear adjustment applies to authorized federal travel from July 1 through Dec. 31; it is not a general tax-deduction rate.",
+    "section": "us",
+    "desk": "federal-travel-reimbursement",
+    "topics": ["Federal travel", "Mileage reimbursement", "General Services Administration", "Official travel"],
+    "entities": ["U.S. General Services Administration"],
+    "locations": ["United States"],
+    "relatedSlugs": ["dol-opinion-letters-remote-work-commute-2026"],
+    "sources": [
+      {"id":"source-gsa-ftr-bulletin-2603-mileage-2026","title":"GSA Bulletin FTR 26-03: Midyear Adjustment to Calendar Year 2026 Privately Owned Vehicle Mileage Reimbursement Rates","publisher":"U.S. General Services Administration","publishedAt":"2026-07-27T12:00:00Z","url":"https://www.gsa.gov/policy-regulations/regulations/federal-travel-regulation/ftr-and-related-files/gsa-bulletin-ftr-2603"},
+      {"id":"source-fr-gsa-midyear-mileage-adjustment-2026","title":"Midyear Adjustment to the Calendar Year 2026 Privately Owned Vehicle Mileage Reimbursement Rates","publisher":"Federal Register","publishedAt":"2026-08-11T12:00:00Z","url":"https://www.federalregister.gov/documents/2026/08/11/2026-16306/midyear-adjustment-to-the-calendar-year-cy-2026-privately-owned-vehicle-pov-mileage-reimbursement"},
+      {"id":"source-gsa-ftr-bulletin-2602-mileage-2026","title":"GSA Bulletin FTR 26-02: Calendar Year 2026 Privately Owned Vehicle Mileage Reimbursement Rates","publisher":"U.S. General Services Administration","publishedAt":"2025-12-29T12:00:00Z","url":"https://www.gsa.gov/policy-regulations/regulations/federal-travel-regulation/ftr-and-related-files/gsa-bulletin-ftr-2602"}
+    ],
+    "lead": {
+      "id": "media-federal-mileage-highway-driving-illegtn",
+      "dir": "federal-mileage/highway-driving",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Driving_a_car_on_the_highway.jpg",
+      "creator": "Illegtn",
+      "rightsBasis": "The photographer licensed the image CC BY 4.0 on Wikimedia Commons.",
+      "license": "CC BY 4.0",
+      "attribution": "Illegtn / Wikimedia Commons, CC BY 4.0",
+      "caption": "A driver travels on a highway. GSA's revised rates cover authorized federal travel and relocation during the second half of 2026.",
+      "alt": "View through a car windshield as traffic moves along a multilane highway.",
+      "original": "federal-mileage-highway.jpg"
+    },
+    "charts": [
+      {"id":"media-federal-mileage-current-rates","dir":"federal-mileage/current-rates","caption":"For July through December, GSA set federal rates of 76 cents per mile for an automobile, $1.935 for an airplane, 74 cents for a motorcycle and 23.5 cents when a government automobile is available and authorized.","alt":"Graphic lists second-half 2026 federal mileage reimbursement rates by privately owned vehicle type."},
+      {"id":"media-federal-mileage-midyear-change","dir":"federal-mileage/changes","caption":"The private-auto rate rose from 72.5 to 76 cents per mile; the moving-purpose and government-auto-available rates rose from 20.5 to 23.5 cents.","alt":"Graphic compares selected federal mileage rates before and after the July 1 midyear adjustment."}
+    ],
+    "paragraphs": [
+      "The General Services Administration has raised the federal reimbursement rate for use of a privately owned automobile on authorized official travel to 76 cents per mile for the second half of 2026.",
+      "The midyear adjustment applies to federal travel and relocation performed from July 1 through Dec. 31. GSA issued the bulletin July 27 and published notice of it in the Federal Register on Tuesday.",
+      "The private-auto rate was 72.5 cents per mile for the first half of the year. The new bulletin cancels the earlier calendar-year rate schedule effective July 1.",
+      "GSA also set the rate for a privately owned airplane at $1.935 per mile, up from $1.78, and the motorcycle rate at 74 cents, up from 70.5 cents.",
+      "When a government automobile is available and authorized, the privately owned automobile rate is 23.5 cents per mile, up from 20.5 cents. The moving-purpose rate for a privately owned vehicle is also 23.5 cents.",
+      "These are Federal Travel Regulation reimbursement rates for eligible federal employees and relocation travel. They are not a general Internal Revenue Service mileage deduction for every driver or business.",
+      "Actual reimbursement still depends on authorization, travel purpose, vehicle availability and agency application of the Federal Travel Regulation. A higher published rate does not make every commute or trip reimbursable.",
+      "The bulletin calls the change a midyear adjustment rather than a retroactive rewrite of travel before July. The July 1 start date separates trips under the first-half and second-half schedules.",
+      "Travelers submitting vouchers should use the rate tied to the date and type of authorized travel, along with their agency's documentation rules.",
+      "The GSA bulletin and agency travel office are the controlling sources for individual claims. This report explains the federal schedule and does not provide tax or personal reimbursement advice."
+    ],
+    "facts": ["The private-auto rate is 76 cents per mile for July 1 through Dec. 31, 2026.", "The airplane rate is $1.935 and motorcycle rate is 74 cents per mile.", "The government-auto-available and moving-purpose rates are 23.5 cents per mile.", "The schedule covers authorized federal travel and relocation."],
+    "uncertainty": ["Eligibility and reimbursement depend on authorization and agency application of the travel regulation.", "The federal travel rate should not be confused with a general tax-deduction rate."],
+    "seoTitle": "Federal mileage reimbursement rises to 76 cents in 2026",
+    "seoDescription": "GSA raised the federal private-auto mileage rate to 76 cents for authorized travel from July 1 through Dec. 31, 2026."
+  }
+]
