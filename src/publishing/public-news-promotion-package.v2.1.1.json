@@ -49181,25 +49181,905 @@
         "Evidence and resources varied across observances, regions and countries, so findings do not apply identically to every campaign."
       ],
       "updatedAt": "2026-08-11T08:08:11.136Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Department of Energy's isotope program lacks a systematic process for forecasting demand and timely plans for supply risks, even though it is the only domestic supplier for many materials used in medicine, research and industry, federal auditors reported.\n\nFrom fiscal 2020 through 2025, the Office of Isotope Research and Development and Production produced, sold and distributed 265 isotopes. It made more than 7,700 shipments, most for medical purposes, according to the Government Accountability Office.\n\nThe program monitors markets through interactions with industry, customers and production sites, but GAO found those contacts were tracked manually and needs were assessed case by case rather than through a consistent forecasting mechanism.\n\nThat gap can matter when a production line takes time to prepare. One university production-site representative told auditors that clearer market analysis could have prompted earlier preparation for an isotope facing an imminent supply failure.\n\nDOE data show the number of isotopes experiencing market disruptions fell from 40 in 2023 to 25 in 2025. GAO said the United States still relied on countries classified as sensitive for a majority of the remaining isotopes.\n\nA supply risk is not proof that a shortage will occur. Production capacity, inventories, private suppliers and foreign sources can change, and GAO reviewed a nongeneralizable sample of recipients alongside program data and documents.\n\nThe stakes cross several sectors. Isotopes support diagnostic imaging and cancer treatment, manufacturing, national security, quantum science and basic research; substitutes may not exist for a particular application.\n\nGAO issued four recommendations, including systematic demand assessment, creation of a statutorily required advisory committee, time-bound mitigation plans and clearer risk communication to customers. DOE's Office of Science agreed.\n\nThe recommendations remain open until auditors verify action. The practical test is whether DOE can detect a tightening market early enough to expand production or reduce dependence before customers face an interruption.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Department of Energy's isotope program lacks a systematic process for forecasting demand and timely plans for supply risks, even though it is the only domestic supplier for many materials used in medicine, research and industry, federal auditors reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "From fiscal 2020 through 2025, the Office of Isotope Research and Development and Production produced, sold and distributed 265 isotopes. It made more than 7,700 shipments, most for medical purposes, according to the Government Accountability Office."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-critical-isotope-output-2020-2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/output/four-three.webp",
+          "alt": "Graphic shows 265 isotopes and more than 7,700 shipments from fiscal 2020 through 2025.",
+          "caption": "DOE's isotope program produced, sold and distributed 265 isotopes and made more than 7,700 shipments from fiscal 2020 through 2025.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108053"
+        },
+        {
+          "type": "paragraph",
+          "text": "The program monitors markets through interactions with industry, customers and production sites, but GAO found those contacts were tracked manually and needs were assessed case by case rather than through a consistent forecasting mechanism."
+        },
+        {
+          "type": "paragraph",
+          "text": "That gap can matter when a production line takes time to prepare. One university production-site representative told auditors that clearer market analysis could have prompted earlier preparation for an isotope facing an imminent supply failure."
+        },
+        {
+          "type": "paragraph",
+          "text": "DOE data show the number of isotopes experiencing market disruptions fell from 40 in 2023 to 25 in 2025. GAO said the United States still relied on countries classified as sensitive for a majority of the remaining isotopes."
+        },
+        {
+          "type": "paragraph",
+          "text": "A supply risk is not proof that a shortage will occur. Production capacity, inventories, private suppliers and foreign sources can change, and GAO reviewed a nongeneralizable sample of recipients alongside program data and documents."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-critical-isotope-disruptions-2023-2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/disruptions/four-three.webp",
+          "alt": "Graphic shows isotope market disruptions declining from 40 in 2023 to 25 in 2025.",
+          "caption": "Isotopes with market disruptions fell from 40 in 2023 to 25 in 2025, but GAO says most remaining cases still relied on sensitive countries.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108053"
+        },
+        {
+          "type": "paragraph",
+          "text": "The stakes cross several sectors. Isotopes support diagnostic imaging and cancer treatment, manufacturing, national security, quantum science and basic research; substitutes may not exist for a particular application."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO issued four recommendations, including systematic demand assessment, creation of a statutorily required advisory committee, time-bound mitigation plans and clearer risk communication to customers. DOE's Office of Science agreed."
+        },
+        {
+          "type": "paragraph",
+          "text": "The recommendations remain open until auditors verify action. The practical test is whether DOE can detect a tightening market early enough to expand production or reduce dependence before customers face an interruption."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-critical-isotope-supply-risks-2026/",
+      "citations": [
+        {
+          "id": "source-gao-critical-isotopes-20260723",
+          "title": "Managing Critical Isotopes: DOE Could Better Assess Market Needs and Respond to Risks",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-07-23T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-108053"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "DOE's program handled 265 isotopes from fiscal 2020 through 2025.",
+        "The program made more than 7,700 shipments, most for medical purposes.",
+        "Recorded market disruptions fell from 40 isotopes in 2023 to 25 in 2025.",
+        "GAO made four recommendations and DOE agreed."
+      ],
+      "corrections": [],
+      "dek": "GAO says the federal isotope program made 7,700 shipments but still relies on manual market tracking and lacks timely risk-mitigation plans.",
+      "desk": "critical-isotope-supply-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "U.S. Department of Energy",
+        "Office of Isotope Research and Development and Production"
+      ],
+      "eventId": "event-gao-critical-isotope-supply-risks-2026",
+      "headline": "DOE Lacks a Systematic Plan for Critical Isotope Shortages",
+      "id": "article-gao-critical-isotope-supply-risks-2026",
+      "leadImage": {
+        "alt": "A researcher works with shielded laboratory equipment used in isotope production.",
+        "caption": "Work at Oak Ridge National Laboratory to produce einsteinium. GAO says DOE needs a systematic way to forecast isotope demand and act on supply risks.",
+        "credit": "Oak Ridge National Laboratory / Wikimedia Commons, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-ornl-einsteinium-production-2021",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/einsteinium-production/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Oak Ridge, Tennessee"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says DOE made 7,700 isotope shipments but needs systematic demand forecasts and timely plans for critical supply risks.",
+        "index": true,
+        "title": "GAO: DOE lacks systematic plan for critical isotope supply"
+      },
+      "section": "investigations",
+      "slug": "gao-critical-isotope-supply-risks-2026",
+      "social": {
+        "description": "GAO says the federal isotope program made 7,700 shipments but still relies on manual market tracking and lacks timely risk-mitigation plans.",
+        "image": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/einsteinium-production/open-graph.webp",
+        "title": "DOE Lacks a Systematic Plan for Critical Isotope Shortages"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Critical isotopes",
+        "Supply chains",
+        "Department of Energy",
+        "Medical materials",
+        "Federal oversight"
+      ],
+      "uncertainty": [
+        "A documented supply risk does not establish that a future shortage will occur.",
+        "GAO's interviews included a nongeneralizable sample of isotope recipients."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal courts sentenced 253 people for escape offenses in fiscal 2025, a small share of the 66,662 cases reported to the United States Sentencing Commission.\n\nThe category includes more than breaking out of a secure prison. It also covers failing to report to custody, leaving a community corrections center or failing to return after temporary release.\n\nSixty-three percent of the cases involved escape from non-secure custody such as a halfway house, community treatment center or similar facility. Seven percent involved leaving non-secure custody and returning voluntarily within 96 hours.\n\nForce was uncommon in the sentencing data. Two percent involved the use or threat of force against a person, and 1% involved reckless endangerment during flight from law enforcement.\n\nThe Western District of Texas reported the most cases at 34, followed by the District of New Mexico with 15 and the District of Kansas with 11. District totals reflect federal prosecutions, not all escapes in those places.\n\nThirty-one percent of sentenced individuals were in Criminal History Category VI, the highest category, while 3% were in Category I. The average age was 37 and 98% were U.S. citizens.\n\nThe average sentence was 13 months and 99% received prison. Seventy-two percent were sentenced within the guideline range; 21% received a downward variance.\n\nAverage guideline minimums and imposed sentences were broadly steady over five years. The average guideline minimum moved from 13 months in fiscal 2021 to 12 months in 2025, while the average sentence stayed at 13 months.\n\nThe profile measures sentenced federal cases, not every escape incident or attempted escape. Counts can change with charging decisions, case timing and incomplete records, and the Commission excludes cases missing required sentencing information.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Federal courts sentenced 253 people for escape offenses in fiscal 2025, a small share of the 66,662 cases reported to the United States Sentencing Commission."
+        },
+        {
+          "type": "paragraph",
+          "text": "The category includes more than breaking out of a secure prison. It also covers failing to report to custody, leaving a community corrections center or failing to return after temporary release."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-federal-escape-custody-type-fy2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/custody/four-three.webp",
+          "alt": "Graphic shows 63 percent involving non-secure community custody and 7 percent involving return within 96 hours.",
+          "caption": "Sixty-three percent of federal escape cases involved leaving non-secure community custody, while 7% involved a voluntary return within 96 hours.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/escape-offenses"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sixty-three percent of the cases involved escape from non-secure custody such as a halfway house, community treatment center or similar facility. Seven percent involved leaving non-secure custody and returning voluntarily within 96 hours."
+        },
+        {
+          "type": "paragraph",
+          "text": "Force was uncommon in the sentencing data. Two percent involved the use or threat of force against a person, and 1% involved reckless endangerment during flight from law enforcement."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Western District of Texas reported the most cases at 34, followed by the District of New Mexico with 15 and the District of Kansas with 11. District totals reflect federal prosecutions, not all escapes in those places."
+        },
+        {
+          "type": "paragraph",
+          "text": "Thirty-one percent of sentenced individuals were in Criminal History Category VI, the highest category, while 3% were in Category I. The average age was 37 and 98% were U.S. citizens."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-federal-escape-sentencing-fy2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/sentences/four-three.webp",
+          "alt": "Graphic shows a 13-month average sentence, 99 percent receiving prison and 72 percent within the guideline range.",
+          "caption": "The average escape sentence was 13 months; 99% received prison and 72% were sentenced within the guideline range.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/escape-offenses"
+        },
+        {
+          "type": "paragraph",
+          "text": "The average sentence was 13 months and 99% received prison. Seventy-two percent were sentenced within the guideline range; 21% received a downward variance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Average guideline minimums and imposed sentences were broadly steady over five years. The average guideline minimum moved from 13 months in fiscal 2021 to 12 months in 2025, while the average sentence stayed at 13 months."
+        },
+        {
+          "type": "paragraph",
+          "text": "The profile measures sentenced federal cases, not every escape incident or attempted escape. Counts can change with charging decisions, case timing and incomplete records, and the Commission excludes cases missing required sentencing information."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-escape-offenses-253-fiscal-2025/",
+      "citations": [
+        {
+          "id": "source-ussc-escape-offenses-fy2025",
+          "title": "Escape Offenses",
+          "publisher": "United States Sentencing Commission",
+          "publishedAt": "2026-07-01T12:00:00Z",
+          "url": "https://www.ussc.gov/research/quick-facts/escape-offenses"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The Commission reported 253 federal escape cases in fiscal 2025.",
+        "Sixty-three percent involved non-secure community custody.",
+        "Two percent involved force or a threat of force.",
+        "The average sentence was 13 months and 99% received prison."
+      ],
+      "corrections": [],
+      "dek": "Nearly two-thirds involved non-secure community custody, while 2% involved force or a threat of force, Sentencing Commission data show.",
+      "desk": "federal-escape-sentencing",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Sentencing Commission",
+        "Federal courts",
+        "Community corrections centers"
+      ],
+      "eventId": "event-federal-escape-offenses-253-fiscal-2025",
+      "headline": "Federal Escape Cases Fell to 253 in 2025",
+      "id": "article-federal-escape-offenses-253-fiscal-2025",
+      "leadImage": {
+        "alt": "The stone facade and entrance of a United States courthouse fill the frame.",
+        "caption": "The United States Courthouse in Davenport, Iowa. Federal courts sentenced 253 people for escape offenses in fiscal 2025.",
+        "credit": "Carol M. Highsmith / Library of Congress, public domain",
+        "height": 900,
+        "rightsId": "media-us-courthouse-davenport-highsmith",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/courthouse/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Davenport, Iowa"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Sentencing Commission data show 253 federal escape cases in 2025, with 63% involving non-secure community custody.",
+        "index": true,
+        "title": "Federal escape cases fell to 253 in fiscal 2025"
+      },
+      "section": "crime-justice",
+      "slug": "federal-escape-offenses-253-fiscal-2025",
+      "social": {
+        "description": "Nearly two-thirds involved non-secure community custody, while 2% involved force or a threat of force, Sentencing Commission data show.",
+        "image": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/courthouse/open-graph.webp",
+        "title": "Federal Escape Cases Fell to 253 in 2025"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal sentencing",
+        "Escape offenses",
+        "Community custody",
+        "Federal courts",
+        "Criminal history"
+      ],
+      "uncertainty": [
+        "The data cover sentenced federal cases, not every escape incident.",
+        "Cases with incomplete sentencing information were excluded."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Treasury Department had 28 priority recommendations still open as of June 2026 after implementing four since the Government Accountability Office's previous annual letter, the watchdog reported.\n\nGAO uses the priority label for recommendations that could save substantial money, improve major decisions, reduce fraud or mismanagement, or address a government-wide high-risk or duplication problem.\n\nIn August 2025, auditors counted 32 priority recommendations for Treasury. Closing four reduced the backlog, but implementation is measured by verified action rather than an agency announcement or plan.\n\nGAO grouped the remaining work into three areas: reducing fraud and improper payments; strengthening cybersecurity and information privacy; and improving federal financial management.\n\nThe letter specifically points to recovery of overpaid COVID-19 Emergency Rental Assistance funds, cyber-risk coordination involving Treasury and the financial sector, and more complete and reliable federal financial information.\n\nThe 28 items are not 28 findings issued in June. They are open recommendations accumulated through prior audits and elevated for department leadership because GAO judges them especially consequential.\n\nNor does an open recommendation mean Treasury has done nothing. Agencies can have work underway; GAO keeps an item open until it determines that completed steps address the underlying recommendation.\n\nThe report does not attach a single dollar estimate to the entire backlog. Potential benefits differ by item and may include avoided losses, better controls, faster recovery or more reliable decision-making rather than cash savings alone.\n\nThe next measurable change will be the number of recommendations GAO verifies as implemented and the evidence behind those closures, particularly in the three areas it identified for timely attention.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Treasury Department had 28 priority recommendations still open as of June 2026 after implementing four since the Government Accountability Office's previous annual letter, the watchdog reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO uses the priority label for recommendations that could save substantial money, improve major decisions, reduce fraud or mismanagement, or address a government-wide high-risk or duplication problem."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-treasury-priority-counts-2025-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/counts/four-three.webp",
+          "alt": "Graphic shows 32 prior recommendations, four implemented and 28 remaining.",
+          "caption": "Treasury implemented four of 32 priority recommendations identified in August 2025, leaving 28 open in June 2026.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108993"
+        },
+        {
+          "type": "paragraph",
+          "text": "In August 2025, auditors counted 32 priority recommendations for Treasury. Closing four reduced the backlog, but implementation is measured by verified action rather than an agency announcement or plan."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO grouped the remaining work into three areas: reducing fraud and improper payments; strengthening cybersecurity and information privacy; and improving federal financial management."
+        },
+        {
+          "type": "paragraph",
+          "text": "The letter specifically points to recovery of overpaid COVID-19 Emergency Rental Assistance funds, cyber-risk coordination involving Treasury and the financial sector, and more complete and reliable federal financial information."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 28 items are not 28 findings issued in June. They are open recommendations accumulated through prior audits and elevated for department leadership because GAO judges them especially consequential."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-treasury-priority-areas-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/areas/four-three.webp",
+          "alt": "Graphic lists improper payments, cybersecurity and privacy, and financial management as three priority areas.",
+          "caption": "GAO highlighted improper payments, cybersecurity and information privacy, and federal financial management for focused attention.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108993"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nor does an open recommendation mean Treasury has done nothing. Agencies can have work underway; GAO keeps an item open until it determines that completed steps address the underlying recommendation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The report does not attach a single dollar estimate to the entire backlog. Potential benefits differ by item and may include avoided losses, better controls, faster recovery or more reliable decision-making rather than cash savings alone."
+        },
+        {
+          "type": "paragraph",
+          "text": "The next measurable change will be the number of recommendations GAO verifies as implemented and the evidence behind those closures, particularly in the three areas it identified for timely attention."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-treasury-28-priority-recommendations-2026/",
+      "citations": [
+        {
+          "id": "source-gao-treasury-priority-recommendations-20260630",
+          "title": "Priority Open Recommendations: Department of the Treasury",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-06-30T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-108993"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "GAO identified 32 Treasury priority recommendations in August 2025.",
+        "Treasury implemented four, leaving 28 as of June 2026.",
+        "GAO highlighted three broad areas for focused attention.",
+        "The letter did not assign one combined savings estimate to the backlog."
+      ],
+      "corrections": [],
+      "dek": "Treasury closed four priority items since August 2025, but auditors still flag improper payments, cybersecurity and federal financial management.",
+      "desk": "treasury-priority-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "U.S. Department of the Treasury"
+      ],
+      "eventId": "event-gao-treasury-28-priority-recommendations-2026",
+      "headline": "GAO Leaves Treasury With 28 Priority Recommendations for 2026",
+      "id": "article-gao-treasury-28-priority-recommendations-2026",
+      "leadImage": {
+        "alt": "The colonnaded United States Treasury Building stands behind a statue and winter trees.",
+        "caption": "The Treasury Building in Washington. GAO says 28 priority recommendations remained open as of June 2026.",
+        "credit": "Tony Webster / Wikimedia Commons, CC BY-SA 3.0",
+        "height": 900,
+        "rightsId": "media-us-treasury-tony-webster-2011",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/treasury-building/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Treasury closed four priority items, leaving 28 focused on improper payments, cybersecurity and financial management, GAO says.",
+        "index": true,
+        "title": "GAO lists 28 priority recommendations still open at Treasury"
+      },
+      "section": "politics",
+      "slug": "gao-treasury-28-priority-recommendations-2026",
+      "social": {
+        "description": "Treasury closed four priority items since August 2025, but auditors still flag improper payments, cybersecurity and federal financial management.",
+        "image": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/treasury-building/open-graph.webp",
+        "title": "GAO Leaves Treasury With 28 Priority Recommendations for 2026"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Treasury Department",
+        "Government oversight",
+        "Improper payments",
+        "Cybersecurity",
+        "Financial management"
+      ],
+      "uncertainty": [
+        "Open status does not mean Treasury has taken no action; it means GAO has not verified full implementation.",
+        "The recommendations have different potential benefits and cannot be added into one supported dollar figure."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The U.S. Fish and Wildlife Service has not established performance goals for nine resilience projects funded with $125 million, limiting its ability to show whether restored habitat and infrastructure meet broader objectives, federal auditors found.\n\nCongress provided the supplemental money to rebuild and restore national wildlife refuges and state wildlife-management areas, including work intended to withstand future weather events.\n\nAs of April 1, 2026, the agency had obligated 99.6% of the appropriation and spent about $48.9 million. The projects span 23 states and more than 75 National Wildlife Refuge System units.\n\nFish and Wildlife officials reported restoring more than 5,000 acres of wetlands and 16,000 acres of other habitat. Activities include water-control structures to reduce flood risk, forest restoration and fencing used in bison management.\n\nThose counts document work completed, but GAO said the agency did not set performance goals tied to the implementation plan's outcomes, such as improving the capacity of habitats and infrastructure to recover from extreme weather.\n\nOutputs and outcomes are different measures. Acres restored can show scale; a performance goal can test whether the restoration delivers the resilience, ecological or infrastructure result the program was designed to achieve.\n\nFish and Wildlife selected planned but unfunded activities that fit the appropriation and favored places that had not received similar supplemental money, as well as projects where established partners could broaden the work.\n\nGAO recommended project-level performance goals and a workforce review identifying critical skills, staffing needs and strategies for gaps. Fish and Wildlife agreed with both recommendations.\n\nThe findings do not erase the restoration already reported. They identify a measurement gap that will matter when officials must decide whether the nine projects worked, which approaches to repeat and where to change course.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The U.S. Fish and Wildlife Service has not established performance goals for nine resilience projects funded with $125 million, limiting its ability to show whether restored habitat and infrastructure meet broader objectives, federal auditors found."
+        },
+        {
+          "type": "paragraph",
+          "text": "Congress provided the supplemental money to rebuild and restore national wildlife refuges and state wildlife-management areas, including work intended to withstand future weather events."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-wildlife-resilience-funding-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/funding/four-three.webp",
+          "alt": "Graphic shows 125 million dollars appropriated, 99.6 percent obligated and 48.9 million dollars spent.",
+          "caption": "FWS had obligated 99.6% of the $125 million appropriation and spent $48.9 million as of April 1, 2026.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108212"
+        },
+        {
+          "type": "paragraph",
+          "text": "As of April 1, 2026, the agency had obligated 99.6% of the appropriation and spent about $48.9 million. The projects span 23 states and more than 75 National Wildlife Refuge System units."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fish and Wildlife officials reported restoring more than 5,000 acres of wetlands and 16,000 acres of other habitat. Activities include water-control structures to reduce flood risk, forest restoration and fencing used in bison management."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those counts document work completed, but GAO said the agency did not set performance goals tied to the implementation plan's outcomes, such as improving the capacity of habitats and infrastructure to recover from extreme weather."
+        },
+        {
+          "type": "paragraph",
+          "text": "Outputs and outcomes are different measures. Acres restored can show scale; a performance goal can test whether the restoration delivers the resilience, ecological or infrastructure result the program was designed to achieve."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-wildlife-resilience-restoration-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/restoration/four-three.webp",
+          "alt": "Graphic shows nine projects, 23 states, more than 75 refuge units and 21,000 acres restored.",
+          "caption": "The nine projects span 23 states and more than 75 refuge units; FWS reports restoring 5,000 wetland acres and 16,000 other habitat acres.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108212"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fish and Wildlife selected planned but unfunded activities that fit the appropriation and favored places that had not received similar supplemental money, as well as projects where established partners could broaden the work."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO recommended project-level performance goals and a workforce review identifying critical skills, staffing needs and strategies for gaps. Fish and Wildlife agreed with both recommendations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The findings do not erase the restoration already reported. They identify a measurement gap that will matter when officials must decide whether the nine projects worked, which approaches to repeat and where to change course."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-wildlife-refuge-resilience-project-goals-125-million/",
+      "citations": [
+        {
+          "id": "source-gao-fws-refuge-resilience-20260710",
+          "title": "Inflation Reduction Act: U.S. Fish and Wildlife Service Should Develop Performance Goals for Its Wildlife Refuge Projects",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-07-10T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-108212"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Congress provided $125 million for refuge and wildlife-management resilience work.",
+        "FWS had obligated 99.6% and spent $48.9 million by April 1, 2026.",
+        "Nine projects cover 23 states and more than 75 refuge units.",
+        "FWS reported restoring more than 21,000 acres across wetland and other habitat."
+      ],
+      "corrections": [],
+      "dek": "The Fish and Wildlife Service has restored thousands of acres, but auditors say it cannot yet measure whether nine projects meet their broader resilience objectives.",
+      "desk": "wildlife-refuge-resilience-spending",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "U.S. Fish and Wildlife Service",
+        "National Wildlife Refuge System"
+      ],
+      "eventId": "event-gao-wildlife-refuge-resilience-project-goals-125-million",
+      "headline": "GAO Flags Missing Goals for $125 Million in Wildlife Resilience Work",
+      "id": "article-gao-wildlife-refuge-resilience-project-goals-125-million",
+      "leadImage": {
+        "alt": "Waterfowl gather on a partly frozen prairie pond beneath a wide winter sky.",
+        "caption": "Waterfowl on a prairie pond at Lake Andes National Wildlife Refuge. GAO says refuge resilience projects need measurable performance goals.",
+        "credit": "U.S. Fish and Wildlife Service, public domain",
+        "height": 900,
+        "rightsId": "media-lake-andes-refuge-prairie-pond-2022",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/prairie-pond/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Minnesota",
+        "North Carolina"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says Fish and Wildlife needs measurable goals for $125 million in refuge resilience projects spanning 23 states.",
+        "index": true,
+        "title": "GAO: wildlife resilience projects lack performance goals"
+      },
+      "section": "weather-climate",
+      "slug": "gao-wildlife-refuge-resilience-project-goals-125-million",
+      "social": {
+        "description": "The Fish and Wildlife Service has restored thousands of acres, but auditors say it cannot yet measure whether nine projects meet their broader resilience objectives.",
+        "image": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/prairie-pond/open-graph.webp",
+        "title": "GAO Flags Missing Goals for $125 Million in Wildlife Resilience Work"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Climate resilience",
+        "National wildlife refuges",
+        "Habitat restoration",
+        "Wetlands",
+        "Federal grants"
+      ],
+      "uncertainty": [
+        "Reported acres restored do not by themselves measure resilience outcomes.",
+        "The projects are ongoing, so later performance evidence may change the assessment."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The National Institute of Standards and Technology has published three reference designs showing how water and wastewater utilities can enable remote access to operational technology while applying layered security controls.\n\nSpecial Publication 1800-45 is a practice guide, not a regulation. The National Cybersecurity Center of Excellence built and demonstrated sample architectures in a laboratory with commercially available products and input from utilities and vendors.\n\nRemote connections can let staff and contractors manage equipment without being physically present, which can improve operations and service. The same connection can expand the path an attacker or unauthorized user might try to exploit.\n\nThe designs address organizations with different sizes, resources and operational needs. NIST links remote access to functions including authentication, authorization, access control, network monitoring and risk management.\n\nWater-sector operational technology can include pumps, valves, treatment processes, sensors and control systems. Disruptions can affect both clean-water delivery and wastewater removal, making availability and safety central design constraints.\n\nThe final publication grew from draft Technical Note 2283 and was revised after community feedback. It documents build architecture and implementation details so organizations can reproduce or adapt the examples.\n\nA laboratory demonstration does not establish that every utility can deploy the design unchanged. Existing control systems, vendor support, network segmentation, staffing and local risk all affect implementation.\n\nNIST also does not certify or endorse the commercial products used in the builds. The value of a reference design is in showing interoperable security patterns and recording how controls were assembled and tested.\n\nFor utilities, the next step is an environment-specific assessment: identify who needs remote access, restrict privileges, protect credentials, monitor sessions and test recovery without interrupting essential treatment operations.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The National Institute of Standards and Technology has published three reference designs showing how water and wastewater utilities can enable remote access to operational technology while applying layered security controls."
+        },
+        {
+          "type": "paragraph",
+          "text": "Special Publication 1800-45 is a practice guide, not a regulation. The National Cybersecurity Center of Excellence built and demonstrated sample architectures in a laboratory with commercially available products and input from utilities and vendors."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-water-remote-access-three-designs",
+          "src": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/designs/four-three.webp",
+          "alt": "Graphic shows three secure remote-access reference designs using commercial technologies.",
+          "caption": "NIST Special Publication 1800-45 documents three reference designs built with commercially available technologies.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://csrc.nist.gov/News/2026/cyber-for-water-wastewater-sector"
+        },
+        {
+          "type": "paragraph",
+          "text": "Remote connections can let staff and contractors manage equipment without being physically present, which can improve operations and service. The same connection can expand the path an attacker or unauthorized user might try to exploit."
+        },
+        {
+          "type": "paragraph",
+          "text": "The designs address organizations with different sizes, resources and operational needs. NIST links remote access to functions including authentication, authorization, access control, network monitoring and risk management."
+        },
+        {
+          "type": "paragraph",
+          "text": "Water-sector operational technology can include pumps, valves, treatment processes, sensors and control systems. Disruptions can affect both clean-water delivery and wastewater removal, making availability and safety central design constraints."
+        },
+        {
+          "type": "paragraph",
+          "text": "The final publication grew from draft Technical Note 2283 and was revised after community feedback. It documents build architecture and implementation details so organizations can reproduce or adapt the examples."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-water-remote-access-control-layers",
+          "src": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/controls/four-three.webp",
+          "alt": "Graphic lists authentication, access control, monitoring and risk management as control layers.",
+          "caption": "The guide connects authentication, access control, monitoring and risk management to remote operational-technology access.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://csrc.nist.gov/News/2026/cyber-for-water-wastewater-sector"
+        },
+        {
+          "type": "paragraph",
+          "text": "A laboratory demonstration does not establish that every utility can deploy the design unchanged. Existing control systems, vendor support, network segmentation, staffing and local risk all affect implementation."
+        },
+        {
+          "type": "paragraph",
+          "text": "NIST also does not certify or endorse the commercial products used in the builds. The value of a reference design is in showing interoperable security patterns and recording how controls were assembled and tested."
+        },
+        {
+          "type": "paragraph",
+          "text": "For utilities, the next step is an environment-specific assessment: identify who needs remote access, restrict privileges, protect credentials, monitor sessions and test recovery without interrupting essential treatment operations."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nist-secure-remote-access-water-utilities-three-designs/",
+      "citations": [
+        {
+          "id": "source-nist-sp1800-45-water-remote-access-20260624",
+          "title": "Cybersecurity for the Water and Wastewater Sector: Build Architecture",
+          "publisher": "National Institute of Standards and Technology",
+          "publishedAt": "2026-06-24T12:00:00Z",
+          "url": "https://csrc.nist.gov/News/2026/cyber-for-water-wastewater-sector"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "NIST published Special Publication 1800-45 in final form.",
+        "The guide contains three reference designs.",
+        "The designs were demonstrated in a lab using commercially available technologies.",
+        "The publication is guidance, not a mandatory regulation or product endorsement."
+      ],
+      "corrections": [],
+      "dek": "The final practice guide demonstrates lab-tested architectures for operational technology, but utilities must adapt the examples to their own systems and risks.",
+      "desk": "water-utility-cybersecurity",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institute of Standards and Technology",
+        "National Cybersecurity Center of Excellence"
+      ],
+      "eventId": "event-nist-secure-remote-access-water-utilities-three-designs",
+      "headline": "NIST Publishes Three Secure Remote-Access Designs for Water Utilities",
+      "id": "article-nist-secure-remote-access-water-utilities-three-designs",
+      "leadImage": {
+        "alt": "Large round treatment tanks and service roads extend across a wastewater plant beside the harbor.",
+        "caption": "The Deer Island wastewater treatment plant in Boston Harbor. NIST's new guide demonstrates secure remote access for water-sector operational technology.",
+        "credit": "Daderot / Wikimedia Commons, CC0",
+        "height": 900,
+        "rightsId": "media-deer-island-wastewater-plant-2013-01",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/deer-island/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Boston, Massachusetts"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NIST SP 1800-45 provides three lab-tested reference designs for securing remote access to water-sector operational technology.",
+        "index": true,
+        "title": "NIST releases secure remote-access designs for water utilities"
+      },
+      "section": "technology",
+      "slug": "nist-secure-remote-access-water-utilities-three-designs",
+      "social": {
+        "description": "The final practice guide demonstrates lab-tested architectures for operational technology, but utilities must adapt the examples to their own systems and risks.",
+        "image": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/deer-island/open-graph.webp",
+        "title": "NIST Publishes Three Secure Remote-Access Designs for Water Utilities"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Water utilities",
+        "Operational technology",
+        "Remote access",
+        "Cybersecurity",
+        "Critical infrastructure"
+      ],
+      "uncertainty": [
+        "Lab demonstrations do not guarantee identical performance in a utility's production environment.",
+        "Utilities must adapt the controls to their own architecture, staffing and risk profile."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The U.S. traffic fatality rate fell to an estimated 0.99 deaths per 100 million vehicle miles during the first quarter of 2026, the second-lowest first-quarter rate in the federal series, according to preliminary highway-safety data.\n\nThe National Highway Traffic Safety Administration estimated 7,770 deaths from January through March, down 4.3% from the same period in 2025. The record first-quarter rate was 0.98, set 15 years earlier.\n\nThe decline occurred while Americans drove about 11 billion more miles than a year earlier. A rate accounts for exposure by comparing deaths with total travel, while the count records the estimated number of people killed.\n\nNHTSA estimated that 30 states and Puerto Rico had fewer traffic deaths in the quarter. State estimates can be volatile, especially over three months, and later data may revise both individual jurisdictions and the national total.\n\nThe agency released the estimate alongside a speeding-safety campaign. Separate preliminary data put speeding-related deaths at 10,035 in 2025, an 11% decline from 2024.\n\nIn the final 2024 data, speeding was recorded for 29% of traffic fatalities. Drivers speeding in fatal crashes were more likely than non-speeding drivers to be unbelted or have a blood-alcohol concentration of at least 0.08.\n\nThose associations do not make the first-quarter decline attributable to one campaign or behavior. Traffic deaths respond to many factors, including travel patterns, vehicle safety, enforcement, weather, road design, impairment and emergency response.\n\nEarly estimates use incomplete state crash information and statistical methods before final Fatality Analysis Reporting System records are available. NHTSA labels them preliminary for that reason.\n\nThe defensible conclusion is that both the estimated count and exposure-adjusted rate improved in early 2026. Whether that becomes a sustained annual trend will depend on subsequent quarters and finalized crash records.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The U.S. traffic fatality rate fell to an estimated 0.99 deaths per 100 million vehicle miles during the first quarter of 2026, the second-lowest first-quarter rate in the federal series, according to preliminary highway-safety data."
+        },
+        {
+          "type": "paragraph",
+          "text": "The National Highway Traffic Safety Administration estimated 7,770 deaths from January through March, down 4.3% from the same period in 2025. The record first-quarter rate was 0.98, set 15 years earlier."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-q1-traffic-deaths-rate-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/rate/four-three.webp",
+          "alt": "Graphic shows 7,770 estimated traffic deaths and a rate of 0.99 per 100 million miles.",
+          "caption": "NHTSA estimates 7,770 traffic deaths and a rate of 0.99 per 100 million vehicle miles in the first quarter of 2026.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nhtsa.gov/press-releases/trumps-transportation-department-reminds-drivers-that-speeding-catches-you"
+        },
+        {
+          "type": "paragraph",
+          "text": "The decline occurred while Americans drove about 11 billion more miles than a year earlier. A rate accounts for exposure by comparing deaths with total travel, while the count records the estimated number of people killed."
+        },
+        {
+          "type": "paragraph",
+          "text": "NHTSA estimated that 30 states and Puerto Rico had fewer traffic deaths in the quarter. State estimates can be volatile, especially over three months, and later data may revise both individual jurisdictions and the national total."
+        },
+        {
+          "type": "paragraph",
+          "text": "The agency released the estimate alongside a speeding-safety campaign. Separate preliminary data put speeding-related deaths at 10,035 in 2025, an 11% decline from 2024."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the final 2024 data, speeding was recorded for 29% of traffic fatalities. Drivers speeding in fatal crashes were more likely than non-speeding drivers to be unbelted or have a blood-alcohol concentration of at least 0.08."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-q1-traffic-deaths-change-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/change/four-three.webp",
+          "alt": "Graphic contrasts a 4.3 percent decline in estimated deaths with 11 billion more vehicle miles traveled.",
+          "caption": "Estimated deaths fell 4.3% from a year earlier while vehicle travel increased by 11 billion miles.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nhtsa.gov/press-releases/trumps-transportation-department-reminds-drivers-that-speeding-catches-you"
+        },
+        {
+          "type": "paragraph",
+          "text": "Those associations do not make the first-quarter decline attributable to one campaign or behavior. Traffic deaths respond to many factors, including travel patterns, vehicle safety, enforcement, weather, road design, impairment and emergency response."
+        },
+        {
+          "type": "paragraph",
+          "text": "Early estimates use incomplete state crash information and statistical methods before final Fatality Analysis Reporting System records are available. NHTSA labels them preliminary for that reason."
+        },
+        {
+          "type": "paragraph",
+          "text": "The defensible conclusion is that both the estimated count and exposure-adjusted rate improved in early 2026. Whether that becomes a sustained annual trend will depend on subsequent quarters and finalized crash records."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/us-traffic-death-rate-first-quarter-2026-nhtsa/",
+      "citations": [
+        {
+          "id": "source-nhtsa-q1-traffic-estimates-20260702",
+          "title": "Traffic Crash Deaths: Early Estimates Jan-March 2026",
+          "publisher": "National Highway Traffic Safety Administration",
+          "publishedAt": "2026-07-02T12:00:00Z",
+          "url": "https://www.nhtsa.gov/press-releases/trumps-transportation-department-reminds-drivers-that-speeding-catches-you"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "NHTSA estimated 7,770 traffic deaths in the first quarter of 2026.",
+        "The estimated rate was 0.99 deaths per 100 million vehicle miles.",
+        "Estimated deaths declined 4.3% year over year.",
+        "Vehicle travel increased by about 11 billion miles."
+      ],
+      "corrections": [],
+      "dek": "The preliminary first-quarter rate was the second lowest on record as estimated deaths declined 4.3% even while driving increased by 11 billion miles.",
+      "desk": "roadway-safety-trends",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Highway Traffic Safety Administration",
+        "U.S. Department of Transportation"
+      ],
+      "eventId": "event-us-traffic-death-rate-first-quarter-2026-nhtsa",
+      "headline": "U.S. Traffic Death Rate Fell to 0.99 in Early 2026, NHTSA Estimates",
+      "id": "article-us-traffic-death-rate-first-quarter-2026-nhtsa",
+      "leadImage": {
+        "alt": "Dense freeway traffic fills multiple lanes beneath signs and overpasses in West Sacramento.",
+        "caption": "Traffic on Interstate 80 near West Sacramento. NHTSA estimates the U.S. traffic fatality rate fell to 0.99 per 100 million miles in the first quarter of 2026.",
+        "credit": "Ken Lund / Wikimedia Commons, CC BY-SA 2.0",
+        "height": 900,
+        "rightsId": "media-interstate-80-west-sacramento-traffic-2016",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/interstate-80/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "West Sacramento, California"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NHTSA estimates 7,770 traffic deaths in early 2026, down 4.3%, as the rate fell to 0.99 per 100 million miles.",
+        "index": true,
+        "title": "U.S. traffic death rate fell to 0.99 in first quarter 2026"
+      },
+      "section": "us",
+      "slug": "us-traffic-death-rate-first-quarter-2026-nhtsa",
+      "social": {
+        "description": "The preliminary first-quarter rate was the second lowest on record as estimated deaths declined 4.3% even while driving increased by 11 billion miles.",
+        "image": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/interstate-80/open-graph.webp",
+        "title": "U.S. Traffic Death Rate Fell to 0.99 in Early 2026, NHTSA Estimates"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Traffic safety",
+        "Road fatalities",
+        "Vehicle miles traveled",
+        "Speeding",
+        "Transportation data"
+      ],
+      "uncertainty": [
+        "The first-quarter figures are preliminary estimates and may be revised.",
+        "The release does not attribute the decline to one policy, campaign or behavior."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T08:09:36.696Z",
+  "generatedAt": "2026-08-11T08:53:20.632Z",
   "inputHashes": {
+    "sourceItems": "d9759f2ac4be55341feb9354da5af065e699b1cc0fd7d2d68595621e1c119fec",
+    "events": "e1c5152f5b8db690b5b540e9367c1b385da6301c8fcbed4be89360f0db5c316c",
+    "claims": "5e11e2112db76438c058a3c91393cc53a47293b62bedf931084e69d30f3c4ed2",
+    "articles": "a1e096efe2cddb7746299f51c16b6e3eb948477c315eed26ace97612844de2ea",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
-    "articles": "4bf06a2a2b9bd62d91cee52722db6bd24150c485d70fe07f2de4b7b441cde474",
-    "claims": "e36aaf5059eb618e481be94d38df782486f71b2ae1a39fd826db98a0a4db5ff0",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "500d2a0eca484667c77b993b2d10e9d3b53af4dbef609b8d11375c4c4d397d8e",
-    "mediaRights": "0845cd866d79468a39128e99c38f3568d0358516936bd0d6f745411bdb79616c",
-    "publicationIntents": "5f29195d714b6e6e7ab5a4494faf50936955a690c8d71c8bf4be09119bc5788a",
+    "mediaRights": "61e319600faf8e052cb9d3bfeb76dc4d179fefb3b08ac4699e76c760bcea6cf8",
     "releaseRecords": "5da0e7c6ddbaabd73e602616239faa970e9d77bae825b04684fe156a6c655ed9",
-    "sourceItems": "cdda8aff38ffbd90e6bf7307ecfbedd7c299226c1da42d283f076dece1b186b7"
+    "publicationIntents": "46e8a52e6d2ea363aea14865247903f9d6d4726d0e1c7dabbbf60788dc76b048"
   },
   "inventory": {
-    "articleCount": 297,
-    "mediaCount": 877,
-    "routeCount": 297
+    "articleCount": 303,
+    "routeCount": 303,
+    "mediaCount": 895
   },
   "mediaRights": [
     {
@@ -115784,9 +116664,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.who.int/publications/i/item/WHO-DGO-EVL-2025.72"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A researcher works with shielded laboratory equipment used in isotope production.",
+      "archivalStatus": "current",
+      "attribution": "Oak Ridge National Laboratory / Wikimedia Commons, CC BY 2.0",
+      "caption": "Work at Oak Ridge National Laboratory to produce einsteinium. GAO says DOE needs a systematic way to forecast isotope demand and act on supply risks.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Oak Ridge National Laboratory",
+      "derivatives": [
+        {
+          "hash": "f68e4b38c22f8b775aa64f3696cef8af55ddf43f60860136866a12546dc0baad",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/einsteinium-production/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "22626b215f5e6478df99f5bb9eaa9f2357e17832d3ab701c814e60c48e9c6054",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/einsteinium-production/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7b302edaaf4766c214a21f2f00e0009882a2c29aa6ed40d08419c6a49ea3bcef",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/einsteinium-production/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d3307e29a7753a963929b6654b471222b03d951ffc9d2427ac84a713320db8b9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/einsteinium-production/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "4eed5c505f45245ee3d7b4c281e57f9f13695a848c4ef19239ea0ec9ebbe5e45",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/einsteinium-production/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e2d6369ad99a30c674908093fa10614085d4d0013d2105cccedec6933eafb47b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/einsteinium-production/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a01ea98f80061f89fec0e8711755603b27383434eeea35f51527af4c425a35d9",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/einsteinium-production/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-ornl-einsteinium-production-2021",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "73a43a73be66eae50132165f5d0f4df7cea935c9c0fb9a3fb8578e71eaf6209d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Creative Commons Attribution 2.0 license documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Einsteinium_production_(50922874107).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 265 isotopes and more than 7,700 shipments from fiscal 2020 through 2025.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "DOE's isotope program produced, sold and distributed 265 isotopes and made more than 7,700 shipments from fiscal 2020 through 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "dc42b0ed28fa0c9951ce744ea1d37f7b9c5499d78751ae0b03dee6186e146986",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/output/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7bc32c327e76aac78b0ae2b8cd1f90e93c09b779ff9f834e863fb144b6606832",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/output/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e05df2c51e8af18b21386e8be65f73b8565343ac34b4f9d2559a6951d34e5426",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/output/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a4466a99f982a6254929ebfa519e7610d89b0aebb3a6eda00a99ff41a1d759ac",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/output/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "dbe33137be0bc24c0c71e3818e0ace91cf5b877b670df6e3ade307ab0a76bd6b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/output/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "13841a3e665d0c14323ae6034e53a21858947f87e7317b2ff21fe2f45a8dcc1a",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/output/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "da736e324845c7368a28c2156181b22109ceb2ca4d7cd1c69c5e387d691f0139",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/output/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-critical-isotope-output-2020-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "a4466a99f982a6254929ebfa519e7610d89b0aebb3a6eda00a99ff41a1d759ac",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108053"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows isotope market disruptions declining from 40 in 2023 to 25 in 2025.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Isotopes with market disruptions fell from 40 in 2023 to 25 in 2025, but GAO says most remaining cases still relied on sensitive countries.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ef0d426b7d541911f0496773208507dc7e2bb847339a8711e5fc09394e0955c2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/disruptions/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "9b83395a3463929492695e6de9846f236818fc953afe40a9f636164082c49157",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/disruptions/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "71e103f3c48c97a940d11ff0a354af85248044844ec1525a4f0a860f1c39eaa7",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/disruptions/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "21051983bd9b5d9f03466a7fa62546a3ffd8790bcb0b049def3122a0f581af69",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/disruptions/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c9bcbddf10e73d9ade19b46fb2e40d34c77a774f3017e2e9ee896400184c8634",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/disruptions/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a708f717e4794814726a337c1399e8c2af3ac95ca6424d79e549cd2c44386d2d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/disruptions/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "26bc4219772cf9217d223b9b872ff7d95d2b12b066da7ba550dc2167537dd962",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/critical-isotopes/disruptions/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-critical-isotope-disruptions-2023-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "21051983bd9b5d9f03466a7fa62546a3ffd8790bcb0b049def3122a0f581af69",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108053"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "The stone facade and entrance of a United States courthouse fill the frame.",
+      "archivalStatus": "current",
+      "attribution": "Carol M. Highsmith / Library of Congress, public domain",
+      "caption": "The United States Courthouse in Davenport, Iowa. Federal courts sentenced 253 people for escape offenses in fiscal 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Carol M. Highsmith",
+      "derivatives": [
+        {
+          "hash": "864e20d821336ca7746e12eda8d452bb431fdb1349cc009db6b81fd28975de08",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/courthouse/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "421951f6411c0f0154dbf16212ee67678e6287f3e751f1016c9be58594248590",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/courthouse/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6da00e7e4372387eaf74221a7946627b1221deff77f775d00b183f10ca5a2cfe",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/courthouse/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "91033f0c4ab519ea1caab98b493777f287c9f9d84e1865ee80567ec30ddb123a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/courthouse/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "351b8800bf2256ad36805bd20bdea8bd96e257a2cd32eb20695377d3d8e74ef2",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/courthouse/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3b04795dcd6fe7a8f15ef4a0654e16d92c912f8bd65f44b3545c98ebbc65d1aa",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/courthouse/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a30984d2c5c3d161bc374826680739774b3a55c0537b87e6a16e2916ca387b14",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/courthouse/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-us-courthouse-davenport-highsmith",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "94ee46a8f012aab344cbb868b70d4f9567022234688f794505a423c9b572ac2b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Library of Congress photograph identified as public domain on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exterior_detail,_United_States_Courthouse,_Davenport,_Iowa.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 63 percent involving non-secure community custody and 7 percent involving return within 96 hours.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Sixty-three percent of federal escape cases involved leaving non-secure community custody, while 7% involved a voluntary return within 96 hours.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "9245374ac6c4a13809b45bf11cc609d465d97a988ae47996f3ae489c67fda264",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/custody/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d55b1fea140cf6b37244d10f306ff1cd0bddb9142e56a29b042d7ee9a294fcd2",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/custody/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "28f4d4e9f0ce46c82ce4914d5c46ad30ceb14d9873a7407e8d9254d1106bdad5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/custody/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "25226383d1d46724fdd7312b96feec9bf59b660756baa0b95895fe2989249284",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/custody/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "c2c7185d761758dbc34d25b4b4c1a3ba274da1019e4538732a83ed841196aa65",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/custody/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "df499ca7cad6671ef4f83418738e64d59ce921d08b5061d694197beee383c4d1",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/custody/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8e96b6db6d3986491082b6547dfe8d4829c6082c0f672e5c2de46111889282f6",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/custody/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-escape-custody-type-fy2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "25226383d1d46724fdd7312b96feec9bf59b660756baa0b95895fe2989249284",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/escape-offenses"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows a 13-month average sentence, 99 percent receiving prison and 72 percent within the guideline range.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The average escape sentence was 13 months; 99% received prison and 72% were sentenced within the guideline range.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "e46315e09dcc0858971696ec5680ea0d5ce2c4d751fad73482214a3d890fe78f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/sentences/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "534af26e53b2ff8cad1d091d47031a4254b7a9a72bd0358baadee41475e9fd55",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/sentences/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "aab0513abaee7c0992c42e86268301b0b1c7fb233dc9ed14eb8d2439f835ed57",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/sentences/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "28ca085fa01e4ac6b6b838d9a3fb92438b98bbb44d524665f95e2d8b7370783b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/sentences/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "39387ae7d6a0a740b8fe97018e8e466338849d34950af249f4765888e94e348b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/sentences/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "afc8d722053bb1a6201d28a07ddc57ab0001bd5d4b88dc1111e6366efb58eb22",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/sentences/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2fa32320df9a7c35f534530d1c2b95bf890ac445dc7fdbff74b41fd2bbfa403f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/escape-offenses/sentences/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-escape-sentencing-fy2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "28ca085fa01e4ac6b6b838d9a3fb92438b98bbb44d524665f95e2d8b7370783b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/escape-offenses"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "The colonnaded United States Treasury Building stands behind a statue and winter trees.",
+      "archivalStatus": "current",
+      "attribution": "Tony Webster / Wikimedia Commons, CC BY-SA 3.0",
+      "caption": "The Treasury Building in Washington. GAO says 28 priority recommendations remained open as of June 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Tony Webster",
+      "derivatives": [
+        {
+          "hash": "3b918d88c741abe4535eb88f0db695e2b53217570938020d34f8214dba06bacb",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/treasury-building/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "4fbf3fb7798b31d5d5decb63e3a0e5e7a9ef8d43278266b694d515a1986c4100",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/treasury-building/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "67732cde53958330e93edbbe81e3a2a5a49feedb0fea52edb078eb51d0251a1c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/treasury-building/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4d4496f8d24935ba4c257c3cecc11e13941263c4281d2c0d3c666b3cb09e51da",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/treasury-building/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f887f7566f1139597c348a87e8fa5ea88dde3a752a074a3d6fc3f502b956b693",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/treasury-building/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "bc43acbc467c7d68d242b6dbf4a3dd8f0d7b76c80fdb3db4407caaee2cdb2fa5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/treasury-building/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "bf4341cee85064d3cec14252cea17127eca95f77dd224fded9b5d8b6d26b07f5",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/treasury-building/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-us-treasury-tony-webster-2011",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 3.0",
+      "originalFileHash": "346163665dd90dd1dd5847d84ef20b76d085a659f223dcb01ee390f0527c7ff0",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 3.0 license documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:United_States_Treasury_Washington_DC_5383075936_o.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 32 prior recommendations, four implemented and 28 remaining.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Treasury implemented four of 32 priority recommendations identified in August 2025, leaving 28 open in June 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ee715f549a26a61c066c9eee312f756bc767f6fa8c60f155695449127b91da76",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/counts/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5c9d3c6cd86358591e91253e8a565e4c1e3f746dca9d2d739da7ec38d9b2a3c3",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/counts/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8dc9687e3dc2b7f3ec8cda8f90e4bdcb9d36017cb03e1b494024c1fd5c294e91",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/counts/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "eb66263576e9652e9f1717a10d40712d32d323d5edfd47762ffed02ad106fbb5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/counts/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d308f981e85990297c72f1632cfd6dc81177a89c8881aa9702ffd5b42572d930",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/counts/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e569d57a3a938979834d36772801bf9718f4608a14a1c5c19ca06b6586cd1083",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/counts/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a369b0b16c0b0d82727df7ff07415d6db1ec51fb5a3c4e43e4663976d978b657",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/counts/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-treasury-priority-counts-2025-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "eb66263576e9652e9f1717a10d40712d32d323d5edfd47762ffed02ad106fbb5",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108993"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists improper payments, cybersecurity and privacy, and financial management as three priority areas.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO highlighted improper payments, cybersecurity and information privacy, and federal financial management for focused attention.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "7c50eb92221a6635fc5e73eb281a51988d3e8f9245aac29a3fa206236bdaf77b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/areas/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "25ff515f50ab8386c9ca1892a60cafdaab15a3abfba2560ca9382486e5ec5425",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/areas/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f1cd0335de901925f6e954ee6a12d75309e3395997233c5021f9880ea15208e5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/areas/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "2fcfc0cf17e80f44a8dba8e230566c5837bb717d8a0284b741c56b1cec9c415f",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/areas/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d417750b32e6be9e6685b780517f7888aa21d52bfb23c031750ec628b04f5ed1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/areas/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0a2591253608a68afc4ca4bbc15c98b81ba1324b36fd839a279a800cd32adb59",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/areas/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7c4ce21ff53703039ffdb498ee985f5ae3843d7ab899fb075cc300afc919f3e2",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/treasury-priorities/areas/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-treasury-priority-areas-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "2fcfc0cf17e80f44a8dba8e230566c5837bb717d8a0284b741c56b1cec9c415f",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108993"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Waterfowl gather on a partly frozen prairie pond beneath a wide winter sky.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Fish and Wildlife Service, public domain",
+      "caption": "Waterfowl on a prairie pond at Lake Andes National Wildlife Refuge. GAO says refuge resilience projects need measurable performance goals.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "U.S. Fish and Wildlife Service Mountain-Prairie",
+      "derivatives": [
+        {
+          "hash": "f9197b978b9a688195a5f7aff50f2705edc55a0e6b87b62bfdd1e6a66f798abd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/prairie-pond/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "212b1b4f7c2b2661c07f88c64c2f24fab5e486745f72fce4b96edc9735519fc2",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/prairie-pond/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8b5319050a608bbaf82c0bc673898daf64df7d5c123ad47c1c050d053d0f0df0",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/prairie-pond/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "16e909de20289dce51493e34d6d940b7a604b6a9efa40c7691d140cdf0f155fc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/prairie-pond/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2a6371c5e42850a5c1644ca734f855b9dab9aeffb5b6254019dec37e9d94760d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/prairie-pond/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "fefec390726192068f1f8be67757ab5b850cb9264e07c0c8dee62a665a063f78",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/prairie-pond/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "09c714181b5391aa8eb54db951b362f027e71de7af3284e57124c9d43bf710b2",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/prairie-pond/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-lake-andes-refuge-prairie-pond-2022",
+      "illustrationLabel": null,
+      "license": "U.S. government public domain",
+      "originalFileHash": "be9d6f7efb18287227727a07a8a4825b405fd15613df520f642f8b80897af3c9",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Official U.S. Fish and Wildlife Service photograph identified as public domain on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waterfowl_Enjoying_a_Prairie_Pond_on_a_December_Day;_Lake_Andes_National_Wildlife_Refuge_(52390101202).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 125 million dollars appropriated, 99.6 percent obligated and 48.9 million dollars spent.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "FWS had obligated 99.6% of the $125 million appropriation and spent $48.9 million as of April 1, 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "4bc7a8565c38933fe4680e1fe3877b2c816c32136b8d31f250a023a163ce9414",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/funding/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "98a0c8f706ee59aa9c2bcc254c671e89420b1258bdc72f3bc9ed798e75c87e6f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/funding/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "79cce55e1e7989449e802bb010af67f085b0fa600e55256f92c866617b8ac846",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/funding/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "046a05cf1f0d65dd78ea3e60b620746d464578082011e2ad618c1907de1e7f01",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/funding/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "10420541543fb6e26b0cfb588f32d8287ab9f97c0e0e8c66e47651f3288000bb",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/funding/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e17bc6e7fa7c0007e265eaf24ceac15abc1eca62e30fb15885abaef0301605b7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/funding/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b729977cb3626c3ce93aef6d483bdc0daebc283ffc587a48db0e7c95d42097ba",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/funding/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-wildlife-resilience-funding-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "046a05cf1f0d65dd78ea3e60b620746d464578082011e2ad618c1907de1e7f01",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108212"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows nine projects, 23 states, more than 75 refuge units and 21,000 acres restored.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The nine projects span 23 states and more than 75 refuge units; FWS reports restoring 5,000 wetland acres and 16,000 other habitat acres.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "3c89552da5f4017b0f2090841d5ee0cfbc17ae5af1db1a1140e012f9b9094bb5",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/restoration/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c935426ab2eb05ef794959bfe8d121508aa414ce9a5ef4163663acb3d885e4ce",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/restoration/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c178d2c3c3458d5d70319976bf6448db6e94a2231d9fd7efb081112e82a0d20e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/restoration/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "025e92e8de4e05969feaf32adef8ac63019c6a14d9496df07fac9782fbe56370",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/restoration/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "77e294d487b6162b7279f42bccb55d98342c0fd48cd8f804ffb69f150514f52e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/restoration/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c371205df6e2ebe0ae2877621631df3f69ce84b7df10d2d1de5c8505f97cb170",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/restoration/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "cffaf8f3edda7671a271293ca875139e39f4aa57b77ad8a0fa7b1bdb888c8d01",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/wildlife-resilience/restoration/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-wildlife-resilience-restoration-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "025e92e8de4e05969feaf32adef8ac63019c6a14d9496df07fac9782fbe56370",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108212"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Large round treatment tanks and service roads extend across a wastewater plant beside the harbor.",
+      "archivalStatus": "current",
+      "attribution": "Daderot / Wikimedia Commons, CC0",
+      "caption": "The Deer Island wastewater treatment plant in Boston Harbor. NIST's new guide demonstrates secure remote access for water-sector operational technology.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Daderot",
+      "derivatives": [
+        {
+          "hash": "bd3f9ddc3d9410680d981106fbd2bf5a23f9569231dd09f71618143aafc2a88e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/deer-island/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d384122ba623f0f7ef139248c541b1dd892ba7590e7f2fd7c540703534897c9f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/deer-island/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "dfe87d5a7214dd4ec7296d586c2220c25ec503e97c450ac728da68f41c56dc76",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/deer-island/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "31ca86189edcdd362d58e9f175438f484b81d2895c030ced0086ffa432677d14",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/deer-island/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "db3e06bba1b355afdf7229b478d56d6e2abe7427161379c15e322be0877591c3",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/deer-island/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "9d04b80f9b42ce97c88fe144abac4da4ba2f17f462f2adcaf0cd9b808bb9c775",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/deer-island/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7fe7d640b3fa5ba03e6d2767be3c9a3cee1fd89e43b31af05ae4fcab6d3a1308",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/deer-island/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-deer-island-wastewater-plant-2013-01",
+      "illustrationLabel": null,
+      "license": "CC0 1.0",
+      "originalFileHash": "366e3c6a0f13d82dfa33373702dea9ebbfe8f06ee66f38b9985ef27c0452792a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "CC0 public-domain dedication documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deer_Island_Waste_Water_Treatment_Plant_-_01.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows three secure remote-access reference designs using commercial technologies.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "NIST Special Publication 1800-45 documents three reference designs built with commercially available technologies.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "5126f4010c35d28ef38a665d1e54332ce9b2955570c3b7ea6d4a29168f3fefd4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/designs/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1a6b43d23a2bf8cd849c1c449517a42b82e95d636642e12b4005b7427ba5bfbb",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/designs/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4e79e1f21453c4e6103eb24541e9e52fdf50d3ebfe0f8d57f9542fdf86248c16",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/designs/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "bac6ada3a48872bc52c6426be7d1b11123e37903ce4dc33ebd43b364c0d042fa",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/designs/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "077f8343c23a8df41524913a571493af01df9201c9b371ec433609b32c21280a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/designs/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7a7f85f7622ac612a38269136b5952ed9f56ff4d0da66d49837d277184f402da",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/designs/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a6bf267745778d1e3d9a13eae98afc377425327b47c9900e52d5f3324ecf69e2",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/designs/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-water-remote-access-three-designs",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "bac6ada3a48872bc52c6426be7d1b11123e37903ce4dc33ebd43b364c0d042fa",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://csrc.nist.gov/News/2026/cyber-for-water-wastewater-sector"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists authentication, access control, monitoring and risk management as control layers.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The guide connects authentication, access control, monitoring and risk management to remote operational-technology access.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c14fbe735a2f63ebb2802e3aa43e2509c933f0ee47117ad204d489d8e04f5ecc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/controls/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "cbfbfebf1adcf67b7b95fbcbd307dc098f84ff09472feacaa9fc2348f5652dab",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/controls/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d2b4e86f2bcb9495fb3ddb24d437d4c48df38c77b0dc1dacfd5126db222a3186",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/controls/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8a33b1eb3f30a5e6bafb654738628188d8dd1210dcaccb4d2bc743bf3235598e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/controls/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "554070d025efe7ea7f423cb157a80b736ec3d546519f646a843de5f39a789a9f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/controls/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "41f4d6055083242db0814fe083a3c6f41dd96d774dd9abb9056e06f82f775c39",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/controls/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2910b63eb37cee3f835ec80466215250a639a39a1044c651b2022141d6d3a98f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/water-remote-access/controls/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-water-remote-access-control-layers",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8a33b1eb3f30a5e6bafb654738628188d8dd1210dcaccb4d2bc743bf3235598e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://csrc.nist.gov/News/2026/cyber-for-water-wastewater-sector"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Dense freeway traffic fills multiple lanes beneath signs and overpasses in West Sacramento.",
+      "archivalStatus": "current",
+      "attribution": "Ken Lund / Wikimedia Commons, CC BY-SA 2.0",
+      "caption": "Traffic on Interstate 80 near West Sacramento. NHTSA estimates the U.S. traffic fatality rate fell to 0.99 per 100 million miles in the first quarter of 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Ken Lund",
+      "derivatives": [
+        {
+          "hash": "72f0792b810f8322b1a19298d592de9157096d63445dd0eff062db883d2f80fa",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/interstate-80/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e5a9916ba95d5a85ea5af9e726b3a505bac5e5665f8ed501ef44590559a96d23",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/interstate-80/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "37e1c503b8c98c9b9b92132eb081f58df08074b9e7c27529b8de4432cae2de10",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/interstate-80/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8faff894d8f310cc6f81801a9a16fcdbdb2a361ce2e7efc96c340d4d4efd7351",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/interstate-80/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "510aac9ba79aceb67a1f90b12bf8c006f5410b1887fbe011b5ff3dad507e1651",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/interstate-80/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7f13d66e5fb5c07dbb0cdbd1cffd9c59f9018bb8a8c97dabc18459af406511cd",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/interstate-80/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "257088b5c96f088e9cc27d1eb83fc13ceb53cad580c6360e33818dbe481586b0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/interstate-80/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-interstate-80-west-sacramento-traffic-2016",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 2.0",
+      "originalFileHash": "6f00bda6e19b56ecd4c56f3eb4dccebb367509ca5073cad05e28dc59ff3e1726",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 2.0 license documented on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Traffic_Jam_on_Interstate_80,_West_Sacramento,_California_(26034553722).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 7,770 estimated traffic deaths and a rate of 0.99 per 100 million miles.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "NHTSA estimates 7,770 traffic deaths and a rate of 0.99 per 100 million vehicle miles in the first quarter of 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "238eed8eb5dde421e52d7d7118be44afc5f86e35bfdfd7a064a448af185bf020",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/rate/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1a7ff6bd46a910505c34177211f2eae3ba2d2c007cf36e3c26d60a58d5a80ee9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/rate/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6f38f46ef730ce5715814964981a5f26e29e6a596983ee7a3d2ee845fc4cb0cb",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/rate/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "0e4adba76e4286c0acbbe2001c085dc57aba0a87fbe6b6e5851179c6e2cfa091",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/rate/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5b327a92ad03d1f062d6cac759deb329199cfa66d8228072dd58ced9cb28affc",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/rate/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "110f0eb464059d2c0685261f8722c14c0abd082d94f471d99da3bb5e3325f311",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/rate/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "ad0f62c38cf1ff4b8318bd6e6d425fe0f6e046d67bc9a6867ee241a445d9f36f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/rate/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-q1-traffic-deaths-rate-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "0e4adba76e4286c0acbbe2001c085dc57aba0a87fbe6b6e5851179c6e2cfa091",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nhtsa.gov/press-releases/trumps-transportation-department-reminds-drivers-that-speeding-catches-you"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic contrasts a 4.3 percent decline in estimated deaths with 11 billion more vehicle miles traveled.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Estimated deaths fell 4.3% from a year earlier while vehicle travel increased by 11 billion miles.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ee60839b32169e25f740b0dbc6b610619ac1d0dd27a1805b900f565b7c2d7450",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/change/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a9a30b1c645e0feb134892c2df15e9dc1bc4160d61591c3781e8c9eb7e6b8149",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/change/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "570207b9ca481894984254396765dc0824ffc44e380df507dfd93eefcefec405",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/change/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d013ab1434f4e20f9a821e36a89c0cb5375972354f1c2b1a76db7dd7c9b8a866",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/change/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3a81625d513016bfbb8651bc59835c2659fae9050eb23561f6a89d1d69c762c6",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/change/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "82abdc03f0fadec30f91cfd4e241eeffadf0c3464b676815a00bd62da1e1e5ee",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/change/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "58f9303c2257487bae74a1f51e61b952914e9956a8988e7928087baa20023e15",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-082653/traffic-deaths/change/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-q1-traffic-deaths-change-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d013ab1434f4e20f9a821e36a89c0cb5375972354f1c2b1a76db7dd7c9b8a866",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T08:53:20.534Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nhtsa.gov/press-releases/trumps-transportation-department-reminds-drivers-that-speeding-catches-you"
     }
   ],
-  "packageDigest": "49a0f834f5840608911c6d26b3da25f87439c96a83c366481a3b07d4d266d82e",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -117620,7 +119867,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "ba3378c8282df13241dd3eb2ff1638927c1f871cd8a5dd8ba4fc2beebbd5a193"
 }
