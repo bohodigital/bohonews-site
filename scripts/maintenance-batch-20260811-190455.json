@@ -1,0 +1,535 @@
+[
+  {
+    "slug": "fda-digital-breast-tomosynthesis-class-ii-proposal-2026",
+    "headline": "FDA Proposes Class II Path for 3D Breast Scans",
+    "dek": "The agency would move digital breast tomosynthesis systems from premarket approval to special controls and 510(k) review, while keeping dedicated breast CT in Class III.",
+    "section": "health-science",
+    "desk": "medical-device-classification",
+    "topics": [
+      "Digital breast tomosynthesis",
+      "Medical-device regulation",
+      "Mammography",
+      "FDA rulemaking"
+    ],
+    "entities": [
+      "Food and Drug Administration",
+      "Digital breast tomosynthesis systems"
+    ],
+    "locations": [
+      "United States"
+    ],
+    "relatedSlugs": [
+      "fda-tempo-digital-health-pilot-dexcom-2026"
+    ],
+    "sources": [
+      {
+        "id": "source-fr-fda-dbt-reclassification-2026",
+        "title": "Radiology Devices; Reclassification of Digital Breast Tomosynthesis System",
+        "publisher": "Federal Register",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "url": "https://www.federalregister.gov/documents/2026/08/10/2026-16209/radiology-devices-reclassification-of-digital-breast-tomosynthesis-system"
+      },
+      {
+        "id": "source-govinfo-fda-dbt-reclassification-pdf-2026",
+        "title": "Digital breast tomosynthesis reclassification proposal, official PDF",
+        "publisher": "U.S. Government Publishing Office",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16209.pdf"
+      }
+    ],
+    "lead": {
+      "id": "media-fda-dbt-demonstration",
+      "dir": "fda-dbt/demonstration",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saving_Lives_One_Scan_at_a_Time_with_Gonzales_Healthcare_Systems_(20210609-RD-LSC-0021).jpg",
+      "creator": "Lance Cheung / U.S. Department of Agriculture",
+      "rightsBasis": "The documentary photograph was made by a U.S. Department of Agriculture employee in an official capacity and is identified as public domain on Wikimedia Commons.",
+      "license": "Public domain",
+      "attribution": "Lance Cheung / U.S. Department of Agriculture, public domain",
+      "caption": "A technician demonstrates a digital breast tomosynthesis system with a test target at Gonzales Healthcare Systems in Texas in 2021. FDA is proposing a different regulatory classification for this device category.",
+      "alt": "A medical imaging technician demonstrates a 3D mammography machine using a test target.",
+      "original": "fda-dbt-demonstration.jpg"
+    },
+    "charts": [
+      {
+        "id": "media-fda-dbt-proposed-path",
+        "dir": "fda-dbt/proposed-path",
+        "caption": "FDA proposes moving digital breast tomosynthesis systems from Class III premarket approval to Class II special controls and 510(k) clearance.",
+        "alt": "Graphic shows the proposed shift from Class III premarket approval to Class II special controls and 510(k) review."
+      },
+      {
+        "id": "media-fda-dbt-safety-record",
+        "dir": "fda-dbt/safety-record",
+        "caption": "FDA's review found five Class II recalls and no Class I or Class III recalls through July 21, 2026; adverse-event reports do not establish causation.",
+        "alt": "Graphic shows five Class II recalls, no Class I or III recalls and 968 medical-device reports reviewed by FDA."
+      }
+    ],
+    "paragraphs": [
+      "The Food and Drug Administration has proposed reclassifying digital breast tomosynthesis systems from Class III to Class II, a change that would replace premarket approval with special controls and 510(k) clearance for the device category.",
+      "Digital breast tomosynthesis, often called 3D mammography, produces a series of low-dose breast images from different angles. The proposal covers systems under product code OTE; it does not reclassify dedicated breast computed-tomography systems, which would remain in Class III.",
+      "Class II is not an exemption from FDA review. Manufacturers would still have to demonstrate substantial equivalence through the 510(k) process and meet proposed special controls addressing image quality, radiation safety, labeling, clinical performance and other identified risks.",
+      "FDA approved the first digital breast tomosynthesis system on Feb. 11, 2011. The agency says the accumulated safety and effectiveness record now supports regulating these systems through Class II controls rather than requiring a premarket approval application for every new system.",
+      "As of July 21, FDA identified no Class I recalls, five Class II recalls and no Class III recalls for the device category. The agency says none of those recalls reported associated injuries, but recall classification describes the seriousness of a product problem rather than proving that a device is harmless.",
+      "FDA also reviewed 968 medical-device reports. The proposal cautions that those reports cannot establish the rate or cause of an event because reporting may be incomplete, duplicated or influenced by factors outside the device.",
+      "Full-field digital mammography is already regulated separately as a Class II device. FDA's proposal would not merge that category with tomosynthesis; each product code and its applicable controls would continue to govern.",
+      "The proposal does not change screening recommendations or establish that one imaging method is appropriate for a particular patient. Clinical decisions remain outside the scope of the classification action.",
+      "Comments are due Oct. 9, 2026. FDA can revise, decline or finalize the reclassification after reviewing the record, so the current Class III requirements remain in place unless a final rule takes effect."
+    ],
+    "facts": [
+      "FDA proposes moving digital breast tomosynthesis systems from Class III to Class II.",
+      "Covered systems would still require 510(k) clearance and special controls.",
+      "FDA reviewed five Class II recalls and 968 medical-device reports through its stated cutoff.",
+      "Comments are due Oct. 9, 2026."
+    ],
+    "uncertainty": [
+      "The proposed reclassification is not final and may change after public comment.",
+      "Medical-device reports do not establish incidence or causation, and the proposal does not make patient-specific screening recommendations."
+    ],
+    "seoTitle": "FDA proposes Class II path for digital breast tomosynthesis",
+    "seoDescription": "FDA proposes moving 3D mammography systems to Class II special controls and 510(k) review while keeping dedicated breast CT in Class III."
+  },
+  {
+    "slug": "sec-overnight-stock-price-bands-december-2026",
+    "headline": "SEC Approves Temporary Overnight Stock Price Bands",
+    "dek": "The first phase would apply wide reference-price bands from 9 p.m. to 4 a.m. Eastern, with a Dec. 6 start expected after market-system changes.",
+    "section": "business",
+    "desk": "overnight-market-structure",
+    "topics": [
+      "Overnight trading",
+      "Stock-market structure",
+      "Price bands",
+      "SEC regulation"
+    ],
+    "entities": [
+      "Securities and Exchange Commission",
+      "National Market System Plan",
+      "Listing exchanges"
+    ],
+    "locations": [
+      "United States"
+    ],
+    "relatedSlugs": [
+      "sec-regulation-e-delivery-paper-opt-out-proposal-2026"
+    ],
+    "sources": [
+      {
+        "id": "source-fr-sec-overnight-price-bands-2026",
+        "title": "Joint Industry Plan; Order Granting Approval of the Twenty-Seventh Amendment to the National Market System Plan",
+        "publisher": "Federal Register",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "url": "https://www.federalregister.gov/documents/2026/08/10/2026-16201/joint-industry-plan-order-granting-approval-of-the-twenty-seventh-amendment-to-the-national-market"
+      },
+      {
+        "id": "source-govinfo-sec-overnight-price-bands-pdf-2026",
+        "title": "SEC overnight price-band order, official PDF",
+        "publisher": "U.S. Government Publishing Office",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16201.pdf"
+      }
+    ],
+    "lead": {
+      "id": "media-sec-overnight-nyse-floor",
+      "dir": "sec-overnight/nyse-floor",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_trading_floor_on_Wall_Street,_New_York,_New_York_LCCN2011634218.tif",
+      "creator": "Carol M. Highsmith / Library of Congress",
+      "rightsBasis": "Carol M. Highsmith dedicated this photograph in the Library of Congress collection to the public domain.",
+      "license": "Public domain",
+      "attribution": "Carol M. Highsmith / Library of Congress, public domain",
+      "caption": "The New York Stock Exchange trading floor in New York. The SEC has approved a temporary framework for overnight price bands, a market session outside the floor's regular hours.",
+      "alt": "Traders and electronic displays on the New York Stock Exchange floor.",
+      "original": "sec-overnight-nyse-floor.tif"
+    },
+    "charts": [
+      {
+        "id": "media-sec-overnight-band-formula",
+        "dir": "sec-overnight/band-formula",
+        "caption": "The pilot uses broad bands around reference prices, with modified parameters for leveraged exchange-traded products and securities below one dollar.",
+        "alt": "Graphic shows 20 percent lower and upper overnight price bands, a leverage multiplier and one-dollar minimum thresholds."
+      },
+      {
+        "id": "media-sec-overnight-phase-one",
+        "dir": "sec-overnight/phase-one",
+        "caption": "Phase one is expected to begin Dec. 6 after system changes, followed by quarterly reporting and a later phase-two proposal.",
+        "alt": "Graphic shows the expected December 6 start, quarterly reports and later phase-two rulemaking."
+      }
+    ],
+    "paragraphs": [
+      "The Securities and Exchange Commission has approved a temporary system of price bands for overnight trading in National Market System stocks, creating a first-phase framework expected to start Dec. 6, 2026.",
+      "The overnight session covered by the amendment runs from 9 p.m. Eastern Sunday through Thursday to 4 a.m. Eastern Monday through Friday. It is separate from the regular-hours limit-up, limit-down mechanism.",
+      "For most securities, the temporary bands are set 20% below a lower reference price and 20% above a higher reference price. The plan uses defined reference prices from eligible transactions rather than a single universal closing price.",
+      "Leveraged exchange-traded products receive a parameter equal to 20% multiplied by their leverage ratio. Securities priced below $1 receive minimum thresholds of $1, intended to prevent percentage formulas from producing very narrow dollar limits.",
+      "The bands do not create automatic overnight trading pauses. Participating market centers would reject orders priced outside the bands, while a listing exchange could halt trading under its existing authority.",
+      "The SEC approved Amendment 27 after receiving no public comments on the proposal. The order describes the arrangement as a temporary first phase while exchanges and market participants gather operational data.",
+      "The Dec. 6 start is an expected implementation date and depends on required systems changes. The plan participants must submit quarterly reports, and a later phase-two filing would address a longer-term framework.",
+      "Wide bands cannot prevent every sharp overnight price move, execution gap or trading interruption. Liquidity can be thinner outside regular hours, and the order does not guarantee that an investor can trade at a desired price.",
+      "The rule is a market-structure measure, not an investment recommendation. Investors considering extended-hours trading should rely on their broker's current disclosures and order-handling terms."
+    ],
+    "facts": [
+      "The temporary session runs from 9 p.m. to 4 a.m. Eastern on specified nights.",
+      "Most price bands are 20% below and above designated reference prices.",
+      "The framework does not create automatic overnight trading pauses.",
+      "Phase one is expected to start Dec. 6, 2026, subject to system readiness."
+    ],
+    "uncertainty": [
+      "The start date is expected rather than guaranteed because systems changes must be completed.",
+      "A later phase-two proposal may change the long-term overnight framework."
+    ],
+    "seoTitle": "SEC overnight stock price bands expected to start Dec. 6",
+    "seoDescription": "SEC-approved temporary overnight stock bands use 20% reference-price parameters from 9 p.m. to 4 a.m., with a Dec. 6 start expected."
+  },
+  {
+    "slug": "fmcsa-english-proficiency-out-of-service-proposal-2026",
+    "headline": "FMCSA Proposes English-Proficiency Out-of-Service Rule",
+    "dek": "The proposal would codify a two-step roadside assessment and align federal regulations with current commercial-vehicle inspection criteria.",
+    "section": "us",
+    "desk": "commercial-truck-safety",
+    "topics": [
+      "Commercial trucking",
+      "Roadside inspections",
+      "English proficiency",
+      "Transportation regulation"
+    ],
+    "entities": [
+      "Federal Motor Carrier Safety Administration",
+      "Commercial Vehicle Safety Alliance"
+    ],
+    "locations": [
+      "United States",
+      "U.S.–Mexico commercial zones"
+    ],
+    "relatedSlugs": [
+      "us-traffic-death-rate-first-quarter-2026-nhtsa"
+    ],
+    "sources": [
+      {
+        "id": "source-fr-fmcsa-elp-oos-proposal-2026",
+        "title": "English Language Proficiency Out-of-Service Criteria",
+        "publisher": "Federal Register",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "url": "https://www.federalregister.gov/documents/2026/08/10/2026-16288/english-language-proficiency-out-of-service-criteria"
+      },
+      {
+        "id": "source-govinfo-fmcsa-elp-oos-pdf-2026",
+        "title": "English-language proficiency out-of-service proposal, official PDF",
+        "publisher": "U.S. Government Publishing Office",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16288.pdf"
+      }
+    ],
+    "lead": {
+      "id": "media-fmcsa-truck-inspection",
+      "dir": "fmcsa-elp/truck-inspection",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Truck_inspection.jpg",
+      "creator": "Oregon Department of Transportation",
+      "rightsBasis": "The Oregon Department of Transportation released the photograph under Creative Commons Attribution 2.0 on Wikimedia Commons.",
+      "license": "CC BY 2.0",
+      "attribution": "Oregon Department of Transportation, CC BY 2.0",
+      "caption": "A commercial truck undergoes inspection at Oregon's Woodburn Port of Entry. FMCSA has proposed codifying when an English-proficiency violation would place a driver out of service.",
+      "alt": "An inspector stands beside a commercial truck at a roadside inspection facility.",
+      "original": "fmcsa-truck-inspection.jpg"
+    },
+    "charts": [
+      {
+        "id": "media-fmcsa-elp-assessment",
+        "dir": "fmcsa-elp/assessment",
+        "caption": "The proposed roadside process begins with an English-language interview and adds highway-sign recognition only when the driver passes the interview.",
+        "alt": "Graphic shows initial contact, an English interview and a highway-sign recognition step."
+      },
+      {
+        "id": "media-fmcsa-elp-commercial-zone",
+        "dir": "fmcsa-elp/commercial-zone",
+        "caption": "The proposal includes a limited U.S.–Mexico commercial-zone exception and estimates $14.4 million in annual motor-carrier costs.",
+        "alt": "Graphic explains the limited commercial-zone exception and the agency's annual cost estimate."
+      }
+    ],
+    "paragraphs": [
+      "The Federal Motor Carrier Safety Administration has proposed adding English-language proficiency violations to its out-of-service regulations for commercial drivers, aligning federal text with criteria already used in roadside enforcement.",
+      "Federal rules require a driver to read and speak English well enough to communicate with the public, understand highway signs, respond to official questions and make entries on reports and records. The proposal addresses how inspectors assess and enforce that requirement.",
+      "Under the proposed process, an inspection begins with ordinary contact in English. If that interaction raises a concern, the inspector conducts an English-language interview focused on the driver's ability to respond without interpretive assistance.",
+      "A driver who passes the interview would then be asked to recognize and explain official highway signs. A driver who does not meet either applicable step could be cited and placed out of service under the codified criteria.",
+      "FMCSA says the proposal would conform its regulations to the Commercial Vehicle Safety Alliance's current out-of-service criteria and existing federal enforcement guidance. It is not a newly effective roadside standard merely because the notice has been published.",
+      "A limited exception would apply to certain drivers operating on a current trip wholly within a U.S.–Mexico commercial zone. An inspector could issue a citation without placing that driver out of service; a trip beyond the zone would not receive that treatment.",
+      "The notice also discusses accommodations and guidance for hearing-impaired drivers and other situations governed by existing law. The assessment is about functional communication for regulated driving tasks, not a driver's nationality or accent.",
+      "FMCSA estimates annual motor-carrier costs of about $14.4 million, largely from out-of-service time and replacement-driver arrangements. That is an agency estimate, not a measured post-rule cost.",
+      "Comments are due Oct. 9, 2026. FMCSA may revise or decline the proposal after reviewing the record, and the final regulatory text would control any change."
+    ],
+    "facts": [
+      "The proposal would codify English-proficiency violations as out-of-service criteria.",
+      "The roadside assessment has an interview step followed, when passed, by highway-sign recognition.",
+      "A limited U.S.–Mexico commercial-zone exception is proposed.",
+      "Comments are due Oct. 9, 2026."
+    ],
+    "uncertainty": [
+      "The proposal is not yet a final rule and may change after public comment.",
+      "The $14.4 million annual cost is FMCSA's estimate rather than an observed outcome."
+    ],
+    "seoTitle": "FMCSA proposes English-proficiency out-of-service criteria",
+    "seoDescription": "FMCSA proposes a two-step English assessment for commercial drivers and a limited U.S.–Mexico commercial-zone exception."
+  },
+  {
+    "slug": "faa-military-pilot-trainee-medical-certificate-proposal-2026",
+    "headline": "FAA Proposes Medical-Certificate Change for Military Pilot Trainees",
+    "dek": "Qualifying U.S. and military-sponsored foreign trainees could use a current military flight medical exam instead of obtaining a separate FAA third-class certificate.",
+    "section": "us",
+    "desk": "aviation-workforce-training",
+    "topics": [
+      "Military pilot training",
+      "Aviation medical certification",
+      "Flight training",
+      "FAA rulemaking"
+    ],
+    "entities": [
+      "Federal Aviation Administration",
+      "United States Armed Forces"
+    ],
+    "locations": [
+      "United States"
+    ],
+    "relatedSlugs": [
+      "faa-1-776-billion-airport-grants-46-states-2026"
+    ],
+    "sources": [
+      {
+        "id": "source-fr-faa-military-trainee-medical-proposal-2026",
+        "title": "Removal of FAA Third-Class Medical Certificate Requirement for Military Pilot Trainees",
+        "publisher": "Federal Register",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "url": "https://www.federalregister.gov/documents/2026/08/10/2026-16272/removal-of-faa-third-class-medical-certificate-requirement-for-military-pilot-trainees"
+      },
+      {
+        "id": "source-govinfo-faa-military-trainee-medical-pdf-2026",
+        "title": "Military pilot trainee medical-certificate proposal, official PDF",
+        "publisher": "U.S. Government Publishing Office",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16272.pdf"
+      }
+    ],
+    "lead": {
+      "id": "media-faa-military-student-pilot",
+      "dir": "faa-military-trainees/student-pilot",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Student_pilot_training_(16615154568).jpg",
+      "creator": "Senior Airman Ryan Callaghan / U.S. Air Force",
+      "rightsBasis": "The military flight-training photograph was made by a U.S. Air Force member in an official capacity and is public domain.",
+      "license": "Public domain",
+      "attribution": "Senior Airman Ryan Callaghan / U.S. Air Force, public domain",
+      "caption": "A U.S. Air Force student pilot trains in an A-29 aircraft in 2015. FAA proposes allowing qualifying military trainees to rely on a current military flight medical exam during specified civilian-aircraft training.",
+      "alt": "A military student pilot sits in an aircraft cockpit during flight training.",
+      "original": "faa-military-student-pilot.jpg"
+    },
+    "charts": [
+      {
+        "id": "media-faa-military-eligibility",
+        "dir": "faa-military-trainees/eligibility",
+        "caption": "The proposed exception requires a current military medical exam authorizing flight status and applies only to specified military-sponsored civilian-aircraft training.",
+        "alt": "Graphic lists the current military medical exam, flight-status authorization and sponsored training requirements."
+      },
+      {
+        "id": "media-faa-military-estimates",
+        "dir": "faa-military-trainees/estimates",
+        "caption": "FAA estimates about 2,000 trainees a year are in the affected population and calculates annual savings beginning in 2027.",
+        "alt": "Graphic shows 2,000 trainees per year, 450 potentially newly covered and 946 thousand dollars in estimated annual savings."
+      }
+    ],
+    "paragraphs": [
+      "The Federal Aviation Administration has proposed allowing qualifying military pilot trainees to use a current military flight medical examination instead of obtaining a separate FAA third-class medical certificate for specified training in civilian aircraft.",
+      "The proposal would cover U.S. military trainees and foreign trainees sponsored by the U.S. Armed Forces when their military medical examination authorizes flight status. It would extend an existing exception rather than remove medical oversight.",
+      "FAA says the military examination meets or exceeds the third-class medical standard for the covered training. A trainee without a current qualifying military exam would not receive the proposed exception.",
+      "The change is limited to civilian-aircraft flight training conducted as part of an approved military program. It would not create a general medical-certificate exemption for ordinary civilian student pilots.",
+      "FAA estimates roughly 2,000 people a year are in the affected training population: about 1,850 U.S. trainees and 150 U.S.-sponsored foreign trainees. The U.S. estimate includes pilots, combat-systems officers and remotely piloted aircraft trainees.",
+      "The agency says about 450 trainees who are not already covered by existing exceptions may qualify under the change. That estimate describes potential administrative coverage, not the number of people guaranteed to train or graduate.",
+      "FAA estimates annual savings of $946,000 beginning in 2027. Its five-year present-value estimate is $2.9 million using a 7% discount rate or $3.4 million using 3%.",
+      "Those benefits come from avoiding a duplicative civilian medical-certificate process, according to the agency. The proposal does not relax military flight-status requirements or set pilot-selection standards.",
+      "Comments are due Oct. 9, 2026. FAA can modify, decline or finalize the proposal after reviewing submissions, so current certificate requirements continue to govern until any final rule takes effect."
+    ],
+    "facts": [
+      "The proposal would accept a current qualifying military flight medical exam for specified training.",
+      "It covers U.S. trainees and U.S.-military-sponsored foreign trainees under stated conditions.",
+      "FAA estimates about 2,000 affected trainees per year and $946,000 in annual savings beginning in 2027.",
+      "Comments are due Oct. 9, 2026."
+    ],
+    "uncertainty": [
+      "The proposal is not final and would not cover ordinary civilian student pilots.",
+      "Population and savings figures are FAA estimates rather than guaranteed outcomes."
+    ],
+    "seoTitle": "FAA proposes military pilot trainee medical-certificate change",
+    "seoDescription": "FAA proposes letting qualifying military pilot trainees use a current military flight medical exam for specified civilian-aircraft training."
+  },
+  {
+    "slug": "national-gallery-mining-film-series-august-2026",
+    "headline": "National Gallery Mining Film Series Ends With Three Free Screenings",
+    "dek": "The Washington program closes Aug. 15–16 with Harlan County, USA, The Miners' Hymns and Louisiana Story; advance registration is required.",
+    "section": "culture",
+    "desk": "film-and-public-history",
+    "topics": [
+      "Documentary film",
+      "Mining history",
+      "National Gallery of Art",
+      "Free events"
+    ],
+    "entities": [
+      "National Gallery of Art",
+      "Harlan County, USA",
+      "The Miners' Hymns",
+      "Louisiana Story"
+    ],
+    "locations": [
+      "Washington, D.C.",
+      "National Gallery of Art East Building"
+    ],
+    "relatedSlugs": [
+      "library-congress-lost-melies-gugusse-film"
+    ],
+    "sources": [
+      {
+        "id": "source-nga-unearthed-mining-film-2026",
+        "title": "Unearthed: Mining on Film",
+        "publisher": "National Gallery of Art",
+        "publishedAt": "2026-08-11T12:00:00Z",
+        "url": "https://www.nga.gov/calendar/unearthed-mining-film"
+      },
+      {
+        "id": "source-nga-beneath-surface-mining-photography-2026",
+        "title": "Beneath the Surface: Mining and American Photography",
+        "publisher": "National Gallery of Art",
+        "publishedAt": "2026-08-11T12:00:00Z",
+        "url": "https://www.nga.gov/exhibitions/2026/beneath-surface-mining-american-photography"
+      }
+    ],
+    "lead": {
+      "id": "media-nga-mining-russell-lee-miner",
+      "dir": "nga-mining-film/russell-lee-miner",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_miner._P_V_%26_K_Coal_Company,_Clover_Mine,_Lejunior,_Harlan_County,_Kentucky._-_NARA_-_541294.jpg",
+      "creator": "Russell Lee / U.S. National Archives",
+      "rightsBasis": "Russell Lee made the photograph for the U.S. federal government; the National Archives record is public domain.",
+      "license": "Public domain",
+      "attribution": "Russell Lee / U.S. National Archives, public domain",
+      "caption": "A miner at the Clover Mine in Harlan County, Kentucky, photographed by Russell Lee in 1946. The National Gallery's mining film series ends with three screenings exploring labor, landscape and extraction.",
+      "alt": "A coal miner wearing a helmet and work clothes stands underground in a Kentucky mine.",
+      "original": "nga-mining-russell-lee-miner.jpg"
+    },
+    "charts": [
+      {
+        "id": "media-nga-mining-weekend-schedule",
+        "dir": "nga-mining-film/weekend-schedule",
+        "caption": "The final weekend pairs one Saturday documentary with a Sunday double feature in the National Gallery's East Building auditorium.",
+        "alt": "Graphic lists Harlan County USA on August 15 and The Miners' Hymns with Louisiana Story on August 16."
+      },
+      {
+        "id": "media-nga-mining-series-context",
+        "dir": "nga-mining-film/series-context",
+        "caption": "The film program accompanies the National Gallery exhibition Beneath the Surface: Mining and American Photography.",
+        "alt": "Graphic connects the free film series with the National Gallery mining photography exhibition."
+      }
+    ],
+    "paragraphs": [
+      "The National Gallery of Art's free Unearthed: Mining on Film series concludes this weekend with three screenings focused on mining communities, labor and the landscapes shaped by extraction.",
+      "Harlan County, USA is scheduled for Saturday, Aug. 15, from 2 to 4 p.m. in the East Building's Large Auditorium. The 1976 documentary follows a Kentucky coal strike and the people involved in it.",
+      "Sunday's program pairs The Miners' Hymns with Louisiana Story from 2 to 4:15 p.m. The double feature places an archival portrait of coal-mining communities alongside a 1948 film about oil development in Louisiana.",
+      "The National Gallery lists the screenings as free, but advance registration is required. Registration does not necessarily guarantee a seat, and visitors should check the event page for current availability and entry instructions.",
+      "The series began Aug. 8 and runs through Aug. 16. The three remaining works are the public events still listed after Tuesday, not the complete program from the opening weekend.",
+      "Unearthed accompanies Beneath the Surface: Mining and American Photography, an exhibition examining how photographers represented extraction, workers and environmental change across different eras.",
+      "The Saturday and Sunday programs are in the National Gallery's East Building at Fourth Street and Constitution Avenue NW in Washington. Venue policies and accessibility details are available through the museum's visitor information.",
+      "The schedule is an event listing rather than a guarantee that a screening will proceed unchanged. Weather, capacity or operational needs can alter public programs, so same-day confirmation is prudent.",
+      "The Gallery's program gives viewers a chance to compare documentary, essay-film and dramatized approaches without reproducing copyrighted film images or scripts in its public listing."
+    ],
+    "facts": [
+      "Harlan County, USA is scheduled for Aug. 15 from 2 to 4 p.m.",
+      "The Miners' Hymns and Louisiana Story are scheduled Aug. 16 from 2 to 4:15 p.m.",
+      "The screenings are free with advance registration required.",
+      "The series accompanies a National Gallery mining-photography exhibition."
+    ],
+    "uncertainty": [
+      "Registration and seating availability can change, and the venue may revise the schedule.",
+      "The listed times reflect the National Gallery schedule observed on Aug. 11, 2026."
+    ],
+    "seoTitle": "National Gallery mining film series: final free screenings",
+    "seoDescription": "The National Gallery's free mining film series ends Aug. 15–16 with Harlan County, USA, The Miners' Hymns and Louisiana Story."
+  },
+  {
+    "slug": "epa-dichlorobenzene-draft-risk-evaluations-2026",
+    "headline": "EPA Drafts New Risk Findings for Two Dichlorobenzene Chemicals",
+    "dek": "The preliminary evaluations identify inhalation as the main exposure route across certain industrial and consumer uses, but no risk-management rule has been issued.",
+    "section": "business",
+    "desk": "consumer-chemical-safety",
+    "topics": [
+      "Chemical safety",
+      "Dichlorobenzene",
+      "Consumer products",
+      "TSCA risk evaluation"
+    ],
+    "entities": [
+      "Environmental Protection Agency",
+      "Toxic Substances Control Act"
+    ],
+    "locations": [
+      "United States"
+    ],
+    "relatedSlugs": [
+      "nist-adds-52000-chemical-fingerprints-mass-spectra-2026"
+    ],
+    "sources": [
+      {
+        "id": "source-fr-epa-dichlorobenzene-draft-risks-2026",
+        "title": "o-Dichlorobenzene and p-Dichlorobenzene; Draft Risk Evaluations Under the Toxic Substances Control Act",
+        "publisher": "Federal Register",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "url": "https://www.federalregister.gov/documents/2026/08/10/2026-16263/o-dichlorobenzene-and-p-dichlorobenzene-draft-risk-evaluations-under-the-toxic-substances-control"
+      },
+      {
+        "id": "source-govinfo-epa-dichlorobenzene-draft-risks-pdf-2026",
+        "title": "Dichlorobenzene draft risk evaluations, official PDF",
+        "publisher": "U.S. Government Publishing Office",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16263.pdf"
+      }
+    ],
+    "lead": {
+      "id": "media-epa-dichlorobenzene-air-sampling",
+      "dir": "epa-dichlorobenzene/air-sampling",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Air_Sampling_Equipment_(8744527856).jpg",
+      "creator": "National Institute for Occupational Safety and Health",
+      "rightsBasis": "The occupational air-sampling photograph was made by a U.S. federal agency and is public domain.",
+      "license": "Public domain",
+      "attribution": "National Institute for Occupational Safety and Health, public domain",
+      "caption": "Industrial hygienists fit a breathing-zone air sampler during occupational monitoring. EPA's draft evaluations identify inhalation as the main exposure route for certain dichlorobenzene uses.",
+      "alt": "Two industrial hygienists attach air-sampling equipment near a worker's breathing zone.",
+      "original": "epa-dichlorobenzene-air-sampling.jpg"
+    },
+    "charts": [
+      {
+        "id": "media-epa-dichlorobenzene-use-groups",
+        "dir": "epa-dichlorobenzene/use-groups",
+        "caption": "The draft evaluations consider specified industrial, commercial and consumer uses rather than treating every product as a source of dichlorobenzene exposure.",
+        "alt": "Graphic lists cleaning, air care, lubricants, thermoplastics and selected building-product uses."
+      },
+      {
+        "id": "media-epa-dichlorobenzene-review-path",
+        "dir": "epa-dichlorobenzene/review-path",
+        "caption": "EPA's preliminary risk findings enter public review before any final evaluation or later risk-management action.",
+        "alt": "Graphic shows draft evaluation, public comment, final evaluation and possible later risk management."
+      }
+    ],
+    "paragraphs": [
+      "The Environmental Protection Agency has released draft risk evaluations that preliminarily find unreasonable human-health risk from o-dichlorobenzene and p-dichlorobenzene under certain conditions of use.",
+      "The findings are draft scientific and regulatory assessments under the Toxic Substances Control Act. They are not final restrictions, product recalls or a risk-management rule.",
+      "EPA identifies inhalation as the main exposure route across the conditions driving its preliminary findings, with possible dermal exposure in some occupational and consumer scenarios.",
+      "The evaluated uses include specified cleaning and degreasing applications, air-care products such as some continuous air fresheners, lubricants and greases, thermoplastics, solvents and selected building products.",
+      "That list does not mean every product in those categories contains either chemical. Product formulations and conditions of use differ, and the draft evaluations address the uses defined in EPA's record.",
+      "The two isomers have the same chemical formula but different arrangements of chlorine atoms. EPA evaluates them separately because their uses, exposure patterns and hazard information are not identical.",
+      "A final unreasonable-risk determination could lead to a later risk-management process. The present notice does not specify which controls EPA would adopt or when any requirement would take effect.",
+      "The draft is not individualized medical guidance. People seeking information about a particular product should consult its current label and safety information rather than infer chemical content from a broad product category.",
+      "Comments are due Oct. 9, 2026. EPA can revise its exposure estimates, risk characterizations and overall conclusions after reviewing public submissions and peer-review input."
+    ],
+    "facts": [
+      "EPA released separate draft evaluations for o-dichlorobenzene and p-dichlorobenzene.",
+      "The agency preliminarily identifies unreasonable human-health risk under certain conditions of use.",
+      "Inhalation is the main exposure route described in the notice.",
+      "Comments are due Oct. 9, 2026."
+    ],
+    "uncertainty": [
+      "The findings are draft and may change after comment and review.",
+      "The notice does not establish that every product category listed contains dichlorobenzene or impose a final risk-management rule."
+    ],
+    "seoTitle": "EPA dichlorobenzene draft risk evaluations open for comment",
+    "seoDescription": "EPA's draft evaluations identify preliminary risks for two dichlorobenzene chemicals under certain uses; comments close Oct. 9."
+  }
+]
