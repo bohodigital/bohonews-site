@@ -50943,25 +50943,943 @@
         "GAO’s testimony evaluates risks and questions in the strategy; future audit evidence will determine whether it succeeds."
       ],
       "updatedAt": "2026-08-11T10:27:49.215Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal judges imposed supervised release after 82% of prison sentences in fiscal year 2025, according to the United States Sentencing Commission, a five-percentage-point decline from fiscal 2021.\n\nThe commission reported 66,662 federal cases for the year. Of those, 61,557 sentences included imprisonment, and 50,688 of the prison sentences also included a term of supervised release.\n\nSupervised release is a court-ordered period after imprisonment, distinct from probation. The fiscal 2025 figures describe sentences and supervision records, not a measure of future offending or individual risk.\n\nThe average supervision term was 46 months after an average prison term of 61 months. Ninety-two percent of imposed terms fell within the range set by the guideline policy statement in section 5D1.2(a).\n\nA statute required supervision in 22% of the cases in which it was imposed. The commission excluded cases with incomplete sentencing information and 23 supervision terms that were not paired with imprisonment from its headline calculation.\n\nDistrict rates varied substantially. Eight districts imposed supervision after every prison sentence in the dataset, while the five lowest rates ranged from 39% in New Mexico to 63% in the Middle District of Louisiana.\n\nAdministrative Office of the U.S. Courts data incorporated by the commission counted 119,532 people under federal post-conviction supervision on September 30, 2025. Ninety percent were on supervised release and 9% were on probation.\n\nAmong 53,087 supervision cases closed during the year, 66% closed without revocation and 34% closed with revocation. The commission said 23% of all closures followed a technical violation.\n\nThe commission also noted that a guideline amendment to its supervised-release policy statement took effect November 1, 2025. The fiscal 2025 statistics mostly describe sentences imposed before that change and should not be read as an evaluation of the amendment.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Federal judges imposed supervised release after 82% of prison sentences in fiscal year 2025, according to the United States Sentencing Commission, a five-percentage-point decline from fiscal 2021."
+        },
+        {
+          "type": "paragraph",
+          "text": "The commission reported 66,662 federal cases for the year. Of those, 61,557 sentences included imprisonment, and 50,688 of the prison sentences also included a term of supervised release."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-supervised-release-imposition-fy2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/imposition/four-three.webp",
+          "alt": "Graphic shows 61,557 prison sentences and 50,688 terms of supervised release, an 82 percent rate.",
+          "caption": "Of 61,557 fiscal 2025 sentences that included imprisonment, 50,688 also included supervised release.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/supervised-release"
+        },
+        {
+          "type": "paragraph",
+          "text": "Supervised release is a court-ordered period after imprisonment, distinct from probation. The fiscal 2025 figures describe sentences and supervision records, not a measure of future offending or individual risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "The average supervision term was 46 months after an average prison term of 61 months. Ninety-two percent of imposed terms fell within the range set by the guideline policy statement in section 5D1.2(a)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A statute required supervision in 22% of the cases in which it was imposed. The commission excluded cases with incomplete sentencing information and 23 supervision terms that were not paired with imprisonment from its headline calculation."
+        },
+        {
+          "type": "paragraph",
+          "text": "District rates varied substantially. Eight districts imposed supervision after every prison sentence in the dataset, while the five lowest rates ranged from 39% in New Mexico to 63% in the Middle District of Louisiana."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-supervised-release-closures-fy2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/closures/four-three.webp",
+          "alt": "Graphic shows 66 percent of supervision cases closed without revocation and 34 percent with revocation.",
+          "caption": "Two-thirds of 53,087 post-conviction supervision cases closed without revocation; one-third closed with revocation.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/supervised-release"
+        },
+        {
+          "type": "paragraph",
+          "text": "Administrative Office of the U.S. Courts data incorporated by the commission counted 119,532 people under federal post-conviction supervision on September 30, 2025. Ninety percent were on supervised release and 9% were on probation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Among 53,087 supervision cases closed during the year, 66% closed without revocation and 34% closed with revocation. The commission said 23% of all closures followed a technical violation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The commission also noted that a guideline amendment to its supervised-release policy statement took effect November 1, 2025. The fiscal 2025 statistics mostly describe sentences imposed before that change and should not be read as an evaluation of the amendment."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-supervised-release-rate-fell-82-percent-fy2025/",
+      "citations": [
+        {
+          "id": "source-ussc-supervised-release-fy2025",
+          "title": "Supervised Release Quick Facts, Fiscal Year 2025",
+          "publisher": "United States Sentencing Commission",
+          "publishedAt": "2026-06-01T00:00:00Z",
+          "url": "https://www.ussc.gov/research/quick-facts/supervised-release"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The commission reported 61,557 fiscal 2025 sentences that included imprisonment.",
+        "Supervised release accompanied 50,688 of those sentences, or 82%.",
+        "The average supervision term was 46 months.",
+        "Of 53,087 supervision cases closed, 66% closed without revocation."
+      ],
+      "corrections": [],
+      "dek": "The Sentencing Commission counted 50,688 prison sentences followed by supervision, down five percentage points from fiscal 2021.",
+      "desk": "federal-supervised-release-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "United States Sentencing Commission",
+        "Administrative Office of the U.S. Courts"
+      ],
+      "eventId": "event-federal-supervised-release-rate-fell-82-percent-fy2025",
+      "headline": "Federal Supervised-Release Rate Fell to 82% in Fiscal 2025",
+      "id": "article-federal-supervised-release-rate-fell-82-percent-fy2025",
+      "leadImage": {
+        "alt": "Exterior of the federal courthouse in El Paso at dusk.",
+        "caption": "The U.S. Courthouse in El Paso, Texas. Fiscal 2025 sentencing data show wide district variation in the use of supervised release after imprisonment.",
+        "credit": "Carol M. Highsmith / Library of Congress",
+        "height": 900,
+        "rightsId": "media-supervised-release-el-paso-courthouse-highsmith",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/courthouse/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "El Paso, Texas"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-federal-escape-offenses-253-fiscal-2025"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "USSC data show supervised release followed 50,688 federal prison sentences in fiscal 2025, an 82% rate.",
+        "index": true,
+        "title": "Federal supervised release rate fell to 82% in FY2025"
+      },
+      "section": "crime-justice",
+      "slug": "federal-supervised-release-rate-fell-82-percent-fy2025",
+      "social": {
+        "description": "The Sentencing Commission counted 50,688 prison sentences followed by supervision, down five percentage points from fiscal 2021.",
+        "image": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/courthouse/open-graph.webp",
+        "title": "Federal Supervised-Release Rate Fell to 82% in Fiscal 2025"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal sentencing",
+        "Supervised release",
+        "Federal courts",
+        "Post-conviction supervision"
+      ],
+      "uncertainty": [
+        "The commission labels the Quick Facts release June 2026 but does not display a day; the citation date preserves month-level precision at the start of that month.",
+        "Cases with incomplete sentencing information were excluded, and the figures do not predict individual outcomes."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Four federal agencies had not fully implemented new strategic-review requirements, and incomplete Office of Management and Budget guidance contributed to the gaps, the Government Accountability Office reported.\n\nThe Federal Agency Performance Act of 2024 requires agencies to assess whether organizations, programs and activities are contributing as planned to agency goals. It also directs the government to manage crosscutting work that can span multiple departments.\n\nGAO said OMB established new cross-agency goals in December 2025 within the first year of the administration, meeting that timing requirement. But OMB's August 2025 guidance did not fully address four statutory requirements involving agency leaders and stakeholders.\n\nGAO reviewed the Departments of Homeland Security, State and Treasury and the General Services Administration. None of the four had fully implemented the new strategic-review requirements at the time of the review.\n\nDHS and Treasury had policies, procedures and guidance that addressed most, but not all, requirements. State and GSA had not developed comparable process documentation, according to the report.\n\nDHS, Treasury and GSA told GAO they planned to conduct strategic reviews in 2026. State would not confirm that it planned to do so, which GAO said could deny its leadership a chance to identify risks and improve performance.\n\nThe review focused on compliance and management processes; it did not attempt to score the policy outcomes of every agency program. GAO selected four agencies from 13 included in earlier work, so its findings are not a census of the government.\n\nGAO recommended that OMB revise its guidance, that each selected agency fully document its review process and that State conduct a strategic review in 2026. DHS, GSA, State and Treasury agreed with the relevant recommendations; OMB did not comment.\n\nThe recommendations remain the accountability mechanism to watch. Completing documents and reviews would show procedural compliance, while later evidence would still be needed to establish whether the reviews improved cross-agency results.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Four federal agencies had not fully implemented new strategic-review requirements, and incomplete Office of Management and Budget guidance contributed to the gaps, the Government Accountability Office reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Federal Agency Performance Act of 2024 requires agencies to assess whether organizations, programs and activities are contributing as planned to agency goals. It also directs the government to manage crosscutting work that can span multiple departments."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-strategic-reviews-implementation-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/implementation/four-three.webp",
+          "alt": "Graphic notes four selected agencies, zero with full implementation and four gaps in leadership and stakeholder requirements.",
+          "caption": "GAO found that none of four selected agencies had fully implemented the new strategic-review requirements.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108516"
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO said OMB established new cross-agency goals in December 2025 within the first year of the administration, meeting that timing requirement. But OMB's August 2025 guidance did not fully address four statutory requirements involving agency leaders and stakeholders."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO reviewed the Departments of Homeland Security, State and Treasury and the General Services Administration. None of the four had fully implemented the new strategic-review requirements at the time of the review."
+        },
+        {
+          "type": "paragraph",
+          "text": "DHS and Treasury had policies, procedures and guidance that addressed most, but not all, requirements. State and GSA had not developed comparable process documentation, according to the report."
+        },
+        {
+          "type": "paragraph",
+          "text": "DHS, Treasury and GSA told GAO they planned to conduct strategic reviews in 2026. State would not confirm that it planned to do so, which GAO said could deny its leadership a chance to identify risks and improve performance."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-strategic-reviews-agency-documents-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/agencies/four-three.webp",
+          "alt": "Graphic compares strategic-review documentation at DHS, Treasury, State and GSA.",
+          "caption": "DHS and Treasury addressed most requirements in process documents; State and GSA had not developed comparable documents.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108516"
+        },
+        {
+          "type": "paragraph",
+          "text": "The review focused on compliance and management processes; it did not attempt to score the policy outcomes of every agency program. GAO selected four agencies from 13 included in earlier work, so its findings are not a census of the government."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO recommended that OMB revise its guidance, that each selected agency fully document its review process and that State conduct a strategic review in 2026. DHS, GSA, State and Treasury agreed with the relevant recommendations; OMB did not comment."
+        },
+        {
+          "type": "paragraph",
+          "text": "The recommendations remain the accountability mechanism to watch. Completing documents and reviews would show procedural compliance, while later evidence would still be needed to establish whether the reviews improved cross-agency results."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-federal-strategic-reviews-requirements-2026/",
+      "citations": [
+        {
+          "id": "source-gao-26-108516",
+          "title": "Government Performance Management: OMB and Selected Agencies Need to Fully Address New Requirements",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-06-23T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-108516"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "OMB established new crosscutting goals in December 2025.",
+        "OMB guidance did not fully address four leadership and stakeholder requirements.",
+        "None of four selected agencies had fully implemented the new strategic-review requirements.",
+        "GAO issued recommendations to OMB and all four selected agencies."
+      ],
+      "corrections": [],
+      "dek": "OMB guidance omitted four leadership and stakeholder requirements, and none of the selected agencies had fully implemented the 2024 law.",
+      "desk": "federal-performance-management-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Government Accountability Office",
+        "Office of Management and Budget",
+        "Department of Homeland Security",
+        "Department of State",
+        "Department of the Treasury",
+        "General Services Administration"
+      ],
+      "eventId": "event-gao-federal-strategic-reviews-requirements-2026",
+      "headline": "Four Agencies Have Not Fully Met New Strategic-Review Rules, GAO Says",
+      "id": "article-gao-federal-strategic-reviews-requirements-2026",
+      "leadImage": {
+        "alt": "Ornate stone facade of the Eisenhower Executive Office Building in Washington.",
+        "caption": "The Eisenhower Executive Office Building houses the Office of Management and Budget. GAO says OMB guidance did not fully communicate new strategic-review requirements.",
+        "credit": "Daderot / Wikimedia Commons, CC0",
+        "height": 900,
+        "rightsId": "media-strategic-reviews-eeob-daderot",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/eeob/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-gao-federal-program-effectiveness-three-step-test-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO says OMB guidance and four selected agencies have not fully met Federal Agency Performance Act review rules.",
+        "index": true,
+        "title": "GAO finds gaps in federal strategic reviews at four agencies"
+      },
+      "section": "investigations",
+      "slug": "gao-federal-strategic-reviews-requirements-2026",
+      "social": {
+        "description": "OMB guidance omitted four leadership and stakeholder requirements, and none of the selected agencies had fully implemented the 2024 law.",
+        "image": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/eeob/open-graph.webp",
+        "title": "Four Agencies Have Not Fully Met New Strategic-Review Rules, GAO Says"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal oversight",
+        "Government performance",
+        "Interagency coordination",
+        "Strategic reviews"
+      ],
+      "uncertainty": [
+        "GAO selected four agencies from a group of 13; the findings do not establish a government-wide compliance rate.",
+        "Agreement with a recommendation is not evidence that corrective action has been completed."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A one-time wealth tax on the richest 1% of households is highly unlikely to generate enough revenue to make Social Security's retirement trust fund solvent for 75 years, the Congressional Budget Office told senators.\n\nCBO was responding to questions submitted after a March hearing on Social Security. The agency did not estimate a tax rate or score legislation; it explained why a simple comparison of wealth and the program's financing gap would overstate potential collections.\n\nThe Social Security trustees estimate the Old-Age and Survivors Insurance program's unfunded obligation over 75 years at $30.3 trillion. Federal Reserve data put wealth held by the top 1% at $55 trillion in the first quarter of 2026.\n\nThose figures are not directly interchangeable. CBO said a tax broad enough to cover housing, closely held businesses and retirement accounts would be difficult to design and administer, while households would have strong incentives to reduce taxable wealth.\n\nBehavioral responses would substantially reduce revenue relative to multiplying a headline tax rate by current wealth, CBO said. The agency also said a one-time levy large enough to pursue the target would have significant effects on the broader economy.\n\nCBO therefore concluded that the effective rate would need to be very high and would probably still miss the 75-year goal. The agency noted that the Joint Committee on Taxation, not CBO alone, would estimate the revenue from an actual wealth-tax bill.\n\nThe answer also cautioned that 75-year balance would not guarantee lasting solvency because the projected gap between Social Security revenue and outlays widens after the projection window.\n\nCBO projects that the OASI trust fund will be exhausted in fiscal 2032 under current law, while the Disability Insurance trust fund remains solvent for more than 30 years. Its baseline must assume scheduled benefits continue for budget projection purposes even when a trust fund lacks enough resources.\n\nThe document analyzes financing mechanics rather than endorsing a policy. Any real proposal would depend on statutory definitions, enforcement, valuation rules, taxpayer responses and broader economic effects that are not captured by the two headline dollar amounts.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "A one-time wealth tax on the richest 1% of households is highly unlikely to generate enough revenue to make Social Security's retirement trust fund solvent for 75 years, the Congressional Budget Office told senators."
+        },
+        {
+          "type": "paragraph",
+          "text": "CBO was responding to questions submitted after a March hearing on Social Security. The agency did not estimate a tax rate or score legislation; it explained why a simple comparison of wealth and the program's financing gap would overstate potential collections."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-social-security-financing-reference-points-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/social-security/financing/four-three.webp",
+          "alt": "Graphic compares a 30.3 trillion dollar Social Security gap with 55 trillion dollars in top one percent wealth and a 2032 exhaustion date.",
+          "caption": "CBO cited trustees' estimate of a $30.3 trillion 75-year OASI shortfall and Federal Reserve data showing $55 trillion in top-1% household wealth.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cbo.gov/publication/62575"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Social Security trustees estimate the Old-Age and Survivors Insurance program's unfunded obligation over 75 years at $30.3 trillion. Federal Reserve data put wealth held by the top 1% at $55 trillion in the first quarter of 2026."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those figures are not directly interchangeable. CBO said a tax broad enough to cover housing, closely held businesses and retirement accounts would be difficult to design and administer, while households would have strong incentives to reduce taxable wealth."
+        },
+        {
+          "type": "paragraph",
+          "text": "Behavioral responses would substantially reduce revenue relative to multiplying a headline tax rate by current wealth, CBO said. The agency also said a one-time levy large enough to pursue the target would have significant effects on the broader economy."
+        },
+        {
+          "type": "paragraph",
+          "text": "CBO therefore concluded that the effective rate would need to be very high and would probably still miss the 75-year goal. The agency noted that the Joint Committee on Taxation, not CBO alone, would estimate the revenue from an actual wealth-tax bill."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-social-security-wealth-tax-cautions-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/social-security/effects/four-three.webp",
+          "alt": "Graphic lists hard-to-value assets, behavioral responses and a widening gap after 75 years.",
+          "caption": "CBO said valuation, avoidance incentives and the widening long-run gap make a simple tax-rate calculation unreliable.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.cbo.gov/publication/62575"
+        },
+        {
+          "type": "paragraph",
+          "text": "The answer also cautioned that 75-year balance would not guarantee lasting solvency because the projected gap between Social Security revenue and outlays widens after the projection window."
+        },
+        {
+          "type": "paragraph",
+          "text": "CBO projects that the OASI trust fund will be exhausted in fiscal 2032 under current law, while the Disability Insurance trust fund remains solvent for more than 30 years. Its baseline must assume scheduled benefits continue for budget projection purposes even when a trust fund lacks enough resources."
+        },
+        {
+          "type": "paragraph",
+          "text": "The document analyzes financing mechanics rather than endorsing a policy. Any real proposal would depend on statutory definitions, enforcement, valuation rules, taxpayer responses and broader economic effects that are not captured by the two headline dollar amounts."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/cbo-social-security-one-time-wealth-tax-75-year-solvency/",
+      "citations": [
+        {
+          "id": "source-cbo-social-security-questions-20260715",
+          "title": "Answers to Questions for the Record Following a Hearing on Social Security's Finances",
+          "publisher": "Congressional Budget Office",
+          "publishedAt": "2026-07-15T12:00:00Z",
+          "url": "https://www.cbo.gov/publication/62575"
+        },
+        {
+          "id": "source-ssa-trustees-report-2026",
+          "title": "2026 Annual Report of the Board of Trustees of the Federal Old-Age and Survivors Insurance and Federal Disability Insurance Trust Funds",
+          "publisher": "Social Security Administration",
+          "publishedAt": "2026-06-18T12:00:00Z",
+          "url": "https://www.ssa.gov/oact/TR/2026/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The trustees estimate a $30.3 trillion 75-year OASI unfunded obligation.",
+        "The Federal Reserve estimated $55 trillion in top-1% household wealth in the first quarter of 2026.",
+        "CBO projects OASI trust fund exhaustion in fiscal 2032 under current law.",
+        "CBO did not estimate a specific wealth-tax rate or score legislation."
+      ],
+      "corrections": [],
+      "dek": "The agency compared a $30.3 trillion projected OASI shortfall with $55 trillion in top-1% wealth, warning that design and behavior would sharply reduce collections.",
+      "desk": "social-security-financing-policy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Congressional Budget Office",
+        "Social Security Administration",
+        "Federal Reserve Board",
+        "Senate Committee on the Budget"
+      ],
+      "eventId": "event-cbo-social-security-one-time-wealth-tax-75-year-solvency",
+      "headline": "CBO Doubts a One-Time Wealth Tax Could Secure Social Security for 75 Years",
+      "id": "article-cbo-social-security-one-time-wealth-tax-75-year-solvency",
+      "leadImage": {
+        "alt": "Wide exterior view of the Wilbur J. Cohen Federal Building in Washington.",
+        "caption": "The Wilbur J. Cohen Federal Building in Washington was originally built as the Social Security Building. CBO addressed lawmakers' questions about financing the OASI trust fund.",
+        "credit": "Carol M. Highsmith / Library of Congress",
+        "height": 900,
+        "rightsId": "media-social-security-cohen-building-highsmith",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-105223/social-security/cohen-building/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Washington, D.C."
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-federal-deficit-through-july-2026-cbo"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "CBO says a one-time top-1% wealth tax would likely fall short of Social Security's 75-year financing gap.",
+        "index": true,
+        "title": "CBO doubts one-time wealth tax could secure Social Security"
+      },
+      "section": "politics",
+      "slug": "cbo-social-security-one-time-wealth-tax-75-year-solvency",
+      "social": {
+        "description": "The agency compared a $30.3 trillion projected OASI shortfall with $55 trillion in top-1% wealth, warning that design and behavior would sharply reduce collections.",
+        "image": "/media/newsroom/2026/08/manual-20260811-105223/social-security/cohen-building/open-graph.webp",
+        "title": "CBO Doubts a One-Time Wealth Tax Could Secure Social Security for 75 Years"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Social Security",
+        "Tax policy",
+        "Federal trust funds",
+        "Retirement policy"
+      ],
+      "uncertainty": [
+        "The $30.3 trillion trustees' figure is a present-value estimate under intermediate assumptions and is not a current cash bill.",
+        "Actual receipts would depend on legislation, valuation, enforcement, behavioral responses and economic effects."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Giant sequoias in forests treated with prescribed fire were nearly four times more likely to survive extreme wildfire than trees in untreated areas, according to a NASA-funded study.\n\nResearchers analyzed 26,403 giant sequoias in 19 groves after California's 2020 and 2021 fire seasons. They combined lidar, tree-location maps, high-resolution imagery and statistical modeling to estimate mortality under different management histories.\n\nThe team estimated that prescribed burns saved roughly 1,800 giant sequoias. Those intentional, controlled fires reduce accumulated underbrush, dead wood and other fuel that can drive high-intensity wildfire.\n\nThe study focused on a period of exceptional damage. NASA said 6.8 million acres burned in California across the two fire seasons and 19% of the mature giant-sequoia population across its natural range was destroyed.\n\nGiant sequoias naturally occur only on the western slopes of California's Sierra Nevada. They can exceed 300 feet in height, 30 feet in diameter and 3,000 years in age, according to NASA's summary.\n\nResearchers said the new evidence strengthens a practice long supported by field experience but previously lacking species-wide quantitative evaluation under extreme fire conditions.\n\nThe analysis does not mean every prescribed burn prevents later tree death. Survival depends on fire severity, treatment history, local fuels, weather and other conditions, and controlled fire itself requires planning and suitable operating windows.\n\nThe researchers used remote sensing to evaluate individual large trees across multiple groves, an approach they say could help assess management effects in other old-growth forests where field inventories alone are difficult.\n\nThe result is evidence about risk reduction, not elimination. As severe-fire conditions change, continued monitoring will be needed to test whether the estimated protection holds across future fires and different treatment intervals.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Giant sequoias in forests treated with prescribed fire were nearly four times more likely to survive extreme wildfire than trees in untreated areas, according to a NASA-funded study."
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers analyzed 26,403 giant sequoias in 19 groves after California's 2020 and 2021 fire seasons. They combined lidar, tree-location maps, high-resolution imagery and statistical modeling to estimate mortality under different management histories."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-sequoia-study-scale-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/study/four-three.webp",
+          "alt": "Graphic shows 26,403 giant sequoias, 19 groves and two severe fire seasons.",
+          "caption": "Researchers analyzed 26,403 giant sequoias across 19 groves affected by the 2020 and 2021 fire seasons.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://science.nasa.gov/blogs/science-news/2026/07/20/nasa-funded-study-shows-how-controlled-burns-help-sequoias-survive-wildfires/"
+        },
+        {
+          "type": "paragraph",
+          "text": "The team estimated that prescribed burns saved roughly 1,800 giant sequoias. Those intentional, controlled fires reduce accumulated underbrush, dead wood and other fuel that can drive high-intensity wildfire."
+        },
+        {
+          "type": "paragraph",
+          "text": "The study focused on a period of exceptional damage. NASA said 6.8 million acres burned in California across the two fire seasons and 19% of the mature giant-sequoia population across its natural range was destroyed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Giant sequoias naturally occur only on the western slopes of California's Sierra Nevada. They can exceed 300 feet in height, 30 feet in diameter and 3,000 years in age, according to NASA's summary."
+        },
+        {
+          "type": "paragraph",
+          "text": "Researchers said the new evidence strengthens a practice long supported by field experience but previously lacking species-wide quantitative evaluation under extreme fire conditions."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-sequoia-prescribed-fire-outcomes-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/outcomes/four-three.webp",
+          "alt": "Graphic shows nearly four times higher survival, about 1,800 trees saved and 19 percent mature-tree loss across the range.",
+          "caption": "The analysis associated prescribed fire with nearly four times greater survival and estimated about 1,800 trees were saved.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://science.nasa.gov/blogs/science-news/2026/07/20/nasa-funded-study-shows-how-controlled-burns-help-sequoias-survive-wildfires/"
+        },
+        {
+          "type": "paragraph",
+          "text": "The analysis does not mean every prescribed burn prevents later tree death. Survival depends on fire severity, treatment history, local fuels, weather and other conditions, and controlled fire itself requires planning and suitable operating windows."
+        },
+        {
+          "type": "paragraph",
+          "text": "The researchers used remote sensing to evaluate individual large trees across multiple groves, an approach they say could help assess management effects in other old-growth forests where field inventories alone are difficult."
+        },
+        {
+          "type": "paragraph",
+          "text": "The result is evidence about risk reduction, not elimination. As severe-fire conditions change, continued monitoring will be needed to test whether the estimated protection holds across future fires and different treatment intervals."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/prescribed-burns-sequoia-survival-nasa-study-2026/",
+      "citations": [
+        {
+          "id": "source-nasa-sequoia-prescribed-fire-20260720",
+          "title": "NASA-Funded Study Shows How Controlled Burns Help Sequoias Survive Wildfires",
+          "publisher": "NASA Science",
+          "publishedAt": "2026-07-20T20:25:00Z",
+          "url": "https://science.nasa.gov/blogs/science-news/2026/07/20/nasa-funded-study-shows-how-controlled-burns-help-sequoias-survive-wildfires/"
+        },
+        {
+          "id": "source-nature-sequoia-fire-survival-20260711",
+          "title": "Prescribed fire increases giant sequoia survival under extreme wildfire",
+          "publisher": "Nature Communications",
+          "publishedAt": "2026-07-11T12:00:00Z",
+          "url": "https://www.nature.com/articles/s41467-026-63367-3"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The study analyzed 26,403 giant sequoias across 19 groves.",
+        "Prescribed fire was associated with nearly four times greater survival under extreme wildfire.",
+        "Researchers estimated roughly 1,800 trees were saved.",
+        "NASA reported that 19% of the mature giant-sequoia population was destroyed in the 2020 and 2021 fires."
+      ],
+      "corrections": [],
+      "dek": "A NASA-funded analysis of 26,403 trees across 19 groves estimates earlier controlled fire saved roughly 1,800 giant sequoias in 2020 and 2021.",
+      "desk": "forest-fire-resilience-research",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "NASA",
+        "National Park Service",
+        "Sequoia and Kings Canyon National Parks",
+        "Nature Communications"
+      ],
+      "eventId": "event-prescribed-burns-sequoia-survival-nasa-study-2026",
+      "headline": "Prescribed Burns Made Giant Sequoias Nearly Four Times More Likely to Survive",
+      "id": "article-prescribed-burns-sequoia-survival-nasa-study-2026",
+      "leadImage": {
+        "alt": "Aerial forest view showing burned sequoia habitat beside a photograph of the giant sequoia General Sherman.",
+        "caption": "Aerial evidence of sequoia mortality and survival appears beside General Sherman in NASA's study summary. Researchers linked earlier prescribed fire with much higher survival in extreme wildfire.",
+        "credit": "National Park Service/Anthony Caprio; Samuel Grinis via NASA",
+        "height": 900,
+        "rightsId": "media-sequoia-prescribed-fire-nps-caprio-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/prescribed-fire/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "California",
+        "Sierra Nevada",
+        "Sequoia National Park",
+        "Kings Canyon National Park"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-nasa-brown-carbon-wildfire-smoke-july-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NASA-funded research links prescribed fire to nearly four times higher giant-sequoia survival in extreme wildfires.",
+        "index": true,
+        "title": "Prescribed burns raised giant sequoia survival, study finds"
+      },
+      "section": "weather-climate",
+      "slug": "prescribed-burns-sequoia-survival-nasa-study-2026",
+      "social": {
+        "description": "A NASA-funded analysis of 26,403 trees across 19 groves estimates earlier controlled fire saved roughly 1,800 giant sequoias in 2020 and 2021.",
+        "image": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/prescribed-fire/open-graph.webp",
+        "title": "Prescribed Burns Made Giant Sequoias Nearly Four Times More Likely to Survive"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Wildfire resilience",
+        "Prescribed fire",
+        "Giant sequoias",
+        "Remote sensing",
+        "Forest management"
+      ],
+      "uncertainty": [
+        "The study estimates causal protection using observational management and fire data rather than a randomized experiment.",
+        "Results from 2020 and 2021 groves may not transfer unchanged to every forest, fire or treatment interval."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "NIST researchers programmed a metal 3D printer's laser to trace repeated loops, stirring metals that ordinarily separate as the molten pool cools, the agency reported.\n\nThe method targets a basic additive-manufacturing problem: metals with different densities, melting points and surface tensions can segregate into weak, uneven regions instead of forming a uniform alloy.\n\nRather than tracing straight lines, the team made the laser draw loop-the-loops as it crossed the powder bed. That motion actively mixed the tiny molten pool while the material was being printed.\n\nNIST said commercial printer software could not generate the needed path, so the researchers wrote new controls. The approach does not require major new printer parts, suggesting existing systems could eventually be adapted.\n\nThe test combined RHEA-19, a dense refractory high-entropy alloy, with a lighter titanium alloy. High-entropy alloys use several metals in relatively similar proportions and can be difficult to mix uniformly by conventional casting.\n\nVerification required watching dense metal solidify in less than a second. At Argonne National Laboratory's Advanced Photon Source, the team used synchrotron X-ray diffraction to track atomic structure in real time.\n\nElectron microscopy of the solidified material provided a second check. NIST said the measurements showed that the looping scan successfully mixed the two materials into a new alloy.\n\nThe researchers see a possible path toward on-demand alloys made from elemental or feedstock powders, reducing the need to stock a separate pre-alloyed powder for every composition and permitting graded parts without welds.\n\nThat remains a research prospect, not a production guarantee. The demonstration involved selected materials and laboratory equipment; repeatability, scale, qualification, software controls and performance testing would be required before safety-critical manufacturing use.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "NIST researchers programmed a metal 3D printer's laser to trace repeated loops, stirring metals that ordinarily separate as the molten pool cools, the agency reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "The method targets a basic additive-manufacturing problem: metals with different densities, melting points and surface tensions can segregate into weak, uneven regions instead of forming a uniform alloy."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-laser-alloying-process-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/process/four-three.webp",
+          "alt": "Graphic lists a looping laser scan path, no major new printer parts and solidification in under one second.",
+          "caption": "A looping laser path stirred a microscopic molten pool without requiring major new printer hardware.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rather than tracing straight lines, the team made the laser draw loop-the-loops as it crossed the powder bed. That motion actively mixed the tiny molten pool while the material was being printed."
+        },
+        {
+          "type": "paragraph",
+          "text": "NIST said commercial printer software could not generate the needed path, so the researchers wrote new controls. The approach does not require major new printer parts, suggesting existing systems could eventually be adapted."
+        },
+        {
+          "type": "paragraph",
+          "text": "The test combined RHEA-19, a dense refractory high-entropy alloy, with a lighter titanium alloy. High-entropy alloys use several metals in relatively similar proportions and can be difficult to mix uniformly by conventional casting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Verification required watching dense metal solidify in less than a second. At Argonne National Laboratory's Advanced Photon Source, the team used synchrotron X-ray diffraction to track atomic structure in real time."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-laser-alloying-verification-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/measurement/four-three.webp",
+          "alt": "Graphic lists RHEA-19 and titanium, synchrotron X-ray diffraction and electron microscopy.",
+          "caption": "The team mixed RHEA-19 with a titanium alloy and verified the result with real-time X-ray diffraction and electron microscopy.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Electron microscopy of the solidified material provided a second check. NIST said the measurements showed that the looping scan successfully mixed the two materials into a new alloy."
+        },
+        {
+          "type": "paragraph",
+          "text": "The researchers see a possible path toward on-demand alloys made from elemental or feedstock powders, reducing the need to stock a separate pre-alloyed powder for every composition and permitting graded parts without welds."
+        },
+        {
+          "type": "paragraph",
+          "text": "That remains a research prospect, not a production guarantee. The demonstration involved selected materials and laboratory equipment; repeatability, scale, qualification, software controls and performance testing would be required before safety-critical manufacturing use."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nist-looping-laser-mixes-3d-printed-alloys-2026/",
+      "citations": [
+        {
+          "id": "source-nist-laser-alloying-20260604",
+          "title": "NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers",
+          "publisher": "National Institute of Standards and Technology",
+          "publishedAt": "2026-06-04T12:00:00Z",
+          "url": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers"
+        },
+        {
+          "id": "source-additive-manufacturing-laser-stirring-2026",
+          "title": "Laser stirring with elliptical scanning enables on-demand alloying in additive manufacturing",
+          "publisher": "Additive Manufacturing",
+          "publishedAt": "2026-01-30T12:00:00Z",
+          "url": "https://doi.org/10.1016/j.addma.2026.105101"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The laser followed a looping rather than straight scan path.",
+        "The test combined RHEA-19 and a titanium alloy.",
+        "Researchers used synchrotron X-ray diffraction and electron microscopy to verify mixing.",
+        "NIST said the method did not require major new printer hardware."
+      ],
+      "corrections": [],
+      "dek": "The team rewrote printer controls to stir a tiny molten pool, then used synchrotron X-rays to watch the new alloy solidify in under a second.",
+      "desk": "metal-additive-manufacturing-research",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Institute of Standards and Technology",
+        "Argonne National Laboratory",
+        "Advanced Photon Source",
+        "Additive Manufacturing"
+      ],
+      "eventId": "event-nist-looping-laser-mixes-3d-printed-alloys-2026",
+      "headline": "NIST's Looping Laser Mixed Metals That Usually Separate in 3D Printing",
+      "id": "article-nist-looping-laser-mixes-3d-printed-alloys-2026",
+      "leadImage": {
+        "alt": "Researchers and officials stand beside equipment inside the Advanced Photon Source.",
+        "caption": "A 2010 visit inside Argonne's Advanced Photon Source. NIST researchers used its high-brilliance X-rays to watch laser-stirred metal solidify.",
+        "credit": "U.S. Department of Energy / Wikimedia Commons",
+        "height": 900,
+        "rightsId": "media-laser-alloys-aps-doe-2010",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/advanced-photon-source/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Gaithersburg, Maryland",
+        "Lemont, Illinois"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-nist-rm-8047-resin-3d-printing-working-curve"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NIST researchers used a looping laser path and synchrotron X-rays to mix metals that normally separate in 3D printing.",
+        "index": true,
+        "title": "NIST looping laser mixes hard-to-combine 3D-printed alloys"
+      },
+      "section": "technology",
+      "slug": "nist-looping-laser-mixes-3d-printed-alloys-2026",
+      "social": {
+        "description": "The team rewrote printer controls to stir a tiny molten pool, then used synchrotron X-rays to watch the new alloy solidify in under a second.",
+        "image": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/advanced-photon-source/open-graph.webp",
+        "title": "NIST's Looping Laser Mixed Metals That Usually Separate in 3D Printing"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Metal 3D printing",
+        "High-entropy alloys",
+        "Synchrotron X-rays",
+        "Materials engineering"
+      ],
+      "uncertainty": [
+        "The work is a laboratory demonstration and does not establish production readiness or certification for specific components.",
+        "Performance with other alloy systems, machines and build scales requires further validation."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "State and local government pension systems held $6.49 trillion in short- and long-term assets in 2025, an 8.46% increase from $5.98 trillion a year earlier, the U.S. Census Bureau reported.\n\nThe Annual Survey of Public Pensions covers state and locally administered defined-benefit systems. Those plans promise a specified retirement benefit rather than an account balance determined only by individual contributions and investment returns.\n\nMore than 37 million people participated in the systems, including inactive employees who were no longer contributing but remained eligible for future benefits.\n\nTotal employee and government contributions reached $315.02 billion. Employees supplied 24.83% of that amount, while governments contributed 75.17% on behalf of workers.\n\nBenefit payments totaled $418.25 billion in 2025, up 3.40% from $404.46 billion in 2024. Beneficiaries include retirees as well as eligible spouses and dependent children.\n\nThe fact that benefit payments exceeded contributions during the year does not by itself show whether systems are adequately funded. Pension plans also receive investment income and pay benefits from accumulated assets.\n\nLikewise, the increase in assets is not the same as an improvement in funded status. Funded ratios depend on actuarial liabilities, discount-rate assumptions, benefit promises and other system-specific factors.\n\nThe Census Bureau publishes national and state statistics as well as a separate unit file with actuarial information for state and local systems, allowing comparisons beyond the headline totals.\n\nThe 2025 survey is a broad balance-sheet and cash-flow snapshot. Evaluating any individual pension system requires its own actuarial valuation, governance record and investment-risk profile.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "State and local government pension systems held $6.49 trillion in short- and long-term assets in 2025, an 8.46% increase from $5.98 trillion a year earlier, the U.S. Census Bureau reported."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Annual Survey of Public Pensions covers state and locally administered defined-benefit systems. Those plans promise a specified retirement benefit rather than an account balance determined only by individual contributions and investment returns."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-public-pension-assets-2024-2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/assets/four-three.webp",
+          "alt": "Graphic shows public pension assets rising 8.46 percent from 5.98 trillion dollars to 6.49 trillion dollars.",
+          "caption": "State and local pension assets increased from $5.98 trillion in 2024 to $6.49 trillion in 2025.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "More than 37 million people participated in the systems, including inactive employees who were no longer contributing but remained eligible for future benefits."
+        },
+        {
+          "type": "paragraph",
+          "text": "Total employee and government contributions reached $315.02 billion. Employees supplied 24.83% of that amount, while governments contributed 75.17% on behalf of workers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Benefit payments totaled $418.25 billion in 2025, up 3.40% from $404.46 billion in 2024. Beneficiaries include retirees as well as eligible spouses and dependent children."
+        },
+        {
+          "type": "paragraph",
+          "text": "The fact that benefit payments exceeded contributions during the year does not by itself show whether systems are adequately funded. Pension plans also receive investment income and pay benefits from accumulated assets."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-public-pension-contributions-benefits-2025",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/flows/four-three.webp",
+          "alt": "Graphic lists 315.02 billion dollars in contributions, 418.25 billion dollars in benefits and more than 37 million participants.",
+          "caption": "The survey counted $315.02 billion in contributions, $418.25 billion in benefit payments and more than 37 million participants.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html"
+        },
+        {
+          "type": "paragraph",
+          "text": "Likewise, the increase in assets is not the same as an improvement in funded status. Funded ratios depend on actuarial liabilities, discount-rate assumptions, benefit promises and other system-specific factors."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Census Bureau publishes national and state statistics as well as a separate unit file with actuarial information for state and local systems, allowing comparisons beyond the headline totals."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 2025 survey is a broad balance-sheet and cash-flow snapshot. Evaluating any individual pension system requires its own actuarial valuation, governance record and investment-risk profile."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/public-pension-assets-649-trillion-census-2025/",
+      "citations": [
+        {
+          "id": "source-census-public-pensions-2025",
+          "title": "Census Bureau Releases 2025 Annual Survey of Public Pensions",
+          "publisher": "U.S. Census Bureau",
+          "publishedAt": "2026-05-14T12:00:00Z",
+          "url": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "State and local pension assets totaled $6.49 trillion in 2025.",
+        "Assets increased 8.46% from $5.98 trillion in 2024.",
+        "The survey counted more than 37 million participants.",
+        "Benefit payments totaled $418.25 billion and contributions totaled $315.02 billion."
+      ],
+      "corrections": [],
+      "dek": "Census data count more than 37 million participants, $315.02 billion in contributions and $418.25 billion in benefits during 2025.",
+      "desk": "state-local-public-pension-data",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Census Bureau",
+        "Annual Survey of Public Pensions",
+        "CalPERS"
+      ],
+      "eventId": "event-public-pension-assets-649-trillion-census-2025",
+      "headline": "State and Local Pension Assets Rose 8.46% to $6.49 Trillion",
+      "id": "article-public-pension-assets-649-trillion-census-2025",
+      "leadImage": {
+        "alt": "Modern glass-and-stone CalPERS headquarters building in Sacramento.",
+        "caption": "CalPERS headquarters in Sacramento. The Census Bureau's national survey covers state and locally administered defined-benefit pension systems.",
+        "credit": "Coolcaesar / Wikimedia Commons, CC BY-SA 3.0",
+        "height": 900,
+        "rightsId": "media-public-pensions-calpers-headquarters-coolcaesar",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/calpers-headquarters/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Sacramento, California"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-401k-spousal-consent-withdrawals-gao-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Census data show state and local pension assets rose 8.46% to $6.49 trillion, with more than 37 million participants.",
+        "index": true,
+        "title": "Public pension assets rose to $6.49 trillion in 2025"
+      },
+      "section": "business",
+      "slug": "public-pension-assets-649-trillion-census-2025",
+      "social": {
+        "description": "Census data count more than 37 million participants, $315.02 billion in contributions and $418.25 billion in benefits during 2025.",
+        "image": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/calpers-headquarters/open-graph.webp",
+        "title": "State and Local Pension Assets Rose 8.46% to $6.49 Trillion"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Public pensions",
+        "Retirement systems",
+        "State and local finance",
+        "Defined benefits"
+      ],
+      "uncertainty": [
+        "National asset and cash-flow totals do not establish the funded status of any individual retirement system.",
+        "The survey's participant count includes inactive workers eligible for future benefits."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T10:29:53.357Z",
+  "generatedAt": "2026-08-11T11:16:28.392Z",
   "inputHashes": {
+    "sourceItems": "94d58ea73622d475eacec99ec89deb9d898f78cf069eea7f5744d3133c3e9c03",
+    "events": "ada30467c455084278b87a0390c646add21f0089b813714e2b4e24baef273d82",
+    "claims": "b7cade3aa391caa3f6680255a222efc444028463605b9dc470c17761c940fe85",
+    "articles": "4d91f34b6880498eec403af543ff1ea723f17a46f3c02f54d92e4935f6770535",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
-    "articles": "c439a2146c7aa0c154b53ac938b23b4f8129d73de26f2aee3400fad980286c8c",
-    "claims": "5911aeb9c44408e929d3909075439627d5e5ecabcc40436ead1bc36f92c7f842",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "b67fd3fa673d12a33109a6c99e00d0efefa729d70ca4a997ac50712af17dc5e4",
-    "mediaRights": "3b13407d7e9ed587de6d9579fa7567811e5cdceaaa6b15eed9c890b33b617dd3",
-    "publicationIntents": "80cc0e38e2d8afbb137bf8350aa4717ec198652846bdf850435e8eac843e7a1b",
+    "mediaRights": "cd3d4410a2bc79091ee4639f6d37056379e4b61b7aba2de2257700925fe1905c",
     "releaseRecords": "a8bbe11bc81c2b05da0b09cc884ebf45ddb2d5c3bd68d669165a9ba0fe3bbe2d",
-    "sourceItems": "78a843b7e201bddbbc4947f118eaf94c3d91abd7544b320e64424329e746668e"
+    "publicationIntents": "958045968a2dfe187e44fddfe43781181a2a8df78570d08bf771038828bc246d"
   },
   "inventory": {
-    "articleCount": 309,
-    "mediaCount": 913,
-    "routeCount": 309
+    "articleCount": 315,
+    "routeCount": 315,
+    "mediaCount": 931
   },
   "mediaRights": [
     {
@@ -120282,9 +121200,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.gao.gov/products/gao-26-109115"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Exterior of the federal courthouse in El Paso at dusk.",
+      "archivalStatus": "current",
+      "attribution": "Carol M. Highsmith / Library of Congress",
+      "caption": "The U.S. Courthouse in El Paso, Texas. Fiscal 2025 sentencing data show wide district variation in the use of supervised release after imprisonment.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Carol M. Highsmith",
+      "derivatives": [
+        {
+          "hash": "c307f76b4d447274f401d07489c918a987620054193b72a1daa71705a3b15b9a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/courthouse/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "57d589a64a19c6d24b9a656ac3f1e2a8d891cda5ccdba87a0fc25c08f0b61a0f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/courthouse/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d56786b177473183d409a72a80ffcf35de1d53306ef2ac5702755da9945acf72",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/courthouse/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a7df104fbd08d45f0d2909d882a34cf88ab0b432a857017c3ef80ce6281d61ee",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/courthouse/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d590ab3e877154629931edfaf7ee2e528260cf100bacf66e828a096599063234",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/courthouse/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7a1956e03d661f7218695e9dd2df00300230c053e424fe2233209673d1d5d587",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/courthouse/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "ea98c1e1c3a22b1101cf1848d56c72eb153c9a5d476df1d44edddcef5a1b42a3",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/courthouse/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-supervised-release-el-paso-courthouse-highsmith",
+      "illustrationLabel": null,
+      "license": "Public domain / no known restrictions",
+      "originalFileHash": "9ea9153dc098130fa0c47a3fd2babbcf89d5fc978963734d5277c399a60f30f6",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Carol M. Highsmith dedicated this Library of Congress photograph to the public domain; Commons records no known publication restrictions.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exterior._U.S._Courthouse,_El_Paso,_Texas_LCCN2015645931.tif"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 61,557 prison sentences and 50,688 terms of supervised release, an 82 percent rate.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Of 61,557 fiscal 2025 sentences that included imprisonment, 50,688 also included supervised release.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "772b12e9aa5e9f73a7333716ad1200d984dd184b03c629ddac9304255a7afe50",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/imposition/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b9e19c1494ca7317cb5ecf3ac76ac448d23aa32cf363fc123ca71f6807f91f0c",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/imposition/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9b533e3b894b08e6f798989911f0b69501d9f7a74d986f4de750274af83ba807",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/imposition/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "49d693ad3ae3056e1247f0fdba6f703a9af1408a52341c5e4697ab7b1a840bd3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/imposition/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "697fca799db28760e4ba7709c3b38ec3b914acbef13aa6c59d7d23f636aaa24a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/imposition/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "42e4edc6e16326a0ecae34bb716470e4be1361a6085eb9a9497d9434901462e8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/imposition/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "df77f7f6d22b658011b9a822b3eb97f257d07dc891d9e1db3f6dc851e8b17744",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/imposition/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-supervised-release-imposition-fy2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "49d693ad3ae3056e1247f0fdba6f703a9af1408a52341c5e4697ab7b1a840bd3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/supervised-release"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 66 percent of supervision cases closed without revocation and 34 percent with revocation.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Two-thirds of 53,087 post-conviction supervision cases closed without revocation; one-third closed with revocation.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "237fa991b4b412afa8df5e78dc4f5820d84bccd20a9d1f96b9605b0fcf93d898",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/closures/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5b448f0c5470f9f83f3e0945d64d44cf82ed1ae2688c72e508fa033794b35551",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/closures/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1073fc3b306f5cb00ce46237a5210212760afc02fefc9155609fec36b9c3d9eb",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/closures/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "665c075f32ef928e5a8e000341839f6f577e041b42bbd0cba522666e51cf65bc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/closures/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "98f3ab22bc9cff9d6091fa8c894bb897f1b83f781e5ed5fc0863a7277cc3e450",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/closures/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f2a58997c06f83213c400ce648cc8a29bec3541a9e1cd98fb1e48a2e4c015809",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/closures/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "04db561f8bc8f9c0f57ce5e00c6e61418d0a1e8268871d4fc8ec2bafcb1c594f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/closures/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-supervised-release-closures-fy2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "665c075f32ef928e5a8e000341839f6f577e041b42bbd0cba522666e51cf65bc",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.ussc.gov/research/quick-facts/supervised-release"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Ornate stone facade of the Eisenhower Executive Office Building in Washington.",
+      "archivalStatus": "current",
+      "attribution": "Daderot / Wikimedia Commons, CC0",
+      "caption": "The Eisenhower Executive Office Building houses the Office of Management and Budget. GAO says OMB guidance did not fully communicate new strategic-review requirements.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Daderot",
+      "derivatives": [
+        {
+          "hash": "3929a50a1532250ef04935a8eac02519e160677e7439978ce701eba115f8f2e4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/eeob/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "00f67e04666b633e1cb8be217ccbe1abd783e97ae6353994a11ecad45675c8e1",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/eeob/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "18febeb4996581907ad948337ed2c4170e8dec7649e2f8b63b4ac79d1b4710e5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/eeob/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f2e611f28e3b282e48a416fdff899641360f3472fc48126b4cf01208477cc275",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/eeob/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5c114164f5779199b007e1597da7fd4491f8a43329a46ea29be426f1e5ef7bcd",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/eeob/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1b15a5d433e789692cf7d9125e9f48c76e89ceb9402bfecf1a450886bdf81476",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/eeob/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "3e7b85b1d1883c57e328884ee5b2170baea1cde8b8d24492bd3cab400b18ae38",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/eeob/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-strategic-reviews-eeob-daderot",
+      "illustrationLabel": null,
+      "license": "CC0 1.0",
+      "originalFileHash": "33a5b5ab347fe267c5265e970d1bb14f4a7e2e6dc6efe42616ae7a76d4c9d9ca",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "The photographer released the work under the CC0 1.0 public-domain dedication on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eisenhower_Executive_Office_Building_-_Washington,_DC_-_DSC09999.JPG"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic notes four selected agencies, zero with full implementation and four gaps in leadership and stakeholder requirements.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO found that none of four selected agencies had fully implemented the new strategic-review requirements.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "19689ceb0e2c4eb39fa85d66a90cff61aaefe7dd1fba4769176741df2068814e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/implementation/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "0950290b84605b54ae12f731f343950658d1bcb983e87d27b361f693ba35fcb1",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/implementation/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "413222eb832a93e6df1035aff2850047a9def63cc5c4ce2652de90b7e4bf9753",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/implementation/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "871454d2ef83d18df1f474750068e8353b48c70a903cab8f99af07b06391fe5e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/implementation/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1a82ed9c2f2c68a7ef8f672473cccb364a1dc0a45f06bfdb5f61079395053683",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/implementation/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ff64cedba62f158d40f17194d45db1bed6ea00b6bb0a4cf42caf357704513ae6",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/implementation/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "d365391a076c7601eeef639e794c897829679a246e06b0e7d600fd32ded8970e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/implementation/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-strategic-reviews-implementation-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "871454d2ef83d18df1f474750068e8353b48c70a903cab8f99af07b06391fe5e",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108516"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares strategic-review documentation at DHS, Treasury, State and GSA.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "DHS and Treasury addressed most requirements in process documents; State and GSA had not developed comparable documents.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "fd6df4b3b008d3896036b2cf05a62acad5960afd5e56128a60b11fd478d513ac",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/agencies/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "77b7e3717d4706d3d9c0a8ddf959be33dbdfbd588a6f9257cd7c1a5f2dbb0b54",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/agencies/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f941dd58230341e8db6809016bc056ad073209f77b8e26e05f63b1aefea91b2c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/agencies/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "52feceff31ec9b6330ea930120df6142aa409c358ec535410ac4115fd3e3c69c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/agencies/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "07a3c29ceffa327178e5583d793d3ace08d8099ce951c8b67e6e3ac034a48b20",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/agencies/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7a930afa4e160a3365efb31ca65ce6f3c4ba6ea0526ba8fbfa6a07f3907452e7",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/agencies/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "6069009e1cbfa720583ae79f73d9a682c14faed1d6ad652b85dfec9e020e1df7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/agencies/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-strategic-reviews-agency-documents-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "52feceff31ec9b6330ea930120df6142aa409c358ec535410ac4115fd3e3c69c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108516"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Wide exterior view of the Wilbur J. Cohen Federal Building in Washington.",
+      "archivalStatus": "current",
+      "attribution": "Carol M. Highsmith / Library of Congress",
+      "caption": "The Wilbur J. Cohen Federal Building in Washington was originally built as the Social Security Building. CBO addressed lawmakers' questions about financing the OASI trust fund.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Carol M. Highsmith",
+      "derivatives": [
+        {
+          "hash": "b7f80569ad829e3d9a170dcda61297d72852f8f1893008302c4c5ac331af5ca6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/cohen-building/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "8c607077192552b5f6454eb290db356f9166f2ee80f2f488946109bad14b0886",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/cohen-building/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "95399ad9fa2e0cbc8068dc83050bbcf7f81e3956031a9e687b6ecc86f6e5f586",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/cohen-building/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "89ed53c6ab91da5124897077efe0a0ad72988e1b0627f8091f8f6e10d536c711",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/cohen-building/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "929dfecc2b697b0834b947476bbfa34dab4b5ff12e1ed13b1c8533567ae878e1",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/cohen-building/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "26dc175dd648d2d4d6b6a6eeb228d43309a7c7ec8467720ef23025560be206ac",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/cohen-building/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "6d63c0c0ee8e2c0fbdca71c65e5dd13da967a9bfea9192201d5f545384d84e2f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/cohen-building/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-social-security-cohen-building-highsmith",
+      "illustrationLabel": null,
+      "license": "Public domain / no known restrictions",
+      "originalFileHash": "ed724321b978aa7c68ba1fffa69bce21ab3d676de96ced503cfb73ec3673fcd8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Carol M. Highsmith placed the photograph in the public domain; the Library of Congress records no known restrictions.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_the_Wilbur_J._Cohen_Federal_Building,_Washington,_D.C_LCCN2013634385.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares a 30.3 trillion dollar Social Security gap with 55 trillion dollars in top one percent wealth and a 2032 exhaustion date.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "CBO cited trustees' estimate of a $30.3 trillion 75-year OASI shortfall and Federal Reserve data showing $55 trillion in top-1% household wealth.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "bca0a16e63ea56f7fa95123d3edf843942b09edaa0af75aff3cd2b2ebaca5226",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/financing/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "172dcf41e376354360d2cba9444579c9df1360dfff048741841f41fbc11359e5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/financing/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e8b2b03f291a67b32102eb91d189497b45fdcc86a057facb1a4ddd918f194dc5",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/financing/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b7bac79f89985875737e44cb10652b5fcef37331d7b2344d9bee8f04e1b4c175",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/financing/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "42d9efec5cfefb14e749d13a960e122816f0632c78752a8e78b6692fd33cdd2b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/financing/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5972f42122fd73274ed056d5fa130a0f6e41f0bc5e8790ce9cb0e49e1d638982",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/financing/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "485fd192dcf9e34bb4fa69568df0b364d46a930650b7993ff4bd314aa63725ab",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/financing/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-social-security-financing-reference-points-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "b7bac79f89985875737e44cb10652b5fcef37331d7b2344d9bee8f04e1b4c175",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/62575"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists hard-to-value assets, behavioral responses and a widening gap after 75 years.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "CBO said valuation, avoidance incentives and the widening long-run gap make a simple tax-rate calculation unreliable.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "cd8872418e389b26b881b398eabdd74ba9ccb2973b7ca707e4f42c62a2fad26c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/effects/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "f12b6d7c58dbf9611e4cf673d812a1a889c71366beb4dc91ef8f77d6a227591b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/effects/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1f76bbd384725a99bd953c9fea7cfeb87f5dbad526617d602851221a97418343",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/effects/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "955be6f1c131908a3fc7c5dbb04de0626d584f47fa9e6dfc8f763bffc3f0bf05",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/effects/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a9f653c0ed3ba94691ad005a672a64b1bd24525c27e3646d540d0e6fe7bd74e4",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/effects/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "580aee8728276a3f4b6e40d4319e980757c00344f462e915633a44c5ab4a35f9",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/effects/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4355363bde637322a7fa51b6e04a36597d939f663c69ccf80931404108d38f3f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/social-security/effects/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-social-security-wealth-tax-cautions-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "955be6f1c131908a3fc7c5dbb04de0626d584f47fa9e6dfc8f763bffc3f0bf05",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.cbo.gov/publication/62575"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Aerial forest view showing burned sequoia habitat beside a photograph of the giant sequoia General Sherman.",
+      "archivalStatus": "current",
+      "attribution": "National Park Service/Anthony Caprio; Samuel Grinis via NASA",
+      "caption": "Aerial evidence of sequoia mortality and survival appears beside General Sherman in NASA's study summary. Researchers linked earlier prescribed fire with much higher survival in extreme wildfire.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Anthony Caprio, National Park Service; Samuel Grinis",
+      "derivatives": [
+        {
+          "hash": "1aed110c9528e453275d0ad5c21e75d9bafafdb86930c321edad9afe585f9784",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/prescribed-fire/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b4b850f3a69ed09b5bde4035144e75201b11ba6d324d606b5e8d562ab432ece8",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/prescribed-fire/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "822b364c990825e2b39c5aa2f1d2d50d8bffaf175a8815763a24e5525151692c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/prescribed-fire/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "df0b815021a0ab354ebc16c84063d9e63588191b64535d3850d38dc91db2cff0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/prescribed-fire/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f59ddbb1a73578ebb67cc62bccab13ec6395d022014f26dcf32b29e28d1a4ec5",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/prescribed-fire/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "bed8255029103510d74754f4c377886007fb9d8d5b562cf63ca4edf5e3f3c8bb",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/prescribed-fire/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7dff3f80f41b61145f57e05c34130e846e4a8cc08e4d585f15e9a330a4c7ea58",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/prescribed-fire/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-sequoia-prescribed-fire-nps-caprio-2026",
+      "illustrationLabel": null,
+      "license": "U.S. government/NASA editorial reuse with credited component",
+      "originalFileHash": "335d49b0b684da81bf14077e4318dc5adffbf664ccefe0784aed809a49b72b1c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "NASA published the composite as official science-news media; the documentary field photograph is credited to the National Park Service and the image is reused with full agency credit in the same scientific context.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/blogs/science-news/2026/07/20/nasa-funded-study-shows-how-controlled-burns-help-sequoias-survive-wildfires/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 26,403 giant sequoias, 19 groves and two severe fire seasons.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Researchers analyzed 26,403 giant sequoias across 19 groves affected by the 2020 and 2021 fire seasons.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "7b996aca65f3886870a696d3da538d9496206994d9c954462375bbc74de1b58b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/study/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d6b575414e62c6a0b96569ff725835162b12ca790b482285e50477a0ca368831",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/study/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c189eddd6ad9a712f0275d7ac46713da6892d4f063fb39661392e646289b96fa",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/study/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "06e2db2aacd03eb1cfa678d912d3935fbad81bc727a7d84eefe29e225ad49ead",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/study/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d625f38865c5f6db1ec0bc77dfce8306064d34e93f992cda8889f4e1686564f7",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/study/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "dd70c770ad42a2c20071473682e5f71bf5b8e4544bec49cfbdc812a99417fe98",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/study/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "9ddb7668ef6be5df43ab0472e8c273922a4671ec26ebfbc2e36f91a91e2cf6e6",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/study/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-sequoia-study-scale-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "06e2db2aacd03eb1cfa678d912d3935fbad81bc727a7d84eefe29e225ad49ead",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/blogs/science-news/2026/07/20/nasa-funded-study-shows-how-controlled-burns-help-sequoias-survive-wildfires/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows nearly four times higher survival, about 1,800 trees saved and 19 percent mature-tree loss across the range.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The analysis associated prescribed fire with nearly four times greater survival and estimated about 1,800 trees were saved.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "89012f83d8671436963c78a4ecd8c32208b833d276271e69cd3e0517994a0726",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/outcomes/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "67bb3c5b642ae307a24b215d07674d0ace1df1d61bddba7b279dfaf17bcda636",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/outcomes/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "5bf3cea5763a8d19e460e2b233c0ac52e70a981e80019a8334919b9b9f991adb",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/outcomes/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c7e49ba60a2a06e734f4a67172b9aef08767a0510eef554d90534fac8b95baf4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/outcomes/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "97fee92136450886b311ee68b0810591fada8459c985d979ef4da677c31de006",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/outcomes/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "cba3133dba6978123b05c4801e8368e867e2c6723586743106901e8eed94bd78",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/outcomes/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "044563803cbe7691013f5c4a3e06445bd36dd7283db12f930a520b0cb57729ce",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/outcomes/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-sequoia-prescribed-fire-outcomes-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "c7e49ba60a2a06e734f4a67172b9aef08767a0510eef554d90534fac8b95baf4",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://science.nasa.gov/blogs/science-news/2026/07/20/nasa-funded-study-shows-how-controlled-burns-help-sequoias-survive-wildfires/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Researchers and officials stand beside equipment inside the Advanced Photon Source.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Department of Energy / Wikimedia Commons",
+      "caption": "A 2010 visit inside Argonne's Advanced Photon Source. NIST researchers used its high-brilliance X-rays to watch laser-stirred metal solidify.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "U.S. Department of Energy",
+      "derivatives": [
+        {
+          "hash": "25dc0b6657bba87cc41579d0674a5ff3a3af4ff8fbb98503391a478f3741df5a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/advanced-photon-source/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6952e5540cf5950d6081dc16c30ec15e840956e41016994ad5e076dff1d5ad8d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/advanced-photon-source/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e603fa6321ae46f82af869503150ca679ec6ececd7a887679b68cadfc0148313",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/advanced-photon-source/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "dc9d0c2a121763be355f6ce051440ba57a79c4fa7cb240f92b9de307d2f3d0b1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/advanced-photon-source/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e99081b6ef1e4fdd0b9c39ece7952f654de158af216a6121d865833f4a7f3ec7",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/advanced-photon-source/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1259ada477f12f5ac1ce37c777277d75c277352ed1479106988f5237f2596c52",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/advanced-photon-source/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "31e505d9a3b51a2cc68411bf9e646caaeee0b06dd5b980e3ea60e576904af93c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/advanced-photon-source/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-laser-alloys-aps-doe-2010",
+      "illustrationLabel": null,
+      "license": "Public domain, U.S. Department of Energy work",
+      "originalFileHash": "dba3c9cb337f2fa28826aef3435d2c862cefbf22bfb05fbd95524ae87cd37003",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "The photograph was made by a Department of Energy employee in official duties and was verified on Commons as a U.S. government work.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_visit_to_Argonne%27s_Advanced_Photon_Source_(4948073999).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists a looping laser scan path, no major new printer parts and solidification in under one second.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "A looping laser path stirred a microscopic molten pool without requiring major new printer hardware.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "8ab46634a4e197af2bf00617106b4268944413d515cf207da75b6d01542446fd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/process/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "7d2644665c76ae3f76091fe54a9cca794b8c09d32feac90fe9a411dae0430959",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/process/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9d77cb476623fec03145ee9e4a2599cc36a9be2d6dfb643cb673b2ed8ade6593",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/process/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5e4e790815bf36b3662d6d6463128d8304c4a74f4d50478ec00aa0c51a472f3d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/process/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "47fe6e91f7f2f40924fcad492e419940831f4df74bd0044e7aa3d9ff63c39842",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/process/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "2601cf15292a762d341fae8cb7e9c0104b316095b089b9879ae4b8bfbd2127f8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/process/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b712463c521a58e3024cb7e93f6d525a7655376d34d4863d1af45bf410ddaa69",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/process/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-laser-alloying-process-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5e4e790815bf36b3662d6d6463128d8304c4a74f4d50478ec00aa0c51a472f3d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists RHEA-19 and titanium, synchrotron X-ray diffraction and electron microscopy.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The team mixed RHEA-19 with a titanium alloy and verified the result with real-time X-ray diffraction and electron microscopy.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "2ccf0d9466068334bfad327fb265d6df941aad33856ae4de7ada4f49d2f5abff",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/measurement/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "225055083c1894101d6fd90c7058fe4ad5cdc7b3622b0c586fcdd666667e36b5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/measurement/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8905afe80ec43c982cd69470dd1c31b4d3ac626f838b133e77dc1ad2b19c2de6",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/measurement/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d466dbc25b4d655c80a78d1166e3370e5e3879d98685d7490cfddb8485bd6295",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/measurement/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a46dfd7ae90b67f7ccbdd26c9920514df8ed3fd711700d4ee06a879b13bfa688",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/measurement/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "fe29c8b1110155f2e718d2499aebe8647ef73195081bb17202241971898d482b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/measurement/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8119459ca8070c77bc0684a5738726e758521cebee9399c0bb4b248dccdf92a1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/measurement/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-laser-alloying-verification-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d466dbc25b4d655c80a78d1166e3370e5e3879d98685d7490cfddb8485bd6295",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Modern glass-and-stone CalPERS headquarters building in Sacramento.",
+      "archivalStatus": "current",
+      "attribution": "Coolcaesar / Wikimedia Commons, CC BY-SA 3.0",
+      "caption": "CalPERS headquarters in Sacramento. The Census Bureau's national survey covers state and locally administered defined-benefit pension systems.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Coolcaesar",
+      "derivatives": [
+        {
+          "hash": "4c386477e3e27f2b51e2be0ed0b2e2513a353f43ff6c38bae7583e5000167f45",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/calpers-headquarters/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "336bdb48df925dbea075456abe9e28b4a6a8eacce482d3530793f5d3302cc3c5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/calpers-headquarters/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0ac1ced2da96ad862a81b4287a33e1d879cebb2bdf7b944c75a97f5842029702",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/calpers-headquarters/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "354fd994689bba761f27f270137a4de8ddd9242a2f7c6100e060156a8d554902",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/calpers-headquarters/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d9e4c35d2d1f9d20b3fa961d9dcc219c270305389a415d9d5ea98ecd477f9f6f",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/calpers-headquarters/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "9761c826657708f09c132d85faaa962ae620662343afe3c3c21631a6ac5f3768",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/calpers-headquarters/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2a5e78464cbe158c5ffe91954ea214e392b7d47098fbac61d97c3b95c2a1bc4e",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/calpers-headquarters/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-public-pensions-calpers-headquarters-coolcaesar",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 3.0",
+      "originalFileHash": "35d2556b405f526fd6ef2712cb5428c358b438d93ed20113942ab510311e8d47",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "The photographer released the work under Creative Commons Attribution-ShareAlike 3.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CalPERS_headquarters.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows public pension assets rising 8.46 percent from 5.98 trillion dollars to 6.49 trillion dollars.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "State and local pension assets increased from $5.98 trillion in 2024 to $6.49 trillion in 2025.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "ccf34c498085f363238448a71f2ded23f6e4edd2ed69fc6a62662d13f81e1cc2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/assets/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "0d7a70323959949f1791efdea3623dd6613b2e9ede40dfc54cfe0f969a25e046",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/assets/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a6870d77a38e5c88f234f39419d88155047061e86ebb8bae9f6bde44a799a132",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/assets/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f64b514e232c09c384a9d18694bfbfff6b9d8a39e01121ef7bee15a1c3da730d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/assets/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2482270bff2a046147ad1c22693ec04c4db57fa5a453a74e46640599d4a9354e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/assets/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6fe7580531db2daf455e6b5229654cec613830127d3bbfda13232a1da74ce632",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/assets/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f12bfbabbba94756f927f9be99d615e897f9c3d6288809bd61198dfb4f896e18",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/assets/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-public-pension-assets-2024-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f64b514e232c09c384a9d18694bfbfff6b9d8a39e01121ef7bee15a1c3da730d",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 315.02 billion dollars in contributions, 418.25 billion dollars in benefits and more than 37 million participants.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The survey counted $315.02 billion in contributions, $418.25 billion in benefit payments and more than 37 million participants.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "a96c70f8f0259eb38d0fd66a0060102cf0c220e00582eb9379627b6af95a35d7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/flows/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "cfdcc28ce9bb918ed79d697d809e7d8615f5437f938588d8106da9d21306097f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/flows/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3fe6f82949d8ec1b569d26fa41cc582b3f1dbfd86e585dc5b4130627f5132d85",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/flows/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "bf725e70bc1c4dfb3d5b03ab4768e2666f1f430f840f6b7df0d9d006a55994dd",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/flows/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "7a9126432c028187bbaf853c54567070d400494537812ff794b44e7ec149656c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/flows/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "4b5038f974d3e09318bd6c9c00e0763a86adaedce3e52f6a7cae749b5660d9ff",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/flows/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b55ed3d9fff592c73eb7952ce8be26fa3c6776064df05af2ba968bd499a106d9",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/flows/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-public-pension-contributions-benefits-2025",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "bf725e70bc1c4dfb3d5b03ab4768e2666f1f430f840f6b7df0d9d006a55994dd",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T11:16:28.297Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html"
     }
   ],
-  "packageDigest": "e2afe73c1cba2c13051e10b6e6c91b56d3c4b66d43f4e0ff4d966bdb982eae89",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -122180,7 +124465,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "eb495d12d8220a35c43b8b57598e35fe89ce2a7ccb6adcdd727cc0cd565818ba"
 }
