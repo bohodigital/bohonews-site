@@ -50952,71 +50952,71 @@
       "body": "Federal judges imposed supervised release after 82% of prison sentences in fiscal year 2025, according to the United States Sentencing Commission, a five-percentage-point decline from fiscal 2021.\n\nThe commission reported 66,662 federal cases for the year. Of those, 61,557 sentences included imprisonment, and 50,688 of the prison sentences also included a term of supervised release.\n\nSupervised release is a court-ordered period after imprisonment, distinct from probation. The fiscal 2025 figures describe sentences and supervision records, not a measure of future offending or individual risk.\n\nThe average supervision term was 46 months after an average prison term of 61 months. Ninety-two percent of imposed terms fell within the range set by the guideline policy statement in section 5D1.2(a).\n\nA statute required supervision in 22% of the cases in which it was imposed. The commission excluded cases with incomplete sentencing information and 23 supervision terms that were not paired with imprisonment from its headline calculation.\n\nDistrict rates varied substantially. Eight districts imposed supervision after every prison sentence in the dataset, while the five lowest rates ranged from 39% in New Mexico to 63% in the Middle District of Louisiana.\n\nAdministrative Office of the U.S. Courts data incorporated by the commission counted 119,532 people under federal post-conviction supervision on September 30, 2025. Ninety percent were on supervised release and 9% were on probation.\n\nAmong 53,087 supervision cases closed during the year, 66% closed without revocation and 34% closed with revocation. The commission said 23% of all closures followed a technical violation.\n\nThe commission also noted that a guideline amendment to its supervised-release policy statement took effect November 1, 2025. The fiscal 2025 statistics mostly describe sentences imposed before that change and should not be read as an evaluation of the amendment.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Federal judges imposed supervised release after 82% of prison sentences in fiscal year 2025, according to the United States Sentencing Commission, a five-percentage-point decline from fiscal 2021."
+          "text": "Federal judges imposed supervised release after 82% of prison sentences in fiscal year 2025, according to the United States Sentencing Commission, a five-percentage-point decline from fiscal 2021.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The commission reported 66,662 federal cases for the year. Of those, 61,557 sentences included imprisonment, and 50,688 of the prison sentences also included a term of supervised release."
+          "text": "The commission reported 66,662 federal cases for the year. Of those, 61,557 sentences included imprisonment, and 50,688 of the prison sentences also included a term of supervised release.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-supervised-release-imposition-fy2025",
-          "src": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/imposition/four-three.webp",
           "alt": "Graphic shows 61,557 prison sentences and 50,688 terms of supervised release, an 82 percent rate.",
           "caption": "Of 61,557 fiscal 2025 sentences that included imprisonment, 50,688 also included supervised release.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.ussc.gov/research/quick-facts/supervised-release"
-        },
-        {
-          "type": "paragraph",
-          "text": "Supervised release is a court-ordered period after imprisonment, distinct from probation. The fiscal 2025 figures describe sentences and supervision records, not a measure of future offending or individual risk."
-        },
-        {
-          "type": "paragraph",
-          "text": "The average supervision term was 46 months after an average prison term of 61 months. Ninety-two percent of imposed terms fell within the range set by the guideline policy statement in section 5D1.2(a)."
-        },
-        {
-          "type": "paragraph",
-          "text": "A statute required supervision in 22% of the cases in which it was imposed. The commission excluded cases with incomplete sentencing information and 23 supervision terms that were not paired with imprisonment from its headline calculation."
-        },
-        {
-          "type": "paragraph",
-          "text": "District rates varied substantially. Eight districts imposed supervision after every prison sentence in the dataset, while the five lowest rates ranged from 39% in New Mexico to 63% in the Middle District of Louisiana."
-        },
-        {
+          "rightsId": "media-supervised-release-imposition-fy2025",
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/supervised-release",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/imposition/four-three.webp",
           "type": "media",
-          "rightsId": "media-supervised-release-closures-fy2025",
-          "src": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/closures/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Supervised release is a court-ordered period after imprisonment, distinct from probation. The fiscal 2025 figures describe sentences and supervision records, not a measure of future offending or individual risk.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The average supervision term was 46 months after an average prison term of 61 months. Ninety-two percent of imposed terms fell within the range set by the guideline policy statement in section 5D1.2(a).",
+          "type": "paragraph"
+        },
+        {
+          "text": "A statute required supervision in 22% of the cases in which it was imposed. The commission excluded cases with incomplete sentencing information and 23 supervision terms that were not paired with imprisonment from its headline calculation.",
+          "type": "paragraph"
+        },
+        {
+          "text": "District rates varied substantially. Eight districts imposed supervision after every prison sentence in the dataset, while the five lowest rates ranged from 39% in New Mexico to 63% in the Middle District of Louisiana.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows 66 percent of supervision cases closed without revocation and 34 percent with revocation.",
           "caption": "Two-thirds of 53,087 post-conviction supervision cases closed without revocation; one-third closed with revocation.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.ussc.gov/research/quick-facts/supervised-release"
+          "rightsId": "media-supervised-release-closures-fy2025",
+          "sourceUrl": "https://www.ussc.gov/research/quick-facts/supervised-release",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/supervised-release/closures/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Administrative Office of the U.S. Courts data incorporated by the commission counted 119,532 people under federal post-conviction supervision on September 30, 2025. Ninety percent were on supervised release and 9% were on probation."
+          "text": "Administrative Office of the U.S. Courts data incorporated by the commission counted 119,532 people under federal post-conviction supervision on September 30, 2025. Ninety percent were on supervised release and 9% were on probation.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Among 53,087 supervision cases closed during the year, 66% closed without revocation and 34% closed with revocation. The commission said 23% of all closures followed a technical violation."
+          "text": "Among 53,087 supervision cases closed during the year, 66% closed without revocation and 34% closed with revocation. The commission said 23% of all closures followed a technical violation.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The commission also noted that a guideline amendment to its supervised-release policy statement took effect November 1, 2025. The fiscal 2025 statistics mostly describe sentences imposed before that change and should not be read as an evaluation of the amendment."
+          "text": "The commission also noted that a guideline amendment to its supervised-release policy statement took effect November 1, 2025. The fiscal 2025 statistics mostly describe sentences imposed before that change and should not be read as an evaluation of the amendment.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/federal-supervised-release-rate-fell-82-percent-fy2025/",
       "citations": [
         {
           "id": "source-ussc-supervised-release-fy2025",
-          "title": "Supervised Release Quick Facts, Fiscal Year 2025",
-          "publisher": "United States Sentencing Commission",
           "publishedAt": "2026-06-01T00:00:00Z",
+          "publisher": "United States Sentencing Commission",
+          "title": "Supervised Release Quick Facts, Fiscal Year 2025",
           "url": "https://www.ussc.gov/research/quick-facts/supervised-release"
         }
       ],
@@ -51058,11 +51058,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T11:40:06.116Z",
       "relatedArticleIds": [
         "article-federal-escape-offenses-253-fiscal-2025"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t105223z-4d8a1c7e9b30",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -51089,7 +51089,7 @@
         "The commission labels the Quick Facts release June 2026 but does not display a day; the citation date preserves month-level precision at the start of that month.",
         "Cases with incomplete sentencing information were excluded, and the figures do not predict individual outcomes."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T11:40:06.116Z"
     },
     {
       "articleType": "news-report",
@@ -51099,71 +51099,71 @@
       "body": "Four federal agencies had not fully implemented new strategic-review requirements, and incomplete Office of Management and Budget guidance contributed to the gaps, the Government Accountability Office reported.\n\nThe Federal Agency Performance Act of 2024 requires agencies to assess whether organizations, programs and activities are contributing as planned to agency goals. It also directs the government to manage crosscutting work that can span multiple departments.\n\nGAO said OMB established new cross-agency goals in December 2025 within the first year of the administration, meeting that timing requirement. But OMB's August 2025 guidance did not fully address four statutory requirements involving agency leaders and stakeholders.\n\nGAO reviewed the Departments of Homeland Security, State and Treasury and the General Services Administration. None of the four had fully implemented the new strategic-review requirements at the time of the review.\n\nDHS and Treasury had policies, procedures and guidance that addressed most, but not all, requirements. State and GSA had not developed comparable process documentation, according to the report.\n\nDHS, Treasury and GSA told GAO they planned to conduct strategic reviews in 2026. State would not confirm that it planned to do so, which GAO said could deny its leadership a chance to identify risks and improve performance.\n\nThe review focused on compliance and management processes; it did not attempt to score the policy outcomes of every agency program. GAO selected four agencies from 13 included in earlier work, so its findings are not a census of the government.\n\nGAO recommended that OMB revise its guidance, that each selected agency fully document its review process and that State conduct a strategic review in 2026. DHS, GSA, State and Treasury agreed with the relevant recommendations; OMB did not comment.\n\nThe recommendations remain the accountability mechanism to watch. Completing documents and reviews would show procedural compliance, while later evidence would still be needed to establish whether the reviews improved cross-agency results.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Four federal agencies had not fully implemented new strategic-review requirements, and incomplete Office of Management and Budget guidance contributed to the gaps, the Government Accountability Office reported."
+          "text": "Four federal agencies had not fully implemented new strategic-review requirements, and incomplete Office of Management and Budget guidance contributed to the gaps, the Government Accountability Office reported.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The Federal Agency Performance Act of 2024 requires agencies to assess whether organizations, programs and activities are contributing as planned to agency goals. It also directs the government to manage crosscutting work that can span multiple departments."
+          "text": "The Federal Agency Performance Act of 2024 requires agencies to assess whether organizations, programs and activities are contributing as planned to agency goals. It also directs the government to manage crosscutting work that can span multiple departments.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-strategic-reviews-implementation-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/implementation/four-three.webp",
           "alt": "Graphic notes four selected agencies, zero with full implementation and four gaps in leadership and stakeholder requirements.",
           "caption": "GAO found that none of four selected agencies had fully implemented the new strategic-review requirements.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.gao.gov/products/gao-26-108516"
-        },
-        {
-          "type": "paragraph",
-          "text": "GAO said OMB established new cross-agency goals in December 2025 within the first year of the administration, meeting that timing requirement. But OMB's August 2025 guidance did not fully address four statutory requirements involving agency leaders and stakeholders."
-        },
-        {
-          "type": "paragraph",
-          "text": "GAO reviewed the Departments of Homeland Security, State and Treasury and the General Services Administration. None of the four had fully implemented the new strategic-review requirements at the time of the review."
-        },
-        {
-          "type": "paragraph",
-          "text": "DHS and Treasury had policies, procedures and guidance that addressed most, but not all, requirements. State and GSA had not developed comparable process documentation, according to the report."
-        },
-        {
-          "type": "paragraph",
-          "text": "DHS, Treasury and GSA told GAO they planned to conduct strategic reviews in 2026. State would not confirm that it planned to do so, which GAO said could deny its leadership a chance to identify risks and improve performance."
-        },
-        {
+          "rightsId": "media-strategic-reviews-implementation-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108516",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/implementation/four-three.webp",
           "type": "media",
-          "rightsId": "media-strategic-reviews-agency-documents-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/agencies/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "GAO said OMB established new cross-agency goals in December 2025 within the first year of the administration, meeting that timing requirement. But OMB's August 2025 guidance did not fully address four statutory requirements involving agency leaders and stakeholders.",
+          "type": "paragraph"
+        },
+        {
+          "text": "GAO reviewed the Departments of Homeland Security, State and Treasury and the General Services Administration. None of the four had fully implemented the new strategic-review requirements at the time of the review.",
+          "type": "paragraph"
+        },
+        {
+          "text": "DHS and Treasury had policies, procedures and guidance that addressed most, but not all, requirements. State and GSA had not developed comparable process documentation, according to the report.",
+          "type": "paragraph"
+        },
+        {
+          "text": "DHS, Treasury and GSA told GAO they planned to conduct strategic reviews in 2026. State would not confirm that it planned to do so, which GAO said could deny its leadership a chance to identify risks and improve performance.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic compares strategic-review documentation at DHS, Treasury, State and GSA.",
           "caption": "DHS and Treasury addressed most requirements in process documents; State and GSA had not developed comparable documents.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.gao.gov/products/gao-26-108516"
+          "rightsId": "media-strategic-reviews-agency-documents-2026",
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108516",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/strategic-reviews/agencies/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "The review focused on compliance and management processes; it did not attempt to score the policy outcomes of every agency program. GAO selected four agencies from 13 included in earlier work, so its findings are not a census of the government."
+          "text": "The review focused on compliance and management processes; it did not attempt to score the policy outcomes of every agency program. GAO selected four agencies from 13 included in earlier work, so its findings are not a census of the government.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "GAO recommended that OMB revise its guidance, that each selected agency fully document its review process and that State conduct a strategic review in 2026. DHS, GSA, State and Treasury agreed with the relevant recommendations; OMB did not comment."
+          "text": "GAO recommended that OMB revise its guidance, that each selected agency fully document its review process and that State conduct a strategic review in 2026. DHS, GSA, State and Treasury agreed with the relevant recommendations; OMB did not comment.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The recommendations remain the accountability mechanism to watch. Completing documents and reviews would show procedural compliance, while later evidence would still be needed to establish whether the reviews improved cross-agency results."
+          "text": "The recommendations remain the accountability mechanism to watch. Completing documents and reviews would show procedural compliance, while later evidence would still be needed to establish whether the reviews improved cross-agency results.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/gao-federal-strategic-reviews-requirements-2026/",
       "citations": [
         {
           "id": "source-gao-26-108516",
-          "title": "Government Performance Management: OMB and Selected Agencies Need to Fully Address New Requirements",
-          "publisher": "U.S. Government Accountability Office",
           "publishedAt": "2026-06-23T12:00:00Z",
+          "publisher": "U.S. Government Accountability Office",
+          "title": "Government Performance Management: OMB and Selected Agencies Need to Fully Address New Requirements",
           "url": "https://www.gao.gov/products/gao-26-108516"
         }
       ],
@@ -51209,11 +51209,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T11:40:06.116Z",
       "relatedArticleIds": [
         "article-gao-federal-program-effectiveness-three-step-test-2026"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t105223z-4d8a1c7e9b30",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -51240,7 +51240,7 @@
         "GAO selected four agencies from a group of 13; the findings do not establish a government-wide compliance rate.",
         "Agreement with a recommendation is not evidence that corrective action has been completed."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T11:40:06.116Z"
     },
     {
       "articleType": "news-report",
@@ -51250,78 +51250,78 @@
       "body": "A one-time wealth tax on the richest 1% of households is highly unlikely to generate enough revenue to make Social Security's retirement trust fund solvent for 75 years, the Congressional Budget Office told senators.\n\nCBO was responding to questions submitted after a March hearing on Social Security. The agency did not estimate a tax rate or score legislation; it explained why a simple comparison of wealth and the program's financing gap would overstate potential collections.\n\nThe Social Security trustees estimate the Old-Age and Survivors Insurance program's unfunded obligation over 75 years at $30.3 trillion. Federal Reserve data put wealth held by the top 1% at $55 trillion in the first quarter of 2026.\n\nThose figures are not directly interchangeable. CBO said a tax broad enough to cover housing, closely held businesses and retirement accounts would be difficult to design and administer, while households would have strong incentives to reduce taxable wealth.\n\nBehavioral responses would substantially reduce revenue relative to multiplying a headline tax rate by current wealth, CBO said. The agency also said a one-time levy large enough to pursue the target would have significant effects on the broader economy.\n\nCBO therefore concluded that the effective rate would need to be very high and would probably still miss the 75-year goal. The agency noted that the Joint Committee on Taxation, not CBO alone, would estimate the revenue from an actual wealth-tax bill.\n\nThe answer also cautioned that 75-year balance would not guarantee lasting solvency because the projected gap between Social Security revenue and outlays widens after the projection window.\n\nCBO projects that the OASI trust fund will be exhausted in fiscal 2032 under current law, while the Disability Insurance trust fund remains solvent for more than 30 years. Its baseline must assume scheduled benefits continue for budget projection purposes even when a trust fund lacks enough resources.\n\nThe document analyzes financing mechanics rather than endorsing a policy. Any real proposal would depend on statutory definitions, enforcement, valuation rules, taxpayer responses and broader economic effects that are not captured by the two headline dollar amounts.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "A one-time wealth tax on the richest 1% of households is highly unlikely to generate enough revenue to make Social Security's retirement trust fund solvent for 75 years, the Congressional Budget Office told senators."
+          "text": "A one-time wealth tax on the richest 1% of households is highly unlikely to generate enough revenue to make Social Security's retirement trust fund solvent for 75 years, the Congressional Budget Office told senators.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "CBO was responding to questions submitted after a March hearing on Social Security. The agency did not estimate a tax rate or score legislation; it explained why a simple comparison of wealth and the program's financing gap would overstate potential collections."
+          "text": "CBO was responding to questions submitted after a March hearing on Social Security. The agency did not estimate a tax rate or score legislation; it explained why a simple comparison of wealth and the program's financing gap would overstate potential collections.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-social-security-financing-reference-points-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-105223/social-security/financing/four-three.webp",
           "alt": "Graphic compares a 30.3 trillion dollar Social Security gap with 55 trillion dollars in top one percent wealth and a 2032 exhaustion date.",
           "caption": "CBO cited trustees' estimate of a $30.3 trillion 75-year OASI shortfall and Federal Reserve data showing $55 trillion in top-1% household wealth.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.cbo.gov/publication/62575"
-        },
-        {
-          "type": "paragraph",
-          "text": "The Social Security trustees estimate the Old-Age and Survivors Insurance program's unfunded obligation over 75 years at $30.3 trillion. Federal Reserve data put wealth held by the top 1% at $55 trillion in the first quarter of 2026."
-        },
-        {
-          "type": "paragraph",
-          "text": "Those figures are not directly interchangeable. CBO said a tax broad enough to cover housing, closely held businesses and retirement accounts would be difficult to design and administer, while households would have strong incentives to reduce taxable wealth."
-        },
-        {
-          "type": "paragraph",
-          "text": "Behavioral responses would substantially reduce revenue relative to multiplying a headline tax rate by current wealth, CBO said. The agency also said a one-time levy large enough to pursue the target would have significant effects on the broader economy."
-        },
-        {
-          "type": "paragraph",
-          "text": "CBO therefore concluded that the effective rate would need to be very high and would probably still miss the 75-year goal. The agency noted that the Joint Committee on Taxation, not CBO alone, would estimate the revenue from an actual wealth-tax bill."
-        },
-        {
+          "rightsId": "media-social-security-financing-reference-points-2026",
+          "sourceUrl": "https://www.cbo.gov/publication/62575",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/social-security/financing/four-three.webp",
           "type": "media",
-          "rightsId": "media-social-security-wealth-tax-cautions-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-105223/social-security/effects/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "The Social Security trustees estimate the Old-Age and Survivors Insurance program's unfunded obligation over 75 years at $30.3 trillion. Federal Reserve data put wealth held by the top 1% at $55 trillion in the first quarter of 2026.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Those figures are not directly interchangeable. CBO said a tax broad enough to cover housing, closely held businesses and retirement accounts would be difficult to design and administer, while households would have strong incentives to reduce taxable wealth.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Behavioral responses would substantially reduce revenue relative to multiplying a headline tax rate by current wealth, CBO said. The agency also said a one-time levy large enough to pursue the target would have significant effects on the broader economy.",
+          "type": "paragraph"
+        },
+        {
+          "text": "CBO therefore concluded that the effective rate would need to be very high and would probably still miss the 75-year goal. The agency noted that the Joint Committee on Taxation, not CBO alone, would estimate the revenue from an actual wealth-tax bill.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists hard-to-value assets, behavioral responses and a widening gap after 75 years.",
           "caption": "CBO said valuation, avoidance incentives and the widening long-run gap make a simple tax-rate calculation unreliable.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.cbo.gov/publication/62575"
+          "rightsId": "media-social-security-wealth-tax-cautions-2026",
+          "sourceUrl": "https://www.cbo.gov/publication/62575",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/social-security/effects/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "The answer also cautioned that 75-year balance would not guarantee lasting solvency because the projected gap between Social Security revenue and outlays widens after the projection window."
+          "text": "The answer also cautioned that 75-year balance would not guarantee lasting solvency because the projected gap between Social Security revenue and outlays widens after the projection window.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "CBO projects that the OASI trust fund will be exhausted in fiscal 2032 under current law, while the Disability Insurance trust fund remains solvent for more than 30 years. Its baseline must assume scheduled benefits continue for budget projection purposes even when a trust fund lacks enough resources."
+          "text": "CBO projects that the OASI trust fund will be exhausted in fiscal 2032 under current law, while the Disability Insurance trust fund remains solvent for more than 30 years. Its baseline must assume scheduled benefits continue for budget projection purposes even when a trust fund lacks enough resources.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The document analyzes financing mechanics rather than endorsing a policy. Any real proposal would depend on statutory definitions, enforcement, valuation rules, taxpayer responses and broader economic effects that are not captured by the two headline dollar amounts."
+          "text": "The document analyzes financing mechanics rather than endorsing a policy. Any real proposal would depend on statutory definitions, enforcement, valuation rules, taxpayer responses and broader economic effects that are not captured by the two headline dollar amounts.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/cbo-social-security-one-time-wealth-tax-75-year-solvency/",
       "citations": [
         {
           "id": "source-cbo-social-security-questions-20260715",
-          "title": "Answers to Questions for the Record Following a Hearing on Social Security's Finances",
-          "publisher": "Congressional Budget Office",
           "publishedAt": "2026-07-15T12:00:00Z",
+          "publisher": "Congressional Budget Office",
+          "title": "Answers to Questions for the Record Following a Hearing on Social Security's Finances",
           "url": "https://www.cbo.gov/publication/62575"
         },
         {
           "id": "source-ssa-trustees-report-2026",
-          "title": "2026 Annual Report of the Board of Trustees of the Federal Old-Age and Survivors Insurance and Federal Disability Insurance Trust Funds",
-          "publisher": "Social Security Administration",
           "publishedAt": "2026-06-18T12:00:00Z",
+          "publisher": "Social Security Administration",
+          "title": "2026 Annual Report of the Board of Trustees of the Federal Old-Age and Survivors Insurance and Federal Disability Insurance Trust Funds",
           "url": "https://www.ssa.gov/oact/TR/2026/"
         }
       ],
@@ -51365,11 +51365,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T11:40:06.116Z",
       "relatedArticleIds": [
         "article-federal-deficit-through-july-2026-cbo"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t105223z-4d8a1c7e9b30",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -51396,7 +51396,7 @@
         "The $30.3 trillion trustees' figure is a present-value estimate under intermediate assumptions and is not a current cash bill.",
         "Actual receipts would depend on legislation, valuation, enforcement, behavioral responses and economic effects."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T11:40:06.116Z"
     },
     {
       "articleType": "news-report",
@@ -51406,78 +51406,78 @@
       "body": "Giant sequoias in forests treated with prescribed fire were nearly four times more likely to survive extreme wildfire than trees in untreated areas, according to a NASA-funded study.\n\nResearchers analyzed 26,403 giant sequoias in 19 groves after California's 2020 and 2021 fire seasons. They combined lidar, tree-location maps, high-resolution imagery and statistical modeling to estimate mortality under different management histories.\n\nThe team estimated that prescribed burns saved roughly 1,800 giant sequoias. Those intentional, controlled fires reduce accumulated underbrush, dead wood and other fuel that can drive high-intensity wildfire.\n\nThe study focused on a period of exceptional damage. NASA said 6.8 million acres burned in California across the two fire seasons and 19% of the mature giant-sequoia population across its natural range was destroyed.\n\nGiant sequoias naturally occur only on the western slopes of California's Sierra Nevada. They can exceed 300 feet in height, 30 feet in diameter and 3,000 years in age, according to NASA's summary.\n\nResearchers said the new evidence strengthens a practice long supported by field experience but previously lacking species-wide quantitative evaluation under extreme fire conditions.\n\nThe analysis does not mean every prescribed burn prevents later tree death. Survival depends on fire severity, treatment history, local fuels, weather and other conditions, and controlled fire itself requires planning and suitable operating windows.\n\nThe researchers used remote sensing to evaluate individual large trees across multiple groves, an approach they say could help assess management effects in other old-growth forests where field inventories alone are difficult.\n\nThe result is evidence about risk reduction, not elimination. As severe-fire conditions change, continued monitoring will be needed to test whether the estimated protection holds across future fires and different treatment intervals.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "Giant sequoias in forests treated with prescribed fire were nearly four times more likely to survive extreme wildfire than trees in untreated areas, according to a NASA-funded study."
+          "text": "Giant sequoias in forests treated with prescribed fire were nearly four times more likely to survive extreme wildfire than trees in untreated areas, according to a NASA-funded study.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "Researchers analyzed 26,403 giant sequoias in 19 groves after California's 2020 and 2021 fire seasons. They combined lidar, tree-location maps, high-resolution imagery and statistical modeling to estimate mortality under different management histories."
+          "text": "Researchers analyzed 26,403 giant sequoias in 19 groves after California's 2020 and 2021 fire seasons. They combined lidar, tree-location maps, high-resolution imagery and statistical modeling to estimate mortality under different management histories.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-sequoia-study-scale-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/study/four-three.webp",
           "alt": "Graphic shows 26,403 giant sequoias, 19 groves and two severe fire seasons.",
           "caption": "Researchers analyzed 26,403 giant sequoias across 19 groves affected by the 2020 and 2021 fire seasons.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://science.nasa.gov/blogs/science-news/2026/07/20/nasa-funded-study-shows-how-controlled-burns-help-sequoias-survive-wildfires/"
-        },
-        {
-          "type": "paragraph",
-          "text": "The team estimated that prescribed burns saved roughly 1,800 giant sequoias. Those intentional, controlled fires reduce accumulated underbrush, dead wood and other fuel that can drive high-intensity wildfire."
-        },
-        {
-          "type": "paragraph",
-          "text": "The study focused on a period of exceptional damage. NASA said 6.8 million acres burned in California across the two fire seasons and 19% of the mature giant-sequoia population across its natural range was destroyed."
-        },
-        {
-          "type": "paragraph",
-          "text": "Giant sequoias naturally occur only on the western slopes of California's Sierra Nevada. They can exceed 300 feet in height, 30 feet in diameter and 3,000 years in age, according to NASA's summary."
-        },
-        {
-          "type": "paragraph",
-          "text": "Researchers said the new evidence strengthens a practice long supported by field experience but previously lacking species-wide quantitative evaluation under extreme fire conditions."
-        },
-        {
+          "rightsId": "media-sequoia-study-scale-2026",
+          "sourceUrl": "https://science.nasa.gov/blogs/science-news/2026/07/20/nasa-funded-study-shows-how-controlled-burns-help-sequoias-survive-wildfires/",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/study/four-three.webp",
           "type": "media",
-          "rightsId": "media-sequoia-prescribed-fire-outcomes-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/outcomes/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "The team estimated that prescribed burns saved roughly 1,800 giant sequoias. Those intentional, controlled fires reduce accumulated underbrush, dead wood and other fuel that can drive high-intensity wildfire.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The study focused on a period of exceptional damage. NASA said 6.8 million acres burned in California across the two fire seasons and 19% of the mature giant-sequoia population across its natural range was destroyed.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Giant sequoias naturally occur only on the western slopes of California's Sierra Nevada. They can exceed 300 feet in height, 30 feet in diameter and 3,000 years in age, according to NASA's summary.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Researchers said the new evidence strengthens a practice long supported by field experience but previously lacking species-wide quantitative evaluation under extreme fire conditions.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic shows nearly four times higher survival, about 1,800 trees saved and 19 percent mature-tree loss across the range.",
           "caption": "The analysis associated prescribed fire with nearly four times greater survival and estimated about 1,800 trees were saved.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://science.nasa.gov/blogs/science-news/2026/07/20/nasa-funded-study-shows-how-controlled-burns-help-sequoias-survive-wildfires/"
+          "rightsId": "media-sequoia-prescribed-fire-outcomes-2026",
+          "sourceUrl": "https://science.nasa.gov/blogs/science-news/2026/07/20/nasa-funded-study-shows-how-controlled-burns-help-sequoias-survive-wildfires/",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/sequoia-burns/outcomes/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "The analysis does not mean every prescribed burn prevents later tree death. Survival depends on fire severity, treatment history, local fuels, weather and other conditions, and controlled fire itself requires planning and suitable operating windows."
+          "text": "The analysis does not mean every prescribed burn prevents later tree death. Survival depends on fire severity, treatment history, local fuels, weather and other conditions, and controlled fire itself requires planning and suitable operating windows.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The researchers used remote sensing to evaluate individual large trees across multiple groves, an approach they say could help assess management effects in other old-growth forests where field inventories alone are difficult."
+          "text": "The researchers used remote sensing to evaluate individual large trees across multiple groves, an approach they say could help assess management effects in other old-growth forests where field inventories alone are difficult.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The result is evidence about risk reduction, not elimination. As severe-fire conditions change, continued monitoring will be needed to test whether the estimated protection holds across future fires and different treatment intervals."
+          "text": "The result is evidence about risk reduction, not elimination. As severe-fire conditions change, continued monitoring will be needed to test whether the estimated protection holds across future fires and different treatment intervals.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/prescribed-burns-sequoia-survival-nasa-study-2026/",
       "citations": [
         {
           "id": "source-nasa-sequoia-prescribed-fire-20260720",
-          "title": "NASA-Funded Study Shows How Controlled Burns Help Sequoias Survive Wildfires",
-          "publisher": "NASA Science",
           "publishedAt": "2026-07-20T20:25:00Z",
+          "publisher": "NASA Science",
+          "title": "NASA-Funded Study Shows How Controlled Burns Help Sequoias Survive Wildfires",
           "url": "https://science.nasa.gov/blogs/science-news/2026/07/20/nasa-funded-study-shows-how-controlled-burns-help-sequoias-survive-wildfires/"
         },
         {
           "id": "source-nature-sequoia-fire-survival-20260711",
-          "title": "Prescribed fire increases giant sequoia survival under extreme wildfire",
-          "publisher": "Nature Communications",
           "publishedAt": "2026-07-11T12:00:00Z",
+          "publisher": "Nature Communications",
+          "title": "Prescribed fire increases giant sequoia survival under extreme wildfire",
           "url": "https://www.nature.com/articles/s41467-026-63367-3"
         }
       ],
@@ -51523,11 +51523,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T11:40:06.116Z",
       "relatedArticleIds": [
         "article-nasa-brown-carbon-wildfire-smoke-july-2026"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t105223z-4d8a1c7e9b30",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -51555,7 +51555,7 @@
         "The study estimates causal protection using observational management and fire data rather than a randomized experiment.",
         "Results from 2020 and 2021 groves may not transfer unchanged to every forest, fire or treatment interval."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T11:40:06.116Z"
     },
     {
       "articleType": "news-report",
@@ -51565,78 +51565,78 @@
       "body": "NIST researchers programmed a metal 3D printer's laser to trace repeated loops, stirring metals that ordinarily separate as the molten pool cools, the agency reported.\n\nThe method targets a basic additive-manufacturing problem: metals with different densities, melting points and surface tensions can segregate into weak, uneven regions instead of forming a uniform alloy.\n\nRather than tracing straight lines, the team made the laser draw loop-the-loops as it crossed the powder bed. That motion actively mixed the tiny molten pool while the material was being printed.\n\nNIST said commercial printer software could not generate the needed path, so the researchers wrote new controls. The approach does not require major new printer parts, suggesting existing systems could eventually be adapted.\n\nThe test combined RHEA-19, a dense refractory high-entropy alloy, with a lighter titanium alloy. High-entropy alloys use several metals in relatively similar proportions and can be difficult to mix uniformly by conventional casting.\n\nVerification required watching dense metal solidify in less than a second. At Argonne National Laboratory's Advanced Photon Source, the team used synchrotron X-ray diffraction to track atomic structure in real time.\n\nElectron microscopy of the solidified material provided a second check. NIST said the measurements showed that the looping scan successfully mixed the two materials into a new alloy.\n\nThe researchers see a possible path toward on-demand alloys made from elemental or feedstock powders, reducing the need to stock a separate pre-alloyed powder for every composition and permitting graded parts without welds.\n\nThat remains a research prospect, not a production guarantee. The demonstration involved selected materials and laboratory equipment; repeatability, scale, qualification, software controls and performance testing would be required before safety-critical manufacturing use.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "NIST researchers programmed a metal 3D printer's laser to trace repeated loops, stirring metals that ordinarily separate as the molten pool cools, the agency reported."
+          "text": "NIST researchers programmed a metal 3D printer's laser to trace repeated loops, stirring metals that ordinarily separate as the molten pool cools, the agency reported.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The method targets a basic additive-manufacturing problem: metals with different densities, melting points and surface tensions can segregate into weak, uneven regions instead of forming a uniform alloy."
+          "text": "The method targets a basic additive-manufacturing problem: metals with different densities, melting points and surface tensions can segregate into weak, uneven regions instead of forming a uniform alloy.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-laser-alloying-process-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/process/four-three.webp",
           "alt": "Graphic lists a looping laser scan path, no major new printer parts and solidification in under one second.",
           "caption": "A looping laser path stirred a microscopic molten pool without requiring major new printer hardware.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers"
-        },
-        {
-          "type": "paragraph",
-          "text": "Rather than tracing straight lines, the team made the laser draw loop-the-loops as it crossed the powder bed. That motion actively mixed the tiny molten pool while the material was being printed."
-        },
-        {
-          "type": "paragraph",
-          "text": "NIST said commercial printer software could not generate the needed path, so the researchers wrote new controls. The approach does not require major new printer parts, suggesting existing systems could eventually be adapted."
-        },
-        {
-          "type": "paragraph",
-          "text": "The test combined RHEA-19, a dense refractory high-entropy alloy, with a lighter titanium alloy. High-entropy alloys use several metals in relatively similar proportions and can be difficult to mix uniformly by conventional casting."
-        },
-        {
-          "type": "paragraph",
-          "text": "Verification required watching dense metal solidify in less than a second. At Argonne National Laboratory's Advanced Photon Source, the team used synchrotron X-ray diffraction to track atomic structure in real time."
-        },
-        {
+          "rightsId": "media-laser-alloying-process-2026",
+          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/process/four-three.webp",
           "type": "media",
-          "rightsId": "media-laser-alloying-verification-2026",
-          "src": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/measurement/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "Rather than tracing straight lines, the team made the laser draw loop-the-loops as it crossed the powder bed. That motion actively mixed the tiny molten pool while the material was being printed.",
+          "type": "paragraph"
+        },
+        {
+          "text": "NIST said commercial printer software could not generate the needed path, so the researchers wrote new controls. The approach does not require major new printer parts, suggesting existing systems could eventually be adapted.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The test combined RHEA-19, a dense refractory high-entropy alloy, with a lighter titanium alloy. High-entropy alloys use several metals in relatively similar proportions and can be difficult to mix uniformly by conventional casting.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Verification required watching dense metal solidify in less than a second. At Argonne National Laboratory's Advanced Photon Source, the team used synchrotron X-ray diffraction to track atomic structure in real time.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists RHEA-19 and titanium, synchrotron X-ray diffraction and electron microscopy.",
           "caption": "The team mixed RHEA-19 with a titanium alloy and verified the result with real-time X-ray diffraction and electron microscopy.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers"
+          "rightsId": "media-laser-alloying-verification-2026",
+          "sourceUrl": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/laser-alloys/measurement/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Electron microscopy of the solidified material provided a second check. NIST said the measurements showed that the looping scan successfully mixed the two materials into a new alloy."
+          "text": "Electron microscopy of the solidified material provided a second check. NIST said the measurements showed that the looping scan successfully mixed the two materials into a new alloy.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The researchers see a possible path toward on-demand alloys made from elemental or feedstock powders, reducing the need to stock a separate pre-alloyed powder for every composition and permitting graded parts without welds."
+          "text": "The researchers see a possible path toward on-demand alloys made from elemental or feedstock powders, reducing the need to stock a separate pre-alloyed powder for every composition and permitting graded parts without welds.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "That remains a research prospect, not a production guarantee. The demonstration involved selected materials and laboratory equipment; repeatability, scale, qualification, software controls and performance testing would be required before safety-critical manufacturing use."
+          "text": "That remains a research prospect, not a production guarantee. The demonstration involved selected materials and laboratory equipment; repeatability, scale, qualification, software controls and performance testing would be required before safety-critical manufacturing use.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/nist-looping-laser-mixes-3d-printed-alloys-2026/",
       "citations": [
         {
           "id": "source-nist-laser-alloying-20260604",
-          "title": "NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers",
-          "publisher": "National Institute of Standards and Technology",
           "publishedAt": "2026-06-04T12:00:00Z",
+          "publisher": "National Institute of Standards and Technology",
+          "title": "NIST Researchers Discover a New Way to Whisk Alloys Together With Lasers",
           "url": "https://www.nist.gov/news-events/news/2026/06/nist-researchers-discover-new-way-whisk-alloys-together-lasers"
         },
         {
           "id": "source-additive-manufacturing-laser-stirring-2026",
-          "title": "Laser stirring with elliptical scanning enables on-demand alloying in additive manufacturing",
-          "publisher": "Additive Manufacturing",
           "publishedAt": "2026-01-30T12:00:00Z",
+          "publisher": "Additive Manufacturing",
+          "title": "Laser stirring with elliptical scanning enables on-demand alloying in additive manufacturing",
           "url": "https://doi.org/10.1016/j.addma.2026.105101"
         }
       ],
@@ -51681,11 +51681,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T11:40:06.116Z",
       "relatedArticleIds": [
         "article-nist-rm-8047-resin-3d-printing-working-curve"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t105223z-4d8a1c7e9b30",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -51712,7 +51712,7 @@
         "The work is a laboratory demonstration and does not establish production readiness or certification for specific components.",
         "Performance with other alloy systems, machines and build scales requires further validation."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T11:40:06.116Z"
     },
     {
       "articleType": "news-report",
@@ -51722,71 +51722,71 @@
       "body": "State and local government pension systems held $6.49 trillion in short- and long-term assets in 2025, an 8.46% increase from $5.98 trillion a year earlier, the U.S. Census Bureau reported.\n\nThe Annual Survey of Public Pensions covers state and locally administered defined-benefit systems. Those plans promise a specified retirement benefit rather than an account balance determined only by individual contributions and investment returns.\n\nMore than 37 million people participated in the systems, including inactive employees who were no longer contributing but remained eligible for future benefits.\n\nTotal employee and government contributions reached $315.02 billion. Employees supplied 24.83% of that amount, while governments contributed 75.17% on behalf of workers.\n\nBenefit payments totaled $418.25 billion in 2025, up 3.40% from $404.46 billion in 2024. Beneficiaries include retirees as well as eligible spouses and dependent children.\n\nThe fact that benefit payments exceeded contributions during the year does not by itself show whether systems are adequately funded. Pension plans also receive investment income and pay benefits from accumulated assets.\n\nLikewise, the increase in assets is not the same as an improvement in funded status. Funded ratios depend on actuarial liabilities, discount-rate assumptions, benefit promises and other system-specific factors.\n\nThe Census Bureau publishes national and state statistics as well as a separate unit file with actuarial information for state and local systems, allowing comparisons beyond the headline totals.\n\nThe 2025 survey is a broad balance-sheet and cash-flow snapshot. Evaluating any individual pension system requires its own actuarial valuation, governance record and investment-risk profile.",
       "bodyBlocks": [
         {
-          "type": "paragraph",
-          "text": "State and local government pension systems held $6.49 trillion in short- and long-term assets in 2025, an 8.46% increase from $5.98 trillion a year earlier, the U.S. Census Bureau reported."
+          "text": "State and local government pension systems held $6.49 trillion in short- and long-term assets in 2025, an 8.46% increase from $5.98 trillion a year earlier, the U.S. Census Bureau reported.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The Annual Survey of Public Pensions covers state and locally administered defined-benefit systems. Those plans promise a specified retirement benefit rather than an account balance determined only by individual contributions and investment returns."
+          "text": "The Annual Survey of Public Pensions covers state and locally administered defined-benefit systems. Those plans promise a specified retirement benefit rather than an account balance determined only by individual contributions and investment returns.",
+          "type": "paragraph"
         },
         {
-          "type": "media",
-          "rightsId": "media-public-pension-assets-2024-2025",
-          "src": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/assets/four-three.webp",
           "alt": "Graphic shows public pension assets rising 8.46 percent from 5.98 trillion dollars to 6.49 trillion dollars.",
           "caption": "State and local pension assets increased from $5.98 trillion in 2024 to $6.49 trillion in 2025.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html"
-        },
-        {
-          "type": "paragraph",
-          "text": "More than 37 million people participated in the systems, including inactive employees who were no longer contributing but remained eligible for future benefits."
-        },
-        {
-          "type": "paragraph",
-          "text": "Total employee and government contributions reached $315.02 billion. Employees supplied 24.83% of that amount, while governments contributed 75.17% on behalf of workers."
-        },
-        {
-          "type": "paragraph",
-          "text": "Benefit payments totaled $418.25 billion in 2025, up 3.40% from $404.46 billion in 2024. Beneficiaries include retirees as well as eligible spouses and dependent children."
-        },
-        {
-          "type": "paragraph",
-          "text": "The fact that benefit payments exceeded contributions during the year does not by itself show whether systems are adequately funded. Pension plans also receive investment income and pay benefits from accumulated assets."
-        },
-        {
+          "rightsId": "media-public-pension-assets-2024-2025",
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/assets/four-three.webp",
           "type": "media",
-          "rightsId": "media-public-pension-contributions-benefits-2025",
-          "src": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/flows/four-three.webp",
+          "width": 1200
+        },
+        {
+          "text": "More than 37 million people participated in the systems, including inactive employees who were no longer contributing but remained eligible for future benefits.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Total employee and government contributions reached $315.02 billion. Employees supplied 24.83% of that amount, while governments contributed 75.17% on behalf of workers.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Benefit payments totaled $418.25 billion in 2025, up 3.40% from $404.46 billion in 2024. Beneficiaries include retirees as well as eligible spouses and dependent children.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The fact that benefit payments exceeded contributions during the year does not by itself show whether systems are adequately funded. Pension plans also receive investment income and pay benefits from accumulated assets.",
+          "type": "paragraph"
+        },
+        {
           "alt": "Graphic lists 315.02 billion dollars in contributions, 418.25 billion dollars in benefits and more than 37 million participants.",
           "caption": "The survey counted $315.02 billion in contributions, $418.25 billion in benefit payments and more than 37 million participants.",
           "credit": "Boho News graphic from cited primary data",
-          "width": 1200,
           "height": 900,
-          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html"
+          "rightsId": "media-public-pension-contributions-benefits-2025",
+          "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html",
+          "src": "/media/newsroom/2026/08/manual-20260811-105223/public-pensions/flows/four-three.webp",
+          "type": "media",
+          "width": 1200
         },
         {
-          "type": "paragraph",
-          "text": "Likewise, the increase in assets is not the same as an improvement in funded status. Funded ratios depend on actuarial liabilities, discount-rate assumptions, benefit promises and other system-specific factors."
+          "text": "Likewise, the increase in assets is not the same as an improvement in funded status. Funded ratios depend on actuarial liabilities, discount-rate assumptions, benefit promises and other system-specific factors.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The Census Bureau publishes national and state statistics as well as a separate unit file with actuarial information for state and local systems, allowing comparisons beyond the headline totals."
+          "text": "The Census Bureau publishes national and state statistics as well as a separate unit file with actuarial information for state and local systems, allowing comparisons beyond the headline totals.",
+          "type": "paragraph"
         },
         {
-          "type": "paragraph",
-          "text": "The 2025 survey is a broad balance-sheet and cash-flow snapshot. Evaluating any individual pension system requires its own actuarial valuation, governance record and investment-risk profile."
+          "text": "The 2025 survey is a broad balance-sheet and cash-flow snapshot. Evaluating any individual pension system requires its own actuarial valuation, governance record and investment-risk profile.",
+          "type": "paragraph"
         }
       ],
       "canonicalUrl": "https://bohonews.com/articles/public-pension-assets-649-trillion-census-2025/",
       "citations": [
         {
           "id": "source-census-public-pensions-2025",
-          "title": "Census Bureau Releases 2025 Annual Survey of Public Pensions",
-          "publisher": "U.S. Census Bureau",
           "publishedAt": "2026-05-14T12:00:00Z",
+          "publisher": "U.S. Census Bureau",
+          "title": "Census Bureau Releases 2025 Annual Survey of Public Pensions",
           "url": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html"
         }
       ],
@@ -51829,11 +51829,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-11T11:40:06.116Z",
       "relatedArticleIds": [
         "article-401k-spousal-consent-withdrawals-gao-2026"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260811t105223z-4d8a1c7e9b30",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -51860,26 +51860,26 @@
         "National asset and cash-flow totals do not establish the funded status of any individual retirement system.",
         "The survey's participant count includes inactive workers eligible for future benefits."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-11T11:40:06.116Z"
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T11:16:28.392Z",
+  "generatedAt": "2026-08-11T11:40:50.638Z",
   "inputHashes": {
-    "sourceItems": "94d58ea73622d475eacec99ec89deb9d898f78cf069eea7f5744d3133c3e9c03",
-    "events": "ada30467c455084278b87a0390c646add21f0089b813714e2b4e24baef273d82",
-    "claims": "b7cade3aa391caa3f6680255a222efc444028463605b9dc470c17761c940fe85",
-    "articles": "4d91f34b6880498eec403af543ff1ea723f17a46f3c02f54d92e4935f6770535",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
+    "articles": "4d91f34b6880498eec403af543ff1ea723f17a46f3c02f54d92e4935f6770535",
+    "claims": "b7cade3aa391caa3f6680255a222efc444028463605b9dc470c17761c940fe85",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "events": "ada30467c455084278b87a0390c646add21f0089b813714e2b4e24baef273d82",
     "mediaRights": "cd3d4410a2bc79091ee4639f6d37056379e4b61b7aba2de2257700925fe1905c",
-    "releaseRecords": "a8bbe11bc81c2b05da0b09cc884ebf45ddb2d5c3bd68d669165a9ba0fe3bbe2d",
-    "publicationIntents": "958045968a2dfe187e44fddfe43781181a2a8df78570d08bf771038828bc246d"
+    "publicationIntents": "958045968a2dfe187e44fddfe43781181a2a8df78570d08bf771038828bc246d",
+    "releaseRecords": "fc996113c292721382aa91bced5dda519a68307da5feecf187245447b9490ccb",
+    "sourceItems": "94d58ea73622d475eacec99ec89deb9d898f78cf069eea7f5744d3133c3e9c03"
   },
   "inventory": {
     "articleCount": 315,
-    "routeCount": 315,
-    "mediaCount": 931
+    "mediaCount": 931,
+    "routeCount": 315
   },
   "mediaRights": [
     {
@@ -122570,6 +122570,7 @@
       "sourceUrl": "https://www.census.gov/newsroom/press-releases/2026/2025-aspp.html"
     }
   ],
+  "packageDigest": "d83cc576e9ba42c8256573ad3b7b3911b23bde7e39f54923481f1184c870806b",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -124463,10 +124464,40 @@
       "releaseId": "release-pb-20260811t093453z-7b2e5d9a4c61",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://dd779262.bohonews.pages.dev/",
+      "activationEvidenceHash": "58ddc1d430f7719c9415da519529da22d4ee4d3a10e9a328e0f9afaae84ecbf2",
+      "canonicalFirstPublicAt": "2026-08-11T11:40:06.116Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/federal-supervised-release-rate-fell-82-percent-fy2025/",
+        "https://bohonews.com/articles/gao-federal-strategic-reviews-requirements-2026/",
+        "https://bohonews.com/articles/cbo-social-security-one-time-wealth-tax-75-year-solvency/",
+        "https://bohonews.com/articles/prescribed-burns-sequoia-survival-nasa-study-2026/",
+        "https://bohonews.com/articles/nist-looping-laser-mixes-3d-printed-alloys-2026/",
+        "https://bohonews.com/articles/public-pension-assets-649-trillion-census-2025/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-federal-supervised-release-rate-fell-82-percent-fy2025",
+        "article-gao-federal-strategic-reviews-requirements-2026",
+        "article-cbo-social-security-one-time-wealth-tax-75-year-solvency",
+        "article-prescribed-burns-sequoia-survival-nasa-study-2026",
+        "article-nist-looping-laser-mixes-3d-printed-alloys-2026",
+        "article-public-pension-assets-649-trillion-census-2025"
+      ],
+      "previousVerifiedDeploymentReference": "4c1d64da13a152e27b467b5406b9e3312971a3cfa64c8eae1752cd6be5908cc2",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T11:38:02.26874Z",
+      "recordHash": "85a51940d09f3b5180eca5be68390a388c88611e74e7693549a121574d7d9a1f",
+      "releaseId": "release-pb-20260811t105223z-4d8a1c7e9b30",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
-  "releaseState": "candidate",
+  "releaseState": "final",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com",
-  "packageDigest": "eb495d12d8220a35c43b8b57598e35fe89ce2a7ccb6adcdd727cc0cd565818ba"
+  "site": "https://bohonews.com"
 }
