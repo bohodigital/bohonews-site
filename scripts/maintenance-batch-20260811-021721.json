@@ -1,0 +1,176 @@
+[
+  {
+    "slug":"doe-nuclear-cleanup-end-state-contracts-cost-growth-gao-2026",
+    "headline":"DOE Cleanup Task Orders Added More Than $500 Million in Costs, GAO Says",
+    "dek":"Auditors found inconsistent end-state definitions, weak headquarters oversight and post-award changes across the Energy Department's nuclear cleanup contracting model.",
+    "section":"investigations","desk":"nuclear-cleanup-contract-oversight",
+    "topics":["Nuclear cleanup","Federal contracting","Cost growth","Environmental management","Government oversight"],
+    "entities":["U.S. Government Accountability Office","U.S. Department of Energy","Office of Environmental Management"],
+    "locations":["United States","Hanford Site","Oak Ridge Reservation","Idaho National Laboratory","Nevada National Security Site"],
+    "sources":[{"id":"source-gao-doe-end-state-contracts-20260729","title":"Nuclear Waste Cleanup: DOE Needs to Better Use End State Contracts to Achieve Intended Results","publisher":"U.S. Government Accountability Office","publishedAt":"2026-07-29T12:00:00Z","url":"https://www.gao.gov/products/gao-26-107745"}],
+    "lead":{"id":"media-hanford-cleanup-workers-2010","dir":"doe-end-state-contracts/hanford-cleanup-workers","sourceUrl":"https://commons.wikimedia.org/wiki/File:Workers_Clean_Up_Land,_Remove_Waste_in_Hanford_Site_Recovery_Act_Projects_(7442922916).jpg","creator":"U.S. Department of Energy","rightsBasis":"Photograph made by a U.S. Department of Energy employee as part of official duties and identified as public domain on Wikimedia Commons.","license":"U.S. government public domain","attribution":"U.S. Department of Energy","caption":"Workers remove contaminated material during a Hanford Site cleanup project. GAO reviewed the Energy Department's newer end-state contracting model across cleanup sites.","alt":"Workers in protective gear operate heavy equipment at a fenced nuclear cleanup site.","original":"hanford-cleanup.jpg"},
+    "charts":[
+      {"id":"media-doe-end-state-task-order-counts-2026","dir":"doe-end-state-contracts/task-order-counts","caption":"DOE had awarded 57 task orders across nine end-state contracts by March 31, 2025; 29 defined an end state.","alt":"Graphic shows 57 task orders, nine contracts and 29 orders with defined end states."},
+      {"id":"media-doe-end-state-cost-growth-2026","dir":"doe-end-state-contracts/cost-growth","caption":"GAO traced more than $500 million in cost growth to post-award changes and issued six recommendations to improve oversight and cost control.","alt":"Graphic shows more than 500 million dollars in cost growth and six GAO recommendations."}
+    ],
+    "paragraphs":[
+      "Post-award changes to the Energy Department's nuclear-cleanup task orders produced more than $500 million in cost growth, according to a Government Accountability Office report released July 29.",
+      "The department's Office of Environmental Management had awarded 57 task orders across nine contracts under its End State Contract Model as of March 31, 2025. The model is meant to divide cleanup into outcome-based assignments with clearer costs, schedules and environmental results.",
+      "Only 29 of the 57 orders defined an end state. The remainder covered support work or cleanup that did not yet have a defined end state, limiting how directly the model's outcome promise applied across the portfolio.",
+      "GAO closely reviewed 19 task orders. Of nine completed orders, three lacked defined end states and six defined them but achieved them inconsistently. Three orders reduced or carried unfinished work forward after award, so contractors completed less work against modified outcomes.",
+      "The auditors said inconsistent documentation made it unclear how much those changes reduced costs. Headquarters also lacked adequate oversight to determine whether sites were consistently defining and achieving the intended cleanup results.",
+      "Cost growth varied sharply among selected orders. GAO listed about $216.7 million for an Oak Ridge phase-in order and about $75.8 million for Nevada environmental operations, while percentage increases exceeded 100% on two smaller assignments.",
+      "Contract form mattered. Orders that shifted more cost risk to contractors generally experienced less growth, while DOE more often used structures that left greater risk with the government and those orders had the largest increases.",
+      "GAO made six recommendations covering data quality, headquarters oversight, environmental-risk planning, root-cause analysis, cost estimates and deadlines for finalizing initially undefinitized orders. DOE agreed with five and partially agreed with one.",
+      "The report measures increases in contract value, not a finding that every added dollar was unnecessary. Scope changes, cleanup discoveries and valid new requirements can alter costs, but GAO concluded the department needs stronger controls to know whether the model is delivering its promised outcomes."
+    ],
+    "facts":["DOE had awarded 57 task orders across nine end-state contracts by March 31, 2025.","Twenty-nine task orders included defined end states.","Post-award changes were associated with more than $500 million in cost growth.","GAO reviewed 19 selected task orders and issued six recommendations.","DOE concurred with five recommendations and partially concurred with one."],
+    "uncertainty":["GAO measured cost growth as increases in contract value; that is not equivalent to a finding that every increase was avoidable.","The report's detailed performance review used selected task orders and should not be generalized beyond the documented portfolio evidence."],
+    "seoTitle":"DOE nuclear cleanup task orders added $500 million in costs","seoDescription":"GAO found more than $500 million in cost growth under DOE's end-state nuclear cleanup contracts and called for stronger oversight."
+  },
+  {
+    "slug":"federal-prison-population-first-step-act-statistics-2024",
+    "headline":"Federal Prison Population Fell 1% to 154,093 at End of 2024",
+    "dek":"The latest First Step Act statistical report also counted 8,202 veterans and 21,948 non-U.S. citizens in federal facilities.",
+    "section":"crime-justice","desk":"federal-prison-system-statistics",
+    "topics":["Federal prisons","First Step Act","Prison population","Veterans","Correctional data"],
+    "entities":["Bureau of Justice Statistics","Federal Bureau of Prisons","U.S. Department of Justice"],
+    "locations":["United States"],
+    "sources":[{"id":"source-bjs-first-step-act-prisoners-2025","title":"Federal Prisoner Statistics Collected Under the First Step Act, 2025","publisher":"Bureau of Justice Statistics","publishedAt":"2026-03-12T12:00:00Z","url":"https://bjs.ojp.gov/library/publications/federal-prisoner-statistics-collected-under-first-step-act-2025"}],
+    "lead":{"id":"media-fci-sheridan-overhead-2024","dir":"first-step-act-prisoners/fci-sheridan","sourceUrl":"https://commons.wikimedia.org/wiki/File:Federal_Correctional_Institution_Sheridan_overhead_view.jpg","creator":"Tedder","rightsBasis":"Creative Commons Attribution-ShareAlike 4.0 license granted by the photographer on Wikimedia Commons.","license":"CC BY-SA 4.0","attribution":"Tedder / Wikimedia Commons, CC BY-SA 4.0","caption":"Federal Correctional Institution Sheridan in Oregon, photographed from the air in 2024. BJS's national report aggregates federal prison statistics and does not assess this facility individually.","alt":"An aerial view shows a large federal correctional complex surrounded by fields and roads.","original":"fci-sheridan.jpg"},
+    "charts":[
+      {"id":"media-federal-prison-population-change-2024","dir":"first-step-act-prisoners/population-change","caption":"The federal prison population declined from 155,972 at year-end 2023 to 154,093 at year-end 2024, about 1%.","alt":"Graphic shows the federal prison population falling from 155,972 to 154,093."},
+      {"id":"media-federal-prison-selected-characteristics-2024","dir":"first-step-act-prisoners/selected-characteristics","caption":"At year-end 2024, BJS counted 8,202 people with prior military service and 21,948 non-U.S. citizens in federal prison.","alt":"Graphic lists 8,202 people with military service and 21,948 non-U.S. citizens in federal prison."}
+    ],
+    "paragraphs":[
+      "The federal prison population declined about 1% during 2024, reaching 154,093 people at year-end, according to the Bureau of Justice Statistics' latest report required by the First Step Act.",
+      "The comparable year-end 2023 count was 155,972, a decrease of 1,879 people. The figures describe people held in Federal Bureau of Prisons facilities and are not a measure of state or local incarceration.",
+      "BJS counted 8,202 people with prior military service at year-end 2024, more than 5% of the federal prison population. The prior year's count was 8,388.",
+      "The number of non-U.S. citizens declined to 21,948 from 22,817 in 2023 and 24,078 in 2022. Citizenship status is one reported characteristic and does not by itself describe offense, sentence or immigration proceedings.",
+      "Thirty percent of people in federal prison were reported as having a child age 20 or younger, down from 35% in 2023. The statistic concerns family status of adults in custody; it does not identify children or disclose private family records.",
+      "The report is the seventh in a series required under the First Step Act of 2018. It combines person-level characteristics with facility information on health care, communications, accreditation, rule violations and program participation.",
+      "BJS received the 2024 reference-year data from the Federal Bureau of Prisons in 2025. Publication in 2026 means the totals are an annual statistical snapshot rather than a current population counter.",
+      "The report also presents Prisoner Assessment Tool Targeting Estimated Risk and Needs categories. BJS notes that some people lack a PATTERN level because they are in pretrial detention, have not been in custody long enough or have legal conditions for which the tool does not apply.",
+      "A falling annual total does not establish why the population changed. Admissions, releases, sentence lengths, policy changes and data coverage can all contribute, and the published highlights do not isolate a single cause."
+    ],
+    "facts":["The federal prison population was 154,093 at year-end 2024.","The population declined about 1% from 155,972 at year-end 2023.","BJS counted 8,202 people with prior military service.","BJS counted 21,948 non-U.S. citizens.","Thirty percent were reported as having a child age 20 or younger."],
+    "uncertainty":["The reference year is 2024, so the report is not a live 2026 custody count.","The aggregate annual report does not identify a single cause for the population decline."],
+    "seoTitle":"Federal prison population fell to 154,093 in 2024","seoDescription":"BJS says the federal prison population declined about 1% in 2024, with 154,093 people in custody at year-end."
+  },
+  {
+    "slug":"smithsonian-pulverer-japanese-books-digital-catalog",
+    "headline":"Smithsonian Opens Japanese-Language Catalog for 2,200 Rare-Book Volumes",
+    "dek":"The searchable Pulverer Collection resource removes an English-only barrier for researchers studying more than 900 Japanese illustrated-book titles.",
+    "section":"culture","desk":"digital-cultural-collections",
+    "topics":["Japanese illustrated books","Digital archives","Pulverer Collection","Museum access","Literary heritage"],
+    "entities":["National Museum of Asian Art","National Institute of Japanese Literature","Smithsonian Institution","Gerhard Pulverer"],
+    "locations":["Washington, D.C.","Japan","United States"],
+    "sources":[{"id":"source-smithsonian-pulverer-japanese-catalog-20260630","title":"National Museum of Asian Art Renews Partnership With National Institute of Japanese Literature, Expands Digital Access to Rare Books","publisher":"Smithsonian Institution","publishedAt":"2026-06-30T12:00:00Z","url":"https://www.si.edu/newsdesk/releases/national-museum-asian-art-renews-partnership-national-institute-japanese"}],
+    "lead":{"id":"media-freer-gallery-exterior-2005","dir":"pulverer-digital-catalog/freer-gallery","sourceUrl":"https://commons.wikimedia.org/wiki/File:Freer_Gallery_1.jpg","creator":"Quadell","rightsBasis":"Creative Commons Attribution-ShareAlike 3.0 license granted by the photographer on Wikimedia Commons.","license":"CC BY-SA 3.0","attribution":"Quadell / Wikimedia Commons, CC BY-SA 3.0","caption":"The Freer Gallery of Art, part of the Smithsonian's National Museum of Asian Art, in Washington. Its Pulverer Collection now has a searchable Japanese-language catalog.","alt":"The stone facade and arched entrances of the Freer Gallery face a landscaped walkway.","original":"freer-gallery.jpg"},
+    "charts":[
+      {"id":"media-pulverer-collection-scale-2026","dir":"pulverer-digital-catalog/collection-scale","caption":"The Pulverer Collection contains more than 900 titles in almost 2,200 volumes, spanning the early 1600s through the 1970s.","alt":"Graphic lists more than 900 titles, almost 2,200 volumes and a date range from the early 1600s to the 1970s."},
+      {"id":"media-pulverer-catalog-access-2026","dir":"pulverer-digital-catalog/access-change","caption":"The fully digitized catalog is now searchable in Japanese as well as English through the partner institutions' online systems.","alt":"Graphic shows a searchable catalog expanding from English to English and Japanese access."}
+    ],
+    "paragraphs":[
+      "A searchable Japanese-language catalog now gives researchers direct access to the Smithsonian's fully digitized Pulverer Collection of rare Japanese illustrated books.",
+      "The National Museum of Asian Art launched the resource with Japan's National Institute of Japanese Literature as the institutions renewed a partnership that began in 2020.",
+      "The collection contains more than 900 titles in almost 2,200 volumes. The books range from the early 17th century through the 1970s, with a concentration in illustrated works produced during and after Japan's Edo period.",
+      "The digital collection was already comprehensive but available only in English. The museum supplied images and metadata for integration into the Japanese institute's database, removing a language barrier for scholars, students and other readers.",
+      "Gerhard and Rosemarie Pulverer assembled the books over about 30 years. The Smithsonian acquired the full collection in 2007 and describes it as one of the strongest collections of Japanese illustrated books outside Japan.",
+      "The resource supports comparative study because researchers can search Japanese-language descriptions alongside images and bibliographic information. Digitization expands access without requiring the physical volumes to travel.",
+      "The renewed agreement also calls for the Japanese institute to share expertise in digitization and databases. The museum frames the work as infrastructure for joint research rather than a one-time translation project.",
+      "Online access does not replace conservation or examination of original materials. Color, paper, binding, scale and physical evidence can require direct study under museum handling rules.",
+      "The release did not provide traffic, research-output or user-adoption targets. The immediate, verifiable change is that a collection once searchable only in English can now be queried in Japanese through a partner platform."
+    ],
+    "facts":["The Pulverer Collection contains more than 900 titles in almost 2,200 volumes.","The collection spans the early 17th century through the 1970s.","The catalog was already digitized but had been available only in English.","The museum supplied images and metadata for a Japanese-language database.","The institutional partnership began in 2020 and was renewed in 2026."],
+    "uncertainty":["The announcement did not publish usage targets or adoption data for the new catalog.","Digital images and metadata do not reproduce every physical property of the original books."],
+    "seoTitle":"Smithsonian adds Japanese catalog for Pulverer rare books","seoDescription":"The Smithsonian's Pulverer Collection now has a searchable Japanese catalog covering 900-plus titles and nearly 2,200 volumes."
+  },
+  {
+    "slug":"gao-opm-eight-priority-recommendations-2026",
+    "headline":"GAO Leaves OPM With Eight Priority Recommendations for 2026",
+    "dek":"The watchdog says stronger eligibility checks could prevent up to $1 billion a year in health-benefit improper payments, alongside IT and workforce reforms.",
+    "section":"politics","desk":"federal-personnel-management",
+    "topics":["Office of Personnel Management","Federal workforce","Improper payments","IT management","Government oversight"],
+    "entities":["U.S. Government Accountability Office","Office of Personnel Management","Federal Employees Health Benefits Program"],
+    "locations":["Washington, D.C.","United States"],
+    "sources":[{"id":"source-gao-opm-priority-recommendations-20260729","title":"Priority Open Recommendations: Office of Personnel Management","publisher":"U.S. Government Accountability Office","publishedAt":"2026-07-29T12:00:00Z","url":"https://www.gao.gov/products/gao-26-108989"}],
+    "lead":{"id":"media-opm-theodore-roosevelt-building-2026","dir":"opm-priority-recommendations/opm-building","sourceUrl":"https://www.gsa.gov/photos/opm-architecture-gallery","creator":"U.S. General Services Administration","rightsBasis":"Photograph published by the U.S. General Services Administration as a federal government work.","license":"U.S. government public domain","attribution":"U.S. General Services Administration","caption":"The Theodore Roosevelt Federal Building houses the Office of Personnel Management in Washington. GAO identified eight recommendations warranting priority attention in 2026.","alt":"A broad concrete federal office building with a grid of windows stands behind landscaped grounds.","original":"opm-building.jpg"},
+    "charts":[
+      {"id":"media-opm-priority-recommendation-count-2026","dir":"opm-priority-recommendations/count","caption":"OPM implemented three of 14 prior priority recommendations; GAO removed priority status from three others, leaving eight.","alt":"Graphic shows 14 prior recommendations, three implemented, three reprioritized and eight remaining."},
+      {"id":"media-opm-priority-areas-2026","dir":"opm-priority-recommendations/areas","caption":"GAO highlighted improper-payment prevention, IT management and federal workforce management, including up to $1 billion in potential annual health-benefit savings.","alt":"Graphic lists three priority areas and up to one billion dollars in potential annual savings."}
+    ],
+    "paragraphs":[
+      "The Office of Personnel Management has eight recommendations that the Government Accountability Office considers high priority for 2026, centered on improper payments, technology management and the federal workforce.",
+      "GAO had identified 14 priority recommendations in August 2025. OPM implemented three, and the watchdog removed priority status from three others in July, leaving eight still designated for senior attention.",
+      "The largest quantified opportunity involves federal employee health benefits. GAO says stronger action on eligibility could prevent up to an estimated $1 billion a year in improper payments for people who are not eligible for coverage.",
+      "An estimate of preventable payments is not a confirmed annual loss. Realized savings would depend on the accuracy of eligibility data, implementation costs, corrective action and how many improper payments controls actually stop.",
+      "GAO also pointed to duplicative or unnecessary software licenses. Better inventory and management practices could reduce costs while giving OPM a clearer view of the systems it buys and operates.",
+      "The workforce recommendations focus on the government's ability to recruit and retain talent. OPM is the central federal human-resources agency, so weaknesses in its policies and systems can affect agencies beyond its own staff.",
+      "Priority recommendations are a selected subset of GAO's open work. The designation reflects potential savings, risk reduction, improved decisions or progress on government-wide management problems; it does not mean other open recommendations are closed.",
+      "GAO has sent these letters to agency leaders since 2015 and tracks implementation separately. A recommendation remains open until the watchdog verifies that corrective action adequately addresses it.",
+      "The new count records movement but not completion: three recommendations were implemented, yet eight remain priority items. The next evidence will be documented OPM controls and GAO's assessment of whether they produce the intended results."
+    ],
+    "facts":["GAO identified eight priority recommendations for OPM in July 2026.","OPM implemented three of the 14 priorities identified in August 2025.","GAO removed priority status from three additional recommendations.","GAO highlighted improper payments, IT management and workforce management.","Eligibility controls could prevent up to an estimated $1 billion per year in improper health-benefit payments."],
+    "uncertainty":["The $1 billion figure is an estimate of potential prevention, not a confirmed annual loss or guaranteed saving.","Removing priority status does not necessarily mean an underlying recommendation was implemented or closed."],
+    "seoTitle":"GAO lists eight priority recommendations for OPM in 2026","seoDescription":"OPM has eight GAO priority recommendations covering improper payments, IT management and the federal workforce."
+  },
+  {
+    "slug":"gao-overlapping-cybersecurity-reporting-rules-2026",
+    "headline":"GAO Finds Overlapping Reporting Duties in 80 Cybersecurity Regulations",
+    "dek":"The watchdog identified 117 rules from 37 agencies across nine critical-infrastructure sectors and said roughly 70% shared a reporting type with another rule.",
+    "section":"technology","desk":"cybersecurity-regulatory-coordination",
+    "topics":["Cybersecurity regulation","Critical infrastructure","Incident reporting","Federal agencies","Regulatory overlap"],
+    "entities":["U.S. Government Accountability Office","Securities and Exchange Commission","Office of the National Cyber Director","Congress"],
+    "locations":["United States"],
+    "sources":[{"id":"source-gao-cybersecurity-regulations-20260722","title":"Cybersecurity Regulations: Multiple Sectors Are Subject to Potentially Duplicative Reporting Requirements","publisher":"U.S. Government Accountability Office","publishedAt":"2026-07-22T12:00:00Z","url":"https://www.gao.gov/products/gao-26-108606"}],
+    "lead":{"id":"media-fleet-cyber-operations-center-2018","dir":"cyber-reporting-overlap/fleet-cyber-ops","sourceUrl":"https://commons.wikimedia.org/wiki/File:FCC_Ops_Center.jpg","creator":"Petty Officer 1st Class Samuel Souvannason, U.S. Navy","rightsBasis":"Photograph made by a U.S. Navy employee as part of official duties and identified as public domain on Wikimedia Commons.","license":"U.S. government public domain","attribution":"Petty Officer 1st Class Samuel Souvannason / U.S. Navy","caption":"Sailors stand watch at U.S. Fleet Cyber Command in Maryland in 2017. GAO's review covers civilian critical-infrastructure cybersecurity regulations, not this military operations center.","alt":"Analysts work at computer stations beneath large information displays in a cyber operations center.","original":"cyber-ops.jpg"},
+    "charts":[
+      {"id":"media-gao-cyber-regulation-inventory-2026","dir":"cyber-reporting-overlap/regulation-inventory","caption":"GAO identified 117 cybersecurity regulations issued by 37 agencies across nine critical-infrastructure sectors.","alt":"Graphic lists 117 regulations, 37 federal agencies and nine critical-infrastructure sectors."},
+      {"id":"media-gao-cyber-reporting-overlap-2026","dir":"cyber-reporting-overlap/reporting-overlap","caption":"Eighty regulations, about 70% of the inventory, had the same type of reporting requirement as at least one other regulation.","alt":"Graphic shows 80 of 117 cybersecurity regulations, about 70 percent, shared a reporting type."}
+    ],
+    "paragraphs":[
+      "Eighty of 117 federal cybersecurity regulations had the same type of reporting requirement as at least one other rule, creating potential duplication for companies that operate critical infrastructure, according to GAO.",
+      "The watchdog's inventory covered rules issued by 37 federal agencies across nine critical-infrastructure sectors. Roughly 70% contained a reporting category that appeared elsewhere in the regulatory set.",
+      "A shared category does not automatically prove that two rules conflict or require an identical filing. GAO used it as a screen for potential duplication that may impose redundant or inconsistent duties on regulated entities.",
+      "Requirements can apply at different moments and for different purposes. Companies may have to report incidents, disclose cybersecurity plans, document risk management or notify agencies and investors under separate authorities.",
+      "GAO cited Securities and Exchange Commission requirements for public companies as one example that can overlap with sector-specific obligations. An entity operating in more than one regulated role can face several reporting clocks and formats.",
+      "Most U.S. critical-infrastructure information systems are privately owned, while federal agencies regulate distinct safety, financial, communications and security missions. That divided authority helps explain why reporting rules accumulated across agencies.",
+      "The administration intends to issue an implementation plan to streamline cybersecurity regulation. GAO's inventory supplies a baseline for that work but does not itself repeal, consolidate or suspend any requirement.",
+      "Streamlining also carries a tradeoff: a filing that looks duplicative to a company may provide different information to agencies with different mandates. Any consolidation must preserve the timeliness and detail needed for response and oversight.",
+      "The report's practical test is therefore narrower than the headline count. Regulators must determine which of the 80 flagged rules can share definitions, forms or submission channels without creating gaps in public protection."
+    ],
+    "facts":["GAO identified 117 federal cybersecurity regulations.","The regulations came from 37 federal agencies.","The inventory spanned nine critical-infrastructure sectors.","Eighty regulations shared a reporting type with another regulation.","The 80 flagged rules represented about 70% of the inventory."],
+    "uncertainty":["Having the same reporting type signals potential duplication but does not by itself establish a legal conflict.","The announced federal streamlining plan was not yet a completed implementation program in GAO's report."],
+    "seoTitle":"GAO flags overlap in 80 cybersecurity reporting regulations","seoDescription":"GAO found 80 of 117 federal cybersecurity regulations shared a reporting type, raising potential duplication across critical sectors."
+  },
+  {
+    "slug":"nsf-four-year-phd-industry-research-pilot-2026",
+    "headline":"NSF Puts $47 Million Into Four-Year Ph.D. Pilot With Industry Research",
+    "dek":"More than 250 doctoral students will combine university study with company-site dissertation work under a five-year test beginning in fall 2026.",
+    "section":"us","desk":"graduate-education-workforce",
+    "topics":["Doctoral education","STEM workforce","Industry research","Graduate funding","University partnerships"],
+    "entities":["U.S. National Science Foundation","University-Industry Demonstration Partnership","White House Office of Science and Technology Policy"],
+    "locations":["United States"],
+    "sources":[{"id":"source-nsf-four-year-phd-pilot-20260729","title":"NSF partners with universities and industry on pilot initiative for four-year Ph.D. programs with real-world research placements","publisher":"U.S. National Science Foundation","publishedAt":"2026-07-29T12:00:00Z","url":"https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four"}],
+    "lead":{"id":"media-umass-engineering-lab-2011","dir":"nsf-four-year-phd/engineering-lab","sourceUrl":"https://commons.wikimedia.org/wiki/File:Engineering_Lab.jpg","creator":"Kevin Rutherford","rightsBasis":"Creative Commons Attribution-ShareAlike 4.0 license granted by the photographer on Wikimedia Commons.","license":"CC BY-SA 4.0","attribution":"Kevin Rutherford / Wikimedia Commons, CC BY-SA 4.0","caption":"The Engineering Laboratory at the University of Massachusetts Amherst. The photograph illustrates U.S. university research infrastructure; it does not identify a participant in NSF's new doctoral pilot.","alt":"A multistory university engineering laboratory stands behind trees under a clear sky.","original":"engineering-lab.jpg"},
+    "charts":[
+      {"id":"media-nsf-industry-integrated-phd-scale-2026","dir":"nsf-four-year-phd/pilot-scale","caption":"NSF committed $47 million over five years for more than 250 doctoral students, with participation from nearly three dozen universities and companies.","alt":"Graphic lists 47 million dollars, five years, more than 250 students and nearly three dozen partners."},
+      {"id":"media-nsf-industry-integrated-phd-funding-2026","dir":"nsf-four-year-phd/funding-model","caption":"Universities fund year one, NSF covers the remaining years and industry partners commit at least one year of company-site dissertation research.","alt":"Graphic shows university funding in year one, NSF funding afterward and at least one year of industry research."}
+    ],
+    "paragraphs":[
+      "The National Science Foundation is investing $47 million over five years in a pilot designed to move more than 250 STEM doctoral students through four-year programs that include dissertation research at company sites.",
+      "Nearly three dozen universities and private-sector partners have made additional commitments, according to NSF. The University-Industry Demonstration Partnership will lead the program, called the Industry-Integrated Ph.D. Scholars Program.",
+      "The first cohort is scheduled to enter graduate school in fall 2026, with larger cohorts planned later if partners and program capacity are ready. A scheduled start is not a completion result, and the four-year target will require follow-up data.",
+      "Universities will provide each student's first year of funding. NSF will cover the remaining years, while industry partners commit support for at least one year of practical dissertation research at a company site.",
+      "Students will have academic and industry co-advisers. NSF says the company experience must be integrated into dissertation work while preserving academic rigor, rather than operating as a separate internship disconnected from the degree.",
+      "The design responds to employment patterns outside academia. Among STEM doctorate recipients reporting definite postgraduation employment, more than 65% in engineering, physical sciences, computer science and information sciences were headed to industry, NSF said.",
+      "That percentage applies to graduates with definite job commitments in the named fields, not every doctoral student or every STEM discipline. It should not be read as a prediction for participants in this pilot.",
+      "The program's evidence milestones will include enrollment, time to degree, dissertation quality, industry placements, completion and student outcomes. NSF said results from the initial cohort will inform whether the model is expanded.",
+      "The investment tests a specific funding and mentorship structure; it does not establish that four years is the right duration for every doctorate. Research scope, field norms, personal circumstances and laboratory timelines vary widely."
+    ],
+    "facts":["NSF announced a $47 million investment over five years.","The pilot is designed for more than 250 doctoral students.","Nearly three dozen universities and companies have made additional commitments.","The first cohort is scheduled to enter in fall 2026.","Industry partners will support at least one year of company-site dissertation research."],
+    "uncertainty":["The four-year completion model is a pilot and has not yet produced outcome data.","Later cohort size and expansion depend on partner readiness and program capacity."],
+    "seoTitle":"NSF launches $47 million four-year Ph.D. industry pilot","seoDescription":"NSF's $47 million pilot will give 250-plus STEM doctoral students industry research placements in a four-year degree model."
+  }
+]

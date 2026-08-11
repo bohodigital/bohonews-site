@@ -43793,25 +43793,916 @@
         "Listed amateur positions can change during professional development."
       ],
       "updatedAt": "2026-08-11T01:54:37.170Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Post-award changes to the Energy Department's nuclear-cleanup task orders produced more than $500 million in cost growth, according to a Government Accountability Office report released July 29.\n\nThe department's Office of Environmental Management had awarded 57 task orders across nine contracts under its End State Contract Model as of March 31, 2025. The model is meant to divide cleanup into outcome-based assignments with clearer costs, schedules and environmental results.\n\nOnly 29 of the 57 orders defined an end state. The remainder covered support work or cleanup that did not yet have a defined end state, limiting how directly the model's outcome promise applied across the portfolio.\n\nGAO closely reviewed 19 task orders. Of nine completed orders, three lacked defined end states and six defined them but achieved them inconsistently. Three orders reduced or carried unfinished work forward after award, so contractors completed less work against modified outcomes.\n\nThe auditors said inconsistent documentation made it unclear how much those changes reduced costs. Headquarters also lacked adequate oversight to determine whether sites were consistently defining and achieving the intended cleanup results.\n\nCost growth varied sharply among selected orders. GAO listed about $216.7 million for an Oak Ridge phase-in order and about $75.8 million for Nevada environmental operations, while percentage increases exceeded 100% on two smaller assignments.\n\nContract form mattered. Orders that shifted more cost risk to contractors generally experienced less growth, while DOE more often used structures that left greater risk with the government and those orders had the largest increases.\n\nGAO made six recommendations covering data quality, headquarters oversight, environmental-risk planning, root-cause analysis, cost estimates and deadlines for finalizing initially undefinitized orders. DOE agreed with five and partially agreed with one.\n\nThe report measures increases in contract value, not a finding that every added dollar was unnecessary. Scope changes, cleanup discoveries and valid new requirements can alter costs, but GAO concluded the department needs stronger controls to know whether the model is delivering its promised outcomes.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Post-award changes to the Energy Department's nuclear-cleanup task orders produced more than $500 million in cost growth, according to a Government Accountability Office report released July 29."
+        },
+        {
+          "type": "paragraph",
+          "text": "The department's Office of Environmental Management had awarded 57 task orders across nine contracts under its End State Contract Model as of March 31, 2025. The model is meant to divide cleanup into outcome-based assignments with clearer costs, schedules and environmental results."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-doe-end-state-task-order-counts-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/task-order-counts/four-three.webp",
+          "alt": "Graphic shows 57 task orders, nine contracts and 29 orders with defined end states.",
+          "caption": "DOE had awarded 57 task orders across nine end-state contracts by March 31, 2025; 29 defined an end state.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107745"
+        },
+        {
+          "type": "paragraph",
+          "text": "Only 29 of the 57 orders defined an end state. The remainder covered support work or cleanup that did not yet have a defined end state, limiting how directly the model's outcome promise applied across the portfolio."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO closely reviewed 19 task orders. Of nine completed orders, three lacked defined end states and six defined them but achieved them inconsistently. Three orders reduced or carried unfinished work forward after award, so contractors completed less work against modified outcomes."
+        },
+        {
+          "type": "paragraph",
+          "text": "The auditors said inconsistent documentation made it unclear how much those changes reduced costs. Headquarters also lacked adequate oversight to determine whether sites were consistently defining and achieving the intended cleanup results."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cost growth varied sharply among selected orders. GAO listed about $216.7 million for an Oak Ridge phase-in order and about $75.8 million for Nevada environmental operations, while percentage increases exceeded 100% on two smaller assignments."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-doe-end-state-cost-growth-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/cost-growth/four-three.webp",
+          "alt": "Graphic shows more than 500 million dollars in cost growth and six GAO recommendations.",
+          "caption": "GAO traced more than $500 million in cost growth to post-award changes and issued six recommendations to improve oversight and cost control.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-107745"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contract form mattered. Orders that shifted more cost risk to contractors generally experienced less growth, while DOE more often used structures that left greater risk with the government and those orders had the largest increases."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO made six recommendations covering data quality, headquarters oversight, environmental-risk planning, root-cause analysis, cost estimates and deadlines for finalizing initially undefinitized orders. DOE agreed with five and partially agreed with one."
+        },
+        {
+          "type": "paragraph",
+          "text": "The report measures increases in contract value, not a finding that every added dollar was unnecessary. Scope changes, cleanup discoveries and valid new requirements can alter costs, but GAO concluded the department needs stronger controls to know whether the model is delivering its promised outcomes."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/doe-nuclear-cleanup-end-state-contracts-cost-growth-gao-2026/",
+      "citations": [
+        {
+          "id": "source-gao-doe-end-state-contracts-20260729",
+          "title": "Nuclear Waste Cleanup: DOE Needs to Better Use End State Contracts to Achieve Intended Results",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-07-29T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-107745"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "DOE had awarded 57 task orders across nine end-state contracts by March 31, 2025.",
+        "Twenty-nine task orders included defined end states.",
+        "Post-award changes were associated with more than $500 million in cost growth.",
+        "GAO reviewed 19 selected task orders and issued six recommendations.",
+        "DOE concurred with five recommendations and partially concurred with one."
+      ],
+      "corrections": [],
+      "dek": "Auditors found inconsistent end-state definitions, weak headquarters oversight and post-award changes across the Energy Department's nuclear cleanup contracting model.",
+      "desk": "nuclear-cleanup-contract-oversight",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "U.S. Department of Energy",
+        "Office of Environmental Management"
+      ],
+      "eventId": "event-doe-nuclear-cleanup-end-state-contracts-cost-growth-gao-2026",
+      "headline": "DOE Cleanup Task Orders Added More Than $500 Million in Costs, GAO Says",
+      "id": "article-doe-nuclear-cleanup-end-state-contracts-cost-growth-gao-2026",
+      "leadImage": {
+        "alt": "Workers in protective gear operate heavy equipment at a fenced nuclear cleanup site.",
+        "caption": "Workers remove contaminated material during a Hanford Site cleanup project. GAO reviewed the Energy Department's newer end-state contracting model across cleanup sites.",
+        "credit": "U.S. Department of Energy",
+        "height": 900,
+        "rightsId": "media-hanford-cleanup-workers-2010",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/hanford-cleanup-workers/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States",
+        "Hanford Site",
+        "Oak Ridge Reservation",
+        "Idaho National Laboratory",
+        "Nevada National Security Site"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO found more than $500 million in cost growth under DOE's end-state nuclear cleanup contracts and called for stronger oversight.",
+        "index": true,
+        "title": "DOE nuclear cleanup task orders added $500 million in costs"
+      },
+      "section": "investigations",
+      "slug": "doe-nuclear-cleanup-end-state-contracts-cost-growth-gao-2026",
+      "social": {
+        "description": "Auditors found inconsistent end-state definitions, weak headquarters oversight and post-award changes across the Energy Department's nuclear cleanup contracting model.",
+        "image": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/hanford-cleanup-workers/open-graph.webp",
+        "title": "DOE Cleanup Task Orders Added More Than $500 Million in Costs, GAO Says"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Nuclear cleanup",
+        "Federal contracting",
+        "Cost growth",
+        "Environmental management",
+        "Government oversight"
+      ],
+      "uncertainty": [
+        "GAO measured cost growth as increases in contract value; that is not equivalent to a finding that every increase was avoidable.",
+        "The report's detailed performance review used selected task orders and should not be generalized beyond the documented portfolio evidence."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The federal prison population declined about 1% during 2024, reaching 154,093 people at year-end, according to the Bureau of Justice Statistics' latest report required by the First Step Act.\n\nThe comparable year-end 2023 count was 155,972, a decrease of 1,879 people. The figures describe people held in Federal Bureau of Prisons facilities and are not a measure of state or local incarceration.\n\nBJS counted 8,202 people with prior military service at year-end 2024, more than 5% of the federal prison population. The prior year's count was 8,388.\n\nThe number of non-U.S. citizens declined to 21,948 from 22,817 in 2023 and 24,078 in 2022. Citizenship status is one reported characteristic and does not by itself describe offense, sentence or immigration proceedings.\n\nThirty percent of people in federal prison were reported as having a child age 20 or younger, down from 35% in 2023. The statistic concerns family status of adults in custody; it does not identify children or disclose private family records.\n\nThe report is the seventh in a series required under the First Step Act of 2018. It combines person-level characteristics with facility information on health care, communications, accreditation, rule violations and program participation.\n\nBJS received the 2024 reference-year data from the Federal Bureau of Prisons in 2025. Publication in 2026 means the totals are an annual statistical snapshot rather than a current population counter.\n\nThe report also presents Prisoner Assessment Tool Targeting Estimated Risk and Needs categories. BJS notes that some people lack a PATTERN level because they are in pretrial detention, have not been in custody long enough or have legal conditions for which the tool does not apply.\n\nA falling annual total does not establish why the population changed. Admissions, releases, sentence lengths, policy changes and data coverage can all contribute, and the published highlights do not isolate a single cause.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The federal prison population declined about 1% during 2024, reaching 154,093 people at year-end, according to the Bureau of Justice Statistics' latest report required by the First Step Act."
+        },
+        {
+          "type": "paragraph",
+          "text": "The comparable year-end 2023 count was 155,972, a decrease of 1,879 people. The figures describe people held in Federal Bureau of Prisons facilities and are not a measure of state or local incarceration."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-federal-prison-population-change-2024",
+          "src": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/population-change/four-three.webp",
+          "alt": "Graphic shows the federal prison population falling from 155,972 to 154,093.",
+          "caption": "The federal prison population declined from 155,972 at year-end 2023 to 154,093 at year-end 2024, about 1%.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://bjs.ojp.gov/library/publications/federal-prisoner-statistics-collected-under-first-step-act-2025"
+        },
+        {
+          "type": "paragraph",
+          "text": "BJS counted 8,202 people with prior military service at year-end 2024, more than 5% of the federal prison population. The prior year's count was 8,388."
+        },
+        {
+          "type": "paragraph",
+          "text": "The number of non-U.S. citizens declined to 21,948 from 22,817 in 2023 and 24,078 in 2022. Citizenship status is one reported characteristic and does not by itself describe offense, sentence or immigration proceedings."
+        },
+        {
+          "type": "paragraph",
+          "text": "Thirty percent of people in federal prison were reported as having a child age 20 or younger, down from 35% in 2023. The statistic concerns family status of adults in custody; it does not identify children or disclose private family records."
+        },
+        {
+          "type": "paragraph",
+          "text": "The report is the seventh in a series required under the First Step Act of 2018. It combines person-level characteristics with facility information on health care, communications, accreditation, rule violations and program participation."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-federal-prison-selected-characteristics-2024",
+          "src": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/selected-characteristics/four-three.webp",
+          "alt": "Graphic lists 8,202 people with military service and 21,948 non-U.S. citizens in federal prison.",
+          "caption": "At year-end 2024, BJS counted 8,202 people with prior military service and 21,948 non-U.S. citizens in federal prison.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://bjs.ojp.gov/library/publications/federal-prisoner-statistics-collected-under-first-step-act-2025"
+        },
+        {
+          "type": "paragraph",
+          "text": "BJS received the 2024 reference-year data from the Federal Bureau of Prisons in 2025. Publication in 2026 means the totals are an annual statistical snapshot rather than a current population counter."
+        },
+        {
+          "type": "paragraph",
+          "text": "The report also presents Prisoner Assessment Tool Targeting Estimated Risk and Needs categories. BJS notes that some people lack a PATTERN level because they are in pretrial detention, have not been in custody long enough or have legal conditions for which the tool does not apply."
+        },
+        {
+          "type": "paragraph",
+          "text": "A falling annual total does not establish why the population changed. Admissions, releases, sentence lengths, policy changes and data coverage can all contribute, and the published highlights do not isolate a single cause."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/federal-prison-population-first-step-act-statistics-2024/",
+      "citations": [
+        {
+          "id": "source-bjs-first-step-act-prisoners-2025",
+          "title": "Federal Prisoner Statistics Collected Under the First Step Act, 2025",
+          "publisher": "Bureau of Justice Statistics",
+          "publishedAt": "2026-03-12T12:00:00Z",
+          "url": "https://bjs.ojp.gov/library/publications/federal-prisoner-statistics-collected-under-first-step-act-2025"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The federal prison population was 154,093 at year-end 2024.",
+        "The population declined about 1% from 155,972 at year-end 2023.",
+        "BJS counted 8,202 people with prior military service.",
+        "BJS counted 21,948 non-U.S. citizens.",
+        "Thirty percent were reported as having a child age 20 or younger."
+      ],
+      "corrections": [],
+      "dek": "The latest First Step Act statistical report also counted 8,202 veterans and 21,948 non-U.S. citizens in federal facilities.",
+      "desk": "federal-prison-system-statistics",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Bureau of Justice Statistics",
+        "Federal Bureau of Prisons",
+        "U.S. Department of Justice"
+      ],
+      "eventId": "event-federal-prison-population-first-step-act-statistics-2024",
+      "headline": "Federal Prison Population Fell 1% to 154,093 at End of 2024",
+      "id": "article-federal-prison-population-first-step-act-statistics-2024",
+      "leadImage": {
+        "alt": "An aerial view shows a large federal correctional complex surrounded by fields and roads.",
+        "caption": "Federal Correctional Institution Sheridan in Oregon, photographed from the air in 2024. BJS's national report aggregates federal prison statistics and does not assess this facility individually.",
+        "credit": "Tedder / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-fci-sheridan-overhead-2024",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/fci-sheridan/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "BJS says the federal prison population declined about 1% in 2024, with 154,093 people in custody at year-end.",
+        "index": true,
+        "title": "Federal prison population fell to 154,093 in 2024"
+      },
+      "section": "crime-justice",
+      "slug": "federal-prison-population-first-step-act-statistics-2024",
+      "social": {
+        "description": "The latest First Step Act statistical report also counted 8,202 veterans and 21,948 non-U.S. citizens in federal facilities.",
+        "image": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/fci-sheridan/open-graph.webp",
+        "title": "Federal Prison Population Fell 1% to 154,093 at End of 2024"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Federal prisons",
+        "First Step Act",
+        "Prison population",
+        "Veterans",
+        "Correctional data"
+      ],
+      "uncertainty": [
+        "The reference year is 2024, so the report is not a live 2026 custody count.",
+        "The aggregate annual report does not identify a single cause for the population decline."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "A searchable Japanese-language catalog now gives researchers direct access to the Smithsonian's fully digitized Pulverer Collection of rare Japanese illustrated books.\n\nThe National Museum of Asian Art launched the resource with Japan's National Institute of Japanese Literature as the institutions renewed a partnership that began in 2020.\n\nThe collection contains more than 900 titles in almost 2,200 volumes. The books range from the early 17th century through the 1970s, with a concentration in illustrated works produced during and after Japan's Edo period.\n\nThe digital collection was already comprehensive but available only in English. The museum supplied images and metadata for integration into the Japanese institute's database, removing a language barrier for scholars, students and other readers.\n\nGerhard and Rosemarie Pulverer assembled the books over about 30 years. The Smithsonian acquired the full collection in 2007 and describes it as one of the strongest collections of Japanese illustrated books outside Japan.\n\nThe resource supports comparative study because researchers can search Japanese-language descriptions alongside images and bibliographic information. Digitization expands access without requiring the physical volumes to travel.\n\nThe renewed agreement also calls for the Japanese institute to share expertise in digitization and databases. The museum frames the work as infrastructure for joint research rather than a one-time translation project.\n\nOnline access does not replace conservation or examination of original materials. Color, paper, binding, scale and physical evidence can require direct study under museum handling rules.\n\nThe release did not provide traffic, research-output or user-adoption targets. The immediate, verifiable change is that a collection once searchable only in English can now be queried in Japanese through a partner platform.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "A searchable Japanese-language catalog now gives researchers direct access to the Smithsonian's fully digitized Pulverer Collection of rare Japanese illustrated books."
+        },
+        {
+          "type": "paragraph",
+          "text": "The National Museum of Asian Art launched the resource with Japan's National Institute of Japanese Literature as the institutions renewed a partnership that began in 2020."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-pulverer-collection-scale-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/collection-scale/four-three.webp",
+          "alt": "Graphic lists more than 900 titles, almost 2,200 volumes and a date range from the early 1600s to the 1970s.",
+          "caption": "The Pulverer Collection contains more than 900 titles in almost 2,200 volumes, spanning the early 1600s through the 1970s.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-renews-partnership-national-institute-japanese"
+        },
+        {
+          "type": "paragraph",
+          "text": "The collection contains more than 900 titles in almost 2,200 volumes. The books range from the early 17th century through the 1970s, with a concentration in illustrated works produced during and after Japan's Edo period."
+        },
+        {
+          "type": "paragraph",
+          "text": "The digital collection was already comprehensive but available only in English. The museum supplied images and metadata for integration into the Japanese institute's database, removing a language barrier for scholars, students and other readers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gerhard and Rosemarie Pulverer assembled the books over about 30 years. The Smithsonian acquired the full collection in 2007 and describes it as one of the strongest collections of Japanese illustrated books outside Japan."
+        },
+        {
+          "type": "paragraph",
+          "text": "The resource supports comparative study because researchers can search Japanese-language descriptions alongside images and bibliographic information. Digitization expands access without requiring the physical volumes to travel."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-pulverer-catalog-access-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/access-change/four-three.webp",
+          "alt": "Graphic shows a searchable catalog expanding from English to English and Japanese access.",
+          "caption": "The fully digitized catalog is now searchable in Japanese as well as English through the partner institutions' online systems.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-renews-partnership-national-institute-japanese"
+        },
+        {
+          "type": "paragraph",
+          "text": "The renewed agreement also calls for the Japanese institute to share expertise in digitization and databases. The museum frames the work as infrastructure for joint research rather than a one-time translation project."
+        },
+        {
+          "type": "paragraph",
+          "text": "Online access does not replace conservation or examination of original materials. Color, paper, binding, scale and physical evidence can require direct study under museum handling rules."
+        },
+        {
+          "type": "paragraph",
+          "text": "The release did not provide traffic, research-output or user-adoption targets. The immediate, verifiable change is that a collection once searchable only in English can now be queried in Japanese through a partner platform."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/smithsonian-pulverer-japanese-books-digital-catalog/",
+      "citations": [
+        {
+          "id": "source-smithsonian-pulverer-japanese-catalog-20260630",
+          "title": "National Museum of Asian Art Renews Partnership With National Institute of Japanese Literature, Expands Digital Access to Rare Books",
+          "publisher": "Smithsonian Institution",
+          "publishedAt": "2026-06-30T12:00:00Z",
+          "url": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-renews-partnership-national-institute-japanese"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The Pulverer Collection contains more than 900 titles in almost 2,200 volumes.",
+        "The collection spans the early 17th century through the 1970s.",
+        "The catalog was already digitized but had been available only in English.",
+        "The museum supplied images and metadata for a Japanese-language database.",
+        "The institutional partnership began in 2020 and was renewed in 2026."
+      ],
+      "corrections": [],
+      "dek": "The searchable Pulverer Collection resource removes an English-only barrier for researchers studying more than 900 Japanese illustrated-book titles.",
+      "desk": "digital-cultural-collections",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Museum of Asian Art",
+        "National Institute of Japanese Literature",
+        "Smithsonian Institution",
+        "Gerhard Pulverer"
+      ],
+      "eventId": "event-smithsonian-pulverer-japanese-books-digital-catalog",
+      "headline": "Smithsonian Opens Japanese-Language Catalog for 2,200 Rare-Book Volumes",
+      "id": "article-smithsonian-pulverer-japanese-books-digital-catalog",
+      "leadImage": {
+        "alt": "The stone facade and arched entrances of the Freer Gallery face a landscaped walkway.",
+        "caption": "The Freer Gallery of Art, part of the Smithsonian's National Museum of Asian Art, in Washington. Its Pulverer Collection now has a searchable Japanese-language catalog.",
+        "credit": "Quadell / Wikimedia Commons, CC BY-SA 3.0",
+        "height": 900,
+        "rightsId": "media-freer-gallery-exterior-2005",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/freer-gallery/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington, D.C.",
+        "Japan",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The Smithsonian's Pulverer Collection now has a searchable Japanese catalog covering 900-plus titles and nearly 2,200 volumes.",
+        "index": true,
+        "title": "Smithsonian adds Japanese catalog for Pulverer rare books"
+      },
+      "section": "culture",
+      "slug": "smithsonian-pulverer-japanese-books-digital-catalog",
+      "social": {
+        "description": "The searchable Pulverer Collection resource removes an English-only barrier for researchers studying more than 900 Japanese illustrated-book titles.",
+        "image": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/freer-gallery/open-graph.webp",
+        "title": "Smithsonian Opens Japanese-Language Catalog for 2,200 Rare-Book Volumes"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Japanese illustrated books",
+        "Digital archives",
+        "Pulverer Collection",
+        "Museum access",
+        "Literary heritage"
+      ],
+      "uncertainty": [
+        "The announcement did not publish usage targets or adoption data for the new catalog.",
+        "Digital images and metadata do not reproduce every physical property of the original books."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Office of Personnel Management has eight recommendations that the Government Accountability Office considers high priority for 2026, centered on improper payments, technology management and the federal workforce.\n\nGAO had identified 14 priority recommendations in August 2025. OPM implemented three, and the watchdog removed priority status from three others in July, leaving eight still designated for senior attention.\n\nThe largest quantified opportunity involves federal employee health benefits. GAO says stronger action on eligibility could prevent up to an estimated $1 billion a year in improper payments for people who are not eligible for coverage.\n\nAn estimate of preventable payments is not a confirmed annual loss. Realized savings would depend on the accuracy of eligibility data, implementation costs, corrective action and how many improper payments controls actually stop.\n\nGAO also pointed to duplicative or unnecessary software licenses. Better inventory and management practices could reduce costs while giving OPM a clearer view of the systems it buys and operates.\n\nThe workforce recommendations focus on the government's ability to recruit and retain talent. OPM is the central federal human-resources agency, so weaknesses in its policies and systems can affect agencies beyond its own staff.\n\nPriority recommendations are a selected subset of GAO's open work. The designation reflects potential savings, risk reduction, improved decisions or progress on government-wide management problems; it does not mean other open recommendations are closed.\n\nGAO has sent these letters to agency leaders since 2015 and tracks implementation separately. A recommendation remains open until the watchdog verifies that corrective action adequately addresses it.\n\nThe new count records movement but not completion: three recommendations were implemented, yet eight remain priority items. The next evidence will be documented OPM controls and GAO's assessment of whether they produce the intended results.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Office of Personnel Management has eight recommendations that the Government Accountability Office considers high priority for 2026, centered on improper payments, technology management and the federal workforce."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO had identified 14 priority recommendations in August 2025. OPM implemented three, and the watchdog removed priority status from three others in July, leaving eight still designated for senior attention."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-opm-priority-recommendation-count-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/count/four-three.webp",
+          "alt": "Graphic shows 14 prior recommendations, three implemented, three reprioritized and eight remaining.",
+          "caption": "OPM implemented three of 14 prior priority recommendations; GAO removed priority status from three others, leaving eight.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108989"
+        },
+        {
+          "type": "paragraph",
+          "text": "The largest quantified opportunity involves federal employee health benefits. GAO says stronger action on eligibility could prevent up to an estimated $1 billion a year in improper payments for people who are not eligible for coverage."
+        },
+        {
+          "type": "paragraph",
+          "text": "An estimate of preventable payments is not a confirmed annual loss. Realized savings would depend on the accuracy of eligibility data, implementation costs, corrective action and how many improper payments controls actually stop."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO also pointed to duplicative or unnecessary software licenses. Better inventory and management practices could reduce costs while giving OPM a clearer view of the systems it buys and operates."
+        },
+        {
+          "type": "paragraph",
+          "text": "The workforce recommendations focus on the government's ability to recruit and retain talent. OPM is the central federal human-resources agency, so weaknesses in its policies and systems can affect agencies beyond its own staff."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-opm-priority-areas-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/areas/four-three.webp",
+          "alt": "Graphic lists three priority areas and up to one billion dollars in potential annual savings.",
+          "caption": "GAO highlighted improper-payment prevention, IT management and federal workforce management, including up to $1 billion in potential annual health-benefit savings.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108989"
+        },
+        {
+          "type": "paragraph",
+          "text": "Priority recommendations are a selected subset of GAO's open work. The designation reflects potential savings, risk reduction, improved decisions or progress on government-wide management problems; it does not mean other open recommendations are closed."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO has sent these letters to agency leaders since 2015 and tracks implementation separately. A recommendation remains open until the watchdog verifies that corrective action adequately addresses it."
+        },
+        {
+          "type": "paragraph",
+          "text": "The new count records movement but not completion: three recommendations were implemented, yet eight remain priority items. The next evidence will be documented OPM controls and GAO's assessment of whether they produce the intended results."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-opm-eight-priority-recommendations-2026/",
+      "citations": [
+        {
+          "id": "source-gao-opm-priority-recommendations-20260729",
+          "title": "Priority Open Recommendations: Office of Personnel Management",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-07-29T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-108989"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "GAO identified eight priority recommendations for OPM in July 2026.",
+        "OPM implemented three of the 14 priorities identified in August 2025.",
+        "GAO removed priority status from three additional recommendations.",
+        "GAO highlighted improper payments, IT management and workforce management.",
+        "Eligibility controls could prevent up to an estimated $1 billion per year in improper health-benefit payments."
+      ],
+      "corrections": [],
+      "dek": "The watchdog says stronger eligibility checks could prevent up to $1 billion a year in health-benefit improper payments, alongside IT and workforce reforms.",
+      "desk": "federal-personnel-management",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Office of Personnel Management",
+        "Federal Employees Health Benefits Program"
+      ],
+      "eventId": "event-gao-opm-eight-priority-recommendations-2026",
+      "headline": "GAO Leaves OPM With Eight Priority Recommendations for 2026",
+      "id": "article-gao-opm-eight-priority-recommendations-2026",
+      "leadImage": {
+        "alt": "A broad concrete federal office building with a grid of windows stands behind landscaped grounds.",
+        "caption": "The Theodore Roosevelt Federal Building houses the Office of Personnel Management in Washington. GAO identified eight recommendations warranting priority attention in 2026.",
+        "credit": "U.S. General Services Administration",
+        "height": 900,
+        "rightsId": "media-opm-theodore-roosevelt-building-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/opm-building/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Washington, D.C.",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "OPM has eight GAO priority recommendations covering improper payments, IT management and the federal workforce.",
+        "index": true,
+        "title": "GAO lists eight priority recommendations for OPM in 2026"
+      },
+      "section": "politics",
+      "slug": "gao-opm-eight-priority-recommendations-2026",
+      "social": {
+        "description": "The watchdog says stronger eligibility checks could prevent up to $1 billion a year in health-benefit improper payments, alongside IT and workforce reforms.",
+        "image": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/opm-building/open-graph.webp",
+        "title": "GAO Leaves OPM With Eight Priority Recommendations for 2026"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Office of Personnel Management",
+        "Federal workforce",
+        "Improper payments",
+        "IT management",
+        "Government oversight"
+      ],
+      "uncertainty": [
+        "The $1 billion figure is an estimate of potential prevention, not a confirmed annual loss or guaranteed saving.",
+        "Removing priority status does not necessarily mean an underlying recommendation was implemented or closed."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Eighty of 117 federal cybersecurity regulations had the same type of reporting requirement as at least one other rule, creating potential duplication for companies that operate critical infrastructure, according to GAO.\n\nThe watchdog's inventory covered rules issued by 37 federal agencies across nine critical-infrastructure sectors. Roughly 70% contained a reporting category that appeared elsewhere in the regulatory set.\n\nA shared category does not automatically prove that two rules conflict or require an identical filing. GAO used it as a screen for potential duplication that may impose redundant or inconsistent duties on regulated entities.\n\nRequirements can apply at different moments and for different purposes. Companies may have to report incidents, disclose cybersecurity plans, document risk management or notify agencies and investors under separate authorities.\n\nGAO cited Securities and Exchange Commission requirements for public companies as one example that can overlap with sector-specific obligations. An entity operating in more than one regulated role can face several reporting clocks and formats.\n\nMost U.S. critical-infrastructure information systems are privately owned, while federal agencies regulate distinct safety, financial, communications and security missions. That divided authority helps explain why reporting rules accumulated across agencies.\n\nThe administration intends to issue an implementation plan to streamline cybersecurity regulation. GAO's inventory supplies a baseline for that work but does not itself repeal, consolidate or suspend any requirement.\n\nStreamlining also carries a tradeoff: a filing that looks duplicative to a company may provide different information to agencies with different mandates. Any consolidation must preserve the timeliness and detail needed for response and oversight.\n\nThe report's practical test is therefore narrower than the headline count. Regulators must determine which of the 80 flagged rules can share definitions, forms or submission channels without creating gaps in public protection.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Eighty of 117 federal cybersecurity regulations had the same type of reporting requirement as at least one other rule, creating potential duplication for companies that operate critical infrastructure, according to GAO."
+        },
+        {
+          "type": "paragraph",
+          "text": "The watchdog's inventory covered rules issued by 37 federal agencies across nine critical-infrastructure sectors. Roughly 70% contained a reporting category that appeared elsewhere in the regulatory set."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-cyber-regulation-inventory-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/regulation-inventory/four-three.webp",
+          "alt": "Graphic lists 117 regulations, 37 federal agencies and nine critical-infrastructure sectors.",
+          "caption": "GAO identified 117 cybersecurity regulations issued by 37 agencies across nine critical-infrastructure sectors.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108606"
+        },
+        {
+          "type": "paragraph",
+          "text": "A shared category does not automatically prove that two rules conflict or require an identical filing. GAO used it as a screen for potential duplication that may impose redundant or inconsistent duties on regulated entities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Requirements can apply at different moments and for different purposes. Companies may have to report incidents, disclose cybersecurity plans, document risk management or notify agencies and investors under separate authorities."
+        },
+        {
+          "type": "paragraph",
+          "text": "GAO cited Securities and Exchange Commission requirements for public companies as one example that can overlap with sector-specific obligations. An entity operating in more than one regulated role can face several reporting clocks and formats."
+        },
+        {
+          "type": "paragraph",
+          "text": "Most U.S. critical-infrastructure information systems are privately owned, while federal agencies regulate distinct safety, financial, communications and security missions. That divided authority helps explain why reporting rules accumulated across agencies."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-gao-cyber-reporting-overlap-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/reporting-overlap/four-three.webp",
+          "alt": "Graphic shows 80 of 117 cybersecurity regulations, about 70 percent, shared a reporting type.",
+          "caption": "Eighty regulations, about 70% of the inventory, had the same type of reporting requirement as at least one other regulation.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.gao.gov/products/gao-26-108606"
+        },
+        {
+          "type": "paragraph",
+          "text": "The administration intends to issue an implementation plan to streamline cybersecurity regulation. GAO's inventory supplies a baseline for that work but does not itself repeal, consolidate or suspend any requirement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Streamlining also carries a tradeoff: a filing that looks duplicative to a company may provide different information to agencies with different mandates. Any consolidation must preserve the timeliness and detail needed for response and oversight."
+        },
+        {
+          "type": "paragraph",
+          "text": "The report's practical test is therefore narrower than the headline count. Regulators must determine which of the 80 flagged rules can share definitions, forms or submission channels without creating gaps in public protection."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/gao-overlapping-cybersecurity-reporting-rules-2026/",
+      "citations": [
+        {
+          "id": "source-gao-cybersecurity-regulations-20260722",
+          "title": "Cybersecurity Regulations: Multiple Sectors Are Subject to Potentially Duplicative Reporting Requirements",
+          "publisher": "U.S. Government Accountability Office",
+          "publishedAt": "2026-07-22T12:00:00Z",
+          "url": "https://www.gao.gov/products/gao-26-108606"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "GAO identified 117 federal cybersecurity regulations.",
+        "The regulations came from 37 federal agencies.",
+        "The inventory spanned nine critical-infrastructure sectors.",
+        "Eighty regulations shared a reporting type with another regulation.",
+        "The 80 flagged rules represented about 70% of the inventory."
+      ],
+      "corrections": [],
+      "dek": "The watchdog identified 117 rules from 37 agencies across nine critical-infrastructure sectors and said roughly 70% shared a reporting type with another rule.",
+      "desk": "cybersecurity-regulatory-coordination",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. Government Accountability Office",
+        "Securities and Exchange Commission",
+        "Office of the National Cyber Director",
+        "Congress"
+      ],
+      "eventId": "event-gao-overlapping-cybersecurity-reporting-rules-2026",
+      "headline": "GAO Finds Overlapping Reporting Duties in 80 Cybersecurity Regulations",
+      "id": "article-gao-overlapping-cybersecurity-reporting-rules-2026",
+      "leadImage": {
+        "alt": "Analysts work at computer stations beneath large information displays in a cyber operations center.",
+        "caption": "Sailors stand watch at U.S. Fleet Cyber Command in Maryland in 2017. GAO's review covers civilian critical-infrastructure cybersecurity regulations, not this military operations center.",
+        "credit": "Petty Officer 1st Class Samuel Souvannason / U.S. Navy",
+        "height": 900,
+        "rightsId": "media-fleet-cyber-operations-center-2018",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/fleet-cyber-ops/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "GAO found 80 of 117 federal cybersecurity regulations shared a reporting type, raising potential duplication across critical sectors.",
+        "index": true,
+        "title": "GAO flags overlap in 80 cybersecurity reporting regulations"
+      },
+      "section": "technology",
+      "slug": "gao-overlapping-cybersecurity-reporting-rules-2026",
+      "social": {
+        "description": "The watchdog identified 117 rules from 37 agencies across nine critical-infrastructure sectors and said roughly 70% shared a reporting type with another rule.",
+        "image": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/fleet-cyber-ops/open-graph.webp",
+        "title": "GAO Finds Overlapping Reporting Duties in 80 Cybersecurity Regulations"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Cybersecurity regulation",
+        "Critical infrastructure",
+        "Incident reporting",
+        "Federal agencies",
+        "Regulatory overlap"
+      ],
+      "uncertainty": [
+        "Having the same reporting type signals potential duplication but does not by itself establish a legal conflict.",
+        "The announced federal streamlining plan was not yet a completed implementation program in GAO's report."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The National Science Foundation is investing $47 million over five years in a pilot designed to move more than 250 STEM doctoral students through four-year programs that include dissertation research at company sites.\n\nNearly three dozen universities and private-sector partners have made additional commitments, according to NSF. The University-Industry Demonstration Partnership will lead the program, called the Industry-Integrated Ph.D. Scholars Program.\n\nThe first cohort is scheduled to enter graduate school in fall 2026, with larger cohorts planned later if partners and program capacity are ready. A scheduled start is not a completion result, and the four-year target will require follow-up data.\n\nUniversities will provide each student's first year of funding. NSF will cover the remaining years, while industry partners commit support for at least one year of practical dissertation research at a company site.\n\nStudents will have academic and industry co-advisers. NSF says the company experience must be integrated into dissertation work while preserving academic rigor, rather than operating as a separate internship disconnected from the degree.\n\nThe design responds to employment patterns outside academia. Among STEM doctorate recipients reporting definite postgraduation employment, more than 65% in engineering, physical sciences, computer science and information sciences were headed to industry, NSF said.\n\nThat percentage applies to graduates with definite job commitments in the named fields, not every doctoral student or every STEM discipline. It should not be read as a prediction for participants in this pilot.\n\nThe program's evidence milestones will include enrollment, time to degree, dissertation quality, industry placements, completion and student outcomes. NSF said results from the initial cohort will inform whether the model is expanded.\n\nThe investment tests a specific funding and mentorship structure; it does not establish that four years is the right duration for every doctorate. Research scope, field norms, personal circumstances and laboratory timelines vary widely.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The National Science Foundation is investing $47 million over five years in a pilot designed to move more than 250 STEM doctoral students through four-year programs that include dissertation research at company sites."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nearly three dozen universities and private-sector partners have made additional commitments, according to NSF. The University-Industry Demonstration Partnership will lead the program, called the Industry-Integrated Ph.D. Scholars Program."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nsf-industry-integrated-phd-scale-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/pilot-scale/four-three.webp",
+          "alt": "Graphic lists 47 million dollars, five years, more than 250 students and nearly three dozen partners.",
+          "caption": "NSF committed $47 million over five years for more than 250 doctoral students, with participation from nearly three dozen universities and companies.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first cohort is scheduled to enter graduate school in fall 2026, with larger cohorts planned later if partners and program capacity are ready. A scheduled start is not a completion result, and the four-year target will require follow-up data."
+        },
+        {
+          "type": "paragraph",
+          "text": "Universities will provide each student's first year of funding. NSF will cover the remaining years, while industry partners commit support for at least one year of practical dissertation research at a company site."
+        },
+        {
+          "type": "paragraph",
+          "text": "Students will have academic and industry co-advisers. NSF says the company experience must be integrated into dissertation work while preserving academic rigor, rather than operating as a separate internship disconnected from the degree."
+        },
+        {
+          "type": "paragraph",
+          "text": "The design responds to employment patterns outside academia. Among STEM doctorate recipients reporting definite postgraduation employment, more than 65% in engineering, physical sciences, computer science and information sciences were headed to industry, NSF said."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nsf-industry-integrated-phd-funding-2026",
+          "src": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/funding-model/four-three.webp",
+          "alt": "Graphic shows university funding in year one, NSF funding afterward and at least one year of industry research.",
+          "caption": "Universities fund year one, NSF covers the remaining years and industry partners commit at least one year of company-site dissertation research.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four"
+        },
+        {
+          "type": "paragraph",
+          "text": "That percentage applies to graduates with definite job commitments in the named fields, not every doctoral student or every STEM discipline. It should not be read as a prediction for participants in this pilot."
+        },
+        {
+          "type": "paragraph",
+          "text": "The program's evidence milestones will include enrollment, time to degree, dissertation quality, industry placements, completion and student outcomes. NSF said results from the initial cohort will inform whether the model is expanded."
+        },
+        {
+          "type": "paragraph",
+          "text": "The investment tests a specific funding and mentorship structure; it does not establish that four years is the right duration for every doctorate. Research scope, field norms, personal circumstances and laboratory timelines vary widely."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nsf-four-year-phd-industry-research-pilot-2026/",
+      "citations": [
+        {
+          "id": "source-nsf-four-year-phd-pilot-20260729",
+          "title": "NSF partners with universities and industry on pilot initiative for four-year Ph.D. programs with real-world research placements",
+          "publisher": "U.S. National Science Foundation",
+          "publishedAt": "2026-07-29T12:00:00Z",
+          "url": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "NSF announced a $47 million investment over five years.",
+        "The pilot is designed for more than 250 doctoral students.",
+        "Nearly three dozen universities and companies have made additional commitments.",
+        "The first cohort is scheduled to enter in fall 2026.",
+        "Industry partners will support at least one year of company-site dissertation research."
+      ],
+      "corrections": [],
+      "dek": "More than 250 doctoral students will combine university study with company-site dissertation work under a five-year test beginning in fall 2026.",
+      "desk": "graduate-education-workforce",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "U.S. National Science Foundation",
+        "University-Industry Demonstration Partnership",
+        "White House Office of Science and Technology Policy"
+      ],
+      "eventId": "event-nsf-four-year-phd-industry-research-pilot-2026",
+      "headline": "NSF Puts $47 Million Into Four-Year Ph.D. Pilot With Industry Research",
+      "id": "article-nsf-four-year-phd-industry-research-pilot-2026",
+      "leadImage": {
+        "alt": "A multistory university engineering laboratory stands behind trees under a clear sky.",
+        "caption": "The Engineering Laboratory at the University of Massachusetts Amherst. The photograph illustrates U.S. university research infrastructure; it does not identify a participant in NSF's new doctoral pilot.",
+        "credit": "Kevin Rutherford / Wikimedia Commons, CC BY-SA 4.0",
+        "height": 900,
+        "rightsId": "media-umass-engineering-lab-2011",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/engineering-lab/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NSF's $47 million pilot will give 250-plus STEM doctoral students industry research placements in a four-year degree model.",
+        "index": true,
+        "title": "NSF launches $47 million four-year Ph.D. industry pilot"
+      },
+      "section": "us",
+      "slug": "nsf-four-year-phd-industry-research-pilot-2026",
+      "social": {
+        "description": "More than 250 doctoral students will combine university study with company-site dissertation work under a five-year test beginning in fall 2026.",
+        "image": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/engineering-lab/open-graph.webp",
+        "title": "NSF Puts $47 Million Into Four-Year Ph.D. Pilot With Industry Research"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Doctoral education",
+        "STEM workforce",
+        "Industry research",
+        "Graduate funding",
+        "University partnerships"
+      ],
+      "uncertainty": [
+        "The four-year completion model is a pilot and has not yet produced outcome data.",
+        "Later cohort size and expansion depend on partner readiness and program capacity."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-11T01:59:06.090Z",
+  "generatedAt": "2026-08-11T02:37:13.676Z",
   "inputHashes": {
+    "sourceItems": "97aa8051050c020750146b60fa3c05b336d64c3f1af1881c49260e097ad2c30e",
+    "events": "11c4cb3f3f82393ecfcc72c813531b6759a2a26685afac02580a86bfb56e0fbb",
+    "claims": "1a730afc04bb315f2ce5e2850a9bfe577d27595ffcc1fab2173eaea330c83ed7",
+    "articles": "737483390916a946ac66d5fe6976ec28da83c5ac184c9131a59abbbc095d99e8",
     "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
-    "articles": "be332b158eac6fe0d03a33639ad8fcfc00df84251de7fb10833c646f680580eb",
-    "claims": "d0380acbf65a4842a45a9fb7458ade8880067de1ce13181c3618f72ff7fa8f3f",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "979c32d3a1b57da11806365b91954423bf805c8eda9d035cccf444d795abfe80",
-    "mediaRights": "3b8451052613ea280514c6c551928896ff6291bebf52f81d16cc99c4f9573c6c",
-    "publicationIntents": "2b714e4eca861f5bf8d686921bca2687a6561f7a46684a1fc7bd372fbeb2245c",
+    "mediaRights": "8712138133ed9bb3d08102f0b0ba4ea1e6957303390e17bc7073867e43e1bb7b",
     "releaseRecords": "920ea782ac1e02014aaab71d963a12a314b4d1c60852529064a4d2cee5713ac2",
-    "sourceItems": "7720dfcf65f7febee337cf7d628a22933332e676fa2d74e2dd44f74408404975"
+    "publicationIntents": "5293b7b9ed1c1cf9658ed6acca4f9b99cbf12c383377bd28b4aaae6b40b47599"
   },
   "inventory": {
-    "articleCount": 261,
-    "mediaCount": 769,
-    "routeCount": 261
+    "articleCount": 267,
+    "routeCount": 267,
+    "mediaCount": 787
   },
   "mediaRights": [
     {
@@ -102188,9 +103079,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.mlb.com/press-release/press-release-mlb-completes-first-day-of-2026-draft-presented-by-nippon-express"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Workers in protective gear operate heavy equipment at a fenced nuclear cleanup site.",
+      "archivalStatus": "current",
+      "attribution": "U.S. Department of Energy",
+      "caption": "Workers remove contaminated material during a Hanford Site cleanup project. GAO reviewed the Energy Department's newer end-state contracting model across cleanup sites.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "U.S. Department of Energy",
+      "derivatives": [
+        {
+          "hash": "f86cc4a3601f803f4b65a04ab615aa76c87508db51d62c110bbbae4e09752e3a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/hanford-cleanup-workers/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "794e982a1ec6959660abc31c541bcc9f911d67bd838c948fdba54bfa8d7a311e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/hanford-cleanup-workers/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "223a34fa4f64adb1e2d205a831ec00788cd6249ae2946425029e9ecfeb4ef8e8",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/hanford-cleanup-workers/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1b00fb656a40280f394b2f760068b8ad8897e380a4276619dfd2908efb2243af",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/hanford-cleanup-workers/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b4c6aee18e07930f7f6ccb5a0c938c1573911b28b81cef115e22241996bb39e8",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/hanford-cleanup-workers/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "331da903daa90d2ad03a23fcee62e550c96f228382e4b8330b301ae1750a721c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/hanford-cleanup-workers/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4dc81d4f4994c6dd677c1632cfdd1af38d4d4158ca1cf403407484dc128b8ed2",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/hanford-cleanup-workers/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-hanford-cleanup-workers-2010",
+      "illustrationLabel": null,
+      "license": "U.S. government public domain",
+      "originalFileHash": "662d18243854fe5130c3cb831fd886f575bbefbb631b7c9c5da8ac807b340919",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Photograph made by a U.S. Department of Energy employee as part of official duties and identified as public domain on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Workers_Clean_Up_Land,_Remove_Waste_in_Hanford_Site_Recovery_Act_Projects_(7442922916).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 57 task orders, nine contracts and 29 orders with defined end states.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "DOE had awarded 57 task orders across nine end-state contracts by March 31, 2025; 29 defined an end state.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "433f2d84879097118439bfca65e39487e1701cee566a2246b22641fe00e9ff60",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/task-order-counts/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c03664175dcfc8db19cd140f919f286d1e7f918f50c10c0f4485ab3d1f377810",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/task-order-counts/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0798108eb8235af32ffc203a89ec77481aab540289a7163a71d0fef82da44632",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/task-order-counts/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "4acb552298c14ff46de94416736e5c86be02f5df2595e5b5b576d1e8f9f3436c",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/task-order-counts/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d3475244d3a4e0735920c33d9b90c5b813c01e68379974b5477b98f9f025084a",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/task-order-counts/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "872d140c0f3847ec58497e90fb9aee3c3655782f62d4621ecd0944b587da14f4",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/task-order-counts/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "816fb29db6f80506024c454af86cca7b20e6b7f45bc1438d31a5b4ba943979d6",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/task-order-counts/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-doe-end-state-task-order-counts-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "4acb552298c14ff46de94416736e5c86be02f5df2595e5b5b576d1e8f9f3436c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107745"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows more than 500 million dollars in cost growth and six GAO recommendations.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO traced more than $500 million in cost growth to post-award changes and issued six recommendations to improve oversight and cost control.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "355d45c498ec0c6688d84b62fe4c048b8d426b1ec9712fdf2a66c11dadfb3d22",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/cost-growth/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "ac6e949e5f9d472e07511257ff982e28b7813c5628fb4c4b6bbef4e87703fdbe",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/cost-growth/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "10a223f479dfafc90094d72f977533256283f82753415004a5628f4e8a4484f9",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/cost-growth/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "31cad487d3f8172dd202d4e79af69a666a728bb7f1ab3f86d9cdc5bca5846df9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/cost-growth/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6bd5c163e22b8a5e174c378c0cedfd8aa7a2ef7a58d6d263e606054133b08c70",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/cost-growth/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "6599d53d35ee0242d569a72ef3245e4191d6accfd43977072a1582f1fce6c2b2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/cost-growth/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4b7e3945441c84154a0ddad2a227e8cc054d624cb77ce8c0be79e93304493941",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/doe-end-state-contracts/cost-growth/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-doe-end-state-cost-growth-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "31cad487d3f8172dd202d4e79af69a666a728bb7f1ab3f86d9cdc5bca5846df9",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-107745"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "An aerial view shows a large federal correctional complex surrounded by fields and roads.",
+      "archivalStatus": "current",
+      "attribution": "Tedder / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "Federal Correctional Institution Sheridan in Oregon, photographed from the air in 2024. BJS's national report aggregates federal prison statistics and does not assess this facility individually.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Tedder",
+      "derivatives": [
+        {
+          "hash": "26762bc5e9a1fe7c5d29fa529d9b2ed9765f467538c59110a1bfed8b0e77206a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/fci-sheridan/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "0fc9548e0805c52b7a51aa5b8b04606a43604da342a9a2608aff02e688267445",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/fci-sheridan/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d9dfcf4c5b0bd168896df68a6104d84f00fd2f26f59c0401715fef93728b3c62",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/fci-sheridan/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f4a618616fcc68b5a08f9263afa41f097f6428b8aa6058681df35e0d57c892c8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/fci-sheridan/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "940d296dd15a0d7b856906eda0d6ea51c04ed66a50d8e33e9c0ac26f7fe507fa",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/fci-sheridan/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ed7d4a2004d47c8f8634b17d1f546c6916a5003cf9e2131f0e781b4b1c4328fa",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/fci-sheridan/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2f44019b4106024224922e037cd8ed851722c8da84e0b608d94fb54ef3a8646d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/fci-sheridan/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-fci-sheridan-overhead-2024",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "c37c797005155aabfc9ed0931367c5e67e313afb846413e7ccab1e5cab6e5afd",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 4.0 license granted by the photographer on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Federal_Correctional_Institution_Sheridan_overhead_view.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the federal prison population falling from 155,972 to 154,093.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The federal prison population declined from 155,972 at year-end 2023 to 154,093 at year-end 2024, about 1%.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "9e448959ed6f2f7d13c0688ca7c122ea7076bf6be0aa7e570f415530ee8a2874",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/population-change/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "72e3cc05a37a94a1f5bc631fde34c3f81bb1923a6bba9c106e4249a1f6239c68",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/population-change/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "25c038cdb5d3af9f7fc9bb1f5766566db6e6b6b353ce9faf136ac5ffb844c10a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/population-change/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ceb6b21b5c21aff7cb87b3b98e802c24ba54882c1aaec54ddbc1f01e9d7bfbba",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/population-change/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "157281b7fc3dc310a15cdaffb3fefbd2dca3a452f2acbaf5b170e2d1be55258e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/population-change/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f2edc861aa6f35456a3594890f8482300380fb5238cf037d96e5cb0d3e8ad08b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/population-change/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7a7bc18a73d10dfc1de208f70c33a4e1eca4ff5add9a5b0982a27fe0706d1495",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/population-change/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-prison-population-change-2024",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "ceb6b21b5c21aff7cb87b3b98e802c24ba54882c1aaec54ddbc1f01e9d7bfbba",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bjs.ojp.gov/library/publications/federal-prisoner-statistics-collected-under-first-step-act-2025"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 8,202 people with military service and 21,948 non-U.S. citizens in federal prison.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "At year-end 2024, BJS counted 8,202 people with prior military service and 21,948 non-U.S. citizens in federal prison.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "1714888925cf72d65a1d8669cd4e5c0958303512a57aac4495cbaf9eda403b44",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/selected-characteristics/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1ebd0c187b3dcde28dd13e2b1378b906ed5672260f2c2130b3adacde7a329d3d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/selected-characteristics/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c7dbc5471d965b7066f3cc06af31f8c07fe35e2831f6460d6107d6bb4d22cead",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/selected-characteristics/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a0b30e0832f2b51183a0c0d2fb4d60457d1a2735f469ec40381def4da4352d5b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/selected-characteristics/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "573c38782c62740c4cce0c78ac4364ff78a318b5c9577914ddf07256d189a48e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/selected-characteristics/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "e111c9684ce7122e9e79a90f1a23055c512d60028a641155820c25f1bdca5c71",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/selected-characteristics/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7f2c46e6d8f2487df0ffab78fc8b9329a59c5b3756b6cd7b93ecad0766016959",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/first-step-act-prisoners/selected-characteristics/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-federal-prison-selected-characteristics-2024",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "a0b30e0832f2b51183a0c0d2fb4d60457d1a2735f469ec40381def4da4352d5b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bjs.ojp.gov/library/publications/federal-prisoner-statistics-collected-under-first-step-act-2025"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "The stone facade and arched entrances of the Freer Gallery face a landscaped walkway.",
+      "archivalStatus": "current",
+      "attribution": "Quadell / Wikimedia Commons, CC BY-SA 3.0",
+      "caption": "The Freer Gallery of Art, part of the Smithsonian's National Museum of Asian Art, in Washington. Its Pulverer Collection now has a searchable Japanese-language catalog.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Quadell",
+      "derivatives": [
+        {
+          "hash": "4c3b8533349ff24ae70d9e2c605e4d3dab61e2124085654f4d3493bba023a7fa",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/freer-gallery/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d34d80edfc02d384fcb35244c22d5f167a3a7a06a18e37a00a05be42748ec9e7",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/freer-gallery/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "25821fe39e377fede261da369eef62be4f7aa339a62d407da413a09aa2aec97b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/freer-gallery/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c4b2354d3e7b24161d6e3926ef9516b2c7f03eebb16347674319c1d912473a79",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/freer-gallery/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "75026a750a812df97566629f6521ff9f2a6373c33d6c05bebefc0dcea874e8a2",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/freer-gallery/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "eeee16c5990bc953dd889ad4df8197636311f9166b8d604c9d7ea695ec932478",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/freer-gallery/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5d36602cbd2fc2f8f36a5dff8fe55017915ba3e5df45fdad6c64f5dedc0880f3",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/freer-gallery/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-freer-gallery-exterior-2005",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 3.0",
+      "originalFileHash": "749546645403b4b5680228647a3c7eda57535aa42c8b191393fa227ec805b23c",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 3.0 license granted by the photographer on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freer_Gallery_1.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists more than 900 titles, almost 2,200 volumes and a date range from the early 1600s to the 1970s.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The Pulverer Collection contains more than 900 titles in almost 2,200 volumes, spanning the early 1600s through the 1970s.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "22d84b27c3e1dd9c039821b9730f3c232cae892c1854e03292b1ec4184fdd412",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/collection-scale/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "c014281030e8dfb7e22561474d303fce5fde197217712bc12366970f4cb57d9e",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/collection-scale/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "937f1799dc95d74d0e3b0e99f595b83e00fd1538c948e235b37d0dc7706c3431",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/collection-scale/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e63cf002b37411f690b411be9903e897c1fe611ec81a745e1b1e3c358bc82938",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/collection-scale/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "49eeb59c9dadd15357fa5c2895b7f3fa2daa0a66266d434e0662e725842d1f5c",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/collection-scale/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "9227a06a12e763aa0e49137f1ac51b1917fc5a6a67c44089fa423e94c3b58b70",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/collection-scale/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "175d5e34ed5734714cc014208c05fe9ef63ec130563459410be0e5c184017da0",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/collection-scale/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-pulverer-collection-scale-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "e63cf002b37411f690b411be9903e897c1fe611ec81a745e1b1e3c358bc82938",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-renews-partnership-national-institute-japanese"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows a searchable catalog expanding from English to English and Japanese access.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The fully digitized catalog is now searchable in Japanese as well as English through the partner institutions' online systems.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d6a3f9f9d0445a70b82c889a612dfd615515bb1b30079607215d57bad1faf9d9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/access-change/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "3ed84cba3615684a1f94502a738ec25a1095d2f009610cd8cfc3fb5949177030",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/access-change/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "6b8ba2a31715af45b648ff41dc5883b0f4ad71bc3a18a839dd29c1de5044e433",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/access-change/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "563889f87e94fa7f57c6031820c6a45febc8710dbf79cf0d5db5c0371cb2a5e8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/access-change/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "75906e031ea9304e922b8ed67c3192a1eae5d130aa2b2e2cf2b2c0f39b9b9ddc",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/access-change/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "60216865c4c44de268b2fc0a2ae3a246eb313e1b5cde139d23d6ab86e269d687",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/access-change/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "135f88d6141eb3a78e19eea994b63e84aa4b4dbb0d816459c869261a21979829",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/pulverer-digital-catalog/access-change/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-pulverer-catalog-access-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "563889f87e94fa7f57c6031820c6a45febc8710dbf79cf0d5db5c0371cb2a5e8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.si.edu/newsdesk/releases/national-museum-asian-art-renews-partnership-national-institute-japanese"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A broad concrete federal office building with a grid of windows stands behind landscaped grounds.",
+      "archivalStatus": "current",
+      "attribution": "U.S. General Services Administration",
+      "caption": "The Theodore Roosevelt Federal Building houses the Office of Personnel Management in Washington. GAO identified eight recommendations warranting priority attention in 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "U.S. General Services Administration",
+      "derivatives": [
+        {
+          "hash": "cc74b49a16d4723d1275b11956f21e939c2a479ca676eab8d128002c46edcb79",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/opm-building/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "0a85c27711c997c0b35da7e5058cbcce67491d39512f686b03aa97753d6a8982",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/opm-building/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0aaceb52f8e788cda6a48cf142f8877451e7f7f0078486113d589462daf0901e",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/opm-building/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8fa666255af9adaffa5953916af165917de85c3effdef2b9389b59b3ae466b20",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/opm-building/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f6b198a11f50495eb310d22ae2d60feb45e5e5f82617de34b9a8f8176654b800",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/opm-building/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "370201b59cce9a7f19564a51bb32b6c46fb4c7ab16860129aeda4ae96aadf42e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/opm-building/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7d9392544026ae1fe25e530bcca3a62e61d4beedcb1748313e71cb38eb66064f",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/opm-building/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-opm-theodore-roosevelt-building-2026",
+      "illustrationLabel": null,
+      "license": "U.S. government public domain",
+      "originalFileHash": "0e4851a3bc38dbe54595ab4fdc85213ef12a0c4f5b21efcf671ba8c20035549a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Photograph published by the U.S. General Services Administration as a federal government work.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gsa.gov/photos/opm-architecture-gallery"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 14 prior recommendations, three implemented, three reprioritized and eight remaining.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "OPM implemented three of 14 prior priority recommendations; GAO removed priority status from three others, leaving eight.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c974839579cb7002d77cf9a8264f0f78ad1a4bc5ccac5cfa5f04b1ea0e238e08",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/count/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "776cc074efb6ada8aebe49dde7e97fcb440ef1c3fea32ad368849a593a660c5f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/count/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0f82cbf438468a5bd5890071383f10ef39ade262218ef874151fb3e891683592",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/count/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "3365b049338244224f139542e92c4588ead01081de1f667fbc210f98ca486c9a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/count/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f7908829d8c44b42018ce1e940e6e2c883e230a4ebdca5be24ca203054667470",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/count/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b32e99ea4fa440b5ea1930a0e4606000067a6dd05eedd8bd1443c0a68a6ea0ad",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/count/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "578ddaacdd9bea5ef09762f867068081188af7ce1be60339cbb8341e29ff75c2",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/count/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-opm-priority-recommendation-count-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "3365b049338244224f139542e92c4588ead01081de1f667fbc210f98ca486c9a",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108989"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists three priority areas and up to one billion dollars in potential annual savings.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO highlighted improper-payment prevention, IT management and federal workforce management, including up to $1 billion in potential annual health-benefit savings.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "4ef66684e28048b541a4c83d22d31b6477aec620b57926afbc17f930fc8001f9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/areas/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1a840fec10c5089bf620714c75750b20102e837b0d0eb84b58179c5a7946ea28",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/areas/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8a5d6d084cf4a575d7a5a6fd79a6204c5e7f311191bcfd05a6aaf0277b07202c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/areas/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "3d7d3dfc1e2ec38f1787db43317b15617d1500fd1f8d12e486f588294406a0ea",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/areas/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e71062a72b0ad7fab84cf95e2fdb5d055ed23e9f14e1b47e4ee2f0bbb451df16",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/areas/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "190c018b31eeb2f7c0c84a86efbcf066cf7b97a5b3180b82bdae979676f696b2",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/areas/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "11a83d21b0fa26cf4d8060e143c0d0bf9472e173c9d38b2dca6d701860cedae7",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/opm-priority-recommendations/areas/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-opm-priority-areas-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "3d7d3dfc1e2ec38f1787db43317b15617d1500fd1f8d12e486f588294406a0ea",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108989"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Analysts work at computer stations beneath large information displays in a cyber operations center.",
+      "archivalStatus": "current",
+      "attribution": "Petty Officer 1st Class Samuel Souvannason / U.S. Navy",
+      "caption": "Sailors stand watch at U.S. Fleet Cyber Command in Maryland in 2017. GAO's review covers civilian critical-infrastructure cybersecurity regulations, not this military operations center.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Petty Officer 1st Class Samuel Souvannason, U.S. Navy",
+      "derivatives": [
+        {
+          "hash": "69572e36e55486aa0822c76def9d7cce5cf0c4543b6a7495bd1b654d8010adcc",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/fleet-cyber-ops/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "96cfacc5bfd22da7d0f00cc6a59859f3f2aa7b55827498a0946d572911ab536b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/fleet-cyber-ops/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "b62d33d80147bf204aa576f10149a151897791f3fae215d38364cf4681ee4049",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/fleet-cyber-ops/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9cad811000b78391012b35e63a7727500347f2efc648453da9bbc3892a573bd0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/fleet-cyber-ops/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "3cc0f67f8084330d27eedda7671d8ce7b9c38ece7e8f9c30e98a51b04e90e3c6",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/fleet-cyber-ops/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ab3748c49bad883a425804b657a415e53814a7f79deff5f5299517fac309608f",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/fleet-cyber-ops/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c6ecf3ddb87d971a3b3699e4795b06f2f2913947a2986569025d17c0c9635d23",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/fleet-cyber-ops/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-fleet-cyber-operations-center-2018",
+      "illustrationLabel": null,
+      "license": "U.S. government public domain",
+      "originalFileHash": "cc9af42e7c79a0f60ca3d1563dacef399058899432473acb28854716256566fc",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Photograph made by a U.S. Navy employee as part of official duties and identified as public domain on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FCC_Ops_Center.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 117 regulations, 37 federal agencies and nine critical-infrastructure sectors.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "GAO identified 117 cybersecurity regulations issued by 37 agencies across nine critical-infrastructure sectors.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "18958250cbfeef909fc54209b1c682e248b1ea159c935838e03a87031f2fdfb1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/regulation-inventory/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d9d19397a2c49a935693681132b01e4420776866a31b07158b656a9fada2096d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/regulation-inventory/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "047cf3c5a816c23400913699b8d16631a0602eb4e16d811c923117185a7b4f1d",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/regulation-inventory/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "50e0aa3f0e4436a3feb7cf6b6cd03b4022ff742f33999ca634f1b43b85517faa",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/regulation-inventory/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "58b6fc5ebeee6871c5a53c5a90f1270a2cc08df12d08fe60b8caa41d7eafada2",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/regulation-inventory/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b7e98266f304c0d0fe96bc6c60d1ddb94a72c4830af01bea1912f0757fb6d82c",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/regulation-inventory/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0190b9a5b882b4ddea11f15f5cb318096d2207deec272e6c802e49b2764545e8",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/regulation-inventory/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-cyber-regulation-inventory-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "50e0aa3f0e4436a3feb7cf6b6cd03b4022ff742f33999ca634f1b43b85517faa",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108606"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 80 of 117 cybersecurity regulations, about 70 percent, shared a reporting type.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Eighty regulations, about 70% of the inventory, had the same type of reporting requirement as at least one other regulation.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "0ce7a714eae5b1d5ca4c8eb9eb7f6960c5daa73a0254de940b337ec3b8b3ff82",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/reporting-overlap/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1f9d5f6a51db0899e066c460434643547e3f13b7aa9b35f3cfe866140cb2e526",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/reporting-overlap/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "aec5a1f2776486c5449ac2f315d601e6987e69029dd5f5edf838ab26345bbca8",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/reporting-overlap/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8771634a24f5670fd03bb1e474e7d19387a6457c3cfe891c7fc68eafab9f2ec8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/reporting-overlap/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f3df7ea1c093e6625ea38abdea08db568b96ff9486ce08342b7f461701441c60",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/reporting-overlap/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "65c31424d421032ef5af943135d3a87ebd26ef93a426e2cad87be10eeab55a63",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/reporting-overlap/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "dc2a7941d75fce00bfad9ec892c2de10d291afcc5504b7372013f9c0291d5686",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/cyber-reporting-overlap/reporting-overlap/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-gao-cyber-reporting-overlap-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8771634a24f5670fd03bb1e474e7d19387a6457c3cfe891c7fc68eafab9f2ec8",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.gao.gov/products/gao-26-108606"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "A multistory university engineering laboratory stands behind trees under a clear sky.",
+      "archivalStatus": "current",
+      "attribution": "Kevin Rutherford / Wikimedia Commons, CC BY-SA 4.0",
+      "caption": "The Engineering Laboratory at the University of Massachusetts Amherst. The photograph illustrates U.S. university research infrastructure; it does not identify a participant in NSF's new doctoral pilot.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Editorial scene tied to the article subject."
+      },
+      "creator": "Kevin Rutherford",
+      "derivatives": [
+        {
+          "hash": "8a7b76f51d469e0e29ee74296c90cc229e9036bdb6c01b5d443b12182def5211",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/engineering-lab/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "0e332271f5a3a044d4e0954d8f99e1bbd5eddecd4292915065285c56701a61e5",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/engineering-lab/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "0880e02816055f5557eea3f4b99c9eb14839359a1956c771da9c1b281c9a441b",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/engineering-lab/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "9744da77bb56450e5124f889365c4defc3e18aa4aae6b63b2001f45c3d4db1d1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/engineering-lab/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d0bc6270485e76b1267fb7128eb16c350d2f661afe93c408a1914f97005cf844",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/engineering-lab/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f6518f39667bc4cd8258d8f4b4d8ea07298d76810eb65eaa90b15898184c1f4f",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/engineering-lab/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4728e91413f7280fdf53c3b8b31416283d23ba49d672d077988ade502da57a7d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/engineering-lab/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-umass-engineering-lab-2011",
+      "illustrationLabel": null,
+      "license": "CC BY-SA 4.0",
+      "originalFileHash": "b833560ea928a3dc421a5133c77c022fd427baba128a0577805340a0f6ed3b27",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Creative Commons Attribution-ShareAlike 4.0 license granted by the photographer on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Engineering_Lab.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists 47 million dollars, five years, more than 250 students and nearly three dozen partners.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "NSF committed $47 million over five years for more than 250 doctoral students, with participation from nearly three dozen universities and companies.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "fd5926c18e4c934bc5660a70df97d3daf77e28689078c7836b71c5fdda6b0471",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/pilot-scale/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a5b15727cc42da7eaf59b5fd3a85ecd91eecb7c7b5e982dd60064b2498d618e9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/pilot-scale/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "168fd21a72d0cd6174d37a643034c02320791e12f8c17429a8eb3ca5eeb5275f",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/pilot-scale/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8408d6b1eda6def344d2a569ed85f1b34fa4dd70a772f2a708cfc465328a90ab",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/pilot-scale/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "084f6ec5d3d633d0d8b010e08f4af653486b40b5ccdd747efeea91616b9f5ee3",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/pilot-scale/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "1f2a03c6c22d9b7092fdfca65e33b24715bca054b65ff20e4583d38a6d04b51f",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/pilot-scale/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "bd6b239ae556686850dd76a6537e88e4333ae988b7e3d855a27fb80b1ad3427a",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/pilot-scale/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nsf-industry-integrated-phd-scale-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8408d6b1eda6def344d2a569ed85f1b34fa4dd70a772f2a708cfc465328a90ab",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows university funding in year one, NSF funding afterward and at least one year of industry research.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Universities fund year one, NSF covers the remaining years and industry partners commit at least one year of company-site dissertation research.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "0f1263567a87761b814e6c479819cc86731ce41f3622d9016f8483e590814474",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/funding-model/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "2d9fcab57ac04187b8fb4a551aae5566aa32a3dd1dba7b65d3b4b809253b89c0",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/funding-model/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "09adf82e3fcaac9feda63d8e8824c5a574b14a2bd2ce1ce519907f56751d2eda",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/funding-model/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "34ef85def50490237a2060025012dd8b6dbcf3e824d526939d50e08f5f2f7fd4",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/funding-model/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "611a7c3e0f30237b6a0fa8842947b02d5e94988b83461f23b1b1c5fd5d438e8e",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/funding-model/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "db73bfa4d4bd61ad0fca488e6d9d9ba203a433f03de67b685201ca859ae1a236",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/funding-model/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "05e4f882fcd5162b53e2e91aa521fd8c14bf92b4261b34c426b97a80c38e93a1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260811-021721/nsf-four-year-phd/funding-model/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nsf-industry-integrated-phd-funding-2026",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "34ef85def50490237a2060025012dd8b6dbcf3e824d526939d50e08f5f2f7fd4",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-11T02:37:13.587Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.nsf.gov/news/nsf-partners-universities-industry-pilot-initiative-four"
     }
   ],
-  "packageDigest": "0028d6bfa125b8affd67b9b380ab9ef13e629114e68e0ec9dc31983323a1451f",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -103838,7 +106096,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "95e30c4accc9097e173cd0b084c6cca4c4c26941ec2575bc0257b39a84de3988"
 }
