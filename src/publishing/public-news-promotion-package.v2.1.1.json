@@ -60845,7 +60845,7 @@
     "articles": "830e6fcb757c275d52b6b9b6770112d6bad84377e97dbe58b3702d3068a9e5a8",
     "approvals": "ec83c492aab0b1e2e8115a91fb8fbf1bc5bf1b9b4f34f4a6fe08e4dccab4066c",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "mediaRights": "4a1d38b66e59bebc0b80a7a7ffc4742d20bb0e983232a578db1afecade1ce6b6",
+    "mediaRights": "bda0c9356f5fb90402d4b3c152b387a9d318f71778718735c3ab2880926b5004",
     "releaseRecords": "05f4343964160d5b9c105c8164c32a0cb665c36c5eb0dd422a9a2c0614359848",
     "publicationIntents": "32b2102d414e22c8aad74a75432f15fc2df86bcd3a5d382f76f0c365e3b052de"
   },
@@ -144109,7 +144109,7 @@
           "width": 900
         },
         {
-          "hash": "bc16889172ad649e2de3e5b64b64a5a5b133710d956d5f92fe6f975eeb4bdee7",
+          "hash": "2a8ff79acbd2ef45d1ac531beec9875132e6d9f7fe809dd82c1b1aa968089296",
           "height": 1200,
           "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/field-sampling/square-social.webp",
           "role": "square-social",
@@ -147431,5 +147431,5 @@
   "releaseState": "candidate",
   "schemaVersion": "2.1.1",
   "site": "https://bohonews.com",
-  "packageDigest": "ef68407fd1c91ff0b17ff858cfedc6b09fd31cd47c4593f21bfe107a77df0e69"
+  "packageDigest": "e9d508629f50c14484b2510e26c4a064439dcd56863788d107b7b07c255d892e"
 }
