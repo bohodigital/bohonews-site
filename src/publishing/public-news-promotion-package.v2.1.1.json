@@ -59968,25 +59968,891 @@
         "Precious-metal product prices can change under the Mint's weekly pricing method."
       ],
       "updatedAt": "2026-08-12T20:57:34.824Z"
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Commodity Futures Trading Commission has renewed its Innovation Advisory Committee to continue advising the regulator on technology in derivatives and commodities markets.\n\nThe Aug. 12 renewal notice says the panel will examine artificial intelligence, machine learning, blockchain systems, prediction markets, cybersecurity and other market-structure changes. Renewal does not itself adopt a trading rule or endorse a technology.\n\nCFTC expects approximately 40 to 45 members drawn from market participants, registrants, technology providers, infrastructure firms, self-regulatory organizations, public-interest groups and academia. The agency says that mix is intended to balance affected viewpoints and technical expertise.\n\nThe agency estimates annual operating support at $83,581.88, including one-half of a federal full-time-equivalent position. Outside committee members are not compensated, and CFTC says it does not cover their travel or lodging.\n\nThe panel can advise on how financial firms use new technology and on the commission's own investment in surveillance and enforcement systems. Its recommendations are advisory; commission votes and applicable rulemaking procedures still control agency action.\n\nThe renewal record points to earlier work as evidence of the panel's role. In fiscal 2024 it approved five recommendations concerning artificial intelligence and six concerning decentralized finance, according to CFTC.\n\nThe commission also identifies crypto assets and environmental-based products among markets presenting fast-changing or novel questions. Naming those areas does not predict a future rule or enforcement result.\n\nThe practical test will be whether the panel produces specific, public recommendations that the commission can evaluate. Membership, meetings and resulting advice remain separate from legally binding CFTC action.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Commodity Futures Trading Commission has renewed its Innovation Advisory Committee to continue advising the regulator on technology in derivatives and commodities markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Aug. 12 renewal notice says the panel will examine artificial intelligence, machine learning, blockchain systems, prediction markets, cybersecurity and other market-structure changes. Renewal does not itself adopt a trading rule or endorse a technology."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cftc-iac-members-cost",
+          "src": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/members-cost/four-three.webp",
+          "alt": "Graphic shows 40 to 45 members and 83,581 dollars and 88 cents in annual support costs.",
+          "caption": "CFTC projects approximately 40 to 45 members and $83,581.88 in annual committee support costs.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16423/renewal-of-the-innovation-advisory-committee"
+        },
+        {
+          "type": "paragraph",
+          "text": "CFTC expects approximately 40 to 45 members drawn from market participants, registrants, technology providers, infrastructure firms, self-regulatory organizations, public-interest groups and academia. The agency says that mix is intended to balance affected viewpoints and technical expertise."
+        },
+        {
+          "type": "paragraph",
+          "text": "The agency estimates annual operating support at $83,581.88, including one-half of a federal full-time-equivalent position. Outside committee members are not compensated, and CFTC says it does not cover their travel or lodging."
+        },
+        {
+          "type": "paragraph",
+          "text": "The panel can advise on how financial firms use new technology and on the commission's own investment in surveillance and enforcement systems. Its recommendations are advisory; commission votes and applicable rulemaking procedures still control agency action."
+        },
+        {
+          "type": "paragraph",
+          "text": "The renewal record points to earlier work as evidence of the panel's role. In fiscal 2024 it approved five recommendations concerning artificial intelligence and six concerning decentralized finance, according to CFTC."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-cftc-iac-topic-scope",
+          "src": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/topic-scope/four-three.webp",
+          "alt": "Graphic lists five technology areas in the CFTC advisory committee remit.",
+          "caption": "The renewed panel's remit includes AI, machine learning, blockchain, prediction markets and cybersecurity in derivatives markets.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16423/renewal-of-the-innovation-advisory-committee"
+        },
+        {
+          "type": "paragraph",
+          "text": "The commission also identifies crypto assets and environmental-based products among markets presenting fast-changing or novel questions. Naming those areas does not predict a future rule or enforcement result."
+        },
+        {
+          "type": "paragraph",
+          "text": "The practical test will be whether the panel produces specific, public recommendations that the commission can evaluate. Membership, meetings and resulting advice remain separate from legally binding CFTC action."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/cftc-innovation-advisory-committee-renewal-2026/",
+      "citations": [
+        {
+          "id": "source-cftc-innovation-advisory-renewal-2026",
+          "title": "Renewal of the Innovation Advisory Committee",
+          "publisher": "Commodity Futures Trading Commission",
+          "publishedAt": "2026-08-12T12:00:00Z",
+          "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16423/renewal-of-the-innovation-advisory-committee"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The panel is expected to have approximately 40 to 45 members.",
+        "Estimated annual support cost is $83,581.88.",
+        "The estimate includes 0.5 federal full-time-equivalent staff.",
+        "CFTC does not compensate outside committee members."
+      ],
+      "corrections": [],
+      "dek": "The 40-to-45-member advisory committee will continue examining technology in derivatives markets; the agency estimates $83,581.88 in annual support costs and does not pay outside members.",
+      "desk": "derivatives-technology-policy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Commodity Futures Trading Commission",
+        "Innovation Advisory Committee"
+      ],
+      "eventId": "event-cftc-innovation-advisory-committee-renewal-2026",
+      "headline": "CFTC Renews Technology Panel for AI, Crypto and Cyber Advice",
+      "id": "article-cftc-innovation-advisory-committee-renewal-2026",
+      "leadImage": {
+        "alt": "Modern office complex housing the Commodity Futures Trading Commission in Washington.",
+        "caption": "The Commodity Futures Trading Commission headquarters at Lafayette Center in Washington. The agency renewed its Innovation Advisory Committee on Aug. 12.",
+        "credit": "Dclemens1971, CC BY 4.0",
+        "height": 900,
+        "rightsId": "media-cftc-lafayette-center-2026",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/cftc-headquarters/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-cra-bank-size-thresholds-proposal-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "CFTC renewed its 40-to-45-member technology advisory panel, with an $83,581.88 annual cost estimate and a remit spanning AI, blockchain and cybersecurity.",
+        "index": true,
+        "title": "CFTC renews AI, crypto and cyber Innovation Advisory Committee"
+      },
+      "section": "business",
+      "slug": "cftc-innovation-advisory-committee-renewal-2026",
+      "social": {
+        "description": "The 40-to-45-member advisory committee will continue examining technology in derivatives markets; the agency estimates $83,581.88 in annual support costs and does not pay outside members.",
+        "image": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/cftc-headquarters/open-graph.webp",
+        "title": "CFTC Renews Technology Panel for AI, Crypto and Cyber Advice"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Commodity regulation",
+        "Artificial intelligence",
+        "Blockchain",
+        "Cybersecurity"
+      ],
+      "uncertainty": [
+        "The notice does not commit CFTC to adopt any future recommendation.",
+        "Future membership, meeting agendas and regulatory outcomes remain subject to separate agency actions."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "NASA is seeking public comment on renewing the generic information-collection clearance it uses for citizen-science and crowdsourcing projects.\n\nThe framework supports multiple projects rather than creating one new study. Comments on the renewal are due Oct. 13 under docket NASA-2026-0397.\n\nNASA estimates 50,000 annual responses, an average of 10 minutes per response and 8,333 total annual burden hours. Those are paperwork estimates across covered activities, not a forecast of unique volunteers or scientific discoveries.\n\nData-gathering projects can ask participants to observe natural phenomena, document environmental conditions, submit photographs or samples, or respond through structured forms and surveys.\n\nClassification and problem-solving projects can include labeling images or sounds, highlighting text or imagery, transcribing handwritten records and completing structured computational tasks or games with a purpose.\n\nA project can operate independently or place a citizen-science method inside a larger NASA activity. Each collection still must fit the approved framework and applicable privacy and information-management requirements.\n\nNASA says public participation can combine ground observations with satellite data and expand scientific understanding. The notice does not claim that every volunteer submission will be accurate or used in a published result; project-specific validation remains essential.\n\nThe agency is asking whether the collection has practical utility, whether its burden estimate is accurate and how it can improve clarity or reduce participant burden. OMB review follows the comment period.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "NASA is seeking public comment on renewing the generic information-collection clearance it uses for citizen-science and crowdsourcing projects."
+        },
+        {
+          "type": "paragraph",
+          "text": "The framework supports multiple projects rather than creating one new study. Comments on the renewal are due Oct. 13 under docket NASA-2026-0397."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nasa-citizen-response-estimate",
+          "src": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/response-estimate/four-three.webp",
+          "alt": "Graphic shows 50,000 annual responses, 10 minutes per response and 8,333 burden hours.",
+          "caption": "NASA estimates 50,000 annual responses averaging 10 minutes, for 8,333 total burden hours.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16402/information-collection-generic-clearance-for-nasa-citizen-science-and-crowdsourcing-projects"
+        },
+        {
+          "type": "paragraph",
+          "text": "NASA estimates 50,000 annual responses, an average of 10 minutes per response and 8,333 total annual burden hours. Those are paperwork estimates across covered activities, not a forecast of unique volunteers or scientific discoveries."
+        },
+        {
+          "type": "paragraph",
+          "text": "Data-gathering projects can ask participants to observe natural phenomena, document environmental conditions, submit photographs or samples, or respond through structured forms and surveys."
+        },
+        {
+          "type": "paragraph",
+          "text": "Classification and problem-solving projects can include labeling images or sounds, highlighting text or imagery, transcribing handwritten records and completing structured computational tasks or games with a purpose."
+        },
+        {
+          "type": "paragraph",
+          "text": "A project can operate independently or place a citizen-science method inside a larger NASA activity. Each collection still must fit the approved framework and applicable privacy and information-management requirements."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-nasa-citizen-project-methods",
+          "src": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/project-methods/four-three.webp",
+          "alt": "Graphic lists data gathering, classification, transcription and problem-solving methods.",
+          "caption": "Covered projects may gather observations, classify images or sounds, transcribe records and use participants for structured problem-solving.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16402/information-collection-generic-clearance-for-nasa-citizen-science-and-crowdsourcing-projects"
+        },
+        {
+          "type": "paragraph",
+          "text": "NASA says public participation can combine ground observations with satellite data and expand scientific understanding. The notice does not claim that every volunteer submission will be accurate or used in a published result; project-specific validation remains essential."
+        },
+        {
+          "type": "paragraph",
+          "text": "The agency is asking whether the collection has practical utility, whether its burden estimate is accurate and how it can improve clarity or reduce participant burden. OMB review follows the comment period."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/nasa-citizen-science-information-clearance-2026/",
+      "citations": [
+        {
+          "id": "source-nasa-citizen-science-clearance-2026",
+          "title": "Information Collection; Generic Clearance for NASA Citizen Science and Crowdsourcing Projects",
+          "publisher": "National Aeronautics and Space Administration",
+          "publishedAt": "2026-08-12T12:00:00Z",
+          "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16402/information-collection-generic-clearance-for-nasa-citizen-science-and-crowdsourcing-projects"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Comments are due Oct. 13, 2026.",
+        "NASA estimates 50,000 annual responses.",
+        "Estimated average response time is 10 minutes.",
+        "Estimated annual burden is 8,333 hours."
+      ],
+      "corrections": [],
+      "dek": "The agency is seeking comment through Oct. 13 on renewing a framework for public data gathering, image and sound classification, transcription and problem-solving projects.",
+      "desk": "citizen-science-platforms",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Aeronautics and Space Administration",
+        "Office of Management and Budget"
+      ],
+      "eventId": "event-nasa-citizen-science-information-clearance-2026",
+      "headline": "NASA Plans for 50,000 Annual Citizen-Science Responses",
+      "id": "article-nasa-citizen-science-information-clearance-2026",
+      "leadImage": {
+        "alt": "Citizen scientist kneeling beside field equipment while sampling outdoors in a mountain landscape.",
+        "caption": "A citizen scientist samples in Rocky Mountain National Park in an NPS photograph. NASA's renewed clearance would cover multiple public data-gathering and classification methods.",
+        "credit": "National Park Service, public domain",
+        "height": 900,
+        "rightsId": "media-nps-citizen-scientist-sampling",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/field-sampling/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-nsf-pesose-open-source-grants-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NASA seeks comment by Oct. 13 on citizen-science data gathering and classification, estimating 50,000 annual responses and 8,333 burden hours.",
+        "index": true,
+        "title": "NASA citizen science clearance estimates 50,000 annual responses"
+      },
+      "section": "technology",
+      "slug": "nasa-citizen-science-information-clearance-2026",
+      "social": {
+        "description": "The agency is seeking comment through Oct. 13 on renewing a framework for public data gathering, image and sound classification, transcription and problem-solving projects.",
+        "image": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/field-sampling/open-graph.webp",
+        "title": "NASA Plans for 50,000 Annual Citizen-Science Responses"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Citizen science",
+        "Crowdsourcing",
+        "NASA data",
+        "Public participation"
+      ],
+      "uncertainty": [
+        "The notice renews a generic framework and does not specify participation in each future project.",
+        "Scientific use and validation will depend on each project's design and submitted data."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "Federal energy regulators have released an environmental assessment for the Mountain Valley Pipeline Boost Project and are taking comments through 5 p.m. Eastern on Sept. 8.\n\nMountain Valley Pipeline LLC seeks authorization for about 600,000 dekatherms per day of incremental natural-gas service on its existing mainline. The environmental assessment is an analytical record, not approval to build or operate the project.\n\nAt the Bradshaw Compressor Station in Wetzel County, West Virginia, the proposal would add a 23,470-horsepower turbine and auxiliary facilities.\n\nAt the Harris station in Braxton County, it would add 52,500 horsepower and restage two existing turbines. At Stallworth in Fayette County, it would add two turbines and upgrade two others for 52,880 horsepower.\n\nIn Montgomery County, Virginia, the proposal includes a new Swann Compressor Station with three turbines totaling 136,900 horsepower, a 0.2-mile 42-inch dual-lay connection and related valves and equipment.\n\nThose additions total 265,750 horsepower across the four sites. The figure describes proposed equipment capacity, not continuous fuel consumption, emissions or delivered gas volume.\n\nFERC is the lead agency for the Natural Gas Act certificate review. It says the environmental assessment examines effects, alternatives and mitigation; the commission will separately weigh need, economics and environmental consequences before deciding whether the project serves the public convenience and necessity.\n\nComments can address the assessment without making the filer an intervenor. Only parties with intervenor status have the procedural rights to seek rehearing or judicial review, and the notice says the ordinary timely-intervention period has expired.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "Federal energy regulators have released an environmental assessment for the Mountain Valley Pipeline Boost Project and are taking comments through 5 p.m. Eastern on Sept. 8."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mountain Valley Pipeline LLC seeks authorization for about 600,000 dekatherms per day of incremental natural-gas service on its existing mainline. The environmental assessment is an analytical record, not approval to build or operate the project."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-mvp-boost-capacity-scope",
+          "src": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/capacity/four-three.webp",
+          "alt": "Graphic shows 600,000 dekatherms per day of proposed incremental pipeline service.",
+          "caption": "Mountain Valley seeks about 600,000 dekatherms per day of incremental service through compressor additions and upgrades.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16435/mountain-valley-pipeline-llc-notice-of-availability-of-the-environmental-assessment-for-the-proposed"
+        },
+        {
+          "type": "paragraph",
+          "text": "At the Bradshaw Compressor Station in Wetzel County, West Virginia, the proposal would add a 23,470-horsepower turbine and auxiliary facilities."
+        },
+        {
+          "type": "paragraph",
+          "text": "At the Harris station in Braxton County, it would add 52,500 horsepower and restage two existing turbines. At Stallworth in Fayette County, it would add two turbines and upgrade two others for 52,880 horsepower."
+        },
+        {
+          "type": "paragraph",
+          "text": "In Montgomery County, Virginia, the proposal includes a new Swann Compressor Station with three turbines totaling 136,900 horsepower, a 0.2-mile 42-inch dual-lay connection and related valves and equipment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Those additions total 265,750 horsepower across the four sites. The figure describes proposed equipment capacity, not continuous fuel consumption, emissions or delivered gas volume."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-mvp-boost-site-horsepower",
+          "src": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/sites/four-three.webp",
+          "alt": "Graphic lists four compressor sites and 265,750 horsepower of proposed additions.",
+          "caption": "The proposal spans Bradshaw, Harris and Stallworth sites in West Virginia plus a new Swann compressor station in Virginia, totaling 265,750 added horsepower.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16435/mountain-valley-pipeline-llc-notice-of-availability-of-the-environmental-assessment-for-the-proposed"
+        },
+        {
+          "type": "paragraph",
+          "text": "FERC is the lead agency for the Natural Gas Act certificate review. It says the environmental assessment examines effects, alternatives and mitigation; the commission will separately weigh need, economics and environmental consequences before deciding whether the project serves the public convenience and necessity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Comments can address the assessment without making the filer an intervenor. Only parties with intervenor status have the procedural rights to seek rehearing or judicial review, and the notice says the ordinary timely-intervention period has expired."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/mountain-valley-pipeline-boost-environmental-review-2026/",
+      "citations": [
+        {
+          "id": "source-ferc-mvp-boost-ea-2026",
+          "title": "Mountain Valley Pipeline, LLC; Notice of Availability of the Environmental Assessment for the Proposed Mountain Valley Pipeline Boost Project",
+          "publisher": "Federal Energy Regulatory Commission",
+          "publishedAt": "2026-08-12T12:00:00Z",
+          "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16435/mountain-valley-pipeline-llc-notice-of-availability-of-the-environmental-assessment-for-the-proposed"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Comments are due Sept. 8, 2026 at 5 p.m. Eastern.",
+        "Requested incremental service is about 600,000 dekatherms per day.",
+        "Proposed added compressor capacity totals 265,750 horsepower.",
+        "The facilities span three West Virginia sites and one new Virginia station."
+      ],
+      "corrections": [],
+      "dek": "The proposal would add or upgrade four compressor sites for 600,000 dekatherms a day of service; comments on the environmental assessment are due Sept. 8.",
+      "desk": "energy-infrastructure-review",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Federal Energy Regulatory Commission",
+        "Mountain Valley Pipeline LLC"
+      ],
+      "eventId": "event-mountain-valley-pipeline-boost-environmental-review-2026",
+      "headline": "FERC Opens Mountain Valley Pipeline Boost Review to Comment",
+      "id": "article-mountain-valley-pipeline-boost-environmental-review-2026",
+      "leadImage": {
+        "alt": "Industrial natural-gas pumping station buildings and equipment in a West Virginia landscape.",
+        "caption": "A documented natural-gas pumping station in Burnsville, West Virginia. The FERC review concerns separate existing and proposed Mountain Valley compressor facilities in West Virginia and Virginia.",
+        "credit": "Jet Lowe / HAER, Library of Congress, public domain",
+        "height": 900,
+        "rightsId": "media-burnsville-gas-pumping-station-west-virginia",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/burnsville-station/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "West Virginia",
+        "Virginia",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-belt-railway-chicago-ptc-maintenance-request-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "FERC is taking comments through Sept. 8 on a four-site Mountain Valley compressor proposal for 600,000 dekatherms per day of added service.",
+        "index": true,
+        "title": "Mountain Valley Pipeline Boost environmental assessment opens for comment"
+      },
+      "section": "us",
+      "slug": "mountain-valley-pipeline-boost-environmental-review-2026",
+      "social": {
+        "description": "The proposal would add or upgrade four compressor sites for 600,000 dekatherms a day of service; comments on the environmental assessment are due Sept. 8.",
+        "image": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/burnsville-station/open-graph.webp",
+        "title": "FERC Opens Mountain Valley Pipeline Boost Review to Comment"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Natural gas infrastructure",
+        "Environmental assessment",
+        "Compressor stations",
+        "Public comment"
+      ],
+      "uncertainty": [
+        "FERC has not decided whether to authorize the project.",
+        "Final requirements and environmental mitigation can change after review of the record."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "NOAA is seeking comment on renewing the information collection connected to vessel-speed restrictions intended to reduce ship strikes involving North Atlantic right whales.\n\nThe agency proposes an extension without revision. Comments are due Oct. 13; the current approval expires Jan. 31, 2027.\n\nA vessel operator using the safety exception to exceed a covered speed limit must make a logbook entry documenting why the deviation was needed for safe maneuverability. The paper records generally remain aboard the vessel unless federal authorities request them.\n\nNOAA separately surveys pleasure-yacht and large ocean-going-vessel operators about time on the water, awareness of whales, knowledge of speed-reduction efforts and preferred outreach methods. Those electronic surveys and focus groups are voluntary.\n\nThe agency estimates 3,624 respondents and 674 total annual burden hours. It projects no direct annual cost to the public beyond the time required to respond.\n\nEstimated response time ranges from five minutes for a safety-deviation log entry to one hour for an electronic survey and two and a half hours for a focus group.\n\nThis notice concerns records and outreach research. It does not amend the geographic scope, seasonal dates or speed limit in the underlying right-whale vessel-speed rule.\n\nNOAA is asking whether the collection is useful, whether its estimates are sound and how it can reduce burden or improve clarity. Any later change to the actual speed regulation would require a separate legal process.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "NOAA is seeking comment on renewing the information collection connected to vessel-speed restrictions intended to reduce ship strikes involving North Atlantic right whales."
+        },
+        {
+          "type": "paragraph",
+          "text": "The agency proposes an extension without revision. Comments are due Oct. 13; the current approval expires Jan. 31, 2027."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-right-whale-response-burden",
+          "src": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/burden/four-three.webp",
+          "alt": "Graphic shows 3,624 respondents, 674 burden hours and zero estimated public cost.",
+          "caption": "NOAA estimates 3,624 respondents and 674 annual burden hours, with no public out-of-pocket cost.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16395/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for"
+        },
+        {
+          "type": "paragraph",
+          "text": "A vessel operator using the safety exception to exceed a covered speed limit must make a logbook entry documenting why the deviation was needed for safe maneuverability. The paper records generally remain aboard the vessel unless federal authorities request them."
+        },
+        {
+          "type": "paragraph",
+          "text": "NOAA separately surveys pleasure-yacht and large ocean-going-vessel operators about time on the water, awareness of whales, knowledge of speed-reduction efforts and preferred outreach methods. Those electronic surveys and focus groups are voluntary."
+        },
+        {
+          "type": "paragraph",
+          "text": "The agency estimates 3,624 respondents and 674 total annual burden hours. It projects no direct annual cost to the public beyond the time required to respond."
+        },
+        {
+          "type": "paragraph",
+          "text": "Estimated response time ranges from five minutes for a safety-deviation log entry to one hour for an electronic survey and two and a half hours for a focus group."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-right-whale-record-types",
+          "src": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/records/four-three.webp",
+          "alt": "Graphic distinguishes required vessel log entries from voluntary surveys and focus groups.",
+          "caption": "A safety-deviation log entry is required when the regulatory exception is used; operator surveys and focus groups are voluntary.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16395/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for"
+        },
+        {
+          "type": "paragraph",
+          "text": "This notice concerns records and outreach research. It does not amend the geographic scope, seasonal dates or speed limit in the underlying right-whale vessel-speed rule."
+        },
+        {
+          "type": "paragraph",
+          "text": "NOAA is asking whether the collection is useful, whether its estimates are sound and how it can reduce burden or improve clarity. Any later change to the actual speed regulation would require a separate legal process."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/noaa-right-whale-vessel-speed-records-renewal-2026/",
+      "citations": [
+        {
+          "id": "source-noaa-right-whale-speed-records-2026",
+          "title": "Implementation of Vessel Speed Restrictions To Reduce the Threat of Ship Collisions With North Atlantic Right Whales",
+          "publisher": "National Oceanic and Atmospheric Administration",
+          "publishedAt": "2026-08-12T12:00:00Z",
+          "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16395/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "Comments are due Oct. 13, 2026.",
+        "NOAA estimates 3,624 respondents and 674 annual burden hours.",
+        "Safety-exception logbook entries are required; surveys are voluntary.",
+        "The current information-collection approval expires Jan. 31, 2027."
+      ],
+      "corrections": [],
+      "dek": "The agency proposes no changes to required safety-deviation logs and voluntary operator surveys, estimating 3,624 respondents and 674 annual burden hours.",
+      "desk": "marine-mammal-vessel-policy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "National Oceanic and Atmospheric Administration",
+        "National Marine Fisheries Service"
+      ],
+      "eventId": "event-noaa-right-whale-vessel-speed-records-renewal-2026",
+      "headline": "NOAA Seeks Comment on Right-Whale Vessel Speed Records",
+      "id": "article-noaa-right-whale-vessel-speed-records-renewal-2026",
+      "leadImage": {
+        "alt": "North Atlantic right whale surfacing in open ocean water.",
+        "caption": "A North Atlantic right whale photographed under NOAA research permit 775-1875. NOAA is seeking comment on renewing records connected to vessel-speed protections.",
+        "credit": "National Marine Sanctuaries / NOAA, public domain",
+        "height": 900,
+        "rightsId": "media-noaa-right-whale-stellwagen-bank",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/stellwagen-whale/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "U.S. East Coast",
+        "Atlantic Ocean",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-papua-last-tropical-glacier-disappearance-2027-wmo"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "NOAA proposes renewing right-whale vessel-speed logs and surveys without revision, estimating 3,624 respondents and 674 annual burden hours.",
+        "index": true,
+        "title": "NOAA seeks comment on right-whale vessel speed records renewal"
+      },
+      "section": "weather-climate",
+      "slug": "noaa-right-whale-vessel-speed-records-renewal-2026",
+      "social": {
+        "description": "The agency proposes no changes to required safety-deviation logs and voluntary operator surveys, estimating 3,624 respondents and 674 annual burden hours.",
+        "image": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/stellwagen-whale/open-graph.webp",
+        "title": "NOAA Seeks Comment on Right-Whale Vessel Speed Records"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "North Atlantic right whales",
+        "Vessel speed",
+        "Marine conservation",
+        "NOAA records"
+      ],
+      "uncertainty": [
+        "OMB has not yet acted on the requested renewal.",
+        "The information-collection notice does not change the underlying vessel-speed regulation."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The Department of Health and Human Services has withdrawn a foster-care and adoption data proposal that had remained unfinished since 2008.\n\nThe withdrawal took effect Aug. 12. It removes the dormant proposal from the rulemaking docket; it does not erase current Adoption and Foster Care Analysis and Reporting System requirements already established through other final rules.\n\nThe January 2008 proposal would have revised the data states report to the Administration for Children and Families about children in out-of-home care and in subsidized adoption or guardianship arrangements.\n\nIt also contained provisions implementing AFCARS penalty requirements from the Adoption Promotion Act of 2003. Because the proposal was never finalized, those proposed provisions did not become operative through that docket.\n\nHHS says nearly 20 years passed across multiple administrations without an effort to finalize the rule. The department describes withdrawal as a way to reduce public confusion about current priorities.\n\nA withdrawal is procedurally different from repealing a final regulation. No binding requirement created by the 2008 proposal is being rescinded because the proposal never reached final-rule status.\n\nStates still have child-welfare data responsibilities under the statutes and final regulations now in force. Agencies and researchers should use the current Code of Federal Regulations and current ACF technical guidance rather than the withdrawn proposal.\n\nHHS could address similar reporting subjects in a future proposal, but it would need a new record and the applicable notice-and-comment process. This withdrawal makes no commitment about such a future action.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The Department of Health and Human Services has withdrawn a foster-care and adoption data proposal that had remained unfinished since 2008."
+        },
+        {
+          "type": "paragraph",
+          "text": "The withdrawal took effect Aug. 12. It removes the dormant proposal from the rulemaking docket; it does not erase current Adoption and Foster Care Analysis and Reporting System requirements already established through other final rules."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-afcars-proposal-timeline",
+          "src": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/timeline/four-three.webp",
+          "alt": "Graphic shows the 2008 proposal and its 2026 withdrawal.",
+          "caption": "HHS proposed the AFCARS changes Jan. 11, 2008, never finalized them and withdrew the proposal effective Aug. 12, 2026.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16414/adoption-and-foster-care-analysis-and-reporting-system"
+        },
+        {
+          "type": "paragraph",
+          "text": "The January 2008 proposal would have revised the data states report to the Administration for Children and Families about children in out-of-home care and in subsidized adoption or guardianship arrangements."
+        },
+        {
+          "type": "paragraph",
+          "text": "It also contained provisions implementing AFCARS penalty requirements from the Adoption Promotion Act of 2003. Because the proposal was never finalized, those proposed provisions did not become operative through that docket."
+        },
+        {
+          "type": "paragraph",
+          "text": "HHS says nearly 20 years passed across multiple administrations without an effort to finalize the rule. The department describes withdrawal as a way to reduce public confusion about current priorities."
+        },
+        {
+          "type": "paragraph",
+          "text": "A withdrawal is procedurally different from repealing a final regulation. No binding requirement created by the 2008 proposal is being rescinded because the proposal never reached final-rule status."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-afcars-proposal-scope",
+          "src": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/scope/four-three.webp",
+          "alt": "Graphic lists foster care, adoption, guardianship and penalty reporting topics.",
+          "caption": "The withdrawn proposal addressed state data on out-of-home care, subsidized adoption and guardianship, plus specified federal penalty provisions.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16414/adoption-and-foster-care-analysis-and-reporting-system"
+        },
+        {
+          "type": "paragraph",
+          "text": "States still have child-welfare data responsibilities under the statutes and final regulations now in force. Agencies and researchers should use the current Code of Federal Regulations and current ACF technical guidance rather than the withdrawn proposal."
+        },
+        {
+          "type": "paragraph",
+          "text": "HHS could address similar reporting subjects in a future proposal, but it would need a new record and the applicable notice-and-comment process. This withdrawal makes no commitment about such a future action."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/hhs-withdraws-2008-afcars-foster-care-proposal-2026/",
+      "citations": [
+        {
+          "id": "source-hhs-afcars-withdrawal-2026",
+          "title": "Adoption and Foster Care Analysis and Reporting System",
+          "publisher": "Department of Health and Human Services",
+          "publishedAt": "2026-08-12T12:00:00Z",
+          "url": "https://www.federalregister.gov/documents/2026/08/12/2026-16414/adoption-and-foster-care-analysis-and-reporting-system"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The proposal was originally published Jan. 11, 2008.",
+        "Withdrawal is effective Aug. 12, 2026.",
+        "The proposal concerned out-of-home care, adoption and guardianship data.",
+        "The proposal was never finalized."
+      ],
+      "corrections": [],
+      "dek": "The unfinalized proposal covered state reporting on out-of-home care, adoption and guardianship and related penalty rules; its withdrawal takes effect Aug. 12.",
+      "desk": "child-welfare-data-policy",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "Department of Health and Human Services",
+        "Administration for Children and Families"
+      ],
+      "eventId": "event-hhs-withdraws-2008-afcars-foster-care-proposal-2026",
+      "headline": "HHS Withdraws 2008 Foster-Care Data Proposal",
+      "id": "article-hhs-withdraws-2008-afcars-foster-care-proposal-2026",
+      "leadImage": {
+        "alt": "Brutalist Hubert H. Humphrey federal office building near Capitol Hill in Washington.",
+        "caption": "The Hubert H. Humphrey Building, headquarters of the Department of Health and Human Services. HHS withdrew an unfinalized 2008 child-welfare data proposal.",
+        "credit": "Carol M. Highsmith / Library of Congress, public domain",
+        "height": 900,
+        "rightsId": "media-hhs-humphrey-building-highsmith",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/hhs-building/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-education-department-10-open-gao-priority-recommendations-2026"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "HHS withdrew an unfinalized 2008 proposal on foster-care, adoption and guardianship reporting; current final AFCARS rules remain separate.",
+        "index": true,
+        "title": "HHS withdraws 2008 AFCARS foster care data proposal"
+      },
+      "section": "politics",
+      "slug": "hhs-withdraws-2008-afcars-foster-care-proposal-2026",
+      "social": {
+        "description": "The unfinalized proposal covered state reporting on out-of-home care, adoption and guardianship and related penalty rules; its withdrawal takes effect Aug. 12.",
+        "image": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/hhs-building/open-graph.webp",
+        "title": "HHS Withdraws 2008 Foster-Care Data Proposal"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Foster care data",
+        "Adoption reporting",
+        "Federal rulemaking",
+        "Child welfare"
+      ],
+      "uncertainty": [
+        "HHS does not say whether it will propose related reporting changes later.",
+        "Current obligations depend on statutes and final regulations outside the withdrawn proposal."
+      ],
+      "updatedAt": null
+    },
+    {
+      "articleType": "news-report",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "body": "The United States finished atop the medal table at the 2026 World Athletics U20 Championships in Eugene with 12 gold medals and 24 medals overall.\n\nWorld Athletics' final table lists the host team with 12 gold, seven silver and five bronze medals after competition at Hayward Field from Aug. 5 through Aug. 9.\n\nKenya ranked second with four golds, three silvers and four bronzes for 11 total medals. Italy placed third in the ranking with three golds and two bronzes, five medals overall.\n\nJamaica ranked fourth with two golds and eight total medals. Australia and Ethiopia each recorded two golds, three silvers and one bronze and shared the next medal rank.\n\nThe ranking orders teams primarily by gold medals, then silver and bronze, rather than by total medals alone. That is why Italy's five-medal total ranked above Jamaica's eight.\n\nOn the final day, the U.S. men's 4x100-meter team ran 38.16. World Athletics reported it as a world U20 record with an asterisk, indicating the performance remains subject to the governing body's ratification process.\n\nThe final table is distinct from the placing table, which awards points for deeper finishes. This article reports medal rank and does not treat the two systems as interchangeable.\n\nThe result closes a championship Boho News previously covered at its opening. The medal table was updated shortly after the final session and provides the governing body's authoritative event-level count.",
+      "bodyBlocks": [
+        {
+          "type": "paragraph",
+          "text": "The United States finished atop the medal table at the 2026 World Athletics U20 Championships in Eugene with 12 gold medals and 24 medals overall."
+        },
+        {
+          "type": "paragraph",
+          "text": "World Athletics' final table lists the host team with 12 gold, seven silver and five bronze medals after competition at Hayward Field from Aug. 5 through Aug. 9."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-oregon26-top-three-medals",
+          "src": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/top-three/four-three.webp",
+          "alt": "Graphic compares the top three countries in the Oregon 2026 medal table.",
+          "caption": "The United States led with 12 golds and 24 medals; Kenya had four golds and 11 medals; Italy ranked third with three golds and five medals.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/medaltable"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kenya ranked second with four golds, three silvers and four bronzes for 11 total medals. Italy placed third in the ranking with three golds and two bronzes, five medals overall."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jamaica ranked fourth with two golds and eight total medals. Australia and Ethiopia each recorded two golds, three silvers and one bronze and shared the next medal rank."
+        },
+        {
+          "type": "paragraph",
+          "text": "The ranking orders teams primarily by gold medals, then silver and bronze, rather than by total medals alone. That is why Italy's five-medal total ranked above Jamaica's eight."
+        },
+        {
+          "type": "paragraph",
+          "text": "On the final day, the U.S. men's 4x100-meter team ran 38.16. World Athletics reported it as a world U20 record with an asterisk, indicating the performance remains subject to the governing body's ratification process."
+        },
+        {
+          "type": "media",
+          "rightsId": "media-oregon26-us-relay-record",
+          "src": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/relay-record/four-three.webp",
+          "alt": "Graphic shows the United States under-20 4x100-meter time of 38.16 seconds pending ratification.",
+          "caption": "World Athletics reported a 38.16 world U20 men's 4x100-meter record by the United States on the final day, subject to ratification.",
+          "credit": "Boho News graphic from cited primary data",
+          "width": 1200,
+          "height": 900,
+          "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/medaltable"
+        },
+        {
+          "type": "paragraph",
+          "text": "The final table is distinct from the placing table, which awards points for deeper finishes. This article reports medal rank and does not treat the two systems as interchangeable."
+        },
+        {
+          "type": "paragraph",
+          "text": "The result closes a championship Boho News previously covered at its opening. The medal table was updated shortly after the final session and provides the governing body's authoritative event-level count."
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/oregon-2026-world-u20-medal-table-usa-12-golds/",
+      "citations": [
+        {
+          "id": "source-world-athletics-oregon26-medal-table",
+          "title": "Oregon 26 Medal Table",
+          "publisher": "World Athletics",
+          "publishedAt": "2026-08-10T00:03:46Z",
+          "url": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/medaltable"
+        },
+        {
+          "id": "source-world-athletics-oregon26-final-day",
+          "title": "Taylor anchors USA to world U20 4x100m record in Oregon",
+          "publisher": "World Athletics",
+          "publishedAt": "2026-08-09T23:00:00Z",
+          "url": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/news/report/day-five-men-track-oregon-26"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The United States won 12 golds and 24 total medals.",
+        "Kenya won four golds and 11 total medals.",
+        "Italy ranked third with three golds and five total medals.",
+        "Competition ran Aug. 5–9, 2026 at Hayward Field."
+      ],
+      "corrections": [],
+      "dek": "The host team finished with 24 medals, ahead of Kenya's 11; Italy ranked third with three golds after five days of competition at Hayward Field.",
+      "desk": "world-u20-championship-results",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Boho News Editorial Desk",
+      "entities": [
+        "World Athletics",
+        "USA Track and Field",
+        "Athletics Kenya"
+      ],
+      "eventId": "event-oregon-2026-world-u20-medal-table-usa-12-golds",
+      "headline": "U.S. Tops Oregon 2026 World U20 Table With 12 Golds",
+      "id": "article-oregon-2026-world-u20-medal-table-usa-12-golds",
+      "leadImage": {
+        "alt": "Modern Hayward Field track-and-field stadium on the University of Oregon campus.",
+        "caption": "Hayward Field at the University of Oregon, site of the 2026 World Athletics U20 Championships.",
+        "credit": "Rick Obst, CC BY 2.0",
+        "height": 900,
+        "rightsId": "media-new-hayward-field-rick-obst",
+        "role": "lead",
+        "src": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/hayward-field/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Eugene",
+        "Oregon",
+        "United States"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [
+        "article-world-u20-championships-oregon-2026-opens"
+      ],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "The United States topped the Oregon 2026 World U20 medal table with 12 golds and 24 medals, ahead of Kenya and third-ranked Italy.",
+        "index": true,
+        "title": "Oregon 2026 World U20 medal table: U.S. leads with 12 golds"
+      },
+      "section": "sports",
+      "slug": "oregon-2026-world-u20-medal-table-usa-12-golds",
+      "social": {
+        "description": "The host team finished with 24 medals, ahead of Kenya's 11; Italy ranked third with three golds after five days of competition at Hayward Field.",
+        "image": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/hayward-field/open-graph.webp",
+        "title": "U.S. Tops Oregon 2026 World U20 Table With 12 Golds"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "World U20 Championships",
+        "Track and field",
+        "Medal table",
+        "Oregon 2026"
+      ],
+      "uncertainty": [
+        "The reported 38.16 world U20 relay record remains subject to formal ratification.",
+        "World Athletics can correct results after protests, eligibility reviews or data audits."
+      ],
+      "updatedAt": null
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-12T20:58:41.756Z",
+  "generatedAt": "2026-08-12T22:26:44.751Z",
   "inputHashes": {
-    "approvals": "22c351b3e7d62828651c67b1d60e67717945df4209d163a4fc318611996e104b",
-    "articles": "bc1e4951cdb46946e647a023fe80b35973038d70a81fa92e01203b5f738121af",
-    "claims": "264f5baf90ce21394b62a679ba7bcf04607d71aa1bb00158828c895bc75261f6",
+    "sourceItems": "5bada0bdfb94716ca598dd852467df2998fd334fb856fde7f2fd3cf6a4c07d0f",
+    "events": "da6b202145c637861f5fccf3b5f61446c6c524defd61a537033744770edb5de9",
+    "claims": "d159d5278c7ca0784eb4b028525b987b4a4352271de4bed0e941eded4bf0e795",
+    "articles": "830e6fcb757c275d52b6b9b6770112d6bad84377e97dbe58b3702d3068a9e5a8",
+    "approvals": "ec83c492aab0b1e2e8115a91fb8fbf1bc5bf1b9b4f34f4a6fe08e4dccab4066c",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "events": "ccb74f769c93a432683c04e010e4a0af72411dc7b48a9fbcd612bdad4f605cd9",
-    "mediaRights": "0cc06a7908f378d1c27b1d46d5807bca9b4159dbf35690b0f42df048573f6281",
-    "publicationIntents": "11d3c531d80aa90ff544a0482d6bbc4a47148f9ffff32a9e9472d18d12110dc5",
+    "mediaRights": "eb1c6e7effca6dbcf14cd2454c24a367cc9823c11905397c8fa4415a3af3d1fa",
     "releaseRecords": "05f4343964160d5b9c105c8164c32a0cb665c36c5eb0dd422a9a2c0614359848",
-    "sourceItems": "ae0673214bed57a252cb4a0079fdfd137c7cda970fd6b90b4bd759c866f18ab1"
+    "publicationIntents": "32b2102d414e22c8aad74a75432f15fc2df86bcd3a5d382f76f0c365e3b052de"
   },
   "inventory": {
-    "articleCount": 369,
-    "mediaCount": 1093,
-    "routeCount": 369
+    "articleCount": 375,
+    "routeCount": 375,
+    "mediaCount": 1111
   },
   "mediaRights": [
     {
@@ -142987,9 +143853,1376 @@
       "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16409/establish-prices-for-2026-united-states-mint-numismatic-products"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Modern office complex housing the Commodity Futures Trading Commission in Washington.",
+      "archivalStatus": "current",
+      "attribution": "Dclemens1971, CC BY 4.0",
+      "caption": "The Commodity Futures Trading Commission headquarters at Lafayette Center in Washington. The agency renewed its Innovation Advisory Committee on Aug. 12.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Documentary editorial context tied to the article subject."
+      },
+      "creator": "Dclemens1971",
+      "derivatives": [
+        {
+          "hash": "e6eaa673a8a738490fb2b5bd143947c89765883f1e7be2bb8a687b8a039efd37",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/cftc-headquarters/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "544bd316ea02a382ede436b11bf58626072d560a147c1b36319da9e3ea14b48f",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/cftc-headquarters/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ffb1518cfeb2ac16315bf7e837da43c1b1807c6fafb9cd09c16e944f1015fee3",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/cftc-headquarters/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "fb4afd9f10ec5fac3594cf40f70e5b3129ec003da98d5646adacd8caa3f0979d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/cftc-headquarters/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "750e5d9d4f2737d207e957e4caadc3aec82791694991a0505005534aeb4c721d",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/cftc-headquarters/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5bc99afcbb046c66f8d13f1bc69fdba4c19ce9c9511e10622be6997103d5c71e",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/cftc-headquarters/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "327f5e43618c8293e1c904a9d6da27003d0845b76e3001932da90e15292016ed",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/cftc-headquarters/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cftc-lafayette-center-2026",
+      "illustrationLabel": null,
+      "license": "CC BY 4.0",
+      "originalFileHash": "d4d7c305a9056292bcc779478d6c49d8f815ff4aa212ca33e7de6075cb66df10",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "The photographer licensed the documentary CFTC headquarters photograph CC BY 4.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CFTC_headquarters,_Lafayette_Center.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 40 to 45 members and 83,581 dollars and 88 cents in annual support costs.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "CFTC projects approximately 40 to 45 members and $83,581.88 in annual committee support costs.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d2293789db6b4e53b7b452c1a04a2f2a8dc5f9d23048c42244f40b1ef2f6529b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/members-cost/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "650d8c761e45050744df33b2f82cc58167bce8690ce07afb399f181984312d76",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/members-cost/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "63152ce80144c09e0ae33226862f19809cf1960181842a4232a20455cb970a68",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/members-cost/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "1a0aed6ce2c22a8e88259d9a02856e50024c1618e9a3a5e0854068546368bb25",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/members-cost/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "16cc51a7d18ed504f877269adc7f612d55caba70334ac51757f7fd52cf738012",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/members-cost/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "fd46e5b2d1d69eb136bbd4ce32d1973982de5a47d6a61e99b1531bda1de464dc",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/members-cost/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "2feed87541a26344c58ed3cc05f953fb574069c96202e3a9707c492e952e89c1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/members-cost/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cftc-iac-members-cost",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "1a0aed6ce2c22a8e88259d9a02856e50024c1618e9a3a5e0854068546368bb25",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16423/renewal-of-the-innovation-advisory-committee"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists five technology areas in the CFTC advisory committee remit.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The renewed panel's remit includes AI, machine learning, blockchain, prediction markets and cybersecurity in derivatives markets.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "8905497c50714ba137ece611fe5a63969f8477877a1c352d7dee4e4fec047007",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/topic-scope/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "19371032ba243d765632a455fb72ce4ebea4d6351aa88db99950b5cc9fdce06d",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/topic-scope/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "9c5e0043eded9cdaf0b4b7a93e01e146253266eccd46077740a619bfa28004a6",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/topic-scope/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "02d0bcc12600a76b31b1612a1609879043186a8a5f6ce591a40a83f4e06922e0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/topic-scope/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "1fd145ad637f43718f1ee2a01c4c10c150a28d26096e971065f0c69ba0d338e4",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/topic-scope/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c733b6874dcedb70b1bbf946999c82373d07ef1574ac9ff97a28e2c300843da6",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/topic-scope/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "118d017ad064258fb9fb43ba4bedb237e90a5651f6b2ea647b45f0e955ce1e80",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/topic-scope/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-cftc-iac-topic-scope",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "02d0bcc12600a76b31b1612a1609879043186a8a5f6ce591a40a83f4e06922e0",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16423/renewal-of-the-innovation-advisory-committee"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Citizen scientist kneeling beside field equipment while sampling outdoors in a mountain landscape.",
+      "archivalStatus": "current",
+      "attribution": "National Park Service, public domain",
+      "caption": "A citizen scientist samples in Rocky Mountain National Park in an NPS photograph. NASA's renewed clearance would cover multiple public data-gathering and classification methods.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Documentary editorial context tied to the article subject."
+      },
+      "creator": "National Park Service",
+      "derivatives": [
+        {
+          "hash": "1c59797496b00a3474157250fcf1921f1625c2eae14785ab266d46ac95b3d55a",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/field-sampling/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b13c95f79c53e86d75be36280a66e6d18af93182f76182b52095ea7b75ed1a7b",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/field-sampling/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8436e46854a919f84d50595cc88e3fba835baf9d8ade6312abd738fe76963594",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/field-sampling/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f3c58306b9e3b2a3fb7b82dc9cda229934093228983d28d16ebec647aa9a608e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/field-sampling/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6b655bc140f3b1a5cea71308443eca3786d7463e4d34cae6e9d5e4e07f4b2f51",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/field-sampling/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b70f04ca6fd3c1c5d133c1a925a9e77969143cc9d0eb914ed5bc4c05ad6c88c8",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/field-sampling/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "851c9840132805b15be53c91b89ecab80b4ae1f0196de2d45c49f3bd5eca4e83",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/field-sampling/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nps-citizen-scientist-sampling",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "68eeb4f91eab444c5ca6c3e87757c498209f9fb270542d6b15e026bdfde49be6",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "The National Park Service released the official documentary citizen-science photograph as a U.S. government public-domain work.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citizen_scientist_sampling_in_Rocky_Mountain_National_Park._(47428bc9-1dd8-b71b-0be5-bd49b6789d5b).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 50,000 annual responses, 10 minutes per response and 8,333 burden hours.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "NASA estimates 50,000 annual responses averaging 10 minutes, for 8,333 total burden hours.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "819892a99301215a1ae2059c7353754ab9538c2ac62cf0ea6e9371a5855b967e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/response-estimate/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "32d40aa2b6888d3601abb3250be640601a620655f1d25379ac0725773904b7bd",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/response-estimate/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "3c8505c04eebb8a42abe32826cfc2b3e250c149481f196930ae10fdceea736ae",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/response-estimate/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "606e0748c4637e46792182a67d8779663c8b382387827e13fe71cfdce8f0c7b3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/response-estimate/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "a9e8be8b2f7aff8a03937d72379a4b2a91e2fedf3484f2efdbb24c0a4239d861",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/response-estimate/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "c50afde6755366fd1d52113f9d9b1f57c6b2aab150c3944d0b64b56d2916c11d",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/response-estimate/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "6f63092bfdb5c33406f85ed60ae6e4f41aaece60e92b0b0d899761224de32d03",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/response-estimate/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-citizen-response-estimate",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "606e0748c4637e46792182a67d8779663c8b382387827e13fe71cfdce8f0c7b3",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16402/information-collection-generic-clearance-for-nasa-citizen-science-and-crowdsourcing-projects"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists data gathering, classification, transcription and problem-solving methods.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Covered projects may gather observations, classify images or sounds, transcribe records and use participants for structured problem-solving.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "dce95d78aaa99dd87f2b8ba61e38be851ab8979b7adfb81f9d7ab4ac2d3f70d6",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/project-methods/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "0cb34b5efd2463f4c8a53ebfe51b91c4f27c6864b82fc41b7cdf26e8690576af",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/project-methods/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ef70b6b5b9438a3cf8170187966f9ba5cd498641359248550b9ec9506f7d4fe2",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/project-methods/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "8c181ea05a1409c2988f6090d36e33973567ff546cf477e61a61e7f6eaae5da7",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/project-methods/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "0bedcb39eb73f1f83cfd276e199dfdfeb371dd70951e6a179c667918a36fe097",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/project-methods/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "f0a96d9ab6fe388e867551f6ab86e4717b740a7dc7025923c18eddf559b6645b",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/project-methods/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c4db5e1863d65aa33d1ab6a27138b06db667bb5c498677098dd47d703cc5b5cf",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/nasa-citizen-science/project-methods/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-nasa-citizen-project-methods",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "8c181ea05a1409c2988f6090d36e33973567ff546cf477e61a61e7f6eaae5da7",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16402/information-collection-generic-clearance-for-nasa-citizen-science-and-crowdsourcing-projects"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Industrial natural-gas pumping station buildings and equipment in a West Virginia landscape.",
+      "archivalStatus": "current",
+      "attribution": "Jet Lowe / HAER, Library of Congress, public domain",
+      "caption": "A documented natural-gas pumping station in Burnsville, West Virginia. The FERC review concerns separate existing and proposed Mountain Valley compressor facilities in West Virginia and Virginia.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Documentary editorial context tied to the article subject."
+      },
+      "creator": "Jet Lowe / Historic American Engineering Record",
+      "derivatives": [
+        {
+          "hash": "3c58bc9b22e9b2a4f61ad1c894503fd54b8c893e6775af378a051358ce86fb43",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/burnsville-station/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "01417e63cb13693765e51fcf06d9c0cc45982a7b560c89ab0d7078dd88f8fb96",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/burnsville-station/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "cbb94ff324ecdf86d6874ac581cc7d15b49d1feeb2348c8258c2dc41aa18fcac",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/burnsville-station/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "c00b47dc09c76b9909efe2f7ac1fdefdc3169f90c52c791ec3e4edf583bbbab3",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/burnsville-station/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "5f164a5d7861dcf320f0e08a123c1da09daaad16ad0669b6e627432aa3163021",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/burnsville-station/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0f630b413908db3c7ae11cb5c4bffd55be61fcf9cba9d5953f3df5ed8574e1aa",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/burnsville-station/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "6877232e9f91843f5e508e7b3ab8c3999ebfde310dcec15eef3364a0ac50dc1d",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/burnsville-station/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-burnsville-gas-pumping-station-west-virginia",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "67dbd18fe5adafe9ac9bee6e6890690be2b47719a009109020a7bff66fc8dd76",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "The Library of Congress provides the Historic American Engineering Record documentary photograph as a U.S. government public-domain work.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Exterior_view_looking_west_showing_%22new%22_pumping_station._-_Burnsville_Natural_Gas_Pumping_Station,_Saratoga_Avenue_between_Little_Kanawha_River_and_CandO_Railroad_line,_HAER_WVA,4-BURN,1-12.tif"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 600,000 dekatherms per day of proposed incremental pipeline service.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "Mountain Valley seeks about 600,000 dekatherms per day of incremental service through compressor additions and upgrades.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "2dfc0b14ad4a98e9d6fcdbd3adb53082c72a5f6ed2d1db7892a707d2b9f028d0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/capacity/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "28b99b016e811013378ee60053bd8d535eeadb41af652d2e7dd1b3ba7f53ad81",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/capacity/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "1d4a36b0bc45fcfce2330c92f148a9cebb745d325a5b3c9cc4daa6272d3e7079",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/capacity/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "5bade1e2e9ab86e3a8e83fb444e098aede33d4268b7c8ce0774e71f5ee3b4e2b",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/capacity/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d26aac48445b14c8fc598875a14c99848de3b5dd51a7ec574a87bc0b5bbc9253",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/capacity/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "8ffcd138ff1f0d0d1a95bd821971708e23b7901312e212f3989240712096bcfb",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/capacity/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "cecda5da99a377ab07498644a73cab7906dc53a3e84b1833a82b4f0cd4a8386c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/capacity/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-mvp-boost-capacity-scope",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "5bade1e2e9ab86e3a8e83fb444e098aede33d4268b7c8ce0774e71f5ee3b4e2b",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16435/mountain-valley-pipeline-llc-notice-of-availability-of-the-environmental-assessment-for-the-proposed"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists four compressor sites and 265,750 horsepower of proposed additions.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The proposal spans Bradshaw, Harris and Stallworth sites in West Virginia plus a new Swann compressor station in Virginia, totaling 265,750 added horsepower.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "d98a3044a623b99e21d3f207eae11a5e848083ee41c9e218d0166f4315f4cee2",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/sites/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "5096ba58b03bc388875fd4f0ace6679567bb8b914df9bab23a495de5f4d68d28",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/sites/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "7fca362e0ea0f21a4880a704d94ecf19cf60e28325952b6a6992cc0b3dfae976",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/sites/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "980933ad6798a95983c447e8cb2d2cb7676dc17c6947c5f81b3898762c4dddc9",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/sites/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "228b7d4e4c6bc36cead48908f503ec06d719ea3e80f3ee56ea806e5f7d504395",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/sites/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "acec01e7bd1a550a75ebb3f773a05c149daf098a344ca65df31f5ed81ac48896",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/sites/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "0642d5c7b4be37822f9ab944d6cdea395bcd4629ca44d0bba1fa668453955798",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/sites/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-mvp-boost-site-horsepower",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "980933ad6798a95983c447e8cb2d2cb7676dc17c6947c5f81b3898762c4dddc9",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16435/mountain-valley-pipeline-llc-notice-of-availability-of-the-environmental-assessment-for-the-proposed"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "North Atlantic right whale surfacing in open ocean water.",
+      "archivalStatus": "current",
+      "attribution": "National Marine Sanctuaries / NOAA, public domain",
+      "caption": "A North Atlantic right whale photographed under NOAA research permit 775-1875. NOAA is seeking comment on renewing records connected to vessel-speed protections.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Documentary editorial context tied to the article subject."
+      },
+      "creator": "National Marine Sanctuaries / NOAA",
+      "derivatives": [
+        {
+          "hash": "89f75007225356e9fa82417e6188adf006a780cd3b17e6469c51e917beb76b61",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/stellwagen-whale/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "0ebc987cab1aabaf3bf0420084d8f854655ad27ba1f098ad794d4af587059178",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/stellwagen-whale/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "efa2bd8158a07312eb05422403d1d2d751564cfbe9b0ac32d07db0b6947e0d4c",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/stellwagen-whale/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "7312cf7c16e25e71dd70288e80cdba48530d5499b7e40f4742bce0fbdb357c21",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/stellwagen-whale/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "66b9166dc2ed83195a524dd4ffd8fea9672a812b4fb66505fbd9428c9ec640e6",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/stellwagen-whale/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "18251b36ee7bb92d0007ef87bd34bfcf78b330f54282035e45c4699fb2b2ef56",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/stellwagen-whale/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b1d72e31e59b40da2999fee4dfa01f38aae33b9d71b525027a83ae6ab7b14008",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/stellwagen-whale/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-noaa-right-whale-stellwagen-bank",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "3eb0f1b591bbd3380ef967b21e25b63d927f7e802334d24860f73a63251e5689",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "NOAA's National Marine Sanctuaries released the official documentary right-whale photograph as a U.S. government public-domain work.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SBNMS_North_Atlantic_right_whale_(50040735308).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows 3,624 respondents, 674 burden hours and zero estimated public cost.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "NOAA estimates 3,624 respondents and 674 annual burden hours, with no public out-of-pocket cost.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "4cc4c153bd3626cbdf144fbad720fdb68d5c968246750bdc82a6f66569f5a07e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/burden/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "93a6383ebc2f6a95f0995c033f6ca8c8fafe2aff622cd63e623deeb34f2c17bc",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/burden/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8c5d8e1b34cbbd70e0c7ba771ec830ee52a69385758bf9460c0d6c0bc2be6770",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/burden/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f26736207fb2e900bb53b08a75b50e85599501ce7023d8561d764f14601c9679",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/burden/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f5599975b3cbad64c43dfe82319e556aed1d5401b81a5ad042c0a282119faad6",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/burden/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "caa0a2d1e807aeec40090efd4bb45d64bae48d8ec824d5bfa365c4eefdae4941",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/burden/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "8147a0a509abebf0cc5ced08bc33d1145d68e78f9ca1ff594434f19978e94006",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/burden/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-right-whale-response-burden",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "f26736207fb2e900bb53b08a75b50e85599501ce7023d8561d764f14601c9679",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16395/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic distinguishes required vessel log entries from voluntary surveys and focus groups.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "A safety-deviation log entry is required when the regulatory exception is used; operator surveys and focus groups are voluntary.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "57bf7bfd280b69c31d2f948910ed01294f656f072d525c928a10f3c9087f07f0",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/records/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6e46b5588af3e4278c9bdcf0f6d67ca6421599f9c26ce03ceba91641f4a79f02",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/records/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "f10464fa35935455f5ac62e0b81910b97a986f8f3d320fa949367923451d6d83",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/records/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "32fb7b1997cd755181dc9fc07b1dbfddaffaf031976d9dd5cb5ada30827ed9e1",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/records/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2cc7e0a4ba75faa4462463aa1f1cabcb7dc7e17269ddcff299f3594c3a70b05b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/records/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a7bac24d10936d0e2c89fb6347c8cafa28c5a9653a8abc04d6d03e304428f2c5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/records/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "06d3b9053e1395045e0208c4fea7062750093d401e71ce2e35cd352e776b226c",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/right-whale-speed/records/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-right-whale-record-types",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "32fb7b1997cd755181dc9fc07b1dbfddaffaf031976d9dd5cb5ada30827ed9e1",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16395/agency-information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Brutalist Hubert H. Humphrey federal office building near Capitol Hill in Washington.",
+      "archivalStatus": "current",
+      "attribution": "Carol M. Highsmith / Library of Congress, public domain",
+      "caption": "The Hubert H. Humphrey Building, headquarters of the Department of Health and Human Services. HHS withdrew an unfinalized 2008 child-welfare data proposal.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Documentary editorial context tied to the article subject."
+      },
+      "creator": "Carol M. Highsmith",
+      "derivatives": [
+        {
+          "hash": "99a2c204c51719fc7de139bbdad76a4fb71f5b09468351e439ecc8f70eac0e08",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/hhs-building/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d40466f31e452f4b2bf36f938f613c22235020715cdecc62f0a3f289b7dd5b04",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/hhs-building/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "be86e607253f269f15ceea20ec7a919b2a375552d8122747db78b8c374302da6",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/hhs-building/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e2266217bdb794433d8e798dd1740f5fbf2cc854236c859a084e3ddfbb25f50d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/hhs-building/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "b305e641a4317ff082ab0017f8ae20f67d20cb6cbceb7527bee81c7a3160dd30",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/hhs-building/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "5dc1d44568e91c89ebfa617058b1341c67300911e6e1ffb0a538aed158a62872",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/hhs-building/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "84b8185356afe2c838207448b63a770e64e43bb63fee419aa77efa15c38ca9ed",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/hhs-building/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-hhs-humphrey-building-highsmith",
+      "illustrationLabel": null,
+      "license": "Public domain",
+      "originalFileHash": "315169c6c63f2c520ab9c9c35b67b23f018cebd59e0f9ea5a15fa245dc8fe055",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Carol M. Highsmith dedicated the documentary HHS headquarters photograph to the public domain through the Library of Congress.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hubert_H._Humphrey_Building,_located_at_the_foot_of_Capitol_Hill,_Washington,_D.C_LCCN2013634632.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the 2008 proposal and its 2026 withdrawal.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "HHS proposed the AFCARS changes Jan. 11, 2008, never finalized them and withdrew the proposal effective Aug. 12, 2026.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "c276e87c7b4144d7b9b24f337864b9c77eb2bde5a3d4d716604a69de148c01ff",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/timeline/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "63a024cf18a3a52d25209d8c9d4dce617082a5f89c2c1f5fc3055e5f38c63fe7",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/timeline/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "a22d347818b386d6ea919fa359ed1e0b9653ea9c8d086e265d891b688999768a",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/timeline/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "d83d675297e53878194cf68e95c62c337b9655beb3d7445837ebd4624fff72ee",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/timeline/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "6f89879d48041fc41321978639de3744e839f062ef1e720a713a0a2007d5083b",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/timeline/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ec4adf50b60ebe424c468ff35ca2b400b565cbd5550a214f4d255610af661ee5",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/timeline/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "4327275141f5fcf91e78a31d362c61ad17cfd81ac14ef3047ccdbe92edbfd329",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/timeline/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-afcars-proposal-timeline",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "d83d675297e53878194cf68e95c62c337b9655beb3d7445837ebd4624fff72ee",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16414/adoption-and-foster-care-analysis-and-reporting-system"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic lists foster care, adoption, guardianship and penalty reporting topics.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The withdrawn proposal addressed state data on out-of-home care, subsidized adoption and guardianship, plus specified federal penalty provisions.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "0619846da963a791aca7811ba41d0cff2775940fb7e16d0eedca2f29678a0ca8",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/scope/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "11ea79d477007910b8457c4da882a03c9e0e31a877639f42b05b377ccdefbe40",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/scope/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ecf1c4bb708f34eaa37f00bd34a528aa49e091175678fdeaa751bd6b42edb8b4",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/scope/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "87853c3205255bd289c92241450ece4c4c6f874aec21dbb4b5e506cf2acad490",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/scope/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "50cce695670b733d6e39607e4182ae156a0fcf6369a12f852715d0a860fd8cf8",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/scope/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "abc7a905231a7abaa56262fb7ee8d3ba48d6912e8f4b961f28faefb981602b12",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/scope/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "f89880946fc14cae119f67d40c08b657b2e0adbce9aece467f8a21c549172800",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/scope/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-afcars-proposal-scope",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "87853c3205255bd289c92241450ece4c4c6f874aec21dbb4b5e506cf2acad490",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://www.federalregister.gov/documents/2026/08/12/2026-16414/adoption-and-foster-care-analysis-and-reporting-system"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Modern Hayward Field track-and-field stadium on the University of Oregon campus.",
+      "archivalStatus": "current",
+      "attribution": "Rick Obst, CC BY 2.0",
+      "caption": "Hayward Field at the University of Oregon, site of the 2026 World Athletics U20 Championships.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Documentary editorial context tied to the article subject."
+      },
+      "creator": "Rick Obst",
+      "derivatives": [
+        {
+          "hash": "64a26d1855e267f660350aad6b6fdda4fbd53adb0b9fcf390200dd0cb6f1239d",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/hayward-field/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "d691de71eb67de761de3969cab30ffab98d643f1e92f474e9efd5aabdecb82ab",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/hayward-field/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "e6040f7eb33d9a24e00a8ed2d9af6c9348af2bd8d584694219c6584ac8ac3440",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/hayward-field/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "ab62c0dfe98971a812a447520c100fe67a973b6f5a6144023011160f70e49181",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/hayward-field/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "83ce323806499e3a1bcfb0136b9589bc3a094c09de49951cdae650484c13b674",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/hayward-field/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "b9d51faed74329e65869dba2bf4aa8a7a55c293979f116b46a34af24d4da5522",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/hayward-field/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c25c658a11702aad2883ccb35c5a1ebca618c1dc075ae1a47bde8f9edd8883b1",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/hayward-field/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-new-hayward-field-rick-obst",
+      "illustrationLabel": null,
+      "license": "CC BY 2.0",
+      "originalFileHash": "46fb46978f22077efb89549e85a0629db5c029daadfd0de968336bfb5ee7fe53",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "The photographer licensed the documentary Hayward Field photograph CC BY 2.0 on Wikimedia Commons.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Hayward_Field_on_the_University_of_Oregon_campus_(50234524032).jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic compares the top three countries in the Oregon 2026 medal table.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "The United States led with 12 golds and 24 medals; Kenya had four golds and 11 medals; Italy ranked third with three golds and five medals.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "90c12255b99562c1c2785167a75d6e45609c462fbc99766680ae6d08066c8c04",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/top-three/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "482fcc06df68ad8d0473c267e71502164d69a8eb21fa916f370140bee62065a4",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/top-three/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "4a798d4b9e1d78888b7f45b8f70f70d41ae96307bd214378fd176cc8fa809fa6",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/top-three/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "37cd92cd78a79415be33489c570919e0bfeb02a5643a0d1ccbdfbffaaffe5a56",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/top-three/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "64c424c3d74a47609c952fc5453cec1dc9bb1ea43d709a9bab7e1b67c47ad7a7",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/top-three/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "db0befb57148b5e9fbeade92b26e111a5c930885df68151216c709d6cbf48be0",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/top-three/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5ef4714a4fff6034a8c3dadd62eddae68a1bc711e7a661a1fb69f8e62d00eae2",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/top-three/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-oregon26-top-three-medals",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "37cd92cd78a79415be33489c570919e0bfeb02a5643a0d1ccbdfbffaaffe5a56",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/medaltable"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Graphic shows the United States under-20 4x100-meter time of 38.16 seconds pending ratification.",
+      "archivalStatus": "current",
+      "attribution": "Boho News graphic from cited primary data",
+      "caption": "World Athletics reported a 38.16 world U20 men's 4x100-meter record by the United States on the final day, subject to ratification.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Inline explanatory graphic; never headline media."
+      },
+      "creator": "Boho News",
+      "derivatives": [
+        {
+          "hash": "612cb3f86b02f46790e214833767f2b8d85912d63473c36f780dc30c2999932e",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/relay-record/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "66b50ebb421effe84ed2e26d52017b0bfc9155f190c38f02ad168fb0e0423ce9",
+          "height": 600,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/relay-record/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "c3c28c76797d7ee4275588b4150acd91d7b8ad73bb276c25882d2fafa5f895af",
+          "height": 1200,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/relay-record/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "cbd604de227311bf961989f83f798d036b0fda4cc6bd556d6669b342df359b97",
+          "height": 900,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/relay-record/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2b22ceeefcce95907afba9709d9dfd5ea9a5deba187ff5e6cef7812d1aa61cbe",
+          "height": 720,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/relay-record/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d586017a2bf3623ed30150250e878cdebc7d9fd2b5dfd085f37b9106623e9bae",
+          "height": 630,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/relay-record/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a9c6c88ed2fcdbd8e28ce13fff1a39854e818972184d4058f9f7265f49b09374",
+          "height": 480,
+          "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/oregon26-medals/relay-record/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        }
+      ],
+      "id": "media-oregon26-us-relay-record",
+      "illustrationLabel": null,
+      "license": "Boho News original graphic",
+      "originalFileHash": "cbd604de227311bf961989f83f798d036b0fda4cc6bd556d6669b342df359b97",
+      "restrictions": [
+        "Use only in the documented editorial context.",
+        "Preserve visible credit and do not imply endorsement.",
+        "Responsive crops must not alter documentary meaning."
+      ],
+      "retrievedAt": "2026-08-12T22:26:44.654Z",
+      "rightsBasis": "Original editorial graphic derived only from the cited primary record.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/medaltable"
     }
   ],
-  "packageDigest": "a3059e1f33c39a84b358652f9be6c9c9b8d6426f0b3346eed984e38e48700220",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -145195,7 +147428,8 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
-  "site": "https://bohonews.com"
+  "site": "https://bohonews.com",
+  "packageDigest": "fc4e4fa07bfa4d464eb93fef190920991dd503065ce4317e9f3df81eecaf7e9b"
 }
