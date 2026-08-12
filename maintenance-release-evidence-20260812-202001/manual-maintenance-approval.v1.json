@@ -1,0 +1,19 @@
+{
+  "actor": "human-owner",
+  "approvedAt": "2026-08-12T20:58:41.754Z",
+  "articleIds": [
+    "article-mspb-federal-employee-appeals-jurisdiction-2026",
+    "article-nepal-cultural-property-us-import-restrictions-2026",
+    "article-faa-boeing-787-vertical-fin-corrosion-proposal-2026",
+    "article-belt-railway-chicago-ptc-maintenance-request-2026",
+    "article-nih-dna-methylation-cancer-classifier-license-2026",
+    "article-us-mint-trump-dollar-coin-roll-bag-prices-2026"
+  ],
+  "authorization": "Temporary direct/manual publication during official-lane maintenance; preserve substantive, rights, visual, append-preservation, rollback, and health gates.",
+  "automationId": "boho-news-manual-install-newsroom",
+  "batchId": "PB-20260812T202001Z-A7C3E9B2D6F4",
+  "candidatePackageDigest": "94bcd55146c2dd43024cceedf8d0980f5f16cf6329ffd1cd0f69018668f65410",
+  "decision": "approved",
+  "recordHash": "1a2521f7efef91c1ddacaaafa09d9e3a9874981a8413f114b69dc2826b75ff64",
+  "schemaVersion": "manual-maintenance-approval.v1"
+}

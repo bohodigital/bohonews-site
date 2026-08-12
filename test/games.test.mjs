@@ -185,9 +185,9 @@ test("game pages have the same focused shell and fresh theme in preview and prod
   ]);
   assert.match(layout,/hideMarketTicker/);
   assert.match(layout,/defaultTheme="light"/);
-  assert.match(base,/!candidatePreview && !hideMarketTicker/);
+  assert.match(base,/!candidateUnpublished && !hideMarketTicker/);
   assert.match(base,/<SiteHeader hideMarketTicker=\{hideMarketTicker\}/);
-  assert.match(header,/!candidatePreview && !hideMarketTicker && <MarketTicker/);
+  assert.match(header,/!candidateUnpublished && !hideMarketTicker && <MarketTicker/);
   assert.match(theme,/dataset\.themeDefault/);
   assert.match(theme,/choices\.has\(localStorage\.getItem\(key\)\) \? localStorage\.getItem\(key\) : pageDefault/);
 });

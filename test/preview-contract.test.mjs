@@ -82,14 +82,14 @@ test("preview source contract suppresses timestamps, indexing, analytics, and Tr
     readFile(new URL("../src/pages/news-sitemap.xml.ts",import.meta.url),"utf8")
   ]);
   assert.match(article,/Preview candidate — not published/);
-  assert.match(article,/candidatePreviewEnabled \? undefined : article\.publishedAt/);
-  assert.match(layout,/!candidatePreview/);
-  assert.match(header,/!candidatePreview/);
+  assert.match(article,/candidateUnpublishedEnabled \? undefined : article\.publishedAt/);
+  assert.match(layout,/!candidateUnpublished/);
+  assert.match(header,/!candidateUnpublished/);
   assert.match(previewValidator,/Cache-Control: no-store/);
   assert.match(previewValidator,/X-Robots-Tag: noindex, nofollow/);
   assert.match(robots,/Disallow: \//);
-  assert.match(rss,/candidatePreviewEnabled \? \[\] : articles/);
-  assert.match(sitemap,/candidatePreviewEnabled \? \[\] : articles/);
-  assert.match(newsSitemap,/candidatePreviewEnabled \? \[\] : articles/);
+  assert.match(rss,/candidateUnpublishedEnabled \? \[\] : articles/);
+  assert.match(sitemap,/candidateUnpublishedEnabled \? \[\] : articles/);
+  assert.match(newsSitemap,/candidateUnpublishedEnabled \? \[\] : articles/);
   assert.match(previewValidator,/sitemap\.includes\(canonicalUrl\)/);
 });

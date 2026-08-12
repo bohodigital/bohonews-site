@@ -196,8 +196,8 @@ test("timestamps use America Chicago and every distribution surface reads the sa
   assert.match(news,/timeZone:"America\/Chicago"/);
   assert.match(news,/datePublished:article\.publishedAt/);
   assert.match(news,/dateModified:article\.updatedAt/);
-  assert.match(article,/publishedAt=\{candidatePreviewEnabled \? undefined : article\.publishedAt/);
-  assert.match(article,/updatedAt=\{candidatePreviewEnabled \? undefined : article\.updatedAt/);
+  assert.match(article,/publishedAt=\{candidateUnpublishedEnabled \? undefined : article\.publishedAt/);
+  assert.match(article,/updatedAt=\{candidateUnpublishedEnabled \? undefined : article\.updatedAt/);
   assert.match(rss,/new Date\(article\.publishedAt!\)\.toUTCString/);
   assert.match(newsSitemap,/news:publication_date>\$\{a\.publishedAt\}/);
 });
@@ -212,7 +212,7 @@ test("news sitemap is recent-window and fixture gated", async () => {
 
 test("ordinary sitemap excludes fixture and non-indexable records", async () => {
   const page = await readFile(new URL("../src/pages/sitemap.xml.ts", import.meta.url),"utf8");
-  assert.match(page,/candidatePreviewEnabled \? \[\] : articles/);
+  assert.match(page,/candidateUnpublishedEnabled \? \[\] : articles/);
   assert.match(page,/!a\.fixture/);
   assert.match(page,/a\.search\.index/);
   assert.match(page,/retractionState === "current"/);
