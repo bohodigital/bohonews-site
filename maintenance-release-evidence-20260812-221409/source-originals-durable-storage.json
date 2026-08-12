@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "bohonews.manual-source-originals.v1",
+  "batchId": "PB-20260812T221409Z-4E2B8C1D7A90",
+  "storageRoot": "/srv/local1/data/bohonews/manual-release-source-originals/PB-20260812T221409Z-4E2B8C1D7A90",
+  "publicArtifactDisposition": "Excluded from the public deployment artifact after checksum-verified durable storage; all published derivatives and media-rights records remain in the public package.",
+  "files": [
+    {"name":"burnsville-station.jpg","sha256":"67dbd18fe5adafe9ac9bee6e6890690be2b47719a009109020a7bff66fc8dd76","size":2027431},
+    {"name":"cftc-headquarters.jpg","sha256":"d4d7c305a9056292bcc779478d6c49d8f815ff4aa212ca33e7de6075cb66df10","size":1209789},
+    {"name":"citizen-scientist.jpg","sha256":"68eeb4f91eab444c5ca6c3e87757c498209f9fb270542d6b15e026bdfde49be6","size":3803154},
+    {"name":"hayward-field.jpg","sha256":"46fb46978f22077efb89549e85a0629db5c029daadfd0de968336bfb5ee7fe53","size":2040394},
+    {"name":"hhs-humphrey-building.jpg","sha256":"315169c6c63f2c520ab9c9c35b67b23f018cebd59e0f9ea5a15fa245dc8fe055","size":1343348},
+    {"name":"right-whale.jpg","sha256":"3eb0f1b591bbd3380ef967b21e25b63d927f7e802334d24860f73a63251e5689","size":5479124}
+  ]
+}
