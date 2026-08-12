@@ -1,13 +1,13 @@
 import type { APIRoute } from "astro";
 import {
   articles,
-  candidatePreviewEnabled,
+  candidateUnpublishedEnabled,
   discoveryPaths,
   sections
 } from "../lib/news";
 const base = "https://bohonews.com";
 export const GET: APIRoute = () => {
-  const publicArticles = (candidatePreviewEnabled ? [] : articles)
+  const publicArticles = (candidateUnpublishedEnabled ? [] : articles)
     .filter((a) => !a.fixture && a.search.index && a.retractionState === "current");
   const paths = ["/","/search/","/about/","/editorial-standards/","/corrections/",
     "/support/","/privacy/","/terms/","/accessibility/","/contact/","/evidence/",

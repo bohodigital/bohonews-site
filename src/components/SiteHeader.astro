@@ -2,6 +2,8 @@
 import ThemeControl from "./ThemeControl.astro";
 import MarketTicker from "./MarketTicker.astro";
 const candidatePreview = import.meta.env.BOHONEWS_PREVIEW === "1";
+const candidateActivation = import.meta.env.BOHONEWS_ACTIVATION === "1";
+const candidateUnpublished = candidatePreview || candidateActivation;
 
 interface Props {
   hideMarketTicker?: boolean;
@@ -22,7 +24,7 @@ const more = [
 ---
 
 <header class="site-header">
-  {!candidatePreview && !hideMarketTicker && <MarketTicker />}
+  {!candidateUnpublished && !hideMarketTicker && <MarketTicker />}
   <div class="utility-row">
     <time id="edition-date">Latest edition</time>
     <nav aria-label="Utility navigation">

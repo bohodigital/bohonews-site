@@ -4,7 +4,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import ArticleBody from "../../components/ArticleBody.astro";
 import NewsVisual from "../../components/NewsVisual.astro";
 import {
-  articleJsonLd, articles, candidatePreviewEnabled, fixturesEnabled,
+  articleJsonLd, articles, candidatePreviewEnabled, candidateUnpublishedEnabled, fixturesEnabled,
   formatTimestamp
 } from "../../lib/news";
 import { jsonForHtml } from "../../lib/json-for-html.mjs";
@@ -19,7 +19,7 @@ export const getStaticPaths = (async () => {
 const { article } = Astro.props;
 const isInterlochenArticleOne =
   article.id === "interlochen-abuse-investigation-report-findings";
-const jsonLd = articleJsonLd(candidatePreviewEnabled
+const jsonLd = articleJsonLd(candidateUnpublishedEnabled
   ? {...article,publishedAt:null,updatedAt:null}
   : article);
 const approvedBodyBytes = await crypto.subtle.digest(
@@ -37,7 +37,7 @@ const changeLabels = {
 } as const;
 ---
 
-<BaseLayout title={`${article.headline} — Boho News`} description={article.dek} canonical={article.canonicalUrl} noindex={candidatePreviewEnabled || fixturesEnabled || !article.search.index} articleType="article" image={article.social.image} publishedAt={candidatePreviewEnabled ? undefined : article.publishedAt ?? undefined} updatedAt={candidatePreviewEnabled ? undefined : article.updatedAt ?? undefined}>
+<BaseLayout title={`${article.headline} — Boho News`} description={article.dek} canonical={article.canonicalUrl} noindex={candidateUnpublishedEnabled || fixturesEnabled || !article.search.index} articleType="article" image={article.social.image} publishedAt={candidateUnpublishedEnabled ? undefined : article.publishedAt ?? undefined} updatedAt={candidateUnpublishedEnabled ? undefined : article.updatedAt ?? undefined}>
   <article class="article-page" data-public-article-id={article.id} data-approved-body-sha256={approvedBodySha256} data-pagefind-body data-pagefind-filter={`section:${article.section}`} data-pagefind-meta={`article-type:${article.articleType}`}>
     {candidatePreviewEnabled && <aside class="fixture-banner">Preview candidate — not published</aside>}
     {fixturesEnabled && <aside class="fixture-banner">Non-production fixture preview — not public reporting</aside>}
@@ -54,7 +54,7 @@ const changeLabels = {
       <h1>{article.headline}</h1>
       <p class="article-dek">{article.dek}</p>
       <p class="byline">By {article.authors.join(", ")}</p>
-      {!candidatePreviewEnabled && article.publishedAt && article.updatedAt && <p class="timestamps">Published <time datetime={article.publishedAt}>{formatTimestamp(article.publishedAt)}</time>
+      {!candidateUnpublishedEnabled && article.publishedAt && article.updatedAt && <p class="timestamps">Published <time datetime={article.publishedAt}>{formatTimestamp(article.publishedAt)}</time>
         {article.updatedAt !== article.publishedAt && <> · Updated <time datetime={article.updatedAt}>{formatTimestamp(article.updatedAt)}</time></>}
       </p>}
     </header>
@@ -64,7 +64,7 @@ const changeLabels = {
       <p>Historical allegations of sexual abuse and misconduct involving minors.</p>
     </aside>}
     {article.corrections.map((correction) => <aside class="notice correction"><strong>{correction.type.replaceAll("-", " ")}</strong><p>{correction.notice}</p><time datetime={correction.effectiveAt}>{formatTimestamp(correction.effectiveAt)}</time></aside>)}
-    {!candidatePreviewEnabled && article.publishedAt && <section class="evidence-block publication-history">
+    {!candidateUnpublishedEnabled && article.publishedAt && <section class="evidence-block publication-history">
       <h2>Publication history</h2>
       <p><strong>Published:</strong> <time datetime={article.publishedAt}>{formatTimestamp(article.publishedAt)}</time></p>
       {article.publicChangeLog.length > 0 && <ol>

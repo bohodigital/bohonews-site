@@ -47,6 +47,8 @@ const promoted = release.articles as PublicArticle[];
 export const promotionGeneratedAt = release.generatedAt;
 export const fixturesEnabled = import.meta.env.BOHONEWS_INCLUDE_FIXTURES === "1";
 export const candidatePreviewEnabled = import.meta.env.BOHONEWS_PREVIEW === "1";
+export const candidateActivationEnabled = import.meta.env.BOHONEWS_ACTIVATION === "1";
+export const candidateUnpublishedEnabled = candidatePreviewEnabled || candidateActivationEnabled;
 export const benchmarkEnabled = import.meta.env.BOHONEWS_BENCHMARK_1000 === "1";
 function benchmarkArticles(): PublicArticle[] {
   return Array.from({length:1000},(_,index) => {
@@ -97,7 +99,7 @@ export function sectionArticles(section: string) {
     ? articles
     : articles.filter((article) => article.section === section || article.desk === section);
   return [...source].sort((a,b) =>
-    candidatePreviewEnabled && (a.publishedAt === null) !== (b.publishedAt === null)
+    candidateUnpublishedEnabled && (a.publishedAt === null) !== (b.publishedAt === null)
       ? a.publishedAt === null ? -1 : 1
       : (b.updatedAt ?? b.publishedAt ?? "").localeCompare(a.updatedAt ?? a.publishedAt ?? ""));
 }

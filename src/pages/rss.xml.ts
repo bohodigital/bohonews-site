@@ -1,9 +1,9 @@
 import type { APIRoute } from "astro";
-import { articles, candidatePreviewEnabled } from "../lib/news";
+import { articles, candidateUnpublishedEnabled } from "../lib/news";
 
 function escape(value:string) { return value.replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;"); }
 export const GET: APIRoute = () => {
-  const items = (candidatePreviewEnabled ? [] : articles)
+  const items = (candidateUnpublishedEnabled ? [] : articles)
     .filter((article) => article.distribution.rss && !article.fixture && article.publishedAt)
     .sort((a,b) => (b.updatedAt ?? "").localeCompare(a.updatedAt ?? "")).map((article) =>
     `<item><title>${escape(article.headline)}</title><link>${article.canonicalUrl}</link><guid isPermaLink="true">${article.canonicalUrl}</guid><pubDate>${new Date(article.publishedAt!).toUTCString()}</pubDate><description>${escape(article.dek)}</description></item>`

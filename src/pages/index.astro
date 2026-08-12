@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import NewsVisual from "../components/NewsVisual.astro";
 import StoryCard from "../components/StoryCard.astro";
 import {
-  candidatePreviewEnabled, fixturesEnabled, formatTimestamp, sectionArticles
+  candidatePreviewEnabled, candidateUnpublishedEnabled, fixturesEnabled, formatTimestamp, sectionArticles
 } from "../lib/news";
 const latest = sectionArticles("latest");
 const featuredArticleId = "interlochen-abuse-investigation-report-findings";
@@ -17,7 +17,7 @@ const explainers = latest.filter((article) => article.articleType === "explainer
 <BaseLayout
   title="Boho News — Latest news, context, and public evidence"
   description="Boho News presents broad, continuously updated coverage through a fast, evidence-forward newsroom."
-  noindex={candidatePreviewEnabled || fixturesEnabled}
+  noindex={candidateUnpublishedEnabled || fixturesEnabled}
 >
   {candidatePreviewEnabled && <aside class="fixture-banner" role="status">Preview candidate — not published</aside>}
   {fixturesEnabled && <aside class="fixture-banner" role="status">Non-production fixture preview — synthetic records are excluded from public promotion.</aside>}
@@ -138,7 +138,7 @@ const explainers = latest.filter((article) => article.articleType === "explainer
 
     <section class="newsletter-module" aria-labelledby="newsletter-title">
       <div><p class="eyebrow">Direct from the newsroom</p><h2 id="newsletter-title">Newsletters</h2><p>Subscription functionality remains disabled until an approved provider and privacy flow exist.</p></div>
-      <form aria-label="Newsletter interface preview"><label for="preview-email">Email address</label><div><input id="preview-email" type="email" placeholder="reader@example.com" disabled /><button type="button" disabled>Preview only</button></div></form>
+      <form aria-label="Newsletter signup status"><label for="newsletter-email">Email address</label><div><input id="newsletter-email" type="email" placeholder="reader@example.com" disabled /><button type="button" disabled>Unavailable</button></div></form>
     </section>
   </>}
 </BaseLayout>

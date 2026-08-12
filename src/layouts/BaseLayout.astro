@@ -22,6 +22,8 @@ const {
   hideMarketTicker = false, defaultTheme = "system"
 } = Astro.props;
 const candidatePreview = import.meta.env.BOHONEWS_PREVIEW === "1";
+const candidateActivation = import.meta.env.BOHONEWS_ACTIVATION === "1";
+const candidateUnpublished = candidatePreview || candidateActivation;
 const socialImage = new URL(image ?? "/og.png", Astro.site);
 const siteGraph = {
   "@context":"https://schema.org",
@@ -48,7 +50,7 @@ const siteGraph = {
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
     <link rel="canonical" href={canonical} />
-    {(candidatePreview || noindex) && <meta name="robots" content="noindex,nofollow" />}
+    {(candidateUnpublished || noindex) && <meta name="robots" content="noindex,nofollow" />}
     <meta property="og:type" content={articleType} />
     <meta property="og:site_name" content="Boho News" />
     <meta property="og:title" content={title} />
@@ -62,8 +64,8 @@ const siteGraph = {
     <meta name="twitter:card" content="summary_large_image" />
     <script is:inline type="application/ld+json" set:html={jsonForHtml(siteGraph)} />
     <script is:inline src="/theme.js"></script>
-    {!candidatePreview && !hideMarketTicker && <script is:inline type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>}
-    {!candidatePreview && <script
+    {!candidateUnpublished && !hideMarketTicker && <script is:inline type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>}
+    {!candidateUnpublished && <script
       is:inline
       src="/analytics-bootstrap.js"
       data-umami-script-url="https://analytics.bohodigitalservices.com/script.js"
