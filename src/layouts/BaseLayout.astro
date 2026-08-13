@@ -24,6 +24,7 @@ const {
 const candidatePreview = import.meta.env.BOHONEWS_PREVIEW === "1";
 const candidateActivation = import.meta.env.BOHONEWS_ACTIVATION === "1";
 const candidateUnpublished = candidatePreview || candidateActivation;
+const productionArtifact = !candidateUnpublished && import.meta.env.BOHONEWS_INCLUDE_FIXTURES !== "1";
 const socialImage = new URL(image ?? "/og.png", Astro.site);
 const siteGraph = {
   "@context":"https://schema.org",
@@ -50,7 +51,7 @@ const siteGraph = {
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
     <link rel="canonical" href={canonical} />
-    {(candidateUnpublished || noindex) && <meta name="robots" content="noindex,nofollow" />}
+    {!productionArtifact && (candidateUnpublished || noindex) && <meta name="robots" content="noindex,nofollow" />}
     <meta property="og:type" content={articleType} />
     <meta property="og:site_name" content="Boho News" />
     <meta property="og:title" content={title} />
