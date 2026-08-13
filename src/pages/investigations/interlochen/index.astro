@@ -4,9 +4,18 @@ import {
   articles, candidatePreviewEnabled
 } from "../../../lib/news";
 
-const article = articles.find(({ slug }) =>
+const articleOne = articles.find(({ slug }) =>
   slug === "interlochen-abuse-investigation-report-findings"
 );
+const articleTwo = articles.find(({ slug }) =>
+  slug === "interlochen-before-epstein-what-was-known"
+);
+const installments: Array<{
+  article: (typeof articles)[number];
+  part: string;
+}> = [];
+if (articleOne) installments.push({ article: articleOne, part: "Part 1" });
+if (articleTwo) installments.push({ article: articleTwo, part: "Part 2" });
 ---
 
 <BaseLayout
@@ -28,8 +37,8 @@ const article = articles.find(({ slug }) =>
       </p>
     </header>
 
-    {article &&
-      <section class="investigation-feature" aria-labelledby="article-one-title">
+    {installments.map(({ article, part }) =>
+      <section class="investigation-feature" aria-labelledby={`${article.id}-title`}>
         {article.leadImage &&
           <img
             src={article.leadImage.src}
@@ -38,21 +47,21 @@ const article = articles.find(({ slug }) =>
             height={article.leadImage.height}
           />}
         <div>
-          <p class="eyebrow">Part 1 · Investigation</p>
-          <h2 id="article-one-title">
+          <p class="eyebrow">{part} · Investigation</p>
+          <h2 id={`${article.id}-title`}>
             <a href={`/articles/${article.slug}/`}>{article.headline}</a>
           </h2>
           <p>{article.dek}</p>
           {candidatePreviewEnabled
-            ? <p class="preview-state">Publication time will be assigned only after an authorized production release.</p>
+            ? <p class="preview-state">Local candidate — no publication time assigned.</p>
             : article.publishedAt && <time datetime={article.publishedAt}>{article.publishedAt}</time>}
         </div>
-      </section>}
+      </section>)}
 
     <section class="investigation-links" aria-label="Investigation resources">
       <a href="/investigations/interlochen/evidence/">
         <span>Evidence Room</span>
-        <strong>Read the controlling report, subpoena, and source catalog</strong>
+        <strong>Read the controlling records, source boundaries, and preservation notes</strong>
       </a>
       <a href="/investigations/interlochen/methodology/">
         <span>Methodology</span>
@@ -63,8 +72,8 @@ const article = articles.find(({ slug }) =>
     <aside class="investigation-progress">
       <h2>Reporting continues</h2>
       <p>
-        Additional reporting is in progress. Boho News will not publish a
-        schedule or placeholder articles before the reporting is ready.
+        Five planned installments remain in reporting and review. Boho News
+        will not publish a schedule or placeholder articles before the work is ready.
       </p>
       <p>
         <a href="/corrections/">Corrections</a>

@@ -19,6 +19,9 @@ export const getStaticPaths = (async () => {
 const { article } = Astro.props;
 const isInterlochenArticleOne =
   article.id === "interlochen-abuse-investigation-report-findings";
+const isInterlochenArticleTwo =
+  article.id === "interlochen-before-epstein-what-was-known";
+const isInterlochenInvestigation = isInterlochenArticleOne || isInterlochenArticleTwo;
 const jsonLd = articleJsonLd(candidateUnpublishedEnabled
   ? {...article,publishedAt:null,updatedAt:null}
   : article);
@@ -41,11 +44,13 @@ const changeLabels = {
   <article class="article-page" data-public-article-id={article.id} data-approved-body-sha256={approvedBodySha256} data-pagefind-body data-pagefind-filter={`section:${article.section}`} data-pagefind-meta={`article-type:${article.articleType}`}>
     {candidatePreviewEnabled && <aside class="fixture-banner">Preview candidate — not published</aside>}
     {fixturesEnabled && <aside class="fixture-banner">Non-production fixture preview — not public reporting</aside>}
-    {isInterlochenArticleOne && <nav class="series-context" aria-label="Investigation series">
+    {isInterlochenInvestigation && <nav class="series-context" aria-label="Investigation series">
       <a href="/investigations/interlochen/">
         <span>The Interlochen Investigation</span>
-        <strong>Part 1 of 7</strong>
+        <strong>{isInterlochenArticleTwo ? "Part 2 of 7" : "Part 1 of 7"}</strong>
       </a>
+      {isInterlochenArticleTwo &&
+        <a href="/articles/interlochen-abuse-investigation-report-findings/">Read Part 1</a>}
       <a href="/investigations/interlochen/evidence/">Evidence Room</a>
       <a href="/investigations/interlochen/methodology/">Methodology</a>
     </nav>}
@@ -59,9 +64,11 @@ const changeLabels = {
       </p>}
     </header>
     {article.articleType === "developing-story" && <aside class="notice developing"><strong>Developing story</strong><p>This package is configured to show substantial updates and unresolved questions.</p></aside>}
-    {isInterlochenArticleOne && <aside class="notice content-warning">
+    {isInterlochenInvestigation && <aside class="notice content-warning">
       <strong>Content warning</strong>
-      <p>Historical allegations of sexual abuse and misconduct involving minors.</p>
+      <p>{isInterlochenArticleTwo
+        ? "This article discusses historical allegations of sexual misconduct involving minors."
+        : "Historical allegations of sexual abuse and misconduct involving minors."}</p>
     </aside>}
     {article.corrections.map((correction) => <aside class="notice correction"><strong>{correction.type.replaceAll("-", " ")}</strong><p>{correction.notice}</p><time datetime={correction.effectiveAt}>{formatTimestamp(correction.effectiveAt)}</time></aside>)}
     {!candidateUnpublishedEnabled && article.publishedAt && <section class="evidence-block publication-history">
