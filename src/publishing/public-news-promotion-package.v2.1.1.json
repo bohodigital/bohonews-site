@@ -60837,14 +60837,14 @@
     }
   ],
   "compilerVersion": "bohonews-manual-maintenance-installer.v1.0.0",
-  "generatedAt": "2026-08-13T00:12:13.077Z",
+  "generatedAt": "2026-08-13T00:27:32.603Z",
   "inputHashes": {
     "approvals": "ec83c492aab0b1e2e8115a91fb8fbf1bc5bf1b9b4f34f4a6fe08e4dccab4066c",
     "articles": "830e6fcb757c275d52b6b9b6770112d6bad84377e97dbe58b3702d3068a9e5a8",
     "claims": "d159d5278c7ca0784eb4b028525b987b4a4352271de4bed0e941eded4bf0e795",
     "corrections": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "events": "da6b202145c637861f5fccf3b5f61446c6c524defd61a537033744770edb5de9",
-    "mediaRights": "bda0c9356f5fb90402d4b3c152b387a9d318f71778718735c3ab2880926b5004",
+    "mediaRights": "d217dccaeda80103afdc11c2ae42d1f2cf3a325419faa5254b4356c0cf91ce8b",
     "publicationIntents": "32b2102d414e22c8aad74a75432f15fc2df86bcd3a5d382f76f0c365e3b052de",
     "releaseRecords": "509de649395e9537da8ab74c9a6e6ba48dc0f20cb90bfa28b15e006241ea5f2b",
     "sourceItems": "5bada0bdfb94716ca598dd852467df2998fd334fb856fde7f2fd3cf6a4c07d0f"
@@ -143881,7 +143881,7 @@
           "width": 900
         },
         {
-          "hash": "ffb1518cfeb2ac16315bf7e837da43c1b1807c6fafb9cd09c16e944f1015fee3",
+          "hash": "204e838bf3d49f7c052ea064937d56dbf60ba2e3fd8d99e478f87727b818bb78",
           "height": 1200,
           "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/cftc-innovation/cftc-headquarters/square-social.webp",
           "role": "square-social",
@@ -144337,7 +144337,7 @@
           "width": 900
         },
         {
-          "hash": "cbb94ff324ecdf86d6874ac581cc7d15b49d1feeb2348c8258c2dc41aa18fcac",
+          "hash": "6785061eabf57c65fc5bec84e29aebe6fadd2de67b797a05fa7134a0c8f23d47",
           "height": 1200,
           "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/mvp-boost/burnsville-station/square-social.webp",
           "role": "square-social",
@@ -144793,7 +144793,7 @@
           "width": 900
         },
         {
-          "hash": "be86e607253f269f15ceea20ec7a919b2a375552d8122747db78b8c374302da6",
+          "hash": "4390d442564c0443c8fcfc6f991839ece3f280ea0add372b3a526dfcdcd49a7b",
           "height": 1200,
           "publicPath": "/media/newsroom/2026/08/manual-20260812-221409/afcars-withdrawal/hhs-building/square-social.webp",
           "role": "square-social",
@@ -145223,7 +145223,7 @@
       "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26/medaltable"
     }
   ],
-  "packageDigest": "684b000817cae70fb2417279eb6c614d422040826f90e78151bef8d3723b5414",
+  "packageDigest": "5bfdd36047ed8c46d9052156ee939dfc335254498fd3fd47ba329371df8dd1ce",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
