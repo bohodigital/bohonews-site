@@ -38,6 +38,13 @@ for (const article of articles) {
     if (!verified) throw new Error("Verified House chamber media is unavailable");
     record = structuredClone(verified);
     record.id = "media-house-turnover-photo";
+    record.derivatives = record.derivatives.map((derivative) => ({
+      ...derivative,
+      publicPath: derivative.publicPath.replace(
+        "/media/batch-01/house-chamber-2017/",
+        "/media/newsroom/2026/08/election-photo-correction/house-turnover/",
+      ),
+    }));
     record.caption = "The chamber of the U.S. House of Representatives at the Capitol in Washington.";
     record.altText = "The empty U.S. House chamber viewed from the gallery, with the Speaker's rostrum and voting boards visible.";
     record.contextNotes = {misleading:false,usage:"Contextual photograph of the institution discussed; it does not depict a 2026 primary."};
