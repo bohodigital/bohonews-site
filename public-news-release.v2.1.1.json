@@ -1,10 +1,2354 @@
 {
   "articleCount": 392,
   "compilerVersion": "manual-interlochen-part2-preview-v1",
-  "generatedAt": "2026-08-13T23:10:00Z",
+  "generatedAt": "2026-08-13T23:28:08Z",
   "mediaCount": 1142,
-  "packageDigest": "51d971d1eae039cf4cec9cfe934387edc16c425f5afe07d5bc8ff5c63bd5ce72",
-  "releaseRecords": [],
+  "packageDigest": "16278bb51a5236cb299570458405d29ad4f68fe8c2f5eb0b33e49321196a2ea9",
+  "releaseRecords": [
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+        "https://bohonews.com/articles/house-iran-war-powers-vote-214-208/",
+        "https://bohonews.com/articles/senate-supreme-court-18-year-term-limits-bill/",
+        "https://bohonews.com/articles/trump-section-301-tariffs-60-economies/",
+        "https://bohonews.com/articles/trump-smithsonian-warning-signs-executive-order/",
+        "https://bohonews.com/articles/what-house-iran-war-powers-vote-can-do/",
+        "https://bohonews.com/articles/what-is-section-301-trade-act/",
+        "https://bohonews.com/articles/who-controls-smithsonian-board-regents/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "immutableDeploymentUrl": "https://649b0aac.bohonews.pages.dev",
+      "newArticleIds": [
+        "article-ai-data-center-ratepayer-protection-pledge-expands",
+        "article-house-iran-war-powers-vote-214-208",
+        "article-senate-supreme-court-18-year-term-limits-bill",
+        "article-trump-section-301-tariffs-60-economies",
+        "article-trump-smithsonian-warning-signs-executive-order",
+        "article-what-house-iran-war-powers-vote-can-do",
+        "article-what-is-section-301-trade-act",
+        "article-who-controls-smithsonian-board-regents"
+      ],
+      "productionActivationAt": "2026-07-26T21:22:56.706315Z",
+      "project": "bohonews",
+      "publicSiteCommit": "5ca8b9f7d8b2c95cfe7dd558e661f1c2712a9080",
+      "recordHash": "0cbbd067127edf8147492cd1699c5f85be90593ca7393955d13e7cfc615810bb",
+      "releaseId": "bohonews-batch1-649b0aac",
+      "routeVerifiedAt": "2026-07-26T23:47:01.326037Z",
+      "schemaVersion": "2.0.0",
+      "updatedArticleIds": [],
+      "verificationResults": [
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/ai-data-center-ratepayer-protection-pledge-expands/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/house-iran-war-powers-vote-214-208/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/house-iran-war-powers-vote-214-208/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/senate-supreme-court-18-year-term-limits-bill/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/senate-supreme-court-18-year-term-limits-bill/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/trump-section-301-tariffs-60-economies/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/trump-section-301-tariffs-60-economies/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/trump-smithsonian-warning-signs-executive-order/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/trump-smithsonian-warning-signs-executive-order/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/what-house-iran-war-powers-vote-can-do/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/what-house-iran-war-powers-vote-can-do/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/what-is-section-301-trade-act/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/what-is-section-301-trade-act/",
+          "status": 200
+        },
+        {
+          "canonicalMarker": true,
+          "canonicalUrl": "https://bohonews.com/articles/who-controls-smithsonian-board-regents/",
+          "immutableUrl": "https://649b0aac.bohonews.pages.dev/articles/who-controls-smithsonian-board-regents/",
+          "status": 200
+        }
+      ],
+      "verifier": "Codex release verifier"
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://ca99bab0.bohonews.pages.dev/",
+      "activationEvidenceHash": "8a30a7758c036c2223b8067a8edf00b704d687aea8363b4e2189a69640009a5a",
+      "canonicalFirstPublicAt": "2026-07-29T01:51:52.287Z",
+      "canonicalObservationEvidenceHash": "74f2135696c854869a481b9fb97443f177cc8f4ace7ae3b7db75e22397e3e5a6",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-legal-fee-awards-labor-agencies/"
+      ],
+      "completionEvidenceHash": "e0e5c276ebeddfc0e8a863bd8f2f93605c5bd6411f35203022a23af75d82b9c3",
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "finalDeploymentActivatedAt": "2026-07-29T02:40:58.130573Z",
+      "finalImmutableUrl": "https://9e182b48.bohonews.pages.dev/",
+      "finalPackageDigest": "37023c5245cda34ffb009707f4b8e34a151e55f69c54455b5bb72bb9bd42bdfd",
+      "finalRouteVerifiedAt": "2026-07-29T02:42:27.152Z",
+      "finalVerificationOutputHash": "63260215c92fa4e6c0bafa0b660685b0cb8ce1f97fd4f7abc3ed94e2377364c4",
+      "newArticleIds": [
+        "article-gao-legal-fee-awards-labor-agencies"
+      ],
+      "previousVerifiedDeploymentReference": "9341e8d8a4af50895a8db13cab1347dc836ef17160ff4ea23047f1682fb1a65c",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-29T01:50:38.180916Z",
+      "publicContentInventoryDigest": "02a6505896ef3cdbec2079690cc07be011282d0534abcb1a7761fd9d738b75c4",
+      "recordHash": "dd4605805691358ab373e27279840cf6dd03b4989c165646d1f2a388985f98de",
+      "releaseId": "release-pb-20260727t224642z-1fa3be32f037-74773f45d43a",
+      "releaseMarkerHash": "e2d39b991cfb51e95e9a63d32473c162e3672f9543d11dbc48102a5b2ad04771",
+      "schemaVersion": "2.2.0",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://d8c588f2.bohonews.pages.dev/",
+      "activationEvidenceHash": "bdcde61d42efc15568c97376858293fbb7c1d569a93c66b559af152fe3715cd3",
+      "canonicalFirstPublicAt": "2026-07-30T21:18:51.116Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/metro-unemployment-payroll-growth-june-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-metro-unemployment-payroll-growth-june-2026"
+      ],
+      "previousVerifiedDeploymentReference": "009dd4d9a6ad136077a06602a188644051c35effb5d1b340b76a25b3a7490fb7",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-30T21:17:02.846516Z",
+      "recordHash": "69ddd1432a95be9bfc5daa4a9944a1dcbba4ff12e84874ea69d8f4cefac97407",
+      "releaseId": "release-pb-20260730t204322z-e644bd39c495-4f4a40de79cc",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://0b827ede.bohonews.pages.dev/",
+      "activationEvidenceHash": "7f799cf2207131482ae76d3f902037cc5d9823ecba5c3e7f7b9f9e1da6006f04",
+      "canonicalFirstPublicAt": "2026-07-31T05:12:22.062Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/interlochen-abuse-investigation-report-findings/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "interlochen-abuse-investigation-report-findings"
+      ],
+      "previousVerifiedDeploymentReference": "4915b09702e40a04269e21d5d82cedf452f5b8fb46a99c417dad761140b1e2e5",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-31T05:11:20.305434Z",
+      "recordHash": "b257c905607aa6251fbe770073b50e67a0b9062917de0f84efdda230addc1f40",
+      "releaseId": "release-pb-20260731t050909z-bfcf50c81164-bfcf50c81164",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://7de93601.bohonews.pages.dev/",
+      "activationEvidenceHash": "0ede00133e6012957b786ebda8bb110e2ea7a35eaec7739891c7d6742b83c557",
+      "canonicalFirstPublicAt": "2026-07-31T05:20:37.953Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/us-gdp-growth-slows-q2-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-us-gdp-growth-slows-q2-2026"
+      ],
+      "previousVerifiedDeploymentReference": "4915b09702e40a04269e21d5d82cedf452f5b8fb46a99c417dad761140b1e2e5",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-07-31T05:19:50.703356Z",
+      "recordHash": "96c00a8d522d47bab5510194c1edb051aa6c274282fea5490e626f060dc54033",
+      "releaseId": "release-pb-20260731t051637z-3c9bf4a460bc-7e5a1d8ac46b",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://10f737f4.bohonews.pages.dev/",
+      "activationEvidenceHash": "d91a7db2baed59168d41a23768dc8cc3f30376e0f49f95726fe2477cb01d3581",
+      "canonicalFirstPublicAt": "2026-08-01T17:27:51.083Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/employer-compensation-costs-june-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-employer-compensation-costs-june-2026"
+      ],
+      "previousVerifiedDeploymentReference": "9e8574391d0a0b148fcf39b2070dbd65e4a46af7cd41b9e45db9a997daf87261",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-01T17:27:23.068626Z",
+      "recordHash": "e4e6ebce087ea1d7ee0d8618278a7b145f751321fb50fb637e07811bee218c4a",
+      "releaseId": "release-pb-20260801t172522z-63cb27f1e218-05aa37426372",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://0c89650a.bohonews.pages.dev/",
+      "activationEvidenceHash": "d2c71c24b2899aea479dd74d5e5cb83468bbaa1a8b9da7ff0cf0b131e94fcb76",
+      "canonicalFirstPublicAt": "2026-08-01T23:24:23.088Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/pce-prices-consumer-spending-june-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-pce-prices-consumer-spending-june-2026"
+      ],
+      "previousVerifiedDeploymentReference": "b970634269eb7cd334ca03c499ba0b8c564fcadfbe6287eef725e38acd07e7ab",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-01T23:23:57.788205Z",
+      "recordHash": "2b2ede65a3aa644c70c041f2668a0b169baedd41ee856c1252caa510e9140c33",
+      "releaseId": "release-pb-20260801t232126z-f71570c04ebd-e8740b393abe",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://58f692b2.bohonews.pages.dev/",
+      "activationEvidenceHash": "6c99249116052c2a850c4c169ad846ea7281d89c034bd3bb40d0c78104e63cec",
+      "canonicalFirstPublicAt": "2026-08-02T00:12:55.738Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/us-gdp-growth-slows-second-quarter-2026-advance-estimate/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-us-gdp-growth-slows-second-quarter-2026-advance-estimate"
+      ],
+      "previousVerifiedDeploymentReference": "878758e74a7963dfd94476cd500fda68be04531a29888fb7c875929b9fd9ca22",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-02T00:12:33.579453Z",
+      "recordHash": "6d4ab632e301789716fb648f072db2f82461fe52aded9459ea94eabf300c9fc1",
+      "releaseId": "release-pb-20260802t000845z-18b8be9170ee-54683766cc12",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://09f54765.bohonews.pages.dev/",
+      "activationEvidenceHash": "35062eaa47e344dbb1823205cedf7564298d08c96862fa072fc266893e89cede",
+      "canonicalFirstPublicAt": "2026-08-02T00:23:31.615Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/work-training-americans-born-1980-1984/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-work-training-americans-born-1980-1984"
+      ],
+      "previousVerifiedDeploymentReference": "d75ce552f340a25f287e59b46cd0149dc4e1fb19c9e99c222d67da76c08de4c8",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-02T00:22:56.528421Z",
+      "recordHash": "75fb2a3d3aa4c68a63795531f5c9403da79ab7ebc9746578320db3423edb8e51",
+      "releaseId": "release-pb-20260802t001930z-0c4496f57105-db5c8568d928",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://d51c5cbf.bohonews.pages.dev/",
+      "activationEvidenceHash": "20155b9e9e3e34229a74e37d26b365a74e463d046648025bf8e1a2befc6db86d",
+      "canonicalFirstPublicAt": "2026-08-02T00:37:19.654Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/dea-7-oh-schedule-i-threshold-action-guide/",
+        "https://bohonews.com/articles/fifa-4-2-billion-world-cup-sale-collapse/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-dea-7oh-schedule-i-threshold-action-guide",
+        "article-fifa-4-2-billion-world-cup-sale-collapse"
+      ],
+      "previousVerifiedDeploymentReference": "ca442af15b6e11a5b216f252883b6aeb83e86340bda5323b93c5b92df91d51e2",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-02T00:36:47.012292Z",
+      "recordHash": "e7ea62e06215a95461d9b0b6fe38729471999b7998fb7b9f8e082e7d20c7b427",
+      "releaseId": "release-pb-20260802t002901z-35d7b7ee635a-6d1935f9895c",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://0bbc4a40.bohonews.pages.dev/",
+      "activationEvidenceHash": "78df210a9c88eee8c6a41dec868bb04b6034d272e6772b4015702f181a90134b",
+      "canonicalFirstPublicAt": "2026-08-02T18:19:07.128Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/us-crude-inventories-fall-refineries-july-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-us-crude-inventories-fall-refineries-july-2026"
+      ],
+      "previousVerifiedDeploymentReference": "263672ed02ec640d701694076472d214ba593fcc21eb8c8f7865477ed92894a8",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-02T18:18:11.555519Z",
+      "recordHash": "550656d3b4369d865040a1f7fc1b65c3577678687ab343b2152b6710eb437ae1",
+      "releaseId": "release-pb-20260802t181342z-3898d4265701-be7e4838f9cb",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://6487bafc.bohonews.pages.dev/",
+      "activationEvidenceHash": "b34ded52e3214d867dd4de4449ea88fb829ebced08006c0bd58e9ede28ccfa8e",
+      "canonicalFirstPublicAt": "2026-08-04T21:33:38.163Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/doj-task-force-officers-training-misconduct-gao/",
+        "https://bohonews.com/articles/hurricane-cone-inland-warnings-2026-explainer/",
+        "https://bohonews.com/articles/library-of-congress-source-research-gallery-kids/",
+        "https://bohonews.com/articles/nasa-three-august-2026-spacewalks-iss/",
+        "https://bohonews.com/articles/nist-five-fabric-squares-textile-recycling-test/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-doj-task-force-training-misconduct",
+        "article-hurricane-cone-inland-warnings",
+        "article-library-of-congress-source-research-gallery-kids",
+        "article-nasa-three-august-2026-spacewalks-iss",
+        "article-nist-five-fabric-squares-textile-recycling-test"
+      ],
+      "previousVerifiedDeploymentReference": "dcd7de0c621355cdefa72f9f26b3e9b12478acb9f030bc966e557f8973a6b986",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-04T21:32:05.191594Z",
+      "recordHash": "177fe192c15a50737b844c0eef6198588711da0ff334800abffb0ee13309aea3",
+      "releaseId": "release-pb-20260804t205041z-b32d4546a040-19664aff7de3",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://2057f1e5.bohonews.pages.dev/",
+      "activationEvidenceHash": "74fba3dbd51704e51d27e72d4a0e60a6971e0201d310cdeca357720397c79fb4",
+      "canonicalFirstPublicAt": "2026-08-04T22:40:42.275Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/national-park-week-2026-fee-free-august-25/",
+        "https://bohonews.com/articles/noaa-coral-torpedo-deep-gulf-restoration/",
+        "https://bohonews.com/articles/usgs-low-level-geophysical-flights-eastern-kansas/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-national-park-week-2026-fee-free-august-25",
+        "article-noaa-coral-torpedo-deep-gulf-restoration",
+        "article-usgs-low-level-geophysical-flights-eastern-kansas"
+      ],
+      "previousVerifiedDeploymentReference": "db58e97f7ef582260a755eb4994f661f7216cb471d6d0d8507a11394a480cf05",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-04T22:39:10.657845Z",
+      "recordHash": "bda3aeb4e28cd25b5b080fce9b17162cc0e8122e6b575d409a78399233811dd8",
+      "releaseId": "release-pb-20260804t222524z-706547ae0c26-def8c02969c8",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://6d4c93f3.bohonews.pages.dev/",
+      "activationEvidenceHash": "d4163430b38578a851baca800e2436d4b2718162bb2584d46ff443fe98d90e98",
+      "canonicalFirstPublicAt": "2026-08-05T00:00:08.784Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/als-blood-protein-panel-predicts-symptom-timing/",
+        "https://bohonews.com/articles/kenya-lake-turkana-paranthropus-footprints-group/",
+        "https://bohonews.com/articles/kia-telluride-seat-motor-fire-recall-26v430/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-als-blood-protein-panel-predicts-symptom-timing",
+        "article-kenya-lake-turkana-paranthropus-footprints-group",
+        "article-kia-telluride-seat-motor-fire-recall-26v430"
+      ],
+      "previousVerifiedDeploymentReference": "bdea848d6cb0b41778fed4d45ff48a4cde9314e1a23c3d4a99cf575bd5009295",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-04T23:59:16.706192Z",
+      "recordHash": "93245b9cd61d2655d31aee8c4c9ed12384ee5276f2560e2067f1483cea125db2",
+      "releaseId": "release-pb-20260804t234049z-c746f8a8029b-a766b17c5441",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://3fb6ec31.bohonews.pages.dev/",
+      "activationEvidenceHash": "010e0e2feeb3059fc70745b75186a152d7d6f6bb2c862c3e82c56f251db72381",
+      "canonicalFirstPublicAt": "2026-08-05T01:27:05.095Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/nasa-lunar-cargo-landers-ground-tests-2026/",
+        "https://bohonews.com/articles/nasa-punch-solar-storm-arrival-test-30-minutes/",
+        "https://bohonews.com/articles/world-u20-championships-oregon-2026-opens/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-nasa-lunar-cargo-landers-ground-tests-2026",
+        "article-nasa-punch-solar-storm-arrival-test-30-minutes",
+        "article-world-u20-championships-oregon-2026-opens"
+      ],
+      "previousVerifiedDeploymentReference": "3074bff0598efb5d48e591ff9fe59135fb6655b846a36672ae6f40ca04b1399d",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T01:25:56.218379Z",
+      "recordHash": "3ca6c5bf49dad7429d5b18738c9af122cfdf8b58741c739b20532aac291fefb3",
+      "releaseId": "release-pb-20260805t005437z-53b1da110f52-299464acca87",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://f79aec9f.bohonews.pages.dev/",
+      "activationEvidenceHash": "d7956e44ac0ce6b5c848079cfc14e5376f76f47a93f5c40407057fec48b6ff22",
+      "canonicalFirstPublicAt": "2026-08-05T03:06:17.054Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/four-advanced-reactors-zero-power-criticality-2026/",
+        "https://bohonews.com/articles/national-book-festival-2026-more-than-80-authors/",
+        "https://bohonews.com/articles/shell-egg-recall-19-million-eggs-carton-codes-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-four-advanced-reactors-zero-power-criticality-2026",
+        "article-national-book-festival-2026-more-than-80-authors",
+        "article-shell-egg-recall-19-million-eggs-carton-codes-2026"
+      ],
+      "previousVerifiedDeploymentReference": "02cca4f3624b5426eeef761387c5da0b45c3c76b6544f14a74bd4a346009ac85",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T03:04:43.066801Z",
+      "recordHash": "d16a81c02777d6b66160e09395a0e0e445ce58253b77b9f8eedd30fd7d4a279e",
+      "releaseId": "release-pb-20260805t024920z-0f95393191a6-639e94cf49f8",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://5a9827c7.bohonews.pages.dev/",
+      "activationEvidenceHash": "63b5934b9ed945bd996542fe9190f8a4fb9b861d58f35782941782e15ce7cb63",
+      "canonicalFirstPublicAt": "2026-08-05T04:58:41.043Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-education-10-priority-open-recommendations-2026/",
+        "https://bohonews.com/articles/greece-men-usa-women-water-polo-world-cup-2026/",
+        "https://bohonews.com/articles/un-sdg-targets-progress-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-education-10-priority-open-recommendations-2026",
+        "article-greece-men-usa-women-water-polo-world-cup-2026",
+        "article-un-sdg-targets-progress-2026"
+      ],
+      "previousVerifiedDeploymentReference": "0f80306846b377d5b95d07e260e5931c17044e6cbde2a9fc96bd279efb189a1b",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T04:57:20.818611Z",
+      "recordHash": "e3c15680d69d48b0e43251b24650793624445b5010283dc6b0c91a8b88ef5d4a",
+      "releaseId": "release-pb-20260805t044022z-fc18acbdcc82-7efe495501ed",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://d662ce5f.bohonews.pages.dev/",
+      "activationEvidenceHash": "583bf99778e218c6ee3eaedf3decf109a6b3908a659d49c1f4d26b51126e372d",
+      "canonicalFirstPublicAt": "2026-08-05T05:52:56.790Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/fta-610-million-bus-grants-2026/",
+        "https://bohonews.com/articles/hopper-ftc-35-million-hidden-fees-settlement-2026/",
+        "https://bohonews.com/articles/june-2026-us-climate-tornadoes-drought/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-fta-610-million-bus-grants-2026",
+        "article-hopper-ftc-35-million-hidden-fees-settlement-2026",
+        "article-june-2026-us-climate-tornadoes-drought"
+      ],
+      "previousVerifiedDeploymentReference": "3c76f27ea12a9b40482d09723ab6cc38b0f7a5d2a8a9fb2bd2f188749ebe4873",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T05:51:29.472942Z",
+      "recordHash": "714f878bcf5c8be27783243dfd89285f96674ac49b0cd1c216ea6b5d200e62f8",
+      "releaseId": "release-pb-20260805t053427z-939464245fa5-0ff439f3da3a",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://1bbc69eb.bohonews.pages.dev/",
+      "activationEvidenceHash": "30c86d732761764504c2bd39ec836905c692e2f8a6f30818ff587c125a0d2227",
+      "canonicalFirstPublicAt": "2026-08-05T16:34:25.044Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-opm-workforce-down-35-percent-2026/",
+        "https://bohonews.com/articles/hawaiian-honeycreeper-family-tree-smithsonian-2026/",
+        "https://bohonews.com/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-opm-workforce-down-35-percent-2026",
+        "article-hawaiian-honeycreeper-family-tree-smithsonian-2026",
+        "article-yoshitomo-nara-hirshhorn-west-lawn-2026"
+      ],
+      "previousVerifiedDeploymentReference": "9c54729ffb09a36109e095a1c037db7e7a56f729e638e016058fe9cad7b22447",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T16:32:53.496045Z",
+      "recordHash": "565afd6df605ad092fb34bd3bf94d3ebd82370a4e0adb9d8bc6e13162214a60d",
+      "releaseId": "release-pb-20260805t161003z-9295f407ed73-f38e6d633a93",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://f4f6c6c6.bohonews.pages.dev/",
+      "activationEvidenceHash": "82d73641af2a1f0a3f73b7ab77dc7628928863235ac95cb529a73324aca7deb4",
+      "canonicalFirstPublicAt": "2026-08-05T18:38:06.127Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/iowa-emt-first-workforce-pell-program-2026/",
+        "https://bohonews.com/articles/nasa-flight-dynamics-wind-tunnel-opens-2026/",
+        "https://bohonews.com/articles/world-bank-pakistan-grid-wind-power-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-iowa-emt-first-workforce-pell-program-2026",
+        "article-nasa-flight-dynamics-wind-tunnel-opens-2026",
+        "article-world-bank-pakistan-grid-wind-power-2026"
+      ],
+      "previousVerifiedDeploymentReference": "7a9c508eebf86f04a6af1c13e9d0e877a97df7c29e0b9a76d0bca718f7c2927e",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T18:36:15.555895Z",
+      "recordHash": "9d5a1d25f78b260f93a1d3d0dc819578e345dd87b54b8acdcdc46571feb968e9",
+      "releaseId": "release-pb-20260805t181103z-d2fa5fabdf19-55e970290efc",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://0a02dc40.bohonews.pages.dev/",
+      "activationEvidenceHash": "97bd58f70fb6c32593442778127d40c1feb120e57771709fe0a58f40b1ced4f9",
+      "canonicalFirstPublicAt": "2026-08-05T22:57:09.872Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/library-congress-lost-melies-gugusse-film/",
+        "https://bohonews.com/articles/noaa-week-two-heat-monsoon-drought-august-2026/",
+        "https://bohonews.com/articles/us-construction-spending-june-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-library-congress-lost-melies-gugusse-film",
+        "article-noaa-week-two-heat-monsoon-drought-august-2026",
+        "article-us-construction-spending-june-2026"
+      ],
+      "previousVerifiedDeploymentReference": "a0172aecac17d412c16971f45df8bf0829a69939958b4f8d8ac1c206891a24e6",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-05T22:56:28.079188Z",
+      "recordHash": "53c5c5a52add1bac2194d2d8e59efb4af3fb817e1da51650d4aaee0f8346c995",
+      "releaseId": "release-pb-20260805t213023z-9fde0addd713-c4a39008d2b4",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://906f4da7.bohonews.pages.dev/",
+      "activationEvidenceHash": "9edcd2c2b2f57735b29c6f64cd0a65f61dd06d14665d1e9ed297ecca6886bed3",
+      "canonicalFirstPublicAt": "2026-08-06T00:28:51.995Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/dot-ai-transportation-infrastructure-initiative/",
+        "https://bohonews.com/articles/gao-state-administered-program-fraud-risks/",
+        "https://bohonews.com/articles/labor-unions-ppp-settlement-385-million/",
+        "https://bohonews.com/articles/library-congress-kpop-august-events/",
+        "https://bohonews.com/articles/ncaa-hockey-cut-resistant-gear-rule/",
+        "https://bohonews.com/articles/world-bank-china-partnership-framework-2026-2031/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-dot-ai-transportation-infrastructure-initiative",
+        "article-gao-state-administered-program-fraud-risks",
+        "article-labor-unions-ppp-settlement-385-million",
+        "article-library-congress-kpop-august-events",
+        "article-ncaa-hockey-cut-resistant-gear-rule",
+        "article-world-bank-china-partnership-framework-2026-2031"
+      ],
+      "previousVerifiedDeploymentReference": "e51c92e8f4ef89898447cc7e0d7aadfb7acfc177f37fd8ddc3d3b501d0eb0cbd",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T00:27:57.363629Z",
+      "recordHash": "6643e3fa4076fc44e0397ffeb7bb93e4e10fd47285fe5d3cba922116b5a26bbe",
+      "releaseId": "release-pb-20260805t235457z-487d936cf34c-62067f230745",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://14557e28.bohonews.pages.dev/",
+      "activationEvidenceHash": "c49e3c7e1d05f10c7d8ac99dd9c35e17ba41183c0c0a4ca511736ca4f5374f18",
+      "canonicalFirstPublicAt": "2026-08-06T02:34:08.835Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/dol-opinion-letters-remote-work-commute-2026/",
+        "https://bohonews.com/articles/fda-orange-b-citrus-red-2-revocations-2026/",
+        "https://bohonews.com/articles/gao-federal-broadband-strategy-map-data-2026/",
+        "https://bohonews.com/articles/ncaa-mens-lacrosse-video-review-overtime-2026/",
+        "https://bohonews.com/articles/usgs-federal-coal-resources-reserves-2026/",
+        "https://bohonews.com/articles/world-bank-philippines-energy-water-financing-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-dol-opinion-letters-remote-work-commute-2026",
+        "article-fda-orange-b-citrus-red-2-revocations-2026",
+        "article-gao-federal-broadband-strategy-map-data-2026",
+        "article-ncaa-mens-lacrosse-video-review-overtime-2026",
+        "article-usgs-federal-coal-resources-reserves-2026",
+        "article-world-bank-philippines-energy-water-financing-2026"
+      ],
+      "previousVerifiedDeploymentReference": "790579d8683e956f35a6f7246b3e2dab7525bfc9d33f19d9759d54a76dd6fc70",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T02:32:58.895101Z",
+      "recordHash": "0a59b81c5b7d0ee6f6ed55ee1d281e62caec1f5de99908d42ecc1b8a7f56c916",
+      "releaseId": "release-pb-20260806t010808z-3e1398f64b13-8bb6f3d12785",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://f48403fa.bohonews.pages.dev/",
+      "activationEvidenceHash": "1ccd7dfe66c8d1f25f9a3c284c2414fd1e0dd0c2b90f889ecbee5b96cc342b7f",
+      "canonicalFirstPublicAt": "2026-08-06T04:03:01.647Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/doe-grid-congestion-transmission-needs-study-2026/",
+        "https://bohonews.com/articles/education-department-college-earnings-test-student-loans-2026/",
+        "https://bohonews.com/articles/epa-minor-air-permit-public-comment-proposal-2026/",
+        "https://bohonews.com/articles/ftc-rentgrow-tenant-screening-settlement-2026/",
+        "https://bohonews.com/articles/gao-federal-duplication-cost-savings-2026/",
+        "https://bohonews.com/articles/national-archives-pele-soccer-ball-exhibit-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-doe-grid-congestion-transmission-needs-study-2026",
+        "article-education-department-college-earnings-test-student-loans-2026",
+        "article-epa-minor-air-permit-public-comment-proposal-2026",
+        "article-ftc-rentgrow-tenant-screening-settlement-2026",
+        "article-gao-federal-duplication-cost-savings-2026",
+        "article-national-archives-pele-soccer-ball-exhibit-2026"
+      ],
+      "previousVerifiedDeploymentReference": "d28d346db428f8da2360142643a26c8a1c56b969926c06f4cca13cd50602f087",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T04:01:45.242064Z",
+      "recordHash": "e30a81f4a8400dad71f93425449adf697602ee220e5725e8bf19ebae3cf02eab",
+      "releaseId": "release-pb-20260806t032810z-652d56c78f69-852cbb62bfb6",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://053ddf29.bohonews.pages.dev/",
+      "activationEvidenceHash": "b4be86cab3cc70e06ec64b322ac8496570d2c34b0eafda3b8cde3dfcfba2871a",
+      "canonicalFirstPublicAt": "2026-08-06T05:19:55.069Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/eia-natural-gas-power-demand-record-2027/",
+        "https://bohonews.com/articles/fcc-2027-urban-rate-survey-broadband-benchmarks/",
+        "https://bohonews.com/articles/ncaa-division-i-age-based-eligibility-model-2027/",
+        "https://bohonews.com/articles/nist-ai-security-continuous-monitoring-guardrails-2026/",
+        "https://bohonews.com/articles/noaa-june-2026-tornado-reports-us-climate/",
+        "https://bohonews.com/articles/us-goods-trade-deficit-june-2026-advance/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-eia-natural-gas-power-demand-record-2027",
+        "article-fcc-2027-urban-rate-survey-broadband-benchmarks",
+        "article-ncaa-division-i-age-based-eligibility-model-2027",
+        "article-nist-ai-security-continuous-monitoring-guardrails-2026",
+        "article-noaa-june-2026-tornado-reports-us-climate",
+        "article-us-goods-trade-deficit-june-2026-advance"
+      ],
+      "previousVerifiedDeploymentReference": "60c4f24cd1aa928d075ba609c3f58c5b2fc92c382b21896533658cce7ba64321",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T05:18:33.013544Z",
+      "recordHash": "c89285d03e1a19465688e5a5d171531c45e1e6a9c69658a227f47c99fb192005",
+      "releaseId": "release-pb-20260806t045636z-ea1de6535bd5-8f7ae1f22b12",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://7b3ba749.bohonews.pages.dev/",
+      "activationEvidenceHash": "958aa6c68a5bf8f136cb605c650241d94222f1a442ad1e0e33e148e61215b188",
+      "canonicalFirstPublicAt": "2026-08-06T08:17:57.571Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/bls-jolts-job-openings-hiring-june-2026/",
+        "https://bohonews.com/articles/fda-first-us-freeze-dried-plasma-ezplaz-2026/",
+        "https://bohonews.com/articles/nasa-roman-space-telescope-launch-august-30-2026/",
+        "https://bohonews.com/articles/ncaa-division-iii-sports-betting-penalty-reductions-2026/",
+        "https://bohonews.com/articles/nist-quantum-manufacturing-center-20-million-2026/",
+        "https://bohonews.com/articles/smithsonian-stem-education-40-communities-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-bls-jolts-job-openings-hiring-june-2026",
+        "article-fda-first-us-freeze-dried-plasma-ezplaz-2026",
+        "article-nasa-roman-space-telescope-launch-august-30-2026",
+        "article-ncaa-division-iii-sports-betting-penalty-reductions-2026",
+        "article-nist-quantum-manufacturing-center-20-million-2026",
+        "article-smithsonian-stem-education-40-communities-2026"
+      ],
+      "previousVerifiedDeploymentReference": "c0265607fa671c4d9fb7961d8e5d968499c7a0ce9d9facc08fa482736930ebb6",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T08:16:45.324851Z",
+      "recordHash": "e21fdbb97163a64737069fc92d9ecd6a33836617d06c8437bf8bf99cfc38fc18",
+      "releaseId": "release-pb-20260806t075134z-6d99e317b498-d4e7c9e5067e",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://b11b1d43.bohonews.pages.dev/",
+      "activationEvidenceHash": "c6b9b59b23fc55804700c8a2ed78232d124f0a3257768cfae955b32e3a3d4efd",
+      "canonicalFirstPublicAt": "2026-08-06T12:22:09.097Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/2026-census-test-huntsville-spartanburg-august-31/",
+        "https://bohonews.com/articles/fda-orzeyful-orexin-narcolepsy-type-1-approval-2026/",
+        "https://bohonews.com/articles/gao-weapon-programs-average-delivery-over-12-years-2026/",
+        "https://bohonews.com/articles/nasa-august-12-2026-eclipse-wb57-balloon-science/",
+        "https://bohonews.com/articles/sloosh-dive-sticks-expanded-recall-404000-2026/",
+        "https://bohonews.com/articles/smithsonian-louvre-islamic-art-exhibition-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-2026-census-test-huntsville-spartanburg-august-31",
+        "article-fda-orzeyful-orexin-narcolepsy-type-1-approval-2026",
+        "article-gao-weapon-programs-average-delivery-over-12-years-2026",
+        "article-nasa-august-12-2026-eclipse-wb57-balloon-science",
+        "article-sloosh-dive-sticks-expanded-recall-404000-2026",
+        "article-smithsonian-louvre-islamic-art-exhibition-2026"
+      ],
+      "previousVerifiedDeploymentReference": "fdb55e285ac3b4719f23a6d578a6254815e9ad4bbf49a4f3fcdf006a0bf12af9",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T12:20:34.884595Z",
+      "recordHash": "a6ecf625310e1f3490d65c5df09384422fffff81eaec69453ebe4ab6cabe2770",
+      "releaseId": "release-pb-20260806t110343z-9fba6bec06c1-caf864902270",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://900afc48.bohonews.pages.dev/",
+      "activationEvidenceHash": "1fc8dceaac2c87a9f9c16cf63813e3a27836463134530cb807d3bb391afcbfed",
+      "canonicalFirstPublicAt": "2026-08-06T13:27:51.618Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/fda-lipfendra-first-oral-pcsk9-inhibitor-2026/",
+        "https://bohonews.com/articles/gao-immigration-courts-remote-hearings-2025/",
+        "https://bohonews.com/articles/hirshhorn-50-for-50-museum-loans-51-institutions/",
+        "https://bohonews.com/articles/ncaa-soccer-two-video-challenges-2026-27/",
+        "https://bohonews.com/articles/noaa-gulf-dead-zone-forecast-7027-square-miles-2026/",
+        "https://bohonews.com/articles/wto-goods-trade-barometer-101-7-june-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-fda-lipfendra-first-oral-pcsk9-inhibitor-2026",
+        "article-gao-immigration-courts-remote-hearings-2025",
+        "article-hirshhorn-50-for-50-museum-loans-51-institutions",
+        "article-ncaa-soccer-two-video-challenges-2026-27",
+        "article-noaa-gulf-dead-zone-forecast-7027-square-miles-2026",
+        "article-wto-goods-trade-barometer-101-7-june-2026"
+      ],
+      "previousVerifiedDeploymentReference": "4adf179d74400b87e6611be0b8e2f19867c620cd6d109eb5d91dde22efd0c8b2",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T13:25:37.916239Z",
+      "recordHash": "f0a8831d28434ec30834f2abac22c5b4f254898f1795b3d9f80b25580ffb9fb4",
+      "releaseId": "release-pb-20260806t125118z-329604abd3e6-aba9fdbce2b8",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://a674949f.bohonews.pages.dev/",
+      "activationEvidenceHash": "39ef38257fe3da714c0b2dbcd2beff5dfcbb2a4e8331849f1de9f842345d44f7",
+      "canonicalFirstPublicAt": "2026-08-06T14:55:38.035Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/faa-1-776-billion-airport-grants-46-states-2026/",
+        "https://bohonews.com/articles/gao-public-debt-123-percent-gdp-2036/",
+        "https://bohonews.com/articles/gao-usaspending-data-gaps-7-trillion-outlays-2025/",
+        "https://bohonews.com/articles/nsf-83-million-ai-ready-scientific-data-systems/",
+        "https://bohonews.com/articles/us-courts-wiretap-authorizations-fell-24-percent-2025/",
+        "https://bohonews.com/articles/world-athletics-ratifies-eight-records-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-faa-1-776-billion-airport-grants-46-states-2026",
+        "article-gao-public-debt-123-percent-gdp-2036",
+        "article-gao-usaspending-data-gaps-7-trillion-outlays-2025",
+        "article-nsf-83-million-ai-ready-scientific-data-systems",
+        "article-us-courts-wiretap-authorizations-fell-24-percent-2025",
+        "article-world-athletics-ratifies-eight-records-2026"
+      ],
+      "previousVerifiedDeploymentReference": "c2ca3abfa56797adee4af0196b8f128164043c31fbf6b308261db8128d5f34b1",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T14:53:59.399078Z",
+      "recordHash": "787435debdbd724348e797bdca76b95820fa6666feab660002645e725df1a37a",
+      "releaseId": "release-pb-20260806t135104z-8846b9e2c45e-6df8800826d2",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://db972364.bohonews.pages.dev/",
+      "activationEvidenceHash": "c688c3eba25d0c93af4f994c7be6df57e70038518462cac8bc25f3836ffae131",
+      "canonicalFirstPublicAt": "2026-08-06T15:59:24.719Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/fda-tempo-digital-health-pilot-dexcom-2026/",
+        "https://bohonews.com/articles/gao-federal-programs-lack-outcome-evidence-2026/",
+        "https://bohonews.com/articles/global-hunger-falls-645-million-2025-un-report/",
+        "https://bohonews.com/articles/ncaa-baseball-ball-strike-challenges-bat-sensors-2026/",
+        "https://bohonews.com/articles/noaa-weather-models-move-commercial-cloud-2026/",
+        "https://bohonews.com/articles/us-bankruptcy-filings-rise-11-9-percent-march-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-fda-tempo-digital-health-pilot-dexcom-2026",
+        "article-gao-federal-programs-lack-outcome-evidence-2026",
+        "article-global-hunger-falls-645-million-2025-un-report",
+        "article-ncaa-baseball-ball-strike-challenges-bat-sensors-2026",
+        "article-noaa-weather-models-move-commercial-cloud-2026",
+        "article-us-bankruptcy-filings-rise-11-9-percent-march-2026"
+      ],
+      "previousVerifiedDeploymentReference": "8e0c24a614b9e83c14482f0f05e8cb4fc451ababe21356c664e0d4f024e3a155",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T15:57:40.219479Z",
+      "recordHash": "a92215016243866f9dba919b1f59a538aa25f65814a2ccf2f48ce97df8e2469e",
+      "releaseId": "release-pb-20260806t151855z-8aa0b0e21b8b-f5b18c5cb37b",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://7703112a.bohonews.pages.dev/",
+      "activationEvidenceHash": "c29374f244a302235de7cb4b66700463bf9385b63555d3aae54b63aa24043ed2",
+      "canonicalFirstPublicAt": "2026-08-06T16:58:00.447Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/federal-cyber-workforce-rotation-program-halted-2026/",
+        "https://bohonews.com/articles/infrastructure-awards-pending-canceled-gao-2026/",
+        "https://bohonews.com/articles/louisville-attic-ladder-recall-1-77-million-2026/",
+        "https://bohonews.com/articles/national-book-festival-2026-authors-tickets-schedule/",
+        "https://bohonews.com/articles/special-education-general-classrooms-state-gaps-2026/",
+        "https://bohonews.com/articles/technology-modernization-fund-savings-gao-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-federal-cyber-workforce-rotation-program-halted-2026",
+        "article-infrastructure-awards-pending-canceled-gao-2026",
+        "article-louisville-attic-ladder-recall-1-77-million-2026",
+        "article-national-book-festival-2026-authors-tickets-schedule",
+        "article-special-education-general-classrooms-state-gaps-2026",
+        "article-technology-modernization-fund-savings-gao-2026"
+      ],
+      "previousVerifiedDeploymentReference": "bcf006f479dbcdc6115a85059620b3ac16e18b259e57af44eac85dedeaa16235",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T16:56:26.58828Z",
+      "recordHash": "d37e670cd11ed8e1aa89b859f285200b8af1aab62af61c69a188bc3d106b3653",
+      "releaseId": "release-pb-20260806t162017z-fe27217df153-4d495b46636a",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://993cc780.bohonews.pages.dev/",
+      "activationEvidenceHash": "1dfe36f707331e957dde08cd3dd1ef0fc156be22755cbd8bc5cc9ec644b7d4eb",
+      "canonicalFirstPublicAt": "2026-08-06T18:16:14.768Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/federal-law-enforcement-officers-2023-bjs/",
+        "https://bohonews.com/articles/hr-143-unauthorized-spending-cbo-estimate-2026/",
+        "https://bohonews.com/articles/nasa-global-sea-level-102-4-mm-july-2026/",
+        "https://bohonews.com/articles/ncaa-mens-basketball-2026-27-timing-rules/",
+        "https://bohonews.com/articles/who-dementia-risk-reduction-guidelines-2026/",
+        "https://bohonews.com/articles/who-protect-drowning-prevention-strategies-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-federal-law-enforcement-officers-2023-bjs",
+        "article-hr-143-unauthorized-spending-cbo-estimate-2026",
+        "article-nasa-global-sea-level-102-4-mm-july-2026",
+        "article-ncaa-mens-basketball-2026-27-timing-rules",
+        "article-who-dementia-risk-reduction-guidelines-2026",
+        "article-who-protect-drowning-prevention-strategies-2026"
+      ],
+      "previousVerifiedDeploymentReference": "b127618e3c4887a11d897be5090cd8b2928f7d2a982062cf798e6a394e0a0de7",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T18:15:11.50255Z",
+      "recordHash": "4a24a12a7657cba1a88e57a7b9485e2e99ff54d57de2661abf6ffc88b99ec4a7",
+      "releaseId": "release-pb-20260806t172627z-1a9417d13ab5-792566236080",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://aeac8cdd.bohonews.pages.dev/",
+      "activationEvidenceHash": "6eb3c25da51bb827320660c01b0becbf53d745d31bbc666c3e5efc2b02a63a40",
+      "canonicalFirstPublicAt": "2026-08-06T21:13:05.188Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/education-department-10-open-gao-priority-recommendations-2026/",
+        "https://bohonews.com/articles/gao-battery-recycling-critical-mineral-imports-2026/",
+        "https://bohonews.com/articles/gao-fema-disaster-support-mothers-young-children-2026/",
+        "https://bohonews.com/articles/romorgniz-12-drawer-dresser-recall-10040-2026/",
+        "https://bohonews.com/articles/smithsonian-american-aspirations-extended-august-10-2026/",
+        "https://bohonews.com/articles/world-bank-south-africa-infrastructure-loan-1-5-billion-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-education-department-10-open-gao-priority-recommendations-2026",
+        "article-gao-battery-recycling-critical-mineral-imports-2026",
+        "article-gao-fema-disaster-support-mothers-young-children-2026",
+        "article-romorgniz-12-drawer-dresser-recall-10040-2026",
+        "article-smithsonian-american-aspirations-extended-august-10-2026",
+        "article-world-bank-south-africa-infrastructure-loan-1-5-billion-2026"
+      ],
+      "previousVerifiedDeploymentReference": "478f900ab10c9be7e0cbd22a7bf2a89169fe425f92e781db3602f302311c134f",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T21:11:39.400752Z",
+      "recordHash": "2b1560c959e167773648cbfcb81f45bf127dec8f8d621b2ca681a51221b420fb",
+      "releaseId": "release-pb-20260806t203204z-eabacebcd259-0174d871be9e",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://afef385f.bohonews.pages.dev/",
+      "activationEvidenceHash": "fca29a876dee12980197896c74502bd30c45ddc92f779f4ff7b8d2dee313963a",
+      "canonicalFirstPublicAt": "2026-08-06T22:39:10.266Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/air-force-women-first-armed-forces-flag-football-title-2026/",
+        "https://bohonews.com/articles/gao-ai-tax-rule-comments-treasury-irs-2026/",
+        "https://bohonews.com/articles/gao-orion-nasa-major-project-cost-growth-2026/",
+        "https://bohonews.com/articles/gao-revoked-twic-port-access-risk-2026/",
+        "https://bohonews.com/articles/imf-euro-area-growth-inflation-outlook-2026/",
+        "https://bohonews.com/articles/western-us-heat-dome-records-july-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-air-force-women-first-armed-forces-flag-football-title-2026",
+        "article-gao-ai-tax-rule-comments-treasury-irs-2026",
+        "article-gao-orion-nasa-major-project-cost-growth-2026",
+        "article-gao-revoked-twic-port-access-risk-2026",
+        "article-imf-euro-area-growth-inflation-outlook-2026",
+        "article-western-us-heat-dome-records-july-2026"
+      ],
+      "previousVerifiedDeploymentReference": "bed98e28aafff0acd2bf46b1bd8aa69ac87e2edacdc786ade953888ae1a1cc74",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T22:37:48.180192Z",
+      "recordHash": "3575571578ff48b8247e655175c887d650212eb886539b04780eb6324460265a",
+      "releaseId": "release-pb-20260806t214957z-848b3c493fb9-c9653c30b238",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://fbda2be7.bohonews.pages.dev/",
+      "activationEvidenceHash": "3ee96e4dcb1a8a7efb24c9dd9a0565f974c294bed6c730d9fee261f23bf3ae44",
+      "canonicalFirstPublicAt": "2026-08-06T23:49:59.949Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/brain-immunity-microglia-midlife-shift-study-2026/",
+        "https://bohonews.com/articles/dhs-acquisition-portfolio-cost-growth-oversight-2026/",
+        "https://bohonews.com/articles/national-air-space-museum-five-galleries-2026/",
+        "https://bohonews.com/articles/papua-new-guinea-growth-jobs-gap-2026/",
+        "https://bohonews.com/articles/us-probation-parole-population-2024-bjs/",
+        "https://bohonews.com/articles/world-athletics-u20-athletes-connect-oregon-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-brain-immunity-microglia-midlife-shift-study-2026",
+        "article-dhs-acquisition-portfolio-cost-growth-oversight-2026",
+        "article-national-air-space-museum-five-galleries-2026",
+        "article-papua-new-guinea-growth-jobs-gap-2026",
+        "article-us-probation-parole-population-2024-bjs",
+        "article-world-athletics-u20-athletes-connect-oregon-2026"
+      ],
+      "previousVerifiedDeploymentReference": "ff3a10a03be48f73a58d9bb2d5f14d2e5e9b734945417f4ae00e615e9449af08",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-06T23:48:26.141011Z",
+      "recordHash": "79c260b8535d42250cc81e0646e2d2ee83264bd0fe9226b35d1214d702c3ab80",
+      "releaseId": "release-pb-20260806t230406z-739d6db88a48-f2874800d053",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://db68b44e.bohonews.pages.dev/",
+      "activationEvidenceHash": "e4d033091e09d13fdd6974865ada45410b40709abde24125d5cd3b37bcb854db",
+      "canonicalFirstPublicAt": "2026-08-07T01:07:30.697Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/federal-health-insurance-subsidies-2026-2036-cbo/",
+        "https://bohonews.com/articles/federal-zero-point-sentencing-adjustment-fy2025/",
+        "https://bohonews.com/articles/global-temperature-june-2026-noaa-record/",
+        "https://bohonews.com/articles/imf-uk-growth-inflation-outlook-2026/",
+        "https://bohonews.com/articles/nsf-regional-ai-infrastructure-hubs-100-million/",
+        "https://bohonews.com/articles/ntsb-contract-spending-competition-it-systems-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-federal-health-insurance-subsidies-2026-2036-cbo",
+        "article-federal-zero-point-sentencing-adjustment-fy2025",
+        "article-global-temperature-june-2026-noaa-record",
+        "article-imf-uk-growth-inflation-outlook-2026",
+        "article-nsf-regional-ai-infrastructure-hubs-100-million",
+        "article-ntsb-contract-spending-competition-it-systems-2026"
+      ],
+      "previousVerifiedDeploymentReference": "357b669309123c95d96dc144840da209edfcbd63a966e0f2ee4f9a63aeaf9e27",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-07T01:06:30.552569Z",
+      "recordHash": "9d29a5458b289d5a34fc68f0fdcd36b17cc12b7f984ccde02a5868f39abff546",
+      "releaseId": "release-pb-20260807t001614z-45809f007bd1-7efc820bd427",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://cdfcb2c2.bohonews.pages.dev/",
+      "activationEvidenceHash": "92311e4db6c5b025874bd8dba3b2967dc99ca666b42a089945cdaab7525700c9",
+      "canonicalFirstPublicAt": "2026-08-07T03:03:51.577Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/als-blood-protein-panel-symptom-onset-prediction-2026/",
+        "https://bohonews.com/articles/brazil-growth-inflation-imf-outlook-2026/",
+        "https://bohonews.com/articles/federal-prison-population-mandatory-minimums-2025/",
+        "https://bohonews.com/articles/paranthropus-boisei-footprints-group-lake-turkana/",
+        "https://bohonews.com/articles/state-administered-federal-programs-fraud-controls-gao-2026/",
+        "https://bohonews.com/articles/world-athletics-u20-5000m-race-walk-records/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-als-blood-protein-panel-symptom-onset-prediction-2026",
+        "article-brazil-growth-inflation-imf-outlook-2026",
+        "article-federal-prison-population-mandatory-minimums-2025",
+        "article-paranthropus-boisei-footprints-group-lake-turkana",
+        "article-state-administered-federal-programs-fraud-controls-gao-2026",
+        "article-world-athletics-u20-5000m-race-walk-records"
+      ],
+      "previousVerifiedDeploymentReference": "225c9b584b203702f1692609befcc1f371018f84fc04fea1e3058ba4d47d6f43",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-07T03:02:28.338234Z",
+      "recordHash": "07cd3f983bd99e475f5365375a48bc23baa4865ee6aa448f2fc8f14de18af0a1",
+      "releaseId": "release-pb-20260807t013555z-4e998d9c3bcd-4fd56603b7c7",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://6779215f.bohonews.pages.dev/",
+      "activationEvidenceHash": "d5f1be87c02de5ab11d078b6dda89ed9224d51957f2ff43423a466ae6e64fbc7",
+      "canonicalFirstPublicAt": "2026-08-07T06:44:54.138Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/arctic-sea-ice-extent-august-5-2026/",
+        "https://bohonews.com/articles/avocado-dna-nicaragua-ancient-crop-migration-2026/",
+        "https://bohonews.com/articles/federal-organizational-sentencing-environmental-crimes-fy2025/",
+        "https://bohonews.com/articles/gao-bank-regulators-decennial-rule-reviews-2026/",
+        "https://bohonews.com/articles/gao-healthcare-gov-unauthorized-plan-changes-controls-2026/",
+        "https://bohonews.com/articles/nasa-capstone-02-autonomous-lunar-navigation-2027/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-arctic-sea-ice-extent-august-5-2026",
+        "article-avocado-dna-nicaragua-ancient-crop-migration-2026",
+        "article-federal-organizational-sentencing-environmental-crimes-fy2025",
+        "article-gao-bank-regulators-decennial-rule-reviews-2026",
+        "article-gao-healthcare-gov-unauthorized-plan-changes-controls-2026",
+        "article-nasa-capstone-02-autonomous-lunar-navigation-2027"
+      ],
+      "previousVerifiedDeploymentReference": "a32f6d7275dc61954fda135ff05bacfc7b23c939ad9c0a32127001479d95e01a",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-07T06:43:09.049951Z",
+      "recordHash": "c2b300fd737779496e41018f5348a9b16c22b138047f5c6ed38716aaaba7db44",
+      "releaseId": "release-pb-20260807t050316z-c7421446c1d9-53c22ea21370",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://b9f6431f.bohonews.pages.dev/",
+      "activationEvidenceHash": "156ac420540a2fddf589e6733fbd267e19976da688439ef8d6ffb996d2b2a7df",
+      "canonicalFirstPublicAt": "2026-08-07T09:03:16.937Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/census-back-to-school-students-teachers-2026/",
+        "https://bohonews.com/articles/census-county-uninsured-rates-2024/",
+        "https://bohonews.com/articles/fifa-world-cup-2026-statistical-leaders/",
+        "https://bohonews.com/articles/gao-ai-medical-notes-coding-oversight-2026/",
+        "https://bohonews.com/articles/gao-food-import-origin-verification-2026/",
+        "https://bohonews.com/articles/who-world-health-statistics-2026-data-gaps/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-census-back-to-school-students-teachers-2026",
+        "article-census-county-uninsured-rates-2024",
+        "article-fifa-world-cup-2026-statistical-leaders",
+        "article-gao-ai-medical-notes-coding-oversight-2026",
+        "article-gao-food-import-origin-verification-2026",
+        "article-who-world-health-statistics-2026-data-gaps"
+      ],
+      "previousVerifiedDeploymentReference": "b9b5af50e18bc4e7547a9ccc0adaf1ccc79da63e74a5209ad013afafb691107d",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-07T09:01:48.401842Z",
+      "recordHash": "95db642559988fbc2a2078a45b50762286756ba61f1f484ff3554583ae8f914e",
+      "releaseId": "release-pb-20260807t080652z-872a33305b70-810a4e77bd47",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://cabd7e92.bohonews.pages.dev/",
+      "activationEvidenceHash": "ab237963627f100df7d9ddaa506897550e0ef10fe08cafb1cca11919a5392cda",
+      "canonicalFirstPublicAt": "2026-08-07T10:29:37.034Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/epa-six-superfund-cleanups-pacific-southwest-2026/",
+        "https://bohonews.com/articles/federal-court-filings-criminal-bankruptcy-fy2025/",
+        "https://bohonews.com/articles/ftc-imposter-scams-3-5-billion-losses-2025/",
+        "https://bohonews.com/articles/gao-doe-nuclear-cleanup-project-alternatives-2026/",
+        "https://bohonews.com/articles/gao-older-worker-program-employment-gap-2026/",
+        "https://bohonews.com/articles/nasa-chris-williams-241-day-space-station-mission-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-epa-six-superfund-cleanups-pacific-southwest-2026",
+        "article-federal-court-filings-criminal-bankruptcy-fy2025",
+        "article-ftc-imposter-scams-3-5-billion-losses-2025",
+        "article-gao-doe-nuclear-cleanup-project-alternatives-2026",
+        "article-gao-older-worker-program-employment-gap-2026",
+        "article-nasa-chris-williams-241-day-space-station-mission-2026"
+      ],
+      "previousVerifiedDeploymentReference": "a4807fc4087033f0abdb050af83fec9df8b431213bb42cdeb0cb2a770e883e17",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-07T10:28:16.188013Z",
+      "recordHash": "81957cd69e162ea4f214a35d519c9b5e6b0e4301988d3750442e7c0cb22a6544",
+      "releaseId": "release-pb-20260807t092720z-4a1414219381-085545634e33",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://48a8a0fc.bohonews.pages.dev/",
+      "activationEvidenceHash": "f155a486bc5629939d7a0aa45b432d0806856fcf2e13e843463791e312f9d1bd",
+      "canonicalFirstPublicAt": "2026-08-07T14:15:05.972Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-federal-training-guide-four-part-cycle-2026/",
+        "https://bohonews.com/articles/india-rooftop-solar-world-bank-financing-2026/",
+        "https://bohonews.com/articles/ncaa-division-i-football-targeting-penalties-2026/",
+        "https://bohonews.com/articles/nsf-cyberaicorps-14-university-awards-2026/",
+        "https://bohonews.com/articles/smithsonian-toppan-peacock-room-vr-2027/",
+        "https://bohonews.com/articles/world-bank-central-asia-water-cooperation-20-million-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-federal-training-guide-four-part-cycle-2026",
+        "article-india-rooftop-solar-world-bank-financing-2026",
+        "article-ncaa-division-i-football-targeting-penalties-2026",
+        "article-nsf-cyberaicorps-14-university-awards-2026",
+        "article-smithsonian-toppan-peacock-room-vr-2027",
+        "article-world-bank-central-asia-water-cooperation-20-million-2026"
+      ],
+      "previousVerifiedDeploymentReference": "3fc61c343ad47f2d29e327018d0c858dc3967cec50b8e92830923fd9276c7ca1",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-07T14:13:33.158261Z",
+      "recordHash": "f7f9a70c9d47c0428b71789d4a11aafc61aa46482c25a58d4c2800ef58db6a23",
+      "releaseId": "release-pb-20260807t131935z-1b08cb6248f0-147204a7964a",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://cff1bf56.bohonews.pages.dev/",
+      "activationEvidenceHash": "d57d498f35fb75625a6b56b60f1301f43482bf9ee80a2df8558493afedfe43bd",
+      "canonicalFirstPublicAt": "2026-08-07T16:55:00.648Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/east-asia-pacific-maritime-jobs-value-world-bank-2026/",
+        "https://bohonews.com/articles/gao-state-international-commitments-late-reporting-2026/",
+        "https://bohonews.com/articles/nasa-navcube3-mini-altus1-lunar-relay-2026/",
+        "https://bohonews.com/articles/nasa-prefire-two-years-polar-heat-data-2026/",
+        "https://bohonews.com/articles/nasa-tempo-lab-air-quality-educators-2026/",
+        "https://bohonews.com/articles/queen-sweat-bee-pheromones-daughters-stay-study-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-east-asia-pacific-maritime-jobs-value-world-bank-2026",
+        "article-gao-state-international-commitments-late-reporting-2026",
+        "article-nasa-navcube3-mini-altus1-lunar-relay-2026",
+        "article-nasa-prefire-two-years-polar-heat-data-2026",
+        "article-nasa-tempo-lab-air-quality-educators-2026",
+        "article-queen-sweat-bee-pheromones-daughters-stay-study-2026"
+      ],
+      "previousVerifiedDeploymentReference": "a2d25c55ffa45ae7a8626f7bd2da2cb7268403cb28fb32d400e274082dc767e9",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-07T16:53:31.325992Z",
+      "recordHash": "1ef3d4c04a16f73c1b4c78fb415ccdbd3a0229b38bf4e430abe8843a7f027c40",
+      "releaseId": "release-pb-20260807t145526z-e3407ebe7df2-aa2e7543dd39",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://52d327f0.bohonews.pages.dev/",
+      "activationEvidenceHash": "28142770c45c5a14f5ed45db0328e6247f9bebdcf9bf966cacc667124cae79b5",
+      "canonicalFirstPublicAt": "2026-08-09T15:42:58.072Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/elbe-estuary-tides-shipping-landsat-2026/",
+        "https://bohonews.com/articles/emmanuel-eseme-983-commonwealth-games-record-glasgow/",
+        "https://bohonews.com/articles/federal-sentencing-cases-immigration-share-fy2026/",
+        "https://bohonews.com/articles/hirshhorn-sculpture-garden-reopens-october-2026/",
+        "https://bohonews.com/articles/nasa-ixpe-magnetar-vacuum-birefringence-2026/",
+        "https://bohonews.com/articles/us-jobs-report-july-2026-payrolls-unemployment/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-elbe-estuary-tides-shipping-landsat-2026",
+        "article-emmanuel-eseme-983-commonwealth-games-record-glasgow",
+        "article-federal-sentencing-cases-immigration-share-fy2026",
+        "article-hirshhorn-sculpture-garden-reopens-october-2026",
+        "article-nasa-ixpe-magnetar-vacuum-birefringence-2026",
+        "article-us-jobs-report-july-2026-payrolls-unemployment"
+      ],
+      "previousVerifiedDeploymentReference": "d8e4a9f3a75f337835a60734dd539ba6c17ea810493ae582e0f76c44dfce1508",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-09T15:42:04.313511Z",
+      "recordHash": "024be87a1334155d747878051b48d87f4ca1e1b3eea6fb1edc6e17d8cdb19eee",
+      "releaseId": "release-pb-20260807t174521z-292f2bf3cdcd-c89a32dd3e4d",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://ec7bb5f3.bohonews.pages.dev/",
+      "activationEvidenceHash": "86433ff986c931da84bcc0147791c3683008c8d5da051a75eab455e74cf6ad54",
+      "canonicalFirstPublicAt": "2026-08-10T04:07:21.088Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/nih-cancer-models-25-tumor-types-665-models-2026/",
+        "https://bohonews.com/articles/nist-august-19-2026-lab-tour-registration/",
+        "https://bohonews.com/articles/farah-okeefe-standard-portland-classic-lpga-exemption-2026/",
+        "https://bohonews.com/articles/great-atlantic-sargassum-belt-june-2026-records/",
+        "https://bohonews.com/articles/world-bank-salta-route-51-water-project-100-million/",
+        "https://bohonews.com/articles/amanda-pascali-library-congress-concert-august-13-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-nih-cancer-models-25-tumor-types-665-models-2026",
+        "article-nist-august-19-2026-lab-tour-registration",
+        "article-farah-okeefe-standard-portland-classic-lpga-exemption-2026",
+        "article-great-atlantic-sargassum-belt-june-2026-records",
+        "article-world-bank-salta-route-51-water-project-100-million",
+        "article-amanda-pascali-library-congress-concert-august-13-2026"
+      ],
+      "previousVerifiedDeploymentReference": "5342d9cb95669dd1c0492e364f98c84d37e0c008d5d000617857c9ed1ef355a2",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T04:05:21.599868Z",
+      "recordHash": "a6000a7fb0f720ccbda70302d6649845b1db6a9de5e9e064678692f5b22f719b",
+      "releaseId": "release-pb-20260810t033529z-4e99fbc67d36-276b84f417dd",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://2b8ee7d8.bohonews.pages.dev/",
+      "activationEvidenceHash": "055dfd846f8e2aefbfb4d1b81315b704d47c046f6c7ae7f500d62192b0cfac29",
+      "canonicalFirstPublicAt": "2026-08-10T05:03:17.356Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/ftc-trend-deploy-refund-checks-672000-2026/",
+        "https://bohonews.com/articles/osha-safe-sound-week-august-10-16-2026/",
+        "https://bohonews.com/articles/smithsonian-voices-votes-democracy-exhibit-september-7-2026/",
+        "https://bohonews.com/articles/nasa-genesis-mission-150-petabytes-ai-2026/",
+        "https://bohonews.com/articles/ifc-first-euro-benchmark-green-bond-1-billion-2026/",
+        "https://bohonews.com/articles/doe-65-5-million-oil-gas-technology-funding-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-ftc-trend-deploy-refund-checks-672000-2026",
+        "article-osha-safe-sound-week-august-10-16-2026",
+        "article-smithsonian-voices-votes-democracy-exhibit-september-7-2026",
+        "article-nasa-genesis-mission-150-petabytes-ai-2026",
+        "article-ifc-first-euro-benchmark-green-bond-1-billion-2026",
+        "article-doe-65-5-million-oil-gas-technology-funding-2026"
+      ],
+      "previousVerifiedDeploymentReference": "e1a1fc08363081f876183ccb7d55586d17eaeb917209bb36919fb65fa61252b3",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T05:01:23.17019Z",
+      "recordHash": "6457df82398993ae627572933a0082c9e051c380ee9a0bbc9bf89338abad6da6",
+      "releaseId": "release-pb-20260810t043329z-5946453180cb-a16d9595de7a",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://3cfb4265.bohonews.pages.dev/",
+      "activationEvidenceHash": "b9affb29dc701b14452f911caf934306b397cc860fc5d06fe51bcf30f134dc9b",
+      "canonicalFirstPublicAt": "2026-08-10T05:41:51.318Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-federal-open-access-publishing-costs-could-triple-2026/",
+        "https://bohonews.com/articles/state-local-law-enforcement-64200-officer-vacancies-2020/",
+        "https://bohonews.com/articles/congressional-community-projects-39-billion-obligated-gao-2026/",
+        "https://bohonews.com/articles/us-open-2026-schedule-fan-week-main-draw-finals/",
+        "https://bohonews.com/articles/noaa-atlantic-hurricane-outlook-75-percent-below-normal-2026/",
+        "https://bohonews.com/articles/who-hiv-hepatitis-sti-progress-gaps-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-federal-open-access-publishing-costs-could-triple-2026",
+        "article-state-local-law-enforcement-64200-officer-vacancies-2020",
+        "article-congressional-community-projects-39-billion-obligated-gao-2026",
+        "article-us-open-2026-schedule-fan-week-main-draw-finals",
+        "article-noaa-atlantic-hurricane-outlook-75-percent-below-normal-2026",
+        "article-who-hiv-hepatitis-sti-progress-gaps-2026"
+      ],
+      "previousVerifiedDeploymentReference": "d959d04f76f5214619b5e9d63f28bca04f97c5b9a6d97c81fdc6539db28576a1",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T05:40:14.338629Z",
+      "recordHash": "5b7c34c97a5e9e3404541cc857abb74f5db962678bb5f526d0393fce006c6ceb",
+      "releaseId": "release-pb-20260810t051729z-4a823a253ce3-b9797085859b",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://2314d762.bohonews.pages.dev/",
+      "activationEvidenceHash": "d07ecc931b268224c006e75598593abe249986d109ad3b17b9b8b4e4e89afaeb",
+      "canonicalFirstPublicAt": "2026-08-10T06:36:18.101Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-family-support-program-performance-systems-2026/",
+        "https://bohonews.com/articles/federal-law-enforcement-officers-133798-bjs-2023/",
+        "https://bohonews.com/articles/koussevitzky-foundation-six-music-commissions-2026/",
+        "https://bohonews.com/articles/fda-bht-food-additive-comment-period-august-2026/",
+        "https://bohonews.com/articles/robotic-satellite-servicer-launches-geosynchronous-orbit-2026/",
+        "https://bohonews.com/articles/state-local-pension-assets-6-49-trillion-2025/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-family-support-program-performance-systems-2026",
+        "article-federal-law-enforcement-officers-133798-bjs-2023",
+        "article-koussevitzky-foundation-six-music-commissions-2026",
+        "article-fda-bht-food-additive-comment-period-august-2026",
+        "article-robotic-satellite-servicer-launches-geosynchronous-orbit-2026",
+        "article-state-local-pension-assets-6-49-trillion-2025"
+      ],
+      "previousVerifiedDeploymentReference": "de32ecd49605244e00526d9e9aa935a3f164c5f77f5ee0aca8a9a77625efae11",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T06:33:52.305329Z",
+      "recordHash": "78eca410dd8650de5dbfc51dda471d27c366dbbad6b39daf32654818f0a2c299",
+      "releaseId": "release-pb-20260810t055829z-c332b62b2712-7dfe03a12728",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://42acb805.bohonews.pages.dev/",
+      "activationEvidenceHash": "ecab023ac7059c868651dfc570dac21dbc599e2404ee6814710c226ecfdee002",
+      "canonicalFirstPublicAt": "2026-08-10T07:26:51.474Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/cbo-federal-deficit-1-4-trillion-through-june-2026/",
+        "https://bohonews.com/articles/field-of-dreams-twins-phillies-august-13-2026/",
+        "https://bohonews.com/articles/nws-full-ocean-sea-state-analysis-proposal-2026/",
+        "https://bohonews.com/articles/imf-bangladesh-growth-3-5-percent-fy2027-reform-program/",
+        "https://bohonews.com/articles/federal-reserve-consumer-credit-june-2026-3-3-percent/",
+        "https://bohonews.com/articles/arkansas-education-waiver-ed-flex-8-8-million-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-cbo-federal-deficit-1-4-trillion-through-june-2026",
+        "article-field-of-dreams-twins-phillies-august-13-2026",
+        "article-nws-full-ocean-sea-state-analysis-proposal-2026",
+        "article-imf-bangladesh-growth-3-5-percent-fy2027-reform-program",
+        "article-federal-reserve-consumer-credit-june-2026-3-3-percent",
+        "article-arkansas-education-waiver-ed-flex-8-8-million-2026"
+      ],
+      "previousVerifiedDeploymentReference": "af510bbb4b0e83d150da40fde4a7e241065980edc85a83417d3e152192566b8f",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T07:24:40.673117Z",
+      "recordHash": "1a3188c51464a8c1c000cad4e9f9047952354cb3fe0fc81b82b5a1af38fa18d2",
+      "releaseId": "release-pb-20260810t065029z-cccbc6c948cd-6584626af79b",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://8523e3ed.bohonews.pages.dev/",
+      "activationEvidenceHash": "6028e7a5bf3e464f85be544035c370653a478d30f063907834fd174ab3ace551",
+      "canonicalFirstPublicAt": "2026-08-10T15:49:03.460Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-va-disability-ai-modernization-15-open-actions-2026/",
+        "https://bohonews.com/articles/bjs-violent-offense-rate-370-8-per-100000-2024/",
+        "https://bohonews.com/articles/gao-277-open-recommendations-congress-2026/",
+        "https://bohonews.com/articles/2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula/",
+        "https://bohonews.com/articles/library-congress-accessible-library-awards-georgia-massachusetts-2026/",
+        "https://bohonews.com/articles/alzheimers-circular-rna-blood-biomarkers-symptom-risk-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-va-disability-ai-modernization-15-open-actions-2026",
+        "article-bjs-violent-offense-rate-370-8-per-100000-2024",
+        "article-gao-277-open-recommendations-congress-2026",
+        "article-2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula",
+        "article-library-congress-accessible-library-awards-georgia-massachusetts-2026",
+        "article-alzheimers-circular-rna-blood-biomarkers-symptom-risk-2026"
+      ],
+      "previousVerifiedDeploymentReference": "36657dab04e37509afe07fd74ec2a47e7d38b5172e10c9233ee35bad056558d0",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T15:45:47.382201Z",
+      "recordHash": "2b712a35bafceb38028ae4095104051b8e33cca4c44f9af47ee4ec5b8bd4d13a",
+      "releaseId": "release-pb-20260810t074930z-be1bd1000061",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://e6f128b0.bohonews.pages.dev/",
+      "activationEvidenceHash": "d052f6868d3c6be8d0ab04bb681c6c452f0bc3e6052bae6e79416395e8fda4a6",
+      "canonicalFirstPublicAt": "2026-08-10T16:44:01.027Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-improper-payments-va-medicare-24-billion-2026/",
+        "https://bohonews.com/articles/ussc-national-defense-cases-517-fiscal-2025/",
+        "https://bohonews.com/articles/cbo-federal-credit-cost-methods-67-billion-gap-2027/",
+        "https://bohonews.com/articles/nsf-project-triad-quantum-sensors-networks-computers-2026/",
+        "https://bohonews.com/articles/nasa-brown-carbon-wildfire-smoke-july-2026/",
+        "https://bohonews.com/articles/imf-kazakhstan-growth-4-6-inflation-10-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-improper-payments-va-medicare-24-billion-2026",
+        "article-ussc-national-defense-cases-517-fiscal-2025",
+        "article-cbo-federal-credit-cost-methods-67-billion-gap-2027",
+        "article-nsf-project-triad-quantum-sensors-networks-computers-2026",
+        "article-nasa-brown-carbon-wildfire-smoke-july-2026",
+        "article-imf-kazakhstan-growth-4-6-inflation-10-2026"
+      ],
+      "previousVerifiedDeploymentReference": "777d94e4d498ec54421da9bd93602346cf2aa0995565b7212bfa6f0ea13d1ed4",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T16:41:55.390835Z",
+      "recordHash": "12fd8d6b52cecf0d282a476791f5ff4b700e552ab8a2bf79b3751fdd6bbbcb68",
+      "releaseId": "release-pb-20260810t160849z-e5efe15d24a7",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://e381d9c3.bohonews.pages.dev/",
+      "activationEvidenceHash": "c63fe286dbe4e321c40f8b285c91a3fbabd27c43f7dab21d009d675dc4809d80",
+      "canonicalFirstPublicAt": "2026-08-10T17:36:35.268Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-gsa-11-priority-recommendations-2026/",
+        "https://bohonews.com/articles/federal-robbery-sentences-108-months-fy2025/",
+        "https://bohonews.com/articles/library-congress-90-teachers-primary-sources-2026/",
+        "https://bohonews.com/articles/cbo-defense-budget-request-961-billion-2026/",
+        "https://bohonews.com/articles/craig-tiley-begins-usta-ceo-tenure-2026/",
+        "https://bohonews.com/articles/nih-all-of-us-747000-participant-dataset-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-gsa-11-priority-recommendations-2026",
+        "article-federal-robbery-sentences-108-months-fy2025",
+        "article-library-congress-90-teachers-primary-sources-2026",
+        "article-cbo-defense-budget-request-961-billion-2026",
+        "article-craig-tiley-begins-usta-ceo-tenure-2026",
+        "article-nih-all-of-us-747000-participant-dataset-2026"
+      ],
+      "previousVerifiedDeploymentReference": "264d0e5511b83fbd3254180ad852b3efc840b0a3d769b58a35ee8bccd6258e76",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T17:34:12.662686Z",
+      "recordHash": "01e5435483d1cf43990f8be397ad5485a5ab2fb6b155e5da4cdfda68dffff129",
+      "releaseId": "release-pb-20260810t170420z-9c7a4f2d18b6",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://efd6d645.bohonews.pages.dev/",
+      "activationEvidenceHash": "0984719c9486daa581c63e18bfa6512d1c2f12b2ab94648f9f8cfd17274ab80f",
+      "canonicalFirstPublicAt": "2026-08-10T18:32:21.473Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/moab-uranium-cleanup-cost-116-billion-2026/",
+        "https://bohonews.com/articles/mandatory-minimums-applied-15-percent-federal-sentences-fy2025/",
+        "https://bohonews.com/articles/us-population-growth-slowed-05-percent-migration-2025/",
+        "https://bohonews.com/articles/nasa-adds-eight-commercial-earth-data-providers-2026/",
+        "https://bohonews.com/articles/drought-covered-4854-percent-lower-48-august-2026/",
+        "https://bohonews.com/articles/imf-uzbekistan-growth-68-percent-inflation-eases-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-moab-uranium-cleanup-cost-116-billion-2026",
+        "article-mandatory-minimums-applied-15-percent-federal-sentences-fy2025",
+        "article-us-population-growth-slowed-05-percent-migration-2025",
+        "article-nasa-adds-eight-commercial-earth-data-providers-2026",
+        "article-drought-covered-4854-percent-lower-48-august-2026",
+        "article-imf-uzbekistan-growth-68-percent-inflation-eases-2026"
+      ],
+      "previousVerifiedDeploymentReference": "1fcd34c0f10b91399e492941b79b919e90ea09ffb6c74c843e81b618beb1d261",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T18:29:44.322116Z",
+      "recordHash": "5821d5f70ce78ed7394f333b992e67e30b80d474d504abe35479518c781bdd21",
+      "releaseId": "release-pb-20260810t174920z-a64d2e91c7f3",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://6c89b56e.bohonews.pages.dev/",
+      "activationEvidenceHash": "6c8c8a1f81eeac0002264048dee6112481150f84e009264f43cc86131238547d",
+      "canonicalFirstPublicAt": "2026-08-10T19:35:17.829Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/main-street-lending-251-loans-outstanding-after-maturity/",
+        "https://bohonews.com/articles/credit-card-financial-fraud-718-federal-sentences-fy2025/",
+        "https://bohonews.com/articles/smithsonian-in-pursuit-250-objects-exhibition-2026/",
+        "https://bohonews.com/articles/prediabetes-lifestyle-intervention-lowered-multimorbidity-risk/",
+        "https://bohonews.com/articles/beijing-2027-world-athletics-qualification-standards/",
+        "https://bohonews.com/articles/federal-excise-tax-revenue-106-billion-2025/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-main-street-lending-251-loans-outstanding-after-maturity",
+        "article-credit-card-financial-fraud-718-federal-sentences-fy2025",
+        "article-smithsonian-in-pursuit-250-objects-exhibition-2026",
+        "article-prediabetes-lifestyle-intervention-lowered-multimorbidity-risk",
+        "article-beijing-2027-world-athletics-qualification-standards",
+        "article-federal-excise-tax-revenue-106-billion-2025"
+      ],
+      "previousVerifiedDeploymentReference": "c60c584bbb0db8600f7d1e982c9168695646258e937ce081eb6c7db63b2dc9ec",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T19:31:43.358052Z",
+      "recordHash": "649011bcdfffcff54ba173b063ddaee0c21bf57c3d17540b8421b091f4f5632a",
+      "releaseId": "release-pb-20260810t184820z-eaca183241d2",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://09b085ce.bohonews.pages.dev/",
+      "activationEvidenceHash": "df01c59d89b53b73840264c437a4a0d5fd308db94f2ca92ab145d1024f7c8da7",
+      "canonicalFirstPublicAt": "2026-08-10T23:57:20.561Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-six-agencies-covered-telecom-equipment-searches-2026/",
+        "https://bohonews.com/articles/federal-sentences-within-guideline-range-59-percent-2026/",
+        "https://bohonews.com/articles/nist-adds-52000-chemical-fingerprints-mass-spectra-2026/",
+        "https://bohonews.com/articles/census-household-trends-tables-136000-homes-march-2026/",
+        "https://bohonews.com/articles/noaa-urban-air-chemistry-particle-formation-2026/",
+        "https://bohonews.com/articles/imf-gambia-22-million-disbursement-growth-forecast-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-six-agencies-covered-telecom-equipment-searches-2026",
+        "article-federal-sentences-within-guideline-range-59-percent-2026",
+        "article-nist-adds-52000-chemical-fingerprints-mass-spectra-2026",
+        "article-census-household-trends-tables-136000-homes-march-2026",
+        "article-noaa-urban-air-chemistry-particle-formation-2026",
+        "article-imf-gambia-22-million-disbursement-growth-forecast-2026"
+      ],
+      "previousVerifiedDeploymentReference": "838d342c06e65a2740bc82fe2437fe2a579764b6d78ea124c5dc11ca35134ce7",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-10T23:55:50.221108Z",
+      "recordHash": "39324b1c273e8941e184559bfcec85e5599b747cb298818d7e1dc5439b06932b",
+      "releaseId": "release-pb-20260810t230421z-8c92d14f6a37",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://d1ebf399.bohonews.pages.dev/",
+      "activationEvidenceHash": "f11f56523c2321e8ca00d6d5e5f08c48280e2cc659bd035dbd902cca694bccd9",
+      "canonicalFirstPublicAt": "2026-08-11T01:04:25.509Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/us-productivity-up-1-4-percent-labor-share-record-low-q2-2026/",
+        "https://bohonews.com/articles/nsf-47-million-four-year-industry-integrated-phd-pilot-2026/",
+        "https://bohonews.com/articles/nih-midlife-brain-immune-cell-shift-hippocampus-study-2026/",
+        "https://bohonews.com/articles/nsf-50-million-ai-materials-innovation-platforms-2026/",
+        "https://bohonews.com/articles/noaa-30-day-west-coast-ocean-acidification-survey-2026/",
+        "https://bohonews.com/articles/us-open-oura-rings-main-draw-players-five-year-deal-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-us-productivity-up-1-4-percent-labor-share-record-low-q2-2026",
+        "article-nsf-47-million-four-year-industry-integrated-phd-pilot-2026",
+        "article-nih-midlife-brain-immune-cell-shift-hippocampus-study-2026",
+        "article-nsf-50-million-ai-materials-innovation-platforms-2026",
+        "article-noaa-30-day-west-coast-ocean-acidification-survey-2026",
+        "article-us-open-oura-rings-main-draw-players-five-year-deal-2026"
+      ],
+      "previousVerifiedDeploymentReference": "00b75e4bebecd8c63d520b4b7d6f6623ab1ab0f6efd0bac3a303bb00e6c6d51f",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T01:01:32.401487Z",
+      "recordHash": "8bbde414bca6115d53a0da938c1c8cc7c5da23bdb5d1fe0028b9f0d4ebd295b8",
+      "releaseId": "release-pb-20260811t001321z-0b750f8e9561",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://db441bc0.bohonews.pages.dev/",
+      "activationEvidenceHash": "bbea3d1f107178848de4af9f510f01d82ccc633eee74c2f2ca4fc8d69c8fe1c0",
+      "canonicalFirstPublicAt": "2026-08-11T01:54:37.170Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/coast-guard-cleanup-liabilities-448-million-gao-2026/",
+        "https://bohonews.com/articles/tribal-law-enforcement-violent-offenses-down-11-percent-2023/",
+        "https://bohonews.com/articles/library-congress-gil-evans-manuscripts-unrecorded-scores/",
+        "https://bohonews.com/articles/cbo-president-2027-budget-defense-nondefense-spending/",
+        "https://bohonews.com/articles/imf-tanzania-444-million-final-program-reviews-2026/",
+        "https://bohonews.com/articles/mlb-draft-2026-first-day-135-picks-position-breakdown/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-coast-guard-cleanup-liabilities-448-million-gao-2026",
+        "article-tribal-law-enforcement-violent-offenses-down-11-percent-2023",
+        "article-library-congress-gil-evans-manuscripts-unrecorded-scores",
+        "article-cbo-president-2027-budget-defense-nondefense-spending",
+        "article-imf-tanzania-444-million-final-program-reviews-2026",
+        "article-mlb-draft-2026-first-day-135-picks-position-breakdown"
+      ],
+      "previousVerifiedDeploymentReference": "ed02381499f92a0672081747b37f34efbea5d1528ec6037a1041eb3a720d9915",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T01:52:14.502628Z",
+      "recordHash": "da56428c82c1ac61df03ac95ce9883645766eefc6185a31600ab3e6c6e7da740",
+      "releaseId": "release-pb-20260811t012221z-9d6b3f2a71c4",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://951f8815.bohonews.pages.dev/",
+      "activationEvidenceHash": "9903c7970a73b2d326abd34e55d8428e5910596879e6d91a433df77944fcf2bf",
+      "canonicalFirstPublicAt": "2026-08-11T02:47:57.444Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/doe-nuclear-cleanup-end-state-contracts-cost-growth-gao-2026/",
+        "https://bohonews.com/articles/federal-prison-population-first-step-act-statistics-2024/",
+        "https://bohonews.com/articles/smithsonian-pulverer-japanese-books-digital-catalog/",
+        "https://bohonews.com/articles/gao-opm-eight-priority-recommendations-2026/",
+        "https://bohonews.com/articles/gao-overlapping-cybersecurity-reporting-rules-2026/",
+        "https://bohonews.com/articles/nsf-four-year-phd-industry-research-pilot-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-doe-nuclear-cleanup-end-state-contracts-cost-growth-gao-2026",
+        "article-federal-prison-population-first-step-act-statistics-2024",
+        "article-smithsonian-pulverer-japanese-books-digital-catalog",
+        "article-gao-opm-eight-priority-recommendations-2026",
+        "article-gao-overlapping-cybersecurity-reporting-rules-2026",
+        "article-nsf-four-year-phd-industry-research-pilot-2026"
+      ],
+      "previousVerifiedDeploymentReference": "f45885889b07d5531947f3f34e02155e040014d6b97f6204210ca84e5a04d1db",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T02:46:47.335777Z",
+      "recordHash": "1e1a990831abd0cb7c14a44521b1f231b56c88661b0b89c71b5b7eb8e2191f18",
+      "releaseId": "release-pb-20260811t021721z-6c8e14b9d2f0",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://2ff137a1.bohonews.pages.dev/",
+      "activationEvidenceHash": "463f505b09643e8726f92242948f463a179f42e2d65acf746cd411a2c193b602",
+      "canonicalFirstPublicAt": "2026-08-11T03:32:26.385Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-nuclear-cleanup-international-lessons-2026/",
+        "https://bohonews.com/articles/doj-inventory-62-criminal-regulatory-offenses-2026/",
+        "https://bohonews.com/articles/smithsonian-princess-grace-program-swan-benches-2026/",
+        "https://bohonews.com/articles/nih-sennet-senescent-cell-atlas-senotypes-2026/",
+        "https://bohonews.com/articles/ncaa-wichita-opening-round-march-madness-2027-2028/",
+        "https://bohonews.com/articles/imf-austria-growth-inflation-outlook-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-nuclear-cleanup-international-lessons-2026",
+        "article-doj-inventory-62-criminal-regulatory-offenses-2026",
+        "article-smithsonian-princess-grace-program-swan-benches-2026",
+        "article-nih-sennet-senescent-cell-atlas-senotypes-2026",
+        "article-ncaa-wichita-opening-round-march-madness-2027-2028",
+        "article-imf-austria-growth-inflation-outlook-2026"
+      ],
+      "previousVerifiedDeploymentReference": "776108e25eb3b15c56299aca50feae5f01217d1467367892495dc1d86080a394",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T03:30:38.692383Z",
+      "recordHash": "a57ddedffe039e4de3731b68a4ec5a935d3ca5e848e96c8afcd11ca6fb374f86",
+      "releaseId": "release-pb-20260811t025921z-4a7c9d1e8b20",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://c8524b3a.bohonews.pages.dev/",
+      "activationEvidenceHash": "585b564d4ac5553232e43ea474ebad89682bc9d81a527ef867d93d8094b22379",
+      "canonicalFirstPublicAt": "2026-08-11T04:51:32.552Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-ai-acquisitions-lessons-four-agencies-2026/",
+        "https://bohonews.com/articles/federal-section-922g-firearm-sentences-7245-2025/",
+        "https://bohonews.com/articles/cbo-us-population-364-million-aging-2056/",
+        "https://bohonews.com/articles/usgs-river-droughtcast-90-day-streamflow-forecast-2026/",
+        "https://bohonews.com/articles/gao-four-pillar-us-ai-competitiveness-framework-2026/",
+        "https://bohonews.com/articles/us-public-school-spending-17619-per-pupil-2024/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-ai-acquisitions-lessons-four-agencies-2026",
+        "article-federal-section-922g-firearm-sentences-7245-2025",
+        "article-cbo-us-population-364-million-aging-2056",
+        "article-usgs-river-droughtcast-90-day-streamflow-forecast-2026",
+        "article-gao-four-pillar-us-ai-competitiveness-framework-2026",
+        "article-us-public-school-spending-17619-per-pupil-2024"
+      ],
+      "previousVerifiedDeploymentReference": "d0be17842c8b57bb484187e64f8704bfc9fbd6ef2c31f5deca503598ab7a6ad7",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T04:47:30.828398Z",
+      "recordHash": "569ca4583fe66957e1dd46c24defbe2a5875ecc0a0d9dd61f02390b80cffd195",
+      "releaseId": "release-pb-20260811t034822z-7d2a9c4e6b10",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://9d88fbaa.bohonews.pages.dev/",
+      "activationEvidenceHash": "07bbcfaf4fc1b8948c1a8c73e6afb51b79cb1a1d51c69530256de0abcc95f7ef",
+      "canonicalFirstPublicAt": "2026-08-11T05:49:44.112Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-federal-program-effectiveness-three-step-test-2026/",
+        "https://bohonews.com/articles/nih-oriva-human-based-research-office-2026/",
+        "https://bohonews.com/articles/smithsonian-caterpillar-2-3-million-stem-40-communities/",
+        "https://bohonews.com/articles/imf-ireland-growth-inflation-outlook-2026/",
+        "https://bohonews.com/articles/us-rental-homeowner-vacancy-rates-second-quarter-2026/",
+        "https://bohonews.com/articles/ncaa-division-i-commercial-uniform-patches-august-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-federal-program-effectiveness-three-step-test-2026",
+        "article-nih-oriva-human-based-research-office-2026",
+        "article-smithsonian-caterpillar-2-3-million-stem-40-communities",
+        "article-imf-ireland-growth-inflation-outlook-2026",
+        "article-us-rental-homeowner-vacancy-rates-second-quarter-2026",
+        "article-ncaa-division-i-commercial-uniform-patches-august-2026"
+      ],
+      "previousVerifiedDeploymentReference": "c2e65595c78e05cb09a70c50ba05a480d3e6273277763a09cb0e6203b62e9704",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T05:47:59.576611Z",
+      "recordHash": "5f615cd2cdb5ce1a8ef31ed5f2c8c01991c73bf4ed9dbd8ccc04520229d05015",
+      "releaseId": "release-pb-20260811t051252z-5e8a1c3d7f20",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://0b303d05.bohonews.pages.dev/",
+      "activationEvidenceHash": "efcee8e7ee9ae57673334acdbaa8acf98f124653de28d804e4092308b7c58fa5",
+      "canonicalFirstPublicAt": "2026-08-11T06:57:02.567Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-financial-data-transparency-standards-2026/",
+        "https://bohonews.com/articles/aggravated-identity-theft-sentencing-fy2025/",
+        "https://bohonews.com/articles/federal-deficit-through-july-2026-cbo/",
+        "https://bohonews.com/articles/noaa-hyperspectral-great-lakes-ice-flights-2026/",
+        "https://bohonews.com/articles/nist-rm-8047-resin-3d-printing-working-curve/",
+        "https://bohonews.com/articles/south-population-growth-all-age-groups-2020-2025/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-financial-data-transparency-standards-2026",
+        "article-aggravated-identity-theft-sentencing-fy2025",
+        "article-federal-deficit-through-july-2026-cbo",
+        "article-noaa-hyperspectral-great-lakes-ice-flights-2026",
+        "article-nist-rm-8047-resin-3d-printing-working-curve",
+        "article-south-population-growth-all-age-groups-2020-2025"
+      ],
+      "previousVerifiedDeploymentReference": "f70d0056bbe6342f9aa8a37e56602cb8f778cb8232db922189d55c1b86482a7d",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T06:55:01.610228Z",
+      "recordHash": "c083daa9ef3e13af231e30858efd992a8bc64dc8fa05fc963080c8c0a92875e8",
+      "releaseId": "release-pb-20260811t061222z-2f7c9a4e1b63",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://63f64294.bohonews.pages.dev/",
+      "activationEvidenceHash": "f9d7a6de1d154cc6684663eaf1888828ab640bd21e801b12fa718170bb074de1",
+      "canonicalFirstPublicAt": "2026-08-11T08:08:11.136Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/state-overseas-housing-standards-35-years-gao/",
+        "https://bohonews.com/articles/fed-july-2026-bank-lending-standards-demand/",
+        "https://bohonews.com/articles/nih-human-cancer-models-665-25-tumor-types/",
+        "https://bohonews.com/articles/smithsonian-bronze-bison-national-mall-exhibitions-2026/",
+        "https://bohonews.com/articles/ncaa-womens-flag-football-championship-funding-vote-2026/",
+        "https://bohonews.com/articles/who-global-health-days-evaluation-108-observances/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-state-overseas-housing-standards-35-years-gao",
+        "article-fed-july-2026-bank-lending-standards-demand",
+        "article-nih-human-cancer-models-665-25-tumor-types",
+        "article-smithsonian-bronze-bison-national-mall-exhibitions-2026",
+        "article-ncaa-womens-flag-football-championship-funding-vote-2026",
+        "article-who-global-health-days-evaluation-108-observances"
+      ],
+      "previousVerifiedDeploymentReference": "bb6a286465eb4c5bd2f8384d5d755cd5e6c214eb26c092d3a54fd969f35a1aab",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T08:06:55.118863Z",
+      "recordHash": "330d8a32a5a2a6dd702289ce8e9af6ec3aefdfde47e4fc9fc4adedec8dc3dcff",
+      "releaseId": "release-pb-20260811t071852z-8d3e6b1a9c42",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://05ceef5e.bohonews.pages.dev/",
+      "activationEvidenceHash": "c87b70d901d2271342c9df74ad26f414cd296067636b93c62834243eeefc67ae",
+      "canonicalFirstPublicAt": "2026-08-11T09:11:38.086Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/gao-critical-isotope-supply-risks-2026/",
+        "https://bohonews.com/articles/federal-escape-offenses-253-fiscal-2025/",
+        "https://bohonews.com/articles/gao-treasury-28-priority-recommendations-2026/",
+        "https://bohonews.com/articles/gao-wildlife-refuge-resilience-project-goals-125-million/",
+        "https://bohonews.com/articles/nist-secure-remote-access-water-utilities-three-designs/",
+        "https://bohonews.com/articles/us-traffic-death-rate-first-quarter-2026-nhtsa/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-gao-critical-isotope-supply-risks-2026",
+        "article-federal-escape-offenses-253-fiscal-2025",
+        "article-gao-treasury-28-priority-recommendations-2026",
+        "article-gao-wildlife-refuge-resilience-project-goals-125-million",
+        "article-nist-secure-remote-access-water-utilities-three-designs",
+        "article-us-traffic-death-rate-first-quarter-2026-nhtsa"
+      ],
+      "previousVerifiedDeploymentReference": "d30028d5e3e55550045e8766aebed5968d94815e6fcef75a476fa5497ad045e3",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T09:09:46.195837Z",
+      "recordHash": "d8685bdc0dc6d2102d27eef1be30884cdf5c60b0cf880c8b43f9717259c90690",
+      "releaseId": "release-pb-20260811t082653z-3a9f6c2d8e14",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://287ed666.bohonews.pages.dev/",
+      "activationEvidenceHash": "cbe06b80d4ab5d237a21dab1b176692c6a8fc31c8a06561473a57ec676736486",
+      "canonicalFirstPublicAt": "2026-08-11T10:27:49.215Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/ncaa-womens-lacrosse-penalty-rules-proposed-2026/",
+        "https://bohonews.com/articles/fda-tregzi-regulatory-t-cell-therapy-approval-2026/",
+        "https://bohonews.com/articles/national-recording-registry-2026-25-selections/",
+        "https://bohonews.com/articles/cambodia-growth-inflation-imf-2026-outlook/",
+        "https://bohonews.com/articles/401k-spousal-consent-withdrawals-gao-2026/",
+        "https://bohonews.com/articles/gao-pentagon-clean-audit-approach-2028-risks/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-ncaa-womens-lacrosse-penalty-rules-proposed-2026",
+        "article-fda-tregzi-regulatory-t-cell-therapy-approval-2026",
+        "article-national-recording-registry-2026-25-selections",
+        "article-cambodia-growth-inflation-imf-2026-outlook",
+        "article-401k-spousal-consent-withdrawals-gao-2026",
+        "article-gao-pentagon-clean-audit-approach-2028-risks"
+      ],
+      "previousVerifiedDeploymentReference": "d184127a5d13004c182d189cda207836e1301303d72a2bfa79bfa9306657531a",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T10:17:50.891401Z",
+      "recordHash": "17d33abb85efa4f2ee3aea2877fc64b661ef0d6ac0a25c9fe49ef964ade2ab46",
+      "releaseId": "release-pb-20260811t093453z-7b2e5d9a4c61",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://dd779262.bohonews.pages.dev/",
+      "activationEvidenceHash": "58ddc1d430f7719c9415da519529da22d4ee4d3a10e9a328e0f9afaae84ecbf2",
+      "canonicalFirstPublicAt": "2026-08-11T11:40:06.116Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/federal-supervised-release-rate-fell-82-percent-fy2025/",
+        "https://bohonews.com/articles/gao-federal-strategic-reviews-requirements-2026/",
+        "https://bohonews.com/articles/cbo-social-security-one-time-wealth-tax-75-year-solvency/",
+        "https://bohonews.com/articles/prescribed-burns-sequoia-survival-nasa-study-2026/",
+        "https://bohonews.com/articles/nist-looping-laser-mixes-3d-printed-alloys-2026/",
+        "https://bohonews.com/articles/public-pension-assets-649-trillion-census-2025/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-federal-supervised-release-rate-fell-82-percent-fy2025",
+        "article-gao-federal-strategic-reviews-requirements-2026",
+        "article-cbo-social-security-one-time-wealth-tax-75-year-solvency",
+        "article-prescribed-burns-sequoia-survival-nasa-study-2026",
+        "article-nist-looping-laser-mixes-3d-printed-alloys-2026",
+        "article-public-pension-assets-649-trillion-census-2025"
+      ],
+      "previousVerifiedDeploymentReference": "4c1d64da13a152e27b467b5406b9e3312971a3cfa64c8eae1752cd6be5908cc2",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T11:38:02.26874Z",
+      "recordHash": "85a51940d09f3b5180eca5be68390a388c88611e74e7693549a121574d7d9a1f",
+      "releaseId": "release-pb-20260811t105223z-4d8a1c7e9b30",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://56b30bca.bohonews.pages.dev/",
+      "activationEvidenceHash": "90f11d27a27566c8974709196108363a8cb7e9212ab65c5e0f5e696a6b14601a",
+      "canonicalFirstPublicAt": "2026-08-11T12:59:13.296Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/federal-tax-fraud-median-loss-546562-fy2025/",
+        "https://bohonews.com/articles/metro-bachelors-degree-rate-378-percent-acs-2024/",
+        "https://bohonews.com/articles/human-speech-neurons-grammar-context-nih-study-2026/",
+        "https://bohonews.com/articles/mauritius-growth-28-percent-debt-86-imf-2026/",
+        "https://bohonews.com/articles/from-these-lands-smithsonian-600-objects-2029/",
+        "https://bohonews.com/articles/ncaa-womens-soccer-college-cup-second-weekend-december-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-federal-tax-fraud-median-loss-546562-fy2025",
+        "article-metro-bachelors-degree-rate-378-percent-acs-2024",
+        "article-human-speech-neurons-grammar-context-nih-study-2026",
+        "article-mauritius-growth-28-percent-debt-86-imf-2026",
+        "article-from-these-lands-smithsonian-600-objects-2029",
+        "article-ncaa-womens-soccer-college-cup-second-weekend-december-2026"
+      ],
+      "previousVerifiedDeploymentReference": "3e1648851be5aa4070b690cbf320b96f7d6255dc3f90fd37d4cad63e3ff16663",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T12:56:35.888548Z",
+      "recordHash": "0e4af605eeb0b395e0d65713129ae827aa8d31eaecd872ce8fa68050847f4d8d",
+      "releaseId": "release-pb-20260811t120523z-9c2e7a4d1b68",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://5b64534c.bohonews.pages.dev/",
+      "activationEvidenceHash": "cb6afbe2580ecf771d6f313c3cc7c8181922ff243dd721e9f35b4b22dbad8cd3",
+      "canonicalFirstPublicAt": "2026-08-11T14:12:08.085Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/hybrid-electric-saab-340-flight-above-30000-feet/",
+        "https://bohonews.com/articles/nasa-sweet-15-wing-failed-127-percent-design-load/",
+        "https://bohonews.com/articles/sec-regulation-e-delivery-paper-opt-out-proposal-2026/",
+        "https://bohonews.com/articles/italy-growth-05-percent-inflation-29-imf-2026/",
+        "https://bohonews.com/articles/education-department-title-vi-disparate-impact-provisions-2026/",
+        "https://bohonews.com/articles/who-kala-azar-14-day-treatment-guidelines-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-hybrid-electric-saab-340-flight-above-30000-feet",
+        "article-nasa-sweet-15-wing-failed-127-percent-design-load",
+        "article-sec-regulation-e-delivery-paper-opt-out-proposal-2026",
+        "article-italy-growth-05-percent-inflation-29-imf-2026",
+        "article-education-department-title-vi-disparate-impact-provisions-2026",
+        "article-who-kala-azar-14-day-treatment-guidelines-2026"
+      ],
+      "previousVerifiedDeploymentReference": "4fefacdd8667a260a507d7cd6a611a1c4d5a5fe563692675c27972151b782033",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T14:10:51.865615Z",
+      "recordHash": "7475eb681a0a53cae1bdf66a875a12e7b1a43bc72e958fb8e97033c4b28953af",
+      "releaseId": "release-pb-20260811t132424z-6f1a9d3c8e52",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://96de47e8.bohonews.pages.dev/",
+      "activationEvidenceHash": "ce99a30a1c0736d8625d67443dc70d0d9122434f12528fa7a415789de8f027ea",
+      "canonicalFirstPublicAt": "2026-08-11T15:57:51.935Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/eu-ai-act-transparency-rules-article-50-2026/",
+        "https://bohonews.com/articles/cpsc-import-efiling-certificates-effective-july-2026/",
+        "https://bohonews.com/articles/washington-union-station-24-million-partnership-plan-2026/",
+        "https://bohonews.com/articles/defense-critical-materials-waiver-rules-supply-chain-order-2026/",
+        "https://bohonews.com/articles/okefenokee-unesco-world-heritage-list-2026/",
+        "https://bohonews.com/articles/cincinnati-open-2026-atp-dates-draw-prize-money/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-eu-ai-act-transparency-rules-article-50-2026",
+        "article-cpsc-import-efiling-certificates-effective-july-2026",
+        "article-washington-union-station-24-million-partnership-plan-2026",
+        "article-defense-critical-materials-waiver-rules-supply-chain-order-2026",
+        "article-okefenokee-unesco-world-heritage-list-2026",
+        "article-cincinnati-open-2026-atp-dates-draw-prize-money"
+      ],
+      "previousVerifiedDeploymentReference": "023a6fbd242e605bc830ad237101ac5120e8fa3e9d99447fbd2338c9a79b3e4d",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T15:56:15.283114Z",
+      "recordHash": "9c82cedc7f1a7d5978d7a38d4c15c50796643d19486eca1842dc51c61392a30d",
+      "releaseId": "release-pb-20260811t144754z-a47c19e6b2d5",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://0432b752.bohonews.pages.dev/",
+      "activationEvidenceHash": "fc4b30f0b3eaaa5c15a2f359ec3e59749ca2c6df71030bbf56e89e9865c0322a",
+      "canonicalFirstPublicAt": "2026-08-11T17:20:12.770Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/us-polysilicon-import-price-floors-december-2026/",
+        "https://bohonews.com/articles/sba-8a-social-disadvantage-rule-september-2026/",
+        "https://bohonews.com/articles/ies-fy2027-education-research-grants-october-deadline/",
+        "https://bohonews.com/articles/fda-mandatory-gras-notice-proposal-2026/",
+        "https://bohonews.com/articles/usitc-asus-plume-wifi-import-relief-comments-2026/",
+        "https://bohonews.com/articles/federal-mileage-reimbursement-76-cents-july-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-us-polysilicon-import-price-floors-december-2026",
+        "article-sba-8a-social-disadvantage-rule-september-2026",
+        "article-ies-fy2027-education-research-grants-october-deadline",
+        "article-fda-mandatory-gras-notice-proposal-2026",
+        "article-usitc-asus-plume-wifi-import-relief-comments-2026",
+        "article-federal-mileage-reimbursement-76-cents-july-2026"
+      ],
+      "previousVerifiedDeploymentReference": "d2c9018feb2e911b0e611b16d3dac54a2d62e60fb35c64a86408c3840c9dc4c0",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T17:19:10.355063Z",
+      "recordHash": "0998a784be710f3a727f97e27b764cb4592b90bd3a8358983c9b3b3ceb43c9e9",
+      "releaseId": "release-pb-20260811t161954z-b19d7e4c6a2f",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://080021a3.bohonews.pages.dev/",
+      "activationEvidenceHash": "f56bc7ed3c93b962da773602d3440370855811b5c5a22fe0d6c91181180f7423",
+      "canonicalFirstPublicAt": "2026-08-11T18:35:34.208Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/cms-rapid-medicare-breakthrough-device-pathway-proposal-2026/",
+        "https://bohonews.com/articles/unalaska-harbor-sea-otter-harassment-review-2026/",
+        "https://bohonews.com/articles/usitc-lcd-glass-import-exclusion-order-tcl-2026/",
+        "https://bohonews.com/articles/epa-new-hampshire-emissions-inspection-plan-proposal-2026/",
+        "https://bohonews.com/articles/biomedical-science-patent-bar-category-a-eligibility-2026/",
+        "https://bohonews.com/articles/nrc-rule-comment-withholding-advisory-procedures-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-cms-rapid-medicare-breakthrough-device-pathway-proposal-2026",
+        "article-unalaska-harbor-sea-otter-harassment-review-2026",
+        "article-usitc-lcd-glass-import-exclusion-order-tcl-2026",
+        "article-epa-new-hampshire-emissions-inspection-plan-proposal-2026",
+        "article-biomedical-science-patent-bar-category-a-eligibility-2026",
+        "article-nrc-rule-comment-withholding-advisory-procedures-2026"
+      ],
+      "previousVerifiedDeploymentReference": "3b04865b66458e3bd1b3dce4287bf8f078635209f9022aa4d12a807b94c27ccd",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T18:32:09.872754Z",
+      "recordHash": "8d5aa0f5aa735faf5a80fbf5067c84c7543f7ffd894eb929f8e61510cac44ce9",
+      "releaseId": "release-pb-20260811t174624z-c8e2a6f4d1b9",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://6814f588.bohonews.pages.dev/",
+      "activationEvidenceHash": "6b461c71efa8461a2c1a2297541286cec8742c039953332d9a58066d3351c54b",
+      "canonicalFirstPublicAt": "2026-08-11T20:27:25.084Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/fda-digital-breast-tomosynthesis-class-ii-proposal-2026/",
+        "https://bohonews.com/articles/sec-overnight-stock-price-bands-december-2026/",
+        "https://bohonews.com/articles/fmcsa-english-proficiency-out-of-service-proposal-2026/",
+        "https://bohonews.com/articles/faa-military-pilot-trainee-medical-certificate-proposal-2026/",
+        "https://bohonews.com/articles/national-gallery-mining-film-series-august-2026/",
+        "https://bohonews.com/articles/epa-dichlorobenzene-draft-risk-evaluations-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-fda-digital-breast-tomosynthesis-class-ii-proposal-2026",
+        "article-sec-overnight-stock-price-bands-december-2026",
+        "article-fmcsa-english-proficiency-out-of-service-proposal-2026",
+        "article-faa-military-pilot-trainee-medical-certificate-proposal-2026",
+        "article-national-gallery-mining-film-series-august-2026",
+        "article-epa-dichlorobenzene-draft-risk-evaluations-2026"
+      ],
+      "previousVerifiedDeploymentReference": "742f1018d5d1ea2b83c108cc40a2f0637d05883a32bd33014e8c5aafdadfd60b",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T20:24:09.44431Z",
+      "recordHash": "678cc5c42676ee535aa6e718bcca4187ea1a1caa3eaa59a05e84e6e0ddf6fa43",
+      "releaseId": "release-pb-20260811t190455z-a6d3f9c2b7e4",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://b615afd9.bohonews.pages.dev/",
+      "activationEvidenceHash": "fc922b5bf767661a014ddbe3ebde8db8e93ef268c9a8d7682c8b4373d3b83d0c",
+      "canonicalFirstPublicAt": "2026-08-11T22:10:27.856Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/cpsc-counterfeit-squishy-toys-port-seizures-2026/",
+        "https://bohonews.com/articles/epa-water-workforce-retirement-skills-roundtable-2026/",
+        "https://bohonews.com/articles/federal-student-loan-autopay-one-point-rate-reduction-2026/",
+        "https://bohonews.com/articles/papua-last-tropical-glacier-disappearance-2027-wmo/",
+        "https://bohonews.com/articles/el-nino-pacific-chlorophyll-pace-june-2026/",
+        "https://bohonews.com/articles/roebuck-bay-nine-meter-tides-mangroves-nasa-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-cpsc-counterfeit-squishy-toys-port-seizures-2026",
+        "article-epa-water-workforce-retirement-skills-roundtable-2026",
+        "article-federal-student-loan-autopay-one-point-rate-reduction-2026",
+        "article-papua-last-tropical-glacier-disappearance-2027-wmo",
+        "article-el-nino-pacific-chlorophyll-pace-june-2026",
+        "article-roebuck-bay-nine-meter-tides-mangroves-nasa-2026"
+      ],
+      "previousVerifiedDeploymentReference": "9c3f747ef3e88311c53723e2d5c5f6738a5a13ec37467bac5c9ad7fc87b8d696",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T22:06:42.682376Z",
+      "recordHash": "0c82309d65077fc3d0521da6b08d6c1966b258dd44da95a9160f2b1498c27aba",
+      "releaseId": "release-pb-20260811t205655z-d4f8a2c6e1b9",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://1a291d58.bohonews.pages.dev/",
+      "activationEvidenceHash": "a255f80023a9468c17f99c31576e8d41ff2070889918f9a106a44becf8d92cae",
+      "canonicalFirstPublicAt": "2026-08-11T23:41:11.118Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/nrc-rulemaking-procedure-modernization-2026/",
+        "https://bohonews.com/articles/cra-bank-size-thresholds-proposal-2026/",
+        "https://bohonews.com/articles/nist-nvd-ai-modernization-rfi-2026/",
+        "https://bohonews.com/articles/national-parks-powered-micromobility-rule-2026/",
+        "https://bohonews.com/articles/nsf-pesose-open-source-grants-2026/",
+        "https://bohonews.com/articles/fda-fresh-cut-produce-safety-guidance-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-nrc-rulemaking-procedure-modernization-2026",
+        "article-cra-bank-size-thresholds-proposal-2026",
+        "article-nist-nvd-ai-modernization-rfi-2026",
+        "article-national-parks-powered-micromobility-rule-2026",
+        "article-nsf-pesose-open-source-grants-2026",
+        "article-fda-fresh-cut-produce-safety-guidance-2026"
+      ],
+      "previousVerifiedDeploymentReference": "a1f483bd3df5076b647f905dbd6b7100804cf78a71ca6eb5573566302dcf651f",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-11T23:39:05.842698Z",
+      "recordHash": "9325b729aa8ba041bf02c119d7e67cc0797100af71c806e3279b98faae78cce7",
+      "releaseId": "release-pb-20260811t223355z-c8e4b1d7a2f6",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://104a9d32.bohonews.pages.dev/",
+      "activationEvidenceHash": "7b8b3dcba700ebd98c3d2202821306ca3969851a781ca6f93bbc67c25204643c",
+      "canonicalFirstPublicAt": "2026-08-12T20:57:34.824Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/mspb-federal-employee-appeals-jurisdiction-2026/",
+        "https://bohonews.com/articles/nepal-cultural-property-us-import-restrictions-2026/",
+        "https://bohonews.com/articles/faa-boeing-787-vertical-fin-corrosion-proposal-2026/",
+        "https://bohonews.com/articles/belt-railway-chicago-ptc-maintenance-request-2026/",
+        "https://bohonews.com/articles/nih-dna-methylation-cancer-classifier-license-2026/",
+        "https://bohonews.com/articles/us-mint-trump-dollar-coin-roll-bag-prices-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-mspb-federal-employee-appeals-jurisdiction-2026",
+        "article-nepal-cultural-property-us-import-restrictions-2026",
+        "article-faa-boeing-787-vertical-fin-corrosion-proposal-2026",
+        "article-belt-railway-chicago-ptc-maintenance-request-2026",
+        "article-nih-dna-methylation-cancer-classifier-license-2026",
+        "article-us-mint-trump-dollar-coin-roll-bag-prices-2026"
+      ],
+      "previousVerifiedDeploymentReference": "4463dc547914c8813f8c01e1d1cf5704b26e4e26e81dadfb851094ae3b61dcaa",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-12T20:49:35.003484Z",
+      "recordHash": "d0b8f2b35667380c2401d240d8cb7456de39184c2d1c78c591c0d0e346fd6115",
+      "releaseId": "release-pb-20260812t202001z-a7c3e9b2d6f4",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://9b09d664.bohonews.pages.dev/",
+      "activationEvidenceHash": "12f7b37c02726fa6b27b777211e9db6c19851bd6cea457a91e81c973d4b2b254",
+      "canonicalFirstPublicAt": "2026-08-13T00:11:38.910Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/cftc-innovation-advisory-committee-renewal-2026/",
+        "https://bohonews.com/articles/nasa-citizen-science-information-clearance-2026/",
+        "https://bohonews.com/articles/mountain-valley-pipeline-boost-environmental-review-2026/",
+        "https://bohonews.com/articles/noaa-right-whale-vessel-speed-records-renewal-2026/",
+        "https://bohonews.com/articles/hhs-withdraws-2008-afcars-foster-care-proposal-2026/",
+        "https://bohonews.com/articles/oregon-2026-world-u20-medal-table-usa-12-golds/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-cftc-innovation-advisory-committee-renewal-2026",
+        "article-nasa-citizen-science-information-clearance-2026",
+        "article-mountain-valley-pipeline-boost-environmental-review-2026",
+        "article-noaa-right-whale-vessel-speed-records-renewal-2026",
+        "article-hhs-withdraws-2008-afcars-foster-care-proposal-2026",
+        "article-oregon-2026-world-u20-medal-table-usa-12-golds"
+      ],
+      "previousVerifiedDeploymentReference": "5b50cdd340507dcb7c46e1312e934c7a4e8bbd25ee581011333f830addf5a71a",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-13T00:09:48.646944Z",
+      "recordHash": "4b259596a0ea4b7db59c3468080b97bca2743547e820bd0f9c51fe82fbdd6898",
+      "releaseId": "release-pb-20260812t221409z-4e2b8c1d7a90",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://6a769244.bohonews.pages.dev/",
+      "activationEvidenceHash": "1f3c0cddf4840afe026391eaafc4a99f5739664b526320e0da0159b66ba3e521",
+      "canonicalFirstPublicAt": "2026-08-13T05:11:07.945Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/head-start-micronesia-marshall-islands-awards-2026/",
+        "https://bohonews.com/articles/skyryse-robinson-r66-fly-by-wire-display-rules-2026/",
+        "https://bohonews.com/articles/nci-mc38-b2m-checkpoint-resistant-cell-line-license-2026/",
+        "https://bohonews.com/articles/noaa-diving-program-records-336-burden-hours-2026/",
+        "https://bohonews.com/articles/puerto-rico-us-attorney-community-outreach-form-2026/",
+        "https://bohonews.com/articles/irs-w8-foreign-status-forms-30-6-million-hours-2026/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-head-start-micronesia-marshall-islands-awards-2026",
+        "article-skyryse-robinson-r66-fly-by-wire-display-rules-2026",
+        "article-nci-mc38-b2m-checkpoint-resistant-cell-line-license-2026",
+        "article-noaa-diving-program-records-336-burden-hours-2026",
+        "article-puerto-rico-us-attorney-community-outreach-form-2026",
+        "article-irs-w8-foreign-status-forms-30-6-million-hours-2026"
+      ],
+      "previousVerifiedDeploymentReference": "553236b1fe0c6d4f25a3f8c33e7d358101aa18a52462d4a0f6241ece8288e0b1",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-13T05:10:38.758222Z",
+      "recordHash": "4051c339015d645fa532b69b6518708688c2090295b117064626b80f4be3237a",
+      "releaseId": "release-pb-20260813t005034z-ef0ad9c9c160",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://e0073a77.bohonews.pages.dev/",
+      "activationEvidenceHash": "d9b90664721fa3b28301ec457d4e2c7b48f669350cb1ad1bc33524f11a502509",
+      "canonicalFirstPublicAt": "2026-08-13T07:16:39.142Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/where-the-primaries-stand/",
+        "https://bohonews.com/articles/august-18-voter-guide/",
+        "https://bohonews.com/articles/democratic-change/",
+        "https://bohonews.com/articles/trump-endorsement-scorecard/",
+        "https://bohonews.com/articles/runoffs/",
+        "https://bohonews.com/articles/senate-field/",
+        "https://bohonews.com/articles/governors/",
+        "https://bohonews.com/articles/house-turnover/",
+        "https://bohonews.com/articles/close-results/",
+        "https://bohonews.com/articles/fragmented-election-data/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-where-the-primaries-stand",
+        "article-august-18-voter-guide",
+        "article-democratic-change",
+        "article-trump-endorsement-scorecard",
+        "article-runoffs",
+        "article-senate-field",
+        "article-governors",
+        "article-house-turnover",
+        "article-close-results",
+        "article-fragmented-election-data"
+      ],
+      "previousVerifiedDeploymentReference": "553236b1fe0c6d4f25a3f8c33e7d358101aa18a52462d4a0f6241ece8288e0b1",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-13T07:13:21.80865Z",
+      "recordHash": "989098f11abeadc20ca8f3020393f0eb11e72475a883a00fd5797feda8aaca74",
+      "releaseId": "release-pb-20260813t070900z-15b3e0f77c89",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://952f65f9.bohonews.pages.dev/",
+      "activationEvidenceHash": "429591b654840589b9203f8994b943e1eb34a478b5baaa443483cccd09160b75",
+      "canonicalFirstPublicAt": "2026-08-13T08:55:33.093Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/where-the-primaries-stand/",
+        "https://bohonews.com/articles/august-18-voter-guide/",
+        "https://bohonews.com/articles/democratic-change/",
+        "https://bohonews.com/articles/trump-endorsement-scorecard/",
+        "https://bohonews.com/articles/runoffs/",
+        "https://bohonews.com/articles/senate-field/",
+        "https://bohonews.com/articles/governors/",
+        "https://bohonews.com/articles/house-turnover/",
+        "https://bohonews.com/articles/close-results/",
+        "https://bohonews.com/articles/fragmented-election-data/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [],
+      "previousVerifiedDeploymentReference": "a2052e29d388113200a36a029d29406b4f803314255d92b0b8a46dab46a20792",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-13T08:47:41.967924Z",
+      "recordHash": "6e980441271733db1ed55219775f7705f7d701e0f414d060c14f6d9fe79c986a",
+      "releaseId": "release-pb-20260813t180000z-e1ec7100a001",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": [
+        "article-where-the-primaries-stand",
+        "article-august-18-voter-guide",
+        "article-democratic-change",
+        "article-trump-endorsement-scorecard",
+        "article-runoffs",
+        "article-senate-field",
+        "article-governors",
+        "article-house-turnover",
+        "article-close-results",
+        "article-fragmented-election-data"
+      ]
+    }
+  ],
   "releaseState": "candidate",
   "routes": [
     "/articles/interlochen-before-epstein-what-was-known/",
