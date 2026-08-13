@@ -10,8 +10,13 @@ interface Props {
 
 const { blocks, articles, citations } = Astro.props;
 const articleById = new Map(articles.map((article) => [article.id, article]));
-const citationById = new Map(citations.map((citation) => [citation.id, citation]));
-const sourceSegments = (text: string) => text.split(/(S\d{1,2})/g).filter(Boolean).map((value) => ({
+const citationById = new Map<string, PublicArticle["citations"][number]>();
+for (const citation of citations) {
+  citationById.set(citation.id.toLowerCase(), citation);
+  const alias = citation.id.match(/(?:^|-)((?:s\d{1,2}|e\d{4}))$/i)?.[1];
+  if (alias) citationById.set(alias.toLowerCase(), citation);
+}
+const sourceSegments = (text: string) => text.split(/((?:S\d{1,2}|E\d{4}))/g).filter(Boolean).map((value) => ({
   value,
   citation: citationById.get(value.toLowerCase())
 }));
@@ -30,7 +35,9 @@ const sourceSegments = (text: string) => text.split(/(S\d{1,2})/g).filter(Boolea
         <img src={block.src} alt={block.alt} width={block.width} height={block.height} loading="lazy" />
         <figcaption>
           <span>{block.caption}</span>
-          <span class="media-credit">{block.credit}</span>
+          <span class="media-credit">{sourceSegments(block.credit).map(({ value, citation }) => citation
+            ? <a class="inline-citation" href={citation.url} rel="noopener noreferrer" title={citation.title}>{value}</a>
+            : value)}</span>
           {block.sourceUrl && <a href={block.sourceUrl} rel="noopener noreferrer">View source</a>}
         </figcaption>
       </figure>;

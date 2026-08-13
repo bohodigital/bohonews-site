@@ -22,6 +22,14 @@ const isInterlochenArticleOne =
 const isInterlochenArticleTwo =
   article.id === "interlochen-before-epstein-what-was-known";
 const isInterlochenInvestigation = isInterlochenArticleOne || isInterlochenArticleTwo;
+const partOneSourceRegisterIndex = isInterlochenArticleOne
+  ? article.bodyBlocks.findIndex((block) => block.type === "subheading" && block.text === "Source register")
+  : -1;
+const displayBodyBlocks = partOneSourceRegisterIndex >= 0
+  ? article.bodyBlocks.slice(0, partOneSourceRegisterIndex)
+  : article.bodyBlocks;
+const sourceLabel = (id: string) => id.match(/(?:^|-)((?:s\d{1,2}|e\d{4}))$/i)?.[1].toUpperCase()
+  ?? id.toUpperCase();
 const jsonLd = articleJsonLd(candidateUnpublishedEnabled
   ? {...article,publishedAt:null,updatedAt:null}
   : article);
@@ -85,11 +93,11 @@ const changeLabels = {
     {article.leadImage && <figure class="article-lead"><img src={article.leadImage.src} alt={article.leadImage.alt ?? ""} width={article.leadImage.width} height={article.leadImage.height} loading="eager" /><figcaption><span>{article.leadImage.caption}</span><span class="media-credit">{article.leadImage.credit}</span></figcaption></figure>}
     {!article.leadImage && article.fixture && <figure class="article-fixture-visual"><NewsVisual variant={article.articleType === "developing-story" ? "live" : "document"} label="Synthetic article visual" /><figcaption>Non-production visual fixture for layout testing.</figcaption></figure>}
     {article.retractionState === "current" && <>
-      <ArticleBody blocks={article.bodyBlocks} articles={articles} citations={article.citations} />
+      <ArticleBody blocks={displayBodyBlocks} articles={articles} citations={article.citations} />
       <section class="evidence-block confirmed-facts"><h2>Confirmed facts</h2><ul>{article.confirmedFactsSummary.map((item) => <li>{item}</li>)}</ul></section>
       {article.uncertainty.length > 0 && <section class="evidence-block"><h2>What remains unresolved</h2><ul>{article.uncertainty.map((item) => <li>{item}</li>)}</ul></section>}
       <section class="evidence-block article-sources"><h2>Sources</h2><ol>{article.citations.map((source) => <li id={`source-${source.id}`}>
-        <span class="source-id">{source.id.toUpperCase()}</span>
+        <span class="source-id">{sourceLabel(source.id)}</span>
         <div><a href={source.url} rel="noopener noreferrer">{source.title}</a><p>{source.publisher}{source.publishedAt && <> · <time datetime={source.publishedAt}>{new Date(source.publishedAt).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" })}</time></>}</p></div>
       </li>)}</ol></section>
     </>}
