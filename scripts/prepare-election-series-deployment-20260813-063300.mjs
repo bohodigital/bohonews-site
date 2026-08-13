@@ -154,6 +154,7 @@ const articleEvidence = articles.map((article) => ({
     bodySha256: sha256(Buffer.from(article.body)),
     dek: article.dek,
     headline: article.headline,
+    publicationOperation: "update",
     route: new URL(article.canonicalUrl).pathname,
   })),
   routes = [
