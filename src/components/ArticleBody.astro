@@ -11,14 +11,20 @@ interface Props {
 const { blocks, articles, citations } = Astro.props;
 const articleById = new Map(articles.map((article) => [article.id, article]));
 const citationById = new Map(citations.map((citation) => [citation.id, citation]));
+const sourceSegments = (text: string) => text.split(/(S\d{1,2})/g).filter(Boolean).map((value) => ({
+  value,
+  citation: citationById.get(value.toLowerCase())
+}));
 ---
 
 <div class="article-body">
   {blocks.map((block) => {
-    if (block.type === "paragraph") return <p>{block.text}</p>;
+    if (block.type === "paragraph") return <p>{sourceSegments(block.text).map(({ value, citation }) => citation
+      ? <a class="inline-citation" href={citation.url} rel="noopener noreferrer" title={citation.title} aria-label={`${value}: ${citation.title}`}>{value}</a>
+      : value)}</p>;
     if (block.type === "subheading") return block.level === 2 ? <h2>{block.text}</h2> : <h3>{block.text}</h3>;
-    if (block.type === "ordered-list") return <ol>{block.items.map((item) => <li>{item}</li>)}</ol>;
-    if (block.type === "unordered-list") return <ul>{block.items.map((item) => <li>{item}</li>)}</ul>;
+    if (block.type === "ordered-list") return <ol>{block.items.map((item) => <li>{sourceSegments(item).map(({ value, citation }) => citation ? <a class="inline-citation" href={citation.url} rel="noopener noreferrer" title={citation.title}>{value}</a> : value)}</li>)}</ol>;
+    if (block.type === "unordered-list") return <ul>{block.items.map((item) => <li>{sourceSegments(item).map(({ value, citation }) => citation ? <a class="inline-citation" href={citation.url} rel="noopener noreferrer" title={citation.title}>{value}</a> : value)}</li>)}</ul>;
     if (block.type === "media" || block.type === "official-document-render") {
       return <figure class:list={["article-inline-media", {"official-document": block.type === "official-document-render"}]}>
         <img src={block.src} alt={block.alt} width={block.width} height={block.height} loading="lazy" />

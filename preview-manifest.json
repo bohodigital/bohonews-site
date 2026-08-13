@@ -1,17 +1,17 @@
 {
-  "articleBodySha256": "9efc8a617d9ac93a56b4d9aa64285c61aaf208b0e5fcc87489945d5d4c1bc58f",
+  "articleBodySha256": "091ddefa1c6365f6bb7956d3c8f17f5d5f598860c2e091559d0c77216302dc95",
   "articleId": "interlochen-before-epstein-what-was-known",
-  "articleMarkdownSha256": "386f72648735e3efc176ac69ea458a314919935612382a7e9336357e3111c40b",
-  "correspondenceStatus": "blocked-missing-raw-message-artifacts",
-  "generatedAt": "2026-08-13T20:15:25Z",
+  "articleMarkdownSha256": "2a91b430e0a0c23d80d7d55cfcfef9b27c36c907647d314d66366216c8cfa001",
+  "correspondenceStatus": "blocked-authorized-mailbox-has-no-original-artifacts",
+  "generatedAt": "2026-08-13T23:10:00Z",
   "mediaRightsIds": [
-    "interlochen-part2-1984-camp-baseline",
-    "interlochen-part2-public-internal-record",
-    "interlochen-part2-who-could-know"
+    "interlochen-part2-mail-from-home-1942",
+    "interlochen-part2-music-library-1942",
+    "interlochen-part2-studying-outdoors-1942"
   ],
   "noMcpPublicationTool": true,
   "noProductionTimestamp": true,
-  "packageDigest": "5776aaef876153b583c8ad22db1bed45a6c0cc5a079a545af08e950504a3481d",
+  "packageDigest": "51d971d1eae039cf4cec9cfe934387edc16c425f5afe07d5bc8ff5c63bd5ce72",
   "schemaVersion": "1.0.0",
   "sourceCount": 22
 }

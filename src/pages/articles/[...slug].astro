@@ -47,10 +47,11 @@ const changeLabels = {
     {isInterlochenInvestigation && <nav class="series-context" aria-label="Investigation series">
       <a href="/investigations/interlochen/">
         <span>The Interlochen Investigation</span>
-        <strong>{isInterlochenArticleTwo ? "Part 2 of 7" : "Part 1 of 7"}</strong>
+        <strong>{isInterlochenArticleTwo ? "Part 2" : "Part 1"}</strong>
       </a>
-      {isInterlochenArticleTwo &&
-        <a href="/articles/interlochen-abuse-investigation-report-findings/">Read Part 1</a>}
+      {isInterlochenArticleTwo
+        ? <a href="/articles/interlochen-abuse-investigation-report-findings/">Read Part 1</a>
+        : <a href="/articles/interlochen-before-epstein-what-was-known/">Read Part 2</a>}
       <a href="/investigations/interlochen/evidence/">Evidence Room</a>
       <a href="/investigations/interlochen/methodology/">Methodology</a>
     </nav>}
@@ -87,7 +88,10 @@ const changeLabels = {
       <ArticleBody blocks={article.bodyBlocks} articles={articles} citations={article.citations} />
       <section class="evidence-block confirmed-facts"><h2>Confirmed facts</h2><ul>{article.confirmedFactsSummary.map((item) => <li>{item}</li>)}</ul></section>
       {article.uncertainty.length > 0 && <section class="evidence-block"><h2>What remains unresolved</h2><ul>{article.uncertainty.map((item) => <li>{item}</li>)}</ul></section>}
-      <section class="evidence-block"><h2>Sources</h2><ol>{article.citations.map((source) => <li><a href={source.url} rel="noopener noreferrer">{source.title}</a> — {source.publisher}</li>)}</ol></section>
+      <section class="evidence-block article-sources"><h2>Sources</h2><ol>{article.citations.map((source) => <li id={`source-${source.id}`}>
+        <span class="source-id">{source.id.toUpperCase()}</span>
+        <div><a href={source.url} rel="noopener noreferrer">{source.title}</a><p>{source.publisher}{source.publishedAt && <> · <time datetime={source.publishedAt}>{new Date(source.publishedAt).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" })}</time></>}</p></div>
+      </li>)}</ol></section>
     </>}
     {article.retractionState === "current" && <script is:inline type="application/ld+json" set:html={jsonForHtml(jsonLd)} />}
   </article>
