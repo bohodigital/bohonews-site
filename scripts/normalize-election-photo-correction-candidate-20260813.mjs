@@ -1,0 +1,8 @@
+import {createHash} from "node:crypto";
+import {readFileSync,writeFileSync} from "node:fs";
+import {resolve} from "node:path";
+import {stableJson} from "./publishing/stable-json.mjs";
+const root=resolve(import.meta.dirname,".."),promotionPath=resolve(root,"src/publishing/public-news-promotion-package.v2.1.1.json"),releasePath=resolve(root,"public-news-release.v2.1.1.json"),digest=value=>createHash("sha256").update(stableJson(value)).digest("hex"),promotion=JSON.parse(readFileSync(promotionPath,"utf8"));
+if(promotion.releaseState!=="candidate"||promotion.compilerVersion!=="bohonews-manual-election-photo-correction.v1.0.0")throw new Error("Unexpected correction candidate");
+for(const record of promotion.mediaRights.filter(({id})=>id.endsWith("-photo"))){delete record.originalPath;delete record.publicationAllowed;record.derivatives=record.derivatives.map(({path,...derivative})=>derivative);}
+promotion.inputHashes.mediaRights=digest(promotion.mediaRights);delete promotion.packageDigest;promotion.packageDigest=digest(promotion);const release={schemaVersion:promotion.schemaVersion,compilerVersion:promotion.compilerVersion,generatedAt:promotion.generatedAt,packageDigest:promotion.packageDigest,articleCount:promotion.inventory.articleCount,mediaCount:promotion.inventory.mediaCount,routes:promotion.articles.map(({canonicalUrl})=>new URL(canonicalUrl).pathname),releaseRecords:promotion.releaseRecords,releaseState:promotion.releaseState};writeFileSync(promotionPath,`${JSON.stringify(promotion,null,2)}\n`);writeFileSync(releasePath,`${JSON.stringify(release,null,2)}\n`);console.log(promotion.packageDigest);

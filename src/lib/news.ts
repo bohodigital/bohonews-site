@@ -85,6 +85,13 @@ export const contextualNavigation: Record<string,Array<[string,string]>> = {
 };
 
 export function articlePath(article: PublicArticle) { return `/articles/${article.slug}/`; }
+export const homepageElectionArticleId = "article-where-the-primaries-stand";
+export function homepageArticles(source = articles) {
+  const ordered = [...source].sort((a,b) =>
+    (b.updatedAt ?? b.publishedAt ?? "").localeCompare(a.updatedAt ?? a.publishedAt ?? ""));
+  return ordered.filter((article) =>
+    article.desk !== "elections" || article.id === homepageElectionArticleId);
+}
 export function discoveryPaths(source = articles) {
   const slugify = (value:string) => value.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
   return [

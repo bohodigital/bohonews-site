@@ -185,6 +185,20 @@ test("bulk benchmark is isolated behind an explicit non-production build flag", 
   assert.match(source,/fixture:true/);
 });
 
+test("homepage carries exactly one Elections-desk story", async () => {
+  const homepageElectionArticleId = "article-where-the-primaries-stand";
+  const promotion = JSON.parse(await readFile(new URL("../src/publishing/public-news-promotion-package.v2.1.1.json", import.meta.url),"utf8"));
+  const homepage = promotion.articles.filter(({desk,id}) => desk !== "elections" || id === homepageElectionArticleId);
+  const electionStories = homepage.filter(({desk}) => desk === "elections");
+  assert.equal(electionStories.length,1);
+  assert.equal(electionStories[0].id,homepageElectionArticleId);
+  const homepageSource = await readFile(new URL("../src/pages/index.astro", import.meta.url),"utf8");
+  assert.match(homepageSource,/homepageArticles\(sectionArticles\("latest"\)\)/);
+  assert.match(homepageSource,/const homepageElectionStory = latest\.find/);
+  assert.match(homepageSource,/const nonElectionLatest = latest\.filter/);
+  assert.match(homepageSource,/const politics = sectionArticles\("politics"\)\.filter/);
+});
+
 test("discovery and metadata routes exist", async () => {
   const pages = await readdir(new URL("../src/pages/", import.meta.url), {recursive:true});
   for (const required of ["rss.xml.ts","sitemap.xml.ts","news-sitemap.xml.ts","robots.txt.ts","search.astro","404.astro","[kind]/[slug]/index.astro"]) assert.ok(pages.includes(required),required);

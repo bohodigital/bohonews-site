@@ -3,15 +3,23 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import NewsVisual from "../components/NewsVisual.astro";
 import StoryCard from "../components/StoryCard.astro";
 import {
-  candidatePreviewEnabled, candidateUnpublishedEnabled, fixturesEnabled, formatTimestamp, sectionArticles
+  candidatePreviewEnabled, candidateUnpublishedEnabled, fixturesEnabled, formatTimestamp,
+  homepageArticles, homepageElectionArticleId, sectionArticles
 } from "../lib/news";
-const latest = sectionArticles("latest");
+const latest = homepageArticles(sectionArticles("latest"));
+const homepageElectionStory = latest.find((article) => article.id === homepageElectionArticleId);
+const nonElectionLatest = latest.filter((article) => article.desk !== "elections");
 const featuredArticleId = "interlochen-abuse-investigation-report-findings";
-const lead = latest.find((article) => article.id === featuredArticleId) ?? latest[0];
-const secondary = latest.filter((article) => article.id !== lead?.id).slice(0,2);
-const politics = sectionArticles("politics");
+const lead = nonElectionLatest.find((article) => article.id === featuredArticleId) ?? nonElectionLatest[0];
+const secondary = [
+  ...(homepageElectionStory ? [homepageElectionStory] : []),
+  ...nonElectionLatest.filter((article) => article.id !== lead?.id)
+].slice(0,2);
+const secondaryIds = new Set(secondary.map((article) => article.id));
+const topStories = nonElectionLatest.filter((article) => article.id !== lead?.id && !secondaryIds.has(article.id));
+const politics = sectionArticles("politics").filter((article) => article.desk !== "elections");
 const business = sectionArticles("business");
-const explainers = latest.filter((article) => article.articleType === "explainer");
+const explainers = nonElectionLatest.filter((article) => article.articleType === "explainer");
 ---
 
 <BaseLayout
@@ -36,7 +44,7 @@ const explainers = latest.filter((article) => article.articleType === "explainer
     </div>
     <aside class="latest-wire" aria-labelledby="wire-title">
       <div class="module-heading"><p class="eyebrow">Continuous desk</p><h2 id="wire-title">Latest</h2></div>
-      <ol>{latest.map((article) => <li>{article.updatedAt && <time datetime={article.updatedAt}>{formatTimestamp(article.updatedAt)}</time>}<a href={`/articles/${article.slug}/`}>{article.headline}</a><span>{article.section}</span></li>)}</ol>
+      <ol>{nonElectionLatest.map((article) => <li>{article.updatedAt && <time datetime={article.updatedAt}>{formatTimestamp(article.updatedAt)}</time>}<a href={`/articles/${article.slug}/`}>{article.headline}</a><span>{article.section}</span></li>)}</ol>
       <a class="text-link" href="/latest/">View all latest →</a>
     </aside>
   </section> :
@@ -48,7 +56,7 @@ const explainers = latest.filter((article) => article.articleType === "explainer
   {lead && !fixturesEnabled && <>
     <section class="top-story-row" aria-labelledby="top-stories-title">
       <div class="module-heading"><p class="eyebrow">Across the newsroom</p><h2 id="top-stories-title">Top stories</h2></div>
-      <div>{latest.slice(3).map((article) => <StoryCard article={article} />)}</div>
+      <div>{topStories.map((article) => <StoryCard article={article} />)}</div>
     </section>
 
     <div class="paired-desks">
