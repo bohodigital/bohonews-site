@@ -9,7 +9,7 @@ import {
 const latest = homepageArticles(sectionArticles("latest"));
 const homepageElectionStory = latest.find((article) => article.id === homepageElectionArticleId);
 const nonElectionLatest = latest.filter((article) => article.desk !== "elections");
-const featuredArticleId = "interlochen-abuse-investigation-report-findings";
+const featuredArticleId = "interlochen-before-epstein-what-was-known";
 const lead = nonElectionLatest.find((article) => article.id === featuredArticleId) ?? nonElectionLatest[0];
 const secondary = [
   ...(homepageElectionStory ? [homepageElectionStory] : []),
