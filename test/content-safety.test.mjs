@@ -15,6 +15,28 @@ test("content validator rejects executable HTML and executes schema plus digest 
   for (const pattern of ["<script","javascript:","<iframe","<object","<embed","Ajv2020","Promotion digest mismatch","Release manifest does not exactly bind"]) assert.match(validator,new RegExp(pattern.replace(/[<>]/g,"\\$&"),"i"));
 });
 
+test("public copy excludes newsroom operational messages and verification blockers", async () => {
+  const promotion = await readFile(new URL("../src/publishing/public-news-promotion-package.v2.1.1.json", import.meta.url),"utf8");
+  const evidenceRoom = await readFile(new URL("../src/pages/investigations/interlochen/evidence/index.astro", import.meta.url),"utf8");
+  const publicCopy = `${promotion}\n${evidenceRoom}`;
+  for (const phrase of [
+    "credential-blind",
+    "read-only IMAP",
+    "external secret broker",
+    "Message-IDs",
+    "original message files",
+    "Part 2 institutional correspondence status",
+    "Withheld pending verification",
+    "No correspondence artifact is exposed in this candidate",
+    "remains blocked until"
+  ]) assert.doesNotMatch(publicCopy,new RegExp(phrase,"i"),phrase);
+  const packageRecord = JSON.parse(promotion);
+  const part2 = packageRecord.articles.find(({slug}) => slug === "interlochen-before-epstein-what-was-known");
+  assert.ok(part2);
+  assert.equal(part2.citations.length,21);
+  assert.ok(!part2.citations.some(({id}) => id === "s22"));
+});
+
 test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and release-bound", {
   skip: process.env.BOHONEWS_PREVIEW === "1"
 }, async () => {
