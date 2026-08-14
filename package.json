@@ -17,6 +17,8 @@
     "build:activation": "BOHONEWS_ACTIVATION=1 node scripts/publishing/validate-activation.mjs source && BOHONEWS_ACTIVATION=1 ASTRO_TELEMETRY_DISABLED=1 astro build && BOHONEWS_ACTIVATION=1 node scripts/publishing/build-search.mjs && BOHONEWS_ACTIVATION=1 node scripts/publishing/validate-activation.mjs artifact",
     "build:fixtures": "BOHONEWS_INCLUDE_FIXTURES=1 npm run build",
     "benchmark:1000": "BOHONEWS_BENCHMARK_1000=1 npm run build",
+    "evidence:pdf-preview": "npm run build && node scripts/build-local-pdf-evidence-preview.mjs",
+    "evidence:pdf-preview:check": "node scripts/validate-local-pdf-evidence-preview.mjs",
     "preview": "astro preview",
     "weather:preview": "npm run build && WRANGLER_LOG_PATH=.wrangler/logs wrangler dev --config wrangler.weather.jsonc --local",
     "weather:check": "node --test test/weather-edge.test.mjs",
