@@ -16,8 +16,9 @@ const publicManifest = JSON.parse(await readFile(publicManifestPath, "utf8"));
 const promotion = JSON.parse(await readFile(promotionPath, "utf8"));
 const evidenceAssets = JSON.parse(await readFile(evidenceAssetsPath, "utf8"));
 
-if (manifest.localOnly !== true || publicManifest.localOnly !== true) {
-  throw new Error("local-only evidence marker is missing");
+if (manifest.localOnly !== true) throw new Error("private local-build marker is missing");
+if (publicManifest.localOnly != null || publicManifest.schemaVersion !== "bohonews.evidence-library.v2") {
+  throw new Error("reader manifest exposes build-only state or has the wrong schema");
 }
 if (manifest.failureCount !== 0 || manifest.records.some((record) => !record.ok)) {
   throw new Error("PDF evidence mirror retains unresolved records");
@@ -25,14 +26,19 @@ if (manifest.failureCount !== 0 || manifest.records.some((record) => !record.ok)
 if (manifest.recordCount !== manifest.records.length || manifest.mirroredCount !== manifest.records.length) {
   throw new Error("PDF evidence mirror counts are inconsistent");
 }
-if (JSON.stringify(manifest) !== JSON.stringify(publicManifest)) {
-  throw new Error("private and preview manifests differ");
+if (publicManifest.documentCount !== manifest.records.length || publicManifest.documents.length !== manifest.records.length) {
+  throw new Error("reader manifest document counts are inconsistent");
+}
+for (const forbidden of ["origins", "discovery", "localOnly", "failureCount", "detectedPdfUrlCount"]) {
+  if (JSON.stringify(publicManifest).includes(`\"${forbidden}\"`)) throw new Error(`reader manifest exposes ${forbidden}`);
 }
 
 const ids = new Set();
 const mirroredOriginalUrls = new Set(manifest.records.flatMap((record) => record.originalUrls));
 let bytes = 0;
 let pages = 0;
+let datedDocuments = 0;
+let checkedLinks = 0;
 for (const record of manifest.records) {
   if (!/^[0-9a-f]{64}$/.test(record.sha256)) throw new Error(`invalid hash: ${record.sha256}`);
   if (ids.has(record.sha256)) throw new Error(`duplicate object record: ${record.sha256}`);
@@ -50,9 +56,22 @@ for (const record of manifest.records) {
   if (hash.digest("hex") !== record.sha256) throw new Error(`hash mismatch: ${record.localPath}`);
   if (!Number.isInteger(record.pages) || record.pages < 1) throw new Error(`invalid page count: ${record.localPath}`);
   if (!record.associations.length) throw new Error(`orphan PDF record: ${record.localPath}`);
+  if (!record.metadata?.documentType?.id || !record.metadata?.documentType?.label) throw new Error(`missing document type: ${record.localPath}`);
+  if (!record.metadata?.institution && !record.metadata?.authors?.length) throw new Error(`missing author or institution: ${record.localPath}`);
+  if (record.metadata?.publishedAt) datedDocuments += 1;
+  if ((record.sourceChecks?.length ?? 0) !== record.originalUrls.length) throw new Error(`source checks do not cover every URL: ${record.localPath}`);
+  for (const check of record.sourceChecks ?? []) {
+    if (!check.firstCheckedAt || !check.lastCheckedAt || !check.comparison) throw new Error(`incomplete source provenance: ${check.url}`);
+    checkedLinks += 1;
+  }
   bytes += record.bytes;
   pages += record.pages;
 }
+if (datedDocuments <= manifest.records.length / 2) throw new Error("most documents do not have a publication date");
+
+const publicIds = new Set(publicManifest.documents.map((record) => record.sha256));
+if (publicIds.size !== ids.size || [...ids].some((id) => !publicIds.has(id))) throw new Error("reader manifest document identities differ");
+if (!publicManifest.stories.length || !publicManifest.taxonomy.length) throw new Error("reader manifest lacks story collections or document taxonomy");
 
 const explicitPdfUrls = new Set();
 const walk = (value) => {
@@ -91,8 +110,11 @@ for (const path of [
 ]) {
   const html = await readFile(path, "utf8");
   if (!html.includes('name="robots" content="noindex,nofollow"')) throw new Error(`preview is indexable: ${path}`);
-  if (!html.includes("Local-only editorial preview")) throw new Error(`preview banner is missing: ${path}`);
   if (!html.includes("/evidence/files/")) throw new Error(`preview lacks local PDF links: ${path}`);
+  if (!html.includes("By story") || !html.includes("By document") || !html.includes("Last checked")) throw new Error(`library controls or provenance are missing: ${path}`);
+  for (const forbidden of ["Local-only", "editorial preview", "reporting handoff", "generated mirror", "acquisition failed", "downloads needing follow-up", "preserved-custodian-fallback", "This preview"]) {
+    if (html.toLowerCase().includes(forbidden.toLowerCase())) throw new Error(`reader page exposes internal copy (${forbidden}): ${path}`);
+  }
 }
 
 console.log(JSON.stringify({
@@ -103,6 +125,10 @@ console.log(JSON.stringify({
   explicitPdfUrls: explicitPdfUrls.size,
   existingEvidencePdfs: evidenceAssets.filter((item) => item.mediaType === "application/pdf").length,
   handoffPdfs,
+  datedDocuments,
+  checkedLinks,
+  documentTypes: publicManifest.taxonomy.length,
+  storyCollections: publicManifest.stories.length,
   associatedArticles: new Set(
     manifest.records.flatMap((record) => record.associations.map((item) => item.articleSlug)).filter(Boolean)
   ).size

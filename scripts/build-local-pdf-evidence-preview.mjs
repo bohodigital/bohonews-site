@@ -17,6 +17,11 @@ import { pipeline } from "node:stream/promises";
 import { Transform, Readable } from "node:stream";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
+import {
+  buildStoryCollections,
+  metadataForRecord
+} from "./evidence/evidence-document-model.mjs";
+import { renderEvidenceLibrary } from "./evidence/render-evidence-library.mjs";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const outputRoot = join(root, "tmp", "evidence-pdf-mirror");
@@ -66,15 +71,6 @@ function safeName(value) {
     .slice(0, 120) || "document.pdf";
 }
 
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#39;");
-}
-
 function sha256Bytes(bytes) {
   return createHash("sha256").update(bytes).digest("hex");
 }
@@ -95,6 +91,44 @@ function pdfPages(path) {
     return match ? Number(match[1]) : null;
   } catch {
     return null;
+  }
+}
+
+function pdfMetadata(path) {
+  try {
+    const output = execFileSync("pdfinfo", [path], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"]
+    });
+    const values = Object.fromEntries(output.split("\n").flatMap((line) => {
+      const match = line.match(/^([^:]+):\s*(.*)$/);
+      return match ? [[match[1].trim().toLowerCase(), match[2].trim()]] : [];
+    }));
+    return {
+      title: values.title || null,
+      author: values.author || null,
+      subject: values.subject || null,
+      keywords: values.keywords || null,
+      creator: values.creator || null,
+      producer: values.producer || null,
+      creationDate: values.creationdate || null,
+      modificationDate: values.moddate || null,
+      language: values.language || null
+    };
+  } catch {
+    return {};
+  }
+}
+
+function pdfText(path) {
+  try {
+    return execFileSync("pdftotext", ["-f", "1", "-l", "2", "-layout", path, "-"], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+      maxBuffer: 2 * 1024 * 1024
+    }).replace(/\s+/g, " ").trim().slice(0, 12_000);
+  } catch {
+    return "";
   }
 }
 
@@ -208,13 +242,141 @@ async function downloadPdf(url, urlKey) {
       bytes,
       pages: pdfPages(objectPath),
       objectPath,
+      status: response.status,
       finalUrl: response.url,
-      contentType: response.headers.get("content-type") ?? null
+      contentType: response.headers.get("content-type") ?? null,
+      etag: response.headers.get("etag") ?? null,
+      lastModified: response.headers.get("last-modified") ?? null
     };
   } catch (error) {
     await rm(partial, { force: true });
     return { ok: false, error: String(error.message ?? error) };
   }
+}
+
+async function snapshotSourcePage(url) {
+  const limit = 2 * 1024 * 1024;
+  try {
+    const response = await fetch(url, {
+      redirect: "follow",
+      signal: AbortSignal.timeout(45_000),
+      headers: {
+        Accept: "text/html,application/xhtml+xml,*/*;q=0.4",
+        "User-Agent": userAgent
+      }
+    });
+    if (!response.ok || !response.body) throw new Error(`HTTP ${response.status}`);
+    const reader = response.body.getReader();
+    const chunks = [];
+    let bytes = 0;
+    let complete = true;
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      const remaining = limit - bytes;
+      if (remaining <= 0) {
+        complete = false;
+        await reader.cancel();
+        break;
+      }
+      const chunk = Buffer.from(value).subarray(0, remaining);
+      chunks.push(chunk);
+      bytes += chunk.length;
+      if (chunk.length < value.length || bytes >= limit) {
+        complete = false;
+        await reader.cancel();
+        break;
+      }
+    }
+    const body = Buffer.concat(chunks);
+    const html = body.toString("utf8");
+    const cleanText = (value) => String(value ?? "")
+      .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&amp;/gi, "&")
+      .replace(/&quot;/gi, '"')
+      .replace(/&#39;|&apos;/gi, "'")
+      .replace(/&lt;/gi, "<")
+      .replace(/&gt;/gi, ">")
+      .replace(/\s+/g, " ")
+      .trim();
+    const pageTitle = cleanText(html.match(/<title\b[^>]*>([\s\S]*?)<\/title>/i)?.[1]).slice(0, 500) || null;
+    const heading = cleanText(html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1>/i)?.[1]).slice(0, 500) || null;
+    const canonicalHref = html.match(/<link\b[^>]*rel=["'][^"']*canonical[^"']*["'][^>]*href=["']([^"']+)["']/i)?.[1]
+      ?? html.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*rel=["'][^"']*canonical[^"']*["']/i)?.[1]
+      ?? null;
+    let canonicalResolved = null;
+    try {
+      canonicalResolved = canonicalHref ? new URL(canonicalHref, response.url).href : null;
+    } catch {
+      canonicalResolved = null;
+    }
+    const identity = {
+      finalUrl: response.url,
+      pageTitle,
+      heading,
+      canonicalUrl: canonicalResolved
+    };
+    return {
+      ok: true,
+      status: response.status,
+      finalUrl: response.url,
+      contentType: response.headers.get("content-type") ?? null,
+      etag: response.headers.get("etag") ?? null,
+      lastModified: response.headers.get("last-modified") ?? null,
+      fingerprintSha256: sha256Bytes(Buffer.from(JSON.stringify(identity))),
+      fingerprintBytes: body.length,
+      fingerprintComplete: complete,
+      identityVersion: "html-title-h1-canonical-v1",
+      identity
+    };
+  } catch (error) {
+    return { ok: false, error: String(error.message ?? error) };
+  }
+}
+
+function sourceCheck(url, result, previous, checkedAt, { pdf = false } = {}) {
+  const currentFingerprint = pdf ? result.sha256 : result.fingerprintSha256;
+  const previousCandidate = previous?.sourceChecks?.find((item) => item.url === url);
+  const previousCheck = !pdf && previousCandidate?.identityVersion !== result.identityVersion
+    ? null
+    : previousCandidate;
+  const firstFingerprint = previousCheck?.firstObservedSha256
+    ?? (pdf ? previous?.sha256 : null)
+    ?? currentFingerprint
+    ?? null;
+  const firstCheckedAt = previousCheck?.firstCheckedAt
+    ?? previous?.retrievedAt
+    ?? checkedAt;
+  let comparison = "unavailable";
+  if (result.ok) {
+    if (!previousCheck && (!previous || !pdf)) comparison = "baseline-created";
+    else if (currentFingerprint === firstFingerprint) comparison = pdf ? "exact-match" : "unchanged";
+    else comparison = "changed";
+  }
+  const observations = [...(previousCheck?.observations ?? [])];
+  if (currentFingerprint && !observations.some((item) => item.sha256 === currentFingerprint)) {
+    observations.push({ sha256: currentFingerprint, observedAt: checkedAt });
+  }
+  return {
+    url,
+    firstCheckedAt,
+    lastCheckedAt: checkedAt,
+    reachable: result.ok,
+    status: result.status ?? null,
+    finalUrl: result.finalUrl ?? url,
+    contentType: result.contentType ?? null,
+    etag: result.etag ?? null,
+    lastModified: result.lastModified ?? null,
+    firstObservedSha256: firstFingerprint,
+    currentObservedSha256: currentFingerprint ?? null,
+    comparison,
+    observations,
+    identityVersion: result.identityVersion ?? (pdf ? "pdf-sha256-v1" : null),
+    identity: result.identity ?? null,
+    error: result.ok ? null : result.error
+  };
 }
 
 async function admitLocalPdf(path, origin) {
@@ -256,75 +418,16 @@ function isGenericAssociationTitle(title) {
   return !title || title === "Supporting PDF referenced by article data";
 }
 
-function associationDisplayScore(item) {
-  let score = 0;
-  if (item.sourceId && !/[.[\]]/.test(item.sourceId)) score += 3;
-  if (item.publisher && item.publisher !== "Source custodian") score += 2;
-  if (!isGenericAssociationTitle(item.title)) score += 2;
-  return score;
-}
-
-function recordCard(record) {
-  const displayAssociations = [...record.associations]
-    .sort((a, b) => associationDisplayScore(b) - associationDisplayScore(a))
-    .reduce((items, item) => {
-      const key = item.articleSlug ?? `${item.sourceId}:${item.title}`;
-      if (!items.has(key)) items.set(key, item);
-      return items;
-    }, new Map());
-  const associations = [...displayAssociations.values()]
-    .map((item) => `<li><a href="/articles/${escapeHtml(item.articleSlug)}/">${escapeHtml(item.articleHeadline ?? item.articleSlug)}</a><span>${escapeHtml(item.sourceId ?? "supporting PDF")} · ${escapeHtml(item.publisher ?? "Source custodian")}</span></li>`)
-    .join("");
-  const title = (!isGenericAssociationTitle(record.displayName) ? record.displayName : null)
-    ?? record.associations.find((item) => !isGenericAssociationTitle(item.title))?.title
-    ?? record.displayName
-    ?? "Preserved source PDF";
-  const mirrorAction = record.ok
-    ? `<a class="primary" href="/evidence/files/${record.sha256}.pdf">Open local PDF</a>`
-    : "";
-  const originalAction = record.originalUrls[0]
-    ? `<a href="${escapeHtml(record.originalUrls[0])}" rel="noopener noreferrer">Original source</a>`
-    : "";
-  const search = [title, ...record.originalUrls, ...record.associations.flatMap((item) => [item.articleSlug, item.articleHeadline, item.publisher, item.sourceId])].join(" ");
-  return `<article class="document-card" data-status="${record.ok ? "mirrored" : "missing"}" data-search="${escapeHtml(search.toLowerCase())}">
-    <div class="document-card__top">
-      <p class="document-status">${record.ok ? "Locally preserved" : "Acquisition failed"}</p>
-      <h2>${escapeHtml(title)}</h2>
-    </div>
-    <div class="document-meta">
-      ${record.ok ? `<span>${record.pages ?? "?"} pages</span><span>${(record.bytes / 1024 / 1024).toFixed(2)} MB</span>` : `<span>${escapeHtml(record.error ?? "Unavailable")}</span>`}
-      ${record.discovery ? `<span>${escapeHtml(record.discovery)}</span>` : ""}
-    </div>
-    <div class="document-actions">${mirrorAction}${originalAction}</div>
-    ${record.ok ? `<details><summary>Integrity and provenance</summary><dl><dt>SHA-256</dt><dd><code>${record.sha256}</code></dd><dt>Retrieved</dt><dd>${escapeHtml(record.retrievedAt)}</dd>${record.finalUrl ? `<dt>Resolved URL</dt><dd>${escapeHtml(record.finalUrl)}</dd>` : ""}</dl></details>` : ""}
-    <div class="used-by"><h3>Used by</h3><ul>${associations || "<li>Existing evidence archive</li>"}</ul></div>
-  </article>`;
-}
-
-function previewHtml(manifest, records, { interlochenOnly = false } = {}) {
-  const filtered = interlochenOnly
-    ? records.filter((record) => record.associations.some((item) => item.articleSlug?.includes("interlochen")) || record.displayName?.toLowerCase().includes("interlochen"))
-    : records;
-  const mirrored = filtered.filter((record) => record.ok);
-  const failures = filtered.filter((record) => !record.ok);
-  const totalPages = mirrored.reduce((sum, record) => sum + (record.pages ?? 0), 0);
-  const totalBytes = mirrored.reduce((sum, record) => sum + record.bytes, 0);
-  const title = interlochenOnly ? "Interlochen Evidence Room - Complete Local PDF Mirror" : "Evidence Library - Complete Local PDF Mirror";
-  const cards = filtered.map(recordCard).join("\n");
-  return `<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>${escapeHtml(title)}</title>
-<style>
-:root{--ink:#11100e;--paper:#f6f2e8;--panel:#fffdf7;--rule:#c9c0ad;--accent:#7b1f1f;--muted:#655f56;--ok:#285c43;--warn:#8b3f18;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper)}*{box-sizing:border-box}body{margin:0}.local-banner{background:#2b1717;color:#fff;padding:.7rem 5vw;font:700 .76rem/1.4 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase}.masthead{display:flex;justify-content:space-between;align-items:center;padding:1.35rem 5vw;border-bottom:3px double var(--ink)}.brand{font:bold 1.55rem/1 system-ui,sans-serif;color:var(--ink);text-decoration:none}.masthead nav{display:flex;gap:1rem}.masthead nav a{color:var(--ink)}main{max-width:1500px;margin:auto;padding:2.5rem 5vw 5rem}.eyebrow,.document-status{font:700 .72rem/1.3 system-ui,sans-serif;letter-spacing:.11em;text-transform:uppercase;color:var(--accent)}h1{font-size:clamp(2.4rem,6vw,5.5rem);line-height:.94;max-width:1000px;margin:.3rem 0 1.2rem}.intro{max-width:850px;font-size:1.15rem;line-height:1.55}.summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid var(--rule);margin:2rem 0}.summary div{padding:1.2rem;border-right:1px solid var(--rule)}.summary div:last-child{border-right:0}.summary strong{display:block;font:800 1.8rem/1 system-ui,sans-serif}.summary span{font:600 .75rem/1.4 system-ui,sans-serif;color:var(--muted)}.controls{display:flex;gap:.7rem;flex-wrap:wrap;align-items:center;margin:1.5rem 0 2rem}.controls input{flex:1;min-width:260px;padding:.85rem;border:1px solid var(--ink);background:#fff;font:1rem system-ui,sans-serif}.controls button,.manifest-link{padding:.78rem 1rem;border:1px solid var(--ink);background:transparent;color:var(--ink);font:700 .78rem system-ui,sans-serif;text-decoration:none;cursor:pointer}.controls button[aria-pressed="true"]{background:var(--ink);color:#fff}.document-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:1.15rem}.document-card{background:var(--panel);border:1px solid var(--rule);padding:1.25rem;display:flex;flex-direction:column;gap:.8rem}.document-card[data-status="missing"]{border-color:#c7835f}.document-card h2{font-size:1.35rem;line-height:1.15;margin:.2rem 0}.document-meta,.document-actions{display:flex;gap:.55rem;flex-wrap:wrap}.document-meta span{font:600 .72rem system-ui,sans-serif;background:#eee8dc;padding:.35rem .5rem}.document-actions a{font:700 .78rem system-ui,sans-serif;border:1px solid var(--ink);padding:.6rem .75rem;color:var(--ink);text-decoration:none}.document-actions a.primary{background:var(--accent);border-color:var(--accent);color:#fff}details{border-top:1px solid var(--rule);padding-top:.7rem}summary{cursor:pointer;font:700 .75rem system-ui,sans-serif}dl{display:grid;grid-template-columns:max-content 1fr;gap:.4rem .7rem;font-size:.78rem}dt{font-weight:bold}dd{margin:0;overflow-wrap:anywhere}code{font:.7rem ui-monospace,SFMono-Regular,monospace}.used-by{border-top:1px solid var(--rule);padding-top:.7rem}.used-by h3{font:700 .72rem system-ui,sans-serif;text-transform:uppercase;letter-spacing:.08em}.used-by ul{list-style:none;padding:0;margin:0}.used-by li{margin:.55rem 0}.used-by li a{display:block;color:var(--ink);font-weight:bold}.used-by li span{display:block;color:var(--muted);font:.72rem system-ui,sans-serif}.empty{display:none}.footer-note{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--rule);color:var(--muted)}@media(max-width:800px){.summary{grid-template-columns:1fr 1fr}.summary div:nth-child(2){border-right:0}.masthead{align-items:flex-start;gap:1rem;flex-direction:column}.document-grid{grid-template-columns:1fr}}
-</style></head><body><div class="local-banner">Local-only editorial preview - never publish this generated mirror without a separate rights and privacy review</div><header class="masthead"><a class="brand" href="/">BOHO NEWS</a><nav><a href="/evidence/">All PDFs</a><a href="/investigations/interlochen/evidence/">Interlochen</a><a href="/">Home</a></nav></header><main><p class="eyebrow">Evidence preservation preview</p><h1>${escapeHtml(title.replace(" - ", ": "))}</h1><p class="intro">Every PDF identified in the current approved-story citation corpus, existing evidence archive, and supplied Interlochen handoff is collected here for local review. Content-identical files are stored once and mapped to every story that relied on them.</p><section class="summary"><div><strong>${filtered.length}</strong><span>distinct source records</span></div><div><strong>${mirrored.length}</strong><span>locally preserved</span></div><div><strong>${totalPages.toLocaleString()}</strong><span>pages identified</span></div><div><strong>${failures.length}</strong><span>downloads needing follow-up</span></div></section><div class="controls"><input id="search" type="search" placeholder="Search documents, publishers, stories or source IDs"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="mirrored" aria-pressed="false">Mirrored</button><button type="button" data-filter="missing" aria-pressed="false">Needs follow-up</button><a class="manifest-link" href="/evidence/pdf-mirror-manifest.json">Manifest JSON</a></div><section class="document-grid" id="documents">${cards}</section><p class="footer-note">Local corpus size: ${(totalBytes / 1024 / 1024).toFixed(2)} MB. Generated ${escapeHtml(manifest.generatedAt)}. This preview does not change article text or the live site.</p></main><script>const input=document.querySelector('#search');const buttons=[...document.querySelectorAll('[data-filter]')];const cards=[...document.querySelectorAll('.document-card')];let filter='all';function apply(){const q=input.value.trim().toLowerCase();for(const card of cards){const status=card.dataset.status;const visible=(filter==='all'||status===filter)&&(!q||card.dataset.search.includes(q));card.hidden=!visible}for(const button of buttons)button.setAttribute('aria-pressed',String(button.dataset.filter===filter))}input.addEventListener('input',apply);for(const button of buttons)button.addEventListener('click',()=>{filter=button.dataset.filter;apply()});</script></body></html>`;
-}
-
 await mkdir(objectRoot, { recursive: true, mode: 0o700 });
+const runStartedAt = new Date().toISOString();
 
 const previousByUrl = new Map();
+const previousBySha = new Map();
 try {
   const previous = JSON.parse(await readFile(join(outputRoot, "manifest.json"), "utf8"));
   for (const record of previous.records ?? []) {
     if (!record.ok || !record.sha256) continue;
+    previousBySha.set(record.sha256, record);
     for (const url of record.originalUrls ?? []) previousByUrl.set(url, record);
   }
 } catch {
@@ -349,13 +452,20 @@ function addReference(rawUrl, association, discovery) {
 }
 
 for (const article of articles) {
-  for (const citation of article.citations) {
+  for (const [citationIndex, citation] of article.citations.entries()) {
     addReference(citation.url, {
       articleSlug: article.slug,
       articleHeadline: article.headline,
+      articleDek: article.dek,
+      articlePublishedAt: article.publishedAt,
+      articleAuthors: article.authors,
+      articleSection: article.section ?? article.desk,
       sourceId: citation.id,
+      citationIndex,
+      publishedAt: citation.publishedAt,
       title: citation.title,
-      publisher: citation.publisher
+      publisher: citation.publisher,
+      sourceUrl: citation.url
     }, "article-citation");
   }
   const walk = (value, path = "") => {
@@ -363,9 +473,14 @@ for (const article of articles) {
       addReference(value, {
         articleSlug: article.slug,
         articleHeadline: article.headline,
+        articleDek: article.dek,
+        articlePublishedAt: article.publishedAt,
+        articleAuthors: article.authors,
+        articleSection: article.section ?? article.desk,
         sourceId: path,
         title: "Supporting PDF referenced by article data",
-        publisher: new URL(value).hostname
+        publisher: new URL(value).hostname,
+        sourceUrl: value
       }, "article-supporting-pdf");
     } else if (Array.isArray(value)) {
       value.forEach((item, index) => walk(item, `${path}[${index}]`));
@@ -402,6 +517,10 @@ function collectRecord(key, value) {
   existing.associations = mergeAssociations(existing.associations, value.associations);
   existing.originalUrls = [...new Set([...existing.originalUrls, ...value.originalUrls])].sort();
   existing.origins = [...new Set([...(existing.origins ?? []), ...(value.origins ?? [])])].sort();
+  existing.sourceChecks = [...new Map([...(existing.sourceChecks ?? []), ...(value.sourceChecks ?? [])]
+    .map((item) => [item.url, item])).values()];
+  existing.firstPreservedAt = [existing.firstPreservedAt, value.firstPreservedAt]
+    .filter(Boolean).sort()[0] ?? existing.firstPreservedAt;
   if (!existing.displayName && value.displayName) existing.displayName = value.displayName;
 }
 
@@ -410,22 +529,36 @@ for (const asset of evidenceAssets.filter((item) => item.mediaType === "applicat
   const admitted = await admitLocalPdf(localPath, "existing-public-evidence");
   const associations = asset.storySlugs.flatMap((articleSlug) => {
     const article = articleBySlug.get(articleSlug);
-    return asset.sourceIds.map((sourceId) => ({
-      articleSlug,
-      articleHeadline: article?.headline ?? articleSlug,
-      sourceId,
-      title: asset.title,
-      publisher: asset.publisher
-    }));
+    return asset.sourceIds.map((sourceId) => {
+      const citationIndex = article?.citations.findIndex((item) => String(item.id).toLowerCase() === String(sourceId).toLowerCase());
+      const citation = citationIndex >= 0 ? article.citations[citationIndex] : null;
+      return {
+        articleSlug,
+        articleHeadline: article?.headline ?? articleSlug,
+        articleDek: article?.dek,
+        articlePublishedAt: article?.publishedAt,
+        articleAuthors: article?.authors,
+        articleSection: article?.section ?? article?.desk,
+        sourceId,
+        citationIndex: citationIndex >= 0 ? citationIndex : null,
+        publishedAt: citation?.publishedAt ?? null,
+        title: citation?.title ?? asset.title,
+        publisher: citation?.publisher ?? asset.publisher,
+        sourceUrl: citation?.url ?? null
+      };
+    });
   });
   collectRecord(`sha256:${admitted.sha256}`, {
     ...admitted,
     displayName: asset.title,
     associations,
-    originalUrls: [],
+    originalUrls: associations.map((item) => canonicalUrl(item.sourceUrl)).filter(Boolean),
     origins: ["existing-public-evidence"],
     discovery: "existing evidence mirror",
-    retrievedAt: new Date().toISOString()
+    retrievedAt: previousBySha.get(admitted.sha256)?.retrievedAt ?? runStartedAt,
+    firstPreservedAt: previousBySha.get(admitted.sha256)?.firstPreservedAt
+      ?? previousBySha.get(admitted.sha256)?.retrievedAt
+      ?? runStartedAt
   });
 }
 
@@ -438,30 +571,46 @@ if (handoffRoot) {
     const admitted = await admitLocalPdf(localPath, "interlochen-handoff");
     const sourceId = name.match(/^(S\d+)/)?.[1] ?? "interlochen-handoff";
     const article = articleBySlug.get("interlochen-before-epstein-what-was-known");
+    const citationIndex = article?.citations.findIndex((item) => String(item.id).toLowerCase() === sourceId.toLowerCase());
+    const citation = citationIndex >= 0 ? article.citations[citationIndex] : null;
     collectRecord(`sha256:${admitted.sha256}`, {
       ...admitted,
-      displayName: name.replace(/\.pdf$/i, "").replaceAll("-", " "),
+      sourceFileName: name,
+      displayName: citation?.title ?? name.replace(/\.pdf$/i, "").replaceAll("-", " "),
       associations: [{
         articleSlug: "interlochen-before-epstein-what-was-known",
         articleHeadline: article?.headline,
+        articleDek: article?.dek,
+        articlePublishedAt: article?.publishedAt,
+        articleAuthors: article?.authors,
+        articleSection: article?.section ?? article?.desk,
         sourceId,
-        title: name.replace(/\.pdf$/i, "").replaceAll("-", " "),
-        publisher: "Interlochen Part 2 reporting handoff"
+        citationIndex: citationIndex >= 0 ? citationIndex : null,
+        publishedAt: citation?.publishedAt ?? null,
+        title: citation?.title ?? name.replace(/\.pdf$/i, "").replaceAll("-", " "),
+        publisher: citation?.publisher ?? "Boho News source archive",
+        sourceUrl: citation?.url ?? null
       }],
-      originalUrls: [],
+      originalUrls: citation?.url ? [canonicalUrl(citation.url)] : [],
       origins: ["interlochen-handoff"],
-      discovery: "supplied reporting handoff",
-      retrievedAt: new Date().toISOString()
+      retrievedAt: previousBySha.get(admitted.sha256)?.retrievedAt ?? runStartedAt,
+      firstPreservedAt: previousBySha.get(admitted.sha256)?.firstPreservedAt
+        ?? previousBySha.get(admitted.sha256)?.retrievedAt
+        ?? runStartedAt
     });
   }
 }
 
 process.stdout.write(`Downloading ${pdfReferences.length} cited PDF URLs...\n`);
+const checkByUrl = new Map();
 const downloads = await mapLimit(pdfReferences, 4, async (reference, index) => {
   const key = sha256Bytes(Buffer.from(reference.url)).slice(0, 20);
   const cached = previousByUrl.get(reference.url);
-  let result;
-  if (cached) {
+  const fresh = await downloadPdf(reference.url, key);
+  const check = sourceCheck(reference.url, fresh, cached, runStartedAt, { pdf: true });
+  checkByUrl.set(reference.url, check);
+  let result = fresh;
+  if (!fresh.ok && cached) {
     const objectPath = join(objectRoot, `${cached.sha256}.pdf`);
     try {
       if (!(await isPdfFile(objectPath))) throw new Error("cached object is not a PDF");
@@ -473,28 +622,27 @@ const downloads = await mapLimit(pdfReferences, 4, async (reference, index) => {
         objectPath,
         finalUrl: cached.finalUrl,
         contentType: cached.contentType,
-        cached: true
+        preservedFallback: true
       };
     } catch {
-      result = await downloadPdf(reference.url, key);
+      result = fresh;
     }
-  } else {
-    result = await downloadPdf(reference.url, key);
   }
   if ((index + 1) % 10 === 0 || index + 1 === pdfReferences.length) {
     process.stdout.write(`Downloaded ${index + 1}/${pdfReferences.length}\n`);
   }
-  return { reference, probe: probeByUrl.get(reference.url), result };
+  return { reference, probe: probeByUrl.get(reference.url), result, check };
 });
 
-for (const { reference, probe, result } of downloads) {
+for (const { reference, probe, result, check } of downloads) {
   const value = {
     ...result,
     associations: reference.associations,
     originalUrls: [reference.url],
     origins: [...reference.discoveries],
-    discovery: probe?.discovery ?? (isPdfPath(reference.url) ? "pdf-url" : "local-url"),
-    retrievedAt: new Date().toISOString(),
+    retrievedAt: check.firstCheckedAt,
+    firstPreservedAt: check.firstCheckedAt,
+    sourceChecks: [check],
     finalUrl: result.finalUrl ?? probe?.finalUrl ?? reference.url,
     displayName: reference.associations.find((item) => !isGenericAssociationTitle(item.title))?.title
       ?? safeName(new URL(reference.url).pathname.split("/").pop() ?? "document.pdf")
@@ -526,13 +674,45 @@ for (const [key, failed] of [...recordsByIdentity]) {
   match.associations = mergeAssociations(match.associations, failed.associations);
   match.originalUrls = [...new Set([...match.originalUrls, ...failed.originalUrls])].sort();
   match.origins = [...new Set([...(match.origins ?? []), "preserved-custodian-fallback"])].sort();
+  match.sourceChecks = [...new Map([...(match.sourceChecks ?? []), ...(failed.sourceChecks ?? [])]
+    .map((item) => [item.url, item])).values()];
   recordsByIdentity.delete(key);
+}
+
+const uncheckedUrls = [...new Set([...recordsByIdentity.values()]
+  .flatMap((record) => record.originalUrls)
+  .filter((url) => !checkByUrl.has(url)))];
+if (uncheckedUrls.length) process.stdout.write(`Checking ${uncheckedUrls.length} source landing pages...\n`);
+const pageChecks = await mapLimit(uncheckedUrls, 6, async (url, index) => {
+  const result = await snapshotSourcePage(url);
+  const check = sourceCheck(url, result, previousByUrl.get(url), runStartedAt);
+  if ((index + 1) % 10 === 0 || index + 1 === uncheckedUrls.length) {
+    process.stdout.write(`Checked ${index + 1}/${uncheckedUrls.length} source pages\n`);
+  }
+  return [url, check];
+});
+for (const [url, check] of pageChecks) checkByUrl.set(url, check);
+for (const record of recordsByIdentity.values()) {
+  record.sourceChecks = record.originalUrls.map((url) => checkByUrl.get(url)).filter(Boolean);
 }
 
 const records = [...recordsByIdentity.values()].sort((a, b) => {
   if (a.ok !== b.ok) return a.ok ? -1 : 1;
   return (a.displayName ?? "").localeCompare(b.displayName ?? "");
 });
+
+for (const record of records) {
+  if (record.ok) {
+    record.pdfMetadata = pdfMetadata(record.objectPath);
+    record.pdfText = pdfText(record.objectPath);
+  } else {
+    record.pdfMetadata = {};
+    record.pdfText = "";
+  }
+  record.metadata = metadataForRecord(record);
+  delete record.pdfText;
+}
+const stories = buildStoryCollections(records, articles);
 
 await rm(previewFilesRoot, { recursive: true, force: true });
 await mkdir(previewFilesRoot, { recursive: true });
@@ -541,9 +721,9 @@ for (const record of records.filter((item) => item.ok)) {
 }
 
 const manifest = {
-  schemaVersion: "bohonews.local-pdf-evidence-mirror.v1",
+  schemaVersion: "bohonews.local-pdf-evidence-library.v2",
   localOnly: true,
-  generatedAt: new Date().toISOString(),
+  generatedAt: runStartedAt,
   articleCount: articles.length,
   citationUrlCount: references.size,
   detectedPdfUrlCount: pdfReferences.length,
@@ -556,12 +736,44 @@ const manifest = {
   }))
 };
 
+const publicManifest = {
+  schemaVersion: "bohonews.evidence-library.v2",
+  updatedAt: runStartedAt,
+  documentCount: records.filter((item) => item.ok).length,
+  storyCount: stories.length,
+  pageCount: records.reduce((sum, item) => sum + (item.pages ?? 0), 0),
+  taxonomy: Object.entries(Object.groupBy(records, (record) => record.metadata.documentType.id)).map(([id, items]) => ({
+    id,
+    label: items[0].metadata.documentType.label,
+    documentCount: items.length
+  })).sort((a, b) => a.label.localeCompare(b.label)),
+  documents: records.map(({ objectPath, origins, discovery, error, ...record }) => ({
+    ...record,
+    documentId: record.sha256 ? `sha256:${record.sha256}` : null,
+    associations: record.associations.map((item) => ({
+      articleSlug: item.articleSlug,
+      articleHeadline: item.articleHeadline,
+      sourceId: item.sourceId,
+      citationIndex: item.citationIndex ?? null
+    })),
+    localPath: record.ok ? `/evidence/files/${record.sha256}.pdf` : null
+  })),
+  stories: stories.map((story) => ({
+    slug: story.slug,
+    headline: story.headline,
+    publishedAt: story.publishedAt,
+    authors: story.authors,
+    documentIds: story.records.map((record) => `sha256:${record.sha256}`),
+    suggestedDocumentIds: story.suggested.map((record) => `sha256:${record.sha256}`)
+  }))
+};
+
 await mkdir(previewRoot, { recursive: true });
 await mkdir(interlochenPreviewRoot, { recursive: true });
 await writeFile(join(outputRoot, "manifest.json"), JSON.stringify(manifest, null, 2) + "\n", { mode: 0o600 });
-await writeFile(join(previewRoot, "pdf-mirror-manifest.json"), JSON.stringify(manifest, null, 2) + "\n");
-await writeFile(join(previewRoot, "index.html"), previewHtml(manifest, records));
-await writeFile(join(interlochenPreviewRoot, "index.html"), previewHtml(manifest, records, { interlochenOnly: true }));
+await writeFile(join(previewRoot, "pdf-mirror-manifest.json"), JSON.stringify(publicManifest, null, 2) + "\n");
+await writeFile(join(previewRoot, "index.html"), renderEvidenceLibrary(records, stories));
+await writeFile(join(interlochenPreviewRoot, "index.html"), renderEvidenceLibrary(records, stories, { interlochenOnly: true }));
 
 process.stdout.write(JSON.stringify({
   articleCount: manifest.articleCount,
