@@ -47,7 +47,8 @@ const slugs = [
   ],
   articles = slugs.map((slug) =>
     packageRecord.articles.find((article) => article.slug === slug),
-  );
+  ),
+  releaseArticles = articles.slice(0, 1);
 if (articles.some((article) => !article) || articles.length !== 2)
   throw new Error("Exact Interlochen article inventory unavailable");
 rmSync(output, { recursive: true, force: true });
@@ -65,7 +66,7 @@ if (phase === "activation") {
     JSON.stringify(
       {
         schemaVersion: "1.0.0",
-        articleIds: articles.map(({ id }) => id),
+        articleIds: releaseArticles.map(({ id }) => id),
         releaseState: "activation",
         candidateDigest: packageRecord.packageDigest,
       },
@@ -146,14 +147,11 @@ const gzip = spawnSync("gzip", ["-9", "-f", uncompressedArchive], {
   encoding: "utf8",
 });
 if (gzip.status !== 0) throw new Error(`gzip failed: ${gzip.stderr}`);
-const articleEvidence = articles.map((article) => ({
+const articleEvidence = releaseArticles.map((article) => ({
     articleId: article.id,
     bodySha256: sha256(Buffer.from(article.body)),
     dek: article.dek,
     headline: article.headline,
-    ...(article.slug === "interlochen-abuse-investigation-report-findings"
-      ? { publicationOperation: "update" }
-      : {}),
     route: new URL(article.canonicalUrl).pathname,
   })),
   routes = [
@@ -173,7 +171,7 @@ const articleEvidence = articles.map((article) => ({
     "/technology/",
     "/weather-climate/",
     ...(phase === "activation" ? ["/games/"] : []),
-    ...articleEvidence.map(({ route }) => route),
+    ...articles.map(({ canonicalUrl }) => new URL(canonicalUrl).pathname),
   ],
   request = {
     schemaVersion: "1.0.0",
@@ -182,7 +180,7 @@ const articleEvidence = articles.map((article) => ({
     artifactSha256: sha256(readFileSync(archive)),
     inventorySha256,
     markerSha256: sha256(readFileSync(markerPath)),
-    articleIds: articles.map(({ id }) => id),
+    articleIds: releaseArticles.map(({ id }) => id),
     articleEvidence,
     routes,
     expectedCommit,
