@@ -37,6 +37,26 @@ test("public copy excludes newsroom operational messages and verification blocke
   assert.ok(!part2.citations.some(({id}) => id === "s22"));
 });
 
+test("public evidence library keeps rights-restricted preservation copies private", async () => {
+  const library = JSON.parse(await readFile(new URL("../src/lib/public-evidence-library.v2.json", import.meta.url),"utf8"));
+  assert.equal(library.schemaVersion,"bohonews.public-evidence-library.v2");
+  assert.equal(library.documents.length,69);
+  assert.equal(library.stories.length,48);
+  assert.ok(library.documents.some(({publicPath}) => publicPath));
+  assert.ok(library.documents.some(({publicPath}) => !publicPath));
+  for (const document of library.documents) {
+    assert.ok(document.metadata?.documentType?.label);
+    assert.ok(document.originalUrls.length || document.publicPath);
+    assert.ok(document.sourceChecks.every(({lastCheckedAt}) => lastCheckedAt));
+    if (!document.publicPath) {
+      assert.equal(document.sha256,null);
+      assert.equal(document.bytes,null);
+      assert.equal(document.firstPreservedAt,null);
+    }
+  }
+  assert.doesNotMatch(JSON.stringify(library),/local-only|editorial preview|reporting handoff|downloads needing follow-up|acquisition failed|credential-blind|read-only IMAP/i);
+});
+
 test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and release-bound", {
   skip: process.env.BOHONEWS_PREVIEW === "1"
 }, async () => {

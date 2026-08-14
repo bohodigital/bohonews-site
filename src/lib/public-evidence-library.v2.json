@@ -1,0 +1,4546 @@
+{
+  "schemaVersion": "bohonews.public-evidence-library.v2",
+  "updatedAt": "2026-08-14T05:28:48.136Z",
+  "documents": [
+    {
+      "documentId": "source:40bdab9ed8478fd915025711be7d73aca2a83a8a2c87c4dd09e5b7d549509bb2",
+      "displayName": "1975 Interlochen brochure in Gerald R. Ford Presidential Library materials",
+      "pages": 1,
+      "originalUrls": [
+        "https://www.fordlibrarymuseum.gov/library/document/0126/42219160.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.fordlibrarymuseum.gov/library/document/0126/42219160.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.fordlibrarymuseum.gov/sites/default/files/pdf_documents/library/document/0126/42219160.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "1975 Interlochen brochure in Gerald R. Ford Presidential Library materials",
+        "documentType": {
+          "id": "brochure-catalog",
+          "label": "Brochure or catalog"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": "1975-01-01T00:00:00Z",
+        "authors": [],
+        "institution": "Gerald R. Ford Presidential Library",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": "1975 brochure",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S10",
+          "citationIndex": 9
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:94d0d14b4a8dedf6401bacf6dba53e0c069a33472f38a86b3da10ce30e6983ce",
+      "displayName": "1975 Interlochen brochure in Gerald R. Ford Presidential Library materials",
+      "pages": 47,
+      "originalUrls": [
+        "https://www.fordlibrarymuseum.gov/library/document/0126/42219160.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.fordlibrarymuseum.gov/library/document/0126/42219160.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.fordlibrarymuseum.gov/sites/default/files/pdf_documents/library/document/0126/42219160.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "1975 Interlochen brochure in Gerald R. Ford Presidential Library materials",
+        "documentType": {
+          "id": "brochure-catalog",
+          "label": "Brochure or catalog"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "1975-01-01T00:00:00Z",
+        "authors": [],
+        "institution": "Gerald R. Ford Presidential Library",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": "1975 brochure",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "citations[9].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "s10",
+          "citationIndex": 9
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:9e54570ae2f2a49850e68d10a0e83a7887d4e583440f4d42641c45a7945befdd",
+      "displayName": "2016 withdrawal of kratom temporary-scheduling notice",
+      "pages": 3,
+      "originalUrls": [
+        "https://www.federalregister.gov/documents/2016/10/13/2016-24659/withdrawal-of-notice-of-intent-to-temporarily-place-mitragynine-and-7-hydroxymitragynine-into"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.federalregister.gov/documents/2016/10/13/2016-24659/withdrawal-of-notice-of-intent-to-temporarily-place-mitragynine-and-7-hydroxymitragynine-into",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://unblock.federalregister.gov/",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "2016 withdrawal of kratom temporary-scheduling notice",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2016-10-13T00:00:00Z",
+        "authors": [],
+        "institution": "Drug Enforcement Administration",
+        "publicationName": null,
+        "documentNumber": "2016-24659",
+        "edition": "Vol. 81, No. 198",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "dea-7-oh-schedule-i-threshold-action-guide",
+          "articleHeadline": "DEA Could Put Concentrated 7-OH in Schedule I Within Days. Here’s What the Record Shows",
+          "sourceId": "source-dea-2016-withdrawal",
+          "citationIndex": 9
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/dea-2016-kratom-scheduling-withdrawal.pdf",
+      "sha256": "9e54570ae2f2a49850e68d10a0e83a7887d4e583440f4d42641c45a7945befdd",
+      "bytes": 227897,
+      "firstPreservedAt": "2026-08-14T04:46:04.432Z"
+    },
+    {
+      "documentId": "source:b7455c0c3e089a0bf2738ec549f29884c59d94041dd201b2ef469af4a1f06d45",
+      "displayName": "2020-2024MY Telluride Front Power Seats — Basis of Safety Defect Determination",
+      "pages": 2,
+      "originalUrls": [
+        "https://static.nhtsa.gov/odi/rcl/2026/RCHRN-26V430-7964.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://static.nhtsa.gov/odi/rcl/2026/RCHRN-26V430-7964.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://static.nhtsa.gov/odi/rcl/2026/RCHRN-26V430-7964.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "2020-2024MY Telluride Front Power Seats — Basis of Safety Defect Determination",
+        "documentType": {
+          "id": "official-statement",
+          "label": "Official statement"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-02T18:20:33Z",
+        "authors": [
+          "hmc"
+        ],
+        "institution": "Kia America / National Highway Traffic Safety Administration",
+        "publicationName": null,
+        "documentNumber": "26V430",
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "kia-telluride-seat-motor-fire-recall-26v430",
+          "articleHeadline": "Kia Telluride Owners Told to Park Outside—Again—Before a New Seat-Motor Fix",
+          "sourceId": "bodyBlocks[10].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "kia-telluride-seat-motor-fire-recall-26v430",
+          "articleHeadline": "Kia Telluride Owners Told to Park Outside—Again—Before a New Seat-Motor Fix",
+          "sourceId": "bodyBlocks[5].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "kia-telluride-seat-motor-fire-recall-26v430",
+          "articleHeadline": "Kia Telluride Owners Told to Park Outside—Again—Before a New Seat-Motor Fix",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "kia-telluride-seat-motor-fire-recall-26v430",
+          "articleHeadline": "Kia Telluride Owners Told to Park Outside—Again—Before a New Seat-Motor Fix",
+          "sourceId": "source-nhtsa-kia-26v430-defect-chronology",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:183fdaf2fbcd182a4f0967bb2656363aa72446f2a814f67bd3809723d5959434",
+      "displayName": "7-Hydroxymitragynine: Scientific data and toxicological assessment",
+      "pages": 24,
+      "originalUrls": [
+        "https://www.fda.gov/media/187899/download?attachment="
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.fda.gov/media/187899/download?attachment=",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.fda.gov/media/187899/download?attachment=",
+          "comparison": "exact-match"
+        }
+      ],
+      "metadata": {
+        "title": "7-Hydroxymitragynine: Scientific data and toxicological assessment",
+        "documentType": {
+          "id": "research-report",
+          "label": "Research or technical report"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2025-07-29T00:00:00Z",
+        "authors": [
+          "FDA"
+        ],
+        "institution": "Food and Drug Administration",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "dea-7-oh-schedule-i-threshold-action-guide",
+          "articleHeadline": "DEA Could Put Concentrated 7-OH in Schedule I Within Days. Here’s What the Record Shows",
+          "sourceId": "source-fda-7oh-assessment",
+          "citationIndex": 6
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/fda-7oh-scientific-assessment.pdf",
+      "sha256": "183fdaf2fbcd182a4f0967bb2656363aa72446f2a814f67bd3809723d5959434",
+      "bytes": 649344,
+      "firstPreservedAt": "2026-08-14T04:46:04.422Z"
+    },
+    {
+      "documentId": "source:6ae0a0a2fa4cc58185cd4dec5157eae0e2a1cb597916e584ce8e8aeb12299b70",
+      "displayName": "Artistic Paradise: Interlochen offers future virtuosos new avenues of expression",
+      "pages": 3,
+      "originalUrls": [
+        "https://digital.bentley.umich.edu/djnews/djn.1987.08.14.001/24"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://digital.bentley.umich.edu/djnews/djn.1987.08.14.001/24",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": false,
+          "status": null,
+          "finalUrl": "https://digital.bentley.umich.edu/djnews/djn.1987.08.14.001/24",
+          "comparison": "unavailable"
+        }
+      ],
+      "metadata": {
+        "title": "Artistic Paradise: Interlochen offers future virtuosos new avenues of expression",
+        "documentType": {
+          "id": "newspaper-article",
+          "label": "Newspaper article"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": "1987-08-14T00:00:00Z",
+        "authors": [],
+        "institution": "Detroit Jewish News / Bentley Historical Library",
+        "publicationName": "Detroit Jewish News",
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S18",
+          "citationIndex": 17
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:e52fffd08212414981d746d8326705fdd9c3b716e8cc5811a2882a9be0ee3b9f",
+      "displayName": "Coal beneath Federal lands in the United States—Mines, reserves, and resources",
+      "pages": 26,
+      "originalUrls": [
+        "https://pubs.usgs.gov/circ/1570/cir1570.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://pubs.usgs.gov/circ/1570/cir1570.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://pubs.usgs.gov/circ/1570/cir1570.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Coal beneath Federal lands in the United States—Mines, reserves, and resources",
+        "documentType": {
+          "id": "government-report",
+          "label": "Government report or audit"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-23T15:25:00Z",
+        "authors": [
+          "Brian N. Shaffer; Michelle N. Johnston; and Scott A. Kinney"
+        ],
+        "institution": "U.S. Geological Survey",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "usgs-federal-coal-resources-reserves-2026",
+          "articleHeadline": "USGS Finds 356 Billion Tons of Federal Coal—But 4.2 Billion in Reserves",
+          "sourceId": "bodyBlocks[3].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "usgs-federal-coal-resources-reserves-2026",
+          "articleHeadline": "USGS Finds 356 Billion Tons of Federal Coal—But 4.2 Billion in Reserves",
+          "sourceId": "bodyBlocks[7].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "usgs-federal-coal-resources-reserves-2026",
+          "articleHeadline": "USGS Finds 356 Billion Tons of Federal Coal—But 4.2 Billion in Reserves",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "usgs-federal-coal-resources-reserves-2026",
+          "articleHeadline": "USGS Finds 356 Billion Tons of Federal Coal—But 4.2 Billion in Reserves",
+          "sourceId": "source-usgs-circular-1570-federal-coal-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:4788adc079fc4748a21aa31580842148d5ef6e7a8265884ec899c3896671da01",
+      "displayName": "Complaint for Permanent Injunction, Monetary Judgment, and Other Relief",
+      "pages": 39,
+      "originalUrls": [
+        "https://www.ftc.gov/system/files/ftc_gov/pdf/2323086-Complaint-Hopper.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2323086-Complaint-Hopper.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.ftc.gov/system/files/ftc_gov/pdf/2323086-Complaint-Hopper.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Complaint for Permanent Injunction, Monetary Judgment, and Other Relief",
+        "documentType": {
+          "id": "court-filing",
+          "label": "Court filing"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-02T12:00:00Z",
+        "authors": [
+          "Mandel, Karen; Mandel; Karen"
+        ],
+        "institution": "Federal Trade Commission",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "hopper-ftc-35-million-hidden-fees-settlement-2026",
+          "articleHeadline": "Hopper Agreed to Pay $35 Million in FTC Hidden-Fee Case",
+          "sourceId": "bodyBlocks[6].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "hopper-ftc-35-million-hidden-fees-settlement-2026",
+          "articleHeadline": "Hopper Agreed to Pay $35 Million in FTC Hidden-Fee Case",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "hopper-ftc-35-million-hidden-fees-settlement-2026",
+          "articleHeadline": "Hopper Agreed to Pay $35 Million in FTC Hidden-Fee Case",
+          "sourceId": "source-ftc-hopper-complaint-20260702",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:3766289f8181c94772a47aca16b092fcbbbc15a9e537d64226e5b42bd68868bf",
+      "displayName": "Congressional Record — Griffin introduction",
+      "pages": 1,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt1/pdf/GPO-CRECB-1968-pt1-4-2.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt1/pdf/GPO-CRECB-1968-pt1-4-2.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt1/pdf/GPO-CRECB-1968-pt1-4-2.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Congressional Record — Griffin introduction",
+        "documentType": {
+          "id": "legislative-record",
+          "label": "Legislative record"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": "1968-01-18T00:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": "Congressional Record",
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S6",
+          "citationIndex": 5
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:e1914bbc8f6c40dc260712c41bb2ec73a3f764ccaf23e538f7654a857928f277",
+      "displayName": "Congressional Record — Griffin introduction",
+      "pages": 147,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt1/pdf/GPO-CRECB-1968-pt1-4-2.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt1/pdf/GPO-CRECB-1968-pt1-4-2.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1968-pt1/pdf/GPO-CRECB-1968-pt1-4-2.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Congressional Record — Griffin introduction",
+        "documentType": {
+          "id": "legislative-record",
+          "label": "Legislative record"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "1968-01-18T00:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": "Congressional Record",
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "citations[5].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "s6",
+          "citationIndex": 5
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:4669f50c2913df8cb3020c686c18eff1053582c2437bd5224be6c69b66fd743e",
+      "displayName": "Congressional Record — Hart introduction",
+      "pages": 2,
+      "originalUrls": [
+        "https://www.govinfo.gov/app/details/GPO-CRECB-1968-pt1"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/app/details/GPO-CRECB-1968-pt1",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/app/details/GPO-CRECB-1968-pt1",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Congressional Record — Hart introduction",
+        "documentType": {
+          "id": "legislative-record",
+          "label": "Legislative record"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": "1968-01-23T00:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": "Congressional Record",
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S7",
+          "citationIndex": 6
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:dc0bca08e30bb7a57eaabea6eb40ae046ae695d731376ef56930e35ffa745de9",
+      "displayName": "Department of Justice Report: Criminal Regulatory Offenses",
+      "pages": 3,
+      "originalUrls": [
+        "https://www.justice.gov/olp/media/1439121/dl?inline="
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.justice.gov/olp/media/1439121/dl?inline=",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.justice.gov/olp/media/1439121/dl?inline=",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Department of Justice Report: Criminal Regulatory Offenses",
+        "documentType": {
+          "id": "government-report",
+          "label": "Government report or audit"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-04-28T12:00:00Z",
+        "authors": [
+          "U.S. Department of Justice"
+        ],
+        "institution": "U.S. Department of Justice, Office of Legal Policy",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "doj-inventory-62-criminal-regulatory-offenses-2026",
+          "articleHeadline": "Justice Department Inventory Identifies 62 Criminal Regulatory Offenses",
+          "sourceId": "source-doj-criminal-regulatory-offenses-20260428",
+          "citationIndex": 0
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:afe6c677077bd003033aaa71ed348091e80ff9561ffe934608ed895e2d5a2b24",
+      "displayName": "Dichlorobenzene draft risk evaluations, official PDF",
+      "pages": 4,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16263.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16263.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16263.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Dichlorobenzene draft risk evaluations, official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16263",
+        "edition": "Vol. 91, No. 152",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "epa-dichlorobenzene-draft-risk-evaluations-2026",
+          "articleHeadline": "EPA Drafts New Risk Findings for Two Dichlorobenzene Chemicals",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "epa-dichlorobenzene-draft-risk-evaluations-2026",
+          "articleHeadline": "EPA Drafts New Risk Findings for Two Dichlorobenzene Chemicals",
+          "sourceId": "source-govinfo-epa-dichlorobenzene-draft-risks-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:f3ee3a29a068c0797e408b3515877febb55da9f2f6bce0ad801f6ad31d4088aa",
+      "displayName": "Digital breast tomosynthesis reclassification proposal, official PDF",
+      "pages": 11,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16209.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16209.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16209.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Digital breast tomosynthesis reclassification proposal, official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16209",
+        "edition": "Vol. 91, No. 152",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "fda-digital-breast-tomosynthesis-class-ii-proposal-2026",
+          "articleHeadline": "FDA Proposes Class II Path for 3D Breast Scans",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "fda-digital-breast-tomosynthesis-class-ii-proposal-2026",
+          "articleHeadline": "FDA Proposes Class II Path for 3D Breast Scans",
+          "sourceId": "source-govinfo-fda-dbt-reclassification-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:3110fc0f460b580e59d0f96ee46b53f70dbbd35191d316732d25a6988f88b2c2",
+      "displayName": "Employment Cost Index - June 2026",
+      "pages": 21,
+      "originalUrls": [
+        "https://www.bls.gov/news.release/eci.nr0.htm"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.bls.gov/news.release/eci.nr0.htm",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.bls.gov/news.release/eci.nr0.htm",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Employment Cost Index - June 2026",
+        "documentType": {
+          "id": "statistical-release",
+          "label": "Statistical release"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-31T12:30:00Z",
+        "authors": [],
+        "institution": "U.S. Bureau of Labor Statistics",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "employer-compensation-costs-june-2026",
+          "articleHeadline": "Employer compensation rose 3.4% as benefit costs outpaced wages",
+          "sourceId": "source-bls-eci-june-2026",
+          "citationIndex": 0
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/bls-employment-cost-index-june-2026.pdf",
+      "sha256": "3110fc0f460b580e59d0f96ee46b53f70dbbd35191d316732d25a6988f88b2c2",
+      "bytes": 1307389,
+      "firstPreservedAt": "2026-08-14T04:46:04.323Z"
+    },
+    {
+      "documentId": "source:fd8aeae241739c2123af213591ae3ffa919174238e357af3412165335b2cc252",
+      "displayName": "English-language proficiency out-of-service proposal, official PDF",
+      "pages": 10,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16288.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16288.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16288.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "English-language proficiency out-of-service proposal, official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16288",
+        "edition": "Vol. 91, No. 152",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "fmcsa-english-proficiency-out-of-service-proposal-2026",
+          "articleHeadline": "FMCSA Proposes English-Proficiency Out-of-Service Rule",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "fmcsa-english-proficiency-out-of-service-proposal-2026",
+          "articleHeadline": "FMCSA Proposes English-Proficiency Out-of-Service Rule",
+          "sourceId": "source-govinfo-fmcsa-elp-oos-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:16b4325c0818abaccd3d7ea62e0e689a706548e18b1e553e0e8602d5d80d1941",
+      "displayName": "Equal Access to Justice Act: Use at Selected Labor and Employment Agencies",
+      "pages": 9,
+      "originalUrls": [
+        "https://www.gao.gov/products/gao-26-108644"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-108644",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.gao.gov/products/gao-26-108644",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Equal Access to Justice Act: Use at Selected Labor and Employment Agencies",
+        "documentType": {
+          "id": "government-report",
+          "label": "Government report or audit"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-15T00:00:00Z",
+        "authors": [
+          "U.S. Government Accountability Office, http://www.gao.gov"
+        ],
+        "institution": "U.S. Government Accountability Office",
+        "publicationName": null,
+        "documentNumber": "gao-26-108644",
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "gao-legal-fee-awards-labor-agencies",
+          "articleHeadline": "GAO finds 22 legal-fee awards at Labor Department and NLRB, none at EEOC",
+          "sourceId": "source-gao-26-108644-eaja-awards",
+          "citationIndex": 0
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/gao-26-108644-eaja-awards.pdf",
+      "sha256": "16b4325c0818abaccd3d7ea62e0e689a706548e18b1e553e0e8602d5d80d1941",
+      "bytes": 208924,
+      "firstPreservedAt": "2026-08-14T04:46:04.311Z"
+    },
+    {
+      "documentId": "source:6c33cb357e56c7ff21102a8131f5f979e18798c030a4d49a4859d16c961f56bc",
+      "displayName": "Evaluation of the Effectiveness of U-M's Summer Counselor Education Program",
+      "pages": 2,
+      "originalUrls": [
+        "https://deepblue.lib.umich.edu/items/c0450364-90a0-4c2f-a09c-202282a2241d"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://deepblue.lib.umich.edu/items/c0450364-90a0-4c2f-a09c-202282a2241d",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": false,
+          "status": null,
+          "finalUrl": "https://deepblue.lib.umich.edu/items/c0450364-90a0-4c2f-a09c-202282a2241d",
+          "comparison": "unavailable"
+        }
+      ],
+      "metadata": {
+        "title": "Evaluation of the Effectiveness of U-M's Summer Counselor Education Program",
+        "documentType": {
+          "id": "research-report",
+          "label": "Research or technical report"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": "1960-01-01T00:00:00Z",
+        "authors": [],
+        "institution": "University of Michigan Deep Blue",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": "1960 dissertation",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S9",
+          "citationIndex": 8
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:afea5d307fd8ad8ed72832ffa688648efc9ac7f07e6288de04b7691cf18b372b",
+      "displayName": "FEC: 2026 congressional primary calendar",
+      "pages": 4,
+      "originalUrls": [
+        "https://www.fec.gov/resources/cms-content/documents/2026pdates.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.fec.gov/resources/cms-content/documents/2026pdates.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.fec.gov/resources/cms-content/documents/2026pdates.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "FEC: 2026 congressional primary calendar",
+        "documentType": {
+          "id": "guidance-reference",
+          "label": "Guidance or reference"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-05-18T14:20:31Z",
+        "authors": [
+          "FEC"
+        ],
+        "institution": "Federal Election Commission",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "fragmented-election-data",
+          "articleHeadline": "We Tried to Collect Every 2026 Primary Result. Here Is Why That Is So Hard",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "fragmented-election-data",
+          "articleHeadline": "We Tried to Collect Every 2026 Primary Result. Here Is Why That Is So Hard",
+          "sourceId": "source-fragmented-election-data-1",
+          "citationIndex": 0
+        },
+        {
+          "articleSlug": "runoffs",
+          "articleHeadline": "The Primary Was Not the Final Word: Why Runoffs Keep Deciding Nominees",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "runoffs",
+          "articleHeadline": "The Primary Was Not the Final Word: Why Runoffs Keep Deciding Nominees",
+          "sourceId": "source-runoffs-1",
+          "citationIndex": 0
+        },
+        {
+          "articleSlug": "senate-field",
+          "articleHeadline": "The 2026 Senate Field Is Taking Shape. These Primaries Changed the Map",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "senate-field",
+          "articleHeadline": "The 2026 Senate Field Is Taking Shape. These Primaries Changed the Map",
+          "sourceId": "source-senate-field-1",
+          "citationIndex": 0
+        },
+        {
+          "articleSlug": "where-the-primaries-stand",
+          "articleHeadline": "The 2026 Primaries So Far: Who Won, What Changed and What Is Left",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "where-the-primaries-stand",
+          "articleHeadline": "The 2026 Primaries So Far: Who Won, What Changed and What Is Left",
+          "sourceId": "source-where-the-primaries-stand-1",
+          "citationIndex": 0
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:9048c68e505c845e91cc623f52740e263f984311b78b4b16e131e1e2753d5945",
+      "displayName": "Federal grand-jury subpoena to Interlochen",
+      "pages": 4,
+      "originalUrls": [
+        "https://bohonews.com/evidence/interlochen/e0014-grand-jury-subpoena.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://bohonews.com/evidence/interlochen/e0014-grand-jury-subpoena.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://bohonews.com/evidence/interlochen/e0014-grand-jury-subpoena.pdf",
+          "comparison": "exact-match"
+        }
+      ],
+      "metadata": {
+        "title": "Federal grand-jury subpoena to Interlochen",
+        "documentType": {
+          "id": "court-filing",
+          "label": "Court filing"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2020-02-06T00:00:00Z",
+        "authors": [],
+        "institution": "U.S. Department of Justice / U.S. District Court",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": "Grand-jury subpoena",
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-abuse-investigation-report-findings",
+          "articleHeadline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+          "sourceId": "bodyBlocks[139].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "interlochen-abuse-investigation-report-findings",
+          "articleHeadline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+          "sourceId": "citations[3].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "interlochen-abuse-investigation-report-findings",
+          "articleHeadline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+          "sourceId": "E0014",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "interlochen-abuse-investigation-report-findings",
+          "articleHeadline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+          "sourceId": "source-interlochen-e0014",
+          "citationIndex": 3
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/interlochen/e0014-grand-jury-subpoena.pdf",
+      "sha256": "9048c68e505c845e91cc623f52740e263f984311b78b4b16e131e1e2753d5945",
+      "bytes": 268106,
+      "firstPreservedAt": "2026-08-14T04:46:04.220Z"
+    },
+    {
+      "documentId": "source:36315c0b07199be483ed3297028e48bfd599f7a1110a6650d93cabe83fb8e609",
+      "displayName": "FIFA Code of Ethics, 2023 edition",
+      "pages": 47,
+      "originalUrls": [
+        "https://digitalhub.fifa.com/m/4f048486c1f7293c/original/FIFA-Code-of-Ethics-2023.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://digitalhub.fifa.com/m/4f048486c1f7293c/original/FIFA-Code-of-Ethics-2023.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://digitalhub.fifa.com/m/4f048486c1f7293c/original/FIFA-Code-of-Ethics-2023.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "FIFA Code of Ethics, 2023 edition",
+        "documentType": {
+          "id": "guidance-reference",
+          "label": "Guidance or reference"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2023-01-01T00:00:00Z",
+        "authors": [],
+        "institution": "FIFA",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": "2023 edition",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "fifa-4-2-billion-world-cup-sale-collapse",
+          "articleHeadline": "The $4.2 Billion Vote: How FIFA’s World Cup Sell-Off Collapsed in 80 Hours",
+          "sourceId": "citations[13].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "fifa-4-2-billion-world-cup-sale-collapse",
+          "articleHeadline": "The $4.2 Billion Vote: How FIFA’s World Cup Sell-Off Collapsed in 80 Hours",
+          "sourceId": "source-fifa-ethics-code",
+          "citationIndex": 13
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:9b0ce1cd5bc1dd249d49fdd002db90192188efec4e7046f15a5ca4d595386dc6",
+      "displayName": "FLSA2026-10: Pages, scheduling calls and travel to a first client appointment",
+      "pages": 12,
+      "originalUrls": [
+        "https://www.dol.gov/sites/dolgov/files/WHD/opinion-letters/FLSA/FLSA2026-10.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.dol.gov/sites/dolgov/files/WHD/opinion-letters/FLSA/FLSA2026-10.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.dol.gov/sites/dolgov/files/WHD/opinion-letters/FLSA/FLSA2026-10.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "FLSA2026-10: Pages, scheduling calls and travel to a first client appointment",
+        "documentType": {
+          "id": "guidance-reference",
+          "label": "Guidance or reference"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-22T12:00:00Z",
+        "authors": [
+          "Wage and Hour Division"
+        ],
+        "institution": "U.S. Department of Labor, Wage and Hour Division",
+        "publicationName": null,
+        "documentNumber": "FLSA2026-10",
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "dol-opinion-letters-remote-work-commute-2026",
+          "articleHeadline": "Labor Department Defines When Hybrid-Work Travel Is Paid",
+          "sourceId": "bodyBlocks[7].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "dol-opinion-letters-remote-work-commute-2026",
+          "articleHeadline": "Labor Department Defines When Hybrid-Work Travel Is Paid",
+          "sourceId": "citations[2].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "dol-opinion-letters-remote-work-commute-2026",
+          "articleHeadline": "Labor Department Defines When Hybrid-Work Travel Is Paid",
+          "sourceId": "source-dol-flsa2026-10",
+          "citationIndex": 2
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:f167cde5a97f2b2716fc330d2c25d3882e4c0d8c312dd5a6d38c4499ebd0a9a3",
+      "displayName": "FLSA2026-9: Mid-day travel between an employee’s home and work office",
+      "pages": 18,
+      "originalUrls": [
+        "https://www.dol.gov/sites/dolgov/files/WHD/opinion-letters/FLSA/FLSA2026-9.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.dol.gov/sites/dolgov/files/WHD/opinion-letters/FLSA/FLSA2026-9.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.dol.gov/sites/dolgov/files/WHD/opinion-letters/FLSA/FLSA2026-9.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "FLSA2026-9: Mid-day travel between an employee’s home and work office",
+        "documentType": {
+          "id": "guidance-reference",
+          "label": "Guidance or reference"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-22T12:00:00Z",
+        "authors": [
+          "Wage and Hour Division"
+        ],
+        "institution": "U.S. Department of Labor, Wage and Hour Division",
+        "publicationName": null,
+        "documentNumber": "FLSA2026-9",
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "dol-opinion-letters-remote-work-commute-2026",
+          "articleHeadline": "Labor Department Defines When Hybrid-Work Travel Is Paid",
+          "sourceId": "bodyBlocks[3].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "dol-opinion-letters-remote-work-commute-2026",
+          "articleHeadline": "Labor Department Defines When Hybrid-Work Travel Is Paid",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "dol-opinion-letters-remote-work-commute-2026",
+          "articleHeadline": "Labor Department Defines When Hybrid-Work Travel Is Paid",
+          "sourceId": "source-dol-flsa2026-9",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:f2938d344ed8b658cb4bd349016db8ef8b8c85c7b69708f68a14fce713c098fd",
+      "displayName": "GDP (Advance Estimate), Second Quarter 2026",
+      "pages": 6,
+      "originalUrls": [
+        "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+        "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+          "comparison": "unchanged"
+        },
+        {
+          "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "GDP (Advance Estimate), Second Quarter 2026",
+        "documentType": {
+          "id": "statistical-release",
+          "label": "Statistical release"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-30T12:30:00Z",
+        "authors": [
+          "Crawford, Marissa - Federal"
+        ],
+        "institution": "U.S. Bureau of Economic Analysis",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "us-gdp-growth-slows-q2-2026",
+          "articleHeadline": "U.S. GDP growth slowed to 1.5% as consumer spending rebounded",
+          "sourceId": "source-bea-gdp-q2-2026-advance",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "us-gdp-growth-slows-q2-2026",
+          "articleHeadline": "U.S. GDP growth slowed to 1.5% as consumer spending rebounded",
+          "sourceId": "source-bea-gdp-q2-2026-advance-estimate",
+          "citationIndex": 0
+        },
+        {
+          "articleSlug": "us-gdp-growth-slows-second-quarter-2026-advance-estimate",
+          "articleHeadline": "U.S. economic growth slowed to 1.5% in the second quarter, advance estimate shows",
+          "sourceId": "source-bea-gdp-q2-2026-advance",
+          "citationIndex": 0
+        },
+        {
+          "articleSlug": "us-gdp-growth-slows-second-quarter-2026-advance-estimate",
+          "articleHeadline": "U.S. economic growth slowed to 1.5% in the second quarter, advance estimate shows",
+          "sourceId": "source-bea-gdp-q2-2026-advance-estimate",
+          "citationIndex": null
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/bea-gdp-q2-2026-advance.pdf",
+      "sha256": "f2938d344ed8b658cb4bd349016db8ef8b8c85c7b69708f68a14fce713c098fd",
+      "bytes": 425337,
+      "firstPreservedAt": "2026-08-14T04:46:04.368Z"
+    },
+    {
+      "documentId": "source:07add6e2de143942d65a4f69c4bb16e1119cdedf72ae0368c390b52fbb81c3b0",
+      "displayName": "General Requirements Bulletin for Admission to the Examination for Registration to Practice in Patent Cases",
+      "pages": 34,
+      "originalUrls": [
+        "https://www.uspto.gov/sites/default/files/documents/OED_GRB.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.uspto.gov/sites/default/files/documents/OED_GRB.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.uspto.gov/sites/default/files/documents/OED_GRB.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "General Requirements Bulletin for Admission to the Examination for Registration to Practice in Patent Cases",
+        "documentType": {
+          "id": "bulletin-register",
+          "label": "Bulletin or register"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-11T12:00:00Z",
+        "authors": [
+          "USPTO"
+        ],
+        "institution": "U.S. Patent and Trademark Office",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "biomedical-science-patent-bar-category-a-eligibility-2026",
+          "articleHeadline": "Biomedical Science Joins Patent-Bar Degree List",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "biomedical-science-patent-bar-category-a-eligibility-2026",
+          "articleHeadline": "Biomedical Science Joins Patent-Bar Degree List",
+          "sourceId": "source-uspto-general-requirements-bulletin-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:6cb4fa1c9774def2aa8e8d01db1f5cf3872574e531287f566e035ab76fe800a2",
+      "displayName": "Grand-jury exhibit bundle EFTA00008716",
+      "pages": 28,
+      "originalUrls": [
+        "https://www.justice.gov/epstein/files/DataSet%206/EFTA00008716.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.justice.gov/epstein/files/DataSet%206/EFTA00008716.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": false,
+          "status": null,
+          "finalUrl": "https://www.justice.gov/epstein/files/DataSet%206/EFTA00008716.pdf",
+          "comparison": "unavailable"
+        }
+      ],
+      "metadata": {
+        "title": "Grand-jury exhibit bundle EFTA00008716",
+        "documentType": {
+          "id": "legal-exhibit",
+          "label": "Legal exhibit"
+        },
+        "contentForm": "Full document",
+        "publishedAt": null,
+        "authors": [],
+        "institution": "www.justice.gov",
+        "publicationName": null,
+        "documentNumber": "EFTA00008716",
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-abuse-investigation-report-findings",
+          "articleHeadline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+          "sourceId": "bodyBlocks[137].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "interlochen-abuse-investigation-report-findings",
+          "articleHeadline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+          "sourceId": "E0020",
+          "citationIndex": null
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/interlochen/e0020-grand-jury-exhibit-bundle.pdf",
+      "sha256": "6cb4fa1c9774def2aa8e8d01db1f5cf3872574e531287f566e035ab76fe800a2",
+      "bytes": 3439940,
+      "firstPreservedAt": "2026-08-14T04:46:04.235Z"
+    },
+    {
+      "documentId": "sha256:363eb7940027b65b0d528bd248c529c96381ae22cdfee30b6f1dfe96c6fd8325",
+      "displayName": "H. Con. Res. 89 as passed by the House",
+      "pages": 4,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/BILLS-119hconres89eh/pdf/BILLS-119hconres89eh.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/BILLS-119hconres89eh/pdf/BILLS-119hconres89eh.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/BILLS-119hconres89eh/pdf/BILLS-119hconres89eh.pdf",
+          "comparison": "exact-match"
+        }
+      ],
+      "metadata": {
+        "title": "H. Con. Res. 89 as passed by the House",
+        "documentType": {
+          "id": "law-bill-resolution",
+          "label": "Law, bill or resolution"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-23T12:00:00Z",
+        "authors": [],
+        "institution": "GovInfo",
+        "publicationName": null,
+        "documentNumber": "H. Con. Res. 89",
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "house-iran-war-powers-vote-214-208",
+          "articleHeadline": "House passes Iran war-powers resolution; Senate blocks separate measure hours later",
+          "sourceId": "citations[2].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "house-iran-war-powers-vote-214-208",
+          "articleHeadline": "House passes Iran war-powers resolution; Senate blocks separate measure hours later",
+          "sourceId": "hconres89",
+          "citationIndex": 2
+        },
+        {
+          "articleSlug": "what-house-iran-war-powers-vote-can-do",
+          "articleHeadline": "What Congress’s Iran war-powers votes can - and cannot - do",
+          "sourceId": "citations[2].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "what-house-iran-war-powers-vote-can-do",
+          "articleHeadline": "What Congress’s Iran war-powers votes can - and cannot - do",
+          "sourceId": "hconres89",
+          "citationIndex": 2
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/house-concurrent-resolution-89.pdf",
+      "sha256": "363eb7940027b65b0d528bd248c529c96381ae22cdfee30b6f1dfe96c6fd8325",
+      "bytes": 118306,
+      "firstPreservedAt": "2026-08-14T04:46:04.442Z"
+    },
+    {
+      "documentId": "source:79cd7531138bcead6eb39f29374f1c814e9ee4e3ca9db1ec62e6a69f09f0ed25",
+      "displayName": "Interlochen Means Music in Northwest Michigan Woods",
+      "pages": 2,
+      "originalUrls": [
+        "https://archive.org/details/charlevoix-county-press-1989-07-12"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://archive.org/details/charlevoix-county-press-1989-07-12",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": false,
+          "status": null,
+          "finalUrl": "https://archive.org/details/charlevoix-county-press-1989-07-12",
+          "comparison": "unavailable"
+        }
+      ],
+      "metadata": {
+        "title": "Interlochen Means Music in Northwest Michigan Woods",
+        "documentType": {
+          "id": "newspaper-article",
+          "label": "Newspaper article"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": "1989-07-12T00:00:00Z",
+        "authors": [],
+        "institution": "Charlevoix County Press / Internet Archive",
+        "publicationName": "Charlevoix County Press",
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S19",
+          "citationIndex": 18
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:211df5ef77874be6ec06982f26acb5395e3ea32f2ad54c2e07183184598c74a6",
+      "displayName": "Investigation 337-TA-1454 public-interest notice official PDF",
+      "pages": 2,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16363.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16363.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16363.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Investigation 337-TA-1454 public-interest notice official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-11T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16363",
+        "edition": "Vol. 91, No. 153",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "usitc-asus-plume-wifi-import-relief-comments-2026",
+          "articleHeadline": "USITC Seeks Comment on Wi-Fi Import Relief",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "usitc-asus-plume-wifi-import-relief-comments-2026",
+          "articleHeadline": "USITC Seeks Comment on Wi-Fi Import Relief",
+          "sourceId": "source-govinfo-usitc-wifi-337-ta-1454-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:cf2181690504284485ffaf80ce98b9e63534191be5be00b8d89cde206d5e9825",
+      "displayName": "Investigation Report: External Investigation of Historical Abuse",
+      "pages": 97,
+      "originalUrls": [
+        "https://bohonews.com/evidence/interlochen/sanghavi-report.pdf",
+        "https://interlochencdn.org/files/Investigation-Report-External-Investigation-of-Historical-Abuse-.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://bohonews.com/evidence/interlochen/sanghavi-report.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://bohonews.com/evidence/interlochen/sanghavi-report.pdf",
+          "comparison": "exact-match"
+        },
+        {
+          "url": "https://interlochencdn.org/files/Investigation-Report-External-Investigation-of-Historical-Abuse-.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://interlochencdn.org/files/Investigation-Report-External-Investigation-of-Historical-Abuse-.pdf",
+          "comparison": "exact-match"
+        }
+      ],
+      "metadata": {
+        "title": "Investigation Report: External Investigation of Historical Abuse",
+        "documentType": {
+          "id": "investigation-report",
+          "label": "Investigation report"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-27T00:00:00Z",
+        "authors": [],
+        "institution": "Sanghavi Law Office / Interlochen Center for the Arts",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-abuse-investigation-report-findings",
+          "articleHeadline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "interlochen-abuse-investigation-report-findings",
+          "articleHeadline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+          "sourceId": "S1",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "interlochen-abuse-investigation-report-findings",
+          "articleHeadline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+          "sourceId": "source-interlochen-s1",
+          "citationIndex": 0
+        },
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "s1",
+          "citationIndex": 0
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/interlochen/sanghavi-report.pdf",
+      "sha256": "cf2181690504284485ffaf80ce98b9e63534191be5be00b8d89cde206d5e9825",
+      "bytes": 1084499,
+      "firstPreservedAt": "2026-08-14T04:46:04.205Z"
+    },
+    {
+      "documentId": "source:c2cc56d57a2f89fd2107617487c81fe023bcfe3782f0b169cff1868f14220c12",
+      "displayName": "Investigation Report: External Investigation of Historical Abuse",
+      "pages": 7,
+      "originalUrls": [
+        "https://interlochencdn.org/files/Investigation-Report-External-Investigation-of-Historical-Abuse-.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://interlochencdn.org/files/Investigation-Report-External-Investigation-of-Historical-Abuse-.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://interlochencdn.org/files/Investigation-Report-External-Investigation-of-Historical-Abuse-.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Investigation Report: External Investigation of Historical Abuse",
+        "documentType": {
+          "id": "investigation-report",
+          "label": "Investigation report"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": "2026-07-27T00:00:00Z",
+        "authors": [],
+        "institution": "Sanghavi Law Office / Interlochen Center for the Arts",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S1",
+          "citationIndex": 0
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:4fa9694be9b4a1396c76de2a6c1549992c545919e4033c1c3a144bee4ee9a62b",
+      "displayName": "Labor Market Experience, Education, Partner Status, and Health for Those Born 1980-1984",
+      "pages": 22,
+      "originalUrls": [
+        "https://www.bls.gov/news.release/nlsyth.htm"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.bls.gov/news.release/nlsyth.htm",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.bls.gov/news.release/nlsyth.htm",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Labor Market Experience, Education, Partner Status, and Health for Those Born 1980-1984",
+        "documentType": {
+          "id": "statistical-release",
+          "label": "Statistical release"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-05-05T14:00:00Z",
+        "authors": [],
+        "institution": "U.S. Bureau of Labor Statistics",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "work-training-americans-born-1980-1984",
+          "articleHeadline": "Nearly two-thirds of Americans born 1980–1984 received work training by age 38",
+          "sourceId": "source-bls-nlsy97-release-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/bls-nlsy97-work-training-2026.pdf",
+      "sha256": "4fa9694be9b4a1396c76de2a6c1549992c545919e4033c1c3a144bee4ee9a62b",
+      "bytes": 973796,
+      "firstPreservedAt": "2026-08-14T04:46:04.358Z"
+    },
+    {
+      "documentId": "sha256:2b013ca4f69c17240d28336a1b0170b59e7e5f6cbedb5b58ecbb5812fa5f11e4",
+      "displayName": "Maxwell trial Day 2, cited Interlochen excerpt (document pages 164-166)",
+      "pages": 3,
+      "originalUrls": [],
+      "sourceChecks": [],
+      "metadata": {
+        "title": "Maxwell trial Day 2, cited Interlochen excerpt (document pages 164-166)",
+        "documentType": {
+          "id": "court-transcript",
+          "label": "Court transcript"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": null,
+        "authors": [],
+        "institution": "U.S. District Court / Department of Justice disclosure corpus",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": "Trial day 2",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-abuse-investigation-report-findings",
+          "articleHeadline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+          "sourceId": "E0023",
+          "citationIndex": null
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/interlochen/e0023-maxwell-day-2-interlochen-excerpt.pdf",
+      "sha256": "2b013ca4f69c17240d28336a1b0170b59e7e5f6cbedb5b58ecbb5812fa5f11e4",
+      "bytes": 661077,
+      "firstPreservedAt": "2026-08-14T04:46:04.256Z"
+    },
+    {
+      "documentId": "sha256:dbd84ceb2ff70b20a4ce925e8755e46a435da6849c5f11bb1ad11277dae50360",
+      "displayName": "Maxwell trial Day 3, cited Interlochen excerpt (document pages 242-252)",
+      "pages": 11,
+      "originalUrls": [],
+      "sourceChecks": [],
+      "metadata": {
+        "title": "Maxwell trial Day 3, cited Interlochen excerpt (document pages 242-252)",
+        "documentType": {
+          "id": "court-transcript",
+          "label": "Court transcript"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": null,
+        "authors": [],
+        "institution": "U.S. District Court / Department of Justice disclosure corpus",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": "Trial day 3",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-abuse-investigation-report-findings",
+          "articleHeadline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+          "sourceId": "E0024",
+          "citationIndex": null
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/interlochen/e0024-maxwell-day-3-interlochen-excerpt.pdf",
+      "sha256": "dbd84ceb2ff70b20a4ce925e8755e46a435da6849c5f11bb1ad11277dae50360",
+      "bytes": 2454702,
+      "firstPreservedAt": "2026-08-14T04:46:04.281Z"
+    },
+    {
+      "documentId": "sha256:23594a5de0ba87389db524fe17f440ac5b043f22e4fac8504fda620830b6b7ea",
+      "displayName": "Maxwell trial Day 8, cited Interlochen excerpt (document pages 123-124)",
+      "pages": 2,
+      "originalUrls": [],
+      "sourceChecks": [],
+      "metadata": {
+        "title": "Maxwell trial Day 8, cited Interlochen excerpt (document pages 123-124)",
+        "documentType": {
+          "id": "court-transcript",
+          "label": "Court transcript"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": null,
+        "authors": [],
+        "institution": "U.S. District Court / Department of Justice disclosure corpus",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": "Trial day 8",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-abuse-investigation-report-findings",
+          "articleHeadline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+          "sourceId": "E0026",
+          "citationIndex": null
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/interlochen/e0026-maxwell-day-8-interlochen-excerpt.pdf",
+      "sha256": "23594a5de0ba87389db524fe17f440ac5b043f22e4fac8504fda620830b6b7ea",
+      "bytes": 441684,
+      "firstPreservedAt": "2026-08-14T04:46:04.296Z"
+    },
+    {
+      "documentId": "sha256:57c4a1e2b902044fe658c557dc556dda4c54a2a5f639ee61c88bc51db97c5a1c",
+      "displayName": "Metropolitan Area Employment and Unemployment - June 2026",
+      "pages": 24,
+      "originalUrls": [
+        "https://www.bls.gov/news.release/metro.nr0.htm"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.bls.gov/news.release/metro.nr0.htm",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.bls.gov/news.release/metro.nr0.htm",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Metropolitan Area Employment and Unemployment - June 2026",
+        "documentType": {
+          "id": "statistical-release",
+          "label": "Statistical release"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-29T14:00:00Z",
+        "authors": [],
+        "institution": "U.S. Bureau of Labor Statistics",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "metro-unemployment-payroll-growth-june-2026",
+          "articleHeadline": "Metro unemployment split nearly evenly in June as payroll growth stayed rare",
+          "sourceId": "source-bls-metro-employment-june-2026",
+          "citationIndex": 0
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/bls-metro-employment-june-2026.pdf",
+      "sha256": "57c4a1e2b902044fe658c557dc556dda4c54a2a5f639ee61c88bc51db97c5a1c",
+      "bytes": 16689988,
+      "firstPreservedAt": "2026-08-14T04:46:04.346Z"
+    },
+    {
+      "documentId": "source:48f2ce95a1c2fbfa26dd3a6488df05e719004c767767b9827c3e1a4379c389b8",
+      "displayName": "Michigan Register 1984-5",
+      "pages": 212,
+      "originalUrls": [
+        "https://cdm16110.contentdm.oclc.org/digital/collection/p16110coll2/id/147112/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://cdm16110.contentdm.oclc.org/digital/collection/p16110coll2/id/147112/",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://cdm16110.contentdm.oclc.org/digital/collection/p16110coll2/id/147112/",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Michigan Register 1984-5",
+        "documentType": {
+          "id": "bulletin-register",
+          "label": "Bulletin or register"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "1984-05-31T00:00:00Z",
+        "authors": [],
+        "institution": "Library of Michigan",
+        "publicationName": "Michigan Register",
+        "documentNumber": null,
+        "edition": "1984-5",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S17",
+          "citationIndex": 16
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:b75a1a18b0cfa796e30cd34e2d4582085451fdfb2cadd93dcc39d2a53d13f3ff",
+      "displayName": "Michigan Register 1984-5",
+      "pages": 4,
+      "originalUrls": [
+        "https://cdm16110.contentdm.oclc.org/digital/collection/p16110coll2/id/147112/"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://cdm16110.contentdm.oclc.org/digital/collection/p16110coll2/id/147112/",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://cdm16110.contentdm.oclc.org/digital/collection/p16110coll2/id/147112/",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Michigan Register 1984-5",
+        "documentType": {
+          "id": "bulletin-register",
+          "label": "Bulletin or register"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": "1984-05-31T00:00:00Z",
+        "authors": [],
+        "institution": "Library of Michigan",
+        "publicationName": "Michigan Register",
+        "documentNumber": null,
+        "edition": "1984-5",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S17",
+          "citationIndex": 16
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:7ba5161a75f3ecd2b8d442882bab539186662d34ae7b8d128cf4b00917392bed",
+      "displayName": "Military pilot trainee medical-certificate proposal, official PDF",
+      "pages": 6,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16272.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16272.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16272.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Military pilot trainee medical-certificate proposal, official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16272",
+        "edition": "Vol. 91, No. 152",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "faa-military-pilot-trainee-medical-certificate-proposal-2026",
+          "articleHeadline": "FAA Proposes Medical-Certificate Change for Military Pilot Trainees",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "faa-military-pilot-trainee-medical-certificate-proposal-2026",
+          "articleHeadline": "FAA Proposes Medical-Certificate Change for Military Pilot Trainees",
+          "sourceId": "source-govinfo-faa-military-trainee-medical-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:45893cfbc42c3bc7b234d2141f90a3102f697cf1a03b1e4531c5c8959957206b",
+      "displayName": "Monthly Construction Spending, June 2026",
+      "pages": 5,
+      "originalUrls": [
+        "https://www.census.gov/construction/c30/pdf/release.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.census.gov/construction/c30/pdf/release.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.census.gov/construction/c30/pdf/release.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Monthly Construction Spending, June 2026",
+        "documentType": {
+          "id": "statistical-release",
+          "label": "Statistical release"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-03T14:00:00Z",
+        "authors": [
+          "Joseph E Kafchinski"
+        ],
+        "institution": "U.S. Census Bureau",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "us-construction-spending-june-2026",
+          "articleHeadline": "U.S. Construction Spending Was Flat in June—and 3.2% Below a Year Earlier",
+          "sourceId": "bodyBlocks[11].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "us-construction-spending-june-2026",
+          "articleHeadline": "U.S. Construction Spending Was Flat in June—and 3.2% Below a Year Earlier",
+          "sourceId": "bodyBlocks[5].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "us-construction-spending-june-2026",
+          "articleHeadline": "U.S. Construction Spending Was Flat in June—and 3.2% Below a Year Earlier",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "us-construction-spending-june-2026",
+          "articleHeadline": "U.S. Construction Spending Was Flat in June—and 3.2% Below a Year Earlier",
+          "sourceId": "source-census-construction-june-2026",
+          "citationIndex": 0
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:3d9887a50877495e3a5bfdb097d3f0074dc330f021b89d05b2af98e6d6ea0be8",
+      "displayName": "New Hampshire inspection-and-maintenance air-plan proposal, official PDF",
+      "pages": 5,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16330.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16330.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16330.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "New Hampshire inspection-and-maintenance air-plan proposal, official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-11T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16330",
+        "edition": "Vol. 91, No. 153",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "epa-new-hampshire-emissions-inspection-plan-proposal-2026",
+          "articleHeadline": "EPA Sets Conditions for New Hampshire Emissions-Test Change",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "epa-new-hampshire-emissions-inspection-plan-proposal-2026",
+          "articleHeadline": "EPA Sets Conditions for New Hampshire Emissions-Test Change",
+          "sourceId": "source-govinfo-epa-new-hampshire-im-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:2d718e09c376d0c3d6408b0933acf2a8d064ee12220b80da39f2302028e14cb1",
+      "displayName": "NRC modernization direct final rule, official PDF",
+      "pages": 14,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16374.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16374.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16374.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "NRC modernization direct final rule, official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-11T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16374",
+        "edition": "Vol. 91, No. 153",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "nrc-rule-comment-withholding-advisory-procedures-2026",
+          "articleHeadline": "NRC Rule Changes Comment and Withholding Procedures",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "nrc-rule-comment-withholding-advisory-procedures-2026",
+          "articleHeadline": "NRC Rule Changes Comment and Withholding Procedures",
+          "sourceId": "source-govinfo-nrc-modernization-rule-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:72d9c6f57bcce2302a02b854816209737e2f6a005b82135370d806deeeeb96ad",
+      "displayName": "Operational Implementation of the NHC Tropical Cyclone Track and Error Cone Graphic with U.S. Inland Watches and Warnings",
+      "pages": 2,
+      "originalUrls": [
+        "https://www.weather.gov/media/notification/pdf_2026/scn26-27_AdditionofInlandWatchesandWarningstoTCConeGraphicsT2O.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.weather.gov/media/notification/pdf_2026/scn26-27_AdditionofInlandWatchesandWarningstoTCConeGraphicsT2O.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.weather.gov/media/notification/pdf_2026/scn26-27_AdditionofInlandWatchesandWarningstoTCConeGraphicsT2O.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Operational Implementation of the NHC Tropical Cyclone Track and Error Cone Graphic with U.S. Inland Watches and Warnings",
+        "documentType": {
+          "id": "guidance-reference",
+          "label": "Guidance or reference"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-03-16T00:00:00Z",
+        "authors": [
+          "Carlos Diaz (DWH)"
+        ],
+        "institution": "National Weather Service",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "hurricane-cone-inland-warnings-2026-explainer",
+          "articleHeadline": "The hurricane cone now shows inland warnings. It still does not show who is safe",
+          "sourceId": "bodyBlocks[6].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "hurricane-cone-inland-warnings-2026-explainer",
+          "articleHeadline": "The hurricane cone now shows inland warnings. It still does not show who is safe",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "hurricane-cone-inland-warnings-2026-explainer",
+          "articleHeadline": "The hurricane cone now shows inland warnings. It still does not show who is safe",
+          "sourceId": "source-nws-cone-service-change",
+          "citationIndex": 0
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:91ff26d08456b230dad1d19b416920ad2928f5886c93b9f1ea27a39a3b94ef72",
+      "displayName": "Personal Income and Outlays - June 2026",
+      "pages": 5,
+      "originalUrls": [
+        "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+        "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+          "comparison": "unchanged"
+        },
+        {
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.bea.gov/news/2026/personal-income-and-outlays-june-2026",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Personal Income and Outlays - June 2026",
+        "documentType": {
+          "id": "statistical-release",
+          "label": "Statistical release"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-30T12:30:00Z",
+        "authors": [
+          "Mataloni, Lisa - Federal"
+        ],
+        "institution": "U.S. Bureau of Economic Analysis",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "pce-prices-consumer-spending-june-2026",
+          "articleHeadline": "PCE prices fell 0.1% in June as real consumer spending rose 0.4%",
+          "sourceId": "source-bea-personal-income-outlays-june-2026",
+          "citationIndex": 0
+        },
+        {
+          "articleSlug": "pce-prices-consumer-spending-june-2026",
+          "articleHeadline": "PCE prices fell 0.1% in June as real consumer spending rose 0.4%",
+          "sourceId": "source-bea-pio-june-2026",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "us-gdp-growth-slows-second-quarter-2026-advance-estimate",
+          "articleHeadline": "U.S. economic growth slowed to 1.5% in the second quarter, advance estimate shows",
+          "sourceId": "source-bea-personal-income-outlays-june-2026",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "us-gdp-growth-slows-second-quarter-2026-advance-estimate",
+          "articleHeadline": "U.S. economic growth slowed to 1.5% in the second quarter, advance estimate shows",
+          "sourceId": "source-bea-pio-june-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/bea-personal-income-outlays-june-2026.pdf",
+      "sha256": "91ff26d08456b230dad1d19b416920ad2928f5886c93b9f1ea27a39a3b94ef72",
+      "bytes": 404509,
+      "firstPreservedAt": "2026-08-14T04:46:04.378Z"
+    },
+    {
+      "documentId": "source:c494883f3886825cf4dbc580729e9094bcb9442476790c42075be2f1f3a94e64",
+      "displayName": "Proclamation 11052 official PDF",
+      "pages": 13,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16400.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16400.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16400.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Proclamation 11052 official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-11T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16400",
+        "edition": "Vol. 91, No. 153",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "us-polysilicon-import-price-floors-december-2026",
+          "articleHeadline": "U.S. Sets December Polysilicon Import Price Floors",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "us-polysilicon-import-price-floors-december-2026",
+          "articleHeadline": "U.S. Sets December Polysilicon Import Price Floors",
+          "sourceId": "source-govinfo-polysilicon-proclamation-11052-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:d1a0ca0ce18284f4df46411ed65d2b5c3a59059ee5fd4813e7c33b898e00f051",
+      "displayName": "Proposal To Revoke the Color Additive Listing for Use of Citrus Red No. 2 on the Skins of Mature Oranges",
+      "pages": 3,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-14909.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-14909.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-14909.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Proposal To Revoke the Color Additive Listing for Use of Citrus Red No. 2 on the Skins of Mature Oranges",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-23T12:00:00Z",
+        "authors": [],
+        "institution": "Federal Register",
+        "publicationName": null,
+        "documentNumber": "2026-14909",
+        "edition": "Vol. 91, No. 140",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "fda-orange-b-citrus-red-2-revocations-2026",
+          "articleHeadline": "FDA Revokes Orange B Rule, Proposes Ending Citrus Red No. 2",
+          "sourceId": "bodyBlocks[7].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "fda-orange-b-citrus-red-2-revocations-2026",
+          "articleHeadline": "FDA Revokes Orange B Rule, Proposes Ending Citrus Red No. 2",
+          "sourceId": "citations[2].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "fda-orange-b-citrus-red-2-revocations-2026",
+          "articleHeadline": "FDA Revokes Orange B Rule, Proposes Ending Citrus Red No. 2",
+          "sourceId": "source-fda-citrus-red-2-proposed-order-2026",
+          "citationIndex": 2
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:064efc58782455e1112a88fb88c507864925afb9cf58251a9d8c9b3f174cafa9",
+      "displayName": "Quarterly Sentencing Updates: Second Quarter of Fiscal Year 2026",
+      "pages": 44,
+      "originalUrls": [
+        "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.ussc.gov/sites/default/files/pdf/research-and-publications/federal-sentencing-statistics/quarterly-sentencing-updates/USSC_Quarter_Report_2nd_FY26.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Quarterly Sentencing Updates: Second Quarter of Fiscal Year 2026",
+        "documentType": {
+          "id": "statistical-release",
+          "label": "Statistical release"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-05-01T12:00:00Z",
+        "authors": [
+          "U.S. Sentencing Commission"
+        ],
+        "institution": "United States Sentencing Commission",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": "Second Quarter of Fiscal Year 2026",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "federal-sentences-within-guideline-range-59-percent-2026",
+          "articleHeadline": "59% of Federal Sentences Were Within Guideline Ranges Through March",
+          "sourceId": "bodyBlocks[2].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "federal-sentences-within-guideline-range-59-percent-2026",
+          "articleHeadline": "59% of Federal Sentences Were Within Guideline Ranges Through March",
+          "sourceId": "bodyBlocks[7].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "federal-sentences-within-guideline-range-59-percent-2026",
+          "articleHeadline": "59% of Federal Sentences Were Within Guideline Ranges Through March",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "federal-sentences-within-guideline-range-59-percent-2026",
+          "articleHeadline": "59% of Federal Sentences Were Within Guideline Ranges Through March",
+          "sourceId": "source-ussc-quarterly-update-second-quarter-fy2026",
+          "citationIndex": 0
+        },
+        {
+          "articleSlug": "federal-sentencing-cases-immigration-share-fy2026",
+          "articleHeadline": "Immigration Cases Were 40.9% of Federal Sentences Through March",
+          "sourceId": "bodyBlocks[3].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "federal-sentencing-cases-immigration-share-fy2026",
+          "articleHeadline": "Immigration Cases Were 40.9% of Federal Sentences Through March",
+          "sourceId": "bodyBlocks[7].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "federal-sentencing-cases-immigration-share-fy2026",
+          "articleHeadline": "Immigration Cases Were 40.9% of Federal Sentences Through March",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "federal-sentencing-cases-immigration-share-fy2026",
+          "articleHeadline": "Immigration Cases Were 40.9% of Federal Sentences Through March",
+          "sourceId": "source-ussc-q2-fy26-20260701",
+          "citationIndex": 0
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:3209d23f25e271f8a6474bd1b84bb15d3eec044d2d52a7a322a97df9823c5e3e",
+      "displayName": "RAPID coverage pathway proposed notice, official PDF",
+      "pages": 9,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16368.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16368.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16368.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "RAPID coverage pathway proposed notice, official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-11T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16368",
+        "edition": "Vol. 91, No. 153",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "cms-rapid-medicare-breakthrough-device-pathway-proposal-2026",
+          "articleHeadline": "CMS Proposes RAPID Medicare Device Path",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "cms-rapid-medicare-breakthrough-device-pathway-proposal-2026",
+          "articleHeadline": "CMS Proposes RAPID Medicare Device Path",
+          "sourceId": "source-govinfo-cms-rapid-pathway-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:13f16906845633a672bc80deb01084f8affcc99921964a33b573e8a2eedf137c",
+      "displayName": "Request for Information on temporary placement of 7-hydroxymitragynine",
+      "pages": 2,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-07-06/pdf/2026-13608.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-07-06/pdf/2026-13608.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-07-06/pdf/2026-13608.pdf",
+          "comparison": "exact-match"
+        }
+      ],
+      "metadata": {
+        "title": "Request for Information on temporary placement of 7-hydroxymitragynine",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-06T00:00:00Z",
+        "authors": [],
+        "institution": "Department of Health and Human Services",
+        "publicationName": null,
+        "documentNumber": "2026-13608",
+        "edition": "Vol. 91, No. 127",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "dea-7-oh-schedule-i-threshold-action-guide",
+          "articleHeadline": "DEA Could Put Concentrated 7-OH in Schedule I Within Days. Here’s What the Record Shows",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "dea-7-oh-schedule-i-threshold-action-guide",
+          "articleHeadline": "DEA Could Put Concentrated 7-OH in Schedule I Within Days. Here’s What the Record Shows",
+          "sourceId": "source-hhs-7oh-rfi",
+          "citationIndex": 1
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/hhs-7oh-threshold-request-for-information.pdf",
+      "sha256": "13f16906845633a672bc80deb01084f8affcc99921964a33b573e8a2eedf137c",
+      "bytes": 210556,
+      "firstPreservedAt": "2026-08-14T04:46:04.411Z"
+    },
+    {
+      "documentId": "source:57a690e8e00fa9703f61af9780ff24c44372a6a6089baf32b3293d8484255622",
+      "displayName": "Revocation of the Color Additive Listing for Use of Orange B on Casings or Surfaces of Frankfurters and Sausages",
+      "pages": 4,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-14910.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-14910.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-07-23/pdf/2026-14910.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Revocation of the Color Additive Listing for Use of Orange B on Casings or Surfaces of Frankfurters and Sausages",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-23T12:00:00Z",
+        "authors": [],
+        "institution": "Federal Register",
+        "publicationName": null,
+        "documentNumber": "2026-14910",
+        "edition": "Vol. 91, No. 140",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "fda-orange-b-citrus-red-2-revocations-2026",
+          "articleHeadline": "FDA Revokes Orange B Rule, Proposes Ending Citrus Red No. 2",
+          "sourceId": "bodyBlocks[3].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "fda-orange-b-citrus-red-2-revocations-2026",
+          "articleHeadline": "FDA Revokes Orange B Rule, Proposes Ending Citrus Red No. 2",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "fda-orange-b-citrus-red-2-revocations-2026",
+          "articleHeadline": "FDA Revokes Orange B Rule, Proposes Ending Citrus Red No. 2",
+          "sourceId": "source-fda-orange-b-final-order-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:a77ab20e54807b77765b7ffc478e6821dd224e5fa623d7e736e3e7682e166752",
+      "displayName": "Robert Storrs Harbor proposed incidental-harassment authorization, official PDF",
+      "pages": 15,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16367.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16367.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16367.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Robert Storrs Harbor proposed incidental-harassment authorization, official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-11T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16367",
+        "edition": "Vol. 91, No. 153",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "unalaska-harbor-sea-otter-harassment-review-2026",
+          "articleHeadline": "Unalaska Harbor Plan Faces Sea-Otter Review",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "unalaska-harbor-sea-otter-harassment-review-2026",
+          "articleHeadline": "Unalaska Harbor Plan Faces Sea-Otter Review",
+          "sourceId": "source-govinfo-unalaska-sea-otter-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:12eba1ad4e067134a86645ec2094b199acdd0d1098c85db9a034a1197332aab3",
+      "displayName": "SEC overnight price-band order, official PDF",
+      "pages": 3,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16201.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16201.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-10/pdf/2026-16201.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "SEC overnight price-band order, official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-10T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16201",
+        "edition": "Vol. 91, No. 152",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "sec-overnight-stock-price-bands-december-2026",
+          "articleHeadline": "SEC Approves Temporary Overnight Stock Price Bands",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "sec-overnight-stock-price-bands-december-2026",
+          "articleHeadline": "SEC Approves Temporary Overnight Stock Price Bands",
+          "sourceId": "source-govinfo-sec-overnight-price-bands-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:589ec037c92df201c04e0698672eac2217fe3b68458b43b03ac52fea97e78638",
+      "displayName": "Section 301 forced-labor investigation final-action notice",
+      "pages": 431,
+      "originalUrls": [
+        "https://ustr.gov/sites/default/files/files/Press/Releases/2026/FLIP%20301%20Investigation%20Final%20Action%20FRN%207-23-26%20FINAL.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/FLIP%20301%20Investigation%20Final%20Action%20FRN%207-23-26%20FINAL.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/FLIP%20301%20Investigation%20Final%20Action%20FRN%207-23-26%20FINAL.pdf",
+          "comparison": "exact-match"
+        }
+      ],
+      "metadata": {
+        "title": "Section 301 forced-labor investigation final-action notice",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-23T12:00:00Z",
+        "authors": [],
+        "institution": "Office of the U.S. Trade Representative",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "trump-section-301-tariffs-60-economies",
+          "articleHeadline": "Trump administration imposes new tariffs on imports from 60 economies",
+          "sourceId": "citations[2].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "trump-section-301-tariffs-60-economies",
+          "articleHeadline": "Trump administration imposes new tariffs on imports from 60 economies",
+          "sourceId": "ustr-frn",
+          "citationIndex": 2
+        },
+        {
+          "articleSlug": "what-is-section-301-trade-act",
+          "articleHeadline": "What Section 301 is, and why it matters for the new tariff regime",
+          "sourceId": "citations[2].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "what-is-section-301-trade-act",
+          "articleHeadline": "What Section 301 is, and why it matters for the new tariff regime",
+          "sourceId": "ustr-frn",
+          "citationIndex": 2
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/ustr-section-301-final-action-notice.pdf",
+      "sha256": "589ec037c92df201c04e0698672eac2217fe3b68458b43b03ac52fea97e78638",
+      "bytes": 2793062,
+      "firstPreservedAt": "2026-08-14T04:46:04.483Z"
+    },
+    {
+      "documentId": "source:e1e922b7b741f115539c7b8370803c77a84c170be343d249466f7a7557758d25",
+      "displayName": "Soliciting Comments Through August 31, 2026 on Sea-State Analysis Changes",
+      "pages": 2,
+      "originalUrls": [
+        "https://www.weather.gov/media/notification/pdf_2026/pns26-56_Discontinue_Regional_Sea_State_Analyses.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.weather.gov/media/notification/pdf_2026/pns26-56_Discontinue_Regional_Sea_State_Analyses.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.weather.gov/media/notification/pdf_2026/pns26-56_Discontinue_Regional_Sea_State_Analyses.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Soliciting Comments Through August 31, 2026 on Sea-State Analysis Changes",
+        "documentType": {
+          "id": "official-statement",
+          "label": "Official statement"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-29T15:20:00Z",
+        "authors": [
+          "Carlos Diaz (DWH)"
+        ],
+        "institution": "National Weather Service",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "nws-full-ocean-sea-state-analysis-proposal-2026",
+          "articleHeadline": "NWS Proposes Twice-Daily Full-Ocean Sea-State Analyses",
+          "sourceId": "bodyBlocks[2].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "nws-full-ocean-sea-state-analysis-proposal-2026",
+          "articleHeadline": "NWS Proposes Twice-Daily Full-Ocean Sea-State Analyses",
+          "sourceId": "bodyBlocks[7].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "nws-full-ocean-sea-state-analysis-proposal-2026",
+          "articleHeadline": "NWS Proposes Twice-Daily Full-Ocean Sea-State Analyses",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "nws-full-ocean-sea-state-analysis-proposal-2026",
+          "articleHeadline": "NWS Proposes Twice-Daily Full-Ocean Sea-State Analyses",
+          "sourceId": "source-nws-sea-state-proposal-20260729",
+          "citationIndex": 0
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:79c052170994810c8ad1b5bf8924f5987f65e3f1644f99d3ef410a4547723f48",
+      "displayName": "Substances Generally Recognized as Safe proposed rule official PDF",
+      "pages": 48,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16296.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16296.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16296.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Substances Generally Recognized as Safe proposed rule official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-11T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16296",
+        "edition": "Vol. 91, No. 153",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "fda-mandatory-gras-notice-proposal-2026",
+          "articleHeadline": "FDA Proposes Mandatory GRAS Notices",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "fda-mandatory-gras-notice-proposal-2026",
+          "articleHeadline": "FDA Proposes Mandatory GRAS Notices",
+          "sourceId": "source-govinfo-fda-gras-proposal-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:355837cadc14b02a92ec9074b6e63fbb7e574c511fa6171f73f62fac5a2fa46a",
+      "displayName": "Supreme Court Biennial Appointments and Term Limits Act draft",
+      "pages": 6,
+      "originalUrls": [
+        "https://www.whitehouse.senate.gov/wp-content/uploads/2026/07/SIL26A74.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.whitehouse.senate.gov/wp-content/uploads/2026/07/SIL26A74.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.whitehouse.senate.gov/wp-content/uploads/2026/07/SIL26A74.pdf",
+          "comparison": "exact-match"
+        }
+      ],
+      "metadata": {
+        "title": "Supreme Court Biennial Appointments and Term Limits Act draft",
+        "documentType": {
+          "id": "law-bill-resolution",
+          "label": "Law, bill or resolution"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-26T17:00:00Z",
+        "authors": [],
+        "institution": "U.S. Senate legislative draft",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "senate-supreme-court-18-year-term-limits-bill",
+          "articleHeadline": "Senate Democrats reintroduce proposal for regular Supreme Court appointments and 18-year active terms",
+          "sourceId": "batl-draft",
+          "citationIndex": 1
+        },
+        {
+          "articleSlug": "senate-supreme-court-18-year-term-limits-bill",
+          "articleHeadline": "Senate Democrats reintroduce proposal for regular Supreme Court appointments and 18-year active terms",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/supreme-court-term-limits-draft.pdf",
+      "sha256": "355837cadc14b02a92ec9074b6e63fbb7e574c511fa6171f73f62fac5a2fa46a",
+      "bytes": 40913,
+      "firstPreservedAt": "2026-08-14T04:46:04.462Z"
+    },
+    {
+      "documentId": "sha256:a1d3925e420be8cb69e38544de383e140a80354ddb0e80e4b1a9baf34d13eecf",
+      "displayName": "Temporary placement of 7-hydroxymitragynine above a specified threshold in Schedule I",
+      "pages": 8,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-07-06/pdf/2026-13580.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-07-06/pdf/2026-13580.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-07-06/pdf/2026-13580.pdf",
+          "comparison": "exact-match"
+        }
+      ],
+      "metadata": {
+        "title": "Temporary placement of 7-hydroxymitragynine above a specified threshold in Schedule I",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-06T00:00:00Z",
+        "authors": [],
+        "institution": "Drug Enforcement Administration",
+        "publicationName": null,
+        "documentNumber": "2026-13580",
+        "edition": "Vol. 91, No. 127",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "dea-7-oh-schedule-i-threshold-action-guide",
+          "articleHeadline": "DEA Could Put Concentrated 7-OH in Schedule I Within Days. Here’s What the Record Shows",
+          "sourceId": "bodyBlocks[17].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "dea-7-oh-schedule-i-threshold-action-guide",
+          "articleHeadline": "DEA Could Put Concentrated 7-OH in Schedule I Within Days. Here’s What the Record Shows",
+          "sourceId": "bodyBlocks[2].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "dea-7-oh-schedule-i-threshold-action-guide",
+          "articleHeadline": "DEA Could Put Concentrated 7-OH in Schedule I Within Days. Here’s What the Record Shows",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "dea-7-oh-schedule-i-threshold-action-guide",
+          "articleHeadline": "DEA Could Put Concentrated 7-OH in Schedule I Within Days. Here’s What the Record Shows",
+          "sourceId": "source-dea-7oh-notice",
+          "citationIndex": 0
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/dea-7oh-threshold-schedule-i-notice.pdf",
+      "sha256": "a1d3925e420be8cb69e38544de383e140a80354ddb0e80e4b1a9baf34d13eecf",
+      "bytes": 327636,
+      "firstPreservedAt": "2026-08-14T04:46:04.390Z"
+    },
+    {
+      "documentId": "sha256:e307137560e02b0352f6d0fbb60bae622f71482f47cd64a069640d5b79c832af",
+      "displayName": "Temporary placement of mitragynine pseudoindoxyl, MGM-15, and MGM-16 in Schedule I",
+      "pages": 8,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-07-06/pdf/2026-13581.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-07-06/pdf/2026-13581.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-07-06/pdf/2026-13581.pdf",
+          "comparison": "exact-match"
+        }
+      ],
+      "metadata": {
+        "title": "Temporary placement of mitragynine pseudoindoxyl, MGM-15, and MGM-16 in Schedule I",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-06T00:00:00Z",
+        "authors": [],
+        "institution": "Drug Enforcement Administration",
+        "publicationName": null,
+        "documentNumber": "2026-13581",
+        "edition": "Vol. 91, No. 127",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "dea-7-oh-schedule-i-threshold-action-guide",
+          "articleHeadline": "DEA Could Put Concentrated 7-OH in Schedule I Within Days. Here’s What the Record Shows",
+          "sourceId": "citations[3].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "dea-7-oh-schedule-i-threshold-action-guide",
+          "articleHeadline": "DEA Could Put Concentrated 7-OH in Schedule I Within Days. Here’s What the Record Shows",
+          "sourceId": "source-dea-related-compounds-notice",
+          "citationIndex": 3
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/dea-related-compounds-schedule-i-notice.pdf",
+      "sha256": "e307137560e02b0352f6d0fbb60bae622f71482f47cd64a069640d5b79c832af",
+      "bytes": 317746,
+      "firstPreservedAt": "2026-08-14T04:46:04.401Z"
+    },
+    {
+      "documentId": "source:0fa0ec18e002f2874405bbf93a3ff312b4e84cc7e66517971a361749401b9971",
+      "displayName": "The Development of a One Year Curriculum in Applied Music Instruction — Final Report",
+      "pages": 11,
+      "originalUrls": [
+        "https://files.eric.ed.gov/fulltext/ED022418.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://files.eric.ed.gov/fulltext/ED022418.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://files.eric.ed.gov/fulltext/ED022418.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "The Development of a One Year Curriculum in Applied Music Instruction — Final Report",
+        "documentType": {
+          "id": "research-report",
+          "label": "Research or technical report"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": "1968-01-01T00:00:00Z",
+        "authors": [],
+        "institution": "ERIC / U.S. Office of Education",
+        "publicationName": null,
+        "documentNumber": "ERIC ED022418",
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S16",
+          "citationIndex": 15
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:3ff0016525165578738a78522602fbedc7a2b1e96ad59ed0164e1d2820b34b8a",
+      "displayName": "The Development of a One Year Curriculum in Applied Music Instruction — Final Report",
+      "pages": 130,
+      "originalUrls": [
+        "https://files.eric.ed.gov/fulltext/ED022418.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://files.eric.ed.gov/fulltext/ED022418.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://files.eric.ed.gov/fulltext/ED022418.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "The Development of a One Year Curriculum in Applied Music Instruction — Final Report",
+        "documentType": {
+          "id": "research-report",
+          "label": "Research or technical report"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "1968-01-01T00:00:00Z",
+        "authors": [],
+        "institution": "ERIC / U.S. Office of Education",
+        "publicationName": null,
+        "documentNumber": "ERIC ED022418",
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "citations[15].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "s16",
+          "citationIndex": 15
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:9e7bef8a2f17cee24ef0a6f95ab49d60e92a86a2a6a5b31dd9eac23e2d9e053a",
+      "displayName": "University Division of the National Music Camp at Interlochen, 1975",
+      "pages": 4,
+      "originalUrls": [
+        "https://www.fordlibrarymuseum.gov/library/document/0018/4515916.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.fordlibrarymuseum.gov/library/document/0018/4515916.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.fordlibrarymuseum.gov/sites/default/files/pdf_documents/library/document/0018/4515916.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "University Division of the National Music Camp at Interlochen, 1975",
+        "documentType": {
+          "id": "brochure-catalog",
+          "label": "Brochure or catalog"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": "1974-11-13T00:00:00Z",
+        "authors": [],
+        "institution": "University of Michigan / National Music Camp",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": "1975 program bulletin",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S11",
+          "citationIndex": 10
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:a991172135552715749ef4210c1ca1ae9065316b5fdb8f0f2f0aa4fdf0b07a65",
+      "displayName": "University Division of the National Music Camp at Interlochen, 1975",
+      "pages": 71,
+      "originalUrls": [
+        "https://www.fordlibrarymuseum.gov/library/document/0018/4515916.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.fordlibrarymuseum.gov/library/document/0018/4515916.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.fordlibrarymuseum.gov/sites/default/files/pdf_documents/library/document/0018/4515916.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "University Division of the National Music Camp at Interlochen, 1975",
+        "documentType": {
+          "id": "brochure-catalog",
+          "label": "Brochure or catalog"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "1974-11-13T00:00:00Z",
+        "authors": [],
+        "institution": "University of Michigan / National Music Camp",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": "1975 program bulletin",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "citations[10].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "s11",
+          "citationIndex": 10
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:0806019320a04cf48c52fb64e5c6f892b30f16b2210f70ea966dbb51a3b66ed5",
+      "displayName": "University of Michigan Official Publication, vol. 61, no. 37",
+      "pages": 30,
+      "originalUrls": [
+        "https://books.google.com/books/about/University_of_Michigan_Official_Publicat.html?id=MqgOAQAAMAAJ"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://books.google.com/books/about/University_of_Michigan_Official_Publicat.html?id=MqgOAQAAMAAJ",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://books.google.com/books/about/University_of_Michigan_Official_Publicat.html?id=MqgOAQAAMAAJ",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "University of Michigan Official Publication, vol. 61, no. 37",
+        "documentType": {
+          "id": "bulletin-register",
+          "label": "Bulletin or register"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "1959-09-23T00:00:00Z",
+        "authors": [],
+        "institution": "University of Michigan",
+        "publicationName": "University of Michigan Official Publication",
+        "documentNumber": null,
+        "edition": "Vol. 61, no. 37",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S3",
+          "citationIndex": 2
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:d0d0f7e92315543bc19a92a5791a548fab9577ecc6f2b87bb89bc48a5e96e6a5",
+      "displayName": "Urban Rate Survey 2027 Timeline",
+      "pages": 1,
+      "originalUrls": [
+        "https://docs.fcc.gov/public/attachments/DA-26-640A1.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-640A1.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://docs.fcc.gov/public/attachments/DA-26-640A1.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Urban Rate Survey 2027 Timeline",
+        "documentType": {
+          "id": "guidance-reference",
+          "label": "Guidance or reference"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-06-26T12:00:00Z",
+        "authors": [],
+        "institution": "Federal Communications Commission",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "fcc-2027-urban-rate-survey-broadband-benchmarks",
+          "articleHeadline": "FCC Samples 2,000 Urban Tracts to Set 2027 Broadband Benchmarks",
+          "sourceId": "bodyBlocks[3].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "fcc-2027-urban-rate-survey-broadband-benchmarks",
+          "articleHeadline": "FCC Samples 2,000 Urban Tracts to Set 2027 Broadband Benchmarks",
+          "sourceId": "bodyBlocks[7].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "fcc-2027-urban-rate-survey-broadband-benchmarks",
+          "articleHeadline": "FCC Samples 2,000 Urban Tracts to Set 2027 Broadband Benchmarks",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "fcc-2027-urban-rate-survey-broadband-benchmarks",
+          "articleHeadline": "FCC Samples 2,000 Urban Tracts to Set 2027 Broadband Benchmarks",
+          "sourceId": "source-fcc-urban-rate-survey-2027-20260626",
+          "citationIndex": 0
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:efa387b0e0e08912bd5827da87ce9a08b8146d9e41299b3168c5abc3f93df750",
+      "displayName": "USITC LCD glass investigation termination notice, official PDF",
+      "pages": 2,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16305.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16305.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-08-11/pdf/2026-16305.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "USITC LCD glass investigation termination notice, official PDF",
+        "documentType": {
+          "id": "regulatory-notice",
+          "label": "Regulatory notice, rule or order"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-08-11T12:00:00Z",
+        "authors": [],
+        "institution": "U.S. Government Publishing Office",
+        "publicationName": null,
+        "documentNumber": "2026-16305",
+        "edition": "Vol. 91, No. 153",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "usitc-lcd-glass-import-exclusion-order-tcl-2026",
+          "articleHeadline": "USITC Orders LCD Glass Import Exclusions",
+          "sourceId": "citations[1].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "usitc-lcd-glass-import-exclusion-order-tcl-2026",
+          "articleHeadline": "USITC Orders LCD Glass Import Exclusions",
+          "sourceId": "source-govinfo-usitc-lcd-glass-order-pdf-2026",
+          "citationIndex": 1
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "sha256:4f0a6852e2225216027cc6c438079a71fdcd9e717d62413af11b00556a0a338c",
+      "displayName": "War Powers Resolution compilation",
+      "pages": 6,
+      "originalUrls": [
+        "https://www.govinfo.gov/content/pkg/COMPS-1508/pdf/COMPS-1508.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/COMPS-1508/pdf/COMPS-1508.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.govinfo.gov/content/pkg/COMPS-1508/pdf/COMPS-1508.pdf",
+          "comparison": "exact-match"
+        }
+      ],
+      "metadata": {
+        "title": "War Powers Resolution compilation",
+        "documentType": {
+          "id": "law-bill-resolution",
+          "label": "Law, bill or resolution"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-26T17:00:00Z",
+        "authors": [],
+        "institution": "GovInfo",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "house-iran-war-powers-vote-214-208",
+          "articleHeadline": "House passes Iran war-powers resolution; Senate blocks separate measure hours later",
+          "sourceId": "citations[3].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "house-iran-war-powers-vote-214-208",
+          "articleHeadline": "House passes Iran war-powers resolution; Senate blocks separate measure hours later",
+          "sourceId": "war-powers-statute",
+          "citationIndex": 3
+        },
+        {
+          "articleSlug": "what-house-iran-war-powers-vote-can-do",
+          "articleHeadline": "What Congress’s Iran war-powers votes can - and cannot - do",
+          "sourceId": "citations[3].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "what-house-iran-war-powers-vote-can-do",
+          "articleHeadline": "What Congress’s Iran war-powers votes can - and cannot - do",
+          "sourceId": "war-powers-statute",
+          "citationIndex": 3
+        }
+      ],
+      "ok": true,
+      "publicPath": "/evidence/government/war-powers-resolution-compilation.pdf",
+      "sha256": "4f0a6852e2225216027cc6c438079a71fdcd9e717d62413af11b00556a0a338c",
+      "bytes": 125558,
+      "firstPreservedAt": "2026-08-14T04:46:04.453Z"
+    },
+    {
+      "documentId": "source:5f87fa62c6faf45eeb8b4fd820ca6ed8dc954affb0811bb37a9dd940f686faac",
+      "displayName": "Weekly Petroleum Status Report — Week Ending July 24, 2026",
+      "pages": 62,
+      "originalUrls": [
+        "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://www.eia.gov/petroleum/supply/weekly/pdf/wpsrall.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Weekly Petroleum Status Report — Week Ending July 24, 2026",
+        "documentType": {
+          "id": "statistical-release",
+          "label": "Statistical release"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-07-29T17:00:00Z",
+        "authors": [
+          "EIA"
+        ],
+        "institution": "U.S. Energy Information Administration",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": "Week Ending July 24, 2026",
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "us-crude-inventories-fall-refineries-july-2026",
+          "articleHeadline": "U.S. crude inventories fell 7.2 million barrels as refineries ran at 97.2% capacity",
+          "sourceId": "bodyBlocks[2].sourceUrl",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "us-crude-inventories-fall-refineries-july-2026",
+          "articleHeadline": "U.S. crude inventories fell 7.2 million barrels as refineries ran at 97.2% capacity",
+          "sourceId": "citations[0].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "us-crude-inventories-fall-refineries-july-2026",
+          "articleHeadline": "U.S. crude inventories fell 7.2 million barrels as refineries ran at 97.2% capacity",
+          "sourceId": "source-eia-wpsr-july-29-2026",
+          "citationIndex": 0
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:08c78192417684747af0cfe7706d006b2551fbfec947073998b7fc49b258da30",
+      "displayName": "Where Kids Perform Like Pros",
+      "pages": 1,
+      "originalUrls": [
+        "https://books.google.com/books?id=cUoEAAAAMBAJ"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://books.google.com/books?id=cUoEAAAAMBAJ",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://books.google.com/books?id=cUoEAAAAMBAJ",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Where Kids Perform Like Pros",
+        "documentType": {
+          "id": "magazine-article",
+          "label": "Magazine article"
+        },
+        "contentForm": "Excerpt",
+        "publishedAt": "1968-01-05T00:00:00Z",
+        "authors": [],
+        "institution": "LIFE / Google Books",
+        "publicationName": "LIFE",
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "interlochen-before-epstein-what-was-known",
+          "articleHeadline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+          "sourceId": "S5",
+          "citationIndex": 4
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    },
+    {
+      "documentId": "source:aee2a4349af300d663180826177ee36f510da171f6f5be19f566be72fd7d1905",
+      "displayName": "Wyoming 2026 key election dates",
+      "pages": 1,
+      "originalUrls": [
+        "https://sos.wyo.gov/Elections/Docs/2026/2026_Key_Election_Dates.pdf"
+      ],
+      "sourceChecks": [
+        {
+          "url": "https://sos.wyo.gov/Elections/Docs/2026/2026_Key_Election_Dates.pdf",
+          "lastCheckedAt": "2026-08-14T05:28:48.136Z",
+          "reachable": true,
+          "status": 200,
+          "finalUrl": "https://sos.wyo.gov/Elections/Docs/2026/2026_Key_Election_Dates.pdf",
+          "comparison": "unchanged"
+        }
+      ],
+      "metadata": {
+        "title": "Wyoming 2026 key election dates",
+        "documentType": {
+          "id": "guidance-reference",
+          "label": "Guidance or reference"
+        },
+        "contentForm": "Full document",
+        "publishedAt": "2026-02-20T18:46:18Z",
+        "authors": [],
+        "institution": "Wyoming Secretary of State",
+        "publicationName": null,
+        "documentNumber": null,
+        "edition": null,
+        "recordKind": null,
+        "language": "English"
+      },
+      "associations": [
+        {
+          "articleSlug": "august-18-voter-guide",
+          "articleHeadline": "What to Know Before the August 18 Primaries in Alaska, Florida and Wyoming",
+          "sourceId": "citations[4].url",
+          "citationIndex": null
+        },
+        {
+          "articleSlug": "august-18-voter-guide",
+          "articleHeadline": "What to Know Before the August 18 Primaries in Alaska, Florida and Wyoming",
+          "sourceId": "source-august-18-voter-guide-5",
+          "citationIndex": 4
+        }
+      ],
+      "ok": false,
+      "publicPath": null,
+      "sha256": null,
+      "bytes": null,
+      "firstPreservedAt": null
+    }
+  ],
+  "stories": [
+    {
+      "slug": "interlochen-before-epstein-what-was-known",
+      "headline": "Before Epstein: What Was Known at Interlochen, and What the Public Could See",
+      "publishedAt": "2026-08-14T00:14:30.825Z",
+      "authors": [
+        "Boho News Investigations"
+      ],
+      "documentIds": [
+        "sha256:cf2181690504284485ffaf80ce98b9e63534191be5be00b8d89cde206d5e9825",
+        "source:c2cc56d57a2f89fd2107617487c81fe023bcfe3782f0b169cff1868f14220c12",
+        "source:0806019320a04cf48c52fb64e5c6f892b30f16b2210f70ea966dbb51a3b66ed5",
+        "source:08c78192417684747af0cfe7706d006b2551fbfec947073998b7fc49b258da30",
+        "source:3766289f8181c94772a47aca16b092fcbbbc15a9e537d64226e5b42bd68868bf",
+        "source:e1914bbc8f6c40dc260712c41bb2ec73a3f764ccaf23e538f7654a857928f277",
+        "source:4669f50c2913df8cb3020c686c18eff1053582c2437bd5224be6c69b66fd743e",
+        "source:6c33cb357e56c7ff21102a8131f5f979e18798c030a4d49a4859d16c961f56bc",
+        "source:40bdab9ed8478fd915025711be7d73aca2a83a8a2c87c4dd09e5b7d549509bb2",
+        "source:94d0d14b4a8dedf6401bacf6dba53e0c069a33472f38a86b3da10ce30e6983ce",
+        "source:9e7bef8a2f17cee24ef0a6f95ab49d60e92a86a2a6a5b31dd9eac23e2d9e053a",
+        "source:a991172135552715749ef4210c1ca1ae9065316b5fdb8f0f2f0aa4fdf0b07a65",
+        "source:0fa0ec18e002f2874405bbf93a3ff312b4e84cc7e66517971a361749401b9971",
+        "source:3ff0016525165578738a78522602fbedc7a2b1e96ad59ed0164e1d2820b34b8a",
+        "source:48f2ce95a1c2fbfa26dd3a6488df05e719004c767767b9827c3e1a4379c389b8",
+        "source:b75a1a18b0cfa796e30cd34e2d4582085451fdfb2cadd93dcc39d2a53d13f3ff",
+        "source:6ae0a0a2fa4cc58185cd4dec5157eae0e2a1cb597916e584ce8e8aeb12299b70",
+        "source:79cd7531138bcead6eb39f29374f1c814e9ee4e3ca9db1ec62e6a69f09f0ed25"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:cf2181690504284485ffaf80ce98b9e63534191be5be00b8d89cde206d5e9825",
+        "source:c2cc56d57a2f89fd2107617487c81fe023bcfe3782f0b169cff1868f14220c12",
+        "source:0806019320a04cf48c52fb64e5c6f892b30f16b2210f70ea966dbb51a3b66ed5"
+      ]
+    },
+    {
+      "slug": "where-the-primaries-stand",
+      "headline": "The 2026 Primaries So Far: Who Won, What Changed and What Is Left",
+      "publishedAt": "2026-08-13T07:16:39.142Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:afea5d307fd8ad8ed72832ffa688648efc9ac7f07e6288de04b7691cf18b372b"
+      ],
+      "suggestedDocumentIds": [
+        "source:afea5d307fd8ad8ed72832ffa688648efc9ac7f07e6288de04b7691cf18b372b"
+      ]
+    },
+    {
+      "slug": "senate-field",
+      "headline": "The 2026 Senate Field Is Taking Shape. These Primaries Changed the Map",
+      "publishedAt": "2026-08-13T07:16:39.142Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:afea5d307fd8ad8ed72832ffa688648efc9ac7f07e6288de04b7691cf18b372b"
+      ],
+      "suggestedDocumentIds": [
+        "source:afea5d307fd8ad8ed72832ffa688648efc9ac7f07e6288de04b7691cf18b372b"
+      ]
+    },
+    {
+      "slug": "runoffs",
+      "headline": "The Primary Was Not the Final Word: Why Runoffs Keep Deciding Nominees",
+      "publishedAt": "2026-08-13T07:16:39.142Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:afea5d307fd8ad8ed72832ffa688648efc9ac7f07e6288de04b7691cf18b372b"
+      ],
+      "suggestedDocumentIds": [
+        "source:afea5d307fd8ad8ed72832ffa688648efc9ac7f07e6288de04b7691cf18b372b"
+      ]
+    },
+    {
+      "slug": "fragmented-election-data",
+      "headline": "We Tried to Collect Every 2026 Primary Result. Here Is Why That Is So Hard",
+      "publishedAt": "2026-08-13T07:16:39.142Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:afea5d307fd8ad8ed72832ffa688648efc9ac7f07e6288de04b7691cf18b372b"
+      ],
+      "suggestedDocumentIds": [
+        "source:afea5d307fd8ad8ed72832ffa688648efc9ac7f07e6288de04b7691cf18b372b"
+      ]
+    },
+    {
+      "slug": "august-18-voter-guide",
+      "headline": "What to Know Before the August 18 Primaries in Alaska, Florida and Wyoming",
+      "publishedAt": "2026-08-13T07:16:39.142Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:aee2a4349af300d663180826177ee36f510da171f6f5be19f566be72fd7d1905"
+      ],
+      "suggestedDocumentIds": [
+        "source:aee2a4349af300d663180826177ee36f510da171f6f5be19f566be72fd7d1905"
+      ]
+    },
+    {
+      "slug": "epa-dichlorobenzene-draft-risk-evaluations-2026",
+      "headline": "EPA Drafts New Risk Findings for Two Dichlorobenzene Chemicals",
+      "publishedAt": "2026-08-11T20:27:25.084Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:afe6c677077bd003033aaa71ed348091e80ff9561ffe934608ed895e2d5a2b24"
+      ],
+      "suggestedDocumentIds": [
+        "source:afe6c677077bd003033aaa71ed348091e80ff9561ffe934608ed895e2d5a2b24"
+      ]
+    },
+    {
+      "slug": "faa-military-pilot-trainee-medical-certificate-proposal-2026",
+      "headline": "FAA Proposes Medical-Certificate Change for Military Pilot Trainees",
+      "publishedAt": "2026-08-11T20:27:25.084Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:7ba5161a75f3ecd2b8d442882bab539186662d34ae7b8d128cf4b00917392bed"
+      ],
+      "suggestedDocumentIds": [
+        "source:7ba5161a75f3ecd2b8d442882bab539186662d34ae7b8d128cf4b00917392bed"
+      ]
+    },
+    {
+      "slug": "fda-digital-breast-tomosynthesis-class-ii-proposal-2026",
+      "headline": "FDA Proposes Class II Path for 3D Breast Scans",
+      "publishedAt": "2026-08-11T20:27:25.084Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:f3ee3a29a068c0797e408b3515877febb55da9f2f6bce0ad801f6ad31d4088aa"
+      ],
+      "suggestedDocumentIds": [
+        "source:f3ee3a29a068c0797e408b3515877febb55da9f2f6bce0ad801f6ad31d4088aa"
+      ]
+    },
+    {
+      "slug": "fmcsa-english-proficiency-out-of-service-proposal-2026",
+      "headline": "FMCSA Proposes English-Proficiency Out-of-Service Rule",
+      "publishedAt": "2026-08-11T20:27:25.084Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:fd8aeae241739c2123af213591ae3ffa919174238e357af3412165335b2cc252"
+      ],
+      "suggestedDocumentIds": [
+        "source:fd8aeae241739c2123af213591ae3ffa919174238e357af3412165335b2cc252"
+      ]
+    },
+    {
+      "slug": "sec-overnight-stock-price-bands-december-2026",
+      "headline": "SEC Approves Temporary Overnight Stock Price Bands",
+      "publishedAt": "2026-08-11T20:27:25.084Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:12eba1ad4e067134a86645ec2094b199acdd0d1098c85db9a034a1197332aab3"
+      ],
+      "suggestedDocumentIds": [
+        "source:12eba1ad4e067134a86645ec2094b199acdd0d1098c85db9a034a1197332aab3"
+      ]
+    },
+    {
+      "slug": "biomedical-science-patent-bar-category-a-eligibility-2026",
+      "headline": "Biomedical Science Joins Patent-Bar Degree List",
+      "publishedAt": "2026-08-11T18:35:34.208Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:07add6e2de143942d65a4f69c4bb16e1119cdedf72ae0368c390b52fbb81c3b0"
+      ],
+      "suggestedDocumentIds": [
+        "source:07add6e2de143942d65a4f69c4bb16e1119cdedf72ae0368c390b52fbb81c3b0"
+      ]
+    },
+    {
+      "slug": "cms-rapid-medicare-breakthrough-device-pathway-proposal-2026",
+      "headline": "CMS Proposes RAPID Medicare Device Path",
+      "publishedAt": "2026-08-11T18:35:34.208Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:3209d23f25e271f8a6474bd1b84bb15d3eec044d2d52a7a322a97df9823c5e3e"
+      ],
+      "suggestedDocumentIds": [
+        "source:3209d23f25e271f8a6474bd1b84bb15d3eec044d2d52a7a322a97df9823c5e3e"
+      ]
+    },
+    {
+      "slug": "epa-new-hampshire-emissions-inspection-plan-proposal-2026",
+      "headline": "EPA Sets Conditions for New Hampshire Emissions-Test Change",
+      "publishedAt": "2026-08-11T18:35:34.208Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:3d9887a50877495e3a5bfdb097d3f0074dc330f021b89d05b2af98e6d6ea0be8"
+      ],
+      "suggestedDocumentIds": [
+        "source:3d9887a50877495e3a5bfdb097d3f0074dc330f021b89d05b2af98e6d6ea0be8"
+      ]
+    },
+    {
+      "slug": "nrc-rule-comment-withholding-advisory-procedures-2026",
+      "headline": "NRC Rule Changes Comment and Withholding Procedures",
+      "publishedAt": "2026-08-11T18:35:34.208Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:2d718e09c376d0c3d6408b0933acf2a8d064ee12220b80da39f2302028e14cb1"
+      ],
+      "suggestedDocumentIds": [
+        "source:2d718e09c376d0c3d6408b0933acf2a8d064ee12220b80da39f2302028e14cb1"
+      ]
+    },
+    {
+      "slug": "unalaska-harbor-sea-otter-harassment-review-2026",
+      "headline": "Unalaska Harbor Plan Faces Sea-Otter Review",
+      "publishedAt": "2026-08-11T18:35:34.208Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:a77ab20e54807b77765b7ffc478e6821dd224e5fa623d7e736e3e7682e166752"
+      ],
+      "suggestedDocumentIds": [
+        "source:a77ab20e54807b77765b7ffc478e6821dd224e5fa623d7e736e3e7682e166752"
+      ]
+    },
+    {
+      "slug": "usitc-lcd-glass-import-exclusion-order-tcl-2026",
+      "headline": "USITC Orders LCD Glass Import Exclusions",
+      "publishedAt": "2026-08-11T18:35:34.208Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:efa387b0e0e08912bd5827da87ce9a08b8146d9e41299b3168c5abc3f93df750"
+      ],
+      "suggestedDocumentIds": [
+        "source:efa387b0e0e08912bd5827da87ce9a08b8146d9e41299b3168c5abc3f93df750"
+      ]
+    },
+    {
+      "slug": "fda-mandatory-gras-notice-proposal-2026",
+      "headline": "FDA Proposes Mandatory GRAS Notices",
+      "publishedAt": "2026-08-11T17:20:12.770Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:79c052170994810c8ad1b5bf8924f5987f65e3f1644f99d3ef410a4547723f48"
+      ],
+      "suggestedDocumentIds": [
+        "source:79c052170994810c8ad1b5bf8924f5987f65e3f1644f99d3ef410a4547723f48"
+      ]
+    },
+    {
+      "slug": "us-polysilicon-import-price-floors-december-2026",
+      "headline": "U.S. Sets December Polysilicon Import Price Floors",
+      "publishedAt": "2026-08-11T17:20:12.770Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:c494883f3886825cf4dbc580729e9094bcb9442476790c42075be2f1f3a94e64"
+      ],
+      "suggestedDocumentIds": [
+        "source:c494883f3886825cf4dbc580729e9094bcb9442476790c42075be2f1f3a94e64"
+      ]
+    },
+    {
+      "slug": "usitc-asus-plume-wifi-import-relief-comments-2026",
+      "headline": "USITC Seeks Comment on Wi-Fi Import Relief",
+      "publishedAt": "2026-08-11T17:20:12.770Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:211df5ef77874be6ec06982f26acb5395e3ea32f2ad54c2e07183184598c74a6"
+      ],
+      "suggestedDocumentIds": [
+        "source:211df5ef77874be6ec06982f26acb5395e3ea32f2ad54c2e07183184598c74a6"
+      ]
+    },
+    {
+      "slug": "doj-inventory-62-criminal-regulatory-offenses-2026",
+      "headline": "Justice Department Inventory Identifies 62 Criminal Regulatory Offenses",
+      "publishedAt": "2026-08-11T03:32:26.385Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:dc0bca08e30bb7a57eaabea6eb40ae046ae695d731376ef56930e35ffa745de9"
+      ],
+      "suggestedDocumentIds": [
+        "source:dc0bca08e30bb7a57eaabea6eb40ae046ae695d731376ef56930e35ffa745de9"
+      ]
+    },
+    {
+      "slug": "federal-sentences-within-guideline-range-59-percent-2026",
+      "headline": "59% of Federal Sentences Were Within Guideline Ranges Through March",
+      "publishedAt": "2026-08-10T23:57:20.561Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:064efc58782455e1112a88fb88c507864925afb9cf58251a9d8c9b3f174cafa9"
+      ],
+      "suggestedDocumentIds": [
+        "source:064efc58782455e1112a88fb88c507864925afb9cf58251a9d8c9b3f174cafa9"
+      ]
+    },
+    {
+      "slug": "nws-full-ocean-sea-state-analysis-proposal-2026",
+      "headline": "NWS Proposes Twice-Daily Full-Ocean Sea-State Analyses",
+      "publishedAt": "2026-08-10T07:26:51.474Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:e1e922b7b741f115539c7b8370803c77a84c170be343d249466f7a7557758d25"
+      ],
+      "suggestedDocumentIds": [
+        "source:e1e922b7b741f115539c7b8370803c77a84c170be343d249466f7a7557758d25"
+      ]
+    },
+    {
+      "slug": "federal-sentencing-cases-immigration-share-fy2026",
+      "headline": "Immigration Cases Were 40.9% of Federal Sentences Through March",
+      "publishedAt": "2026-08-09T15:42:58.072Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:064efc58782455e1112a88fb88c507864925afb9cf58251a9d8c9b3f174cafa9"
+      ],
+      "suggestedDocumentIds": [
+        "source:064efc58782455e1112a88fb88c507864925afb9cf58251a9d8c9b3f174cafa9"
+      ]
+    },
+    {
+      "slug": "fcc-2027-urban-rate-survey-broadband-benchmarks",
+      "headline": "FCC Samples 2,000 Urban Tracts to Set 2027 Broadband Benchmarks",
+      "publishedAt": "2026-08-06T05:19:55.069Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:d0d0f7e92315543bc19a92a5791a548fab9577ecc6f2b87bb89bc48a5e96e6a5"
+      ],
+      "suggestedDocumentIds": [
+        "source:d0d0f7e92315543bc19a92a5791a548fab9577ecc6f2b87bb89bc48a5e96e6a5"
+      ]
+    },
+    {
+      "slug": "fda-orange-b-citrus-red-2-revocations-2026",
+      "headline": "FDA Revokes Orange B Rule, Proposes Ending Citrus Red No. 2",
+      "publishedAt": "2026-08-06T02:34:08.835Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:57a690e8e00fa9703f61af9780ff24c44372a6a6089baf32b3293d8484255622",
+        "source:d1a0ca0ce18284f4df46411ed65d2b5c3a59059ee5fd4813e7c33b898e00f051"
+      ],
+      "suggestedDocumentIds": [
+        "source:57a690e8e00fa9703f61af9780ff24c44372a6a6089baf32b3293d8484255622",
+        "source:d1a0ca0ce18284f4df46411ed65d2b5c3a59059ee5fd4813e7c33b898e00f051"
+      ]
+    },
+    {
+      "slug": "dol-opinion-letters-remote-work-commute-2026",
+      "headline": "Labor Department Defines When Hybrid-Work Travel Is Paid",
+      "publishedAt": "2026-08-06T02:34:08.835Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:f167cde5a97f2b2716fc330d2c25d3882e4c0d8c312dd5a6d38c4499ebd0a9a3",
+        "source:9b0ce1cd5bc1dd249d49fdd002db90192188efec4e7046f15a5ca4d595386dc6"
+      ],
+      "suggestedDocumentIds": [
+        "source:f167cde5a97f2b2716fc330d2c25d3882e4c0d8c312dd5a6d38c4499ebd0a9a3",
+        "source:9b0ce1cd5bc1dd249d49fdd002db90192188efec4e7046f15a5ca4d595386dc6"
+      ]
+    },
+    {
+      "slug": "usgs-federal-coal-resources-reserves-2026",
+      "headline": "USGS Finds 356 Billion Tons of Federal Coal—But 4.2 Billion in Reserves",
+      "publishedAt": "2026-08-06T02:34:08.835Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:e52fffd08212414981d746d8326705fdd9c3b716e8cc5811a2882a9be0ee3b9f"
+      ],
+      "suggestedDocumentIds": [
+        "source:e52fffd08212414981d746d8326705fdd9c3b716e8cc5811a2882a9be0ee3b9f"
+      ]
+    },
+    {
+      "slug": "us-construction-spending-june-2026",
+      "headline": "U.S. Construction Spending Was Flat in June—and 3.2% Below a Year Earlier",
+      "publishedAt": "2026-08-05T22:57:09.872Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:45893cfbc42c3bc7b234d2141f90a3102f697cf1a03b1e4531c5c8959957206b"
+      ],
+      "suggestedDocumentIds": [
+        "source:45893cfbc42c3bc7b234d2141f90a3102f697cf1a03b1e4531c5c8959957206b"
+      ]
+    },
+    {
+      "slug": "hopper-ftc-35-million-hidden-fees-settlement-2026",
+      "headline": "Hopper Agreed to Pay $35 Million in FTC Hidden-Fee Case",
+      "publishedAt": "2026-08-05T05:52:56.790Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:4788adc079fc4748a21aa31580842148d5ef6e7a8265884ec899c3896671da01"
+      ],
+      "suggestedDocumentIds": [
+        "source:4788adc079fc4748a21aa31580842148d5ef6e7a8265884ec899c3896671da01"
+      ]
+    },
+    {
+      "slug": "kia-telluride-seat-motor-fire-recall-26v430",
+      "headline": "Kia Telluride Owners Told to Park Outside—Again—Before a New Seat-Motor Fix",
+      "publishedAt": "2026-08-05T00:00:08.784Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "source:b7455c0c3e089a0bf2738ec549f29884c59d94041dd201b2ef469af4a1f06d45"
+      ],
+      "suggestedDocumentIds": [
+        "source:b7455c0c3e089a0bf2738ec549f29884c59d94041dd201b2ef469af4a1f06d45"
+      ]
+    },
+    {
+      "slug": "hurricane-cone-inland-warnings-2026-explainer",
+      "headline": "The hurricane cone now shows inland warnings. It still does not show who is safe",
+      "publishedAt": "2026-08-04T21:33:38.163Z",
+      "authors": [
+        "Boho News Weather Desk"
+      ],
+      "documentIds": [
+        "source:72d9c6f57bcce2302a02b854816209737e2f6a005b82135370d806deeeeb96ad"
+      ],
+      "suggestedDocumentIds": [
+        "source:72d9c6f57bcce2302a02b854816209737e2f6a005b82135370d806deeeeb96ad"
+      ]
+    },
+    {
+      "slug": "us-crude-inventories-fall-refineries-july-2026",
+      "headline": "U.S. crude inventories fell 7.2 million barrels as refineries ran at 97.2% capacity",
+      "publishedAt": "2026-08-02T18:19:07.128Z",
+      "authors": [
+        "Boho News Energy Desk"
+      ],
+      "documentIds": [
+        "source:5f87fa62c6faf45eeb8b4fd820ca6ed8dc954affb0811bb37a9dd940f686faac"
+      ],
+      "suggestedDocumentIds": [
+        "source:5f87fa62c6faf45eeb8b4fd820ca6ed8dc954affb0811bb37a9dd940f686faac"
+      ]
+    },
+    {
+      "slug": "dea-7-oh-schedule-i-threshold-action-guide",
+      "headline": "DEA Could Put Concentrated 7-OH in Schedule I Within Days. Here’s What the Record Shows",
+      "publishedAt": "2026-08-02T00:37:19.654Z",
+      "authors": [
+        "Boho News Editorial Desk"
+      ],
+      "documentIds": [
+        "sha256:a1d3925e420be8cb69e38544de383e140a80354ddb0e80e4b1a9baf34d13eecf",
+        "sha256:13f16906845633a672bc80deb01084f8affcc99921964a33b573e8a2eedf137c",
+        "sha256:e307137560e02b0352f6d0fbb60bae622f71482f47cd64a069640d5b79c832af",
+        "sha256:183fdaf2fbcd182a4f0967bb2656363aa72446f2a814f67bd3809723d5959434",
+        "sha256:9e54570ae2f2a49850e68d10a0e83a7887d4e583440f4d42641c45a7945befdd"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:a1d3925e420be8cb69e38544de383e140a80354ddb0e80e4b1a9baf34d13eecf",
+        "sha256:13f16906845633a672bc80deb01084f8affcc99921964a33b573e8a2eedf137c",
+        "sha256:e307137560e02b0352f6d0fbb60bae622f71482f47cd64a069640d5b79c832af"
+      ]
+    },
+    {
+      "slug": "fifa-4-2-billion-world-cup-sale-collapse",
+      "headline": "The $4.2 Billion Vote: How FIFA’s World Cup Sell-Off Collapsed in 80 Hours",
+      "publishedAt": "2026-08-02T00:37:19.654Z",
+      "authors": [
+        "Boho News Investigations Desk"
+      ],
+      "documentIds": [
+        "source:36315c0b07199be483ed3297028e48bfd599f7a1110a6650d93cabe83fb8e609"
+      ],
+      "suggestedDocumentIds": [
+        "source:36315c0b07199be483ed3297028e48bfd599f7a1110a6650d93cabe83fb8e609"
+      ]
+    },
+    {
+      "slug": "work-training-americans-born-1980-1984",
+      "headline": "Nearly two-thirds of Americans born 1980–1984 received work training by age 38",
+      "publishedAt": "2026-08-02T00:23:31.615Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "sha256:4fa9694be9b4a1396c76de2a6c1549992c545919e4033c1c3a144bee4ee9a62b"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:4fa9694be9b4a1396c76de2a6c1549992c545919e4033c1c3a144bee4ee9a62b"
+      ]
+    },
+    {
+      "slug": "us-gdp-growth-slows-second-quarter-2026-advance-estimate",
+      "headline": "U.S. economic growth slowed to 1.5% in the second quarter, advance estimate shows",
+      "publishedAt": "2026-08-02T00:12:55.738Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "sha256:f2938d344ed8b658cb4bd349016db8ef8b8c85c7b69708f68a14fce713c098fd",
+        "sha256:91ff26d08456b230dad1d19b416920ad2928f5886c93b9f1ea27a39a3b94ef72"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:f2938d344ed8b658cb4bd349016db8ef8b8c85c7b69708f68a14fce713c098fd",
+        "sha256:91ff26d08456b230dad1d19b416920ad2928f5886c93b9f1ea27a39a3b94ef72"
+      ]
+    },
+    {
+      "slug": "pce-prices-consumer-spending-june-2026",
+      "headline": "PCE prices fell 0.1% in June as real consumer spending rose 0.4%",
+      "publishedAt": "2026-08-01T23:24:23.088Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "sha256:91ff26d08456b230dad1d19b416920ad2928f5886c93b9f1ea27a39a3b94ef72"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:91ff26d08456b230dad1d19b416920ad2928f5886c93b9f1ea27a39a3b94ef72"
+      ]
+    },
+    {
+      "slug": "employer-compensation-costs-june-2026",
+      "headline": "Employer compensation rose 3.4% as benefit costs outpaced wages",
+      "publishedAt": "2026-08-01T17:27:51.083Z",
+      "authors": [
+        "Boho News Data Desk"
+      ],
+      "documentIds": [
+        "sha256:3110fc0f460b580e59d0f96ee46b53f70dbbd35191d316732d25a6988f88b2c2"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:3110fc0f460b580e59d0f96ee46b53f70dbbd35191d316732d25a6988f88b2c2"
+      ]
+    },
+    {
+      "slug": "us-gdp-growth-slows-q2-2026",
+      "headline": "U.S. GDP growth slowed to 1.5% as consumer spending rebounded",
+      "publishedAt": "2026-07-31T05:20:37.953Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "sha256:f2938d344ed8b658cb4bd349016db8ef8b8c85c7b69708f68a14fce713c098fd"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:f2938d344ed8b658cb4bd349016db8ef8b8c85c7b69708f68a14fce713c098fd"
+      ]
+    },
+    {
+      "slug": "interlochen-abuse-investigation-report-findings",
+      "headline": "70 Accounts, 47 Adults, Seven Decades: What Interlochen’s Abuse Investigation Found",
+      "publishedAt": "2026-07-31T05:12:22.062Z",
+      "authors": [
+        "Boho News Investigations"
+      ],
+      "documentIds": [
+        "sha256:cf2181690504284485ffaf80ce98b9e63534191be5be00b8d89cde206d5e9825",
+        "sha256:9048c68e505c845e91cc623f52740e263f984311b78b4b16e131e1e2753d5945",
+        "sha256:6cb4fa1c9774def2aa8e8d01db1f5cf3872574e531287f566e035ab76fe800a2",
+        "sha256:2b013ca4f69c17240d28336a1b0170b59e7e5f6cbedb5b58ecbb5812fa5f11e4",
+        "sha256:dbd84ceb2ff70b20a4ce925e8755e46a435da6849c5f11bb1ad11277dae50360",
+        "sha256:23594a5de0ba87389db524fe17f440ac5b043f22e4fac8504fda620830b6b7ea"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:cf2181690504284485ffaf80ce98b9e63534191be5be00b8d89cde206d5e9825",
+        "sha256:9048c68e505c845e91cc623f52740e263f984311b78b4b16e131e1e2753d5945",
+        "sha256:6cb4fa1c9774def2aa8e8d01db1f5cf3872574e531287f566e035ab76fe800a2"
+      ]
+    },
+    {
+      "slug": "metro-unemployment-payroll-growth-june-2026",
+      "headline": "Metro unemployment split nearly evenly in June as payroll growth stayed rare",
+      "publishedAt": "2026-07-30T21:18:51.116Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "sha256:57c4a1e2b902044fe658c557dc556dda4c54a2a5f639ee61c88bc51db97c5a1c"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:57c4a1e2b902044fe658c557dc556dda4c54a2a5f639ee61c88bc51db97c5a1c"
+      ]
+    },
+    {
+      "slug": "gao-legal-fee-awards-labor-agencies",
+      "headline": "GAO finds 22 legal-fee awards at Labor Department and NLRB, none at EEOC",
+      "publishedAt": "2026-07-29T01:51:52.287Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "sha256:16b4325c0818abaccd3d7ea62e0e689a706548e18b1e553e0e8602d5d80d1941"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:16b4325c0818abaccd3d7ea62e0e689a706548e18b1e553e0e8602d5d80d1941"
+      ]
+    },
+    {
+      "slug": "house-iran-war-powers-vote-214-208",
+      "headline": "House passes Iran war-powers resolution; Senate blocks separate measure hours later",
+      "publishedAt": "2026-07-26T21:22:56.706315Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "sha256:363eb7940027b65b0d528bd248c529c96381ae22cdfee30b6f1dfe96c6fd8325",
+        "sha256:4f0a6852e2225216027cc6c438079a71fdcd9e717d62413af11b00556a0a338c"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:363eb7940027b65b0d528bd248c529c96381ae22cdfee30b6f1dfe96c6fd8325",
+        "sha256:4f0a6852e2225216027cc6c438079a71fdcd9e717d62413af11b00556a0a338c"
+      ]
+    },
+    {
+      "slug": "senate-supreme-court-18-year-term-limits-bill",
+      "headline": "Senate Democrats reintroduce proposal for regular Supreme Court appointments and 18-year active terms",
+      "publishedAt": "2026-07-26T21:22:56.706315Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "sha256:355837cadc14b02a92ec9074b6e63fbb7e574c511fa6171f73f62fac5a2fa46a"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:355837cadc14b02a92ec9074b6e63fbb7e574c511fa6171f73f62fac5a2fa46a"
+      ]
+    },
+    {
+      "slug": "trump-section-301-tariffs-60-economies",
+      "headline": "Trump administration imposes new tariffs on imports from 60 economies",
+      "publishedAt": "2026-07-26T21:22:56.706315Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "sha256:589ec037c92df201c04e0698672eac2217fe3b68458b43b03ac52fea97e78638"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:589ec037c92df201c04e0698672eac2217fe3b68458b43b03ac52fea97e78638"
+      ]
+    },
+    {
+      "slug": "what-house-iran-war-powers-vote-can-do",
+      "headline": "What Congress’s Iran war-powers votes can - and cannot - do",
+      "publishedAt": "2026-07-26T21:22:56.706315Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "sha256:363eb7940027b65b0d528bd248c529c96381ae22cdfee30b6f1dfe96c6fd8325",
+        "sha256:4f0a6852e2225216027cc6c438079a71fdcd9e717d62413af11b00556a0a338c"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:363eb7940027b65b0d528bd248c529c96381ae22cdfee30b6f1dfe96c6fd8325",
+        "sha256:4f0a6852e2225216027cc6c438079a71fdcd9e717d62413af11b00556a0a338c"
+      ]
+    },
+    {
+      "slug": "what-is-section-301-trade-act",
+      "headline": "What Section 301 is, and why it matters for the new tariff regime",
+      "publishedAt": "2026-07-26T21:22:56.706315Z",
+      "authors": [
+        "Boho News Staff"
+      ],
+      "documentIds": [
+        "sha256:589ec037c92df201c04e0698672eac2217fe3b68458b43b03ac52fea97e78638"
+      ],
+      "suggestedDocumentIds": [
+        "sha256:589ec037c92df201c04e0698672eac2217fe3b68458b43b03ac52fea97e78638"
+      ]
+    }
+  ]
+}
+
