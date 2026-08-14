@@ -1,12 +1,19 @@
 ---
-const symbols = [
-  "FOREXCOM:SPXUSD",
-  "FOREXCOM:NSXUSD",
-  "FOREXCOM:DJI",
-  "FX:EURUSD",
-  "BITSTAMP:BTCUSD",
-  "CMCMARKETS:GOLD"
-].join(",");
+const tickerConfig = {
+  symbols: [
+    {proName:"FOREXCOM:SPXUSD",title:"S&P 500"},
+    {proName:"FOREXCOM:NSXUSD",title:"Nasdaq 100"},
+    {proName:"FOREXCOM:DJI",title:"Dow"},
+    {proName:"FX:EURUSD",title:"EUR/USD"},
+    {proName:"BITSTAMP:BTCUSD",title:"Bitcoin"},
+    {proName:"CMCMARKETS:GOLD",title:"Gold"}
+  ],
+  colorTheme:"light",
+  locale:"en",
+  isTransparent:false,
+  showSymbolLogo:true,
+  displayMode:"adaptive"
+};
 ---
 
 <section class="market-ticker" aria-label="Market snapshot">
@@ -14,11 +21,16 @@ const symbols = [
     <span>Markets</span>
     <a href="https://www.tradingview.com/markets/" target="_blank" rel="noopener nofollow">Data by TradingView</a>
   </div>
-  <div class="market-ticker__widget">
-    <tv-ticker-tape symbols={symbols} direction="horizontal" item-size="compact" transparent>
-      <div class="market-ticker__placeholder">
-        Loading market data… Quotes may be delayed.
-      </div>
-    </tv-ticker-tape>
+  <div class="market-ticker__widget tradingview-widget-container">
+    <div class="tradingview-widget-container__widget">
+      <span class="market-ticker__placeholder">Loading market data… Quotes may be delayed.</span>
+    </div>
+    <script
+      is:inline
+      type="text/javascript"
+      src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+      async
+      set:html={JSON.stringify(tickerConfig)}
+    ></script>
   </div>
 </section>

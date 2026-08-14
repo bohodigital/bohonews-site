@@ -106,7 +106,8 @@ h3 { font-size: clamp(1.25rem,2vw,1.7rem); line-height: 1.08; margin: .8rem 0 .5
 .market-ticker__identity a { color: var(--text-muted); font-size: .55rem; font-weight: 750; letter-spacing: .04em; margin-top: .12rem; text-decoration: none; }
 .market-ticker__identity a:hover { color: var(--link); text-decoration: underline; }
 .market-ticker__widget { height: 3.25rem; min-width: 0; overflow: hidden; }
-.market-ticker tv-ticker-tape { display: block; height: 100%; width: 100%; }
+.market-ticker__widget .tradingview-widget-container__widget,
+.market-ticker__widget iframe { border: 0; display: block; min-height: 2.875rem; width: 100%; }
 .market-ticker__placeholder {
   align-items: center; color: var(--text-muted); display: flex; font-size: .7rem;
   height: 100%; letter-spacing: .04em; padding: 0 1rem; text-transform: uppercase;

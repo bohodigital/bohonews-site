@@ -65,7 +65,6 @@ const siteGraph = {
     <meta name="twitter:card" content="summary_large_image" />
     <script is:inline type="application/ld+json" set:html={jsonForHtml(siteGraph)} />
     <script is:inline src="/theme.js"></script>
-    {!candidateUnpublished && !hideMarketTicker && <script is:inline type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>}
     {!candidateUnpublished && <script
       is:inline
       src="/analytics-bootstrap.js"

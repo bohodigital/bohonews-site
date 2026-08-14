@@ -128,17 +128,18 @@ test("Umami and GA4 are host-restricted, privacy-restrained, and suppressible fo
   assert.match(bootstrap,/allow_ad_personalization_signals:\s*false/);
 });
 
-test("global market ticker uses the official account-free TradingView web component", async () => {
+test("global market ticker uses the official account-free TradingView iframe widget", async () => {
   const [layout,header,ticker,policy] = await Promise.all([
     readFile(new URL("../src/layouts/BaseLayout.astro", import.meta.url),"utf8"),
     readFile(new URL("../src/components/SiteHeader.astro", import.meta.url),"utf8"),
     readFile(new URL("../src/components/MarketTicker.astro", import.meta.url),"utf8"),
     readFile(new URL("../src/content/policies/privacy.md", import.meta.url),"utf8")
   ]);
-  assert.match(layout,/https:\/\/widgets\.tradingview-widget\.com\/w\/en\/tv-ticker-tape\.js/);
-  assert.equal(layout.match(/tv-ticker-tape\.js/g)?.length,1);
+  assert.doesNotMatch(layout,/tv-ticker-tape\.js/);
   assert.match(header,/<MarketTicker \/>/);
-  assert.match(ticker,/<tv-ticker-tape/);
+  assert.match(ticker,/https:\/\/s3\.tradingview\.com\/external-embedding\/embed-widget-ticker-tape\.js/);
+  assert.match(ticker,/tradingview-widget-container__widget/);
+  assert.match(ticker,/displayMode:"adaptive"/);
   assert.match(ticker,/Data by TradingView/);
   assert.match(ticker,/FOREXCOM:SPXUSD/);
   assert.doesNotMatch(ticker,/account|apiKey|token|clientId/i);

@@ -214,8 +214,8 @@ test("security headers prevent framing and restrict capabilities", async () => {
   assert.doesNotMatch(headers,/unsafe-inline/);
   assert.match(headers,/script-src 'self' https:\/\/analytics\.bohodigitalservices\.com/);
   assert.match(headers,/connect-src 'self' https:\/\/analytics\.bohodigitalservices\.com/);
-  assert.match(headers,/https:\/\/widgets\.tradingview-widget\.com/);
-  assert.match(headers,/frame-src https:\/\/widgets\.tradingview-widget\.com/);
+  assert.match(headers,/script-src[^\n]+https:\/\/s3\.tradingview\.com/);
+  assert.match(headers,/frame-src https:\/\/www\.tradingview-widget\.com/);
   assert.match(headers,/https:\/\/snowplow-pixel\.tradingview\.com/);
 });
 
