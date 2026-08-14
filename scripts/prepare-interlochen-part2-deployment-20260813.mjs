@@ -171,7 +171,7 @@ const articleEvidence = releaseArticles.map((article) => ({
     "/technology/",
     "/weather-climate/",
     ...(phase === "activation" ? ["/games/"] : []),
-    ...articles.map(({ canonicalUrl }) => new URL(canonicalUrl).pathname),
+    ...articleEvidence.map(({ route }) => route),
   ],
   request = {
     schemaVersion: "1.0.0",
