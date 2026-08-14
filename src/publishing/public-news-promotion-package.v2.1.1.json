@@ -854,11 +854,11 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-14T00:14:30.825Z",
       "relatedArticleIds": [
         "interlochen-abuse-investigation-report-findings"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260813t233200z-7d4c1e9a2b60",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -890,7 +890,7 @@
         "Which Interlochen programs were covered by Michigan's 1984 children's-camp rules in particular years.",
         "The records reviewed do not establish that Jeffrey Epstein knew this earlier history."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-14T00:14:30.825Z"
     },
     {
       "articleType": "news-report",
@@ -64760,8 +64760,8 @@
       "updatedAt": "2026-08-13T08:55:33.093Z"
     }
   ],
-  "compilerVersion": "manual-interlochen-part2-preview-v1",
-  "generatedAt": "2026-08-13T23:28:08Z",
+  "compilerVersion": "bohonews-manual-interlochen-installer.v1.0.0",
+  "generatedAt": "2026-08-14T00:15:11.856Z",
   "inputHashes": {
     "approvals": "f1ff5e78a0a846ec1cff7a17d3e0adfd2b1193adf9995ab45d8eaad7019f50c6",
     "articles": "8955da02db722501cac2ed52bbdcfaf26269347d810c89fea9c8f363a4431a34",
@@ -64770,7 +64770,7 @@
     "events": "82e9ab42c83d0312ae588f5007f698d71f01ee71f3c91c2ed977cc6549a551f6",
     "mediaRights": "dbb61e22d5a24521ac8256ab168fe4cb62500bbd91bcb219baa9c35a119100b9",
     "publicationIntents": "6ae020e32a2bd6f7f9606724ad67ca1121a82368465b977c264fb96a0a93c728",
-    "releaseRecords": "292948385ddc22ba8a019a957c1224947e79c67580c5c1d08de62671dd733803",
+    "releaseRecords": "6102dc27dc636a12d7cc769daba8338a72bb87817000f25d6b0eff8d37d1b245",
     "sourceItems": "f0a07119be6059ccad040f4955b9bab8830d204194e86b9d5c011a3463bea173"
   },
   "inventory": {
@@ -151497,7 +151497,7 @@
       "sourceUrl": "https://www.loc.gov/item/2017835217/"
     }
   ],
-  "packageDigest": "16278bb51a5236cb299570458405d29ad4f68fe8c2f5eb0b33e49321196a2ea9",
+  "packageDigest": "2c0a4d1a28897b51f4684a657cd8bfc761219eb4dae738c7aff5ffdeb07a19df",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -153841,9 +153841,30 @@
         "article-close-results",
         "article-fragmented-election-data"
       ]
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://612b9a7a.bohonews.pages.dev/",
+      "activationEvidenceHash": "d064d52ad7041ad30315fec14c2f7274cc6d1374c8f46b9cc14819dd4c5eb44e",
+      "canonicalFirstPublicAt": "2026-08-14T00:14:30.825Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/interlochen-before-epstein-what-was-known/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "interlochen-before-epstein-what-was-known"
+      ],
+      "previousVerifiedDeploymentReference": "3080408aaba3dc1912febd43cf13a65042a4925ccb24b936edf1fbcedeb42a9a",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-14T00:13:13.999763Z",
+      "recordHash": "91e68a24a0d96ba5645df1f49ef84f914303a7a250de3741dfc724151efd849c",
+      "releaseId": "release-pb-20260813t233200z-7d4c1e9a2b60",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
-  "releaseState": "candidate",
+  "releaseState": "final",
   "schemaVersion": "2.1.1",
   "site": "https://bohonews.com"
 }
