@@ -196,6 +196,8 @@ test("homepage carries exactly one Elections-desk story", async () => {
   assert.match(homepageSource,/homepageArticles\(sectionArticles\("latest"\)\)/);
   assert.match(homepageSource,/const homepageElectionStory = latest\.find/);
   assert.match(homepageSource,/const nonElectionLatest = latest\.filter/);
+  assert.match(homepageSource,/const latestWire = nonElectionLatest\.slice\(0,12\)/);
+  assert.match(homepageSource,/<ol>\{latestWire\.map/);
   assert.match(homepageSource,/const politics = sectionArticles\("politics"\)\.filter/);
 });
 
