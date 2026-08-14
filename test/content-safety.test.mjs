@@ -57,6 +57,13 @@ test("public evidence library keeps rights-restricted preservation copies privat
   assert.doesNotMatch(JSON.stringify(library),/local-only|editorial preview|reporting handoff|downloads needing follow-up|acquisition failed|credential-blind|read-only IMAP/i);
 });
 
+test("public evidence library externalizes CSS and JavaScript for the production CSP", async () => {
+  const builder = await readFile(new URL("../scripts/build-public-evidence-library.mjs", import.meta.url),"utf8");
+  assert.match(builder,/href="\/evidence\/evidence-library\.css"/);
+  assert.match(builder,/src="\/evidence\/evidence-library\.js" defer/);
+  assert.match(builder,/inconsistent shared assets/);
+});
+
 test("Batch 1 is preserved in the 2.1.1 baseline, digest-valid, media-bound, and release-bound", {
   skip: process.env.BOHONEWS_PREVIEW === "1"
 }, async () => {
