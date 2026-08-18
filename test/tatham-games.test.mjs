@@ -15,6 +15,15 @@ test("Tatham local-preview assets match the generated SHA-256 manifest", async (
   }
 });
 
+test("production CSP permits local WebAssembly without enabling JavaScript eval", async () => {
+  const headers = await readFile(new URL("../public/_headers",import.meta.url),"utf8");
+  const policy = headers.match(/Content-Security-Policy:\s*([^\n]+)/)?.[1] ?? "";
+  const scriptSources = policy.match(/(?:^|;)\s*script-src\s+([^;]+)/)?.[1] ?? "";
+  assert.match(scriptSources,/(?:^|\s)'wasm-unsafe-eval'(?:\s|$)/);
+  assert.doesNotMatch(scriptSources,/(?:^|\s)'unsafe-eval'(?:\s|$)/);
+  assert.match(scriptSources,/(?:^|\s)'self'(?:\s|$)/);
+});
+
 test("Nonogram uses the shared pinned host without a third-party network dependency", async () => {
   const [host,page,lock,build] = await Promise.all([
     readFile(new URL("../src/components/games/TathamPuzzleHost.astro",import.meta.url),"utf8"),
