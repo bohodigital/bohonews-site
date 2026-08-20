@@ -56,8 +56,8 @@ test("machine-readable evidence manifest exports the bound asset inventory", asy
 test("One Nation evidence convenience mirror binds the definitive nine-file release", async () => {
   assert.equal(oneNationRelease.version,"1.0.0");
   assert.equal(oneNationRelease.files.length,9);
-  assert.equal(oneNationRelease.independentMirrors.zenodo,null);
-  assert.equal(oneNationRelease.independentMirrors.internetArchive,null);
+  assert.equal(oneNationRelease.independentMirrors.zenodo,"https://doi.org/10.5281/zenodo.22036285");
+  assert.equal(oneNationRelease.independentMirrors.internetArchive,"https://archive.org/details/boho-news-one-nation-network-evidence-v1-0-0-20260815");
   const names = new Set();
   for (const file of oneNationRelease.files) {
     assert.ok(!names.has(file.name),file.name);
@@ -72,11 +72,14 @@ test("One Nation evidence convenience mirror binds the definitive nine-file rele
     oneNationRelease.files.find((file) => file.name === oneNationRelease.archiveFile).sha256);
 });
 
-test("One Nation release page exposes direct files while third-party URLs remain gated", async () => {
+test("One Nation release page exposes direct files and verified third-party mirrors", async () => {
   const page = await readFile(new URL("../src/pages/evidence/one-nation-network/index.astro",import.meta.url),"utf8");
   const route = await readFile(new URL("../src/pages/evidence/one-nation-network/v1.0.0/manifest.json.ts",import.meta.url),"utf8");
   const library = await readFile(new URL("../src/pages/evidence/index.astro",import.meta.url),"utf8");
   assert.match(page,/Complete public package/);
+  assert.match(page,/mirrorEntries/);
+  assert.match(page,/Zenodo/);
+  assert.match(page,/Internet Archive/);
   assert.match(page,/independently and matched against/);
   assert.match(page,/manifest\.json/);
   assert.match(route,/max-age=31536000, immutable/);

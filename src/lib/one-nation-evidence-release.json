@@ -18,8 +18,8 @@
     "attestedTimeUtc": "2026-08-16T01:01:33Z"
   },
   "independentMirrors": {
-    "zenodo": null,
-    "internetArchive": null
+    "zenodo": "https://doi.org/10.5281/zenodo.22036285",
+    "internetArchive": "https://archive.org/details/boho-news-one-nation-network-evidence-v1-0-0-20260815"
   },
   "files": [
     {
