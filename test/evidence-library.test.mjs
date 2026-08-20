@@ -4,6 +4,7 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 const assets = JSON.parse(await readFile(new URL("../src/lib/evidence-assets.json",import.meta.url),"utf8"));
+const oneNationRelease = JSON.parse(await readFile(new URL("../src/lib/one-nation-evidence-release.json",import.meta.url),"utf8"));
 
 test("evidence inventory binds every preserved file by SHA-256", async () => {
   assert.ok(assets.length >= 20);
@@ -50,4 +51,34 @@ test("machine-readable evidence manifest exports the bound asset inventory", asy
   assert.match(route,/evidenceAssets/);
   assert.match(route,/schemaVersion/);
   assert.match(route,/application\/json/);
+});
+
+test("One Nation evidence convenience mirror binds the definitive nine-file release", async () => {
+  assert.equal(oneNationRelease.version,"1.0.0");
+  assert.equal(oneNationRelease.files.length,9);
+  assert.equal(oneNationRelease.independentMirrors.zenodo,null);
+  assert.equal(oneNationRelease.independentMirrors.internetArchive,null);
+  const names = new Set();
+  for (const file of oneNationRelease.files) {
+    assert.ok(!names.has(file.name),file.name);
+    names.add(file.name);
+    assert.match(file.name,/^[A-Za-z0-9._-]+$/);
+    assert.match(file.sha256,/^[0-9a-f]{64}$/);
+    const bytes = await readFile(new URL(`../public${oneNationRelease.basePath}/${file.name}`,import.meta.url));
+    assert.equal(bytes.length,file.bytes,file.name);
+    assert.equal(createHash("sha256").update(bytes).digest("hex"),file.sha256,file.name);
+  }
+  assert.equal(oneNationRelease.archiveSha256,
+    oneNationRelease.files.find((file) => file.name === oneNationRelease.archiveFile).sha256);
+});
+
+test("One Nation release page exposes direct files while third-party URLs remain gated", async () => {
+  const page = await readFile(new URL("../src/pages/evidence/one-nation-network/index.astro",import.meta.url),"utf8");
+  const route = await readFile(new URL("../src/pages/evidence/one-nation-network/v1.0.0/manifest.json.ts",import.meta.url),"utf8");
+  const library = await readFile(new URL("../src/pages/evidence/index.astro",import.meta.url),"utf8");
+  assert.match(page,/Complete public package/);
+  assert.match(page,/independently and matched against/);
+  assert.match(page,/manifest\.json/);
+  assert.match(route,/max-age=31536000, immutable/);
+  assert.match(library,/\/evidence\/one-nation-network\//);
 });

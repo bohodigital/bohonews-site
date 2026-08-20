@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "boho-news-one-nation-evidence-v1.0.0",
+  "version": "1.0.0",
+  "title": "Boho News evidence release: One Nation/SLF state news-like network investigation",
+  "description": "A public-safe evidence companion containing Boho-authored analysis and methodology, claim and source indexes, cryptographic roots for a restricted archive, validation summaries, signatures and OpenTimestamps proofs.",
+  "builtAtUtc": "2026-08-16T00:47:37Z",
+  "basePath": "/evidence/one-nation-network/v1.0.0",
+  "archiveFile": "boho-news-one-nation-evidence-v1.0.0.tar.zst",
+  "archiveSha256": "ec437efa5b9c48257109717f9c82ee22365a9eca79cf09ec943f02388b9b8014",
+  "contentManifestSha256": "aa21e40a25626747f714a83a8809508e547fa44e6b5bed78b7aea12c1a122a61",
+  "publicRootFileSha256": "7489a6e3d97778dff66df402c535b22134e70d2b56b02024cd0473a77967163b",
+  "signingKeyFingerprint": "4F30942E31CDCA110A0B4AE620533ACA4261CCD4",
+  "openTimestamps": {
+    "result": "PASS",
+    "bitcoinBlockHeight": 962651,
+    "bitcoinBlockHash": "00000000000000000000326b6a06e37ba153fb2ba4347204ec9253506e45630e",
+    "attestedTimeUtc": "2026-08-16T01:01:33Z"
+  },
+  "independentMirrors": {
+    "zenodo": null,
+    "internetArchive": null
+  },
+  "files": [
+    {
+      "name": "boho-news-one-nation-evidence-v1.0.0.tar.zst",
+      "title": "Complete public evidence package",
+      "mediaType": "application/zstd",
+      "bytes": 27603,
+      "sha256": "ec437efa5b9c48257109717f9c82ee22365a9eca79cf09ec943f02388b9b8014"
+    },
+    {
+      "name": "DISTRIBUTION-SHA256SUMS.txt",
+      "title": "Distribution SHA-256 ledger",
+      "mediaType": "text/plain",
+      "bytes": 687,
+      "sha256": "b5025a1b9c472e8c38a70c6f6d76e8f70787bb1efb13bca3dfd55b51cd4f4641"
+    },
+    {
+      "name": "DISTRIBUTION-SHA256SUMS.txt.asc",
+      "title": "Detached signature for the distribution ledger",
+      "mediaType": "application/pgp-signature",
+      "bytes": 228,
+      "sha256": "92fafb6773bf8672c50f56d54c38687c604c2fad92102e284d856a73b50b2b84"
+    },
+    {
+      "name": "PUBLIC-RELEASE-ROOT.txt",
+      "title": "Public release root",
+      "mediaType": "text/plain",
+      "bytes": 275,
+      "sha256": "7489a6e3d97778dff66df402c535b22134e70d2b56b02024cd0473a77967163b"
+    },
+    {
+      "name": "PUBLIC-RELEASE-ROOT.txt.asc",
+      "title": "Detached signature for the public release root",
+      "mediaType": "application/pgp-signature",
+      "bytes": 228,
+      "sha256": "029a34b75302f6185e2e58ca98dd0fab30839e12245cf4caf2037254f1cb465a"
+    },
+    {
+      "name": "PUBLIC-RELEASE-ROOT.txt.ots",
+      "title": "OpenTimestamps proof for the public release root",
+      "mediaType": "application/octet-stream",
+      "bytes": 1492,
+      "sha256": "a27d17d126c9b6933d4f37bdfcfc85a44f8aac7691b1a57e9e5ab98a304a2326"
+    },
+    {
+      "name": "PUBLIC-RELEASE-OTS-VERIFICATION.json",
+      "title": "OpenTimestamps verification receipt",
+      "mediaType": "application/json",
+      "bytes": 1011,
+      "sha256": "a7b7710326c88dd739f6e8595ad3dacb6982de4b24bea50f81a5d9f06c4fdce8"
+    },
+    {
+      "name": "BOHO-NEWS-EVIDENCE-SIGNING-KEY.asc",
+      "title": "Boho News evidence-signing public key",
+      "mediaType": "application/pgp-keys",
+      "bytes": 425,
+      "sha256": "5c3fdbe1a53db3043cfaf97bef64257938b10a1676458a4f58c55b6900870184"
+    },
+    {
+      "name": "SIGNING-KEY-FINGERPRINT.txt",
+      "title": "Signing-key fingerprint",
+      "mediaType": "text/plain",
+      "bytes": 202,
+      "sha256": "dd74bc3a2c9106cdd816cb2e5a5c3ae0002428c657a9c2e51de64542d47a0727"
+    }
+  ]
+}

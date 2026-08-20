@@ -8,3 +8,10 @@
 
 /pagefind/*
   Cache-Control: public, max-age=3600
+
+/evidence/one-nation-network/v1.0.0/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/evidence/one-nation-network/v1.0.0/boho-news-one-nation-evidence-v1.0.0.tar.zst
+  Content-Type: application/zstd
+  Content-Disposition: attachment; filename="boho-news-one-nation-evidence-v1.0.0.tar.zst"

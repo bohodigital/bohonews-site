@@ -1,0 +1,109 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import release from "../../../lib/one-nation-evidence-release.json";
+import { candidatePreviewEnabled } from "../../../lib/news";
+
+const filePath = (name: string) => `${release.basePath}/${name}`;
+const archive = release.files.find((file) => file.name === release.archiveFile);
+const mirrorEntries = Object.entries(release.independentMirrors as Record<string,string | null>)
+  .filter((entry): entry is [string,string] => typeof entry[1] === "string");
+const mirrorLabels: Record<string,string> = {
+  zenodo: "Zenodo",
+  internetArchive: "Internet Archive"
+};
+const byteLabel = (bytes: number) => bytes < 1024
+  ? `${bytes} bytes`
+  : `${(bytes / 1024).toFixed(1)} KB`;
+---
+
+<BaseLayout
+  title="One Nation network evidence release — Boho News"
+  description="Download and independently verify the public evidence companion to Boho News's One Nation and Senate Leadership Fund network investigation."
+  canonical="https://bohonews.com/evidence/one-nation-network/"
+  noindex={candidatePreviewEnabled}
+>
+  <article class="evidence-room" data-pagefind-body>
+    {candidatePreviewEnabled &&
+      <aside class="fixture-banner" role="status">Private preview — not published</aside>}
+    <header>
+      <p class="eyebrow">Evidence release · Version {release.version}</p>
+      <h1>One Nation network investigation</h1>
+      <p>{release.description}</p>
+    </header>
+
+    <section class="evidence-summary" aria-label="Release summary">
+      <div><strong>{release.files.length}</strong><span>distribution files</span></div>
+      <div><strong>37</strong><span>files inside the package</span></div>
+      <div><strong>1</strong><span>Bitcoin-anchored timestamp proof</span></div>
+    </section>
+
+    <section class="evidence-primary">
+      <p class="evidence-id">Complete public package</p>
+      <h2>Download the frozen release</h2>
+      <p>
+        The archive contains the report, methodology, limitations, rights notes,
+        public-safe claim and evidence indexes, validation summaries, signatures
+        and timestamp proofs. It does not contain raw correspondence, private
+        data, browser state, unpublished leads, indiscriminate site mirrors or
+        full third-party article bodies.
+      </p>
+      {archive && <p><a class="button" href={filePath(archive.name)} download>Download archive ({byteLabel(archive.bytes)})</a></p>}
+      <dl>
+        <div><dt>Archive SHA-256</dt><dd><code>{release.archiveSha256}</code></dd></div>
+        <div><dt>Content-manifest SHA-256</dt><dd><code>{release.contentManifestSha256}</code></dd></div>
+        <div><dt>Signing-key fingerprint</dt><dd><code>{release.signingKeyFingerprint}</code></dd></div>
+      </dl>
+    </section>
+
+    <section aria-labelledby="integrity-title">
+      <p class="evidence-id">Integrity</p>
+      <h2 id="integrity-title">Verify before relying on a copy</h2>
+      <p class="evidence-explainer">
+        SHA-256 authenticates exact bytes; it does not independently establish
+        the truth of a historical claim or a person's intent. The signed ledger
+        binds the release files, and the OpenTimestamps proof anchors the public
+        release root to Bitcoin block {release.openTimestamps.bitcoinBlockHeight}.
+      </p>
+      <p>
+        <a href={`${release.basePath}/manifest.json`}>Machine-readable release manifest</a>
+        {" · "}
+        <a href={filePath("DISTRIBUTION-SHA256SUMS.txt")}>SHA-256 ledger</a>
+        {" · "}
+        <a href={filePath("PUBLIC-RELEASE-OTS-VERIFICATION.json")}>Timestamp verification receipt</a>
+      </p>
+    </section>
+
+    <section aria-labelledby="files-title">
+      <p class="evidence-id">Convenience mirror</p>
+      <h2 id="files-title">All release files</h2>
+      <div class="evidence-list">
+        {release.files.map((file) => <article>
+          <h3><a href={filePath(file.name)}>{file.title}</a></h3>
+          <p>{file.name} · {byteLabel(file.bytes)}</p>
+          <p class="hash"><strong>SHA-256</strong> <code>{file.sha256}</code></p>
+        </article>)}
+      </div>
+    </section>
+
+    <section aria-labelledby="mirrors-title">
+      <p class="evidence-id">Independent preservation</p>
+      <h2 id="mirrors-title">Third-party mirrors</h2>
+      {mirrorEntries.length > 0
+        ? <ul>{mirrorEntries.map(([host,url]) => <li><a href={url} rel="noopener noreferrer">{mirrorLabels[host] ?? host}</a></li>)}</ul>
+        : <p>
+            Zenodo and Internet Archive links will be added only after every
+            hosted file has been downloaded independently and matched against
+            the SHA-256 values above.
+          </p>}
+    </section>
+
+    <section class="evidence-note">
+      <h2>Scope and corrections</h2>
+      <p>
+        This is a versioned evidence companion, not a mirror of the entire
+        newsroom archive. If a correction requires different bytes, Boho News
+        will issue a new version and retain this version's identifiers and hashes.
+      </p>
+    </section>
+  </article>
+</BaseLayout>

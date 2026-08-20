@@ -1,0 +1,4 @@
+identity=Boho News Evidence Signing <editor@bohonews.com>
+openpgp_fingerprint=4F30942E31CDCA110A0B4AE620533ACA4261CCD4
+algorithm=Ed25519
+private_key_location=restricted signing storage; not distributed
