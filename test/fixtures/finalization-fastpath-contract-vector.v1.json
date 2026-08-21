@@ -1,0 +1,428 @@
+{
+  "schemaVersion": "1.0.0",
+  "contractVersion": "bohonews-finalization-fastpath.v1.0.0",
+  "valueTypes": {
+    "fileAndStatValues": "canonical-decimal-string",
+    "countsAndStatuses": "json-integer",
+    "digests": "lowercase-sha256-hex"
+  },
+  "bounds": {
+    "artifactFiles": 20000,
+    "artifactFileBytes": "26214400",
+    "artifactTotalBytes": "2147483648",
+    "privateRecordBytes": "67108864",
+    "codeInventoryEntries": 20000,
+    "codeInventoryFileBytes": "134217728",
+    "codeInventoryTotalBytes": "1073741824"
+  },
+  "activationArtifactContract": {
+    "verifiedRoot": "the exact runtime activation prepared directory, read-only, before layout sealing",
+    "requiredMarker": ".well-known/bohonews-activation.json",
+    "forbiddenMarkers": [
+      ".well-known/bohonews-candidate.json",
+      ".well-known/bohonews-release.json"
+    ],
+    "markerSchemaVersion": "1.0.0",
+    "markerReleaseState": "activation",
+    "markerSerialization": "compact recursively sorted-key JSON plus exactly one LF",
+    "markerCandidateDigestBinding": "candidatePackageDigest",
+    "markerArticleIds": "nonempty strictly sorted duplicate-free IDs exactly equal to promotion articles with publishedAt null",
+    "markerDigestBinding": "sourceMarkerSha256",
+    "treeSafety": "real root; regular nlink-1 files only; no symlinks or non-file entries; bounded by bounds",
+    "publicBehavior": "every HTML page noindex,nofollow; no preview UI, production analytics, TradingView, or invented publication timestamp; robots disallow all; candidate routes absent from feeds and sitemaps; activation headers noindex and no-store"
+  },
+  "finalTreeDigestAlgorithm": {
+    "desiredExcludesActivationInvariants": true,
+    "entryKeyOrderIsSemantic": [
+      "path",
+      "size",
+      "sha256"
+    ],
+    "inventory": "activation files with role invariant, projected to path-size-sha256, plus every plan.desired entry, sorted by strict JavaScript code-unit path order with no duplicates",
+    "canonicalBytes": "recursively lexicographically sorted JSON object keys, two-space indentation, one trailing newline",
+    "digest": "sha256(canonicalBytes({files: inventory}))"
+  },
+  "fixedPaths": {
+    "sitePublicRoot": "SITE_WORKTREE/public",
+    "generatedRoot": "SITE_WORKTREE/tmp/mcp-finalization-generated",
+    "emptyPublicRoot": "SITE_WORKTREE/tmp/mcp-finalization-empty-public",
+    "activationLayoutFilename": "bohonews-finalization-activation-layout.v1.json",
+    "precheckFilename": "bohonews-finalization-precheck.v1.json",
+    "planFilename": "bohonews-finalization-plan.v1.json",
+    "completionFilename": "bohonews-finalization-completion.v1.json",
+    "postcheckFilename": "bohonews-finalization-postcheck.v1.json"
+  },
+  "projectCommands": {
+    "deriveApprovalMediaDigest": [
+      "node",
+      "scripts/derive-mcp-finalization-fastpath.mjs",
+      "CORPUS",
+      "CANDIDATE_INPUT"
+    ],
+    "prepareMediaVerification": [
+      "node",
+      "scripts/prepare-mcp-finalization-fastpath.mjs",
+      "CORPUS",
+      "CANDIDATE_INPUT",
+      "APPROVAL_MANIFEST",
+      "ASSET_ROOT",
+      "PREPARED_MEDIA_VERIFICATION"
+    ],
+    "finalize": [
+      "node",
+      "scripts/finalize-mcp-release.mjs",
+      "CORPUS",
+      "CANDIDATE_INPUT",
+      "CANDIDATE_PACKAGE",
+      "APPROVAL_MANIFEST",
+      "ACTIVATION_EVIDENCE",
+      "OUTPUT_DIR",
+      "FINALIZED_AT",
+      "ASSET_ROOT",
+      "PUBLIC_BASELINE_PACKAGE",
+      "PREPARED_MEDIA_VERIFICATION"
+    ]
+  },
+  "siteCommands": {
+    "prepareActivationLayout": [
+      "node",
+      "scripts/publishing/prepare-finalization-fastpath.mjs",
+      "ACTIVATION_PREPARED_DIST",
+      "SITE_WORKTREE/public",
+      "PREPARATION_BINDING",
+      "bohonews-finalization-activation-layout.v1.json"
+    ],
+    "precheck": [
+      "node",
+      "scripts/publishing/attest-finalization-fastpath.mjs",
+      "pre",
+      "bohonews-finalization-activation-layout.v1.json",
+      "bohonews-finalization-precheck.v1.json"
+    ],
+    "preactivationFullValidationCommands": [
+      [
+        "npm",
+        "run",
+        "check"
+      ],
+      [
+        "npm",
+        "test"
+      ],
+      [
+        "node",
+        "scripts/publishing/validate-activation.mjs",
+        "source"
+      ],
+      [
+        "node",
+        "scripts/publishing/validate-activation.mjs",
+        "artifact"
+      ]
+    ],
+    "buildFinalGenerated": [
+      "npm",
+      "run",
+      "build:finalization-fastpath"
+    ],
+    "plan": [
+      "node",
+      "scripts/publishing/plan-finalization-fastpath.mjs",
+      "ACTIVATION_PREPARED_DIST",
+      "bohonews-finalization-activation-layout.v1.json",
+      "SITE_WORKTREE/public",
+      "bohonews-finalization-plan.v1.json"
+    ],
+    "atomicRename": {
+      "operation": "same-filesystem-directory-rename",
+      "from": "RUNTIME_BATCH_ROOT/activation/prepared-dist",
+      "to": "RUNTIME_BATCH_ROOT/final/prepared-dist",
+      "preconditions": [
+        "destination-absent",
+        "parents-real-owned-same-device",
+        "root-device-and-inode-preserved",
+        "old-root-absent-after-rename"
+      ]
+    },
+    "apply": [
+      "node",
+      "scripts/publishing/apply-finalization-fastpath.mjs",
+      "FINAL_PREPARED_DIST",
+      "bohonews-finalization-activation-layout.v1.json",
+      "bohonews-finalization-plan.v1.json",
+      "SITE_WORKTREE/public",
+      "bohonews-finalization-completion.v1.json"
+    ],
+    "postcheck": [
+      "node",
+      "scripts/publishing/attest-finalization-fastpath.mjs",
+      "post",
+      "bohonews-finalization-precheck.v1.json",
+      "bohonews-finalization-activation-layout.v1.json",
+      "bohonews-finalization-plan.v1.json",
+      "bohonews-finalization-completion.v1.json",
+      "FINAL_PREPARED_DIST",
+      "FINALIZATION_DIFF",
+      "bohonews-finalization-postcheck.v1.json"
+    ]
+  },
+  "siteStdoutJson": {
+    "prepareActivationLayout": {
+      "exactKeys": [
+        "ok",
+        "contractVersion",
+        "activationTreeDigest",
+        "invariantFileCount",
+        "fileCount",
+        "recordHash"
+      ],
+      "constants": {
+        "ok": true,
+        "contractVersion": "bohonews-finalization-fastpath.v1.0.0"
+      }
+    },
+    "precheck": {
+      "exactKeys": [
+        "ok",
+        "phase",
+        "recordHash"
+      ],
+      "constants": {
+        "ok": true,
+        "phase": "preactivation-full-validation"
+      }
+    },
+    "plan": {
+      "exactKeys": [
+        "ok",
+        "contractVersion",
+        "activationTreeDigest",
+        "generatedTreeDigest",
+        "finalTreeDigest",
+        "changedPathCount",
+        "deletedPathCount",
+        "recordHash"
+      ],
+      "constants": {
+        "ok": true,
+        "contractVersion": "bohonews-finalization-fastpath.v1.0.0"
+      }
+    },
+    "apply": {
+      "exactKeys": [
+        "ok",
+        "contractVersion",
+        "activationTreeDigest",
+        "changedPathCount",
+        "deletedPathCount",
+        "recordHash"
+      ],
+      "constants": {
+        "ok": true,
+        "contractVersion": "bohonews-finalization-fastpath.v1.0.0"
+      }
+    },
+    "postcheck": {
+      "exactKeys": [
+        "ok",
+        "phase",
+        "recordHash"
+      ],
+      "constants": {
+        "ok": true,
+        "phase": "post-first-public-targeted-validation"
+      }
+    }
+  },
+  "recordKeySets": {
+    "preparationBinding": [
+      "schemaVersion",
+      "contractVersion",
+      "approvalDigest",
+      "candidatePackageDigest",
+      "sourceActivationArtifactSha256",
+      "sourceInventorySha256",
+      "sourceMarkerSha256",
+      "recordHash"
+    ],
+    "activationLayout": [
+      "schemaVersion",
+      "contractVersion",
+      "phase",
+      "preparationBindingRecordHash",
+      "approvalDigest",
+      "candidatePackageDigest",
+      "sourceActivationArtifactSha256",
+      "sourceInventorySha256",
+      "sourceMarkerSha256",
+      "rootDevice",
+      "rootInode",
+      "dynamicPublicPaths",
+      "fileCount",
+      "invariantFileCount",
+      "activationTreeDigest",
+      "invariantTreeDigest",
+      "files",
+      "recordHash"
+    ],
+    "activationFile": [
+      "path",
+      "role",
+      "size",
+      "device",
+      "inode",
+      "mode",
+      "modifiedNs",
+      "changedNs",
+      "links",
+      "sha256"
+    ],
+    "precheck": [
+      "schemaVersion",
+      "contractVersion",
+      "phase",
+      "preparationBindingRecordHash",
+      "approvalDigest",
+      "candidatePackageDigest",
+      "sourceActivationArtifactSha256",
+      "sourceInventorySha256",
+      "sourceMarkerSha256",
+      "activationLayoutRecordHash",
+      "activationTreeDigest",
+      "codeInventoryDigest",
+      "codeFileCount",
+      "commands",
+      "recordHash"
+    ],
+    "plan": [
+      "schemaVersion",
+      "contractVersion",
+      "phase",
+      "activationLayoutRecordHash",
+      "preparationBindingRecordHash",
+      "approvalDigest",
+      "candidatePackageDigest",
+      "sourceActivationArtifactSha256",
+      "sourceInventorySha256",
+      "sourceMarkerSha256",
+      "activationTreeDigest",
+      "generatedTreeDigest",
+      "finalTreeDigest",
+      "desiredFileCount",
+      "changedPathCount",
+      "deletedPathCount",
+      "desired",
+      "changed",
+      "deleted",
+      "recordHash"
+    ],
+    "planDesired": [
+      "path",
+      "size",
+      "sha256"
+    ],
+    "planChanged": [
+      "path",
+      "old",
+      "new"
+    ],
+    "planDeleted": [
+      "path",
+      "old"
+    ],
+    "oldState": [
+      "size",
+      "sha256",
+      "device",
+      "inode",
+      "mode",
+      "modifiedNs",
+      "changedNs",
+      "links"
+    ],
+    "plannedNewState": [
+      "size",
+      "sha256"
+    ],
+    "completion": [
+      "schemaVersion",
+      "contractVersion",
+      "phase",
+      "activationLayoutRecordHash",
+      "preparationBindingRecordHash",
+      "approvalDigest",
+      "candidatePackageDigest",
+      "sourceActivationArtifactSha256",
+      "sourceInventorySha256",
+      "sourceMarkerSha256",
+      "activationTreeDigest",
+      "finalizationPlanRecordHash",
+      "generatedTreeDigest",
+      "finalTreeDigest",
+      "finalRootDevice",
+      "finalRootInode",
+      "changed",
+      "deleted",
+      "recordHash"
+    ],
+    "completedNewState": [
+      "size",
+      "device",
+      "inode",
+      "mode",
+      "modifiedNs",
+      "changedNs",
+      "links",
+      "sha256"
+    ],
+    "postcheck": [
+      "schemaVersion",
+      "contractVersion",
+      "phase",
+      "preparationBindingRecordHash",
+      "approvalDigest",
+      "candidatePackageDigest",
+      "sourceActivationArtifactSha256",
+      "sourceInventorySha256",
+      "sourceMarkerSha256",
+      "preactivationValidationRecordHash",
+      "activationLayoutRecordHash",
+      "finalizationPlanRecordHash",
+      "completionRecordHash",
+      "finalizationDiffRecordHash",
+      "codeInventoryDigest",
+      "finalPackageDigest",
+      "publicContentInventoryDigest",
+      "releaseMarkerHash",
+      "generatedTreeDigest",
+      "finalTreeDigest",
+      "routeCount",
+      "recordHash"
+    ],
+    "preparedMediaVerification": [
+      "schemaVersion",
+      "contractVersion",
+      "approvalDigest",
+      "mediaRightsDigest",
+      "fileCount",
+      "files",
+      "recordHash"
+    ],
+    "preparedMediaFile": [
+      "path",
+      "sha256",
+      "size",
+      "device",
+      "inode",
+      "mode",
+      "modifiedNs",
+      "changedNs",
+      "links"
+    ]
+  },
+  "dynamicPublicPaths": [
+    ".well-known/bohonews-release.json",
+    "_headers"
+  ],
+  "preparedDirectoryManifestProducer": "mcp-materializer; hub validates, hashes, seals, and deploys"
+}

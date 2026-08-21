@@ -46,8 +46,11 @@ const stories = library.stories.map((story) => {
   };
 });
 
-const globalRoot = join(root, "dist", "evidence");
-const interlochenRoot = join(root, "dist", "investigations", "interlochen", "evidence");
+const outputRoot = process.env.BOHONEWS_FINALIZATION_FASTPATH === "1"
+  ? join(root,"tmp","mcp-finalization-generated")
+  : join(root,"dist");
+const globalRoot = join(outputRoot, "evidence");
+const interlochenRoot = join(outputRoot, "investigations", "interlochen", "evidence");
 const noindex = process.env.BOHONEWS_INCLUDE_FIXTURES === "1"
   || process.env.BOHONEWS_PREVIEW === "1"
   || process.env.BOHONEWS_ACTIVATION === "1";

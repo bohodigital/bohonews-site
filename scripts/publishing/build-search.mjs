@@ -6,8 +6,11 @@ import { fileURLToPath } from "node:url";
 
 const root = fileURLToPath(new URL("../../", import.meta.url));
 const binary = join(root, "node_modules/.bin/pagefind");
+const outputRoot = process.env.BOHONEWS_FINALIZATION_FASTPATH === "1"
+  ? join(root,"tmp/mcp-finalization-generated")
+  : join(root,"dist");
 const started = performance.now();
-const result = spawnSync(binary, ["--site", join(root,"dist")], {encoding:"utf8"});
+const result = spawnSync(binary, ["--site", outputRoot], {encoding:"utf8"});
 const durationMs = Math.round((performance.now() - started) * 100) / 100;
 if (result.status === 0) {
   console.log(`Pagefind index completed in ${durationMs} ms.`);
@@ -41,9 +44,9 @@ const index = records.map(({headline,dek,slug,section,articleType,publishedAt}) 
   articleType,
   year:publishedAt?.slice(0,4) ?? null
 }));
-const pagefindDir = join(root,"dist/pagefind");
+const pagefindDir = join(outputRoot,"pagefind");
 await mkdir(pagefindDir,{recursive:true});
-await writeFile(join(root,"dist/search-index.json"),`${JSON.stringify(index)}\n`);
+await writeFile(join(outputRoot,"search-index.json"),`${JSON.stringify(index)}\n`);
 await writeFile(join(pagefindDir,"pagefind-ui.css"),".pagefind-ui__form{display:grid;gap:1rem}.pagefind-ui__search-input{font:inherit;padding:.8rem}.pagefind-ui__result{border-top:1px solid #c8c7c1;padding:1rem 0}\n");
 await writeFile(join(pagefindDir,"pagefind-ui.js"),`window.PagefindUI=class PagefindUI{constructor({element}){const root=document.querySelector(element),form=document.createElement('form'),label=document.createElement('label'),input=document.createElement('input'),out=document.createElement('div');form.className='pagefind-ui__form';form.setAttribute('role','search');label.htmlFor='local-search';label.textContent='Search approved articles';input.id='local-search';input.className='pagefind-ui__search-input';input.type='search';out.className='pagefind-ui__results';form.append(label,input,out);root.replaceChildren(form);let rows=[];const render=()=>{const q=input.value.trim().toLowerCase(),matches=q?rows.filter(x=>(x.title+' '+x.excerpt+' '+x.section+' '+x.articleType).toLowerCase().includes(q)):[];out.replaceChildren(...matches.map(x=>{const article=document.createElement('article'),heading=document.createElement('h2'),link=document.createElement('a'),excerpt=document.createElement('p');article.className='pagefind-ui__result';link.href=x.url;link.textContent=x.title;excerpt.textContent=x.excerpt;heading.append(link);article.append(heading,excerpt);return article;}));};input.addEventListener('input',render);fetch('/search-index.json?v=20260730-1').then(r=>r.json()).then(value=>{rows=value;input.dispatchEvent(new Event('input',{bubbles:true}));});}}\n`);
 console.warn(`Pagefind native index unavailable (${result.status}); deterministic local fallback generated in ${durationMs} ms.`);
