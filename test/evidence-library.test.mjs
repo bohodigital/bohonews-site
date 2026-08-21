@@ -89,9 +89,11 @@ test("One Nation release page exposes direct files and verified third-party mirr
 
 test("One Nation frozen-corpus convenience files match the public release data", async () => {
   assert.equal(oneNationCorpus.status,"built-and-independently-validated");
+  assert.equal(oneNationCorpus.version,"1.1.0");
   assert.equal(oneNationCorpus.custodyEntries,30333);
   assert.equal(oneNationCorpus.uniquePublicSourceObjects,16670);
   assert.equal(oneNationCorpus.archive.localConvenienceCopy,false);
+  assert.deepEqual(oneNationCorpus.independentMirrors,{zenodo:null,internetArchive:null});
   assert.match(oneNationCorpus.archive.sha256,/^[0-9a-f]{64}$/);
   for (const file of oneNationCorpus.files) {
     const bytes = await readFile(new URL(`../public${oneNationCorpus.basePath}/${file.name}`,import.meta.url));
@@ -111,6 +113,7 @@ test("One Nation editorial preview is local-only and uses the exact frozen figur
   assert.match(preview,/Private editorial preview — not published/);
   assert.match(preview,/We froze the record—and we will keep watching/);
   assert.doesNotMatch(preview,/29,780 file entries|Full custody disclaimer/);
+  assert.doesNotMatch(preview,/as of this preview|preview cutoff|will recheck the mailbox|Preview note|localhost rendering/i);
   assert.match(preview,/SourceCitation/);
   assert.match(preview,/InvestigationBibliography/);
   assert.match(figureComponent,/Open complete original PNG/);
@@ -118,6 +121,7 @@ test("One Nation editorial preview is local-only and uses the exact frozen figur
   assert.doesNotMatch(figureComponent,/Inspect the entire full-page capture/);
   assert.match(figureViewer,/Very tall pages are shown as labeled excerpts/);
   assert.match(evidenceRoom,/bibliography\.json/);
+  assert.doesNotMatch(evidenceRoom,/private right-of-reply correspondence|confidential newsroom correspondence ledger/i);
   const sourceIds = new Set([...bibliography.matchAll(/\n\s+id: (\d+),/g)].map((match) => Number(match[1])));
   assert.equal(sourceIds.size,41);
   const citedIds = [...preview.matchAll(/<SourceCitation ids=\{\[([^\]]+)\]\}/g)]

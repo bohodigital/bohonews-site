@@ -25,6 +25,8 @@ const mirrorLabels: Record<string,string> = {
   zenodo: "Zenodo",
   internetArchive: "Internet Archive"
 };
+const corpusMirrorEntries = Object.entries(corpus.independentMirrors as Record<string,string | null>)
+  .filter((entry): entry is [string,string] => typeof entry[1] === "string");
 const byteLabel = (bytes: number) => bytes < 1024
   ? `${bytes} bytes`
   : bytes < 1024 ** 2
@@ -61,7 +63,7 @@ const byteLabel = (bytes: number) => bytes < 1024
 
     <section class="evidence-primary evidence-story-link">
       <p class="evidence-id">The investigation</p>
-      <h2>One Nation's network was bigger than reported</h2>
+      <h2>We found two more sites in One Nation's astroturf news network</h2>
       <p>
         Boho News found a live North Carolina site promoted with Senate Leadership
         Fund money and a One Nation-branded Michigan build in an SLF development
@@ -120,7 +122,7 @@ const byteLabel = (bytes: number) => bytes < 1024
       <p>
         The story now carries claim-level numbered citations tied to a {oneNationBibliography.length}-item
         bibliography. It distinguishes public records, first-party pages, preserved exhibits,
-        reproducible Boho News analysis and private right-of-reply correspondence.
+        reproducible Boho News analysis and dated right-of-reply records.
       </p>
       <p class="evidence-actions">
         <a class="button" href="/evidence/one-nation-network/bibliography.json">Download machine-readable bibliography</a>
@@ -170,11 +172,17 @@ const byteLabel = (bytes: number) => bytes < 1024
         <div><span>Validation</span><strong>PASS</strong></div>
       </div>
       <p class="hash"><strong>Archive SHA-256</strong> <code>{corpus.archive.sha256}</code></p>
-      <p class="preview-host-note">
-        The {byteLabel(corpus.archive.bytes)} archive is too large for the newsroom convenience mirror. Its
-        Zenodo and Internet Archive download links will appear here after the hosted
-        copies are downloaded independently and matched against this hash.
-      </p>
+      {corpusMirrorEntries.length > 0
+        ? <p class="preview-host-note">
+            Independently verified copies: {corpusMirrorEntries.map(([host,url], index) => <>
+              {index > 0 && " · "}<a href={url} rel="noopener noreferrer">{mirrorLabels[host] ?? host}</a>
+            </>)}
+          </p>
+        : <p class="preview-host-note">
+            The {byteLabel(corpus.archive.bytes)} archive is too large for the newsroom convenience mirror.
+            Independent-host links will be added only after each hosted copy has been downloaded and
+            matched against the SHA-256 value above.
+          </p>}
       <p>
         <a href={corpusFilePath("FROZEN-PUBLIC-SOURCE-CORPUS-MANIFEST-20260820.csv")} download>Corpus manifest</a>
         {" · "}
@@ -235,14 +243,13 @@ const byteLabel = (bytes: number) => bytes < 1024
     </section>
 
     <section aria-labelledby="withheld-title">
-      <p class="evidence-id">What is not public</p>
-      <h2 id="withheld-title">The manifest accounts for restricted material without exposing it</h2>
+      <p class="evidence-id">Public-release boundary</p>
+      <h2 id="withheld-title">Restricted material is counted—not exposed</h2>
       <p>
-        We do not publish raw correspondence, full email headers, credentials,
-        authenticated browser state, unrelated personal information, security-bearing
-        network records, internal legal or editorial work, or unresolved leads that
-        did not survive verification. The manifest records that those items exist and
-        binds them to hashes without disclosing the private fields themselves.
+        The public manifest hash-accounts for restricted material without revealing
+        identifying fields. The downloadable corpus excludes correspondence, credentials
+        and authenticated sessions, unrelated personal information, security-sensitive
+        records, unpublished newsroom analysis and unresolved leads.
       </p>
       <p>
         Boho News will consider focused verification requests from directly affected

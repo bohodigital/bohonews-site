@@ -447,12 +447,11 @@ figcaption { color: var(--text-muted); font-size: .75rem; margin-top: .55rem; }
   color: var(--text-muted); font-size: .7rem; font-weight: 850; line-height: 1.35;
   text-transform: uppercase;
 }
-.one-nation-preview .standfirst { font-size: 1.25em; font-weight: 750; line-height: 1.55; }
-.one-nation-preview code { font-size: .85em; overflow-wrap: anywhere; }
+.one-nation-article .standfirst { font-size: 1.25em; font-weight: 750; line-height: 1.55; }
+.one-nation-article code { font-size: .85em; overflow-wrap: anywhere; }
 .evidence-room-callout { border-left-color: var(--investigation); }
 .evidence-room-callout .label { color: var(--investigation); }
 .evidence-room-callout--closing { margin-top: 3.5rem; }
-.preview-editorial-note { color: var(--text-muted); }
 
 .evidence-capture {
   background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow);
@@ -495,8 +494,8 @@ figcaption { color: var(--text-muted); font-size: .75rem; margin-top: .55rem; }
   text-transform: uppercase;
 }
 .evidence-capture figcaption { margin-top: .75rem; }
-.one-nation-preview .article-data-module { margin-left: clamp(-3rem,-4vw,-1.5rem); margin-right: clamp(-3rem,-4vw,-1.5rem); }
-.one-nation-preview .article-data-module table { min-width: 42rem; }
+.one-nation-article .article-data-module { margin-left: clamp(-3rem,-4vw,-1.5rem); margin-right: clamp(-3rem,-4vw,-1.5rem); }
+.one-nation-article .article-data-module table { min-width: 42rem; }
 
 .investigation-hub,.evidence-room,.methodology-page { margin: 2rem auto; max-width: 72rem; }
 .investigation-hero,.evidence-room > header,.methodology-page > header {
@@ -736,8 +735,8 @@ figcaption { color: var(--text-muted); font-size: .75rem; margin-top: .55rem; }
   .desk-split { grid-template-columns: 1fr; }
   .section-empty { grid-template-columns: 1fr; padding: 1.2rem; }
   .article-inline-media,.article-data-module { margin-left: -.35rem; margin-right: -.35rem; }
-  .one-nation-preview .evidence-capture { margin-left: 0; margin-right: 0; max-width: 100%; }
-  .one-nation-preview .article-data-module { margin-left: 0; margin-right: 0; }
+  .one-nation-article .evidence-capture { margin-left: 0; margin-right: 0; max-width: 100%; }
+  .one-nation-article .article-data-module { margin-left: 0; margin-right: 0; }
   .investigation-facts { grid-template-columns: 1fr; }
   .evidence-capture figcaption { display: grid; }
   .evidence-capture__detail { aspect-ratio: 4 / 3; }
