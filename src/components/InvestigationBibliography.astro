@@ -1,0 +1,41 @@
+---
+import {oneNationBibliography} from "../lib/one-nation-bibliography";
+
+interface Props {
+  headingLevel?: "h2" | "h3";
+  compact?: boolean;
+}
+
+const {headingLevel = "h2", compact = false} = Astro.props;
+const Heading = headingLevel;
+---
+
+<section class:list={["investigation-bibliography", {"investigation-bibliography--compact": compact}]} aria-labelledby="bibliography-title">
+  <p class="evidence-id">Source record</p>
+  <Heading id="bibliography-title">Full bibliography and citation notes</Heading>
+  <p class="bibliography-intro">
+    The numbered references in the story point here. “Preserved exhibit” opens
+    Boho News’s clean evidence viewer for the unchanged screenshot; private
+    correspondence is identified but not published.
+  </p>
+  <ol>
+    {oneNationBibliography.map((source) => <li id={`source-${source.id}`}>
+      <div class="bibliography-number" aria-hidden="true">{source.id}</div>
+      <div>
+        <p class="bibliography-title">
+          {source.url
+            ? <a href={source.url} rel={source.url.startsWith("http") ? "noopener noreferrer" : undefined}>{source.title}</a>
+            : source.title}
+        </p>
+        <p class="bibliography-meta">
+          {source.publisher} · {source.date}
+          {source.accessed ? ` · Accessed ${source.accessed}` : ""}
+          {` · ${source.sourceType}`}
+        </p>
+        <p><strong>Supports:</strong> {source.supports}</p>
+        {source.note && <p class="bibliography-note"><strong>Limit:</strong> {source.note}</p>}
+        {source.preservedUrl && <p class="bibliography-links"><a href={source.preservedUrl}>Preserved exhibit or record</a></p>}
+      </div>
+    </li>)}
+  </ol>
+</section>

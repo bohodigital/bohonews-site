@@ -7,6 +7,9 @@ interface Props {
   width: number;
   height: number;
   focus?: "top" | "center" | "bottom";
+  primaryPosition?: string;
+  secondaryPosition?: string;
+  secondaryLabel?: string;
   fullPage?: boolean;
 }
 
@@ -18,22 +21,58 @@ const {
   width,
   height,
   focus = "top",
+  primaryPosition,
+  secondaryPosition,
+  secondaryLabel,
   fullPage = true
 } = Astro.props;
+
+const isTall = fullPage && height / width >= 2.5;
+const secondaryFocus = focus === "bottom" ? "top" : "bottom";
+const resolvedPrimaryPosition = primaryPosition ?? focus;
+const resolvedSecondaryPosition = secondaryPosition ?? secondaryFocus;
+const primaryLabel = focus === "bottom"
+  ? "Disclosure and footer excerpt"
+  : focus === "center"
+    ? "Relevant middle excerpt"
+    : "Page-opening excerpt";
+const resolvedSecondaryLabel = secondaryLabel ?? (secondaryFocus === "bottom"
+  ? "Disclosure and footer excerpt"
+  : "Page-opening excerpt");
+const dimensions = `${width.toLocaleString("en-US")} × ${height.toLocaleString("en-US")} pixels`;
 ---
 
-<figure class:list={["article-inline-media", "evidence-capture", `evidence-capture--${focus}`, {"evidence-capture--short": !fullPage}]}>
-  <div class="evidence-capture__detail">
-    <img src={src} alt={alt} width={width} height={height} loading="lazy" />
+<figure class:list={["article-inline-media", "evidence-capture", `evidence-capture--${focus}`, {"evidence-capture--short": !fullPage, "evidence-capture--tall": isTall}]} id={`figure-${number}`}>
+  <div class="evidence-capture__meta">
+    <span>{isTall ? "Unaltered full-page screenshot · excerpts below" : "Unaltered screenshot"}</span>
+    <span>{dimensions}</span>
   </div>
-  {fullPage && <details class="evidence-capture__full">
-    <summary>Inspect the entire full-page capture</summary>
-    <div class="evidence-capture__scroll" tabindex="0" aria-label={`Scrollable full-page view of Figure ${number}`}>
-      <img src={src} alt="" width={width} height={height} loading="lazy" />
-    </div>
-  </details>}
+
+  {isTall
+    ? <div class="evidence-capture__excerpts">
+        <section class:list={["evidence-capture__excerpt", `evidence-capture__excerpt--${focus}`]} aria-label={primaryLabel}>
+          <p>{primaryLabel}</p>
+          <div class="evidence-capture__detail">
+            <img src={src} alt={alt} width={width} height={height} loading="lazy" style={`object-position: center ${resolvedPrimaryPosition}`} />
+          </div>
+        </section>
+        <section class:list={["evidence-capture__excerpt", `evidence-capture__excerpt--${secondaryFocus}`, "evidence-capture__excerpt--secondary"]} aria-label={resolvedSecondaryLabel}>
+          <p>{resolvedSecondaryLabel}</p>
+          <div class="evidence-capture__detail">
+            <img src={src} alt="" width={width} height={height} loading="lazy" style={`object-position: center ${resolvedSecondaryPosition}`} />
+          </div>
+        </section>
+      </div>
+    : <div class="evidence-capture__detail">
+        <img src={src} alt={alt} width={width} height={height} loading="lazy" />
+      </div>}
+
+  <div class="evidence-capture__actions">
+    <a href={src} target="_blank" rel="noopener">Open complete original PNG</a>
+    <a href={src} download>Download original</a>
+  </div>
+
   <figcaption>
     <span><strong>Figure {number}.</strong> {caption}</span>
-    <a href={src}>Open full-resolution figure</a>
   </figcaption>
 </figure>

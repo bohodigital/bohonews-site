@@ -1,0 +1,15 @@
+---
+interface Props {
+  ids: number[];
+}
+
+const {ids} = Astro.props;
+const uniqueIds = [...new Set(ids)];
+---
+
+<sup class="source-citations" aria-label={`Sources ${uniqueIds.join(", ")}`}>
+  {uniqueIds.map((id, index) => <>
+    {index > 0 && <span aria-hidden="true">, </span>}
+    <a href={`#source-${id}`} aria-label={`Source ${id}`}>{id}</a>
+  </>)}
+</sup>

@@ -1,0 +1,78 @@
+---
+import type { GetStaticPaths } from "astro";
+import EvidenceFigure from "../../../../components/EvidenceFigure.astro";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import {
+  oneNationFigures,
+  oneNationFigurePath,
+  type OneNationFigure
+} from "../../../../lib/one-nation-figures";
+
+export const getStaticPaths = (() => oneNationFigures.map((figure) => ({
+  params: {number: String(figure.number)},
+  props: {figure}
+}))) satisfies GetStaticPaths;
+
+interface Props {
+  figure: OneNationFigure;
+}
+
+const {figure} = Astro.props;
+const previewMode = import.meta.env.BOHONEWS_PREVIEW === "1" || import.meta.env.BOHONEWS_LOCAL_PREVIEW === "1";
+const previous = oneNationFigures.find((item) => item.number === figure.number - 1);
+const next = oneNationFigures.find((item) => item.number === figure.number + 1);
+---
+
+<BaseLayout
+  title={`Figure ${figure.number}: ${figure.title} — Boho News`}
+  description={`Clean evidence viewer for Figure ${figure.number} in Boho News's One Nation network investigation.`}
+  canonical={`https://bohonews.com/evidence/one-nation-network/figures/${figure.number}/`}
+  noindex={previewMode}
+>
+  <article class="figure-viewer-page">
+    {previewMode && <aside class="fixture-banner" role="status">Private editorial preview — not published</aside>}
+
+    <nav class="figure-viewer-breadcrumb" aria-label="Evidence navigation">
+      <a href="/evidence/one-nation-network/">← One Nation Evidence Room</a>
+      <span>Figure {figure.number} of {oneNationFigures.length}</span>
+    </nav>
+
+    <header>
+      <p class="eyebrow">Original visual evidence · Figure {figure.number}</p>
+      <h1>{figure.title}</h1>
+      <p>
+        Very tall pages are shown as labeled excerpts from the unchanged screenshot.
+        The complete original PNG remains available to open or download separately.
+      </p>
+    </header>
+
+    <EvidenceFigure
+      number={figure.number}
+      src={oneNationFigurePath(figure)}
+      alt={figure.alt}
+      width={figure.width}
+      height={figure.height}
+      focus={figure.focus}
+      primaryPosition={figure.primaryPosition}
+      secondaryPosition={figure.secondaryPosition}
+      secondaryLabel={figure.secondaryLabel}
+      fullPage={figure.fullPage ?? true}
+      caption={figure.caption}
+    />
+
+    <dl class="figure-viewer-integrity">
+      <div><dt>Captured</dt><dd>{figure.captured}</dd></div>
+      <div><dt>Dimensions</dt><dd>{figure.width.toLocaleString("en-US")} × {figure.height.toLocaleString("en-US")} pixels</dd></div>
+      <div><dt>SHA-256</dt><dd><code>{figure.sha256}</code></dd></div>
+    </dl>
+
+    <nav class="figure-viewer-pager" aria-label="Other figures">
+      {previous
+        ? <a href={`/evidence/one-nation-network/figures/${previous.number}/`}>← Figure {previous.number}</a>
+        : <span></span>}
+      {next
+        ? <a href={`/evidence/one-nation-network/figures/${next.number}/`}>Figure {next.number} →</a>
+        : <a href="/evidence/one-nation-network/">Back to Evidence Room →</a>}
+    </nav>
+  </article>
+</BaseLayout>

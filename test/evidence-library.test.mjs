@@ -103,12 +103,27 @@ test("One Nation frozen-corpus convenience files match the public release data",
 test("One Nation editorial preview is local-only and uses the exact frozen figures", async () => {
   const preview = await readFile(new URL("../src/pages/preview/[slug].astro",import.meta.url),"utf8");
   const figureComponent = await readFile(new URL("../src/components/EvidenceFigure.astro",import.meta.url),"utf8");
+  const figureViewer = await readFile(new URL("../src/pages/evidence/one-nation-network/figures/[number].astro",import.meta.url),"utf8");
+  const evidenceRoom = await readFile(new URL("../src/pages/evidence/one-nation-network/index.astro",import.meta.url),"utf8");
+  const bibliography = await readFile(new URL("../src/lib/one-nation-bibliography.ts",import.meta.url),"utf8");
   const provenance = await readFile(new URL("../public/evidence/one-nation-network/frozen-corpus-20260820/FIGURE-PROVENANCE-SHA256-20260820.csv",import.meta.url),"utf8");
   assert.match(preview,/BOHONEWS_LOCAL_PREVIEW/);
   assert.match(preview,/Private editorial preview — not published/);
   assert.match(preview,/We froze the record—and we will keep watching/);
   assert.doesNotMatch(preview,/29,780 file entries|Full custody disclaimer/);
-  assert.match(figureComponent,/Open full-resolution figure/);
+  assert.match(preview,/SourceCitation/);
+  assert.match(preview,/InvestigationBibliography/);
+  assert.match(figureComponent,/Open complete original PNG/);
+  assert.match(figureComponent,/Page-opening excerpt/);
+  assert.doesNotMatch(figureComponent,/Inspect the entire full-page capture/);
+  assert.match(figureViewer,/Very tall pages are shown as labeled excerpts/);
+  assert.match(evidenceRoom,/bibliography\.json/);
+  const sourceIds = new Set([...bibliography.matchAll(/\n\s+id: (\d+),/g)].map((match) => Number(match[1])));
+  assert.equal(sourceIds.size,41);
+  const citedIds = [...preview.matchAll(/<SourceCitation ids=\{\[([^\]]+)\]\}/g)]
+    .flatMap((match) => match[1].split(",").map((value) => Number(value.trim())));
+  assert.ok(citedIds.length >= 40);
+  for (const id of citedIds) assert.ok(sourceIds.has(id),`missing bibliography source ${id}`);
   const rows = provenance.trim().split("\n").slice(1);
   assert.equal(rows.length,11);
   for (const row of rows) {

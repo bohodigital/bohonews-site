@@ -1,7 +1,14 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import InvestigationBibliography from "../../../components/InvestigationBibliography.astro";
 import release from "../../../lib/one-nation-evidence-release.json";
 import corpus from "../../../lib/one-nation-frozen-corpus-release.json";
+import {oneNationBibliography} from "../../../lib/one-nation-bibliography";
+import {
+  oneNationFigures as figures,
+  oneNationFigurePath,
+  oneNationFigureViewerPath
+} from "../../../lib/one-nation-figures";
 import { candidatePreviewEnabled } from "../../../lib/news";
 
 const localEditorialPreview = import.meta.env.BOHONEWS_LOCAL_PREVIEW === "1";
@@ -25,20 +32,6 @@ const byteLabel = (bytes: number) => bytes < 1024
     : bytes < 1024 ** 3
       ? `${(bytes / 1024 ** 2).toFixed(1)} MB`
       : `${(bytes / 1024 ** 3).toFixed(2)} GB`;
-const figureBase = "/media/investigations/one-nation-network/figures";
-const figures = [
-  {number:1,name:"figure-08-alaska-navigator-pro-sullivan-homepage.png",title:"Alaska Navigator’s pro-Sullivan homepage and One Nation footer",focus:"top"},
-  {number:2,name:"figure-09-one-nation-dan-sullivan-privacy-ad.png",title:"One Nation’s direct pro-Sullivan privacy campaign",focus:"top"},
-  {number:3,name:"figure-10-maine-policy-updates-susan-collins-rural-hospitals.png",title:"Maine Policy Updates credits Susan Collins on rural hospitals",focus:"top"},
-  {number:4,name:"figure-11-maine-policy-updates-susan-collins-drug-costs.png",title:"Maine Policy Updates credits Susan Collins on drug costs",focus:"top"},
-  {number:5,name:"figure-01-north-carolinian-homepage-and-slf-footer.png",title:"The North Carolinian homepage and SLF PAC footer",focus:"bottom"},
-  {number:6,name:"figure-02-north-carolinian-one-nation-privacy-residue.png",title:"North Carolinian privacy policy naming One Nation",focus:"top"},
-  {number:7,name:"figure-03-meta-ad-library-north-carolinian-results.png",title:"Meta Ad Library results for The North Carolinian",focus:"center"},
-  {number:8,name:"figure-04-north-carolinian-slf-ad-destination.png",title:"SLF PAC advertisement destination on The North Carolinian",focus:"top"},
-  {number:9,name:"figure-05-michigander-password-protected-homepage.png",title:"Password-protected Michigander News homepage",focus:"center"},
-  {number:10,name:"figure-06-michigander-public-news-path.png",title:"Public Michigander News path and One Nation footer",focus:"bottom"},
-  {number:11,name:"figure-07-michigander-one-nation-privacy-and-footer.png",title:"Michigander privacy policy naming One Nation and the SLF host",focus:"top"}
-];
 ---
 
 <BaseLayout
@@ -102,12 +95,16 @@ const figures = [
         to inspect the full-resolution original.
       </p>
       <div class="evidence-figure-grid">
-        {figures.map((figure) => <article>
-          <a class:list={["evidence-figure-thumb", `evidence-figure-thumb--${figure.focus}`]} href={`${figureBase}/${figure.name}`}>
-            <img src={`${figureBase}/${figure.name}`} alt="" loading="lazy" />
+        {figures.map((figure) => <article id={`figure-${figure.number}`}>
+          <a class:list={["evidence-figure-thumb", `evidence-figure-thumb--${figure.focus}`]} href={oneNationFigureViewerPath(figure)}>
+            <img src={oneNationFigurePath(figure)} alt="" loading="lazy" />
           </a>
           <p class="evidence-id">Figure {figure.number}</p>
-          <h3><a href={`${figureBase}/${figure.name}`}>{figure.title}</a></h3>
+          <h3><a href={oneNationFigureViewerPath(figure)}>{figure.title}</a></h3>
+          <p class="evidence-figure-card-actions">
+            <a href={oneNationFigureViewerPath(figure)}>View clean evidence page</a>
+            <a href={oneNationFigurePath(figure)} target="_blank" rel="noopener">Original PNG</a>
+          </p>
         </article>)}
       </div>
       <p class="evidence-manifest-link">
@@ -115,6 +112,23 @@ const figures = [
           Download figure provenance and SHA-256 ledger
         </a>
       </p>
+    </section>
+
+    <section class="evidence-primary evidence-bibliography" aria-labelledby="citation-library-title">
+      <p class="evidence-id">Citation library</p>
+      <h2 id="citation-library-title">Every numbered source behind the story</h2>
+      <p>
+        The story now carries claim-level numbered citations tied to a {oneNationBibliography.length}-item
+        bibliography. It distinguishes public records, first-party pages, preserved exhibits,
+        reproducible Boho News analysis and private right-of-reply correspondence.
+      </p>
+      <p class="evidence-actions">
+        <a class="button" href="/evidence/one-nation-network/bibliography.json">Download machine-readable bibliography</a>
+      </p>
+      <details class="evidence-bibliography__details">
+        <summary>Browse the complete bibliography</summary>
+        <InvestigationBibliography headingLevel="h3" compact={true} />
+      </details>
     </section>
 
     <section class="evidence-primary" aria-labelledby="manifest-title">
