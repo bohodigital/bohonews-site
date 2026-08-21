@@ -15,3 +15,6 @@
 /evidence/one-nation-network/v1.0.0/boho-news-one-nation-evidence-v1.0.0.tar.zst
   Content-Type: application/zstd
   Content-Disposition: attachment; filename="boho-news-one-nation-evidence-v1.0.0.tar.zst"
+
+/evidence/one-nation-network/frozen-corpus-20260820/*
+  Cache-Control: public, max-age=31536000, immutable

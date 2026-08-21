@@ -5,6 +5,7 @@ import test from "node:test";
 
 const assets = JSON.parse(await readFile(new URL("../src/lib/evidence-assets.json",import.meta.url),"utf8"));
 const oneNationRelease = JSON.parse(await readFile(new URL("../src/lib/one-nation-evidence-release.json",import.meta.url),"utf8"));
+const oneNationCorpus = JSON.parse(await readFile(new URL("../src/lib/one-nation-frozen-corpus-release.json",import.meta.url),"utf8"));
 
 test("evidence inventory binds every preserved file by SHA-256", async () => {
   assert.ok(assets.length >= 20);
@@ -84,4 +85,38 @@ test("One Nation release page exposes direct files and verified third-party mirr
   assert.match(page,/manifest\.json/);
   assert.match(route,/max-age=31536000, immutable/);
   assert.match(library,/\/evidence\/one-nation-network\//);
+});
+
+test("One Nation frozen-corpus convenience files match the public release data", async () => {
+  assert.equal(oneNationCorpus.status,"built-and-independently-validated");
+  assert.equal(oneNationCorpus.custodyEntries,30333);
+  assert.equal(oneNationCorpus.uniquePublicSourceObjects,16670);
+  assert.equal(oneNationCorpus.archive.localConvenienceCopy,false);
+  assert.match(oneNationCorpus.archive.sha256,/^[0-9a-f]{64}$/);
+  for (const file of oneNationCorpus.files) {
+    const bytes = await readFile(new URL(`../public${oneNationCorpus.basePath}/${file.name}`,import.meta.url));
+    assert.equal(bytes.length,file.bytes,file.name);
+    assert.equal(createHash("sha256").update(bytes).digest("hex"),file.sha256,file.name);
+  }
+});
+
+test("One Nation editorial preview is local-only and uses the exact frozen figures", async () => {
+  const preview = await readFile(new URL("../src/pages/preview/[slug].astro",import.meta.url),"utf8");
+  const figureComponent = await readFile(new URL("../src/components/EvidenceFigure.astro",import.meta.url),"utf8");
+  const provenance = await readFile(new URL("../public/evidence/one-nation-network/frozen-corpus-20260820/FIGURE-PROVENANCE-SHA256-20260820.csv",import.meta.url),"utf8");
+  assert.match(preview,/BOHONEWS_LOCAL_PREVIEW/);
+  assert.match(preview,/Private editorial preview — not published/);
+  assert.match(preview,/We froze the record—and we will keep watching/);
+  assert.doesNotMatch(preview,/29,780 file entries|Full custody disclaimer/);
+  assert.match(figureComponent,/Open full-resolution figure/);
+  const rows = provenance.trim().split("\n").slice(1);
+  assert.equal(rows.length,11);
+  for (const row of rows) {
+    const match = row.match(/^([^,]+),[^,]+,[^,]+,(\d+),([a-f0-9]{64}),/);
+    assert.ok(match,row);
+    const [,name,expectedBytes,expectedHash] = match;
+    const bytes = await readFile(new URL(`../public/media/investigations/one-nation-network/figures/${name}`,import.meta.url));
+    assert.equal(bytes.length,Number(expectedBytes),name);
+    assert.equal(createHash("sha256").update(bytes).digest("hex"),expectedHash,name);
+  }
 });

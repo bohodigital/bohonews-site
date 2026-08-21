@@ -1,9 +1,16 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import release from "../../../lib/one-nation-evidence-release.json";
+import corpus from "../../../lib/one-nation-frozen-corpus-release.json";
 import { candidatePreviewEnabled } from "../../../lib/news";
 
-const filePath = (name: string) => `${release.basePath}/${name}`;
+const localEditorialPreview = import.meta.env.BOHONEWS_LOCAL_PREVIEW === "1";
+const previewMode = candidatePreviewEnabled || localEditorialPreview;
+const storyPath = localEditorialPreview
+  ? "/preview/one-nation-network/"
+  : "/articles/one-nation-astroturf-news-network/";
+const releaseFilePath = (name: string) => `${release.basePath}/${name}`;
+const corpusFilePath = (name: string) => `${corpus.basePath}/${name}`;
 const archive = release.files.find((file) => file.name === release.archiveFile);
 const mirrorEntries = Object.entries(release.independentMirrors as Record<string,string | null>)
   .filter((entry): entry is [string,string] => typeof entry[1] === "string");
@@ -13,81 +20,197 @@ const mirrorLabels: Record<string,string> = {
 };
 const byteLabel = (bytes: number) => bytes < 1024
   ? `${bytes} bytes`
-  : `${(bytes / 1024).toFixed(1)} KB`;
+  : bytes < 1024 ** 2
+    ? `${(bytes / 1024).toFixed(1)} KB`
+    : bytes < 1024 ** 3
+      ? `${(bytes / 1024 ** 2).toFixed(1)} MB`
+      : `${(bytes / 1024 ** 3).toFixed(2)} GB`;
+const figureBase = "/media/investigations/one-nation-network/figures";
+const figures = [
+  {number:1,name:"figure-08-alaska-navigator-pro-sullivan-homepage.png",title:"Alaska Navigator’s pro-Sullivan homepage and One Nation footer",focus:"top"},
+  {number:2,name:"figure-09-one-nation-dan-sullivan-privacy-ad.png",title:"One Nation’s direct pro-Sullivan privacy campaign",focus:"top"},
+  {number:3,name:"figure-10-maine-policy-updates-susan-collins-rural-hospitals.png",title:"Maine Policy Updates credits Susan Collins on rural hospitals",focus:"top"},
+  {number:4,name:"figure-11-maine-policy-updates-susan-collins-drug-costs.png",title:"Maine Policy Updates credits Susan Collins on drug costs",focus:"top"},
+  {number:5,name:"figure-01-north-carolinian-homepage-and-slf-footer.png",title:"The North Carolinian homepage and SLF PAC footer",focus:"bottom"},
+  {number:6,name:"figure-02-north-carolinian-one-nation-privacy-residue.png",title:"North Carolinian privacy policy naming One Nation",focus:"top"},
+  {number:7,name:"figure-03-meta-ad-library-north-carolinian-results.png",title:"Meta Ad Library results for The North Carolinian",focus:"center"},
+  {number:8,name:"figure-04-north-carolinian-slf-ad-destination.png",title:"SLF PAC advertisement destination on The North Carolinian",focus:"top"},
+  {number:9,name:"figure-05-michigander-password-protected-homepage.png",title:"Password-protected Michigander News homepage",focus:"center"},
+  {number:10,name:"figure-06-michigander-public-news-path.png",title:"Public Michigander News path and One Nation footer",focus:"bottom"},
+  {number:11,name:"figure-07-michigander-one-nation-privacy-and-footer.png",title:"Michigander privacy policy naming One Nation and the SLF host",focus:"top"}
+];
 ---
 
 <BaseLayout
-  title="One Nation network evidence release — Boho News"
-  description="Download and independently verify the public evidence companion to Boho News's One Nation and Senate Leadership Fund network investigation."
+  title="One Nation astroturf network Evidence Room — Boho News"
+  description="Original figures, public manifests, frozen-source archive controls and independent verification for Boho News's One Nation and Senate Leadership Fund network investigation."
   canonical="https://bohonews.com/evidence/one-nation-network/"
-  noindex={candidatePreviewEnabled}
+  noindex={previewMode}
 >
-  <article class="evidence-room" data-pagefind-body>
-    {candidatePreviewEnabled &&
-      <aside class="fixture-banner" role="status">Private preview — not published</aside>}
+  <article class="evidence-room one-nation-evidence-room" data-pagefind-body>
+    {previewMode && <aside class="fixture-banner" role="status">Private editorial preview — not published</aside>}
+
     <header>
-      <p class="eyebrow">Evidence release · Version {release.version}</p>
-      <h1>One Nation network investigation</h1>
-      <p>{release.description}</p>
+      <p class="eyebrow">Evidence Room · One Nation network investigation</p>
+      <h1>See the proof for yourself</h1>
+      <p>
+        Every major claim in this investigation is backed by preserved public-web
+        evidence. Start with the original figures, then go as deep as you want:
+        public manifests, checksum ledgers, validation receipts and independent mirrors.
+      </p>
     </header>
 
-    <section class="evidence-summary" aria-label="Release summary">
-      <div><strong>{release.files.length}</strong><span>distribution files</span></div>
-      <div><strong>37</strong><span>files inside the package</span></div>
-      <div><strong>1</strong><span>Bitcoin-anchored timestamp proof</span></div>
+    <section class="evidence-summary" aria-label="Evidence release summary">
+      <div><strong>8</strong><span>properties in the documented footprint</span></div>
+      <div><strong>11</strong><span>unaltered article figures</span></div>
+      <div><strong>30,333</strong><span>entries in the public-safe custody manifest</span></div>
     </section>
 
-    <section class="evidence-primary">
-      <p class="evidence-id">Complete public package</p>
-      <h2>Download the frozen release</h2>
+    <section class="evidence-primary evidence-story-link">
+      <p class="evidence-id">The investigation</p>
+      <h2>One Nation's network was bigger than reported</h2>
       <p>
-        The archive contains the report, methodology, limitations, rights notes,
-        public-safe claim and evidence indexes, validation summaries, signatures
-        and timestamp proofs. It does not contain raw correspondence, private
-        data, browser state, unpublished leads, indiscriminate site mirrors or
-        full third-party article bodies.
+        Boho News found a live North Carolina site promoted with Senate Leadership
+        Fund money and a One Nation-branded Michigan build in an SLF development
+        environment, extending the visible production footprint from six properties
+        to eight states.
       </p>
-      {archive && <p><a class="button" href={filePath(archive.name)} download>Download archive ({byteLabel(archive.bytes)})</a></p>}
+      <p><a class="button" href={storyPath}>Read the full investigation</a></p>
+    </section>
+
+    <section aria-labelledby="freeze-title">
+      <p class="evidence-id">Preservation</p>
+      <h2 id="freeze-title">We froze what we saw before anyone had a reason to change it</h2>
+      <p class="evidence-explainer">
+        Before outreach, Boho News preserved the relevant pages, ads, public records
+        and technical material. If a footer disappears, a privacy policy is rewritten,
+        an ad is removed or a staging page goes dark, the frozen record remains checkable.
+      </p>
+      <p>
+        We will continue monitoring the properties. After publication, any material
+        change will be documented and reported as a change—not silently folded into
+        the original record.
+      </p>
+    </section>
+
+    <section aria-labelledby="figures-title">
+      <p class="evidence-id">Original visual evidence</p>
+      <h2 id="figures-title">The 11 figures used in the story</h2>
+      <p class="evidence-explainer">
+        These are the exact preserved PNG files used in the article. No arrows,
+        highlights, text boxes or recreated graphics were added. Open any figure
+        to inspect the full-resolution original.
+      </p>
+      <div class="evidence-figure-grid">
+        {figures.map((figure) => <article>
+          <a class:list={["evidence-figure-thumb", `evidence-figure-thumb--${figure.focus}`]} href={`${figureBase}/${figure.name}`}>
+            <img src={`${figureBase}/${figure.name}`} alt="" loading="lazy" />
+          </a>
+          <p class="evidence-id">Figure {figure.number}</p>
+          <h3><a href={`${figureBase}/${figure.name}`}>{figure.title}</a></h3>
+        </article>)}
+      </div>
+      <p class="evidence-manifest-link">
+        <a href={corpusFilePath("FIGURE-PROVENANCE-SHA256-20260820.csv")} download>
+          Download figure provenance and SHA-256 ledger
+        </a>
+      </p>
+    </section>
+
+    <section class="evidence-primary" aria-labelledby="manifest-title">
+      <p class="evidence-id">Supplementary data</p>
+      <h2 id="manifest-title">Download the public custody manifest</h2>
+      <p>
+        This is where the full inventory belongs—not in the middle of the story.
+        The public-safe manifest accounts for every item in the sealed custody record.
+        Restricted rows keep a stable ID, size, hash, category and publication
+        disposition while omitting private identifying fields.
+      </p>
+      <p class="evidence-actions">
+        <a class="button" href={corpusFilePath("PUBLIC-SAFE-FULL-CUSTODY-MANIFEST-20260820.csv")} download>
+          Download CSV ({byteLabel(10111549)})
+        </a>
+        <a class="button button-secondary" href={corpusFilePath("PUBLIC-SAFE-FULL-CUSTODY-MANIFEST-20260820.jsonl")} download>
+          Download JSONL ({byteLabel(16117236)})
+        </a>
+      </p>
       <dl>
-        <div><dt>Archive SHA-256</dt><dd><code>{release.archiveSha256}</code></dd></div>
-        <div><dt>Content-manifest SHA-256</dt><dd><code>{release.contentManifestSha256}</code></dd></div>
-        <div><dt>Signing-key fingerprint</dt><dd><code>{release.signingKeyFingerprint}</code></dd></div>
+        <div><dt>Custody entries</dt><dd>{corpus.custodyEntries.toLocaleString("en-US")}</dd></div>
+        <div><dt>Accounted bytes</dt><dd>{byteLabel(corpus.custodyBytes)}</dd></div>
+        <div><dt>CSV SHA-256</dt><dd><code>9af25e4a1935b49c2a6f8c4b22eea82cdd6e1e0b3e169c93769df84e3915e2e0</code></dd></div>
       </dl>
     </section>
 
-    <section aria-labelledby="integrity-title">
-      <p class="evidence-id">Integrity</p>
-      <h2 id="integrity-title">Verify before relying on a copy</h2>
+    <section aria-labelledby="corpus-title">
+      <p class="evidence-id">Frozen public-source corpus</p>
+      <h2 id="corpus-title">The source archive is data, not a working copy of the political sites</h2>
       <p class="evidence-explainer">
-        SHA-256 authenticates exact bytes; it does not independently establish
-        the truth of a historical claim or a person's intent. The signed ledger
-        binds the release files, and the OpenTimestamps proof anchors the public
-        release root to Bitcoin block {release.openTimestamps.bitcoinBlockHeight}.
+        The independently validated corpus contains {corpus.uniquePublicSourceObjects.toLocaleString("en-US")}{" "}
+        unique public-source objects selected from {corpus.selectedPublicSourceRows.toLocaleString("en-US")}{" "}
+        custody rows. It does not execute captured code, submit forms, load trackers or
+        reconstruct the sites as navigable mirrors.
+      </p>
+      <div class="archive-spec">
+        <div><span>Archive size</span><strong>{byteLabel(corpus.archive.bytes)}</strong></div>
+        <div><span>Unique objects</span><strong>{corpus.uniquePublicSourceObjects.toLocaleString("en-US")}</strong></div>
+        <div><span>Validation</span><strong>PASS</strong></div>
+      </div>
+      <p class="hash"><strong>Archive SHA-256</strong> <code>{corpus.archive.sha256}</code></p>
+      <p class="preview-host-note">
+        The {byteLabel(corpus.archive.bytes)} archive is too large for the newsroom convenience mirror. Its
+        Zenodo and Internet Archive download links will appear here after the hosted
+        copies are downloaded independently and matched against this hash.
       </p>
       <p>
-        <a href={`${release.basePath}/manifest.json`}>Machine-readable release manifest</a>
+        <a href={corpusFilePath("FROZEN-PUBLIC-SOURCE-CORPUS-MANIFEST-20260820.csv")} download>Corpus manifest</a>
         {" · "}
-        <a href={filePath("DISTRIBUTION-SHA256SUMS.txt")}>SHA-256 ledger</a>
+        <a href={corpusFilePath("FROZEN-PUBLIC-SOURCE-OBJECT-SHA256SUMS-20260820.txt")} download>Object checksum ledger</a>
         {" · "}
-        <a href={filePath("PUBLIC-RELEASE-OTS-VERIFICATION.json")}>Timestamp verification receipt</a>
+        <a href={corpusFilePath("PUBLIC-ARCHIVE-BUILD-SUMMARY-20260820.json")}>Build receipt</a>
+        {" · "}
+        <a href={corpusFilePath("PUBLIC-ARCHIVE-INDEPENDENT-VALIDATION-20260820.json")}>Independent validation receipt</a>
       </p>
     </section>
 
     <section aria-labelledby="files-title">
-      <p class="evidence-id">Convenience mirror</p>
-      <h2 id="files-title">All release files</h2>
+      <p class="evidence-id">Convenience copies</p>
+      <h2 id="files-title">All supplementary files hosted by Boho News</h2>
       <div class="evidence-list">
-        {release.files.map((file) => <article>
-          <h3><a href={filePath(file.name)}>{file.title}</a></h3>
+        {corpus.files.map((file) => <article>
+          <h3><a href={corpusFilePath(file.name)}>{file.title}</a></h3>
           <p>{file.name} · {byteLabel(file.bytes)}</p>
           <p class="hash"><strong>SHA-256</strong> <code>{file.sha256}</code></p>
         </article>)}
       </div>
+      <p class="hash fileset-root"><strong>Publication fileset ledger SHA-256</strong> <code>{corpus.publicationFilesetLedgerSha256}</code></p>
+    </section>
+
+    <section aria-labelledby="companion-title">
+      <p class="evidence-id">Complete public package · Version 1.0.0</p>
+      <h2 id="companion-title">Earlier signed evidence companion</h2>
+      <p>
+        The smaller signed companion contains the report, methodology, limitations,
+        claim and evidence indexes, signatures and OpenTimestamps proof. It remains
+        available here and through two independent hosts.
+      </p>
+      {archive && <p><a class="button" href={releaseFilePath(archive.name)} download>Download complete public package ({byteLabel(archive.bytes)})</a></p>}
+      <dl class="companion-integrity">
+        <div><dt>Archive SHA-256</dt><dd><code>{release.archiveSha256}</code></dd></div>
+        <div><dt>Signing-key fingerprint</dt><dd><code>{release.signingKeyFingerprint}</code></dd></div>
+        <div><dt>Bitcoin block</dt><dd>{release.openTimestamps.bitcoinBlockHeight}</dd></div>
+      </dl>
+      <p>
+        <a href={`${release.basePath}/manifest.json`}>Machine-readable release manifest</a>
+        {" · "}
+        <a href={releaseFilePath("DISTRIBUTION-SHA256SUMS.txt")}>SHA-256 ledger</a>
+        {" · "}
+        <a href={releaseFilePath("PUBLIC-RELEASE-OTS-VERIFICATION.json")}>Timestamp verification receipt</a>
+      </p>
     </section>
 
     <section aria-labelledby="mirrors-title">
       <p class="evidence-id">Independent preservation</p>
-      <h2 id="mirrors-title">Third-party mirrors</h2>
+      <h2 id="mirrors-title">Verified third-party mirrors for version 1.0.0</h2>
       {mirrorEntries.length > 0
         ? <ul>{mirrorEntries.map(([host,url]) => <li><a href={url} rel="noopener noreferrer">{mirrorLabels[host] ?? host}</a></li>)}</ul>
         : <p>
@@ -97,12 +220,34 @@ const byteLabel = (bytes: number) => bytes < 1024
           </p>}
     </section>
 
-    <section class="evidence-note">
-      <h2>Scope and corrections</h2>
+    <section aria-labelledby="withheld-title">
+      <p class="evidence-id">What is not public</p>
+      <h2 id="withheld-title">The manifest accounts for restricted material without exposing it</h2>
       <p>
-        This is a versioned evidence companion, not a mirror of the entire
-        newsroom archive. If a correction requires different bytes, Boho News
-        will issue a new version and retain this version's identifiers and hashes.
+        We do not publish raw correspondence, full email headers, credentials,
+        authenticated browser state, unrelated personal information, security-bearing
+        network records, internal legal or editorial work, or unresolved leads that
+        did not survive verification. The manifest records that those items exist and
+        binds them to hashes without disclosing the private fields themselves.
+      </p>
+      <p>
+        Boho News will consider focused verification requests from directly affected
+        parties, journalists, researchers or counsel. Depending on the material, that
+        may mean a hash attestation, redacted excerpt, reviewed copy or supervised inspection.
+      </p>
+    </section>
+
+    <section class="evidence-note">
+      <h2>Hashes prove exact bytes—not intent</h2>
+      <p>
+        SHA-256, signatures and timestamps let readers verify that a file is the same
+        file Boho News released and that we possessed it by a particular time. They do
+        not independently establish that every statement inside a captured page is true
+        or explain why an operator made a particular choice.
+      </p>
+      <p>
+        If a correction requires different bytes, Boho News will issue a new numbered
+        evidence version while preserving prior identifiers and hashes.
       </p>
     </section>
   </article>

@@ -1,0 +1,39 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  caption: string;
+  number: number;
+  width: number;
+  height: number;
+  focus?: "top" | "center" | "bottom";
+  fullPage?: boolean;
+}
+
+const {
+  src,
+  alt,
+  caption,
+  number,
+  width,
+  height,
+  focus = "top",
+  fullPage = true
+} = Astro.props;
+---
+
+<figure class:list={["article-inline-media", "evidence-capture", `evidence-capture--${focus}`, {"evidence-capture--short": !fullPage}]}>
+  <div class="evidence-capture__detail">
+    <img src={src} alt={alt} width={width} height={height} loading="lazy" />
+  </div>
+  {fullPage && <details class="evidence-capture__full">
+    <summary>Inspect the entire full-page capture</summary>
+    <div class="evidence-capture__scroll" tabindex="0" aria-label={`Scrollable full-page view of Figure ${number}`}>
+      <img src={src} alt="" width={width} height={height} loading="lazy" />
+    </div>
+  </details>}
+  <figcaption>
+    <span><strong>Figure {number}.</strong> {caption}</span>
+    <a href={src}>Open full-resolution figure</a>
+  </figcaption>
+</figure>

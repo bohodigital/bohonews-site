@@ -24,7 +24,10 @@ const {
 const candidatePreview = import.meta.env.BOHONEWS_PREVIEW === "1";
 const candidateActivation = import.meta.env.BOHONEWS_ACTIVATION === "1";
 const candidateUnpublished = candidatePreview || candidateActivation;
-const productionArtifact = !candidateUnpublished && import.meta.env.BOHONEWS_INCLUDE_FIXTURES !== "1";
+const localEditorialPreview = import.meta.env.BOHONEWS_LOCAL_PREVIEW === "1";
+const productionArtifact = !candidateUnpublished
+  && !localEditorialPreview
+  && import.meta.env.BOHONEWS_INCLUDE_FIXTURES !== "1";
 const socialImage = new URL(image ?? "/og.png", Astro.site);
 const siteGraph = {
   "@context":"https://schema.org",
@@ -65,7 +68,7 @@ const siteGraph = {
     <meta name="twitter:card" content="summary_large_image" />
     <script is:inline type="application/ld+json" set:html={jsonForHtml(siteGraph)} />
     <script is:inline src="/theme.js"></script>
-    {!candidateUnpublished && <script
+    {!candidateUnpublished && !localEditorialPreview && <script
       is:inline
       src="/analytics-bootstrap.js"
       data-umami-script-url="https://analytics.bohodigitalservices.com/script.js"

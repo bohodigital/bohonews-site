@@ -1,0 +1,410 @@
+---
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EvidenceFigure from "../../components/EvidenceFigure.astro";
+
+export const getStaticPaths = (() => import.meta.env.BOHONEWS_LOCAL_PREVIEW === "1"
+  ? [{params:{slug:"one-nation-network"}}]
+  : []) satisfies GetStaticPaths;
+
+const figureBase = "/media/investigations/one-nation-network/figures";
+const evidenceRoom = "/evidence/one-nation-network/";
+---
+
+<BaseLayout
+  title="One Nation's astroturf news network was bigger than reported — Boho News"
+  description="Boho News found a live North Carolina outlet and a One Nation-branded Michigan build, extending the known operation from six properties to an eight-state production footprint."
+  canonical="https://bohonews.com/articles/one-nation-astroturf-news-network/"
+  noindex={true}
+  articleType="article"
+>
+  <article class="article-page one-nation-preview" data-public-article-id="preview-one-nation-astroturf-news-network">
+    <aside class="fixture-banner" role="status">Private editorial preview — not published</aside>
+
+    <nav class="series-context" aria-label="Investigation navigation">
+      <a href="/preview/one-nation-network/">
+        <span>The One Nation network investigation</span>
+        <strong>Exclusive</strong>
+      </a>
+      <a href={evidenceRoom}>Evidence Room</a>
+    </nav>
+
+    <header class="article-header">
+      <p class="article-kicker"><span>Investigations</span><span>Politics</span><span>Exclusive</span></p>
+      <h1>One Nation's astroturf news network was bigger than reported</h1>
+      <p class="article-dek">
+        The operation was not limited to six sites. A live North Carolina outlet promoted with Senate Leadership Fund money and a One Nation-branded Michigan staging build extend the footprint into all eight states named in SLF's $342 million Senate plan.
+      </p>
+      <p class="byline">By Augustine Bayer, Editor in chief</p>
+      <p class="timestamps">Publication date pending</p>
+    </header>
+
+    <section class="investigation-facts" aria-label="Key findings">
+      <div><strong>8</strong><span>states in the visible production footprint</span></div>
+      <div><strong>2</strong><span>additional properties documented by Boho News</span></div>
+      <div><strong>14 of 59</strong><span>dated articles preceded domain registration</span></div>
+    </section>
+
+    <div class="article-body">
+      <p class="standfirst">The political astroturfing operation first reported as six state-branded news websites had a larger visible production footprint.</p>
+
+      <p>Boho News recovered two additional properties in the same narrow technical environment: The North Carolinian, a live site whose advertisements identified Senate Leadership Fund PAC as the payer, and Michigander News, a One Nation-branded staging draft hosted within a Senate Leadership Fund development environment.</p>
+
+      <p>We use <strong>astroturfing</strong> in its ordinary political-communications sense: centrally sponsored advocacy made to resemble independent, locally rooted public sentiment or journalism. That description fits this network. Its properties called themselves independent state news publications, adopted local names and branding, and published candidate-favorable or opponent-negative political material, while their national political sponsorship appeared in legal footers, privacy-policy residue or advertising disclosures rather than in the ordinary presentation of the articles.</p>
+
+      <p>“Astroturfing” here describes the form and provenance of the communication. It is not, by itself, a claim that a particular disclosure violated election law.</p>
+
+      <p>Together with Alaska Navigator, Maine Policy Updates, Iowa Voice, Ohio Pulse, Peach State Post and New Hampshire Daily, the properties cover Alaska, Georgia, Iowa, Maine, Michigan, New Hampshire, North Carolina and Ohio. Those are the same eight states in which <a href="https://senateleadershipfund.org/press-releases/slf-announces-initial-342-million-investment-in-2026-senate-races/" rel="noopener noreferrer">Senate Leadership Fund announced an initial $342 million investment</a> on April 6.</p>
+
+      <p>That geographic identity is significant context. It is not evidence that the announced $342 million paid for the websites, and Boho News found no invoice assigning a particular payment to a particular domain.</p>
+
+      <p>The investigation also found that five of the six originally reported sites display some articles dated before their domains were registered. Fourteen of 59 dated articles fall into that category. Comparisons with identified source material support a narrower explanation than random fabrication: later site builds often retained dates associated with earlier source material, producing archives that appeared to extend further into the past than the domains themselves.</p>
+
+      <p>That is evidence of retrospective population. By itself, it does not establish what operators intended the displayed dates to communicate or that anyone meant to deceive readers.</p>
+
+      <aside class="source-callout evidence-room-callout">
+        <p class="label">See every receipt</p>
+        <p>Boho News froze the underlying pages, ads and records before publication. The Evidence Room holds the full-resolution figures, methods, public manifests, hashes, verification files and independent archive links.</p>
+        <a href={evidenceRoom}>Open the One Nation Evidence Room →</a>
+      </aside>
+
+      <h2>From six reported sites to an eight-state footprint</h2>
+
+      <p><a href="https://popular.info/p/senate-republicans-launch-network" rel="noopener noreferrer">Popular Information reported on August 6</a> that One Nation was operating at least six state-branded sites in competitive Senate states. It identified the properties through disclosures associated with Meta advertising.</p>
+
+      <p>Boho News began with those six as a calibration set. We looked for candidates across advertising records, certificate data, development hosts, WordPress endpoints, analytics identifiers, theme residue, domain-registration records, archives, vendor portfolios and repeated language. A candidate was not attributed merely because it used the same registrar, nameserver, WordPress theme or vendor.</p>
+
+      <figure class="article-data-module">
+        <figcaption>The eight-property record</figcaption>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th scope="col">Property</th><th scope="col">State</th><th scope="col">Captured status</th><th scope="col">Direct attribution in the preserved record</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Alaska Navigator</th><td>Alaska</td><td>Live</td><td>One Nation</td></tr>
+              <tr><th scope="row">Maine Policy Updates</th><td>Maine</td><td>Live</td><td>One Nation</td></tr>
+              <tr><th scope="row">Iowa Voice</th><td>Iowa</td><td>Live</td><td>One Nation</td></tr>
+              <tr><th scope="row">Ohio Pulse</th><td>Ohio</td><td>Live</td><td>One Nation</td></tr>
+              <tr><th scope="row">Peach State Post</th><td>Georgia</td><td>Live</td><td>One Nation; Meta records also identify One Nation responsibility</td></tr>
+              <tr><th scope="row">New Hampshire Daily</th><td>New Hampshire</td><td>Live</td><td>One Nation</td></tr>
+              <tr><th scope="row">The North Carolinian</th><td>North Carolina</td><td>Live</td><td>SLF footer and Meta payer disclosure; One Nation privacy-language residue</td></tr>
+              <tr><th scope="row">Michigander News</th><td>Michigan</td><td>Protected homepage; public peripheral and scaffold routes at captured times</td><td>One Nation branding on an SLF development host</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </figure>
+
+      <p>All eight shared a narrow production cluster that included Google Analytics property <code>G-MB5F8297KV</code>, the same WordPress child theme and an <code>acquire</code> production-author identity. The recovered installations occupied low-numbered slots in the same broader environment.</p>
+
+      <p>Those markers were treated as corroboration, not standalone attribution. Our control searches found some generic infrastructure conventions across unrelated Acquire Digital work. The North Carolina and Michigan findings are stronger because direct payer or branding evidence converges with the technical evidence.</p>
+
+      <h2>What the astroturf network was selling</h2>
+
+      <p>The network did not merely aggregate neutral state news. Its own pages show a repeated political function: give Republican Senate candidates the authority and visual language of local journalism, amplify favorable issue frames, and publish negative frames about opponents.</p>
+
+      <p>The clearest example is Alaska Navigator. Its homepage called the outlet “INDEPENDENT NEWS COVERING THE LAST FRONTIER,” but the legal footer said it was paid for by One Nation. The captured homepage led with three favorable pieces about incumbent Republican Sen. Dan Sullivan:</p>
+
+      <ul>
+        <li>“Senator Dan S. Sullivan’s Legislative Record of Supporting Alaska’s Veterans”;</li>
+        <li>“Sen. Sullivan’s tax policy helps Alaska businesses thrive”; and</li>
+        <li>“Opinion: Dan Sullivan has earned another term by delivering for Alaska.”</li>
+      </ul>
+
+      <p>The same homepage listed favorable pieces crediting Sullivan with tougher fentanyl enforcement, protecting Alaska Native fur handicrafts, military investment, fisheries advocacy and health-care funding. That selection portrayed Sullivan as a pro-military, pro-resource-development, business-friendly incumbent focused on veterans, public safety, fisheries and federal investment. Those themes overlap with <a href="https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-touts-alaska-comeback-historic-opportunities-in-annual-address-to-legislature" rel="noopener noreferrer">Sullivan’s official account of his agenda</a>.</p>
+
+      <EvidenceFigure
+        number={1}
+        src={`${figureBase}/figure-08-alaska-navigator-pro-sullivan-homepage.png`}
+        alt="Full-page capture of Alaska Navigator showing independent-news branding, favorable Dan Sullivan headlines and the One Nation payer footer."
+        width={1440}
+        height={12000}
+        focus="top"
+        caption="Unaltered full-page capture of Alaska Navigator on August 13, 2026. The page branded itself as independent news, prominently featured favorable Sullivan articles, and ended with “Paid for by One Nation.”"
+      />
+
+      <p>One Nation was simultaneously running direct issue advocacy praising the same candidate on the same themes. One preserved One Nation page announced a $6 million Alaska campaign and asked viewers to “CALL AND THANK DAN S. SULLIVAN FOR PROTECTING OUR PRIVACY,” crediting him for the Homebuyers Privacy Protection Act.</p>
+
+      <EvidenceFigure
+        number={2}
+        src={`${figureBase}/figure-09-one-nation-dan-sullivan-privacy-ad.png`}
+        alt="One Nation page announcing an advertisement praising Dan Sullivan for protecting Alaskans' privacy."
+        width={1440}
+        height={12000}
+        focus="top"
+        caption="Unaltered full-page capture of One Nation’s July 1 page promoting its pro-Sullivan privacy advertisement. Boho News has not established that the Sullivan campaign knew of, approved or coordinated the state-branded site or this advocacy."
+      />
+
+      <p>Maine Policy Updates used an even more explicit “fact check” format. Five captured pages asked whether Republican Sen. Susan Collins lowered prescription-drug costs, funded rural hospitals, supported firefighters and first responders, secured clean-water funding and helped with home-heating costs. Each delivered a favorable conclusion. Those themes also appear on <a href="https://www.collins.senate.gov/issues" rel="noopener noreferrer">Collins’s official issue pages</a> and <a href="https://susancollins.com/get-the-facts/did-susan-collins-fund-rural-hospitals/" rel="noopener noreferrer">campaign material</a>.</p>
+
+      <EvidenceFigure
+        number={3}
+        src={`${figureBase}/figure-10-maine-policy-updates-susan-collins-rural-hospitals.png`}
+        alt="Maine Policy Updates fact check crediting Susan Collins with rural-hospital funding."
+        width={1440}
+        height={12000}
+        focus="top"
+        caption="Unaltered full-page capture of Maine Policy Updates’ favorable rural-hospitals “fact check.” The page footer said “Paid for by One Nation.”"
+      />
+
+      <EvidenceFigure
+        number={4}
+        src={`${figureBase}/figure-11-maine-policy-updates-susan-collins-drug-costs.png`}
+        alt="Maine Policy Updates fact check crediting Susan Collins on prescription-drug and insulin costs."
+        width={1440}
+        height={12000}
+        focus="top"
+        caption="Unaltered full-page capture of Maine Policy Updates’ favorable prescription-drug and insulin article, again carrying One Nation’s payer disclosure in the footer."
+      />
+
+      <p>The pattern extended beyond Sullivan and Collins:</p>
+
+      <figure class="article-data-module">
+        <figcaption>Representative preserved political framing</figcaption>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th scope="col">State outlet</th><th scope="col">Candidate or opponent</th><th scope="col">What the outlet presented</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Iowa Voice</th><td>Republican Rep. Ashley Hinson</td><td>Favorable coverage of spending, veterans, child care, farmers and consumers.</td></tr>
+              <tr><th scope="row">Ohio Pulse</th><td>Republican Sen. Jon Husted</td><td>Favorable coverage of military funding, East Toledo investment and anti-trafficking legislation.</td></tr>
+              <tr><th scope="row">The North Carolinian</th><td>Republican Michael Whatley and Democratic opponent Roy Cooper</td><td>A favorable Whatley item and a promoted lead article attacking Cooper’s prisoner-release record.</td></tr>
+              <tr><th scope="row">New Hampshire Daily</th><td>Democratic Rep. Chris Pappas</td><td>Opponent-negative tax and ethics frames.</td></tr>
+              <tr><th scope="row">Peach State Post</th><td>Democratic Sen. Jon Ossoff</td><td>A tax-vote frame that tracked separate One Nation advocacy against Ossoff.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </figure>
+
+      <p>This is not a statistical sentiment analysis of every item and does not mean that every sentence on every site was false. Astroturfing can use accurate facts and real public records. The identifying feature is the disguised source and coordinated political purpose: national advocacy was packaged as independent-looking local publications whose editorial choices closely tracked the organizations’ Senate priorities.</p>
+
+      <h2>North Carolina: the strongest new finding</h2>
+
+      <p>The North Carolinian is the clearest extension of the public network.</p>
+
+      <p>Preserved Meta records for the page identified SLF PAC as payer for 24 advertisements totaling $17,283 in the available all-time report. Decoded advertisement destinations led to a North Carolinian article. The captured site footer named Senate Leadership Fund, while the privacy policy retained language identifying One Nation.</p>
+
+      <EvidenceFigure
+        number={5}
+        src={`${figureBase}/figure-01-north-carolinian-homepage-and-slf-footer.png`}
+        alt="Full North Carolinian homepage ending in the SLF PAC payer footer."
+        width={765}
+        height={4063}
+        focus="bottom"
+        caption="Unaltered full-page capture of The North Carolinian. The visible footer reads: “PAID FOR BY SLF PAC. NOT AUTHORIZED BY ANY CANDIDATE OR CANDIDATE’S COMMITTEE. WWW.SENATELEADERSHIPFUND.ORG.” The same capture includes a favorable Michael Whatley item and several negative frames about Roy Cooper."
+      />
+
+      <p>The privacy page made the cross-organization residue visible in its first sentence. Under a North Carolinian masthead, it began: “At ONE NATION [‘Organization’ or ‘we’], we are committed to protecting the privacy of our online guests.” It later referred to <code>thenorthcarolinian.org</code> and ended with the SLF PAC payer footer. That is not merely “similar language”; it is a captured North Carolinian page that expressly names One Nation as the organization.</p>
+
+      <EvidenceFigure
+        number={6}
+        src={`${figureBase}/figure-02-north-carolinian-one-nation-privacy-residue.png`}
+        alt="North Carolinian privacy policy beginning with At ONE NATION and ending with the SLF PAC footer."
+        width={765}
+        height={8023}
+        focus="top"
+        caption="Unaltered full-page capture of The North Carolinian privacy policy, showing One Nation in the body and SLF PAC in the footer."
+      />
+
+      <p>The preserved Meta Ad Library screen showed approximately 29 North Carolinian results and 250,000–300,000 aggregate impressions at the time of capture. The corresponding preserved accessibility-tree record for Library ID <code>2060778401186867</code> displayed “Paid for by SLF PAC” and linked to the North Carolinian prisoner-release article. Three additional expanded cards in that capture carried the same payer and destination. The all-time spending report, which groups creative variants differently from the visible cards, recorded 24 advertisements and $17,283.</p>
+
+      <EvidenceFigure
+        number={7}
+        src={`${figureBase}/figure-03-meta-ad-library-north-carolinian-results.png`}
+        alt="Meta Ad Library result screen for The North Carolinian showing approximately 29 results and 250,000 to 300,000 impressions."
+        width={1280}
+        height={720}
+        focus="center"
+        fullPage={false}
+        caption="Preserved Meta Ad Library screen for The North Carolinian. The screenshot establishes the page, result count and impression range; the separately hashed DOM record preserves the expanded card’s SLF PAC payer line, Library ID and destination URL."
+      />
+
+      <p>The linked article framed former Democratic governor and 2026 Senate candidate Roy Cooper’s prisoner-release agreement as a public-safety failure. The capture displayed the same SLF PAC footer as the homepage.</p>
+
+      <EvidenceFigure
+        number={8}
+        src={`${figureBase}/figure-04-north-carolinian-slf-ad-destination.png`}
+        alt="North Carolinian article about Roy Cooper prisoner releases reached from an SLF PAC Meta advertisement."
+        width={765}
+        height={2602}
+        focus="top"
+        caption="Unaltered full-page capture of the North Carolinian article reached from the preserved SLF PAC advertisement destination."
+      />
+
+      <p>The site also used the shared analytics property, the same WordPress child theme, the <code>acquire</code> author identity and deployment slot 14. Its domain was registered on March 20 within 2.002 seconds of the Alaska Navigator and Peach State Post domains, using the same registrar and nameserver pair.</p>
+
+      <p>Registrar and nameserver overlap alone would not establish a relationship. Here it accompanies direct payer and branding evidence plus several independently specific production markers.</p>
+
+      <p>The evidence supports two conclusions: <strong>SLF PAC paid for advertisements promoting The North Carolinian, and the site was a technical sibling in the One Nation/SLF production environment.</strong> It does not resolve every layer of legal ownership, commissioning, editorial control or article authorship.</p>
+
+      <h2>Michigan: a real staging draft, not a proven launch</h2>
+
+      <p>Michigander News was not a guessed brand or an extrapolated domain name.</p>
+
+      <p>Boho News preserved a staging property under <code>slfsites.com</code>, an installation that identified itself as “Senate Leadership Fund Sites.” Captured footer and privacy material named One Nation. The property shared the network's analytics, theme and production-author residue, occupied deployment slot 17, and included an asset label containing <code>SLF-Michigander_News</code>.</p>
+
+      <p>At the relevant capture times, the homepage was password-protected. But <code>/news/</code>, privacy pages, feeds, sitemaps, REST interfaces, assets and 23 scaffold posts were publicly reachable.</p>
+
+      <EvidenceFigure
+        number={9}
+        src={`${figureBase}/figure-05-michigander-password-protected-homepage.png`}
+        alt="Password form shown at the Michigander News homepage."
+        width={780}
+        height={900}
+        focus="center"
+        fullPage={false}
+        caption="Exact viewport capture of the Michigander News root. It presented a password form rather than the site homepage."
+      />
+
+      <p>The publicly reachable <code>/news/</code> page was not an error page. It rendered a Michigander News masthead, dated story cards, newsletter forms, an “independent statewide publication” description and a footer stating “Paid for by One Nation.” The story cards contained placeholder Latin rather than finished political reporting.</p>
+
+      <EvidenceFigure
+        number={10}
+        src={`${figureBase}/figure-06-michigander-public-news-path.png`}
+        alt="Publicly reachable Michigander News path showing dated placeholder story cards and the One Nation footer."
+        width={765}
+        height={2945}
+        focus="bottom"
+        caption="Unaltered full-page capture of the public Michigander News /news/ path. It shows what could literally be viewed without a password: branding, dated placeholders, subscription forms, an independence claim and One Nation’s payer footer."
+      />
+
+      <p>The public privacy page independently identified both the responsible organization and the staging hostname. It began “At One Nation” and named <code>michigandernews.slfsites.com</code> as the website.</p>
+
+      <EvidenceFigure
+        number={11}
+        src={`${figureBase}/figure-07-michigander-one-nation-privacy-and-footer.png`}
+        alt="Michigander News privacy policy naming One Nation and michigandernews.slfsites.com."
+        width={765}
+        height={7505}
+        focus="top"
+        caption="Unaltered full-page capture of the public Michigander News privacy policy. The opening names One Nation; the body names the slfsites.com staging hostname; the footer says “Paid for by One Nation.”"
+      />
+
+      <p>The 23 posts occupied contiguous WordPress IDs 10 through 32 and displayed dates from July 8 through July 23. Twenty-one displayed dates predated the first observed certificate for the staging host. Seven posts had modification timestamps clustered across six seconds, including five one-second steps. That pattern supports assigned or synthetic scaffold dates during a compressed build or import process.</p>
+
+      <p>It does not establish why those dates were assigned.</p>
+
+      <p>Google's political-advertising bulk data showed One Nation running statewide Michigan video creative from May 4 through May 10. The available bulk record did not expose a landing destination. The advertising corroborates Michigan as a program priority; it does not establish that an advertisement linked to Michigander News.</p>
+
+      <p>Boho News has not established that Michigander News intentionally launched to the public, carried advertisements, reached voters or involved the Rogers campaign. The accurate finding is that <strong>a One Nation-branded Michigan staging draft existed in an SLF development environment, with a protected root and publicly reachable surrounding paths.</strong></p>
+
+      <h2>Dates that precede the domains</h2>
+
+      <p>Among the 59 dated articles on the six originally reported properties, 14 display dates earlier than the primary registration event for the relevant domain:</p>
+
+      <figure class="article-data-module">
+        <figcaption>Displayed article dates compared with domain registration</figcaption>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th scope="col">Site</th><th scope="col">Articles dated before registration</th><th scope="col">Longest lead</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Maine Policy Updates</th><td>3</td><td>103 days</td></tr>
+              <tr><th scope="row">New Hampshire Daily</th><td>3</td><td>519 days</td></tr>
+              <tr><th scope="row">Peach State Post</th><td>1</td><td>428 days</td></tr>
+              <tr><th scope="row">Alaska Navigator</th><td>1</td><td>70 days</td></tr>
+              <tr><th scope="row">Ohio Pulse</th><td>6</td><td>83 days</td></tr>
+              <tr><th scope="row">Iowa Voice</th><td>0</td><td>Six displayed dates still preceded the captured build and homepage chronology</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </figure>
+
+      <p>For 30 of the 59 articles, Boho News identified a source with a parseable date. Thirteen of the dates displayed by the network were within one day of the corresponding source date, and 14 were within two days. Of the 14 articles dated before domain registration, seven had a parseable source date; five were within one day of it.</p>
+
+      <p>That distribution more strongly supports later population that retained source-era dates than arbitrary date invention. It nevertheless leaves an important unanswered question: whether a date was meant to represent source publication, editorial assignment, import, or publication by the state-branded outlet.</p>
+
+      <p>WordPress database records, revision histories, import logs and editorial instructions could answer that. Boho News does not possess those private records.</p>
+
+      <h3>A two-source splice in New Hampshire</h3>
+
+      <p>One New Hampshire Daily record shows a more specific production anomaly. Its title, displayed date, byline metadata and outgoing link align with a May 2025 Boston Herald story by Matthew Medsger. Its body aligns with a different January 2026 story discussing the transition into 2026 and material associated with Tim Dunn.</p>
+
+      <p>The preserved WordPress REST record reports a May 22, 2025 display date and a July 2, 2026 modification timestamp. This establishes a two-source metadata-and-content splice. A production or copying error remains a plausible explanation; the record does not establish intent.</p>
+
+      <p>Marc Grasso of the Boston Herald told Boho News that Medsger was a Herald employee when the reflected article was published and that the supplied link appeared accurate. Grasso said he could not provide the original publication time and found no request or permission record for use of that article. His answer does not rule out every possible license, syndication route or permission source.</p>
+
+      <h2>The Acquire Digital trail</h2>
+
+      <p>Public Federal Election Commission records show Senate Leadership Fund payments to Acquire Digital described as website design, website development or web advertising. The preserved rows include $10,000 on July 2, 2025; $6,500 on July 28, 2025; $5,000 on March 5, 2026; $2,400 on March 12, 2026; and $1,200 each on April 9, May 7 and June 4, 2026. Readers can examine SLF's filings through the <a href="https://www.fec.gov/data/committee/C00571703/?cycle=2026" rel="noopener noreferrer">FEC committee record for C00571703</a>.</p>
+
+      <p>Six confirmed network domains were registered five to eight days after selected March, April or June payments. That sequence is probative but not dispositive. Three of the 2026 payments were identical $1,200 rows spaced at an exact 28-day cadence, which is also consistent with recurring service. The public filings do not name domains or allocate invoices to properties.</p>
+
+      <p>Separate technical evidence points more specifically to a production relationship. The shared WordPress author was named <code>acquire</code>; its preserved identity data linked to <code>slfsites.com</code>. The Gravatar hash associated with that account resolved to an <code>acquiredigitalkyle</code> identity, while <a href="https://acquiredigital.co/who/" rel="noopener noreferrer">Acquire Digital's team page</a> identifies Kyle Burns as chief creative officer. That supports an Acquire-specific production-account inference. It does not establish that Burns wrote, selected or approved any article.</p>
+
+      <p><a href="https://acquiredigital.co/" rel="noopener noreferrer">Acquire Digital describes itself</a> as a full-service digital firm serving organizations, campaigns and corporations, including political and advocacy clients.</p>
+
+      <p>The combined evidence supports identifying Acquire Digital as a central production vendor. It does not establish the exact contract scope, commissioning client, article workflow, individual responsibility or payment-to-domain allocation.</p>
+
+      <h2>One Nation and SLF: connected, but legally distinct</h2>
+
+      <p>One Nation is a 501(c)(4) organization; Senate Leadership Fund is an independent-expenditure-only political committee. They remain separate legal entities.</p>
+
+      <p>Current official pages identify Alex Latcham as executive director of both organizations. The FEC identifies Caleb Crosby as SLF's treasurer, and One Nation's latest preserved tax return identifies Crosby as its secretary and treasurer.</p>
+
+      <p>SLF's current-cycle filings through June 30 recorded three non-memo receipts from One Nation totaling $70.74 million. Reciprocal filings showed approximately monthly SLF-to-One Nation payments described as rent and salaries. Those records establish a material funding and shared-overhead relationship. They do not allocate money to these websites.</p>
+
+      <p>The same distinction applies to SLF's $342 million announcement. The recovered properties and staging draft map to the same eight states in that plan, down to all eight state names. The announcement describes a much broader election program spanning broadcast, cable, streaming, radio, data, direct mail, texting, field activity and voter turnout. Boho News did not find evidence that the announced total funded the sites.</p>
+
+      <h2>How far the search went—and where it stops</h2>
+
+      <p>Boho News calibrated its search by requiring each method to recover known properties before treating a negative result as meaningful. The investigation reduced 525,104 Meta advertiser rows to 208 target-state news-like pages; decoded 374 One Nation and SLF live Meta Library identifiers; accounted for the observed <code>acquiredig.com</code> and <code>slfsites.com</code> names and deployment slots; reviewed staging hosts, BuiltWith candidates, portfolio pages and the Acquire FEC vendor graph; searched 29 Common Crawl collections; and analyzed 1,332 HTML files and 29,376 extracted URLs.</p>
+
+      <p>No additional public One Nation/SLF news brand survived that review. Adjacent sites were separated when attribution, analytics, staff, scope or chronology did not match.</p>
+
+      <p>This is bounded completeness, not proof of universal absence. A private, deleted, renamed, password-protected or never-indexed property could remain invisible to passive research.</p>
+
+      <p>Boho News also tested the hypothesis that the known operation underwent an observable mass scrub after the August 6 report. We found itemized changes in advertising and development endpoints, but repeated normalized comparisons found no substantive article-inventory or readable core-page change across the known eight properties. No known news property suddenly disappeared wholesale. Michigan retained its split state: a protected homepage with public surrounding routes.</p>
+
+      <p>The record therefore does not support claiming a generalized scramble, scrub or concealment effort.</p>
+
+      <h2>Responses</h2>
+
+      <p>One Nation, Senate Leadership Fund and Acquire Digital did not provide substantive answers to Boho News's detailed questions before this preview was prepared. Their lack of response is not evidence supporting any claim in this article.</p>
+
+      <p>The Dan Sullivan campaign told Boho News that it intended to respond and asked about Boho News. Boho News answered. As of this preview, the campaign had not provided a substantive response. We will recheck the mailbox before publication. Boho News has not established that the campaign knew of, approved, paid for or coordinated Alaska Navigator.</p>
+
+      <p>The Boston Herald response is described above. Bangor Daily News sent an automated acknowledgment. WMUR and the Concord Monitor did not provide substantive responses. No inference about permission or licensing is drawn from a publisher's silence.</p>
+
+      <h2>We froze the record—and we will keep watching</h2>
+
+      <p>Before contacting the organizations named in this story, Boho News froze the pages, ads, public records and technical material underlying our findings. That preserves what we saw even if a site, footer, privacy policy, advertisement or staging page later changes or disappears.</p>
+
+      <p>We will continue monitoring the properties. If a post-publication change is material to this report, we will document it and update our coverage. Readers who want the technical detail can inspect the public manifests, original figures, hashes, validation receipts and archive links in the <a href={evidenceRoom}>One Nation Evidence Room</a>.</p>
+
+      <h2>What the evidence does not establish</h2>
+
+      <ul>
+        <li>That Michigander News intentionally launched, carried advertisements or reached voters.</li>
+        <li>That any beneficiary campaign knew of, approved, paid for or coordinated a property.</li>
+        <li>That reader or voter data was transferred to campaigns or political groups.</li>
+        <li>That post-August 6 changes were intended to conceal the operation.</li>
+        <li>That every retrospective date was deliberately falsified.</li>
+        <li>That a particular Acquire Digital payment funded a named domain.</li>
+        <li>That SLF's announced $342 million program funded these sites.</li>
+        <li>That all source reuse was unlicensed.</li>
+        <li>That no additional private, deleted or never-indexed property exists.</li>
+      </ul>
+
+      <p>The strongest finding is narrower and more concrete: a state-branded operation previously reported as six sites had a demonstrable eight-state production footprint. The additional record consists of a live North Carolina site advertised with SLF money and carrying mixed SLF/One Nation residue, plus a One Nation-branded Michigan staging draft in an SLF development environment. The same record documents retrospectively populated archives and a production trail strongly supporting Acquire Digital's role, while leaving commissioning, editorial intent and campaign knowledge unresolved.</p>
+
+      <aside class="source-callout evidence-room-callout evidence-room-callout--closing">
+        <p class="label">Evidence Room</p>
+        <p>Download the public manifest, inspect every full-resolution figure, check the hashes and review the independently validated frozen-source corpus.</p>
+        <a href={evidenceRoom}>Explore the evidence behind this investigation →</a>
+      </aside>
+    </div>
+
+    <section class="evidence-block article-sources">
+      <h2>Selected public sources</h2>
+      <ol>
+        <li><span class="source-id">S1</span><div><a href="https://popular.info/p/senate-republicans-launch-network" rel="noopener noreferrer">Senate Republicans launch network of partisan “news” sites</a><p>Popular Information</p></div></li>
+        <li><span class="source-id">S2</span><div><a href="https://senateleadershipfund.org/press-releases/slf-announces-initial-342-million-investment-in-2026-senate-races/" rel="noopener noreferrer">SLF announces initial $342 million investment in 2026 Senate races</a><p>Senate Leadership Fund</p></div></li>
+        <li><span class="source-id">S3</span><div><a href="https://www.fec.gov/data/committee/C00571703/?cycle=2026" rel="noopener noreferrer">Committee record: Senate Leadership Fund, C00571703</a><p>Federal Election Commission</p></div></li>
+        <li><span class="source-id">S4</span><div><a href="https://acquiredigital.co/" rel="noopener noreferrer">Acquire Digital</a><p>Acquire Digital</p></div></li>
+        <li><span class="source-id">S5</span><div><a href="https://acquiredigital.co/who/" rel="noopener noreferrer">Acquire Digital team</a><p>Acquire Digital</p></div></li>
+      </ol>
+    </section>
+
+    <section class="evidence-block preview-editorial-note">
+      <h2>Preview note</h2>
+      <p>This localhost rendering contains no invented publication timestamp. Response language remains subject to the final prepublication mailbox check and human legal/editorial review.</p>
+    </section>
+  </article>
+</BaseLayout>

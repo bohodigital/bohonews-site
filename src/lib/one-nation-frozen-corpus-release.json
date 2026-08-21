@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0.0",
+  "releaseId": "boho-news-one-nation-frozen-corpus-20260820",
+  "status": "built-and-independently-validated",
+  "basePath": "/evidence/one-nation-network/frozen-corpus-20260820",
+  "custodyEntries": 30333,
+  "custodyBytes": 6147595461,
+  "selectedPublicSourceRows": 23250,
+  "uniquePublicSourceObjects": 16670,
+  "archive": {
+    "name": "FROZEN-PUBLIC-SOURCE-OBJECTS-20260820.tar.gz",
+    "bytes": 1954150049,
+    "sha256": "fd8a8b8308ebf2f0e802651ddf5b7b60859e927284420d4f20bc45fbacb27012",
+    "localConvenienceCopy": false
+  },
+  "publicationFilesetLedgerSha256": "4057cacf14eef59362df522868587388d571a35db165d759807d8e045fde37d7",
+  "files": [
+    {
+      "name": "PUBLIC-SAFE-FULL-CUSTODY-MANIFEST-20260820.csv",
+      "title": "Full public-safe custody manifest (CSV)",
+      "bytes": 10111549,
+      "sha256": "9af25e4a1935b49c2a6f8c4b22eea82cdd6e1e0b3e169c93769df84e3915e2e0"
+    },
+    {
+      "name": "PUBLIC-SAFE-FULL-CUSTODY-MANIFEST-20260820.jsonl",
+      "title": "Full public-safe custody manifest (JSONL)",
+      "bytes": 16117236,
+      "sha256": "bebb041415155095c4062ccf2cb595048532aa826c110e15c1361a09ee66ee84"
+    },
+    {
+      "name": "FROZEN-PUBLIC-SOURCE-CORPUS-MANIFEST-20260820.csv",
+      "title": "Frozen public-source corpus manifest",
+      "bytes": 5562102,
+      "sha256": "b7c9548d4db2ca44b47ce0d6001e19deaa9cbb43e4820294ed30c8b841232589"
+    },
+    {
+      "name": "FROZEN-PUBLIC-SOURCE-OBJECT-SHA256SUMS-20260820.txt",
+      "title": "Frozen public-source object checksum ledger",
+      "bytes": 2483830,
+      "sha256": "1674be3f455893287f6641c8ce0eac6a31fe9671f00333313b0107e479a2fb0b"
+    },
+    {
+      "name": "FIGURE-PROVENANCE-SHA256-20260820.csv",
+      "title": "Article figure provenance and checksums",
+      "bytes": 4602,
+      "sha256": "792e0f3d59c3fe2b7d78bdca0d334b0326d29b9ecd656d2fe09098d44625c70b"
+    },
+    {
+      "name": "PUBLIC-ARCHIVE-BUILD-SUMMARY-20260820.json",
+      "title": "Archive build receipt",
+      "bytes": 1401,
+      "sha256": "9c981ec3eb4b6040d188d77da1d1db490d7a8b8d9d1cb7a59f71daf38b7a93e4"
+    },
+    {
+      "name": "PUBLIC-ARCHIVE-INDEPENDENT-VALIDATION-20260820.json",
+      "title": "Independent streaming-validation receipt",
+      "bytes": 1394,
+      "sha256": "2073ef65fc33e03b2b61d1c6d8815b610fa7d3c80b835ce0991c1367a6b16333"
+    },
+    {
+      "name": "README-FROZEN-SOURCE-CORPUS-20260820.md",
+      "title": "Frozen-source corpus documentation",
+      "bytes": 3316,
+      "sha256": "161ca58fd521ff32db555a7dc4318ae17bad782f648598953b045b19b37cf5ea"
+    },
+    {
+      "name": "PUBLIC-UPLOAD-MANIFEST-20260820.csv",
+      "title": "Publication fileset manifest",
+      "bytes": 3139,
+      "sha256": "586630b1b7eefea2a619eaad966d1b315d4ab732139da5d11848fc478fe03793"
+    },
+    {
+      "name": "PUBLIC-UPLOAD-SHA256SUMS-20260820.txt",
+      "title": "Publication fileset checksum ledger",
+      "bytes": 2684,
+      "sha256": "4057cacf14eef59362df522868587388d571a35db165d759807d8e045fde37d7"
+    },
+    {
+      "name": "PUBLIC-UPLOAD-ROOT-SHA256-20260820.txt",
+      "title": "Publication fileset root receipt",
+      "bytes": 164,
+      "sha256": "a3781f5d1c79b5206de6901c0f6bf59fc182033227ac16f3c89395da98882a35"
+    }
+  ]
+}

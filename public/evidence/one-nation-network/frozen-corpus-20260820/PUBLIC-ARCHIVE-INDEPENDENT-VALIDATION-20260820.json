@@ -1,0 +1,46 @@
+{
+  "archive": {
+    "bytes": 1954150049,
+    "name": "FROZEN-PUBLIC-SOURCE-OBJECTS-20260820.tar.gz",
+    "sha256": "fd8a8b8308ebf2f0e802651ddf5b7b60859e927284420d4f20bc45fbacb27012"
+  },
+  "corpus_manifest": {
+    "mismatched_objects": 0,
+    "missing_objects": 0,
+    "rows": 23250
+  },
+  "external_object_ledger_entries": 16670,
+  "full_public_safe_manifest": {
+    "bytes": 6147595461,
+    "disposition_bytes": {
+      "frozen_public_source": 2651953425,
+      "restricted_correspondence": 5984552,
+      "restricted_internal": 2405027587,
+      "restricted_security_review": 4605210,
+      "restricted_unverified": 12376727,
+      "review_required": 1067647960
+    },
+    "disposition_entries": {
+      "frozen_public_source": 23250,
+      "restricted_correspondence": 553,
+      "restricted_internal": 1230,
+      "restricted_security_review": 46,
+      "restricted_unverified": 299,
+      "review_required": 4955
+    },
+    "forbidden_value_hits": 0,
+    "rows": 30333,
+    "unique_custody_ids": 30333
+  },
+  "method": "Independent streaming validation; no archive members were extracted.",
+  "status": "PASS",
+  "tar": {
+    "embedded_ledger_matches_external": true,
+    "embedded_manifest_matches_external": true,
+    "members": 16673,
+    "metadata_mismatches": 0,
+    "object_bytes": 2254790412,
+    "object_members": 16670
+  },
+  "validated_at_utc": "2026-08-21T01:03:34.178376Z"
+}

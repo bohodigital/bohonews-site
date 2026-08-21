@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import evidenceAssets from "../../lib/evidence-assets.json";
 import oneNationRelease from "../../lib/one-nation-evidence-release.json";
+import oneNationCorpus from "../../lib/one-nation-frozen-corpus-release.json";
 import {
   articlePath,
   articles,
@@ -49,7 +50,7 @@ const uniqueSourceCount = new Set(
     <section class="evidence-summary" aria-label="Evidence library summary">
       <div><strong>{publishedArticles.length}</strong><span>current stories indexed</span></div>
       <div><strong>{uniqueSourceCount}</strong><span>unique source records</span></div>
-      <div><strong>{evidenceAssets.length + oneNationRelease.files.length}</strong><span>preserved files and datasets</span></div>
+      <div><strong>{evidenceAssets.length + oneNationRelease.files.length + oneNationCorpus.files.length}</strong><span>preserved files and datasets</span></div>
     </section>
 
     <p class="evidence-manifest-link">
@@ -71,9 +72,10 @@ const uniqueSourceCount = new Set(
       <p class="evidence-id">Versioned evidence release</p>
       <h2>One Nation network investigation</h2>
       <p>
-        Download the public-safe evidence companion, signed hash ledgers and
+        Inspect the original article figures and download the public custody
+        manifest, frozen-source corpus controls, signed hash ledgers and
         Bitcoin-anchored timestamp proof for the One Nation and Senate
-        Leadership Fund state news-like network investigation.
+        Leadership Fund astroturf news network investigation.
       </p>
       <p><a class="button" href="/evidence/one-nation-network/">Open the evidence release</a></p>
     </section>

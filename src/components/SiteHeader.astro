@@ -3,7 +3,8 @@ import ThemeControl from "./ThemeControl.astro";
 import MarketTicker from "./MarketTicker.astro";
 const candidatePreview = import.meta.env.BOHONEWS_PREVIEW === "1";
 const candidateActivation = import.meta.env.BOHONEWS_ACTIVATION === "1";
-const candidateUnpublished = candidatePreview || candidateActivation;
+const localEditorialPreview = import.meta.env.BOHONEWS_LOCAL_PREVIEW === "1";
+const candidateUnpublished = candidatePreview || candidateActivation || localEditorialPreview;
 
 interface Props {
   hideMarketTicker?: boolean;

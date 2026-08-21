@@ -1,0 +1,43 @@
+{
+  "combined": {
+    "bytes": 6147595461,
+    "entries": 30333
+  },
+  "disposition_bytes": {
+    "frozen_public_source": 2651953425,
+    "restricted_correspondence": 5984552,
+    "restricted_internal": 2405027587,
+    "restricted_security_review": 4605210,
+    "restricted_unverified": 12376727,
+    "review_required": 1067647960
+  },
+  "disposition_entries": {
+    "frozen_public_source": 23250,
+    "restricted_correspondence": 553,
+    "restricted_internal": 1230,
+    "restricted_security_review": 46,
+    "restricted_unverified": 299,
+    "review_required": 4955
+  },
+  "frozen_corpus": {
+    "archive": "FROZEN-PUBLIC-SOURCE-OBJECTS-20260820.tar.gz",
+    "archive_bytes": 1954150049,
+    "archive_sha256": "fd8a8b8308ebf2f0e802651ddf5b7b60859e927284420d4f20bc45fbacb27012",
+    "corpus_manifest": "FROZEN-PUBLIC-SOURCE-CORPUS-MANIFEST-20260820.csv",
+    "object_sha256_ledger": "FROZEN-PUBLIC-SOURCE-OBJECT-SHA256SUMS-20260820.txt",
+    "selected_custody_rows": 23250,
+    "unique_object_bytes": 2254790412,
+    "unique_objects": 16670
+  },
+  "generated_at_utc": "2026-08-21T00:59:57.399118Z",
+  "note": "Frozen corpus contains allowlisted public-source objects only; restricted rows remain hash-accounted in the public-safe manifest.",
+  "post_outreach": {
+    "bytes": 5984552,
+    "entries": 553
+  },
+  "precontact": {
+    "bytes": 6141610909,
+    "entries": 29780
+  },
+  "status": "PASS"
+}
