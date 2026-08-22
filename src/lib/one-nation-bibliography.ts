@@ -35,13 +35,13 @@ export const oneNationBibliography: OneNationSource[] = [
   },
   {
     id: 3,
-    title: "One Nation/SLF state-news network evidence companion, version 1.0.0",
+    title: "One Nation/SLF state-news network evidence release, version 1.1.1",
     publisher: "Boho News",
-    date: "Aug. 15, 2026",
-    url: "https://doi.org/10.5281/zenodo.22036285",
+    date: "Aug. 21, 2026",
+    url: "https://doi.org/10.5281/zenodo.22051264",
     preservedUrl: "/evidence/one-nation-network/",
-    sourceType: "Signed evidence release",
-    supports: "The public claim table, evidence index, methodology, limitations, chronology summaries and integrity records used throughout this article."
+    sourceType: "Independently verified evidence release",
+    supports: "The public claim table, evidence index, methodology, limitations, chronology summaries, integrity records and frozen public-source corpus used throughout this article."
   },
   {
     id: 4,
@@ -240,7 +240,7 @@ export const oneNationBibliography: OneNationSource[] = [
     title: "Known-site backdating summary and case reconciliation",
     publisher: "Boho News",
     date: "Generated Aug. 14–15, 2026",
-    url: "https://doi.org/10.5281/zenodo.22036285",
+    url: "https://doi.org/10.5281/zenodo.22051264",
     preservedUrl: "/evidence/one-nation-network/",
     sourceType: "Reproducible analysis and public claim table",
     supports: "The 14-of-59 count, site-level chronology table, source-date comparisons, New Hampshire splice and limitations on intent."

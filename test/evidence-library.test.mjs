@@ -77,23 +77,30 @@ test("One Nation release page exposes direct files and verified third-party mirr
   const page = await readFile(new URL("../src/pages/evidence/one-nation-network/index.astro",import.meta.url),"utf8");
   const route = await readFile(new URL("../src/pages/evidence/one-nation-network/v1.0.0/manifest.json.ts",import.meta.url),"utf8");
   const library = await readFile(new URL("../src/pages/evidence/index.astro",import.meta.url),"utf8");
-  assert.match(page,/Complete public package/);
-  assert.match(page,/mirrorEntries/);
+  assert.match(page,/Current release · Version/);
+  assert.match(page,/Historical signed companion/);
+  assert.match(page,/corpusMirrorEntries/);
   assert.match(page,/Zenodo/);
   assert.match(page,/Internet Archive/);
-  assert.match(page,/independently and matched against/);
+  assert.match(page,/Independently downloaded and hash-verified copies/);
+  assert.match(page,/matched its inventory, bytes and SHA-256 values/);
   assert.match(page,/manifest\.json/);
   assert.match(route,/max-age=31536000, immutable/);
   assert.match(library,/\/evidence\/one-nation-network\//);
 });
 
 test("One Nation frozen-corpus convenience files match the public release data", async () => {
-  assert.equal(oneNationCorpus.status,"built-and-independently-validated");
-  assert.equal(oneNationCorpus.version,"1.1.0");
+  assert.equal(oneNationCorpus.status,"published-and-independently-verified");
+  assert.equal(oneNationCorpus.version,"1.1.1");
+  assert.equal(oneNationCorpus.hostedFileCount,32);
+  assert.equal(oneNationCorpus.independentVerificationCompletedAt,"2026-08-22T00:05:31.047338Z");
   assert.equal(oneNationCorpus.custodyEntries,30333);
   assert.equal(oneNationCorpus.uniquePublicSourceObjects,16670);
   assert.equal(oneNationCorpus.archive.localConvenienceCopy,false);
-  assert.deepEqual(oneNationCorpus.independentMirrors,{zenodo:null,internetArchive:null});
+  assert.deepEqual(oneNationCorpus.independentMirrors,{
+    zenodo:"https://doi.org/10.5281/zenodo.22051264",
+    internetArchive:"https://archive.org/details/boho-news-one-nation-network-evidence-v1-1-1-20260821"
+  });
   assert.match(oneNationCorpus.archive.sha256,/^[0-9a-f]{64}$/);
   for (const file of oneNationCorpus.files) {
     const bytes = await readFile(new URL(`../public${oneNationCorpus.basePath}/${file.name}`,import.meta.url));

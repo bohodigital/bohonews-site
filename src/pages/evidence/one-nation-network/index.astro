@@ -19,8 +19,6 @@ const storyPath = localEditorialPreview
 const releaseFilePath = (name: string) => `${release.basePath}/${name}`;
 const corpusFilePath = (name: string) => `${corpus.basePath}/${name}`;
 const archive = release.files.find((file) => file.name === release.archiveFile);
-const mirrorEntries = Object.entries(release.independentMirrors as Record<string,string | null>)
-  .filter((entry): entry is [string,string] => typeof entry[1] === "string");
 const mirrorLabels: Record<string,string> = {
   zenodo: "Zenodo",
   internetArchive: "Internet Archive"
@@ -159,7 +157,7 @@ const byteLabel = (bytes: number) => bytes < 1024
     </section>
 
     <section aria-labelledby="corpus-title">
-      <p class="evidence-id">Frozen public-source corpus</p>
+      <p class="evidence-id">Current release · Version {corpus.version}</p>
       <h2 id="corpus-title">The source archive is data, not a working copy of the political sites</h2>
       <p class="evidence-explainer">
         The independently validated corpus contains {corpus.uniquePublicSourceObjects.toLocaleString("en-US")}{" "}
@@ -175,7 +173,7 @@ const byteLabel = (bytes: number) => bytes < 1024
       <p class="hash"><strong>Archive SHA-256</strong> <code>{corpus.archive.sha256}</code></p>
       {corpusMirrorEntries.length > 0
         ? <p class="preview-host-note">
-            Independently verified copies: {corpusMirrorEntries.map(([host,url], index) => <>
+            Independently downloaded and hash-verified copies: {corpusMirrorEntries.map(([host,url], index) => <>
               {index > 0 && " · "}<a href={url} rel="noopener noreferrer">{mirrorLabels[host] ?? host}</a>
             </>)}
           </p>
@@ -209,12 +207,13 @@ const byteLabel = (bytes: number) => bytes < 1024
     </section>
 
     <section aria-labelledby="companion-title">
-      <p class="evidence-id">Complete public package · Version 1.0.0</p>
+      <p class="evidence-id">Historical signed companion · Version 1.0.0</p>
       <h2 id="companion-title">Earlier signed evidence companion</h2>
       <p>
         The smaller signed companion contains the report, methodology, limitations,
         claim and evidence indexes, signatures and OpenTimestamps proof. It remains
-        available here and through two independent hosts.
+        available as immutable release history. The cumulative version {corpus.version}
+        release above is the current independently verified package.
       </p>
       {archive && <p><a class="button" href={releaseFilePath(archive.name)} download>Download complete public package ({byteLabel(archive.bytes)})</a></p>}
       <dl class="companion-integrity">
@@ -233,9 +232,13 @@ const byteLabel = (bytes: number) => bytes < 1024
 
     <section aria-labelledby="mirrors-title">
       <p class="evidence-id">Independent preservation</p>
-      <h2 id="mirrors-title">Verified third-party mirrors for version 1.0.0</h2>
-      {mirrorEntries.length > 0
-        ? <ul>{mirrorEntries.map(([host,url]) => <li><a href={url} rel="noopener noreferrer">{mirrorLabels[host] ?? host}</a></li>)}</ul>
+      <h2 id="mirrors-title">Verified third-party mirrors for version {corpus.version}</h2>
+      <p>
+        Boho News independently downloaded the complete {corpus.hostedFileCount}-file release
+        from each host and matched its inventory, bytes and SHA-256 values before listing it here.
+      </p>
+      {corpusMirrorEntries.length > 0
+        ? <ul>{corpusMirrorEntries.map(([host,url]) => <li><a href={url} rel="noopener noreferrer">{mirrorLabels[host] ?? host}</a></li>)}</ul>
         : <p>
             Zenodo and Internet Archive links will be added only after every
             hosted file has been downloaded independently and matched against

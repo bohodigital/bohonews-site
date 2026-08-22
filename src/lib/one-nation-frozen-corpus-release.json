@@ -1,13 +1,15 @@
 {
   "schemaVersion": "1.0.0",
   "releaseId": "boho-news-one-nation-frozen-corpus-20260820",
-  "version": "1.1.0",
-  "status": "built-and-independently-validated",
+  "version": "1.1.1",
+  "status": "published-and-independently-verified",
   "basePath": "/evidence/one-nation-network/frozen-corpus-20260820",
   "independentMirrors": {
-    "zenodo": null,
-    "internetArchive": null
+    "zenodo": "https://doi.org/10.5281/zenodo.22051264",
+    "internetArchive": "https://archive.org/details/boho-news-one-nation-network-evidence-v1-1-1-20260821"
   },
+  "hostedFileCount": 32,
+  "independentVerificationCompletedAt": "2026-08-22T00:05:31.047338Z",
   "custodyEntries": 30333,
   "custodyBytes": 6147595461,
   "selectedPublicSourceRows": 23250,
@@ -18,7 +20,7 @@
     "sha256": "fd8a8b8308ebf2f0e802651ddf5b7b60859e927284420d4f20bc45fbacb27012",
     "localConvenienceCopy": false
   },
-  "publicationFilesetLedgerSha256": "4057cacf14eef59362df522868587388d571a35db165d759807d8e045fde37d7",
+  "publicationFilesetLedgerSha256": "d64471236bee483aa28804d67b740bec0ec607089412b57ab53d8e26294846f8",
   "files": [
     {
       "name": "PUBLIC-SAFE-FULL-CUSTODY-MANIFEST-20260820.csv",
@@ -65,26 +67,26 @@
     {
       "name": "README-FROZEN-SOURCE-CORPUS-20260820.md",
       "title": "Frozen-source corpus documentation",
-      "bytes": 3316,
-      "sha256": "161ca58fd521ff32db555a7dc4318ae17bad782f648598953b045b19b37cf5ea"
+      "bytes": 2894,
+      "sha256": "5796a040836deda8a5571b7b3ff96933b648ca39183ee544bba1c51f0ecc8484"
     },
     {
       "name": "PUBLIC-UPLOAD-MANIFEST-20260820.csv",
       "title": "Publication fileset manifest",
-      "bytes": 3139,
-      "sha256": "586630b1b7eefea2a619eaad966d1b315d4ab732139da5d11848fc478fe03793"
+      "bytes": 3118,
+      "sha256": "5b3fa42c998895e802982edd5961d4d9bbcd33a7a8b1b05affd7ef2a1a6aafd3"
     },
     {
       "name": "PUBLIC-UPLOAD-SHA256SUMS-20260820.txt",
       "title": "Publication fileset checksum ledger",
       "bytes": 2684,
-      "sha256": "4057cacf14eef59362df522868587388d571a35db165d759807d8e045fde37d7"
+      "sha256": "d64471236bee483aa28804d67b740bec0ec607089412b57ab53d8e26294846f8"
     },
     {
       "name": "PUBLIC-UPLOAD-ROOT-SHA256-20260820.txt",
       "title": "Publication fileset root receipt",
       "bytes": 164,
-      "sha256": "a3781f5d1c79b5206de6901c0f6bf59fc182033227ac16f3c89395da98882a35"
+      "sha256": "ef4b1ca7fd7bd21d6213b48e65082296ae0013f8368af55460cf54b8554e8e7d"
     }
   ]
 }
