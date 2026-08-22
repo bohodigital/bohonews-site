@@ -382,9 +382,9 @@ export const oneNationBibliography: OneNationSource[] = [
     id: 39,
     title: "Right-of-reply correspondence with the Dan Sullivan campaign",
     publisher: "Dan Sullivan campaign and Boho News",
-    date: "Aug. 15–20, 2026; response status checked Aug. 21, 2026",
+    date: "Aug. 15–22, 2026; final response status checked Aug. 22, 2026",
     sourceType: "Newsroom correspondence; not publicly reproduced",
-    supports: "The campaign representative’s statement that the campaign intended to respond, Boho News’s follow-up and the absence of substantive answers as of Aug. 21 at 15:36 UTC.",
+    supports: "The campaign representative’s statement that the campaign intended to respond, Boho News’s follow-up and the absence of substantive answers by the final Aug. 22 noon Alaska deadline.",
     note: "The campaign’s silence is not used as evidence for any underlying factual claim."
   },
   {
@@ -401,9 +401,9 @@ export const oneNationBibliography: OneNationSource[] = [
     id: 41,
     title: "Boho News right-of-reply record",
     publisher: "Boho News",
-    date: "Current through Aug. 21, 2026, at 15:36 UTC",
+    date: "Current through Aug. 22, 2026, at 21:06 UTC",
     sourceType: "Newsroom record; correspondence not publicly reproduced",
-    supports: "Which central organizations, campaigns and source publishers supplied human replies, automated acknowledgments or no substantive response by the stated cutoff.",
+    supports: "Which central organizations, campaigns and source publishers supplied human replies, automated acknowledgments or no substantive response by the final stated cutoff.",
     note: "Silence is not used as evidence for any underlying factual claim."
   }
 ];

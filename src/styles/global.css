@@ -366,6 +366,23 @@ main { margin: 0 auto; max-width: 92rem; padding: 1.35rem clamp(1rem,4vw,3rem) 5
 .article-kicker span + span { border-left: 1px solid var(--border); padding-left: .65rem; }
 .article-kicker strong { background: var(--accent); color: #fff; padding: .25rem .4rem; }
 .article-dek { color: var(--text-soft); font-family: var(--serif); font-size: clamp(1.2rem,2.6vw,1.65rem); }
+.article-lead-visual { margin: 2rem auto 0; max-width: 72rem; }
+.article-lead-visual img {
+  aspect-ratio: 16 / 9;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  display: block;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+.article-lead-visual figcaption {
+  color: var(--text-soft);
+  font-size: .83rem;
+  line-height: 1.5;
+  margin: .7rem auto 0;
+  max-width: 50rem;
+}
 .byline { font-size: .78rem; font-weight: 850; margin-bottom: .25rem; text-transform: uppercase; }
 .timestamps { color: var(--text-muted); font-size: .75rem; margin: 0; }
 .article-body { font-family: var(--serif); font-size: clamp(1.12rem,2.3vw,1.32rem); margin-top: 2.5rem; overflow-wrap: anywhere; }
