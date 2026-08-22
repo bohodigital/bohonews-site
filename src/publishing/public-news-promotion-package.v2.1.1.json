@@ -65737,7 +65737,7 @@
           "height": 720,
           "rightsId": "media-one-nation-figure-7",
           "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/7/",
-          "src": "/media/investigations/one-nation-network/figures/figure-03-meta-ad-library-north-carolinian-results.png",
+          "src": "/media/investigations/one-nation-network/figures/figure-03-meta-ad-library-north-carolinian-results.jpg",
           "type": "official-document-render",
           "width": 1280
         },
@@ -66426,8 +66426,8 @@
       "updatedAt": null
     }
   ],
-  "compilerVersion": "bohonews-manual-one-nation-installer.v1.0.1",
-  "generatedAt": "2026-08-22T23:28:37.043Z",
+  "compilerVersion": "bohonews-manual-one-nation-installer.v1.0.2",
+  "generatedAt": "2026-08-22T23:41:18.317Z",
   "inputHashes": {
     "approvals": "b0c9ad8bc23be0d9cf26d0f422bd3206ebe140118850b4ef432aab6dcffa29d1",
     "articles": "0e212b15f16dd5cf00950cd8ca04ceed8b1b0618bccf9265057b039a13f35371",
@@ -154112,7 +154112,7 @@
       "caption": "Preserved Meta Ad Library screen for The North Carolinian. The screenshot establishes the page, result count and impression range; the separately hashed DOM record preserves the expanded card’s SLF PAC payer line, Library ID and destination URL.",
       "contextNotes": {
         "misleading": false,
-        "usage": "Contained responsive derivatives are reference renditions; the article body and Evidence Room retain the unaltered full-page capture. The public .png file is a lossless PNG rendition of the preserved JPEG source; the private archive retains and hashes the original source bytes."
+        "usage": "Contained responsive derivatives are reference renditions; the article body and Evidence Room retain the unaltered full-page capture. The public article uses a byte-identical .jpg copy of the preserved JPEG source so its served extension matches its bytes; the frozen source remains retained under its original captured filename and hash."
       },
       "creator": "Underlying page publisher; capture preserved by Boho News",
       "derivatives": [
@@ -154166,9 +154166,9 @@
           "width": 720
         },
         {
-          "hash": "1e22c694318ce97832723dbb77864c5cd1bef39afdf6f92414cb14a4363d3500",
+          "hash": "3ce8ae4d1d7e97ab38061c98e12fc859649aa9a1697fc670489723ffff0536b9",
           "height": 720,
-          "publicPath": "/media/investigations/one-nation-network/figures/figure-03-meta-ad-library-north-carolinian-results.png",
+          "publicPath": "/media/investigations/one-nation-network/figures/figure-03-meta-ad-library-north-carolinian-results.jpg",
           "role": "lead",
           "width": 1280
         }
@@ -154520,7 +154520,7 @@
       "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/11/"
     }
   ],
-  "packageDigest": "95f34670fe24077a89ba50412e7b3fd887b0d7dd7c15490607c67ede4735c652",
+  "packageDigest": "b417481dfc9ff585696711b9f25a3218ca99842ed43fa3674e6a69d68e28bbc3",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",

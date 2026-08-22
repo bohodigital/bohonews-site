@@ -8,7 +8,6 @@ import {
   writeFileSync,
 } from "node:fs";
 import { basename, resolve } from "node:path";
-import sharp from "sharp";
 import { stableJson } from "./publishing/stable-json.mjs";
 
 const root = resolve(import.meta.dirname, "..");
@@ -38,6 +37,8 @@ if (digestFile("article-package.v2.json") !== expected.article
 
 const promotion = JSON.parse(readFileSync(promotionPath, "utf8"));
 const article = json("article-package.v2.json");
+const mislabeledFigurePath = "/media/investigations/one-nation-network/figures/figure-03-meta-ad-library-north-carolinian-results.png";
+const publicFigurePath = mislabeledFigurePath.replace(/\.png$/, ".jpg");
 const sourceItems = json("source-items.v1.json");
 const privateRights = json("media-rights.v1.json");
 if (promotion.releaseState !== "final") {
@@ -92,7 +93,9 @@ const publicArticle = {
   publicChangeLog: [],
   eventId: article.eventId,
   body: article.body,
-  bodyBlocks: article.bodyBlocks,
+  bodyBlocks: article.bodyBlocks.map((block) => block.src === mislabeledFigurePath
+    ? { ...block, src: publicFigurePath }
+    : block),
   confirmedFactsSummary: article.confirmedFactsSummary,
   uncertainty: article.uncertainty,
   citations,
@@ -117,7 +120,7 @@ const originalBlocks = new Map(
     .filter(({ type }) => type === "official-document-render")
     .map((block) => [block.rightsId, block]),
 );
-const publicRights = await Promise.all(privateRights.map(async (rights) => {
+const publicRights = privateRights.map((rights) => {
   if (!rights.publicationAllowed || rights.aiGenerated || rights.contextNotes?.misleading) {
     throw new Error(`Media rights do not permit publication: ${rights.id}`);
   }
@@ -132,17 +135,15 @@ const publicRights = await Promise.all(privateRights.map(async (rights) => {
     throw new Error(`Approved original figure bytes are unavailable: ${rights.id}`);
   }
 
-  let publicOriginalHash = rights.originalFileHash;
+  let publicOriginalPath = original.src;
   let publicContextNotes = rights.contextNotes;
   if (rights.id === "media-one-nation-figure-7") {
-    const publicPng = await sharp(originalBytes)
-      .png({ compressionLevel: 9, adaptiveFiltering: false })
-      .toBuffer();
-    writeFileSync(originalSitePath, publicPng);
-    publicOriginalHash = sha256(publicPng);
+    publicOriginalPath = publicFigurePath;
+    const publicJpegPath = resolve(root, "public", publicFigurePath.slice(1));
+    writeFileSync(publicJpegPath, originalBytes);
     publicContextNotes = {
       ...rights.contextNotes,
-      usage: `${rights.contextNotes.usage} The public .png file is a lossless PNG rendition of the preserved JPEG source; the private archive retains and hashes the original source bytes.`,
+      usage: `${rights.contextNotes.usage} The public article uses a byte-identical .jpg copy of the preserved JPEG source so its served extension matches its bytes; the frozen source remains retained under its original captured filename and hash.`,
     };
   }
 
@@ -168,10 +169,10 @@ const publicRights = await Promise.all(privateRights.map(async (rights) => {
 
   publicDerivatives.push({
     role: "lead",
-    publicPath: original.src,
+    publicPath: publicOriginalPath,
     width: original.width,
     height: original.height,
-    hash: publicOriginalHash,
+    hash: rights.originalFileHash,
   });
   return {
     schemaVersion: rights.schemaVersion,
@@ -192,7 +193,7 @@ const publicRights = await Promise.all(privateRights.map(async (rights) => {
     aiGenerated: false,
     illustrationLabel: null,
   };
-}));
+});
 
 promotion.articles.push(publicArticle);
 promotion.mediaRights.push(...publicRights);

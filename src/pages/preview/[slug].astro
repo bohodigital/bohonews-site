@@ -20,6 +20,7 @@ const figureBase = "/media/investigations/one-nation-network/figures";
 const evidenceRoom = "/evidence/one-nation-network/";
 const publicRoute = "/articles/one-nation-astroturf-news-network/";
 const isPublicArticleRoute = Astro.url.pathname === publicRoute;
+const figure3Source = `${figureBase}/figure-03-meta-ad-library-north-carolinian-results.${isPublicArticleRoute ? "jpg" : "png"}`;
 const article = articles.find(({ id }) => id === "article-one-nation-astroturf-network");
 if (isPublicArticleRoute && !article) {
   throw new Error("The approved One Nation public article record is unavailable");
@@ -267,7 +268,7 @@ const approvedBodySha256 = article
 
       <EvidenceFigure
         number={7}
-        src={`${figureBase}/figure-03-meta-ad-library-north-carolinian-results.png`}
+        src={figure3Source}
         alt="Meta Ad Library result screen for The North Carolinian showing approximately 29 results and 250,000 to 300,000 impressions."
         width={1280}
         height={720}
