@@ -3,6 +3,7 @@ import type { GetStaticPaths } from "astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ArticleBody from "../../components/ArticleBody.astro";
 import NewsVisual from "../../components/NewsVisual.astro";
+import OneNationArticlePage from "../preview/[slug].astro";
 import {
   articleJsonLd, articles, candidatePreviewEnabled, candidateUnpublishedEnabled, fixturesEnabled,
   formatTimestamp
@@ -17,6 +18,10 @@ export const getStaticPaths = (async () => {
 }) satisfies GetStaticPaths;
 
 const { article } = Astro.props;
+// Astro page modules infer `never` props from their static-path contract when
+// reused as a component. The One Nation page reads only the shared request URL.
+const OneNationPublicPage: any = OneNationArticlePage;
+const isOneNationInvestigation = article.id === "article-one-nation-astroturf-network";
 const isInterlochenArticleOne =
   article.id === "interlochen-abuse-investigation-report-findings";
 const isInterlochenArticleTwo =
@@ -48,7 +53,7 @@ const changeLabels = {
 } as const;
 ---
 
-<BaseLayout title={`${article.headline} — Boho News`} description={article.dek} canonical={article.canonicalUrl} noindex={candidateUnpublishedEnabled || fixturesEnabled || !article.search.index} articleType="article" image={article.social.image} publishedAt={candidateUnpublishedEnabled ? undefined : article.publishedAt ?? undefined} updatedAt={candidateUnpublishedEnabled ? undefined : article.updatedAt ?? undefined}>
+{isOneNationInvestigation ? <OneNationPublicPage /> : <BaseLayout title={`${article.headline} — Boho News`} description={article.dek} canonical={article.canonicalUrl} noindex={candidateUnpublishedEnabled || fixturesEnabled || !article.search.index} articleType="article" image={article.social.image} publishedAt={candidateUnpublishedEnabled ? undefined : article.publishedAt ?? undefined} updatedAt={candidateUnpublishedEnabled ? undefined : article.updatedAt ?? undefined}>
   <article class="article-page" data-public-article-id={article.id} data-approved-body-sha256={approvedBodySha256} data-pagefind-body data-pagefind-filter={`section:${article.section}`} data-pagefind-meta={`article-type:${article.articleType}`}>
     {candidatePreviewEnabled && <aside class="fixture-banner">Preview candidate — not published</aside>}
     {fixturesEnabled && <aside class="fixture-banner">Non-production fixture preview — not public reporting</aside>}
@@ -103,4 +108,4 @@ const changeLabels = {
     </>}
     {article.retractionState === "current" && <script is:inline type="application/ld+json" set:html={jsonForHtml(jsonLd)} />}
   </article>
-</BaseLayout>
+</BaseLayout>}

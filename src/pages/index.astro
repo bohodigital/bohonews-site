@@ -10,7 +10,7 @@ const latest = homepageArticles(sectionArticles("latest"));
 const homepageElectionStory = latest.find((article) => article.id === homepageElectionArticleId);
 const nonElectionLatest = latest.filter((article) => article.desk !== "elections");
 const latestWire = nonElectionLatest.slice(0,12);
-const featuredArticleId = "interlochen-before-epstein-what-was-known";
+const featuredArticleId = "article-one-nation-astroturf-network";
 const lead = nonElectionLatest.find((article) => article.id === featuredArticleId) ?? nonElectionLatest[0];
 const secondary = [
   ...(homepageElectionStory ? [homepageElectionStory] : []),

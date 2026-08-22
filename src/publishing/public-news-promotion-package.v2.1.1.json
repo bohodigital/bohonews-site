@@ -65439,25 +65439,1010 @@
         "Interpretations about memory, peace and snowdrifts are attributed to the artist and museum."
       ],
       "updatedAt": "2026-08-05T16:34:25.044Z"
+    },
+    {
+      "articleType": "investigation",
+      "authors": [
+        "Augustine Bayer"
+      ],
+      "body": "The clue was a gap in the map.\n\nSenate Leadership Fund announced a $342 million campaign across eight Senate battlegrounds. The astroturf news network first exposed by Popular Information covered six of them. Boho News found matching properties in the two states not represented in that initial report: The North Carolinian, a live site whose advertisements identified SLF PAC as the payer, and Michigander News, a One Nation-branded staging draft hosted inside an SLF development environment. S01 S02 S03 S08 S09 S10 S12 S13 S14\n\nWe use astroturfing in its ordinary political-communications sense: centrally sponsored advocacy made to resemble independent, locally rooted public sentiment or journalism. That description fits this network. Its properties called themselves independent state news publications, adopted local names and branding, and published candidate-favorable or opponent-negative political material, while their national political sponsorship appeared in legal footers, privacy-policy residue or advertising disclosures rather than in the ordinary presentation of the articles.\n\n“Astroturfing” here describes the form and provenance of the communication. It is not, by itself, a claim that a particular disclosure violated election law.\n\nTogether with Alaska Navigator, Maine Policy Updates, Iowa Voice, Ohio Pulse, Peach State Post and New Hampshire Daily, the properties cover Alaska, Georgia, Iowa, Maine, Michigan, New Hampshire, North Carolina and Ohio. Those are the same eight states in which Senate Leadership Fund announced an initial $342 million investment on April 6. S01 S02 S03\n\nThat geographic identity is significant context. It is not evidence that the announced $342 million paid for the websites, and Boho News found no invoice assigning a particular payment to a particular domain.\n\nThe investigation also found that five of the six originally reported sites display some articles dated before their domains were registered. Fourteen of 59 dated articles fall into that category. In this report, backdated means that observable date mismatch; the word does not, by itself, assign intent. Comparisons with identified source material support a narrower explanation than random fabrication: later site builds often retained dates associated with earlier source material, producing archives that appeared to extend further into the past than the domains themselves. S01 S24\n\nThat is evidence of retrospective population. By itself, it does not establish what operators intended the displayed dates to communicate or that anyone meant to deceive readers.\n\nPopular Information reported on August 6 that One Nation was operating at least six state-branded sites in competitive Senate states. It identified the properties through disclosures associated with Meta advertising. S01\n\nBoho News began with those six as a calibration set. We looked for candidates across advertising records, certificate data, development hosts, WordPress endpoints, analytics identifiers, theme residue, domain-registration records, archives, vendor portfolios and repeated language. A candidate was not attributed merely because it used the same registrar, nameserver, WordPress theme or vendor.\n\nAll eight shared a narrow production cluster that included Google Analytics property G-MB5F8297KV, the same WordPress child theme and an acquire production-author identity. The recovered installations occupied low-numbered slots in the same broader environment. S03 S08 S09 S12 S13 S14\n\nThose markers were treated as corroboration, not standalone attribution. Our control searches found some generic infrastructure conventions across unrelated Acquire Digital work. The North Carolina and Michigan findings are stronger because direct payer or branding evidence converges with the technical evidence.\n\nThe network did not merely aggregate neutral state news. Its own pages show a repeated political function: give Republican Senate candidates the authority and visual language of local journalism, amplify favorable issue frames, and publish negative frames about opponents.\n\nThe clearest example is Alaska Navigator. Its homepage called the outlet “INDEPENDENT NEWS COVERING THE LAST FRONTIER,” but the legal footer said it was paid for by One Nation. The captured homepage led with three favorable pieces about incumbent Republican Sen. Dan Sullivan: S04\n\nThe same homepage listed favorable pieces crediting Sullivan with tougher fentanyl enforcement, protecting Alaska Native fur handicrafts, military investment, fisheries advocacy and health-care funding. That selection portrayed Sullivan as a pro-military, pro-resource-development, business-friendly incumbent focused on veterans, public safety, fisheries and federal investment. Those themes overlap with Sullivan’s official account of his agenda. S04 S15\n\nOne Nation was simultaneously running direct issue advocacy praising the same candidate on the same themes. One preserved One Nation page announced a $6 million Alaska campaign and asked viewers to “CALL AND THANK DAN S. SULLIVAN FOR PROTECTING OUR PRIVACY,” crediting him for the Homebuyers Privacy Protection Act. S05\n\nMaine Policy Updates used an even more explicit “fact check” format. Five captured pages asked whether Republican Sen. Susan Collins lowered prescription-drug costs, funded rural hospitals, supported firefighters and first responders, secured clean-water funding and helped with home-heating costs. Each delivered a favorable conclusion. Those themes also appear on Collins’s official issue pages and campaign material. S06 S07 S16 S17\n\nThe pattern extended beyond Sullivan and Collins: S18 S19 S20 S21\n\nThis is not a statistical sentiment analysis of every item and does not mean that every sentence on every site was false. Astroturfing can use accurate facts and real public records. The identifying feature is the disguised source and coordinated political purpose: national advocacy was packaged as independent-looking local publications whose editorial choices closely tracked the organizations’ Senate priorities.\n\nThe North Carolinian is the clearest extension of the public network.\n\nPreserved Meta records for the page identified SLF PAC as payer for 24 advertisements totaling $17,283 in the available all-time report. Decoded advertisement destinations led to a North Carolinian article. The captured site footer named Senate Leadership Fund, while the privacy policy retained language identifying One Nation. S08 S09 S10 S11 S22\n\nThe privacy page made the cross-organization residue visible in its first sentence. Under a North Carolinian masthead, it began: “At ONE NATION [‘Organization’ or ‘we’], we are committed to protecting the privacy of our online guests.” It later referred to thenorthcarolinian.org and ended with the SLF PAC payer footer. That is not merely “similar language”; it is a captured North Carolinian page that expressly names One Nation as the organization. S09\n\nThe preserved Meta Ad Library screen showed approximately 29 North Carolinian results and 250,000–300,000 aggregate impressions at the time of capture. The corresponding preserved accessibility-tree record for Library ID 2060778401186867 displayed “Paid for by SLF PAC” and linked to the North Carolinian prisoner-release article. Three additional expanded cards in that capture carried the same payer and destination. The all-time spending report, which groups creative variants differently from the visible cards, recorded 24 advertisements and $17,283. S10 S22\n\nThe linked article framed former Democratic governor and 2026 Senate candidate Roy Cooper’s prisoner-release agreement as a public-safety failure. The capture displayed the same SLF PAC footer as the homepage.\n\nThe site also used the shared analytics property, the same WordPress child theme, the acquire author identity and deployment slot 14. Its domain was registered on March 20 within 2.002 seconds of the Alaska Navigator and Peach State Post domains, using the same registrar and nameserver pair. S03 S08 S09\n\nRegistrar and nameserver overlap alone would not establish a relationship. Here it accompanies direct payer and branding evidence plus several independently specific production markers.\n\nThe evidence supports two conclusions: SLF PAC paid for advertisements promoting The North Carolinian, and the site was a technical sibling in the One Nation/SLF production environment. It does not resolve every layer of legal ownership, commissioning, editorial control or article authorship.\n\nMichigander News was not a guessed brand or an extrapolated domain name.\n\nBoho News preserved a staging property under slfsites.com, an installation that identified itself as “Senate Leadership Fund Sites.” Captured footer and privacy material named One Nation. The property shared the network's analytics, theme and production-author residue, occupied deployment slot 17, and included an asset label containing SLF-Michigander_News. S03 S12 S13 S14\n\nAt the relevant capture times, the homepage was password-protected. But /news/, privacy pages, feeds, sitemaps, REST interfaces, assets and 23 scaffold posts were publicly reachable. S12 S13 S14\n\nThe publicly reachable /news/ page was not an error page. It rendered a Michigander News masthead, dated story cards, newsletter forms, an “independent statewide publication” description and a footer stating “Paid for by One Nation.” The story cards contained placeholder Latin rather than finished political reporting.\n\nThe public privacy page independently identified both the responsible organization and the staging hostname. It began “At One Nation” and named michigandernews.slfsites.com as the website.\n\nThe 23 posts occupied contiguous WordPress IDs 10 through 32 and displayed dates from July 8 through July 23. Twenty-one displayed dates predated the first observed certificate for the staging host. Seven posts had modification timestamps clustered across six seconds, including five one-second steps. That pattern supports assigned or synthetic scaffold dates during a compressed build or import process. S03 S24\n\nIt does not establish why those dates were assigned.\n\nGoogle's political-advertising bulk data showed One Nation running statewide Michigan video creative from May 4 through May 10. The available bulk record did not expose a landing destination. The advertising corroborates Michigan as a program priority; it does not establish that an advertisement linked to Michigander News. S23\n\nBoho News has not established that Michigander News intentionally launched to the public, carried advertisements, reached voters or involved the Rogers campaign. The accurate finding is that a One Nation-branded Michigan staging draft existed in an SLF development environment, with a protected root and publicly reachable surrounding paths. S03 S12 S13 S14\n\nAmong the 59 dated articles on the six originally reported properties, 14 display dates earlier than the primary registration event for the relevant domain: S24\n\nFor 30 of the 59 articles, Boho News identified a source with a parseable date. Thirteen of the dates displayed by the network were within one day of the corresponding source date, and 14 were within two days. Of the 14 articles dated before domain registration, seven had a parseable source date; five were within one day of it. S24\n\nThat distribution more strongly supports later population that retained source-era dates than arbitrary date invention. It nevertheless leaves an important unanswered question: whether a date was meant to represent source publication, editorial assignment, import, or publication by the state-branded outlet.\n\nWordPress database records, revision histories, import logs and editorial instructions could answer that. Boho News does not possess those private records.\n\nOne New Hampshire Daily record shows a more specific production anomaly. Its title, displayed date, byline metadata and outgoing link align with a May 2025 Boston Herald story by Matthew Medsger. Its body aligns with a different January 2026 story discussing the transition into 2026 and material associated with Tim Dunn. S24 S25 S26 S27 S28\n\nThe preserved WordPress REST record reports a May 22, 2025 display date and a July 2, 2026 modification timestamp. This establishes a two-source metadata-and-content splice. A production or copying error remains a plausible explanation; the record does not establish intent. S24 S25 S26 S27 S28\n\nMarc Grasso of the Boston Herald told Boho News that Medsger was a Herald employee when the reflected article was published and that the supplied link appeared accurate. Grasso said he could not provide the original publication time and found no request or permission record for use of that article. His answer does not rule out every possible license, syndication route or permission source. S38\n\nPublic Federal Election Commission records show Senate Leadership Fund payments to Acquire Digital described as website design, website development or web advertising. The preserved rows include $10,000 on July 2, 2025; $6,500 on July 28, 2025; $5,000 on March 5, 2026; $2,400 on March 12, 2026; and $1,200 each on April 9, May 7 and June 4, 2026. Readers can examine SLF's filings through the FEC committee record for C00571703. S29 S30\n\nSix confirmed network domains were registered five to eight days after selected March, April or June payments. That sequence is probative but not dispositive. Three of the 2026 payments were identical $1,200 rows spaced at an exact 28-day cadence, which is also consistent with recurring service. The public filings do not name domains or allocate invoices to properties.\n\nSeparate technical evidence points more specifically to a production relationship. The shared WordPress author was named acquire; its preserved identity data linked to slfsites.com. The Gravatar hash associated with that account resolved to an acquiredigitalkyle identity, while Acquire Digital's team page identifies Kyle Burns as chief creative officer. That supports an Acquire-specific production-account inference. It does not establish that Burns wrote, selected or approved any article. S03 S30 S32\n\nAcquire Digital describes itself as a full-service digital firm serving organizations, campaigns and corporations, including political and advocacy clients. S33\n\nThe combined evidence supports identifying Acquire Digital as a central production vendor. It does not establish the exact contract scope, commissioning client, article workflow, individual responsibility or payment-to-domain allocation.\n\nOne Nation is a 501(c)(4) organization; Senate Leadership Fund is an independent-expenditure-only political committee. They remain separate legal entities. S29 S34 S37\n\nCurrent official pages identify Alex Latcham as executive director of both organizations. The FEC identifies Caleb Crosby as SLF's treasurer, and One Nation's latest preserved tax return identifies Crosby as its secretary and treasurer. S29 S35 S36 S37\n\nSLF's current-cycle filings through June 30 recorded three non-memo receipts from One Nation totaling $70.74 million. Reciprocal filings showed approximately monthly SLF-to-One Nation payments described as rent and salaries. Those records establish a material funding and shared-overhead relationship. They do not allocate money to these websites. S29 S31 S37\n\nThe same distinction applies to SLF's $342 million announcement. The recovered properties and staging draft map to the same eight states in that plan, down to all eight state names. The announcement describes a much broader election program spanning broadcast, cable, streaming, radio, data, direct mail, texting, field activity and voter turnout. Boho News did not find evidence that the announced total funded the sites.\n\nBoho News calibrated its search by requiring each method to recover known properties before treating a negative result as meaningful. The investigation reduced 525,104 Meta advertiser rows to 208 target-state news-like pages; decoded 374 One Nation and SLF live Meta Library identifiers; accounted for the observed acquiredig.com and slfsites.com names and deployment slots; reviewed staging hosts, BuiltWith candidates, portfolio pages and the Acquire FEC vendor graph; searched 29 Common Crawl collections; and analyzed 1,332 HTML files and 29,376 extracted URLs. S03 S40\n\nNo additional public One Nation/SLF news brand survived that review. Adjacent sites were separated when attribution, analytics, staff, scope or chronology did not match.\n\nThis is bounded completeness, not proof of universal absence. A private, deleted, renamed, password-protected or never-indexed property could remain invisible to passive research.\n\nBoho News also tested the hypothesis that the known operation underwent an observable mass scrub after the August 6 report. We found itemized changes in advertising and development endpoints, but repeated normalized comparisons found no substantive article-inventory or readable core-page change across the known eight properties. No known news property suddenly disappeared wholesale. Michigan retained its split state: a protected homepage with public surrounding routes. S40\n\nThe record therefore does not support claiming a generalized scramble, scrub or concealment effort.\n\nBoho News sent detailed questions beginning Aug. 15 and a concise check of the final claims on Aug. 21, with a deadline of noon Alaska time on Aug. 22. A complete mailbox snapshot finished at 5:06 p.m. Eastern that day—more than an hour after the deadline—and contained no substantive response from One Nation, Senate Leadership Fund or Acquire Digital. Their lack of response is not evidence supporting any claim in this article. S41\n\nA representative in the Dan Sullivan campaign thread told Boho News that the campaign intended to respond and asked about Boho News. Boho News answered, followed up and sent the campaign the final Alaska Navigator claims with the same noon Alaska deadline. No substantive answer arrived by the 5:06 p.m. Eastern cutoff. Boho News has not established that the campaign knew of, approved, paid for or coordinated Alaska Navigator. S39 S41\n\nThe Boston Herald response is described above. Bangor Daily News sent an automated acknowledgment. WMUR and the Concord Monitor did not provide substantive responses. No inference about permission or licensing is drawn from a publisher's silence. S38 S41\n\nBefore contacting the organizations named in this story, Boho News froze the pages, ads, public records and technical material underlying our findings. That preserves what we saw even if a site, footer, privacy policy, advertisement or staging page later changes or disappears. S03 S40\n\nWe will continue monitoring the properties. If a post-publication change is material to this report, we will document it and update our coverage. Readers who want the technical detail can inspect the public manifests, original figures, hashes, validation receipts and archive links in the One Nation Evidence Room.\n\nThe strongest finding is narrower and more concrete: a state-branded operation previously reported as six sites had a demonstrable eight-state production footprint. The additional record consists of a live North Carolina site advertised with SLF money and carrying mixed SLF/One Nation residue, plus a One Nation-branded Michigan staging draft in an SLF development environment. The same record documents retrospectively populated archives and a production trail strongly supporting Acquire Digital's role, while leaving commissioning, editorial intent and campaign knowledge unresolved.",
+      "bodyBlocks": [
+        {
+          "text": "The clue was a gap in the map.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Senate Leadership Fund announced a $342 million campaign across eight Senate battlegrounds. The astroturf news network first exposed by Popular Information covered six of them. Boho News found matching properties in the two states not represented in that initial report: The North Carolinian, a live site whose advertisements identified SLF PAC as the payer, and Michigander News, a One Nation-branded staging draft hosted inside an SLF development environment. S01 S02 S03 S08 S09 S10 S12 S13 S14",
+          "type": "paragraph"
+        },
+        {
+          "text": "We use astroturfing in its ordinary political-communications sense: centrally sponsored advocacy made to resemble independent, locally rooted public sentiment or journalism. That description fits this network. Its properties called themselves independent state news publications, adopted local names and branding, and published candidate-favorable or opponent-negative political material, while their national political sponsorship appeared in legal footers, privacy-policy residue or advertising disclosures rather than in the ordinary presentation of the articles.",
+          "type": "paragraph"
+        },
+        {
+          "text": "“Astroturfing” here describes the form and provenance of the communication. It is not, by itself, a claim that a particular disclosure violated election law.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Together with Alaska Navigator, Maine Policy Updates, Iowa Voice, Ohio Pulse, Peach State Post and New Hampshire Daily, the properties cover Alaska, Georgia, Iowa, Maine, Michigan, New Hampshire, North Carolina and Ohio. Those are the same eight states in which Senate Leadership Fund announced an initial $342 million investment on April 6. S01 S02 S03",
+          "type": "paragraph"
+        },
+        {
+          "text": "That geographic identity is significant context. It is not evidence that the announced $342 million paid for the websites, and Boho News found no invoice assigning a particular payment to a particular domain.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The investigation also found that five of the six originally reported sites display some articles dated before their domains were registered. Fourteen of 59 dated articles fall into that category. In this report, backdated means that observable date mismatch; the word does not, by itself, assign intent. Comparisons with identified source material support a narrower explanation than random fabrication: later site builds often retained dates associated with earlier source material, producing archives that appeared to extend further into the past than the domains themselves. S01 S24",
+          "type": "paragraph"
+        },
+        {
+          "text": "That is evidence of retrospective population. By itself, it does not establish what operators intended the displayed dates to communicate or that anyone meant to deceive readers.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "one-nation-s03",
+          "text": "Boho News froze the underlying pages, ads and records before publication. The Evidence Room holds the full-resolution figures, methods, public manifests, hashes, verification files and independent archive links.",
+          "title": "See every receipt",
+          "type": "source-callout"
+        },
+        {
+          "level": 2,
+          "text": "From six reported sites to an eight-state footprint",
+          "type": "subheading"
+        },
+        {
+          "text": "Popular Information reported on August 6 that One Nation was operating at least six state-branded sites in competitive Senate states. It identified the properties through disclosures associated with Meta advertising. S01",
+          "type": "paragraph"
+        },
+        {
+          "text": "Boho News began with those six as a calibration set. We looked for candidates across advertising records, certificate data, development hosts, WordPress endpoints, analytics identifiers, theme residue, domain-registration records, archives, vendor portfolios and repeated language. A candidate was not attributed merely because it used the same registrar, nameserver, WordPress theme or vendor.",
+          "type": "paragraph"
+        },
+        {
+          "caption": "The eight-property record",
+          "columns": [
+            "Property",
+            "State",
+            "Captured status",
+            "Direct attribution in the preserved record"
+          ],
+          "rows": [
+            [
+              "Alaska Navigator",
+              "Alaska",
+              "Live",
+              "One Nation"
+            ],
+            [
+              "Maine Policy Updates",
+              "Maine",
+              "Live",
+              "One Nation"
+            ],
+            [
+              "Iowa Voice",
+              "Iowa",
+              "Live",
+              "One Nation"
+            ],
+            [
+              "Ohio Pulse",
+              "Ohio",
+              "Live",
+              "One Nation"
+            ],
+            [
+              "Peach State Post",
+              "Georgia",
+              "Live",
+              "One Nation; Meta records also identify One Nation responsibility"
+            ],
+            [
+              "New Hampshire Daily",
+              "New Hampshire",
+              "Live",
+              "One Nation"
+            ],
+            [
+              "The North Carolinian",
+              "North Carolina",
+              "Live",
+              "SLF footer and Meta payer disclosure; One Nation privacy-language residue"
+            ],
+            [
+              "Michigander News",
+              "Michigan",
+              "Protected homepage; public peripheral and scaffold routes at captured times",
+              "One Nation branding on an SLF development host"
+            ]
+          ],
+          "type": "table"
+        },
+        {
+          "text": "All eight shared a narrow production cluster that included Google Analytics property G-MB5F8297KV, the same WordPress child theme and an acquire production-author identity. The recovered installations occupied low-numbered slots in the same broader environment. S03 S08 S09 S12 S13 S14",
+          "type": "paragraph"
+        },
+        {
+          "text": "Those markers were treated as corroboration, not standalone attribution. Our control searches found some generic infrastructure conventions across unrelated Acquire Digital work. The North Carolina and Michigan findings are stronger because direct payer or branding evidence converges with the technical evidence.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "What the astroturf network was selling",
+          "type": "subheading"
+        },
+        {
+          "text": "The network did not merely aggregate neutral state news. Its own pages show a repeated political function: give Republican Senate candidates the authority and visual language of local journalism, amplify favorable issue frames, and publish negative frames about opponents.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The clearest example is Alaska Navigator. Its homepage called the outlet “INDEPENDENT NEWS COVERING THE LAST FRONTIER,” but the legal footer said it was paid for by One Nation. The captured homepage led with three favorable pieces about incumbent Republican Sen. Dan Sullivan: S04",
+          "type": "paragraph"
+        },
+        {
+          "items": [
+            "“Senator Dan S. Sullivan’s Legislative Record of Supporting Alaska’s Veterans”;",
+            "“Sen. Sullivan’s tax policy helps Alaska businesses thrive”; and",
+            "“Opinion: Dan Sullivan has earned another term by delivering for Alaska.”"
+          ],
+          "type": "unordered-list"
+        },
+        {
+          "text": "The same homepage listed favorable pieces crediting Sullivan with tougher fentanyl enforcement, protecting Alaska Native fur handicrafts, military investment, fisheries advocacy and health-care funding. That selection portrayed Sullivan as a pro-military, pro-resource-development, business-friendly incumbent focused on veterans, public safety, fisheries and federal investment. Those themes overlap with Sullivan’s official account of his agenda. S04 S15",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Full-page capture of Alaska Navigator showing independent-news branding, favorable Dan Sullivan headlines and the One Nation payer footer.",
+          "caption": "Unaltered full-page capture of Alaska Navigator on August 13, 2026. The page branded itself as independent news, prominently featured favorable Sullivan articles, and ended with “Paid for by One Nation.”",
+          "credit": "Source page preserved by Boho News",
+          "height": 12000,
+          "rightsId": "media-one-nation-figure-1",
+          "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/1/",
+          "src": "/media/investigations/one-nation-network/figures/figure-08-alaska-navigator-pro-sullivan-homepage.png",
+          "type": "official-document-render",
+          "width": 1440
+        },
+        {
+          "text": "One Nation was simultaneously running direct issue advocacy praising the same candidate on the same themes. One preserved One Nation page announced a $6 million Alaska campaign and asked viewers to “CALL AND THANK DAN S. SULLIVAN FOR PROTECTING OUR PRIVACY,” crediting him for the Homebuyers Privacy Protection Act. S05",
+          "type": "paragraph"
+        },
+        {
+          "alt": "One Nation page announcing an advertisement praising Dan Sullivan for protecting Alaskans’ privacy.",
+          "caption": "Unaltered full-page capture of One Nation’s July 1 page promoting its pro-Sullivan privacy advertisement. Boho News has not established that the Sullivan campaign knew of, approved or coordinated the state-branded site or this advocacy.",
+          "credit": "Source page preserved by Boho News",
+          "height": 12000,
+          "rightsId": "media-one-nation-figure-2",
+          "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/2/",
+          "src": "/media/investigations/one-nation-network/figures/figure-09-one-nation-dan-sullivan-privacy-ad.png",
+          "type": "official-document-render",
+          "width": 1440
+        },
+        {
+          "text": "Maine Policy Updates used an even more explicit “fact check” format. Five captured pages asked whether Republican Sen. Susan Collins lowered prescription-drug costs, funded rural hospitals, supported firefighters and first responders, secured clean-water funding and helped with home-heating costs. Each delivered a favorable conclusion. Those themes also appear on Collins’s official issue pages and campaign material. S06 S07 S16 S17",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Maine Policy Updates fact check crediting Susan Collins with rural-hospital funding.",
+          "caption": "Unaltered full-page capture of Maine Policy Updates’ favorable rural-hospitals “fact check.” The page footer said “Paid for by One Nation.”",
+          "credit": "Source page preserved by Boho News",
+          "height": 12000,
+          "rightsId": "media-one-nation-figure-3",
+          "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/3/",
+          "src": "/media/investigations/one-nation-network/figures/figure-10-maine-policy-updates-susan-collins-rural-hospitals.png",
+          "type": "official-document-render",
+          "width": 1440
+        },
+        {
+          "alt": "Maine Policy Updates fact check crediting Susan Collins on prescription-drug and insulin costs.",
+          "caption": "Unaltered full-page capture of Maine Policy Updates’ favorable prescription-drug and insulin article, again carrying One Nation’s payer disclosure in the footer.",
+          "credit": "Source page preserved by Boho News",
+          "height": 12000,
+          "rightsId": "media-one-nation-figure-4",
+          "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/4/",
+          "src": "/media/investigations/one-nation-network/figures/figure-11-maine-policy-updates-susan-collins-drug-costs.png",
+          "type": "official-document-render",
+          "width": 1440
+        },
+        {
+          "text": "The pattern extended beyond Sullivan and Collins: S18 S19 S20 S21",
+          "type": "paragraph"
+        },
+        {
+          "caption": "Representative preserved political framing",
+          "columns": [
+            "State outlet",
+            "Candidate or opponent",
+            "What the outlet presented"
+          ],
+          "rows": [
+            [
+              "Iowa Voice",
+              "Republican Rep. Ashley Hinson",
+              "Favorable coverage of spending, veterans, child care, farmers and consumers."
+            ],
+            [
+              "Ohio Pulse",
+              "Republican Sen. Jon Husted",
+              "Favorable coverage of military funding, East Toledo investment and anti-trafficking legislation."
+            ],
+            [
+              "The North Carolinian",
+              "Republican Michael Whatley and Democratic opponent Roy Cooper",
+              "A favorable Whatley item and a promoted lead article attacking Cooper’s prisoner-release record."
+            ],
+            [
+              "New Hampshire Daily",
+              "Democratic Rep. Chris Pappas",
+              "Opponent-negative tax and ethics frames."
+            ],
+            [
+              "Peach State Post",
+              "Democratic Sen. Jon Ossoff",
+              "A tax-vote frame that tracked separate One Nation advocacy against Ossoff."
+            ]
+          ],
+          "type": "table"
+        },
+        {
+          "text": "This is not a statistical sentiment analysis of every item and does not mean that every sentence on every site was false. Astroturfing can use accurate facts and real public records. The identifying feature is the disguised source and coordinated political purpose: national advocacy was packaged as independent-looking local publications whose editorial choices closely tracked the organizations’ Senate priorities.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "North Carolina: the strongest new finding",
+          "type": "subheading"
+        },
+        {
+          "text": "The North Carolinian is the clearest extension of the public network.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Preserved Meta records for the page identified SLF PAC as payer for 24 advertisements totaling $17,283 in the available all-time report. Decoded advertisement destinations led to a North Carolinian article. The captured site footer named Senate Leadership Fund, while the privacy policy retained language identifying One Nation. S08 S09 S10 S11 S22",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Full North Carolinian homepage ending in the SLF PAC payer footer.",
+          "caption": "Unaltered full-page capture of The North Carolinian. The visible footer reads: “PAID FOR BY SLF PAC. NOT AUTHORIZED BY ANY CANDIDATE OR CANDIDATE’S COMMITTEE. WWW.SENATELEADERSHIPFUND.ORG.” The same capture includes a favorable Michael Whatley item and several negative frames about Roy Cooper.",
+          "credit": "Source page preserved by Boho News",
+          "height": 4063,
+          "rightsId": "media-one-nation-figure-5",
+          "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/5/",
+          "src": "/media/investigations/one-nation-network/figures/figure-01-north-carolinian-homepage-and-slf-footer.png",
+          "type": "official-document-render",
+          "width": 765
+        },
+        {
+          "text": "The privacy page made the cross-organization residue visible in its first sentence. Under a North Carolinian masthead, it began: “At ONE NATION [‘Organization’ or ‘we’], we are committed to protecting the privacy of our online guests.” It later referred to thenorthcarolinian.org and ended with the SLF PAC payer footer. That is not merely “similar language”; it is a captured North Carolinian page that expressly names One Nation as the organization. S09",
+          "type": "paragraph"
+        },
+        {
+          "alt": "North Carolinian privacy policy beginning with At ONE NATION and ending with the SLF PAC footer.",
+          "caption": "Unaltered full-page capture of The North Carolinian privacy policy, showing One Nation in the body and SLF PAC in the footer.",
+          "credit": "Source page preserved by Boho News",
+          "height": 8023,
+          "rightsId": "media-one-nation-figure-6",
+          "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/6/",
+          "src": "/media/investigations/one-nation-network/figures/figure-02-north-carolinian-one-nation-privacy-residue.png",
+          "type": "official-document-render",
+          "width": 765
+        },
+        {
+          "text": "The preserved Meta Ad Library screen showed approximately 29 North Carolinian results and 250,000–300,000 aggregate impressions at the time of capture. The corresponding preserved accessibility-tree record for Library ID 2060778401186867 displayed “Paid for by SLF PAC” and linked to the North Carolinian prisoner-release article. Three additional expanded cards in that capture carried the same payer and destination. The all-time spending report, which groups creative variants differently from the visible cards, recorded 24 advertisements and $17,283. S10 S22",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Meta Ad Library result screen for The North Carolinian showing approximately 29 results and 250,000 to 300,000 impressions.",
+          "caption": "Preserved Meta Ad Library screen for The North Carolinian. The screenshot establishes the page, result count and impression range; the separately hashed DOM record preserves the expanded card’s SLF PAC payer line, Library ID and destination URL.",
+          "credit": "Source page preserved by Boho News",
+          "height": 720,
+          "rightsId": "media-one-nation-figure-7",
+          "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/7/",
+          "src": "/media/investigations/one-nation-network/figures/figure-03-meta-ad-library-north-carolinian-results.png",
+          "type": "official-document-render",
+          "width": 1280
+        },
+        {
+          "text": "The linked article framed former Democratic governor and 2026 Senate candidate Roy Cooper’s prisoner-release agreement as a public-safety failure. The capture displayed the same SLF PAC footer as the homepage.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "North Carolinian article about Roy Cooper prisoner releases reached from an SLF PAC Meta advertisement.",
+          "caption": "Unaltered full-page capture of the North Carolinian article reached from the preserved SLF PAC advertisement destination.",
+          "credit": "Source page preserved by Boho News",
+          "height": 2602,
+          "rightsId": "media-one-nation-figure-8",
+          "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/8/",
+          "src": "/media/investigations/one-nation-network/figures/figure-04-north-carolinian-slf-ad-destination.png",
+          "type": "official-document-render",
+          "width": 765
+        },
+        {
+          "text": "The site also used the shared analytics property, the same WordPress child theme, the acquire author identity and deployment slot 14. Its domain was registered on March 20 within 2.002 seconds of the Alaska Navigator and Peach State Post domains, using the same registrar and nameserver pair. S03 S08 S09",
+          "type": "paragraph"
+        },
+        {
+          "text": "Registrar and nameserver overlap alone would not establish a relationship. Here it accompanies direct payer and branding evidence plus several independently specific production markers.",
+          "type": "paragraph"
+        },
+        {
+          "text": "The evidence supports two conclusions: SLF PAC paid for advertisements promoting The North Carolinian, and the site was a technical sibling in the One Nation/SLF production environment. It does not resolve every layer of legal ownership, commissioning, editorial control or article authorship.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Michigan: a real staging draft, not a proven launch",
+          "type": "subheading"
+        },
+        {
+          "text": "Michigander News was not a guessed brand or an extrapolated domain name.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Boho News preserved a staging property under slfsites.com, an installation that identified itself as “Senate Leadership Fund Sites.” Captured footer and privacy material named One Nation. The property shared the network's analytics, theme and production-author residue, occupied deployment slot 17, and included an asset label containing SLF-Michigander_News. S03 S12 S13 S14",
+          "type": "paragraph"
+        },
+        {
+          "text": "At the relevant capture times, the homepage was password-protected. But /news/, privacy pages, feeds, sitemaps, REST interfaces, assets and 23 scaffold posts were publicly reachable. S12 S13 S14",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Password form shown at the Michigander News homepage.",
+          "caption": "Exact viewport capture of the Michigander News root. It presented a password form rather than the site homepage.",
+          "credit": "Source page preserved by Boho News",
+          "height": 900,
+          "rightsId": "media-one-nation-figure-9",
+          "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/9/",
+          "src": "/media/investigations/one-nation-network/figures/figure-05-michigander-password-protected-homepage.png",
+          "type": "official-document-render",
+          "width": 780
+        },
+        {
+          "text": "The publicly reachable /news/ page was not an error page. It rendered a Michigander News masthead, dated story cards, newsletter forms, an “independent statewide publication” description and a footer stating “Paid for by One Nation.” The story cards contained placeholder Latin rather than finished political reporting.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Publicly reachable Michigander News path showing dated placeholder story cards and the One Nation footer.",
+          "caption": "Unaltered full-page capture of the public Michigander News /news/ path. It shows what could literally be viewed without a password: branding, dated placeholders, subscription forms, an independence claim and One Nation’s payer footer.",
+          "credit": "Source page preserved by Boho News",
+          "height": 2945,
+          "rightsId": "media-one-nation-figure-10",
+          "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/10/",
+          "src": "/media/investigations/one-nation-network/figures/figure-06-michigander-public-news-path.png",
+          "type": "official-document-render",
+          "width": 765
+        },
+        {
+          "text": "The public privacy page independently identified both the responsible organization and the staging hostname. It began “At One Nation” and named michigandernews.slfsites.com as the website.",
+          "type": "paragraph"
+        },
+        {
+          "alt": "Michigander News privacy policy naming One Nation and michigandernews.slfsites.com.",
+          "caption": "Unaltered full-page capture of the public Michigander News privacy policy. The opening names One Nation; the body names the slfsites.com staging hostname; the footer says “Paid for by One Nation.”",
+          "credit": "Source page preserved by Boho News",
+          "height": 7505,
+          "rightsId": "media-one-nation-figure-11",
+          "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/11/",
+          "src": "/media/investigations/one-nation-network/figures/figure-07-michigander-one-nation-privacy-and-footer.png",
+          "type": "official-document-render",
+          "width": 765
+        },
+        {
+          "text": "The 23 posts occupied contiguous WordPress IDs 10 through 32 and displayed dates from July 8 through July 23. Twenty-one displayed dates predated the first observed certificate for the staging host. Seven posts had modification timestamps clustered across six seconds, including five one-second steps. That pattern supports assigned or synthetic scaffold dates during a compressed build or import process. S03 S24",
+          "type": "paragraph"
+        },
+        {
+          "text": "It does not establish why those dates were assigned.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Google's political-advertising bulk data showed One Nation running statewide Michigan video creative from May 4 through May 10. The available bulk record did not expose a landing destination. The advertising corroborates Michigan as a program priority; it does not establish that an advertisement linked to Michigander News. S23",
+          "type": "paragraph"
+        },
+        {
+          "text": "Boho News has not established that Michigander News intentionally launched to the public, carried advertisements, reached voters or involved the Rogers campaign. The accurate finding is that a One Nation-branded Michigan staging draft existed in an SLF development environment, with a protected root and publicly reachable surrounding paths. S03 S12 S13 S14",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Dates that precede the domains",
+          "type": "subheading"
+        },
+        {
+          "text": "Among the 59 dated articles on the six originally reported properties, 14 display dates earlier than the primary registration event for the relevant domain: S24",
+          "type": "paragraph"
+        },
+        {
+          "caption": "Displayed article dates compared with domain registration",
+          "columns": [
+            "Site",
+            "Articles dated before registration",
+            "Longest lead"
+          ],
+          "rows": [
+            [
+              "Maine Policy Updates",
+              "3",
+              "103 days"
+            ],
+            [
+              "New Hampshire Daily",
+              "3",
+              "519 days"
+            ],
+            [
+              "Peach State Post",
+              "1",
+              "428 days"
+            ],
+            [
+              "Alaska Navigator",
+              "1",
+              "70 days"
+            ],
+            [
+              "Ohio Pulse",
+              "6",
+              "83 days"
+            ],
+            [
+              "Iowa Voice",
+              "0",
+              "Six displayed dates still preceded the captured build and homepage chronology"
+            ]
+          ],
+          "type": "table"
+        },
+        {
+          "text": "For 30 of the 59 articles, Boho News identified a source with a parseable date. Thirteen of the dates displayed by the network were within one day of the corresponding source date, and 14 were within two days. Of the 14 articles dated before domain registration, seven had a parseable source date; five were within one day of it. S24",
+          "type": "paragraph"
+        },
+        {
+          "text": "That distribution more strongly supports later population that retained source-era dates than arbitrary date invention. It nevertheless leaves an important unanswered question: whether a date was meant to represent source publication, editorial assignment, import, or publication by the state-branded outlet.",
+          "type": "paragraph"
+        },
+        {
+          "text": "WordPress database records, revision histories, import logs and editorial instructions could answer that. Boho News does not possess those private records.",
+          "type": "paragraph"
+        },
+        {
+          "level": 3,
+          "text": "A two-source splice in New Hampshire",
+          "type": "subheading"
+        },
+        {
+          "text": "One New Hampshire Daily record shows a more specific production anomaly. Its title, displayed date, byline metadata and outgoing link align with a May 2025 Boston Herald story by Matthew Medsger. Its body aligns with a different January 2026 story discussing the transition into 2026 and material associated with Tim Dunn. S24 S25 S26 S27 S28",
+          "type": "paragraph"
+        },
+        {
+          "text": "The preserved WordPress REST record reports a May 22, 2025 display date and a July 2, 2026 modification timestamp. This establishes a two-source metadata-and-content splice. A production or copying error remains a plausible explanation; the record does not establish intent. S24 S25 S26 S27 S28",
+          "type": "paragraph"
+        },
+        {
+          "text": "Marc Grasso of the Boston Herald told Boho News that Medsger was a Herald employee when the reflected article was published and that the supplied link appeared accurate. Grasso said he could not provide the original publication time and found no request or permission record for use of that article. His answer does not rule out every possible license, syndication route or permission source. S38",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "The Acquire Digital trail",
+          "type": "subheading"
+        },
+        {
+          "text": "Public Federal Election Commission records show Senate Leadership Fund payments to Acquire Digital described as website design, website development or web advertising. The preserved rows include $10,000 on July 2, 2025; $6,500 on July 28, 2025; $5,000 on March 5, 2026; $2,400 on March 12, 2026; and $1,200 each on April 9, May 7 and June 4, 2026. Readers can examine SLF's filings through the FEC committee record for C00571703. S29 S30",
+          "type": "paragraph"
+        },
+        {
+          "text": "Six confirmed network domains were registered five to eight days after selected March, April or June payments. That sequence is probative but not dispositive. Three of the 2026 payments were identical $1,200 rows spaced at an exact 28-day cadence, which is also consistent with recurring service. The public filings do not name domains or allocate invoices to properties.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Separate technical evidence points more specifically to a production relationship. The shared WordPress author was named acquire; its preserved identity data linked to slfsites.com. The Gravatar hash associated with that account resolved to an acquiredigitalkyle identity, while Acquire Digital's team page identifies Kyle Burns as chief creative officer. That supports an Acquire-specific production-account inference. It does not establish that Burns wrote, selected or approved any article. S03 S30 S32",
+          "type": "paragraph"
+        },
+        {
+          "text": "Acquire Digital describes itself as a full-service digital firm serving organizations, campaigns and corporations, including political and advocacy clients. S33",
+          "type": "paragraph"
+        },
+        {
+          "text": "The combined evidence supports identifying Acquire Digital as a central production vendor. It does not establish the exact contract scope, commissioning client, article workflow, individual responsibility or payment-to-domain allocation.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "One Nation and SLF: connected, but legally distinct",
+          "type": "subheading"
+        },
+        {
+          "text": "One Nation is a 501(c)(4) organization; Senate Leadership Fund is an independent-expenditure-only political committee. They remain separate legal entities. S29 S34 S37",
+          "type": "paragraph"
+        },
+        {
+          "text": "Current official pages identify Alex Latcham as executive director of both organizations. The FEC identifies Caleb Crosby as SLF's treasurer, and One Nation's latest preserved tax return identifies Crosby as its secretary and treasurer. S29 S35 S36 S37",
+          "type": "paragraph"
+        },
+        {
+          "text": "SLF's current-cycle filings through June 30 recorded three non-memo receipts from One Nation totaling $70.74 million. Reciprocal filings showed approximately monthly SLF-to-One Nation payments described as rent and salaries. Those records establish a material funding and shared-overhead relationship. They do not allocate money to these websites. S29 S31 S37",
+          "type": "paragraph"
+        },
+        {
+          "text": "The same distinction applies to SLF's $342 million announcement. The recovered properties and staging draft map to the same eight states in that plan, down to all eight state names. The announcement describes a much broader election program spanning broadcast, cable, streaming, radio, data, direct mail, texting, field activity and voter turnout. Boho News did not find evidence that the announced total funded the sites.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "How far the search went—and where it stops",
+          "type": "subheading"
+        },
+        {
+          "text": "Boho News calibrated its search by requiring each method to recover known properties before treating a negative result as meaningful. The investigation reduced 525,104 Meta advertiser rows to 208 target-state news-like pages; decoded 374 One Nation and SLF live Meta Library identifiers; accounted for the observed acquiredig.com and slfsites.com names and deployment slots; reviewed staging hosts, BuiltWith candidates, portfolio pages and the Acquire FEC vendor graph; searched 29 Common Crawl collections; and analyzed 1,332 HTML files and 29,376 extracted URLs. S03 S40",
+          "type": "paragraph"
+        },
+        {
+          "text": "No additional public One Nation/SLF news brand survived that review. Adjacent sites were separated when attribution, analytics, staff, scope or chronology did not match.",
+          "type": "paragraph"
+        },
+        {
+          "text": "This is bounded completeness, not proof of universal absence. A private, deleted, renamed, password-protected or never-indexed property could remain invisible to passive research.",
+          "type": "paragraph"
+        },
+        {
+          "text": "Boho News also tested the hypothesis that the known operation underwent an observable mass scrub after the August 6 report. We found itemized changes in advertising and development endpoints, but repeated normalized comparisons found no substantive article-inventory or readable core-page change across the known eight properties. No known news property suddenly disappeared wholesale. Michigan retained its split state: a protected homepage with public surrounding routes. S40",
+          "type": "paragraph"
+        },
+        {
+          "text": "The record therefore does not support claiming a generalized scramble, scrub or concealment effort.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "Responses",
+          "type": "subheading"
+        },
+        {
+          "text": "Boho News sent detailed questions beginning Aug. 15 and a concise check of the final claims on Aug. 21, with a deadline of noon Alaska time on Aug. 22. A complete mailbox snapshot finished at 5:06 p.m. Eastern that day—more than an hour after the deadline—and contained no substantive response from One Nation, Senate Leadership Fund or Acquire Digital. Their lack of response is not evidence supporting any claim in this article. S41",
+          "type": "paragraph"
+        },
+        {
+          "text": "A representative in the Dan Sullivan campaign thread told Boho News that the campaign intended to respond and asked about Boho News. Boho News answered, followed up and sent the campaign the final Alaska Navigator claims with the same noon Alaska deadline. No substantive answer arrived by the 5:06 p.m. Eastern cutoff. Boho News has not established that the campaign knew of, approved, paid for or coordinated Alaska Navigator. S39 S41",
+          "type": "paragraph"
+        },
+        {
+          "text": "The Boston Herald response is described above. Bangor Daily News sent an automated acknowledgment. WMUR and the Concord Monitor did not provide substantive responses. No inference about permission or licensing is drawn from a publisher's silence. S38 S41",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "We froze the record—and we will keep watching",
+          "type": "subheading"
+        },
+        {
+          "text": "Before contacting the organizations named in this story, Boho News froze the pages, ads, public records and technical material underlying our findings. That preserves what we saw even if a site, footer, privacy policy, advertisement or staging page later changes or disappears. S03 S40",
+          "type": "paragraph"
+        },
+        {
+          "text": "We will continue monitoring the properties. If a post-publication change is material to this report, we will document it and update our coverage. Readers who want the technical detail can inspect the public manifests, original figures, hashes, validation receipts and archive links in the One Nation Evidence Room.",
+          "type": "paragraph"
+        },
+        {
+          "level": 2,
+          "text": "What the evidence does not establish",
+          "type": "subheading"
+        },
+        {
+          "items": [
+            "That Michigander News intentionally launched, carried advertisements or reached voters.",
+            "That any beneficiary campaign knew of, approved, paid for or coordinated a property.",
+            "That reader or voter data was transferred to campaigns or political groups.",
+            "That post-August 6 changes were intended to conceal the operation.",
+            "That every retrospective date was deliberately falsified.",
+            "That a particular Acquire Digital payment funded a named domain.",
+            "That SLF's announced $342 million program funded these sites.",
+            "That all source reuse was unlicensed.",
+            "That no additional private, deleted or never-indexed property exists."
+          ],
+          "type": "unordered-list"
+        },
+        {
+          "text": "The strongest finding is narrower and more concrete: a state-branded operation previously reported as six sites had a demonstrable eight-state production footprint. The additional record consists of a live North Carolina site advertised with SLF money and carrying mixed SLF/One Nation residue, plus a One Nation-branded Michigan staging draft in an SLF development environment. The same record documents retrospectively populated archives and a production trail strongly supporting Acquire Digital's role, while leaving commissioning, editorial intent and campaign knowledge unresolved.",
+          "type": "paragraph"
+        },
+        {
+          "sourceId": "one-nation-s03",
+          "text": "Download the public manifest, inspect every full-resolution figure, check the hashes and review the independently validated frozen-source corpus.",
+          "title": "Evidence Room",
+          "type": "source-callout"
+        }
+      ],
+      "canonicalUrl": "https://bohonews.com/articles/one-nation-astroturf-news-network/",
+      "citations": [
+        {
+          "id": "one-nation-s01",
+          "publishedAt": "2026-08-06T00:00:00.000Z",
+          "publisher": "Popular Information",
+          "title": "Senate Republicans launch network of partisan ‘news’ sites",
+          "url": "https://popular.info/p/senate-republicans-launch-network"
+        },
+        {
+          "id": "one-nation-s02",
+          "publishedAt": "2026-04-06T00:00:00.000Z",
+          "publisher": "Senate Leadership Fund",
+          "title": "SLF announces initial $342 million investment in 2026 Senate races",
+          "url": "https://senateleadershipfund.org/press-releases/slf-announces-initial-342-million-investment-in-2026-senate-races/"
+        },
+        {
+          "id": "one-nation-s03",
+          "publishedAt": "2026-08-21T00:00:00.000Z",
+          "publisher": "Boho News",
+          "title": "One Nation/SLF state-news network evidence release, version 1.1.1",
+          "url": "https://doi.org/10.5281/zenodo.22051264"
+        },
+        {
+          "id": "one-nation-s04",
+          "publishedAt": "2026-08-13T23:03:18.434Z",
+          "publisher": "Alaska Navigator; preserved by Boho News",
+          "title": "Alaska Navigator homepage with favorable Dan Sullivan coverage and One Nation footer",
+          "url": "https://thealaskanavigator.com/"
+        },
+        {
+          "id": "one-nation-s05",
+          "publishedAt": "2026-07-01T00:00:00.000Z",
+          "publisher": "One Nation; preserved by Boho News",
+          "title": "New ad: Senator Dan S. Sullivan is protecting Alaskans’ privacy",
+          "url": "https://onenationamerica.org/news/new-ad-senator-dan-s-sullivan-is-protecting-alaskans-privacy/"
+        },
+        {
+          "id": "one-nation-s06",
+          "publishedAt": "2026-08-13T22:32:00.569Z",
+          "publisher": "Maine Policy Updates; preserved by Boho News",
+          "title": "Fact check: Susan Collins funding for Maine rural hospitals",
+          "url": "https://mainepolicyupdates.com/fact-check/fact-check-susan-collins-funding-for-maine-rural-hospitals/"
+        },
+        {
+          "id": "one-nation-s07",
+          "publishedAt": "2026-08-13T22:31:12.516Z",
+          "publisher": "Maine Policy Updates; preserved by Boho News",
+          "title": "Susan Collins’s record on prescription drug costs and insulin affordability",
+          "url": "https://mainepolicyupdates.com/fact-check/collins-prescription-drug-costs/"
+        },
+        {
+          "id": "one-nation-s08",
+          "publishedAt": "2026-08-15T01:15:13.708Z",
+          "publisher": "The North Carolinian; preserved by Boho News",
+          "title": "The North Carolinian homepage and SLF PAC payer footer",
+          "url": "https://thenorthcarolinian.org/"
+        },
+        {
+          "id": "one-nation-s09",
+          "publishedAt": "2026-08-15T01:15:52.104Z",
+          "publisher": "The North Carolinian; preserved by Boho News",
+          "title": "The North Carolinian privacy policy",
+          "url": "https://thenorthcarolinian.org/privacy-policy/"
+        },
+        {
+          "id": "one-nation-s10",
+          "publishedAt": "2026-08-14T07:21:29.000Z",
+          "publisher": "Meta; preserved by Boho News",
+          "title": "Meta Ad Library results for The North Carolinian",
+          "url": "https://www.facebook.com/ads/library/"
+        },
+        {
+          "id": "one-nation-s11",
+          "publishedAt": "2026-08-15T01:16:30.425Z",
+          "publisher": "The North Carolinian; preserved by Boho News",
+          "title": "North Carolinian prisoner-release article reached from an SLF PAC advertisement",
+          "url": "https://bohonews.com/evidence/one-nation-network/figures/8/"
+        },
+        {
+          "id": "one-nation-s12",
+          "publishedAt": "2026-08-15T01:17:07.449Z",
+          "publisher": "Michigander News staging property; preserved by Boho News",
+          "title": "Michigander News password-protected homepage",
+          "url": "https://michigandernews.slfsites.com/"
+        },
+        {
+          "id": "one-nation-s13",
+          "publishedAt": "2026-08-15T01:17:44.865Z",
+          "publisher": "Michigander News staging property; preserved by Boho News",
+          "title": "Public Michigander News /news/ path",
+          "url": "https://michigandernews.slfsites.com/news/"
+        },
+        {
+          "id": "one-nation-s14",
+          "publishedAt": "2026-08-15T01:18:22.265Z",
+          "publisher": "Michigander News staging property; preserved by Boho News",
+          "title": "Michigander News privacy policy",
+          "url": "https://michigandernews.slfsites.com/privacy-policy/"
+        },
+        {
+          "id": "one-nation-s15",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "publisher": "Office of U.S. Senator Dan Sullivan",
+          "title": "Sullivan touts ‘Alaska comeback,’ historic opportunities in annual address to Legislature",
+          "url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-touts-alaska-comeback-historic-opportunities-in-annual-address-to-legislature"
+        },
+        {
+          "id": "one-nation-s16",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "publisher": "Office of U.S. Senator Susan Collins",
+          "title": "Issues",
+          "url": "https://www.collins.senate.gov/issues"
+        },
+        {
+          "id": "one-nation-s17",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "publisher": "Susan Collins for Senate",
+          "title": "Did Susan Collins fund rural hospitals?",
+          "url": "https://susancollins.com/get-the-facts/did-susan-collins-fund-rural-hospitals/"
+        },
+        {
+          "id": "one-nation-s18",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "publisher": "Ashley Hinson for Congress",
+          "title": "Issues",
+          "url": "https://ashleyhinson.com/issues/"
+        },
+        {
+          "id": "one-nation-s19",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "publisher": "Office of U.S. Senator Jon Husted",
+          "title": "Husted joins bill to improve access to care for veterans",
+          "url": "https://www.husted.senate.gov/media/press-releases/husted-joins-bill-to-improve-access-to-care-for-veterans/"
+        },
+        {
+          "id": "one-nation-s20",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "publisher": "Office of U.S. Senator Jon Husted",
+          "title": "Husted leads bipartisan, bicameral bill to crack down on human trafficking",
+          "url": "https://www.husted.senate.gov/news/press-releases/husted-leads-bipartisan-bicameral-bill-to-crack-down-on-human-trafficking/"
+        },
+        {
+          "id": "one-nation-s21",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "publisher": "Michael Whatley for Senate",
+          "title": "Issues",
+          "url": "https://michaelwhatley.com/issues/"
+        },
+        {
+          "id": "one-nation-s22",
+          "publishedAt": "2026-08-11T00:00:00.000Z",
+          "publisher": "Meta",
+          "title": "Ad Library Report",
+          "url": "https://www.facebook.com/ads/library/report/"
+        },
+        {
+          "id": "one-nation-s23",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "publisher": "Google Ads Transparency Center",
+          "title": "Political advertising on Google",
+          "url": "https://adstransparency.google.com/political?political=&region=US"
+        },
+        {
+          "id": "one-nation-s24",
+          "publishedAt": "2026-08-14T10:53:10.000Z",
+          "publisher": "Boho News",
+          "title": "Known-site backdating summary and case reconciliation",
+          "url": "https://doi.org/10.5281/zenodo.22051264"
+        },
+        {
+          "id": "one-nation-s25",
+          "publishedAt": "2025-05-22T00:00:00.000Z",
+          "publisher": "New Hampshire Daily",
+          "title": "New Hampshire ban on sanctuary cities now on the books",
+          "url": "https://newhampshiredaily.org/news/new-hampshire-ban-on-sanctuary-cities-now-on-the-books/"
+        },
+        {
+          "id": "one-nation-s26",
+          "publishedAt": "2026-01-03T00:00:00.000Z",
+          "publisher": "The Spokesman-Review / Boston Herald syndication",
+          "title": "New Hampshire ban on sanctuary cities now on the books",
+          "url": "https://www.spokesman.com/stories/2026/jan/03/new-hampshire-ban-on-sanctuary-cities-now-on-the-b/"
+        },
+        {
+          "id": "one-nation-s27",
+          "publishedAt": "2025-05-22T00:00:00.000Z",
+          "publisher": "ArcaMax / Boston Herald syndication",
+          "title": "New Hampshire bans sanctuary cities and policies preventing ICE cooperation",
+          "url": "https://www.arcamax.com/currentnews/newsheadlines/s-3716585"
+        },
+        {
+          "id": "one-nation-s28",
+          "publishedAt": "2025-05-22T00:00:00.000Z",
+          "publisher": "Boston Herald",
+          "title": "New Hampshire bans sanctuary cities and policies preventing ICE cooperation",
+          "url": "https://www.bostonherald.com/2025/05/22/new-hampshire-bans-sanctuary-cities-and-policies-preventing-ice-cooperation/"
+        },
+        {
+          "id": "one-nation-s29",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "publisher": "Federal Election Commission",
+          "title": "Committee profile: SLF PAC, C00571703",
+          "url": "https://www.fec.gov/data/committee/C00571703/?cycle=2026"
+        },
+        {
+          "id": "one-nation-s30",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "publisher": "Federal Election Commission",
+          "title": "SLF PAC disbursements to Acquire Digital",
+          "url": "https://www.fec.gov/data/disbursements/?committee_id=C00571703&data_type=processed&recipient_name=Acquire+Digital&two_year_transaction_period=2026"
+        },
+        {
+          "id": "one-nation-s31",
+          "publishedAt": "2026-06-30T00:00:00.000Z",
+          "publisher": "Federal Election Commission",
+          "title": "SLF PAC receipts from One Nation",
+          "url": "https://www.fec.gov/data/receipts/?committee_id=C00571703&contributor_name=One+Nation&data_type=processed&two_year_transaction_period=2026"
+        },
+        {
+          "id": "one-nation-s32",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "publisher": "Acquire Digital",
+          "title": "Who we are",
+          "url": "https://acquiredigital.co/who/"
+        },
+        {
+          "id": "one-nation-s33",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "publisher": "Acquire Digital",
+          "title": "Acquire Digital",
+          "url": "https://acquiredigital.co/"
+        },
+        {
+          "id": "one-nation-s34",
+          "publishedAt": "2026-08-20T00:00:00.000Z",
+          "publisher": "One Nation",
+          "title": "What we do",
+          "url": "https://onenationamerica.org/about/"
+        },
+        {
+          "id": "one-nation-s35",
+          "publishedAt": "2026-08-20T00:00:00.000Z",
+          "publisher": "Senate Leadership Fund",
+          "title": "About",
+          "url": "https://senateleadershipfund.org/about/"
+        },
+        {
+          "id": "one-nation-s36",
+          "publishedAt": "2026-01-22T00:00:00.000Z",
+          "publisher": "One Nation",
+          "title": "One Nation launches eight-figure issue advocacy campaign highlighting Senator Susan Collins’ exemplary service for Maine",
+          "url": "https://www.onenationamerica.org/one-nation-launches-eight-figure-issue-advocacy-campaign-highlighting-senator-susan-collins-exemplary-service-for-maine/"
+        },
+        {
+          "id": "one-nation-s37",
+          "publishedAt": "2024-12-31T00:00:00.000Z",
+          "publisher": "ProPublica Nonprofit Explorer / IRS Form 990 data",
+          "title": "One Nation, EIN 27-1937961",
+          "url": "https://projects.propublica.org/nonprofits/organizations/271937961"
+        },
+        {
+          "id": "one-nation-s38",
+          "publishedAt": "2026-08-17T12:54:12.000Z",
+          "publisher": "Boston Herald and Boho News",
+          "title": "Right-of-reply correspondence with Marc Grasso",
+          "url": "https://bohonews.com/evidence/one-nation-network/"
+        },
+        {
+          "id": "one-nation-s39",
+          "publishedAt": "2026-08-22T20:00:00.000Z",
+          "publisher": "Dan Sullivan campaign and Boho News",
+          "title": "Right-of-reply correspondence with the Dan Sullivan campaign",
+          "url": "https://bohonews.com/evidence/one-nation-network/"
+        },
+        {
+          "id": "one-nation-s40",
+          "publishedAt": "2026-08-20T00:00:00.000Z",
+          "publisher": "Boho News",
+          "title": "Frozen public-source corpus, public-safe custody manifest and methodology",
+          "url": "https://bohonews.com/evidence/one-nation-network/"
+        },
+        {
+          "id": "one-nation-s41",
+          "publishedAt": "2026-08-22T21:06:33.968Z",
+          "publisher": "Boho News",
+          "title": "Boho News right-of-reply record",
+          "url": "https://bohonews.com/evidence/one-nation-network/"
+        }
+      ],
+      "confirmedFactsSummary": [
+        "The preserved production footprint covers eight state-branded properties across the eight states named in SLF's April 6 spending announcement.",
+        "The North Carolinian was live, promoted through SLF PAC advertisements and carried mixed SLF and One Nation residue.",
+        "Michigander News existed as a One Nation-branded staging draft on an SLF development host; Boho News has not established a public launch.",
+        "Fourteen of 59 dated articles on five originally reported properties displayed dates earlier than the relevant domains' primary registration events.",
+        "Public payment records and separate technical evidence strongly support Acquire Digital's role as a production vendor without allocating a specific payment to a specific domain."
+      ],
+      "corrections": [],
+      "dek": "A live North Carolina outlet and a One Nation-branded Michigan staging build complete an eight-state footprint matching Senate Leadership Fund's $342 million map. Five previously reported properties also carry 14 articles dated before their domains were registered.",
+      "desk": "politics",
+      "distribution": {
+        "newsSitemap": true,
+        "rss": true
+      },
+      "editor": "Augustine Bayer, Editor in chief",
+      "entities": [
+        "One Nation",
+        "Senate Leadership Fund",
+        "Acquire Digital",
+        "SLF PAC",
+        "Dan Sullivan",
+        "Susan Collins"
+      ],
+      "eventId": "event-one-nation-network-investigation",
+      "headline": "We found two more sites—and 14 backdated articles—in One Nation's astroturf news network",
+      "id": "article-one-nation-astroturf-network",
+      "leadImage": {
+        "alt": "Cropped view of The North Carolinian homepage, one of the two additional state-branded properties documented by Boho News.",
+        "caption": "Cropped from Boho News's preserved North Carolinian capture for lead presentation. The unaltered full-page image—including the SLF PAC payer footer—appears in the article and Evidence Room.",
+        "credit": "Source page preserved by Boho News",
+        "height": 900,
+        "rightsId": "media-one-nation-figure-5",
+        "role": "lead",
+        "src": "/media/investigations/one-nation-network/media-one-nation-figure-5/lead.webp",
+        "width": 1600
+      },
+      "locations": [
+        "Alaska",
+        "Georgia",
+        "Iowa",
+        "Maine",
+        "Michigan",
+        "New Hampshire",
+        "North Carolina",
+        "Ohio"
+      ],
+      "media": [],
+      "publicChangeLog": [],
+      "publicationStatus": "approved",
+      "publishedAt": null,
+      "relatedArticleIds": [],
+      "releaseId": null,
+      "retractionState": "current",
+      "schemaVersion": "2.0.0",
+      "search": {
+        "description": "Boho News documents an eight-state One Nation and SLF news-site footprint, a live North Carolina property, a Michigan staging build and 14 pre-registration article dates.",
+        "index": true,
+        "title": "One Nation astroturf news network: two more sites and 14 backdated articles"
+      },
+      "section": "investigations",
+      "slug": "one-nation-astroturf-news-network",
+      "social": {
+        "description": "Boho News found the missing North Carolina and Michigan properties and documented 14 articles dated before their domains existed.",
+        "image": "/media/investigations/one-nation-network/media-one-nation-figure-5/open-graph.webp",
+        "title": "The eight-state astroturf news network—and its backdated archives"
+      },
+      "supersededByArticleId": null,
+      "supersedesArticleId": null,
+      "topics": [
+        "Astroturfing",
+        "Campaign finance",
+        "Political advertising",
+        "Senate elections",
+        "Open-source intelligence"
+      ],
+      "uncertainty": [
+        "The record does not resolve exact ownership, commissioning, editorial control or individual article authorship for every property.",
+        "The record does not establish what operators intended displayed retrospective dates to communicate.",
+        "Boho News has not established beneficiary-campaign knowledge, approval, payment or coordination.",
+        "Private, deleted, renamed, password-protected or never-indexed properties may remain undiscovered."
+      ],
+      "updatedAt": null
     }
   ],
-  "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-16T21:33:14Z",
+  "compilerVersion": "bohonews-manual-one-nation-installer.v1.0.1",
+  "generatedAt": "2026-08-22T23:28:37.043Z",
   "inputHashes": {
-    "approvals": "7814f12ac058508813757aaaaa89fd915db00b0cb018175497e38155ee031039",
-    "articles": "b31f9e4ae277175f567bb7a952a3a8019febb59066972ec3844be7991b4d0302",
-    "claims": "7880c12f9ee42b46cb57fad47156eeac34d1599228cb2e4074e81279bdc5a34d",
+    "approvals": "b0c9ad8bc23be0d9cf26d0f422bd3206ebe140118850b4ef432aab6dcffa29d1",
+    "articles": "0e212b15f16dd5cf00950cd8ca04ceed8b1b0618bccf9265057b039a13f35371",
+    "claims": "d3d750bc1810eddd2521d5b83c7a86b01e01aac274fbee27f98dd061e3ecc91e",
     "corrections": "c41f6017ef1d3fd8554c2101a613bce39d40bcc513e6bb43f652182cd7d830c3",
-    "events": "255efd44f73becc6eb0499c92837afb3221575d01cc27da5e7ddb40fc94c23b5",
-    "mediaRights": "a9452596552234855f2e6db4dd1859f47da85187310b68354f39df0095873461",
-    "publicationIntents": "aa5db9455fc0c8f109c5218b66ceb33f5f50d7a7e141111857aade94d13b92f9",
-    "releaseRecords": "1d5d7e69c5b97c06db443f07cf05d45dfeefc294ae7a3aa867a8d2f7eac02a77",
-    "sourceItems": "5942dadc65f2273164d113e47b497dd26d317dc2dc88308475941363feef5fe2"
+    "events": "93f1fa05c6f5b0a20199c600495e2ce31bed0470456c421800dad3ec623bf8f7",
+    "mediaRights": "222e8a2882ab9c357cf9f8ae5a990886be3ef1aeadccaeb3a6c36bc1e07596d2",
+    "publicationIntents": "7f3db1d7159b52770651f374d2583d119ce5b6ca78941b9efc4da55f43e66ad0",
+    "releaseRecords": "0105b3004d4cd53330c722f417ce0046c0bc9d2bca40c9fb453869bbe39f2d3d",
+    "sourceItems": "490c8d126d488f332bd1e9ed3513755d756f417ba6ec38d8a08b76cc5816721e"
   },
   "inventory": {
-    "articleCount": 398,
-    "mediaCount": 1148,
-    "routeCount": 398
+    "articleCount": 399,
+    "mediaCount": 1159,
+    "routeCount": 399
   },
   "mediaRights": [
     {
@@ -152620,9 +153605,922 @@
       "rightsBasis": "Creative Commons Attribution 4.0 International",
       "schemaVersion": "1.1.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Full-page capture of Alaska Navigator showing independent-news branding, favorable Dan Sullivan headlines and the One Nation payer footer.",
+      "archivalStatus": "archival",
+      "attribution": "Source page preserved by Boho News",
+      "caption": "Unaltered full-page capture of Alaska Navigator on August 13, 2026. The page branded itself as independent news, prominently featured favorable Sullivan articles, and ended with “Paid for by One Nation.”",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Contained responsive derivatives are reference renditions; the article body and Evidence Room retain the unaltered full-page capture."
+      },
+      "creator": "Underlying page publisher; capture preserved by Boho News",
+      "derivatives": [
+        {
+          "hash": "9bf67c338ce7e53b7100c8c610059f8bb767ac23852a09dff441ad4091a05af1",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-1/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "1b36e08df89dd2c31d46089ec1290c6efa6741546056890451e5286afcbf36c1",
+          "height": 600,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-1/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "ee61f0551aeb2e3814e164ba947bb1c7358c6f0dcdbcbdce2a658b0eabc96e57",
+          "height": 1200,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-1/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "e59b14a5abb0c01d832dd8793af321d427ce80f8ab29baa43bc326edda523c14",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-1/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e7343ad391934da31494011f7f8792c55ae883773847c735fd6acfb9c6e46ef2",
+          "height": 720,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-1/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "0f03a84b6fce8960ec45c830a80a887cda54dd3e3f403154507bbe1b779b973f",
+          "height": 630,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-1/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "c28c1696ccda5be9311617bccba69d732a4a7aa9aad981a337462bc8ae08e9e9",
+          "height": 480,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-1/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        },
+        {
+          "hash": "5a441a599a8aa84e10291f8adbd732af1f824bd522eb4e251fdb4e42477eab7c",
+          "height": 12000,
+          "publicPath": "/media/investigations/one-nation-network/figures/figure-08-alaska-navigator-pro-sullivan-homepage.png",
+          "role": "lead",
+          "width": 1440
+        }
+      ],
+      "id": "media-one-nation-figure-1",
+      "illustrationLabel": null,
+      "license": "No blanket license asserted; underlying copyright, if any, remains with the source publisher.",
+      "originalFileHash": "5a441a599a8aa84e10291f8adbd732af1f824bd522eb4e251fdb4e42477eab7c",
+      "restrictions": [
+        "Do not detach from the One Nation investigation or imply endorsement.",
+        "Do not silently alter the original full-page capture.",
+        "Responsive crops and contained derivatives must link to the unaltered evidence figure."
+      ],
+      "retrievedAt": "2026-08-13T23:03:18.434Z",
+      "rightsBasis": "Limited evidentiary reproduction for news reporting, criticism and commentary; only material visible in and necessary to substantiate the article is presented.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/1/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "One Nation page announcing an advertisement praising Dan Sullivan for protecting Alaskans’ privacy.",
+      "archivalStatus": "archival",
+      "attribution": "Source page preserved by Boho News",
+      "caption": "Unaltered full-page capture of One Nation’s July 1 page promoting its pro-Sullivan privacy advertisement. Boho News has not established that the Sullivan campaign knew of, approved or coordinated the state-branded site or this advocacy.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Contained responsive derivatives are reference renditions; the article body and Evidence Room retain the unaltered full-page capture."
+      },
+      "creator": "Underlying page publisher; capture preserved by Boho News",
+      "derivatives": [
+        {
+          "hash": "313ff9998db9c847c189a86fcf41ac43efb65628aef21ec5faf19fb3d2b5eae6",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-2/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "01daa83b65ccf773eb5ba6dbf7aff36e200dbc288146a97fb8df1d33e067a4ae",
+          "height": 600,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-2/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "bc9df42b6093a38b8767e3c9a414821b77a8a26f9dad2c32062ab99e5269fddf",
+          "height": 1200,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-2/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "39dc9bfb7c5f96679d59b19d69ce6afdd1a2d0676dac19b4b12aa9a64175d636",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-2/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "f4b145665cf3afcd49161ff3c19fcb422edb67680db6a0940851dd919f9a4e90",
+          "height": 720,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-2/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "fca576b43cd40a63dbab745eabca7d91738268905562633fd281c24cbdf75f17",
+          "height": 630,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-2/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "e07088301ab621e6362d5ed7adf6b39f2eecb1a2ced8dcc9b7fe74fbf42e6115",
+          "height": 480,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-2/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        },
+        {
+          "hash": "97ff84a8a5c8db2c490bd036cdb415cedb77768debbb4e540b1f947513afeeb3",
+          "height": 12000,
+          "publicPath": "/media/investigations/one-nation-network/figures/figure-09-one-nation-dan-sullivan-privacy-ad.png",
+          "role": "lead",
+          "width": 1440
+        }
+      ],
+      "id": "media-one-nation-figure-2",
+      "illustrationLabel": null,
+      "license": "No blanket license asserted; underlying copyright, if any, remains with the source publisher.",
+      "originalFileHash": "97ff84a8a5c8db2c490bd036cdb415cedb77768debbb4e540b1f947513afeeb3",
+      "restrictions": [
+        "Do not detach from the One Nation investigation or imply endorsement.",
+        "Do not silently alter the original full-page capture.",
+        "Responsive crops and contained derivatives must link to the unaltered evidence figure."
+      ],
+      "retrievedAt": "2026-08-13T22:35:13.325Z",
+      "rightsBasis": "Limited evidentiary reproduction for news reporting, criticism and commentary; only material visible in and necessary to substantiate the article is presented.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/2/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Maine Policy Updates fact check crediting Susan Collins with rural-hospital funding.",
+      "archivalStatus": "archival",
+      "attribution": "Source page preserved by Boho News",
+      "caption": "Unaltered full-page capture of Maine Policy Updates’ favorable rural-hospitals “fact check.” The page footer said “Paid for by One Nation.”",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Contained responsive derivatives are reference renditions; the article body and Evidence Room retain the unaltered full-page capture."
+      },
+      "creator": "Underlying page publisher; capture preserved by Boho News",
+      "derivatives": [
+        {
+          "hash": "aefc63dd9f067740b04bcb47276a9f07fc0afb4dd60f011514833e9330648b45",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-3/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "e4e9dab4da1bc72b1386fca6d1a7565d727e97ce866697d50063d3d3aa5568ad",
+          "height": 600,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-3/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "665061556683e7c073ea8a2cd96b2f7db06b045cc7d75c77757a7c89c4c64bac",
+          "height": 1200,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-3/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "f1f8bfb118dd634b5c7ca97477e274ab31dcae7fc92a172d459955e23a31b04b",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-3/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "2bb8024de76cebec30255f1ee730916710f1a09f70a2b58aaaf23c0ba52ff5a0",
+          "height": 720,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-3/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "d5818137457ca6978c8f76334186c71501134e4f23c42b3f4555907cac50b875",
+          "height": 630,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-3/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "7d3a9ab7ccd9724b622e5de120e1e377cabf28d21beaae756346fadd7758dc91",
+          "height": 480,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-3/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        },
+        {
+          "hash": "ec2649c4df7d20350c294ef5bece22b471e67f758c7d673f8c05cae9042672ae",
+          "height": 12000,
+          "publicPath": "/media/investigations/one-nation-network/figures/figure-10-maine-policy-updates-susan-collins-rural-hospitals.png",
+          "role": "lead",
+          "width": 1440
+        }
+      ],
+      "id": "media-one-nation-figure-3",
+      "illustrationLabel": null,
+      "license": "No blanket license asserted; underlying copyright, if any, remains with the source publisher.",
+      "originalFileHash": "ec2649c4df7d20350c294ef5bece22b471e67f758c7d673f8c05cae9042672ae",
+      "restrictions": [
+        "Do not detach from the One Nation investigation or imply endorsement.",
+        "Do not silently alter the original full-page capture.",
+        "Responsive crops and contained derivatives must link to the unaltered evidence figure."
+      ],
+      "retrievedAt": "2026-08-13T22:32:00.569Z",
+      "rightsBasis": "Limited evidentiary reproduction for news reporting, criticism and commentary; only material visible in and necessary to substantiate the article is presented.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/3/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Maine Policy Updates fact check crediting Susan Collins on prescription-drug and insulin costs.",
+      "archivalStatus": "archival",
+      "attribution": "Source page preserved by Boho News",
+      "caption": "Unaltered full-page capture of Maine Policy Updates’ favorable prescription-drug and insulin article, again carrying One Nation’s payer disclosure in the footer.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Contained responsive derivatives are reference renditions; the article body and Evidence Room retain the unaltered full-page capture."
+      },
+      "creator": "Underlying page publisher; capture preserved by Boho News",
+      "derivatives": [
+        {
+          "hash": "ea0a1da3c77e1a226083cce10b79f92c30542cce854d9188d0bb629071e5aaaa",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-4/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b76efb65ba5fe41956ae7a8cf5cae68500b55902c4150a23a3df6ba4e8a448ea",
+          "height": 600,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-4/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "d8d0fb61f434029a531350f36d8e366e2f5dddab9f640594f8449dff25aacdd7",
+          "height": 1200,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-4/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a561872b080facb89a84dd0ef3d627e4e3bb084eabc740625a974307f37c4dcc",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-4/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "d6c5540ae5edb13342dcf0b257987f2b9ab0c51ce548948f8fa76720d7f54958",
+          "height": 720,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-4/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "591385b2a5aea84afe0fdf3bb2725eb3fd1b67e31fc8316358da378892b7c008",
+          "height": 630,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-4/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "b0d6cc09ab6e5b10f7f889c79b2d9c6e27bee187fca656fecbc6e01a73973afd",
+          "height": 480,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-4/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        },
+        {
+          "hash": "b3e7d2391ccc37bcae28bb198007fe722cfcacd36185d755298ad3745bc91649",
+          "height": 12000,
+          "publicPath": "/media/investigations/one-nation-network/figures/figure-11-maine-policy-updates-susan-collins-drug-costs.png",
+          "role": "lead",
+          "width": 1440
+        }
+      ],
+      "id": "media-one-nation-figure-4",
+      "illustrationLabel": null,
+      "license": "No blanket license asserted; underlying copyright, if any, remains with the source publisher.",
+      "originalFileHash": "b3e7d2391ccc37bcae28bb198007fe722cfcacd36185d755298ad3745bc91649",
+      "restrictions": [
+        "Do not detach from the One Nation investigation or imply endorsement.",
+        "Do not silently alter the original full-page capture.",
+        "Responsive crops and contained derivatives must link to the unaltered evidence figure."
+      ],
+      "retrievedAt": "2026-08-13T22:31:12.516Z",
+      "rightsBasis": "Limited evidentiary reproduction for news reporting, criticism and commentary; only material visible in and necessary to substantiate the article is presented.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/4/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Full North Carolinian homepage ending in the SLF PAC payer footer.",
+      "archivalStatus": "archival",
+      "attribution": "Source page preserved by Boho News",
+      "caption": "Unaltered full-page capture of The North Carolinian. The visible footer reads: “PAID FOR BY SLF PAC. NOT AUTHORIZED BY ANY CANDIDATE OR CANDIDATE’S COMMITTEE. WWW.SENATELEADERSHIPFUND.ORG.” The same capture includes a favorable Michael Whatley item and several negative frames about Roy Cooper.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Cropped responsive derivatives are approved for lead and social presentation; the article body and Evidence Room retain the unaltered full-page capture."
+      },
+      "creator": "Underlying page publisher; capture preserved by Boho News",
+      "derivatives": [
+        {
+          "hash": "c9595f33d0e252c48683587021d5ff653a1867bfc4ce99a74b985a2cfb8b6219",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-5/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "a92ec150f6f2a5db113cb0f2c8872052a43e553cc7df44001fa1f56ca23dba47",
+          "height": 600,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-5/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "749e2f4a18f79051741907506f99cfad7db6efb2690d550d10fd22d88f3cecc8",
+          "height": 1200,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-5/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "b4fc46b1c4b0986488217c51350f872c54f0d8be2c4a827a8db285ced45e2259",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-5/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e4fd78e8527b9cc59b617a895d9b0237505a1cd3257fc27d620ab44d8bb008e3",
+          "height": 720,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-5/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "7a72a6ede690094468fb864fb5986edb7859ec27940ee0c058b3c2146e0dfcdf",
+          "height": 630,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-5/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "76dba11eac203334112f5550ed53b0da4f0db671d477563d3591879d020499c7",
+          "height": 480,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-5/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        },
+        {
+          "hash": "51fba483ea7e5da4ed8f0ddac513387db8191f124fd51ca4d417bf57e7ee57be",
+          "height": 4063,
+          "publicPath": "/media/investigations/one-nation-network/figures/figure-01-north-carolinian-homepage-and-slf-footer.png",
+          "role": "lead",
+          "width": 765
+        }
+      ],
+      "id": "media-one-nation-figure-5",
+      "illustrationLabel": null,
+      "license": "No blanket license asserted; underlying copyright, if any, remains with the source publisher.",
+      "originalFileHash": "51fba483ea7e5da4ed8f0ddac513387db8191f124fd51ca4d417bf57e7ee57be",
+      "restrictions": [
+        "Do not detach from the One Nation investigation or imply endorsement.",
+        "Do not silently alter the original full-page capture.",
+        "Responsive crops and contained derivatives must link to the unaltered evidence figure."
+      ],
+      "retrievedAt": "2026-08-15T01:15:13.708Z",
+      "rightsBasis": "Limited evidentiary reproduction for news reporting, criticism and commentary; only material visible in and necessary to substantiate the article is presented.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/5/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "North Carolinian privacy policy beginning with At ONE NATION and ending with the SLF PAC footer.",
+      "archivalStatus": "archival",
+      "attribution": "Source page preserved by Boho News",
+      "caption": "Unaltered full-page capture of The North Carolinian privacy policy, showing One Nation in the body and SLF PAC in the footer.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Contained responsive derivatives are reference renditions; the article body and Evidence Room retain the unaltered full-page capture."
+      },
+      "creator": "Underlying page publisher; capture preserved by Boho News",
+      "derivatives": [
+        {
+          "hash": "ae794fc426ab58a990ee2814f5189bde59ad5f8365fc11f97dbe026dfd8e66b9",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-6/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "6f89cd2e3f6929b09b77483ecf01256727067fbe9a255f5c33747bc1176e183d",
+          "height": 600,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-6/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "8e78f85dcd1137b2cb6211bae394a19c3c6db0a1dae79ec51e7c3c62c4a5a5bb",
+          "height": 1200,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-6/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "513a32eaabdfd34244f065653f4b4187d02239d93c7f94357ac92873315f2e28",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-6/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "57a9c331d4ff9d7df90e07dce6a6d56f2fa38b0720082152c923625d0755ba2f",
+          "height": 720,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-6/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "90fc073d4904d0df1e97aa5b7bd3377a9f4f2df87b71501bdfd00cba52b367e3",
+          "height": 630,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-6/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a9dad62adf87b8a7822b3be64f8c0bc71f196bc126e70bf69e1e06a6475c04b9",
+          "height": 480,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-6/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        },
+        {
+          "hash": "a14396e6a385805349bfc050212ed1019b7bb11a882a404444042b4ae1939bfb",
+          "height": 8023,
+          "publicPath": "/media/investigations/one-nation-network/figures/figure-02-north-carolinian-one-nation-privacy-residue.png",
+          "role": "lead",
+          "width": 765
+        }
+      ],
+      "id": "media-one-nation-figure-6",
+      "illustrationLabel": null,
+      "license": "No blanket license asserted; underlying copyright, if any, remains with the source publisher.",
+      "originalFileHash": "a14396e6a385805349bfc050212ed1019b7bb11a882a404444042b4ae1939bfb",
+      "restrictions": [
+        "Do not detach from the One Nation investigation or imply endorsement.",
+        "Do not silently alter the original full-page capture.",
+        "Responsive crops and contained derivatives must link to the unaltered evidence figure."
+      ],
+      "retrievedAt": "2026-08-15T01:15:52.104Z",
+      "rightsBasis": "Limited evidentiary reproduction for news reporting, criticism and commentary; only material visible in and necessary to substantiate the article is presented.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/6/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Meta Ad Library result screen for The North Carolinian showing approximately 29 results and 250,000 to 300,000 impressions.",
+      "archivalStatus": "archival",
+      "attribution": "Source page preserved by Boho News",
+      "caption": "Preserved Meta Ad Library screen for The North Carolinian. The screenshot establishes the page, result count and impression range; the separately hashed DOM record preserves the expanded card’s SLF PAC payer line, Library ID and destination URL.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Contained responsive derivatives are reference renditions; the article body and Evidence Room retain the unaltered full-page capture. The public .png file is a lossless PNG rendition of the preserved JPEG source; the private archive retains and hashes the original source bytes."
+      },
+      "creator": "Underlying page publisher; capture preserved by Boho News",
+      "derivatives": [
+        {
+          "hash": "a4235ecc76c898fbcdd630946c0894a6e34e30039b133f682e53bc3178bc8207",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-7/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "780cdb2c53bec8269678871e7c3570e15008af5eed777e395cb109c9d0580d12",
+          "height": 600,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-7/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "2ff3f953bafb393543a4b97a584e589d1c17cefe2ecef5d0b4ddc391884e4f45",
+          "height": 1200,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-7/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a4d0c6a479c367b39ce9c3af22d4b854b46e6cb2c421d5af497834b9751ef62f",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-7/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "8a1d7d820de0449007cddcbd0796dc02b15dc0e24134fc97472b8aa0cc5dce71",
+          "height": 720,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-7/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "a3d90562a0c4e3de60ba978e2cd633e6c8a582b908e4c79d5f55ad8610f51eb2",
+          "height": 630,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-7/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "67891b034261140708d04c2b1170beeac2c2262b9cbe8f116003b6b6fb52519f",
+          "height": 480,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-7/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        },
+        {
+          "hash": "1e22c694318ce97832723dbb77864c5cd1bef39afdf6f92414cb14a4363d3500",
+          "height": 720,
+          "publicPath": "/media/investigations/one-nation-network/figures/figure-03-meta-ad-library-north-carolinian-results.png",
+          "role": "lead",
+          "width": 1280
+        }
+      ],
+      "id": "media-one-nation-figure-7",
+      "illustrationLabel": null,
+      "license": "No blanket license asserted; underlying copyright, if any, remains with the source publisher.",
+      "originalFileHash": "3ce8ae4d1d7e97ab38061c98e12fc859649aa9a1697fc670489723ffff0536b9",
+      "restrictions": [
+        "Do not detach from the One Nation investigation or imply endorsement.",
+        "Do not silently alter the original full-page capture.",
+        "Responsive crops and contained derivatives must link to the unaltered evidence figure."
+      ],
+      "retrievedAt": "2026-08-14T07:21:29.000Z",
+      "rightsBasis": "Limited evidentiary reproduction for news reporting, criticism and commentary; only material visible in and necessary to substantiate the article is presented.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/7/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "North Carolinian article about Roy Cooper prisoner releases reached from an SLF PAC Meta advertisement.",
+      "archivalStatus": "archival",
+      "attribution": "Source page preserved by Boho News",
+      "caption": "Unaltered full-page capture of the North Carolinian article reached from the preserved SLF PAC advertisement destination.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Contained responsive derivatives are reference renditions; the article body and Evidence Room retain the unaltered full-page capture."
+      },
+      "creator": "Underlying page publisher; capture preserved by Boho News",
+      "derivatives": [
+        {
+          "hash": "a63a7e6dee37dded236a48036999531871bc3f05b73ccf4e96d2bfa6e035e309",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-8/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "b64353297adff6c34f5bab3b892934e7b0bcc5044f61213c72bd80df0f0c72fd",
+          "height": 600,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-8/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "27e1509e2948ca23648a81f90745ce5a743f99b376bb86c4e63e3a6424b6387d",
+          "height": 1200,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-8/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "abaf1fe554bb7fce9ed7da1f23c15f247264e8ed547fbec3461f8340406a1bac",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-8/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "67f7ed73c6ca33676a50ae506208aed6e8108533c973de52d740c77a2fcde5a0",
+          "height": 720,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-8/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "409c4afd45838935a1730cc2db17c38e74206929bd1c897cf80079459474cbae",
+          "height": 630,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-8/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "a7da2bd9e9cabf723bf3f204f8609b3123d690a94de07f6280770540cc27f6fd",
+          "height": 480,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-8/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        },
+        {
+          "hash": "2edcef09c141c01e53919501025a4fc9f95fba5666455df5bc370b74126318ea",
+          "height": 2602,
+          "publicPath": "/media/investigations/one-nation-network/figures/figure-04-north-carolinian-slf-ad-destination.png",
+          "role": "lead",
+          "width": 765
+        }
+      ],
+      "id": "media-one-nation-figure-8",
+      "illustrationLabel": null,
+      "license": "No blanket license asserted; underlying copyright, if any, remains with the source publisher.",
+      "originalFileHash": "2edcef09c141c01e53919501025a4fc9f95fba5666455df5bc370b74126318ea",
+      "restrictions": [
+        "Do not detach from the One Nation investigation or imply endorsement.",
+        "Do not silently alter the original full-page capture.",
+        "Responsive crops and contained derivatives must link to the unaltered evidence figure."
+      ],
+      "retrievedAt": "2026-08-15T01:16:30.425Z",
+      "rightsBasis": "Limited evidentiary reproduction for news reporting, criticism and commentary; only material visible in and necessary to substantiate the article is presented.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/8/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Password form shown at the Michigander News homepage.",
+      "archivalStatus": "archival",
+      "attribution": "Source page preserved by Boho News",
+      "caption": "Exact viewport capture of the Michigander News root. It presented a password form rather than the site homepage.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Contained responsive derivatives are reference renditions; the article body and Evidence Room retain the unaltered full-page capture."
+      },
+      "creator": "Underlying page publisher; capture preserved by Boho News",
+      "derivatives": [
+        {
+          "hash": "08cc9cfea6322a97a3f1ca7924954b446cbea69701d9ab430f995edb61f829fc",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-9/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "43bcf27315635884b279490f8bb93c4f63cd1475578c7c2e6dfa305e2530f0b7",
+          "height": 600,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-9/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "82c6a68a99d06deadf4e1ee6843e7ed1625c3dc77a766a39d90084e8acfc737c",
+          "height": 1200,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-9/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "91f8ff8778633907d82fd777eb8b7fa5cc185087d11492abce350ad79c792976",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-9/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "e676e76b473fb2af29bb8074d9e54529d2feafe8b618680e64984d6964b46031",
+          "height": 720,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-9/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "3fff2b268cc31e33a4369d13f2435a5eb9778a6e099ef6f42aee775db293c340",
+          "height": 630,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-9/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "56a6b8185cb75727681b9df316debd1807d987cc7322784d19add01e347b1904",
+          "height": 480,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-9/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        },
+        {
+          "hash": "e6b0701ca3156196f37f3933c27707d91731f809de80527ddc0624dd50cad583",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/figures/figure-05-michigander-password-protected-homepage.png",
+          "role": "lead",
+          "width": 780
+        }
+      ],
+      "id": "media-one-nation-figure-9",
+      "illustrationLabel": null,
+      "license": "No blanket license asserted; underlying copyright, if any, remains with the source publisher.",
+      "originalFileHash": "e6b0701ca3156196f37f3933c27707d91731f809de80527ddc0624dd50cad583",
+      "restrictions": [
+        "Do not detach from the One Nation investigation or imply endorsement.",
+        "Do not silently alter the original full-page capture.",
+        "Responsive crops and contained derivatives must link to the unaltered evidence figure."
+      ],
+      "retrievedAt": "2026-08-15T01:17:07.449Z",
+      "rightsBasis": "Limited evidentiary reproduction for news reporting, criticism and commentary; only material visible in and necessary to substantiate the article is presented.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/9/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Publicly reachable Michigander News path showing dated placeholder story cards and the One Nation footer.",
+      "archivalStatus": "archival",
+      "attribution": "Source page preserved by Boho News",
+      "caption": "Unaltered full-page capture of the public Michigander News /news/ path. It shows what could literally be viewed without a password: branding, dated placeholders, subscription forms, an independence claim and One Nation’s payer footer.",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Contained responsive derivatives are reference renditions; the article body and Evidence Room retain the unaltered full-page capture."
+      },
+      "creator": "Underlying page publisher; capture preserved by Boho News",
+      "derivatives": [
+        {
+          "hash": "65fe792a619d669b8c76a31d3435f276d2a0124e626fc568b0d5f3afd143a2bc",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-10/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "33c710eaac7dd284a381905e9cc6db460190aea9f1c885ac7356746935c07300",
+          "height": 600,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-10/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "68a308c0aba4909c1fb3775b8279a08a3984c12691afc6b976a8c89032c2e623",
+          "height": 1200,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-10/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "a74b53517a00572fffc214d6500b63250b3f46a9f3aab1b84680672e0e3ecb87",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-10/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "34e85004bd02ce52e8ac751e03f28b01086cff58f316a17315d4df95f58309b2",
+          "height": 720,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-10/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "ca6f29e92bc05b8507084c98fc7ff764f706e4c9e2e745e05edf3199c736ce81",
+          "height": 630,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-10/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "86389036305528c4c2160547bed5cef780dc1c7e933dd5f8984665772b2ce638",
+          "height": 480,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-10/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        },
+        {
+          "hash": "30bddbf032059e3e4f96f0580174fa2f74ce689e8541ead9a9728e91196d96a4",
+          "height": 2945,
+          "publicPath": "/media/investigations/one-nation-network/figures/figure-06-michigander-public-news-path.png",
+          "role": "lead",
+          "width": 765
+        }
+      ],
+      "id": "media-one-nation-figure-10",
+      "illustrationLabel": null,
+      "license": "No blanket license asserted; underlying copyright, if any, remains with the source publisher.",
+      "originalFileHash": "30bddbf032059e3e4f96f0580174fa2f74ce689e8541ead9a9728e91196d96a4",
+      "restrictions": [
+        "Do not detach from the One Nation investigation or imply endorsement.",
+        "Do not silently alter the original full-page capture.",
+        "Responsive crops and contained derivatives must link to the unaltered evidence figure."
+      ],
+      "retrievedAt": "2026-08-15T01:17:44.865Z",
+      "rightsBasis": "Limited evidentiary reproduction for news reporting, criticism and commentary; only material visible in and necessary to substantiate the article is presented.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/10/"
+    },
+    {
+      "aiGenerated": false,
+      "altText": "Michigander News privacy policy naming One Nation and michigandernews.slfsites.com.",
+      "archivalStatus": "archival",
+      "attribution": "Source page preserved by Boho News",
+      "caption": "Unaltered full-page capture of the public Michigander News privacy policy. The opening names One Nation; the body names the slfsites.com staging hostname; the footer says “Paid for by One Nation.”",
+      "contextNotes": {
+        "misleading": false,
+        "usage": "Contained responsive derivatives are reference renditions; the article body and Evidence Room retain the unaltered full-page capture."
+      },
+      "creator": "Underlying page publisher; capture preserved by Boho News",
+      "derivatives": [
+        {
+          "hash": "b4b85b61c0c60213f9560296fb529d52f05085b8414ee4bca4d4521be8fd3f47",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-11/lead.webp",
+          "role": "lead",
+          "width": 1600
+        },
+        {
+          "hash": "4d2c57f568e739b56d7aa47eba78dd5e0cf7b25f3fc771b5f2e3dea6b9d5c1dc",
+          "height": 600,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-11/card.webp",
+          "role": "card",
+          "width": 900
+        },
+        {
+          "hash": "09b011019ef988801a05c146b0a62497825baddb7c55b8a19d61e565a35399b6",
+          "height": 1200,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-11/square-social.webp",
+          "role": "square-social",
+          "width": 1200
+        },
+        {
+          "hash": "58fabc928d2e5f8900d5efb104e0fdb999194b437de884639042e3322dd8f623",
+          "height": 900,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-11/four-three.webp",
+          "role": "four-three",
+          "width": 1200
+        },
+        {
+          "hash": "53077ddbce37549f717dce6f6832440b9a1ac680248e4ffdcc8f70ef808eb1a8",
+          "height": 720,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-11/sixteen-nine.webp",
+          "role": "sixteen-nine",
+          "width": 1280
+        },
+        {
+          "hash": "be4cc99909f51a88f65e177f19f21d2c99669aa9768cef596f886b06d3447e9a",
+          "height": 630,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-11/open-graph.webp",
+          "role": "open-graph",
+          "width": 1200
+        },
+        {
+          "hash": "5f00b7efae919f460c5392645edeb73bc1ce62a19a1fa651a32916b189a38028",
+          "height": 480,
+          "publicPath": "/media/investigations/one-nation-network/media-one-nation-figure-11/compact-mobile.webp",
+          "role": "compact-mobile",
+          "width": 720
+        },
+        {
+          "hash": "8882607e6e83896813eddfc3eb033e73465ea4cca8df52f879988ec71847a2c4",
+          "height": 7505,
+          "publicPath": "/media/investigations/one-nation-network/figures/figure-07-michigander-one-nation-privacy-and-footer.png",
+          "role": "lead",
+          "width": 765
+        }
+      ],
+      "id": "media-one-nation-figure-11",
+      "illustrationLabel": null,
+      "license": "No blanket license asserted; underlying copyright, if any, remains with the source publisher.",
+      "originalFileHash": "8882607e6e83896813eddfc3eb033e73465ea4cca8df52f879988ec71847a2c4",
+      "restrictions": [
+        "Do not detach from the One Nation investigation or imply endorsement.",
+        "Do not silently alter the original full-page capture.",
+        "Responsive crops and contained derivatives must link to the unaltered evidence figure."
+      ],
+      "retrievedAt": "2026-08-15T01:18:22.265Z",
+      "rightsBasis": "Limited evidentiary reproduction for news reporting, criticism and commentary; only material visible in and necessary to substantiate the article is presented.",
+      "schemaVersion": "1.1.0",
+      "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/11/"
     }
   ],
-  "packageDigest": "ef9ca4bd71349fa92fde585e2774ca935271bc90d5c48583c873c4c90a4d1183",
+  "packageDigest": "95f34670fe24077a89ba50412e7b3fd887b0d7dd7c15490607c67ede4735c652",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -155020,7 +156918,7 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "schemaVersion": "2.1.1",
   "site": "https://bohonews.com"
 }

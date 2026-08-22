@@ -1,9 +1,9 @@
 {
-  "articleCount": 398,
-  "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-16T21:33:14Z",
-  "mediaCount": 1148,
-  "packageDigest": "ef9ca4bd71349fa92fde585e2774ca935271bc90d5c48583c873c4c90a4d1183",
+  "articleCount": 399,
+  "compilerVersion": "bohonews-manual-one-nation-installer.v1.0.1",
+  "generatedAt": "2026-08-22T23:28:37.043Z",
+  "mediaCount": 1159,
+  "packageDigest": "95f34670fe24077a89ba50412e7b3fd887b0d7dd7c15490607c67ede4735c652",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -2401,7 +2401,7 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "routes": [
     "/articles/2026-census-test-huntsville-spartanburg-august-31/",
     "/articles/2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula/",
@@ -2800,7 +2800,8 @@
     "/articles/world-bank-south-africa-infrastructure-loan-1-5-billion-2026/",
     "/articles/world-u20-championships-oregon-2026-opens/",
     "/articles/wto-goods-trade-barometer-101-7-june-2026/",
-    "/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/"
+    "/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/",
+    "/articles/one-nation-astroturf-news-network/"
   ],
   "schemaVersion": "2.1.1"
 }
