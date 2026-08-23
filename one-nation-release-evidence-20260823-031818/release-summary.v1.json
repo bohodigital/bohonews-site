@@ -1,0 +1,16 @@
+{
+  "approvedArticleSha256": "0e212b15f16dd5cf00950cd8ca04ceed8b1b0618bccf9265057b039a13f35371",
+  "approvedBodySha256": "8f5e169d30883767d61520ff0791e4ac7dba39f059432eb4f59a49e3c8563cde",
+  "articleIds": [
+    "article-one-nation-astroturf-network"
+  ],
+  "batchId": "PB-20260823T025013Z-B417481DFC9F",
+  "candidatePackageDigest": "b417481dfc9ff585696711b9f25a3218ca99842ed43fa3674e6a69d68e28bbc3",
+  "canonicalFirstPublicAt": "2026-08-23T03:18:18.571Z",
+  "finalPackageDigest": "4d86436be1d38173d36b36d3c9a79b373c751480ca0d5f9d46225ccd3829c5e7",
+  "homepageLead": true,
+  "markerHash": "a3f349a01ef1aca7c15e2125e4c26c7c3fbceba943d82e8aaab5e28bb4645fd9",
+  "publicContentInventoryDigest": "ad39d18bb1e144e5774aceb8d3c8a95f97fd0dbe64cb02a985932b080b12e149",
+  "releaseId": "release-pb-20260823t025013z-b417481dfc9f",
+  "schemaVersion": "manual-investigation-release-summary.v1"
+}

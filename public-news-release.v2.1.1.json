@@ -1,9 +1,9 @@
 {
   "articleCount": 399,
-  "compilerVersion": "bohonews-manual-one-nation-installer.v1.0.2",
-  "generatedAt": "2026-08-22T23:41:18.317Z",
+  "compilerVersion": "bohonews-manual-one-nation-finalizer.v1.0.0",
+  "generatedAt": "2026-08-23T03:22:17.364Z",
   "mediaCount": 1159,
-  "packageDigest": "b417481dfc9ff585696711b9f25a3218ca99842ed43fa3674e6a69d68e28bbc3",
+  "packageDigest": "4d86436be1d38173d36b36d3c9a79b373c751480ca0d5f9d46225ccd3829c5e7",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -2399,9 +2399,30 @@
       "releaseId": "release-pb-20260816t200645z-b2e437ac3633-8b9cb3cbce88",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://195b857e.bohonews.pages.dev/",
+      "activationEvidenceHash": "8b1ce5003ff41829c2e61ddfe48bc940a030c6ed5215f7064536598dce6350ae",
+      "canonicalFirstPublicAt": "2026-08-23T03:18:18.571Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/one-nation-astroturf-news-network/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-one-nation-astroturf-network"
+      ],
+      "previousVerifiedDeploymentReference": "cf6734a3c0954e44a7d54a15a1b0e8ca9d2a7af0ef8e1db5c9222b5697730a17",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-23T03:15:24.374994Z",
+      "recordHash": "0aa4f66604ee4c0aae0995f2e52b738aed9657477fe0728018b9a2821bb6b250",
+      "releaseId": "release-pb-20260823t025013z-b417481dfc9f",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
-  "releaseState": "candidate",
+  "releaseState": "final",
   "routes": [
     "/articles/2026-census-test-huntsville-spartanburg-august-31/",
     "/articles/2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula/",

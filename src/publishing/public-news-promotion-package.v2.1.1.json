@@ -66391,9 +66391,9 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-23T03:18:18.571Z",
       "relatedArticleIds": [],
-      "releaseId": null,
+      "releaseId": "release-pb-20260823t025013z-b417481dfc9f",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -66423,11 +66423,11 @@
         "Boho News has not established beneficiary-campaign knowledge, approval, payment or coordination.",
         "Private, deleted, renamed, password-protected or never-indexed properties may remain undiscovered."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-23T03:18:18.571Z"
     }
   ],
-  "compilerVersion": "bohonews-manual-one-nation-installer.v1.0.2",
-  "generatedAt": "2026-08-22T23:41:18.317Z",
+  "compilerVersion": "bohonews-manual-one-nation-finalizer.v1.0.0",
+  "generatedAt": "2026-08-23T03:22:17.364Z",
   "inputHashes": {
     "approvals": "b0c9ad8bc23be0d9cf26d0f422bd3206ebe140118850b4ef432aab6dcffa29d1",
     "articles": "0e212b15f16dd5cf00950cd8ca04ceed8b1b0618bccf9265057b039a13f35371",
@@ -66436,7 +66436,7 @@
     "events": "93f1fa05c6f5b0a20199c600495e2ce31bed0470456c421800dad3ec623bf8f7",
     "mediaRights": "222e8a2882ab9c357cf9f8ae5a990886be3ef1aeadccaeb3a6c36bc1e07596d2",
     "publicationIntents": "7f3db1d7159b52770651f374d2583d119ce5b6ca78941b9efc4da55f43e66ad0",
-    "releaseRecords": "0105b3004d4cd53330c722f417ce0046c0bc9d2bca40c9fb453869bbe39f2d3d",
+    "releaseRecords": "e67cb47eacc0e3e4d82d25ca95209bd79178237821a086e2e0fabfce572876af",
     "sourceItems": "490c8d126d488f332bd1e9ed3513755d756f417ba6ec38d8a08b76cc5816721e"
   },
   "inventory": {
@@ -154520,7 +154520,7 @@
       "sourceUrl": "https://bohonews.com/evidence/one-nation-network/figures/11/"
     }
   ],
-  "packageDigest": "b417481dfc9ff585696711b9f25a3218ca99842ed43fa3674e6a69d68e28bbc3",
+  "packageDigest": "4d86436be1d38173d36b36d3c9a79b373c751480ca0d5f9d46225ccd3829c5e7",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -156916,9 +156916,30 @@
       "releaseId": "release-pb-20260816t200645z-b2e437ac3633-8b9cb3cbce88",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://195b857e.bohonews.pages.dev/",
+      "activationEvidenceHash": "8b1ce5003ff41829c2e61ddfe48bc940a030c6ed5215f7064536598dce6350ae",
+      "canonicalFirstPublicAt": "2026-08-23T03:18:18.571Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/one-nation-astroturf-news-network/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-one-nation-astroturf-network"
+      ],
+      "previousVerifiedDeploymentReference": "cf6734a3c0954e44a7d54a15a1b0e8ca9d2a7af0ef8e1db5c9222b5697730a17",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-23T03:15:24.374994Z",
+      "recordHash": "0aa4f66604ee4c0aae0995f2e52b738aed9657477fe0728018b9a2821bb6b250",
+      "releaseId": "release-pb-20260823t025013z-b417481dfc9f",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
-  "releaseState": "candidate",
+  "releaseState": "final",
   "schemaVersion": "2.1.1",
   "site": "https://bohonews.com"
 }

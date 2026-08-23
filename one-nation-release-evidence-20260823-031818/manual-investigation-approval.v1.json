@@ -1,0 +1,21 @@
+{
+  "actor": "human-owner",
+  "approvedArticleSha256": "0e212b15f16dd5cf00950cd8ca04ceed8b1b0618bccf9265057b039a13f35371",
+  "approvedAt": "2026-08-23T03:22:17.363Z",
+  "approvedBodySha256": "8f5e169d30883767d61520ff0791e4ac7dba39f059432eb4f59a49e3c8563cde",
+  "articleIds": [
+    "article-one-nation-astroturf-network"
+  ],
+  "authorization": "Owner explicitly approved the exact final One Nation investigation for live publication as reviewed and directed that it be the pinned, largest homepage story. Preserve the manual sensitive-political-investigation lane, exact substantive copy, figures, bibliography, Evidence Room, source links, rights boundaries, rollback, activation noindex, and production health gates.",
+  "automationId": "owner-authorized-one-nation-investigation-release",
+  "batchId": "PB-20260823T025013Z-B417481DFC9F",
+  "candidatePackageDigest": "b417481dfc9ff585696711b9f25a3218ca99842ed43fa3674e6a69d68e28bbc3",
+  "decision": "approved",
+  "homepageLead": {
+    "largestStory": true,
+    "pinned": true
+  },
+  "recordHash": "532f493266ddef211795de2abc457ffa371f799b3298156793f99c6aadb90d69",
+  "recordId": "approval-one-nation-pending",
+  "schemaVersion": "manual-investigation-approval.v1"
+}
