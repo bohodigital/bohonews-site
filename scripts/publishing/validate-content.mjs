@@ -68,7 +68,39 @@ function readPublicMedia(publicRoot,publicPath) {
   return bytes;
 }
 
-export function verifyPublicMedia(publicRoot,publicPath,expectedHash) {
+function preverifiedPublicMediaHash(publicRoot,publicPath,expectedHash,options) {
+  const entry = options.preverifiedFiles?.get(publicPath.slice(1));
+  if (!entry) return null;
+  if (entry.role !== "invariant" || entry.sha256 !== expectedHash || entry.links !== "1") {
+    throw new Error(`Preverified public media binding differs: ${publicPath}`);
+  }
+  const base = resolve(publicRoot);
+  const fullPath = resolve(base,publicPath.slice(1));
+  if (!fullPath.startsWith(`${base}${sep}`)) {
+    throw new Error(`Preverified public media path escapes root: ${publicPath}`);
+  }
+  const realBase = realpathSync(base);
+  const realPath = realpathSync(fullPath);
+  if (realPath !== realBase && !realPath.startsWith(`${realBase}${sep}`)) {
+    throw new Error(`Preverified public media escapes through a symlink: ${publicPath}`);
+  }
+  const stat = lstatSync(fullPath,{bigint:true});
+  const actual = {
+    size:stat.size.toString(10),device:stat.dev.toString(10),inode:stat.ino.toString(10),
+    mode:stat.mode.toString(10),modifiedNs:stat.mtimeNs.toString(10),
+    changedNs:stat.ctimeNs.toString(10),links:stat.nlink.toString(10)
+  };
+  if (!stat.isFile() || stat.isSymbolicLink()
+    || ["size","device","inode","mode","modifiedNs","changedNs","links"]
+      .some((field) => actual[field] !== entry[field])) {
+    throw new Error(`Preverified public media stat seal differs: ${publicPath}`);
+  }
+  return expectedHash;
+}
+
+export function verifyPublicMedia(publicRoot,publicPath,expectedHash,options = {}) {
+  const preverified = preverifiedPublicMediaHash(publicRoot,publicPath,expectedHash,options);
+  if (preverified) return preverified;
   const actual = byteDigest(readPublicMedia(publicRoot,publicPath));
   if (actual !== expectedHash) throw new Error(`Public media hash mismatch: ${publicPath}`);
   return actual;
@@ -86,9 +118,9 @@ export function calculatePublicContentInventory(promotion,release,options = {}) 
       sha256:byteDigest(options.releaseBytes ?? Buffer.from(stableJson(release)))
     },
     ...promotion.mediaRights.flatMap(({derivatives}) =>
-      derivatives.map(({publicPath}) => ({
+      derivatives.map(({publicPath,hash}) => ({
         path:`public${publicPath}`,
-        sha256:byteDigest(readPublicMedia(publicRoot,publicPath))
+        sha256:verifyPublicMedia(publicRoot,publicPath,hash,options)
       })))
   ].sort((a,b) => a.path.localeCompare(b.path));
   if (new Set(entries.map(({path}) => path)).size !== entries.length) {
@@ -195,7 +227,12 @@ export function validatePublicState(promotion, release, schema, options = {}) {
   for (const rights of promotion.mediaRights) {
     if (mediaById.has(rights.id)) throw new Error(`Duplicate public media rights ID: ${rights.id}`);
     mediaById.set(rights.id,rights);
-    for (const derivative of rights.derivatives) verifyPublicMedia(options.publicRoot ?? join(root,"public"),derivative.publicPath,derivative.hash);
+    for (const derivative of rights.derivatives) verifyPublicMedia(
+      options.publicRoot ?? join(root,"public"),
+      derivative.publicPath,
+      derivative.hash,
+      options
+    );
   }
   const referencedMedia = new Set();
   for (const article of promotion.articles) {

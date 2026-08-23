@@ -13,6 +13,7 @@
     "test": "node --test test/*.test.mjs",
     "test:preview": "BOHONEWS_PREVIEW=1 node --test test/*.test.mjs",
     "build": "npm run content:validate && ASTRO_TELEMETRY_DISABLED=1 astro build && node scripts/publishing/build-search.mjs && node scripts/build-public-evidence-library.mjs",
+    "build:finalization-fastpath": "node scripts/publishing/prepare-finalization-build.mjs && BOHONEWS_FINALIZATION_FASTPATH=1 ASTRO_TELEMETRY_DISABLED=1 astro build && BOHONEWS_FINALIZATION_FASTPATH=1 node scripts/publishing/build-search.mjs && BOHONEWS_FINALIZATION_FASTPATH=1 node scripts/build-public-evidence-library.mjs",
     "build:preview": "BOHONEWS_PREVIEW=1 node scripts/publishing/validate-preview.mjs source && BOHONEWS_PREVIEW=1 ASTRO_TELEMETRY_DISABLED=1 astro build && BOHONEWS_PREVIEW=1 node scripts/publishing/build-search.mjs && BOHONEWS_PREVIEW=1 node scripts/publishing/validate-preview.mjs artifact",
     "build:activation": "BOHONEWS_ACTIVATION=1 node scripts/publishing/validate-activation.mjs source && BOHONEWS_ACTIVATION=1 ASTRO_TELEMETRY_DISABLED=1 astro build && BOHONEWS_ACTIVATION=1 node scripts/publishing/build-search.mjs && BOHONEWS_ACTIVATION=1 node scripts/publishing/validate-activation.mjs artifact",
     "build:fixtures": "BOHONEWS_INCLUDE_FIXTURES=1 npm run build",

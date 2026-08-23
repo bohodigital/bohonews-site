@@ -28,6 +28,15 @@ Pagefind 1.5.2 is pinned. Supported release builders run it after Astro. Bohopi'
 emits a deterministic local fallback index that preserves working local search.
 No client framework is hydrated.
 
+Governed MCP releases may use the separately approval-bound finalization fast
+path documented in `docs/publishing/ARTICLE-PACKAGE-CONTRACT.md`. Its final
+Astro/Pagefind build uses a fixed empty public directory and fixed generated
+output directory, then overlays only generated files, production headers, and
+the final release marker onto the atomically renamed activation tree. Static
+public media and other invariant public files retain their original inodes and
+timestamps; no invariant media copy or full byte rehash occurs after canonical
+first-public.
+
 The weather lane adds two isolated interactive surfaces at `/weather/` and
 `/weather/nerd/`. Static HTML remains the baseline; the browser clients request
 only the same-origin, versioned `/api/weather/v1` contract. The standard page

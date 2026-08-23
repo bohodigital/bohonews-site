@@ -51,3 +51,43 @@ metadata, build output, archives, temporary files, and runtime evidence, so
 marker changes cannot create a digest cycle. Final commit SHAs and final
 deployment evidence are private completion evidence and never enter public
 output.
+
+## Approval-bound finalization fast path
+
+`bohonews-finalization-fastpath.v1.0.0` is an additional, explicit contract for
+new batches. It does not change `bohonews-finalizer.v2.1.1` or silently upgrade
+an older approval. Before canonical exposure, the release runner performs the
+ordinary full checks plus the activation source/artifact validators and seals
+the exact activation prepared directory with
+`prepare-finalization-fastpath.mjs`. The activation layout binds the approval,
+candidate, source archive, source inventory, source marker, every file digest,
+and every file statistic. All files must be regular, single-link files; the
+layout has fixed 20,000-file, 25 MiB-per-file, and 2 GiB-total safety bounds.
+
+After the finalizer records the exact canonical first-public time, the site
+builds only generated Astro, Pagefind, route, feed, sitemap, robots, and search
+output under `tmp/mcp-finalization-generated`; it never recopies `public/media`.
+While the sealed activation root still has its original name,
+`plan-finalization-fastpath.mjs` writes a durable private plan containing the
+exact old digest/stat or absence and exact new digest for every replacement and
+deletion. The runner then performs one same-filesystem directory rename from
+the activation prepared root to the final prepared root. Copying, hardlinking,
+or replacing the root fails because its device and inode must be unchanged.
+
+`apply-finalization-fastpath.mjs` accepts each mutable path only in its exact
+sealed old state, exact planned new state, or planned absence. It replaces files
+through same-directory durable temporary files and atomic renames, deletes
+activation-only and stale generated paths, installs the production `_headers`
+and `.well-known/bohonews-release.json`, and preserves invariant public files
+by their sealed statistics without rereading their bytes. The completion record
+is written last. A crash after the root rename, any replacement, any deletion,
+or immediately before completion can replay the same plan to the same final
+tree digest.
+
+The post-first-public attestation reruns only targeted checks: unchanged code
+and installed dependencies, exact finalizer allowlist, exact plan/completion
+bindings, release package and marker validation, rendered article routes,
+feeds/sitemaps/robots, and invariant stat seals. The MCP materializer creates
+the sibling provider `prepared-directory-manifest.v1.json`; the Hub wrapper
+validates, hashes, seals, and deploys it and may reuse activation
+hashes only for identical sealed path/stat tuples.

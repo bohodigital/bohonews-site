@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0.0",
+  "benchmarkId": "bohonews-finalization-fastpath-production-scale-20260821",
+  "contractVersion": "bohonews-finalization-fastpath.v1.0.0",
+  "siteBaseCommit": "284ec10223c9e8f9a96c333dc4f091330458dfc4",
+  "storyPublicationAuthorized": false,
+  "externalProviderCalled": false,
+  "input": {
+    "kind": "local-no-story-existing-production-package",
+    "articleCount": 398,
+    "ordinaryBuildFileCount": 11888,
+    "ordinaryBuildKiB": 1227388,
+    "publicFileCount": 8242,
+    "publicKiB": 1179796
+  },
+  "commands": {
+    "ordinaryBuild": [
+      "/usr/bin/time",
+      "-p",
+      "npm",
+      "run",
+      "build"
+    ],
+    "lightweightBuild": [
+      "/usr/bin/time",
+      "-p",
+      "npm",
+      "run",
+      "build:finalization-fastpath"
+    ],
+    "prepareActivationLayout": [
+      "/usr/bin/time",
+      "-p",
+      "node",
+      "scripts/publishing/prepare-finalization-fastpath.mjs",
+      "ACTIVATION_PREPARED_DIST",
+      "public",
+      "PREPARATION_BINDING",
+      "bohonews-finalization-activation-layout.v1.json"
+    ],
+    "plan": [
+      "/usr/bin/time",
+      "-p",
+      "node",
+      "scripts/publishing/plan-finalization-fastpath.mjs",
+      "ACTIVATION_PREPARED_DIST",
+      "bohonews-finalization-activation-layout.v1.json",
+      "public",
+      "bohonews-finalization-plan.v1.json"
+    ],
+    "atomicRename": [
+      "/usr/bin/time",
+      "-p",
+      "mv",
+      "activation/prepared-dist",
+      "final/prepared-dist"
+    ],
+    "apply": [
+      "/usr/bin/time",
+      "-p",
+      "node",
+      "scripts/publishing/apply-finalization-fastpath.mjs",
+      "FINAL_PREPARED_DIST",
+      "bohonews-finalization-activation-layout.v1.json",
+      "bohonews-finalization-plan.v1.json",
+      "public",
+      "bohonews-finalization-completion.v1.json"
+    ]
+  },
+  "wallSeconds": {
+    "ordinaryBuild": 9.61,
+    "lightweightBuild": 3.81,
+    "preactivationFullTreeSeal": 7.23,
+    "postFirstPlan": 1.65,
+    "postFirstAtomicRename": 0,
+    "postFirstApply": 2.71,
+    "postFirstIdempotentApplyReplay": 2.93,
+    "codeAndInstalledDependencyInventory": 3.18,
+    "postFirstBuildPlanRenameApply": 8.17,
+    "postFirstIncludingCodeInventory": 11.35
+  },
+  "output": {
+    "activationFileCount": 11887,
+    "activationInvariantFileCount": 8240,
+    "lightweightGeneratedFileCount": 3646,
+    "lightweightGeneratedKiB": 47560,
+    "desiredFileCount": 3648,
+    "changedPathCount": 4,
+    "deletedPathCount": 2,
+    "finalFileCount": 11888,
+    "finalKiB": 1227388,
+    "finalSymlinkCount": 0,
+    "finalFilesWithLinkCountAboveOne": 0,
+    "activationRootDeviceAndInodePreserved": true,
+    "sampledInvariantStatSealPreserved": true,
+    "sampledInvariantPath": "media/7oh/dea-federal-register/card.webp"
+  },
+  "capturedPrototypeRecords": {
+    "activationTreeDigest": "61eb7857577a0eb0c0fba76935d09f4344dc28f184b1e6ecf76cf0ee8525e6a0",
+    "invariantTreeDigest": "111db4f072a4db4960e783861c8a3dc23c1edcefc5258f515b069c5ac0799d79",
+    "generatedTreeDigest": "13ec19fa68df25b3c08a87cbdaebc1422d56ae6abf5c1d1f09d75d10ed753c01",
+    "finalTreeDigest": "b89f07ec8c099af7db325fb0bb33a47b58bcc35ac019833eea75d42a62935d8e",
+    "activationLayoutRecordHash": "2560aa4407b203c9a09abc3060b14c65805cf1426c6153c2641a1c81bd52fbd0",
+    "planRecordHash": "b74dad8f3cf221457baf79d8e440fa76ea4abf2e6fda6cae258b1dc2d311248b",
+    "completionRecordHash": "36ddada87438a153b0041a0c612845d815e0a9fcec21ab97ed9b7afc82f4077d"
+  },
+  "postHardeningRevalidation": {
+    "idempotentApplyWallSeconds": 3.39,
+    "idempotentApplyRecordHash": "36ddada87438a153b0041a0c612845d815e0a9fcec21ab97ed9b7afc82f4077d",
+    "codeInventoryWallSeconds": 3.41,
+    "codeInventoryFileCount": 14658,
+    "codeInventoryDigestBeforeFinalCommit": "96b5efc50ab4ed499e861a3f9250b0f7e183b5dcabbbbdb10247970b7da1f960"
+  },
+  "limitations": [
+    "The benchmark used a synthetic preparation binding and is performance and local integrity evidence, not release evidence.",
+    "The captured prototype layout predates the final exact activation-marker digest and semantic checks. The hardened preparation CLI intentionally rejects that synthetic prototype binding.",
+    "The exact-runtime activation verifier executes before canonical exposure and is outside the measured 300-second post-first-public path.",
+    "Provider upload, edge lease handling, live-route verification, and network latency were not benchmarked here."
+  ]
+}
