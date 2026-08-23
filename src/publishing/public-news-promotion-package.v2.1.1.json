@@ -58344,12 +58344,12 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-23T04:25:41.669Z",
       "relatedArticleIds": [
         "article-tulsa-national-little-league-eligibility-approval-reversal",
         "article-tulsa-national-little-league-court-record-explainer"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260822t232000z-46dbe738c269-eed017c50369",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -58375,7 +58375,7 @@
       "uncertainty": [
         "Boho News did not independently authenticate the reproduced correspondence with its sender, and the public-source check cannot rule out a private review."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-23T04:25:41.669Z"
     },
     {
       "articleType": "document-report",
@@ -58642,12 +58642,12 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-23T04:25:41.669Z",
       "relatedArticleIds": [
         "article-tulsa-national-little-league-eligibility-approval-reversal",
         "article-tulsa-little-league-governance-trademark-dispute"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260822t232000z-46dbe738c269-eed017c50369",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -58673,7 +58673,7 @@
       "uncertainty": [
         "The signed order, docket sheet and transcript were not obtained by the publication cutoff."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-23T04:25:41.669Z"
     },
     {
       "articleType": "investigation",
@@ -58996,12 +58996,12 @@
       "media": [],
       "publicChangeLog": [],
       "publicationStatus": "approved",
-      "publishedAt": null,
+      "publishedAt": "2026-08-23T04:25:41.669Z",
       "relatedArticleIds": [
         "article-tulsa-little-league-governance-trademark-dispute",
         "article-tulsa-national-little-league-court-record-explainer"
       ],
-      "releaseId": null,
+      "releaseId": "release-pb-20260822t232000z-46dbe738c269-eed017c50369",
       "retractionState": "current",
       "schemaVersion": "2.0.0",
       "search": {
@@ -59027,7 +59027,7 @@
       "uncertainty": [
         "The reviewed material does not disclose the court's reasoning or establish who supplied every disputed fact, when each adult learned of a problem, or whether any inaccuracy was intentional."
       ],
-      "updatedAt": null
+      "updatedAt": "2026-08-23T04:25:41.669Z"
     },
     {
       "articleType": "news-report",
@@ -67395,16 +67395,16 @@
     }
   ],
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-23T04:09:07Z",
+  "generatedAt": "2026-08-23T04:28:48Z",
   "inputHashes": {
     "approvals": "c98a3811c48d7fab99af3a9f93c05ea1b4aaa6c7ab545a7be05a44e08fe5b7f1",
-    "articles": "0338aad45616e3d36f56dac0ec514af2fb0d0769b50b1de671ae7df8d18e4e7e",
+    "articles": "92a304febc142bd8f67124d94764dad284c3a6fcc3af0899563fb8483f852c74",
     "claims": "b9eb4e703a6c60955f3512b45c30578006603dbf3a9f95ae76907b8cefb22cab",
     "corrections": "4ffdd9b130d18cb5a150df5ada44b9288ad44cdb4132924d51f0033e21e16571",
     "events": "f6fbfb818af176c8afe63cf0b8767d6cf4e410b96e2c19fe2d1eedc43b00014a",
     "mediaRights": "82db59b407ebf49c2cc1a6b688ff28ac839b3d62ec2daa3214782dcd5f054a5e",
     "publicationIntents": "9a99aab774680ea98d5f92f6067eaa713e4859d9ae52c5297517f36777d7a395",
-    "releaseRecords": "ee28bd1e1a525fc0394857d9aa7f9fd5ad481bb6bf88b16a9b7fc6ace81f2a99",
+    "releaseRecords": "d79a069dd1063bdaba3ad29f6f8a143bf3f81cafec143442a04092865b3724aa",
     "sourceItems": "65e66d0b488ff6dd8c914f08492134b44898de5608219bcef66a3806597d1e1e"
   },
   "inventory": {
@@ -155636,7 +155636,7 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winder_Building_-_Washington,_D.C.jpg"
     }
   ],
-  "packageDigest": "c1313c255079753ab28ad957262bb398dcd712ed876ac74195cb8ceec25dbc0c",
+  "packageDigest": "faac6c5e1204efb592171367d4fa915d24925fdda4f74b7348e6866038108816",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -158035,6 +158035,31 @@
     },
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://4d97e22e.bohonews.pages.dev/",
+      "activationEvidenceHash": "196d7418e0b0c74a64a25e4a10bb64085461d033b470ef276b6e69cedf3ff5b7",
+      "canonicalFirstPublicAt": "2026-08-23T04:25:41.669Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/tulsa-little-league-governance-trademark-dispute/",
+        "https://bohonews.com/articles/tulsa-national-little-league-court-record-explainer/",
+        "https://bohonews.com/articles/tulsa-national-little-league-eligibility-approval-reversal/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-tulsa-little-league-governance-trademark-dispute",
+        "article-tulsa-national-little-league-court-record-explainer",
+        "article-tulsa-national-little-league-eligibility-approval-reversal"
+      ],
+      "previousVerifiedDeploymentReference": "963289a888470a75952cc20cadf0dd1d87c03a7f49e8d1ef506379914ca3684c",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-23T04:24:41.026398Z",
+      "recordHash": "a9315d58ab0766db289d1fe598143742ea43d9a59735ceb6351f54f464ddf658",
+      "releaseId": "release-pb-20260822t232000z-46dbe738c269-eed017c50369",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
       "activationDeploymentUrl": "https://195b857e.bohonews.pages.dev/",
       "activationEvidenceHash": "8b1ce5003ff41829c2e61ddfe48bc940a030c6ed5215f7064536598dce6350ae",
       "canonicalFirstPublicAt": "2026-08-23T03:18:18.571Z",
@@ -158055,7 +158080,7 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "candidate",
+  "releaseState": "final",
   "schemaVersion": "2.1.1",
   "site": "https://bohonews.com"
 }

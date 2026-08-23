@@ -1,9 +1,9 @@
 {
   "articleCount": 402,
   "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-23T04:09:07Z",
+  "generatedAt": "2026-08-23T04:28:48Z",
   "mediaCount": 1161,
-  "packageDigest": "c1313c255079753ab28ad957262bb398dcd712ed876ac74195cb8ceec25dbc0c",
+  "packageDigest": "faac6c5e1204efb592171367d4fa915d24925fdda4f74b7348e6866038108816",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -2402,6 +2402,31 @@
     },
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://4d97e22e.bohonews.pages.dev/",
+      "activationEvidenceHash": "196d7418e0b0c74a64a25e4a10bb64085461d033b470ef276b6e69cedf3ff5b7",
+      "canonicalFirstPublicAt": "2026-08-23T04:25:41.669Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/tulsa-little-league-governance-trademark-dispute/",
+        "https://bohonews.com/articles/tulsa-national-little-league-court-record-explainer/",
+        "https://bohonews.com/articles/tulsa-national-little-league-eligibility-approval-reversal/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-tulsa-little-league-governance-trademark-dispute",
+        "article-tulsa-national-little-league-court-record-explainer",
+        "article-tulsa-national-little-league-eligibility-approval-reversal"
+      ],
+      "previousVerifiedDeploymentReference": "963289a888470a75952cc20cadf0dd1d87c03a7f49e8d1ef506379914ca3684c",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-23T04:24:41.026398Z",
+      "recordHash": "a9315d58ab0766db289d1fe598143742ea43d9a59735ceb6351f54f464ddf658",
+      "releaseId": "release-pb-20260822t232000z-46dbe738c269-eed017c50369",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
       "activationDeploymentUrl": "https://195b857e.bohonews.pages.dev/",
       "activationEvidenceHash": "8b1ce5003ff41829c2e61ddfe48bc940a030c6ed5215f7064536598dce6350ae",
       "canonicalFirstPublicAt": "2026-08-23T03:18:18.571Z",
@@ -2422,7 +2447,7 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "candidate",
+  "releaseState": "final",
   "routes": [
     "/articles/2026-census-test-huntsville-spartanburg-august-31/",
     "/articles/2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula/",
