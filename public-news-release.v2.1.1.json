@@ -1,9 +1,9 @@
 {
-  "articleCount": 399,
-  "compilerVersion": "bohonews-manual-one-nation-finalizer.v1.0.0",
-  "generatedAt": "2026-08-23T03:22:17.364Z",
-  "mediaCount": 1159,
-  "packageDigest": "4d86436be1d38173d36b36d3c9a79b373c751480ca0d5f9d46225ccd3829c5e7",
+  "articleCount": 402,
+  "compilerVersion": "2.1.1",
+  "generatedAt": "2026-08-23T04:09:07Z",
+  "mediaCount": 1161,
+  "packageDigest": "c1313c255079753ab28ad957262bb398dcd712ed876ac74195cb8ceec25dbc0c",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -2422,7 +2422,7 @@
       "updatedArticleIds": []
     }
   ],
-  "releaseState": "final",
+  "releaseState": "candidate",
   "routes": [
     "/articles/2026-census-test-huntsville-spartanburg-august-31/",
     "/articles/2026-us-open-player-field-sabalenka-alcaraz-sinner-pegula/",
@@ -2727,6 +2727,7 @@
     "/articles/nws-full-ocean-sea-state-analysis-proposal-2026/",
     "/articles/okefenokee-unesco-world-heritage-list-2026/",
     "/articles/on-behalf-of-my-son-san-sebastian-competition/",
+    "/articles/one-nation-astroturf-news-network/",
     "/articles/oregon-2026-world-u20-medal-table-usa-12-golds/",
     "/articles/osha-safe-sound-week-august-10-16-2026/",
     "/articles/papua-last-tropical-glacier-disappearance-2027-wmo/",
@@ -2771,6 +2772,9 @@
     "/articles/trump-endorsement-scorecard/",
     "/articles/trump-section-301-tariffs-60-economies/",
     "/articles/trump-smithsonian-warning-signs-executive-order/",
+    "/articles/tulsa-little-league-governance-trademark-dispute/",
+    "/articles/tulsa-national-little-league-court-record-explainer/",
+    "/articles/tulsa-national-little-league-eligibility-approval-reversal/",
     "/articles/un-sdg-targets-progress-2026/",
     "/articles/unalaska-harbor-sea-otter-harassment-review-2026/",
     "/articles/us-bankruptcy-filings-rise-11-9-percent-march-2026/",
@@ -2821,8 +2825,7 @@
     "/articles/world-bank-south-africa-infrastructure-loan-1-5-billion-2026/",
     "/articles/world-u20-championships-oregon-2026-opens/",
     "/articles/wto-goods-trade-barometer-101-7-june-2026/",
-    "/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/",
-    "/articles/one-nation-astroturf-news-network/"
+    "/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/"
   ],
   "schemaVersion": "2.1.1"
 }
