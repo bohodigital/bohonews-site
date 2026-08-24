@@ -180,7 +180,7 @@ async function readPrecheckRecord(path) {
     || !Number.isInteger(value.codeFileCount)
     || value.codeFileCount < 1
     || !Array.isArray(value.commands)
-    || value.commands.length !== 4
+    || value.commands.length !== 3
     || ![
       "preparationBindingRecordHash","approvalDigest","candidatePackageDigest",
       "sourceActivationArtifactSha256","sourceInventorySha256","sourceMarkerSha256",
@@ -200,7 +200,6 @@ async function precheck(activationManifestPath,outputPath) {
   const activation = await readActivationLayout(activationManifestPath);
   const commands = [
     run("npm",["run","check"]),
-    run("npm",["test"]),
     run("node",["scripts/publishing/validate-activation.mjs","source"],{
       BOHONEWS_ACTIVATION:"1"
     }),

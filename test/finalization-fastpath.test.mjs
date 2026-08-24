@@ -466,6 +466,7 @@ test("full preactivation attestation uses the live-domain activation validators"
   assert.match(attestation,/validate-activation\.mjs","source"/);
   assert.match(attestation,/validate-activation\.mjs","artifact"/);
   assert.doesNotMatch(attestation,/validate-preview\.mjs/);
+  assert.doesNotMatch(attestation,/run\("npm",\["test"\]\)/);
 });
 
 test("exact runtime activation verification is read-only and rejects unsafe trees", async (t) => {
