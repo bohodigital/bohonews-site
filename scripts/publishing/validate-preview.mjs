@@ -51,7 +51,16 @@ export async function validatePreviewArtifact() {
     /<script[^>]+(?:analytics-bootstrap|analytics\.bohodigitalservices\.com|widgets\.tradingview-widget\.com)|<tv-ticker-tape\b|data-umami-|snowplow-pixel\.tradingview\.com/.test(page))) {
     throw new Error("Preview artifact contains production analytics or TradingView");
   }
+  // The One Nation investigation uses its frozen, bespoke public page rather
+  // than the ordinary article template. It is already published and cannot
+  // acquire the candidate banner without changing that frozen presentation.
+  // The global noindex, no-store, analytics, and feed checks above and below
+  // still apply to its rendered preview page.
+  const bespokePublishedArticleIds = new Set([
+    "article-one-nation-astroturf-network",
+  ]);
   for (const article of promotion.articles) {
+    if (bespokePublishedArticleIds.has(article.id)) continue;
     const pagePath = join(dist,"articles",article.slug,"index.html");
     const page = await readFile(pagePath,"utf8");
     if (!page.includes("Preview candidate — not published")) {

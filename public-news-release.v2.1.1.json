@@ -1,9 +1,9 @@
 {
-  "articleCount": 402,
-  "compilerVersion": "2.1.1",
-  "generatedAt": "2026-08-23T04:28:48Z",
-  "mediaCount": 1161,
-  "packageDigest": "faac6c5e1204efb592171367d4fa915d24925fdda4f74b7348e6866038108816",
+  "articleCount": 403,
+  "compilerVersion": "bohonews-manual-logan-paul-coffeezilla-finalizer.v1.0.0",
+  "generatedAt": "2026-08-26T23:10:13.911Z",
+  "mediaCount": 1162,
+  "packageDigest": "6c947c80d57564e6445b0aed9c2a36fdddcc89de7e4f4c1cbf88da6630c7e552",
   "releaseRecords": [
     {
       "accountReference": "boho-digital-services.cloudflare.primary-management",
@@ -2445,6 +2445,27 @@
       "releaseId": "release-pb-20260823t025013z-b417481dfc9f",
       "schemaVersion": "2.1.1",
       "updatedArticleIds": []
+    },
+    {
+      "accountReference": "boho-digital-services.cloudflare.primary-management",
+      "activationDeploymentUrl": "https://163c67bb.bohonews.pages.dev/",
+      "activationEvidenceHash": "b229e342e7a84a4ea572b906755167f5dec4d7159bd9d29e5590be710c666040",
+      "canonicalFirstPublicAt": "2026-08-26T23:08:35.217Z",
+      "canonicalUrls": [
+        "https://bohonews.com/articles/logan-paul-coffeezilla-settlement-videos-unavailable/"
+      ],
+      "deploymentProvider": "cloudflare-pages",
+      "environment": "production",
+      "newArticleIds": [
+        "article-logan-paul-coffeezilla-settlement-videos-unavailable"
+      ],
+      "previousVerifiedDeploymentReference": "73a0b3c0332e2df541152dd42f24471be74093a373d7cae6a93464fbf8c3063d",
+      "project": "bohonews",
+      "providerActivatedAt": "2026-08-26T23:05:37.979282Z",
+      "recordHash": "3391c93afcdd07c5e29e67192d38ec1cc0cd4e07185f1e31a454a8a49b57b727",
+      "releaseId": "release-pb-20260826t230300z-c8bd925310cf",
+      "schemaVersion": "2.1.1",
+      "updatedArticleIds": []
     }
   ],
   "releaseState": "final",
@@ -2850,7 +2871,8 @@
     "/articles/world-bank-south-africa-infrastructure-loan-1-5-billion-2026/",
     "/articles/world-u20-championships-oregon-2026-opens/",
     "/articles/wto-goods-trade-barometer-101-7-june-2026/",
-    "/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/"
+    "/articles/yoshitomo-nara-hirshhorn-west-lawn-2026/",
+    "/articles/logan-paul-coffeezilla-settlement-videos-unavailable/"
   ],
   "schemaVersion": "2.1.1"
 }
