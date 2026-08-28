@@ -15,6 +15,7 @@ export const getStaticPaths = (() => {
 const { label } = Astro.props;
 const list = sectionArticles(Astro.params.section!);
 const contextLinks = contextualNavigation[Astro.params.section!] ?? [];
+const isInvestigations = Astro.params.section === "investigations";
 const variant = Astro.params.section === "weather-climate" ? "weather" :
   Astro.params.section === "crime-justice" ? "justice" :
   Astro.params.section === "business" ? "business" :
@@ -28,7 +29,10 @@ const variant = Astro.params.section === "weather-climate" ? "weather" :
   noindex={fixturesEnabled}
 >
   {fixturesEnabled && <aside class="fixture-banner">Non-production fixture preview</aside>}
-  <header class="index-header"><p class="eyebrow">Section</p><h1>{label}</h1></header>
+  <header class="index-header">
+    <p class:list={["eyebrow", { "eyebrow--ceremonial": isInvestigations }]}>{isInvestigations ? "CAELESTIA CRIMINA" : "Section"}</p>
+    <h1>{label}</h1>
+  </header>
   {contextLinks.length > 0 && <nav class="context-nav" aria-label={`${label} desks`}>
     {contextLinks.map(([text,href]) => <a href={href}>{text}</a>)}
   </nav>}
